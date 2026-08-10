@@ -1,0 +1,1034 @@
+{
+  "video-watermark-remover": {
+    "name": "Video Watermark Remover",
+    "description": "Remove watermarks from videos of any length. No time limits, no upload, free forever.",
+    "category": "Design",
+    "icon": "\\uD83C\\uDFAC"
+  },
+  "photo-watermark-remover": {
+    "name": "Photo Watermark Remover",
+    "description": "Remove watermarks from photos for free. No signup, no limits, 100% private.",
+    "category": "Design",
+    "icon": "\\u2702"
+  },
+  "qr-code-generator": {
+    "name": "QR Code Generator",
+    "description": "Generate customizable QR codes from any text or URL",
+    "category": "Utility",
+    "icon": "\\u25A3"
+  },
+  "color-palette-generator": {
+    "name": "Color Palette Generator",
+    "description": "Create beautiful random color palettes with lock and export",
+    "category": "Design",
+    "icon": "\\u25D0"
+  },
+  "css-gradient-generator": {
+    "name": "CSS Gradient Generator",
+    "description": "Build linear, radial, and conic CSS gradients visually",
+    "category": "Design",
+    "icon": "\\u25C8"
+  },
+  "box-shadow-generator": {
+    "name": "Box Shadow Generator",
+    "description": "Design CSS box shadows with a live visual editor",
+    "category": "Design",
+    "icon": "\\u25FB"
+  },
+  "password-generator": {
+    "name": "Password Generator",
+    "description": "Generate strong, secure passwords with customizable options",
+    "category": "Utility",
+    "icon": "\\u26BF"
+  },
+  "json-formatter": {
+    "name": "JSON Formatter",
+    "description": "Prettify, minify, and validate JSON with syntax highlighting",
+    "category": "Developer",
+    "icon": "{}"
+  },
+  "base64-encoder": {
+    "name": "Base64 Encoder",
+    "description": "Encode and decode text and files to and from Base64",
+    "category": "Developer",
+    "icon": "\\u29C9"
+  },
+  "lorem-ipsum-generator": {
+    "name": "Lorem Ipsum Generator",
+    "description": "Generate placeholder text in paragraphs, sentences, or words",
+    "category": "Text",
+    "icon": "\\u00B6"
+  },
+  "uuid-generator": {
+    "name": "UUID Generator",
+    "description": "Generate random UUID v4 identifiers, single or in bulk",
+    "category": "Developer",
+    "icon": "\\u2B22"
+  },
+  "word-counter": {
+    "name": "Word Counter",
+    "description": "Count words, characters, sentences, and analyze text",
+    "category": "Text",
+    "icon": "\\u2263"
+  },
+  "image-color-picker": {
+    "name": "Image Color Picker",
+    "description": "Upload an image and pick any color with an eyedropper",
+    "category": "Design",
+    "icon": "\\u2740"
+  },
+  "aspect-ratio-calculator": {
+    "name": "Aspect Ratio Calculator",
+    "description": "Calculate and visualize aspect ratios with presets",
+    "category": "Design",
+    "icon": "\\u25AD"
+  },
+  "unit-converter": {
+    "name": "Unit Converter",
+    "description": "Convert between length, weight, temperature, data, and time units",
+    "category": "Utility",
+    "icon": "\\u21C4"
+  },
+  "regex-tester": {
+    "name": "Regex Tester",
+    "description": "Test regular expressions with live highlighting and match info",
+    "category": "Developer",
+    "icon": ".*"
+  },
+  "markdown-preview": {
+    "name": "Markdown Preview",
+    "description": "Write and preview Markdown with a live split-pane editor",
+    "category": "Text",
+    "icon": "\\u24DC"
+  },
+  "fancy-text-generator": {
+    "name": "Fancy Text Generator",
+    "description": "Convert text into stylish Unicode fonts for Instagram, TikTok, and Twitter bios",
+    "category": "Text",
+    "icon": "\\u2728"
+  },
+  "image-compressor": {
+    "name": "Image Compressor",
+    "description": "Compress images by up to 90% with adjustable quality. No upload, runs in your browser.",
+    "category": "Design",
+    "icon": "\\uD83D\\uDCE6"
+  },
+  "image-resizer": {
+    "name": "Image Resizer",
+    "description": "Resize images with social media presets for Instagram, YouTube, Facebook, and more.",
+    "category": "Design",
+    "icon": "\\uD83D\\uDCD0"
+  },
+  "convert": {
+    "name": "Image Format Converter",
+    "description": "Convert between 20+ image formats: JPG, PNG, WebP, SVG, HEIC, GIF, BMP, TIFF, ICO. Free and instant.",
+    "category": "Design",
+    "icon": "\\uD83D\\uDD04"
+  },
+  "background-remover": {
+    "name": "Background Remover",
+    "description": "Remove image backgrounds instantly with AI. 100% free, no upload, runs in your browser.",
+    "category": "Design",
+    "icon": "\\u2702\\uFE0F"
+  },
+  "diff-checker": {
+    "name": "Diff Checker",
+    "description": "Compare two blocks of text and see differences highlighted. Free online diff tool.",
+    "category": "Developer",
+    "icon": "\\u2194"
+  },
+  "glassmorphism-generator": {
+    "name": "Glassmorphism Generator",
+    "description": "Create frosted glass CSS effects with a live visual editor. Adjust blur, transparency, borders.",
+    "category": "Developer",
+    "icon": "\\u25C7"
+  },
+  "css-clip-path": {
+    "name": "CSS Clip Path Generator",
+    "description": "Create CSS clip-path shapes visually with preset shapes and custom polygons.",
+    "category": "Developer",
+    "icon": "\\u2B23"
+  },
+  "css-loader-generator": {
+    "name": "CSS Loader Generator",
+    "description": "Generate pure CSS loading spinners and animations. Customize and copy HTML + CSS.",
+    "category": "Developer",
+    "icon": "\\u27F3"
+  },
+  "html-minifier": {
+    "name": "HTML Minifier",
+    "description": "Minify HTML code by removing whitespace and comments. Free and instant.",
+    "category": "Developer",
+    "icon": "&lt;&gt;"
+  },
+  "css-minifier": {
+    "name": "CSS Minifier",
+    "description": "Minify CSS code by removing whitespace and comments. Free and instant.",
+    "category": "Developer",
+    "icon": "{}"
+  },
+  "js-minifier": {
+    "name": "JS Minifier",
+    "description": "Minify JavaScript code by removing whitespace and comments. Free and instant.",
+    "category": "Developer",
+    "icon": "fn"
+  },
+  "favicon-generator": {
+    "name": "Favicon Generator",
+    "description": "Generate favicons from text, emoji, or image. All standard sizes for browsers and PWA.",
+    "category": "Design",
+    "icon": "\\u2B22"
+  },
+  "color-contrast-checker": {
+    "name": "Color Contrast Checker",
+    "description": "Check WCAG color contrast ratios. Verify AA and AAA accessibility compliance.",
+    "category": "Design",
+    "icon": "\\u25D1"
+  },
+  "text-case-converter": {
+    "name": "Text Case Converter",
+    "description": "Convert text between UPPERCASE, lowercase, camelCase, snake_case, and more.",
+    "category": "Text",
+    "icon": "Aa"
+  },
+  "timestamp-converter": {
+    "name": "Unix Timestamp Converter",
+    "description": "Convert Unix timestamps to dates and vice versa. Live current timestamp display.",
+    "category": "Developer",
+    "icon": "\\u23F0"
+  },
+  "hash-generator": {
+    "name": "Hash Generator",
+    "description": "Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes. Uses native Web Crypto API.",
+    "category": "Developer",
+    "icon": "#"
+  },
+  "jwt-decoder": {
+    "name": "JWT Decoder",
+    "description": "Decode JSON Web Tokens. View header, payload, and expiration status instantly.",
+    "category": "Developer",
+    "icon": "\\u26BF"
+  },
+  "url-encoder": {
+    "name": "URL Encoder / Decoder",
+    "description": "Encode and decode URLs and query parameters. Supports component and full URI modes.",
+    "category": "Developer",
+    "icon": "%"
+  },
+  "cron-generator": {
+    "name": "Cron Expression Generator",
+    "description": "Build cron expressions with presets, plain-English descriptions, and next run times.",
+    "category": "Developer",
+    "icon": "\\u23F1"
+  },
+  "svg-blob-generator": {
+    "name": "SVG Blob Generator",
+    "description": "Generate organic SVG blob shapes with custom gradient colors. Free and instant.",
+    "category": "Design",
+    "icon": "\\u25CF"
+  },
+  "svg-wave-generator": {
+    "name": "SVG Wave Generator",
+    "description": "Generate layered SVG wave section dividers with custom colors and complexity.",
+    "category": "Design",
+    "icon": "\\u223F"
+  },
+  "image-to-base64": {
+    "name": "Image to Base64",
+    "description": "Convert images to Base64 for embedding in HTML, CSS, or JSON. Instant and private.",
+    "category": "Developer",
+    "icon": "\\u29C9"
+  },
+  "barcode-generator": {
+    "name": "Barcode Generator",
+    "description": "Generate Code 128 barcodes from any text. Download as PNG. Free and instant.",
+    "category": "Utility",
+    "icon": "\\u2758"
+  },
+  "html-entity-encoder": {
+    "name": "HTML Entity Encoder",
+    "description": "Encode and decode HTML entities. Convert special characters to HTML entities and back.",
+    "category": "Developer",
+    "icon": "&amp;"
+  },
+  "chmod-calculator": {
+    "name": "Chmod Calculator",
+    "description": "Calculate Unix file permissions visually. Convert between octal and symbolic notation.",
+    "category": "Developer",
+    "icon": "\\u26BF"
+  },
+  "color-shades-generator": {
+    "name": "Color Shades Generator",
+    "description": "Generate Tailwind-style color palettes with 11 shades from any color.",
+    "category": "Design",
+    "icon": "\\u25D0"
+  },
+  "image-crop": {
+    "name": "Image Crop Tool",
+    "description": "Crop images to any aspect ratio. Presets for Instagram, YouTube, Facebook, Twitter, LinkedIn.",
+    "category": "Design",
+    "icon": "\\u2702"
+  },
+  "meta-tag-generator": {
+    "name": "Meta Tag Generator",
+    "description": "Generate SEO meta tags, Open Graph, and Twitter Cards. Preview Google and social appearance.",
+    "category": "Developer",
+    "icon": "\\u2630"
+  },
+  "robots-txt-generator": {
+    "name": "Robots.txt Generator",
+    "description": "Generate robots.txt files. Control search engine and AI bot access with a visual builder.",
+    "category": "Developer",
+    "icon": "\\uD83E\\uDD16"
+  },
+  "neumorphism-generator": {
+    "name": "Neumorphism Generator",
+    "description": "Create soft UI / neumorphic CSS effects. Flat, concave, convex, and pressed shapes.",
+    "category": "Developer",
+    "icon": "\\u25CB"
+  },
+  "json-to-csv": {
+    "name": "JSON to CSV Converter",
+    "description": "Convert between JSON and CSV formats. Bidirectional with download support.",
+    "category": "Developer",
+    "icon": "\\u21C4"
+  },
+  "placeholder-image": {
+    "name": "Placeholder Image Generator",
+    "description": "Generate custom placeholder images for web mockups. Any size, color, and text.",
+    "category": "Design",
+    "icon": "\\u25A1"
+  },
+  "css-text-shadow": {
+    "name": "CSS Text Shadow Generator",
+    "description": "Create CSS text-shadow effects. Multiple layers, neon glow, 3D, fire presets.",
+    "category": "Developer",
+    "icon": "T\\u0336"
+  },
+  "css-flexbox": {
+    "name": "CSS Flexbox Generator",
+    "description": "Build CSS Flexbox layouts visually. Direction, alignment, wrapping, gap with live preview.",
+    "category": "Developer",
+    "icon": "\\u2B1C"
+  },
+  "css-grid": {
+    "name": "CSS Grid Generator",
+    "description": "Build CSS Grid layouts visually. Customize columns, rows, gaps, and alignment.",
+    "category": "Developer",
+    "icon": "\\u2B1C"
+  },
+  "invoice-generator": {
+    "name": "Invoice Generator",
+    "description": "Create professional invoices for free. No signup, no watermark. Print or save as PDF.",
+    "category": "Utility",
+    "icon": "\\uD83D\\uDCCB"
+  },
+  "url-slug-generator": {
+    "name": "URL Slug Generator",
+    "description": "Convert text to URL-friendly slugs. Handles accented characters, bulk conversion.",
+    "category": "Developer",
+    "icon": "/"
+  },
+  "exif-viewer": {
+    "name": "EXIF Data Viewer",
+    "description": "View photo metadata — camera settings, date, GPS location, device info. Private.",
+    "category": "Design",
+    "icon": "\\uD83D\\uDCF7"
+  },
+  "noise-generator": {
+    "name": "Noise Texture Generator",
+    "description": "Generate seamless noise and grain textures for backgrounds. Download PNG or copy CSS.",
+    "category": "Design",
+    "icon": "\\u2591"
+  },
+  "og-preview": {
+    "name": "Open Graph Preview",
+    "description": "Preview how your page looks on Google, Facebook, Twitter, Slack, and Discord.",
+    "category": "Developer",
+    "icon": "\\uD83D\\uDD17"
+  },
+  "css-border-radius": {
+    "name": "CSS Border Radius Generator",
+    "description": "Create fancy shapes with 8-value border-radius. Organic blobs, leaves, and asymmetric corners.",
+    "category": "Developer",
+    "icon": "\\u25CF"
+  },
+  "color-converter": {
+    "name": "Color Converter",
+    "description": "Convert colors between HEX, RGB, HSL, HSV, and CMYK instantly.",
+    "category": "Design",
+    "icon": "\\u25D0"
+  },
+  "html-table-generator": {
+    "name": "HTML Table Generator",
+    "description": "Create tables with a spreadsheet editor. Export as HTML, Markdown, or CSV.",
+    "category": "Developer",
+    "icon": "\\u2637"
+  },
+  "css-cubic-bezier": {
+    "name": "CSS Cubic Bezier Generator",
+    "description": "Create custom animation easing curves. Drag control points, preview animations.",
+    "category": "Developer",
+    "icon": "\\u223F"
+  },
+  "bionic-reading": {
+    "name": "Bionic Reading Converter",
+    "description": "Convert text to Bionic Reading format. Bold word beginnings for faster, focused reading.",
+    "category": "Text",
+    "icon": "B"
+  },
+  "css-background-pattern": {
+    "name": "CSS Background Pattern",
+    "description": "Generate pure CSS background patterns — dots, grids, stripes, checkerboards, and more.",
+    "category": "Developer",
+    "icon": "\\u2593"
+  },
+  "image-filters": {
+    "name": "Image Filter Effects",
+    "description": "Apply Instagram-style filters — vintage, sepia, noir, and 13 more. Free and private.",
+    "category": "Design",
+    "icon": "\\uD83C\\uDFA8"
+  },
+  "json-validator": {
+    "name": "JSON Validator",
+    "description": "Validate JSON syntax with error messages and line numbers. Prettify and minify.",
+    "category": "Developer",
+    "icon": "\\u2713"
+  },
+  "pixel-art": {
+    "name": "Pixel Art Converter",
+    "description": "Convert images to pixel art with adjustable pixel size and color palette.",
+    "category": "Design",
+    "icon": "\\uD83D\\uDC7E"
+  },
+  "mortgage-calculator": {
+    "name": "Mortgage Calculator",
+    "description": "Calculate monthly mortgage payments with taxes, insurance, PMI, and amortization schedule.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDFE0"
+  },
+  "compound-interest-calculator": {
+    "name": "Compound Interest Calculator",
+    "description": "See how your money grows with compound interest and regular contributions over time.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCC8"
+  },
+  "loan-calculator": {
+    "name": "Loan Calculator",
+    "description": "Calculate monthly payments, total interest, and see a full payment schedule for any loan.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB3"
+  },
+  "percentage-calculator": {
+    "name": "Percentage Calculator",
+    "description": "Calculate percentages — find percent of a number, percentage change, increase, and decrease.",
+    "category": "Math",
+    "icon": "%"
+  },
+  "tip-calculator": {
+    "name": "Tip Calculator",
+    "description": "Calculate tip amount and split the bill between friends with preset and custom percentages.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB5"
+  },
+  "salary-calculator": {
+    "name": "Salary Calculator",
+    "description": "Convert between annual salary and hourly wage with tax estimates and pay breakdown.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCBC"
+  },
+  "auto-loan-calculator": {
+    "name": "Auto Loan Calculator",
+    "description": "Calculate car payments with down payment, trade-in, sales tax, and term comparison.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDE97"
+  },
+  "retirement-calculator": {
+    "name": "Retirement Calculator",
+    "description": "Project retirement savings growth with contributions, inflation, and withdrawal income.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDFD6"
+  },
+  "savings-calculator": {
+    "name": "Savings Calculator",
+    "description": "Calculate savings growth over time with regular deposits and compound interest.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB0"
+  },
+  "investment-calculator": {
+    "name": "Investment Calculator",
+    "description": "Project investment growth with regular contributions. See nominal and inflation-adjusted returns.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCCA"
+  },
+  "bmi-calculator": {
+    "name": "BMI Calculator",
+    "description": "Calculate your Body Mass Index with imperial or metric units. See BMI category and healthy weight ranges.",
+    "category": "Health",
+    "icon": "\\u2696"
+  },
+  "calorie-calculator": {
+    "name": "Calorie Calculator",
+    "description": "Calculate daily calorie needs based on age, sex, height, weight, and activity level.",
+    "category": "Health",
+    "icon": "\\uD83C\\uDF4E"
+  },
+  "tdee-calculator": {
+    "name": "TDEE Calculator",
+    "description": "Calculate Total Daily Energy Expenditure with multiple formulas and macro split suggestions.",
+    "category": "Health",
+    "icon": "\\uD83D\\uDD25"
+  },
+  "body-fat-calculator": {
+    "name": "Body Fat Calculator",
+    "description": "Estimate body fat percentage using the US Navy method with waist, neck, and hip measurements.",
+    "category": "Health",
+    "icon": "\\uD83D\\uDCCF"
+  },
+  "macro-calculator": {
+    "name": "Macro Calculator",
+    "description": "Calculate daily protein, carb, and fat targets based on your goals. Multiple diet splits available.",
+    "category": "Health",
+    "icon": "\\uD83E\\uDD69"
+  },
+  "profit-margin-calculator": {
+    "name": "Profit Margin Calculator",
+    "description": "Calculate profit margin, markup, and profit from cost and revenue. Three calculation modes.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCCA"
+  },
+  "discount-calculator": {
+    "name": "Discount Calculator",
+    "description": "Calculate sale price after discount. Supports double discounts, tax, and shows total savings.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDFF7"
+  },
+  "sales-tax-calculator": {
+    "name": "Sales Tax Calculator",
+    "description": "Calculate sales tax on any purchase. Add tax or extract tax from total. State rate presets.",
+    "category": "Finance",
+    "icon": "\\uD83E\\uDDFE"
+  },
+  "roi-calculator": {
+    "name": "ROI Calculator",
+    "description": "Calculate return on investment and annualized return from initial and final values.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCC8"
+  },
+  "age-calculator": {
+    "name": "Age Calculator",
+    "description": "Calculate exact age in years, months, days, hours. Zodiac sign and next birthday countdown.",
+    "category": "Utility",
+    "icon": "\\uD83C\\uDF82"
+  },
+  "payment-calculator": {
+    "name": "Payment Calculator",
+    "description": "Calculate monthly loan payments for any amount, rate, and term. Rate comparison table.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB3"
+  },
+  "paycheck-calculator": {
+    "name": "Paycheck Calculator",
+    "description": "Estimate take-home pay per paycheck. Federal tax, FICA, state tax, 401k deductions.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB5"
+  },
+  "interest-calculator": {
+    "name": "Interest Calculator",
+    "description": "Calculate simple and compound interest. Year-by-year breakdown and APY comparison.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB0"
+  },
+  "inflation-calculator": {
+    "name": "Inflation Calculator",
+    "description": "See how inflation affects purchasing power over time. Future and past value modes.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCC9"
+  },
+  "401k-calculator": {
+    "name": "401(k) Calculator",
+    "description": "Project 401k growth with employer match, contributions, and investment returns.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDFE6"
+  },
+  "amortization-calculator": {
+    "name": "Amortization Calculator",
+    "description": "Generate full amortization schedule with principal/interest breakdown. See extra payment savings.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCC5"
+  },
+  "income-tax-calculator": {
+    "name": "Income Tax Calculator",
+    "description": "Estimate federal income tax with 2026 brackets. Marginal and effective rate breakdown.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDFDB"
+  },
+  "debt-payoff-calculator": {
+    "name": "Debt Payoff Calculator",
+    "description": "Calculate how long to pay off debt and total interest. Compare extra payment scenarios.",
+    "category": "Finance",
+    "icon": "\\u26D3"
+  },
+  "hourly-to-salary-calculator": {
+    "name": "Hourly to Salary Calculator",
+    "description": "Convert hourly wage to annual salary and vice versa. Accounts for vacation time.",
+    "category": "Finance",
+    "icon": "\\u23F1"
+  },
+  "budget-calculator": {
+    "name": "Budget Calculator",
+    "description": "Plan your monthly budget with expense categories. Compare with the 50/30/20 rule.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCCB"
+  },
+  "simple-interest-calculator": {
+    "name": "Simple Interest Calculator",
+    "description": "Calculate simple interest with formula breakdown. Compare with compound interest.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB2"
+  },
+  "net-worth-calculator": {
+    "name": "Net Worth Calculator",
+    "description": "Calculate net worth by adding assets and subtracting liabilities. Debt-to-asset ratio.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB8"
+  },
+  "stock-profit-calculator": {
+    "name": "Stock Profit Calculator",
+    "description": "Calculate stock trading profit, ROI, and break-even price with commission fees.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCC8"
+  },
+  "credit-card-payoff-calculator": {
+    "name": "Credit Card Payoff Calculator",
+    "description": "Calculate credit card payoff time and interest. Compare monthly payment scenarios.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB3"
+  },
+  "down-payment-calculator": {
+    "name": "Down Payment Calculator",
+    "description": "Calculate down payment and see impact on mortgage, monthly payment, and PMI.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDFE0"
+  },
+  "dividend-calculator": {
+    "name": "Dividend Calculator",
+    "description": "Calculate dividend income and project growth with reinvestment and contributions.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDF31"
+  },
+  "fire-calculator": {
+    "name": "FIRE Calculator",
+    "description": "Calculate your Financial Independence number and years to early retirement.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDD25"
+  },
+  "vat-calculator": {
+    "name": "VAT Calculator",
+    "description": "Calculate Value Added Tax. Add or extract VAT with country rate presets.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDF10"
+  },
+  "break-even-calculator": {
+    "name": "Break Even Calculator",
+    "description": "Find your break-even point — units to sell to cover fixed and variable costs.",
+    "category": "Finance",
+    "icon": "\\u2696"
+  },
+  "mortgage-affordability-calculator": {
+    "name": "Mortgage Affordability Calculator",
+    "description": "Find how much house you can afford based on income and debts. 28/36 DTI rule.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDFE1"
+  },
+  "apr-calculator": {
+    "name": "APR Calculator",
+    "description": "Calculate the true APR of a loan including fees. Compare APR vs stated interest rate.",
+    "category": "Finance",
+    "icon": "%"
+  },
+  "student-loan-calculator": {
+    "name": "Student Loan Calculator",
+    "description": "Calculate student loan payments and total interest. See extra payment impact.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDF93"
+  },
+  "capital-gains-tax-calculator": {
+    "name": "Capital Gains Tax Calculator",
+    "description": "Calculate capital gains tax on investments. Short-term vs long-term rates.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCC9"
+  },
+  "gpa-calculator": {
+    "name": "GPA Calculator",
+    "description": "Calculate semester and cumulative GPA. Add courses with grades and credits.",
+    "category": "Utility",
+    "icon": "\\uD83C\\uDF93"
+  },
+  "grade-calculator": {
+    "name": "Grade Calculator",
+    "description": "Calculate your class grade with weighted or points-based grading.",
+    "category": "Utility",
+    "icon": "\\uD83D\\uDCDD"
+  },
+  "random-number-generator": {
+    "name": "Random Number Generator",
+    "description": "Generate random numbers within a range. Single or bulk, with or without duplicates.",
+    "category": "Utility",
+    "icon": "\\uD83C\\uDFB2"
+  },
+  "countdown-timer": {
+    "name": "Countdown Timer",
+    "description": "Free online countdown timer with presets. Set hours, minutes, seconds.",
+    "category": "Utility",
+    "icon": "\\u23F3"
+  },
+  "stopwatch": {
+    "name": "Stopwatch",
+    "description": "Online stopwatch with lap times. Accurate to centiseconds.",
+    "category": "Utility",
+    "icon": "\\u23F1"
+  },
+  "scientific-calculator": {
+    "name": "Scientific Calculator",
+    "description": "Free scientific calculator with trig, logs, powers, memory, and deg/rad modes.",
+    "category": "Utility",
+    "icon": "\\uD83E\\uDDEE"
+  },
+  "fraction-calculator": {
+    "name": "Fraction Calculator",
+    "description": "Add, subtract, multiply, divide fractions. Simplify and convert decimals.",
+    "category": "Utility",
+    "icon": "\\u00BD"
+  },
+  "character-counter": {
+    "name": "Character Counter",
+    "description": "Count characters, words, sentences, paragraphs. Social media limits and reading time.",
+    "category": "Text",
+    "icon": "\\uD83D\\uDD24"
+  },
+  "text-repeater": {
+    "name": "Text Repeater",
+    "description": "Repeat any text multiple times with custom separators.",
+    "category": "Text",
+    "icon": "\\uD83D\\uDD01"
+  },
+  "binary-converter": {
+    "name": "Number Base Converter",
+    "description": "Convert between decimal, binary, octal, and hexadecimal instantly.",
+    "category": "Developer",
+    "icon": "01"
+  },
+  "color-mixer": {
+    "name": "Color Mixer",
+    "description": "Mix two colors together at any ratio and generate smooth color gradients.",
+    "category": "Design",
+    "icon": "\\uD83C\\uDFA8"
+  },
+  "css-transform-generator": {
+    "name": "CSS Transform Generator",
+    "description": "Build CSS transforms visually. Translate, rotate, scale, and skew.",
+    "category": "Developer",
+    "icon": "\\u21BB"
+  },
+  "pregnancy-calculator": {
+    "name": "Pregnancy Due Date Calculator",
+    "description": "Estimate your due date from last period. Trimester tracking and milestones.",
+    "category": "Health",
+    "icon": "\\uD83D\\uDC76"
+  },
+  "pace-calculator": {
+    "name": "Pace Calculator",
+    "description": "Calculate running pace, finish time, or distance with race presets.",
+    "category": "Health",
+    "icon": "\\uD83C\\uDFC3"
+  },
+  "bmr-calculator": {
+    "name": "BMR Calculator",
+    "description": "Calculate basal metabolic rate with three formulas and activity multipliers.",
+    "category": "Health",
+    "icon": "\\u2665"
+  },
+  "waist-to-hip-ratio-calculator": {
+    "name": "Waist-to-Hip Ratio Calculator",
+    "description": "Assess health risk with WHO waist-to-hip ratio guidelines.",
+    "category": "Health",
+    "icon": "\\u229A"
+  },
+  "water-intake-calculator": {
+    "name": "Water Intake Calculator",
+    "description": "Calculate daily water intake based on weight, activity, and climate.",
+    "category": "Health",
+    "icon": "\\uD83D\\uDCA7"
+  },
+  "calorie-deficit-calculator": {
+    "name": "Calorie Deficit Calculator",
+    "description": "Calculate how many calories to eat for weight loss based on your TDEE.",
+    "category": "Health",
+    "icon": "\\u2796"
+  },
+  "protein-calculator": {
+    "name": "Protein Calculator",
+    "description": "Calculate daily protein needs based on weight, goal, and activity level.",
+    "category": "Health",
+    "icon": "\\uD83E\\uDD69"
+  },
+  "ideal-weight-calculator": {
+    "name": "Ideal Weight Calculator",
+    "description": "Find your ideal body weight using four scientific formulas.",
+    "category": "Health",
+    "icon": "\\u2696"
+  },
+  "sleep-calculator": {
+    "name": "Sleep Calculator",
+    "description": "Calculate ideal bedtimes and wake times based on 90-minute sleep cycles.",
+    "category": "Health",
+    "icon": "\\uD83D\\uDCA4"
+  },
+  "one-rep-max-calculator": {
+    "name": "1RM Calculator",
+    "description": "Estimate your one rep max from any weight and rep count.",
+    "category": "Health",
+    "icon": "\\uD83C\\uDFCB"
+  },
+  "heart-rate-zone-calculator": {
+    "name": "Heart Rate Zone Calculator",
+    "description": "Calculate five heart rate training zones with Karvonen method.",
+    "category": "Health",
+    "icon": "\\u2764"
+  },
+  "keto-calculator": {
+    "name": "Keto Calculator",
+    "description": "Calculate keto macros — fat, protein, and net carbs for ketogenic diet.",
+    "category": "Health",
+    "icon": "\\uD83E\\uDD51"
+  },
+  "square-root-calculator": {
+    "name": "Square Root Calculator",
+    "description": "Calculate square roots, cube roots, and nth roots with radical simplification.",
+    "category": "Utility",
+    "icon": "\\u221A"
+  },
+  "mean-median-mode-calculator": {
+    "name": "Mean, Median, Mode Calculator",
+    "description": "Calculate mean, median, mode, range, and standard deviation from data.",
+    "category": "Utility",
+    "icon": "\\u03BC"
+  },
+  "standard-deviation-calculator": {
+    "name": "Standard Deviation Calculator",
+    "description": "Calculate standard deviation, variance, z-scores, and confidence intervals.",
+    "category": "Utility",
+    "icon": "\\u03C3"
+  },
+  "ovulation-calculator": {
+    "name": "Ovulation Calculator",
+    "description": "Predict ovulation date and fertile window based on your cycle. Calendar view.",
+    "category": "Health",
+    "icon": "\\uD83C\\uDF38"
+  },
+  "weight-loss-calculator": {
+    "name": "Weight Loss Calculator",
+    "description": "Calculate daily calories and timeline to reach your goal weight safely.",
+    "category": "Health",
+    "icon": "\\u2696"
+  },
+  "period-calculator": {
+    "name": "Period Calculator",
+    "description": "Predict your next 6 periods, fertile windows, and ovulation dates.",
+    "category": "Health",
+    "icon": "\\uD83D\\uDCC5"
+  },
+  "refinance-calculator": {
+    "name": "Refinance Calculator",
+    "description": "Compare current vs refinanced mortgage. Break-even point and total savings.",
+    "category": "Finance",
+    "icon": "\\uD83C\\uDFE6"
+  },
+  "blood-alcohol-calculator": {
+    "name": "Blood Alcohol Calculator",
+    "description": "Estimate BAC using the Widmark formula. Time until sober and legal limits.",
+    "category": "Health",
+    "icon": "\\uD83C\\uDF7A"
+  },
+  "square-footage-calculator": {
+    "name": "Square Footage Calculator",
+    "description": "Calculate area for rooms, flooring, and projects. Multiple shapes and cost estimator.",
+    "category": "Utility",
+    "icon": "\\u25A3"
+  },
+  "concrete-calculator": {
+    "name": "Concrete Calculator",
+    "description": "Calculate cubic yards of concrete for slabs, columns, walls, and stairs. Bag counts included.",
+    "category": "Utility",
+    "icon": "\\u2593"
+  },
+  "paint-calculator": {
+    "name": "Paint Calculator",
+    "description": "Calculate how many gallons of paint you need. Multi-room support with door/window subtraction.",
+    "category": "Utility",
+    "icon": "\\uD83C\\uDFA8"
+  },
+  "tile-calculator": {
+    "name": "Tile Calculator",
+    "description": "Calculate tiles needed with grout gaps, layout patterns, waste factor, and cost estimate.",
+    "category": "Utility",
+    "icon": "\\u25A6"
+  },
+  "markup-calculator": {
+    "name": "Markup Calculator",
+    "description": "Calculate markup, margin, and selling price. Batch mode for multiple products.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB2"
+  },
+  "cd-calculator": {
+    "name": "CD Calculator",
+    "description": "Calculate CD interest and maturity value. CD ladder strategy and early withdrawal penalties.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDCB0"
+  },
+  "lease-calculator": {
+    "name": "Car Lease Calculator",
+    "description": "Calculate monthly lease payments, money factor to APR, and lease vs buy comparison.",
+    "category": "Finance",
+    "icon": "\\uD83D\\uDE97"
+  },
+  "calorie-burn-calculator": {
+    "name": "Calorie Burn Calculator",
+    "description": "Calculate calories burned by activity with MET values. 30+ activities and daily log.",
+    "category": "Health",
+    "icon": "\\uD83D\\uDD25"
+  },
+  "dog-age-calculator": {
+    "name": "Dog Age Calculator",
+    "description": "Convert dog years to human years using modern science. Size-based calculation, not the 7x myth.",
+    "category": "Health",
+    "icon": "\\uD83D\\uDC36"
+  },
+  "ohms-law-calculator": {
+    "name": "Ohm's Law Calculator",
+    "description": "Calculate voltage, current, resistance, and power. Series/parallel resistor calculator.",
+    "category": "Utility",
+    "icon": "\\u26A1"
+  },
+  "future-value-calculator": {
+    "name": "Future Value Calculator",
+    "description": "Calculate future value of investments with contributions and compounding.",
+    "category": "Finance",
+    "icon": "📈"
+  },
+  "annuity-calculator": {
+    "name": "Annuity Calculator",
+    "description": "Calculate annuity growth and payout. Fixed vs variable comparison.",
+    "category": "Finance",
+    "icon": "💰"
+  },
+  "emi-calculator": {
+    "name": "EMI Calculator",
+    "description": "Calculate equated monthly installments. Prepayment impact and loan comparison.",
+    "category": "Finance",
+    "icon": "💳"
+  },
+  "walking-calorie-calculator": {
+    "name": "Walking Calorie Calculator",
+    "description": "Calculate calories burned walking by speed, distance, and incline.",
+    "category": "Health",
+    "icon": "🚶"
+  },
+  "debt-to-income-calculator": {
+    "name": "Debt-to-Income Calculator",
+    "description": "Calculate your DTI ratio. See loan qualification and lender guidelines.",
+    "category": "Finance",
+    "icon": "📊"
+  },
+  "jpg-to-pdf": {
+    "name": "JPG to PDF Converter",
+    "description": "Convert JPG images to PDF. Multiple images, custom page size, reorder pages.",
+    "category": "Utility",
+    "icon": "📄"
+  },
+  "merge-pdf": {
+    "name": "Merge PDF",
+    "description": "Combine multiple PDF files into one. Reorder, preview page counts. Free and private.",
+    "category": "Utility",
+    "icon": "📑"
+  },
+  "compress-pdf": {
+    "name": "Compress PDF",
+    "description": "Reduce PDF file size by up to 90%. Three quality presets. Free and private.",
+    "category": "Utility",
+    "icon": "📦"
+  },
+  "split-pdf": {
+    "name": "Split PDF",
+    "description": "Split PDFs by page range, every N pages, or into equal parts. Free and private.",
+    "category": "Utility",
+    "icon": "✂️"
+  },
+  "png-to-pdf": {
+    "name": "PNG to PDF Converter",
+    "description": "Convert PNG images to PDF. Multiple images, custom page size, transparency support.",
+    "category": "Utility",
+    "icon": "📄"
+  },
+  "resume-builder": {
+    "name": "Resume Builder",
+    "description": "Build a professional resume with live preview. Multiple templates, PDF download. Free and private.",
+    "category": "Utility",
+    "icon": "📝"
+  },
+  "video-compressor": {
+    "name": "Video Compressor",
+    "description": "Compress videos by up to 90%. Adjust quality, resolution, and codec. Runs in your browser.",
+    "category": "Utility",
+    "icon": "🎬"
+  },
+  "image-upscaler": {
+    "name": "Image Upscaler",
+    "description": "Enlarge images up to 4x with smooth, sharp, and pixel art modes. Free and private.",
+    "category": "Design",
+    "icon": "🔍"
+  },
+  "image-to-text": {
+    "name": "Image to Text (OCR)",
+    "description": "Extract text from images using Tesseract OCR. 7 languages supported. Runs in your browser.",
+    "category": "Utility",
+    "icon": "🔤"
+  },
+  "pdf-to-word": {
+    "name": "PDF to Word Converter",
+    "description": "Convert PDF files to editable Word documents. No upload, runs in your browser.",
+    "category": "Utility",
+    "icon": "📄"
+  },
+  "screen-recorder": {
+    "name": "Screen Recorder",
+    "description": "Record your screen, webcam, or browser tab with audio. No watermark, no time limit.",
+    "category": "Utility",
+    "icon": "🖥"
+  },
+  "text-to-speech": {
+    "name": "Text to Speech",
+    "description": "Convert text to natural speech with multiple voices, languages, speed and pitch controls.",
+    "category": "Utility",
+    "icon": "🔊"
+  },
+  "video-to-gif": {
+    "name": "Video to GIF Converter",
+    "description": "Convert any video to an animated GIF. Trim, resize, adjust frame rate. Free and private.",
+    "category": "Design",
+    "icon": "🎞"
+  },
+  "digital-signature": {
+    "name": "Digital Signature Creator",
+    "description": "Create a digital signature by drawing, typing, or uploading. Download as PNG or SVG.",
+    "category": "Utility",
+    "icon": "✍"
+  },
+  "meme-generator": {
+    "name": "Meme Generator",
+    "description": "Create memes with custom text, fonts, and colors. No watermark, no signup required.",
+    "category": "Design",
+    "icon": "😂"
+  }
+}

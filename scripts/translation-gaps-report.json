@@ -1,0 +1,96 @@
+{
+  "scannedAt": "2026-07-30T16:13:46.085Z",
+  "totalTools": 148,
+  "languages": {},
+  "stillEnglishByLanguage": {
+    "zh": {
+      "totalStillEnglishTools": 2,
+      "totalStillEnglishValues": 3,
+      "tools": {
+        "color-converter": {
+          "missing": false,
+          "stillEnglishValueCount": 2,
+          "paths": [
+            "tools.color-converter.labels.preview",
+            "tools.color-converter.buttons.copy"
+          ]
+        },
+        "regex-tester": {
+          "missing": false,
+          "stillEnglishValueCount": 1,
+          "paths": [
+            "tools.regex-tester.labels.flagDescriptions.s"
+          ]
+        }
+      }
+    },
+    "ja": {
+      "totalStillEnglishTools": 3,
+      "totalStillEnglishValues": 6,
+      "tools": {
+        "color-converter": {
+          "missing": false,
+          "stillEnglishValueCount": 2,
+          "paths": [
+            "tools.color-converter.labels.preview",
+            "tools.color-converter.buttons.copy"
+          ]
+        },
+        "regex-tester": {
+          "missing": false,
+          "stillEnglishValueCount": 1,
+          "paths": [
+            "tools.regex-tester.labels.flagDescriptions.s"
+          ]
+        },
+        "url-slug-generator": {
+          "missing": false,
+          "stillEnglishValueCount": 3,
+          "paths": [
+            "tools.url-slug-generator.labels.input",
+            "tools.url-slug-generator.labels.output",
+            "tools.url-slug-generator.buttons.generate"
+          ]
+        }
+      }
+    },
+    "ko": {
+      "totalStillEnglishTools": 3,
+      "totalStillEnglishValues": 7,
+      "tools": {
+        "barcode-generator": {
+          "missing": false,
+          "stillEnglishValueCount": 4,
+          "paths": [
+            "tools.barcode-generator.labels.text",
+            "tools.barcode-generator.placeholders.text",
+            "tools.barcode-generator.buttons.download",
+            "tools.barcode-generator.errors.unsupportedChars"
+          ]
+        },
+        "color-converter": {
+          "missing": false,
+          "stillEnglishValueCount": 2,
+          "paths": [
+            "tools.color-converter.labels.preview",
+            "tools.color-converter.buttons.copy"
+          ]
+        },
+        "regex-tester": {
+          "missing": false,
+          "stillEnglishValueCount": 1,
+          "paths": [
+            "tools.regex-tester.labels.flagDescriptions.s"
+          ]
+        }
+      }
+    }
+  },
+  "allStillEnglishToolSlugs": [
+    "barcode-generator",
+    "color-converter",
+    "regex-tester",
+    "url-slug-generator"
+  ],
+  "globalStillEnglishToolCount": 4
+}

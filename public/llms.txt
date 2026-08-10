@@ -1,0 +1,36 @@
+# ToolkitLife — Free Developer & Design Tools
+
+> ToolkitLife is a collection of 17 free, browser-based developer and design tools. No signup required. No data stored. All processing happens locally in the user's browser.
+
+## Tools
+
+### Design Tools
+- [Video Watermark Remover](https://toolkitlife.com/tools/video-watermark-remover): Remove watermarks from videos using FFmpeg WASM. Supports Smart Remove (delogo) and Blur modes. No file size or length limits. Audio preserved.
+- [Photo Watermark Remover](https://toolkitlife.com/tools/photo-watermark-remover): Remove watermarks from photos using client-side inpainting. Paint over the watermark and the algorithm fills it with surrounding pixels.
+- [Color Palette Generator](https://toolkitlife.com/tools/color-palette-generator): Generate random color palettes with lock, shuffle, and export to CSS/Tailwind/JSON.
+- [CSS Gradient Generator](https://toolkitlife.com/tools/css-gradient-generator): Build linear, radial, and conic CSS gradients with a visual editor. Copy CSS output.
+- [Box Shadow Generator](https://toolkitlife.com/tools/box-shadow-generator): Design CSS box shadows with a live visual editor. Multiple shadow layers supported.
+- [Image Color Picker](https://toolkitlife.com/tools/image-color-picker): Upload an image and pick any color with an eyedropper. Outputs HEX, RGB, and HSL.
+- [Aspect Ratio Calculator](https://toolkitlife.com/tools/aspect-ratio-calculator): Calculate and convert between aspect ratios with common presets (16:9, 4:3, 1:1, etc.).
+
+### Developer Tools
+- [JSON Formatter](https://toolkitlife.com/tools/json-formatter): Prettify, minify, and validate JSON with syntax highlighting and error detection.
+- [Base64 Encoder](https://toolkitlife.com/tools/base64-encoder): Encode and decode text and files to and from Base64.
+- [UUID Generator](https://toolkitlife.com/tools/uuid-generator): Generate random UUID v4 identifiers, single or in bulk.
+- [Regex Tester](https://toolkitlife.com/tools/regex-tester): Test regular expressions with live highlighting, match groups, and explanation.
+
+### Text Tools
+- [Lorem Ipsum Generator](https://toolkitlife.com/tools/lorem-ipsum-generator): Generate placeholder text in paragraphs, sentences, or words.
+- [Word Counter](https://toolkitlife.com/tools/word-counter): Count words, characters, sentences, paragraphs, and reading time.
+- [Markdown Preview](https://toolkitlife.com/tools/markdown-preview): Write and preview Markdown with a live split-pane editor.
+
+### Utility Tools
+- [QR Code Generator](https://toolkitlife.com/tools/qr-code-generator): Generate customizable QR codes from text or URLs. Download as PNG or SVG.
+- [Password Generator](https://toolkitlife.com/tools/password-generator): Generate cryptographically secure passwords with customizable length and character sets.
+- [Unit Converter](https://toolkitlife.com/tools/unit-converter): Convert between length, weight, temperature, data size, and time units.
+
+## Privacy
+All tools run entirely in the browser using JavaScript and WebAssembly. No files, text, images, or videos are ever uploaded to a server. No user data is collected or stored.
+
+## Contact
+Website: https://toolkitlife.com
