@@ -23,12 +23,14 @@
   },
   "nav": {
     "home": "ToolkitLife",
-    "allTools": "すべてのツール"
+    "allTools": "すべてのツール",
+    "blog": "ブログ"
   },
   "footer": {
     "brand": "ToolkitLife",
     "privacy": "プライバシー",
     "terms": "利用規約",
+    "blog": "ブログ",
     "copyright": "無料ツール、会員登録不要、データ保存なし。"
   },
   "toolLayout": {

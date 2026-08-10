@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-create-digital-signature";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-07",
-  dateModified: "2026-03-07",
-  tags: ["Signature", "Business", "PDF", "Productivity"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "Is a digital signature legally binding?", answer: "A signature image created with a free tool is an electronic signature, which is legally valid for most everyday documents in most jurisdictions under laws like ESIGN (US) and eIDAS (EU). However, for high-stakes legal documents, you may need a qualified electronic signature with identity verification and audit trail." },
     { question: "How do I add my signature to a PDF?", answer: "Download your signature as a PNG, then insert it into your PDF using Preview (Mac), Adobe Reader (Fill & Sign), or any PDF editor. Most tools have an 'Add Image' or 'Stamp' feature that lets you place and resize the signature." },
@@ -19,9 +21,7 @@ const basePost = {
   relatedTools: [
     { name: "Digital Signature Creator", href: "/tools/digital-signature" },
   ],
-  relatedArticles: [
-    { title: "How to Convert PDF to Word", href: "/blog/how-to-convert-pdf-to-word" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

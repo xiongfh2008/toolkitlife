@@ -1,19 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
-
-const posts = [
-  { slug: "how-to-build-a-resume" },
-  { slug: "how-to-compress-video" },
-  { slug: "how-to-convert-pdf-to-word" },
-  { slug: "how-to-convert-text-to-speech" },
-  { slug: "how-to-convert-video-to-gif" },
-  { slug: "how-to-create-digital-signature" },
-  { slug: "how-to-extract-text-from-images" },
-  { slug: "how-to-make-memes" },
-  { slug: "how-to-record-your-screen" },
-  { slug: "how-to-upscale-images" },
-];
+import { blogPostsMeta } from "@/data/blog-posts";
 
 export async function generateMetadata({
   params,
@@ -26,6 +14,14 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
   };
+}
+
+function formatDate(date: string, locale: string) {
+  return new Date(date).toLocaleDateString(locale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 }
 
 export default async function BlogIndex({
@@ -49,17 +45,30 @@ export default async function BlogIndex({
       <p className="mb-10 text-zinc-400">{t("description")}</p>
 
       <div className="space-y-6">
-        {posts.map((post) => (
+        {blogPostsMeta.map((post) => (
           <article
             key={post.slug}
             className="group rounded-xl border border-zinc-800 bg-zinc-900 p-6 transition-colors hover:border-zinc-700"
           >
+            <div className="mb-3 flex flex-wrap gap-x-3 gap-y-1">
+              {post.tags.map((tag) => (
+                <span key={tag} className="text-xs font-medium text-blue-400">
+                  {tag}
+                </span>
+              ))}
+            </div>
             <Link href={`/blog/${post.slug}`} className="block">
               <h2 className="mb-2 text-xl font-semibold text-zinc-100 group-hover:text-blue-400 transition-colors">
                 {pt(`${post.slug}.title`)}
               </h2>
               <p className="text-sm text-zinc-400">{pt(`${post.slug}.description`)}</p>
             </Link>
+            <time
+              dateTime={post.datePublished}
+              className="mt-3 block text-sm text-zinc-500"
+            >
+              {formatDate(post.datePublished, locale)}
+            </time>
           </article>
         ))}
       </div>

@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-make-memes";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-07",
-  dateModified: "2026-03-07",
-  tags: ["Memes", "Social Media", "Image Editing", "Humor"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "What is the best meme font?", answer: "Impact is the classic meme font — bold, white text with a black outline. It's been the standard since early internet memes. Some modern memes use Arial or even Comic Sans for a different feel. The key is high contrast and readability." },
     { question: "Can I use any image for a meme?", answer: "You can use any image you have. Popular meme templates are widely available online. For original memes, use your own photos or screenshots. Most memes fall under fair use, but avoid using copyrighted images for commercial purposes." },
@@ -19,9 +21,7 @@ const basePost = {
   relatedTools: [
     { name: "Meme Generator", href: "/tools/meme-generator" },
   ],
-  relatedArticles: [
-    { title: "How to Upscale Images", href: "/blog/how-to-upscale-images" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

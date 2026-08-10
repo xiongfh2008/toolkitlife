@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-build-a-resume";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-06",
-  dateModified: "2026-03-06",
-  tags: ["Resume", "Career", "Job Search", "Productivity"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "How long should a resume be?", answer: "One page for early to mid-career professionals (0-10 years of experience). Two pages are acceptable for senior roles with extensive experience. Recruiters spend an average of 6-7 seconds on initial resume screening, so keep it concise and put your strongest qualifications first." },
     { question: "What resume format is best for ATS?", answer: "Use a simple, single-column layout with standard section headers (Experience, Education, Skills). Avoid tables, text boxes, headers/footers, and graphics. Use standard fonts like Arial or Calibri. Save as PDF unless the application specifically requests .doc format. ATS systems parse clean, text-based resumes most accurately." },
@@ -20,9 +22,7 @@ const basePost = {
   relatedTools: [
     { name: "Resume Builder", href: "/tools/resume-builder" },
   ],
-  relatedArticles: [
-    { title: "How to Generate Secure Passwords", href: "/blog/generate-secure-passwords" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

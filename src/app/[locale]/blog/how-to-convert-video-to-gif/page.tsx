@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-convert-video-to-gif";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-07",
-  dateModified: "2026-03-07",
-  tags: ["GIF", "Video", "Converter", "Social Media"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "What is the best video format to convert to GIF?", answer: "MP4 (H.264) works best because all browsers can decode it efficiently. WebM and MOV also work. The source format matters less than the content — short clips with simple motion convert best." },
     { question: "How do I make the GIF file smaller?", answer: "Three levers: reduce width (480px is good for most uses), lower FPS (10fps looks smooth enough), and shorten the duration. A 3-second, 480px, 10fps GIF is typically under 2MB." },
@@ -19,9 +21,7 @@ const basePost = {
   relatedTools: [
     { name: "Video to GIF Converter", href: "/tools/video-to-gif" },
   ],
-  relatedArticles: [
-    { title: "How to Compress Video", href: "/blog/how-to-compress-video" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-upscale-images";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-06",
-  dateModified: "2026-03-06",
-  tags: ["Image", "Design", "Upscaling", "Photo Editing"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "Can you upscale an image without losing quality?", answer: "You can upscale with minimal visible quality loss using high-quality interpolation algorithms. However, upscaling cannot add detail that wasn't in the original image. A 100x100 image upscaled to 400x400 will be smoother but won't have the detail of a native 400x400 photo. Start with the highest resolution source available." },
     { question: "What is the best upscaling method?", answer: "For photographs, use smooth (bicubic) interpolation with sharpening. For pixel art or retro graphics, use nearest-neighbor to preserve hard pixel edges. AI-based upscalers can add plausible detail but may introduce artifacts. The best method depends on your source image and intended use." },
@@ -18,9 +20,7 @@ const basePost = {
   relatedTools: [
     { name: "Image Upscaler", href: "/tools/image-upscaler" },
   ],
-  relatedArticles: [
-    { title: "How to Resize Images for Social Media", href: "/blog/resize-images-social-media" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

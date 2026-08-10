@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-extract-text-from-images";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-06",
-  dateModified: "2026-03-06",
-  tags: ["OCR", "Productivity", "Text Extraction", "Images"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "What is OCR and how does it work?", answer: "OCR (Optical Character Recognition) is technology that identifies text characters in images and converts them to editable text. Modern OCR uses neural networks trained on millions of text samples to recognize characters, words, and layout structure in any image." },
     { question: "How accurate is OCR?", answer: "Modern OCR achieves 95-99% accuracy on clean, printed text with good resolution. Accuracy drops with handwriting, low resolution, unusual fonts, skewed images, or poor lighting. For best results, use clear images with high contrast between text and background." },
@@ -18,9 +20,7 @@ const basePost = {
   relatedTools: [
     { name: "Image to Text (OCR)", href: "/tools/image-to-text" },
   ],
-  relatedArticles: [
-    { title: "How to Convert PDF to Word", href: "/blog/how-to-convert-pdf-to-word" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

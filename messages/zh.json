@@ -23,12 +23,14 @@
   },
   "nav": {
     "home": "ToolkitLife",
-    "allTools": "全部工具"
+    "allTools": "全部工具",
+    "blog": "博客"
   },
   "footer": {
     "brand": "ToolkitLife",
     "privacy": "隐私政策",
     "terms": "使用条款",
+    "blog": "博客",
     "copyright": "免费工具，无需注册，不存储数据。"
   },
   "toolLayout": {

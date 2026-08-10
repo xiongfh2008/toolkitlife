@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-compress-video";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-06",
-  dateModified: "2026-03-06",
-  tags: ["Video", "Compression", "Media", "Productivity"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "How much can I compress a video?", answer: "Typically 50-90% depending on the original quality and settings. A 100 MB video can often be compressed to 10-30 MB at medium quality with barely noticeable difference. The key factors are resolution, bitrate, and codec efficiency." },
     { question: "What is CRF and how does it affect quality?", answer: "CRF (Constant Rate Factor) controls quality in H.264 encoding. Lower CRF = higher quality and larger file. CRF 18 is visually lossless, 23 is the default, 28 is good for most web use, and 35+ is noticeable compression. Each 6-point increase roughly halves the file size." },
@@ -20,9 +22,7 @@ const basePost = {
   relatedTools: [
     { name: "Video Compressor", href: "/tools/video-compressor" },
   ],
-  relatedArticles: [
-    { title: "How to Compress PDF Files", href: "/blog/how-to-compress-pdf" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

@@ -21,6 +21,7 @@ export default function Footer() {
             <span className="font-display text-zinc-300">{t("brand")}</span>
           </div>
           <div className="flex items-center gap-4 text-sm text-zinc-500">
+            <Link href="/blog" className="hover:text-zinc-300 transition-colors">{t("blog")}</Link>
             <Link href="/privacy" className="hover:text-zinc-300 transition-colors">{t("privacy")}</Link>
             <Link href="/terms" className="hover:text-zinc-300 transition-colors">{t("terms")}</Link>
           </div>

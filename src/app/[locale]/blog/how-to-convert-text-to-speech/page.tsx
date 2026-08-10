@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-convert-text-to-speech";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-07",
-  dateModified: "2026-03-07",
-  tags: ["Text to Speech", "Accessibility", "Productivity", "TTS"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "Is text to speech free?", answer: "Yes. Modern browsers include the Web Speech API which provides text-to-speech for free with no limits. The voices are built into your operating system. No server processing, no signup required." },
     { question: "What languages are supported?", answer: "Most browsers support 20+ languages including English, Spanish, French, German, Chinese, Japanese, Korean, Portuguese, Italian, and more. The exact voices depend on your OS." },
@@ -19,9 +21,7 @@ const basePost = {
   relatedTools: [
     { name: "Text to Speech", href: "/tools/text-to-speech" },
   ],
-  relatedArticles: [
-    { title: "How to Extract Text from Images", href: "/blog/how-to-extract-text-from-images" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

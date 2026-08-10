@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-convert-pdf-to-word";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-06",
-  dateModified: "2026-03-06",
-  tags: ["PDF", "Word", "Converter", "Productivity"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "Can I convert a PDF to Word for free?", answer: "Yes. Several tools offer free PDF to Word conversion. Browser-based tools process the file locally on your device, so there's no upload and no file size limit. The output is a .doc file that opens in Microsoft Word, Google Docs, and LibreOffice." },
     { question: "Will the formatting be preserved?", answer: "Text content and basic paragraph structure are preserved well. Complex layouts with multiple columns, tables, and embedded images may not convert perfectly. For simple text documents, the conversion is nearly identical. For complex layouts, some manual formatting adjustment may be needed." },
@@ -19,9 +21,7 @@ const basePost = {
   relatedTools: [
     { name: "PDF to Word Converter", href: "/tools/pdf-to-word" },
   ],
-  relatedArticles: [
-    { title: "How to Compress PDF Files", href: "/blog/how-to-compress-pdf" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

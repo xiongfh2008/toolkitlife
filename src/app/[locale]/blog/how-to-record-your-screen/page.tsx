@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
 import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
 import Link from "next/link";
+import { getPostMeta } from "@/data/blog-posts";
 
 const slug = "how-to-record-your-screen";
+const meta = getPostMeta(slug);
 
 const basePost = {
   slug,
-  datePublished: "2026-03-07",
-  dateModified: "2026-03-07",
-  tags: ["Screen Recording", "Productivity", "Video", "Tutorial"],
+  datePublished: meta.datePublished,
+  dateModified: meta.dateModified,
+  tags: meta.tags,
   faqs: [
     { question: "Can I record my screen for free without a watermark?", answer: "Yes. Browser-based screen recorders use the MediaRecorder API built into your browser. They produce watermark-free recordings with no time limit, no signup, and no software to install." },
     { question: "Can I record system audio?", answer: "Yes, when sharing a browser tab. System audio capture when sharing an entire screen depends on your OS. macOS requires additional permissions. Windows supports it natively in most browsers." },
@@ -19,9 +21,7 @@ const basePost = {
   relatedTools: [
     { name: "Screen Recorder", href: "/tools/screen-recorder" },
   ],
-  relatedArticles: [
-    { title: "How to Compress Video", href: "/blog/how-to-compress-video" },
-  ],
+  relatedArticles: meta.relatedArticles,
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

@@ -23,12 +23,14 @@
   },
   "nav": {
     "home": "ToolkitLife",
-    "allTools": "모든 도구"
+    "allTools": "모든 도구",
+    "blog": "블로그"
   },
   "footer": {
     "brand": "ToolkitLife",
     "privacy": "개인정보 처리방침",
     "terms": "이용약관",
+    "blog": "블로그",
     "copyright": "무료 도구, 회원가입 없음, 데이터 저장 없음."
   },
   "toolLayout": {
