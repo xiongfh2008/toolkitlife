@@ -51,3 +51,4 @@ next-env.d.ts
 /test-assets/
 /test-migan-node.mjs
 /translation-report.txt
+toolpile-main/

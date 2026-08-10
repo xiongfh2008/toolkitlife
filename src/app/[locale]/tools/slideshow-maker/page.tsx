@@ -247,6 +247,7 @@ export default function SlideshowMakerPage() {
       } catch (err) {
         if (!looped) throw err;
         // Fallback: without stream_loop (some FFmpeg wasm builds choke on it).
+        if (!audio) throw err;
         const plain: string[] = [
           "-framerate",
           String(fps),
