@@ -1,0 +1,660 @@
+{
+  "results": [
+    {
+      "slug": "bmi-calculator",
+      "finalUrl": "/tools/bmi-calculator",
+      "description": "Calculate your Body Mass Index (BMI) using height and weight. Supports imperial and metric units with BMI category classification.",
+      "topIntro": "Calculate your Body Mass Index (BMI) using height and weight. Supports imperial and metric units with BMI category classification.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        },
+        {
+          "name": "Body Fat Calculator",
+          "href": "/tools/body-fat-calculator"
+        }
+      ],
+      "keywords": [
+        "bmi calculator",
+        "body mass index calculator",
+        "bmi chart",
+        "bmi calculator metric",
+        "calculate bmi"
+      ]
+    },
+    {
+      "slug": "calorie-calculator",
+      "finalUrl": "/tools/calorie-calculator",
+      "description": "Calculate your daily calorie needs based on age, sex, height, weight, and activity level. Uses the Mifflin-St Jeor equation.",
+      "topIntro": "Calculate your daily calorie needs based on age, sex, height, weight, and activity level. Uses the Mifflin-St Jeor equation.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        },
+        {
+          "name": "Macro Calculator",
+          "href": "/tools/macro-calculator"
+        }
+      ],
+      "keywords": [
+        "calorie calculator",
+        "daily calorie calculator",
+        "calorie needs calculator",
+        "how many calories do I need",
+        "TDEE calculator"
+      ]
+    },
+    {
+      "slug": "tdee-calculator",
+      "finalUrl": "/tools/tdee-calculator",
+      "description": "Calculate your Total Daily Energy Expenditure (TDEE) using multiple formulas. See BMR, maintenance calories, and suggested macro splits.",
+      "topIntro": "Calculate your Total Daily Energy Expenditure (TDEE) using multiple formulas. See BMR, maintenance calories, and suggested macro splits.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Macro Calculator",
+          "href": "/tools/macro-calculator"
+        }
+      ],
+      "keywords": [
+        "tdee calculator",
+        "total daily energy expenditure calculator",
+        "tdee",
+        "maintenance calories calculator",
+        "how many calories do I burn"
+      ]
+    },
+    {
+      "slug": "body-fat-calculator",
+      "finalUrl": "/tools/body-fat-calculator",
+      "description": "Estimate your body fat percentage using the US Navy method. Enter measurements to see fat mass, lean mass, and fitness category.",
+      "topIntro": "Estimate your body fat percentage using the US Navy method. Enter measurements to see fat mass, lean mass, and fitness category.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        },
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        }
+      ],
+      "keywords": [
+        "body fat calculator",
+        "body fat percentage calculator",
+        "navy body fat calculator",
+        "body composition calculator"
+      ]
+    },
+    {
+      "slug": "macro-calculator",
+      "finalUrl": "/tools/macro-calculator",
+      "description": "Calculate your daily protein, carb, and fat targets based on your TDEE and fitness goals. Multiple diet splits available.",
+      "topIntro": "Calculate your daily protein, carb, and fat targets based on your TDEE and fitness goals. Multiple diet splits available.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        },
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        }
+      ],
+      "keywords": [
+        "macro calculator",
+        "macronutrient calculator",
+        "macro diet calculator",
+        "iifym calculator",
+        "protein calculator"
+      ]
+    },
+    {
+      "slug": "bmr-calculator",
+      "finalUrl": "/tools/bmr-calculator",
+      "description": "Calculate your Basal Metabolic Rate — calories your body burns at rest. Three formulas with activity level multipliers.",
+      "topIntro": "Calculate your Basal Metabolic Rate — calories your body burns at rest. Three formulas with activity level multipliers.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        },
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "Macro Calculator",
+          "href": "/tools/macro-calculator"
+        }
+      ],
+      "keywords": [
+        "bmr calculator",
+        "basal metabolic rate calculator",
+        "resting metabolic rate calculator",
+        "how many calories do I burn at rest"
+      ]
+    },
+    {
+      "slug": "waist-to-hip-ratio-calculator",
+      "finalUrl": "/tools/waist-to-hip-ratio-calculator",
+      "description": "Calculate your waist-to-hip ratio (WHR) to assess health risk. Based on WHO guidelines for men and women.",
+      "topIntro": "Calculate your waist-to-hip ratio (WHR) to assess health risk. Based on WHO guidelines for men and women.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Body Fat Calculator",
+          "href": "/tools/body-fat-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        }
+      ],
+      "keywords": [
+        "waist to hip ratio calculator",
+        "whr calculator",
+        "waist hip ratio",
+        "body shape calculator"
+      ]
+    },
+    {
+      "slug": "water-intake-calculator",
+      "finalUrl": "/tools/water-intake-calculator",
+      "description": "Calculate how much water you should drink daily based on weight, activity level, and climate.",
+      "topIntro": "Calculate how much water you should drink daily based on weight, activity level, and climate.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        }
+      ],
+      "keywords": [
+        "water intake calculator",
+        "how much water should I drink",
+        "daily water intake calculator",
+        "hydration calculator"
+      ]
+    },
+    {
+      "slug": "calorie-deficit-calculator",
+      "finalUrl": "/tools/calorie-deficit-calculator",
+      "description": "Calculate how many calories to eat for weight loss. Based on your TDEE with adjustable deficit levels.",
+      "topIntro": "Calculate how many calories to eat for weight loss. Based on your TDEE with adjustable deficit levels.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        },
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "Macro Calculator",
+          "href": "/tools/macro-calculator"
+        }
+      ],
+      "keywords": [
+        "calorie deficit calculator",
+        "weight loss calorie calculator",
+        "how many calories to lose weight",
+        "calorie deficit for weight loss"
+      ]
+    },
+    {
+      "slug": "protein-calculator",
+      "finalUrl": "/tools/protein-calculator",
+      "description": "Calculate your daily protein needs based on weight, fitness goal, and activity level.",
+      "topIntro": "Calculate your daily protein needs based on weight, fitness goal, and activity level.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Macro Calculator",
+          "href": "/tools/macro-calculator"
+        },
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        }
+      ],
+      "keywords": [
+        "protein calculator",
+        "how much protein do I need",
+        "daily protein intake calculator",
+        "protein per day calculator"
+      ]
+    },
+    {
+      "slug": "ideal-weight-calculator",
+      "finalUrl": "/tools/ideal-weight-calculator",
+      "description": "Calculate your ideal body weight using four scientific formulas. Adjusted for frame size.",
+      "topIntro": "Calculate your ideal body weight using four scientific formulas. Adjusted for frame size.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Body Fat Calculator",
+          "href": "/tools/body-fat-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        }
+      ],
+      "keywords": [
+        "ideal weight calculator",
+        "ideal body weight calculator",
+        "how much should I weigh",
+        "healthy weight calculator"
+      ]
+    },
+    {
+      "slug": "sleep-calculator",
+      "finalUrl": "/tools/sleep-calculator",
+      "description": "Calculate the best times to sleep and wake up based on 90-minute sleep cycles. Wake up refreshed, not groggy.",
+      "topIntro": "Calculate the best times to sleep and wake up based on 90-minute sleep cycles. Wake up refreshed, not groggy.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Age Calculator",
+          "href": "/tools/age-calculator"
+        },
+        {
+          "name": "Countdown Timer",
+          "href": "/tools/countdown-timer"
+        },
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        }
+      ],
+      "keywords": [
+        "sleep calculator",
+        "sleep cycle calculator",
+        "when should I wake up",
+        "when should I go to sleep",
+        "bedtime calculator"
+      ]
+    },
+    {
+      "slug": "heart-rate-zone-calculator",
+      "finalUrl": "/tools/heart-rate-zone-calculator",
+      "description": "Calculate your five heart rate training zones. Uses Karvonen or percentage-of-max methods.",
+      "topIntro": "Calculate your five heart rate training zones. Uses Karvonen or percentage-of-max methods.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "Pace Calculator",
+          "href": "/tools/pace-calculator"
+        },
+        {
+          "name": "BMR Calculator",
+          "href": "/tools/bmr-calculator"
+        }
+      ],
+      "keywords": [
+        "heart rate zone calculator",
+        "training zone calculator",
+        "heart rate zones",
+        "target heart rate calculator",
+        "cardio zone calculator"
+      ]
+    },
+    {
+      "slug": "keto-calculator",
+      "finalUrl": "/tools/keto-calculator",
+      "description": "Calculate your keto macros — fat, protein, and net carbs for a ketogenic diet.",
+      "topIntro": "Calculate your keto macros — fat, protein, and net carbs for a ketogenic diet.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Macro Calculator",
+          "href": "/tools/macro-calculator"
+        },
+        {
+          "name": "Calorie Deficit Calculator",
+          "href": "/tools/calorie-deficit-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        }
+      ],
+      "keywords": [
+        "keto calculator",
+        "keto macro calculator",
+        "ketogenic diet calculator",
+        "keto diet macros",
+        "low carb calculator"
+      ]
+    },
+    {
+      "slug": "ovulation-calculator",
+      "finalUrl": "/tools/ovulation-calculator",
+      "description": "Calculate your estimated ovulation date, fertile window, and next period based on your menstrual cycle. Visualize cycle phases with a color-coded calendar timeline.",
+      "topIntro": "Calculate your estimated ovulation date, fertile window, and next period based on your menstrual cycle. Visualize cycle phases with a color-coded calendar timeline.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Pregnancy Due Date Calculator",
+          "href": "/tools/pregnancy-calculator"
+        },
+        {
+          "name": "Age Calculator",
+          "href": "/tools/age-calculator"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        }
+      ],
+      "keywords": [
+        "ovulation calculator",
+        "fertility calculator",
+        "ovulation calendar",
+        "fertile window calculator",
+        "when do I ovulate",
+        "ovulation predictor",
+        "menstrual cycle calculator",
+        "period calculator",
+        "conception calculator",
+        "fertility tracker"
+      ]
+    },
+    {
+      "slug": "weight-loss-calculator",
+      "finalUrl": "/tools/weight-loss-calculator",
+      "description": "Calculate how long it will take to reach your goal weight. Get personalized calorie targets, macro breakdowns, and a visual timeline based on your BMR, TDEE, and activity level.",
+      "topIntro": "Calculate how long it will take to reach your goal weight. Get personalized calorie targets, macro breakdowns, and a visual timeline based on your BMR, TDEE, and activity level.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        },
+        {
+          "name": "Calorie Deficit Calculator",
+          "href": "/tools/calorie-deficit-calculator"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Macro Calculator",
+          "href": "/tools/macro-calculator"
+        },
+        {
+          "name": "Body Fat Calculator",
+          "href": "/tools/body-fat-calculator"
+        },
+        {
+          "name": "Ideal Weight Calculator",
+          "href": "/tools/ideal-weight-calculator"
+        }
+      ],
+      "keywords": [
+        "weight loss calculator",
+        "how long to lose weight",
+        "weight loss timeline",
+        "calorie calculator for weight loss",
+        "weight loss planner",
+        "weight loss calorie deficit",
+        "goal weight calculator",
+        "how many calories to lose weight",
+        "weight loss projection",
+        "safe weight loss rate"
+      ]
+    },
+    {
+      "slug": "period-calculator",
+      "finalUrl": "/tools/period-calculator",
+      "description": "Track and predict your menstrual cycle with our free period calculator. View upcoming periods, fertile windows, and ovulation dates on a visual calendar.",
+      "topIntro": "Track and predict your menstrual cycle with our free period calculator. View upcoming periods, fertile windows, and ovulation dates on a visual calendar.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Pregnancy Calculator",
+          "href": "/tools/pregnancy-calculator"
+        },
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Sleep Calculator",
+          "href": "/tools/sleep-calculator"
+        },
+        {
+          "name": "Water Intake Calculator",
+          "href": "/tools/water-intake-calculator"
+        }
+      ],
+      "keywords": [
+        "period calculator",
+        "menstrual cycle calculator",
+        "period tracker",
+        "ovulation calculator",
+        "fertile window calculator",
+        "next period predictor",
+        "menstrual calendar",
+        "cycle length calculator"
+      ]
+    },
+    {
+      "slug": "blood-alcohol-calculator",
+      "finalUrl": "/tools/blood-alcohol-calculator",
+      "description": "Estimate your Blood Alcohol Content (BAC) using the Widmark formula. Enter your weight, sex, drink details, and time to get an approximate BAC level with impairment descriptions.",
+      "topIntro": "Estimate your Blood Alcohol Content (BAC) using the Widmark formula. Enter your weight, sex, drink details, and time to get an approximate BAC level with impairment descriptions.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "BMR Calculator",
+          "href": "/tools/bmr-calculator"
+        },
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "Body Fat Calculator",
+          "href": "/tools/body-fat-calculator"
+        }
+      ],
+      "keywords": [
+        "blood alcohol calculator",
+        "bac calculator",
+        "blood alcohol content calculator",
+        "alcohol calculator",
+        "drink calculator",
+        "bac estimator",
+        "widmark formula calculator",
+        "how many drinks to reach 0.08",
+        "alcohol impairment calculator",
+        "time until sober calculator"
+      ]
+    },
+    {
+      "slug": "walking-calorie-calculator",
+      "finalUrl": "/tools/walking-calorie-calculator",
+      "description": "Calculate how many calories you burn walking based on your weight, speed, duration, distance, and incline. Uses MET-based formulas for accurate estimates.",
+      "topIntro": "Calculate how many calories you burn walking based on your weight, speed, duration, distance, and incline. Uses MET-based formulas for accurate estimates.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        },
+        {
+          "name": "Body Fat Calculator",
+          "href": "/tools/body-fat-calculator"
+        }
+      ],
+      "keywords": [
+        "walking calorie calculator",
+        "calories burned walking",
+        "walking calories per mile",
+        "walking exercise calculator",
+        "how many calories does walking burn",
+        "walking weight loss calculator",
+        "steps calorie calculator"
+      ]
+    },
+    {
+      "slug": "calorie-burn-calculator",
+      "finalUrl": "/tools/calorie-burn-calculator",
+      "description": "Calculate how many calories you burn during exercise and daily activities. Select from 30+ activities with MET-based calculations, compare food equivalents, and track multiple activities.",
+      "topIntro": "Calculate how many calories you burn during exercise and daily activities. Select from 30+ activities with MET-based calculations, compare food equivalents, and track multiple activities.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "TDEE Calculator",
+          "href": "/tools/tdee-calculator"
+        },
+        {
+          "name": "Macro Calculator",
+          "href": "/tools/macro-calculator"
+        }
+      ],
+      "keywords": [
+        "calorie burn calculator",
+        "exercise calorie calculator",
+        "calories burned calculator",
+        "activity calorie calculator",
+        "MET calculator",
+        "workout calorie counter",
+        "calories burned running",
+        "calories burned walking"
+      ]
+    },
+    {
+      "slug": "pace-calculator",
+      "finalUrl": "/tools/pace-calculator",
+      "description": "Calculate running pace, finish time, or distance. Supports miles and kilometers with race distance presets.",
+      "topIntro": "Calculate running pace, finish time, or distance. Supports miles and kilometers with race distance presets.",
+      "faqs": [],
+      "relatedTools": [
+        {
+          "name": "Calorie Calculator",
+          "href": "/tools/calorie-calculator"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Unit Converter",
+          "href": "/tools/unit-converter"
+        }
+      ],
+      "keywords": [
+        "pace calculator",
+        "running pace calculator",
+        "run time calculator",
+        "pace per mile calculator",
+        "marathon pace calculator"
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "slug": "pregnancy-calculator",
+      "statusCode": 404,
+      "finalUrl": "/tools/pregnancy-calculator-calculator"
+    },
+    {
+      "slug": "1rm-calculator",
+      "statusCode": 404,
+      "finalUrl": "/tools/1rm-calculator-calculator"
+    }
+  ]
+}
