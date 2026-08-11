@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 import Nav from "@/components/Nav";
@@ -79,6 +80,7 @@ export default async function LocaleLayout({
       <Nav />
       <main className="flex-1">{children}</main>
       <Footer />
+      <Analytics />
 
       {/* Organization schema */}
       <Script
