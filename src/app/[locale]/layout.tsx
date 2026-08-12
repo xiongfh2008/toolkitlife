@@ -42,6 +42,11 @@ export async function generateMetadata({
       index: true,
       follow: true,
     },
+    verification: {
+      other: {
+        "msvalidate.01": "637B49DDC622A1D04AD4DDB6345E9C65",
+      },
+    },
     alternates: {
       canonical: "https://toolkitlife.com",
       languages: {
