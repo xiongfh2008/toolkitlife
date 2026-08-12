@@ -9,6 +9,7 @@ import "../globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import HtmlLang from "@/components/HtmlLang";
+import GtagTracker from "@/components/GtagTracker";
 
 export async function generateMetadata({
   params,
@@ -86,6 +87,22 @@ export default async function LocaleLayout({
       <main className="flex-1">{children}</main>
       <Footer />
       <Analytics />
+      <GtagTracker />
+
+      {/* Google tag (gtag.js) */}
+      <Script
+        id="gtag"
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-G9NQ7EZTB8"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-G9NQ7EZTB8');
+        `}
+      </Script>
 
       {/* Organization schema */}
       <Script
