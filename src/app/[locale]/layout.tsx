@@ -82,6 +82,10 @@ export default async function LocaleLayout({
         {`(function(){try{var s=localStorage.getItem("toolkitlife-theme");var d=s?s==="dark":window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(d)document.documentElement.classList.add("dark");}catch(e){}})();`}
       </Script>
       <HtmlLang locale={locale} />
+      {/* Preview-demo banner: only on the preview-demo branch, removed before merge */}
+      <div className="bg-amber-500 px-4 py-2 text-center text-sm font-semibold text-black">
+        PREVIEW BUILD — 这是 Preview 环境演示，正式站不受影响
+      </div>
       <Nav />
       <main className="flex-1">{children}</main>
       <Footer />
