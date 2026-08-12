@@ -93,14 +93,14 @@ export default async function LocaleLayout({
       <Script
         id="gtag"
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-G9NQ7EZTB8"
+        src="https://www.googletagmanager.com/gtag/js?id=G-JL8M403PXS"
       />
       <Script id="gtag-init" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-G9NQ7EZTB8');
+          gtag('config', 'G-JL8M403PXS');
         `}
       </Script>
 
