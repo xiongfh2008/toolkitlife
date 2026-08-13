@@ -1333,6 +1333,12 @@
         "category": "Utility",
         "icon": "🔊"
       },
+      "screen-color-picker": {
+        "name": "화면 색상 선택기",
+        "description": "이미지 업로드 없이 화면의 어느 위치에서든 원클릭으로 색상을 추출합니다. HEX·RGB·HSL을 복사할 수 있습니다.",
+        "category": "Design",
+        "icon": "🎨"
+      },
       "multiavatar-avatar-generator": {
         "name": "Multiavatar 아바타 생성기",
         "description": "어떤 텍스트로든 독특한 다문화 아바타를 생성합니다. 120억+ 가지 조합 — 프로필 사진, 게임 로고, identicon에 적합합니다.",
@@ -3412,6 +3418,78 @@
             "JPEG는 동영상형 GIF의 스틸에 적합하지만 투명도는 지원하지 않습니다."
           ]
         }
+      }
+    },
+    "screen-color-picker": {
+      "metadata": {
+        "title": "화면 색상 선택기 - 무료 온라인 도구",
+        "description": "이미지 업로드 없이 화면의 어느 위치에서든 원클릭으로 색상을 추출합니다. HEX·RGB·HSL 값을 즉시 복사하세요. Chrome·Edge·Safari에서 지원됩니다."
+      },
+      "title": "화면 색상 선택기",
+      "description": "버튼을 클릭하고 화면의 어느 위치든 — 다른 앱도 포함해 — 클릭하면 정확한 색상을 추출합니다. HEX, RGB, HSL 형식으로 즉시 복사하세요. 이미지 업로드 없음, 가입 없음.",
+      "category": "디자인",
+      "keywords": [
+        "화면 색상 선택기",
+        "색상 선택기",
+        "스포이드",
+        "화면 색상 추출",
+        "HEX 색상",
+        "온라인 색상 선택기"
+      ],
+      "faqs": [
+        {
+          "question": "브라우저 창 밖의 색상도 추출할 수 있나요?",
+          "answer": "네. 이 도구는 운영체제 기본 스포이드를 사용하므로 화면의 어느 위치든 — 다른 앱, 작업 표시줄, 배경화면까지 — 클릭하면 정확한 색상을 얻을 수 있습니다."
+        },
+        {
+          "question": "버튼이 비활성화된 이유는 무엇인가요?",
+          "answer": "스포이드는 브라우저의 EyeDropper API가 필요하며 Chrome, Edge, Opera, Safari 17.2+에서 지원됩니다. Firefox와 일부 구형 브라우저는 아직 미지원입니다 — Chrome, Edge 또는 최신 Safari를 사용해 주세요."
+        },
+        {
+          "question": "색상 데이터가 어디로 전송되나요?",
+          "answer": "아니요. 모든 작업은 브라우저에서 로컬로 처리됩니다. 추출한 색상은 다음 방문 시 표시되도록 브라우저 localStorage에만 저장되며, 절대 전송되지 않습니다."
+        },
+        {
+          "question": "이미지 색상 선택기와의 차이는 무엇인가요?",
+          "answer": "이미지 색상 선택기는 업로드한 이미지 안에서 색상을 추출합니다. 이 화면 선택기는 업로드 없이 실제 화면에서 색상을 가져옵니다 — 화면에서 본 색상을 그대로 맞추고 싶을 때 사용하세요."
+        },
+        {
+          "question": "색상은 어떻게 복사하나요?",
+          "answer": "추출 후 현재 색상이 HEX, RGB, HSL 세 가지 형식으로 표시되며 각각 원클릭 복사 버튼이 있습니다. 최근 추출한 색상은 아래 스와치에 표시되어 클릭하면 다시 볼 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 색상 선택기",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "대비 확인 도구",
+          "href": "/tools/color-contrast-checker"
+        },
+        {
+          "name": "이미지 팔레트",
+          "href": "/tools/image-palette"
+        }
+      ],
+      "guide": {
+        "heading": "사용 방법:",
+        "steps": [
+          "\"화면에서 색상 추출\"을 클릭하세요.",
+          "화면의 어느 위치든 클릭해 색상을 추출하세요.",
+          "HEX, RGB, HSL 값을 원클릭으로 복사하세요.",
+          "최근 추출한 색상은 다음 방문 시에도 저장되어 있습니다."
+        ]
+      },
+      "ui": {
+        "pickButton": "화면에서 색상 추출",
+        "picking": "화면의 아무 곳이나 클릭하세요…",
+        "hint": "버튼을 클릭한 뒤 화면의 아무 곳이나 클릭하세요 — 다른 창도 포함됩니다.",
+        "unsupported": "이 브라우저는 화면 색상 추출을 지원하지 않습니다. Chrome, Edge, Opera 또는 Safari 17.2+를 사용해 주세요.",
+        "pickedColor": "추출한 색상",
+        "recentPicks": "최근 색상",
+        "copy": "복사",
+        "clear": "지우기"
       }
     },
     "multiavatar-avatar-generator": {

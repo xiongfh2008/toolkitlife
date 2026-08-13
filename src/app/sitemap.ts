@@ -19,6 +19,7 @@ const tools = [
   "uuid-generator",
   "word-counter",
   "image-color-picker",
+  "screen-color-picker",
   "aspect-ratio-calculator",
   "unit-converter",
   "regex-tester",

@@ -1333,6 +1333,12 @@
         "category": "Utility",
         "icon": "🔊"
       },
+      "screen-color-picker": {
+        "name": "屏幕取色器",
+        "description": "一键拾取屏幕任意位置的颜色，无需上传图片。可复制 Hex、RGB、HSL 颜色编码。",
+        "category": "Design",
+        "icon": "🎨"
+      },
       "multiavatar-avatar-generator": {
         "name": "Multiavatar 头像生成器",
         "description": "根据任意文字生成独特的多元文化头像。120 亿+ 组合——适合头像、游戏 Logo 和身份标识图。",
@@ -3412,6 +3418,78 @@
             "JPEG 适合从视频类 GIF 提取的静态图，但不支持透明。"
           ]
         }
+      }
+    },
+    "screen-color-picker": {
+      "metadata": {
+        "title": "屏幕取色器 - 免费在线工具",
+        "description": "一键拾取屏幕任意位置的颜色，无需上传图片。即时复制 Hex、RGB、HSL 编码。支持 Chrome、Edge 和 Safari。"
+      },
+      "title": "屏幕取色器",
+      "description": "点击按钮，再点击屏幕任意位置——包括其他应用——即可获取精确颜色，并一键复制为 Hex、RGB 或 HSL 编码。无需上传图片，无需注册。",
+      "category": "设计",
+      "keywords": [
+        "屏幕取色",
+        "取色器",
+        "吸管工具",
+        "屏幕取色工具",
+        "十六进制颜色",
+        "在线取色器"
+      ],
+      "faqs": [
+        {
+          "question": "可以拾取浏览器窗口之外的颜色吗？",
+          "answer": "可以。本工具调用系统内置的取色器，你可以点击屏幕上的任意位置——包括其他应用、任务栏或壁纸——并获取精确的颜色。"
+        },
+        {
+          "question": "为什么我的按钮是禁用的？",
+          "answer": "取色功能依赖浏览器的 EyeDropper API，目前支持 Chrome、Edge、Opera 和 Safari 17.2+。Firefox 和一些旧版浏览器暂不支持——请使用 Chrome、Edge 或新版 Safari。"
+        },
+        {
+          "question": "颜色数据会被发送到服务器吗？",
+          "answer": "不会。一切都在浏览器本地完成。你拾取的颜色仅存储在浏览器的 localStorage 中以便下次访问时保留，绝不会被传输。"
+        },
+        {
+          "question": "和图片取色器有什么区别？",
+          "answer": "图片取色器是在上传的图片内部取色。屏幕取色器无需上传，直接从你的显示屏上取色——适合匹配你在屏幕上看到的任意颜色。"
+        },
+        {
+          "question": "如何复制颜色？",
+          "answer": "取色后，当前颜色会显示 Hex、RGB、HSL 三个值，各有复制按钮。最近的取色会显示在下方色块中，点击即可再次查看。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片取色器",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "颜色对比度检查",
+          "href": "/tools/color-contrast-checker"
+        },
+        {
+          "name": "图片调色板",
+          "href": "/tools/image-palette"
+        }
+      ],
+      "guide": {
+        "heading": "使用方法：",
+        "steps": [
+          "点击\"从屏幕拾取颜色\"。",
+          "点击屏幕任意位置取色。",
+          "一键复制 Hex、RGB 或 HSL 值。",
+          "最近取色会自动保存，下次访问仍可查看。"
+        ]
+      },
+      "ui": {
+        "pickButton": "从屏幕拾取颜色",
+        "picking": "点击屏幕任意位置…",
+        "hint": "先点击按钮，再点击屏幕任意位置——包括其他窗口。",
+        "unsupported": "您的浏览器不支持屏幕取色。请使用 Chrome、Edge、Opera 或 Safari 17.2+。",
+        "pickedColor": "拾取的颜色",
+        "recentPicks": "最近取色",
+        "copy": "复制",
+        "clear": "清除"
       }
     },
     "multiavatar-avatar-generator": {

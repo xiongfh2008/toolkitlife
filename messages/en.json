@@ -1333,6 +1333,12 @@
         "category": "Utility",
         "icon": "🔊"
       },
+      "screen-color-picker": {
+        "name": "Screen Color Picker",
+        "description": "Pick any color from your screen with one click. No image upload needed — sample colors from anywhere on your display.",
+        "category": "Design",
+        "icon": "🎨"
+      },
       "multiavatar-avatar-generator": {
         "name": "Multiavatar Avatar Generator",
         "description": "Generate a unique multicultural avatar from any text. 12+ billion combinations — perfect for profile pictures, gaming logos, and identicons.",
@@ -3374,6 +3380,78 @@
             "JPEG works well for stills from video-like GIFs, but has no transparency."
           ]
         }
+      }
+    },
+    "screen-color-picker": {
+      "metadata": {
+        "title": "Screen Color Picker - Free Online Tool",
+        "description": "Pick any color from your screen with one click. No image upload needed. Copy Hex, RGB, and HSL values instantly. Works in Chrome, Edge, and Safari."
+      },
+      "title": "Screen Color Picker",
+      "description": "Click a button, then click anywhere on your screen — including other apps — to grab the exact color. Copy it as Hex, RGB, or HSL instantly. No image upload, no signup.",
+      "category": "Design",
+      "keywords": [
+        "screen color picker",
+        "color picker",
+        "eyedropper",
+        "pick color from screen",
+        "hex color",
+        "online color picker"
+      ],
+      "faqs": [
+        {
+          "question": "Can I pick colors outside the browser window?",
+          "answer": "Yes. This tool uses your system's built-in eyedropper, so you can click anywhere on your screen — including other applications, the taskbar, or your wallpaper — and it will return the exact color."
+        },
+        {
+          "question": "Why is the button disabled for me?",
+          "answer": "The eyedropper requires the browser's EyeDropper API, supported by Chrome, Edge, Opera, and Safari 17.2+. Firefox and some older browsers don't support it yet — switch to Chrome, Edge, or a recent Safari to use this tool."
+        },
+        {
+          "question": "Is the color data sent anywhere?",
+          "answer": "No. Everything runs locally in your browser. Your picked colors are only stored in your browser's localStorage so your recent picks persist between visits — they are never transmitted."
+        },
+        {
+          "question": "What's the difference from Image Color Picker?",
+          "answer": "Image Color Picker samples colors inside an uploaded picture. This screen picker grabs colors from your actual display without any upload — use it when you want to match a color you see anywhere on your screen."
+        },
+        {
+          "question": "How do I copy a color?",
+          "answer": "After picking, the current color shows Hex, RGB, and HSL values, each with a one-click copy button. Your recent picks appear below as swatches you can click to recall."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Color Picker",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "Color Contrast Checker",
+          "href": "/tools/color-contrast-checker"
+        },
+        {
+          "name": "Image Palette",
+          "href": "/tools/image-palette"
+        }
+      ],
+      "guide": {
+        "heading": "How to use:",
+        "steps": [
+          "Click \"Pick Color from Screen\".",
+          "Click anywhere on your screen to sample a color.",
+          "Copy the Hex, RGB, or HSL value with one click.",
+          "Your recent picks are saved for the next visit."
+        ]
+      },
+      "ui": {
+        "pickButton": "Pick Color from Screen",
+        "picking": "Click anywhere on your screen…",
+        "hint": "Click the button, then click anywhere on your screen — other windows included.",
+        "unsupported": "Your browser doesn't support screen color picking. Please use Chrome, Edge, Opera, or Safari 17.2+.",
+        "pickedColor": "Picked Color",
+        "recentPicks": "Recent Colors",
+        "copy": "Copy",
+        "clear": "Clear"
       }
     },
     "multiavatar-avatar-generator": {
