@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
-import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
-import Link from "next/link";
+import BlogLayout from "@/components/BlogLayout";
 import { getPostMeta } from "@/data/blog-posts";
+import { ogImageUrl } from "@/lib/og";
+import { blogContent } from "@/data/blog-content";
 
 const slug = "how-to-convert-pdf-to-word";
 const meta = getPostMeta(slug);
@@ -11,6 +12,7 @@ const basePost = {
   slug,
   datePublished: meta.datePublished,
   dateModified: meta.dateModified,
+  author: meta.author,
   tags: meta.tags,
   faqs: [
     { question: "Can I convert a PDF to Word for free?", answer: "Yes. Several tools offer free PDF to Word conversion. Browser-based tools process the file locally on your device, so there's no upload and no file size limit. The output is a .doc file that opens in Microsoft Word, Google Docs, and LibreOffice." },
@@ -27,53 +29,27 @@ const basePost = {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const post = await getTranslatedPost(locale, slug, basePost);
+  const url = `https://toolkitlife.com/${locale}/blog/${post.slug}`;
+  const ogImage = ogImageUrl({ title: post.title, type: "blog" });
   return {
     title: `${post.title} — ToolkitLife`,
     description: post.description,
-    alternates: { canonical: `https://toolkitlife.com/blog/${post.slug}` },
-    openGraph: { title: post.title, description: post.description, url: `https://toolkitlife.com/blog/${post.slug}`, siteName: "ToolkitLife", type: "article", publishedTime: post.datePublished, modifiedTime: post.dateModified, tags: post.tags },
-    twitter: { card: "summary_large_image", title: post.title, description: post.description },
+    alternates: { canonical: url },
+    openGraph: { title: post.title, description: post.description, url, siteName: "ToolkitLife", type: "article", publishedTime: post.datePublished, modifiedTime: post.dateModified, tags: post.tags, images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }] },
+    twitter: { card: "summary_large_image", title: post.title, description: post.description, images: [ogImage] },
   };
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const post = await getTranslatedPost(locale, slug, basePost);
+  const localized = blogContent[slug];
+  const localeKey = (
+    Object.prototype.hasOwnProperty.call(localized.faqs, locale) ? locale : "en"
+  ) as keyof typeof localized.faqs;
   return (
-    <BlogLayout post={post}>
-      <aside aria-label="Summary" className="bg-zinc-800/50 border border-zinc-700 rounded-xl p-5 mb-8">
-        <p><strong>TL;DR:</strong> PDF to Word conversion extracts text from a PDF and puts it into an editable document format. Works best with text-based PDFs (not scanned images). Simple documents convert well; complex layouts may need manual cleanup. Use a browser-based converter to keep sensitive documents private.</p>
-      </aside>
-
-      <section>
-        <h2>Why Convert PDF to Word</h2>
-        <p>PDFs are designed to look the same everywhere, but they&apos;re not designed to be edited. When you need to modify text in a PDF, the fastest approach is converting it to a Word document, making your changes, and then exporting back to PDF if needed.</p>
-        <p>Common scenarios: editing a contract, updating a resume originally saved as PDF, extracting content from a report, or repurposing text from a document you received.</p>
-      </section>
-
-      <section>
-        <h2>Text-Based vs Scanned PDFs</h2>
-        <p><strong>Text-based PDFs</strong> were created digitally from Word, Google Docs, LaTeX, or similar tools. The text is stored as actual text data inside the file. These convert cleanly and accurately.</p>
-        <p><strong>Scanned PDFs</strong> are essentially images of paper documents. Each page is a photograph. A standard PDF-to-Word converter can&apos;t extract text from these because there is no text data, only pixels. You need OCR (Optical Character Recognition) to read the text from the image first.</p>
-        <p>To check which type you have: open the PDF and try selecting text with your cursor. If you can highlight individual words, it&apos;s text-based. If the whole page selects as one block (or nothing selects), it&apos;s scanned.</p>
-      </section>
-
-      <section>
-        <h2>What to Expect from Conversion</h2>
-        <ul>
-          <li><strong>Text content:</strong> Extracted accurately in almost all cases.</li>
-          <li><strong>Paragraphs and line breaks:</strong> Preserved well for simple documents.</li>
-          <li><strong>Tables:</strong> May be converted to plain text. Complex table layouts often need manual re-creation.</li>
-          <li><strong>Images:</strong> Not extracted by basic converters. You may need to copy images separately.</li>
-          <li><strong>Fonts and styling:</strong> Basic bold/italic may be preserved. Exact font matching depends on what fonts are installed on your system.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Convert PDF to Word for Free</h2>
-        <p>Our <Link href="/tools/pdf-to-word" className="text-blue-400 hover:text-blue-300">free PDF to Word Converter</Link> extracts text from any text-based PDF and generates a .doc file that opens in Word, Google Docs, or LibreOffice. Processing happens entirely in your browser using PDF.js. No upload, no signup, no file size limits.</p>
-        <ToolCTA name="PDF to Word Converter" href="/tools/pdf-to-word" description="Extract text from any PDF and download as a .doc file. Uses PDF.js — your document never leaves your device." />
-      </section>
+    <BlogLayout post={{ ...post, faqs: localized.faqs[localeKey] }}>
+      {localized[localeKey]}
     </BlogLayout>
   );
 }

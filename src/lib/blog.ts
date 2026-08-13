@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 
 export interface BaseBlogPost {
   slug: string;
+  author: string;
   datePublished: string;
   dateModified: string;
   tags: string[];

@@ -24,7 +24,8 @@
   "nav": {
     "home": "ToolkitLife",
     "allTools": "All Tools",
-    "blog": "Blog"
+    "blog": "Blog",
+    "menu": "Menu"
   },
   "footer": {
     "brand": "ToolkitLife",
@@ -1332,6 +1333,12 @@
         "category": "Utility",
         "icon": "🔊"
       },
+      "multiavatar-avatar-generator": {
+        "name": "Multiavatar Avatar Generator",
+        "description": "Generate a unique multicultural avatar from any text. 12+ billion combinations — perfect for profile pictures, gaming logos, and identicons.",
+        "category": "Design",
+        "icon": "🧑‍🎨"
+      },
       "video-compressor": {
         "name": "Video Compressor",
         "description": "Compress video files for free. Reduce MP4, WebM, and MOV file size with adjustable quality. No upload, no signup — runs entirely in your browser.",
@@ -1764,6 +1771,7 @@
     "viewAll": "View all",
     "browseAll": "Browse all tools",
     "clearHistory": "Clear",
+    "searchHistory": "Recent Searches",
     "emptyFavorites": "No favorites yet — click the star on any tool to save it here.",
     "heroBadge": "280 free online tools & calculators"
   },
@@ -3366,6 +3374,74 @@
             "JPEG works well for stills from video-like GIFs, but has no transparency."
           ]
         }
+      }
+    },
+    "multiavatar-avatar-generator": {
+      "metadata": {
+        "title": "Multiavatar Avatar Generator - Free Online Tool",
+        "description": "Generate a unique multicultural avatar from any text. 12+ billion combinations, works fully in your browser. Download as SVG or PNG — no upload, no signup."
+      },
+      "title": "Multiavatar Avatar Generator",
+      "description": "Generate a unique multicultural avatar from any text. Every string produces its own distinct avatar — perfect for profile pictures, gaming logos, and identicons. Runs entirely in your browser.",
+      "category": "Design",
+      "keywords": [
+        "avatar generator",
+        "multicultural avatar",
+        "avatar maker",
+        "identicon",
+        "profile picture generator",
+        "unique avatar"
+      ],
+      "faqs": [
+        {
+          "question": "Does the same text always produce the same avatar?",
+          "answer": "Yes. Multiavatar works like an identicon — the text is hashed into a set of numbers that pick the avatar's parts. Type the same text again and you get the exact same avatar every time."
+        },
+        {
+          "question": "Are my avatars uploaded to a server?",
+          "answer": "No. The generator runs entirely in your browser using a small client-side library. Nothing you type is ever sent anywhere, and no data is stored."
+        },
+        {
+          "question": "Can I use the generated avatars commercially?",
+          "answer": "Yes, the Multiavatar library is free for commercial use. Generated avatars may be used on websites, apps, products, and social profiles without restriction."
+        },
+        {
+          "question": "What download formats are available?",
+          "answer": "SVG for a scalable vector image (crisp at any size) and PNG at 512x512 for easy use on websites, apps, and social profiles. Toggle \"Remove background circle\" for a head-only avatar."
+        },
+        {
+          "question": "How many unique avatars exist?",
+          "answer": "The algorithm combines 48 base designs into 48^6 = 12,230,590,464 possible avatars. Some parts are intentionally similar, but every text string maps to its own distinct avatar."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon Generator",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Emoji Picker",
+          "href": "/tools/emoji-picker"
+        }
+      ],
+      "guide": {
+        "heading": "How to use:",
+        "steps": [
+          "Type any text — your name, username, or a random string.",
+          "Watch the avatar update instantly. Hit \"Shuffle\" for a random one.",
+          "Optionally remove the background circle.",
+          "Download as SVG or PNG."
+        ]
+      },
+      "ui": {
+        "seedLabel": "Your text",
+        "placeholder": "Type any text to create your avatar…",
+        "shuffle": "Shuffle",
+        "downloadSvg": "Download SVG",
+        "downloadPng": "Download PNG",
+        "sansEnv": "Remove background circle",
+        "hint": "The same text always generates the same avatar — like a fingerprint for your name.",
+        "loading": "Generating…"
       }
     },
     "video-compressor": {
@@ -30619,7 +30695,8 @@
     "breadcrumbBlog": "Blog",
     "faqTitle": "FAQ",
     "relatedToolsTitle": "Related Tools",
-    "relatedArticlesTitle": "Related Articles"
+    "relatedArticlesTitle": "Related Articles",
+    "tryCta": "Try {name}"
   },
   "blogIndex": {
     "metadata": {

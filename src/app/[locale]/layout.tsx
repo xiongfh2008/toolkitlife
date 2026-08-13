@@ -5,6 +5,7 @@ import { getMessages, getTranslations } from "next-intl/server";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { routing } from "@/i18n/routing";
+import { ogImageUrl } from "@/lib/og";
 import "../globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -18,6 +19,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
+  const baseUrl = `https://toolkitlife.com/${locale}`;
+  const ogImage = ogImageUrl({ type: "home" });
 
   return {
     metadataBase: new URL("https://toolkitlife.com"),
@@ -31,13 +34,15 @@ export async function generateMetadata({
       title: t("ogTitle"),
       description: t("ogDescription"),
       type: "website",
-      url: "https://toolkitlife.com",
+      url: baseUrl,
       siteName: "ToolkitLife",
+      images: [{ url: ogImage, width: 1200, height: 630, alt: "ToolkitLife" }],
     },
     twitter: {
       card: "summary_large_image",
       title: t("twitterTitle"),
       description: t("twitterDescription"),
+      images: [ogImage],
     },
     robots: {
       index: true,
@@ -49,7 +54,7 @@ export async function generateMetadata({
       },
     },
     alternates: {
-      canonical: "https://toolkitlife.com",
+      canonical: baseUrl,
       languages: {
         en: "https://toolkitlife.com/en",
         zh: "https://toolkitlife.com/zh",

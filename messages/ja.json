@@ -24,7 +24,8 @@
   "nav": {
     "home": "ToolkitLife",
     "allTools": "すべてのツール",
-    "blog": "ブログ"
+    "blog": "ブログ",
+    "menu": "メニュー"
   },
   "footer": {
     "brand": "ToolkitLife",
@@ -1332,6 +1333,12 @@
         "category": "Utility",
         "icon": "🔊"
       },
+      "multiavatar-avatar-generator": {
+        "name": "Multiavatarアバター生成",
+        "description": "任意のテキストから多文化的なユニークなアバターを生成。120億以上の組み合わせ——プロフィール写真やゲームロゴ、identiconに最適。",
+        "category": "Design",
+        "icon": "🧑‍🎨"
+      },
       "video-compressor": {
         "name": "動画圧縮",
         "description": "動画ファイルを無料で圧縮。MP4、WebM、MOVのファイルサイズを画質調整で削減。アップロード不要、登録不要——ブラウザで完結。",
@@ -1764,6 +1771,7 @@
     "viewAll": "すべて表示",
     "browseAll": "全ツールを見る",
     "clearHistory": "クリア",
+    "searchHistory": "検索履歴",
     "emptyFavorites": "まだお気に入りはありません。ツールの星をクリックすると保存されます。",
     "heroBadge": "280の無料オンラインツールと計算機"
   },
@@ -3404,6 +3412,74 @@
             "JPEGは動画風GIFの静止画に適しますが、透明には非対応です。"
           ]
         }
+      }
+    },
+    "multiavatar-avatar-generator": {
+      "metadata": {
+        "title": "Multiavatarアバター生成 - 無料オンラインツール",
+        "description": "任意のテキストから多文化的なユニークなアバターを生成。120億以上の組み合わせ、すべてブラウザ内で完結。SVGまたはPNGでダウンロード——アップロード不要、登録不要。"
+      },
+      "title": "Multiavatarアバター生成",
+      "description": "任意のテキストから多文化的なユニークなアバターを生成。すべての文字列が独自のアバターを生み出します——プロフィール写真、ゲームロゴ、identiconに最適。ブラウザ内で完結。",
+      "category": "デザイン",
+      "keywords": [
+        "アバター生成",
+        "多文化アバター",
+        "アバターメーカー",
+        "identicon",
+        "プロフィール写真生成",
+        "ユニークなアバター"
+      ],
+      "faqs": [
+        {
+          "question": "同じテキストなら常に同じアバターになりますか？",
+          "answer": "はい。Multiavatarはidenticonのように機能します——テキストがハッシュ化されて一連の数値になり、アバターの各パーツが選ばれます。同じテキストを入力すれば、毎回まったく同じアバターが生成されます。"
+        },
+        {
+          "question": "アバターはサーバーにアップロードされますか？",
+          "answer": "いいえ。生成は小さなクライアントサイドのライブラリでブラウザ内のみで完結します。入力した内容が外部に送信されることはなく、データも保存されません。"
+        },
+        {
+          "question": "生成したアバターは商用利用できますか？",
+          "answer": "はい。Multiavatarライブラリは商用利用も無料です。生成したアバターは、ウェブサイト、アプリ、製品、SNSプロフィールで制限なく使用できます。"
+        },
+        {
+          "question": "対応しているダウンロード形式は？",
+          "answer": "SVGはどんなサイズでも鮮明なスケーラブルなベクター画像、PNGは512×512でWebサイトやアプリ、SNSのプロフィールに便利です。「背景の円を消す」をオンにすると頭部だけのアバターも生成できます。"
+        },
+        {
+          "question": "ユニークなアバターは何種類ありますか？",
+          "answer": "アルゴリズムは48の基本デザインを組み合わせ、48^6 = 12,230,590,464通りのアバターを生成します。一部のパーツは意図的に似せてありますが、すべてのテキスト文字列に独自のアバターが対応します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon生成",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "絵文字ピッカー",
+          "href": "/tools/emoji-picker"
+        }
+      ],
+      "guide": {
+        "heading": "使い方：",
+        "steps": [
+          "任意のテキストを入力——名前、ユーザー名、またはランダムな文字列。",
+          "アバターが即座に更新されます。「シャッフル」でランダムに変更。",
+          "必要に応じて背景の円を削除。",
+          "SVGまたはPNGでダウンロード。"
+        ]
+      },
+      "ui": {
+        "seedLabel": "テキスト",
+        "placeholder": "テキストを入力してアバターを作成…",
+        "shuffle": "シャッフル",
+        "downloadSvg": "SVGをダウンロード",
+        "downloadPng": "PNGをダウンロード",
+        "sansEnv": "背景の円を消す",
+        "hint": "同じテキストは常に同じアバターを生成します——あなたの名前の指紋のようなもの。",
+        "loading": "生成中…"
       }
     },
     "video-compressor": {
@@ -30237,7 +30313,8 @@
     "breadcrumbBlog": "ブログ",
     "faqTitle": "よくある質問",
     "relatedToolsTitle": "関連ツール",
-    "relatedArticlesTitle": "関連記事"
+    "relatedArticlesTitle": "関連記事",
+    "tryCta": "{name}を無料で試す"
   },
   "blogIndex": {
     "metadata": {

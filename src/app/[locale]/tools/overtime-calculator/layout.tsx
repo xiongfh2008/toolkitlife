@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { ogImageUrl } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -10,8 +11,10 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.overtime-calculator.metadata" });
   return {
     title: t("title"),
+    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
-    alternates: { canonical: "https://toolkitlife.com/tools/overtime-calculator" },
+    alternates: { canonical: `https://toolkitlife.com/${locale}/tools/overtime-calculator` },
   };
 }
 

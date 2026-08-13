@@ -24,7 +24,8 @@
   "nav": {
     "home": "ToolkitLife",
     "allTools": "全部工具",
-    "blog": "博客"
+    "blog": "博客",
+    "menu": "菜单"
   },
   "footer": {
     "brand": "ToolkitLife",
@@ -1332,6 +1333,12 @@
         "category": "Utility",
         "icon": "🔊"
       },
+      "multiavatar-avatar-generator": {
+        "name": "Multiavatar 头像生成器",
+        "description": "根据任意文字生成独特的多元文化头像。120 亿+ 组合——适合头像、游戏 Logo 和身份标识图。",
+        "category": "Design",
+        "icon": "🧑‍🎨"
+      },
       "video-compressor": {
         "name": "视频压缩器",
         "description": "免费压缩视频文件。以可调节的质量减小 MP4、WebM 和 MOV 的文件大小。无需上传、无需注册——全部在浏览器中运行。",
@@ -1764,6 +1771,7 @@
     "viewAll": "查看全部",
     "browseAll": "浏览全部工具",
     "clearHistory": "清除",
+    "searchHistory": "搜索历史",
     "emptyFavorites": "还没有收藏——点击任意工具上的星标即可收藏到这里。",
     "heroBadge": "280 个免费在线工具与计算器"
   },
@@ -3404,6 +3412,74 @@
             "JPEG 适合从视频类 GIF 提取的静态图，但不支持透明。"
           ]
         }
+      }
+    },
+    "multiavatar-avatar-generator": {
+      "metadata": {
+        "title": "Multiavatar 头像生成器 - 免费在线工具",
+        "description": "根据任意文字生成独特的多元文化头像。120 亿+ 组合，完全在浏览器中运行。可下载为 SVG 或 PNG——无需上传、无需注册。"
+      },
+      "title": "Multiavatar 头像生成器",
+      "description": "根据任意文字生成独特的多元文化头像。每个字符串都会产生独一无二的头像——适合社交头像、游戏 Logo 和身份标识图。完全在浏览器中运行。",
+      "category": "设计",
+      "keywords": [
+        "头像生成器",
+        "多元文化头像",
+        "头像制作",
+        "identicon",
+        "头像图片生成",
+        "独特头像"
+      ],
+      "faqs": [
+        {
+          "question": "相同的文字总是生成相同的头像吗？",
+          "answer": "是的。Multiavatar 的工作原理类似身份标识图（identicon）——文字会被哈希成一组数字，用于选择头像的各个部件。输入相同的文字，每次都会得到完全相同的头像。"
+        },
+        {
+          "question": "生成的头像会上传到服务器吗？",
+          "answer": "不会。生成过程完全在浏览器中通过一个小型客户端库完成。你输入的内容不会被发送到任何地方，也不会存储任何数据。"
+        },
+        {
+          "question": "生成的头像可以商用吗？",
+          "answer": "可以。Multiavatar 库免费用于商业用途。生成的头像可以不受限制地用于网站、应用、产品和社交平台。"
+        },
+        {
+          "question": "支持哪些下载格式？",
+          "answer": "SVG 是无限缩放的矢量图（任何尺寸都清晰），PNG 为 512×512，方便用于网站、应用和社交平台。勾选\"去掉背景圆环\"可生成只有头部的头像。"
+        },
+        {
+          "question": "一共有多少种独特头像？",
+          "answer": "算法将 48 个基础设计组合为 48^6 = 12,230,590,464 种可能的头像。部分部件刻意保持相似，但每个文字字符串都会对应一个独特的头像。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon 图标生成器",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Emoji 选择器",
+          "href": "/tools/emoji-picker"
+        }
+      ],
+      "guide": {
+        "heading": "使用方法：",
+        "steps": [
+          "输入任意文字——名字、用户名或随机字符串。",
+          "头像会即时更新。点击\"随机\"可随机换一个。",
+          "可选：去掉背景圆环。",
+          "下载为 SVG 或 PNG。"
+        ]
+      },
+      "ui": {
+        "seedLabel": "输入文字",
+        "placeholder": "输入任意文字创建你的头像…",
+        "shuffle": "随机",
+        "downloadSvg": "下载 SVG",
+        "downloadPng": "下载 PNG",
+        "sansEnv": "去掉背景圆环",
+        "hint": "相同的文字总是生成相同的头像——就像你名字的指纹。",
+        "loading": "生成中…"
       }
     },
     "video-compressor": {
@@ -30389,7 +30465,8 @@
     "breadcrumbBlog": "博客",
     "faqTitle": "常见问题",
     "relatedToolsTitle": "相关工具",
-    "relatedArticlesTitle": "相关文章"
+    "relatedArticlesTitle": "相关文章",
+    "tryCta": "免费使用{name}"
   },
   "blogIndex": {
     "metadata": {

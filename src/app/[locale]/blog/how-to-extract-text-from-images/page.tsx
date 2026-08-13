@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
-import BlogLayout, { ToolCTA } from "@/components/BlogLayout";
-import Link from "next/link";
+import BlogLayout from "@/components/BlogLayout";
 import { getPostMeta } from "@/data/blog-posts";
+import { ogImageUrl } from "@/lib/og";
+import { blogContent } from "@/data/blog-content";
 
 const slug = "how-to-extract-text-from-images";
 const meta = getPostMeta(slug);
@@ -11,6 +12,7 @@ const basePost = {
   slug,
   datePublished: meta.datePublished,
   dateModified: meta.dateModified,
+  author: meta.author,
   tags: meta.tags,
   faqs: [
     { question: "What is OCR and how does it work?", answer: "OCR (Optical Character Recognition) is technology that identifies text characters in images and converts them to editable text. Modern OCR uses neural networks trained on millions of text samples to recognize characters, words, and layout structure in any image." },
@@ -26,53 +28,27 @@ const basePost = {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const post = await getTranslatedPost(locale, slug, basePost);
+  const url = `https://toolkitlife.com/${locale}/blog/${post.slug}`;
+  const ogImage = ogImageUrl({ title: post.title, type: "blog" });
   return {
     title: `${post.title} — ToolkitLife`,
     description: post.description,
-    alternates: { canonical: `https://toolkitlife.com/blog/${post.slug}` },
-    openGraph: { title: post.title, description: post.description, url: `https://toolkitlife.com/blog/${post.slug}`, siteName: "ToolkitLife", type: "article", publishedTime: post.datePublished, modifiedTime: post.dateModified, tags: post.tags },
-    twitter: { card: "summary_large_image", title: post.title, description: post.description },
+    alternates: { canonical: url },
+    openGraph: { title: post.title, description: post.description, url, siteName: "ToolkitLife", type: "article", publishedTime: post.datePublished, modifiedTime: post.dateModified, tags: post.tags, images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }] },
+    twitter: { card: "summary_large_image", title: post.title, description: post.description, images: [ogImage] },
   };
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const post = await getTranslatedPost(locale, slug, basePost);
+  const localized = blogContent[slug];
+  const localeKey = (
+    Object.prototype.hasOwnProperty.call(localized.faqs, locale) ? locale : "en"
+  ) as keyof typeof localized.faqs;
   return (
-    <BlogLayout post={post}>
-      <aside aria-label="Summary" className="bg-zinc-800/50 border border-zinc-700 rounded-xl p-5 mb-8">
-        <p><strong>TL;DR:</strong> OCR technology converts images of text into editable, copyable text. It works best on clear, high-resolution images with printed text. For best accuracy, crop to the text area, ensure good contrast, and select the correct language. Browser-based OCR tools process everything locally so your documents stay private.</p>
-      </aside>
-
-      <section>
-        <h2>When You Need OCR</h2>
-        <p>You have a screenshot of an error message you need to search. A photo of a whiteboard from a meeting. A scanned receipt for expense reporting. A page from a textbook you need to quote. In all these cases, the text is trapped inside an image and you need it as actual text you can copy, edit, and search.</p>
-        <p>This is exactly what OCR does. It analyzes the pixels in your image, identifies characters and words, and outputs them as editable text.</p>
-      </section>
-
-      <section>
-        <h2>Tips for Better OCR Accuracy</h2>
-        <ul>
-          <li><strong>Resolution matters:</strong> Higher resolution images produce better results. If possible, use at least 300 DPI for scanned documents.</li>
-          <li><strong>Contrast is key:</strong> Dark text on a light background works best. Avoid images with text overlaid on busy backgrounds or photos.</li>
-          <li><strong>Crop to the text area:</strong> Remove unnecessary borders, images, and whitespace. The less noise in the image, the better the OCR accuracy.</li>
-          <li><strong>Straighten skewed images:</strong> Text that&apos;s rotated or at an angle is harder to recognize. Straighten the image before running OCR.</li>
-          <li><strong>Select the right language:</strong> OCR models are language-specific. Selecting the correct language improves character recognition, especially for non-Latin scripts.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Common OCR Use Cases</h2>
-        <p><strong>Screenshots:</strong> Extract error messages, code snippets, chat messages, or any text from screenshots. This is the most common use case and typically gives the best accuracy since screenshots are already high-resolution with clean text.</p>
-        <p><strong>Scanned documents:</strong> Convert scanned contracts, receipts, letters, and forms into searchable, editable text. Scan at 300+ DPI in grayscale for best results.</p>
-        <p><strong>Photos of text:</strong> Whiteboards, signs, book pages, business cards. Accuracy depends on image quality and lighting.</p>
-      </section>
-
-      <section>
-        <h2>Extract Text for Free</h2>
-        <p>Our <Link href="/tools/image-to-text" className="text-blue-400 hover:text-blue-300">free Image to Text tool</Link> uses Tesseract.js OCR engine running entirely in your browser. Upload any image, select the language, and get editable text in seconds. Supports 7 languages, no upload to any server, no signup required.</p>
-        <ToolCTA name="Image to Text (OCR)" href="/tools/image-to-text" description="Extract text from any image using Tesseract.js OCR. Supports 7 languages — runs entirely in your browser, no upload required." />
-      </section>
+    <BlogLayout post={{ ...post, faqs: localized.faqs[localeKey] }}>
+      {localized[localeKey]}
     </BlogLayout>
   );
 }

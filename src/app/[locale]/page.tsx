@@ -19,6 +19,8 @@ interface Tool {
 
 const RECENT_KEY = "tp:recent";
 const FAVORITES_KEY = "tp:favorites";
+const SEARCH_HISTORY_KEY = "tp:searchHistory";
+const MAX_SEARCH_HISTORY = 10;
 
 function readList(key: string): string[] {
   if (typeof window === "undefined") return [];
@@ -69,16 +71,19 @@ export default function HomePage() {
   const [search, setSearch] = useState("");
   const [favorites, setFavorites] = useState<string[]>([]);
   const [recent, setRecent] = useState<string[]>([]);
+  const [searchHistory, setSearchHistory] = useState<string[]>([]);
+  const [searchHistoryOpen, setSearchHistoryOpen] = useState(false);
   // Combined tab bar: "recent"/"favorites" (history) + scene keys (categories)
   const [activePane, setActivePane] = useState<string>(HOME_SCENES[0].key);
 
-  // Load favorites + recent once on mount, then keep them in sync when the
-  // user favorites/uses tools on other pages (client-side navigation does not
-  // remount the homepage).
+  // Load favorites + recent + search history once on mount, then keep them in
+  // sync when the user favorites/uses tools on other pages (client-side
+  // navigation does not remount the homepage).
   useEffect(() => {
     const load = () => {
       setFavorites(readList(FAVORITES_KEY));
       setRecent(readList(RECENT_KEY));
+      setSearchHistory(readList(SEARCH_HISTORY_KEY));
     };
     load();
     window.addEventListener("tp:favorites-changed", load);
@@ -123,6 +128,42 @@ export default function HomePage() {
     writeList(RECENT_KEY, []);
     setRecent([]);
   }, []);
+
+  // Search history: most recent first, deduplicated (case-insensitive), capped.
+  const addSearchTerm = useCallback((term: string) => {
+    const trimmed = term.trim();
+    if (!trimmed) return;
+    setSearchHistory((prev) => {
+      const next = [
+        trimmed,
+        ...prev.filter(
+          (s) => s.toLowerCase() !== trimmed.toLowerCase()
+        ),
+      ].slice(0, MAX_SEARCH_HISTORY);
+      writeList(SEARCH_HISTORY_KEY, next);
+      return next;
+    });
+  }, []);
+
+  const deleteSearchTerm = useCallback((term: string) => {
+    setSearchHistory((prev) => {
+      const next = prev.filter((s) => s !== term);
+      writeList(SEARCH_HISTORY_KEY, next);
+      return next;
+    });
+  }, []);
+
+  const clearSearchHistory = useCallback(() => {
+    writeList(SEARCH_HISTORY_KEY, []);
+    setSearchHistory([]);
+  }, []);
+
+  // Auto-save the current query after the user stops typing (debounced).
+  useEffect(() => {
+    if (!query) return;
+    const id = setTimeout(() => addSearchTerm(search.trim()), 1500);
+    return () => clearTimeout(id);
+  }, [query, search, addSearchTerm]);
 
   const favoriteTools = favorites
     .map((slug) => toolsBySlug.get(slug))
@@ -177,14 +218,56 @@ export default function HomePage() {
           <br />
           <span className="text-zinc-500">{t("noSignup")}</span>
         </p>
-        <div className="mx-auto mt-8 max-w-2xl">
+        <div className="relative mx-auto mt-8 max-w-2xl">
           <input
             type="text"
             placeholder={t("searchPlaceholder")}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
+            onFocus={() => setSearchHistoryOpen(true)}
+            onBlur={() => setTimeout(() => setSearchHistoryOpen(false), 150)}
             className="w-full rounded-2xl border border-zinc-700 bg-zinc-900 px-6 py-4 text-base text-zinc-100 placeholder-zinc-500 shadow-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/30 transition-all"
           />
+          {searchHistoryOpen && query === "" && searchHistory.length > 0 && (
+            <div className="absolute left-0 right-0 top-full z-20 mt-2 overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-900 text-left shadow-xl">
+              <div className="flex items-center justify-between border-b border-zinc-800 px-5 py-3">
+                <span className="text-sm font-medium text-zinc-300">
+                  {t("searchHistory")}
+                </span>
+                <button
+                  type="button"
+                  onMouseDown={(e) => e.preventDefault()}
+                  onClick={clearSearchHistory}
+                  className="text-xs text-zinc-500 transition-colors hover:text-zinc-300"
+                >
+                  {t("clearHistory")}
+                </button>
+              </div>
+              <ul className="max-h-72 overflow-y-auto py-1">
+                {searchHistory.map((term) => (
+                  <li key={term} className="group flex items-center">
+                    <button
+                      type="button"
+                      onMouseDown={(e) => e.preventDefault()}
+                      onClick={() => setSearch(term)}
+                      className="flex-1 truncate px-5 py-2.5 text-left text-sm text-zinc-200 transition-colors hover:bg-zinc-800"
+                    >
+                      {term}
+                    </button>
+                    <button
+                      type="button"
+                      onMouseDown={(e) => e.preventDefault()}
+                      onClick={() => deleteSearchTerm(term)}
+                      aria-label={`${t("clearHistory")} ${term}`}
+                      className="px-4 py-2.5 text-xs text-zinc-600 transition-colors hover:text-zinc-300"
+                    >
+                      ×
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
         {/* Popular tools — short line of text links under the search box, no scrollbar */}
         <div className="mx-auto mt-4 flex max-w-2xl flex-wrap items-center justify-center gap-x-3 gap-y-1.5 px-2 text-sm">
@@ -325,8 +408,10 @@ export default function HomePage() {
 /* ---------- Tab bar (connected, single row, underline indicator) ---------- */
 
 function TabBar({ children }: { children: React.ReactNode }) {
+  // Horizontal scroll on narrow screens; tabs keep their natural width and
+  // never truncate. Scrollbar hidden for a clean look.
   return (
-    <div className="flex items-stretch overflow-hidden border-b border-zinc-800">
+    <div className="flex items-stretch gap-1 overflow-x-auto border-b border-zinc-800 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
       {children}
     </div>
   );
@@ -344,7 +429,7 @@ function TabButton({
   return (
     <button
       onClick={onClick}
-      className={`min-w-0 flex-1 shrink truncate cursor-pointer border-b-2 px-2 py-3 text-sm font-medium transition-colors ${
+      className={`shrink-0 whitespace-nowrap border-b-2 px-3 py-3 text-sm font-medium transition-colors ${
         active
           ? "border-blue-600 text-zinc-100"
           : "border-transparent text-zinc-500 hover:text-zinc-300"

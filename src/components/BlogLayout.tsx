@@ -8,6 +8,7 @@ interface BlogPost {
   title: string;
   slug: string;
   description: string;
+  author: string;
   datePublished: string;
   dateModified: string;
   tags: string[];
@@ -23,6 +24,7 @@ export interface ToolCTAProps {
 }
 
 export function ToolCTA({ name, href, description }: ToolCTAProps) {
+  const t = useTranslations("blogLayout");
   return (
     <div className="mt-6 rounded-xl border border-blue-500/30 bg-blue-500/10 p-5">
       <h3 className="mb-1 text-lg font-semibold text-blue-400">{name}</h3>
@@ -31,7 +33,7 @@ export function ToolCTA({ name, href, description }: ToolCTAProps) {
         href={href}
         className="inline-flex rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-500 transition-colors"
       >
-        Try {name} →
+        {t("tryCta", { name })} →
       </Link>
     </div>
   );
@@ -54,8 +56,9 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
     url,
     datePublished: post.datePublished,
     dateModified: post.dateModified,
-    author: { "@type": "Organization", name: "ToolkitLife" },
+    author: { "@type": "Person", name: post.author, url: "https://toolkitlife.com/blog" },
     publisher: { "@type": "Organization", name: "ToolkitLife", logo: { "@type": "ImageObject", url: "https://toolkitlife.com/icon.svg" } },
+    mainEntityOfPage: url,
     keywords: post.tags.join(", "),
   };
 
@@ -100,6 +103,10 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
             <h1 className="mb-4 font-display text-4xl text-zinc-100">{post.title}</h1>
             <p className="mb-4 text-zinc-400">{post.description}</p>
             <div className="flex flex-wrap items-center gap-3 text-sm text-zinc-500">
+              <span className="font-medium text-zinc-300">
+                By {post.author}
+              </span>
+              <span>·</span>
               <time dateTime={post.datePublished}>
                 {new Date(post.datePublished).toLocaleDateString(undefined, {
                   year: "numeric",
@@ -107,6 +114,21 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
                   day: "numeric",
                 })}
               </time>
+              {post.dateModified !== post.datePublished && (
+                <>
+                  <span>·</span>
+                  <span>
+                    Updated{" "}
+                    <time dateTime={post.dateModified}>
+                      {new Date(post.dateModified).toLocaleDateString(undefined, {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      })}
+                    </time>
+                  </span>
+                </>
+              )}
               {post.tags.length > 0 && (
                 <>
                   <span>·</span>

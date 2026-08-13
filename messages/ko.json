@@ -24,7 +24,8 @@
   "nav": {
     "home": "ToolkitLife",
     "allTools": "모든 도구",
-    "blog": "블로그"
+    "blog": "블로그",
+    "menu": "메뉴"
   },
   "footer": {
     "brand": "ToolkitLife",
@@ -1332,6 +1333,12 @@
         "category": "Utility",
         "icon": "🔊"
       },
+      "multiavatar-avatar-generator": {
+        "name": "Multiavatar 아바타 생성기",
+        "description": "어떤 텍스트로든 독특한 다문화 아바타를 생성합니다. 120억+ 가지 조합 — 프로필 사진, 게임 로고, identicon에 적합합니다.",
+        "category": "Design",
+        "icon": "🧑‍🎨"
+      },
       "video-compressor": {
         "name": "동영상 압축기",
         "description": "동영상 파일을 무료로 압축하세요. MP4, WebM, MOV 파일 크기를 조절 가능한 품질로 줄입니다. 업로드 없이, 가입 없이 — 브라우저에서 완전히 실행됩니다.",
@@ -1764,6 +1771,7 @@
     "viewAll": "모두 보기",
     "browseAll": "모든 도구 보기",
     "clearHistory": "지우기",
+    "searchHistory": "최근 검색어",
     "emptyFavorites": "아직 즐겨찾기가 없습니다. 도구의 별표를 클릭해 저장하세요.",
     "heroBadge": "280가지 무료 온라인 도구·계산기"
   },
@@ -3404,6 +3412,74 @@
             "JPEG는 동영상형 GIF의 스틸에 적합하지만 투명도는 지원하지 않습니다."
           ]
         }
+      }
+    },
+    "multiavatar-avatar-generator": {
+      "metadata": {
+        "title": "Multiavatar 아바타 생성기 - 무료 온라인 도구",
+        "description": "어떤 텍스트로든 독특한 다문화 아바타를 생성합니다. 120억+ 가지 조합, 브라우저에서 완전히 작동. SVG 또는 PNG로 다운로드 — 업로드 없이, 가입 없이."
+      },
+      "title": "Multiavatar 아바타 생성기",
+      "description": "어떤 텍스트로든 독특한 다문화 아바타를 생성합니다. 모든 문자열은 저마다의 고유한 아바타를 만들어 냅니다 — 프로필 사진, 게임 로고, identicon에 적합합니다. 브라우저에서 완전히 실행됩니다.",
+      "category": "디자인",
+      "keywords": [
+        "아바타 생성기",
+        "다문화 아바타",
+        "아바타 메이커",
+        "identicon",
+        "프로필 사진 생성기",
+        "독특한 아바타"
+      ],
+      "faqs": [
+        {
+          "question": "같은 텍스트는 항상 같은 아바타를 생성하나요?",
+          "answer": "네. Multiavatar는 identicon처럼 작동합니다 — 텍스트가 해시되어 아바타의 각 부분을 고르는 숫자 집합이 됩니다. 같은 텍스트를 입력하면 매번 정확히 같은 아바타가 생성됩니다."
+        },
+        {
+          "question": "생성한 아바타가 서버에 업로드되나요?",
+          "answer": "아니요. 생성 과정은 작은 클라이언트 사이드 라이브러리로 브라우저 안에서만 완전히 실행됩니다. 입력한 내용이 어디로도 전송되지 않으며, 데이터도 저장되지 않습니다."
+        },
+        {
+          "question": "생성한 아바타를 상업적으로 사용할 수 있나요?",
+          "answer": "네. Multiavatar 라이브러리는 상업적 용도로도 무료입니다. 생성된 아바타는 웹사이트, 앱, 제품, 소셜 프로필에서 제한 없이 사용할 수 있습니다."
+        },
+        {
+          "question": "어떤 다운로드 형식을 지원하나요?",
+          "answer": "SVG는 어떤 크기에서도 선명한 확장 가능한 벡터 이미지이고, PNG는 512×512로 웹사이트, 앱, 소셜 프로필에 편리합니다. \"배경 원 제거\"를 켜면 머리 부분만 있는 아바타도 만들 수 있습니다."
+        },
+        {
+          "question": "고유한 아바타는 몇 가지인가요?",
+          "answer": "알고리즘은 48개의 기본 디자인을 결합해 48^6 = 12,230,590,464가지 아바타를 만듭니다. 일부 부분은 의도적으로 비슷하게 남겨두지만, 모든 텍스트 문자열은 저마다 고유한 아바타에 대응합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "파비콘 생성기",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "이모지 선택기",
+          "href": "/tools/emoji-picker"
+        }
+      ],
+      "guide": {
+        "heading": "사용 방법:",
+        "steps": [
+          "아무 텍스트나 입력하세요 — 이름, 사용자 이름, 또는 무작위 문자열.",
+          "아바타가 즉시 업데이트됩니다. \"섞기\"를 누르면 무작위로 바뀝니다.",
+          "필요하면 배경 원을 제거하세요.",
+          "SVG 또는 PNG로 다운로드하세요."
+        ]
+      },
+      "ui": {
+        "seedLabel": "입력 텍스트",
+        "placeholder": "텍스트를 입력해 아바타를 만드세요…",
+        "shuffle": "섞기",
+        "downloadSvg": "SVG 다운로드",
+        "downloadPng": "PNG 다운로드",
+        "sansEnv": "배경 원 제거",
+        "hint": "같은 텍스트는 항상 같은 아바타를 생성합니다 — 이름의 지문과 같습니다.",
+        "loading": "생성 중…"
       }
     },
     "video-compressor": {
@@ -30234,7 +30310,8 @@
     "breadcrumbBlog": "블로그",
     "faqTitle": "자주 묻는 질문",
     "relatedToolsTitle": "관련 도구",
-    "relatedArticlesTitle": "관련 글"
+    "relatedArticlesTitle": "관련 글",
+    "tryCta": "{name} 무료로 사용하기"
   },
   "blogIndex": {
     "metadata": {

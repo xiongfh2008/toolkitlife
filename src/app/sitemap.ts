@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { blogPostsMeta } from "@/data/blog-posts";
 
 const locales = ["en", "zh", "ja", "ko"] as const;
 
@@ -34,6 +35,7 @@ const tools = [
   "css-minifier",
   "js-minifier",
   "favicon-generator",
+  "multiavatar-avatar-generator",
   "color-contrast-checker",
   "text-case-converter",
   "timestamp-converter",
@@ -284,45 +286,9 @@ const tools = [
   "dog-age-calculator",
 ];
 
-const blogSlugs = [
-  "should-i-refinance-my-mortgage",
-  "how-much-do-i-need-to-retire",
-  "how-to-max-out-401k",
-  "how-to-calculate-tdee",
-  "how-to-convert-jpg-to-pdf",
-  "how-to-merge-pdf-files",
-  "how-to-compress-pdf",
-  "how-to-split-pdf",
-  "how-to-convert-png-to-pdf",
-  "how-much-car-can-i-afford",
-  "sleep-cycles-explained",
-  "how-to-calculate-mortgage-payments",
-  "compound-interest-explained",
-  "optimize-images-shopify",
-  "wcag-accessibility-checklist",
-  "convert-heic-to-jpg",
-  "best-css-generators",
-  "resize-images-social-media",
-  "remove-background-product-photos",
-  "generate-secure-passwords",
-  "how-to-calculate-gpa",
-  "calorie-deficit-for-weight-loss",
-  "50-30-20-budget-rule",
-  "how-to-pay-off-debt-fast",
-  "bmi-explained",
-  "how-to-start-investing",
-  "keto-macros-guide",
-  "how-to-build-a-resume",
-  "how-to-compress-video",
-  "how-to-extract-text-from-images",
-  "how-to-upscale-images",
-  "how-to-convert-pdf-to-word",
-  "how-to-record-your-screen",
-  "how-to-convert-text-to-speech",
-  "how-to-convert-video-to-gif",
-  "how-to-create-digital-signature",
-  "how-to-make-memes",
-];
+// Keep in sync with the actual blog page directories: every listed slug must
+// resolve to an existing page, otherwise search engines index 404s.
+const blogSlugs = blogPostsMeta.map((p) => p.slug);
 
 const staticPaths = ["", "/privacy", "/terms"];
 

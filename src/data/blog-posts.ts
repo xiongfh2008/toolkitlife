@@ -1,5 +1,6 @@
 export interface BlogPostMeta {
   slug: string;
+  author: string;
   datePublished: string;
   dateModified: string;
   tags: string[];
@@ -9,6 +10,7 @@ export interface BlogPostMeta {
 export const blogPostsMeta: BlogPostMeta[] = [
   {
     slug: "how-to-build-a-resume",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-06",
     dateModified: "2026-03-06",
     tags: ["Resume", "Career", "Job Search", "Productivity"],
@@ -18,6 +20,7 @@ export const blogPostsMeta: BlogPostMeta[] = [
   },
   {
     slug: "how-to-compress-video",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-06",
     dateModified: "2026-03-06",
     tags: ["Video", "Compression", "Media", "Productivity"],
@@ -27,6 +30,7 @@ export const blogPostsMeta: BlogPostMeta[] = [
   },
   {
     slug: "how-to-convert-pdf-to-word",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-06",
     dateModified: "2026-03-06",
     tags: ["PDF", "Word", "Converter", "Productivity"],
@@ -36,6 +40,7 @@ export const blogPostsMeta: BlogPostMeta[] = [
   },
   {
     slug: "how-to-convert-text-to-speech",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-07",
     dateModified: "2026-03-07",
     tags: ["Text to Speech", "Accessibility", "Productivity", "TTS"],
@@ -45,6 +50,7 @@ export const blogPostsMeta: BlogPostMeta[] = [
   },
   {
     slug: "how-to-convert-video-to-gif",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-07",
     dateModified: "2026-03-07",
     tags: ["GIF", "Video", "Converter", "Social Media"],
@@ -54,6 +60,7 @@ export const blogPostsMeta: BlogPostMeta[] = [
   },
   {
     slug: "how-to-create-digital-signature",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-07",
     dateModified: "2026-03-07",
     tags: ["Signature", "Business", "PDF", "Productivity"],
@@ -63,6 +70,7 @@ export const blogPostsMeta: BlogPostMeta[] = [
   },
   {
     slug: "how-to-extract-text-from-images",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-06",
     dateModified: "2026-03-06",
     tags: ["OCR", "Productivity", "Text Extraction", "Images"],
@@ -72,6 +80,7 @@ export const blogPostsMeta: BlogPostMeta[] = [
   },
   {
     slug: "how-to-make-memes",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-07",
     dateModified: "2026-03-07",
     tags: ["Memes", "Social Media", "Image Editing", "Humor"],
@@ -81,6 +90,7 @@ export const blogPostsMeta: BlogPostMeta[] = [
   },
   {
     slug: "how-to-record-your-screen",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-07",
     dateModified: "2026-03-07",
     tags: ["Screen Recording", "Productivity", "Video", "Tutorial"],
@@ -90,6 +100,7 @@ export const blogPostsMeta: BlogPostMeta[] = [
   },
   {
     slug: "how-to-upscale-images",
+    author: "ToolkitLife Team",
     datePublished: "2026-03-06",
     dateModified: "2026-03-06",
     tags: ["Image", "Design", "Upscaling", "Photo Editing"],
