@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/video-frame-extractor`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/video-frame-extractor`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/video-frame-extractor`,
+        zh: `https://www.toolkitlife.com/zh/tools/video-frame-extractor`,
+        ja: `https://www.toolkitlife.com/ja/tools/video-frame-extractor`,
+        ko: `https://www.toolkitlife.com/ko/tools/video-frame-extractor`,
+      },
     },
   };
 }

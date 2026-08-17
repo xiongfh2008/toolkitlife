@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/image-similarity`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/image-similarity`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/image-similarity`,
+        zh: `https://www.toolkitlife.com/zh/tools/image-similarity`,
+        ja: `https://www.toolkitlife.com/ja/tools/image-similarity`,
+        ko: `https://www.toolkitlife.com/ko/tools/image-similarity`,
+      },
     },
   };
 }

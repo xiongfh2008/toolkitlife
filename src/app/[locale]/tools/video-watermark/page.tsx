@@ -158,7 +158,6 @@ export default function VideoWatermarkPage() {
       await ffmpeg.deleteFile("input.mp4").catch(() => {});
       await ffmpeg.deleteFile("wm.png").catch(() => {});
       await ffmpeg.deleteFile("output.mp4").catch(() => {});
-      ffmpeg.terminate();
 
       setResultUrl(URL.createObjectURL(blob));
       setProgress(100);

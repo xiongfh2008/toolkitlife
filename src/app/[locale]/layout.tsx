@@ -19,11 +19,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
-  const baseUrl = `https://toolkitlife.com/${locale}`;
+  const baseUrl = `https://www.toolkitlife.com/${locale}`;
   const ogImage = ogImageUrl({ type: "home" });
 
   return {
-    metadataBase: new URL("https://toolkitlife.com"),
+    metadataBase: new URL("https://www.toolkitlife.com"),
     title: {
       default: t("title"),
       template: "%s | ToolkitLife",
@@ -56,10 +56,10 @@ export async function generateMetadata({
     alternates: {
       canonical: baseUrl,
       languages: {
-        en: "https://toolkitlife.com/en",
-        zh: "https://toolkitlife.com/zh",
-        ja: "https://toolkitlife.com/ja",
-        ko: "https://toolkitlife.com/ko",
+        en: "https://www.toolkitlife.com/en",
+        zh: "https://www.toolkitlife.com/zh",
+        ja: "https://www.toolkitlife.com/ja",
+        ko: "https://www.toolkitlife.com/ko",
       },
     },
   };
@@ -118,11 +118,11 @@ export default async function LocaleLayout({
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "ToolkitLife",
-            url: "https://toolkitlife.com",
+            url: "https://www.toolkitlife.com",
             description: siteT("description"),
             potentialAction: {
               "@type": "SearchAction",
-              target: "https://toolkitlife.com/?q={search_term_string}",
+              target: "https://www.toolkitlife.com/?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
           }),

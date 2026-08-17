@@ -71,7 +71,6 @@ export default function AnimatedWebpPage() {
       const blob = await readFFmpegOutput(ffmpeg, "output.webp", "image/webp");
       await ffmpeg.deleteFile(inputName).catch(() => {});
       await ffmpeg.deleteFile("output.webp").catch(() => {});
-      ffmpeg.terminate();
 
       if (blob.size < 100) throw new Error(t("errors.empty"));
       setResultSize(blob.size);

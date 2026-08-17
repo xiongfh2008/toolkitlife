@@ -1,28 +1,47 @@
 import type { FFmpeg } from "@ffmpeg/ffmpeg";
 
+let cached: FFmpeg | null = null;
+let loading: Promise<FFmpeg> | null = null;
+
 /**
  * Loads the FFmpeg WebAssembly engine on demand (lazy, client-side only).
- * The core is fetched from unpkg at runtime, matching the pattern used by
- * the video tools in this project. Nothing is bundled into the page bundle.
+ * The core is served from the site's own /ffmpeg assets (hosted in `public/`),
+ * so it loads fast and reliably on any network — no external CDN dependency.
+ *
+ * The engine instance is cached and reused across conversions so repeated
+ * operations don't pay the ~30MB download + instantiation cost again. If any
+ * caller terminated the shared instance, a fresh one is created automatically.
  */
 export async function loadFFmpeg(onProgress: (p: number) => void): Promise<FFmpeg> {
-  const { FFmpeg } = await import("@ffmpeg/ffmpeg");
-  const { toBlobURL } = await import("@ffmpeg/util");
+  // Load the engine only when there is no usable cached instance (e.g. after
+  // a caller terminated the shared worker). Once loaded, `loading` keeps the
+  // resolved promise so later calls short-circuit and reuse the instance.
+  if (!cached || !cached.loaded) {
+    cached = null;
+    loading = null;
+    loading = (async () => {
+      const { FFmpeg } = await import("@ffmpeg/ffmpeg");
+      const { toBlobURL } = await import("@ffmpeg/util");
 
-  const ffmpeg = new FFmpeg();
-  ffmpeg.on("progress", ({ progress }) => onProgress(Math.min(progress, 0.999)));
+      const ffmpeg = new FFmpeg();
+      await ffmpeg.load({
+        coreURL: await toBlobURL("/ffmpeg/ffmpeg-core.js", "text/javascript"),
+        wasmURL: await toBlobURL("/ffmpeg/ffmpeg-core.wasm", "application/wasm"),
+      });
+      return ffmpeg;
+    })().then((ffmpeg) => {
+      cached = ffmpeg;
+      return ffmpeg;
+    });
+  }
 
-  await ffmpeg.load({
-    coreURL: await toBlobURL(
-      "https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd/ffmpeg-core.js",
-      "text/javascript"
-    ),
-    wasmURL: await toBlobURL(
-      "https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd/ffmpeg-core.wasm",
-      "application/wasm"
-    ),
+  const ffmpeg = (await loading)!;
+  ffmpeg.on("progress", ({ progress }) => {
+    // Stream-copy operations can emit non-finite progress values; clamp them
+    // so the UI never renders a broken percentage.
+    const p = Number.isFinite(progress) ? Math.max(0, Math.min(progress, 0.999)) : 0;
+    onProgress(p);
   });
-
   return ffmpeg;
 }
 

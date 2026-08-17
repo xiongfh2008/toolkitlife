@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://toolkitlife.com/sitemap.xml",
+    sitemap: "https://www.toolkitlife.com/sitemap.xml",
   };
 }

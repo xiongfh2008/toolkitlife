@@ -128,7 +128,6 @@ export default function VideoSubtitleBurnerPage() {
       ]);
 
       const blob = await readFFmpegOutput(ffmpeg, "output.mp4", "video/mp4");
-      await ffmpeg.terminate();
       if (blob.size < 1000) throw new Error(t("errors.emptyOutput"));
       setResultSize(blob.size);
       setResultUrl(URL.createObjectURL(blob));

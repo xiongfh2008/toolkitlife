@@ -13,6 +13,15 @@ export async function generateMetadata({
   return {
     title: t("title"),
     description: t("description"),
+    alternates: {
+      canonical: `https://www.toolkitlife.com/${locale}/blog`,
+      languages: {
+        en: "https://www.toolkitlife.com/en/blog",
+        zh: "https://www.toolkitlife.com/zh/blog",
+        ja: "https://www.toolkitlife.com/ja/blog",
+        ko: "https://www.toolkitlife.com/ko/blog",
+      },
+    },
   };
 }
 

@@ -30,7 +30,13 @@ export async function generateMetadata({
     },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/screen-color-picker`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/screen-color-picker`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/screen-color-picker`,
+        zh: `https://www.toolkitlife.com/zh/tools/screen-color-picker`,
+        ja: `https://www.toolkitlife.com/ja/tools/screen-color-picker`,
+        ko: `https://www.toolkitlife.com/ko/tools/screen-color-picker`,
+      },
     },
   };
 }

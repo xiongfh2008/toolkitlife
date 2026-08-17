@@ -1,4 +1,4 @@
-export const OG_BASE = "https://toolkitlife.com";
+export const OG_BASE = "https://www.toolkitlife.com";
 
 /**
  * Builds the dynamic Open Graph image URL for a given page.

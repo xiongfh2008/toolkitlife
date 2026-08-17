@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/background-replace`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/background-replace`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/background-replace`,
+        zh: `https://www.toolkitlife.com/zh/tools/background-replace`,
+        ja: `https://www.toolkitlife.com/ja/tools/background-replace`,
+        ko: `https://www.toolkitlife.com/ko/tools/background-replace`,
+      },
     },
   };
 }

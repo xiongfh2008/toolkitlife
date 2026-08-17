@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/meme-generator`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/meme-generator`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/meme-generator`,
+        zh: `https://www.toolkitlife.com/zh/tools/meme-generator`,
+        ja: `https://www.toolkitlife.com/ja/tools/meme-generator`,
+        ko: `https://www.toolkitlife.com/ko/tools/meme-generator`,
+      },
     },
   };
 }

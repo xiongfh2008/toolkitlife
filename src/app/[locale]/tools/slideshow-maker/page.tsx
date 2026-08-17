@@ -281,7 +281,6 @@ export default function SlideshowMakerPage() {
       // Phase 3 — read the result out of the virtual FS.
       setStatusMsg(t("progress.finishing"));
       const blob = await readFFmpegOutput(ffmpeg, "output.mp4", "video/mp4");
-      await ffmpeg.terminate();
 
       if (blob.size < 1000) throw new Error(t("errors.emptyOutput"));
       setResultSize(blob.size);

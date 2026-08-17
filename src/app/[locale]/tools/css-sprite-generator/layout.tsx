@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/css-sprite-generator`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/css-sprite-generator`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/css-sprite-generator`,
+        zh: `https://www.toolkitlife.com/zh/tools/css-sprite-generator`,
+        ja: `https://www.toolkitlife.com/ja/tools/css-sprite-generator`,
+        ko: `https://www.toolkitlife.com/ko/tools/css-sprite-generator`,
+      },
     },
   };
 }

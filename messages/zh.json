@@ -91,6 +91,12 @@
         "category": "Utility",
         "icon": "📷"
       },
+      "qr-file-transfer": {
+        "name": "二维码文件传输",
+        "description": "通过动态二维码在设备之间传输文件——无需网络，无需上传。摄像头对屏幕的光学传输。",
+        "category": "Utility",
+        "icon": "📤"
+      },
       "face-detector": {
         "name": "人脸检测器",
         "description": "自动检测照片中的人脸并绘制边界框与置信度分数。AI 模型完全在浏览器中运行。",
@@ -1351,6 +1357,12 @@
         "category": "Utility",
         "icon": "🗜"
       },
+      "scroll-capture": {
+        "name": "屏幕截图",
+        "description": "一键截取屏幕任意区域，支持标注涂鸦，下载 PNG。无需填网址、无需上传，全程在浏览器中完成。",
+        "category": "Utility",
+        "icon": "📸"
+      },
       "video-to-gif": {
         "name": "视频转 GIF 转换器",
         "description": "将任意视频转换为动画 GIF。可裁剪、调整尺寸和帧率。无需上传，全部在浏览器中运行。",
@@ -1653,7 +1665,7 @@
       },
       "batch-rename": {
         "name": "批量重命名",
-        "description": "批量重命名图片文件并打包下载。",
+        "description": "按规则链批量重命名任意类型文件，并打包下载。",
         "category": "图像工具",
         "icon": "📝"
       },
@@ -2446,6 +2458,165 @@
         }
       }
     },
+    "qr-file-transfer": {
+      "metadata": {
+        "title": "二维码文件传输 - 离线在设备间传输文件",
+        "description": "使用动态二维码在两个设备之间传输文件和文本。发送端屏幕显示一串动态二维码，接收端摄像头扫描并本地重建文件——无需网络、无需上传、完全离线。",
+        "category": "Utility"
+      },
+      "title": "二维码文件传输",
+      "description": "通过一串动态二维码在设备间传输文件和文本。一个屏幕发出二维码流，另一个设备的摄像头扫描并本地重建文件——无需网络、无服务器、不进行任何上传。",
+      "category": "Utility",
+      "keywords": [
+        "二维码文件传输",
+        "二维码传文件",
+        "离线文件传输",
+        "摄像头传文件",
+        "无线传输替代",
+        "光学文件传输"
+      ],
+      "faqs": [
+        {
+          "question": "二维码文件传输是如何工作的？",
+          "answer": "一台设备（发送端）在屏幕上显示一串编码了文件的动态二维码。另一台设备的摄像头扫描这些二维码，接收端从中重建文件。所使用的喷泉码保证任意一部分帧都足够恢复——丢帧只会花费时间，绝不会出错。"
+        },
+        {
+          "question": "我的数据会被上传吗？",
+          "answer": "不会。整个传输发生在两块屏幕之间——不上传、不存储，设备之间也无需任何网络连接。"
+        },
+        {
+          "question": "最大支持多大的文件？",
+          "answer": "支持最大 64 MB 的文件。较小的文件和文本片段传输更快，工具还会在有益时自动压缩文件。"
+        },
+        {
+          "question": "传输速度有多快？",
+          "answer": "速度取决于摄像头和二维码密度。近距离配合好摄像头，可以达到每秒数百 KB；高密度帧（每帧 2953 字节）在手机近距离互传时最快。"
+        },
+        {
+          "question": "传输安全吗？",
+          "answer": "数据只以光的形式从一块屏幕传到另一块——无网络、无中间服务器。只要发送端屏幕在他人摄像头的视线内就可能被读取，因此适合在可信环境中使用。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "二维码生成器",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "二维码识别器",
+          "href": "/tools/qr-code-reader"
+        },
+        {
+          "name": "批量重命名",
+          "href": "/tools/batch-rename"
+        }
+      ],
+      "tabs": {
+        "label": "传输模式",
+        "send": "发送",
+        "receive": "接收"
+      },
+      "send": {
+        "modeFile": "发送文件",
+        "modeSnippet": "发送文本",
+        "selectButton": "选择文件",
+        "stopButton": "停止传输",
+        "pickerLabel": "任意文件 · 最大 {max}",
+        "selectedLabel": "已选文件：{name}",
+        "statusIdleFile": "请选择要发送的文件",
+        "statusIdleSnippet": "粘贴或输入一些文本开始",
+        "statusPreparingFile": "正在准备 {name}…",
+        "statusPreparingSnippet": "正在准备文本片段…",
+        "statusStreaming": "正在传输 {name} —",
+        "snippetPlaceholder": "粘贴或输入任何内容——网址、配置、一大段文字…",
+        "snippetLimit": "要发送的文本 · 最大 {max}",
+        "snippetName": "文本片段",
+        "sendSnippetButton": "开始文本传输",
+        "tapHint": "点击二维码可全屏显示",
+        "settings": {
+          "title": "传输设置",
+          "fps": "每秒帧数",
+          "frameBytes": "每帧字节数",
+          "ecc": "纠错等级",
+          "size": "显示大小"
+        },
+        "specs": {
+          "fps": "帧率",
+          "frame": "帧负载",
+          "qr": "二维码",
+          "payload": "正在发送",
+          "compression": "压缩",
+          "k": "喷泉码块数"
+        },
+        "errors": {
+          "emptyFile": "{name} 为空——没有可发送的内容。",
+          "tooLarge": "{name} 为 {size}，超过 {max} 限制。",
+          "raiseFrameBytes": "请将每帧字节数提高到 {suggestion} 或更多。"
+        }
+      },
+      "receive": {
+        "statusReady": "准备扫描文件或文本流",
+        "statusStarting": "正在启动摄像头",
+        "statusSearching": "摄像头 {w}×{h}@{fps} — 正在搜索流…",
+        "startCamera": "启动摄像头",
+        "camera": {
+          "actual": "摄像头 {w}×{h} @ {fps} fps",
+          "asked": "请求 {fps}",
+          "workers": "个解码线程",
+          "live": "修改即时生效",
+          "refused": "此摄像头拒绝实时更改——重启后生效"
+        },
+        "noSignal": {
+          "title": "没有信号？",
+          "help": "帮助",
+          "dismiss": "忽略",
+          "gotIt": "知道了",
+          "tips": [
+            "在发送端打开传输设置，将每帧字节数降到 1465。",
+            "还是不行？再把发送端的每秒帧数降到 24。",
+            "让摄像头对准二维码，并固定住手机——手抖引起的对焦抖动是常见原因。",
+            "把发送端屏幕亮度调到最高。"
+          ]
+        },
+        "settings": {
+          "title": "接收设置",
+          "captureWidth": "采集宽度",
+          "captureFps": "采集帧率",
+          "workers": "解码线程数"
+        },
+        "progress": {
+          "frames": "帧",
+          "blocks": "块",
+          "decoding": "解码中",
+          "estimating": "正在估算时间…",
+          "about": "约",
+          "done": "传输完成"
+        },
+        "result": {
+          "fileDone": "传输完成！",
+          "textDone": "收到文本",
+          "inSeconds": "用时 {seconds} 秒",
+          "textIn": "{seconds} 秒内收到文本",
+          "verified": "SHA-256 验证通过 ✓",
+          "gzipDecompressed": "gzip 解压",
+          "save": "保存 {name}",
+          "receiveAnother": "接收另一个文件",
+          "copy": "复制",
+          "copied": "已复制",
+          "failed": "传输失败",
+          "failedHint": "该流中没有可用内容。重新启动发送端，再次扫描——部分传输只会浪费一点时间。",
+          "tryAgain": "重试"
+        },
+        "errors": {
+          "secureContext": "摄像头需要安全上下文——要使用摄像头，页面必须通过 HTTPS 提供服务。",
+          "permissionDenied": "摄像头权限被拒绝——允许后再点“启动摄像头”。",
+          "camera": "摄像头：",
+          "checksum": "光学流校验和不匹配。",
+          "sha256": "恢复的文件未通过 SHA-256 验证。"
+        },
+        "privacyNote": "一切都在你的设备上完成——无网络、无上传。传输的隐私程度与屏幕周围的空间相同。"
+      }
+    },
     "face-detector": {
       "metadata": {
         "title": "人脸检测器 - 免费在线工具",
@@ -3119,6 +3290,112 @@
             "您的文本永远不会离开您的设备——所有处理都在本地进行。"
           ]
         }
+      }
+    },
+    "scroll-capture": {
+      "metadata": {
+        "title": "屏幕截图 - 截屏工具",
+        "description": "一键截取屏幕任意区域，支持标注涂鸦，下载 PNG。无需填网址、无需上传，全程在浏览器中完成。"
+      },
+      "title": "屏幕截图",
+      "description": "一键截取屏幕任意区域，支持标注涂鸦，下载 PNG。无需填网址、无需上传，全程在浏览器中完成。",
+      "category": "工具",
+      "keywords": [
+        "屏幕截图",
+        "截屏",
+        "截图工具",
+        "截图标注",
+        "区域截图",
+        "截屏标注"
+      ],
+      "faqs": [
+        {
+          "question": "这个工具怎么用？",
+          "answer": "点击「开始屏幕截图」，在浏览器弹窗中选择要截取的屏幕、窗口或标签页，然后在预览上拖拽框选区域。保存前还可以用形状、箭头、文字或马赛克进行标注。"
+        },
+        {
+          "question": "可以只截取屏幕的一部分吗？",
+          "answer": "可以。开始截取后，在预览上拖拽即可框选任意矩形区域，框外的内容不会出现在结果中。"
+        },
+        {
+          "question": "可以对截图进行标注吗？",
+          "answer": "可以。工具栏提供画笔、形状（矩形、圆形、箭头）、文字和马赛克等工具，支持 Ctrl+Z 撤销。"
+        },
+        {
+          "question": "为什么浏览器要请求共享屏幕？",
+          "answer": "工具使用浏览器自带的屏幕捕获能力，因此系统会询问你共享哪个屏幕、窗口或标签页。图片全程在本地处理，不会上传任何数据。"
+        },
+        {
+          "question": "手机上能用吗？",
+          "answer": "屏幕捕获需要桌面浏览器（Chrome、Edge、Firefox、Safari 桌面版）的 getDisplayMedia 支持，移动端浏览器暂不支持。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "屏幕录制",
+          "href": "/tools/screen-recorder"
+        },
+        {
+          "name": "屏幕取色器",
+          "href": "/tools/screen-color-picker"
+        },
+        {
+          "name": "图片拼接",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "intro": {
+        "line1": "一键截取屏幕任意区域——无需网址、无需上传。",
+        "line2": "使用方法：",
+        "steps": [
+          "点击「开始屏幕截图」，选择要截取的屏幕、窗口或标签页。",
+          "在预览上拖拽框选区域，或保持整屏。",
+          "可用画笔、图形、箭头、文字或马赛克进行标注。",
+          "点击对勾完成并下载 PNG。"
+        ]
+      },
+      "start": "开始屏幕截图",
+      "processing": "屏幕截取进行中…",
+      "startHint": "点击按钮后，在浏览器弹窗中选择要截取的内容。",
+      "buttons": {
+        "restart": "重新截取",
+        "download": "下载 PNG",
+        "retry": "重试"
+      },
+      "result": {
+        "alt": "截取的屏幕截图",
+        "size": "大小：{size} KB"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "什么是屏幕截图？",
+          "body": [
+            "屏幕截图使用浏览器自带的捕获 API 拍摄屏幕任意区域，可裁剪到所需范围并标注后再保存。全程在浏览器中完成，不会上传任何数据。"
+          ]
+        },
+        "howTo": {
+          "title": "如何截取屏幕",
+          "intro": "按以下步骤操作：",
+          "items": [
+            "点击「开始屏幕截图」，在系统弹窗中选择要共享的屏幕、窗口或标签页。",
+            "在预览上拖拽矩形进行裁剪，或保持整屏。",
+            "使用工具栏标注：画笔、矩形、圆形、箭头、文字或马赛克。",
+            "点击对勾确认并下载 PNG，按 Esc 取消。"
+          ]
+        },
+        "tips": {
+          "title": "小贴士",
+          "items": [
+            "按 Ctrl+Z 可撤销上一步标注。",
+            "支持的浏览器会自动把结果复制到剪贴板。",
+            "长页面请先滚动到目标位置再截取——本工具截取的是当前屏幕内容。"
+          ]
+        }
+      },
+      "errors": {
+        "notSupported": "当前浏览器不支持屏幕捕获（getDisplayMedia）。",
+        "permissionDenied": "屏幕捕获权限被拒绝，请允许后重试。",
+        "startFailed": "无法开始屏幕捕获，请重试。"
       }
     },
     "video-to-gif": {
@@ -5861,7 +6138,7 @@
         },
         {
           "question": "录制内容保存为什么格式？",
-          "answer": "录制内容保存为 WebM 视频文件，可在所有现代浏览器和视频播放器中播放。"
+          "answer": "录制内容保存为 MP4（VP9）文件，几乎可在所有平台播放，同时避免了部分浏览器 H.264 录制可能出现的花屏问题。在不支持 MP4 录制的浏览器（如 Firefox）中，将自动回退为 WebM。"
         }
       ],
       "relatedTools": [
@@ -5924,7 +6201,7 @@
             "选择屏幕/窗口/标签页或网络摄像头。",
             "如需要，启用音频选项。",
             "点击开始录制并选择要共享的内容。",
-            "完成后点击停止并下载 WebM 文件。"
+            "完成后点击停止并下载 MP4 文件。"
           ]
         },
         "tips": {
@@ -6712,7 +6989,8 @@
       },
       "errors": {
         "prefix": "转换失败：",
-        "outputEmpty": "转换器生成了空文件。"
+        "outputEmpty": "转换器生成了空文件。",
+        "ffmpegDetail": "详细信息"
       },
       "units": {
         "kb": "{size} KB",
@@ -28799,36 +29077,40 @@
     },
     "batch-rename": {
       "metadata": {
-        "title": "批量重命名 - 在线批量重命名图片",
-        "description": "免费在线批量重命名图片，支持自定义前缀、起始编号与位数，预览后一键打包下载。",
+        "title": "批量重命名 - 在线批量重命名文件",
+        "description": "免费在线批量重命名文件，支持查找替换、正则、序号编号、大小写转换等规则链，实时预览后打包为 ZIP 下载。",
         "category": "图像工具"
       },
       "title": "批量重命名",
-      "description": "为多张图片批量生成新文件名，支持自定义前缀、起始编号与数字位数，预览确认后打包为 ZIP 下载，或一键复制重命名列表。",
+      "description": "按可配置的规则批量重命名任意类型的文件。将查找替换、正则、序号编号、大小写转换、插入和清理等规则组合成规则链，实时预览每个新文件名，再打包为 ZIP 下载或复制重命名列表。",
       "category": "图像工具",
       "keywords": [
         "批量重命名",
-        "图片重命名",
-        "批量改名",
         "文件重命名",
+        "批量改名",
+        "规则重命名",
         "batch rename"
       ],
       "faqs": [
         {
-          "question": "重命名规则是怎样的？",
-          "answer": "新文件名 = 前缀 + 编号 + 原扩展名。例如前缀 image_、起始 1、位数 3 会生成 image_001.png、image_002.png 等。"
+          "question": "什么是重命名规则？",
+          "answer": "规则是重命名的基本单元。可以添加查找替换、正则、序号编号、大小写转换、插入和清理规则，自由组合顺序，规则链会自上而下依次作用于每个文件名。"
         },
         {
           "question": "会修改我本地的原文件吗？",
-          "answer": "不会。工具只生成新名称并打包下载副本，原文件不会被修改。"
+          "answer": "不会。工具只生成新名称并打包副本供下载，原文件不会被修改。"
         },
         {
-          "question": "一次可以重命名多少张？",
-          "answer": "一次最多可上传 100 张图片，文件名列表可实时预览。"
+          "question": "一次可以重命名多少个文件？",
+          "answer": "一次最多可上传 1000 个任意类型的文件，文件名列表会实时更新。"
+        },
+        {
+          "question": "如何避免重名？",
+          "answer": "系统会自动检测重名冲突并在预览中高亮标记。点击「修复冲突」按钮可自动追加 (1)、(2) 等后缀。"
         },
         {
           "question": "扩展名会保留吗？",
-          "answer": "会。原文件的扩展名会保留在新文件名中，且下载时使用对应的新名称。"
+          "answer": "默认规则只作用于文件名，扩展名会被保留。也可以将作用域切换到「扩展名」或「完整名称」来对这些部分应用规则。"
         }
       ],
       "relatedTools": [
@@ -28837,29 +29119,165 @@
           "href": "/tools/image-web-optimizer"
         },
         {
-          "name": "CSS精灵图生成器",
-          "href": "/tools/css-sprite-generator"
+          "name": "查找重复图片",
+          "href": "/tools/duplicate-finder"
         },
         {
-          "name": "压缩图片",
-          "href": "/tools/image-compressor"
+          "name": "文本大小写转换",
+          "href": "/tools/text-case-converter"
         }
       ],
       "upload": {
-        "drop": "拖入图片或点击上传",
-        "formats": "PNG, JPG, WEBP, BMP（最多100张）"
+        "drop": "拖入文件或点击上传",
+        "formats": "任意文件类型（最多 {max} 个）",
+        "folderHint": "也可拖入或选择整个文件夹，内部所有文件将一并导入。"
+      },
+      "scope": {
+        "label": "规则作用于",
+        "name": "文件名",
+        "extension": "扩展名",
+        "full": "完整名称"
+      },
+      "rulesPanel": {
+        "title": "规则",
+        "add": "添加规则",
+        "clear": "清空规则",
+        "empty": "暂无规则，请在下方添加。",
+        "reorderHint": "规则自上而下依次执行，可取消勾选以跳过某条规则。"
+      },
+      "ruleTypes": {
+        "findReplace": "查找替换",
+        "insert": "插入",
+        "sequence": "序号",
+        "caseStyle": "大小写与风格",
+        "regex": "正则",
+        "removeCleanup": "删除与清理",
+        "recombine": "重组",
+        "slice": "截取片段",
+        "random": "随机字符",
+        "mapList": "映射列表"
+      },
+      "fields": {
+        "find": "查找",
+        "replace": "替换为",
+        "caseSensitive": "区分大小写",
+        "matchAll": "替换全部",
+        "replacePosition": "按位置替换",
+        "fromEnd": "从末尾计数",
+        "position": "起始位置",
+        "length": "长度",
+        "insertText": "文本",
+        "insertPosition": "插入位置",
+        "positionStart": "开头",
+        "positionEnd": "结尾",
+        "positionIndex": "指定索引",
+        "seqType": "类型",
+        "numeric": "数字",
+        "alpha": "字母（A、B、C…）",
+        "roman": "罗马数字",
+        "seqStart": "起始值",
+        "step": "步长",
+        "padding": "位数",
+        "seqPosition": "编号位置",
+        "replaceWhole": "替换整个名称",
+        "template": "模板（使用 {n}）",
+        "regexPattern": "正则模式",
+        "regexReplacement": "替换文本",
+        "flags": "标志",
+        "mode": "风格",
+        "style": "分隔符",
+        "removeMode": "模式",
+        "charsDirection": "删除方向",
+        "fromStart": "开头",
+        "fromEnd": "结尾",
+        "charsCount": "数量",
+        "rangeStart": "起始索引",
+        "rangeEnd": "结束索引",
+        "removeDigits": "数字",
+        "removeSymbols": "符号",
+        "removeSpaces": "空格",
+        "removeChinese": "中文字符",
+        "removeEnglish": "英文字母",
+        "recombineSeparator": "拆分分隔符",
+        "recombineJoinWith": "连接符",
+        "recombineOrder": "目标顺序",
+        "recombineOrderHint": "如 3,1,2 · 留空为逆序",
+        "sliceStart": "起始位置",
+        "sliceJoinWith": "片段连接符",
+        "sliceAdd": "添加片段",
+        "randomCharset": "字符集",
+        "randomLength": "长度",
+        "randomPosition": "位置",
+        "randomCustomChars": "自定义字符",
+        "mapListHint": "每行一条映射（旧名=新名）",
+        "mapListPlaceholder": "旧名=新名\nIMG=photo"
+      },
+      "randomCharsets": {
+        "digits": "数字（0-9）",
+        "letters": "字母（A-Z、a-z）",
+        "alphanumeric": "字母与数字",
+        "custom": "自定义"
+      },
+      "styleOptions": {
+        "none": "保持原样",
+        "uppercase": "全大写",
+        "lowercase": "全小写",
+        "titlecase": "首字母大写",
+        "sentencecase": "句首大写",
+        "camelCase": "驼峰式",
+        "PascalCase": "帕斯卡式",
+        "kebab-case": "短横线式",
+        "snake_case": "下划线式"
+      },
+      "separatorOptions": {
+        "none": "保持分隔符",
+        "spaceToDash": "空格 → 短横线",
+        "spaceToUnderscore": "空格 → 下划线",
+        "dashToSpace": "短横线 → 空格",
+        "underscoreToSpace": "下划线 → 空格"
+      },
+      "removeModes": {
+        "chars": "删除 N 个字符",
+        "range": "删除区间",
+        "cleanup": "按类型清理"
       },
       "labels": {
-        "prefix": "前缀",
-        "start": "起始编号",
-        "padding": "编号位数",
-        "preview": "重命名预览",
-        "copied": "已复制！"
+        "files": "文件",
+        "addFiles": "添加文件",
+        "addFolder": "添加文件夹",
+        "sortByName": "按名称",
+        "sortBySize": "按大小",
+        "reorderHint": "拖动行可调整顺序——顺序会影响序号规则。",
+        "selectAll": "全选",
+        "selectFile": "参与重命名",
+        "remove": "移除",
+        "preview": "预览",
+        "originalName": "原名称",
+        "newName": "新名称",
+        "renamedCount": "共 {total} 个文件，{renamed} 个将被重命名",
+        "conflictCount": "{count} 处冲突",
+        "conflict": "冲突",
+        "invalid": "非法名称",
+        "conflictHint": "发现冲突，请先修复后再下载。",
+        "noFiles": "上传文件后即可预览新名称。",
+        "noChange": "暂无可重命名的文件，请添加文件与规则。",
+        "copied": "已复制！",
+        "enableRule": "启用规则",
+        "downloadAllHint": "逐个保存重命名后的文件到本地。",
+        "downloadScriptHint": "下载 Windows 批处理脚本，可在本地直接重命名原文件。"
       },
       "buttons": {
         "downloadZip": "打包下载",
+        "downloadAll": "逐个下载",
+        "downloadScript": "CMD 脚本",
         "copy": "复制列表",
-        "newImage": "重新选择"
+        "newBatch": "重新开始",
+        "autoFix": "修复冲突",
+        "undoFix": "撤销修复",
+        "moveUp": "上移",
+        "moveDown": "下移",
+        "cloneRule": "复制规则",
+        "removeRule": "删除规则"
       },
       "status": {
         "zipping": "打包中…"
@@ -28871,24 +29289,24 @@
         "whatIs": {
           "title": "什么是批量重命名？",
           "body": [
-            "批量重命名一次为多张图片生成统一格式的新文件名，常用于整理素材、照片归档或为网页素材统一命名。",
-            "通过前缀、起始编号和位数即可快速生成如 image_001.png 的规律文件名。"
+            "批量重命名一次为多个文件生成统一格式的新文件名，常用于整理素材、照片归档或为网页素材统一命名。",
+            "借助规则链，除了编号之外还可以清理文本、应用正则、转换大小写、插入日期与序号，一次完成全部处理。"
           ]
         },
         "howTo": {
           "title": "如何使用",
           "intro": "三步完成批量重命名：",
           "items": [
-            "上传图片（最多 100 张）。",
-            "设置前缀、起始编号与编号位数，实时预览新文件名。",
-            "点击「打包下载」保存重命名后的图片，或复制重命名列表。"
+            "上传任意类型的文件（最多 1000 个），或直接选择整个文件夹。",
+            "添加并配置规则，预览会即时更新。",
+            "如有冲突先修复，然后点击「打包下载」或复制重命名列表。"
           ]
         },
         "tips": {
           "title": "小贴士",
           "items": [
-            "编号位数建议设为 3 及以上，避免排序混乱。",
-            "可先上传几张测试命名规则，再批量处理。",
+            "规则自上而下执行，可使用箭头按钮调整顺序。",
+            "配合模板如 image_{n} 使用序号规则，可快速生成编号文件名。",
             "重命名只影响下载的副本，本地文件安全。"
           ]
         }

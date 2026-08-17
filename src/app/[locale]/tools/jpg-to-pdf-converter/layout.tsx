@@ -16,7 +16,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/jpg-to-pdf-converter`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/jpg-to-pdf-converter`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/jpg-to-pdf-converter`,
+        zh: `https://www.toolkitlife.com/zh/tools/jpg-to-pdf-converter`,
+        ja: `https://www.toolkitlife.com/ja/tools/jpg-to-pdf-converter`,
+        ko: `https://www.toolkitlife.com/ko/tools/jpg-to-pdf-converter`,
+      },
     },
   };
 }

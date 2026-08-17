@@ -28,12 +28,20 @@ const basePost = {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const post = await getTranslatedPost(locale, slug, basePost);
-  const url = `https://toolkitlife.com/${locale}/blog/${post.slug}`;
+  const url = `https://www.toolkitlife.com/${locale}/blog/${post.slug}`;
   const ogImage = ogImageUrl({ title: post.title, type: "blog" });
   return {
     title: `${post.title} — ToolkitLife`,
     description: post.description,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      languages: {
+        en: `https://www.toolkitlife.com/en/blog/${post.slug}`,
+        zh: `https://www.toolkitlife.com/zh/blog/${post.slug}`,
+        ja: `https://www.toolkitlife.com/ja/blog/${post.slug}`,
+        ko: `https://www.toolkitlife.com/ko/blog/${post.slug}`,
+      },
+    },
     openGraph: { title: post.title, description: post.description, url, siteName: "ToolkitLife", type: "article", publishedTime: post.datePublished, modifiedTime: post.dateModified, tags: post.tags, images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }] },
     twitter: { card: "summary_large_image", title: post.title, description: post.description, images: [ogImage] },
   };

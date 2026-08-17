@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/image-rounded-corners`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/image-rounded-corners`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/image-rounded-corners`,
+        zh: `https://www.toolkitlife.com/zh/tools/image-rounded-corners`,
+        ja: `https://www.toolkitlife.com/ja/tools/image-rounded-corners`,
+        ko: `https://www.toolkitlife.com/ko/tools/image-rounded-corners`,
+      },
     },
   };
 }

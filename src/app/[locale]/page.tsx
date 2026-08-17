@@ -411,7 +411,7 @@ function TabBar({ children }: { children: React.ReactNode }) {
   // Horizontal scroll on narrow screens; tabs keep their natural width and
   // never truncate. Scrollbar hidden for a clean look.
   return (
-    <div className="flex items-stretch gap-1 overflow-x-auto border-b border-zinc-800 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+    <div className="flex items-stretch justify-center gap-1 overflow-x-auto border-b border-zinc-800 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
       {children}
     </div>
   );

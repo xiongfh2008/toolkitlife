@@ -178,8 +178,8 @@ export default function VideoWatermarkRemover() {
 
     setStatusMsg(t('status.downloadingEngine'))
     await ffmpeg.load({
-      coreURL: await toBlobURL('https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd/ffmpeg-core.js', 'text/javascript'),
-      wasmURL: await toBlobURL('https://unpkg.com/@ffmpeg/core@0.12.6/dist/umd/ffmpeg-core.wasm', 'application/wasm'),
+      coreURL: await toBlobURL('/ffmpeg/ffmpeg-core.js', 'text/javascript'),
+      wasmURL: await toBlobURL('/ffmpeg/ffmpeg-core.wasm', 'application/wasm'),
     })
     return ffmpeg
   }, [t])
@@ -322,7 +322,6 @@ export default function VideoWatermarkRemover() {
     await ffmpeg.deleteFile(inputName).catch(() => {})
     await ffmpeg.deleteFile('patch.png').catch(() => {})
     await ffmpeg.deleteFile('output.mp4').catch(() => {})
-    ffmpeg.terminate()
 
     return blob
   }

@@ -27,6 +27,34 @@ export default function ScreenRecorderPage() {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const videoPreviewRef = useRef<HTMLVideoElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
+  const [fileFormat, setFileFormat] = useState<"mp4" | "webm">("mp4");
+
+  // Prefer MP4 where possible, but avoid the H.264 (avc1) hardware encoder:
+  // Chrome's MP4 MediaRecorder is known to produce corrupted/glitchy output
+  // when recording screen content (especially with audio or odd dimensions).
+  // VP9 inside an MP4 container keeps the .mp4 file while using the stable
+  // encoder that WebM uses. Odd-sized captures skip MP4 entirely because H.264
+  // requires macroblock-aligned dimensions.
+  function pickMimeType(width: number, height: number): string {
+    const aligned = width % 2 === 0 && height % 2 === 0;
+    const candidates = aligned
+      ? [
+          "video/mp4;codecs=vp9,opus",
+          "video/mp4;codecs=avc1",
+          "video/mp4",
+          "video/webm;codecs=vp9,opus",
+          "video/webm;codecs=vp8,opus",
+          "video/webm",
+        ]
+      : [
+          "video/webm;codecs=vp9,opus",
+          "video/webm;codecs=vp8,opus",
+          "video/webm",
+        ];
+    return (
+      candidates.find((m) => MediaRecorder.isTypeSupported(m)) ?? "video/webm"
+    );
+  }
 
   const formatTime = (seconds: number) => {
     const h = Math.floor(seconds / 3600);
@@ -74,11 +102,13 @@ export default function ScreenRecorderPage() {
         videoPreviewRef.current.play();
       }
 
-      const mimeType = MediaRecorder.isTypeSupported("video/webm;codecs=vp9,opus")
-        ? "video/webm;codecs=vp9,opus"
-        : MediaRecorder.isTypeSupported("video/webm;codecs=vp8,opus")
-        ? "video/webm;codecs=vp8,opus"
-        : "video/webm";
+      const videoTrack = stream.getVideoTracks()[0];
+      const trackSettings = videoTrack.getSettings();
+      const mimeType = pickMimeType(
+        trackSettings.width ?? 0,
+        trackSettings.height ?? 0
+      );
+      setFileFormat(mimeType.startsWith("video/mp4") ? "mp4" : "webm");
 
       const recorder = new MediaRecorder(stream, { mimeType });
       mediaRecorderRef.current = recorder;
@@ -145,7 +175,7 @@ export default function ScreenRecorderPage() {
     if (!recordedBlob) return;
     const a = document.createElement("a");
     a.href = URL.createObjectURL(recordedBlob);
-    a.download = `recording-${Date.now()}.webm`;
+    a.download = `recording-${Date.now()}.${fileFormat}`;
     a.click();
   }, [recordedBlob]);
 
@@ -259,7 +289,10 @@ export default function ScreenRecorderPage() {
             <div className="flex items-center justify-between">
               <div className="text-sm text-zinc-400">
                 {t("result.duration", { time: formatTime(duration) })}
-                {recordedBlob && ` | ${t("result.size", { size: (recordedBlob.size / (1024 * 1024)).toFixed(1) })}`}
+                {recordedBlob &&
+                  ` | ${fileFormat.toUpperCase()} | ${t("result.size", {
+                    size: (recordedBlob.size / (1024 * 1024)).toFixed(1),
+                  })}`}
               </div>
               <div className="flex gap-2">
                 <button

@@ -99,7 +99,6 @@ export default function VideoCompressor() {
 
       await ffmpeg.deleteFile('input').catch(() => {})
       await ffmpeg.deleteFile('output.mp4').catch(() => {})
-      ffmpeg.terminate()
 
       setResultSize(blob.size)
       setResultUrl(URL.createObjectURL(blob))

@@ -14,7 +14,15 @@ export async function generateMetadata({
     openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
-    alternates: { canonical: `https://toolkitlife.com/${locale}/tools/present-value-calculator` },
+    alternates: {
+      canonical: `https://www.toolkitlife.com/${locale}/tools/present-value-calculator`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/present-value-calculator`,
+        zh: `https://www.toolkitlife.com/zh/tools/present-value-calculator`,
+        ja: `https://www.toolkitlife.com/ja/tools/present-value-calculator`,
+        ko: `https://www.toolkitlife.com/ko/tools/present-value-calculator`,
+      },
+    },
   };
 }
 

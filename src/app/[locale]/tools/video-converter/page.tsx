@@ -31,6 +31,13 @@ const VIDEO_FORMATS: { ext: string; mime: string; label: string; gif: boolean; a
 type Resolution = "original" | "1080" | "720" | "480";
 type Step = "upload" | "settings" | "processing" | "done";
 
+// Some common video containers (mkv/ts/flv/m2ts/wmv...) are reported by the
+// browser with an empty MIME type when dragged in, so match on the extension
+// as well; otherwise drag-and-drop silently rejects them.
+const VIDEO_EXT_RE =
+  /\.(mp4|mkv|avi|mov|flv|webm|m2ts|mts|ts|ogv|ogg|ogx|oga|mxf|m4v|3gp|3g2|wmv|asf|f4v|ismv|vob|divx)$/i;
+const isVideoFile = (f: File) => f.type.startsWith("video/") || VIDEO_EXT_RE.test(f.name);
+
 export default function VideoConverter() {
   const t = useTranslations("tools.video-converter");
 
@@ -67,9 +74,14 @@ export default function VideoConverter() {
     setStep("processing");
     setProgress(0);
     setError("");
+    let lastLog = "";
     try {
       const { fetchFile } = await import("@ffmpeg/util");
+      setStatusMsg(t("processing.statusLoading"));
       const ffmpeg = await loadFFmpeg((p) => setProgress(Math.min(92, Math.round(p * 92))));
+      ffmpeg.on("log", ({ message }) => {
+        lastLog = message;
+      });
       setStatusMsg(t("processing.statusConverting"));
 
       const ext = file.name.match(/\.[^.]+$/)?.[0] ?? ".mp4";
@@ -80,23 +92,93 @@ export default function VideoConverter() {
       if (resolution !== "original") vf.push(`scale=-2:${resolution}`);
       if (selected.gif) vf.push("fps=10");
 
-      const args: string[] = ["-i", inputName];
-      if (selected.gif) {
-        if (vf.length) args.push("-vf", vf.join(","));
-        args.push("-y", "output.gif");
-      } else {
-        args.push(...selected.args(crf));
-        if (vf.length) args.push("-vf", vf.join(","));
-        args.push("-y", `output.${selected.ext}`);
+      // Fast path: when the output container can hold the input video codec
+      // (e.g. webm VP9 -> mp4, or VP9 mp4 -> webm), copy the video stream
+      // instead of re-encoding it. MP4/MOV accept most codecs, so they always
+      // try copying; WebM only accepts VP8/VP9/AV1, so probe the input codec
+      // first. Re-encoding only happens for incompatible targets (GIF/AVI, or
+      // H.264 video -> WebM). Falls back to a normal encode if the muxer
+      // rejects the copy.
+      const MUXABLE_WEBM = ["vp8", "vp9", "av1"];
+      let inputVideoCodec = "";
+      if (selected.ext === "webm") {
+        const probeLogs: string[] = [];
+        ffmpeg.on("log", ({ message }) => probeLogs.push(message));
+        await ffmpeg.exec(["-i", inputName]).catch(() => {});
+        inputVideoCodec = (probeLogs.join("\n").match(/Video:\s*([a-z0-9_]+)/i)?.[1] ?? "").toLowerCase();
       }
-      await ffmpeg.exec(args);
+      const canFastCopy =
+        resolution === "original" &&
+        crf === 28 &&
+        !selected.gif &&
+        (selected.ext === "mp4" ||
+          selected.ext === "mov" ||
+          (selected.ext === "webm" && MUXABLE_WEBM.includes(inputVideoCodec)));
+
+      const buildArgs = (fast: boolean): string[] => {
+        const args: string[] = ["-i", inputName];
+        if (selected.gif) {
+          if (vf.length) args.push("-vf", vf.join(","));
+          args.push("-y", "output.gif");
+        } else if (fast) {
+          // "?" makes the maps optional so inputs without a video/audio track
+          // fail cleanly (ret != 0) instead of aborting on the stream map.
+          args.push("-map", "0:v:0?", "-map", "0:a?", "-c:v", "copy", "-c:a", selected.ext === "webm" ? "libvorbis" : "aac", "-b:a", "128k");
+          if (selected.ext === "mp4") args.push("-movflags", "+faststart");
+          args.push("-y", `output.${selected.ext}`);
+        } else {
+          args.push(...selected.args(crf));
+          if (vf.length) args.push("-vf", vf.join(","));
+          args.push("-y", `output.${selected.ext}`);
+        }
+        return args;
+      };
+
+      if (selected.gif) {
+        // Two-pass GIF encoding: build a dedicated 256-color palette first,
+        // then apply it with dithering. This greatly reduces color banding
+        // compared to ffmpeg's single-pass default palette.
+        const chain = vf.join(",");
+        const palRet = await ffmpeg.exec([
+          "-i", inputName,
+          "-vf", chain ? `${chain},palettegen=max_colors=256` : "palettegen=max_colors=256",
+          "-y", "palette.png",
+        ]);
+        if (palRet !== 0) throw new Error(lastLog || "FFmpeg exited with an error");
+        // sierra2_4a dithering spreads quantization error more evenly than
+        // ffmpeg's default bayer pattern, producing smoother gradients.
+        const gifRet = await ffmpeg.exec([
+          "-i", inputName,
+          "-i", "palette.png",
+          "-lavfi", chain ? `${chain}[x];[x][1:v]paletteuse=dither=sierra2_4a` : "[0:v][1:v]paletteuse=dither=sierra2_4a",
+          "-y", "output.gif",
+        ]);
+        if (gifRet !== 0) throw new Error(lastLog || "FFmpeg exited with an error");
+      } else {
+        let usedFast = false;
+        if (canFastCopy) {
+          const ret = await ffmpeg.exec(buildArgs(true));
+          if (ret !== 0) {
+            console.error("Fast copy failed, falling back to re-encode:", lastLog);
+            await ffmpeg.deleteFile(`output.${selected.ext}`).catch(() => {});
+          } else {
+            usedFast = true;
+          }
+        }
+        if (!usedFast) {
+          const ret = await ffmpeg.exec(buildArgs(false));
+          if (ret !== 0) throw new Error(lastLog || "FFmpeg exited with an error");
+        }
+      }
 
       setStatusMsg(t("processing.statusFinishing"));
       const blob = await readFFmpegOutput(ffmpeg, `output.${selected.ext}`, selected.mime);
 
       await ffmpeg.deleteFile(inputName).catch(() => {});
       await ffmpeg.deleteFile(`output.${selected.ext}`).catch(() => {});
-      ffmpeg.terminate();
+      await ffmpeg.deleteFile("palette.png").catch(() => {});
+      // Note: the shared engine is intentionally NOT terminated here — it is
+      // cached in lib/ffmpeg.ts and reused by the next conversion for speed.
 
       if (blob.size < 100) throw new Error(t("errors.outputEmpty"));
       setResultSize(blob.size);
@@ -106,7 +188,8 @@ export default function VideoConverter() {
       setStep("done");
     } catch (err) {
       console.error(err);
-      setError(t("errors.prefix") + (err instanceof Error ? err.message : String(err)));
+      const detail = lastLog ? `\n${t("errors.ffmpegDetail")}: ${lastLog.slice(-300)}` : "";
+      setError(t("errors.prefix") + (err instanceof Error ? err.message : String(err)) + detail);
       setStep("settings");
     }
   };
@@ -125,7 +208,7 @@ export default function VideoConverter() {
   const fmtSize = (b: number) =>
     b < 1024 * 1024 ? t("units.kb", { size: (b / 1024).toFixed(1) }) : t("units.mb", { size: (b / (1024 * 1024)).toFixed(1) });
   const fmtDur = (s: number) => {
-    if (!s) return "0:00";
+    if (!s || !isFinite(s)) return "0:00";
     const m = Math.floor(s / 60);
     return `${m}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
   };
@@ -160,7 +243,7 @@ export default function VideoConverter() {
             onDrop={(e) => {
               e.preventDefault();
               const f = e.dataTransfer.files[0];
-              if (f && f.type.startsWith("video/")) handleUpload(f);
+              if (f && isVideoFile(f)) handleUpload(f);
             }}
             onDragOver={(e) => e.preventDefault()}
             onClick={() => document.getElementById("video-input")?.click()}
@@ -173,7 +256,7 @@ export default function VideoConverter() {
             <input
               id="video-input"
               type="file"
-              accept="video/*"
+              accept="video/*,.mkv,.m2ts,.mts,.ts,.flv,.wmv,.avi,.mov,.m4v,.3gp,.ogv,.asf,.vob,.divx,.mxf,.f4v,.ismv,.ogg"
               className="hidden"
               onChange={(e) => e.target.files?.[0] && handleUpload(e.target.files[0])}
             />

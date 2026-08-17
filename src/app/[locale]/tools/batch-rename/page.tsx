@@ -1,23 +1,34 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
-import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 import JSZip from "jszip";
+import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
+import FileList from "@/components/rename/FileList";
+import RulePanel from "@/components/rename/RulePanel";
+import PreviewTable from "@/components/rename/PreviewTable";
+import { autoFixConflicts, computePreview } from "@/lib/rename/rules";
+import { getDefaultConfig } from "@/lib/rename/types";
+import type {
+  ExtensionScope,
+  FileEntry,
+  PreviewResult,
+  RenameRule,
+  RuleConfig,
+  RuleType,
+} from "@/lib/rename/types";
 
-const MAX_FILES = 100;
+const MAX_FILES = 1000;
 
-interface Item {
-  id: number;
-  name: string;
-  url: string;
-  newName?: string;
+function genId(): string {
+  return `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 7)}`;
 }
 
-function buildNewName(name: string, prefix: string, index: number, padding: number): string {
-  const ext = name.includes(".") ? name.slice(name.lastIndexOf(".")) : "";
-  const num = String(index).padStart(padding, "0");
-  return `${prefix}${num}${ext}`;
+function toEntry(file: File): FileEntry {
+  const lastDot = file.name.lastIndexOf(".");
+  const baseName = lastDot > 0 ? file.name.slice(0, lastDot) : file.name;
+  const extension = lastDot > 0 ? file.name.slice(lastDot) : "";
+  return { id: genId(), name: file.name, baseName, extension, file, selected: true };
 }
 
 export default function BatchRenamePage() {
@@ -26,63 +37,155 @@ export default function BatchRenamePage() {
   const relatedTools = t.raw("relatedTools") as RelatedTool[];
   const keywords = t.raw("keywords") as string[];
 
-  const [items, setItems] = useState<Item[]>([]);
-  const [prefix, setPrefix] = useState("image_");
-  const [start, setStart] = useState(1);
-  const [padding, setPadding] = useState(3);
+  const [files, setFiles] = useState<FileEntry[]>([]);
+  const [rules, setRules] = useState<RenameRule[]>([]);
+  const [scope, setScope] = useState<ExtensionScope>("name");
+  // 自动修复结果与产生它的文件/规则快照绑定，参数变化后自动失效
+  const [autoFix, setAutoFix] = useState<{ params: string; result: PreviewResult[] } | null>(null);
   const [zipping, setZipping] = useState(false);
   const [copied, setCopied] = useState(false);
   const [error, setError] = useState("");
 
-  const addFiles = useCallback((files: FileList | File[]) => {
+  const previewParams = useMemo(() => {
+    const fileKey = files.map((f) => `${f.id}:${f.selected ? 1 : 0}`).join("|");
+    return `${scope}|${fileKey}|${JSON.stringify(rules)}`;
+  }, [files, rules, scope]);
+
+  const basePreview = useMemo(
+    () => computePreview(files, rules, scope),
+    [files, rules, scope]
+  );
+  const preview = autoFix && autoFix.params === previewParams ? autoFix.result : basePreview;
+  const hasAutoFix = autoFix !== null && autoFix.params === previewParams;
+
+  // ── 文件操作 ──
+
+  const addFiles = useCallback((incoming: File[]) => {
     setError("");
-    setItems((prev) => {
+    setFiles((prev) => {
+      const existing = new Set(prev.map((f) => f.name));
       const next = [...prev];
-      for (const file of Array.from(files)) {
-        if (!file.type.startsWith("image/")) continue;
+      for (const file of incoming) {
+        if (existing.has(file.name)) continue;
         if (next.length >= MAX_FILES) break;
-        next.push({ id: Date.now() + Math.random(), name: file.name, url: URL.createObjectURL(file) });
+        existing.add(file.name);
+        next.push(toEntry(file));
       }
       return next;
     });
   }, []);
 
-  const handleUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files) addFiles(e.target.files);
-    e.target.value = "";
-  };
+  const removeFile = useCallback((id: string) => {
+    setFiles((prev) => prev.filter((f) => f.id !== id));
+  }, []);
 
-  const handleDrop = (e: React.DragEvent) => {
-    e.preventDefault();
-    if (e.dataTransfer.files) addFiles(e.dataTransfer.files);
-  };
+  const toggleFileSelection = useCallback((id: string) => {
+    setFiles((prev) => prev.map((f) => (f.id === id ? { ...f, selected: !f.selected } : f)));
+  }, []);
 
-  const removeItem = (id: number) => {
-    setItems((prev) => prev.filter((i) => i.id !== id));
-  };
+  const selectAll = useCallback((selected: boolean) => {
+    setFiles((prev) => prev.map((f) => ({ ...f, selected })));
+  }, []);
 
-  const renamed = useCallback(() => {
-    return items.map((item, idx) => ({
-      ...item,
-      newName: buildNewName(item.name, prefix, start + idx, padding),
-    }));
-  }, [items, prefix, start, padding]);
+  const clearAll = useCallback(() => {
+    setFiles([]);
+    setRules([]);
+    setAutoFix(null);
+    setError("");
+    setCopied(false);
+  }, []);
+
+  const sortFiles = useCallback((by: "name" | "size", order: "asc" | "desc") => {
+    setFiles((prev) => {
+      const next = [...prev];
+      next.sort((a, b) => {
+        const cmp =
+          by === "name"
+            ? a.baseName.localeCompare(b.baseName, undefined, { numeric: true, sensitivity: "base" })
+            : a.file.size - b.file.size;
+        return order === "asc" ? cmp : -cmp;
+      });
+      return next;
+    });
+  }, []);
+
+  const reorderFiles = useCallback((from: number, to: number) => {
+    setFiles((prev) => {
+      const next = [...prev];
+      const [moved] = next.splice(from, 1);
+      next.splice(to, 0, moved);
+      return next;
+    });
+  }, []);
+
+  // ── 规则操作 ──
+
+  const addRule = useCallback((type: RuleType) => {
+    setRules((prev) => [
+      ...prev,
+      { id: genId(), enabled: true, ruleConfig: getDefaultConfig(type) },
+    ]);
+  }, []);
+
+  const updateRuleConfig = useCallback((id: string, config: RuleConfig) => {
+    setRules((prev) => prev.map((r) => (r.id === id ? { ...r, ruleConfig: config } : r)));
+  }, []);
+
+  const toggleRule = useCallback((id: string) => {
+    setRules((prev) => prev.map((r) => (r.id === id ? { ...r, enabled: !r.enabled } : r)));
+  }, []);
+
+  const removeRule = useCallback((id: string) => {
+    setRules((prev) => prev.filter((r) => r.id !== id));
+  }, []);
+
+  const moveRule = useCallback((id: string, dir: -1 | 1) => {
+    setRules((prev) => {
+      const idx = prev.findIndex((r) => r.id === id);
+      const to = idx + dir;
+      if (idx === -1 || to < 0 || to >= prev.length) return prev;
+      const next = [...prev];
+      [next[idx], next[to]] = [next[to], next[idx]];
+      return next;
+    });
+  }, []);
+
+  const cloneRule = useCallback((id: string) => {
+    setRules((prev) => {
+      const idx = prev.findIndex((r) => r.id === id);
+      if (idx === -1) return prev;
+      const source = prev[idx];
+      const clone: RenameRule = {
+        id: genId(),
+        enabled: source.enabled,
+        ruleConfig: JSON.parse(JSON.stringify(source.ruleConfig)),
+      };
+      const next = [...prev];
+      next.splice(idx + 1, 0, clone);
+      return next;
+    });
+  }, []);
+
+  const clearRules = useCallback(() => setRules([]), []);
+
+  // ── 执行 ──
 
   const downloadZip = useCallback(async () => {
-    if (items.length === 0 || zipping) return;
+    if (files.length === 0 || zipping) return;
     setZipping(true);
     setError("");
     try {
-      const list = renamed();
+      const fileMap = new Map(files.map((f) => [f.id, f]));
       const zip = new JSZip();
-      for (const item of list) {
-        const blob = await fetch(item.url).then((res) => res.blob());
-        zip.file(item.newName ?? item.name, blob);
+      for (const r of preview) {
+        const entry = fileMap.get(r.fileId);
+        if (!entry) continue;
+        zip.file(r.newName, entry.file);
       }
       const blob = await zip.generateAsync({ type: "blob" });
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob);
-      a.download = "renamed-images.zip";
+      a.download = "renamed-files.zip";
       a.click();
       setTimeout(() => URL.revokeObjectURL(a.href), 1000);
     } catch (err) {
@@ -91,13 +194,14 @@ export default function BatchRenamePage() {
     } finally {
       setZipping(false);
     }
-  }, [items, zipping, renamed, t]);
+  }, [files, preview, zipping, t]);
 
-  const copyList = async () => {
-    const list = renamed();
-    const text = list
-      .map((item) => `${item.name} → ${item.newName ?? item.name}`)
+  const copyList = useCallback(async () => {
+    const text = preview
+      .filter((r) => r.hasChange)
+      .map((r) => `${r.original} → ${r.newName}`)
       .join("\n");
+    if (!text) return;
     try {
       await navigator.clipboard.writeText(text);
       setCopied(true);
@@ -105,19 +209,48 @@ export default function BatchRenamePage() {
     } catch {
       // clipboard unavailable
     }
-  };
+  }, [preview]);
 
-  const handleNewImage = () => {
-    for (const item of items) URL.revokeObjectURL(item.url);
-    setItems([]);
-    setCopied(false);
-    setError("");
-  };
+  // 逐个下载：浏览器逐个触发下载（同名文件浏览器会自动追加编号）
+  const downloadAll = useCallback(() => {
+    const fileMap = new Map(files.map((f) => [f.id, f]));
+    const urls: string[] = [];
+    for (const r of preview) {
+      if (!r.hasChange) continue;
+      const entry = fileMap.get(r.fileId);
+      if (!entry) continue;
+      const url = URL.createObjectURL(new Blob([entry.file], { type: entry.file.type }));
+      urls.push(url);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = r.newName;
+      a.click();
+    }
+    setTimeout(() => urls.forEach((u) => URL.revokeObjectURL(u)), 5000);
+  }, [files, preview]);
 
-  const btn =
-    "px-4 py-2 rounded-lg text-sm font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed";
-  const inputCls =
-    "rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-200 focus:border-blue-500 focus:outline-none";
+  // CMD 批处理脚本：用户在本地运行即可重命名原文件（仅 Windows）
+  const downloadScript = useCallback(() => {
+    const escapeCmd = (s: string) => s.replace(/%/g, "%%");
+    const lines: string[] = [
+      "@echo off",
+      "chcp 65001 >nul",
+      "setlocal DisableDelayedExpansion",
+      "rem Generated by ToolkitLife Batch Rename",
+      'cd /d "%~dp0"',
+    ];
+    for (const r of preview) {
+      if (!r.hasChange) continue;
+      lines.push(`ren "${escapeCmd(r.original)}" "${escapeCmd(r.newName)}"`);
+    }
+    lines.push("pause");
+    const blob = new Blob([lines.join("\r\n")], { type: "text/plain;charset=utf-8" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "rename-files.cmd";
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }, [files, preview]);
 
   return (
     <ToolLayout
@@ -129,113 +262,53 @@ export default function BatchRenamePage() {
       relatedTools={relatedTools}
       keywords={keywords}
     >
-      <div className="max-w-4xl space-y-4">
-        {items.length === 0 ? (
-          <div
-            onDrop={handleDrop}
-            onDragOver={(e) => e.preventDefault()}
-            onClick={() => document.getElementById("br-in")?.click()}
-            className="cursor-pointer rounded-xl border-2 border-dashed border-zinc-600 p-16 text-center transition-colors hover:border-zinc-500"
-          >
-            <div className="mb-4 text-4xl">📝</div>
-            <p className="font-medium text-zinc-300">{t("upload.drop")}</p>
-            <p className="mt-1 text-sm text-zinc-500">{t("upload.formats")}</p>
-            <input
-              id="br-in"
-              type="file"
-              accept="image/*"
-              multiple
-              className="hidden"
-              onChange={handleUpload}
+      <div className="space-y-4">
+        <div className="grid gap-4 lg:grid-cols-3">
+          <section className="lg:col-span-1">
+            <FileList
+              items={files}
+              maxFiles={MAX_FILES}
+              onAdd={addFiles}
+              onRemove={removeFile}
+              onToggleSelect={toggleFileSelection}
+              onSelectAll={selectAll}
+              onClear={clearAll}
+              onSortFiles={sortFiles}
+              onReorder={reorderFiles}
             />
-          </div>
-        ) : (
-          <div className="space-y-4">
-            <div className="grid gap-4 sm:grid-cols-3">
-              <div>
-                <label className="mb-1 block text-sm text-zinc-400">{t("labels.prefix")}</label>
-                <input
-                  type="text"
-                  value={prefix}
-                  onChange={(e) => setPrefix(e.target.value)}
-                  className={`${inputCls} w-full`}
-                />
-              </div>
-              <div>
-                <label className="mb-1 block text-sm text-zinc-400">{t("labels.start")}</label>
-                <input
-                  type="number"
-                  min={0}
-                  value={start}
-                  onChange={(e) => setStart(Math.max(0, parseInt(e.target.value, 10) || 0))}
-                  className={`${inputCls} w-full`}
-                />
-              </div>
-              <div>
-                <label className="mb-1 block text-sm text-zinc-400">
-                  {t("labels.padding")}: {padding}
-                </label>
-                <input
-                  type="range"
-                  min={1}
-                  max={6}
-                  value={padding}
-                  onChange={(e) => setPadding(parseInt(e.target.value, 10))}
-                  className="w-full accent-blue-500"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-wrap items-center gap-3">
-              <button
-                onClick={() => void downloadZip()}
-                disabled={zipping}
-                className={`${btn} bg-blue-600 text-white hover:bg-blue-500`}
-              >
-                {zipping ? t("status.zipping") : t("buttons.downloadZip")}
-              </button>
-              <button
-                onClick={() => void copyList()}
-                className={`${btn} bg-zinc-800 text-zinc-300 hover:bg-zinc-700`}
-              >
-                {copied ? t("labels.copied") : t("buttons.copy")}
-              </button>
-              <button
-                onClick={handleNewImage}
-                className={`${btn} bg-zinc-800 text-zinc-300 hover:bg-zinc-700`}
-              >
-                {t("buttons.newImage")}
-              </button>
-              <span className="text-xs text-zinc-500">
-                {items.length} / {MAX_FILES}
-              </span>
-            </div>
-
-            {error && <p className="text-sm text-red-500">{error}</p>}
-
-            <div>
-              <p className="mb-2 text-sm font-medium text-zinc-300">{t("labels.preview")}</p>
-              <div className="max-h-80 space-y-1.5 overflow-auto rounded-lg border border-zinc-800 bg-zinc-900 p-3">
-                {renamed().map((item) => (
-                  <div
-                    key={item.id}
-                    className="flex items-center gap-2 text-xs"
-                  >
-                    <span className="truncate text-zinc-500">{item.name}</span>
-                    <span className="text-zinc-600">→</span>
-                    <span className="truncate font-mono text-blue-400">{item.newName}</span>
-                    <button
-                      onClick={() => removeItem(item.id)}
-                      className="ml-auto shrink-0 text-zinc-600 transition-colors hover:text-red-400"
-                    >
-                      ✕
-                    </button>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        )}
+          </section>
+          <section className="lg:col-span-1">
+            <RulePanel
+              rules={rules}
+              scope={scope}
+              onAddRule={addRule}
+              onUpdateRuleConfig={updateRuleConfig}
+              onToggleRule={toggleRule}
+              onRemoveRule={removeRule}
+              onMoveRule={moveRule}
+              onCloneRule={cloneRule}
+              onSetScope={setScope}
+              onClearRules={clearRules}
+            />
+          </section>
+          <section className="lg:col-span-1">
+            <PreviewTable
+              preview={preview}
+              zipping={zipping}
+              copied={copied}
+              hasAutoFix={hasAutoFix}
+              onDownload={() => void downloadZip()}
+              onDownloadAll={downloadAll}
+              onDownloadScript={downloadScript}
+              onCopy={() => void copyList()}
+              onAutoFix={() =>
+                setAutoFix({ params: previewParams, result: autoFixConflicts(basePreview) })
+              }
+              onResetAutoFix={() => setAutoFix(null)}
+            />
+          </section>
+        </div>
+        {error && <p className="text-sm text-red-500">{error}</p>}
       </div>
     </ToolLayout>
   );

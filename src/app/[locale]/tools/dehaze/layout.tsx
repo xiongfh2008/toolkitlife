@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/dehaze`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/dehaze`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/dehaze`,
+        zh: `https://www.toolkitlife.com/zh/tools/dehaze`,
+        ja: `https://www.toolkitlife.com/ja/tools/dehaze`,
+        ko: `https://www.toolkitlife.com/ko/tools/dehaze`,
+      },
     },
   };
 }

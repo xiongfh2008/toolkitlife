@@ -11,9 +11,9 @@ export default function OgPreviewPage() {
   const [description, setDescription] = useState(
     "136+ free browser-based tools and calculators for developers, designers, and more."
   );
-  const [imageUrl, setImageUrl] = useState("https://toolkitlife.com/og-image.png");
+  const [imageUrl, setImageUrl] = useState("https://www.toolkitlife.com/og-image.png");
   const [siteName, setSiteName] = useState("ToolkitLife");
-  const [url, setUrl] = useState("https://toolkitlife.com");
+  const [url, setUrl] = useState("https://www.toolkitlife.com");
 
   const metaTags = `<meta property="og:title" content="${title}" />
 <meta property="og:description" content="${description}" />

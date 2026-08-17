@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/rgb-channel-split`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/rgb-channel-split`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/rgb-channel-split`,
+        zh: `https://www.toolkitlife.com/zh/tools/rgb-channel-split`,
+        ja: `https://www.toolkitlife.com/ja/tools/rgb-channel-split`,
+        ko: `https://www.toolkitlife.com/ko/tools/rgb-channel-split`,
+      },
     },
   };
 }

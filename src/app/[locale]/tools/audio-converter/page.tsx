@@ -74,7 +74,6 @@ export default function AudioConverter() {
 
       await ffmpeg.deleteFile(inputName).catch(() => {});
       await ffmpeg.deleteFile(`output.${selected.ext}`).catch(() => {});
-      ffmpeg.terminate();
 
       if (blob.size < 100) throw new Error(t("errors.outputEmpty"));
       setResultSize(blob.size);

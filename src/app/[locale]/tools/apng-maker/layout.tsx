@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/apng-maker`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/apng-maker`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/apng-maker`,
+        zh: `https://www.toolkitlife.com/zh/tools/apng-maker`,
+        ja: `https://www.toolkitlife.com/ja/tools/apng-maker`,
+        ko: `https://www.toolkitlife.com/ko/tools/apng-maker`,
+      },
     },
   };
 }

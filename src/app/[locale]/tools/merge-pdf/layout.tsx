@@ -16,7 +16,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/merge-pdf`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/merge-pdf`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/merge-pdf`,
+        zh: `https://www.toolkitlife.com/zh/tools/merge-pdf`,
+        ja: `https://www.toolkitlife.com/ja/tools/merge-pdf`,
+        ko: `https://www.toolkitlife.com/ko/tools/merge-pdf`,
+      },
     },
   };
 }

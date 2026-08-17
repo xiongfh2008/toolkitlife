@@ -91,6 +91,12 @@
         "category": "Utility",
         "icon": "📷"
       },
+      "qr-file-transfer": {
+        "name": "QR File Transfer",
+        "description": "Send files between devices through animated QR codes — no network, no upload. Camera-to-screen optical transfer.",
+        "category": "Utility",
+        "icon": "📤"
+      },
       "face-detector": {
         "name": "Face Detector",
         "description": "Detect faces in photos automatically with bounding boxes and confidence scores. Runs entirely in your browser.",
@@ -1351,6 +1357,12 @@
         "category": "Utility",
         "icon": "🗜"
       },
+      "scroll-capture": {
+        "name": "Screen Capture",
+        "description": "Capture any area of your screen, annotate it, and download as PNG. One click, no URL needed, nothing uploaded.",
+        "category": "Utility",
+        "icon": "📸"
+      },
       "video-to-gif": {
         "name": "Video to GIF Converter",
         "description": "Convert any video to an animated GIF. Trim, resize, and adjust frame rate. No upload, runs in your browser.",
@@ -1653,7 +1665,7 @@
       },
       "batch-rename": {
         "name": "Batch Rename",
-        "description": "Batch rename image files and download them as a ZIP.",
+        "description": "Batch rename any type of files with rule chains and download them as a ZIP.",
         "category": "Image Tools",
         "icon": "📝"
       },
@@ -2903,7 +2915,7 @@
         },
         {
           "question": "What format is the recording?",
-          "answer": "Recordings are saved in WebM format, which is supported by all modern browsers and video players like VLC. You can convert to MP4 using a video converter if needed."
+          "answer": "Recordings are saved as MP4 (VP9) files, which play on virtually every platform while avoiding the glitches H.264 recording can produce in some browsers. On browsers without MP4 recording support (e.g. Firefox), recordings fall back to WebM."
         },
         {
           "question": "Can I record audio?",
@@ -2978,7 +2990,7 @@
             "Choose Screen / Window / Tab or Webcam.",
             "Enable audio options if needed.",
             "Click Start Recording and select what to share.",
-            "Click Stop when finished and download the WebM file."
+            "Click Stop when finished and download the MP4 file."
           ]
         },
         "tips": {
@@ -3077,6 +3089,112 @@
             "Your text never leaves your device — all processing is local."
           ]
         }
+      }
+    },
+    "scroll-capture": {
+      "metadata": {
+        "title": "Screen Capture - Screenshot Tool",
+        "description": "Capture any area of your screen, add annotations, and download as PNG. One click, no URL needed, nothing uploaded."
+      },
+      "title": "Screen Capture",
+      "description": "Capture any area of your screen, add annotations, and download as PNG. One click, no URL needed, nothing uploaded.",
+      "category": "Utility",
+      "keywords": [
+        "screen capture",
+        "screenshot",
+        "screen shot tool",
+        "annotate screenshot",
+        "capture screen",
+        "crop screenshot"
+      ],
+      "faqs": [
+        {
+          "question": "How does this tool work?",
+          "answer": "Click Start Screen Capture, choose the screen, window, or tab to capture in the browser dialog, then drag a box on the preview to select the area. You can annotate it with shapes, arrows, text, or mosaic before saving."
+        },
+        {
+          "question": "Can I capture only part of the screen?",
+          "answer": "Yes. After the capture starts, drag on the preview to choose any rectangular area. Everything outside the box is excluded."
+        },
+        {
+          "question": "Can I annotate the screenshot?",
+          "answer": "Yes. A toolbar offers pencil, shapes (rectangle, circle, arrow), text, and mosaic. You can undo any step with Ctrl+Z."
+        },
+        {
+          "question": "Why does the browser ask for screen sharing?",
+          "answer": "The tool uses your browser's built-in screen capture, so the system asks you to choose which screen, window, or tab to share. Your image is processed entirely in your browser — nothing is uploaded."
+        },
+        {
+          "question": "Does it work on mobile?",
+          "answer": "Screen capture requires a desktop browser with getDisplayMedia support (Chrome, Edge, Firefox, Safari on desktop). It is not available on mobile browsers."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Screen Recorder",
+          "href": "/tools/screen-recorder"
+        },
+        {
+          "name": "Screen Color Picker",
+          "href": "/tools/screen-color-picker"
+        },
+        {
+          "name": "Image Stitcher",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "intro": {
+        "line1": "Capture any area of your screen — no URLs, no uploads.",
+        "line2": "How it works:",
+        "steps": [
+          "Click Start Screen Capture and choose the screen, window, or tab to capture.",
+          "Drag on the preview to select the area, or keep it as the full screen.",
+          "Annotate with pencil, shapes, arrows, text, or mosaic if you like.",
+          "Click the checkmark to finish and download the PNG."
+        ]
+      },
+      "start": "Start Screen Capture",
+      "processing": "Screen capture in progress…",
+      "startHint": "Click the button, then choose what to capture in the browser dialog.",
+      "buttons": {
+        "restart": "New Capture",
+        "download": "Download PNG",
+        "retry": "Try again"
+      },
+      "result": {
+        "alt": "Captured screenshot",
+        "size": "Size: {size} KB"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "What Is Screen Capture?",
+          "body": [
+            "Screen Capture takes a picture of any part of your screen using your browser's built-in capture API. You can crop to the area you need and add annotations before saving. Everything stays in your browser — nothing is uploaded."
+          ]
+        },
+        "howTo": {
+          "title": "How to Take a Screenshot",
+          "intro": "Follow these steps:",
+          "items": [
+            "Click Start Screen Capture and pick the screen, window, or tab to share in the system dialog.",
+            "Drag a rectangle on the preview to crop, or keep the whole screen.",
+            "Use the toolbar to annotate: pencil, rectangle, circle, arrow, text, or mosaic.",
+            "Click the checkmark to confirm and download the PNG, or press Esc to cancel."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "Press Ctrl+Z to undo the last annotation step.",
+            "The result is copied to your clipboard automatically on supported browsers.",
+            "For long pages, scroll to the area you want before capturing — this tool captures what is on screen."
+          ]
+        }
+      },
+      "errors": {
+        "notSupported": "Your browser does not support screen capture (getDisplayMedia).",
+        "permissionDenied": "Screen capture permission was denied. Please allow access and try again.",
+        "startFailed": "Could not start screen capture. Please try again."
       }
     },
     "video-to-gif": {
@@ -4425,6 +4543,165 @@
             "Codes with high contrast and undamaged finder patterns decode most reliably."
           ]
         }
+      }
+    },
+    "qr-file-transfer": {
+      "metadata": {
+        "title": "QR File Transfer - Send Files Between Devices Offline",
+        "description": "Send files and text between two devices using animated QR codes. The sending screen displays a stream of codes your camera scans to rebuild the file — no network, no upload, fully offline.",
+        "category": "Utility"
+      },
+      "title": "QR File Transfer",
+      "description": "Send files and text between two devices through a stream of animated QR codes. One screen emits the codes, the other device's camera scans them and rebuilds the file locally — no network, no servers, nothing is uploaded.",
+      "category": "Utility",
+      "keywords": [
+        "qr file transfer",
+        "transfer files with qr code",
+        "offline file transfer",
+        "send file camera to screen",
+        "airdrop alternative",
+        "optical file transfer"
+      ],
+      "faqs": [
+        {
+          "question": "How does QR file transfer work?",
+          "answer": "One device (the sender) displays an endless stream of animated QR codes encoding the file. The other device's camera scans the codes and the receiver rebuilds the file from them. The fountain coding used means any subset of the frames is enough — dropped frames only cost time, never correctness."
+        },
+        {
+          "question": "Is my data uploaded anywhere?",
+          "answer": "No. The whole transfer happens between the two screens — nothing is uploaded, nothing is stored, and no network connection is needed between the devices."
+        },
+        {
+          "question": "What is the maximum file size?",
+          "answer": "Files up to 64 MB are supported. Smaller files and text snippets transfer faster, and the tool compresses the file automatically when it helps."
+        },
+        {
+          "question": "How fast is the transfer?",
+          "answer": "The speed depends on the camera and the QR density. At close range with a good camera you can expect several hundred KB/s; dense frames (2953 bytes per frame) are fastest phone-to-phone at close range."
+        },
+        {
+          "question": "Is the transfer secure?",
+          "answer": "The data travels only as light from one screen to the other — no network, no intermediate server. Anyone with a camera in line of sight of the sending screen could read it, so it is best for trusted surroundings."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "QR Code Reader",
+          "href": "/tools/qr-code-reader"
+        },
+        {
+          "name": "Batch Rename",
+          "href": "/tools/batch-rename"
+        }
+      ],
+      "tabs": {
+        "label": "Transfer mode",
+        "send": "Send",
+        "receive": "Receive"
+      },
+      "send": {
+        "modeFile": "Send a file",
+        "modeSnippet": "Send text",
+        "selectButton": "Select File",
+        "stopButton": "Stop transfer",
+        "pickerLabel": "Any file · up to {max}",
+        "selectedLabel": "Selected file: {name}",
+        "statusIdleFile": "Choose a file to begin",
+        "statusIdleSnippet": "Paste or type some text to begin",
+        "statusPreparingFile": "Preparing {name}…",
+        "statusPreparingSnippet": "Preparing text snippet…",
+        "statusStreaming": "Streaming {name} —",
+        "snippetPlaceholder": "Paste or type anything — a URL, a config, a wall of text…",
+        "snippetLimit": "Text to send · up to {max}",
+        "snippetName": "Text snippet",
+        "sendSnippetButton": "Start text stream",
+        "tapHint": "Tap the code to fill the screen with it",
+        "settings": {
+          "title": "Transfer settings",
+          "fps": "Frames per second",
+          "frameBytes": "Bytes per frame",
+          "ecc": "Error correction",
+          "size": "Display size"
+        },
+        "specs": {
+          "fps": "Frame rate",
+          "frame": "Frame payload",
+          "qr": "QR code",
+          "payload": "Sending",
+          "compression": "Compression",
+          "k": "Fountain blocks"
+        },
+        "errors": {
+          "emptyFile": "{name} is empty — there is nothing to send.",
+          "tooLarge": "{name} is {size}, over the {max} limit.",
+          "raiseFrameBytes": "Raise bytes / frame to {suggestion} or more."
+        }
+      },
+      "receive": {
+        "statusReady": "Ready to scan a file or text stream",
+        "statusStarting": "Starting camera",
+        "statusSearching": "Camera {w}×{h}@{fps} — searching for a stream…",
+        "startCamera": "Start camera",
+        "camera": {
+          "actual": "Camera {w}×{h} @ {fps} fps",
+          "asked": "asked {fps}",
+          "workers": "decode workers",
+          "live": "changes apply live",
+          "refused": "This camera refused a live change — restart to apply"
+        },
+        "noSignal": {
+          "title": "Nothing happening?",
+          "help": "Help",
+          "dismiss": "Dismiss",
+          "gotIt": "Got it",
+          "tips": [
+            "On the sender, open Transfer settings and drop bytes / frame to 1465.",
+            "Still nothing? Drop the sender's frames per second to 24 as well.",
+            "Fill this camera's view with the code, and prop the phone against something — autofocus hunting from hand tremor is the usual culprit.",
+            "Turn the sending screen's brightness all the way up."
+          ]
+        },
+        "settings": {
+          "title": "Receive settings",
+          "captureWidth": "Capture width",
+          "captureFps": "Capture fps",
+          "workers": "Decode workers"
+        },
+        "progress": {
+          "frames": "frames",
+          "blocks": "blocks",
+          "decoding": "decoding",
+          "estimating": "Estimating time…",
+          "about": "About",
+          "done": "transfer complete"
+        },
+        "result": {
+          "fileDone": "Transfer Complete!",
+          "textDone": "Text received",
+          "inSeconds": "in {seconds} s",
+          "textIn": "Text in {seconds} s",
+          "verified": "SHA-256 verified ✓",
+          "gzipDecompressed": "gzip decompressed",
+          "save": "Save {name}",
+          "receiveAnother": "Receive another file",
+          "copy": "Copy",
+          "copied": "Copied",
+          "failed": "Transfer failed",
+          "failedHint": "Nothing usable came out of that stream. Restart the sender, then scan it again — a partial transfer costs nothing but the time.",
+          "tryAgain": "Try again"
+        },
+        "errors": {
+          "secureContext": "The camera needs a secure context — this page must be served over HTTPS to use the camera from another device.",
+          "permissionDenied": "Camera permission denied — allow it, then tap Start camera again.",
+          "camera": "Camera:",
+          "checksum": "The optical stream checksum did not match.",
+          "sha256": "The recovered file failed SHA-256 verification."
+        },
+        "privacyNote": "Everything happens on your devices — no network, no upload. The transfer is only as private as the space around your screens."
       }
     },
     "face-detector": {
@@ -6946,7 +7223,8 @@
       },
       "errors": {
         "prefix": "Conversion failed: ",
-        "outputEmpty": "The converter produced an empty file."
+        "outputEmpty": "The converter produced an empty file.",
+        "ffmpegDetail": "Details"
       },
       "units": {
         "kb": "{size} KB",
@@ -29029,36 +29307,40 @@
     },
     "batch-rename": {
       "metadata": {
-        "title": "Batch Rename - Rename Images Online",
-        "description": "Free online batch image renaming with a custom prefix, starting number, and digit count. Preview the names, then download everything as a ZIP.",
+        "title": "Batch Rename - Rename Files Online",
+        "description": "Free online batch file renaming with rule chains: find & replace, regex, sequence numbering, case conversion and more. Preview new names in real time, then download everything as a ZIP.",
         "category": "Image Tools"
       },
       "title": "Batch Rename",
-      "description": "Generate new file names for multiple images in bulk. Customize the prefix, starting number, and number of digits, preview the results, then download everything as a ZIP or copy the renaming list with one click.",
+      "description": "Batch rename any type of files with configurable rules. Combine find & replace, regex, sequence numbering, case conversion, insert and cleanup rules into a chain, preview every new name in real time, then download the renamed files as a ZIP or copy the renaming list.",
       "category": "Image Tools",
       "keywords": [
         "batch rename",
-        "rename images",
+        "rename files",
         "bulk rename",
         "file renaming",
         "batch rename tool"
       ],
       "faqs": [
         {
-          "question": "What does the renaming rule look like?",
-          "answer": "The new file name is prefix + number + original extension. For example, with the prefix image_, starting at 1, and 3 digits, you get image_001.png, image_002.png, and so on."
+          "question": "What are rename rules?",
+          "answer": "Rules are the building blocks of renaming. You can add find & replace, regex, sequence numbering, case conversion, insert and cleanup rules, combine them in any order, and the chain runs from top to bottom on every file name."
         },
         {
           "question": "Will this modify my local files?",
           "answer": "No. The tool only generates new names and packages copies for download — your original files are never modified."
         },
         {
-          "question": "How many images can I rename at once?",
-          "answer": "You can upload up to 100 images at a time, and the file name list updates in real time."
+          "question": "How many files can I rename at once?",
+          "answer": "You can upload up to 1000 files of any type at a time, and the file name list updates in real time."
+        },
+        {
+          "question": "How do I avoid duplicate names?",
+          "answer": "Conflicts are detected automatically and highlighted in the preview. Use the Fix Conflicts button to automatically append (1), (2) and so on."
         },
         {
           "question": "Are the extensions preserved?",
-          "answer": "Yes. The original extension is kept in the new file name, and downloads use the corresponding new names."
+          "answer": "By default the rules apply to the file name only and the extension is preserved. You can switch the scope to Extension or Full name to apply rules there instead."
         }
       ],
       "relatedTools": [
@@ -29067,29 +29349,165 @@
           "href": "/tools/image-web-optimizer"
         },
         {
-          "name": "CSS Sprite Generator",
-          "href": "/tools/css-sprite-generator"
+          "name": "Duplicate Image Finder",
+          "href": "/tools/duplicate-finder"
         },
         {
-          "name": "Image Compressor",
-          "href": "/tools/image-compressor"
+          "name": "Text Case Converter",
+          "href": "/tools/text-case-converter"
         }
       ],
       "upload": {
-        "drop": "Drop an image or click to upload",
-        "formats": "PNG, JPG, WEBP, BMP (up to 100)"
+        "drop": "Drop files or click to upload",
+        "formats": "Any file type (up to {max})",
+        "folderHint": "You can also drop or pick a whole folder — all files inside are imported."
+      },
+      "scope": {
+        "label": "Apply rules to",
+        "name": "Name",
+        "extension": "Extension",
+        "full": "Full name"
+      },
+      "rulesPanel": {
+        "title": "Rules",
+        "add": "Add rule",
+        "clear": "Clear rules",
+        "empty": "No rules yet — add one below.",
+        "reorderHint": "Rules run from top to bottom. Disable a rule to skip it."
+      },
+      "ruleTypes": {
+        "findReplace": "Find & Replace",
+        "insert": "Insert",
+        "sequence": "Sequence",
+        "caseStyle": "Case & Style",
+        "regex": "Regex",
+        "removeCleanup": "Remove & Cleanup",
+        "recombine": "Recombine",
+        "slice": "Extract Slice",
+        "random": "Random",
+        "mapList": "Mapping List"
+      },
+      "fields": {
+        "find": "Find",
+        "replace": "Replace with",
+        "caseSensitive": "Case sensitive",
+        "matchAll": "Replace all",
+        "replacePosition": "Replace by position",
+        "fromEnd": "Count from the end",
+        "position": "Start position",
+        "length": "Length",
+        "insertText": "Text",
+        "insertPosition": "Position",
+        "positionStart": "Start",
+        "positionEnd": "End",
+        "positionIndex": "At index",
+        "seqType": "Type",
+        "numeric": "Numbers",
+        "alpha": "Letters (A, B, C…)",
+        "roman": "Roman numerals",
+        "seqStart": "Start at",
+        "step": "Step",
+        "padding": "Digits",
+        "seqPosition": "Place number",
+        "replaceWhole": "Replace whole name",
+        "template": "Template (use {n})",
+        "regexPattern": "Pattern",
+        "regexReplacement": "Replacement",
+        "flags": "Flags",
+        "mode": "Style",
+        "style": "Separators",
+        "removeMode": "Mode",
+        "charsDirection": "Remove from",
+        "fromStart": "Start",
+        "fromEnd": "End",
+        "charsCount": "Count",
+        "rangeStart": "From index",
+        "rangeEnd": "To index",
+        "removeDigits": "Digits",
+        "removeSymbols": "Symbols",
+        "removeSpaces": "Spaces",
+        "removeChinese": "Chinese characters",
+        "removeEnglish": "Letters",
+        "recombineSeparator": "Split by",
+        "recombineJoinWith": "Join with",
+        "recombineOrder": "New order",
+        "recombineOrderHint": "e.g. 3,1,2 · empty = reverse",
+        "sliceStart": "From index",
+        "sliceJoinWith": "Join pieces with",
+        "sliceAdd": "Add slice",
+        "randomCharset": "Characters",
+        "randomLength": "Length",
+        "randomPosition": "Place",
+        "randomCustomChars": "Custom characters",
+        "mapListHint": "One mapping per line (from=to)",
+        "mapListPlaceholder": "old=newname\nIMG=photo"
+      },
+      "randomCharsets": {
+        "digits": "Digits (0-9)",
+        "letters": "Letters (A-Z, a-z)",
+        "alphanumeric": "Letters & digits",
+        "custom": "Custom"
+      },
+      "styleOptions": {
+        "none": "Keep case",
+        "uppercase": "UPPERCASE",
+        "lowercase": "lowercase",
+        "titlecase": "Title Case",
+        "sentencecase": "Sentence case",
+        "camelCase": "camelCase",
+        "PascalCase": "PascalCase",
+        "kebab-case": "kebab-case",
+        "snake_case": "snake_case"
+      },
+      "separatorOptions": {
+        "none": "Keep separators",
+        "spaceToDash": "Spaces → dashes",
+        "spaceToUnderscore": "Spaces → underscores",
+        "dashToSpace": "Dashes → spaces",
+        "underscoreToSpace": "Underscores → spaces"
+      },
+      "removeModes": {
+        "chars": "Remove N characters",
+        "range": "Remove range",
+        "cleanup": "Remove types"
       },
       "labels": {
-        "prefix": "Prefix",
-        "start": "Starting Number",
-        "padding": "Digits",
-        "preview": "Rename Preview",
-        "copied": "Copied!"
+        "files": "Files",
+        "addFiles": "Add files",
+        "addFolder": "Add folder",
+        "sortByName": "By name",
+        "sortBySize": "By size",
+        "reorderHint": "Drag rows to reorder — the sequence affects numbering rules.",
+        "selectAll": "Select all",
+        "selectFile": "Include in rename",
+        "remove": "Remove",
+        "preview": "Preview",
+        "originalName": "Original",
+        "newName": "New name",
+        "renamedCount": "{renamed} of {total} will be renamed",
+        "conflictCount": "{count} conflicts",
+        "conflict": "Conflict",
+        "invalid": "Invalid",
+        "conflictHint": "Conflicts found — fix them before downloading, or download anyway.",
+        "noFiles": "Upload files to preview names.",
+        "noChange": "Nothing to rename — add files and rules.",
+        "copied": "Copied!",
+        "enableRule": "Enable rule",
+        "downloadAllHint": "Save each renamed file individually to your device.",
+        "downloadScriptHint": "Download a Windows .cmd script that renames your original files locally."
       },
       "buttons": {
         "downloadZip": "Download ZIP",
+        "downloadAll": "Download All",
+        "downloadScript": "CMD Script",
         "copy": "Copy List",
-        "newImage": "Choose New"
+        "newBatch": "Start Over",
+        "autoFix": "Fix Conflicts",
+        "undoFix": "Undo Fix",
+        "moveUp": "Move up",
+        "moveDown": "Move down",
+        "cloneRule": "Duplicate rule",
+        "removeRule": "Remove rule"
       },
       "status": {
         "zipping": "Zipping…"
@@ -29101,24 +29519,24 @@
         "whatIs": {
           "title": "What Is Batch Renaming?",
           "body": [
-            "Batch renaming generates uniformly formatted new file names for multiple images at once, which is handy for organizing assets, archiving photos, or naming web assets consistently.",
-            "With a prefix, starting number, and digit count you can quickly produce regular names like image_001.png."
+            "Batch renaming generates uniformly formatted new file names for multiple files at once, which is handy for organizing assets, archiving photos, or naming web assets consistently.",
+            "With rule chains you can do much more than numbering: clean up text, apply regular expressions, convert case, insert dates and sequence numbers — all in one pass."
           ]
         },
         "howTo": {
           "title": "How to Use",
           "intro": "Rename your files in three steps:",
           "items": [
-            "Upload images (up to 100).",
-            "Set the prefix, starting number, and digit count, and preview the new names in real time.",
-            "Click Download ZIP to save the renamed images, or copy the renaming list."
+            "Upload files of any type (up to 1000), or a whole folder.",
+            "Add rules and configure them; the preview updates instantly.",
+            "Fix any conflicts if needed, then click Download ZIP or copy the renaming list."
           ]
         },
         "tips": {
           "title": "Tips",
           "items": [
-            "Use 3 or more digits so files sort in the right order.",
-            "Test the naming rule with a few images before processing a large batch.",
+            "Rules run from top to bottom — use the arrows to reorder them.",
+            "Use the Sequence rule with a template like image_{n} for numbered names.",
             "Renaming only affects the downloaded copies — your local files are safe."
           ]
         }

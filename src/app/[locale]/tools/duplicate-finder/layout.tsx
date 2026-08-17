@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/duplicate-finder`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/duplicate-finder`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/duplicate-finder`,
+        zh: `https://www.toolkitlife.com/zh/tools/duplicate-finder`,
+        ja: `https://www.toolkitlife.com/ja/tools/duplicate-finder`,
+        ko: `https://www.toolkitlife.com/ko/tools/duplicate-finder`,
+      },
     },
   };
 }

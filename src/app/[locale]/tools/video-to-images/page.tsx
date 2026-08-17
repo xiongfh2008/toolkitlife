@@ -50,7 +50,8 @@ export default function VideoToImagesPage() {
   }, []);
 
   const cleanupFfmpeg = useCallback(() => {
-    ffmpegRef.current?.terminate();
+    // The shared engine is cached in lib/ffmpeg.ts and must not be
+    // terminated here, otherwise every new upload pays the reload cost.
     ffmpegRef.current = null;
   }, []);
 

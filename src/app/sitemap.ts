@@ -176,8 +176,10 @@ const tools = [
   "image-to-text",
   "pdf-to-word",
   "screen-recorder",
+  "scroll-capture",
   "text-to-speech",
   "video-to-gif",
+  "video-to-images",
   "image-to-gif",
   "gif-to-images",
   "digital-signature",
@@ -294,8 +296,7 @@ const blogSlugs = blogPostsMeta.map((p) => p.slug);
 const staticPaths = ["", "/privacy", "/terms"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://toolkitlife.com";
-  const now = new Date();
+  const base = "https://www.toolkitlife.com";
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -305,7 +306,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const path of staticPaths) {
       entries.push({
         url: `${prefix}${path}`,
-        lastModified: now,
         changeFrequency: path === "" ? "weekly" : "yearly",
         priority: path === "" ? 1 : 0.5,
       });
@@ -313,7 +313,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     entries.push({
       url: `${prefix}/blog`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.7,
     });
@@ -321,7 +320,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const slug of blogSlugs) {
       entries.push({
         url: `${prefix}/blog/${slug}`,
-        lastModified: now,
         changeFrequency: "monthly",
         priority: 0.6,
       });
@@ -330,7 +328,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const slug of tools) {
       entries.push({
         url: `${prefix}/tools/${slug}`,
-        lastModified: now,
         changeFrequency: "monthly",
         priority: 0.8,
       });

@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/docx-to-jpg`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/docx-to-jpg`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/docx-to-jpg`,
+        zh: `https://www.toolkitlife.com/zh/tools/docx-to-jpg`,
+        ja: `https://www.toolkitlife.com/ja/tools/docx-to-jpg`,
+        ko: `https://www.toolkitlife.com/ko/tools/docx-to-jpg`,
+      },
     },
   };
 }

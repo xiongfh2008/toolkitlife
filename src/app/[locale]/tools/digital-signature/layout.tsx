@@ -16,7 +16,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/digital-signature`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/digital-signature`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/digital-signature`,
+        zh: `https://www.toolkitlife.com/zh/tools/digital-signature`,
+        ja: `https://www.toolkitlife.com/ja/tools/digital-signature`,
+        ko: `https://www.toolkitlife.com/ko/tools/digital-signature`,
+      },
     },
   };
 }

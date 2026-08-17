@@ -91,6 +91,12 @@
         "category": "Utility",
         "icon": "📷"
       },
+      "qr-file-transfer": {
+        "name": "QR 코드 파일 전송",
+        "description": "애니메이션 QR 코드로 기기 간 파일을 전송합니다 — 네트워크 없음, 업로드 없음. 카메라-화면 광학 전송.",
+        "category": "Utility",
+        "icon": "📤"
+      },
       "face-detector": {
         "name": "얼굴 감지 도구",
         "description": "사진에서 얼굴을 자동으로 감지하고 경계 상자와 신뢰도 점수를 표시합니다. 브라우저에서 완전히 실행됩니다.",
@@ -1351,6 +1357,12 @@
         "category": "Utility",
         "icon": "🗜"
       },
+      "scroll-capture": {
+        "name": "스크린샷",
+        "description": "화면의 원하는 영역을 원클릭으로 캡처하고 주석을 달아 PNG로 저장하세요. URL 입력도 업로드도 불필요.",
+        "category": "Utility",
+        "icon": "📸"
+      },
       "video-to-gif": {
         "name": "동영상 GIF 변환기",
         "description": "모든 동영상을 애니메이션 GIF로 변환하세요. 자르기, 크기 조정, 프레임 속도 조절이 가능합니다. 업로드 없이 브라우저에서 실행됩니다.",
@@ -1653,7 +1665,7 @@
       },
       "batch-rename": {
         "name": "일괄 이름 변경",
-        "description": "이미지 파일을 일괄적으로 이름을 바꾸고 압축하여 다운로드합니다.",
+        "description": "규칙 체인으로 모든 유형의 파일을 일괄 이름 변경하고 ZIP으로 다운로드합니다.",
         "category": "이미지 도구",
         "icon": "📝"
       },
@@ -2446,6 +2458,165 @@
         }
       }
     },
+    "qr-file-transfer": {
+      "metadata": {
+        "title": "QR 코드 파일 전송 - 오프라인 기기 간 파일 전송",
+        "description": "애니메이션 QR 코드로 두 기기 간에 파일과 텍스트를 전송합니다. 보내는 화면이 카메라가 스캔하여 파일을 재구성하는 코드 스트림을 표시합니다 — 네트워크 없음, 업로드 없음, 완전 오프라인.",
+        "category": "Utility"
+      },
+      "title": "QR 코드 파일 전송",
+      "description": "애니메이션 QR 코드 스트림을 통해 두 기기 간에 파일과 텍스트를 전송합니다. 한 화면이 코드를 표시하면 다른 기기의 카메라가 이를 스캔하고 파일을 로컬에서 재구성합니다 — 네트워크 없음, 서버 없음, 업로드되는 것 없음.",
+      "category": "Utility",
+      "keywords": [
+        "qr 파일 전송",
+        "qr 코드로 파일 전송",
+        "오프라인 파일 전송",
+        "카메라에서 화면으로 파일 보내기",
+        "에어드롭 대안",
+        "광학 파일 전송"
+      ],
+      "faqs": [
+        {
+          "question": "QR 파일 전송은 어떻게 작동하나요?",
+          "answer": "한 기기(보내는 쪽)가 파일을 인코딩한 애니메이션 QR 코드 스트림을 표시합니다. 다른 기기의 카메라가 코드를 스캔하면 받는 쪽이 그 코드들로 파일을 재구성합니다. 사용된 파운틴 코딩 덕분에 어떤 프레임 조합만 있어도 충분합니다 — 놓친 프레임은 시간만 잃을 뿐 정확성에는 영향을 주지 않습니다."
+        },
+        {
+          "question": "제 데이터가 어딘가 업로드되나요?",
+          "answer": "아니요. 전체 전송이 두 화면 사이에서만 이루어집니다 — 업로드되는 것도, 저장되는 것도 없으며 기기 간 네트워크 연결도 필요 없습니다."
+        },
+        {
+          "question": "최대 파일 크기는 얼마인가요?",
+          "answer": "최대 64MB 파일을 지원합니다. 더 작은 파일과 텍스트 스니펫은 더 빨리 전송되며, 도구는 도움이 될 때 파일을 자동으로 압축합니다."
+        },
+        {
+          "question": "전송 속도는 얼마나 빠른가요?",
+          "answer": "속도는 카메라와 QR 밀도에 따라 달라집니다. 좋은 카메라로 가까운 거리에서 초당 수백 KB를 기대할 수 있으며, 밀집된 프레임(프레임당 2953바이트)이 근거리 휴대폰 간 전송에 가장 빠릅니다."
+        },
+        {
+          "question": "전송은 안전한가요?",
+          "answer": "데이터는 한 화면에서 다른 화면으로 빛의 형태로만 이동합니다 — 네트워크 없음, 중간 서버 없음. 보내는 화면이 시야에 들어오는 사람은 누구나 읽을 수 있으므로 신뢰할 수 있는 환경에서 사용하는 것이 좋습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR 코드 생성기",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "QR 코드 리더",
+          "href": "/tools/qr-code-reader"
+        },
+        {
+          "name": "일괄 이름 변경",
+          "href": "/tools/batch-rename"
+        }
+      ],
+      "tabs": {
+        "label": "전송 모드",
+        "send": "보내기",
+        "receive": "받기"
+      },
+      "send": {
+        "modeFile": "파일 보내기",
+        "modeSnippet": "텍스트 보내기",
+        "selectButton": "파일 선택",
+        "stopButton": "전송 중지",
+        "pickerLabel": "모든 파일 · 최대 {max}",
+        "selectedLabel": "선택한 파일: {name}",
+        "statusIdleFile": "시작하려면 파일을 선택하세요",
+        "statusIdleSnippet": "시작하려면 텍스트를 붙여넣거나 입력하세요",
+        "statusPreparingFile": "{name} 준비 중…",
+        "statusPreparingSnippet": "텍스트 스니펫 준비 중…",
+        "statusStreaming": "{name} 전송 중 —",
+        "snippetPlaceholder": "아무거나 붙여넣거나 입력하세요 — URL, 설정, 긴 텍스트…",
+        "snippetLimit": "보낼 텍스트 · 최대 {max}",
+        "snippetName": "텍스트 스니펫",
+        "sendSnippetButton": "텍스트 스트림 시작",
+        "tapHint": "코드를 탭하면 화면을 가득 채웁니다",
+        "settings": {
+          "title": "전송 설정",
+          "fps": "초당 프레임",
+          "frameBytes": "프레임당 바이트",
+          "ecc": "오류 정정",
+          "size": "표시 크기"
+        },
+        "specs": {
+          "fps": "프레임 속도",
+          "frame": "프레임 페이로드",
+          "qr": "QR 코드",
+          "payload": "전송 중",
+          "compression": "압축",
+          "k": "파운틴 블록"
+        },
+        "errors": {
+          "emptyFile": "{name}이(가) 비어 있습니다 — 보낼 내용이 없습니다.",
+          "tooLarge": "{name}의 크기는 {size}로 {max} 제한을 초과합니다.",
+          "raiseFrameBytes": "프레임당 바이트를 {suggestion} 이상으로 높이세요."
+        }
+      },
+      "receive": {
+        "statusReady": "파일 또는 텍스트 스트림 스캔 준비 완료",
+        "statusStarting": "카메라 시작 중",
+        "statusSearching": "카메라 {w}×{h}@{fps} — 스트림 검색 중…",
+        "startCamera": "카메라 시작",
+        "camera": {
+          "actual": "카메라 {w}×{h} @ {fps} fps",
+          "asked": "요청 {fps}",
+          "workers": "디코드 워커",
+          "live": "변경 사항이 즉시 적용됩니다",
+          "refused": "카메라가 라이브 변경을 거부했습니다 — 적용하려면 다시 시작하세요"
+        },
+        "noSignal": {
+          "title": "아무 일도 일어나지 않나요?",
+          "help": "도움말",
+          "dismiss": "닫기",
+          "gotIt": "알겠습니다",
+          "tips": [
+            "보내는 쪽에서 전송 설정을 열고 프레임당 바이트를 1465로 낮추세요.",
+            "여전히 안 되나요? 보내는 쪽의 초당 프레임도 24로 낮추세요.",
+            "코드로 카메라 화면을 가득 채우고, 휴대폰을 고정하세요 — 손떨림으로 인한 자동 초점 흔들림이 흔한 원인입니다.",
+            "보내는 화면의 밝기를 최대로 높이세요."
+          ]
+        },
+        "settings": {
+          "title": "수신 설정",
+          "captureWidth": "캡처 너비",
+          "captureFps": "캡처 fps",
+          "workers": "디코드 워커"
+        },
+        "progress": {
+          "frames": "프레임",
+          "blocks": "블록",
+          "decoding": "디코딩 중",
+          "estimating": "시간 추정 중…",
+          "about": "약",
+          "done": "전송 완료"
+        },
+        "result": {
+          "fileDone": "전송 완료!",
+          "textDone": "텍스트 수신됨",
+          "inSeconds": "{seconds}초 만에",
+          "textIn": "{seconds}초 만에 텍스트 수신",
+          "verified": "SHA-256 검증 완료 ✓",
+          "gzipDecompressed": "gzip 압축 해제됨",
+          "save": "{name} 저장",
+          "receiveAnother": "다른 파일 받기",
+          "copy": "복사",
+          "copied": "복사됨",
+          "failed": "전송 실패",
+          "failedHint": "그 스트림에서 쓸 수 있는 것이 나오지 않았습니다. 보내는 쪽을 다시 시작한 후 다시 스캔하세요 — 부분 전송은 시간만 조금 잃을 뿐입니다.",
+          "tryAgain": "다시 시도"
+        },
+        "errors": {
+          "secureContext": "카메라에는 보안 컨텍스트가 필요합니다 — 다른 기기의 카메라를 사용하려면 이 페이지가 HTTPS로 제공되어야 합니다.",
+          "permissionDenied": "카메라 권한이 거부되었습니다 — 허용한 후 카메라 시작을 다시 누르세요.",
+          "camera": "카메라:",
+          "checksum": "광학 스트림 체크섬이 일치하지 않습니다.",
+          "sha256": "복구된 파일이 SHA-256 검증에 실패했습니다."
+        },
+        "privacyNote": "모든 작업이 기기에서만 이루어집니다 — 네트워크 없음, 업로드 없음. 전송은 화면 주변 공간만큼만 비공개입니다."
+      }
+    },
     "face-detector": {
       "metadata": {
         "title": "얼굴 감지 도구 - 무료 온라인 도구",
@@ -3119,6 +3290,112 @@
             "텍스트는 디바이스를 떠나지 않음 — 모든 처리는 로컬."
           ]
         }
+      }
+    },
+    "scroll-capture": {
+      "metadata": {
+        "title": "스크린샷 - 화면 캡처 도구",
+        "description": "화면의 원하는 영역을 원클릭으로 캡처하고 주석을 달아 PNG로 저장하세요. URL 입력도 업로드도 없이 브라우저에서 완전히 실행됩니다."
+      },
+      "title": "스크린샷",
+      "description": "화면의 원하는 영역을 원클릭으로 캡처하고 주석을 달아 PNG로 저장하세요. URL 입력도 업로드도 없이 브라우저에서 완전히 실행됩니다.",
+      "category": "유틸리티",
+      "keywords": [
+        "스크린샷",
+        "화면 캡처",
+        "캡처 도구",
+        "주석 스크린샷",
+        "영역 캡처",
+        "화면 캡쳐"
+      ],
+      "faqs": [
+        {
+          "question": "이 도구는 어떻게 사용하나요?",
+          "answer": "'스크린샷 시작'을 클릭하고 브라우저 대화상자에서 캡처할 화면, 창 또는 탭을 선택한 뒤 미리보기에서 영역을 드래그하여 선택합니다. 저장 전에 도형, 화살표, 텍스트, 모자이크로 주석을 달 수 있습니다."
+        },
+        {
+          "question": "화면의 일부만 캡처할 수 있나요?",
+          "answer": "네. 캡처 시작 후 미리보기에서 원하는 사각형 영역을 드래그하여 선택하세요. 프레임 밖은 결과에 포함되지 않습니다."
+        },
+        {
+          "question": "주석을 달 수 있나요?",
+          "answer": "네. 툴바에 펜, 도형(사각형·원·화살표), 텍스트, 모자이크가 있습니다. Ctrl+Z로 되돌릴 수 있습니다."
+        },
+        {
+          "question": "왜 브라우저가 화면 공유를 요청하나요?",
+          "answer": "이 도구는 브라우저 표준 화면 캡처를 사용하므로 시스템이 공유할 화면, 창 또는 탭을 선택하도록 요청합니다. 이미지는 모두 브라우저 내에서 처리되며 업로드되지 않습니다."
+        },
+        {
+          "question": "휴대폰에서 사용할 수 있나요?",
+          "answer": "화면 캡처에는 데스크톱 브라우저(Chrome, Edge, Firefox, Safari 데스크톱)의 getDisplayMedia 지원이 필요합니다. 모바일 브라우저에서는 사용할 수 없습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "화면 녹화기",
+          "href": "/tools/screen-recorder"
+        },
+        {
+          "name": "화면 색상 선택기",
+          "href": "/tools/screen-color-picker"
+        },
+        {
+          "name": "이미지 이어붙이기",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "intro": {
+        "line1": "화면의 원하는 영역을 원클릭으로 캡처 — URL 입력도 업로드도 불필요.",
+        "line2": "사용 방법:",
+        "steps": [
+          "'스크린샷 시작'을 클릭하고 캡처할 화면, 창 또는 탭을 선택합니다.",
+          "미리보기에서 영역을 드래그하여 선택하거나 전체 화면 그대로 둡니다.",
+          "필요하면 펜·도형·화살표·텍스트·모자이크로 주석을 답니다.",
+          "체크를 클릭하여 완료하고 PNG를 다운로드합니다."
+        ]
+      },
+      "start": "스크린샷 시작",
+      "processing": "화면 캡처 실행 중…",
+      "startHint": "버튼을 클릭한 뒤 브라우저 대화상자에서 캡처 대상을 선택하세요.",
+      "buttons": {
+        "restart": "새 캡처",
+        "download": "PNG 다운로드",
+        "retry": "다시 시도"
+      },
+      "result": {
+        "alt": "캡처한 스크린샷",
+        "size": "크기: {size} KB"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "스크린샷이란?",
+          "body": [
+            "브라우저 표준 캡처 API로 화면의 원하는 영역을 촬영하고, 필요한 범위로 잘라내고 주석을 단 뒤 저장할 수 있습니다. 모든 과정이 브라우저 내에서 완료되며 업로드는 없습니다."
+          ]
+        },
+        "howTo": {
+          "title": "스크린샷 찍는 방법",
+          "intro": "다음 단계를 따르세요:",
+          "items": [
+            "'스크린샷 시작'을 클릭하고 시스템 대화상자에서 공유할 화면, 창 또는 탭을 선택합니다.",
+            "미리보기에서 사각형을 드래그하여 자르거나 전체 화면 그대로 둡니다.",
+            "툴바에서 주석을 답니다: 펜, 사각형, 원, 화살표, 텍스트, 모자이크.",
+            "체크를 클릭하여 확정하고 PNG를 다운로드하거나 Esc로 취소합니다."
+          ]
+        },
+        "tips": {
+          "title": "팁",
+          "items": [
+            "Ctrl+Z로 직전 주석을 되돌릴 수 있습니다.",
+            "지원 브라우저에서는 결과가 자동으로 클립보드에 복사됩니다.",
+            "긴 페이지는 캡처 전에 원하는 위치까지 스크롤하세요 — 이 도구는 현재 화면에 보이는 내용을 촬영합니다."
+          ]
+        }
+      },
+      "errors": {
+        "notSupported": "이 브라우저는 화면 캡처(getDisplayMedia)를 지원하지 않습니다.",
+        "permissionDenied": "화면 캡처 권한이 거부되었습니다. 허용한 뒤 다시 시도하세요.",
+        "startFailed": "화면 캡처를 시작할 수 없습니다. 다시 시도하세요."
       }
     },
     "video-to-gif": {
@@ -5892,7 +6169,7 @@
         },
         {
           "question": "녹화는 어떤 형식으로 저장되나요?",
-          "answer": "녹화는 WebM 비디오 파일로 저장되며, 모든 최신 브라우저와 비디오 플레이어에서 재생할 수 있습니다."
+          "answer": "녹화는 MP4(VP9) 형식으로 저장되며, 거의 모든 플랫폼에서 재생되고 일부 브라우저의 H.264 녹화에서 발생할 수 있는 화면 깨짐을 피할 수 있습니다. MP4 녹화를 지원하지 않는 브라우저(예: Firefox)에서는 WebM으로 자동 전환됩니다."
         }
       ],
       "relatedTools": [
@@ -5937,7 +6214,7 @@
         "whatIs": {
           "title": "화면 녹화기란?",
           "body": [
-            "브라우저에서 직접 화면, 특정 창 또는 웹캠을 녹화. 시스템 오디오와 마이크 오디오를 포함하고 녹화를 WebM 비디오로 다운로드."
+            "브라우저에서 직접 화면, 특정 창 또는 웹캠을 녹화. 시스템 오디오와 마이크 오디오를 포함하고 녹화를 MP4 비디오로 다운로드."
           ]
         },
         "modes": {
@@ -6750,7 +7027,8 @@
       },
       "errors": {
         "prefix": "변환에 실패했습니다: ",
-        "outputEmpty": "변환기가 빈 파일을 생성했습니다."
+        "outputEmpty": "변환기가 빈 파일을 생성했습니다.",
+        "ffmpegDetail": "상세 정보"
       },
       "units": {
         "kb": "{size} KB",
@@ -28644,36 +28922,40 @@
     },
     "batch-rename": {
       "metadata": {
-        "title": "일괄 이름 변경 - 온라인 이미지 일괄 이름 변경",
-        "description": "온라인에서 무료로 이미지를 일괄 이름 변경할 수 있습니다. 사용자 지정 접두사, 시작 번호와 자릿수를 지원하며 미리 본 후 한 번에 압축 다운로드할 수 있습니다.",
+        "title": "일괄 이름 변경 - 온라인 파일 일괄 이름 변경",
+        "description": "온라인에서 무료로 파일을 일괄 이름 변경할 수 있습니다. 찾기·바꾸기, 정규식, 일련번호, 대소문자 변환 등 규칙 체인을 지원하며 실시간 미리 본 후 ZIP으로 다운로드할 수 있습니다.",
         "category": "이미지 도구"
       },
       "title": "일괄 이름 변경",
-      "description": "여러 이미지의 새 파일명을 일괄 생성합니다. 사용자 지정 접두사, 시작 번호와 숫자 자릿수를 지원하며, 미리 확인한 후 ZIP으로 압축해 다운로드하거나 이름 변경 목록을 한 번에 복사할 수 있습니다.",
+      "description": "구성 가능한 규칙으로 모든 유형의 파일을 일괄 이름 변경합니다. 찾기·바꾸기, 정규식, 일련번호, 대소문자 변환, 삽입, 정리 규칙을 체인으로 조합하고, 새 파일명을 실시간으로 미리 본 후 ZIP으로 압축해 다운로드하거나 이름 변경 목록을 복사할 수 있습니다.",
       "category": "이미지 도구",
       "keywords": [
         "일괄 이름 변경",
-        "이미지 이름 변경",
-        "일괄 파일명 변경",
         "파일 이름 변경",
+        "일괄 파일명 변경",
+        "이름 변경 도구",
         "batch rename"
       ],
       "faqs": [
         {
-          "question": "이름 변경 규칙은 어떻게 되나요?",
-          "answer": "새 파일명 = 접두사 + 번호 + 원래 확장자입니다. 예를 들어 접두사 image_, 시작 번호 1, 자릿수 3이면 image_001.png, image_002.png 등으로 생성됩니다."
+          "question": "이름 변경 규칙이란 무엇인가요?",
+          "answer": "규칙은 이름 변경의 기본 단위입니다. 찾기·바꾸기, 정규식, 일련번호, 대소문자 변환, 삽입, 정리 규칙을 원하는 순서로 조합하면 체인이 각 파일명에 위에서 아래로 순서대로 적용됩니다."
         },
         {
           "question": "로컬의 원본 파일이 수정되나요?",
           "answer": "아니요. 도구는 새 이름만 생성하고 복사본을 압축해 다운로드할 뿐 원본 파일은 수정되지 않습니다."
         },
         {
-          "question": "한 번에 몇 장까지 이름을 변경할 수 있나요?",
-          "answer": "한 번에 최대 100장까지 업로드할 수 있으며, 파일명 목록을 실시간으로 미리 볼 수 있습니다."
+          "question": "한 번에 몇 개까지 이름을 변경할 수 있나요?",
+          "answer": "한 번에 최대 1000개까지 모든 유형의 파일을 업로드할 수 있으며, 파일명 목록은 실시간으로 업데이트됩니다."
+        },
+        {
+          "question": "중복된 이름은 어떻게 피하나요?",
+          "answer": "충돌이 자동으로 감지되어 미리보기에서 강조 표시됩니다. 「충돌 수정」 버튼을 누르면 (1), (2) 등의 접미사가 자동으로 추가됩니다."
         },
         {
           "question": "확장자는 유지되나요?",
-          "answer": "네. 원본 파일의 확장자는 새 파일명에 유지되며, 다운로드 시 해당 새 이름이 사용됩니다."
+          "answer": "기본적으로 규칙은 파일 이름에만 적용되며 확장자는 유지됩니다. 적용 범위를 「확장자」나 「전체 이름」으로 바꾸면 해당 부분에도 규칙을 적용할 수 있습니다."
         }
       ],
       "relatedTools": [
@@ -28682,29 +28964,165 @@
           "href": "/tools/image-web-optimizer"
         },
         {
-          "name": "CSS 스프라이트 생성기",
-          "href": "/tools/css-sprite-generator"
+          "name": "중복 이미지 찾기",
+          "href": "/tools/duplicate-finder"
         },
         {
-          "name": "이미지 압축",
-          "href": "/tools/image-compressor"
+          "name": "텍스트 대소문자 변환",
+          "href": "/tools/text-case-converter"
         }
       ],
       "upload": {
-        "drop": "이미지를 드롭하거나 클릭하여 업로드",
-        "formats": "PNG, JPG, WEBP, BMP (최대 100장)"
+        "drop": "파일을 드롭하거나 클릭하여 업로드",
+        "formats": "모든 파일 형식 (최대 {max}개)",
+        "folderHint": "폴더 전체를 드롭하거나 선택할 수도 있습니다. 내부의 모든 파일이 가져와집니다."
+      },
+      "scope": {
+        "label": "규칙 적용 대상",
+        "name": "파일 이름",
+        "extension": "확장자",
+        "full": "전체 이름"
+      },
+      "rulesPanel": {
+        "title": "규칙",
+        "add": "규칙 추가",
+        "clear": "규칙 지우기",
+        "empty": "아직 규칙이 없습니다. 아래에서 추가하세요.",
+        "reorderHint": "규칙은 위에서 아래로 순서대로 실행됩니다. 체크를 해제하면 건너뜁니다."
+      },
+      "ruleTypes": {
+        "findReplace": "찾기·바꾸기",
+        "insert": "삽입",
+        "sequence": "일련번호",
+        "caseStyle": "대소문자·스타일",
+        "regex": "정규식",
+        "removeCleanup": "삭제·정리",
+        "recombine": "재조합",
+        "slice": "부분 추출",
+        "random": "무작위 문자",
+        "mapList": "매핑 목록"
+      },
+      "fields": {
+        "find": "찾기",
+        "replace": "바꿀 내용",
+        "caseSensitive": "대소문자 구분",
+        "matchAll": "모두 바꾸기",
+        "replacePosition": "위치로 바꾸기",
+        "fromEnd": "끝에서부터 세기",
+        "position": "시작 위치",
+        "length": "길이",
+        "insertText": "텍스트",
+        "insertPosition": "삽입 위치",
+        "positionStart": "앞",
+        "positionEnd": "뒤",
+        "positionIndex": "지정 인덱스",
+        "seqType": "유형",
+        "numeric": "숫자",
+        "alpha": "알파벳 (A, B, C…)",
+        "roman": "로마 숫자",
+        "seqStart": "시작 값",
+        "step": "간격",
+        "padding": "자릿수",
+        "seqPosition": "번호 위치",
+        "replaceWhole": "전체 이름 바꾸기",
+        "template": "템플릿 ({n} 사용)",
+        "regexPattern": "패턴",
+        "regexReplacement": "바꿀 텍스트",
+        "flags": "플래그",
+        "mode": "스타일",
+        "style": "구분자",
+        "removeMode": "모드",
+        "charsDirection": "삭제 방향",
+        "fromStart": "앞에서",
+        "fromEnd": "뒤에서",
+        "charsCount": "개수",
+        "rangeStart": "시작 인덱스",
+        "rangeEnd": "종료 인덱스",
+        "removeDigits": "숫자",
+        "removeSymbols": "기호",
+        "removeSpaces": "공백",
+        "removeChinese": "중국어 문자",
+        "removeEnglish": "영문자",
+        "recombineSeparator": "분할 구분자",
+        "recombineJoinWith": "연결 구분자",
+        "recombineOrder": "대상 순서",
+        "recombineOrderHint": "예: 3,1,2. 비우면 역순",
+        "sliceStart": "시작 위치",
+        "sliceJoinWith": "조각 연결 구분자",
+        "sliceAdd": "조각 추가",
+        "randomCharset": "문자 집합",
+        "randomLength": "길이",
+        "randomPosition": "위치",
+        "randomCustomChars": "사용자 지정 문자",
+        "mapListHint": "한 줄에 하나의 매핑 (이름=새 이름)",
+        "mapListPlaceholder": "이름=새 이름\nIMG=photo"
+      },
+      "randomCharsets": {
+        "digits": "숫자 (0-9)",
+        "letters": "영문자 (A-Z, a-z)",
+        "alphanumeric": "영문자와 숫자",
+        "custom": "사용자 지정"
+      },
+      "styleOptions": {
+        "none": "변경하지 않음",
+        "uppercase": "대문자",
+        "lowercase": "소문자",
+        "titlecase": "타이틀 케이스",
+        "sentencecase": "문장 케이스",
+        "camelCase": "카멜 케이스",
+        "PascalCase": "파스칼 케이스",
+        "kebab-case": "케밥 케이스",
+        "snake_case": "스네이크 케이스"
+      },
+      "separatorOptions": {
+        "none": "구분자 유지",
+        "spaceToDash": "공백 → 하이픈",
+        "spaceToUnderscore": "공백 → 밑줄",
+        "dashToSpace": "하이픈 → 공백",
+        "underscoreToSpace": "밑줄 → 공백"
+      },
+      "removeModes": {
+        "chars": "N개 문자 삭제",
+        "range": "범위 삭제",
+        "cleanup": "유형별 삭제"
       },
       "labels": {
-        "prefix": "접두사",
-        "start": "시작 번호",
-        "padding": "자릿수",
-        "preview": "이름 변경 미리보기",
-        "copied": "복사됨!"
+        "files": "파일",
+        "addFiles": "파일 추가",
+        "selectAll": "전체 선택",
+        "selectFile": "이름 변경에 포함",
+        "remove": "제거",
+        "preview": "미리보기",
+        "originalName": "원래 이름",
+        "newName": "새 이름",
+        "renamedCount": "전체 {total}개 중 {renamed}개를 이름 변경합니다",
+        "conflictCount": "충돌 {count}건",
+        "conflict": "충돌",
+        "invalid": "잘못된 이름",
+        "conflictHint": "충돌이 발견되었습니다. 다운로드 전에 수정하세요.",
+        "noFiles": "파일을 업로드하면 새 이름을 미리 볼 수 있습니다.",
+        "noChange": "이름을 변경할 항목이 없습니다. 파일과 규칙을 추가하세요.",
+        "copied": "복사됨!",
+        "enableRule": "규칙 활성화",
+        "addFolder": "폴더 추가",
+        "sortByName": "이름순",
+        "sortBySize": "크기순",
+        "reorderHint": "행을 드래그해 순서를 조정할 수 있습니다. 순서는 일련번호 규칙에 영향을 줍니다.",
+        "downloadAllHint": "이름이 변경된 파일을 개별적으로 로컬에 저장합니다.",
+        "downloadScriptHint": "Windows 배치 스크립트를 다운로드하여 로컬에서 원본 파일을 직접 이름 변경할 수 있습니다."
       },
       "buttons": {
         "downloadZip": "압축 다운로드",
         "copy": "목록 복사",
-        "newImage": "다시 선택"
+        "newBatch": "다시 시작",
+        "autoFix": "충돌 수정",
+        "undoFix": "수정 취소",
+        "moveUp": "위로 이동",
+        "moveDown": "아래로 이동",
+        "cloneRule": "규칙 복제",
+        "removeRule": "규칙 제거",
+        "downloadAll": "개별 다운로드",
+        "downloadScript": "CMD 스크립트"
       },
       "status": {
         "zipping": "압축 중…"
@@ -28716,24 +29134,24 @@
         "whatIs": {
           "title": "일괄 이름 변경이란?",
           "body": [
-            "일괄 이름 변경은 여러 이미지의 파일명을 한 번에 통일된 형식으로 생성하는 기능으로, 소재 정리, 사진 보관, 웹 소재 이름 통일 등에 자주 사용됩니다.",
-            "접두사, 시작 번호, 자릿수만 설정하면 image_001.png처럼 규칙적인 파일명을 빠르게 만들 수 있습니다."
+            "일괄 이름 변경은 여러 파일의 파일명을 한 번에 통일된 형식으로 생성하는 기능으로, 소재 정리, 사진 보관, 웹 소재 이름 통일 등에 자주 사용됩니다.",
+            "규칙 체인을 사용하면 일련번호뿐 아니라 텍스트 정리, 정규식 적용, 대소문자 변환, 날짜·일련번호 삽입까지 한 번에 처리할 수 있습니다."
           ]
         },
         "howTo": {
           "title": "사용 방법",
           "intro": "세 단계로 일괄 이름 변경을 완료할 수 있습니다:",
           "items": [
-            "이미지를 업로드합니다(최대 100장).",
-            "접두사, 시작 번호와 자릿수를 설정하면 새 파일명이 실시간으로 표시됩니다.",
-            "「압축 다운로드」를 클릭해 이름이 변경된 이미지를 저장하거나 이름 변경 목록을 복사합니다."
+            "모든 유형의 파일이나 폴더 전체를 업로드합니다(최대 1000개).",
+            "규칙을 추가하고 설정하면 미리보기가 즉시 업데이트됩니다.",
+            "충돌이 있으면 수정한 뒤 「압축 다운로드」를 클릭하거나 이름 변경 목록을 복사합니다."
           ]
         },
         "tips": {
           "title": "팁",
           "items": [
-            "자릿수는 3 이상으로 설정해 정렬이 어긋나지 않게 하세요.",
-            "먼저 몇 장을 업로드해 이름 규칙을 확인한 뒤 일괄 처리하세요.",
+            "규칙은 위에서 아래로 실행됩니다. 화살표 버튼으로 순서를 조정하세요.",
+            "일련번호 규칙에서 image_{n} 같은 템플릿을 사용하면 번호가 있는 파일명을 빠르게 만들 수 있습니다.",
             "이름 변경은 다운로드하는 복사본에만 적용되므로 로컬 파일은 안전합니다."
           ]
         }

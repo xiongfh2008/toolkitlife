@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/face-detector`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/face-detector`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/face-detector`,
+        zh: `https://www.toolkitlife.com/zh/tools/face-detector`,
+        ja: `https://www.toolkitlife.com/ja/tools/face-detector`,
+        ko: `https://www.toolkitlife.com/ko/tools/face-detector`,
+      },
     },
   };
 }

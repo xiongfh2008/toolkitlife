@@ -74,7 +74,6 @@ export default function ApngMakerPage() {
       const blob = await readFFmpegOutput(ffmpeg, "output.apng", "image/png");
       await ffmpeg.deleteFile(inputName).catch(() => {});
       await ffmpeg.deleteFile("output.apng").catch(() => {});
-      ffmpeg.terminate();
 
       if (blob.size < 100) throw new Error(t("errors.empty"));
       setResultSize(blob.size);

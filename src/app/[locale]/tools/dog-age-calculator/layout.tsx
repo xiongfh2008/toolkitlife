@@ -14,7 +14,15 @@ export async function generateMetadata({
     openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
-    alternates: { canonical: `https://toolkitlife.com/${locale}/tools/dog-age-calculator` },
+    alternates: {
+      canonical: `https://www.toolkitlife.com/${locale}/tools/dog-age-calculator`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/dog-age-calculator`,
+        zh: `https://www.toolkitlife.com/zh/tools/dog-age-calculator`,
+        ja: `https://www.toolkitlife.com/ja/tools/dog-age-calculator`,
+        ko: `https://www.toolkitlife.com/ko/tools/dog-age-calculator`,
+      },
+    },
   };
 }
 

@@ -175,7 +175,7 @@ export default function ToolLayout({
       return next;
     });
   };
-  const url = `https://toolkitlife.com/tools/${slug}`;
+  const url = `https://www.toolkitlife.com/tools/${slug}`;
 
   // SoftwareApplication schema
   const appSchema = {
@@ -208,8 +208,8 @@ export default function ToolLayout({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: "https://toolkitlife.com" },
-      { "@type": "ListItem", position: 2, name: category, item: `https://toolkitlife.com/#${category.toLowerCase()}` },
+      { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: "https://www.toolkitlife.com" },
+      { "@type": "ListItem", position: 2, name: category, item: `https://www.toolkitlife.com/#${category.toLowerCase()}` },
       { "@type": "ListItem", position: 3, name: title, item: url },
     ],
   };

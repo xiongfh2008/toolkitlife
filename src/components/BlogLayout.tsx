@@ -46,7 +46,7 @@ interface BlogLayoutProps {
 
 export default function BlogLayout({ post, children }: BlogLayoutProps) {
   const t = useTranslations("blogLayout");
-  const url = `https://toolkitlife.com/blog/${post.slug}`;
+  const url = `https://www.toolkitlife.com/blog/${post.slug}`;
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -56,8 +56,8 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
     url,
     datePublished: post.datePublished,
     dateModified: post.dateModified,
-    author: { "@type": "Person", name: post.author, url: "https://toolkitlife.com/blog" },
-    publisher: { "@type": "Organization", name: "ToolkitLife", logo: { "@type": "ImageObject", url: "https://toolkitlife.com/icon.svg" } },
+    author: { "@type": "Person", name: post.author, url: "https://www.toolkitlife.com/blog" },
+    publisher: { "@type": "Organization", name: "ToolkitLife", logo: { "@type": "ImageObject", url: "https://www.toolkitlife.com/icon.svg" } },
     mainEntityOfPage: url,
     keywords: post.tags.join(", "),
   };

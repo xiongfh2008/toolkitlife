@@ -5,6 +5,13 @@ import { useTranslations } from "next-intl";
 import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 import { encodeGif } from "@/lib/gif-encoder";
 
+// Some common video containers (mkv/ts/flv/m2ts/wmv...) are reported by the
+// browser with an empty MIME type when dragged in, so match on the extension
+// as well; otherwise drag-and-drop silently rejects them.
+const VIDEO_EXT_RE =
+  /\.(mp4|mkv|avi|mov|flv|webm|m2ts|mts|ts|ogv|ogg|ogx|oga|mxf|m4v|3gp|3g2|wmv|asf|f4v|ismv|vob|divx)$/i;
+const isVideoFile = (f: File) => f.type.startsWith("video/") || VIDEO_EXT_RE.test(f.name);
+
 export default function VideoToGifPage() {
   const t = useTranslations("tools.video-to-gif");
   const [videoSrc, setVideoSrc] = useState<string | null>(null);
@@ -26,7 +33,7 @@ export default function VideoToGifPage() {
   const keywords = t.raw("keywords") as string[];
 
   const handleFile = useCallback((file: File) => {
-    if (!file.type.startsWith("video/")) return;
+    if (!isVideoFile(file)) return;
     setVideoFile(file);
     setGifUrl(null);
     const url = URL.createObjectURL(file);
@@ -73,6 +80,10 @@ export default function VideoToGifPage() {
       await new Promise<void>((resolve) => {
         video.onseeked = () => resolve();
       });
+      // High-quality downscale; resizing the canvas above resets the 2D
+      // context state, so set smoothing before every draw.
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = "high";
       ctx.drawImage(video, 0, 0, width, height);
       frames.push(ctx.getImageData(0, 0, width, height));
       setProgress(Math.round(((i + 1) / totalFrames) * 50));
@@ -109,13 +120,21 @@ export default function VideoToGifPage() {
         <canvas ref={canvasRef} className="hidden" />
 
         {!videoSrc ? (
-          <label className="flex flex-col items-center justify-center gap-3 rounded-xl border-2 border-dashed border-zinc-700 bg-zinc-800/50 p-12 cursor-pointer hover:border-zinc-500 transition-colors">
+          <label
+            onDragOver={(e) => e.preventDefault()}
+            onDrop={(e) => {
+              e.preventDefault();
+              const f = e.dataTransfer.files[0];
+              if (f && isVideoFile(f)) handleFile(f);
+            }}
+            className="flex flex-col items-center justify-center gap-3 rounded-xl border-2 border-dashed border-zinc-700 bg-zinc-800/50 p-12 cursor-pointer hover:border-zinc-500 transition-colors"
+          >
             <span className="text-4xl">{t("upload.icon")}</span>
             <span className="text-sm text-zinc-400">{t("upload.drop")}</span>
             <span className="text-xs text-zinc-500">{t("upload.formats")}</span>
             <input
               type="file"
-              accept="video/*"
+              accept="video/*,.mkv,.m2ts,.mts,.ts,.flv,.wmv,.avi,.mov,.m4v,.3gp,.ogv,.asf,.vob,.divx,.mxf,.f4v,.ismv,.ogg"
               className="hidden"
               onChange={(e) => e.target.files?.[0] && handleFile(e.target.files[0])}
             />

@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/white-balance`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/white-balance`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/white-balance`,
+        zh: `https://www.toolkitlife.com/zh/tools/white-balance`,
+        ja: `https://www.toolkitlife.com/ja/tools/white-balance`,
+        ko: `https://www.toolkitlife.com/ko/tools/white-balance`,
+      },
     },
   };
 }

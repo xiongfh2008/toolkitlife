@@ -30,7 +30,13 @@ export async function generateMetadata({
     },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/multiavatar-avatar-generator`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/multiavatar-avatar-generator`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/multiavatar-avatar-generator`,
+        zh: `https://www.toolkitlife.com/zh/tools/multiavatar-avatar-generator`,
+        ja: `https://www.toolkitlife.com/ja/tools/multiavatar-avatar-generator`,
+        ko: `https://www.toolkitlife.com/ko/tools/multiavatar-avatar-generator`,
+      },
     },
   };
 }

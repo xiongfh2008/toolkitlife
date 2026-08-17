@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/face-crop`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/face-crop`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/face-crop`,
+        zh: `https://www.toolkitlife.com/zh/tools/face-crop`,
+        ja: `https://www.toolkitlife.com/ja/tools/face-crop`,
+        ko: `https://www.toolkitlife.com/ko/tools/face-crop`,
+      },
     },
   };
 }

@@ -15,7 +15,13 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://toolkitlife.com/${locale}/tools/histogram-equalize`,
+      canonical: `https://www.toolkitlife.com/${locale}/tools/histogram-equalize`,
+      languages: {
+        en: `https://www.toolkitlife.com/en/tools/histogram-equalize`,
+        zh: `https://www.toolkitlife.com/zh/tools/histogram-equalize`,
+        ja: `https://www.toolkitlife.com/ja/tools/histogram-equalize`,
+        ko: `https://www.toolkitlife.com/ko/tools/histogram-equalize`,
+      },
     },
   };
 }

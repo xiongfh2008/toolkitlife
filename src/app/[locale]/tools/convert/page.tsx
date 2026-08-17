@@ -69,7 +69,6 @@ export default function ConvertPage() {
     );
     setFormats(available);
     setFormat((prev) => (prev && available.some((a) => a.ext === prev) ? prev : available[0]?.ext ?? ""));
-    ffmpeg.terminate();
   }, [t]);
 
   // Warm up the engine (and discover available encoders) as soon as the user
@@ -116,7 +115,6 @@ export default function ConvertPage() {
 
       await ffmpeg.deleteFile(inputName).catch(() => {});
       await ffmpeg.deleteFile(`output.${cfg.ext}`).catch(() => {});
-      ffmpeg.terminate();
 
       setResultUrl(URL.createObjectURL(blob));
       setResultName(`${file.name.replace(/\.[^.]+$/, "")}.${cfg.ext}`);
