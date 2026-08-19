@@ -405,6 +405,7 @@ export default function HomePage() {
             /* Active category scene content */
             activeScene && (
               <SceneSection
+                key={activePane}
                 groups={groups}
                 tools={paneTools}
                 favorites={favorites}
@@ -497,6 +498,8 @@ function ToolCard({
 
 /* ---------- Scene section ---------- */
 
+const PAGE_SIZE = 24;
+
 function SceneSection({
   tools,
   groups,
@@ -508,6 +511,13 @@ function SceneSection({
   favorites: string[];
   onToggleFavorite: (slug: string) => void;
 }) {
+  const t = useTranslations("home");
+  const [visible, setVisible] = useState(PAGE_SIZE);
+
+  const total =
+    groups?.reduce((sum, g) => sum + g.tools.length, 0) ?? tools?.length ?? 0;
+  const more = total - visible;
+
   const renderTool = (tool: Tool) => {
     const slug = tool.href.replace("/tools/", "");
     return (
@@ -520,11 +530,35 @@ function SceneSection({
     );
   };
 
+  const loadMore =
+    more > 0 ? (
+      <div className="mt-6 flex justify-center">
+        <button
+          type="button"
+          onClick={() => setVisible((v) => v + PAGE_SIZE)}
+          className="rounded-full border border-zinc-700 px-6 py-2.5 text-sm text-zinc-300 transition-colors hover:border-blue-500/50 hover:text-zinc-100"
+        >
+          {t("showMore")} ({more})
+        </button>
+      </div>
+    ) : null;
+
   if (groups) {
+    // Keep grouping while limiting the total number of rendered cards.
+    const visibleGroups = groups.reduce<{ title: string; tools: Tool[] }[]>(
+      (acc, g) => {
+        const already = acc.reduce((s, x) => s + x.tools.length, 0);
+        const shown = g.tools.slice(0, visible - already);
+        if (shown.length > 0) acc.push({ ...g, tools: shown });
+        return acc;
+      },
+      []
+    );
+
     return (
       <section>
         <div className="space-y-6">
-          {groups.map((g) => (
+          {visibleGroups.map((g) => (
             <div key={g.title}>
               <h3 className="mb-2.5 text-sm font-medium text-zinc-500">
                 {g.title}
@@ -535,6 +569,7 @@ function SceneSection({
             </div>
           ))}
         </div>
+        {loadMore}
       </section>
     );
   }
@@ -542,8 +577,9 @@ function SceneSection({
   return (
     <section>
       <div className="grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4">
-        {(tools ?? []).map(renderTool)}
+        {(tools ?? []).slice(0, visible).map(renderTool)}
       </div>
+      {loadMore}
     </section>
   );
 }

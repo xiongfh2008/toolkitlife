@@ -1882,7 +1882,8 @@
     "clearHistory": "クリア",
     "searchHistory": "検索履歴",
     "emptyFavorites": "まだお気に入りはありません。ツールの星をクリックすると保存されます。",
-    "heroBadge": "299の無料オンラインツールと計算機"
+    "heroBadge": "299の無料オンラインツールと計算機",
+    "showMore": "さらに表示"
   },
   "privacy": {
     "metadata": {

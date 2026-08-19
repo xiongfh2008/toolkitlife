@@ -1882,7 +1882,8 @@
     "clearHistory": "Clear",
     "searchHistory": "Recent Searches",
     "emptyFavorites": "No favorites yet — click the star on any tool to save it here.",
-    "heroBadge": "299 free online tools & calculators"
+    "heroBadge": "299 free online tools & calculators",
+    "showMore": "Show more"
   },
   "privacy": {
     "metadata": {

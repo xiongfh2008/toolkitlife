@@ -1882,7 +1882,8 @@
     "clearHistory": "지우기",
     "searchHistory": "최근 검색어",
     "emptyFavorites": "아직 즐겨찾기가 없습니다. 도구의 별표를 클릭해 저장하세요.",
-    "heroBadge": "299가지 무료 온라인 도구·계산기"
+    "heroBadge": "299가지 무료 온라인 도구·계산기",
+    "showMore": "더 보기"
   },
   "privacy": {
     "metadata": {

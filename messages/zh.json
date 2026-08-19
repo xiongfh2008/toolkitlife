@@ -1882,7 +1882,8 @@
     "clearHistory": "清除",
     "searchHistory": "搜索历史",
     "emptyFavorites": "还没有收藏——点击任意工具上的星标即可收藏到这里。",
-    "heroBadge": "299 个免费在线工具与计算器"
+    "heroBadge": "299 个免费在线工具与计算器",
+    "showMore": "显示更多"
   },
   "privacy": {
     "metadata": {
