@@ -85,10 +85,20 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages();
+  // Only ship the namespaces consumed by the always-present client components
+  // (Nav/Footer/CopyButton/LocaleSwitcher). Everything else — tools (~1MB),
+  // home (~57KB), privacy, terms, blog, metadata — is provided per-page by
+  // the respective layout/page, keeping the base RSC payload tiny.
+  const publicMessages = {
+    common: messages.common,
+    nav: messages.nav,
+    footer: messages.footer,
+    localeSwitcher: messages.localeSwitcher,
+  };
   const siteT = await getTranslations({ locale, namespace: "metadata" });
 
   return (
-    <NextIntlClientProvider messages={messages} locale={locale}>
+    <NextIntlClientProvider messages={publicMessages} locale={locale}>
       {/* Apply saved/system theme before paint to avoid a flash of the wrong theme. */}
       <Script id="theme-init" strategy="beforeInteractive">
         {`(function(){try{var s=localStorage.getItem("toolkitlife-theme");var d=s?s==="dark":window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(d)document.documentElement.classList.add("dark");}catch(e){}})();`}

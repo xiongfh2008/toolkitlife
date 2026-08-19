@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import Script from "next/script";
-import { SCENE_OF_SLUG } from "@/data/home";
+import { SCENE_OF_SLUG } from "@/data/scene-of-slug";
 
 const FAVORITES_KEY = "tp:favorites";
 const RECENT_KEY = "tp:recent";

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslatedPost } from "@/lib/blog";
-import BlogLayout from "@/components/BlogLayout";
+import BlogPost from "@/components/BlogPost";
 import { getPostMeta } from "@/data/blog-posts";
 import { ogImageUrl } from "@/lib/og";
 import { blogContent } from "@/data/blog-content";
@@ -58,8 +58,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     Object.prototype.hasOwnProperty.call(localized.faqs, locale) ? locale : "en"
   ) as keyof typeof localized.faqs;
   return (
-    <BlogLayout post={{ ...post, faqs: localized.faqs[localeKey] }}>
+    <BlogPost locale={locale} post={{ ...post, faqs: localized.faqs[localeKey] }}>
       {localized[localeKey]}
-    </BlogLayout>
+    </BlogPost>
   );
 }
