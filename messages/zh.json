@@ -61,6 +61,96 @@
       "Math": "数学"
     },
     "tools": {
+      "what-is-my-browser": {
+        "name": "浏览器信息检测",
+        "description": "检测你的浏览器、操作系统和 IP 地址。",
+        "category": "Marketing",
+        "icon": "🌐"
+      },
+      "geo-ip-locator": {
+        "name": "GEO IP 定位",
+        "description": "查找任意 IP 地址的地理位置。",
+        "category": "Marketing",
+        "icon": "📍"
+      },
+      "redirect-checker": {
+        "name": "重定向检测",
+        "description": "检查网址重定向及最终目标。",
+        "category": "Marketing",
+        "icon": "🔀"
+      },
+      "is-it-down": {
+        "name": "网站宕机检测",
+        "description": "检查网站是否宕机或可访问。",
+        "category": "Marketing",
+        "icon": "🛡️"
+      },
+      "domain-age": {
+        "name": "域名年龄查询",
+        "description": "查询任意域名的注册年龄。",
+        "category": "Marketing",
+        "icon": "⏳"
+      },
+      "domain-hosting": {
+        "name": "域名托管检测",
+        "description": "查询任意域名托管在何处。",
+        "category": "Marketing",
+        "icon": "🏢"
+      },
+      "xml-sitemap": {
+        "name": "XML 站点地图生成器",
+        "description": "快速为你的网站生成 XML 站点地图。",
+        "category": "营销",
+        "icon": "🗺️"
+      },
+      "adsense-calculator": {
+        "name": "AdSense 收入计算器",
+        "description": "估算你的 Google AdSense 收入。",
+        "category": "营销",
+        "icon": "💰"
+      },
+      "url-opener": {
+        "name": "URL 批量打开器",
+        "description": "同时在新标签页中打开多个网址。",
+        "category": "营销",
+        "icon": "🔗"
+      },
+      "html-viewer": {
+        "name": "HTML 查看器",
+        "description": "实时查看和预览 HTML 代码。",
+        "category": "开发者",
+        "icon": "🖥️"
+      },
+      "mobile-friendly-test": {
+        "name": "移动端友好测试",
+        "description": "检查你的网站是否适配移动设备。",
+        "category": "营销",
+        "icon": "📱"
+      },
+      "keyword-density": {
+        "name": "关键词密度检测器",
+        "description": "分析内容中的关键词频率和密度。",
+        "category": "营销",
+        "icon": "📊"
+      },
+      "meta-tags-analyzer": {
+        "name": "Meta 标签分析器",
+        "description": "分析任意网址的 Meta 标签。",
+        "category": "营销",
+        "icon": "🏷"
+      },
+      "long-tail-keywords": {
+        "name": "长尾关键词工具",
+        "description": "为你的主题生成长尾关键词建议。",
+        "category": "营销",
+        "icon": "🔎"
+      },
+      "keyword-position": {
+        "name": "关键词排名查询",
+        "description": "查询你的关键词在搜索引擎中的排名。",
+        "category": "营销",
+        "icon": "🎯"
+      },
       "video-watermark-remover": {
         "name": "视频去水印工具",
         "description": "去除任意时长视频中的水印，无需上传，免费使用。",
@@ -1774,7 +1864,8 @@
       "developer": "开发者工具",
       "calculator": "计算器",
       "text": "文字工具",
-      "utility": "实用工具"
+      "utility": "实用工具",
+      "marketing": "营销"
     },
     "scenesGroups": {
       "finance": "财务",
@@ -1791,7 +1882,7 @@
     "clearHistory": "清除",
     "searchHistory": "搜索历史",
     "emptyFavorites": "还没有收藏——点击任意工具上的星标即可收藏到这里。",
-    "heroBadge": "280 个免费在线工具与计算器"
+    "heroBadge": "299 个免费在线工具与计算器"
   },
   "privacy": {
     "metadata": {
@@ -1922,6 +2013,1481 @@
     }
   },
   "tools": {
+    "what-is-my-browser": {
+      "metadata": {
+        "title": "浏览器信息检测",
+        "description": "检测你的浏览器名称、版本、操作系统和 IP 地址",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "我的浏览器",
+        "浏览器检测",
+        "浏览器版本",
+        "检测浏览器",
+        "user agent",
+        "浏览器系统",
+        "我在用什么浏览器"
+      ],
+      "labels": {
+        "browser": "浏览器",
+        "version": "版本",
+        "engine": "内核",
+        "os": "操作系统",
+        "screen": "屏幕分辨率",
+        "colorDepth": "色彩深度",
+        "language": "语言",
+        "languages": "语言列表",
+        "timezone": "时区",
+        "ipAddress": "IP 地址",
+        "cookies": "Cookie 已启用",
+        "online": "在线",
+        "userAgent": "User Agent 字符串"
+      },
+      "buttons": {
+        "refresh": "刷新",
+        "copy": "复制"
+      },
+      "messages": {
+        "ipFailed": "无法检测",
+        "yes": "是",
+        "no": "否"
+      },
+      "faqs": [
+        {
+          "question": "它是如何检测我的浏览器的？",
+          "answer": "工具读取浏览器的 User-Agent 字符串以及任何网站都能获取的 JavaScript API。"
+        },
+        {
+          "question": "我的数据会被发送到别处吗？",
+          "answer": "不会。所有信息都在本地浏览器中检测，只有公网 IP 需要向公共 IP 服务请求。"
+        },
+        {
+          "question": "浏览器信息对网站有什么意义？",
+          "answer": "网站利用浏览器检测提供兼容功能，开发者通过 User-Agent 测试和调试站点。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "IP 地址查询",
+          "href": "/tools/ip-lookup"
+        },
+        {
+          "name": "GEO IP 定位",
+          "href": "/tools/geo-ip-locator"
+        },
+        {
+          "name": "打字速度测试",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "IP 查询",
+          "href": "/tools/ip-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是浏览器信息检测？",
+          "paragraphs": [
+            "此工具检测你的浏览器名称、版本、渲染内核、操作系统、屏幕分辨率、语言、时区和公网 IP 地址。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "打开页面即自动检测。更改设置后可点击刷新重新检测。"
+            ],
+            "items": [
+              "User-Agent 字符串显示在底部，供开发者使用。",
+              "上报 bug 时可复制 User-Agent 一并提交。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "如果使用 VPN，显示的 IP 可能属于 VPN 提供商而非你的真实位置。"
+            ]
+          }
+        ]
+      }
+    },
+    "geo-ip-locator": {
+      "metadata": {
+        "title": "GEO IP 定位",
+        "description": "查找任意 IP 地址的地理位置、ISP 和所属组织",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "ip 定位",
+        "ip 地理位置",
+        "ip 归属地查询",
+        "查询 ip 位置",
+        "ip 地址定位",
+        "ip 追踪",
+        "ip 转位置"
+      ],
+      "labels": {
+        "ip": "IP 地址",
+        "continent": "大洲",
+        "country": "国家",
+        "region": "地区",
+        "city": "城市",
+        "coordinates": "坐标",
+        "isp": "ISP",
+        "organization": "所属组织",
+        "asn": "ASN",
+        "timezone": "时区",
+        "type": "IP 类型",
+        "myIp": "使用我的 IP 地址"
+      },
+      "buttons": {
+        "lookUp": "查询",
+        "loading": "查询中..."
+      },
+      "messages": {
+        "errorInvalid": "请输入有效的 IPv4 地址。",
+        "errorNotFound": "未找到该 IP 的位置数据。",
+        "errorGeneric": "查询失败，请重试。"
+      },
+      "faqs": [
+        {
+          "question": "IP 地理定位有多准确？",
+          "answer": "IP 地理定位通常精确到城市或地区级别，不能精确到具体物理地址。"
+        },
+        {
+          "question": "IP 定位会出错吗？",
+          "answer": "会。VPN、代理和移动运营商可能让 IP 显示与实际不同的位置。"
+        },
+        {
+          "question": "什么是 ASN？",
+          "answer": "自治系统编号标识拥有该 IP 段的网络，通常是 ISP 或托管公司。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "IP 地址查询",
+          "href": "/tools/ip-lookup"
+        },
+        {
+          "name": "Whois 查询",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "域名托管检测",
+          "href": "/tools/domain-hosting"
+        },
+        {
+          "name": "浏览器信息检测",
+          "href": "/tools/what-is-my-browser"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 GEO IP 定位？",
+          "paragraphs": [
+            "GEO IP 定位工具可查找任意 IP 地址的大致地理位置，以及 ISP 和网络信息。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入 IPv4 地址并点击查询，或点击“使用我的 IP 地址”查询自己的公网 IP。"
+            ],
+            "items": [
+              "结果包含大洲、国家、城市和坐标。",
+              "ISP 和 ASN 标识拥有该 IP 的网络。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "可用于查看访客或流量的来源地区，或验证可疑的 IP 地址。"
+            ]
+          }
+        ]
+      }
+    },
+    "redirect-checker": {
+      "metadata": {
+        "title": "重定向检测",
+        "description": "检查网址重定向到何处以及最终状态码",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "重定向检测",
+        "url 重定向检查",
+        "301 重定向",
+        "重定向链",
+        "链接重定向",
+        "重定向测试",
+        "检查重定向"
+      ],
+      "labels": {
+        "url": "网址",
+        "originalUrl": "原始网址",
+        "finalUrl": "最终网址",
+        "statusCode": "状态码",
+        "hasRedirect": "该网址会重定向到其他地址",
+        "noRedirect": "该网址直接加载"
+      },
+      "buttons": {
+        "check": "检测",
+        "checking": "检测中..."
+      },
+      "messages": {
+        "empty": "请输入要检测的网址。",
+        "fetchFailed": "无法获取该网址。网站可能阻止了自动请求，或网址无效。",
+        "disclaimer": "这是通过代理执行的轻量检测。完整重定向链请使用服务端工具。"
+      },
+      "faqs": [
+        {
+          "question": "什么是 301 重定向？",
+          "answer": "301 重定向将旧网址永久指向新网址，告知浏览器和搜索引擎页面已迁移。"
+        },
+        {
+          "question": "为什么要检查重定向？",
+          "answer": "失效或过长的重定向链会拖慢网站并损害 SEO。定期检查有助于保持链接健康。"
+        },
+        {
+          "question": "哪些状态码需要关注？",
+          "answer": "200 表示正常，301/302 表示重定向，404 表示未找到，403/500 表示错误。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "网站宕机检测",
+          "href": "/tools/is-it-down"
+        },
+        {
+          "name": "URL 批量打开",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "URL Slug 生成器",
+          "href": "/tools/url-slug-generator"
+        },
+        {
+          "name": "移动端友好测试",
+          "href": "/tools/mobile-friendly-test"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是重定向检测？",
+          "paragraphs": [
+            "重定向检测工具测试网址是否跳转到其他地址，并显示最终目标和状态码。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入网址并点击检测。工具通过代理获取网址，并对比最终网址与原始网址。"
+            ],
+            "items": [
+              "如果最终网址不同，说明页面发生了重定向。",
+              "状态码告诉你页面是否正常（200）或已迁移（301/302）。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "页面迁移后务必为旧网址设置 301 重定向，以保留 SEO 权重。"
+            ]
+          }
+        ]
+      }
+    },
+    "is-it-down": {
+      "metadata": {
+        "title": "网站宕机检测",
+        "description": "检查网站是对所有人宕机还是只有你无法访问",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "网站宕机检测",
+        "网站是否可访问",
+        "网站状态检测",
+        "网站可用性",
+        "uptime 检测",
+        "站点状态",
+        "宕机检测"
+      ],
+      "labels": {
+        "url": "网址",
+        "status": "状态码",
+        "responseTime": "响应时间"
+      },
+      "buttons": {
+        "check": "检测",
+        "checking": "检测中..."
+      },
+      "messages": {
+        "empty": "请输入要检测的网址。",
+        "online": "网站正常！",
+        "offline": "网站可能已宕机",
+        "disclaimer": "本工具通过代理检测可达性。网站可能因本地网络问题对你不可用，或在其他地区可用。"
+      },
+      "faqs": [
+        {
+          "question": "它是如何检测网站是否宕机的？",
+          "answer": "工具通过公共代理请求该网站。请求成功说明网站可达，失败则可能已宕机。"
+        },
+        {
+          "question": "为什么显示“可能已宕机”？",
+          "answer": "有些网站会阻止自动请求，且地区性故障存在差异。结果是强信号，但不保证绝对准确。"
+        },
+        {
+          "question": "我的网站宕机了该怎么办？",
+          "answer": "查看托管商的状态页面、检查 DNS 变更，若持续宕机请联系技术支持。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "重定向检测",
+          "href": "/tools/redirect-checker"
+        },
+        {
+          "name": "域名托管检测",
+          "href": "/tools/domain-hosting"
+        },
+        {
+          "name": "Whois 查询",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "打字速度测试",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是网站宕机检测？",
+          "paragraphs": [
+            "网站宕机检测检查网站当前是否可访问，帮助你判断故障是影响所有人还是只有你。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入网址并点击检测。工具通过代理请求网站并显示是否响应。"
+            ],
+            "items": [
+              "成功响应表示网站正常。",
+              "状态码和响应时间供参考。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "如果网站对你不可用但这里正常，问题很可能出在你这边：网络、DNS 缓存或本地防火墙。"
+            ]
+          }
+        ]
+      }
+    },
+    "domain-age": {
+      "metadata": {
+        "title": "域名年龄查询",
+        "description": "查询任意域名的注册日期和年龄",
+        "category": "Domain"
+      },
+      "keywords": [
+        "域名年龄",
+        "域名年龄查询",
+        "域名注册时间",
+        "查询域名年龄",
+        "域名注册日期",
+        "域名多大",
+        "whois 年龄"
+      ],
+      "labels": {
+        "domain": "域名",
+        "registrationDate": "注册日期",
+        "expiryDate": "到期日期",
+        "updatedDate": "最近更新",
+        "status": "状态",
+        "years": "{n} 年",
+        "months": "{n} 个月",
+        "days": "{n} 天"
+      },
+      "buttons": {
+        "check": "查询",
+        "checking": "查询中..."
+      },
+      "messages": {
+        "errorEmpty": "请输入域名。",
+        "errorInvalid": "请输入有效的域名。",
+        "errorNotFound": "未找到该域名的注册数据。",
+        "errorGeneric": "查询失败，请重试。",
+        "noRegistration": "未找到该域名的注册日期。"
+      },
+      "faqs": [
+        {
+          "question": "域名年龄为什么重要？",
+          "answer": "较老的域名在搜索引擎和用户眼中往往更可信，老域名也可能带有既有的历史记录。"
+        },
+        {
+          "question": "数据从哪里来？",
+          "answer": "工具读取公共 RDAP 注册数据，这是取代传统 WHOIS 的现代标准。"
+        },
+        {
+          "question": "注册日期会被隐藏吗？",
+          "answer": "大多数注册局通过 RDAP 公开注册日期。隐私保护通常隐藏联系信息，而非日期。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Whois 查询",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "域名托管检测",
+          "href": "/tools/domain-hosting"
+        },
+        {
+          "name": "GEO IP 定位",
+          "href": "/tools/geo-ip-locator"
+        },
+        {
+          "name": "IP 地址查询",
+          "href": "/tools/ip-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是域名年龄查询？",
+          "paragraphs": [
+            "域名年龄查询显示域名何时注册，并以年、月、天计算其年龄。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入域名（不含 http:// 或 www）并点击查询。将显示注册、到期和更新日期。"
+            ],
+            "items": [
+              "年龄根据注册日期计算。",
+              "有数据时同时显示到期和更新日期。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "评估网站历史或决定购买域名时，可先查询域名年龄。"
+            ]
+          }
+        ]
+      }
+    },
+    "domain-hosting": {
+      "metadata": {
+        "title": "域名托管检测",
+        "description": "查询域名使用的托管服务商和网络",
+        "category": "Domain"
+      },
+      "keywords": [
+        "域名托管检测",
+        "网站托管在哪",
+        "查询托管商",
+        "网站托管查询",
+        "域名主机查询",
+        "托管检测",
+        "网站部署在哪"
+      ],
+      "labels": {
+        "domain": "域名",
+        "ipAddress": "IP 地址",
+        "host": "托管服务商",
+        "organization": "所属组织",
+        "asn": "ASN",
+        "country": "国家",
+        "city": "城市"
+      },
+      "buttons": {
+        "check": "查询",
+        "checking": "查询中..."
+      },
+      "messages": {
+        "errorEmpty": "请输入域名。",
+        "errorInvalid": "请输入有效的域名。",
+        "errorNoARecord": "未找到该域名的 A 记录，可能尚未接入主机。",
+        "errorGeneric": "查询失败，请重试。"
+      },
+      "faqs": [
+        {
+          "question": "托管商是如何检测的？",
+          "answer": "将域名的 A 记录解析为 IP 地址，再查询该 IP 的网络所有者，即可得知托管商。"
+        },
+        {
+          "question": "如果域名用了 CDN 会怎样？",
+          "answer": "若启用了 CDN，IP 将属于 CDN（如 Cloudflare）而非源站，工具会显示 CDN 为托管方。"
+        },
+        {
+          "question": "什么是 ASN？",
+          "answer": "自治系统编号是网络的唯一标识，通常是 ISP、托管商或 CDN。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Whois 查询",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "域名年龄查询",
+          "href": "/tools/domain-age"
+        },
+        {
+          "name": "IP 地址查询",
+          "href": "/tools/ip-lookup"
+        },
+        {
+          "name": "网站宕机检测",
+          "href": "/tools/is-it-down"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是域名托管检测？",
+          "paragraphs": [
+            "域名托管检测通过解析网站的 IP 地址并查询网络所有者，揭示网站运行在哪个托管服务商或网络上。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入域名并点击查询。工具解析 A 记录，再查询该 IP 的 ISP 和所属组织。"
+            ],
+            "items": [
+              "结果显示 IP 地址及其网络所有者。",
+              "ASN 标识托管商或 CDN。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "了解竞品的托管商有助于对比性能方案。"
+            ]
+          }
+        ]
+      }
+    },
+    "xml-sitemap": {
+      "metadata": {
+        "title": "XML 站点地图生成器",
+        "description": "几秒钟内为你的网站创建标准 XML 站点地图",
+        "category": "营销"
+      },
+      "keywords": [
+        "XML 站点地图生成",
+        "站点地图生成器",
+        "sitemap 生成",
+        "SEO 站点地图",
+        "sitemap.xml",
+        "网站地图",
+        "站点地图工具"
+      ],
+      "labels": {
+        "websiteUrl": "网站地址",
+        "paths": "页面路径（每行一个）",
+        "changefreq": "更新频率",
+        "priority": "优先级",
+        "results": "站点地图输出"
+      },
+      "placeholders": {
+        "websiteUrl": "https://example.com",
+        "paths": "/\n/about\n/contact\n/blog"
+      },
+      "buttons": {
+        "generate": "生成站点地图",
+        "clear": "清空",
+        "download": "下载 XML",
+        "copy": "复制 XML"
+      },
+      "options": {
+        "always": "始终",
+        "hourly": "每小时",
+        "daily": "每天",
+        "weekly": "每周",
+        "monthly": "每月",
+        "yearly": "每年",
+        "never": "从不"
+      },
+      "messages": {
+        "empty": "请至少输入一个页面路径。",
+        "invalidUrl": "请输入有效的网站地址。",
+        "placeholder": "生成的站点地图将显示在这里。"
+      },
+      "faqs": [
+        {
+          "question": "什么是 XML 站点地图？",
+          "answer": "XML 站点地图是一个列出网站重要页面的文件，帮助搜索引擎更高效地发现和抓取你的页面。"
+        },
+        {
+          "question": "应该多久更新一次站点地图？",
+          "answer": "每当添加、删除或修改重要页面时都应更新。大多数网站将更新频率设置为每周或每月。"
+        },
+        {
+          "question": "站点地图应该上传到哪里？",
+          "answer": "将 sitemap.xml 上传到网站根目录，并在 Google Search Console 或必应站长平台中提交。"
+        },
+        {
+          "question": "优先级应该设置多少？",
+          "answer": "优先级范围为 0.0 到 1.0，告诉搜索引擎哪些页面更重要。仅对首页和关键落地页使用 1.0。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Robots.txt 生成器",
+          "href": "/tools/robots-txt-generator"
+        },
+        {
+          "name": "Meta 标签生成器",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "URL Slug 生成器",
+          "href": "/tools/url-slug-generator"
+        },
+        {
+          "name": "关键词排名查询",
+          "href": "/tools/keyword-position"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 XML 站点地图生成器？",
+          "paragraphs": [
+            "XML 站点地图生成器创建列出网站 URL 的 sitemap.xml 文件，帮助搜索引擎发现和索引你的页面。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入网站地址、逐行列出页面路径、选择更新频率和优先级，然后点击生成站点地图。"
+            ],
+            "items": [
+              "路径可以是绝对路径（/about）或相对路径（about）。",
+              "lastmod 日期自动设为今天。",
+              "下载 XML 文件并上传到网站根目录。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "站点地图 URL 应控制在 50,000 以内。大型网站请拆分为多个站点地图。"
+            ]
+          }
+        ]
+      }
+    },
+    "adsense-calculator": {
+      "metadata": {
+        "title": "AdSense 收入计算器",
+        "description": "根据流量和广告数据估算 Google AdSense 收入",
+        "category": "营销"
+      },
+      "keywords": [
+        "adsense 计算器",
+        "adsense 收入计算",
+        "google adsense 收入",
+        "广告收入计算",
+        "cpm 计算器",
+        "adsense rpm",
+        "广告收益计算器"
+      ],
+      "labels": {
+        "dailyPageviews": "每日页面浏览量",
+        "adsPerPage": "每页广告数",
+        "ctr": "点击率（%）",
+        "cpc": "单次点击费用（$）",
+        "daily": "预计每日收入",
+        "monthly": "预计每月收入",
+        "yearly": "预计每年收入"
+      },
+      "messages": {
+        "disclaimer": "仅为估算。实际收入取决于行业、地区、季节、广告质量等多种因素。"
+      },
+      "faqs": [
+        {
+          "question": "AdSense 收入是如何计算的？",
+          "answer": "收入大致等于 页面浏览量 × 每页广告数 × 点击率（CTR）× 单次点击费用（CPC）。本工具使用该公式进行估算。"
+        },
+        {
+          "question": "AdSense 的合理点击率是多少？",
+          "answer": "展示广告的典型点击率在 1% 到 3% 之间。高质量、位置合适的广告表现更好。"
+        },
+        {
+          "question": "什么是 CPC，受什么影响？",
+          "answer": "CPC 是每次点击获得的费用，受行业、用户地区、季节和广告主竞争影响。"
+        },
+        {
+          "question": "为什么结果只是估算？",
+          "answer": "实际收入取决于流量来源、广告质量、用户行为等本计算器无法获知的因素。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "营收计算器",
+          "href": "/tools/revenue-calculator"
+        },
+        {
+          "name": "利润率计算器",
+          "href": "/tools/profit-margin-calculator"
+        },
+        {
+          "name": "百分比计算器",
+          "href": "/tools/percentage-calculator"
+        },
+        {
+          "name": "关键词密度检测",
+          "href": "/tools/keyword-density"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 AdSense 计算器？",
+          "paragraphs": [
+            "AdSense 计算器根据你的流量和广告设置，估算网站通过 Google AdSense 可以获得多少收入。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入每日页面浏览量、每页平均广告数、点击率和单次点击费用，每日、每月和每年估算会即时更新。"
+            ],
+            "items": [
+              "CTR 是广告展示被点击的百分比。",
+              "CPC 是每次点击的平均收入。",
+              "使用 AdSense 后台的真实数据可以获得更准确的估算。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "尝试不同的输入值，了解流量和参与度如何影响收入。"
+            ]
+          }
+        ]
+      }
+    },
+    "url-opener": {
+      "metadata": {
+        "title": "URL 批量打开器",
+        "description": "同时在新浏览器标签页中打开多个网址",
+        "category": "营销"
+      },
+      "keywords": [
+        "url 批量打开",
+        "批量打开网址",
+        "同时打开多个链接",
+        "多链接打开器",
+        "网址批量打开",
+        "链接批量打开"
+      ],
+      "labels": {
+        "urls": "网址（每行一个或用逗号分隔）"
+      },
+      "placeholders": {
+        "urls": "https://example.com\nhttps://example.com/about"
+      },
+      "buttons": {
+        "open": "打开全部网址",
+        "clear": "清空"
+      },
+      "messages": {
+        "empty": "请至少输入一个网址。",
+        "popupBlocked": "浏览器阻止了部分弹窗。请允许本站的弹窗后再试。"
+      },
+      "status": {
+        "pending": "等待中",
+        "opened": "已打开",
+        "blocked": "被阻止"
+      },
+      "faqs": [
+        {
+          "question": "为什么浏览器会阻止新标签页？",
+          "answer": "浏览器会阻止非用户操作触发的弹窗。出现这种情况时，请在浏览器设置中允许本站弹窗后重试。"
+        },
+        {
+          "question": "可以输入不带 http:// 的网址吗？",
+          "answer": "可以。工具会自动为不含协议的网址添加 https://。"
+        },
+        {
+          "question": "一次可以打开多少个网址？",
+          "answer": "数量不限，但超大列表可能受到浏览器限制。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "URL 短链接生成",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "URL Slug 生成器",
+          "href": "/tools/url-slug-generator"
+        },
+        {
+          "name": "关键词排名查询",
+          "href": "/tools/keyword-position"
+        },
+        {
+          "name": "域名 Whois 查询",
+          "href": "/tools/whois-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 URL 批量打开器？",
+          "paragraphs": [
+            "URL 批量打开器可以同时在多个新标签页中打开链接，免去逐个复制粘贴的麻烦。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "粘贴网址列表（每行一个或用逗号分隔），然后点击打开全部网址，每个网址会在新标签页中打开。"
+            ],
+            "items": [
+              "重复网址会自动去除。",
+              "如果浏览器阻止标签页，请允许本站弹窗。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "可以用它快速检查网站多个页面、批量打开参考资料或快速测试链接。"
+            ]
+          }
+        ]
+      }
+    },
+    "html-viewer": {
+      "metadata": {
+        "title": "HTML 查看器",
+        "description": "实时查看和预览 HTML 代码",
+        "category": "开发者"
+      },
+      "keywords": [
+        "html 查看器",
+        "html 预览",
+        "html 渲染",
+        "在线 html 查看",
+        "html 代码预览",
+        "预览 html",
+        "html 沙盒"
+      ],
+      "labels": {
+        "html": "HTML 代码"
+      },
+      "tabs": {
+        "preview": "预览",
+        "source": "源码"
+      },
+      "buttons": {
+        "clear": "清空",
+        "copy": "复制 HTML"
+      },
+      "faqs": [
+        {
+          "question": "预览会执行脚本吗？",
+          "answer": "预览在沙盒 iframe 中渲染，出于安全不会执行脚本。静态 HTML、CSS 和内联样式均可正常显示。"
+        },
+        {
+          "question": "我的 HTML 会被发送到别处吗？",
+          "answer": "不会。一切都在浏览器中运行，你的代码不会离开设备。"
+        },
+        {
+          "question": "可以复制渲染结果吗？",
+          "answer": "使用源码标签页复制 HTML 代码，使用预览查看视觉效果。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Markdown 预览",
+          "href": "/tools/markdown-preview"
+        },
+        {
+          "name": "HTML 压缩",
+          "href": "/tools/html-minifier"
+        },
+        {
+          "name": "HTML 实体编码",
+          "href": "/tools/html-entity-encoder"
+        },
+        {
+          "name": "HTML 转图片",
+          "href": "/tools/html-to-image"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 HTML 查看器？",
+          "paragraphs": [
+            "HTML 查看器实时渲染你的 HTML 代码，让你在编辑的同时看到视觉效果。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "在左侧编辑器中输入或粘贴 HTML，右侧预览会自动更新。可在预览和源码标签页之间切换查看渲染结果或代码。"
+            ],
+            "items": [
+              "预览支持 HTML、CSS 和内联样式。",
+              "出于安全，外部资源会被阻止。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "适合快速原型设计、调试布局问题或检查邮件模板效果。"
+            ]
+          }
+        ]
+      }
+    },
+    "mobile-friendly-test": {
+      "metadata": {
+        "title": "移动端友好测试",
+        "description": "检查你的网站是否针对移动设备进行了优化",
+        "category": "营销"
+      },
+      "keywords": [
+        "移动端友好测试",
+        "移动适配检测",
+        "响应式测试",
+        "移动端可用性",
+        "移动端 seo",
+        "移动友好检测",
+        "响应式检测"
+      ],
+      "labels": {
+        "url": "页面地址",
+        "score": "移动友好度评分",
+        "pass": "通过",
+        "fail": "未通过"
+      },
+      "placeholders": {
+        "url": "https://example.com"
+      },
+      "buttons": {
+        "check": "检测网址",
+        "checking": "检测中..."
+      },
+      "messages": {
+        "empty": "请输入要检测的网址。",
+        "fetchFailed": "无法获取该页面。网站可能阻止了自动请求，或网址无效。",
+        "viewportPass": "页面包含 device-width 的 viewport meta 标签。",
+        "viewportFail": "页面缺少正确的 viewport meta 标签。",
+        "titlePass": "页面包含 title 标签。",
+        "titleFail": "页面没有 title 标签。",
+        "descriptionPass": "页面包含 meta description。",
+        "descriptionFail": "页面没有 meta description。",
+        "responsivePass": "页面使用了响应式 CSS（检测到媒体查询）。",
+        "responsiveFail": "未检测到媒体查询——布局可能无法适配小屏幕。",
+        "fontSizePass": "检测到可读的字体大小（12px 以上）。",
+        "fontSizeFail": "字体大小未明确设置，移动端文本可能难以阅读。",
+        "disclaimer": "这是基于页面 HTML 的轻量启发式检查。完整分析请使用 Google 官方 Mobile-Friendly Test。"
+      },
+      "faqs": [
+        {
+          "question": "移动端友好测试是如何工作的？",
+          "answer": "工具获取页面 HTML 并检查常见移动端优化项：viewport 标签、title、description、响应式 CSS 和字体大小。"
+        },
+        {
+          "question": "什么是 viewport meta 标签？",
+          "answer": "类似 width=device-width 的 viewport 标签告诉移动浏览器按设备宽度渲染页面，而不是桌面宽度。"
+        },
+        {
+          "question": "它与 Google 的测试一样准确吗？",
+          "answer": "不一样。这是快速启发式检查。Google 的 Mobile-Friendly Test 会渲染页面并提供更完整的评估。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Meta 标签分析器",
+          "href": "/tools/meta-tags-analyzer"
+        },
+        {
+          "name": "HTML 查看器",
+          "href": "/tools/html-viewer"
+        },
+        {
+          "name": "XML 站点地图生成器",
+          "href": "/tools/xml-sitemap"
+        },
+        {
+          "name": "网页图片优化",
+          "href": "/tools/image-web-optimizer"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是移动端友好测试？",
+          "paragraphs": [
+            "移动端友好测试检查你的网站在手机和平板上的表现，这对用户体验和 Google 移动优先索引都很重要。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入要检测的页面地址并点击检测网址。工具会获取页面并给出评分及检查项结果。"
+            ],
+            "items": [
+              "评分基于下方的检查项。",
+              "修复未通过的检查项以改善移动端体验。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "先从 viewport meta 标签开始——这是移动端渲染最重要的单个修复项。"
+            ]
+          }
+        ]
+      }
+    },
+    "keyword-density": {
+      "metadata": {
+        "title": "关键词密度检测器",
+        "description": "分析内容中的关键词频率和密度",
+        "category": "营销"
+      },
+      "keywords": [
+        "关键词密度检测",
+        "关键词密度分析",
+        "关键词频率检测",
+        "关键词密度计算器",
+        "检查关键词密度",
+        "关键词密度工具",
+        "内容关键词分析",
+        "seo关键词密度"
+      ],
+      "labels": {
+        "content": "输入内容",
+        "minLength": "最短词长",
+        "showTop": "显示前",
+        "totalWords": "总词数",
+        "uniqueWords": "不重复词数",
+        "topDensity": "最高密度",
+        "results": "关键词密度结果",
+        "word": "关键词",
+        "count": "次数",
+        "density": "密度"
+      },
+      "placeholders": {
+        "content": "在此粘贴或输入内容..."
+      },
+      "buttons": {
+        "analyze": "分析关键词密度",
+        "clear": "清空"
+      },
+      "options": {
+        "top10": "前 10 个",
+        "top20": "前 20 个",
+        "top50": "前 50 个"
+      },
+      "messages": {
+        "empty": "请输入要分析的内容。"
+      },
+      "csv": {
+        "word": "关键词",
+        "count": "次数",
+        "density": "密度"
+      },
+      "faqs": [
+        {
+          "question": "什么是关键词密度？",
+          "answer": "关键词密度是指某个关键词在内容中出现的次数占总词数的百分比。计算公式为（关键词出现次数 ÷ 总词数）× 100。"
+        },
+        {
+          "question": "多少关键词密度比较合适？",
+          "answer": "一般来说 1% 到 3% 的关键词密度对 SEO 较为理想。过高会被搜索引擎视为关键词堆砌而受到惩罚。"
+        },
+        {
+          "question": "这个工具如何计算密度？",
+          "answer": "工具会统计内容中的每个词，再用每个关键词的出现次数除以总词数并乘以 100。你可以设置最短词长来忽略过短的词。"
+        },
+        {
+          "question": "为什么要检查关键词密度？",
+          "answer": "检查关键词密度可以帮助你确认主关键词出现的频率是否足够让搜索引擎理解主题，同时又不会过度使用。"
+        },
+        {
+          "question": "我的内容会被上传到服务器吗？",
+          "answer": "不会。所有分析都在浏览器本地完成，你的内容不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "字数统计器",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "字符计数器",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "Meta 标签生成器",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "关键词排名查询",
+          "href": "/tools/keyword-position"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是关键词密度检测器？",
+          "paragraphs": [
+            "关键词密度检测器是一款免费在线工具，用于分析特定词或短语在内容中出现的频率。它会显示每个关键词的次数、频率和占全文的百分比，帮助你在不堆砌关键词的前提下优化写作。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "在文本框粘贴或输入内容，设置最短词长以过滤短小的填充词，选择要显示的关键词数量，然后点击分析。"
+            ],
+            "items": [
+              "通过总词数和不重复词数了解内容规模。",
+              "在结果表格中查看每个关键词的次数和密度百分比。",
+              "主关键词密度尽量控制在 1% 到 3%。"
+            ]
+          },
+          {
+            "title": "SEO 优化建议",
+            "paragraphs": [
+              "在标题、标题标签和首段中使用主关键词，然后在正文中自然重复。使用本工具确认没有过度使用。"
+            ],
+            "items": [
+              "主关键词密度控制在 1% 到 3%。",
+              "次关键词使用相关同义词和长尾变体。",
+              "优先保证内容自然可读，其次才是搜索引擎。"
+            ]
+          }
+        ]
+      }
+    },
+    "meta-tags-analyzer": {
+      "metadata": {
+        "title": "Meta 标签分析器",
+        "description": "分析任意网址的 Meta 标签并获取 SEO 建议",
+        "category": "营销"
+      },
+      "keywords": [
+        "meta标签分析",
+        "meta标签检查",
+        "分析meta标签",
+        "meta描述检查",
+        "seo meta标签",
+        "网址meta标签",
+        "og标签分析",
+        "检查网站meta标签"
+      ],
+      "labels": {
+        "urlMode": "按网址",
+        "htmlMode": "粘贴 HTML",
+        "url": "页面网址",
+        "html": "HTML 源码"
+      },
+      "placeholders": {
+        "html": "在此粘贴页面的 HTML 源码..."
+      },
+      "buttons": {
+        "analyze": "分析 Meta 标签",
+        "loading": "分析中..."
+      },
+      "messages": {
+        "fetchFailed": "无法获取该页面，网站可能屏蔽了自动请求。请改用「粘贴 HTML」模式。",
+        "proxyNote": "由于浏览器无法直接读取跨域页面，页面通过公共 CORS 代理获取。",
+        "noTags": "未找到可识别的 Meta 标签。"
+      },
+      "faqs": [
+        {
+          "question": "什么是 Meta 标签分析器？",
+          "answer": "Meta 标签分析器会读取网页的标题、描述、关键词、Open Graph、Twitter Card 等标签，展示搜索引擎和社交平台看到的内容，并提示缺失或格式错误的标签。"
+        },
+        {
+          "question": "它会检查哪些标签？",
+          "answer": "它会检查标题、Meta 描述、关键词、robots、canonical 链接、H1，以及 Open Graph（og:title、og:description、og:image）和 Twitter Card 等社交标签。"
+        },
+        {
+          "question": "为什么有些网址无法获取？",
+          "answer": "浏览器会阻止跨域请求，因此页面通过公共代理获取。部分网站会屏蔽代理请求或依赖 JavaScript，导致无法获取，此时请使用「粘贴 HTML」模式。"
+        },
+        {
+          "question": "我的数据会被存储吗？",
+          "answer": "不会。页面内容仅在你的浏览器会话中被获取和分析，不会上传到我们的服务器。"
+        },
+        {
+          "question": "什么样的 Meta 标签算好？",
+          "answer": "标题不超过 60 个字符、Meta 描述不超过 160 个字符、H1 准确、有 canonical 链接，并包含用于社交分享的 Open Graph 和 Twitter Card 标签。分析器会在缺失或过长时给出提示。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Meta 标签生成器",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "Robots.txt 生成器",
+          "href": "/tools/robots-txt-generator"
+        },
+        {
+          "name": "Open Graph 预览",
+          "href": "/tools/og-preview"
+        },
+        {
+          "name": "关键词密度检测器",
+          "href": "/tools/keyword-density"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 Meta 标签分析器？",
+          "paragraphs": [
+            "Meta 标签分析器是一款免费在线工具，会获取网页并提取其所有 Meta 标签。它帮助你检查页面在搜索结果和社交预览中的展示效果，并指出可能影响点击率的问题。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入页面网址并点击「分析 Meta 标签」，工具会通过代理获取页面并列出找到的每个标签。"
+            ],
+            "items": [
+              "检查标题是否在 60 个字符以内。",
+              "检查 Meta 描述是否在 160 个字符以内。",
+              "确保包含 Open Graph 和 Twitter Card 标签用于社交分享。"
+            ]
+          },
+          {
+            "title": "故障排查",
+            "paragraphs": [
+              "如果无法获取网址，可以复制页面的 HTML 源码并切换到「粘贴 HTML」模式。此方式适用于包括私有或动态页面在内的任何页面。"
+            ]
+          }
+        ]
+      }
+    },
+    "long-tail-keywords": {
+      "metadata": {
+        "title": "长尾关键词工具",
+        "description": "为你的主题生成长尾关键词建议",
+        "category": "营销"
+      },
+      "keywords": [
+        "长尾关键词",
+        "长尾关键词生成器",
+        "关键词建议",
+        "长尾关键词工具",
+        "关键词创意",
+        "seo关键词生成",
+        "关键词组合",
+        "长尾seo"
+      ],
+      "labels": {
+        "seed": "种子关键词",
+        "country": "国家 / 语言",
+        "category": "类别",
+        "results": "长尾关键词建议"
+      },
+      "placeholders": {
+        "seed": "例如：咖啡机、瑜伽垫..."
+      },
+      "options": {
+        "global": "全球",
+        "us": "美国（英语）",
+        "uk": "英国（英语）",
+        "in": "印度（英语）",
+        "au": "澳大利亚（英语）",
+        "ca": "加拿大（英语）",
+        "general": "通用",
+        "howTo": "如何做",
+        "best": "最佳 / 顶级",
+        "buy": "购买",
+        "reviews": "评测",
+        "nearMe": "附近",
+        "question": "问题"
+      },
+      "buttons": {
+        "generate": "生成长尾关键词",
+        "copy": "复制",
+        "copied": "已复制"
+      },
+      "faqs": [
+        {
+          "question": "什么是长尾关键词？",
+          "answer": "长尾关键词是更长、更具体的搜索短语，例如「露营用最佳平价咖啡机」而不是「咖啡机」。它们搜索量较低，但转化意图更高。"
+        },
+        {
+          "question": "这个工具如何生成关键词？",
+          "answer": "它会将你的种子关键词与「最佳」「如何」「评测」等前缀后缀组合，生成类似「如何使用法压壶」或「最佳意式咖啡机评测」的组合。"
+        },
+        {
+          "question": "为什么长尾关键词对 SEO 很重要？",
+          "answer": "长尾关键词竞争较小、更容易排名，并且能吸引更接近购买决策或寻找具体答案的用户。"
+        },
+        {
+          "question": "一次可以生成多少关键词？",
+          "answer": "每个种子关键词最多生成 60 条建议，包括地区和国家变体。你可以单独复制或整份复制。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "关键词密度检测器",
+          "href": "/tools/keyword-density"
+        },
+        {
+          "name": "关键词排名查询",
+          "href": "/tools/keyword-position"
+        },
+        {
+          "name": "Meta 标签生成器",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "字数统计器",
+          "href": "/tools/word-counter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是长尾关键词工具？",
+          "paragraphs": [
+            "长尾关键词工具是一款免费生成器，能把一个种子关键词扩展成几十个更长、更具体的搜索短语，是快速构建博客文章、产品页面和 SEO 关键词列表的便捷方式。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入种子关键词，选择目标国家或语言，选择「如何做」或「最佳 / 顶级」等类别，然后点击生成。"
+            ],
+            "items": [
+              "使用「是什么」「如何做」等问题型关键词撰写科普内容。",
+              "使用「最佳」「评测」「购买」关键词制作商业页面。",
+              "使用「附近」和国家变体做本地 SEO。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "从一个宽泛的种子关键词开始，让工具扩展它，再筛选出符合用户意图的短语。"
+            ]
+          }
+        ]
+      }
+    },
+    "keyword-position": {
+      "metadata": {
+        "title": "关键词排名查询",
+        "description": "查询你的关键词在搜索引擎中的排名",
+        "category": "营销"
+      },
+      "keywords": [
+        "关键词排名查询",
+        "关键词排名检查",
+        "查询关键词排名",
+        "关键词排名工具",
+        "serp排名查询",
+        "关键词排名跟踪",
+        "排名查询seo",
+        "检查排名位置"
+      ],
+      "labels": {
+        "domain": "你的网站网址",
+        "keywords": "要查询的关键词（每行一个）",
+        "results": "排名结果",
+        "keyword": "关键词",
+        "position": "排名",
+        "url": "匹配网址",
+        "notFound": "未进前 50"
+      },
+      "placeholders": {
+        "keywords": "咖啡机\n最佳意式咖啡机\n法压壶"
+      },
+      "buttons": {
+        "check": "查询关键词排名",
+        "checking": "查询中..."
+      },
+      "messages": {
+        "disclaimer": "本工具在你的浏览器中查询 Bing 自然搜索结果，排名为估算值，可能与 Google 不同。如需精确排名，请使用 Google Search Console 或专业 SEO 工具。",
+        "partial": "部分关键词无法查询或未出现在前 50 名结果中。"
+      },
+      "faqs": [
+        {
+          "question": "关键词排名查询如何工作？",
+          "answer": "对于每个关键词，工具通过代理获取搜索结果页面，解析自然结果，并找出你的域名出现的位置。"
+        },
+        {
+          "question": "它查询哪个搜索引擎？",
+          "answer": "它查询 Bing 的自然搜索结果。浏览器会阻止直接请求 Google，因此使用 Bing 作为可靠的排名估算来源。"
+        },
+        {
+          "question": "为什么不同搜索引擎的排名不同？",
+          "answer": "Google 和 Bing 使用不同的排名算法和索引，因此同一关键词的排名可能不同。工具因此将结果标记为估算值。"
+        },
+        {
+          "question": "一次可以查询多少关键词？",
+          "answer": "可以每行一个地查询任意数量的关键词。关键词越多耗时越长，因为每个关键词都需要单独发起搜索请求。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "关键词密度检测器",
+          "href": "/tools/keyword-density"
+        },
+        {
+          "name": "长尾关键词工具",
+          "href": "/tools/long-tail-keywords"
+        },
+        {
+          "name": "Meta 标签生成器",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "域名 Whois 查询",
+          "href": "/tools/whois-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是关键词排名查询？",
+          "paragraphs": [
+            "关键词排名查询（或排名检查器）可以显示你的网站针对特定关键词出现在搜索结果中的位置，帮助你无需购买昂贵的排名跟踪软件即可监控 SEO 进展。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "paragraphs": [
+              "输入你的网站网址和关键词列表（每行一个），然后点击「查询关键词排名」。工具会显示每个关键词的排名和匹配的结果网址。"
+            ],
+            "items": [
+              "第 1 到 10 名对自然流量最有价值。",
+              "未进入前 50 的关键词显示为「未进前 50」。",
+              "定期查询以跟踪排名变化。"
+            ]
+          },
+          {
+            "title": "提示",
+            "paragraphs": [
+              "先查询已带来流量的关键词了解基线，然后重点关注 11 到 30 名的关键词，它们最容易进入前十。"
+            ]
+          }
+        ]
+      }
+    },
     "video-watermark-remover": {
       "metadata": {
         "title": "视频去水印工具",
@@ -4334,9 +5900,58 @@
       "metadata": {
         "title": "正则表达式测试器",
         "description": "使用实时匹配测试和调试正则表达式",
-        "category": "Developer"
+        "category": "Developer",
+        "keywords": [
+          "正则测试",
+          "正则表达式测试",
+          "正则匹配器",
+          "正则检查器",
+          "正则在线工具",
+          "正则调试",
+          "正则表达式验证",
+          "正则测试在线"
+        ]
       },
       "guide": {
+        "introduction": {
+          "title": "什么是正则表达式测试工具？",
+          "p1": "正则表达式测试工具是一款在线实时编写、测试和调试正则表达式的工具。输入模式和测试字符串后，工具会立即高亮所有匹配项、显示包括捕获组在内的匹配详情，并支持测试查找替换操作。",
+          "p2": "本工具使用 JavaScript 正则表达式引擎，因此你的模式在 JavaScript、TypeScript 或 Node.js 代码中的行为完全一致。非常适合开发人员构建校验规则、解析逻辑或文本转换。"
+        },
+        "howToUse": {
+          "title": "如何使用正则表达式测试工具",
+          "steps": [
+            "在“模式”字段中输入正则表达式模式，工具会自动用正斜杠包裹。",
+            "使用复选框切换标志：g（全局）、i（忽略大小写）、m（多行）、s（点号匹配换行）和 u（Unicode）。",
+            "在下方文本区域粘贴或输入测试字符串，匹配项会立即在“高亮匹配”区域高亮显示。",
+            "向下滚动可查看每个匹配项的编号列表、其在字符串中的位置以及任何捕获组。",
+            "点击“显示替换模式”输入替换模式，工具会显示将正则替换应用到整个测试字符串的结果。",
+            "使用“常用模式”侧栏加载电子邮件、网址、电话号码、IP 地址、日期和十六进制颜色的预设模式。"
+          ]
+        },
+        "flags": {
+          "title": "理解正则表达式标志",
+          "body": "全局标志（g）会查找所有匹配项，而不是在第一个匹配项处停止。忽略大小写（i）忽略字母大小写。多行（m）使 ^ 和 $ 匹配行的边界。点号匹配换行（s）使点字符匹配换行符。Unicode（u）对基本拉丁字符集以外的字符启用完整的 Unicode 匹配。"
+        },
+        "tips": {
+          "title": "编写更好正则表达式的提示",
+          "items": [
+            "从简单模式开始，在观察匹配更新的过程中逐步完善",
+            "使用括号创建捕获组，提取匹配中的特定部分",
+            "在测试字符串中加入特殊输入来测试边界情况",
+            "使用替换模式验证基于正则的转换是否正确",
+            "模式无效时查看错误信息区域，它会显示确切的 JavaScript 错误"
+          ]
+        },
+        "useCases": {
+          "title": "常见使用场景",
+          "items": [
+            "在表单输入中验证电子邮件、网址或电话号码",
+            "从日志文件或结构化文本中提取数据",
+            "为代码重构构建查找替换操作",
+            "通过即时可视化反馈学习正则表达式语法"
+          ]
+        },
         "intro": {
           "title": "什么是正则表达式测试器？",
           "paragraphs": [
@@ -4437,7 +6052,8 @@
         "matchesTitle": "{count} 个匹配",
         "matchIndex": "位置索引 {index}",
         "matchGroups": "捕获组：",
-        "commonPatternsTitle": "常用模式"
+        "commonPatternsTitle": "常用模式",
+        "errorFallback": "正则表达式无效"
       },
       "keywords": [
         "正则表达式测试器",
@@ -4448,7 +6064,15 @@
         "正则表达式调试",
         "模式匹配",
         "正则表达式验证器"
-      ]
+      ],
+      "commonPatterns": {
+        "email": "邮箱",
+        "url": "网址",
+        "phone": "电话号码",
+        "ipv4": "IPv4 地址",
+        "date": "日期（YYYY-MM-DD）",
+        "hexColor": "十六进制颜色"
+      }
     },
     "markdown-preview": {
       "metadata": {
@@ -4467,6 +6091,45 @@
         ]
       },
       "guide": {
+        "introduction": {
+          "title": "什么是 Markdown 预览工具？",
+          "p1": "Markdown 预览工具是一个免费的在线分屏编辑器，左边书写 Markdown，右边实时预览渲染结果。支持 GitHub 风格 Markdown（GFM），包括表格、任务列表、删除线和围栏代码块。",
+          "p2": "无论你是为 GitHub 仓库编写 README、撰写文档、编辑博客文章，还是学习 Markdown 语法，这个工具都能在你输入时提供即时的可视化反馈。"
+        },
+        "howToUse": {
+          "title": "如何使用 Markdown 预览编辑器",
+          "steps": [
+            "在左侧编辑器窗格中输入或粘贴 Markdown 内容，右侧预览窗格会随输入自动更新。",
+            "使用顶部的格式工具栏插入粗体、斜体、标题、链接、图片、代码块和列表，无需记忆语法。",
+            "点击“导出 HTML”将渲染结果下载为带有简洁样式的独立 HTML 文件。",
+            "点击“复制 MD”将原始 Markdown 文本复制到剪贴板。",
+            "展开底部的 Markdown 速查表，快速查看所有支持的语法。"
+          ]
+        },
+        "supportedFeatures": {
+          "title": "支持的 Markdown 功能",
+          "body": "本编辑器支持完整的 CommonMark 规范以及 GitHub 风格 Markdown 扩展。你可以使用标题（h1 至 h6）、粗体、斜体和删除线文本、有序和无序列表、引用块、水平分割线、行内代码和围栏代码块、链接、图片、带对齐的表格以及任务列表复选框。"
+        },
+        "tips": {
+          "title": "写出更好 Markdown 的提示",
+          "items": [
+            "按层级使用标题：h1 用于标题，h2 用于章节，h3 用于小节",
+            "在段落之间以及列表前后留出空行，以确保渲染正确",
+            "使用带语言标识的围栏代码块，以便在支持的渲染器中获得语法高亮",
+            "经常预览内容，尽早发现格式问题",
+            "使用工具栏按钮学习你不常用的元素语法"
+          ]
+        },
+        "useCases": {
+          "title": "常见使用场景",
+          "items": [
+            "在提交前编写和预览 GitHub README 文件",
+            "用 Markdown 撰写文档或技术写作",
+            "为 Hugo、Jekyll 或 Astro 等静态站点生成器撰写博客文章",
+            "通过即时可视化反馈学习 Markdown 语法",
+            "将 Markdown 转换为 HTML，用于嵌入网站或邮件"
+          ]
+        },
         "intro": {
           "title": "什么是 Markdown 预览？",
           "paragraphs": [
@@ -4938,7 +6601,8 @@
     "digital-signature": {
       "metadata": {
         "title": "电子签名制作工具 - 免费在线工具",
-        "description": "通过手写、输入文字或上传图片创建电子签名。下载为 PNG 或 SVG。免费、无需注册、100% 私密。"
+        "description": "通过手写、输入文字或上传图片创建电子签名。下载为 PNG 或 SVG。免费、无需注册、100% 私密。",
+        "category": "Utility"
       },
       "title": "电子签名制作工具",
       "description": "通过手写、输入文字或上传图片创建电子签名。下载为 PNG 或 SVG。免费、无需注册、100% 私密。",
@@ -10869,7 +12533,12 @@
         }
       ],
       "labels": {
-        "metaTags": "元标签"
+        "metaTags": "元标签",
+        "title": "标题",
+        "description": "描述",
+        "imageUrl": "图片 URL",
+        "siteName": "站点名称",
+        "url": "URL"
       },
       "buttons": {
         "copyMetaTags": "复制元标签"
@@ -20529,29 +22198,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是再融资计算器？",
-          "body": [
+          "paragraphs": [
             "Compare your current mortgage with a refinanced loan. Calculate monthly savings, total interest saved, break-even point, and view a side-by-side amortization comparison to decide if refinancing is right for you."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用再融资计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用再融资计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "markup-calculator": {
@@ -20659,29 +22332,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是加价计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate markup percentage, selling price, cost, and profit margin. Compare markup vs margin, use batch mode for multiple products, and reference common markup-to-margin conversions."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用加价计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用加价计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "cd-calculator": {
@@ -20795,29 +22472,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是CD计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate Certificate of Deposit earnings, compare CD rates from multiple banks, plan a CD ladder strategy, and estimate early withdrawal penalties. Free and instant."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用CD计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用CD计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "car-lease-calculator": {
@@ -20916,29 +22597,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是汽车租赁计算器？",
-          "body": [
+          "paragraphs": [
             "The Car Lease Calculator helps you estimate monthly lease payments, understand money factors, and compare leasing vs buying. Enter the vehicle's MSRP, negotiated price, down payment, residual value percentage, money factor, lease term, and tax rate to see your total monthly cost breakdown."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用汽车租赁计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用汽车租赁计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "commission-calculator": {
@@ -21127,6 +22812,13 @@
             "此工具用于估算 - 税务问题请咨询专业人士"
           ]
         }
+      },
+      "table": {
+        "year": "年份",
+        "slDep": "直线折旧",
+        "slValue": "直线账面价值",
+        "ddbDep": "双倍余额递减折旧",
+        "ddbValue": "双倍余额递减账面价值"
       }
     },
     "lease-calculator": {
@@ -21766,29 +23458,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是终值计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate the future value of investments with lump sums, regular contributions, or both. Compare ordinary annuities vs annuity due, adjust for inflation, and visualize year-by-year growth."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用终值计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用终值计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "annuity-calculator": {
@@ -21890,29 +23586,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是年金计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate annuity growth during accumulation or income payouts during distribution. Compare fixed vs variable annuities and see the tax-deferred growth advantage."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用年金计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用年金计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "emi-calculator": {
@@ -22016,29 +23716,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是EMI计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate your Equated Monthly Installment (EMI) for home loans, car loans, or personal loans. View amortization schedules, compare loan offers, and see how prepayments reduce your interest burden."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用EMI计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用EMI计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "debt-to-income-calculator": {
@@ -22144,29 +23848,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是债务收入比计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate your front-end and back-end DTI ratios. See where you stand for mortgage qualification, and find out how much debt to reduce to hit your target ratio."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用债务收入比计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用债务收入比计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "income-percentile-calculator": {
@@ -22273,29 +23981,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是收入百分位计算器？",
-          "body": [
+          "paragraphs": [
             "Find out where your income ranks compared to all Americans. Uses U.S. Census Bureau data for both household and individual income percentiles."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用收入百分位计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用收入百分位计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "net-worth-percentile-calculator": {
@@ -22402,29 +24114,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是净资产百分位计算器？",
-          "body": [
+          "paragraphs": [
             "See how your net worth compares to other Americans by age group. Uses Federal Reserve Survey of Consumer Finances data to calculate your wealth percentile."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用净资产百分位计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用净资产百分位计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       }
     },
     "life-insurance-calculator": {
@@ -22513,29 +24229,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是人寿保险计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate exactly how much life insurance coverage you need based on your income, debts, dependents, and financial goals."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用人寿保险计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用人寿保险计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       },
       "description": "估算人寿保险需求和保费。"
     },
@@ -22627,29 +24347,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是购房承受能力计算器？",
-          "body": [
+          "paragraphs": [
             "Find out how much house you can afford based on your income, debts, down payment, and interest rate. See a full monthly payment breakdown with taxes, insurance, and PMI."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用购房承受能力计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用购房承受能力计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       },
       "description": "确定您可以负担的房屋价格。"
     },
@@ -22735,29 +24459,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是商业贷款计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate business loan payments, total interest, and compare SBA, term, and line of credit options. See amortization schedules and the true cost of borrowing."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用商业贷款计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用商业贷款计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       },
       "description": "计算商业贷款支付、利息和还款计划。"
     },
@@ -22862,29 +24590,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是信用评分模拟器？",
-          "body": [
+          "paragraphs": [
             "Simulate how financial actions like paying off debt, opening new accounts, or missing payments could affect your credit score. Free, instant, and educational."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用信用评分模拟器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用信用评分模拟器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       },
       "description": "查看行动如何影响您的信用评分。"
     },
@@ -22968,29 +24700,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是自雇税计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate self-employment tax, estimated quarterly payments, and total tax burden for freelancers, 1099 contractors, and gig workers. Includes SE tax, federal income tax, and state taxes for 2026."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用自雇税计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用自雇税计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       },
       "description": "估算自雇税（社会保障和医疗保险）。"
     },
@@ -23083,29 +24819,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是汽车贷款利息抵扣计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate your OBBBA car loan interest tax deduction for 2025-2028. See how much you'll save on taxes with the new auto loan interest deduction."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用汽车贷款利息抵扣计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用汽车贷款利息抵扣计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       },
       "description": "计算汽车贷款利息的税收减免。"
     },
@@ -23195,29 +24935,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是学生贷款税务炸弹计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate your tax bill when student loan forgiveness becomes taxable income. See your federal and state taxes, check if the insolvency exclusion applies, and plan ahead."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用学生贷款税务炸弹计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用学生贷款税务炸弹计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       },
       "description": "估算学生贷款减免的税收影响。"
     },
@@ -23307,29 +25051,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是Trump账户计算器？",
-          "body": [
+          "paragraphs": [
             "Calculate how much a Trump Account (MAGA Account) could grow for your child. See projected value from the $1,000 government seed deposit and $5,000 annual contributions with tax basis tracking."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用Trump账户计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用Trump账户计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       },
       "description": "估算特朗普账户（儿童投资账户）的增长。"
     },
@@ -23413,29 +25161,33 @@
         "invalidInputs": "请输入有效值"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "什么是房贷还款计算器？",
-          "body": [
+          "paragraphs": [
             "The Mortgage Payoff Calculator shows how extra monthly payments can shorten your mortgage term and save you thousands in interest. Enter your current loan balance, interest rate, remaining term, and extra payment amount to see your new payoff date and total interest savings."
           ]
         },
-        "howTo": {
-          "title": "如何使用",
-          "intro": "使用房贷还款计算器非常简单：",
-          "items": [
-            "在输入框中输入您的数值",
-            "点击计算按钮",
-            "立即查看结果"
-          ]
-        },
-        "tips": {
-          "title": "提示",
-          "items": [
-            "仔细检查输入内容以获得准确结果",
-            "此工具用于估算 - 重要决策请咨询专业人士",
-            "保存结果以供将来参考"
-          ]
-        }
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "使用房贷还款计算器非常简单："
+            ],
+            "items": [
+              "在输入框中输入您的数值",
+              "点击计算按钮",
+              "立即查看结果"
+            ]
+          },
+          {
+            "title": "提示",
+            "items": [
+              "仔细检查输入内容以获得准确结果",
+              "此工具用于估算 - 重要决策请咨询专业人士",
+              "保存结果以供将来参考"
+            ]
+          }
+        ]
       },
       "description": "比较策略以更快还清抵押贷款。"
     },
@@ -29043,7 +30795,7 @@
       },
       "status": {
         "processing": "优化中…",
-        "zipping": "打包中…"
+        "zipping": "正在打包…"
       },
       "errors": {
         "process": "优化失败，请重试。"
@@ -29163,7 +30915,7 @@
         "caseSensitive": "区分大小写",
         "matchAll": "替换全部",
         "replacePosition": "按位置替换",
-        "fromEnd": "从末尾计数",
+        "fromEnd": "结尾",
         "position": "起始位置",
         "length": "长度",
         "insertText": "文本",
@@ -29189,7 +30941,6 @@
         "removeMode": "模式",
         "charsDirection": "删除方向",
         "fromStart": "开头",
-        "fromEnd": "结尾",
         "charsCount": "数量",
         "rangeStart": "起始索引",
         "rangeEnd": "结束索引",
@@ -31016,6 +32767,10 @@
     "how-to-record-your-screen": {
       "title": "如何免费录制屏幕（2026指南）",
       "description": "学习如何在任何设备上录制屏幕。涵盖浏览器录制、系统音频捕获、摄像头叠加以及无水印免费工具。"
+    },
+    "how-to-remove-background-from-image": {
+      "title": "如何去除图片背景（2026指南）",
+      "description": "学习如何使用 AI 和颜色工具免费去除图片背景。分步指南涵盖边缘处理、常见用途和浏览器内处理。"
     },
     "how-to-upscale-images": {
       "title": "如何在不损失质量的情况下放大图片（2026指南）",

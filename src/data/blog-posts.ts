@@ -99,6 +99,17 @@ export const blogPostsMeta: BlogPostMeta[] = [
     ],
   },
   {
+    slug: "how-to-remove-background-from-image",
+    author: "ToolkitLife Team",
+    datePublished: "2026-08-18",
+    dateModified: "2026-08-18",
+    tags: ["Image", "Background Removal", "Photo Editing", "AI"],
+    relatedArticles: [
+      { title: "How to Upscale Images", href: "/blog/how-to-upscale-images" },
+      { title: "How to Make Memes", href: "/blog/how-to-make-memes" },
+    ],
+  },
+  {
     slug: "how-to-upscale-images",
     author: "ToolkitLife Team",
     datePublished: "2026-03-06",

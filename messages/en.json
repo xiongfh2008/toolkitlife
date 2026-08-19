@@ -61,6 +61,96 @@
       "Math": "Math"
     },
     "tools": {
+      "what-is-my-browser": {
+        "name": "What Is My Browser",
+        "description": "Detect your browser, OS and IP address.",
+        "category": "Marketing",
+        "icon": "🌐"
+      },
+      "geo-ip-locator": {
+        "name": "GEO IP Locator",
+        "description": "Find the geographic location of any IP address.",
+        "category": "Marketing",
+        "icon": "📍"
+      },
+      "redirect-checker": {
+        "name": "Redirect Checker",
+        "description": "Check URL redirects and final destination.",
+        "category": "Marketing",
+        "icon": "🔀"
+      },
+      "is-it-down": {
+        "name": "Is It Down",
+        "description": "Check if a website is down or reachable.",
+        "category": "Marketing",
+        "icon": "🛡️"
+      },
+      "domain-age": {
+        "name": "Domain Age Checker",
+        "description": "Find out how old any domain is.",
+        "category": "Marketing",
+        "icon": "⏳"
+      },
+      "domain-hosting": {
+        "name": "Domain Hosting Checker",
+        "description": "Find out where any domain is hosted.",
+        "category": "Marketing",
+        "icon": "🏢"
+      },
+      "xml-sitemap": {
+        "name": "XML Sitemap Generator",
+        "description": "Generate an XML sitemap for your website instantly.",
+        "category": "Marketing",
+        "icon": "🗺️"
+      },
+      "adsense-calculator": {
+        "name": "Adsense Calculator",
+        "description": "Estimate your Google AdSense earnings.",
+        "category": "Marketing",
+        "icon": "💰"
+      },
+      "url-opener": {
+        "name": "URL Opener",
+        "description": "Open multiple URLs at once in new tabs.",
+        "category": "Marketing",
+        "icon": "🔗"
+      },
+      "html-viewer": {
+        "name": "HTML Viewer",
+        "description": "View and preview HTML code in real time.",
+        "category": "Developer",
+        "icon": "🖥️"
+      },
+      "mobile-friendly-test": {
+        "name": "Mobile Friendly Test",
+        "description": "Check if your website is mobile-friendly.",
+        "category": "Marketing",
+        "icon": "📱"
+      },
+      "keyword-density": {
+        "name": "Keyword Density Checker",
+        "description": "Analyze keyword frequency and density in your content.",
+        "category": "Marketing",
+        "icon": "📊"
+      },
+      "meta-tags-analyzer": {
+        "name": "Meta Tags Analyzer",
+        "description": "Analyze existing meta tags of any URL.",
+        "category": "Marketing",
+        "icon": "🏷"
+      },
+      "long-tail-keywords": {
+        "name": "Long Tail Keyword Tool",
+        "description": "Generate long-tail keyword suggestions for your topic.",
+        "category": "Marketing",
+        "icon": "🔎"
+      },
+      "keyword-position": {
+        "name": "Keyword Position Checker",
+        "description": "Check where your keywords rank in search engines.",
+        "category": "Marketing",
+        "icon": "🎯"
+      },
       "video-watermark-remover": {
         "name": "Video Watermark Remover",
         "description": "Remove watermarks from videos of any length. No time limits, no upload, free forever.",
@@ -1774,7 +1864,8 @@
       "developer": "Developer Tools",
       "calculator": "Calculators",
       "text": "Text Tools",
-      "utility": "Utilities"
+      "utility": "Utilities",
+      "marketing": "Marketing"
     },
     "scenesGroups": {
       "finance": "Finance",
@@ -1791,7 +1882,7 @@
     "clearHistory": "Clear",
     "searchHistory": "Recent Searches",
     "emptyFavorites": "No favorites yet — click the star on any tool to save it here.",
-    "heroBadge": "280 free online tools & calculators"
+    "heroBadge": "299 free online tools & calculators"
   },
   "privacy": {
     "metadata": {
@@ -1922,6 +2013,1493 @@
     }
   },
   "tools": {
+    "what-is-my-browser": {
+      "metadata": {
+        "title": "What Is My Browser",
+        "description": "Detect your browser name, version, OS and IP address",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "what is my browser",
+        "browser detector",
+        "my browser version",
+        "detect browser",
+        "user agent",
+        "browser os",
+        "what browser am I using",
+        "browser info"
+      ],
+      "labels": {
+        "browser": "Browser",
+        "version": "Version",
+        "engine": "Engine",
+        "os": "Operating System",
+        "screen": "Screen Resolution",
+        "colorDepth": "Color Depth",
+        "language": "Language",
+        "languages": "Languages",
+        "timezone": "Timezone",
+        "ipAddress": "IP Address",
+        "cookies": "Cookies Enabled",
+        "online": "Online",
+        "userAgent": "User Agent String"
+      },
+      "buttons": {
+        "refresh": "Refresh",
+        "copy": "Copy"
+      },
+      "messages": {
+        "ipFailed": "Unable to detect",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "faqs": [
+        {
+          "question": "How does this detect my browser?",
+          "answer": "The tool reads your browser's User-Agent string and other JavaScript APIs available to any website."
+        },
+        {
+          "question": "Is my data sent anywhere?",
+          "answer": "No. Everything is detected locally in your browser, except your public IP which is requested from a public IP service."
+        },
+        {
+          "question": "Why does my browser matter for websites?",
+          "answer": "Websites use browser detection to deliver compatible features, and your User-Agent helps developers test and debug their sites."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "IP Address Lookup",
+          "href": "/tools/ip-lookup"
+        },
+        {
+          "name": "GEO IP Locator",
+          "href": "/tools/geo-ip-locator"
+        },
+        {
+          "name": "User Agent Parser",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "IP Finder",
+          "href": "/tools/ip-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What Is My Browser?",
+          "paragraphs": [
+            "This tool detects your browser name, version, rendering engine, operating system, screen resolution, language, timezone and public IP address."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Open the page and the information is detected automatically. Click Refresh to re-detect after changing settings."
+            ],
+            "items": [
+              "The User-Agent string is shown at the bottom for developers.",
+              "Copy the User-Agent to share it when reporting a bug."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "If you use a VPN, the IP shown may belong to your VPN provider instead of your real location."
+            ]
+          }
+        ]
+      }
+    },
+    "geo-ip-locator": {
+      "metadata": {
+        "title": "GEO IP Locator",
+        "description": "Find the geographic location, ISP and organization of any IP address",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "geo ip locator",
+        "ip location",
+        "ip geolocation",
+        "find ip location",
+        "ip address location",
+        "ip tracker",
+        "geolocate ip",
+        "ip to location"
+      ],
+      "labels": {
+        "ip": "IP Address",
+        "continent": "Continent",
+        "country": "Country",
+        "region": "Region",
+        "city": "City",
+        "coordinates": "Coordinates",
+        "isp": "ISP",
+        "organization": "Organization",
+        "asn": "ASN",
+        "timezone": "Timezone",
+        "type": "IP Type",
+        "myIp": "Use my IP address"
+      },
+      "buttons": {
+        "lookUp": "Look Up",
+        "loading": "Looking up..."
+      },
+      "messages": {
+        "errorInvalid": "Please enter a valid IPv4 address.",
+        "errorNotFound": "No location data found for this IP.",
+        "errorGeneric": "Could not look up this IP. Please try again."
+      },
+      "faqs": [
+        {
+          "question": "How accurate is IP geolocation?",
+          "answer": "IP geolocation typically identifies the city or region level. It is not exact to a physical address."
+        },
+        {
+          "question": "Can IP location be wrong?",
+          "answer": "Yes. VPNs, proxies and mobile carriers can make an IP appear in a different location than you actually are."
+        },
+        {
+          "question": "What is an ASN?",
+          "answer": "An Autonomous System Number identifies the network that owns the IP block, usually an ISP or hosting company."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "IP Address Lookup",
+          "href": "/tools/ip-lookup"
+        },
+        {
+          "name": "Whois Lookup",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "Domain Hosting Checker",
+          "href": "/tools/domain-hosting"
+        },
+        {
+          "name": "What Is My Browser",
+          "href": "/tools/what-is-my-browser"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a GEO IP Locator?",
+          "paragraphs": [
+            "A GEO IP locator finds the approximate geographic location of any IP address, along with the ISP and network information."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter an IPv4 address and click Look Up, or click 'Use my IP address' to look up your own public IP."
+            ],
+            "items": [
+              "The result shows continent, country, city and coordinates.",
+              "ISP and ASN identify the network that owns the IP."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Use it to check where your visitors or traffic come from, or to verify a suspicious IP address."
+            ]
+          }
+        ]
+      }
+    },
+    "redirect-checker": {
+      "metadata": {
+        "title": "Redirect Checker",
+        "description": "Check where a URL redirects to and its final status code",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "redirect checker",
+        "url redirect checker",
+        "301 redirect check",
+        "redirect chain",
+        "link redirect",
+        "url redirect test",
+        "check redirects",
+        "redirect tracker"
+      ],
+      "labels": {
+        "url": "URL",
+        "originalUrl": "Original URL",
+        "finalUrl": "Final URL",
+        "statusCode": "Status Code",
+        "hasRedirect": "This URL redirects to another address",
+        "noRedirect": "This URL loads directly"
+      },
+      "buttons": {
+        "check": "Check",
+        "checking": "Checking..."
+      },
+      "messages": {
+        "empty": "Enter a URL to check.",
+        "fetchFailed": "Could not fetch the URL. The site may block automated requests or the URL may be invalid.",
+        "disclaimer": "This is a lightweight check performed through a proxy. For full redirect chains, use a server-side tool."
+      },
+      "faqs": [
+        {
+          "question": "What is a 301 redirect?",
+          "answer": "A 301 redirect permanently points an old URL to a new one, telling browsers and search engines the page has moved."
+        },
+        {
+          "question": "Why should I check redirects?",
+          "answer": "Broken or long redirect chains slow down your site and can hurt SEO. Checking helps you keep links healthy."
+        },
+        {
+          "question": "What status codes matter?",
+          "answer": "200 means OK, 301/302 mean redirected, 404 means not found, and 403/500 indicate errors."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Is It Down",
+          "href": "/tools/is-it-down"
+        },
+        {
+          "name": "URL Opener",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "URL Slug Generator",
+          "href": "/tools/url-slug-generator"
+        },
+        {
+          "name": "Mobile Friendly Test",
+          "href": "/tools/mobile-friendly-test"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a Redirect Checker?",
+          "paragraphs": [
+            "A redirect checker tests a URL to see if it redirects to another address and shows the final destination and status code."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter the URL and click Check. The tool fetches the URL through a proxy and compares the final URL with the original."
+            ],
+            "items": [
+              "If the final URL differs, the page is being redirected.",
+              "The status code tells you if the page is healthy (200) or moved (301/302)."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "After moving pages, always set up 301 redirects from old URLs to preserve SEO value."
+            ]
+          }
+        ]
+      }
+    },
+    "is-it-down": {
+      "metadata": {
+        "title": "Is It Down",
+        "description": "Check if a website is down for everyone or just you",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "is it down",
+        "website down checker",
+        "is website down",
+        "site status",
+        "uptime check",
+        "website status checker",
+        "is site down",
+        "down detector"
+      ],
+      "labels": {
+        "url": "URL",
+        "status": "Status Code",
+        "responseTime": "Response Time"
+      },
+      "buttons": {
+        "check": "Check",
+        "checking": "Checking..."
+      },
+      "messages": {
+        "empty": "Enter a URL to check.",
+        "online": "It's up!",
+        "offline": "It might be down",
+        "disclaimer": "This checks reachability through a proxy. A site may still be down for you due to local network issues, or up for you while down elsewhere."
+      },
+      "faqs": [
+        {
+          "question": "How does this check if a site is down?",
+          "answer": "The tool requests the website through a public proxy. If the request succeeds, the site is reachable; if it fails, the site may be down."
+        },
+        {
+          "question": "Why does it say 'might be down'?",
+          "answer": "Some sites block automated requests, and regional outages can differ. The result is a strong signal, not a guarantee."
+        },
+        {
+          "question": "What should I do if my site is down?",
+          "answer": "Check your hosting provider's status page, look for DNS changes, and contact support if it stays down."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Redirect Checker",
+          "href": "/tools/redirect-checker"
+        },
+        {
+          "name": "Domain Hosting Checker",
+          "href": "/tools/domain-hosting"
+        },
+        {
+          "name": "Whois Lookup",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "Uptime Tracker",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is Is It Down?",
+          "paragraphs": [
+            "Is It Down checks whether a website is reachable right now, helping you tell if an outage affects everyone or just you."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter the URL and click Check. The tool requests the site through a proxy and shows whether it responded."
+            ],
+            "items": [
+              "A successful response means the site is up.",
+              "The status code and response time are shown for reference."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "If a site is down for you but up here, the problem is likely on your side: your internet, DNS cache or local firewall."
+            ]
+          }
+        ]
+      }
+    },
+    "domain-age": {
+      "metadata": {
+        "title": "Domain Age Checker",
+        "description": "Find out the age and registration date of any domain",
+        "category": "Domain"
+      },
+      "keywords": [
+        "domain age",
+        "domain age checker",
+        "domain age check",
+        "check domain age",
+        "domain registration date",
+        "how old is a domain",
+        "domain age tool",
+        "whois age"
+      ],
+      "labels": {
+        "domain": "Domain",
+        "registrationDate": "Registration Date",
+        "expiryDate": "Expiry Date",
+        "updatedDate": "Last Updated",
+        "status": "Status",
+        "years": "{n} years",
+        "months": "{n} months",
+        "days": "{n} days"
+      },
+      "buttons": {
+        "check": "Check",
+        "checking": "Checking..."
+      },
+      "messages": {
+        "errorEmpty": "Enter a domain name.",
+        "errorInvalid": "Please enter a valid domain name.",
+        "errorNotFound": "No registration data found for this domain.",
+        "errorGeneric": "Could not check this domain. Please try again.",
+        "noRegistration": "No registration date was found for this domain."
+      },
+      "faqs": [
+        {
+          "question": "Why does domain age matter?",
+          "answer": "Older domains often appear more trustworthy to search engines and users, and expired-age domains may carry established history."
+        },
+        {
+          "question": "Where does the data come from?",
+          "answer": "The tool reads the public RDAP registry data, the modern standard that replaced traditional WHOIS."
+        },
+        {
+          "question": "Can the registration date be hidden?",
+          "answer": "Most registries publish registration dates publicly through RDAP. Privacy protection usually hides contact details, not dates."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Whois Lookup",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "Domain Hosting Checker",
+          "href": "/tools/domain-hosting"
+        },
+        {
+          "name": "GEO IP Locator",
+          "href": "/tools/geo-ip-locator"
+        },
+        {
+          "name": "IP Address Lookup",
+          "href": "/tools/ip-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a Domain Age Checker?",
+          "paragraphs": [
+            "A domain age checker shows when a domain was registered and calculates how old it is in years, months and days."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter a domain name (without http:// or www) and click Check. The registration, expiry and update dates are shown."
+            ],
+            "items": [
+              "The age is calculated from the registration date.",
+              "Expiry and update dates are shown when available."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Use domain age when evaluating a site's history or deciding on a domain purchase."
+            ]
+          }
+        ]
+      }
+    },
+    "domain-hosting": {
+      "metadata": {
+        "title": "Domain Hosting Checker",
+        "description": "Find out which hosting provider and network a domain uses",
+        "category": "Domain"
+      },
+      "keywords": [
+        "domain hosting checker",
+        "who hosts a website",
+        "find hosting provider",
+        "check website hosting",
+        "domain host lookup",
+        "hosting checker",
+        "where is a site hosted",
+        "find web host"
+      ],
+      "labels": {
+        "domain": "Domain",
+        "ipAddress": "IP Address",
+        "host": "Hosting Provider",
+        "organization": "Organization",
+        "asn": "ASN",
+        "country": "Country",
+        "city": "City"
+      },
+      "buttons": {
+        "check": "Check",
+        "checking": "Checking..."
+      },
+      "messages": {
+        "errorEmpty": "Enter a domain name.",
+        "errorInvalid": "Please enter a valid domain name.",
+        "errorNoARecord": "No A record was found for this domain. It may not be connected to a host yet.",
+        "errorGeneric": "Could not check this domain. Please try again."
+      },
+      "faqs": [
+        {
+          "question": "How is hosting detected?",
+          "answer": "The domain's A record is resolved to an IP address, then the network owner of that IP is looked up — that reveals the hosting provider."
+        },
+        {
+          "question": "What if the domain uses a CDN?",
+          "answer": "If a CDN is in front, the IP belongs to the CDN (like Cloudflare) rather than the origin server. The tool will show the CDN as the host."
+        },
+        {
+          "question": "What is an ASN?",
+          "answer": "An Autonomous System Number is a unique identifier for a network, typically an ISP, hosting provider or CDN."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Whois Lookup",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "Domain Age Checker",
+          "href": "/tools/domain-age"
+        },
+        {
+          "name": "IP Address Lookup",
+          "href": "/tools/ip-lookup"
+        },
+        {
+          "name": "Is It Down",
+          "href": "/tools/is-it-down"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a Domain Hosting Checker?",
+          "paragraphs": [
+            "A domain hosting checker reveals which hosting provider or network a website is running on by resolving its IP address and looking up the network owner."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter a domain and click Check. The tool resolves the A record, then looks up the ISP and organization of the IP."
+            ],
+            "items": [
+              "The result shows the IP address and its network owner.",
+              "ASN identifies the hosting provider or CDN."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Knowing a competitor's hosting provider can help you compare performance options."
+            ]
+          }
+        ]
+      }
+    },
+    "xml-sitemap": {
+      "metadata": {
+        "title": "XML Sitemap Generator",
+        "description": "Create a standard XML sitemap for your website in seconds",
+        "category": "Marketing"
+      },
+      "keywords": [
+        "xml sitemap generator",
+        "sitemap generator",
+        "generate sitemap",
+        "seo sitemap",
+        "sitemap.xml",
+        "website sitemap",
+        "sitemap creator",
+        "sitemap tool"
+      ],
+      "labels": {
+        "websiteUrl": "Website URL",
+        "paths": "Page Paths (one per line)",
+        "changefreq": "Change Frequency",
+        "priority": "Priority",
+        "results": "Sitemap Output"
+      },
+      "placeholders": {
+        "websiteUrl": "https://example.com",
+        "paths": "/\n/about\n/contact\n/blog"
+      },
+      "buttons": {
+        "generate": "Generate Sitemap",
+        "clear": "Clear",
+        "download": "Download XML",
+        "copy": "Copy XML"
+      },
+      "options": {
+        "always": "Always",
+        "hourly": "Hourly",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "never": "Never"
+      },
+      "messages": {
+        "empty": "Enter at least one page path.",
+        "invalidUrl": "Please enter a valid website URL.",
+        "placeholder": "Your generated sitemap will appear here."
+      },
+      "faqs": [
+        {
+          "question": "What is an XML sitemap?",
+          "answer": "An XML sitemap is a file that lists the important pages of your website so search engines can find and crawl them more efficiently."
+        },
+        {
+          "question": "How often should I update my sitemap?",
+          "answer": "Update your sitemap whenever you add, remove, or change important pages. Most sites set the change frequency to weekly or monthly."
+        },
+        {
+          "question": "Where should I upload the sitemap?",
+          "answer": "Upload sitemap.xml to the root of your website and submit it in Google Search Console or Bing Webmaster Tools."
+        },
+        {
+          "question": "What priority should I use?",
+          "answer": "Priority ranges from 0.0 to 1.0 and tells search engines which pages are more important. Use 1.0 only for your homepage and key landing pages."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Robots.txt Generator",
+          "href": "/tools/robots-txt-generator"
+        },
+        {
+          "name": "Meta Tag Generator",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "URL Slug Generator",
+          "href": "/tools/url-slug-generator"
+        },
+        {
+          "name": "Keyword Position Checker",
+          "href": "/tools/keyword-position"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is an XML Sitemap Generator?",
+          "paragraphs": [
+            "An XML sitemap generator creates a sitemap.xml file that lists the URLs of your website, helping search engines discover and index your pages."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter your website URL, list the page paths (one per line), choose a change frequency and priority, then click Generate Sitemap."
+            ],
+            "items": [
+              "Paths can be absolute (/about) or relative (about).",
+              "The lastmod date is set to today automatically.",
+              "Download the XML file and upload it to your site root."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Keep your sitemap under 50,000 URLs. For large sites, split it into multiple sitemaps."
+            ]
+          }
+        ]
+      }
+    },
+    "adsense-calculator": {
+      "metadata": {
+        "title": "Adsense Calculator",
+        "description": "Estimate your Google AdSense revenue based on traffic and ad metrics",
+        "category": "Marketing"
+      },
+      "keywords": [
+        "adsense calculator",
+        "adsense earnings calculator",
+        "google adsense revenue",
+        "adsense income calculator",
+        "cpm calculator",
+        "adsense rpm",
+        "ad revenue calculator",
+        "earnings calculator"
+      ],
+      "labels": {
+        "dailyPageviews": "Daily Pageviews",
+        "adsPerPage": "Ads per Page",
+        "ctr": "CTR (%)",
+        "cpc": "CPC ($)",
+        "daily": "Estimated Daily Earnings",
+        "monthly": "Estimated Monthly Earnings",
+        "yearly": "Estimated Yearly Earnings"
+      },
+      "messages": {
+        "disclaimer": "Estimates only. Real earnings depend on niche, location, season, ad quality and many other factors."
+      },
+      "faqs": [
+        {
+          "question": "How is AdSense revenue calculated?",
+          "answer": "Earnings are roughly pageviews × ads per page × click-through rate (CTR) × cost per click (CPC). This tool uses that formula to give an estimate."
+        },
+        {
+          "question": "What is a good CTR for AdSense?",
+          "answer": "A CTR between 1% and 3% is typical for display ads. High-quality, well-placed ads can perform better."
+        },
+        {
+          "question": "What is CPC and what affects it?",
+          "answer": "CPC is the amount paid per click. It varies by niche, user location, season and advertiser competition."
+        },
+        {
+          "question": "Why are the numbers only estimates?",
+          "answer": "Real earnings depend on many factors this calculator cannot know, such as traffic sources, ad quality and user behavior."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Revenue Calculator",
+          "href": "/tools/revenue-calculator"
+        },
+        {
+          "name": "Profit Margin Calculator",
+          "href": "/tools/profit-margin-calculator"
+        },
+        {
+          "name": "Percentage Calculator",
+          "href": "/tools/percentage-calculator"
+        },
+        {
+          "name": "Keyword Density Checker",
+          "href": "/tools/keyword-density"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is an AdSense Calculator?",
+          "paragraphs": [
+            "An AdSense calculator estimates how much money your website can earn from Google AdSense based on your traffic and ad settings."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter your daily pageviews, the average number of ads per page, your click-through rate and cost per click. The daily, monthly and yearly estimates update instantly."
+            ],
+            "items": [
+              "CTR is the percentage of ad impressions that get clicked.",
+              "CPC is the average amount you earn per click.",
+              "Use realistic values from your AdSense dashboard for better estimates."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Experiment with different inputs to see how traffic and engagement affect revenue."
+            ]
+          }
+        ]
+      }
+    },
+    "url-opener": {
+      "metadata": {
+        "title": "URL Opener",
+        "description": "Open multiple URLs at once in new browser tabs",
+        "category": "Marketing"
+      },
+      "keywords": [
+        "url opener",
+        "open multiple urls",
+        "bulk url opener",
+        "open urls at once",
+        "multi url opener",
+        "url opener tool",
+        "open many urls",
+        "link opener"
+      ],
+      "labels": {
+        "urls": "URLs (one per line or comma separated)"
+      },
+      "placeholders": {
+        "urls": "https://example.com\nhttps://example.com/about"
+      },
+      "buttons": {
+        "open": "Open All URLs",
+        "clear": "Clear"
+      },
+      "messages": {
+        "empty": "Enter at least one URL.",
+        "popupBlocked": "Your browser blocked some pop-ups. Allow pop-ups for this site and try again."
+      },
+      "status": {
+        "pending": "Pending",
+        "opened": "Opened",
+        "blocked": "Blocked"
+      },
+      "faqs": [
+        {
+          "question": "Why does my browser block the tabs?",
+          "answer": "Browsers block pop-ups triggered outside of a user gesture. If this happens, allow pop-ups for this site in your browser settings and try again."
+        },
+        {
+          "question": "Can I open URLs without http://?",
+          "answer": "Yes. The tool automatically adds https:// to URLs that don't include a protocol."
+        },
+        {
+          "question": "How many URLs can I open?",
+          "answer": "You can open as many as you like, but very large lists may be limited by your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "URL Shortener",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "URL Slug Generator",
+          "href": "/tools/url-slug-generator"
+        },
+        {
+          "name": "Keyword Position Checker",
+          "href": "/tools/keyword-position"
+        },
+        {
+          "name": "Whois Lookup",
+          "href": "/tools/whois-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a URL Opener?",
+          "paragraphs": [
+            "A URL opener lets you open many links at the same time in new tabs, saving you from copying and pasting each one individually."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Paste your list of URLs (one per line or separated by commas), then click Open All URLs. Each URL opens in a new tab."
+            ],
+            "items": [
+              "Duplicates are removed automatically.",
+              "If the browser blocks tabs, allow pop-ups for this site."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Use this tool to check multiple pages of your site, open a batch of references, or test links quickly."
+            ]
+          }
+        ]
+      }
+    },
+    "html-viewer": {
+      "metadata": {
+        "title": "HTML Viewer",
+        "description": "View and preview HTML code in real time with syntax highlighting",
+        "category": "Developer"
+      },
+      "keywords": [
+        "html viewer",
+        "html preview",
+        "html renderer",
+        "online html viewer",
+        "html code viewer",
+        "preview html",
+        "html sandbox",
+        "view html online"
+      ],
+      "labels": {
+        "html": "HTML Code"
+      },
+      "tabs": {
+        "preview": "Preview",
+        "source": "Source"
+      },
+      "buttons": {
+        "clear": "Clear",
+        "copy": "Copy HTML"
+      },
+      "faqs": [
+        {
+          "question": "Does the preview run scripts?",
+          "answer": "The preview renders in a sandboxed iframe, so scripts are not executed for safety. Static HTML, CSS and inline styles work fully."
+        },
+        {
+          "question": "Is my HTML sent anywhere?",
+          "answer": "No. Everything runs in your browser — your code never leaves your device."
+        },
+        {
+          "question": "Can I copy the rendered output?",
+          "answer": "Use the Source tab to copy your HTML code, or the preview to check the visual result."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Markdown Preview",
+          "href": "/tools/markdown-preview"
+        },
+        {
+          "name": "HTML Minifier",
+          "href": "/tools/html-minifier"
+        },
+        {
+          "name": "HTML Encoder",
+          "href": "/tools/html-entity-encoder"
+        },
+        {
+          "name": "HTML to Image",
+          "href": "/tools/html-to-image"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is an HTML Viewer?",
+          "paragraphs": [
+            "An HTML viewer renders your HTML code in real time so you can see the visual result while you edit."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Type or paste HTML into the editor on the left. The preview on the right updates automatically. Switch between Preview and Source tabs to inspect the rendered page or the code."
+            ],
+            "items": [
+              "The preview supports HTML, CSS and inline styles.",
+              "External resources are blocked for safety."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Use it to prototype a small page, debug layout issues, or check how an email template looks."
+            ]
+          }
+        ]
+      }
+    },
+    "mobile-friendly-test": {
+      "metadata": {
+        "title": "Mobile Friendly Test",
+        "description": "Check if your website is optimized for mobile devices",
+        "category": "Marketing"
+      },
+      "keywords": [
+        "mobile friendly test",
+        "mobile friendly checker",
+        "responsive test",
+        "mobile usability",
+        "mobile seo",
+        "mobile friendly check",
+        "responsive checker",
+        "mobile test"
+      ],
+      "labels": {
+        "url": "Page URL",
+        "score": "Mobile Friendliness Score",
+        "pass": "Pass",
+        "fail": "Fail"
+      },
+      "placeholders": {
+        "url": "https://example.com"
+      },
+      "buttons": {
+        "check": "Check URL",
+        "checking": "Checking..."
+      },
+      "messages": {
+        "empty": "Enter a URL to check.",
+        "fetchFailed": "Could not fetch the page. The site may block automated requests or the URL may be invalid.",
+        "viewportPass": "The page has a viewport meta tag set to device-width.",
+        "viewportFail": "The page is missing a proper viewport meta tag.",
+        "titlePass": "The page has a title tag.",
+        "titleFail": "The page has no title tag.",
+        "descriptionPass": "The page has a meta description.",
+        "descriptionFail": "The page has no meta description.",
+        "responsivePass": "The page uses responsive CSS (media queries detected).",
+        "responsiveFail": "No media queries found — the layout may not adapt to small screens.",
+        "fontSizePass": "Legible font sizes (12px+) were detected in the CSS.",
+        "fontSizeFail": "Font sizes are not clearly set; text may be hard to read on mobile.",
+        "disclaimer": "This is a lightweight heuristic check based on the page HTML. For a full analysis, use Google's official Mobile-Friendly Test."
+      },
+      "faqs": [
+        {
+          "question": "How does the mobile friendly test work?",
+          "answer": "The tool fetches the page HTML and checks for common mobile optimizations: viewport meta tag, title, description, responsive CSS and font sizes."
+        },
+        {
+          "question": "What is a viewport meta tag?",
+          "answer": "A viewport meta tag like width=device-width tells mobile browsers to render the page at the device width instead of a desktop width."
+        },
+        {
+          "question": "Is this as accurate as Google's test?",
+          "answer": "No. This is a quick heuristic check. Google's Mobile-Friendly Test renders the page and provides a more complete evaluation."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Meta Tags Analyzer",
+          "href": "/tools/meta-tags-analyzer"
+        },
+        {
+          "name": "HTML Viewer",
+          "href": "/tools/html-viewer"
+        },
+        {
+          "name": "XML Sitemap Generator",
+          "href": "/tools/xml-sitemap"
+        },
+        {
+          "name": "Image Web Optimizer",
+          "href": "/tools/image-web-optimizer"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a Mobile Friendly Test?",
+          "paragraphs": [
+            "A mobile friendly test checks whether your website works well on phones and tablets, which is important for both user experience and Google's mobile-first indexing."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter the URL of the page you want to check and click Check URL. The tool fetches the page and shows a score with the checks it performed."
+            ],
+            "items": [
+              "The score is based on the checks below it.",
+              "Fix failing checks to improve your mobile experience."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Start with the viewport meta tag — it is the most important single fix for mobile rendering."
+            ]
+          }
+        ]
+      }
+    },
+    "keyword-density": {
+      "metadata": {
+        "title": "Keyword Density Checker",
+        "description": "Analyze keyword frequency and density in your content",
+        "category": "Marketing"
+      },
+      "keywords": [
+        "keyword density checker",
+        "keyword density analysis",
+        "keyword frequency checker",
+        "keyword density calculator",
+        "check keyword density",
+        "keyword density tool",
+        "content keyword analysis",
+        "seo keyword density"
+      ],
+      "labels": {
+        "content": "Enter Your Content",
+        "minLength": "Min Word Length",
+        "showTop": "Show Top",
+        "totalWords": "Total Words",
+        "uniqueWords": "Unique Words",
+        "topDensity": "Top Density",
+        "results": "Keyword Density Results",
+        "word": "Keyword",
+        "count": "Count",
+        "density": "Density"
+      },
+      "placeholders": {
+        "content": "Paste or type your content here..."
+      },
+      "buttons": {
+        "analyze": "Analyze Keyword Density",
+        "clear": "Clear"
+      },
+      "options": {
+        "top10": "Top 10",
+        "top20": "Top 20",
+        "top50": "Top 50"
+      },
+      "messages": {
+        "empty": "Enter some content to analyze."
+      },
+      "csv": {
+        "word": "Keyword",
+        "count": "Count",
+        "density": "Density"
+      },
+      "faqs": [
+        {
+          "question": "What is keyword density?",
+          "answer": "Keyword density is the percentage of times a keyword or phrase appears in your content compared to the total number of words. It is calculated as (keyword occurrences ÷ total words) × 100."
+        },
+        {
+          "question": "What is a good keyword density?",
+          "answer": "A keyword density between 1% and 3% is generally considered optimal for SEO. Going much higher can look like keyword stuffing, which search engines may penalize."
+        },
+        {
+          "question": "How is the density calculated in this tool?",
+          "answer": "The tool counts every word in your content, then divides the occurrences of each keyword by the total word count and multiplies by 100. You can set a minimum word length to ignore very short words."
+        },
+        {
+          "question": "Why should I check keyword density?",
+          "answer": "Checking keyword density helps you confirm your primary keywords appear frequently enough for search engines to understand your topic, without overusing them. It also helps you spot underused secondary keywords."
+        },
+        {
+          "question": "Is my content sent to a server?",
+          "answer": "No. All analysis happens locally in your browser. Your content never leaves your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Word Counter",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "Character Counter",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "Meta Tag Generator",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "Keyword Position Checker",
+          "href": "/tools/keyword-position"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a Keyword Density Checker?",
+          "paragraphs": [
+            "A keyword density checker is a free online tool that analyzes how often specific words or phrases appear in your content. It shows each keyword's count, frequency, and percentage of the total text so you can optimize your writing for search engines without keyword stuffing."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Paste or type your content into the text area, set a minimum word length to filter out short filler words, choose how many top keywords to show, and click Analyze."
+            ],
+            "items": [
+              "Review the total and unique word counts for an overview of your content size.",
+              "Check each keyword's count and density percentage in the results table.",
+              "Aim for a density of 1% to 3% for your main keywords."
+            ]
+          },
+          {
+            "title": "Tips for better SEO",
+            "paragraphs": [
+              "Use your primary keyword in the title, headings, and first paragraph, then repeat it naturally throughout the body. Use this tool to verify you are not overusing it."
+            ],
+            "items": [
+              "Target a density of 1% to 3% for primary keywords.",
+              "Use related synonyms and long-tail variants for secondary keywords.",
+              "Keep the writing natural for readers first, search engines second."
+            ]
+          }
+        ]
+      }
+    },
+    "meta-tags-analyzer": {
+      "metadata": {
+        "title": "Meta Tags Analyzer",
+        "description": "Analyze the meta tags of any URL and get SEO suggestions",
+        "category": "Marketing"
+      },
+      "keywords": [
+        "meta tags analyzer",
+        "meta tag checker",
+        "analyze meta tags",
+        "meta description checker",
+        "seo meta tags",
+        "meta tags of url",
+        "og tag analyzer",
+        "check website meta tags"
+      ],
+      "labels": {
+        "urlMode": "By URL",
+        "htmlMode": "Paste HTML",
+        "url": "Page URL",
+        "html": "HTML Source"
+      },
+      "placeholders": {
+        "html": "Paste the HTML source of a page here..."
+      },
+      "buttons": {
+        "analyze": "Analyze Meta Tags",
+        "loading": "Analyzing..."
+      },
+      "messages": {
+        "fetchFailed": "Could not fetch the page. The site may block automated requests. Try the Paste HTML mode instead.",
+        "proxyNote": "Pages are fetched through a public CORS proxy because browsers cannot read cross-origin pages directly.",
+        "noTags": "No recognizable meta tags were found."
+      },
+      "faqs": [
+        {
+          "question": "What is a meta tags analyzer?",
+          "answer": "A meta tags analyzer reads the title, meta description, keywords, Open Graph, Twitter Card, and other tags of a web page. It shows you what search engines and social networks see, and warns about missing or malformed tags."
+        },
+        {
+          "question": "Which meta tags does it check?",
+          "answer": "It checks the title, meta description, keywords, robots, canonical link, H1, and social tags including Open Graph (og:title, og:description, og:image) and Twitter Cards."
+        },
+        {
+          "question": "Why can't it fetch some URLs?",
+          "answer": "Browsers block cross-origin requests, so the page is fetched through a public proxy. Some sites block proxy requests or require JavaScript, which prevents fetching. In that case, use the Paste HTML mode."
+        },
+        {
+          "question": "Is my data stored?",
+          "answer": "No. The page content is fetched and analyzed in your browser session only. Nothing is uploaded to our servers."
+        },
+        {
+          "question": "What makes good meta tags?",
+          "answer": "A title under 60 characters, a meta description under 160 characters, an accurate H1, a canonical URL, and Open Graph and Twitter Card tags for social sharing. The analyzer warns you when these are missing or too long."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Meta Tag Generator",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "Robots.txt Generator",
+          "href": "/tools/robots-txt-generator"
+        },
+        {
+          "name": "Open Graph Preview",
+          "href": "/tools/og-preview"
+        },
+        {
+          "name": "Keyword Density Checker",
+          "href": "/tools/keyword-density"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a Meta Tags Analyzer?",
+          "paragraphs": [
+            "A meta tags analyzer is a free online tool that fetches a web page and extracts all of its meta tags. It helps you audit how your page appears in search engine results and social media previews, and flags issues that can hurt your click-through rate."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter a page URL and click Analyze Meta Tags. The tool fetches the page through a proxy and lists every meta tag it finds."
+            ],
+            "items": [
+              "Check that the title is under 60 characters.",
+              "Check that the meta description is under 160 characters.",
+              "Make sure Open Graph and Twitter Card tags are present for social sharing."
+            ]
+          },
+          {
+            "title": "Troubleshooting",
+            "paragraphs": [
+              "If a URL cannot be fetched, copy the page's HTML source and switch to the Paste HTML mode. This works for any page, including private or dynamic ones."
+            ]
+          }
+        ]
+      }
+    },
+    "long-tail-keywords": {
+      "metadata": {
+        "title": "Long Tail Keyword Tool",
+        "description": "Generate long-tail keyword suggestions for your topic",
+        "category": "Marketing"
+      },
+      "keywords": [
+        "long tail keywords",
+        "long tail keyword generator",
+        "keyword suggestions",
+        "long tail keywords tool",
+        "keyword ideas",
+        "seo keyword generator",
+        "keyword combinations",
+        "long tail seo"
+      ],
+      "labels": {
+        "seed": "Seed Keyword",
+        "country": "Country / Language",
+        "category": "Category",
+        "results": "Long-Tail Keyword Suggestions"
+      },
+      "placeholders": {
+        "seed": "e.g. coffee maker, yoga mat..."
+      },
+      "options": {
+        "global": "Global",
+        "us": "USA (English)",
+        "uk": "UK (English)",
+        "in": "India (English)",
+        "au": "Australia (English)",
+        "ca": "Canada (English)",
+        "general": "General",
+        "howTo": "How To",
+        "best": "Best / Top",
+        "buy": "Buy / Purchase",
+        "reviews": "Reviews",
+        "nearMe": "Near Me",
+        "question": "Questions"
+      },
+      "buttons": {
+        "generate": "Generate Long-Tail Keywords",
+        "copy": "Copy",
+        "copied": "Copied"
+      },
+      "faqs": [
+        {
+          "question": "What are long-tail keywords?",
+          "answer": "Long-tail keywords are longer, more specific search phrases, such as 'best budget coffee maker for camping' instead of 'coffee maker'. They usually have lower search volume but much higher conversion intent."
+        },
+        {
+          "question": "How does this tool generate keywords?",
+          "answer": "It combines your seed keyword with prefixes and suffixes such as 'best', 'how to', 'reviews', and location words, then generates combinations like 'how to use a french press' or 'best espresso machine reviews'."
+        },
+        {
+          "question": "Why are long-tail keywords important for SEO?",
+          "answer": "They face less competition, are easier to rank for, and attract visitors who are closer to making a purchase or finding a specific answer."
+        },
+        {
+          "question": "How many keywords can I generate?",
+          "answer": "The tool generates up to 60 suggestions per seed keyword, including country-specific and question-based variants. You can copy individual keywords or the whole list."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Keyword Density Checker",
+          "href": "/tools/keyword-density"
+        },
+        {
+          "name": "Keyword Position Checker",
+          "href": "/tools/keyword-position"
+        },
+        {
+          "name": "Meta Tag Generator",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "Word Counter",
+          "href": "/tools/word-counter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a Long Tail Keyword Tool?",
+          "paragraphs": [
+            "A long-tail keyword tool is a free generator that turns one seed keyword into dozens of longer, specific search phrases. It is a fast way to build keyword lists for blog posts, product pages, and SEO campaigns."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter a seed keyword, pick a target country or language, choose a category such as How To or Best / Top, and click Generate."
+            ],
+            "items": [
+              "Use question keywords ('what is', 'how to') for informational content.",
+              "Use 'best', 'reviews', and 'buy' keywords for commercial pages.",
+              "Use 'near me' and country variants for local SEO."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Start with a broad seed keyword and let the tool expand it. Then filter the list to the phrases that match your audience's intent."
+            ]
+          }
+        ]
+      }
+    },
+    "keyword-position": {
+      "metadata": {
+        "title": "Keyword Position Checker",
+        "description": "Check where your keywords rank in search engines",
+        "category": "Marketing"
+      },
+      "keywords": [
+        "keyword position checker",
+        "keyword rank checker",
+        "check keyword position",
+        "keyword ranking tool",
+        "serp position checker",
+        "keyword rank tracking",
+        "position checker seo",
+        "check ranking position"
+      ],
+      "labels": {
+        "domain": "Your Website URL",
+        "keywords": "Keywords to Check (one per line)",
+        "results": "Position Results",
+        "keyword": "Keyword",
+        "position": "Position",
+        "url": "Matching URL",
+        "notFound": "Not in top 50"
+      },
+      "placeholders": {
+        "keywords": "coffee maker\nbest espresso machine\nfrench press"
+      },
+      "buttons": {
+        "check": "Check Keyword Positions",
+        "checking": "Checking..."
+      },
+      "messages": {
+        "disclaimer": "This tool checks Bing organic results in your browser. Positions are estimates and may not match Google. For accurate rankings, use Google Search Console or a professional SEO tool.",
+        "partial": "Some keywords could not be checked or were not found in the top 50 results."
+      },
+      "faqs": [
+        {
+          "question": "How does the keyword position checker work?",
+          "answer": "For each keyword, the tool fetches the search engine results page through a proxy, parses the organic results, and finds the position where your domain appears."
+        },
+        {
+          "question": "Which search engine does it check?",
+          "answer": "It checks Bing organic results. Browsers block direct requests to Google, so Bing is used as a reliable, accessible estimate of your ranking position."
+        },
+        {
+          "question": "Why do positions differ between search engines?",
+          "answer": "Google and Bing use different ranking algorithms and indexes, so the same keyword can rank differently. The tool marks results as estimates for this reason."
+        },
+        {
+          "question": "How many keywords can I check at once?",
+          "answer": "You can check any number of keywords, one per line. Larger lists take longer because each keyword requires a separate search request."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Keyword Density Checker",
+          "href": "/tools/keyword-density"
+        },
+        {
+          "name": "Long Tail Keyword Tool",
+          "href": "/tools/long-tail-keywords"
+        },
+        {
+          "name": "Meta Tag Generator",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "Domain Whois Lookup",
+          "href": "/tools/whois-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a Keyword Position Checker?",
+          "paragraphs": [
+            "A keyword position checker (or rank checker) shows where your website appears in search engine results for specific keywords. It helps you monitor your SEO progress without paying for expensive rank tracking software."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use it",
+            "paragraphs": [
+              "Enter your website URL and a list of keywords (one per line), then click Check Keyword Positions. The tool shows the position of each keyword and the matching result URL."
+            ],
+            "items": [
+              "Positions 1 to 10 are the most valuable for organic traffic.",
+              "Keywords not found in the top 50 are shown as 'Not in top 50'.",
+              "Run the check regularly to track ranking changes over time."
+            ]
+          },
+          {
+            "title": "Tips",
+            "paragraphs": [
+              "Check keywords that already bring you traffic to understand your baseline, then focus on keywords in positions 11 to 30, which are easiest to push into the top 10."
+            ]
+          }
+        ]
+      }
+    },
     "json-formatter": {
       "metadata": {
         "title": "JSON Formatter",
@@ -5466,7 +7044,17 @@
       "metadata": {
         "title": "Regex Tester",
         "description": "Test regular expressions with live highlighting and match info",
-        "category": "Developer"
+        "category": "Developer",
+        "keywords": [
+          "regex tester",
+          "regular expression tester",
+          "regex matcher online",
+          "regex checker",
+          "regex playground",
+          "regex test",
+          "regex debugger",
+          "online regex tool"
+        ]
       },
       "keywords": [
         "regex tester",
@@ -5622,7 +7210,16 @@
         "matchesTitle": "{count} Match{count, plural, one {} other {es}}",
         "matchIndex": "at index {index}",
         "matchGroups": "Groups:",
-        "commonPatternsTitle": "Common Patterns"
+        "commonPatternsTitle": "Common Patterns",
+        "errorFallback": "Invalid regular expression"
+      },
+      "commonPatterns": {
+        "email": "Email",
+        "url": "URL",
+        "phone": "Phone Number",
+        "ipv4": "IPv4 Address",
+        "date": "Date (YYYY-MM-DD)",
+        "hexColor": "Hex Color"
       }
     },
     "markdown-preview": {
@@ -6168,7 +7765,8 @@
     "digital-signature": {
       "metadata": {
         "title": "Digital Signature Creator - Free Online Tool",
-        "description": "Create a digital signature by drawing, typing, or uploading. Download as PNG or SVG. Free, no signup, 100% private."
+        "description": "Create a digital signature by drawing, typing, or uploading. Download as PNG or SVG. Free, no signup, 100% private.",
+        "category": "Utility"
       },
       "title": "Digital Signature Creator",
       "description": "Create a digital signature by drawing, typing, or uploading. Download as PNG or SVG. Free, no signup, 100% private.",
@@ -12253,7 +13851,12 @@
         }
       ],
       "labels": {
-        "metaTags": "Meta Tags"
+        "metaTags": "Meta Tags",
+        "title": "Title",
+        "description": "Description",
+        "imageUrl": "Image URL",
+        "siteName": "Site Name",
+        "url": "URL"
       },
       "buttons": {
         "copyMetaTags": "Copy Meta Tags"
@@ -18830,29 +20433,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is an Annuity Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate annuity growth during accumulation or income payouts during distribution. Compare fixed vs variable annuities and see the tax-deferred growth advantage."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the annuity calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool is for estimation - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the annuity calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool is for estimation - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "blood-alcohol-calculator": {
@@ -19159,29 +20766,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is a Car Lease Calculator?",
-          "body": [
+          "paragraphs": [
             "The Car Lease Calculator helps you estimate monthly lease payments, understand money factors, and compare leasing vs buying. Enter the vehicle's MSRP, negotiated price, down payment, residual value percentage, money factor, lease term, and tax rate to see your total monthly cost breakdown."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the car lease calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool is for estimation - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the car lease calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool is for estimation - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "commission-calculator": {
@@ -19370,6 +20981,13 @@
             "This tool is for estimation - consult a professional for tax questions"
           ]
         }
+      },
+      "table": {
+        "year": "Year",
+        "slDep": "Straight-Line Depreciation",
+        "slValue": "Straight-Line Book Value",
+        "ddbDep": "DDB Depreciation",
+        "ddbValue": "DDB Book Value"
       }
     },
     "lease-calculator": {
@@ -20018,29 +21636,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is a CD Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate Certificate of Deposit earnings, compare CD rates from multiple banks, plan a CD ladder strategy, and estimate early withdrawal penalties. Free and instant."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the CD calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool is for estimation - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the CD calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool is for estimation - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "compress-pdf": {
@@ -20230,29 +21852,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is an EMI Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate your Equated Monthly Installment (EMI) for home loans, car loans, or personal loans. View amortization schedules, compare loan offers, and see how prepayments reduce your interest burden."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the EMI calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool is for estimation - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the EMI calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool is for estimation - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "future-value-calculator": {
@@ -20357,29 +21983,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is a Future Value Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate the future value of investments with lump sums, regular contributions, or both. Compare ordinary annuities vs annuity due, adjust for inflation, and visualize year-by-year growth."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the future value calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool is for estimation - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the future value calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool is for estimation - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "heart-rate-zone-calculator": {
@@ -20828,29 +22458,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is a Markup Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate markup percentage, selling price, cost, and profit margin. Compare markup vs margin, use batch mode for multiple products, and reference common markup-to-margin conversions."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the markup calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool is for estimation - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the markup calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool is for estimation - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "mean-median-mode-calculator": {
@@ -21575,29 +23209,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is a Refinance Calculator?",
-          "body": [
+          "paragraphs": [
             "Compare your current mortgage with a refinanced loan. Calculate monthly savings, total interest saved, break-even point, and view a side-by-side amortization comparison to decide if refinancing is right for you."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the refinance calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool is for estimation - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the refinance calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool is for estimation - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "sleep-calculator": {
@@ -22564,29 +24202,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Business Loan Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate business loan payments, total interest, and compare SBA, term, and line of credit options. See amortization schedules and the true cost of borrowing."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the business loan calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the business loan calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       },
       "description": "Calculate business loan payments, interest, and repayment schedules."
     },
@@ -22679,29 +24321,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Car Loan Interest Deduction Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate your OBBBA car loan interest tax deduction for 2025-2028. See how much you'll save on taxes with the new auto loan interest deduction."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the car loan interest deduction calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the car loan interest deduction calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       },
       "description": "Calculate tax deductions for car loan interest."
     },
@@ -23006,29 +24652,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Credit Score Simulator?",
-          "body": [
+          "paragraphs": [
             "Simulate how financial actions like paying off debt, opening new accounts, or missing payments could affect your credit score. Free, instant, and educational."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the credit score simulator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the credit score simulator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       },
       "description": "See how actions affect your credit score."
     },
@@ -23135,29 +24785,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Debt-to-Income Ratio Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate your front-end and back-end DTI ratios. See where you stand for mortgage qualification, and find out how much debt to reduce to hit your target ratio."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the debt-to-income ratio calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the debt-to-income ratio calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "dui-cost-calculator": {
@@ -23343,29 +24997,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Home Affordability Calculator?",
-          "body": [
+          "paragraphs": [
             "Find out how much house you can afford based on your income, debts, down payment, and interest rate. See a full monthly payment breakdown with taxes, insurance, and PMI."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the home affordability calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the home affordability calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       },
       "description": "Determine how much house you can afford."
     },
@@ -23473,29 +25131,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Income Percentile Calculator?",
-          "body": [
+          "paragraphs": [
             "Find out where your income ranks compared to all Americans. Uses U.S. Census Bureau data for both household and individual income percentiles."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the income percentile calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the income percentile calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "life-insurance-calculator": {
@@ -23584,29 +25246,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Life Insurance Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate exactly how much life insurance coverage you need based on your income, debts, dependents, and financial goals."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the life insurance calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the life insurance calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       },
       "description": "Estimate life insurance needs and premiums."
     },
@@ -23790,29 +25456,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Mortgage Payoff Calculator?",
-          "body": [
+          "paragraphs": [
             "The Mortgage Payoff Calculator shows how extra monthly payments can shorten your mortgage term and save you thousands in interest. Enter your current loan balance, interest rate, remaining term, and extra payment amount to see your new payoff date and total interest savings."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the mortgage payoff calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the mortgage payoff calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       },
       "description": "Compare strategies to pay off your mortgage faster."
     },
@@ -23920,29 +25590,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Net Worth Percentile Calculator?",
-          "body": [
+          "paragraphs": [
             "See how your net worth compares to other Americans by age group. Uses Federal Reserve Survey of Consumer Finances data to calculate your wealth percentile."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the net worth percentile calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the net worth percentile calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       }
     },
     "ohms-law-calculator": {
@@ -24335,29 +26009,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Self-Employment Tax Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate self-employment tax, estimated quarterly payments, and total tax burden for freelancers, 1099 contractors, and gig workers. Includes SE tax, federal income tax, and state taxes for 2026."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the self-employment tax calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the self-employment tax calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       },
       "description": "Estimate self-employment tax (Social Security and Medicare)."
     },
@@ -24630,29 +26308,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Student Loan Tax Bomb Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate your tax bill when student loan forgiveness becomes taxable income. See your federal and state taxes, check if the insolvency exclusion applies, and plan ahead."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the student loan tax bomb calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the student loan tax bomb calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       },
       "description": "Estimate the tax impact of student loan forgiveness."
     },
@@ -24742,29 +26424,33 @@
         "invalidInputs": "Please enter valid values"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "What Is the Trump Account Calculator?",
-          "body": [
+          "paragraphs": [
             "Calculate how much a Trump Account (MAGA Account) could grow for your child. See projected value from the $1,000 government seed deposit and $5,000 annual contributions with tax basis tracking."
           ]
         },
-        "howTo": {
-          "title": "How to Use",
-          "intro": "Using the Trump Account calculator is simple:",
-          "items": [
-            "Enter your values in the input fields",
-            "Click the calculate button",
-            "View your results instantly"
-          ]
-        },
-        "tips": {
-          "title": "Tips",
-          "items": [
-            "Double-check your inputs for accurate results",
-            "This tool provides estimates - consult a professional for important decisions",
-            "Save your results for future reference"
-          ]
-        }
+        "sections": [
+          {
+            "title": "How to Use",
+            "paragraphs": [
+              "Using the Trump Account calculator is simple:"
+            ],
+            "items": [
+              "Enter your values in the input fields",
+              "Click the calculate button",
+              "View your results instantly"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Double-check your inputs for accurate results",
+              "This tool provides estimates - consult a professional for important decisions",
+              "Save your results for future reference"
+            ]
+          }
+        ]
       },
       "description": "Estimate the growth of a Trump Account (children's investment account)."
     },
@@ -29273,7 +30959,8 @@
         "newImage": "Choose New"
       },
       "status": {
-        "processing": "Optimizing…"
+        "processing": "Optimizing…",
+        "zipping": "Zipping…"
       },
       "errors": {
         "process": "Failed to optimize the images. Please try again."
@@ -29393,7 +31080,7 @@
         "caseSensitive": "Case sensitive",
         "matchAll": "Replace all",
         "replacePosition": "Replace by position",
-        "fromEnd": "Count from the end",
+        "fromEnd": "End",
         "position": "Start position",
         "length": "Length",
         "insertText": "Text",
@@ -29419,7 +31106,6 @@
         "removeMode": "Mode",
         "charsDirection": "Remove from",
         "fromStart": "Start",
-        "fromEnd": "End",
         "charsCount": "Count",
         "rangeStart": "From index",
         "rangeEnd": "To index",
@@ -31246,6 +32932,10 @@
     "how-to-record-your-screen": {
       "title": "How to Record Your Screen for Free (2026 Guide)",
       "description": "Learn how to record your screen on any device. Covering in-browser recording, system audio capture, webcam overlay, and free tools without watermarks."
+    },
+    "how-to-remove-background-from-image": {
+      "title": "How to Remove Background from an Image (2026 Guide)",
+      "description": "Learn how to remove image backgrounds for free with AI and color-based tools. Step-by-step guide covering clean edges, common use cases, and in-browser processing."
     },
     "how-to-upscale-images": {
       "title": "How to Upscale Images Without Losing Quality (2026 Guide)",

@@ -61,6 +61,96 @@
       "Math": "数学"
     },
     "tools": {
+      "what-is-my-browser": {
+        "name": "ブラウザ情報検出",
+        "description": "ブラウザ・OS・IPアドレスを検出。",
+        "category": "Marketing",
+        "icon": "🌐"
+      },
+      "geo-ip-locator": {
+        "name": "GEO IPロケーター",
+        "description": "任意のIPアドレスの位置情報を検索。",
+        "category": "Marketing",
+        "icon": "📍"
+      },
+      "redirect-checker": {
+        "name": "リダイレクトチェッカー",
+        "description": "URLのリダイレクトと最終宛先を確認。",
+        "category": "Marketing",
+        "icon": "🔀"
+      },
+      "is-it-down": {
+        "name": "サイト稼働チェック",
+        "description": "Webサイトがダウンしているか確認。",
+        "category": "Marketing",
+        "icon": "🛡️"
+      },
+      "domain-age": {
+        "name": "ドメイン年齢チェッカー",
+        "description": "ドメインの年齢を確認。",
+        "category": "Marketing",
+        "icon": "⏳"
+      },
+      "domain-hosting": {
+        "name": "ドメインホスティング検出",
+        "description": "ドメインがどこにホストされているか確認。",
+        "category": "Marketing",
+        "icon": "🏢"
+      },
+      "xml-sitemap": {
+        "name": "XMLサイトマップ生成",
+        "description": "WebサイトのXMLサイトマップを即座に生成。",
+        "category": "マーケティング",
+        "icon": "🗺️"
+      },
+      "adsense-calculator": {
+        "name": "AdSense収入計算機",
+        "description": "Google AdSenseの収益を推定。",
+        "category": "マーケティング",
+        "icon": "💰"
+      },
+      "url-opener": {
+        "name": "URL一括オープナー",
+        "description": "複数のURLを一度に新しいタブで開く。",
+        "category": "マーケティング",
+        "icon": "🔗"
+      },
+      "html-viewer": {
+        "name": "HTMLビューア",
+        "description": "HTMLコードをリアルタイムで表示・プレビュー。",
+        "category": "開発者",
+        "icon": "🖥️"
+      },
+      "mobile-friendly-test": {
+        "name": "モバイルフレンドリーテスト",
+        "description": "Webサイトがモバイル対応かチェック。",
+        "category": "マーケティング",
+        "icon": "📱"
+      },
+      "keyword-density": {
+        "name": "キーワード密度チェッカー",
+        "description": "コンテンツ内のキーワード頻度と密度を分析します。",
+        "category": "マーケティング",
+        "icon": "📊"
+      },
+      "meta-tags-analyzer": {
+        "name": "メタタグ分析ツール",
+        "description": "任意のURLのメタタグを分析します。",
+        "category": "マーケティング",
+        "icon": "🏷"
+      },
+      "long-tail-keywords": {
+        "name": "ロングテールキーワードツール",
+        "description": "テーマに合わせたロングテールキーワードの提案を生成します。",
+        "category": "マーケティング",
+        "icon": "🔎"
+      },
+      "keyword-position": {
+        "name": "キーワード順位チェッカー",
+        "description": "検索エンジンでのキーワード順位を確認します。",
+        "category": "マーケティング",
+        "icon": "🎯"
+      },
       "video-watermark-remover": {
         "name": "動画ウォーターマーク除去ツール",
         "description": "任意の長さの動画からウォーターマークを除去。アップロード不要、無料。",
@@ -1774,7 +1864,8 @@
       "developer": "開発者ツール",
       "calculator": "計算ツール",
       "text": "テキストツール",
-      "utility": "便利ツール"
+      "utility": "便利ツール",
+      "marketing": "マーケティング"
     },
     "scenesGroups": {
       "finance": "財務",
@@ -1791,7 +1882,7 @@
     "clearHistory": "クリア",
     "searchHistory": "検索履歴",
     "emptyFavorites": "まだお気に入りはありません。ツールの星をクリックすると保存されます。",
-    "heroBadge": "280の無料オンラインツールと計算機"
+    "heroBadge": "299の無料オンラインツールと計算機"
   },
   "privacy": {
     "metadata": {
@@ -1922,6 +2013,1475 @@
     }
   },
   "tools": {
+    "what-is-my-browser": {
+      "metadata": {
+        "title": "ブラウザ情報検出",
+        "description": "ブラウザ名・バージョン・OS・IPアドレスを検出",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "自分のブラウザ",
+        "ブラウザ検出",
+        "ブラウザバージョン",
+        "ブラウザ判定",
+        "user agent",
+        "ブラウザ os",
+        "使用中ブラウザ"
+      ],
+      "labels": {
+        "browser": "ブラウザ",
+        "version": "バージョン",
+        "engine": "エンジン",
+        "os": "OS",
+        "screen": "画面解像度",
+        "colorDepth": "色深度",
+        "language": "言語",
+        "languages": "言語リスト",
+        "timezone": "タイムゾーン",
+        "ipAddress": "IPアドレス",
+        "cookies": "Cookie有効",
+        "online": "オンライン",
+        "userAgent": "User Agent文字列"
+      },
+      "buttons": {
+        "refresh": "更新",
+        "copy": "コピー"
+      },
+      "messages": {
+        "ipFailed": "検出できません",
+        "yes": "はい",
+        "no": "いいえ"
+      },
+      "faqs": [
+        {
+          "question": "どうやってブラウザを検出するの？",
+          "answer": "ブラウザのUser-Agent文字列と、どのWebサイトでも取得できるJavaScript APIを読み取ります。"
+        },
+        {
+          "question": "データは外部に送信される？",
+          "answer": "いいえ。すべてブラウザ内で検出されます。公的IPのみ公共IPサービスに問い合わせます。"
+        },
+        {
+          "question": "ブラウザ情報は何に使われるの？",
+          "answer": "Webサイトは互換機能の提供にブラウザ検出を利用し、開発者はUser-Agentでサイトのテスト・デバッグを行います。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "IPアドレス検索",
+          "href": "/tools/ip-lookup"
+        },
+        {
+          "name": "GEO IPロケーター",
+          "href": "/tools/geo-ip-locator"
+        },
+        {
+          "name": "タイピングテスト",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "IP検索",
+          "href": "/tools/ip-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "ブラウザ情報検出とは？",
+          "paragraphs": [
+            "このツールはブラウザ名・バージョン・レンダリングエンジン・OS・画面解像度・言語・タイムゾーン・公的IPアドレスを検出します。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "ページを開くと自動的に検出されます。設定変更後は更新をクリックして再検出できます。"
+            ],
+            "items": [
+              "User-Agent文字列は下部に表示され、開発者向けです。",
+              "バグ報告の際はUser-Agentをコピーして添付できます。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "VPNを使用している場合、表示されるIPは実際の位置ではなくVPNプロバイダーのものになることがあります。"
+            ]
+          }
+        ]
+      }
+    },
+    "geo-ip-locator": {
+      "metadata": {
+        "title": "GEO IPロケーター",
+        "description": "任意のIPアドレスの地理位置・ISP・組織を検索",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "geo ipロケーター",
+        "ip位置情報",
+        "ipジオロケーション",
+        "ip位置検索",
+        "ipアドレス位置",
+        "ipトラッカー",
+        "ip位置特定"
+      ],
+      "labels": {
+        "ip": "IPアドレス",
+        "continent": "大陸",
+        "country": "国",
+        "region": "地域",
+        "city": "都市",
+        "coordinates": "座標",
+        "isp": "ISP",
+        "organization": "組織",
+        "asn": "ASN",
+        "timezone": "タイムゾーン",
+        "type": "IP種別",
+        "myIp": "自分のIPアドレスを使用"
+      },
+      "buttons": {
+        "lookUp": "検索",
+        "loading": "検索中..."
+      },
+      "messages": {
+        "errorInvalid": "有効なIPv4アドレスを入力してください。",
+        "errorNotFound": "このIPの位置データが見つかりません。",
+        "errorGeneric": "検索に失敗しました。もう一度お試しください。"
+      },
+      "faqs": [
+        {
+          "question": "IP位置情報の精度は？",
+          "answer": "通常は都市または地域レベルまで特定できます。正確な住所までは特定できません。"
+        },
+        {
+          "question": "IP位置情報は間違うことがある？",
+          "answer": "はい。VPN・プロキシ・携帯キャリアにより、実際とは異なる場所に表示されることがあります。"
+        },
+        {
+          "question": "ASNとは？",
+          "answer": "自律システム番号はIPブロックを所有するネットワーク（ISPやホスティング会社）を識別します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "IPアドレス検索",
+          "href": "/tools/ip-lookup"
+        },
+        {
+          "name": "Whois検索",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "ドメインホスティング検出",
+          "href": "/tools/domain-hosting"
+        },
+        {
+          "name": "ブラウザ情報検出",
+          "href": "/tools/what-is-my-browser"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "GEO IPロケーターとは？",
+          "paragraphs": [
+            "GEO IPロケーターは任意のIPアドレスのおおよその地理位置と、ISP・ネットワーク情報を検索します。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "IPv4アドレスを入力して検索、または「自分のIPアドレスを使用」で自身の公的IPを検索します。"
+            ],
+            "items": [
+              "結果に大陸・国・都市・座標が表示されます。",
+              "ISPとASNがIPの所有ネットワークを示します。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "訪問者やトラフィックの地域確認、不審なIPの検証に利用できます。"
+            ]
+          }
+        ]
+      }
+    },
+    "redirect-checker": {
+      "metadata": {
+        "title": "リダイレクトチェッカー",
+        "description": "URLがどこへリダイレクトするかと最終ステータスコードを確認",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "リダイレクトチェック",
+        "urlリダイレクト",
+        "301リダイレクト",
+        "リダイレクトチェーン",
+        "リンクリダイレクト",
+        "リダイレクトテスト"
+      ],
+      "labels": {
+        "url": "URL",
+        "originalUrl": "元のURL",
+        "finalUrl": "最終URL",
+        "statusCode": "ステータスコード",
+        "hasRedirect": "このURLは別のアドレスにリダイレクトします",
+        "noRedirect": "このURLは直接読み込まれます"
+      },
+      "buttons": {
+        "check": "確認",
+        "checking": "確認中..."
+      },
+      "messages": {
+        "empty": "確認するURLを入力してください。",
+        "fetchFailed": "URLを取得できませんでした。サイトが自動リクエストをブロックしているか、URLが無効です。",
+        "disclaimer": "これはプロキシ経由の軽量チェックです。完全なリダイレクトチェーンはサーバーサイドのツールをご利用ください。"
+      },
+      "faqs": [
+        {
+          "question": "301リダイレクトとは？",
+          "answer": "301リダイレクトは旧URLを新しいURLへ恒久的に転送し、ページが移動したことをブラウザと検索エンジンに伝えます。"
+        },
+        {
+          "question": "なぜリダイレクトを確認するの？",
+          "answer": "壊れたリダイレクトや長すぎるチェーンはサイトを遅くし、SEOにも悪影響です。定期的な確認でリンクを健全に保てます。"
+        },
+        {
+          "question": "注目すべきステータスコードは？",
+          "answer": "200は正常、301/302はリダイレクト、404は未検出、403/500はエラーです。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "サイト稼働チェック",
+          "href": "/tools/is-it-down"
+        },
+        {
+          "name": "URL一括オープナー",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "URLスラッグ生成",
+          "href": "/tools/url-slug-generator"
+        },
+        {
+          "name": "モバイルフレンドリーテスト",
+          "href": "/tools/mobile-friendly-test"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "リダイレクトチェッカーとは？",
+          "paragraphs": [
+            "リダイレクトチェッカーはURLが別のアドレスへリダイレクトするかをテストし、最終宛先とステータスコードを表示します。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "URLを入力して確認をクリック。ツールがプロキシ経由でURLを取得し、最終URLと元のURLを比較します。"
+            ],
+            "items": [
+              "最終URLが異なればリダイレクトされています。",
+              "ステータスコードで正常(200)か移動(301/302)かが分かります。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "ページ移動後はSEO価値を保つため、旧URLに301リダイレクトを設定しましょう。"
+            ]
+          }
+        ]
+      }
+    },
+    "is-it-down": {
+      "metadata": {
+        "title": "サイト稼働チェック",
+        "description": "Webサイトが全員にダウンしているか、自分だけか確認",
+        "category": "Tracking"
+      },
+      "keywords": [
+        "サイトダウン",
+        "サイト稼働確認",
+        "webサイト状態",
+        "サイトステータス",
+        "uptimeチェック",
+        "ダウン検出"
+      ],
+      "labels": {
+        "url": "URL",
+        "status": "ステータスコード",
+        "responseTime": "応答時間"
+      },
+      "buttons": {
+        "check": "確認",
+        "checking": "確認中..."
+      },
+      "messages": {
+        "empty": "確認するURLを入力してください。",
+        "online": "稼働中です！",
+        "offline": "ダウンしている可能性があります",
+        "disclaimer": "プロキシ経由で到達性を確認しています。ローカルネットワークの問題で自分だけ見えない場合や、他の地域では稼働している場合があります。"
+      },
+      "faqs": [
+        {
+          "question": "どうやってダウンを確認するの？",
+          "answer": "公開プロキシ経由でサイトにリクエストします。成功すれば到達可能、失敗すればダウンの可能性があります。"
+        },
+        {
+          "question": "なぜ「可能性があります」なの？",
+          "answer": "自動リクエストをブロックするサイトや地域差があります。強いシグナルですが保証ではありません。"
+        },
+        {
+          "question": "サイトがダウンの場合どうする？",
+          "answer": "ホスティングのステータスページを確認し、DNS変更を調べ、続く場合はサポートに連絡してください。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "リダイレクトチェッカー",
+          "href": "/tools/redirect-checker"
+        },
+        {
+          "name": "ドメインホスティング検出",
+          "href": "/tools/domain-hosting"
+        },
+        {
+          "name": "Whois検索",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "タイピングテスト",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "サイト稼働チェックとは？",
+          "paragraphs": [
+            "サイト稼働チェックはWebサイトが現在到達可能かを確認し、障害が全員に影響しているのか自分だけなのかを判断するのに役立ちます。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "URLを入力して確認をクリック。ツールがプロキシ経由でサイトにリクエストし、応答したかどうかを表示します。"
+            ],
+            "items": [
+              "成功応答はサイトが稼働中であることを示します。",
+              "ステータスコードと応答時間が参考表示されます。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "ここでは稼働しているのに自分だけ見えない場合、原因はネットワーク、DNSキャッシュ、ローカルファイアウォールにある可能性が高いです。"
+            ]
+          }
+        ]
+      }
+    },
+    "domain-age": {
+      "metadata": {
+        "title": "ドメイン年齢チェッカー",
+        "description": "ドメインの登録日と年齢を確認",
+        "category": "Domain"
+      },
+      "keywords": [
+        "ドメイン年齢",
+        "ドメイン年齢チェック",
+        "ドメイン登録日",
+        "ドメイン年齢確認",
+        "ドメイン登録日時",
+        "whois年齢"
+      ],
+      "labels": {
+        "domain": "ドメイン",
+        "registrationDate": "登録日",
+        "expiryDate": "有効期限",
+        "updatedDate": "最終更新",
+        "status": "ステータス",
+        "years": "{n}年",
+        "months": "{n}ヶ月",
+        "days": "{n}日"
+      },
+      "buttons": {
+        "check": "確認",
+        "checking": "確認中..."
+      },
+      "messages": {
+        "errorEmpty": "ドメイン名を入力してください。",
+        "errorInvalid": "有効なドメイン名を入力してください。",
+        "errorNotFound": "このドメインの登録データが見つかりません。",
+        "errorGeneric": "確認に失敗しました。もう一度お試しください。",
+        "noRegistration": "このドメインの登録日が見つかりません。"
+      },
+      "faqs": [
+        {
+          "question": "ドメイン年齢が重要なのはなぜ？",
+          "answer": "古いドメインは検索エンジンやユーザーから信頼されやすく、歴史のあるドメインは既存の実績を持っています。"
+        },
+        {
+          "question": "データはどこから来るの？",
+          "answer": "従来のWHOISに代わる現代の標準である公開RDAPレジストリデータを読み取ります。"
+        },
+        {
+          "question": "登録日は隠されることがある？",
+          "answer": "ほとんどのレジストリは登録日を公開します。プライバシー保護は通常、連絡先情報のみを隠します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Whois検索",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "ドメインホスティング検出",
+          "href": "/tools/domain-hosting"
+        },
+        {
+          "name": "GEO IPロケーター",
+          "href": "/tools/geo-ip-locator"
+        },
+        {
+          "name": "IPアドレス検索",
+          "href": "/tools/ip-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "ドメイン年齢チェッカーとは？",
+          "paragraphs": [
+            "ドメイン年齢チェッカーはドメインがいつ登録されたかを表示し、年・月・日で年齢を計算します。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "ドメイン名（http://やwwwなし）を入力して確認をクリック。登録・有効期限・更新日が表示されます。"
+            ],
+            "items": [
+              "年齢は登録日から計算されます。",
+              "有効期限と更新日は取得できた場合に表示されます。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "サイトの履歴評価やドメイン購入の判断に活用できます。"
+            ]
+          }
+        ]
+      }
+    },
+    "domain-hosting": {
+      "metadata": {
+        "title": "ドメインホスティング検出",
+        "description": "ドメインが利用しているホスティング業者とネットワークを確認",
+        "category": "Domain"
+      },
+      "keywords": [
+        "ドメインホスティング",
+        "サイトのホスト確認",
+        "ホスティング業者検索",
+        "ウェブホスト検索",
+        "サイトの置き場所",
+        "ホスティングチェック"
+      ],
+      "labels": {
+        "domain": "ドメイン",
+        "ipAddress": "IPアドレス",
+        "host": "ホスティング業者",
+        "organization": "組織",
+        "asn": "ASN",
+        "country": "国",
+        "city": "都市"
+      },
+      "buttons": {
+        "check": "確認",
+        "checking": "確認中..."
+      },
+      "messages": {
+        "errorEmpty": "ドメイン名を入力してください。",
+        "errorInvalid": "有効なドメイン名を入力してください。",
+        "errorNoARecord": "このドメインのAレコードが見つかりません。まだホストに接続されていない可能性があります。",
+        "errorGeneric": "確認に失敗しました。もう一度お試しください。"
+      },
+      "faqs": [
+        {
+          "question": "ホスティングはどう検出するの？",
+          "answer": "ドメインのAレコードをIPアドレスに解決し、そのIPのネットワーク所有者を検索してホスティング業者を特定します。"
+        },
+        {
+          "question": "CDNを使っている場合は？",
+          "answer": "CDNが前面にある場合、IPはオリジンサーバーではなくCDN（Cloudflareなど）のものになります。ツールはCDNをホストとして表示します。"
+        },
+        {
+          "question": "ASNとは？",
+          "answer": "自律システム番号はネットワークの固有識別子で、通常はISP・ホスティング業者・CDNを示します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Whois検索",
+          "href": "/tools/whois-lookup"
+        },
+        {
+          "name": "ドメイン年齢チェッカー",
+          "href": "/tools/domain-age"
+        },
+        {
+          "name": "IPアドレス検索",
+          "href": "/tools/ip-lookup"
+        },
+        {
+          "name": "サイト稼働チェック",
+          "href": "/tools/is-it-down"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "ドメインホスティング検出とは？",
+          "paragraphs": [
+            "ドメインホスティング検出は、IPアドレスを解決してネットワーク所有者を調べることで、Webサイトがどのホスティング業者・ネットワークで稼働しているかを明らかにします。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "ドメインを入力して確認をクリック。Aレコードを解決し、そのIPのISPと組織を検索します。"
+            ],
+            "items": [
+              "結果にIPアドレスとネットワーク所有者が表示されます。",
+              "ASNがホスティング業者やCDNを示します。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "競合サイトのホスティング業者を知ると、性能オプションの比較に役立ちます。"
+            ]
+          }
+        ]
+      }
+    },
+    "xml-sitemap": {
+      "metadata": {
+        "title": "XMLサイトマップ生成ツール",
+        "description": "Webサイトの標準XMLサイトマップを数秒で作成",
+        "category": "マーケティング"
+      },
+      "keywords": [
+        "xmlサイトマップ生成",
+        "サイトマップ生成",
+        "sitemap 生成",
+        "seo サイトマップ",
+        "sitemap.xml",
+        "サイトマップ作成",
+        "サイトマップツール"
+      ],
+      "labels": {
+        "websiteUrl": "WebサイトURL",
+        "paths": "ページパス（1行に1つ）",
+        "changefreq": "更新頻度",
+        "priority": "優先度",
+        "results": "サイトマップ出力"
+      },
+      "placeholders": {
+        "websiteUrl": "https://example.com",
+        "paths": "/\n/about\n/contact\n/blog"
+      },
+      "buttons": {
+        "generate": "サイトマップを生成",
+        "clear": "クリア",
+        "download": "XMLをダウンロード",
+        "copy": "XMLをコピー"
+      },
+      "options": {
+        "always": "常に",
+        "hourly": "毎時",
+        "daily": "毎日",
+        "weekly": "毎週",
+        "monthly": "毎月",
+        "yearly": "毎年",
+        "never": "なし"
+      },
+      "messages": {
+        "empty": "ページパスを1つ以上入力してください。",
+        "invalidUrl": "有効なWebサイトURLを入力してください。",
+        "placeholder": "生成されたサイトマップがここに表示されます。"
+      },
+      "faqs": [
+        {
+          "question": "XMLサイトマップとは？",
+          "answer": "XMLサイトマップはWebサイトの重要なページを列挙するファイルで、検索エンジンがページを効率的に発見・クロールできるようにします。"
+        },
+        {
+          "question": "どのくらいの頻度で更新すべき？",
+          "answer": "重要なページを追加・削除・変更した際に更新します。多くのサイトでは毎週または毎月に設定します。"
+        },
+        {
+          "question": "どこにアップロードすればよい？",
+          "answer": "sitemap.xmlをサイトのルートにアップロードし、Google Search ConsoleやBing Webmaster Toolsで提出します。"
+        },
+        {
+          "question": "優先度はどの値を設定すべき？",
+          "answer": "優先度は0.0〜1.0で、検索エンジンにページの重要度を伝えます。ホームページや主要ランディングページのみ1.0を使用します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Robots.txt生成",
+          "href": "/tools/robots-txt-generator"
+        },
+        {
+          "name": "メタタグ生成",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "URLスラッグ生成",
+          "href": "/tools/url-slug-generator"
+        },
+        {
+          "name": "キーワード順位チェック",
+          "href": "/tools/keyword-position"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "XMLサイトマップ生成ツールとは？",
+          "paragraphs": [
+            "XMLサイトマップ生成ツールは、WebサイトのURLを列挙したsitemap.xmlを作成し、検索エンジンによるページの発見とインデックスを支援します。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "WebサイトURLを入力し、ページパスを1行ずつ記入、更新頻度と優先度を選んで「サイトマップを生成」をクリックします。"
+            ],
+            "items": [
+              "パスは絶対パス（/about）または相対パス（about）に対応。",
+              "lastmodは自動的に今日の日付になります。",
+              "XMLファイルをダウンロードしてサイトのルートにアップロード。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "サイトマップは50,000 URL以下に保ちましょう。大規模サイトでは複数に分割します。"
+            ]
+          }
+        ]
+      }
+    },
+    "adsense-calculator": {
+      "metadata": {
+        "title": "AdSense収入計算ツール",
+        "description": "トラフィックと広告指標からGoogle AdSense収益を推定",
+        "category": "マーケティング"
+      },
+      "keywords": [
+        "adsense計算機",
+        "adsense収入計算",
+        "google adsense収益",
+        "広告収入計算",
+        "cpm計算",
+        "adsense rpm",
+        "収益計算ツール"
+      ],
+      "labels": {
+        "dailyPageviews": "1日のページビュー",
+        "adsPerPage": "1ページあたりの広告数",
+        "ctr": "CTR（%）",
+        "cpc": "CPC（$）",
+        "daily": "推定1日収入",
+        "monthly": "推定月収",
+        "yearly": "推定年収"
+      },
+      "messages": {
+        "disclaimer": "あくまで推定です。実際の収益はニッチ、地域、季節、広告品質など様々な要因に左右されます。"
+      },
+      "faqs": [
+        {
+          "question": "AdSense収入はどう計算される？",
+          "answer": "収入はおおよそ ページビュー × 1ページあたりの広告数 × CTR × CPC で計算されます。本ツールはこの式で推定します。"
+        },
+        {
+          "question": "適切なCTRは？",
+          "answer": "ディスプレイ広告では1%〜3%が一般的です。質の高い適切な配置の広告はより良い結果になります。"
+        },
+        {
+          "question": "CPCとは？何に影響される？",
+          "answer": "CPCは1クリックあたりの収入で、ニッチ、ユーザーの地域、季節、広告主の競争によって変わります。"
+        },
+        {
+          "question": "なぜ推定値なの？",
+          "answer": "実際の収入はトラフィックソース、広告品質、ユーザー行動など、計算機では把握できない要因に依存します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "売上計算機",
+          "href": "/tools/revenue-calculator"
+        },
+        {
+          "name": "利益率計算",
+          "href": "/tools/profit-margin-calculator"
+        },
+        {
+          "name": "パーセント計算",
+          "href": "/tools/percentage-calculator"
+        },
+        {
+          "name": "キーワード密度チェック",
+          "href": "/tools/keyword-density"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "AdSense計算ツールとは？",
+          "paragraphs": [
+            "AdSense計算ツールは、トラフィックと広告設定からWebサイトがGoogle AdSenseで稼げる金額を推定します。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "1日のページビュー、1ページあたりの広告数、CTR、CPCを入力すると、日・月・年の推定が即座に更新されます。"
+            ],
+            "items": [
+              "CTRは広告表示のうちクリックされた割合。",
+              "CPCは1クリックあたりの平均収入。",
+              "AdSenseダッシュボードの実績値を使うとより正確。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "入力値を変えて、トラフィックとエンゲージメントが収入にどう影響するか確認しましょう。"
+            ]
+          }
+        ]
+      }
+    },
+    "url-opener": {
+      "metadata": {
+        "title": "URL一括オープナー",
+        "description": "複数のURLを一度に新しいブラウザタブで開く",
+        "category": "マーケティング"
+      },
+      "keywords": [
+        "url一括オープン",
+        "複数urlを開く",
+        "一括urlオープナー",
+        "urlまとめて開く",
+        "複数リンクを開く"
+      ],
+      "labels": {
+        "urls": "URL（1行に1つ、またはカンマ区切り）"
+      },
+      "placeholders": {
+        "urls": "https://example.com\nhttps://example.com/about"
+      },
+      "buttons": {
+        "open": "すべてのURLを開く",
+        "clear": "クリア"
+      },
+      "messages": {
+        "empty": "URLを1つ以上入力してください。",
+        "popupBlocked": "ブラウザが一部のポップアップをブロックしました。このサイトのポップアップを許可して再試行してください。"
+      },
+      "status": {
+        "pending": "待機中",
+        "opened": "開きました",
+        "blocked": "ブロック"
+      },
+      "faqs": [
+        {
+          "question": "ブラウザにタブをブロックされるのはなぜ？",
+          "answer": "ブラウザはユーザー操作以外で開かれるポップアップをブロックします。この場合はサイトのポップアップ許可を設定して再試行してください。"
+        },
+        {
+          "question": "http://なしでも開ける？",
+          "answer": "はい。プロトコルがないURLには自動的にhttps://を追加します。"
+        },
+        {
+          "question": "一度にいくつ開ける？",
+          "answer": "数に制限はありませんが、大量のリストはブラウザの制限を受ける場合があります。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "URL短縮",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "URLスラッグ生成",
+          "href": "/tools/url-slug-generator"
+        },
+        {
+          "name": "キーワード順位チェック",
+          "href": "/tools/keyword-position"
+        },
+        {
+          "name": "ドメインWhois",
+          "href": "/tools/whois-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "URLオープナーとは？",
+          "paragraphs": [
+            "URLオープナーは多くのリンクを一度に新しいタブで開き、1つずつコピー＆ペーストする手間を省きます。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "URLのリスト（1行に1つまたはカンマ区切り）を貼り付け、「すべてのURLを開く」をクリックすると各URLが新しいタブで開きます。"
+            ],
+            "items": [
+              "重複URLは自動的に除外されます。",
+              "タブがブロックされたらポップアップを許可してください。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "サイトの複数ページ確認、資料の一括参照、リンクの快速テストに便利です。"
+            ]
+          }
+        ]
+      }
+    },
+    "html-viewer": {
+      "metadata": {
+        "title": "HTMLビューア",
+        "description": "HTMLコードをリアルタイムで表示・プレビュー",
+        "category": "開発者"
+      },
+      "keywords": [
+        "htmlビューア",
+        "htmlプレビュー",
+        "html表示",
+        "オンラインhtmlビューア",
+        "htmlコード表示",
+        "htmlプレビュー確認",
+        "htmlサンドボックス"
+      ],
+      "labels": {
+        "html": "HTMLコード"
+      },
+      "tabs": {
+        "preview": "プレビュー",
+        "source": "ソース"
+      },
+      "buttons": {
+        "clear": "クリア",
+        "copy": "HTMLをコピー"
+      },
+      "faqs": [
+        {
+          "question": "プレビューでスクリプトは実行される？",
+          "answer": "プレビューはサンドボックス化されたiframeでレンダリングされるため、安全のためスクリプトは実行されません。静的HTML・CSS・インラインスタイルは完全に動作します。"
+        },
+        {
+          "question": "HTMLは外部に送信される？",
+          "answer": "いいえ。すべてブラウザ内で動作し、コードがデバイス外に出ることはありません。"
+        },
+        {
+          "question": "レンダリング結果をコピーできる？",
+          "answer": "ソースタブでHTMLコードをコピーし、プレビューで見た目を確認できます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Markdownプレビュー",
+          "href": "/tools/markdown-preview"
+        },
+        {
+          "name": "HTMLミニファイ",
+          "href": "/tools/html-minifier"
+        },
+        {
+          "name": "HTMLエンティティ変換",
+          "href": "/tools/html-entity-encoder"
+        },
+        {
+          "name": "HTML画像変換",
+          "href": "/tools/html-to-image"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "HTMLビューアとは？",
+          "paragraphs": [
+            "HTMLビューアはHTMLコードをリアルタイムにレンダリングし、編集しながら視覚結果を確認できます。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "左のエディタにHTMLを入力または貼り付けると、右のプレビューが自動更新されます。「プレビュー」「ソース」タブを切り替えて表示を確認できます。"
+            ],
+            "items": [
+              "HTML・CSS・インラインスタイルに対応。",
+              "安全のため外部リソースはブロックされます。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "小規模ページのプロトタイプ、レイアウトのデバッグ、メールテンプレートの確認に便利です。"
+            ]
+          }
+        ]
+      }
+    },
+    "mobile-friendly-test": {
+      "metadata": {
+        "title": "モバイルフレンドリーテスト",
+        "description": "Webサイトがモバイル向けに最適化されているかチェック",
+        "category": "マーケティング"
+      },
+      "keywords": [
+        "モバイルフレンドリーテスト",
+        "モバイル対応チェック",
+        "レスポンシブテスト",
+        "モバイルユーザビリティ",
+        "モバイルseo",
+        "レスポンシブチェック"
+      ],
+      "labels": {
+        "url": "ページURL",
+        "score": "モバイル対応スコア",
+        "pass": "合格",
+        "fail": "不合格"
+      },
+      "placeholders": {
+        "url": "https://example.com"
+      },
+      "buttons": {
+        "check": "URLをチェック",
+        "checking": "チェック中..."
+      },
+      "messages": {
+        "empty": "チェックするURLを入力してください。",
+        "fetchFailed": "ページを取得できませんでした。サイトが自動リクエストをブロックしているか、URLが無効です。",
+        "viewportPass": "ページにdevice-widthのviewportメタタグがあります。",
+        "viewportFail": "ページに適切なviewportメタタグがありません。",
+        "titlePass": "ページにtitleタグがあります。",
+        "titleFail": "ページにtitleタグがありません。",
+        "descriptionPass": "ページにmeta descriptionがあります。",
+        "descriptionFail": "ページにmeta descriptionがありません。",
+        "responsivePass": "レスポンシブCSS（メディアクエリ）が使われています。",
+        "responsiveFail": "メディアクエリが見つかりません。小さい画面に適応しない可能性があります。",
+        "fontSizePass": "読みやすいフォントサイズ（12px以上）が検出されました。",
+        "fontSizeFail": "フォントサイズが明確に設定されていません。モバイルで読みにくい可能性があります。",
+        "disclaimer": "これはページHTMLに基づく軽量なヒューリスティックチェックです。完全な分析はGoogle公式のMobile-Friendly Testをご利用ください。"
+      },
+      "faqs": [
+        {
+          "question": "モバイルフレンドリーテストはどう動く？",
+          "answer": "ページHTMLを取得し、viewportタグ、title、description、レスポンシブCSS、フォントサイズなどのモバイル最適化項目をチェックします。"
+        },
+        {
+          "question": "viewportメタタグとは？",
+          "answer": "width=device-widthのようなviewportタグは、モバイルブラウザにデスクトップ幅ではなくデバイス幅でページを描画するよう指示します。"
+        },
+        {
+          "question": "Googleのテストと同じくらい正確？",
+          "answer": "違います。これは高速なヒューリスティックチェックです。GoogleのMobile-Friendly Testはページをレンダリングし、より完全な評価を提供します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "メタタグ分析",
+          "href": "/tools/meta-tags-analyzer"
+        },
+        {
+          "name": "HTMLビューア",
+          "href": "/tools/html-viewer"
+        },
+        {
+          "name": "XMLサイトマップ生成",
+          "href": "/tools/xml-sitemap"
+        },
+        {
+          "name": "Web画像最適化",
+          "href": "/tools/image-web-optimizer"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "モバイルフレンドリーテストとは？",
+          "paragraphs": [
+            "モバイルフレンドリーテストは、Webサイトがスマートフォンやタブレットでうまく機能するかをチェックします。ユーザー体験とGoogleのモバイルファーストインデックスにとって重要です。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "チェックしたいページのURLを入力し「URLをチェック」をクリック。ツールがページを取得し、スコアと実施したチェック項目を表示します。"
+            ],
+            "items": [
+              "スコアは以下のチェック項目に基づきます。",
+              "不合格項目を修正してモバイル体験を改善しましょう。"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "paragraphs": [
+              "まずviewportメタタグから始めましょう。モバイル描画の最重要修正ポイントです。"
+            ]
+          }
+        ]
+      }
+    },
+    "keyword-density": {
+      "metadata": {
+        "title": "キーワード密度チェッカー",
+        "description": "コンテンツ内のキーワード頻度と密度を分析",
+        "category": "マーケティング"
+      },
+      "keywords": [
+        "キーワード密度チェッカー",
+        "キーワード密度分析",
+        "キーワード頻度チェック",
+        "キーワード密度計算",
+        "キーワード密度確認",
+        "キーワード密度ツール",
+        "コンテンツキーワード分析",
+        "seoキーワード密度"
+      ],
+      "labels": {
+        "content": "コンテンツを入力",
+        "minLength": "最小単語数",
+        "showTop": "上位表示",
+        "totalWords": "総単語数",
+        "uniqueWords": "ユニーク単語数",
+        "topDensity": "最高密度",
+        "results": "キーワード密度の結果",
+        "word": "キーワード",
+        "count": "回数",
+        "density": "密度"
+      },
+      "placeholders": {
+        "content": "ここにコンテンツを貼り付けるか入力..."
+      },
+      "buttons": {
+        "analyze": "キーワード密度を分析",
+        "clear": "クリア"
+      },
+      "options": {
+        "top10": "上位 10",
+        "top20": "上位 20",
+        "top50": "上位 50"
+      },
+      "messages": {
+        "empty": "分析するコンテンツを入力してください。"
+      },
+      "csv": {
+        "word": "キーワード",
+        "count": "回数",
+        "density": "密度"
+      },
+      "faqs": [
+        {
+          "question": "キーワード密度とは何ですか？",
+          "answer": "キーワード密度とは、特定のキーワードがコンテンツ内に出現する回数を総単語数で割った割合です。（キーワード出現回数 ÷ 総単語数）× 100 で計算します。"
+        },
+        {
+          "question": "適切なキーワード密度は？",
+          "answer": "一般的に 1%〜3% が SEO で適切とされています。それ以上はキーワードの詰め込みと見なされ、ペナルティを受ける可能性があります。"
+        },
+        {
+          "question": "このツールでの密度の計算方法は？",
+          "answer": "コンテンツ内の全単語を数え、各キーワードの出現回数を総単語数で割って 100 を掛けます。最小単語数を設定して短すぎる単語を除外できます。"
+        },
+        {
+          "question": "キーワード密度を確認する理由は？",
+          "answer": "メインキーワードが検索エンジンにテーマを理解させるのに十分な頻度で使われているか、過剰でないかを確認できます。"
+        },
+        {
+          "question": "コンテンツはサーバーに送信されますか？",
+          "answer": "いいえ。すべての分析はブラウザ内で行われ、コンテンツがデバイス外に出ることはありません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "文字数カウントツール",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "文字数カウンター",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "メタタグ生成ツール",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "キーワード順位チェッカー",
+          "href": "/tools/keyword-position"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "キーワード密度チェッカーとは？",
+          "paragraphs": [
+            "キーワード密度チェッカーは、特定の単語やフレーズがコンテンツ内にどれだけ出現しているかを分析する無料オンラインツールです。各キーワードの回数・頻度・割合を表示し、詰め込みすぎずにSEO対策を行うのに役立ちます。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "テキストエリアにコンテンツを貼り付け、最小単語数を設定して短い語を除外し、表示するキーワード数を選んで「分析」をクリックします。"
+            ],
+            "items": [
+              "総単語数とユニーク単語数でコンテンツ規模を把握。",
+              "結果表で各キーワードの回数と密度を確認。",
+              "メインキーワードの密度は 1%〜3% を目安に。"
+            ]
+          },
+          {
+            "title": "SEOのコツ",
+            "paragraphs": [
+              "タイトル・見出し・冒頭でメインキーワードを使い、本文で自然に繰り返します。本ツールで過剰になっていないか確認しましょう。"
+            ],
+            "items": [
+              "メインキーワードの密度は 1%〜3% に。",
+              "サブキーワードには類義語やロングテールを使う。",
+              "読者ファーストの自然な文章を心がける。"
+            ]
+          }
+        ]
+      }
+    },
+    "meta-tags-analyzer": {
+      "metadata": {
+        "title": "メタタグ分析ツール",
+        "description": "任意のURLのメタタグを分析しSEOの提案を取得",
+        "category": "マーケティング"
+      },
+      "keywords": [
+        "メタタグ分析",
+        "メタタグチェッカー",
+        "メタタグを分析",
+        "メタディスクリプションチェック",
+        "seoメタタグ",
+        "urlのメタタグ",
+        "ogタグ分析",
+        "サイトのメタタグ確認"
+      ],
+      "labels": {
+        "urlMode": "URLで",
+        "htmlMode": "HTMLを貼り付け",
+        "url": "ページURL",
+        "html": "HTMLソース"
+      },
+      "placeholders": {
+        "html": "ここにページのHTMLソースを貼り付け..."
+      },
+      "buttons": {
+        "analyze": "メタタグを分析",
+        "loading": "分析中..."
+      },
+      "messages": {
+        "fetchFailed": "ページを取得できませんでした。サイトが自動アクセスをブロックしている可能性があります。「HTMLを貼り付け」モードをお試しください。",
+        "proxyNote": "ブラウザはクロスオリジンのページを直接読めないため、パブリックCORSプロキシ経由で取得しています。",
+        "noTags": "認識できるメタタグが見つかりませんでした。"
+      },
+      "faqs": [
+        {
+          "question": "メタタグ分析ツールとは？",
+          "answer": "Webページのタイトル、メタディスクリプション、キーワード、Open Graph、Twitter Cardなどのタグを読み取り、検索エンジンやSNSにどう見えるかを表示し、欠落や不正なタグを警告します。"
+        },
+        {
+          "question": "どのタグをチェックしますか？",
+          "answer": "タイトル、メタディスクリプション、キーワード、robots、canonicalリンク、H1、Open Graph（og:title、og:description、og:image）やTwitter Cardなどのソーシャルタグをチェックします。"
+        },
+        {
+          "question": "取得できないURLがあるのはなぜ？",
+          "answer": "ブラウザはクロスオリジンリクエストをブロックするため、ページはプロキシ経由で取得します。一部サイトはプロキシをブロックしたりJavaScriptを必要としたりするため取得できません。その場合は「HTMLを貼り付け」モードを使ってください。"
+        },
+        {
+          "question": "データは保存されますか？",
+          "answer": "いいえ。ページの取得と分析はブラウザセッション内でのみ行われ、当社サーバーへは一切アップロードされません。"
+        },
+        {
+          "question": "良いメタタグとは？",
+          "answer": "60文字以内のタイトル、160文字以内のメタディスクリプション、正確なH1、canonical URL、そしてSNS共有用のOpen GraphとTwitter Cardタグです。分析ツールが欠落や長さの問題を警告します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "メタタグ生成ツール",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "Robots.txt生成ツール",
+          "href": "/tools/robots-txt-generator"
+        },
+        {
+          "name": "Open Graphプレビュー",
+          "href": "/tools/og-preview"
+        },
+        {
+          "name": "キーワード密度チェッカー",
+          "href": "/tools/keyword-density"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "メタタグ分析ツールとは？",
+          "paragraphs": [
+            "メタタグ分析ツールは、Webページを取得してすべてのメタタグを抽出する無料ツールです。検索結果やSNSプレビューでの見え方を監査し、クリック率を下げる問題を検出します。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "ページURLを入力して「メタタグを分析」をクリックします。プロキシ経由でページを取得し、見つかったメタタグを一覧表示します。"
+            ],
+            "items": [
+              "タイトルが60文字以内か確認。",
+              "メタディスクリプションが160文字以内か確認。",
+              "SNS共有用のOpen GraphとTwitter Cardタグがあるか確認。"
+            ]
+          },
+          {
+            "title": "トラブルシューティング",
+            "paragraphs": [
+              "URLを取得できない場合は、ページのHTMLソースをコピーして「HTMLを貼り付け」モードに切り替えてください。プライベートなページや動的ページにも対応します。"
+            ]
+          }
+        ]
+      }
+    },
+    "long-tail-keywords": {
+      "metadata": {
+        "title": "ロングテールキーワードツール",
+        "description": "テーマに合わせたロングテールキーワードの提案を生成",
+        "category": "マーケティング"
+      },
+      "keywords": [
+        "ロングテールキーワード",
+        "ロングテールキーワード生成",
+        "キーワード提案",
+        "ロングテールキーワードツール",
+        "キーワードアイデア",
+        "seoキーワード生成",
+        "キーワード組み合わせ",
+        "ロングテールseo"
+      ],
+      "labels": {
+        "seed": "シードキーワード",
+        "country": "国 / 言語",
+        "category": "カテゴリ",
+        "results": "ロングテールキーワードの提案"
+      },
+      "placeholders": {
+        "seed": "例：コーヒーメーカー、ヨガマット..."
+      },
+      "options": {
+        "global": "グローバル",
+        "us": "米国（英語）",
+        "uk": "英国（英語）",
+        "in": "インド（英語）",
+        "au": "オーストラリア（英語）",
+        "ca": "カナダ（英語）",
+        "general": "一般",
+        "howTo": "How To",
+        "best": "Best / Top",
+        "buy": "購入",
+        "reviews": "レビュー",
+        "nearMe": "近くで",
+        "question": "質問"
+      },
+      "buttons": {
+        "generate": "ロングテールキーワードを生成",
+        "copy": "コピー",
+        "copied": "コピー済み"
+      },
+      "faqs": [
+        {
+          "question": "ロングテールキーワードとは？",
+          "answer": "「コーヒーメーカー」ではなく「キャンプ用おすすめ格安コーヒーメーカー」のような、より長く具体的な検索フレーズです。検索量は少なめですが、コンバージョン意図が高いのが特徴です。"
+        },
+        {
+          "question": "このツールの生成方法は？",
+          "answer": "シードキーワードに「ベスト」「方法」「レビュー」などの接頭辞・接尾辞を組み合わせて、「フレンチプレスの使い方」や「おすすめエスプレッソマシンのレビュー」のようなフレーズを生成します。"
+        },
+        {
+          "question": "なぜロングテールキーワードがSEOで重要？",
+          "answer": "競争が少なくランキングが取りやすく、購入に近い、または具体的な答えを探しているユーザーを集客できます。"
+        },
+        {
+          "question": "一度に何個生成できますか？",
+          "answer": "シードキーワード1つにつき最大60件の提案を生成します。国別や質問型のバリエーションも含まれます。個別コピーも一括コピーも可能です。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "キーワード密度チェッカー",
+          "href": "/tools/keyword-density"
+        },
+        {
+          "name": "キーワード順位チェッカー",
+          "href": "/tools/keyword-position"
+        },
+        {
+          "name": "メタタグ生成ツール",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "文字数カウントツール",
+          "href": "/tools/word-counter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "ロングテールキーワードツールとは？",
+          "paragraphs": [
+            "1つのシードキーワードを数十の長く具体的な検索フレーズに展開できる無料ジェネレーターです。ブログ記事や商品ページ、SEOキャンペーンのキーワードリスト作成に最適です。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "シードキーワードを入力し、対象国や言語を選び、「How To」や「Best / Top」などのカテゴリを選択して「生成」をクリックします。"
+            ],
+            "items": [
+              "情報発信コンテンツには「とは」「方法」系の質問型キーワード。",
+              "商用ページには「ベスト」「レビュー」「購入」系。",
+              "ローカルSEOには「近く」や国別バリエーション。"
+            ]
+          },
+          {
+            "title": "コツ",
+            "paragraphs": [
+              "広めのシードキーワードから始めてツールで展開し、ユーザーの意図に合うフレーズに絞り込みましょう。"
+            ]
+          }
+        ]
+      }
+    },
+    "keyword-position": {
+      "metadata": {
+        "title": "キーワード順位チェッカー",
+        "description": "検索エンジンでのキーワード順位を確認",
+        "category": "マーケティング"
+      },
+      "keywords": [
+        "キーワード順位チェッカー",
+        "キーワード順位確認",
+        "順位チェック",
+        "キーワードランキングツール",
+        "serp順位チェック",
+        "キーワード順位追跡",
+        "順位チェックseo",
+        "検索順位確認"
+      ],
+      "labels": {
+        "domain": "あなたのWebサイトURL",
+        "keywords": "確認するキーワード（1行に1つ）",
+        "results": "順位の結果",
+        "keyword": "キーワード",
+        "position": "順位",
+        "url": "一致したURL",
+        "notFound": "上位50位圏外"
+      },
+      "placeholders": {
+        "keywords": "コーヒーメーカー\nおすすめエスプレッソマシン\nフレンチプレス"
+      },
+      "buttons": {
+        "check": "キーワード順位をチェック",
+        "checking": "確認中..."
+      },
+      "messages": {
+        "disclaimer": "このツールはブラウザ内でBingのオーガニック検索結果を確認します。順位は推定値であり、Googleとは異なる場合があります。正確な順位はGoogle Search Consoleや専門のSEOツールをご利用ください。",
+        "partial": "一部のキーワードは確認できないか、上位50位に見つかりませんでした。"
+      },
+      "faqs": [
+        {
+          "question": "キーワード順位チェッカーの仕組みは？",
+          "answer": "各キーワードについて、プロキシ経由で検索結果ページを取得し、オーガニック結果を解析して、あなたのドメインが出現する位置を特定します。"
+        },
+        {
+          "question": "どの検索エンジンをチェックしますか？",
+          "answer": "Bingのオーガニック検索結果を確認します。ブラウザはGoogleへの直接リクエストをブロックするため、信頼できる代替としてBingを使用しています。"
+        },
+        {
+          "question": "検索エンジンによって順位が異なるのはなぜ？",
+          "answer": "GoogleとBingは異なるランキングアルゴリズムとインデックスを持つため、同じキーワードでも順位が変わります。そのため本ツールでは推定値として表示しています。"
+        },
+        {
+          "question": "一度にいくつのキーワードを確認できますか？",
+          "answer": "1行に1つずつ、何個でも確認できます。各キーワードに個別の検索リクエストが必要なため、リストが長いほど時間がかかります。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "キーワード密度チェッカー",
+          "href": "/tools/keyword-density"
+        },
+        {
+          "name": "ロングテールキーワードツール",
+          "href": "/tools/long-tail-keywords"
+        },
+        {
+          "name": "メタタグ生成ツール",
+          "href": "/tools/meta-tag-generator"
+        },
+        {
+          "name": "ドメイン Whois 検索",
+          "href": "/tools/whois-lookup"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "キーワード順位チェッカーとは？",
+          "paragraphs": [
+            "キーワード順位チェッカー（ランクチェッカー）は、特定キーワードで自社サイトが検索結果のどの位置に表示されるかを表示します。高価なランキング追跡ソフトを使わずにSEOの進捗を監視できます。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "WebサイトURLとキーワードのリスト（1行に1つ）を入力し、「キーワード順位をチェック」をクリックします。各キーワードの順位と一致したURLが表示されます。"
+            ],
+            "items": [
+              "1〜10位はオーガニックトラフィックで最も価値が高い。",
+              "上位50位に見つからない場合は「上位50位圏外」と表示。",
+              "定期的にチェックして順位の推移を追跡。"
+            ]
+          },
+          {
+            "title": "コツ",
+            "paragraphs": [
+              "すでにトラフィックを集めているキーワードでベースラインを把握し、次に11〜30位のキーワードに注力するとトップ10入りしやすくなります。"
+            ]
+          }
+        ]
+      }
+    },
     "video-watermark-remover": {
       "metadata": {
         "title": "動画ウォーターマーク除去ツール",
@@ -4334,7 +5894,16 @@
       "metadata": {
         "title": "正規表現テスター",
         "description": "リアルタイムマッチングで正規表現をテスト・デバッグ",
-        "category": "Developer"
+        "category": "Developer",
+        "keywords": [
+          "正規表現テスター",
+          "正規表現チェッカー",
+          "正規表現マッチャー",
+          "正規表現テスト",
+          "正規表現デバッガー",
+          "正規表現検証",
+          "オンライン正規表現ツール"
+        ]
       },
       "guide": {
         "introduction": {
@@ -4444,7 +6013,8 @@
         "matchesTitle": "{count} 件の一致",
         "matchIndex": "インデックス {index}",
         "matchGroups": "グループ：",
-        "commonPatternsTitle": "よく使うパターン"
+        "commonPatternsTitle": "よく使うパターン",
+        "errorFallback": "正規表現が無効です"
       },
       "keywords": [
         "正規表現テスター",
@@ -4454,7 +6024,15 @@
         "正規表現テスターツール",
         "正規表現テスターオンラインツール",
         "正規表現テスター無料ツール"
-      ]
+      ],
+      "commonPatterns": {
+        "email": "メール",
+        "url": "URL",
+        "phone": "電話番号",
+        "ipv4": "IPv4 アドレス",
+        "date": "日付（YYYY-MM-DD）",
+        "hexColor": "16進カラー"
+      }
     },
     "markdown-preview": {
       "metadata": {
@@ -4950,7 +6528,8 @@
     "digital-signature": {
       "metadata": {
         "title": "電子サインメーカー - 無料オンラインツール",
-        "description": "手書き、文字入力、またはアップロードで電子署名を作成。PNG または SVG でダウンロード。無料、会員登録不要、100% プライベート。"
+        "description": "手書き、文字入力、またはアップロードで電子署名を作成。PNG または SVG でダウンロード。無料、会員登録不要、100% プライベート。",
+        "category": "Utility"
       },
       "title": "電子サインメーカー",
       "description": "手書き、文字入力、またはアップロードで電子署名を作成。PNG または SVG でダウンロード。無料、会員登録不要、100% プライベート。",
@@ -10791,7 +12370,12 @@
         }
       ],
       "labels": {
-        "metaTags": "メタタグ"
+        "metaTags": "メタタグ",
+        "title": "タイトル",
+        "description": "説明",
+        "imageUrl": "画像 URL",
+        "siteName": "サイト名",
+        "url": "URL"
       },
       "buttons": {
         "copyMetaTags": "メタタグをコピー"
@@ -20394,29 +21978,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "リファイナンス計算機とは？",
-          "body": [
+          "paragraphs": [
             "Compare your current mortgage with a refinanced loan. Calculate monthly savings, total interest saved, break-even point, and view a side-by-side amortization comparison to decide if refinancing is right for you."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "リファイナンス計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "リファイナンス計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "markup-calculator": {
@@ -20524,29 +22112,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "マークアップ計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate markup percentage, selling price, cost, and profit margin. Compare markup vs margin, use batch mode for multiple products, and reference common markup-to-margin conversions."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "マークアップ計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "マークアップ計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "cd-calculator": {
@@ -20660,29 +22252,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "CD計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate Certificate of Deposit earnings, compare CD rates from multiple banks, plan a CD ladder strategy, and estimate early withdrawal penalties. Free and instant."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "CD計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "CD計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "car-lease-calculator": {
@@ -20781,29 +22377,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "カーリース計算機とは？",
-          "body": [
+          "paragraphs": [
             "The Car Lease Calculator helps you estimate monthly lease payments, understand money factors, and compare leasing vs buying. Enter the vehicle's MSRP, negotiated price, down payment, residual value percentage, money factor, lease term, and tax rate to see your total monthly cost breakdown."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "カーリース計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "カーリース計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "commission-calculator": {
@@ -20992,6 +22592,13 @@
             "このツールは見積もり用です - 税務上の問題は専門家にご相談ください"
           ]
         }
+      },
+      "table": {
+        "year": "年",
+        "slDep": "定額法による減価償却",
+        "slValue": "定額法による簿価",
+        "ddbDep": "倍額定率法による減価償却",
+        "ddbValue": "倍額定率法による簿価"
       }
     },
     "lease-calculator": {
@@ -21631,29 +23238,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "将来価値計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate the future value of investments with lump sums, regular contributions, or both. Compare ordinary annuities vs annuity due, adjust for inflation, and visualize year-by-year growth."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "将来価値計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "将来価値計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "annuity-calculator": {
@@ -21755,29 +23366,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "年金計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate annuity growth during accumulation or income payouts during distribution. Compare fixed vs variable annuities and see the tax-deferred growth advantage."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "年金計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "年金計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "emi-calculator": {
@@ -21881,29 +23496,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "EMI計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate your Equated Monthly Installment (EMI) for home loans, car loans, or personal loans. View amortization schedules, compare loan offers, and see how prepayments reduce your interest burden."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "EMI計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "EMI計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "debt-to-income-calculator": {
@@ -22009,29 +23628,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "債務所得比率計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate your front-end and back-end DTI ratios. See where you stand for mortgage qualification, and find out how much debt to reduce to hit your target ratio."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "債務所得比率計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "債務所得比率計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "income-percentile-calculator": {
@@ -22138,29 +23761,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "所得パーセンタイル計算機とは？",
-          "body": [
+          "paragraphs": [
             "Find out where your income ranks compared to all Americans. Uses U.S. Census Bureau data for both household and individual income percentiles."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "所得パーセンタイル計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "所得パーセンタイル計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "net-worth-percentile-calculator": {
@@ -22267,29 +23894,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "純資産パーセンタイル計算機とは？",
-          "body": [
+          "paragraphs": [
             "See how your net worth compares to other Americans by age group. Uses Federal Reserve Survey of Consumer Finances data to calculate your wealth percentile."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "純資産パーセンタイル計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "純資産パーセンタイル計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       }
     },
     "life-insurance-calculator": {
@@ -22378,29 +24009,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "生命保険計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate exactly how much life insurance coverage you need based on your income, debts, dependents, and financial goals."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "生命保険計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "生命保険計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       },
       "description": "生命保険のニーズと保険料を見積もります。"
     },
@@ -22492,29 +24127,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "住宅負担能力計算機とは？",
-          "body": [
+          "paragraphs": [
             "Find out how much house you can afford based on your income, debts, down payment, and interest rate. See a full monthly payment breakdown with taxes, insurance, and PMI."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "住宅負担能力計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "住宅負担能力計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       },
       "description": "購入可能な住宅価格を決定。"
     },
@@ -22600,29 +24239,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "事業ローン計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate business loan payments, total interest, and compare SBA, term, and line of credit options. See amortization schedules and the true cost of borrowing."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "事業ローン計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "事業ローン計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       },
       "description": "ビジネスローンの支払い、利息、返済スケジュールを計算。"
     },
@@ -22727,29 +24370,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "クレジットスコアシミュレーターとは？",
-          "body": [
+          "paragraphs": [
             "Simulate how financial actions like paying off debt, opening new accounts, or missing payments could affect your credit score. Free, instant, and educational."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "クレジットスコアシミュレーターの使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "クレジットスコアシミュレーターの使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       },
       "description": "行動が信用スコアにどのように影響するかを確認。"
     },
@@ -22833,29 +24480,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "自営業税計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate self-employment tax, estimated quarterly payments, and total tax burden for freelancers, 1099 contractors, and gig workers. Includes SE tax, federal income tax, and state taxes for 2026."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "自営業税計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "自営業税計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       },
       "description": "自営業税（社会保障およびメディケア）を見積もります。"
     },
@@ -22948,29 +24599,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "自動車ローン利息控除計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate your OBBBA car loan interest tax deduction for 2025-2028. See how much you'll save on taxes with the new auto loan interest deduction."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "自動車ローン利息控除計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "自動車ローン利息控除計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       },
       "description": "自動車ローン利息の税控除を計算。"
     },
@@ -23060,29 +24715,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "学生ローン税爆弾計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate your tax bill when student loan forgiveness becomes taxable income. See your federal and state taxes, check if the insolvency exclusion applies, and plan ahead."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "学生ローン税爆弾計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "学生ローン税爆弾計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       },
       "description": "学生ローン免除の税影響を見積もります。"
     },
@@ -23172,29 +24831,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "Trump口座計算機とは？",
-          "body": [
+          "paragraphs": [
             "Calculate how much a Trump Account (MAGA Account) could grow for your child. See projected value from the $1,000 government seed deposit and $5,000 annual contributions with tax basis tracking."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "Trump口座計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "Trump口座計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       },
       "description": "トランプアカウント（子供投資口座）の成長を見積もります。"
     },
@@ -23278,29 +24941,33 @@
         "invalidInputs": "有効な値を入力してください"
       },
       "guide": {
-        "whatIs": {
+        "intro": {
           "title": "住宅ローン返済計算機とは？",
-          "body": [
+          "paragraphs": [
             "The Mortgage Payoff Calculator shows how extra monthly payments can shorten your mortgage term and save you thousands in interest. Enter your current loan balance, interest rate, remaining term, and extra payment amount to see your new payoff date and total interest savings."
           ]
         },
-        "howTo": {
-          "title": "使い方",
-          "intro": "住宅ローン返済計算機の使い方は簡単：",
-          "items": [
-            "入力フィールドに値を入力してください",
-            "計算ボタンをクリックしてください",
-            "すぐに結果を表示"
-          ]
-        },
-        "tips": {
-          "title": "ヒント",
-          "items": [
-            "正確な結果のために入力を再確認してください",
-            "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
-            "将来の参考のために結果を保存してください"
-          ]
-        }
+        "sections": [
+          {
+            "title": "使い方",
+            "paragraphs": [
+              "住宅ローン返済計算機の使い方は簡単："
+            ],
+            "items": [
+              "入力フィールドに値を入力してください",
+              "計算ボタンをクリックしてください",
+              "すぐに結果を表示"
+            ]
+          },
+          {
+            "title": "ヒント",
+            "items": [
+              "正確な結果のために入力を再確認してください",
+              "このツールは見積もり用です - 重要な決定は専門家にご相談ください",
+              "将来の参考のために結果を保存してください"
+            ]
+          }
+        ]
       },
       "description": "住宅ローンをより早く返済するための戦略を比較。"
     },
@@ -28891,7 +30558,7 @@
       },
       "status": {
         "processing": "最適化中…",
-        "zipping": "ZIP作成中…"
+        "zipping": "ZIP圧縮中…"
       },
       "errors": {
         "process": "最適化に失敗しました。もう一度お試しください。"
@@ -29011,7 +30678,7 @@
         "caseSensitive": "大文字/小文字を区別",
         "matchAll": "すべて置換",
         "replacePosition": "位置で置換",
-        "fromEnd": "末尾から数える",
+        "fromEnd": "末尾から",
         "position": "開始位置",
         "length": "長さ",
         "insertText": "テキスト",
@@ -29037,7 +30704,6 @@
         "removeMode": "モード",
         "charsDirection": "削除方向",
         "fromStart": "先頭から",
-        "fromEnd": "末尾から",
         "charsCount": "文字数",
         "rangeStart": "開始インデックス",
         "rangeEnd": "終了インデックス",
@@ -30864,6 +32530,10 @@
     "how-to-record-your-screen": {
       "title": "画面を無料で録画する方法（2026ガイド）",
       "description": "あらゆるデバイスで画面を録画する方法を学びます。ブラウザ録画、システム音声キャプチャ、ウェブカメラオーバーレイ、ウォーターマークなしの無料ツールを解説します。"
+    },
+    "how-to-remove-background-from-image": {
+      "title": "画像の背景を削除する方法（2026ガイド）",
+      "description": "AIとカラー機能を使って画像の背景を無料で削除する方法を学びます。きれいなエッジ、一般的な用途、ブラウザ内処理を解説します。"
     },
     "how-to-upscale-images": {
       "title": "画質を落とさずに画像を拡大する方法（2026ガイド）",

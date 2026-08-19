@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, getTranslations } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { routing } from "@/i18n/routing";
@@ -12,12 +12,17 @@ import Footer from "@/components/Footer";
 import HtmlLang from "@/components/HtmlLang";
 import GtagTracker from "@/components/GtagTracker";
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "metadata" });
   const baseUrl = `https://www.toolkitlife.com/${locale}`;
   const ogImage = ogImageUrl({ type: "home" });
@@ -73,6 +78,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
+  setRequestLocale(locale);
 
   if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
@@ -97,10 +103,10 @@ export default async function LocaleLayout({
       {/* Google tag (gtag.js) */}
       <Script
         id="gtag"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         src="https://www.googletagmanager.com/gtag/js?id=G-JL8M403PXS"
       />
-      <Script id="gtag-init" strategy="afterInteractive">
+      <Script id="gtag-init" strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

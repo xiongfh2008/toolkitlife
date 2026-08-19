@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import Script from "next/script";
+import { SCENE_OF_SLUG } from "@/data/home";
 
 const FAVORITES_KEY = "tp:favorites";
 const RECENT_KEY = "tp:recent";
@@ -134,7 +135,17 @@ export default function ToolLayout({
     (toolT.has("keywords") ? (toolT.raw("keywords") as string[]) : undefined);
 
   // Favorites + recently-used (localStorage, shared with the homepage)
-  const [isFavorite, setIsFavorite] = useState(false);
+  const [isFavorite, setIsFavorite] = useState<boolean>(() => {
+    if (typeof window === "undefined") return false;
+    try {
+      const favs = JSON.parse(
+        window.localStorage.getItem(FAVORITES_KEY) ?? "[]"
+      ) as string[];
+      return favs.includes(slug);
+    } catch {
+      return false;
+    }
+  });
 
   useEffect(() => {
     try {
@@ -144,14 +155,6 @@ export default function ToolLayout({
       const next = [slug, ...recent.filter((s) => s !== slug)].slice(0, 12);
       window.localStorage.setItem(RECENT_KEY, JSON.stringify(next));
       window.dispatchEvent(new Event("tp:recent-changed"));
-    } catch {
-      /* ignore */
-    }
-    try {
-      const favs = JSON.parse(
-        window.localStorage.getItem(FAVORITES_KEY) ?? "[]"
-      ) as string[];
-      setIsFavorite(favs.includes(slug));
     } catch {
       /* ignore */
     }
@@ -242,7 +245,12 @@ export default function ToolLayout({
             {t("breadcrumbHome")}
           </Link>
           <span className="mx-2 text-zinc-600">/</span>
-          <span className="text-zinc-500">{category}</span>
+          <Link
+            href={`/#scene=${SCENE_OF_SLUG[slug] ?? "all"}`}
+            className="hover:text-blue-500 transition-colors"
+          >
+            {category}
+          </Link>
           <span className="mx-2 text-zinc-600">/</span>
           <span className="text-zinc-300">{title}</span>
         </nav>

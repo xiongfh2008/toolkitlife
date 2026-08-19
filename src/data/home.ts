@@ -329,7 +329,6 @@ const BASE_SCENES: HomeScene[] = [
           "square-root-calculator",
           "standard-deviation-calculator",
           "ohms-law-calculator",
-          "chatgpt-ads-calculator",
         ],
       },
     ],
@@ -364,6 +363,26 @@ const BASE_SCENES: HomeScene[] = [
       "dog-age-calculator",
     ],
   },
+  {
+    key: "marketing",
+    tools: [
+      "keyword-density",
+      "meta-tags-analyzer",
+      "long-tail-keywords",
+      "keyword-position",
+      "chatgpt-ads-calculator",
+      "xml-sitemap",
+      "adsense-calculator",
+      "url-opener",
+      "mobile-friendly-test",
+      "what-is-my-browser",
+      "geo-ip-locator",
+      "redirect-checker",
+      "is-it-down",
+      "domain-age",
+      "domain-hosting",
+    ],
+  },
 ];
 
 /** Every tool on the site, deduplicated, in scene order. */
@@ -384,6 +403,14 @@ export const HOME_SCENES: HomeScene[] = [
   { key: "all", tools: ALL_TOOL_SLUGS },
   ...BASE_SCENES,
 ];
+
+/** slug → the scene key that contains it (used for breadcrumb category links). */
+export const SCENE_OF_SLUG: Record<string, string> = Object.fromEntries(
+  BASE_SCENES.flatMap((s) => [
+    ...(s.tools ?? []).map((t) => [t, s.key]),
+    ...(s.groups?.flatMap((g) => g.tools.map((t) => [t, s.key])) ?? []),
+  ])
+);
 
 /** Search aliases: extra terms (often localized) matched against tool names. */
 export const SEARCH_ALIASES: Record<string, string[]> = {
@@ -476,6 +503,21 @@ export const SEARCH_ALIASES: Record<string, string[]> = {
   "docx-to-png": ["docx转png", "word转png", "word转图片", "docx转图片", "word文档转图片", "docx to png"],
   "whois-lookup": ["whois", "域名查询", "域名信息", "域名注册信息", "域名whois"],
   "ip-lookup": ["ip", "ip地址", "ip查询", "ip归属地", "我的ip", "ip地址查询"],
+  "keyword-density": ["关键词密度", "关键词密度检测", "关键词频率", "关键词分析", "keyword density", "キーワード密度", "키워드 밀도", "词频统计"],
+  "meta-tags-analyzer": ["meta标签", "meta标签分析", "标题分析", "描述标签", "seo标签检查", "meta tags", "メタタグ分析", "메타 태그 분석"],
+  "long-tail-keywords": ["长尾关键词", "长尾词", "关键词扩展", "关键词生成", "long tail keywords", "ロングテールキーワード", "롱테일 키워드"],
+  "keyword-position": ["关键词排名", "排名查询", "seo排名", "排名检查", "keyword position", "rank checker", "キーワード順位", "키워드 순위"],
+  "xml-sitemap": ["站点地图", "sitemap", "xml sitemap", "网站地图生成", "サイトマップ", "사이트맵"],
+  "adsense-calculator": ["adsense", "广告收入", "adsense计算", "adsense収入", "광고 수익"],
+  "url-opener": ["批量打开网址", "批量打开链接", "url打开器", "url opener", "url一括", "url 일괄"],
+  "html-viewer": ["html预览", "html查看", "html viewer", "htmlプレビュー", "html 뷰어"],
+  "mobile-friendly-test": ["移动端测试", "移动友好", "响应式检测", "mobile friendly", "モバイル対応", "모바일 친화성"],
+  "what-is-my-browser": ["我的浏览器", "浏览器信息", "浏览器检测", "what is my browser", "ブラウザ情報", "내 브라우저"],
+  "geo-ip-locator": ["ip定位", "ip地理位置", "归属地", "geo ip", "ipロケーション", "ip 위치"],
+  "redirect-checker": ["重定向检测", "301检测", "redirect checker", "リダイレクト", "리디렉션"],
+  "is-it-down": ["网站宕机", "网站是否可用", "is it down", "サイトダウン", "사이트 다운"],
+  "domain-age": ["域名年龄", "域名注册时间", "domain age", "ドメイン年齢", "도메인 연령"],
+  "domain-hosting": ["域名托管", "托管商", "网站hosting", "domain hosting", "ホスティング", "호스팅"],
   "screen-recorder": ["录屏", "屏幕录制"],
   "scroll-capture": ["滚动截屏", "长截图", "滚动截图", "整页截图", "长页面截图", "scroll capture", "scrolling screenshot", "long screenshot", "スクロールキャプチャ", "스크롤 캡처", "롱 스크린샷"],
   "video-watermark": ["视频水印", "加水印", "视频加水印", "水印"],

@@ -76,6 +76,19 @@ export default function HomePage() {
   // Combined tab bar: "recent"/"favorites" (history) + scene keys (categories)
   const [activePane, setActivePane] = useState<string>(HOME_SCENES[0].key);
 
+  // Activate a scene tab when landing with #scene=<key> (breadcrumb category links).
+  useEffect(() => {
+    const applyHash = () => {
+      const m = window.location.hash.match(/^#scene=([a-z]+)/);
+      if (m && HOME_SCENES.some((s) => s.key === m[1])) {
+        setActivePane(m[1]);
+      }
+    };
+    applyHash();
+    window.addEventListener("hashchange", applyHash);
+    return () => window.removeEventListener("hashchange", applyHash);
+  }, []);
+
   // Load favorites + recent + search history once on mount, then keep them in
   // sync when the user favorites/uses tools on other pages (client-side
   // navigation does not remount the homepage).

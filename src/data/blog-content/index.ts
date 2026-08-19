@@ -8,6 +8,7 @@ import { content as howToCreateDigitalSignature } from "./how-to-create-digital-
 import { content as howToExtractTextFromImages } from "./how-to-extract-text-from-images";
 import { content as howToMakeMemes } from "./how-to-make-memes";
 import { content as howToRecordYourScreen } from "./how-to-record-your-screen";
+import { content as howToRemoveBackgroundFromImage } from "./how-to-remove-background-from-image";
 import { content as howToUpscaleImages } from "./how-to-upscale-images";
 
 export type LocaleKey = "en" | "zh" | "ja" | "ko";
@@ -35,5 +36,6 @@ export const blogContent: Record<string, BlogContent> = {
   "how-to-extract-text-from-images": howToExtractTextFromImages,
   "how-to-make-memes": howToMakeMemes,
   "how-to-record-your-screen": howToRecordYourScreen,
+  "how-to-remove-background-from-image": howToRemoveBackgroundFromImage,
   "how-to-upscale-images": howToUpscaleImages,
 };

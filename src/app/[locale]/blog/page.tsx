@@ -54,32 +54,34 @@ export default async function BlogIndex({
       <p className="mb-10 text-zinc-400">{t("description")}</p>
 
       <div className="space-y-6">
-        {blogPostsMeta.map((post) => (
-          <article
-            key={post.slug}
-            className="group rounded-xl border border-zinc-800 bg-zinc-900 p-6 transition-colors hover:border-zinc-700"
-          >
-            <div className="mb-3 flex flex-wrap gap-x-3 gap-y-1">
-              {post.tags.map((tag) => (
-                <span key={tag} className="text-xs font-medium text-blue-400">
-                  {tag}
-                </span>
-              ))}
-            </div>
-            <Link href={`/blog/${post.slug}`} className="block">
-              <h2 className="mb-2 text-xl font-semibold text-zinc-100 group-hover:text-blue-400 transition-colors">
-                {pt(`${post.slug}.title`)}
-              </h2>
-              <p className="text-sm text-zinc-400">{pt(`${post.slug}.description`)}</p>
-            </Link>
-            <time
-              dateTime={post.datePublished}
-              className="mt-3 block text-sm text-zinc-500"
+        {[...blogPostsMeta]
+          .sort((a, b) => b.datePublished.localeCompare(a.datePublished))
+          .map((post) => (
+            <article
+              key={post.slug}
+              className="group rounded-xl border border-zinc-800 bg-zinc-900 p-6 transition-colors hover:border-zinc-700"
             >
-              {formatDate(post.datePublished, locale)}
-            </time>
-          </article>
-        ))}
+              <div className="mb-3 flex flex-wrap gap-x-3 gap-y-1">
+                {post.tags.map((tag) => (
+                  <span key={tag} className="text-xs font-medium text-blue-400">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <Link href={`/blog/${post.slug}`} className="block">
+                <h2 className="mb-2 text-xl font-semibold text-zinc-100 group-hover:text-blue-400 transition-colors">
+                  {pt(`${post.slug}.title`)}
+                </h2>
+                <p className="text-sm text-zinc-400">{pt(`${post.slug}.description`)}</p>
+              </Link>
+              <time
+                dateTime={post.datePublished}
+                className="mt-3 block text-sm text-zinc-500"
+              >
+                {formatDate(post.datePublished, locale)}
+              </time>
+            </article>
+          ))}
       </div>
     </div>
   );
