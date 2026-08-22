@@ -6,6 +6,13 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      // Canonical domain: non-www -> www (matches sitemap/robots host)
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "toolkitlife.com" }],
+        destination: "https://www.toolkitlife.com/:path*",
+        permanent: true,
+      },
       // Slug alignment: online variants -> local canonical slugs
       { source: "/:locale/tools/image-format-converter", destination: "/:locale/tools/convert", permanent: true },
       { source: "/:locale/tools/unix-timestamp-converter", destination: "/:locale/tools/timestamp-converter", permanent: true },

@@ -54,6 +54,7 @@ export async function generateMetadata({
       follow: true,
     },
     verification: {
+      yandex: "55f0fc137d5117ba",
       other: {
         "msvalidate.01": "637B49DDC622A1D04AD4DDB6345E9C65",
       },
