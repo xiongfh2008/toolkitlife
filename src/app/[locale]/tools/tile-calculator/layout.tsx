@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/tile-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/tile-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/tile-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/tile-calculator`,
       },
     },
   };

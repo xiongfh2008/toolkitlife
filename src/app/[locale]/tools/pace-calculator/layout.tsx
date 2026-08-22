@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/pace-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/pace-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/pace-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/pace-calculator`,
       },
     },
   };

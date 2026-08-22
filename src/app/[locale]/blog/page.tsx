@@ -20,6 +20,7 @@ export async function generateMetadata({
         zh: "https://www.toolkitlife.com/zh/blog",
         ja: "https://www.toolkitlife.com/ja/blog",
         ko: "https://www.toolkitlife.com/ko/blog",
+        ru: "https://www.toolkitlife.com/ru/blog",
       },
     },
   };

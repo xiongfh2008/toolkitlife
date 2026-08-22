@@ -1,0 +1,195 @@
+{
+ "metadata": {
+  "title": "ToolkitLife - Free Online Tools & Calculators | No Signup Required",
+  "description": "136+ free browser-based tools and calculators for developers, designers, finance, health, and more. No signup, no data stored.",
+  "keywords": [
+   "free online tools",
+   "developer tools",
+   "design tools",
+   "QR code generator",
+   "watermark remover",
+   "JSON formatter",
+   "password generator",
+   "color palette generator",
+   "base64 encoder",
+   "regex tester",
+   "no signup tools",
+   "good morning images"
+  ],
+  "ogTitle": "ToolkitLife - Free Online Tools & Calculators",
+  "ogDescription": "136+ free browser-based tools and calculators. No signup, no data stored.",
+  "twitterTitle": "ToolkitLife - Free Online Tools & Calculators",
+  "twitterDescription": "136+ free browser-based tools and calculators. No signup required."
+ },
+ "common": {
+  "copy": "Copy",
+  "copied": "Copied!"
+ },
+ "nav": {
+  "home": "ToolkitLife",
+  "allTools": "All Tools",
+  "blog": "Blog",
+  "menu": "Menu"
+ },
+ "footer": {
+  "brand": "ToolkitLife",
+  "privacy": "Privacy",
+  "terms": "Terms",
+  "blog": "Blog",
+  "copyright": "Free tools, no signup, no data stored."
+ },
+ "localeSwitcher": {
+  "selectLanguage": "Select language"
+ },
+ "toolLayout": {
+  "breadcrumbHome": "Home",
+  "faqTitle": "Frequently Asked Questions",
+  "relatedToolsTitle": "Related Tools",
+  "keywordsSuffix": "free online {keywords}. No signup required. Works in your browser."
+ },
+ "privacy": {
+  "metadata": {
+   "title": "Privacy Policy - ToolkitLife",
+   "description": "Privacy policy for ToolkitLife. Learn how we handle your data (spoiler: we don't collect any)."
+  },
+  "breadcrumb": {
+   "home": "Home",
+   "current": "Privacy Policy"
+  },
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated:",
+  "sections": {
+   "shortVersion": {
+    "title": "The Short Version",
+    "body": "ToolkitLife is a collection of free browser-based tools. We do not collect, store, or transmit your personal data. All tools run entirely in your browser. Your files, text, images, and videos never leave your device."
+   },
+   "whatDataWeCollect": {
+    "title": "What Data We Collect",
+    "analytics": {
+     "title": "Analytics",
+     "body": "We may use privacy-friendly analytics (such as Google Analytics or a similar service) to understand how visitors use our site. This data is aggregated and anonymous — we cannot identify individual users. Analytics may collect:",
+     "items": {
+      "pagesVisited": "Pages visited and time spent",
+      "referralSource": "Referral source (how you found us)",
+      "generalLocation": "General location (country/region level)",
+      "browserType": "Browser type and device category"
+     }
+    },
+    "advertising": {
+     "title": "Advertising",
+     "body": "We may display advertisements through Google AdSense or similar networks. These services may use cookies to serve ads based on your browsing history. You can opt out of personalized advertising at",
+     "link": "Google Ads Settings"
+    },
+    "yourFiles": {
+     "title": "Your Files and Input",
+     "body": "All tools on ToolkitLife process data locally in your browser. When you upload an image, video, or enter text into any tool:",
+     "items": {
+      "staysOnDevice": "The data stays on your device",
+      "nothingUploaded": "Nothing is uploaded to our servers",
+      "nothingStored": "Nothing is stored after you close the tab",
+      "noAccess": "We have no access to your files or input"
+     }
+    }
+   },
+   "cookies": {
+    "title": "Cookies",
+    "body": "We may use cookies for analytics and advertising purposes. You can control cookie behavior through your browser settings. Our tools themselves do not require cookies to function."
+   },
+   "thirdPartyServices": {
+    "title": "Third-Party Services",
+    "intro": "We may use the following third-party services:",
+    "items": {
+     "googleAdSense": "Google AdSense — for displaying advertisements",
+     "googleAnalytics": "Google Analytics — for anonymous usage statistics",
+     "cdnProviders": "CDN providers — for loading open-source libraries (e.g., FFmpeg WASM)"
+    },
+    "outro": "Each of these services has its own privacy policy governing how they handle data."
+   },
+   "childrenPrivacy": {
+    "title": "Children's Privacy",
+    "body": "ToolkitLife is not directed at children under 13. We do not knowingly collect personal information from children."
+   },
+   "changes": {
+    "title": "Changes to This Policy",
+    "body": "We may update this privacy policy from time to time. Changes will be reflected on this page with an updated date."
+   },
+   "contact": {
+    "title": "Contact",
+    "body": "If you have questions about this privacy policy, you can reach us through the contact information on our website."
+   }
+  }
+ },
+ "terms": {
+  "metadata": {
+   "title": "Terms of Service - ToolkitLife",
+   "description": "Terms of service for ToolkitLife free online developer and design tools."
+  },
+  "breadcrumb": {
+   "home": "Home",
+   "current": "Terms of Service"
+  },
+  "title": "Terms of Service",
+  "lastUpdated": "Last updated:",
+  "sections": {
+   "acceptance": {
+    "title": "Acceptance of Terms",
+    "body": "By accessing and using ToolkitLife (\"the Service\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service."
+   },
+   "description": {
+    "title": "Description of Service",
+    "body": "ToolkitLife provides a collection of free, browser-based developer and design tools. All tools run locally in your web browser. We do not process, store, or transmit your data to any server."
+   },
+   "use": {
+    "title": "Use of the Service",
+    "intro": "You agree to use ToolkitLife only for lawful purposes. You may not:",
+    "items": {
+     "noRightToModify": "Use the tools to process content that you do not have the right to modify",
+     "disruptService": "Attempt to disrupt or overload the Service",
+     "scrapeCommercial": "Scrape, crawl, or otherwise extract data from the Service for commercial purposes without permission",
+     "violateLaws": "Use the Service in any way that violates applicable laws or regulations"
+    }
+   },
+   "intellectualProperty": {
+    "title": "Intellectual Property",
+    "body": "The content you create or modify using ToolkitLife remains yours. We make no claim to any files, images, videos, text, or other content you process through our tools. The ToolkitLife website, branding, and tool source code are our intellectual property."
+   },
+   "disclaimer": {
+    "title": "Disclaimer of Warranties",
+    "body": "ToolkitLife is provided \"as is\" and \"as available\" without warranties of any kind, either express or implied. We do not guarantee that the tools will produce specific results, be error-free, or be available at all times."
+   },
+   "limitation": {
+    "title": "Limitation of Liability",
+    "body": "To the fullest extent permitted by law, ToolkitLife and its operators shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Service. This includes but is not limited to loss of data, loss of profits, or damage to your device."
+   },
+   "watermark": {
+    "title": "Watermark Removal Disclaimer",
+    "body": "Our watermark removal tools are provided for legitimate use cases such as removing your own watermarks, cleaning up personal photos, or processing content you own or have permission to modify. You are solely responsible for ensuring you have the right to modify any content you process. We do not encourage or condone copyright infringement."
+   },
+   "changes": {
+    "title": "Changes to Terms",
+    "body": "We reserve the right to modify these terms at any time. Continued use of the Service after changes constitutes acceptance of the new terms."
+   },
+   "contact": {
+    "title": "Contact",
+    "body": "If you have questions about these terms, you can reach us through the contact information on our website."
+   }
+  }
+ },
+ "blogLayout": {
+  "breadcrumbHome": "Home",
+  "breadcrumbBlog": "Blog",
+  "faqTitle": "FAQ",
+  "relatedToolsTitle": "Related Tools",
+  "relatedArticlesTitle": "Related Articles",
+  "tryCta": "Try {name}"
+ },
+ "blogIndex": {
+  "metadata": {
+   "title": "Blog - ToolkitLife",
+   "description": "Tips, guides, and tutorials about productivity, design, video, and developer tools."
+  },
+  "title": "Blog",
+  "description": "Tips, guides, and tutorials about productivity, design, video, and developer tools.",
+  "breadcrumbHome": "Home"
+ }
+}

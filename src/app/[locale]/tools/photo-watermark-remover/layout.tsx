@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/photo-watermark-remover`,
         ja: `https://www.toolkitlife.com/ja/tools/photo-watermark-remover`,
         ko: `https://www.toolkitlife.com/ko/tools/photo-watermark-remover`,
+        ru: `https://www.toolkitlife.com/ru/tools/photo-watermark-remover`,
       },
     },
   };

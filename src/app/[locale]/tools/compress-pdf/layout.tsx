@@ -23,6 +23,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/compress-pdf`,
         ja: `https://www.toolkitlife.com/ja/tools/compress-pdf`,
         ko: `https://www.toolkitlife.com/ko/tools/compress-pdf`,
+        ru: `https://www.toolkitlife.com/ru/tools/compress-pdf`,
       },
     },
   };

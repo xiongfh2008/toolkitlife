@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/barcode-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/barcode-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/barcode-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/barcode-generator`,
       },
     },
   };

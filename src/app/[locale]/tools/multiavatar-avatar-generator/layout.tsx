@@ -37,6 +37,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/multiavatar-avatar-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/multiavatar-avatar-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/multiavatar-avatar-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/multiavatar-avatar-generator`,
       },
     },
   };

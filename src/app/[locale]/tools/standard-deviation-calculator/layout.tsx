@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/standard-deviation-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/standard-deviation-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/standard-deviation-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/standard-deviation-calculator`,
       },
     },
   };

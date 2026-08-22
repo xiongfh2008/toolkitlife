@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/css-flexbox`,
         ja: `https://www.toolkitlife.com/ja/tools/css-flexbox`,
         ko: `https://www.toolkitlife.com/ko/tools/css-flexbox`,
+        ru: `https://www.toolkitlife.com/ru/tools/css-flexbox`,
       },
     },
   };

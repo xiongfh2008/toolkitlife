@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/student-loan-tax-bomb-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/student-loan-tax-bomb-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/student-loan-tax-bomb-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/student-loan-tax-bomb-calculator`,
       },
     },
   };

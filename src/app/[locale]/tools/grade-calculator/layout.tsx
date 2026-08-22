@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/grade-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/grade-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/grade-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/grade-calculator`,
       },
     },
   };

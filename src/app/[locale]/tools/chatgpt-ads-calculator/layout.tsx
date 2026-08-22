@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/chatgpt-ads-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/chatgpt-ads-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/chatgpt-ads-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/chatgpt-ads-calculator`,
       },
     },
   };

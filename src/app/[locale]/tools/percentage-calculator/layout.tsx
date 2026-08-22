@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/percentage-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/percentage-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/percentage-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/percentage-calculator`,
       },
     },
   };

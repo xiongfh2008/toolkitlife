@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/future-value-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/future-value-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/future-value-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/future-value-calculator`,
       },
     },
   };

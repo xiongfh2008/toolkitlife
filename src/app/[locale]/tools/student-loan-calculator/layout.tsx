@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/student-loan-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/student-loan-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/student-loan-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/student-loan-calculator`,
       },
     },
   };

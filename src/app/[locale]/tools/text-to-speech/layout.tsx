@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/text-to-speech`,
         ja: `https://www.toolkitlife.com/ja/tools/text-to-speech`,
         ko: `https://www.toolkitlife.com/ko/tools/text-to-speech`,
+        ru: `https://www.toolkitlife.com/ru/tools/text-to-speech`,
       },
     },
   };

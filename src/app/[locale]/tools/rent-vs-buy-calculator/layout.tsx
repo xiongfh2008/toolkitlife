@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/rent-vs-buy-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/rent-vs-buy-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/rent-vs-buy-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/rent-vs-buy-calculator`,
       },
     },
   };

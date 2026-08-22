@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/countdown-timer`,
         ja: `https://www.toolkitlife.com/ja/tools/countdown-timer`,
         ko: `https://www.toolkitlife.com/ko/tools/countdown-timer`,
+        ru: `https://www.toolkitlife.com/ru/tools/countdown-timer`,
       },
     },
   };

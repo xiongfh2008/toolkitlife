@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/apr-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/apr-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/apr-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/apr-calculator`,
       },
     },
   };

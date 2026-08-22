@@ -23,6 +23,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-upscaler`,
         ja: `https://www.toolkitlife.com/ja/tools/image-upscaler`,
         ko: `https://www.toolkitlife.com/ko/tools/image-upscaler`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-upscaler`,
       },
     },
   };

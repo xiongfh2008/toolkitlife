@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/down-payment-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/down-payment-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/down-payment-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/down-payment-calculator`,
       },
     },
   };

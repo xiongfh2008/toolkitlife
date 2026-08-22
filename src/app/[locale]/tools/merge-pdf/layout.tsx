@@ -23,6 +23,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/merge-pdf`,
         ja: `https://www.toolkitlife.com/ja/tools/merge-pdf`,
         ko: `https://www.toolkitlife.com/ko/tools/merge-pdf`,
+        ru: `https://www.toolkitlife.com/ru/tools/merge-pdf`,
       },
     },
   };

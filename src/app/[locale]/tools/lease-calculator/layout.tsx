@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/lease-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/lease-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/lease-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/lease-calculator`,
       },
     },
   };

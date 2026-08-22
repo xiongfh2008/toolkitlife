@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/number-base-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/number-base-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/number-base-converter`,
+        ru: `https://www.toolkitlife.com/ru/tools/number-base-converter`,
       },
     },
   };

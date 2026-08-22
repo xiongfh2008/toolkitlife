@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/salary-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/salary-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/salary-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/salary-calculator`,
       },
     },
   };

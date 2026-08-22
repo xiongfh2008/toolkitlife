@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/heart-rate-zone-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/heart-rate-zone-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/heart-rate-zone-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/heart-rate-zone-calculator`,
       },
     },
   };

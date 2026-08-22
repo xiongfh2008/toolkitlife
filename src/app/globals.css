@@ -1,54 +1,54 @@
 @import "tailwindcss";
 
 /*
- * THEME: Warm editorial workshop.
- * Inverted zinc scale: 950=cream(bg), 100=charcoal(text)
- * Blue → terracotta. This re-skins all 17 tools automatically.
+ * THEME: Indigo toolkit (referencing freetoolkithub.com).
+ * Inverted zinc scale: 950=lavender-tinted light bg, 100=deep navy ink
+ * Blue → indigo (#6366F1). This re-skins all tools automatically.
  *
  * Colors are exposed as CSS variables (non-inline @theme) so the
  * `.dark` class below can re-map the whole palette for night mode.
  */
 @theme {
   /* Backgrounds light → Text dark */
-  --color-zinc-950: #FAF7F2;
+  --color-zinc-950: #F5F5FA;
   --color-zinc-900: #FFFFFF;
-  --color-zinc-800: #F0EBE3;
-  --color-zinc-700: #E0DAD0;
-  --color-zinc-600: #A09A90;
-  --color-zinc-500: #78736B;
-  --color-zinc-400: #5C5750;
-  --color-zinc-300: #44403A;
-  --color-zinc-200: #2E2A25;
-  --color-zinc-100: #1A1815;
-  --color-zinc-50:  #100E0C;
+  --color-zinc-800: #EDEDF5;
+  --color-zinc-700: #E2E2EC;
+  --color-zinc-600: #A9A9C4;
+  --color-zinc-500: #7A7AA5;
+  --color-zinc-400: #55558A;
+  --color-zinc-300: #3D3D6B;
+  --color-zinc-200: #2A2A4D;
+  --color-zinc-100: #1A1A2E;
+  --color-zinc-50:  #12122A;
 
-  /* Terracotta accent replaces blue */
-  --color-blue-50:  #FEF5F2;
-  --color-blue-100: #FDE8E0;
-  --color-blue-200: #F4C4B0;
-  --color-blue-300: #E8A090;
-  --color-blue-400: #D87860;
-  --color-blue-500: #C45D3E;
-  --color-blue-600: #A84D33;
-  --color-blue-700: #8C3F29;
-  --color-blue-800: #70321F;
-  --color-blue-900: #542616;
+  /* Indigo accent replaces blue */
+  --color-blue-50:  #EEF2FF;
+  --color-blue-100: #E0E7FF;
+  --color-blue-200: #C7D2FE;
+  --color-blue-300: #A5B4FC;
+  --color-blue-400: #818CF8;
+  --color-blue-500: #6C70F3;
+  --color-blue-600: #6366F1;
+  --color-blue-700: #4F46E5;
+  --color-blue-800: #4338CA;
+  --color-blue-900: #3730A3;
 
-  /* Warmer greens */
-  --color-green-400: #5E9E40;
-  --color-green-500: #4D8B31;
-  --color-green-600: #3D7826;
+  /* Fresh greens */
+  --color-green-400: #4ADE80;
+  --color-green-500: #22C55E;
+  --color-green-600: #16A34A;
 
-  /* Warmer reds */
-  --color-red-400: #DC6B5A;
-  --color-red-500: #C9503D;
+  /* Fresh reds */
+  --color-red-400: #F87171;
+  --color-red-500: #EF4444;
 
-  /* Warmer yellows */
-  --color-yellow-500: #C89520;
+  /* Fresh yellows */
+  --color-yellow-500: #F59E0B;
 
-  /* Warmer purples */
-  --color-purple-400: #9A7BC4;
-  --color-purple-500: #7E5CA8;
+  /* Fresh purples */
+  --color-purple-400: #A78BFA;
+  --color-purple-500: #8B5CF6;
 
   --font-sans: var(--font-body);
   --font-mono: var(--font-code);
@@ -61,40 +61,40 @@
  * class on <html>, toggled by the ThemeToggle component.
  */
 .dark {
-  --color-zinc-950: #0B0A09;
-  --color-zinc-900: #161412;
-  --color-zinc-800: #211E1B;
-  --color-zinc-700: #37332F;
-  --color-zinc-600: #4A453F;
-  --color-zinc-500: #7A746C;
-  --color-zinc-400: #A19A90;
-  --color-zinc-300: #C9C2B8;
-  --color-zinc-200: #E2DCD2;
-  --color-zinc-100: #F2EDE5;
-  --color-zinc-50:  #FBF8F3;
+  --color-zinc-950: #0C0C18;
+  --color-zinc-900: #151527;
+  --color-zinc-800: #1D1D33;
+  --color-zinc-700: #2B2B48;
+  --color-zinc-600: #3C3C5E;
+  --color-zinc-500: #60608C;
+  --color-zinc-400: #8C8CB6;
+  --color-zinc-300: #B8B8D8;
+  --color-zinc-200: #D6D6EC;
+  --color-zinc-100: #ECECF7;
+  --color-zinc-50:  #F5F5FB;
 
-  --color-blue-50:  #3A231A;
-  --color-blue-100: #4A2C20;
-  --color-blue-200: #5F3828;
-  --color-blue-300: #7C4A33;
-  --color-blue-400: #A85E3F;
-  --color-blue-500: #C4704D;
-  --color-blue-600: #D97F59;
-  --color-blue-700: #E8A080;
-  --color-blue-800: #F4C4A8;
-  --color-blue-900: #FDE8D6;
+  --color-blue-50:  #211E5A;
+  --color-blue-100: #2D2978;
+  --color-blue-200: #3A3698;
+  --color-blue-300: #5552E8;
+  --color-blue-400: #6366F1;
+  --color-blue-500: #6366F1;
+  --color-blue-600: #6366F1;
+  --color-blue-700: #818CF8;
+  --color-blue-800: #A5A8FC;
+  --color-blue-900: #C9CBFE;
 
-  --color-green-400: #6FAE4E;
-  --color-green-500: #5C9C3E;
-  --color-green-600: #4A8A30;
+  --color-green-400: #34D399;
+  --color-green-500: #22C55E;
+  --color-green-600: #22C55E;
 
-  --color-red-400: #E07A68;
-  --color-red-500: #D95F4A;
+  --color-red-400: #F87171;
+  --color-red-500: #EF4444;
 
-  --color-yellow-500: #D9A82E;
+  --color-yellow-500: #FBBF24;
 
-  --color-purple-400: #A98BCF;
-  --color-purple-500: #8F6DB5;
+  --color-purple-400: #A78BFA;
+  --color-purple-500: #8B5CF6;
 }
 
 /* ─── Base ─── */

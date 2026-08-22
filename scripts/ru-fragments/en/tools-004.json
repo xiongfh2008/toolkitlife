@@ -1,0 +1,2397 @@
+{
+ "tools": {
+  "image-crop": {
+   "metadata": {
+    "title": "Image Crop Tool",
+    "description": "Crop images to specific dimensions and aspect ratios",
+    "category": "Design"
+   },
+   "keywords": [
+    "image crop",
+    "crop image",
+    "online image crop tool",
+    "free image cropping",
+    "crop image dimensions",
+    "image cropper",
+    "crop photo",
+    "image cropping editor"
+   ],
+   "faqs": [
+    {
+     "question": "How do I crop an image?",
+     "answer": "Upload the image, select the crop area and click crop."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "JPG, PNG, WebP, GIF and more are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I crop by ratio?",
+     "answer": "Yes, custom ratios and preset ratios are supported."
+    },
+    {
+     "question": "Is there any quality loss after cropping?",
+     "answer": "No, the original quality is preserved."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    }
+   ],
+   "labels": {
+    "upload": "Upload image",
+    "cropX": "Crop X",
+    "cropY": "Crop Y",
+    "cropWidth": "Crop width",
+    "cropHeight": "Crop height",
+    "preview": "Preview",
+    "presets": "Social media presets",
+    "dropPrompt": "Drop an image here or click to upload",
+    "dropHint": "JPG, PNG, WebP, GIF, BMP",
+    "freeCrop": "Free",
+    "cropHint": "Drag on the image to select the crop area",
+    "cropSize": "Crop size"
+   },
+   "buttons": {
+    "download": "Download"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an Image Crop Tool?",
+     "paragraphs": [
+      "An image crop tool is a free online tool that lets you crop images to specific dimensions and aspect ratios.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "image-to-base64": {
+   "metadata": {
+    "title": "Image to Base64",
+    "description": "Convert images to Base64 data URLs",
+    "category": "Developer"
+   },
+   "keywords": [
+    "image to Base64",
+    "Base64 image conversion",
+    "online image to Base64",
+    "free image Base64 tool",
+    "encode image to Base64",
+    "Base64 string generator",
+    "image to data URL",
+    "Base64 encoder"
+   ],
+   "faqs": [
+    {
+     "question": "What is Base64 encoding?",
+     "answer": "An encoding scheme that converts binary data into a text format."
+    },
+    {
+     "question": "How do I convert an image to Base64?",
+     "answer": "Upload the image and the tool automatically generates the Base64 string."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "JPG, PNG, GIF, WebP and more are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I use the generated code directly?",
+     "answer": "Yes, it generates a ready-to-use data URL."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    }
+   ],
+   "labels": {
+    "dropImage": "Drop the image here",
+    "orClick": "Or click to select a file",
+    "fileName": "File name",
+    "fileSize": "File size",
+    "preview": "Preview",
+    "output": "Base64 output"
+   },
+   "buttons": {
+    "copy": "Copy",
+    "clear": "Clear"
+   },
+   "errors": {
+    "invalidImage": "Please select a valid image file."
+   },
+   "guide": {
+    "intro": {
+     "title": "What is Image to Base64?",
+     "paragraphs": [
+      "Image to Base64 is a free online tool that lets you convert images to Base64 data URLs.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "js-minifier": {
+   "metadata": {
+    "title": "JavaScript Minifier",
+    "description": "Minify JavaScript to reduce file size",
+    "category": "Developer"
+   },
+   "keywords": [
+    "js minifier",
+    "javascript minify",
+    "minify js",
+    "js code minification",
+    "js size reduction",
+    "js optimization",
+    "js cleaner",
+    "js compression tool"
+   ],
+   "faqs": [
+    {
+     "question": "What is JavaScript minification?",
+     "answer": "JavaScript minification reduces the size of a JS file by removing unnecessary whitespace, comments and other characters. This can improve page load speed and reduce bandwidth usage."
+    },
+    {
+     "question": "How do I minify JavaScript?",
+     "answer": "Paste your JavaScript code into the input field. Click the minify button. The tool removes whitespace and comments to produce a smaller output. Copy the result or download the minified file."
+    },
+    {
+     "question": "Does minification affect JavaScript functionality?",
+     "answer": "No. Minification only removes characters that are unnecessary for execution. The functionality of your JavaScript remains unchanged. However, it may make the code harder to read or debug."
+    },
+    {
+     "question": "How much can minification reduce file size?",
+     "answer": "The reduction depends on the original JavaScript. Files with lots of whitespace and comments can be reduced by 50-80%. Already compact JS may see only a small reduction."
+    },
+    {
+     "question": "Is my JavaScript sent to a server?",
+     "answer": "No. All minification happens locally in your browser. The code never leaves your device."
+    },
+    {
+     "question": "Can I minify large JavaScript files?",
+     "answer": "Yes. Since minification happens in the browser, it can handle large JavaScript files. However, very large files (>50 MB) may be slow due to browser memory limits."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "HTML Minifier",
+     "href": "/tools/html-minifier"
+    },
+    {
+     "name": "CSS Minifier",
+     "href": "/tools/css-minifier"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    }
+   ],
+   "labels": {
+    "input": "Input",
+    "output": "Output",
+    "inputPlaceholder": "Paste your JavaScript here...",
+    "outputPlaceholder": "Minified JavaScript will appear here...",
+    "saved": "Saved {bytes} bytes"
+   },
+   "buttons": {
+    "minify": "Minify",
+    "clear": "Clear"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a JavaScript Minifier?",
+     "paragraphs": [
+      "A JavaScript minifier is a free online tool for reducing the size of JavaScript files by removing unnecessary whitespace, comments and other characters. This can improve page load speed and reduce bandwidth usage. All minification happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to minify JavaScript",
+      "paragraphs": [
+       "Paste your JavaScript code into the input field. Click the minify button. The tool removes whitespace and comments to produce a smaller output. Copy the result or download the minified file."
+      ]
+     },
+     {
+      "title": "How minification works",
+      "paragraphs": [
+       "Minification removes characters that are not needed in JavaScript: multiple spaces become a single space, comments are removed, and line breaks are removed. It does not obfuscate variable names or change the logic."
+      ]
+     },
+     {
+      "title": "Common use cases",
+      "items": [
+       "Optimize page load speed",
+       "Reduce bandwidth usage",
+       "Prepare JavaScript for production",
+       "Reduce script file size",
+       "Optimize server responses"
+      ]
+     }
+    ]
+   }
+  },
+  "json-to-csv": {
+   "metadata": {
+    "title": "JSON to CSV",
+    "description": "Convert JSON arrays to CSV format",
+    "category": "Developer"
+   },
+   "keywords": [
+    "json to csv",
+    "json to csv converter",
+    "json array to csv",
+    "json export csv",
+    "json table format",
+    "json to spreadsheet",
+    "json data conversion",
+    "json to table"
+   ],
+   "faqs": [
+    {
+     "question": "How do I convert JSON to CSV?",
+     "answer": "Paste a JSON array into the input field. The tool automatically detects the fields and converts the JSON into CSV format. You can copy the result or download it as a .csv file."
+    },
+    {
+     "question": "What format should the JSON be in?",
+     "answer": "The JSON should be an array of objects. Each object represents a row, and the keys become the column headers. For example: [{\"name\":\"John\",\"age\":30},{\"name\":\"Jane\",\"age\":25}]."
+    },
+    {
+     "question": "Can it handle nested JSON?",
+     "answer": "The current version supports flat objects. Nested objects are converted to string representations. For deeply nested JSON, it is recommended to flatten the data before converting."
+    },
+    {
+     "question": "Can the CSV output be opened in spreadsheet software?",
+     "answer": "Yes. The generated CSV is in standard format and can be opened in Excel, Google Sheets, LibreOffice Calc and any other spreadsheet software."
+    },
+    {
+     "question": "Is my JSON data sent to a server?",
+     "answer": "No. All conversion happens locally in your browser. The data never leaves your device."
+    },
+    {
+     "question": "Can I convert large JSON files?",
+     "answer": "Yes. Since conversion happens in the browser, it can handle large JSON arrays. However, very large files (>50 MB) may be slow due to browser memory limits."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    }
+   ],
+   "labels": {
+    "input": "JSON input",
+    "inputPlaceholder": "Paste a JSON array here...",
+    "output": "CSV output",
+    "outputPlaceholder": "CSV will appear here...",
+    "errorFallback": "Invalid JSON"
+   },
+   "buttons": {
+    "convert": "Convert",
+    "copy": "Copy",
+    "download": "Download CSV"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a JSON to CSV Converter?",
+     "paragraphs": [
+      "A JSON to CSV converter is a free online tool for converting an array of JSON objects into CSV (comma-separated values) format. This is useful for exporting JSON data to spreadsheets or for use in tools that require CSV format. All conversion happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to convert JSON to CSV",
+      "paragraphs": [
+       "Paste a JSON array into the input field. The tool automatically detects the fields and converts the JSON into CSV format. Copy the result or download it as a .csv file."
+      ]
+     },
+     {
+      "title": "Understanding the input format",
+      "paragraphs": [
+       "The JSON should be an array of objects. Each object represents a row, and the keys become the column headers. All objects should have the same keys for the best results."
+      ]
+     },
+     {
+      "title": "Common use cases",
+      "items": [
+       "Exporting API responses to spreadsheets",
+       "Converting JSON data to CSV for data analysis",
+       "Preparing data for import tools",
+       "Converting data between formats",
+       "Creating data reports"
+      ]
+     }
+    ]
+   }
+  },
+  "jwt-decoder": {
+   "metadata": {
+    "title": "JWT Decoder",
+    "description": "Decode and inspect JSON Web Tokens (JWT), with signature verification support",
+    "category": "Developer"
+   },
+   "keywords": [
+    "jwt decoder",
+    "decode jwt",
+    "jwt viewer",
+    "json web token",
+    "jwt parser",
+    "jwt token decode",
+    "jwt header payload",
+    "jwt verification"
+   ],
+   "faqs": [
+    {
+     "question": "What is a JWT?",
+     "answer": "A JWT (JSON Web Token) is a compact, URL-safe format for representing claims between parties. It consists of three parts — header, payload and signature — encoded in Base64URL and separated by dots (.)."
+    },
+    {
+     "question": "How do I decode a JWT?",
+     "answer": "Paste the JWT into the input field. The tool decodes it automatically and displays the header and payload parts in a readable format. It also checks whether the token has expired."
+    },
+    {
+     "question": "Can this tool verify JWT signatures?",
+     "answer": "No. This tool only decodes JWTs without verifying the signature. Verification requires the key used to sign the token. Always verify JWTs on the server side."
+    },
+    {
+     "question": "Are JWTs secure?",
+     "answer": "JWTs can be used securely, but must be implemented correctly. Always verify the signature, check the expiration time, do not store sensitive data in the payload (it is Base64 encoded, not encrypted), and use HTTPS in transit."
+    },
+    {
+     "question": "What are common use cases for JWTs?",
+     "answer": "JWTs are commonly used for authentication (after login, the server returns a JWT that the client stores), information exchange (securely transferring information between parties) and authorization (representing user permissions)."
+    },
+    {
+     "question": "Is decoding a JWT safe?",
+     "answer": "Yes. This tool decodes JWTs locally in the browser. No data is sent to any server. However, do not store sensitive information in client-side JWTs, because anyone can decode them."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Hash Generator",
+     "href": "/tools/hash-generator"
+    }
+   ],
+   "labels": {
+    "input": "JWT",
+    "header": "Header",
+    "payload": "Payload",
+    "inputPlaceholder": "Paste your JWT here...",
+    "outputPlaceholder": "The decoded JSON will appear here...",
+    "invalid": "Invalid JWT",
+    "expires": "Expiration"
+   },
+   "buttons": {
+    "decode": "Decode",
+    "clear": "Clear"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a JWT Decoder?",
+     "paragraphs": [
+      "A JWT decoder is a free online tool for decoding and inspecting JSON Web Tokens. It decodes a JWT into its header and payload parts, displays them in a readable format and checks the expiration status. All decoding happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to decode a JWT",
+      "paragraphs": [
+       "Paste the JWT into the input field. The tool decodes it automatically and displays the header and payload in JSON format. It also shows whether the token has expired."
+      ]
+     },
+     {
+      "title": "Understanding the JWT structure",
+      "paragraphs": [
+       "A JWT consists of three parts: the header (contains the algorithm and token type), the payload (contains the claims, i.e. the data) and the signature (used to verify that the message was not changed). The parts are separated by dots (.)."
+      ]
+     },
+     {
+      "title": "Common use cases for JWTs",
+      "items": [
+       "Authentication tokens for web applications",
+       "Sharing user information across domains",
+       "Representing user permissions and roles",
+       "Securely transferring data between microservices",
+       "Implementing stateless session management"
+      ]
+     }
+    ]
+   }
+  },
+  "meta-tag-generator": {
+   "metadata": {
+    "title": "Meta Tag Generator",
+    "description": "Generate HTML meta tags for SEO and social media",
+    "category": "Developer"
+   },
+   "keywords": [
+    "meta tag generator",
+    "html meta tags",
+    "seo meta tags",
+    "open graph generator",
+    "twitter card generator",
+    "meta description generator",
+    "html head tags",
+    "seo tag generation"
+   ],
+   "faqs": [
+    {
+     "question": "What are meta tags?",
+     "answer": "Meta tags are tags in the head of an HTML document that provide metadata about the page, such as the title, description, keywords and Open Graph information. They are not displayed on the page but are used by search engines and social media platforms."
+    },
+    {
+     "question": "How do I use the meta tag generator?",
+     "answer": "Fill in the form fields: title, description, keywords, image and so on. The tool generates the HTML meta tags in real time. Copy the generated code and paste it into the <head> section of your HTML."
+    },
+    {
+     "question": "What are Open Graph tags?",
+     "answer": "Open Graph tags control how your page appears when shared on Facebook, LinkedIn and other social platforms. They define the title, description, image and other elements shown when sharing."
+    },
+    {
+     "question": "What are Twitter card tags?",
+     "answer": "Twitter card tags control how your page appears when shared on Twitter. They are similar to Open Graph tags but specific to Twitter, and can enable special formats such as large images or app install cards."
+    },
+    {
+     "question": "Are meta tags important for SEO?",
+     "answer": "Yes. While meta keywords no longer directly affect rankings, meta titles and descriptions are important for SEO. They appear in search results and can influence click-through rates. Open Graph tags also affect social sharing."
+    },
+    {
+     "question": "Can I generate tags for multiple platforms?",
+     "answer": "Yes. The generator creates standard meta tags, Open Graph tags (for Facebook, LinkedIn, etc.) and Twitter card tags. All tags are included in the generated code."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Robots.txt Generator",
+     "href": "/tools/robots-txt-generator"
+    },
+    {
+     "name": "HTML Minifier",
+     "href": "/tools/html-minifier"
+    }
+   ],
+   "labels": {
+    "title": "Page title",
+    "description": "Description",
+    "imageUrl": "Image URL",
+    "siteName": "Site name",
+    "url": "Page URL",
+    "output": "Generated meta tags"
+   },
+   "buttons": {
+    "copy": "Copy",
+    "clear": "Clear"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Meta Tag Generator?",
+     "paragraphs": [
+      "A meta tag generator is a free online tool for generating SEO-friendly HTML meta tags. It creates standard meta tags, Open Graph tags (for social media) and Twitter card tags. All generation happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to generate meta tags",
+      "paragraphs": [
+       "Fill in the form fields: title, description, keywords, author, image URL and so on. The tool generates the HTML meta tags in real time. Copy the generated code and paste it into the <head> section of your HTML."
+      ]
+     },
+     {
+      "title": "Understanding Open Graph",
+      "paragraphs": [
+       "Open Graph tags control how your page appears when shared on social platforms. The basic tags include og:title, og:description, og:image and og:url. They are important for social sharing."
+      ]
+     },
+     {
+      "title": "Understanding Twitter cards",
+      "paragraphs": [
+       "Twitter card tags control how your page appears when shared on Twitter. They define the card type (summary, large image, etc.) and its content. They complement the Open Graph tags."
+      ]
+     },
+     {
+      "title": "SEO best practices",
+      "items": [
+       "Keep titles between 50-60 characters",
+       "Keep descriptions between 150-160 characters",
+       "Use unique titles and descriptions for each page",
+       "Include relevant keywords without keyword stuffing",
+       "Use at least 1200x630 pixels for Open Graph images"
+      ]
+     }
+    ]
+   }
+  },
+  "neumorphism-generator": {
+   "metadata": {
+    "title": "Neumorphism Generator",
+    "description": "Create neumorphic CSS effects with a visual editor",
+    "category": "Design"
+   },
+   "keywords": [
+    "neumorphism generator",
+    "CSS neumorphism effects",
+    "neumorphic UI generator",
+    "online neumorphism tool",
+    "free neumorphism generator",
+    "generate soft UI effects",
+    "CSS shadow effects",
+    "modern UI design"
+   ],
+   "faqs": [
+    {
+     "question": "What is neumorphism?",
+     "answer": "A soft UI design style created with shadows."
+    },
+    {
+     "question": "How do I generate neumorphic CSS?",
+     "answer": "Adjust the parameters and the tool generates the CSS code."
+    },
+    {
+     "question": "Can I customize the colors?",
+     "answer": "Yes, custom colors and shadows are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Is the generated code compatible with all browsers?",
+     "answer": "Yes, it works with all modern browsers."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Glassmorphism Generator",
+     "href": "/tools/glassmorphism-generator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    }
+   ],
+   "labels": {
+    "shape": "Shape",
+    "distance": "Distance",
+    "blur": "Blur",
+    "intensity": "Intensity",
+    "radius": "Border radius",
+    "backgroundColor": "Background color",
+    "css": "CSS"
+   },
+   "options": {
+    "flat": "Flat",
+    "concave": "Concave",
+    "convex": "Convex",
+    "pressed": "Pressed"
+   },
+   "preview": {
+    "text": "Soft UI"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Neumorphism Generator?",
+     "paragraphs": [
+      "A neumorphism generator is a free online tool that lets you create neumorphic CSS effects with a visual editor.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "placeholder-image": {
+   "metadata": {
+    "title": "Placeholder Image Generator",
+    "description": "Generate placeholder images with custom dimensions and colors",
+    "category": "Design"
+   },
+   "keywords": [
+    "placeholder image generator",
+    "generate placeholder images",
+    "placeholder images",
+    "online placeholder tool",
+    "free placeholder generation",
+    "generate dummy images",
+    "test image generator",
+    "fake image generator"
+   ],
+   "faqs": [
+    {
+     "question": "What is a placeholder image?",
+     "answer": "A temporary image used in design and development."
+    },
+    {
+     "question": "How do I generate a placeholder image?",
+     "answer": "Enter the dimensions and style, and the tool generates the placeholder image."
+    },
+    {
+     "question": "Can I customize the text?",
+     "answer": "Yes, custom text and colors are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "PNG, JPG, SVG and more are supported."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    },
+    {
+     "name": "Favicon Generator",
+     "href": "/tools/favicon-generator"
+    }
+   ],
+   "labels": {
+    "width": "Width (px)",
+    "height": "Height (px)",
+    "backgroundColor": "Background color",
+    "textColor": "Text color",
+    "text": "Text"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "download": "Download PNG",
+    "copyDataUrl": "Copy Data URL"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Placeholder Image Generator?",
+     "paragraphs": [
+      "A placeholder image generator is a free online tool that lets you generate placeholder images with custom dimensions and colors.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "robots-txt-generator": {
+   "metadata": {
+    "title": "Robots.txt Generator",
+    "description": "Generate a robots.txt file for your website",
+    "category": "Developer"
+   },
+   "keywords": [
+    "robots.txt generator",
+    "robots.txt file",
+    "search engine crawlers",
+    "website crawler control",
+    "robots.txt syntax",
+    "seo robots.txt",
+    "crawler directives",
+    "sitemap directives"
+   ],
+   "faqs": [
+    {
+     "question": "What is robots.txt?",
+     "answer": "robots.txt is a text file placed in the root directory of a website. It tells search engine crawlers which pages or files may or may not be crawled on your website."
+    },
+    {
+     "question": "How do I use the robots.txt generator?",
+     "answer": "Select the crawlers to allow (such as Googlebot, Bingbot), add allow and disallow rules, and specify the sitemap location. The tool generates a robots.txt file for you to download or copy."
+    },
+    {
+     "question": "What is the difference between Disallow and Allow directives?",
+     "answer": "Disallow tells crawlers not to access specific paths. Allow overrides Disallow and permits access to specific sub-paths. By default, everything is allowed if no rules are specified."
+    },
+    {
+     "question": "Should I block all crawlers?",
+     "answer": "Usually not. You generally only want to block specific directories (like /admin/ or /private/). Blocking all crawlers (User-agent: * Disallow: /) removes your website from search results."
+    },
+    {
+     "question": "Can robots.txt protect sensitive pages?",
+     "answer": "No. robots.txt is publicly accessible and anyone can read it. It does not prevent users from accessing pages. For real protection, use password protection or server-side authentication."
+    },
+    {
+     "question": "Should I include a Sitemap directive?",
+     "answer": "Yes. Including Sitemap: https://example.com/sitemap.xml helps search engines find your sitemap and index your website better."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Meta Tag Generator",
+     "href": "/tools/meta-tag-generator"
+    },
+    {
+     "name": "URL Encoder/Decoder",
+     "href": "/tools/url-encoder"
+    }
+   ],
+   "labels": {
+    "rule": "Rule",
+    "userAgent": "User-agent",
+    "allow": "Allowed paths (one per line)",
+    "disallow": "Disallowed paths (one per line)",
+    "sitemap": "Sitemap URL",
+    "output": "Generated robots.txt"
+   },
+   "buttons": {
+    "addRule": "Add rule",
+    "remove": "Remove"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Robots.txt Generator?",
+     "paragraphs": [
+      "A robots.txt generator is a free online tool for creating robots.txt files. It helps you control how search engine crawlers interact with your website, specify which paths are allowed or disallowed, and include sitemap references. All generation happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to create robots.txt",
+      "paragraphs": [
+       "Select the crawler to configure (or use * for all crawlers). Add allow and disallow rules to specify which paths may or may not be crawled. Add your sitemap URL. Copy the generated robots.txt content and upload it to the root directory of your website."
+      ]
+     },
+     {
+      "title": "Understanding the syntax",
+      "paragraphs": [
+       "robots.txt uses the User-agent directive to specify which crawler a rule applies to. The Disallow directive blocks access to paths. The Allow directive overrides Disallow. The Sitemap directive specifies the sitemap location."
+      ]
+     },
+     {
+      "title": "Common patterns",
+      "items": [
+       "Blocking all crawlers from the admin area",
+       "Allowing a specific crawler to access everything",
+       "Blocking access to private directories",
+       "Specifying the sitemap location",
+       "Setting different rules for different crawlers"
+      ]
+     }
+    ]
+   }
+  },
+  "svg-blob-generator": {
+   "metadata": {
+    "title": "SVG Blob Generator",
+    "description": "Generate organic SVG blob shapes",
+    "category": "Design"
+   },
+   "keywords": [
+    "SVG blob generator",
+    "generate SVG blobs",
+    "organic shape generator",
+    "online blob tool",
+    "free blob generator",
+    "generate organic shapes",
+    "SVG random shapes",
+    "blob maker"
+   ],
+   "faqs": [
+    {
+     "question": "What is an SVG blob?",
+     "answer": "An irregular organic shape, often used in modern design."
+    },
+    {
+     "question": "How do I generate a blob?",
+     "answer": "Adjust the parameters and the tool randomly generates an SVG blob."
+    },
+    {
+     "question": "Can I customize the colors?",
+     "answer": "Yes, custom colors and sizes are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I download the SVG file?",
+     "answer": "Yes, downloading the SVG and copying the code are both supported."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "SVG Wave Generator",
+     "href": "/tools/svg-wave-generator"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "CSS clip-path",
+     "href": "/tools/css-clip-path"
+    }
+   ],
+   "labels": {
+    "complexity": "Complexity",
+    "color": "Color",
+    "size": "Size",
+    "seed": "Seed",
+    "svgCode": "SVG code"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "copySvg": "Copy SVG",
+    "downloadSvg": "Download SVG"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an SVG Blob Shape Generator?",
+     "paragraphs": [
+      "An SVG Blob Shape Generator is a free online tool that lets you generate organic SVG blob shapes.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "svg-wave-generator": {
+   "metadata": {
+    "title": "SVG Wave Generator",
+    "description": "Generate SVG wave patterns for backgrounds and dividers",
+    "category": "Design"
+   },
+   "keywords": [
+    "SVG wave generator",
+    "generate SVG waves",
+    "wave shape generator",
+    "online wave tool",
+    "free wave generator",
+    "generate wave backgrounds",
+    "SVG wave code",
+    "wave maker"
+   ],
+   "faqs": [
+    {
+     "question": "How do I generate SVG waves?",
+     "answer": "Adjust the waveform, amplitude and frequency, and the tool generates the SVG code."
+    },
+    {
+     "question": "Can I customize the colors?",
+     "answer": "Yes, custom colors and gradients are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I download the SVG file?",
+     "answer": "Yes, downloading the SVG and copying the code are both supported."
+    },
+    {
+     "question": "Can I generate multiple wave layers?",
+     "answer": "Yes, layered waves are supported."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "SVG Blob Generator",
+     "href": "/tools/svg-blob-generator"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "CSS Background Patterns",
+     "href": "/tools/css-background-pattern"
+    }
+   ],
+   "labels": {
+    "type": "Type",
+    "amplitude": "Amplitude",
+    "frequency": "Frequency",
+    "phase": "Phase",
+    "strokeWidth": "Stroke width",
+    "color": "Color",
+    "svgCode": "SVG code"
+   },
+   "options": {
+    "sine": "Sine wave",
+    "sawtooth": "Sawtooth wave",
+    "square": "Square wave"
+   },
+   "buttons": {
+    "copySvg": "Copy SVG",
+    "downloadSvg": "Download SVG"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an SVG Wave Generator?",
+     "paragraphs": [
+      "An SVG wave generator is a free online tool that lets you generate SVG wave patterns for backgrounds and dividers.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "text-case-converter": {
+   "metadata": {
+    "title": "Text Case Converter",
+    "description": "Convert text between different cases: upper, lower, title, sentence",
+    "category": "Text"
+   },
+   "keywords": [
+    "text case conversion",
+    "convert text case",
+    "online case tool",
+    "free case converter",
+    "text format conversion",
+    "uppercase to lowercase",
+    "lowercase to uppercase",
+    "capitalize first letter"
+   ],
+   "faqs": [
+    {
+     "question": "How do I convert text case?",
+     "answer": "Paste your text, choose a conversion format and click convert."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "UPPERCASE, lowercase, Title Case, Sentence case and more are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I convert in batch?",
+     "answer": "Yes, batch processing is supported."
+    },
+    {
+     "question": "Are multiple languages supported?",
+     "answer": "Yes, including Chinese, English and more."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "URL Encoder",
+     "href": "/tools/url-encoder"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    }
+   ],
+   "labels": {
+    "enterText": "Enter text",
+    "output": "Output"
+   },
+   "buttons": {
+    "lower": "lowercase",
+    "upper": "UPPERCASE",
+    "title": "Title Case",
+    "sentence": "Sentence case",
+    "camelCase": "camelCase",
+    "snakeCase": "snake_case",
+    "kebabCase": "kebab-case"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Text Case Converter?",
+     "paragraphs": [
+      "A text case converter is a free online tool that lets you convert text between different cases: upper, lower, title, sentence.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "timestamp-converter": {
+   "metadata": {
+    "title": "Timestamp Converter",
+    "description": "Convert between Unix timestamps and human-readable dates",
+    "category": "Developer"
+   },
+   "keywords": [
+    "timestamp converter",
+    "unix timestamp",
+    "epoch time",
+    "timestamp to date",
+    "date to timestamp",
+    "current timestamp",
+    "epoch converter",
+    "timestamp generator"
+   ],
+   "faqs": [
+    {
+     "question": "What is a Unix timestamp?",
+     "answer": "A Unix timestamp is the number of seconds elapsed since January 1, 1970 00:00:00 UTC (known as the \"epoch\"). It is a standard way to represent time in computer systems and programming."
+    },
+    {
+     "question": "How do I convert a timestamp to a date?",
+     "answer": "Enter the Unix timestamp in the timestamp field. The tool instantly converts it to a human-readable date and time, displayed in your local timezone and UTC."
+    },
+    {
+     "question": "How do I convert a date to a timestamp?",
+     "answer": "Pick a date and time with the date picker or enter it manually. The tool generates the corresponding Unix timestamp."
+    },
+    {
+     "question": "Are timestamps in seconds or milliseconds?",
+     "answer": "The tool shows both second (10-digit) and millisecond (13-digit) timestamps. Most systems use seconds, but JavaScript's Date.now() returns milliseconds."
+    },
+    {
+     "question": "What is the current timestamp?",
+     "answer": "The current timestamp is shown at the top of the tool and updates in real time every second. It displays the current Unix time in seconds and milliseconds."
+    },
+    {
+     "question": "How are timezones handled?",
+     "answer": "Timestamps are always based on UTC. The converted date is displayed in both your local timezone and UTC for easy reference."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "UUID Generator",
+     "href": "/tools/uuid-generator"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    }
+   ],
+   "labels": {
+    "current": "Current",
+    "seconds": "Seconds",
+    "milliseconds": "Milliseconds",
+    "unit": "Unit",
+    "timestamp": "Timestamp",
+    "datetime": "Date and time",
+    "local": "Local time",
+    "utc": "UTC",
+    "empty": "Please enter a value",
+    "invalid": "Invalid value"
+   },
+   "buttons": {
+    "now": "Now",
+    "toDate": "To date",
+    "toTimestamp": "To timestamp"
+   },
+   "options": {
+    "seconds": "Seconds",
+    "milliseconds": "Milliseconds"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Unix Timestamp Converter?",
+     "paragraphs": [
+      "A Unix timestamp converter is a free online tool for converting between Unix timestamps and human-readable dates. It also shows the live current timestamp. All conversions happen in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to convert a timestamp to a date",
+      "paragraphs": [
+       "Enter the Unix timestamp in the timestamp field. The tool instantly displays the corresponding date and time, formatted in your local timezone and UTC."
+      ]
+     },
+     {
+      "title": "How to convert a date to a timestamp",
+      "paragraphs": [
+       "Pick a date and time with the date picker or enter it manually. The tool generates the corresponding Unix timestamp in seconds and milliseconds."
+      ]
+     },
+     {
+      "title": "Understanding Unix time",
+      "paragraphs": [
+       "Unix time (also called epoch time) is the number of seconds elapsed since January 1, 1970 00:00:00 UTC. It ignores leap seconds and has exactly 86400 seconds per day."
+      ]
+     },
+     {
+      "title": "Common use cases",
+      "items": [
+       "Debugging time-related code in applications",
+       "Converting date formats between systems",
+       "Verifying API timestamps",
+       "Calculating the time between two dates",
+       "Generating timestamps for logs"
+      ]
+     }
+    ]
+   }
+  },
+  "url-encoder": {
+   "metadata": {
+    "title": "URL Encoder",
+    "description": "Encode or decode URLs and query string parameters",
+    "category": "Developer"
+   },
+   "keywords": [
+    "url encoder",
+    "url decoder",
+    "url encoding",
+    "url decoding",
+    "encode url",
+    "decode url",
+    "query parameter encoding",
+    "uri encoder"
+   ],
+   "faqs": [
+    {
+     "question": "What is URL encoding?",
+     "answer": "URL encoding (also called percent-encoding) converts special characters into a format of % followed by two hexadecimal digits. For example, a space becomes %20. This is necessary to safely transmit characters in URLs."
+    },
+    {
+     "question": "How do I encode a URL?",
+     "answer": "Paste the URL or text into the input field. Select the encode mode. The tool converts special characters into their percent-encoded equivalents."
+    },
+    {
+     "question": "How do I decode a URL?",
+     "answer": "Paste the encoded URL into the input field. Select the decode mode. The tool converts percent-encoded characters back to their original format."
+    },
+    {
+     "question": "What is the difference between component encoding and full URI encoding?",
+     "answer": "Component encoding (encodeURIComponent) encodes all characters except alphanumerics and -_.!~*'(). Full URI encoding (encodeURI) does not encode characters that are already valid in URLs, such as :/?#[]@."
+    },
+    {
+     "question": "Why is URL encoding needed?",
+     "answer": "URLs can only use a subset of ASCII characters. URL encoding lets you safely include spaces, Unicode characters and special characters that could conflict with URL syntax."
+    },
+    {
+     "question": "Is URL encoding safe?",
+     "answer": "Yes. This tool encodes and decodes URLs locally in the browser. No data is sent to any server."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    }
+   ],
+   "labels": {
+    "input": "Input",
+    "output": "Output",
+    "error": "Invalid input"
+   },
+   "buttons": {
+    "encode": "Encode",
+    "decode": "Decode"
+   },
+   "options": {
+    "encode": "Encode",
+    "decode": "Decode"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a URL Encoder/Decoder?",
+     "paragraphs": [
+      "A URL encoder/decoder is a free online tool for encoding and decoding URLs and query parameters. It supports both component encoding and full URI encoding modes. All processing happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to encode a URL",
+      "paragraphs": [
+       "Paste the URL or text into the input field. Select the encode mode (component or full URI). The tool converts special characters into percent-encoded format."
+      ]
+     },
+     {
+      "title": "How to decode a URL",
+      "paragraphs": [
+       "Paste the encoded URL into the input field. Select the decode mode. The tool converts percent-encoded characters back to their original format."
+      ]
+     },
+     {
+      "title": "Understanding the encoding modes",
+      "paragraphs": [
+       "Component encoding (encodeURIComponent) encodes all characters except alphanumerics and a few special characters. Full URI encoding (encodeURI) preserves URL structure characters and only encodes characters that are not allowed in URLs."
+      ]
+     },
+     {
+      "title": "Common use cases",
+      "items": [
+       "Encoding URL query parameters",
+       "Encoding URL path segments",
+       "Safely including user input in URLs",
+       "Decoding received URLs",
+       "Preparing parameters for API requests"
+      ]
+     }
+    ]
+   }
+  },
+  "auto-loan-calculator": {
+   "metadata": {
+    "title": "Auto Loan Calculator",
+    "description": "Calculate car loan monthly payments with down payment, trade-in, taxes, and term comparison.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "auto loan calculator",
+    "car payment calculator",
+    "car loan calculator",
+    "vehicle loan calculator",
+    "monthly car payment calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is a good interest rate for an auto loan?",
+     "answer": "As of 2026, good rates for new cars with excellent credit (700+) are 4-6%, and 5-8% for used cars. Rates above 10% are typically subprime. Credit unions often offer lower rates than dealer financing."
+    },
+    {
+     "question": "How much should I put down?",
+     "answer": "An ideal down payment is 20% for new cars and 10% for used cars. A larger down payment reduces monthly payments, total interest, and the risk of being underwater on the loan (owing more than the car is worth)."
+    },
+    {
+     "question": "Are longer loan terms better?",
+     "answer": "Longer terms (72-84 months) have lower monthly payments but significantly higher total interest costs. A 60-month loan is the sweet spot for most buyers - reasonable payments without excessive interest."
+    },
+    {
+     "question": "Does a trade-in reduce sales tax?",
+     "answer": "In most US states, yes. Sales tax is calculated on the price minus the trade-in value. This calculator automatically applies that deduction."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    }
+   ],
+   "labels": {
+    "carPrice": "Car Price",
+    "downPayment": "Down Payment",
+    "tradeIn": "Trade-In Value",
+    "annualRate": "Annual Interest Rate",
+    "term": "Term",
+    "monthlyPayment": "Monthly Payment",
+    "loanAmount": "Loan Amount",
+    "totalInterest": "Total Interest",
+    "totalCost": "Total Cost"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an Auto Loan Calculator?",
+     "body": [
+      "Calculate your monthly car payment with down payment, trade-in, sales tax, and loan term. See total interest and true cost of ownership."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Auto Loan Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Estimate car loan monthly payments, interest, and a repayment schedule."
+  },
+  "bionic-reading": {
+   "metadata": {
+    "title": "Bionic Reading Converter",
+    "description": "Convert text to bionic reading format, bolding word beginnings to improve reading speed",
+    "category": "Text"
+   },
+   "keywords": [
+    "bionic reading",
+    "bionic reading converter",
+    "speed reading",
+    "reading aid",
+    "bold text converter",
+    "fast reading"
+   ],
+   "faqs": [
+    {
+     "question": "What is bionic reading?",
+     "answer": "Bionic reading is a method of guiding the eyes through text by bolding the beginnings of words. The brain automatically fills in the rest, potentially enabling faster reading."
+    },
+    {
+     "question": "Does it actually work?",
+     "answer": "Research and user feedback suggest it can help some people read faster and with more focus. Results vary from person to person."
+    },
+    {
+     "question": "How are words bolded?",
+     "answer": "Typically the first half or the first few letters of each word are bolded, depending on word length."
+    },
+    {
+     "question": "Can I use it on my website?",
+     "answer": "Yes. The output uses HTML bold tags and can be embedded in any web page or document."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "Character Counter",
+     "href": "/tools/character-counter"
+    },
+    {
+     "name": "Text Case Converter",
+     "href": "/tools/text-case-converter"
+    }
+   ],
+   "labels": {
+    "input": "Input",
+    "output": "Output"
+   },
+   "placeholders": {
+    "input": "Type or paste text here",
+    "output": "The result will appear here"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Bionic Reading Converter?",
+     "body": [
+      "Convert text to bionic reading format, which guides the eyes by bolding word beginnings. This technique can help you read faster and with more focus."
+     ]
+    },
+    "howTo": {
+     "title": "How to Convert to Bionic Reading",
+     "intro": "Follow these steps:",
+     "items": [
+      "Type or paste text into the input box.",
+      "The tool automatically converts it to bionic reading format.",
+      "Word beginnings are bolded to guide your eyes.",
+      "Copy the formatted output."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Works best on longer passages of text.",
+      "The effect is subtle but may improve reading speed.",
+      "Uses <b> or <strong> tags in HTML.",
+      "Not every reader finds it helpful - test it for yourself."
+     ]
+    }
+   }
+  },
+  "bmi-calculator": {
+   "metadata": {
+    "title": "BMI Calculator",
+    "description": "Calculate Body Mass Index in imperial or metric units, view BMI categories and healthy weight ranges.",
+    "category": "Health"
+   },
+   "keywords": [
+    "bmi calculator",
+    "body mass index",
+    "bmi chart",
+    "healthy weight",
+    "weight calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is BMI?",
+     "answer": "Body Mass Index (BMI) is a measure of body fat based on height and weight. It's calculated as weight in kilograms divided by height in meters squared. BMI is a screening tool, not a diagnostic measure of body fat or health."
+    },
+    {
+     "question": "What are the BMI categories?",
+     "answer": "Underweight: below 18.5. Normal weight: 18.5-24.9. Overweight: 25.0-29.9. Obese: 30.0 and above. These categories are based on World Health Organization (WHO) guidelines for adults."
+    },
+    {
+     "question": "Is BMI accurate?",
+     "answer": "BMI has limitations. It can't distinguish between muscle and fat mass, so muscular people may have a \"high\" BMI without having high body fat. It also doesn't account for age, sex, bone density, or fat distribution. Use it as one reference point, not a complete health picture."
+    },
+    {
+     "question": "Does BMI apply to children?",
+     "answer": "For children, BMI uses age- and sex-specific percentiles rather than fixed adult categories. Pediatric BMI calculators account for normal growth patterns. This calculator is designed for adults (20+)."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    },
+    {
+     "name": "Body Fat Calculator",
+     "href": "/tools/body-fat-calculator"
+    }
+   ],
+   "labels": {
+    "heightCm": "Height (cm)",
+    "weightKg": "Weight (kg)",
+    "heightFt": "Height (ft)",
+    "heightIn": "Height (in)",
+    "weightLbs": "Weight (lbs)",
+    "bmi": "BMI",
+    "category": "Category"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "metric": "Metric",
+    "imperial": "Imperial"
+   },
+   "categories": {
+    "underweight": "Underweight",
+    "normalWeight": "Normal Weight",
+    "overweight": "Overweight",
+    "obese": "Obese"
+   },
+   "description": "Calculate Body Mass Index (BMI) from height and weight. Supports imperial and metric units, with BMI category classification.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a BMI Calculator?",
+     "body": [
+      "Calculate Body Mass Index (BMI) from height and weight. Supports imperial and metric units, with BMI category classification.",
+      "BMI is a screening tool used to assess whether a person's weight is within a healthy range for their height."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate BMI",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose your preferred unit system (imperial or metric).",
+      "Enter your height and weight.",
+      "Click Calculate to view your BMI and category."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "BMI is a screening tool, not a diagnostic measure.",
+      "Consult a healthcare professional for a full health assessment.",
+      "Combine BMI with other health indicators for a complete picture."
+     ]
+    }
+   }
+  },
+  "color-converter": {
+   "metadata": {
+    "title": "Color Converter",
+    "description": "Convert colors between HEX, RGB, HSL, and other formats",
+    "category": "Design"
+   },
+   "keywords": [
+    "color converter",
+    "convert color formats",
+    "online color conversion tool",
+    "free color converter",
+    "color format conversion",
+    "HEX to RGB",
+    "RGB to HSL",
+    "CMYK converter tool"
+   ],
+   "faqs": [
+    {
+     "question": "How do I convert color formats?",
+     "answer": "Enter a color value and the tool automatically converts it to other formats."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "HEX, RGB, HSL, CMYK, and more."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Are the conversions accurate?",
+     "answer": "Yes, standard algorithms are used to ensure accuracy."
+    },
+    {
+     "question": "Can I save conversion results?",
+     "answer": "Yes, copying and exporting are supported."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    },
+    {
+     "name": "Color Mixer",
+     "href": "/tools/color-mixer"
+    },
+    {
+     "name": "Color Contrast Checker",
+     "href": "/tools/color-contrast-checker"
+    }
+   ],
+   "labels": {
+    "preview": "Preview"
+   },
+   "buttons": {
+    "copy": "Copy CSS"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Color Converter?",
+     "paragraphs": [
+      "A Color Converter is a free online tool that converts colors between HEX, RGB, HSL, and other formats.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "compound-interest-calculator": {
+   "metadata": {
+    "title": "Compound Interest Calculator",
+    "description": "See how your money grows with compound interest and regular contributions.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "compound interest calculator",
+    "investment calculator",
+    "interest calculator",
+    "compound growth calculator",
+    "savings calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is compound interest?",
+     "answer": "Compound interest is interest calculated on both the initial principal and accumulated interest. Unlike simple interest, your earnings generate their own earnings, producing exponential growth over time."
+    },
+    {
+     "question": "How does compounding frequency affect returns?",
+     "answer": "More frequent compounding (daily vs. annual) produces slightly higher returns because interest starts earning interest sooner. The difference is most noticeable with high rates and long time periods."
+    },
+    {
+     "question": "What is the Rule of 72?",
+     "answer": "The Rule of 72 estimates how long it takes to double your money: divide 72 by the annual interest rate. At a 7% annual return, your money doubles roughly every 10.3 years (72 / 7 = 10.3)."
+    },
+    {
+     "question": "Are the results guaranteed?",
+     "answer": "No. This calculator assumes a fixed rate, which suits savings accounts and bonds. Investment returns (stocks, funds) vary year to year. Use average historical returns for long-term projections."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    }
+   ],
+   "labels": {
+    "principal": "Principal",
+    "rate": "Annual Interest Rate (%)",
+    "time": "Investment Period (Years)",
+    "frequency": "Compounding Frequency",
+    "contribution": "Monthly Contribution",
+    "finalAmount": "Final Amount",
+    "totalInterest": "Total Interest",
+    "totalContributions": "Total Contributions"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "annually": "Annually",
+    "semiannually": "Semi-annually",
+    "quarterly": "Quarterly",
+    "monthly": "Monthly",
+    "weekly": "Weekly",
+    "daily": "Daily"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Compound Interest Calculator?",
+     "body": [
+      "Calculate how your money grows with compound interest. See the power of compounding with regular contributions over time."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Compound Interest Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   }
+  },
+  "css-background-pattern": {
+   "metadata": {
+    "title": "CSS Background Pattern Generator",
+    "description": "Generate CSS background patterns",
+    "category": "Design"
+   },
+   "keywords": [
+    "CSS background pattern generator",
+    "CSS pattern maker",
+    "CSS background texture",
+    "online background pattern tool",
+    "free pattern generator",
+    "generate CSS pattern code",
+    "CSS repeating patterns",
+    "background pattern design"
+   ],
+   "faqs": [
+    {
+     "question": "How do I generate a background pattern?",
+     "answer": "Choose a pattern type, adjust the parameters, and the tool generates CSS code."
+    },
+    {
+     "question": "Which pattern types are supported?",
+     "answer": "Dots, lines, grids, gradients, and many more."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Does the generated code work in all browsers?",
+     "answer": "Yes, it is compatible with modern browsers."
+    },
+    {
+     "question": "Can I customize the colors?",
+     "answer": "Yes, colors and sizes can be customized."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "SVG Wave Generator",
+     "href": "/tools/svg-wave-generator"
+    },
+    {
+     "name": "CSS Loader Generator",
+     "href": "/tools/css-loader-generator"
+    }
+   ],
+   "labels": {
+    "pattern": "Pattern",
+    "color1": "Color 1",
+    "color2": "Color 2",
+    "size": "Size",
+    "css": "CSS"
+   },
+   "options": {
+    "grid": "Grid",
+    "dots": "Dots",
+    "lines": "Lines",
+    "checkerboard": "Checkerboard"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Background Pattern Generator?",
+     "paragraphs": [
+      "A CSS Background Pattern Generator is a free online tool that generates CSS background patterns.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "css-border-radius": {
+   "metadata": {
+    "title": "CSS Border Radius Generator",
+    "description": "Visually generate CSS border-radius values",
+    "category": "Design"
+   },
+   "keywords": [
+    "CSS border radius generator",
+    "border-radius maker",
+    "CSS rounded corner effects",
+    "online rounded corner tool",
+    "free rounded corner generator",
+    "generate rounded corner code",
+    "CSS rounded borders",
+    "visual rounded corner editor"
+   ],
+   "faqs": [
+    {
+     "question": "How do I generate rounded corners?",
+     "answer": "Adjust the parameters and the tool generates CSS border-radius code."
+    },
+    {
+     "question": "Can I create irregular rounded corners?",
+     "answer": "Yes, you can customize the radius of each corner."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Does the generated code work in all browsers?",
+     "answer": "Yes, it is compatible with modern browsers."
+    },
+    {
+     "question": "Can I create elliptical corners?",
+     "answer": "Yes, horizontal and vertical radii are supported."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "CSS Transform Generator",
+     "href": "/tools/css-transform-generator"
+    }
+   ],
+   "labels": {
+    "topLeft": "Top Left",
+    "topRight": "Top Right",
+    "bottomRight": "Bottom Right",
+    "bottomLeft": "Bottom Left"
+   },
+   "buttons": {
+    "copy": "Copy CSS"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Border Radius Generator?",
+     "paragraphs": [
+      "A CSS Border Radius Generator is a free online tool that lets you generate CSS border-radius values visually.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "css-cubic-bezier": {
+   "metadata": {
+    "title": "CSS Bezier Curve Generator",
+    "description": "Visual CSS cubic-bezier easing function generator",
+    "category": "Design"
+   },
+   "keywords": [
+    "CSS bezier curve generator",
+    "cubic-bezier maker",
+    "CSS animation curve",
+    "online bezier tool",
+    "free bezier generator",
+    "generate easing function",
+    "CSS transition curve",
+    "visual bezier editor"
+   ],
+   "faqs": [
+    {
+     "question": "What is a bezier curve?",
+     "answer": "A curve used to define easing functions for CSS animations."
+    },
+    {
+     "question": "How do I generate a bezier curve?",
+     "answer": "Adjust the control points and the tool generates cubic-bezier code."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Does the generated code work in all browsers?",
+     "answer": "Yes, it is compatible with modern browsers."
+    },
+    {
+     "question": "Can I preview the animation?",
+     "answer": "Yes, the animation is previewed in real time."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Transform Generator",
+     "href": "/tools/css-transform-generator"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    }
+   ],
+   "labels": {
+    "duration": "Duration",
+    "preview": "Preview"
+   },
+   "buttons": {
+    "copy": "Copy Cubic Bezier",
+    "play": "Play"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Bezier Curve Generator?",
+     "paragraphs": [
+      "A CSS Bezier Curve Generator is a free online tool that provides a visual CSS cubic-bezier easing function generator.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "css-flexbox": {
+   "metadata": {
+    "title": "CSS Flexbox Generator",
+    "description": "Visual CSS Flexbox generator with live preview",
+    "category": "Design"
+   },
+   "keywords": [
+    "CSS Flexbox generator",
+    "Flexbox layout maker",
+    "CSS flexible layout",
+    "online Flexbox tool",
+    "free Flexbox generator",
+    "generate Flexbox code",
+    "CSS flex box",
+    "visual Flexbox editor"
+   ],
+   "faqs": [
+    {
+     "question": "What is Flexbox?",
+     "answer": "A CSS layout model used to create flexible layouts."
+    },
+    {
+     "question": "How do I generate Flexbox code?",
+     "answer": "Adjust the parameters and the tool generates CSS code."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Does the generated code work in all browsers?",
+     "answer": "Yes, it is compatible with modern browsers."
+    },
+    {
+     "question": "Can I preview the result?",
+     "answer": "Yes, the layout is previewed in real time."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Grid Generator",
+     "href": "/tools/css-grid"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    }
+   ],
+   "labels": {
+    "direction": "Main Axis Direction",
+    "justifyContent": "Main Axis Alignment",
+    "alignItems": "Cross Axis Alignment",
+    "flexWrap": "Wrap",
+    "gap": "Gap",
+    "items": "Number of Items"
+   },
+   "buttons": {
+    "copy": "Copy CSS"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Flexbox Generator?",
+     "paragraphs": [
+      "A CSS Flexbox Generator is a free online tool that provides a visual CSS Flexbox generator with live preview.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "css-grid": {
+   "metadata": {
+    "title": "CSS Grid Generator",
+    "description": "Visual CSS Grid generator with live preview",
+    "category": "Design"
+   },
+   "keywords": [
+    "CSS Grid generator",
+    "Grid layout maker",
+    "CSS grid layout",
+    "online Grid tool",
+    "free Grid generator",
+    "generate Grid code",
+    "CSS grid system",
+    "visual Grid editor"
+   ],
+   "faqs": [
+    {
+     "question": "What is CSS Grid?",
+     "answer": "A two-dimensional CSS layout system used to create grid layouts."
+    },
+    {
+     "question": "How do I generate Grid code?",
+     "answer": "Adjust the parameters and the tool generates CSS code."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Does the generated code work in all browsers?",
+     "answer": "Yes, it is compatible with modern browsers."
+    },
+    {
+     "question": "Can I preview the result?",
+     "answer": "Yes, the layout is previewed in real time."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Flexbox Generator",
+     "href": "/tools/css-flexbox"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    }
+   ],
+   "labels": {
+    "columns": "Columns",
+    "rows": "Rows",
+    "gap": "Gap",
+    "items": "Items"
+   },
+   "buttons": {
+    "copy": "Copy CSS"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Grid Generator?",
+     "paragraphs": [
+      "A CSS Grid Generator is a free online tool that provides a visual CSS Grid generator with live preview.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "css-text-shadow": {
+   "metadata": {
+    "title": "CSS Text Shadow Generator",
+    "description": "Visually generate CSS text-shadow effects",
+    "category": "Design"
+   },
+   "keywords": [
+    "CSS text shadow generator",
+    "text-shadow maker",
+    "CSS text effects",
+    "online text shadow tool",
+    "free text shadow generator",
+    "generate text shadow code",
+    "CSS text shadow",
+    "visual text shadow editor"
+   ],
+   "faqs": [
+    {
+     "question": "How do I generate a text shadow?",
+     "answer": "Adjust the parameters and the tool generates CSS text-shadow code."
+    },
+    {
+     "question": "Can I add multiple shadow layers?",
+     "answer": "Yes, multiple layered shadows are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Does the generated code work in all browsers?",
+     "answer": "Yes, it is compatible with modern browsers."
+    },
+    {
+     "question": "Can I create neon effects?",
+     "answer": "Yes, various text effects can be created."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "CSS Transform Generator",
+     "href": "/tools/css-transform-generator"
+    }
+   ],
+   "labels": {
+    "xOffset": "X Offset",
+    "yOffset": "Y Offset",
+    "blur": "Blur",
+    "color": "Color",
+    "preview": "Preview"
+   },
+   "buttons": {
+    "copy": "Copy CSS"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Text Shadow Generator?",
+     "paragraphs": [
+      "A CSS Text Shadow Generator is a free online tool that lets you generate CSS text-shadow effects visually.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

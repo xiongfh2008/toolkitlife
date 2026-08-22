@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/home-affordability-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/home-affordability-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/home-affordability-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/home-affordability-calculator`,
       },
     },
   };

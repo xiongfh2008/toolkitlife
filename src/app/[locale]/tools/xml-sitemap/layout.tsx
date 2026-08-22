@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/xml-sitemap`,
         ja: `https://www.toolkitlife.com/ja/tools/xml-sitemap`,
         ko: `https://www.toolkitlife.com/ko/tools/xml-sitemap`,
+        ru: `https://www.toolkitlife.com/ru/tools/xml-sitemap`,
       },
     },
   };

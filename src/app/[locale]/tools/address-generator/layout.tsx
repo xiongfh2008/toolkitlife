@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/address-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/address-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/address-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/address-generator`,
       },
     },
   };

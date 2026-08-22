@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/html-table-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/html-table-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/html-table-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/html-table-generator`,
       },
     },
   };

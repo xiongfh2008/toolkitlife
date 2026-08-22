@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-border`,
         ja: `https://www.toolkitlife.com/ja/tools/image-border`,
         ko: `https://www.toolkitlife.com/ko/tools/image-border`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-border`,
       },
     },
   };

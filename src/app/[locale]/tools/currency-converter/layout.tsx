@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/currency-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/currency-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/currency-converter`,
+        ru: `https://www.toolkitlife.com/ru/tools/currency-converter`,
       },
     },
   };

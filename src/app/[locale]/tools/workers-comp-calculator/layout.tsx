@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/workers-comp-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/workers-comp-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/workers-comp-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/workers-comp-calculator`,
       },
     },
   };

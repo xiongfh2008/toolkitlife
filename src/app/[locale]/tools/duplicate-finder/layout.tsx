@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/duplicate-finder`,
         ja: `https://www.toolkitlife.com/ja/tools/duplicate-finder`,
         ko: `https://www.toolkitlife.com/ko/tools/duplicate-finder`,
+        ru: `https://www.toolkitlife.com/ru/tools/duplicate-finder`,
       },
     },
   };

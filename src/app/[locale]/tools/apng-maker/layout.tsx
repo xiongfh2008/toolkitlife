@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/apng-maker`,
         ja: `https://www.toolkitlife.com/ja/tools/apng-maker`,
         ko: `https://www.toolkitlife.com/ko/tools/apng-maker`,
+        ru: `https://www.toolkitlife.com/ru/tools/apng-maker`,
       },
     },
   };

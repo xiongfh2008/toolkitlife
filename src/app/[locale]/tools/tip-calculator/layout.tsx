@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/tip-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/tip-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/tip-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/tip-calculator`,
       },
     },
   };

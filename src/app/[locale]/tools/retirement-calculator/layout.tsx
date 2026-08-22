@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/retirement-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/retirement-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/retirement-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/retirement-calculator`,
       },
     },
   };

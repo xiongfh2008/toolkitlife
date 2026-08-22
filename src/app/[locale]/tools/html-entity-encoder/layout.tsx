@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/html-entity-encoder`,
         ja: `https://www.toolkitlife.com/ja/tools/html-entity-encoder`,
         ko: `https://www.toolkitlife.com/ko/tools/html-entity-encoder`,
+        ru: `https://www.toolkitlife.com/ru/tools/html-entity-encoder`,
       },
     },
   };

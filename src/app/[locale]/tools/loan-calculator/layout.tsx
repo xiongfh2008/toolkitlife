@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/loan-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/loan-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/loan-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/loan-calculator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/child-support-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/child-support-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/child-support-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/child-support-calculator`,
       },
     },
   };

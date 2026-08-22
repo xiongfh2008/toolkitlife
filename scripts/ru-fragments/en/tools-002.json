@@ -1,0 +1,3221 @@
+{
+ "tools": {
+  "scroll-capture": {
+   "metadata": {
+    "title": "Screen Capture - Screenshot Tool",
+    "description": "Capture any area of your screen, add annotations, and download as PNG. One click, no URL needed, nothing uploaded."
+   },
+   "title": "Screen Capture",
+   "description": "Capture any area of your screen, add annotations, and download as PNG. One click, no URL needed, nothing uploaded.",
+   "category": "Utility",
+   "keywords": [
+    "screen capture",
+    "screenshot",
+    "screen shot tool",
+    "annotate screenshot",
+    "capture screen",
+    "crop screenshot"
+   ],
+   "faqs": [
+    {
+     "question": "How does this tool work?",
+     "answer": "Click Start Screen Capture, choose the screen, window, or tab to capture in the browser dialog, then drag a box on the preview to select the area. You can annotate it with shapes, arrows, text, or mosaic before saving."
+    },
+    {
+     "question": "Can I capture only part of the screen?",
+     "answer": "Yes. After the capture starts, drag on the preview to choose any rectangular area. Everything outside the box is excluded."
+    },
+    {
+     "question": "Can I annotate the screenshot?",
+     "answer": "Yes. A toolbar offers pencil, shapes (rectangle, circle, arrow), text, and mosaic. You can undo any step with Ctrl+Z."
+    },
+    {
+     "question": "Why does the browser ask for screen sharing?",
+     "answer": "The tool uses your browser's built-in screen capture, so the system asks you to choose which screen, window, or tab to share. Your image is processed entirely in your browser — nothing is uploaded."
+    },
+    {
+     "question": "Does it work on mobile?",
+     "answer": "Screen capture requires a desktop browser with getDisplayMedia support (Chrome, Edge, Firefox, Safari on desktop). It is not available on mobile browsers."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Screen Recorder",
+     "href": "/tools/screen-recorder"
+    },
+    {
+     "name": "Screen Color Picker",
+     "href": "/tools/screen-color-picker"
+    },
+    {
+     "name": "Image Stitcher",
+     "href": "/tools/image-stitcher"
+    }
+   ],
+   "intro": {
+    "line1": "Capture any area of your screen — no URLs, no uploads.",
+    "line2": "How it works:",
+    "steps": [
+     "Click Start Screen Capture and choose the screen, window, or tab to capture.",
+     "Drag on the preview to select the area, or keep it as the full screen.",
+     "Annotate with pencil, shapes, arrows, text, or mosaic if you like.",
+     "Click the checkmark to finish and download the PNG."
+    ]
+   },
+   "start": "Start Screen Capture",
+   "processing": "Screen capture in progress…",
+   "startHint": "Click the button, then choose what to capture in the browser dialog.",
+   "buttons": {
+    "restart": "New Capture",
+    "download": "Download PNG",
+    "retry": "Try again"
+   },
+   "result": {
+    "alt": "Captured screenshot",
+    "size": "Size: {size} KB"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Screen Capture?",
+     "body": [
+      "Screen Capture takes a picture of any part of your screen using your browser's built-in capture API. You can crop to the area you need and add annotations before saving. Everything stays in your browser — nothing is uploaded."
+     ]
+    },
+    "howTo": {
+     "title": "How to Take a Screenshot",
+     "intro": "Follow these steps:",
+     "items": [
+      "Click Start Screen Capture and pick the screen, window, or tab to share in the system dialog.",
+      "Drag a rectangle on the preview to crop, or keep the whole screen.",
+      "Use the toolbar to annotate: pencil, rectangle, circle, arrow, text, or mosaic.",
+      "Click the checkmark to confirm and download the PNG, or press Esc to cancel."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Press Ctrl+Z to undo the last annotation step.",
+      "The result is copied to your clipboard automatically on supported browsers.",
+      "For long pages, scroll to the area you want before capturing — this tool captures what is on screen."
+     ]
+    }
+   },
+   "errors": {
+    "notSupported": "Your browser does not support screen capture (getDisplayMedia).",
+    "permissionDenied": "Screen capture permission was denied. Please allow access and try again.",
+    "startFailed": "Could not start screen capture. Please try again."
+   }
+  },
+  "video-to-gif": {
+   "metadata": {
+    "title": "Video to GIF Converter - Free Online Tool",
+    "description": "Convert any video to an animated GIF. Trim, resize, and adjust frame rate. No upload, runs in your browser."
+   },
+   "title": "Video to GIF Converter",
+   "description": "Convert any video to an animated GIF. Trim, resize, and adjust frame rate. No upload, runs in your browser.",
+   "category": "Design",
+   "keywords": [
+    "video to gif",
+    "gif maker",
+    "convert video to gif",
+    "gif converter",
+    "animated gif",
+    "mp4 to gif"
+   ],
+   "faqs": [
+    {
+     "question": "What video formats are supported?",
+     "answer": "Any format your browser can play — MP4, WebM, MOV, AVI, and more. MP4 (H.264) has the best compatibility."
+    },
+    {
+     "question": "Is there a file size limit?",
+     "answer": "No hard limit. Large videos use more RAM since processing happens in your browser. For best results, trim to a short clip before converting."
+    },
+    {
+     "question": "How do I make the GIF smaller?",
+     "answer": "Reduce the width (pixels), lower the FPS, and shorten the duration. A 480px wide, 10fps, 3-second GIF is typically under 2MB."
+    },
+    {
+     "question": "Why does my GIF look grainy?",
+     "answer": "GIFs are limited to 256 colors per frame. Complex scenes with many colors will show banding. Simpler scenes with fewer colors convert better."
+    },
+    {
+     "question": "Is my video uploaded anywhere?",
+     "answer": "No. Everything runs locally in your browser using the Canvas API. Your video never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Compressor",
+     "href": "/tools/video-compressor"
+    },
+    {
+     "name": "Screen Recorder",
+     "href": "/tools/screen-recorder"
+    },
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    }
+   ],
+   "upload": {
+    "icon": "🎬",
+    "drop": "Drop a video or click to upload",
+    "formats": "MP4, WebM, MOV"
+   },
+   "labels": {
+    "start": "Start (s)",
+    "end": "End (s)",
+    "width": "Width (px)",
+    "fps": "FPS"
+   },
+   "duration": "Duration: {duration}s | {frames} frames",
+   "progress": {
+    "extracting": "Extracting frames...",
+    "encoding": "Encoding GIF..."
+   },
+   "buttons": {
+    "convert": "Convert to GIF",
+    "newVideo": "New Video",
+    "download": "Download GIF"
+   },
+   "result": {
+    "alt": "Converted GIF",
+    "size": "Size: {size} MB"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Video to GIF Converter?",
+     "body": [
+      "Turn any video file into an animated GIF right in your browser. Trim the clip, choose the output width, set the frame rate, and download the result."
+     ]
+    },
+    "howTo": {
+     "title": "How to Convert Video to GIF",
+     "intro": "Follow these steps:",
+     "items": [
+      "Upload or drop a video file (MP4, WebM, MOV).",
+      "Set the start and end times to trim the clip.",
+      "Choose the output width and frames per second.",
+      "Click Convert to GIF and download."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Lower the width and FPS to reduce GIF file size.",
+      "Keep clips short for faster processing and smaller files.",
+      "GIFs support 256 colors per frame; simple scenes look best."
+     ]
+    }
+   }
+  },
+  "image-to-gif": {
+   "metadata": {
+    "title": "Image to GIF Maker - Free Online Tool",
+    "description": "Turn images into an animated GIF. Add multiple photos, set frame delay and size, and reorder frames. No upload, runs in your browser."
+   },
+   "title": "Image to GIF Maker",
+   "description": "Turn images into an animated GIF. Add multiple photos, set frame delay and size, and reorder frames. No upload, runs in your browser.",
+   "category": "Design",
+   "keywords": [
+    "image to gif",
+    "gif maker",
+    "create gif from images",
+    "photo to gif",
+    "animated gif creator",
+    "make gif from pictures"
+   ],
+   "faqs": [
+    {
+     "question": "What image formats are supported?",
+     "answer": "PNG, JPG, WEBP, BMP, and more. You can also drag and drop an existing GIF — its frames are automatically extracted and added to your animation."
+    },
+    {
+     "question": "Can I add multiple images?",
+     "answer": "Yes. Upload as many images as you like, then reorder, remove, or preview each frame before generating the GIF."
+    },
+    {
+     "question": "How do I control the animation speed?",
+     "answer": "Use the delay slider, measured in milliseconds. A lower value makes the animation faster; a higher value slows it down."
+    },
+    {
+     "question": "Why does my GIF look grainy?",
+     "answer": "GIFs are limited to 256 colors per frame. Photos with smooth gradients will show banding. Flat-color images and graphics convert best."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. Everything runs locally in your browser using the Canvas API. Your images never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video to GIF Converter",
+     "href": "/tools/video-to-gif"
+    },
+    {
+     "name": "GIF to Images Splitter",
+     "href": "/tools/gif-to-images"
+    },
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    }
+   ],
+   "upload": {
+    "icon": "🖼",
+    "drop": "Drop images or click to upload",
+    "formats": "PNG, JPG, WEBP, GIF"
+   },
+   "labels": {
+    "frames": "Frames",
+    "delay": "Frame delay",
+    "width": "Width (px)",
+    "height": "Height (px)",
+    "lockAspect": "Lock aspect ratio",
+    "preview": "Preview"
+   },
+   "buttons": {
+    "clear": "Clear all",
+    "pause": "Pause",
+    "play": "Play",
+    "processing": "Processing...",
+    "generate": "Generate GIF",
+    "download": "Download GIF"
+   },
+   "result": {
+    "alt": "Generated GIF",
+    "size": "Size: {size} KB"
+   },
+   "errors": {
+    "load": "Failed to load the image.",
+    "encode": "Failed to encode the GIF."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Image to GIF Maker?",
+     "body": [
+      "Combine multiple pictures into an animated GIF right in your browser. Add frames, set the delay between them, pick the output size, and download your animation."
+     ]
+    },
+    "howTo": {
+     "title": "How to Make a GIF from Images",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload one or more images (PNG, JPG, WEBP, GIF).",
+      "Reorder or remove frames as needed.",
+      "Set the frame delay and output width and height.",
+      "Click Generate GIF, then download the result."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Keep the animation short — fewer frames make smaller files.",
+      "Reduce the width to shrink file size while keeping quality.",
+      "Use consistent image sizes for smoother animations."
+     ]
+    }
+   }
+  },
+  "gif-to-images": {
+   "metadata": {
+    "title": "GIF to Images Splitter - Free Online Tool",
+    "description": "Extract all frames from a GIF as individual images. Export each frame as PNG, WEBP, or JPEG, or download all frames as a ZIP. No upload, runs in your browser."
+   },
+   "title": "GIF to Images Splitter",
+   "description": "Extract all frames from a GIF as individual images. Export each frame as PNG, WEBP, or JPEG, or download all frames as a ZIP. No upload, runs in your browser.",
+   "category": "Design",
+   "keywords": [
+    "gif to images",
+    "gif splitter",
+    "extract gif frames",
+    "gif to png",
+    "gif frame extractor",
+    "split gif"
+   ],
+   "faqs": [
+    {
+     "question": "How do I extract frames from a GIF?",
+     "answer": "Drop your GIF into the upload area. Every frame is decoded locally and shown as a thumbnail. Click a frame to download it, or download all frames as a ZIP."
+    },
+    {
+     "question": "Which export formats are available?",
+     "answer": "PNG (lossless, recommended), WEBP, and JPEG. Pick a format before downloading frames."
+    },
+    {
+     "question": "Will transparent backgrounds be preserved?",
+     "answer": "Yes. PNG and WEBP export keep transparency. JPEG does not support transparency and will flatten the background."
+    },
+    {
+     "question": "Is my GIF uploaded anywhere?",
+     "answer": "No. The GIF is decoded entirely in your browser. Your file never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image to GIF Maker",
+     "href": "/tools/image-to-gif"
+    },
+    {
+     "name": "Video to GIF Converter",
+     "href": "/tools/video-to-gif"
+    },
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    }
+   ],
+   "upload": {
+    "icon": "🎞",
+    "drop": "Drop a GIF or click to upload",
+    "formats": "GIF"
+   },
+   "info": {
+    "frames": "{count} frames ({width}×{height})"
+   },
+   "buttons": {
+    "downloadAll": "Download All (ZIP)",
+    "download": "Download",
+    "clear": "Clear"
+   },
+   "errors": {
+    "decode": "Failed to decode this GIF. Please try another file."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the GIF to Images Splitter?",
+     "body": [
+      "Break an animated GIF into its individual frames. Each frame is extracted locally, previewed as a thumbnail, and can be saved as PNG, WEBP, or JPEG — individually or all at once as a ZIP."
+     ]
+    },
+    "howTo": {
+     "title": "How to Split a GIF into Images",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload a GIF file.",
+      "Wait for the frames to be decoded.",
+      "Choose PNG, WEBP, or JPEG as the export format.",
+      "Download frames individually or all at once as a ZIP."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "PNG is lossless and keeps transparency — best for editing.",
+      "Use WEBP when you need smaller files without losing transparency.",
+      "JPEG works well for stills from video-like GIFs, but has no transparency."
+     ]
+    }
+   }
+  },
+  "screen-color-picker": {
+   "metadata": {
+    "title": "Screen Color Picker - Free Online Tool",
+    "description": "Pick any color from your screen with one click. No image upload needed. Copy Hex, RGB, and HSL values instantly. Works in Chrome, Edge, and Safari."
+   },
+   "title": "Screen Color Picker",
+   "description": "Click a button, then click anywhere on your screen — including other apps — to grab the exact color. Copy it as Hex, RGB, or HSL instantly. No image upload, no signup.",
+   "category": "Design",
+   "keywords": [
+    "screen color picker",
+    "color picker",
+    "eyedropper",
+    "pick color from screen",
+    "hex color",
+    "online color picker"
+   ],
+   "faqs": [
+    {
+     "question": "Can I pick colors outside the browser window?",
+     "answer": "Yes. This tool uses your system's built-in eyedropper, so you can click anywhere on your screen — including other applications, the taskbar, or your wallpaper — and it will return the exact color."
+    },
+    {
+     "question": "Why is the button disabled for me?",
+     "answer": "The eyedropper requires the browser's EyeDropper API, supported by Chrome, Edge, Opera, and Safari 17.2+. Firefox and some older browsers don't support it yet — switch to Chrome, Edge, or a recent Safari to use this tool."
+    },
+    {
+     "question": "Is the color data sent anywhere?",
+     "answer": "No. Everything runs locally in your browser. Your picked colors are only stored in your browser's localStorage so your recent picks persist between visits — they are never transmitted."
+    },
+    {
+     "question": "What's the difference from Image Color Picker?",
+     "answer": "Image Color Picker samples colors inside an uploaded picture. This screen picker grabs colors from your actual display without any upload — use it when you want to match a color you see anywhere on your screen."
+    },
+    {
+     "question": "How do I copy a color?",
+     "answer": "After picking, the current color shows Hex, RGB, and HSL values, each with a one-click copy button. Your recent picks appear below as swatches you can click to recall."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    },
+    {
+     "name": "Color Contrast Checker",
+     "href": "/tools/color-contrast-checker"
+    },
+    {
+     "name": "Image Palette",
+     "href": "/tools/image-palette"
+    }
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Click \"Pick Color from Screen\".",
+     "Click anywhere on your screen to sample a color.",
+     "Copy the Hex, RGB, or HSL value with one click.",
+     "Your recent picks are saved for the next visit."
+    ]
+   },
+   "ui": {
+    "pickButton": "Pick Color from Screen",
+    "picking": "Click anywhere on your screen…",
+    "hint": "Click the button, then click anywhere on your screen — other windows included.",
+    "unsupported": "Your browser doesn't support screen color picking. Please use Chrome, Edge, Opera, or Safari 17.2+.",
+    "pickedColor": "Picked Color",
+    "recentPicks": "Recent Colors",
+    "copy": "Copy",
+    "clear": "Clear"
+   }
+  },
+  "multiavatar-avatar-generator": {
+   "metadata": {
+    "title": "Multiavatar Avatar Generator - Free Online Tool",
+    "description": "Generate a unique multicultural avatar from any text. 12+ billion combinations, works fully in your browser. Download as SVG or PNG — no upload, no signup."
+   },
+   "title": "Multiavatar Avatar Generator",
+   "description": "Generate a unique multicultural avatar from any text. Every string produces its own distinct avatar — perfect for profile pictures, gaming logos, and identicons. Runs entirely in your browser.",
+   "category": "Design",
+   "keywords": [
+    "avatar generator",
+    "multicultural avatar",
+    "avatar maker",
+    "identicon",
+    "profile picture generator",
+    "unique avatar"
+   ],
+   "faqs": [
+    {
+     "question": "Does the same text always produce the same avatar?",
+     "answer": "Yes. Multiavatar works like an identicon — the text is hashed into a set of numbers that pick the avatar's parts. Type the same text again and you get the exact same avatar every time."
+    },
+    {
+     "question": "Are my avatars uploaded to a server?",
+     "answer": "No. The generator runs entirely in your browser using a small client-side library. Nothing you type is ever sent anywhere, and no data is stored."
+    },
+    {
+     "question": "Can I use the generated avatars commercially?",
+     "answer": "Yes, the Multiavatar library is free for commercial use. Generated avatars may be used on websites, apps, products, and social profiles without restriction."
+    },
+    {
+     "question": "What download formats are available?",
+     "answer": "SVG for a scalable vector image (crisp at any size) and PNG at 512x512 for easy use on websites, apps, and social profiles. Toggle \"Remove background circle\" for a head-only avatar."
+    },
+    {
+     "question": "How many unique avatars exist?",
+     "answer": "The algorithm combines 48 base designs into 48^6 = 12,230,590,464 possible avatars. Some parts are intentionally similar, but every text string maps to its own distinct avatar."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Favicon Generator",
+     "href": "/tools/favicon-generator"
+    },
+    {
+     "name": "Emoji Picker",
+     "href": "/tools/emoji-picker"
+    }
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Type any text — your name, username, or a random string.",
+     "Watch the avatar update instantly. Hit \"Shuffle\" for a random one.",
+     "Optionally remove the background circle.",
+     "Download as SVG or PNG."
+    ]
+   },
+   "ui": {
+    "seedLabel": "Your text",
+    "placeholder": "Type any text to create your avatar…",
+    "shuffle": "Shuffle",
+    "downloadSvg": "Download SVG",
+    "downloadPng": "Download PNG",
+    "sansEnv": "Remove background circle",
+    "hint": "The same text always generates the same avatar — like a fingerprint for your name.",
+    "loading": "Generating…"
+   }
+  },
+  "video-compressor": {
+   "metadata": {
+    "title": "Video Compressor - Free Online Tool",
+    "description": "Compress video files for free in your browser. Reduce MP4, WebM, and MOV file size with adjustable quality. No upload, no signup — powered by FFmpeg WebAssembly."
+   },
+   "title": "Video Compressor",
+   "description": "Compress video files for free. Reduce MP4, WebM, and MOV file size with adjustable quality. No upload, no signup — runs entirely in your browser.",
+   "category": "Media",
+   "keywords": [
+    "video compressor",
+    "compress video online",
+    "reduce video size",
+    "video file compressor",
+    "mp4 compressor",
+    "compress video for email"
+   ],
+   "faqs": [
+    {
+     "question": "How much can I compress a video?",
+     "answer": "Typically 50-90% reduction depending on the original quality and your compression settings. A 100 MB video can often be reduced to 10-30 MB at medium quality with little visible difference."
+    },
+    {
+     "question": "Does compressing a video reduce quality?",
+     "answer": "Some quality loss is inherent in compression, but at medium-high settings the difference is barely noticeable. The tool lets you preview the result before downloading so you can find the right balance."
+    },
+    {
+     "question": "What video formats are supported?",
+     "answer": "Upload MP4, WebM, or MOV files. The compressed output is always MP4 (H.264) which is universally compatible with all devices and platforms."
+    },
+    {
+     "question": "Is my video uploaded to a server?",
+     "answer": "No. All compression happens locally in your browser using FFmpeg WebAssembly. Your video never leaves your device. Nothing is stored anywhere."
+    },
+    {
+     "question": "Why is compression slow?",
+     "answer": "Video encoding is CPU-intensive work. Processing happens in your browser via WebAssembly, which is slower than native software. Shorter videos and lower resolutions process faster."
+    },
+    {
+     "question": "Can I compress videos for email or Discord?",
+     "answer": "Yes. Email typically limits attachments to 25 MB, Discord free tier to 25 MB. Use medium or high compression to get your video under these limits."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Watermark Remover",
+     "href": "/tools/video-watermark-remover"
+    }
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload your video file (MP4, WebM, MOV).",
+     "Choose quality level and target resolution.",
+     "Click \"Compress Video\" and wait for processing.",
+     "Download your compressed video."
+    ]
+   },
+   "upload": {
+    "icon": "🎬",
+    "title": "Drop a video here or click to upload",
+    "subtitle": "MP4, WebM, MOV — any length, any size"
+   },
+   "videoInfo": {
+    "size": "Size",
+    "duration": "Duration",
+    "resolution": "Resolution"
+   },
+   "quality": {
+    "label": "Quality",
+    "options": {
+     "high": "High (slight)",
+     "medium": "Medium (balanced)",
+     "low": "Low (smallest)",
+     "custom": "Custom CRF"
+    },
+    "customLabel": "CRF: {crf} (lower = better quality, larger file)"
+   },
+   "resolution": {
+    "label": "Resolution",
+    "options": {
+     "480": "480p",
+     "720": "720p",
+     "1080": "1080p",
+     "original": "Original"
+    }
+   },
+   "buttons": {
+    "compress": "Compress Video",
+    "newVideo": "New Video",
+    "download": "Download MP4",
+    "adjust": "Adjust & Retry"
+   },
+   "processing": {
+    "title": "Compressing Video",
+    "statusLoading": "Loading compression engine...",
+    "statusCompressing": "Compressing video...",
+    "statusFinishing": "Finishing up...",
+    "label": "Encoding",
+    "keepOpen": "Processing locally. Keep this tab open."
+   },
+   "done": {
+    "title": "Video Compressed",
+    "original": "Original",
+    "compressed": "Compressed",
+    "reduction": "Reduction"
+   },
+   "errors": {
+    "prefix": "Compression failed: "
+   },
+   "units": {
+    "kb": "{size} KB",
+    "mb": "{size} MB"
+   }
+  },
+  "resume-builder": {
+   "metadata": {
+    "title": "Resume Builder - Free Online Tool",
+    "description": "Build a professional resume for free. Choose a template, fill in your details, and download as PDF. No signup required."
+   },
+   "title": "Resume Builder",
+   "description": "Build a professional resume for free. Choose a template, fill in your details, and download as PDF. No signup required.",
+   "category": "Utility",
+   "keywords": [
+    "resume builder",
+    "free resume maker",
+    "online resume builder",
+    "CV builder",
+    "create resume",
+    "PDF resume"
+   ],
+   "faqs": [
+    {
+     "question": "Is this resume builder completely free?",
+     "answer": "Yes, 100% free with no limits. Build and download unlimited resumes. No signup, no watermark, no hidden fees. Everything runs in your browser."
+    },
+    {
+     "question": "How do I download my resume as a PDF?",
+     "answer": "Click 'Download PDF' and your browser's print dialog will open. Select 'Save as PDF' as the destination. This preserves the exact layout and formatting of your resume."
+    },
+    {
+     "question": "Is my data safe?",
+     "answer": "Your resume data never leaves your device. Everything is processed locally in your browser — nothing is uploaded to any server. Close the tab and all data is gone."
+    },
+    {
+     "question": "What resume format should I use?",
+     "answer": "For most job applications, a reverse-chronological format works best — list your most recent experience first. The Classic and Modern templates both use this format. Use Minimal for creative roles or when you want a clean, simple look."
+    },
+    {
+     "question": "Can I use this resume for ATS (Applicant Tracking Systems)?",
+     "answer": "Yes. All templates output clean, readable text that ATS systems can parse. Avoid using images or complex graphics in your resume content for best ATS compatibility."
+    },
+    {
+     "question": "How long should my resume be?",
+     "answer": "One page for early-career professionals (0-10 years). Two pages are acceptable for senior roles with extensive experience. Keep it concise — recruiters spend an average of 6-7 seconds on initial resume screening."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Invoice Generator",
+     "href": "/tools/invoice-generator"
+    },
+    {
+     "name": "PDF to Word Converter",
+     "href": "/tools/pdf-to-word"
+    },
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    }
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Choose a template style (Classic, Modern, or Minimal).",
+     "Fill in your personal details, summary, experience, education, and skills.",
+     "Preview your resume in the right panel.",
+     "Click \"Download PDF\" to save your resume."
+    ]
+   },
+   "templates": {
+    "classic": "Classic",
+    "modern": "Modern",
+    "minimal": "Minimal"
+   },
+   "buttons": {
+    "downloadPdf": "Preview & Print",
+    "add": "Add",
+    "remove": "Remove"
+   },
+   "sections": {
+    "personalInfo": "Personal Info",
+    "workExperience": "Work Experience",
+    "education": "Education"
+   },
+   "labels": {
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "summary": "Summary",
+    "skills": "Skills"
+   },
+   "placeholders": {
+    "fullName": "Full Name",
+    "email": "email@example.com",
+    "phone": "+1 234 567 890",
+    "location": "City, Country",
+    "summary": "Brief professional summary...",
+    "skills": "e.g. JavaScript, Design, Project Management",
+    "jobTitle": "Job Title",
+    "company": "Company",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "endDateBlank": "End Date (leave blank if current)",
+    "responsibilities": "Describe responsibilities...",
+    "degree": "Degree",
+    "school": "School",
+    "startYear": "Start Year",
+    "endYear": "End Year"
+   },
+   "preview": {
+    "defaultName": "Your Name",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "present": "Present"
+   },
+   "positionLabel": "Position {index}",
+   "educationLabel": "Education {index}"
+  },
+  "meme-generator": {
+   "metadata": {
+    "title": "Meme Generator - Free Online Tool",
+    "description": "Create memes with custom text, fonts, and colors. No watermark, no signup, runs in your browser."
+   },
+   "title": "Meme Generator",
+   "description": "Create memes with custom text, fonts, and colors. No watermark, no signup, runs in your browser.",
+   "category": "Design",
+   "keywords": [
+    "meme generator",
+    "meme maker",
+    "create meme",
+    "custom meme",
+    "online meme creator",
+    "meme text"
+   ],
+   "faqs": [
+    {
+     "question": "Is this meme generator free?",
+     "answer": "Yes. No watermark, no signup, no limits. Create as many memes as you want."
+    },
+    {
+     "question": "What image formats can I upload?",
+     "answer": "You can upload JPG, PNG, WebP, or GIF images. The final meme is downloaded as a PNG."
+    },
+    {
+     "question": "Can I change the font and colors?",
+     "answer": "Yes. Choose from several fonts, adjust text size, and set custom text and outline colors."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. The image is processed entirely in your browser on an HTML canvas. It never leaves your device."
+    },
+    {
+     "question": "Can I copy the meme to my clipboard?",
+     "answer": "Yes. Click Copy Image to copy the meme as a PNG to your clipboard on supported browsers."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    }
+   ],
+   "labels": {
+    "topText": "Top Text",
+    "bottomText": "Bottom Text",
+    "font": "Font",
+    "size": "Size: {size}",
+    "textColor": "Text Color",
+    "outline": "Outline Color"
+   },
+   "buttons": {
+    "newImage": "New Image",
+    "copy": "Copy Image",
+    "download": "Download Meme"
+   },
+   "options": {
+    "percentOf": "X% of Y",
+    "whatPercent": "X is what % of Y",
+    "percentChange": "Percentage change"
+   },
+   "upload": {
+    "icon": "😂",
+    "drop": "Drop an image or click to upload",
+    "formats": "JPG, PNG, WebP, GIF"
+   },
+   "defaults": {
+    "topText": "TOP TEXT",
+    "bottomText": "BOTTOM TEXT"
+   },
+   "fontOptions": [
+    {
+     "value": "Impact",
+     "label": "Impact"
+    },
+    {
+     "value": "Arial",
+     "label": "Arial"
+    },
+    {
+     "value": "Comic Sans MS",
+     "label": "Comic Sans MS"
+    },
+    {
+     "value": "Courier New",
+     "label": "Courier New"
+    },
+    {
+     "value": "Georgia",
+     "label": "Georgia"
+    }
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Meme Generator?",
+     "body": [
+      "Create custom memes by uploading an image and adding top and bottom text. Choose fonts, colors, and sizes, then download or copy your meme."
+     ]
+    },
+    "howTo": {
+     "title": "How to Make a Meme",
+     "intro": "Create a meme in seconds:",
+     "items": [
+      "Upload an image or meme template.",
+      "Enter top and bottom text.",
+      "Choose a font, size, text color, and outline color.",
+      "Download or copy your meme to share."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Impact is the classic meme font.",
+      "Use a strong outline color so text is readable on any image.",
+      "Keep text short and punchy for best results."
+     ]
+    }
+   }
+  },
+  "video-watermark-remover": {
+   "metadata": {
+    "title": "Video Watermark Remover",
+    "description": "Remove watermarks from videos of any length. No time limits, no upload, free forever.",
+    "category": "Design"
+   },
+   "title": "Video Watermark Remover",
+   "description": "Remove watermarks from any video for free. Smart Remove and Blur modes. No upload, no signup, runs entirely in your browser.",
+   "category": "Design",
+   "faqs": [
+    {
+     "question": "How do I remove a watermark from a video for free?",
+     "answer": "Upload your video to this tool, draw a rectangle over the watermark, choose Smart Remove or Blur mode, and click Remove Watermark. Everything runs in your browser — no upload, no signup."
+    },
+    {
+     "question": "What is the difference between Smart Remove and Blur?",
+     "answer": "Smart Remove uses FFmpeg's delogo filter to intelligently interpolate surrounding pixels into the watermark area, producing natural-looking results. Blur applies a heavy Gaussian blur that completely obscures the watermark — useful when Smart Remove leaves artifacts on complex backgrounds."
+    },
+    {
+     "question": "Does removing a video watermark reduce quality?",
+     "answer": "The tool uses FFmpeg with high-quality encoding (CRF 20) so the rest of your video stays sharp. Only the selected watermark region is modified. Audio is copied without re-encoding."
+    },
+    {
+     "question": "Is there a file size or video length limit?",
+     "answer": "There is no hard limit since all processing happens locally in your browser. Smart Remove and Blur both handle long videos efficiently."
+    },
+    {
+     "question": "Can I remove watermarks from TikTok or YouTube videos?",
+     "answer": "Yes, as long as you have the video file downloaded. Upload the MP4, WebM, or MOV file and select the watermark area."
+    },
+    {
+     "question": "Is my video uploaded to a server?",
+     "answer": "No. All processing happens entirely in your browser using WebAssembly-powered FFmpeg. Your video never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Photo Watermark Remover",
+     "href": "/tools/photo-watermark-remover"
+    },
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    },
+    {
+     "name": "Aspect Ratio Calculator",
+     "href": "/tools/aspect-ratio-calculator"
+    }
+   ],
+   "keywords": [
+    "video watermark remover",
+    "remove watermark from video free",
+    "video watermark remover online",
+    "remove logo from video",
+    "ffmpeg watermark removal",
+    "video watermark eraser",
+    "remove text from video",
+    "free watermark remover no signup"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Video Watermark Remover?",
+     "body": "The Video Watermark Remover is a free browser-based tool that removes watermarks, logos, and text overlays from any video file. It uses FFmpeg compiled to WebAssembly, running entirely in your browser with no server uploads."
+    },
+    "modes": {
+     "title": "Two Removal Modes",
+     "items": [
+      "<strong>Smart Remove</strong> — Uses FFmpeg's delogo filter to interpolate surrounding pixels into the watermark area. Fast and effective for most watermarks, especially on simple or uniform backgrounds.",
+      "<strong>Blur</strong> — Applies a heavy Gaussian blur that completely obscures the watermark. Use when Smart Remove leaves artifacts, or when the watermark is on a very complex moving background."
+     ]
+    },
+    "howTo": {
+     "title": "How to Remove a Watermark",
+     "items": [
+      "Upload your video file (MP4, WebM, MOV).",
+      "Scrub the timeline to find a frame where the watermark is visible.",
+      "Click and drag a rectangle tightly around the watermark.",
+      "Choose Smart Remove or Blur.",
+      "Click Remove Watermark and wait for processing.",
+      "Preview the result and download."
+     ]
+    },
+    "tips": {
+     "title": "Tips for Best Results",
+     "items": [
+      "Draw the rectangle as tightly as possible — a smaller selection produces cleaner results.",
+      "Smart Remove works best for semi-transparent stock watermarks and text on uniform backgrounds.",
+      "Use Blur as a fallback when Smart Remove leaves visible artifacts."
+     ]
+    }
+   },
+   "upload": {
+    "title": "Drop a video here or click to upload",
+    "formats": "MP4, WebM, MOV — any length, any size",
+    "note": "Powered by FFmpeg WebAssembly. Everything runs in your browser."
+   },
+   "modeLabel": "Mode:",
+   "modes": {
+    "delogo": {
+     "label": "Smart Remove",
+     "desc": "Interpolates surrounding pixels into the watermark area. Best for most watermarks."
+    },
+    "blur": {
+     "label": "Blur",
+     "desc": "Heavy gaussian blur over the selected area. Works on any background."
+    }
+   },
+   "engine": {
+    "ai": "AI Engine",
+    "ffmpeg": "FFmpeg Engine",
+    "aiNote": "Videos up to 30 seconds are processed with the AI inpainting engine (MI-GAN) for the best quality. Longer videos automatically use FFmpeg.",
+    "ffmpegNote": "Videos over 30 seconds are processed with FFmpeg for speed and reliability."
+   },
+   "buttons": {
+    "newVideo": "New Video",
+    "removeWatermark": "Remove Watermark",
+    "downloadVideo": "Download Video (MP4)",
+    "adjustRetry": "Adjust & Retry"
+   },
+   "timeline": {
+    "hint": "Scrub to a frame where the watermark is visible, then draw a rectangle over it."
+   },
+   "instructions": {
+    "title": "How to use:",
+    "steps": [
+     "Scrub to a frame where the watermark is visible",
+     "Click and drag a rectangle tightly around the watermark",
+     "Choose <strong>Smart Remove</strong> for best results, or <strong>Blur</strong> as a fallback",
+     "Click “Remove Watermark” — audio is preserved"
+    ]
+   },
+   "processing": {
+    "title": "Processing Video",
+    "keepOpen": "FFmpeg is processing your video locally. Keep this tab open.",
+    "phaseLoading": "Loading",
+    "phaseEncoding": "Encoding"
+   },
+   "done": {
+    "title": "Watermark Removed",
+    "previewNote": "Preview below. Audio has been preserved."
+   },
+   "status": {
+    "loadingEngine": "Loading video engine...",
+    "downloadingEngine": "Downloading video engine (~30 MB, cached after first use)...",
+    "readingFile": "Reading video file...",
+    "removingWatermark": "Removing watermark...",
+    "preparingDownload": "Preparing download...",
+    "processingFrame": "Processing frame {frame}...",
+    "aiCapturingFrame": "Capturing video frame...",
+    "aiLoadingModel": "Loading AI inpainting model (~29 MB, cached after first use)...",
+    "aiInpainting": "Running AI inpainting...",
+    "aiFallback": "AI engine unavailable — retrying with FFmpeg Smart Remove."
+   },
+   "errors": {
+    "outputEmpty": "Output video is empty. Try a different mode.",
+    "processingFailed": "Processing failed: {message}"
+   }
+  },
+  "photo-watermark-remover": {
+   "metadata": {
+    "title": "Photo Watermark Remover",
+    "description": "Remove watermarks from photos for free. No signup, no limits, 100% private.",
+    "category": "Design"
+   },
+   "title": "Photo Watermark Remover",
+   "description": "Remove watermarks from photos completely free. No signup, no limits. Your image never leaves your browser — all processing happens locally.",
+   "category": "Design",
+   "faqs": [
+    {
+     "question": "How do I remove a watermark from a photo for free?",
+     "answer": "Upload your image, paint over the watermark with the brush tool (it appears as a red overlay), and click Remove Watermark. The tool uses an inpainting algorithm to fill the area with surrounding pixel data. Everything runs locally in your browser."
+    },
+    {
+     "question": "Does removing a photo watermark affect image quality?",
+     "answer": "The inpainting algorithm only modifies the pixels you paint over. The rest of the image remains completely untouched. You can download the result at full original resolution as a PNG file."
+    },
+    {
+     "question": "What image formats are supported?",
+     "answer": "The tool accepts PNG, JPG, JPEG, WebP, and any other image format your browser supports. The output is always downloaded as a high-quality PNG file regardless of the input format."
+    },
+    {
+     "question": "Can I remove text overlays and logos from photos?",
+     "answer": "Yes. Paint over any text, logo, or graphic overlay with the brush and the inpainting algorithm will attempt to reconstruct the background behind it. Results work best on photos with relatively uniform or textured backgrounds."
+    },
+    {
+     "question": "Is there a maximum image size I can process?",
+     "answer": "There is no hard limit, but very large images (over 8000px) may be slow to process since the inpainting runs on the CPU in your browser. For best performance, images under 4000px wide work smoothly."
+    },
+    {
+     "question": "Is my photo uploaded to a server?",
+     "answer": "No. All processing happens entirely in your browser. Your image never leaves your device, so your photos stay completely private."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Watermark Remover",
+     "href": "/tools/video-watermark-remover"
+    },
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    },
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    }
+   ],
+   "keywords": [
+    "photo watermark remover",
+    "remove watermark from image free",
+    "watermark remover online",
+    "remove logo from photo",
+    "image watermark eraser",
+    "remove text from image",
+    "free photo watermark remover",
+    "inpainting tool online"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Photo Watermark Remover?",
+     "body": [
+      "The Photo Watermark Remover is a free online tool that removes watermarks, logos, text overlays, and other unwanted objects from images. It uses an inpainting algorithm that reconstructs the area behind the watermark based on surrounding pixel data.",
+      "Everything runs locally in your browser. Your photos are never uploaded to any server, which means your images stay completely private and processing is instant."
+     ]
+    },
+    "howTo": {
+     "title": "How to Remove a Watermark from a Photo",
+     "intro": "Removing a watermark takes just a few steps:",
+     "items": [
+      "Upload your image by clicking the upload area or dragging and dropping a file (PNG, JPG, or WebP).",
+      "Adjust the brush size using the slider or the keyboard shortcuts: press <strong>[</strong> to decrease and <strong>]</strong> to increase.",
+      "Paint over the watermark area. A red overlay shows what you have selected.",
+      "Click Remove Watermark to process the image.",
+      "Review the result and download your clean image as a full-resolution PNG."
+     ]
+    },
+    "algorithm": {
+     "title": "How the Inpainting Algorithm Works",
+     "body": "The tool uses a pixel-based inpainting technique that analyzes the colors and textures around the masked area. It progressively fills in pixels from the boundary inward, sampling nearby regions to reconstruct a natural-looking background. This approach works especially well on textured surfaces, gradients, and photographs with organic patterns."
+    },
+    "tips": {
+     "title": "Tips for Best Results",
+     "items": [
+      "Use a brush size that closely matches the thickness of the watermark text or logo for precise coverage.",
+      "Paint slightly beyond the edges of the watermark to catch semi-transparent pixels.",
+      "For large watermarks covering complex areas, process in smaller sections — paint and remove one area at a time.",
+      "Results are best on photos with textured or varied backgrounds. Watermarks over faces or fine detail may require touch-up."
+     ]
+    },
+    "useCases": {
+     "title": "Common Use Cases",
+     "items": [
+      "Removing stock photo watermarks after purchasing a license.",
+      "Cleaning up screenshots with unwanted text overlays.",
+      "Removing date stamps from scanned photos.",
+      "Erasing logos or branding from product images.",
+      "Preparing images for presentations and portfolios."
+     ]
+    }
+   },
+   "upload": {
+    "title": "Drop an image here or click to upload",
+    "formats": "PNG, JPG, WebP — any size"
+   },
+   "labels": {
+    "brush": "Brush:"
+   },
+   "suffix": "px",
+   "buttons": {
+    "clearMask": "Clear Mask",
+    "newImage": "New Image",
+    "removeWatermark": "Remove Watermark",
+    "undo": "Undo",
+    "downloadResult": "Download Result",
+    "processing": "Processing... {progress}%"
+   },
+   "ai": {
+    "downloadingModel": "Loading AI inpainting model ({percent}%)...",
+    "inpainting": "Running AI inpainting...",
+    "failed": "AI inpainting engine failed: {error}"
+   },
+   "multiPass": {
+    "done": "Removal pass {count} complete — paint more areas and remove again until satisfied, then download."
+   },
+   "logs": {
+    "title": "Run Log"
+   },
+   "instructions": {
+    "title": "How to use:",
+    "steps": [
+     "Paint over the watermark with your brush (it shows as a red overlay)",
+     "Use <kbd>[</kbd> and <kbd>]</kbd> to resize the brush",
+     "Click “Remove Watermark” to process",
+     "Download your clean image"
+    ]
+   }
+  },
+  "qr-code-generator": {
+   "metadata": {
+    "title": "QR Code Generator",
+    "description": "Generate customizable QR codes from any text or URL",
+    "category": "Utility"
+   },
+   "title": "QR Code Generator",
+   "description": "Generate customizable QR codes from any text or URL. Adjust size, colors, and error correction level.",
+   "category": "Utility",
+   "faqs": [
+    {
+     "question": "How do I create a QR code for a URL?",
+     "answer": "Paste your URL into the text field and the QR code generates instantly. You can customize the size, colors, and error correction level, then download it as a PNG or copy it to your clipboard."
+    },
+    {
+     "question": "What is QR code error correction and which level should I use?",
+     "answer": "Error correction allows a QR code to be scanned even if part of it is damaged or obscured. Medium (15%) is a good default. Use High (30%) if you plan to place a logo over the QR code or print it on materials that may get scratched."
+    },
+    {
+     "question": "Can I customize the colors of my QR code?",
+     "answer": "Yes. You can set both the foreground and background colors using the color pickers or by entering hex values directly. Make sure there is enough contrast between the two colors for scanners to read the code reliably."
+    },
+    {
+     "question": "What is the maximum amount of data a QR code can hold?",
+     "answer": "A QR code can store up to about 4,296 alphanumeric characters or 7,089 numeric digits. For practical use, URLs under 500 characters work best and produce QR codes that are easy to scan."
+    },
+    {
+     "question": "Is this QR code generator free to use?",
+     "answer": "Yes, it is completely free with no signup required. The QR codes are generated in your browser and there are no limits on how many you can create or download."
+    },
+    {
+     "question": "Can I use the generated QR codes for commercial purposes?",
+     "answer": "Yes. The QR codes you generate are yours to use however you like, including on printed materials, products, business cards, and marketing campaigns. There are no restrictions."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "UUID Generator",
+     "href": "/tools/uuid-generator"
+    },
+    {
+     "name": "Password Generator",
+     "href": "/tools/password-generator"
+    },
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    }
+   ],
+   "keywords": [
+    "qr code generator",
+    "free qr code maker",
+    "create qr code online",
+    "qr code from url",
+    "custom qr code generator",
+    "qr code with colors",
+    "qr code download png"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the QR Code Generator?",
+     "body": [
+      "This QR Code Generator lets you create customizable QR codes from any text or URL instantly. You can adjust the output size, foreground and background colors, and error correction level. The generated QR code can be downloaded as a PNG image or copied directly to your clipboard.",
+      "QR codes are two-dimensional barcodes that can be scanned by smartphones and dedicated readers. They are widely used for sharing URLs, contact information, Wi-Fi credentials, and other data quickly."
+     ]
+    },
+    "howTo": {
+     "title": "How to Create a QR Code",
+     "intro": "Creating a QR code takes seconds:",
+     "items": [
+      "Type or paste your text or URL into the input field. The QR code generates automatically as you type.",
+      "Choose a size from the dropdown (128px to 1024px).",
+      "Select an error correction level. Medium (15%) is the recommended default.",
+      "Optionally customize the foreground and background colors using the color pickers.",
+      "Click Download PNG to save the image, or Copy Image to place it on your clipboard."
+     ]
+    },
+    "errorCorrection": {
+     "title": "Understanding Error Correction Levels",
+     "body": "QR codes include redundant data that allows them to be read even when partially damaged. The four error correction levels determine how much damage a code can tolerate:",
+     "items": [
+      "<strong>Low (7%)</strong> — Smallest code size, least redundancy. Use when the QR code will always be displayed on a clean screen.",
+      "<strong>Medium (15%)</strong> — Good balance of size and reliability. Best for most use cases.",
+      "<strong>Quartile (25%)</strong> — Higher redundancy. Good for printed materials that may get scratched.",
+      "<strong>High (30%)</strong> — Maximum redundancy. Required if you plan to overlay a logo on the QR code."
+     ]
+    },
+    "tips": {
+     "title": "Tips for Creating Effective QR Codes",
+     "items": [
+      "Keep your URLs short. Shorter data produces simpler QR codes that scan faster and more reliably.",
+      "Maintain high contrast between foreground and background colors. Dark on light is most reliable.",
+      "Test your QR code on multiple devices before printing or publishing.",
+      "Use at least 256px for print materials and 512px or larger for posters and signage."
+     ]
+    },
+    "useCases": {
+     "title": "Common Use Cases",
+     "items": [
+      "Business cards linking to a website or contact page.",
+      "Restaurant menus accessible via table QR codes.",
+      "Event tickets and check-in systems.",
+      "Product packaging linking to instructions or warranty registration.",
+      "Marketing materials with trackable URLs."
+     ]
+    }
+   },
+   "labels": {
+    "textUrl": "Text / URL",
+    "size": "Size",
+    "errorCorrection": "Error Correction",
+    "foregroundColor": "Foreground Color",
+    "backgroundColor": "Background Color",
+    "style": "Style",
+    "logo": "Center Logo"
+   },
+   "styles": {
+    "classic": "Classic",
+    "rounded": "Rounded",
+    "dots": "Dots",
+    "diamond": "Diamond",
+    "plus": "Plus"
+   },
+   "logo": {
+    "upload": "Upload Logo",
+    "change": "Change",
+    "remove": "Remove",
+    "cropTitle": "Crop Logo",
+    "cropSquare": "Square",
+    "cropCircle": "Circle",
+    "zoom": "Zoom",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "ecHint": "To keep the QR code scannable, error correction is upgraded to Q (25%) while a logo is present."
+   },
+   "placeholder": "Enter text or URL...",
+   "sizes": {
+    "128": "128 x 128",
+    "256": "256 x 256",
+    "512": "512 x 512",
+    "1024": "1024 x 1024"
+   },
+   "errorLevels": {
+    "L": "Low (7%)",
+    "M": "Medium (15%)",
+    "Q": "Quartile (25%)",
+    "H": "High (30%)"
+   },
+   "buttons": {
+    "downloadPng": "Download PNG",
+    "copyImage": "Copy Image",
+    "copyText": "Copy Text"
+   },
+   "previewPlaceholder": "Enter text to generate a QR code"
+  },
+  "qr-code-reader": {
+   "metadata": {
+    "title": "QR Code Reader - Free Online Tool",
+    "description": "Decode QR codes from images and screenshots. Extract URLs, text, WiFi credentials, and more. No upload, runs in your browser."
+   },
+   "title": "QR Code Reader",
+   "description": "Decode QR codes from images and screenshots. Extract URLs, text, WiFi credentials, and more. No upload, runs in your browser.",
+   "category": "Utility",
+   "keywords": [
+    "qr code reader",
+    "qr scanner",
+    "decode qr code",
+    "read qr code from image",
+    "qr code decoder",
+    "scan qr from screenshot"
+   ],
+   "faqs": [
+    {
+     "question": "How do I read a QR code from an image?",
+     "answer": "Drop the image or screenshot containing the QR code into the upload area. The code is decoded instantly and the extracted text is shown with its version and location highlighted on the image."
+    },
+    {
+     "question": "What kinds of content can be decoded?",
+     "answer": "URLs, plain text, WiFi credentials (WIFI: format), contact cards (vCard), email addresses, phone numbers, and more. URLs are displayed as clickable links."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. The QR code is decoded entirely in your browser using the jsQR library. Your image never leaves your device."
+    },
+    {
+     "question": "Why was my QR code not detected?",
+     "answer": "Low-resolution, blurry, or heavily damaged codes may fail. Try a higher-resolution image, crop to the code, or ensure the code is well-lit and not rotated."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "QR Code Generator",
+     "href": "/tools/qr-code-generator"
+    },
+    {
+     "name": "Barcode Generator",
+     "href": "/tools/barcode-generator"
+    },
+    {
+     "name": "Image to Text",
+     "href": "/tools/image-to-text"
+    }
+   ],
+   "upload": {
+    "icon": "📷",
+    "drop": "Drop a QR code image or click to upload",
+    "formats": "PNG, JPG, WEBP, GIF"
+   },
+   "status": {
+    "processing": "Decoding QR code..."
+   },
+   "result": {
+    "detected": "QR code detected",
+    "version": "Version {version}",
+    "notFound": "No QR code found in this image. Try a clearer or higher-resolution image."
+   },
+   "buttons": {
+    "clear": "Scan Another"
+   },
+   "errors": {
+    "load": "Failed to load the image.",
+    "decode": "Failed to decode the QR code."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the QR Code Reader?",
+     "body": [
+      "Read QR codes directly from images and screenshots in your browser. Upload a photo of a QR code and get the embedded text, URL, or credentials instantly — nothing is uploaded to any server."
+     ]
+    },
+    "howTo": {
+     "title": "How to Read a QR Code",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image containing a QR code.",
+      "The code is decoded instantly in your browser.",
+      "The extracted content is shown with a highlighted outline.",
+      "Copy the result or open the link if it is a URL."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use a high-resolution image of the QR code for the best results.",
+      "Crop the image to the code area to remove background noise.",
+      "Codes with high contrast and undamaged finder patterns decode most reliably."
+     ]
+    }
+   }
+  },
+  "qr-file-transfer": {
+   "metadata": {
+    "title": "QR File Transfer - Send Files Between Devices Offline",
+    "description": "Send files and text between two devices using animated QR codes. The sending screen displays a stream of codes your camera scans to rebuild the file — no network, no upload, fully offline.",
+    "category": "Utility"
+   },
+   "title": "QR File Transfer",
+   "description": "Send files and text between two devices through a stream of animated QR codes. One screen emits the codes, the other device's camera scans them and rebuilds the file locally — no network, no servers, nothing is uploaded.",
+   "category": "Utility",
+   "keywords": [
+    "qr file transfer",
+    "transfer files with qr code",
+    "offline file transfer",
+    "send file camera to screen",
+    "airdrop alternative",
+    "optical file transfer"
+   ],
+   "faqs": [
+    {
+     "question": "How does QR file transfer work?",
+     "answer": "One device (the sender) displays an endless stream of animated QR codes encoding the file. The other device's camera scans the codes and the receiver rebuilds the file from them. The fountain coding used means any subset of the frames is enough — dropped frames only cost time, never correctness."
+    },
+    {
+     "question": "Is my data uploaded anywhere?",
+     "answer": "No. The whole transfer happens between the two screens — nothing is uploaded, nothing is stored, and no network connection is needed between the devices."
+    },
+    {
+     "question": "What is the maximum file size?",
+     "answer": "Files up to 64 MB are supported. Smaller files and text snippets transfer faster, and the tool compresses the file automatically when it helps."
+    },
+    {
+     "question": "How fast is the transfer?",
+     "answer": "The speed depends on the camera and the QR density. At close range with a good camera you can expect several hundred KB/s; dense frames (2953 bytes per frame) are fastest phone-to-phone at close range."
+    },
+    {
+     "question": "Is the transfer secure?",
+     "answer": "The data travels only as light from one screen to the other — no network, no intermediate server. Anyone with a camera in line of sight of the sending screen could read it, so it is best for trusted surroundings."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "QR Code Generator",
+     "href": "/tools/qr-code-generator"
+    },
+    {
+     "name": "QR Code Reader",
+     "href": "/tools/qr-code-reader"
+    },
+    {
+     "name": "Batch Rename",
+     "href": "/tools/batch-rename"
+    }
+   ],
+   "tabs": {
+    "label": "Transfer mode",
+    "send": "Send",
+    "receive": "Receive"
+   },
+   "send": {
+    "modeFile": "Send a file",
+    "modeSnippet": "Send text",
+    "selectButton": "Select File",
+    "stopButton": "Stop transfer",
+    "pickerLabel": "Any file · up to {max}",
+    "selectedLabel": "Selected file: {name}",
+    "statusIdleFile": "Choose a file to begin",
+    "statusIdleSnippet": "Paste or type some text to begin",
+    "statusPreparingFile": "Preparing {name}…",
+    "statusPreparingSnippet": "Preparing text snippet…",
+    "statusStreaming": "Streaming {name} —",
+    "snippetPlaceholder": "Paste or type anything — a URL, a config, a wall of text…",
+    "snippetLimit": "Text to send · up to {max}",
+    "snippetName": "Text snippet",
+    "sendSnippetButton": "Start text stream",
+    "tapHint": "Tap the code to fill the screen with it",
+    "settings": {
+     "title": "Transfer settings",
+     "fps": "Frames per second",
+     "frameBytes": "Bytes per frame",
+     "ecc": "Error correction",
+     "size": "Display size"
+    },
+    "specs": {
+     "fps": "Frame rate",
+     "frame": "Frame payload",
+     "qr": "QR code",
+     "payload": "Sending",
+     "compression": "Compression",
+     "k": "Fountain blocks"
+    },
+    "errors": {
+     "emptyFile": "{name} is empty — there is nothing to send.",
+     "tooLarge": "{name} is {size}, over the {max} limit.",
+     "raiseFrameBytes": "Raise bytes / frame to {suggestion} or more."
+    }
+   },
+   "receive": {
+    "statusReady": "Ready to scan a file or text stream",
+    "statusStarting": "Starting camera",
+    "statusSearching": "Camera {w}×{h}@{fps} — searching for a stream…",
+    "startCamera": "Start camera",
+    "camera": {
+     "actual": "Camera {w}×{h} @ {fps} fps",
+     "asked": "asked {fps}",
+     "workers": "decode workers",
+     "live": "changes apply live",
+     "refused": "This camera refused a live change — restart to apply"
+    },
+    "noSignal": {
+     "title": "Nothing happening?",
+     "help": "Help",
+     "dismiss": "Dismiss",
+     "gotIt": "Got it",
+     "tips": [
+      "On the sender, open Transfer settings and drop bytes / frame to 1465.",
+      "Still nothing? Drop the sender's frames per second to 24 as well.",
+      "Fill this camera's view with the code, and prop the phone against something — autofocus hunting from hand tremor is the usual culprit.",
+      "Turn the sending screen's brightness all the way up."
+     ]
+    },
+    "settings": {
+     "title": "Receive settings",
+     "captureWidth": "Capture width",
+     "captureFps": "Capture fps",
+     "workers": "Decode workers"
+    },
+    "progress": {
+     "frames": "frames",
+     "blocks": "blocks",
+     "decoding": "decoding",
+     "estimating": "Estimating time…",
+     "about": "About",
+     "done": "transfer complete"
+    },
+    "result": {
+     "fileDone": "Transfer Complete!",
+     "textDone": "Text received",
+     "inSeconds": "in {seconds} s",
+     "textIn": "Text in {seconds} s",
+     "verified": "SHA-256 verified ✓",
+     "gzipDecompressed": "gzip decompressed",
+     "save": "Save {name}",
+     "receiveAnother": "Receive another file",
+     "copy": "Copy",
+     "copied": "Copied",
+     "failed": "Transfer failed",
+     "failedHint": "Nothing usable came out of that stream. Restart the sender, then scan it again — a partial transfer costs nothing but the time.",
+     "tryAgain": "Try again"
+    },
+    "errors": {
+     "secureContext": "The camera needs a secure context — this page must be served over HTTPS to use the camera from another device.",
+     "permissionDenied": "Camera permission denied — allow it, then tap Start camera again.",
+     "camera": "Camera:",
+     "checksum": "The optical stream checksum did not match.",
+     "sha256": "The recovered file failed SHA-256 verification."
+    },
+    "privacyNote": "Everything happens on your devices — no network, no upload. The transfer is only as private as the space around your screens."
+   }
+  },
+  "face-detector": {
+   "metadata": {
+    "title": "Face Detector - Free Online Tool",
+    "description": "Detect faces in photos automatically with bounding boxes and confidence scores. Powered by an AI model running entirely in your browser."
+   },
+   "title": "Face Detector",
+   "description": "Detect faces in photos automatically with bounding boxes and confidence scores. Powered by an AI model running entirely in your browser.",
+   "category": "Design",
+   "keywords": [
+    "face detection",
+    "detect faces in photo",
+    "face detector online",
+    "face recognition detector",
+    "count faces in image",
+    "face bounding box"
+   ],
+   "faqs": [
+    {
+     "question": "How accurate is the face detection?",
+     "answer": "The tool uses the MediaPipe BlazeFace model, a fast and accurate detector that works well on front, side, and profile faces, including small or partially occluded faces."
+    },
+    {
+     "question": "Does it recognize who a person is?",
+     "answer": "No. The detector only finds the location of faces and draws bounding boxes with confidence scores. It does not identify or recognize individuals."
+    },
+    {
+     "question": "Can I process multiple images at once?",
+     "answer": "Yes. Upload as many images as you like — each is processed automatically and the results are shown in a list with per-image face counts."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. The AI model downloads once to your browser and every image is processed locally via WebAssembly. Your photos never leave your device."
+    },
+    {
+     "question": "How do I save the results?",
+     "answer": "Each processed image can be downloaded with the bounding boxes drawn, or download all results at once as a ZIP file."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image to Text",
+     "href": "/tools/image-to-text"
+    },
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    },
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    }
+   ],
+   "upload": {
+    "icon": "😀",
+    "drop": "Drop photos or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "status": {
+    "loading": "Loading AI model...",
+    "processing": "Detecting faces..."
+   },
+   "info": {
+    "summary": "{images} image(s), {faces} face(s) found",
+    "facesInImage": "{count} face(s)"
+   },
+   "buttons": {
+    "downloadAll": "Download All (ZIP)",
+    "download": "Download",
+    "clear": "Clear",
+    "remove": "Remove"
+   },
+   "errors": {
+    "detect": "Failed to process the image.",
+    "model": "Failed to load the AI model. Please check your connection and try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Face Detector?",
+     "body": [
+      "Automatically find all faces in a photo using a high-accuracy AI model that runs in your browser. Each face is highlighted with a bounding box and a confidence score, plus facial keypoints such as the eyes, nose, and mouth."
+     ]
+    },
+    "howTo": {
+     "title": "How to Detect Faces",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload one or more photos.",
+      "Wait while the AI model loads (first time only).",
+      "Faces are detected automatically with boxes and confidence scores.",
+      "Download each result or save all as a ZIP."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The model handles front, side, and profile faces well.",
+      "Use well-lit, in-focus photos for the most reliable detection.",
+      "Faces smaller than about 10% of the image height may not be detected."
+     ]
+    }
+   }
+  },
+  "color-palette-generator": {
+   "metadata": {
+    "title": "Color Palette Generator",
+    "description": "Create beautiful random color palettes with lock and export",
+    "category": "Design"
+   },
+   "title": "Color Palette Generator",
+   "description": "Generate beautiful 5-color palettes. Lock colors you like, press spacebar to regenerate.",
+   "category": "Design",
+   "faqs": [
+    {
+     "question": "How do I generate a color palette?",
+     "answer": "Click Generate or press the spacebar to create a random 5-color palette. If you find a color you like, click the lock icon to keep it, then generate again to randomize only the unlocked colors."
+    },
+    {
+     "question": "Can I export my color palette as CSS variables?",
+     "answer": "Yes. Use the Export section at the bottom of the tool to copy your palette as CSS custom properties, Tailwind config values, or a plain hex list. Click Copy Export to copy the output to your clipboard."
+    },
+    {
+     "question": "How do I lock a color in the palette?",
+     "answer": "Hover over a color swatch and click the lock icon in the top-right corner. Locked colors stay fixed when you generate new palettes, letting you build around colors you already like."
+    },
+    {
+     "question": "What color formats are shown for each swatch?",
+     "answer": "Each color swatch displays its hex code, RGB values, and HSL values. Click any swatch to copy its hex code to your clipboard instantly."
+    },
+    {
+     "question": "Can I use these color palettes for my website or app?",
+     "answer": "Yes. The palettes are randomly generated and free to use for any purpose. Export them as CSS variables or Tailwind config values and paste directly into your project."
+    },
+    {
+     "question": "Is there a keyboard shortcut to generate new palettes?",
+     "answer": "Yes. Press the spacebar to instantly generate a new palette. This makes it fast to cycle through combinations until you find one you like."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    },
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    },
+    {
+     "name": "Photo Watermark Remover",
+     "href": "/tools/photo-watermark-remover"
+    }
+   ],
+   "keywords": [
+    "color palette generator",
+    "random color palette",
+    "color scheme generator",
+    "color palette maker",
+    "generate color palette online",
+    "css color palette",
+    "tailwind color palette",
+    "website color scheme"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Color Palette Generator?",
+     "body": [
+      "The Color Palette Generator creates random 5-color palettes that you can use in web design, graphic design, illustration, and branding projects. Each swatch displays its hex, RGB, and HSL values, and you can lock individual colors while regenerating the rest.",
+      "The tool runs entirely in your browser with no signup or account required. Palettes can be exported as CSS custom properties, Tailwind configuration values, or a plain hex list — ready to paste directly into your project."
+     ]
+    },
+    "howTo": {
+     "title": "How to Generate a Color Palette",
+     "intro": "Creating a palette is fast and intuitive:",
+     "items": [
+      "Click Generate or press the spacebar to create a new random 5-color palette.",
+      "Click any color swatch to copy its hex code to your clipboard.",
+      "Hover over a swatch and click the lock icon to keep that color fixed.",
+      "Press spacebar again — only unlocked colors will change, letting you build around your favorite colors.",
+      "Use the Export section to copy the palette in your preferred format."
+     ]
+    },
+    "exportFormats": {
+     "title": "Export Formats",
+     "intro": "The tool supports three export formats for easy integration into your workflow:",
+     "items": [
+      "<strong>CSS Variables</strong> — Generates a :root block with custom properties you can drop into any stylesheet.",
+      "<strong>Tailwind</strong> — Produces a colors object ready for your tailwind.config.js file.",
+      "<strong>Hex List</strong> — A simple newline-separated list of hex values, useful for design tools and documentation."
+     ]
+    },
+    "tips": {
+     "title": "Tips for Building Great Palettes",
+     "items": [
+      "Lock one or two colors that match your brand, then generate to find complementary accents.",
+      "Look at the HSL lightness values to ensure good contrast between your text and background colors.",
+      "For accessible designs, pair colors with at least a 4.5:1 contrast ratio for text.",
+      "Generate several palettes and screenshot your favorites for comparison before committing."
+     ]
+    },
+    "useCases": {
+     "title": "Common Use Cases",
+     "items": [
+      "Finding color schemes for websites, apps, and landing pages.",
+      "Creating brand color palettes for logos and marketing materials.",
+      "Exploring color combinations for illustrations and digital art.",
+      "Generating themed palettes for presentations and slide decks.",
+      "Rapid prototyping with ready-to-use CSS or Tailwind values."
+     ]
+    }
+   },
+   "buttons": {
+    "generate": "Generate"
+   },
+   "hint": {
+    "spacebar": "or press spacebar"
+   },
+   "export": {
+    "title": "Export as:",
+    "formats": [
+     "CSS Variables",
+     "Tailwind",
+     "Hex List"
+    ],
+    "copy": "Copy Export"
+   },
+   "copied": "Copied!"
+  },
+  "css-gradient-generator": {
+   "metadata": {
+    "title": "CSS Gradient Generator",
+    "description": "Build linear, radial, and conic CSS gradients visually",
+    "category": "Design"
+   },
+   "title": "CSS Gradient Generator",
+   "description": "Build linear, radial, and conic CSS gradients with a visual editor.",
+   "category": "Design",
+   "keywords": [
+    "css gradient generator",
+    "linear gradient css",
+    "radial gradient generator",
+    "conic gradient css",
+    "css background gradient",
+    "gradient color picker",
+    "css gradient code",
+    "web gradient maker"
+   ],
+   "relatedTools": [
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    },
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    },
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    },
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    }
+   ],
+   "faqs": [
+    {
+     "question": "How do I create a CSS gradient with multiple colors?",
+     "answer": "Add color stops using the '+ Add Stop' button. Each stop has a color value and a position percentage. The gradient smoothly transitions between all your color stops in order from 0% to 100%."
+    },
+    {
+     "question": "What is the difference between linear, radial, and conic gradients?",
+     "answer": "Linear gradients transition colors along a straight line at a given angle. Radial gradients radiate outward from a center point in a circle. Conic gradients sweep color transitions around a center point like a color wheel."
+    },
+    {
+     "question": "Can I copy the generated CSS gradient code?",
+     "answer": "Yes. The tool generates ready-to-use CSS code displayed below the preview. Click the copy button to copy the full background property to your clipboard and paste it directly into your stylesheet."
+    },
+    {
+     "question": "How do I change the direction of a CSS linear gradient?",
+     "answer": "Use the angle slider to set the gradient direction in degrees. 0 degrees points upward, 90 degrees points right, 180 degrees points down, and 270 degrees points left. You can set any value from 0 to 360."
+    },
+    {
+     "question": "Are CSS gradients supported in all browsers?",
+     "answer": "Yes. CSS gradients including linear-gradient, radial-gradient, and conic-gradient are supported in all modern browsers. Conic gradients have slightly less legacy support but work in Chrome, Firefox, Safari, and Edge."
+    },
+    {
+     "question": "How do I use gradient presets?",
+     "answer": "Click any preset button like Sunset, Ocean, or Rainbow to instantly load a professionally designed gradient. You can then customize the colors, stops, type, and angle to match your design needs."
+    }
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the CSS Gradient Generator?",
+     "body": "The CSS Gradient Generator is a visual tool that helps you build beautiful CSS gradients without writing code by hand. Choose between linear, radial, and conic gradient types, adjust colors and positions, and get production-ready CSS instantly. Whether you are designing a hero background, a button hover effect, or a decorative overlay, this tool speeds up your workflow."
+    },
+    "howTo": {
+     "title": "How to Use the CSS Gradient Generator",
+     "intro": "Start by selecting your gradient type: linear, radial, or conic. Each type produces a different visual effect. For linear and conic gradients, adjust the angle slider to control the direction of the color transition.",
+     "items": [
+      "Pick a gradient type using the toggle buttons at the top.",
+      "Set the angle with the slider (available for linear and conic types).",
+      "Edit existing color stops by changing their color or position values.",
+      "Add more color stops with the \"+ Add Stop\" button for complex gradients.",
+      "Remove extra stops by clicking the X icon next to any stop.",
+      "Try a preset like Sunset, Ocean, or Rainbow to get started quickly."
+     ],
+     "outro": "The live preview updates in real time as you make changes. When you are happy with the result, copy the generated CSS code and paste it directly into your project."
+    },
+    "tips": {
+     "title": "Tips for Better Gradients",
+     "body": [
+      "Use two or three color stops for clean, modern gradients. Adding too many stops can make gradients look muddy. Position your stops strategically: placing two similar colors close together creates a sharper transition, while spreading them apart produces a smoother blend.",
+      "Radial gradients work well for spotlight effects and button highlights. Conic gradients are great for pie-chart-style visuals and decorative backgrounds. Experiment with angles to find the direction that best complements your layout."
+     ]
+    },
+    "useCases": {
+     "title": "Common Use Cases",
+     "items": [
+      "Hero section backgrounds with smooth color transitions.",
+      "Button and card hover effects using subtle gradients.",
+      "Overlay gradients on images for text readability.",
+      "Decorative borders and dividers with conic gradients.",
+      "Dark-mode-friendly backgrounds using muted color stops."
+     ]
+    },
+    "why": {
+     "title": "Why Use a Gradient Generator?",
+     "body": "Writing CSS gradient syntax by hand is tedious and error-prone, especially with multiple color stops. This generator gives you instant visual feedback so you can fine-tune colors and positions before committing any code. It saves time and produces better results than guessing hex values in a text editor."
+    }
+   },
+   "labels": {
+    "type": "Type",
+    "angle": "Angle: {angle}°",
+    "colorStops": "Color Stops",
+    "presets": "Presets"
+   },
+   "types": {
+    "linear": "Linear",
+    "radial": "Radial",
+    "conic": "Conic"
+   },
+   "buttons": {
+    "addStop": "+ Add Stop",
+    "copy": "Copy"
+   },
+   "presetNames": {
+    "Sunset": "Sunset",
+    "Ocean": "Ocean",
+    "Purple Haze": "Purple Haze",
+    "Northern Lights": "Northern Lights",
+    "Fire": "Fire",
+    "Rainbow": "Rainbow"
+   }
+  },
+  "box-shadow-generator": {
+   "metadata": {
+    "title": "Box Shadow Generator",
+    "description": "Design CSS box shadows with a live visual editor",
+    "category": "Design"
+   },
+   "title": "Box Shadow Generator",
+   "description": "Design CSS box shadows with a live visual editor. Add multiple shadows, adjust offsets, blur, and spread.",
+   "category": "Design",
+   "keywords": [
+    "css box shadow generator",
+    "box shadow css",
+    "drop shadow generator",
+    "css shadow effects",
+    "inset shadow css",
+    "multiple box shadows",
+    "box shadow designer",
+    "css shadow code"
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    },
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    },
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    }
+   ],
+   "faqs": [
+    {
+     "question": "How do I create a CSS box shadow?",
+     "answer": "Use the sliders to set X offset, Y offset, blur radius, and spread. Choose a shadow color and toggle the inset option if needed. The tool generates the CSS code automatically and shows a live preview."
+    },
+    {
+     "question": "Can I add multiple box shadows to one element?",
+     "answer": "Yes. Click the '+ Add' button to create additional shadow layers. Each shadow has independent controls for offset, blur, spread, color, and inset. Multiple shadows are combined into a single CSS property."
+    },
+    {
+     "question": "What is an inset box shadow?",
+     "answer": "An inset box shadow renders inside the element instead of outside. It creates a pressed or recessed appearance, commonly used for input fields, cards, and neumorphic design patterns."
+    },
+    {
+     "question": "What is the difference between blur and spread in box-shadow?",
+     "answer": "Blur controls how soft or diffused the shadow edges appear. Spread controls the size of the shadow; positive values make it larger than the element, while negative values make it smaller."
+    },
+    {
+     "question": "How do I make a subtle, modern box shadow?",
+     "answer": "Use a small Y offset (4-8px), moderate blur (10-20px), zero spread, and a semi-transparent black color like rgba(0,0,0,0.1). This produces the soft, elevated look common in modern UI design."
+    },
+    {
+     "question": "Can I copy the generated box-shadow CSS?",
+     "answer": "Yes. The generated CSS code is displayed below the preview. Click the copy button to copy it to your clipboard and paste it directly into your stylesheet or component."
+    }
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Box Shadow Generator?",
+     "body": "The Box Shadow Generator is a visual CSS tool that lets you design box shadows without writing code manually. Adjust offsets, blur, spread, and color with intuitive sliders and see the result instantly. The tool supports multiple shadow layers and inset shadows, covering every common shadow pattern in web design."
+    },
+    "howTo": {
+     "title": "How to Use the Box Shadow Generator",
+     "intro": "Start with the default shadow and use the sliders to adjust it to your liking. The preview box updates in real time so you can see exactly how the shadow looks.",
+     "items": [
+      "Drag the X Offset slider to move the shadow left or right.",
+      "Drag the Y Offset slider to move the shadow up or down.",
+      "Adjust the Blur slider to control the softness of the shadow edges.",
+      "Adjust the Spread slider to grow or shrink the shadow size.",
+      "Pick a shadow color using the color picker or enter a hex value.",
+      "Check the Inset toggle to place the shadow inside the element."
+     ],
+     "outro": "To add a second shadow layer, click \"+ Add\" and configure it separately. You can have as many shadow layers as you need. Click the X icon on a shadow tab to remove it."
+    },
+    "tips": {
+     "title": "Tips for Effective Box Shadows",
+     "body": [
+      "Subtle shadows create depth without overwhelming the design. For card-style elevation, use a small Y offset with moderate blur and low-opacity black. For dramatic effects, increase the blur and offset values. Layering two or three shadows at different sizes often produces more realistic depth than a single heavy shadow.",
+      "Inset shadows are useful for creating pressed button states, input focus rings, and neumorphic design patterns. Combine an inset shadow with an outer shadow for a polished, three-dimensional appearance."
+     ]
+    },
+    "useCases": {
+     "title": "Common Use Cases",
+     "items": [
+      "Card and panel elevation in dashboard layouts.",
+      "Button hover and active states with layered shadows.",
+      "Input field focus effects using inset shadows.",
+      "Modal and popup depth effects.",
+      "Neumorphic UI design with combined inset and outer shadows."
+     ]
+    },
+    "why": {
+     "title": "Why Use a Box Shadow Generator?",
+     "body": "The box-shadow CSS property has five values to coordinate: X offset, Y offset, blur, spread, and color. Getting these right by hand requires constant browser refreshes. This generator lets you experiment visually and copy clean CSS code when you are satisfied, saving time and reducing guesswork."
+    }
+   },
+   "labels": {
+    "shadow": "Shadow {n}",
+    "xOffset": "X Offset",
+    "yOffset": "Y Offset",
+    "blur": "Blur",
+    "spread": "Spread",
+    "color": "Shadow Color",
+    "inset": "Inset"
+   },
+   "buttons": {
+    "add": "+ Add",
+    "copy": "Copy"
+   }
+  },
+  "password-generator": {
+   "metadata": {
+    "title": "Password Generator",
+    "description": "Generate strong, secure passwords with customizable options including length, character types, and bulk generation.",
+    "category": "Utility"
+   },
+   "title": "Password Generator",
+   "description": "Generate strong, secure passwords with customizable options including length, character types, and bulk generation.",
+   "category": "Utility",
+   "faqs": [
+    {
+     "question": "How do I generate a strong password?",
+     "answer": "Use this tool to create a password with at least 16 characters that includes uppercase letters, lowercase letters, numbers, and symbols. The strength meter will confirm when your settings produce a strong or very strong password."
+    },
+    {
+     "question": "Is this password generator safe to use?",
+     "answer": "Yes. Passwords are generated using the Web Crypto API (crypto.getRandomValues), which provides cryptographically secure random numbers. No passwords are stored or transmitted — everything runs locally in your browser."
+    },
+    {
+     "question": "What makes a password strong?",
+     "answer": "A strong password is long (12+ characters), uses a mix of character types (upper, lower, numbers, symbols), and avoids dictionary words or personal information. This generator handles all of that automatically."
+    },
+    {
+     "question": "Can I generate multiple passwords at once?",
+     "answer": "Yes. Use the Bulk Generate section to create 5, 10, or 20 passwords at once with your current settings. You can copy them all at once or copy individual passwords."
+    },
+    {
+     "question": "What does Exclude Ambiguous Characters mean?",
+     "answer": "Ambiguous characters are ones that look similar in many fonts, like 0 and O, 1 and l and I. Excluding them makes passwords easier to read and type manually, which is useful when you need to enter a password on a different device."
+    },
+    {
+     "question": "How long should my password be?",
+     "answer": "For most accounts, 16 characters is a strong minimum. For high-security accounts like banking or email, consider 20 or more characters. This tool supports passwords up to 128 characters long."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "UUID Generator",
+     "href": "/tools/uuid-generator"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "QR Code Generator",
+     "href": "/tools/qr-code-generator"
+    }
+   ],
+   "keywords": [
+    "password generator",
+    "strong password generator",
+    "random password generator",
+    "secure password generator",
+    "bulk password generator",
+    "password generator online free",
+    "generate random password"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Password Generator?",
+     "body": [
+      "The Password Generator creates cryptographically secure random passwords using the Web Crypto API built into your browser. You can customize the length, choose which character types to include, exclude ambiguous characters, and generate passwords in bulk.",
+      "No passwords are stored or transmitted anywhere. Everything runs locally in your browser, and each password is generated using a cryptographically secure random number generator — the same standard used by password managers and security applications."
+     ]
+    },
+    "howTo": {
+     "title": "How to Generate a Secure Password",
+     "intro": "Follow these steps to create a strong password:",
+     "items": [
+      "Set your desired password length using the slider (4 to 128 characters). A minimum of 16 characters is recommended for most accounts.",
+      "Select which character types to include: uppercase letters, lowercase letters, numbers, and symbols.",
+      "Optionally check Exclude Ambiguous Characters to avoid characters like 0/O and 1/l/I that are easily confused.",
+      "Click Regenerate or refresh the page to get a new password with the same settings.",
+      "Click Copy to copy the password to your clipboard."
+     ]
+    },
+    "strength": {
+     "title": "Understanding the Strength Meter",
+     "body": "The strength meter evaluates your password based on length and character diversity. It rates passwords as Weak, Fair, Strong, or Very Strong. To reach Very Strong, use at least 20 characters with a mix of all four character types (uppercase, lowercase, numbers, and symbols)."
+    },
+    "bulk": {
+     "title": "Bulk Password Generation",
+     "body": "Need multiple passwords at once? Use the Bulk Generate section to create 5, 10, or 20 passwords in a single click. All generated passwords use your current settings. You can copy individual passwords or copy all of them at once as a newline-separated list."
+    },
+    "tips": {
+     "title": "Tips for Password Security",
+     "items": [
+      "Use a unique password for every account. Never reuse passwords across different services.",
+      "Store your passwords in a password manager rather than writing them down or saving them in a text file.",
+      "For accounts that support it, enable two-factor authentication in addition to using a strong password.",
+      "If you need to type a password manually (for example, on a TV or game console), use Exclude Ambiguous Characters to avoid confusion."
+     ]
+    },
+    "useCases": {
+     "title": "Common Use Cases",
+     "items": [
+      "Creating strong passwords for new online accounts.",
+      "Generating API keys and tokens for development environments.",
+      "Bulk generating temporary passwords for team onboarding.",
+      "Creating database passwords and server credentials."
+     ]
+    }
+   },
+   "placeholder": "Select at least one option",
+   "buttons": {
+    "regenerate": "Regenerate",
+    "copy": "Copy"
+   },
+   "strength": {
+    "label": "Strength",
+    "none": "None",
+    "weak": "Weak",
+    "fair": "Fair",
+    "strong": "Strong",
+    "veryStrong": "Very Strong"
+   },
+   "labels": {
+    "length": "Length: {length}"
+   },
+   "options": {
+    "upper": "Uppercase (A-Z)",
+    "lower": "Lowercase (a-z)",
+    "numbers": "Numbers (0-9)",
+    "symbols": "Symbols (!@#$...)",
+    "excludeAmbiguous": "Exclude Ambiguous (0O1lI)"
+   },
+   "bulk": {
+    "title": "Bulk Generate",
+    "generate": "Generate",
+    "copyAll": "Copy All"
+   }
+  },
+  "unit-converter": {
+   "metadata": {
+    "title": "Unit Converter",
+    "description": "Convert between length, weight, temperature, data, and time units instantly.",
+    "category": "Utility",
+    "keywords": [
+     "unit converter",
+     "length converter",
+     "weight converter",
+     "temperature converter",
+     "data storage converter",
+     "time converter"
+    ]
+   },
+   "guide": {
+    "introduction": {
+     "title": "What Is the Unit Converter?",
+     "p1": "The Unit Converter is a free online tool that lets you convert between common measurement units across five categories: length, weight, temperature, data storage, and time. Enter a value, pick your source and target units, and get an instant result with no page reloads.",
+     "p2": "All conversions happen in your browser in real time as you type. The tool also shows a complete reference table so you can see your value expressed in every available unit at once."
+    },
+    "howToUse": {
+     "title": "How to Use the Unit Converter",
+     "steps": [
+      "Select a category tab: Length, Weight, Temperature, Data, or Time.",
+      "Choose your source unit in the From dropdown and your target unit in the To dropdown.",
+      "Type a number in the input field. The converted result updates instantly.",
+      "Click the swap button between the two columns to reverse the conversion direction. The current result becomes the new input value.",
+      "Scroll down to the reference table to see your value converted to all units in the selected category."
+     ]
+    },
+    "supportedCategories": {
+     "title": "Supported Unit Categories",
+     "body": "Length conversions include millimeters, centimeters, meters, kilometers, inches, feet, yards, and miles. Weight covers milligrams, grams, kilograms, ounces, pounds, and metric tons. Temperature handles Celsius, Fahrenheit, and Kelvin. Data storage converts between bytes, kilobytes, megabytes, gigabytes, terabytes, and petabytes. Time includes milliseconds, seconds, minutes, hours, days, weeks, months, and years."
+    },
+    "tips": {
+     "title": "Tips for Accurate Conversions",
+     "body": "The converter uses precise conversion factors and displays results with up to 10 significant digits. Very small values are shown in scientific notation for clarity. Temperature conversions use the standard formulas relating Celsius, Fahrenheit, and Kelvin, not simple multiplication."
+    },
+    "useCases": {
+     "title": "Common Use Cases",
+     "items": [
+      "Converting between metric and imperial measurements for recipes, travel, or science",
+      "Calculating file and storage sizes across different data units",
+      "Converting time durations for project planning or scheduling",
+      "Quick reference when working with international standards or documentation",
+      "Homework and study aid for unit conversion problems"
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "How do I convert kilometers to miles?",
+     "answer": "Select the Length category, choose Kilometers as the From unit and Miles as the To unit, then enter your value. One kilometer equals approximately 0.6214 miles."
+    },
+    {
+     "question": "How do I convert Celsius to Fahrenheit?",
+     "answer": "Select the Temperature category, choose Celsius as the From unit and Fahrenheit as the To unit. The formula used is F = C x 9/5 + 32. For example, 100 degrees Celsius equals 212 degrees Fahrenheit."
+    },
+    {
+     "question": "What is the difference between MB and GB?",
+     "answer": "One gigabyte (GB) equals 1024 megabytes (MB). Select the Data category to convert between any data storage units from bytes up to petabytes."
+    },
+    {
+     "question": "Can I convert between metric and imperial units?",
+     "answer": "Yes. The Length and Weight categories both include metric units (meters, kilograms) and imperial units (feet, pounds). Select any combination and the converter handles the math automatically."
+    },
+    {
+     "question": "How many seconds are in a year?",
+     "answer": "There are approximately 31,557,600 seconds in a year. Enter 1 in the Time category with Years as the source and Seconds as the target to see this calculated instantly."
+    },
+    {
+     "question": "Does this unit converter work offline?",
+     "answer": "Once the page has loaded, all conversions run entirely in your browser with no server requests. You can use it without an active internet connection after the initial page load."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Aspect Ratio Calculator",
+     "href": "/tools/aspect-ratio-calculator"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    }
+   ],
+   "labels": {
+    "categories": {
+     "Length": "Length",
+     "Weight": "Weight",
+     "Temperature": "Temperature",
+     "Data": "Data",
+     "Time": "Time"
+    },
+    "from": "From",
+    "to": "To",
+    "swapTitle": "Swap units",
+    "referenceTitle": "{inputVal} {abbr} in other units",
+    "unitOption": "{name} ({abbr})"
+   },
+   "keywords": [
+    "unit converter",
+    "length converter",
+    "weight converter",
+    "temperature converter",
+    "data converter",
+    "time converter",
+    "metric to imperial"
+   ],
+   "description": "Convert units like length, weight, temperature, data, and time.",
+   "units": {
+    "millimeters": "Millimeters",
+    "centimeters": "Centimeters",
+    "meters": "Meters",
+    "kilometers": "Kilometers",
+    "inches": "Inches",
+    "feet": "Feet",
+    "yards": "Yards",
+    "miles": "Miles",
+    "milligrams": "Milligrams",
+    "grams": "Grams",
+    "kilograms": "Kilograms",
+    "ounces": "Ounces",
+    "pounds": "Pounds",
+    "metricTons": "Metric tons",
+    "celsius": "Celsius",
+    "fahrenheit": "Fahrenheit",
+    "kelvin": "Kelvin",
+    "bytes": "Bytes",
+    "kilobytes": "Kilobytes",
+    "megabytes": "Megabytes",
+    "gigabytes": "Gigabytes",
+    "terabytes": "Terabytes",
+    "petabytes": "Petabytes",
+    "milliseconds": "Milliseconds",
+    "seconds": "Seconds",
+    "minutes": "Minutes",
+    "hours": "Hours",
+    "days": "Days",
+    "weeks": "Weeks",
+    "months": "Months",
+    "years": "Years"
+   }
+  },
+  "regex-tester": {
+   "metadata": {
+    "title": "Regex Tester",
+    "description": "Test regular expressions with live highlighting and match info",
+    "category": "Developer",
+    "keywords": [
+     "regex tester",
+     "regular expression tester",
+     "regex matcher online",
+     "regex checker",
+     "regex playground",
+     "regex test",
+     "regex debugger",
+     "online regex tool"
+    ]
+   },
+   "keywords": [
+    "regex tester",
+    "regex online",
+    "regular expression tester",
+    "regex playground",
+    "regex tool",
+    "regex validator",
+    "regex cheatsheet",
+    "regex test online"
+   ],
+   "guide": {
+    "introduction": {
+     "title": "What Is the Regex Tester?",
+     "p1": "The Regex Tester is an online tool for writing, testing, and debugging regular expressions in real time. Type a pattern and a test string, and the tool instantly highlights all matches, shows match details including capture groups, and lets you test find-and-replace operations.",
+     "p2": "This tool uses the JavaScript regular expression engine, so your patterns behave exactly as they would in JavaScript, TypeScript, or Node.js code. It is ideal for developers building validation rules, parsing logic, or text transformations."
+    },
+    "howToUse": {
+     "title": "How to Use the Regex Tester",
+     "steps": [
+      "Enter your regular expression pattern in the Pattern field. The tool wraps it in forward slashes automatically.",
+      "Toggle flags using the checkboxes: g (global), i (case-insensitive), m (multiline), s (dotAll), and u (unicode).",
+      "Paste or type your test string in the text area below. Matches are highlighted instantly in the Highlighted Matches section.",
+      "Scroll down to see a numbered list of every match, its position in the string, and any captured groups.",
+      "Click Show Replace Mode to enter a replacement pattern. The tool shows the result of applying your regex replacement to the entire test string.",
+      "Use the Common Patterns sidebar to load pre-built patterns for emails, URLs, phone numbers, IP addresses, dates, and hex colors."
+     ]
+    },
+    "flags": {
+     "title": "Understanding Regex Flags",
+     "body": "The global flag (g) finds all matches instead of stopping at the first one. Case-insensitive (i) ignores letter casing. Multiline (m) makes ^ and $ match line boundaries. DotAll (s) makes the dot character match newlines. Unicode (u) enables full Unicode matching for characters outside the basic Latin set."
+    },
+    "tips": {
+     "title": "Tips for Writing Better Regular Expressions",
+     "items": [
+      "Start with a simple pattern and refine it incrementally while watching the matches update",
+      "Use capture groups with parentheses to extract specific parts of a match",
+      "Test edge cases by including unusual input in your test string",
+      "Use the replace mode to verify that your regex-based transformations produce correct output",
+      "Check the error message area if your pattern is invalid, as it shows the exact JavaScript error"
+     ]
+    },
+    "useCases": {
+     "title": "Common Use Cases",
+     "items": [
+      "Validating email addresses, URLs, or phone numbers in form input",
+      "Extracting data from log files or structured text",
+      "Building search-and-replace operations for code refactoring",
+      "Learning regular expression syntax with instant visual feedback"
+     ]
+    },
+    "intro": {
+     "title": "What is a Regex Tester?",
+     "paragraphs": [
+      "A regex tester is a free online tool for testing and debugging regular expressions. It shows matches in a test string in real time, and provides detailed information about capture groups and match positions. Everything is processed in your browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Test a Regular Expression",
+      "paragraphs": [
+       "Enter a pattern in the regex field and text in the test string field. Matches are highlighted in color immediately."
+      ]
+     },
+     {
+      "title": "Using Flags",
+      "paragraphs": [
+       "Use the flag toggle buttons to enable or disable regex flags. g (global) finds all matches, i (case-insensitive) makes matching case-insensitive, and m (multiline) makes ^ and $ match line boundaries."
+      ]
+     },
+     {
+      "title": "Viewing Match Information",
+      "paragraphs": [
+       "The match info panel shows details for each match, including index positions and capture groups. This is useful for debugging complex patterns and verifying that your regex works as expected."
+      ]
+     },
+     {
+      "title": "Common Regex Patterns",
+      "items": [
+       "Email: [\\w.-]+@[\\w.-]+\\.\\w+",
+       "URL: https?://[\\w.-]+(?:\\.[\\w]+)+",
+       "Phone number: \\+?\\d{10,15}",
+       "Date (YYYY-MM-DD): \\d{4}-\\d{2}-\\d{2}",
+       "Hex color: #[0-9A-Fa-f]{6}"
+      ]
+     }
+    ]
+   },
+   "faqs": [
+    {
+     "question": "How do I test a regex pattern online?",
+     "answer": "Enter your pattern in the Pattern field and paste your test text below it. The tool highlights all matches in real time and shows detailed match information including index positions and capture groups."
+    },
+    {
+     "question": "What regex engine does this tester use?",
+     "answer": "This tool uses the native JavaScript RegExp engine. Patterns behave identically to how they run in JavaScript, TypeScript, and Node.js, making it ideal for web development testing."
+    },
+    {
+     "question": "How do I use capture groups in regex?",
+     "answer": "Wrap part of your pattern in parentheses to create a capture group. For example, (\\d{4})-(\\d{2}) captures a year and month separately. The tool displays captured groups for each match below the highlighted results."
+    },
+    {
+     "question": "Can I do regex find and replace with this tool?",
+     "answer": "Yes. Click Show Replace Mode, enter your replacement pattern using $1, $2 for group references, and the tool shows the replaced output in real time. You can copy the result with one click."
+    },
+    {
+     "question": "What does the global flag (g) do in regex?",
+     "answer": "The global flag tells the regex engine to find all matches in the string instead of stopping after the first one. Without it, only the first match is returned."
+    },
+    {
+     "question": "How do I match an email address with regex?",
+     "answer": "Click the Email button in the Common Patterns sidebar to load a standard email-matching pattern. You can then modify it to fit your specific validation needs and test it against sample email addresses."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    },
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    }
+   ],
+   "labels": {
+    "pattern": "Pattern",
+    "patternPlaceholder": "Enter regex pattern...",
+    "testString": "Test String",
+    "testStringPlaceholder": "Enter text to test against...",
+    "flagDescriptions": {
+     "g": "global",
+     "i": "case-insensitive",
+     "m": "multiline",
+     "s": "dotAll",
+     "u": "unicode"
+    },
+    "highlightedMatches": "Highlighted Matches",
+    "replaceMode": {
+     "show": "Show Replace Mode",
+     "hide": "Hide Replace Mode",
+     "placeholder": "Replacement pattern (e.g., $1-$2)",
+     "result": "Result",
+     "copy": "Copy"
+    },
+    "matchesTitle": "{count} Match{count, plural, one {} other {es}}",
+    "matchIndex": "at index {index}",
+    "matchGroups": "Groups:",
+    "commonPatternsTitle": "Common Patterns",
+    "errorFallback": "Invalid regular expression"
+   },
+   "commonPatterns": {
+    "email": "Email",
+    "url": "URL",
+    "phone": "Phone Number",
+    "ipv4": "IPv4 Address",
+    "date": "Date (YYYY-MM-DD)",
+    "hexColor": "Hex Color"
+   }
+  },
+  "markdown-preview": {
+   "metadata": {
+    "title": "Markdown Preview",
+    "description": "Write and preview Markdown with a live split-pane editor",
+    "category": "Text",
+    "keywords": [
+     "markdown preview",
+     "markdown editor",
+     "markdown to html",
+     "github flavored markdown",
+     "gfm preview",
+     "live markdown preview",
+     "markdown syntax",
+     "markdown cheat sheet"
+    ]
+   },
+   "guide": {
+    "introduction": {
+     "title": "What Is the Markdown Preview Tool?",
+     "p1": "The Markdown Preview tool is a free online split-pane editor that lets you write Markdown on the left and see the rendered output on the right in real time. It supports GitHub Flavored Markdown (GFM), including tables, task lists, strikethrough, and fenced code blocks.",
+     "p2": "Whether you are drafting a README for a GitHub repository, writing documentation, composing a blog post, or learning Markdown syntax, this tool gives you instant visual feedback as you type."
+    },
+    "howToUse": {
+     "title": "How to Use the Markdown Preview Editor",
+     "steps": [
+      "Type or paste your Markdown content in the editor pane on the left. The preview pane on the right updates automatically as you type.",
+      "Use the formatting toolbar at the top to insert bold, italic, headings, links, images, code blocks, and lists without memorizing syntax.",
+      "Click Export HTML to download the rendered output as a standalone HTML file with clean styling.",
+      "Click Copy MD to copy your raw Markdown text to the clipboard.",
+      "Expand the Markdown Cheat Sheet at the bottom for a quick reference of all supported syntax."
+     ]
+    },
+    "supportedFeatures": {
+     "title": "Supported Markdown Features",
+     "body": "This editor supports the full CommonMark specification plus GitHub Flavored Markdown extensions. You can use headings (h1 through h6), bold, italic, and strikethrough text, ordered and unordered lists, blockquotes, horizontal rules, inline code and fenced code blocks, links, images, tables with alignment, and task list checkboxes."
+    },
+    "tips": {
+     "title": "Tips for Writing Better Markdown",
+     "items": [
+      "Use headings hierarchically: start with h1 for the title, h2 for sections, h3 for subsections",
+      "Leave a blank line between paragraphs and before/after lists for proper rendering",
+      "Use fenced code blocks with a language identifier for syntax highlighting in supported renderers",
+      "Preview your content frequently to catch formatting issues early",
+      "Use the toolbar buttons to learn the syntax for elements you use less often"
+     ]
+    },
+    "useCases": {
+     "title": "Common Use Cases",
+     "items": [
+      "Writing and previewing GitHub README files before committing",
+      "Drafting documentation or technical writing in Markdown",
+      "Composing blog posts for static site generators like Hugo, Jekyll, or Astro",
+      "Learning Markdown syntax with instant visual feedback",
+      "Converting Markdown to HTML for embedding in websites or emails"
+     ]
+    },
+    "intro": {
+     "title": "What is a Markdown Preview?",
+     "paragraphs": [
+      "Markdown Preview is a free online tool for writing and previewing Markdown text. It provides a real-time split-screen editor where you type Markdown on the left and immediately see the rendered output on the right. Everything is processed in your browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Write Markdown",
+      "paragraphs": [
+       "Type Markdown text in the left editor. Use standard Markdown syntax for formatting: # for headings, **text** for bold, *text* for italics, and [link](url) for links."
+      ]
+     },
+     {
+      "title": "Using the Toolbar",
+      "paragraphs": [
+       "The toolbar provides buttons to quickly insert common Markdown elements, including headings, bold, italics, links, images, code blocks, lists, and quotes."
+      ]
+     },
+     {
+      "title": "Preview and Copy",
+      "paragraphs": [
+       "The preview updates in real time in the right pane. Use the copy button to copy the rendered HTML or raw Markdown. Use the download button to save as a .md file."
+      ]
+     },
+     {
+      "title": "Markdown Syntax Quick Reference",
+      "items": [
+       "# Heading 1, ## Heading 2, ### Heading 3",
+       "**bold**, *italic*, ~~strikethrough~~",
+       "[link text](https://example.com)",
+       "![alt text](image.jpg)",
+       "- Unordered list item",
+       "1. Ordered list item",
+       "> Blockquote text",
+       "`inline code`"
+      ]
+     }
+    ]
+   },
+   "faqs": [
+    {
+     "question": "How do I preview Markdown online?",
+     "answer": "Paste or type your Markdown in the editor pane on the left side of this tool. The rendered preview appears instantly on the right side, updating in real time as you make changes."
+    },
+    {
+     "question": "Does this tool support GitHub Flavored Markdown?",
+     "answer": "Yes. The editor fully supports GFM extensions including tables, task lists with checkboxes, strikethrough text, and fenced code blocks. It uses the remark-gfm parser for accurate rendering."
+    },
+    {
+     "question": "Can I export Markdown as HTML?",
+     "answer": "Yes. Click the Export HTML button in the toolbar to download a standalone HTML file with embedded CSS styling. The file is ready to open in any browser or embed in a website."
+    },
+    {
+     "question": "How do I create a table in Markdown?",
+     "answer": "Use pipes (|) to separate columns and hyphens (-) to create the header row divider. For example: | Column 1 | Column 2 | followed by |----------|----------| and then your data rows. The preview pane shows the rendered table instantly."
+    },
+    {
+     "question": "What is the difference between Markdown and HTML?",
+     "answer": "Markdown is a lightweight text formatting syntax that is easier to read and write than HTML. It gets converted to HTML for display. This tool lets you write in Markdown and see the resulting HTML output side by side."
+    },
+    {
+     "question": "Can I use this editor for GitHub README files?",
+     "answer": "Absolutely. This editor supports the same GFM syntax that GitHub uses, so your README will render the same way. Write your content here, preview it, and then copy the Markdown into your repository."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "Lorem Ipsum Generator",
+     "href": "/tools/lorem-ipsum-generator"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Regex Tester",
+     "href": "/tools/regex-tester"
+    }
+   ],
+   "defaultMarkdown": "# Welcome to the Markdown Preview\n\nThis is a **live preview** editor. Start typing on the left to see the rendered output on the right.\n\n## Features\n\n- **Bold**, *italic*, and ~~strikethrough~~ text\n- [Links](https://example.com) and images\n- Code blocks with syntax highlighting\n\n### Code Example\n\n```javascript\nfunction greet(name) {\n  console.log(`Hello, ${name}!`);\n}\ngreet(\"World\");\n```\n\n### Table Example\n\n| Feature | Status |\n|---------|--------|\n| GFM Tables | Supported |\n| Task Lists | Supported |\n| Strikethrough | Supported |\n\n### Task List\n\n- [x] Write Markdown\n- [x] Preview output\n- [ ] Export to HTML\n\n> Blockquotes are also supported and look great in dark mode.\n\n---\n\nEnjoy writing Markdown!\n",
+   "toolbar": {
+    "bold": {
+     "label": "B",
+     "title": "Bold",
+     "before": "**",
+     "after": "**",
+     "placeholder": "bold text"
+    },
+    "italic": {
+     "label": "I",
+     "title": "Italic",
+     "before": "*",
+     "after": "*",
+     "placeholder": "italic text"
+    },
+    "h1": {
+     "label": "H1",
+     "title": "Heading 1",
+     "before": "# ",
+     "after": "",
+     "placeholder": "heading"
+    },
+    "h2": {
+     "label": "H2",
+     "title": "Heading 2",
+     "before": "## ",
+     "after": "",
+     "placeholder": "heading"
+    },
+    "h3": {
+     "label": "H3",
+     "title": "Heading 3",
+     "before": "### ",
+     "after": "",
+     "placeholder": "heading"
+    },
+    "link": {
+     "label": "Link",
+     "title": "Link",
+     "before": "[",
+     "after": "](url)",
+     "placeholder": "link text"
+    },
+    "image": {
+     "label": "Img",
+     "title": "Image",
+     "before": "![",
+     "after": "](url)",
+     "placeholder": "alt text"
+    },
+    "code": {
+     "label": "Code",
+     "title": "Inline Code",
+     "before": "`",
+     "after": "`",
+     "placeholder": "code"
+    },
+    "codeBlock": {
+     "label": "```",
+     "title": "Code Block",
+     "before": "```\n",
+     "after": "\n```",
+     "placeholder": "code block"
+    },
+    "unorderedList": {
+     "label": "List",
+     "title": "Unordered List",
+     "before": "- ",
+     "after": "",
+     "placeholder": "list item"
+    },
+    "orderedList": {
+     "label": "1.",
+     "title": "Ordered List",
+     "before": "1. ",
+     "after": "",
+     "placeholder": "list item"
+    }
+   },
+   "labels": {
+    "exportHtml": "Export HTML",
+    "copyMd": "Copy MD",
+    "editor": "Editor",
+    "preview": "Preview",
+    "cheatSheetTitle": "Markdown Cheat Sheet"
+   },
+   "cheatSheet": [
+    {
+     "syntax": "**bold**",
+     "desc": "Bold text"
+    },
+    {
+     "syntax": "*italic*",
+     "desc": "Italic text"
+    },
+    {
+     "syntax": "~~strike~~",
+     "desc": "Strikethrough"
+    },
+    {
+     "syntax": "# Heading",
+     "desc": "Heading (1-6)"
+    },
+    {
+     "syntax": "[text](url)",
+     "desc": "Link"
+    },
+    {
+     "syntax": "![alt](url)",
+     "desc": "Image"
+    },
+    {
+     "syntax": "`code`",
+     "desc": "Inline code"
+    },
+    {
+     "syntax": "```lang```",
+     "desc": "Code block"
+    },
+    {
+     "syntax": "> quote",
+     "desc": "Blockquote"
+    },
+    {
+     "syntax": "- item",
+     "desc": "Unordered list"
+    },
+    {
+     "syntax": "1. item",
+     "desc": "Ordered list"
+    },
+    {
+     "syntax": "---",
+     "desc": "Horizontal rule"
+    },
+    {
+     "syntax": "| a | b |",
+     "desc": "Table"
+    },
+    {
+     "syntax": "- [x] task",
+     "desc": "Task list"
+    }
+   ],
+   "keywords": [
+    "markdown preview",
+    "markdown editor",
+    "live markdown",
+    "markdown renderer",
+    "online markdown",
+    "markdown viewer",
+    "markdown to html",
+    "markdown syntax"
+   ]
+  },
+  "image-upscaler": {
+   "metadata": {
+    "title": "Image Upscaler",
+    "description": "Upscale and enlarge images for free. 2x and 4x scaling with multiple algorithms. No upload, no signup — runs entirely in your browser.",
+    "category": "Design",
+    "keywords": [
+     "image upscaler",
+     "upscale image",
+     "enlarge image",
+     "increase image resolution",
+     "image enlarger",
+     "photo upscaler"
+    ]
+   },
+   "guide": {
+    "title": "How to use:",
+    "steps": [
+     "Upload an image (PNG, JPG, WebP).",
+     "Choose scale (2x or 4x) and mode (Smooth, Sharp, or Pixel Art).",
+     "Click \"Upscale\" and download the result."
+    ]
+   },
+   "faqs": [
+    {
+     "question": "How does image upscaling work?",
+     "answer": "The tool enlarges your image using advanced canvas interpolation algorithms. Smooth mode uses high-quality bicubic interpolation, Sharp mode applies a sharpening filter after upscaling, and Pixel Art mode uses nearest-neighbor for crisp pixel edges."
+    },
+    {
+     "question": "Will upscaling make a blurry image sharp?",
+     "answer": "Upscaling increases resolution but can't add detail that wasn't in the original image. A small, clear image will upscale well. A blurry or very low-resolution image will remain soft. For best results, start with the highest quality source you have."
+    },
+    {
+     "question": "What's the maximum upscale size?",
+     "answer": "You can upscale up to 4x the original dimensions. For example, a 500x500 image can become 2000x2000. Very large outputs may take a moment to process."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser using the Canvas API. Your image never leaves your device."
+    },
+    {
+     "question": "When should I use Pixel Art mode?",
+     "answer": "Use Pixel Art (Nearest Neighbor) mode when upscaling pixel art, retro game sprites, or any image where you want to preserve hard pixel edges without blurring or smoothing."
+    },
+    {
+     "question": "What output formats are available?",
+     "answer": "You can download the upscaled image as PNG (lossless, best quality) or JPG (smaller file size). PNG is recommended for graphics and pixel art, JPG for photographs."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    }
+   ],
+   "labels": {
+    "uploadPrompt": "Drop an image here or click to upload",
+    "uploadFormats": "PNG, JPG, WebP",
+    "scale": "Scale",
+    "mode": "Mode",
+    "modes": {
+     "smooth": "Smooth",
+     "sharp": "Sharp",
+     "pixel": "Pixel Art"
+    },
+    "format": "Format",
+    "upscale": "Upscale",
+    "processing": "Processing...",
+    "newImage": "New Image",
+    "original": "Original",
+    "upscaled": "Upscaled",
+    "upscalePrompt": "Click \"Upscale\" to see result",
+    "download": "Download"
+   },
+   "keywords": [
+    "image upscaler",
+    "upscale image",
+    "enlarge image",
+    "increase image resolution",
+    "image enlarger",
+    "photo upscaler"
+   ],
+   "description": "Enlarge and enhance images for free. Supports 2x and 4x scaling with multiple algorithms. No upload, no signup - everything runs in your browser."
+  },
+  "image-to-text": {
+   "metadata": {
+    "title": "Image to Text (OCR)",
+    "description": "Extract text from images for free using OCR. Upload a screenshot, photo, or scanned document and get editable text instantly. No upload, no signup.",
+    "category": "Productivity",
+    "keywords": [
+     "image to text",
+     "ocr online",
+     "extract text from image",
+     "photo to text",
+     "screenshot to text",
+     "ocr converter"
+    ]
+   },
+   "guide": {
+    "title": "How to use:",
+    "steps": [
+     "Upload an image or paste from clipboard.",
+     "Choose an engine (PaddleOCR recommended). Optionally select a language for Tesseract.",
+     "Click \"Extract Text\" and wait for processing.",
+     "Copy or download the extracted text."
+    ]
+   },
+   "faqs": [
+    {
+     "question": "What is OCR?",
+     "answer": "OCR (Optical Character Recognition) is technology that converts images of text into editable, searchable text. It works on screenshots, photos of documents, scanned pages, and any image containing text."
+    },
+    {
+     "question": "What languages are supported?",
+     "answer": "The default PaddleOCR engine handles Chinese and English. Switching to the Tesseract engine supports English, Spanish, French, German, Portuguese, Simplified Chinese and Japanese. Select the correct option before processing for best results."
+    },
+    {
+     "question": "Is the text extraction accurate?",
+     "answer": "Accuracy depends on image quality. Clear, high-contrast text with good resolution gives the best results (95%+ accuracy). Handwritten text, very small fonts, or low-quality images may have lower accuracy."
+    },
+    {
+     "question": "Is my image uploaded to a server?",
+     "answer": "No. Both OCR engines (PaddleOCR and Tesseract.js) run entirely in your browser. Your images never leave your device. Models are downloaded once and cached."
+    },
+    {
+     "question": "Can I extract text from a PDF?",
+     "answer": "This tool works with images. For PDFs, first take a screenshot of the page or use our PDF to Word converter to extract text directly from PDF files."
+    },
+    {
+     "question": "Why is the first extraction slow?",
+     "answer": "The first time you use a language, the OCR model (~5-15 MB) needs to download. After that it's cached in your browser and subsequent extractions are faster."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "PDF to Word Converter",
+     "href": "/tools/pdf-to-word"
+    },
+    {
+     "name": "Text Case Converter",
+     "href": "/tools/text-case-converter"
+    }
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "label": "English"
+    },
+    {
+     "code": "spa",
+     "label": "Spanish"
+    },
+    {
+     "code": "fra",
+     "label": "French"
+    },
+    {
+     "code": "deu",
+     "label": "German"
+    },
+    {
+     "code": "por",
+     "label": "Portuguese"
+    },
+    {
+     "code": "chi_sim",
+     "label": "Chinese (Simplified)"
+    },
+    {
+     "code": "jpn",
+     "label": "Japanese"
+    },
+    {
+     "code": "chi_tra",
+     "label": "Chinese (Traditional)"
+    },
+    {
+     "code": "kor",
+     "label": "Korean"
+    },
+    {
+     "code": "rus",
+     "label": "Russian"
+    },
+    {
+     "code": "ita",
+     "label": "Italian"
+    },
+    {
+     "code": "ara",
+     "label": "Arabic"
+    }
+   ],
+   "labels": {
+    "uploadPrompt": "Drop an image here or click to upload",
+    "uploadFormats": "PNG, JPG, WebP, BMP — screenshots, photos, scans",
+    "pasteFromClipboard": "Paste from Clipboard",
+    "extractText": "Extract Text",
+    "extracting": "Extracting...",
+    "newImage": "New Image",
+    "sourceImage": "Source Image",
+    "extractedText": "Extracted Text",
+    "placeholder": "Extracted text will appear here...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "downloadTxt": "Download .txt",
+    "engine": "Recognition Engine"
+   },
+   "status": {
+    "loadingOcr": "Loading OCR engine...",
+    "recognizing": "Recognizing text...",
+    "recognizingProgress": "Recognizing text... {progress}%",
+    "fallbackLoading": "Loading OCR engine (fallback)...",
+    "loadingPaddle": "Loading PaddleOCR engine and models (first time ~30 MB)..."
+   },
+   "errors": {
+    "loadFailed": "Failed to load OCR engine",
+    "generic": "OCR failed: {message}"
+   },
+   "keywords": [
+    "image to text",
+    "ocr online",
+    "extract text from image",
+    "photo to text",
+    "screenshot to text",
+    "ocr converter"
+   ],
+   "description": "Extract text from images for free with OCR. Upload screenshots, photos, or scanned documents and get editable text instantly. No upload, no signup.",
+   "engines": {
+    "paddleocr": "PaddleOCR (Recommended · Chinese & English)",
+    "tesseract": "Tesseract (Multi-language)"
+   }
+  },
+  "digital-signature": {
+   "metadata": {
+    "title": "Digital Signature Creator - Free Online Tool",
+    "description": "Create a digital signature by drawing, typing, or uploading. Download as PNG or SVG. Free, no signup, 100% private.",
+    "category": "Utility"
+   },
+   "title": "Digital Signature Creator",
+   "description": "Create a digital signature by drawing, typing, or uploading. Download as PNG or SVG. Free, no signup, 100% private.",
+   "category": "Utility",
+   "keywords": [
+    "digital signature",
+    "e-signature",
+    "signature maker",
+    "signature generator",
+    "create signature online",
+    "free signature tool"
+   ],
+   "faqs": [
+    {
+     "question": "Is this a legally binding signature?",
+     "answer": "This tool creates a signature image. Legal validity depends on your jurisdiction and the platform accepting the signature. For legally binding e-signatures, you typically need a service that provides an audit trail and identity verification."
+    },
+    {
+     "question": "Can I use this signature on PDFs?",
+     "answer": "Yes. Download as PNG with transparent background and insert it into any PDF using Preview (Mac), Adobe Reader, or any PDF editor. Most PDF tools have an 'Add Image' or 'Stamp' feature."
+    },
+    {
+     "question": "Is my signature stored anywhere?",
+     "answer": "No. Everything runs in your browser. Your signature is never uploaded to any server. When you close the page, the signature exists only in your downloaded file."
+    },
+    {
+     "question": "What format should I download?",
+     "answer": "PNG is best for most uses — it supports transparency so the signature overlays cleanly on documents. SVG is vector format, useful if you need to scale the signature to any size without quality loss."
+    },
+    {
+     "question": "Can I change the color?",
+     "answer": "Yes. Choose from preset colors including black, navy, and dark red. The color applies to both drawn and typed signatures."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "PDF to Word Converter",
+     "href": "/tools/pdf-to-word"
+    },
+    {
+     "name": "Invoice Generator",
+     "href": "/tools/invoice-generator"
+    }
+   ],
+   "modes": {
+    "draw": "Draw",
+    "type": "Type",
+    "upload": "Upload"
+   },
+   "labels": {
+    "color": "Color:"
+   },
+   "placeholder": "Type your name...",
+   "fontOptions": [
+    {
+     "name": "Script",
+     "family": "'Brush Script MT', 'Segoe Script', cursive"
+    },
+    {
+     "name": "Elegant",
+     "family": "Georgia, 'Times New Roman', serif"
+    },
+    {
+     "name": "Modern",
+     "family": "'Trebuchet MS', 'Lucida Sans', sans-serif"
+    },
+    {
+     "name": "Classic",
+     "family": "'Palatino Linotype', 'Book Antiqua', serif"
+    }
+   ],
+   "upload": {
+    "drop": "Upload a signature image",
+    "formats": "PNG, JPG, SVG"
+   },
+   "canvas": {
+    "placeholder": "Draw your signature here"
+   },
+   "buttons": {
+    "clear": "Clear",
+    "copy": "Copy",
+    "svg": "SVG",
+    "downloadPng": "Download PNG"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Digital Signature Creator?",
+     "body": [
+      "Create a digital signature image by drawing with your mouse or finger, typing your name in a script font, or uploading an existing signature image. Download the result as a transparent PNG or scalable SVG."
+     ]
+    },
+    "modes": {
+     "title": "Signature Modes",
+     "items": [
+      "Draw — sign freehand on the canvas.",
+      "Type — enter your name and choose a font.",
+      "Upload — use an existing signature image."
+     ]
+    },
+    "howTo": {
+     "title": "How to Create a Signature",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose a mode: Draw, Type, or Upload.",
+      "Draw, type, or upload your signature.",
+      "Pick a color if desired.",
+      "Click Download PNG or SVG to save your signature."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "PNG with transparency overlays cleanly on documents.",
+      "Use SVG for lossless scaling to any size.",
+      "Signatures are created locally and never stored online."
+     ]
+    }
+   }
+  }
+ }
+}

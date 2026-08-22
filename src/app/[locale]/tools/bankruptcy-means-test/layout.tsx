@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/bankruptcy-means-test`,
         ja: `https://www.toolkitlife.com/ja/tools/bankruptcy-means-test`,
         ko: `https://www.toolkitlife.com/ko/tools/bankruptcy-means-test`,
+        ru: `https://www.toolkitlife.com/ru/tools/bankruptcy-means-test`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/obbba-tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/obbba-tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/obbba-tax-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/obbba-tax-calculator`,
       },
     },
   };

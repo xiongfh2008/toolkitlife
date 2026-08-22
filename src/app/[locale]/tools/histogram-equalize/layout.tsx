@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/histogram-equalize`,
         ja: `https://www.toolkitlife.com/ja/tools/histogram-equalize`,
         ko: `https://www.toolkitlife.com/ko/tools/histogram-equalize`,
+        ru: `https://www.toolkitlife.com/ru/tools/histogram-equalize`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-deblur`,
         ja: `https://www.toolkitlife.com/ja/tools/image-deblur`,
         ko: `https://www.toolkitlife.com/ko/tools/image-deblur`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-deblur`,
       },
     },
   };

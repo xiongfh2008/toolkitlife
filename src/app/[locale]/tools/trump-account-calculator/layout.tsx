@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/trump-account-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/trump-account-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/trump-account-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/trump-account-calculator`,
       },
     },
   };

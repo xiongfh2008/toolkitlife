@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/svg-blob-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/svg-blob-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/svg-blob-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/svg-blob-generator`,
       },
     },
   };

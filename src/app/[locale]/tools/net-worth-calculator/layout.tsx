@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/net-worth-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/net-worth-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/net-worth-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/net-worth-calculator`,
       },
     },
   };

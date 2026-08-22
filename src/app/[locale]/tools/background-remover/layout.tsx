@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/background-remover`,
         ja: `https://www.toolkitlife.com/ja/tools/background-remover`,
         ko: `https://www.toolkitlife.com/ko/tools/background-remover`,
+        ru: `https://www.toolkitlife.com/ru/tools/background-remover`,
       },
     },
   };

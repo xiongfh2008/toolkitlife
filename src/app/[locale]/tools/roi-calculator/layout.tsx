@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/roi-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/roi-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/roi-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/roi-calculator`,
       },
     },
   };

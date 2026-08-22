@@ -23,6 +23,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/pdf-to-word`,
         ja: `https://www.toolkitlife.com/ja/tools/pdf-to-word`,
         ko: `https://www.toolkitlife.com/ko/tools/pdf-to-word`,
+        ru: `https://www.toolkitlife.com/ru/tools/pdf-to-word`,
       },
     },
   };

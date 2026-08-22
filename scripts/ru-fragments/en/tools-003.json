@@ -1,0 +1,2648 @@
+{
+ "tools": {
+  "pdf-to-word": {
+   "metadata": {
+    "title": "PDF to Word Converter - Free Online Tool",
+    "description": "Convert PDF to Word document for free. Extract text from any PDF and download as an editable .doc file. No upload, no signup — runs in your browser."
+   },
+   "title": "PDF to Word Converter",
+   "description": "Convert PDF to Word document for free. Extract text from any PDF and download as an editable .doc file. No upload, no signup — runs in your browser.",
+   "category": "Productivity",
+   "keywords": [
+    "pdf to word",
+    "pdf to doc",
+    "convert pdf to word",
+    "pdf converter",
+    "pdf to word online free",
+    "pdf to docx"
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload your PDF file.",
+     "Click \"Convert to Word\" to extract text.",
+     "Preview the extracted content.",
+     "Download as .doc file (opens in Word, Google Docs, LibreOffice)."
+    ]
+   },
+   "faqs": [
+    {
+     "question": "How do I convert a PDF to Word for free?",
+     "answer": "Upload your PDF to this tool and click Convert. It extracts all text content and generates a Word-compatible .doc file you can download and edit in Microsoft Word, Google Docs, or LibreOffice."
+    },
+    {
+     "question": "Does this preserve PDF formatting?",
+     "answer": "The tool extracts text content with basic paragraph structure. Complex layouts, tables, and images are converted to their text equivalents. For best results with heavily formatted PDFs, consider using desktop software."
+    },
+    {
+     "question": "Is my PDF uploaded to a server?",
+     "answer": "No. The entire conversion happens in your browser using PDF.js. Your document never leaves your device — nothing is uploaded, nothing is stored."
+    },
+    {
+     "question": "Can I convert scanned PDFs?",
+     "answer": "This tool works with text-based PDFs where text was typed or generated digitally. For scanned PDFs (which are images), you'll need OCR first — try our Image to Text tool to extract text from scanned pages."
+    },
+    {
+     "question": "What's the maximum PDF size?",
+     "answer": "There's no hard limit since processing happens locally, but very large PDFs (100+ pages) may take longer and use more memory. For best performance, split large PDFs first using our PDF Splitter."
+    },
+    {
+     "question": "Can I convert password-protected PDFs?",
+     "answer": "No. Password-protected PDFs must be unlocked before conversion. Remove the password using the original PDF software or your PDF viewer's security settings."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Merge PDF",
+     "href": "/tools/merge-pdf"
+    },
+    {
+     "name": "Compress PDF",
+     "href": "/tools/compress-pdf"
+    },
+    {
+     "name": "Split PDF",
+     "href": "/tools/split-pdf"
+    }
+   ],
+   "dropzone": {
+    "title": "Drop a PDF here or click to upload",
+    "subtitle": "PDF files only — any size"
+   },
+   "file": {
+    "size": "{size} KB"
+   },
+   "buttons": {
+    "convert": "Convert to Word",
+    "download": "Download .doc",
+    "newPdf": "New PDF"
+   },
+   "status": {
+    "loading": "Loading PDF engine...",
+    "reading": "Reading PDF...",
+    "extracting": "Extracting page {current} of {total}...",
+    "generating": "Generating Word document..."
+   },
+   "errors": {
+    "generic": "Conversion failed: {message}"
+   },
+   "processing": {
+    "title": "Converting PDF",
+    "progress": "Progress"
+   },
+   "done": {
+    "title": "Conversion Complete",
+    "pages": "{count, plural, one {# page} other {# pages}} extracted"
+   },
+   "preview": {
+    "label": "Text Preview"
+   }
+  },
+  "claude-code-text-formatter": {
+   "metadata": {
+    "title": "Claude Code Text Formatter",
+    "description": "Clean up messy terminal & Claude Code output. Strip ANSI codes, line numbers, and control characters.",
+    "category": "Developer"
+   },
+   "keywords": [
+    "claude code formatter",
+    "strip ansi codes",
+    "clean terminal output",
+    "remove line numbers from text",
+    "ansi escape code remover",
+    "strip control characters",
+    "text cleaner online",
+    "claude output formatter"
+   ],
+   "faqs": [
+    {
+     "question": "What does the Claude Code Text Formatter do?",
+     "answer": "It cleans up messy terminal and Claude Code output by removing ANSI escape codes, line numbers, and control characters. The result is plain, readable text that you can copy, paste, and share without the noise."
+    },
+    {
+     "question": "Will my text be uploaded to a server?",
+     "answer": "No. Everything runs locally in your browser. Your text never leaves your device, so it's safe for cleaning output that contains sensitive information."
+    },
+    {
+     "question": "What are ANSI escape codes?",
+     "answer": "ANSI escape codes are special character sequences that terminals use to add colors and formatting. When you copy terminal output, these codes often appear as raw garbage sequences or invisible control characters. This tool strips them automatically."
+    },
+    {
+     "question": "Can I keep line numbers in the output?",
+     "answer": "Line numbers are removed by default. If your output has no line numbers, or you only need to strip ANSI codes, you can turn the Strip Line Numbers option off before formatting."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Diff Checker",
+     "href": "/tools/diff-checker"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Regex Tester",
+     "href": "/tools/regex-tester"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Claude Code Text Formatter?",
+     "paragraphs": [
+      "The Claude Code Text Formatter cleans up messy terminal and Claude Code output by stripping ANSI escape codes, line numbers, and control characters. It turns cluttered CLI output into plain, readable text that you can copy, paste, and share without the noise.",
+      "Everything runs locally in your browser. Your input never leaves your device, so the tool is safe for cleaning output that contains sensitive information."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use It",
+      "paragraphs": [
+       "Cleaning up output takes just a few seconds:"
+      ],
+      "items": [
+       "Paste or type your messy text into the Input box.",
+       "Choose which elements to strip: ANSI codes, control characters, and line numbers.",
+       "Click Format and copy the cleaned result from the Output box."
+      ]
+     },
+     {
+      "title": "Why Terminal Output Looks Messy",
+      "paragraphs": [
+       "Terminal tools like Claude Code add ANSI escape codes to colorize text, highlight syntax, and control the cursor. When you copy that output into a plain-text editor, the escape codes are often shown as raw garbage sequences or invisible control characters that break your document.",
+       "Line numbers added by terminal multiplexers and log viewers also create extra noise. The formatter removes all of this automatically."
+      ]
+     },
+     {
+      "title": "Typical Use Cases",
+      "items": [
+       "Cleaning Claude Code session logs before sharing them in bug reports.",
+       "Copying terminal output into tickets, docs, or chat messages without escape-code noise.",
+       "Preparing log snippets for code reviews and documentation.",
+       "Removing line numbers from code listings so they can be pasted back into editors."
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "If a pasted block still looks odd, try toggling Strip Control to remove hidden characters.",
+       "The tool handles output from most modern terminals, including iTerm, Windows Terminal, and VS Code's integrated terminal.",
+       "There is no limit on input size, so you can clean very long logs in one pass."
+      ]
+     }
+    ]
+   },
+   "labels": {
+    "stripAnsi": "Strip Ansi",
+    "stripControl": "Strip Control",
+    "stripLineNumbers": "Strip Line Numbers",
+    "input": "Input",
+    "output": "Output"
+   },
+   "placeholders": {
+    "input": "Enter or paste your text here",
+    "output": "Result will appear here"
+   },
+   "buttons": {
+    "format": "Format",
+    "clear": "Clear"
+   }
+  },
+  "fancy-text-generator": {
+   "metadata": {
+    "title": "Fancy Text Generator",
+    "description": "Convert text into stylish Unicode fonts for Instagram, TikTok, Twitter, and more. Just type, click to copy, and paste anywhere.",
+    "category": "Text"
+   },
+   "keywords": [
+    "fancy text generator",
+    "stylish text generator",
+    "unicode text fonts",
+    "instagram bio font",
+    "tiktok font generator",
+    "twitter font generator",
+    "cool text generator",
+    "fancy font generator"
+   ],
+   "faqs": [
+    {
+     "question": "How does the fancy text generator work?",
+     "answer": "It converts your text into special Unicode characters that look like different fonts. These characters are part of the Unicode standard, so they work everywhere that supports Unicode — social media bios, messages, comments, and more."
+    },
+    {
+     "question": "Can I use fancy text on Instagram, TikTok, and Twitter?",
+     "answer": "Yes. The generated text uses Unicode characters that work on Instagram bios and captions, TikTok bios, Twitter/X posts, Facebook, YouTube, Discord, and virtually any platform that supports text input."
+    },
+    {
+     "question": "Why do some characters look different on different devices?",
+     "answer": "Unicode characters are rendered by each device's font system. Some older devices or browsers may not support all Unicode blocks, which can cause certain styles to display as boxes or question marks. The most widely supported styles are Bold, Italic, and Circled."
+    },
+    {
+     "question": "Is there a character limit?",
+     "answer": "There is no limit in this tool. However, keep in mind that some Unicode characters count as 2-4 characters on platforms with character limits (like Twitter's 280 character limit), since they use multi-byte encoding."
+    },
+    {
+     "question": "Are these actual fonts?",
+     "answer": "No — these are Unicode characters that visually resemble different font styles. Real fonts require CSS or font files. The advantage of Unicode text is that it can be pasted anywhere without any special formatting."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "Lorem Ipsum Generator",
+     "href": "/tools/lorem-ipsum-generator"
+    },
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    }
+   ],
+   "labels": {
+    "input": "Input",
+    "style": "Style",
+    "output": "Output"
+   },
+   "placeholders": {
+    "input": "Enter or paste your text here"
+   },
+   "options": {
+    "serif": "Serif",
+    "sans": "Sans Serif",
+    "bold": "Bold",
+    "italic": "Italic",
+    "boldItalic": "Bold Italic",
+    "monospace": "Monospace",
+    "script": "Script",
+    "gothic": "Gothic",
+    "doubleStruck": "Double Struck",
+    "circled": "Circled",
+    "squared": "Squared"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Fancy Text Generator?",
+     "body": [
+      "The Fancy Text Generator converts your regular text into stylish Unicode characters that look like different fonts. You can copy and paste the styled text into Instagram bios, TikTok profiles, Twitter posts, YouTube comments, Discord messages, and anywhere else that accepts text.",
+      "Everything runs instantly in your browser. No signup, no server processing, no data collection."
+     ]
+    },
+    "modes": {
+     "title": "Available Styles",
+     "items": [
+      "Serif, Sans Serif, Bold, Italic, Bold Italic, Monospace",
+      "Script, Gothic, Fraktur, Double-Struck, Small Caps",
+      "Circled, Squared, Fullwidth, Upside Down",
+      "Strikethrough, Underline, Wavy, Dotted, Double Underline",
+      "Sparkles, Stars, Brackets, Aesthetic"
+     ]
+    },
+    "howTo": {
+     "title": "How to Use It",
+     "intro": "Using the Fancy Text Generator is simple:",
+     "items": [
+      "Type or paste your text in the input box at the top.",
+      "Browse through all the available styles below.",
+      "Click any style to copy it to your clipboard.",
+      "Paste it wherever you want — social media, messages, documents."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Bold and Italic styles have the widest device support.",
+      "Some Unicode characters count as multiple characters on platforms with limits.",
+      "Combine styles by running output through the tool again for layered effects.",
+      "Numbers are supported in Circled, Fullwidth, and Upside Down styles."
+     ]
+    }
+   },
+   "description": "Convert text into stylish Unicode fonts for Instagram, TikTok, Twitter, and more. Just type, click copy, and paste anywhere."
+  },
+  "image-compressor": {
+   "metadata": {
+    "title": "Image Compressor",
+    "description": "Compress images by up to 90% with adjustable quality. No upload, runs in your browser.",
+    "category": "Design"
+   },
+   "keywords": [
+    "compress image online",
+    "image compressor",
+    "reduce image file size",
+    "compress jpg png webp",
+    "free image compression tool",
+    "optimize image quality",
+    "shrink photo size",
+    "online image optimizer"
+   ],
+   "faqs": [
+    {
+     "question": "Does the image compressor work in my browser?",
+     "answer": "Yes. All compression runs locally in your browser using WebAssembly and the canvas API — PNG uses the oxipng quantizer, GIF uses gifsicle, AVIF uses libavif, and SVG uses svgo. Nothing is uploaded to a server, so your files stay on your device."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "JPEG, PNG, WebP, GIF, AVIF, and SVG. You can also change the output format while compressing, so a bulky PNG can become a small WebP, AVIF, or JPEG in one step."
+    },
+    {
+     "question": "How much can I reduce the file size?",
+     "answer": "Photos typically compress 50% to 90% as JPEG, WebP, or AVIF. PNG and GIF files gain the most from the color-count and dithering controls, which can shrink them dramatically."
+    },
+    {
+     "question": "What do the Colors and Dithering options do?",
+     "answer": "Colors sets the palette size for PNG and GIF output (2–256). Fewer colors mean smaller files but a flatter look. Dithering blends adjacent colors to hide banding when the palette is reduced."
+    },
+    {
+     "question": "Can I compress multiple images at once?",
+     "answer": "Yes. Upload as many images as you like, compress them all at once, and download the results individually or as a single ZIP archive."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Image Format Converter",
+     "href": "/tools/convert"
+    },
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    },
+    {
+     "name": "Image Upscaler",
+     "href": "/tools/image-upscaler"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Image Compressor?",
+     "paragraphs": [
+      "The Image Compressor shrinks image file sizes by up to 90%. It supports JPEG, PNG, WebP, GIF, AVIF, and SVG, with batch upload, color-count and dithering controls, resizing, and ZIP download. PNG files are compressed with the oxipng quantizer, GIF with gifsicle, AVIF with libavif, and SVG with svgo.",
+      "All compression happens in your browser — the WebAssembly engines run in a background worker so the page stays responsive, nothing is uploaded, and your images never leave your device."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Compress an Image",
+      "paragraphs": [
+       "Compressing an image takes three steps:"
+      ],
+      "items": [
+       "Upload or drop one or more images.",
+       "Choose the output format, quality, colors, dithering, and resize options.",
+       "Click Compress All and watch the progress.",
+       "Compare sizes, then download each image or the whole batch as a ZIP."
+      ]
+     },
+     {
+      "title": "Which Format Should I Choose?",
+      "paragraphs": [
+       "JPEG is the best all-around choice for photos. WebP and AVIF offer even better compression for photos and graphics and are supported by all modern browsers. PNG is lossless and ideal for sharp edges, text, or transparency — use the Colors and Dithering controls to shrink it dramatically. GIF suits small animations and logos with flat colors."
+      ]
+     },
+     {
+      "title": "Typical Use Cases",
+      "items": [
+       "Shrinking product photos before uploading them to an online store.",
+       "Optimizing images for web pages and email newsletters to speed up loading.",
+       "Reducing file size so images fit within messenger and email attachment limits.",
+       "Preparing social media images that upload faster on slow connections."
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Start at 80% quality — it usually looks identical to the original while saving a lot of space.",
+       "For images with transparency, keep PNG and only lower quality if size still matters.",
+       "Compress the largest images first; they offer the biggest savings.",
+       "Use the format dropdown to convert a bulky PNG to WebP or JPEG in the same step."
+      ]
+     }
+    ]
+   },
+   "labels": {
+    "upload": "Upload",
+    "format": "Format",
+    "quality": "Quality",
+    "original": "Original",
+    "compressed": "Compressed",
+    "drop": "or drag & drop images here",
+    "formats": "PNG, JPEG, WebP, GIF, AVIF, SVG",
+    "outputFormat": "Output format",
+    "colors": "Colors",
+    "dithering": "Dithering",
+    "resize": "Resize",
+    "transparentFill": "Transparent background fill"
+   },
+   "buttons": {
+    "download": "Download",
+    "compressAll": "Compress All",
+    "downloadAll": "Download All (ZIP)",
+    "addMore": "Add more",
+    "clear": "Clear"
+   },
+   "options": {
+    "keep": "Keep original format",
+    "none": "No resize",
+    "fitWidth": "Fit width",
+    "setLong": "Fit longest side"
+   },
+   "status": {
+    "queued": "Queued",
+    "compressing": "Compressing",
+    "error": "Failed"
+   },
+   "results": {
+    "saved": "saved {percent}%",
+    "noChange": "no change",
+    "totalSaved": "Total saved: {size}"
+   }
+  },
+  "image-resizer": {
+   "metadata": {
+    "title": "Image Resizer",
+    "description": "Resize images with social media presets for Instagram, YouTube, Facebook, and more.",
+    "category": "Design"
+   },
+   "keywords": [
+    "resize image online",
+    "image resizer",
+    "resize image for instagram",
+    "photo resizer free",
+    "change image dimensions",
+    "resize image to pixels",
+    "social media image size",
+    "scale image online"
+   ],
+   "faqs": [
+    {
+     "question": "How do I resize an image?",
+     "answer": "Upload an image, then either pick a social media preset or enter a custom width and height in pixels. You can also scale by percentage. Maintain aspect ratio keeps the proportions intact so your image isn't stretched."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "You can upload JPG, PNG, WebP, and other common image formats. The resized result is downloaded as a PNG by default, which preserves quality and transparency."
+    },
+    {
+     "question": "What are the social media presets for?",
+     "answer": "Presets apply the exact pixel dimensions recommended for Instagram posts (1080x1080), stories (1080x1920), YouTube thumbnails (1280x720), Facebook covers, and more — so you don't have to look up the numbers yourself."
+    },
+    {
+     "question": "Will enlarging a small image make it blurry?",
+     "answer": "Enlarging an image interpolates new pixels, so the result can look softer or blurry. For best quality, resize images that are already at least as large as the target dimensions."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image Format Converter",
+     "href": "/tools/convert"
+    },
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    },
+    {
+     "name": "Aspect Ratio Calculator",
+     "href": "/tools/aspect-ratio-calculator"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Image Resizer?",
+     "paragraphs": [
+      "The Image Resizer lets you change the width and height of an image to exact pixel values, percentages, or popular social media presets. A live preview updates as you adjust the settings, so you can confirm the result before downloading.",
+      "All resizing happens in your browser. Images are never uploaded, which keeps the tool fast, free, and private."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Resize an Image",
+      "items": [
+       "Upload or drop an image.",
+       "Choose a social media preset, or enter width and height in pixels.",
+       "Keep Maintain aspect ratio on to avoid distortion, or turn it off for custom stretching.",
+       "Preview the result and download your resized PNG."
+      ]
+     },
+     {
+      "title": "Social Media Presets",
+      "paragraphs": [
+       "The built-in presets cover the most commonly recommended dimensions: Instagram square posts (1080x1080), Instagram stories and Reels (1080x1920), YouTube thumbnails (1280x720), Facebook profile and cover sizes, Twitter/X header images, and Pinterest pins. Selecting a preset automatically fills in the exact width and height for you."
+      ]
+     },
+     {
+      "title": "Understanding Aspect Ratio",
+      "paragraphs": [
+       "Aspect ratio is the relationship between an image's width and height. Changing only one dimension breaks the ratio and distorts the image. With Maintain aspect ratio enabled, the resizer scales both dimensions proportionally, and the Aspect Ratio Calculator is available if you need to work out dimensions for a specific ratio like 16:9 or 4:3."
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Resize before compressing for the smallest final file size.",
+       "Use 100% zoom in the preview to check sharpness after resizing.",
+       "For print, target at least 300 DPI at the final print size.",
+       "Downscaling improves perceived sharpness — it's a great way to clean up large camera photos."
+      ]
+     }
+    ]
+   },
+   "labels": {
+    "upload": "Upload Image",
+    "width": "Width (px)",
+    "height": "Height (px)",
+    "scale": "Scale (%)",
+    "maintainAspect": "Maintain aspect ratio",
+    "originalSize": "Original size",
+    "preview": "Preview",
+    "presets": "Social media presets",
+    "dropPrompt": "Drop an image here or click to upload",
+    "dropHint": "PNG, JPG, WebP — any size",
+    "newSize": "New size",
+    "lockAspect": "Lock aspect ratio",
+    "unlockAspect": "Unlock aspect ratio"
+   },
+   "buttons": {
+    "download": "Download PNG"
+   },
+   "errors": {
+    "invalidImage": "Please select a valid image file."
+   }
+  },
+  "convert": {
+   "metadata": {
+    "title": "Image Format Converter",
+    "description": "Convert between 20+ image formats: JPG, PNG, WebP, SVG, HEIC, GIF, BMP, TIFF, ICO. Free and instant.",
+    "category": "Design"
+   },
+   "keywords": [
+    "convert image format",
+    "image converter online",
+    "jpg to png converter",
+    "png to webp",
+    "heic to jpg",
+    "webp to png",
+    "svg to png converter",
+    "free image format converter"
+   ],
+   "faqs": [
+    {
+     "question": "Which image formats can I convert?",
+     "answer": "The converter supports 20+ formats including JPG, PNG, WebP, SVG, HEIC, GIF, BMP, TIFF, and ICO. You can convert in any direction between the supported formats."
+    },
+    {
+     "question": "Does the conversion happen on my device?",
+     "answer": "Yes. Conversion runs entirely in your browser using the canvas API. Your images are never uploaded to a server, which makes the tool fast, free, and private."
+    },
+    {
+     "question": "Will converting reduce the quality of my image?",
+     "answer": "Conversion to lossless formats like PNG, BMP, and TIFF preserves quality. Converting to lossy formats like JPG applies compression, which trades a small amount of quality for much smaller file sizes."
+    },
+    {
+     "question": "Can I convert multiple images at once?",
+     "answer": "You can convert images one at a time. Each conversion is instant and requires no waiting or upload, so converting several files is just a matter of repeating the two steps."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Image to Base64",
+     "href": "/tools/image-to-base64"
+    },
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Image Format Converter?",
+     "paragraphs": [
+      "The Image Format Converter changes an image from one format to another — JPG to PNG, PNG to WebP, HEIC to JPG, SVG to PNG, and 20+ other combinations — in a single click. It's the fastest way to make an image compatible with a website, app, or platform.",
+      "Conversion runs locally in your browser, so images are never uploaded and the tool works instantly with no signup or cost."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Convert an Image",
+      "items": [
+       "Upload or drop an image.",
+       "Choose the target format and adjust the quality slider.",
+       "Click Convert, then preview the result.",
+       "Download the converted file."
+      ]
+     },
+     {
+      "title": "Which Format Should I Use?",
+      "paragraphs": [
+       "Use JPEG for photos on the web, PNG for graphics with transparency or sharp text, WebP for the best modern web compression, SVG for scalable logos and icons, HEIC only if your target platform supports Apple's format, and ICO for Windows icons. When in doubt, PNG and WebP are safe, widely supported choices."
+      ]
+     },
+     {
+      "title": "Lossless vs. Lossy Conversion",
+      "paragraphs": [
+       "Converting to PNG, BMP, or TIFF is lossless — every pixel is kept. Converting to JPG applies lossy compression that discards some detail to shrink the file; the higher the compression, the smaller the file and the softer the image. Transparency is lost when converting to JPG, so export PNG or WebP if you need a transparent background."
+      ]
+     },
+     {
+      "title": "Typical Use Cases",
+      "items": [
+       "Converting HEIC photos from an iPhone so they can be used on websites and apps.",
+       "Turning a WebP screenshot into a PNG for documents and presentations.",
+       "Exporting a logo as SVG for the web and PNG for email signatures.",
+       "Converting a BMP or TIFF scan into a compact JPG for sharing."
+      ]
+     }
+    ]
+   },
+   "labels": {
+    "upload": "Upload",
+    "format": "Format",
+    "quality": "Quality",
+    "preview": "Preview"
+   },
+   "buttons": {
+    "download": "Download",
+    "convert": "Convert",
+    "newFile": "New File",
+    "adjust": "Adjust"
+   },
+   "upload": {
+    "title": "Drop an image here or click to upload",
+    "formats": "JPG, PNG, WebP, GIF, BMP, TIFF, ICO, SVG, HEIC — 20+ input formats"
+   },
+   "status": {
+    "downloading": "Loading FFmpeg engine…",
+    "rasterizing": "Rendering SVG…",
+    "converting": "Converting image…",
+    "finishing": "Finalizing…"
+   },
+   "processing": {
+    "title": "Converting…",
+    "label": "Progress",
+    "keepOpen": "Keep this tab open — the conversion runs locally in your browser."
+   },
+   "done": {
+    "title": "Conversion complete!"
+   },
+   "errors": {
+    "prefix": "Conversion failed: ",
+    "svgFailed": "Could not read this SVG image."
+   }
+  },
+  "audio-converter": {
+   "metadata": {
+    "title": "Audio Converter - Free Online Tool",
+    "description": "Convert audio files between MP3, WAV, FLAC, OGG, M4A, OPUS, and AIFF. Adjust bitrate and quality. Runs in your browser with FFmpeg WebAssembly — no upload, no signup."
+   },
+   "title": "Audio Converter",
+   "description": "Convert audio files between MP3, WAV, FLAC, OGG, M4A, OPUS, and AIFF. Adjust bitrate and quality. Runs entirely in your browser — no upload, no signup.",
+   "category": "Utility",
+   "keywords": [
+    "audio converter",
+    "convert audio online",
+    "mp3 to wav",
+    "wav to mp3",
+    "flac to mp3",
+    "m4a to mp3",
+    "audio format converter",
+    "free audio converter"
+   ],
+   "faqs": [
+    {
+     "question": "What audio formats can I convert?",
+     "answer": "You can convert between MP3, WAV, FLAC, OGG, M4A, OPUS, and AIFF. As input, most common audio files work too, including AAC, WMA, and audio tracks inside WebM containers."
+    },
+    {
+     "question": "Is my audio uploaded anywhere?",
+     "answer": "No. All conversion happens locally in your browser using FFmpeg WebAssembly. Your audio files never leave your device, so it is safe for voice notes, recordings, and anything sensitive."
+    },
+    {
+     "question": "What is the difference between MP3 and FLAC?",
+     "answer": "MP3 is a lossy format — it discards some detail to keep files small. FLAC is lossless — it preserves every detail but produces larger files. WAV and AIFF are uncompressed, which gives the largest files of all."
+    },
+    {
+     "question": "Which bitrate should I choose?",
+     "answer": "For music, use High (256 kbps) or Best (320 kbps) for the best balance of size and quality. For podcasts and voice recordings, Low or Medium is usually indistinguishable from the source."
+    },
+    {
+     "question": "Can I convert without losing quality?",
+     "answer": "Yes. Choose WAV, FLAC, or AIFF — all three are lossless formats that preserve the original audio quality exactly."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Converter",
+     "href": "/tools/video-converter"
+    },
+    {
+     "name": "Video to GIF Converter",
+     "href": "/tools/video-to-gif"
+    },
+    {
+     "name": "Image Format Converter",
+     "href": "/tools/convert"
+    }
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload or drop your audio file (MP3, WAV, FLAC, M4A, OGG, and more).",
+     "Choose the output format and, for lossy formats, the bitrate.",
+     "Click Convert Audio and wait for processing.",
+     "Preview the result and download your converted file."
+    ]
+   },
+   "upload": {
+    "icon": "🎵",
+    "title": "Drop an audio file here or click to upload",
+    "subtitle": "MP3, WAV, FLAC, M4A, OGG, OPUS, AIFF, and more"
+   },
+   "audioInfo": {
+    "size": "Size",
+    "duration": "Duration",
+    "format": "Format"
+   },
+   "labels": {
+    "outputFormat": "Output format"
+   },
+   "quality": {
+    "label": "Quality",
+    "options": {
+     "low": "Low (96 kbps)",
+     "medium": "Medium (160 kbps)",
+     "high": "High (256 kbps)",
+     "best": "Best (320 kbps)"
+    },
+    "losslessNote": "WAV, FLAC, and AIFF are lossless — original quality is preserved and bitrate is not applied."
+   },
+   "buttons": {
+    "convert": "Convert Audio",
+    "newFile": "New File",
+    "download": "Download Audio",
+    "adjust": "Adjust"
+   },
+   "processing": {
+    "title": "Converting…",
+    "statusLoading": "Loading FFmpeg engine…",
+    "statusConverting": "Converting audio…",
+    "statusFinishing": "Finalizing…",
+    "label": "Progress",
+    "keepOpen": "Keep this tab open — audio is processed locally in your browser."
+   },
+   "done": {
+    "title": "Conversion complete!",
+    "original": "Original",
+    "converted": "Converted"
+   },
+   "errors": {
+    "prefix": "Conversion failed: ",
+    "outputEmpty": "The converter produced an empty file."
+   },
+   "units": {
+    "kb": "{size} KB",
+    "mb": "{size} MB"
+   }
+  },
+  "video-converter": {
+   "metadata": {
+    "title": "Video Converter - Free Online Tool",
+    "description": "Convert video files between MP4, WebM, AVI, MOV, and GIF in your browser. Adjust quality and resolution. Powered by FFmpeg WebAssembly — no upload."
+   },
+   "title": "Video Converter",
+   "description": "Convert video files between MP4, WebM, AVI, MOV, and GIF. Adjust quality and resolution, then download. Runs entirely in your browser — no upload, no signup.",
+   "category": "Utility",
+   "keywords": [
+    "video converter",
+    "convert video online",
+    "mp4 to webm",
+    "mp4 to gif",
+    "avi to mp4",
+    "mov to mp4",
+    "video format converter",
+    "free video converter"
+   ],
+   "faqs": [
+    {
+     "question": "What video formats can I convert?",
+     "answer": "You can convert to MP4 (H.264), WebM (VP8), AVI, MOV, and animated GIF. As input, most common formats work, including MP4, WebM, MOV, AVI, and MKV."
+    },
+    {
+     "question": "Why is video conversion slow?",
+     "answer": "Video encoding is CPU-intensive and runs via WebAssembly in your browser, which is slower than native software. Shorter videos and lower resolutions process much faster."
+    },
+    {
+     "question": "What does the quality slider do?",
+     "answer": "It controls the CRF value (18–40). A lower CRF means better quality and a larger file; a higher CRF means a smaller file with more visible compression."
+    },
+    {
+     "question": "Can I convert a video to GIF?",
+     "answer": "Yes. Choose GIF as the output format — the tool creates an animated GIF at 10 frames per second, optionally scaled down to 1080p, 720p, or 480p to keep the file small."
+    },
+    {
+     "question": "Is my video uploaded to a server?",
+     "answer": "No. Everything runs locally in your browser using FFmpeg WebAssembly. Your video never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Audio Converter",
+     "href": "/tools/audio-converter"
+    },
+    {
+     "name": "Video Compressor",
+     "href": "/tools/video-compressor"
+    },
+    {
+     "name": "Video to GIF Converter",
+     "href": "/tools/video-to-gif"
+    }
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload or drop your video file (MP4, WebM, MOV, AVI, MKV).",
+     "Choose the output format, resolution, and quality.",
+     "Click Convert Video and wait for processing.",
+     "Download your converted video."
+    ]
+   },
+   "upload": {
+    "icon": "🎬",
+    "title": "Drop a video here or click to upload",
+    "subtitle": "MP4, WebM, MOV, AVI, MKV, and more",
+    "note": "Best for short clips — large videos are slow because everything runs locally in your browser."
+   },
+   "videoInfo": {
+    "size": "Size",
+    "duration": "Duration",
+    "resolution": "Resolution"
+   },
+   "labels": {
+    "outputFormat": "Output format"
+   },
+   "resolution": {
+    "label": "Resolution",
+    "options": {
+     "480": "480p",
+     "720": "720p",
+     "1080": "1080p",
+     "original": "Original"
+    }
+   },
+   "quality": {
+    "label": "Quality (CRF)",
+    "crfLabel": "CRF {crf} — lower is better quality but a larger file"
+   },
+   "buttons": {
+    "convert": "Convert Video",
+    "newFile": "New File",
+    "download": "Download Video",
+    "adjust": "Adjust"
+   },
+   "processing": {
+    "title": "Converting…",
+    "statusLoading": "Loading FFmpeg engine…",
+    "statusConverting": "Converting video…",
+    "statusFinishing": "Finalizing…",
+    "label": "Progress",
+    "keepOpen": "Keep this tab open — video is processed locally in your browser."
+   },
+   "done": {
+    "title": "Conversion complete!",
+    "original": "Original",
+    "converted": "Converted",
+    "previewNote": "Converted video"
+   },
+   "errors": {
+    "prefix": "Conversion failed: ",
+    "outputEmpty": "The converter produced an empty file.",
+    "ffmpegDetail": "Details"
+   },
+   "units": {
+    "kb": "{size} KB",
+    "mb": "{size} MB"
+   }
+  },
+  "document-converter": {
+   "metadata": {
+    "title": "Document Converter - Free Online Tool",
+    "description": "Convert documents between Markdown, HTML, Word (DOCX), ODT, EPUB, LaTeX, reStructuredText, Org Mode, and AsciiDoc. Powered by Pandoc WebAssembly — runs in your browser, no upload."
+   },
+   "title": "Document Converter",
+   "description": "Convert documents between Markdown, HTML, Word (DOCX), ODT, EPUB, LaTeX, reStructuredText, Org Mode, and AsciiDoc. Powered by Pandoc — runs entirely in your browser, no upload.",
+   "category": "Productivity",
+   "keywords": [
+    "document converter",
+    "convert docx to markdown",
+    "markdown to docx",
+    "md to word",
+    "epub to markdown",
+    "html to markdown",
+    "pandoc online",
+    "free document converter"
+   ],
+   "faqs": [
+    {
+     "question": "Which document formats are supported?",
+     "answer": "You can convert between Markdown, HTML, Word (DOCX), OpenDocument (ODT), EPUB, plain text, LaTeX, reStructuredText, Org Mode, and AsciiDoc. The input format is detected automatically from the file extension and can be adjusted."
+    },
+    {
+     "question": "Can I convert documents to or from PDF?",
+     "answer": "PDF output requires an external LaTeX engine, which cannot run inside the browser. For PDF-related tasks, use our dedicated PDF tools instead — for example PDF to Word, Merge PDF, Split PDF, and Compress PDF."
+    },
+    {
+     "question": "Is my document uploaded to a server?",
+     "answer": "No. Conversion runs locally in your browser using Pandoc WebAssembly. Your documents never leave your device."
+    },
+    {
+     "question": "Why did some formatting change after conversion?",
+     "answer": "Pandoc preserves the structure of a document — headings, paragraphs, lists, tables, and links — but not pixel-perfect layout. Very complex tables may lose some styling during conversion."
+    },
+    {
+     "question": "Why is the first conversion slow?",
+     "answer": "The first time you convert, the Pandoc engine (about 58 MB) is downloaded to your browser and cached. After that, conversions are instant."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "PDF to Word",
+     "href": "/tools/pdf-to-word"
+    },
+    {
+     "name": "Document Compare",
+     "href": "/tools/doc-compare"
+    },
+    {
+     "name": "Image Format Converter",
+     "href": "/tools/convert"
+    }
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload or drop a document (Markdown, HTML, DOCX, ODT, EPUB, LaTeX, and more).",
+     "Confirm the input format and choose the output format.",
+     "Click Convert and wait for processing.",
+     "Preview text outputs and download the converted file."
+    ]
+   },
+   "upload": {
+    "icon": "📄",
+    "title": "Drop a document here or click to upload",
+    "subtitle": "Markdown, HTML, DOCX, ODT, EPUB, LaTeX, RST, Org, TXT, AsciiDoc"
+   },
+   "labels": {
+    "inputFormat": "Input format",
+    "outputFormat": "Output format",
+    "detected": "Detected"
+   },
+   "buttons": {
+    "convert": "Convert",
+    "newFile": "New File",
+    "download": "Download Document",
+    "adjust": "Adjust"
+   },
+   "processing": {
+    "title": "Converting…",
+    "statusDownloading": "Downloading Pandoc engine (first use only, ~58 MB)…",
+    "statusConverting": "Converting document…",
+    "statusReading": "Preparing preview…",
+    "label": "Progress",
+    "keepOpen": "Keep this tab open — the conversion runs locally in your browser."
+   },
+   "done": {
+    "title": "Conversion complete!",
+    "preview": "Preview"
+   },
+   "errors": {
+    "prefix": "Conversion failed: ",
+    "failed": "Pandoc could not convert this document."
+   }
+  },
+  "background-remover": {
+   "metadata": {
+    "title": "Background Remover",
+    "description": "Remove image backgrounds instantly with AI. 100% free, no upload, runs in your browser.",
+    "category": "Design"
+   },
+   "keywords": [
+    "remove background from image",
+    "background remover",
+    "remove image background online free",
+    "transparent background maker",
+    "ai background remover",
+    "cut out image background",
+    "erase photo background",
+    "transparent png generator"
+   ],
+   "faqs": [
+    {
+     "question": "How does the background remover work?",
+     "answer": "The tool offers two modes. AI Mode uses an ISNet model that runs in your browser to detect subjects (people, products, animals) and remove the background. Color Mode lets you pick a background color to remove it, with tolerance and feather sliders for fine-tuning."
+    },
+    {
+     "question": "Is my image uploaded to a server?",
+     "answer": "No. Everything runs 100% in your browser. Your image never leaves your device."
+    },
+    {
+     "question": "Which mode should I use?",
+     "answer": "Use AI Mode for photos with clear subjects (people, products, animals). Use Color Mode for graphics, logos, solid-color backgrounds, or when AI mode doesn't give good results."
+    },
+    {
+     "question": "What types of images work best?",
+     "answer": "AI Mode works best with photos that have clear subjects. Color Mode works best with solid or near-solid backgrounds. Between the two modes, virtually any image can be handled."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Image Format Converter",
+     "href": "/tools/convert"
+    },
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Background Remover?",
+     "paragraphs": [
+      "A free online tool that removes image backgrounds instantly with AI or by color.",
+      "Everything runs in your browser — your images never leave your device."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Remove a Background",
+      "items": [
+       "Choose AI Mode for photos with subjects, or Color Mode for solid backgrounds.",
+       "Upload an image (drag & drop or click to browse).",
+       "AI Mode: click \"Remove Background\" and wait for the result. Color Mode: pick the background color and adjust tolerance/feather.",
+       "Download the transparent PNG result."
+      ]
+     },
+     {
+      "title": "Getting the Best Results",
+      "items": [
+       "Start with a photo where the subject is clearly separated from the background.",
+       "If the edge looks too tight or too loose, adjust the Tolerance slider and re-run.",
+       "For crisp edges on hair or fur, use a high-resolution source image."
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Download as PNG to keep the transparent background for designs and web pages.",
+       "Choose a background color instead when the image will sit on a solid surface.",
+       "Run the tool on a copy of your original so the source file is never altered."
+      ]
+     }
+    ]
+   },
+   "labels": {
+    "upload": "Upload image",
+    "backgroundColor": "Background color",
+    "tolerance": "Tolerance",
+    "preview": "Preview",
+    "dropPrompt": "Drop an image here or click to upload",
+    "removeBackground": "Remove Background",
+    "removing": "Removing...",
+    "original": "Original",
+    "result": "Result",
+    "feather": "Feather",
+    "newImage": "New Image",
+    "repickColor": "Re-pick Color",
+    "resultView": "Result",
+    "compareView": "Compare",
+    "clickColorHint": "Click on the background color you want to remove",
+    "removingInfo": "Removing: rgb({r}, {g}, {b})",
+    "toleranceHint": "How similar colors need to be to get removed",
+    "featherHint": "Smooth transition at edges (anti-aliasing)",
+    "originalSize": "Original: {size}",
+    "resultSize": "Result: {size}",
+    "pickHint": "Click the colors on the image you want to remove. You can pick multiple colors.",
+    "pickedCount": "{count} color(s) selected",
+    "finish": "Done",
+    "clearColors": "Clear Colors",
+    "removeColor": "Remove this color"
+   },
+   "buttons": {
+    "download": "Download"
+   },
+   "modes": {
+    "ai": "AI Mode — Photos & Subjects",
+    "color": "Color Mode — Solid Backgrounds"
+   },
+   "modeHints": {
+    "ai": "Best for photos with people, products, or animals",
+    "color": "Best for solid-color backgrounds, graphics, and logos"
+   },
+   "status": {
+    "aiLoading": "Loading AI model (first time ~40 MB)...",
+    "aiProcessing": "AI processing... {progress}%",
+    "aiError": "Background removal failed. Please try again.",
+    "removingColor": "Removing background..."
+   }
+  },
+  "barcode-generator": {
+   "metadata": {
+    "title": "Barcode Generator",
+    "description": "Generate barcodes in various formats",
+    "category": "Design"
+   },
+   "keywords": [
+    "barcode generator",
+    "create barcode",
+    "online barcode tool",
+    "free barcode generation",
+    "generate barcode code",
+    "barcode maker",
+    "generate product barcodes",
+    "EAN/UPC generation"
+   ],
+   "faqs": [
+    {
+     "question": "How do I generate a barcode?",
+     "answer": "Enter the data, choose a format and click generate."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "EAN, UPC, Code 128, QR and more are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I download the barcode?",
+     "answer": "Yes, downloading in PNG, SVG and other formats is supported."
+    },
+    {
+     "question": "Is the barcode valid?",
+     "answer": "Yes, the generated barcodes can be read by scanners."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "QR Code Generator",
+     "href": "/tools/qr-code-generator"
+    },
+    {
+     "name": "Favicon Generator",
+     "href": "/tools/favicon-generator"
+    },
+    {
+     "name": "SVG Wave Generator",
+     "href": "/tools/svg-wave-generator"
+    }
+   ],
+   "labels": {
+    "text": "Text"
+   },
+   "placeholders": {
+    "text": "Enter text to encode..."
+   },
+   "buttons": {
+    "download": "Download PNG"
+   },
+   "errors": {
+    "unsupportedChars": "Only characters in the ASCII range 32-126 are supported."
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Barcode Generator?",
+     "paragraphs": [
+      "A barcode generator is a free online tool that lets you generate barcodes in various formats.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "chmod-calculator": {
+   "metadata": {
+    "title": "Chmod Calculator",
+    "description": "Calculate Unix file permissions visually using chmod",
+    "category": "Developer"
+   },
+   "keywords": [
+    "chmod calculator",
+    "file permission calculator",
+    "unix permissions",
+    "chmod numbers",
+    "chmod symbols",
+    "linux permissions",
+    "file permission settings",
+    "chmod conversion"
+   ],
+   "faqs": [
+    {
+     "question": "What is chmod?",
+     "answer": "chmod is a command in Unix and Unix-like systems (such as Linux and macOS) used to change the permissions of files or directories. Permissions determine who can read, write or execute a file."
+    },
+    {
+     "question": "How do permissions work?",
+     "answer": "Permissions are grouped into three classes: owner, group and others. Each class can have read (r, value 4), write (w, value 2) and execute (x, value 1) permissions. These values are added together to get the numeric representation (like 755)."
+    },
+    {
+     "question": "How do I use the chmod calculator?",
+     "answer": "Click the permission checkboxes to set the desired permissions for owner, group and others. The calculator shows the numeric and symbolic representations in real time."
+    },
+    {
+     "question": "What is the difference between numeric and symbolic representations?",
+     "answer": "The numeric representation uses three digits (like 755), where each digit is the sum of the permission values. The symbolic representation uses letters (like rwxr-xr-x), where r means read, w means write, x means execute and - means no permission."
+    },
+    {
+     "question": "What are common permission settings?",
+     "answer": "755 (rwxr-xr-x) for directories and executable files, 644 (rw-r--r--) for regular files, 700 (rwx------) for private directories, and 600 (rw-------) for sensitive files."
+    },
+    {
+     "question": "Can I set special permissions?",
+     "answer": "This calculator handles basic permissions. Special permissions (such as setuid, setgid and the sticky bit) require an additional fourth digit in the numeric representation."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "Hash Generator",
+     "href": "/tools/hash-generator"
+    }
+   ],
+   "labels": {
+    "octal": "Octal",
+    "symbolic": "Symbolic",
+    "owner": "Owner",
+    "group": "Group",
+    "other": "Others",
+    "read": "Read",
+    "write": "Write",
+    "execute": "Execute"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Chmod Calculator?",
+     "paragraphs": [
+      "A chmod calculator is a free online tool for calculating the numeric and symbolic representations of Unix file permissions. It helps you visualize permissions and generate the correct syntax for the chmod command. All calculations happen in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to calculate permissions",
+      "paragraphs": [
+       "Click the permission checkboxes to set the desired permissions for owner, group and others. The calculator shows the numeric (like 755) and symbolic (like rwxr-xr-x) representations in real time."
+      ]
+     },
+     {
+      "title": "Understanding permissions",
+      "paragraphs": [
+       "Permissions are grouped into three classes: owner, group and others. Each class can have read (r, value 4), write (w, value 2) and execute (x, value 1) permissions. These values are added together to get the number for each class."
+      ]
+     },
+     {
+      "title": "Common permission modes",
+      "items": [
+       "755 (rwxr-xr-x) - Directories and executable files",
+       "644 (rw-r--r--) - Regular files",
+       "700 (rwx------) - Private directories",
+       "600 (rw-------) - Sensitive files",
+       "777 (rwxrwxrwx) - Full permissions (use with caution)"
+      ]
+     }
+    ]
+   }
+  },
+  "color-contrast-checker": {
+   "metadata": {
+    "title": "Color Contrast Checker",
+    "description": "Check color contrast ratios for WCAG accessibility compliance",
+    "category": "Design"
+   },
+   "keywords": [
+    "color contrast checker",
+    "check color contrast",
+    "online contrast tool",
+    "free contrast check",
+    "WCAG contrast check",
+    "accessibility contrast",
+    "color readability check",
+    "contrast test tool"
+   ],
+   "faqs": [
+    {
+     "question": "What is color contrast?",
+     "answer": "The difference in luminance between two colors."
+    },
+    {
+     "question": "How do I check contrast?",
+     "answer": "Enter foreground and background colors and the tool calculates the contrast ratio."
+    },
+    {
+     "question": "What is the WCAG standard?",
+     "answer": "The Web Content Accessibility Guidelines, which define contrast requirements."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can it suggest alternative colors?",
+     "answer": "Yes, it suggests accessible alternatives when the contrast is insufficient."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    },
+    {
+     "name": "Color Mixer",
+     "href": "/tools/color-mixer"
+    },
+    {
+     "name": "Color Converter",
+     "href": "/tools/color-converter"
+    }
+   ],
+   "labels": {
+    "foreground": "Foreground color",
+    "background": "Background color",
+    "preview": "Preview",
+    "ratio": "Contrast ratio",
+    "aaLarge": "AA Large text",
+    "pass": "Pass",
+    "fail": "Fail",
+    "invalid": "Invalid color"
+   },
+   "buttons": {
+    "copy": "Copy CSS"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Color Contrast Checker?",
+     "paragraphs": [
+      "A color contrast checker is a free online tool that lets you check color contrast ratios for WCAG accessibility compliance.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "color-shades-generator": {
+   "metadata": {
+    "title": "Color Shades Generator",
+    "description": "Generate shades and tints of any color",
+    "category": "Design"
+   },
+   "keywords": [
+    "color shades generator",
+    "generate color shades",
+    "color tint generation",
+    "online color shades tool",
+    "free color shades generator",
+    "generate color variants",
+    "color light/dark generation",
+    "color palette expansion"
+   ],
+   "faqs": [
+    {
+     "question": "What is a color shade?",
+     "answer": "A color variant created by adding black to the base color."
+    },
+    {
+     "question": "How do I generate color shades?",
+     "answer": "Enter a base color and the tool automatically generates shades and tints."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I adjust the number of shades?",
+     "answer": "Yes, the number of shades can be customized."
+    },
+    {
+     "question": "Can I export the colors?",
+     "answer": "Yes, exporting in HEX, RGB and other formats is supported."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    },
+    {
+     "name": "Color Mixer",
+     "href": "/tools/color-mixer"
+    },
+    {
+     "name": "Color Converter",
+     "href": "/tools/color-converter"
+    }
+   ],
+   "labels": {
+    "baseColor": "Base color",
+    "shades": "Shades"
+   },
+   "buttons": {
+    "copy": "Copy CSS variables"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Color Shades Generator?",
+     "paragraphs": [
+      "A color shades generator is a free online tool that lets you generate shades and tints of any color.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "cron-generator": {
+   "metadata": {
+    "title": "Cron Expression Generator",
+    "description": "Visual cron expression generator with human-readable output",
+    "category": "Developer"
+   },
+   "keywords": [
+    "cron generator",
+    "cron expression",
+    "cron syntax",
+    "scheduled tasks",
+    "cron schedule",
+    "cron format",
+    "cron configuration",
+    "cron timer"
+   ],
+   "faqs": [
+    {
+     "question": "What is a cron expression?",
+     "answer": "A cron expression is a string used to schedule tasks on Unix-like systems. It consists of five fields: minute, hour, day of month, month and day of week. Each field can contain specific values, ranges, lists or wildcards."
+    },
+    {
+     "question": "How do I build a cron expression?",
+     "answer": "Use the presets to quickly pick common schedules, or enter a value for each field manually. The tool shows the expression in English and displays the next run times."
+    },
+    {
+     "question": "What are the fields of a cron expression?",
+     "answer": "A standard cron expression has five fields: minute (0-59), hour (0-23), day of month (1-31), month (1-12) and day of week (0-7, where both 0 and 7 are Sunday)."
+    },
+    {
+     "question": "What does * mean in cron?",
+     "answer": "The asterisk (*) means \"every\" or \"all\". It matches every possible value for a field, meaning the task runs at every value of that field."
+    },
+    {
+     "question": "How do I specify multiple values?",
+     "answer": "Use commas to separate values (like 1,3,5), hyphens for ranges (like 1-5), or step values (like */5 meaning every 5 units)."
+    },
+    {
+     "question": "Are cron expressions safe?",
+     "answer": "Yes. This tool generates cron expressions locally in the browser. No data is sent to any server."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Unix Timestamp Converter",
+     "href": "/tools/timestamp-converter"
+    },
+    {
+     "name": "UUID Generator",
+     "href": "/tools/uuid-generator"
+    }
+   ],
+   "labels": {
+    "minute": "Minute",
+    "hour": "Hour",
+    "day": "Day",
+    "month": "Month",
+    "weekday": "Weekday",
+    "expression": "Expression",
+    "presets": "Presets",
+    "nextRuns": "Next runs",
+    "noRuns": "No upcoming runs found"
+   },
+   "hints": {
+    "minute": "{min}-{max} or *",
+    "hour": "{min}-{max} or *",
+    "day": "{min}-{max} or *",
+    "month": "{min}-{max} or *",
+    "weekday": "{min}-{max} (Sun=0) or *"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Cron Expression Generator?",
+     "paragraphs": [
+      "A cron expression generator is a free online tool for building and visualizing cron expressions. It offers presets, English descriptions and next run time previews. All processing happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to build a cron expression",
+      "paragraphs": [
+       "Use the presets to quickly pick common schedules (such as hourly, daily, weekly), or enter a value for each field manually. The tool updates the cron expression and its English description in real time."
+      ]
+     },
+     {
+      "title": "Understanding cron syntax",
+      "paragraphs": [
+       "A cron expression consists of five fields: minute (0-59), hour (0-23), day of month (1-31), month (1-12) and day of week (0-7). Use * to match all values, and commas, hyphens and slashes to specify multiple values, ranges and steps."
+      ]
+     },
+     {
+      "title": "Common cron expressions",
+      "items": [
+       "* * * * * - Every minute",
+       "0 * * * * - Every hour",
+       "0 0 * * * - Every day at midnight",
+       "0 9 * * 1-5 - Every weekday at 9 AM",
+       "0 0 1 * * - On the first day of every month"
+      ]
+     }
+    ]
+   }
+  },
+  "css-clip-path": {
+   "metadata": {
+    "title": "CSS Clip Path Generator",
+    "description": "Create CSS clip-path shapes visually with preset shapes and custom polygons.",
+    "category": "Developer"
+   },
+   "keywords": [
+    "CSS clip-path generator",
+    "clip-path maker",
+    "CSS clip path",
+    "online clip-path tool",
+    "free clip-path generator",
+    "generate shape clipping",
+    "CSS polygon generator",
+    "visual clipping editor"
+   ],
+   "faqs": [
+    {
+     "question": "What is clip-path?",
+     "answer": "A CSS property used to clip an element into a given shape."
+    },
+    {
+     "question": "How do I generate a clip-path?",
+     "answer": "Pick a shape, adjust the points and the tool generates the code."
+    },
+    {
+     "question": "Which shapes are supported?",
+     "answer": "Polygons, circles, ellipses and more are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Is the generated code compatible with all browsers?",
+     "answer": "Yes, it works with all modern browsers."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    },
+    {
+     "name": "CSS Transform Generator",
+     "href": "/tools/css-transform-generator"
+    }
+   ],
+   "labels": {
+    "preset": "Preset",
+    "customValue": "Custom clip-path",
+    "shapeColor": "Shape color",
+    "backgroundColor": "Background color",
+    "css": "CSS"
+   },
+   "options": {
+    "none": "None",
+    "circle": "Circle",
+    "ellipse": "Ellipse",
+    "inset": "Inset",
+    "polygon": "Polygon",
+    "triangle": "Triangle",
+    "rhombus": "Rhombus",
+    "arrow": "Arrow",
+    "star": "Star",
+    "custom": "Custom"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Clip Path Generator?",
+     "paragraphs": [
+      "A CSS Clip Path Generator is a free online tool that lets you create CSS clip-path shapes visually with preset shapes and custom polygons.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "css-loader-generator": {
+   "metadata": {
+    "title": "CSS Loader Generator",
+    "description": "Generate pure CSS loading spinners and animations. Customize and copy the HTML + CSS.",
+    "category": "Developer"
+   },
+   "keywords": [
+    "CSS loader generator",
+    "CSS loading animations",
+    "loader maker",
+    "online loader tool",
+    "free loader generator",
+    "generate CSS spinners",
+    "loading animation code",
+    "waiting animation generator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I generate a loading animation?",
+     "answer": "Choose a style, adjust the parameters and the tool generates the CSS code."
+    },
+    {
+     "question": "Can I customize the colors?",
+     "answer": "Yes, custom colors and sizes are supported."
+    },
+    {
+     "question": "Which animation types are supported?",
+     "answer": "Spinners, pulses, bouncing and many other types are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Is the generated code compatible with all browsers?",
+     "answer": "Yes, it works with all modern browsers."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "CSS Background Patterns",
+     "href": "/tools/css-background-pattern"
+    },
+    {
+     "name": "CSS Transform Generator",
+     "href": "/tools/css-transform-generator"
+    }
+   ],
+   "labels": {
+    "style": "Loader style",
+    "color": "Color",
+    "backgroundColor": "Background color",
+    "size": "Size (px)",
+    "speed": "Speed (seconds)",
+    "css": "HTML + CSS"
+   },
+   "options": {
+    "spinner": "Spinner",
+    "dots": "Dots",
+    "pulse": "Pulse",
+    "bars": "Bars"
+   },
+   "buttons": {
+    "copy": "Copy code"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Loader Generator?",
+     "paragraphs": [
+      "A CSS Loader Generator is a free online tool that lets you generate pure CSS loading spinners and animations.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "css-minifier": {
+   "metadata": {
+    "title": "CSS Minifier",
+    "description": "Minify CSS to reduce file size",
+    "category": "Developer"
+   },
+   "keywords": [
+    "css minifier",
+    "css minify",
+    "minify css",
+    "css code minification",
+    "css size reduction",
+    "css optimization",
+    "css cleaner",
+    "css compression tool"
+   ],
+   "faqs": [
+    {
+     "question": "What is CSS minification?",
+     "answer": "CSS minification reduces the size of a CSS file by removing unnecessary whitespace, comments and other characters. This can improve page load speed and reduce bandwidth usage."
+    },
+    {
+     "question": "How do I minify CSS?",
+     "answer": "Paste your CSS code into the input field. Click the minify button. The tool removes whitespace and comments to produce a smaller output. Copy the result or download the minified file."
+    },
+    {
+     "question": "Does minification affect CSS functionality?",
+     "answer": "No. Minification only removes characters that are unnecessary for rendering. The functionality of your CSS remains unchanged. However, it may make the code harder to read or debug."
+    },
+    {
+     "question": "How much can minification reduce file size?",
+     "answer": "The reduction depends on the original CSS. Files with lots of whitespace and comments can be reduced by 50-80%. Already compact CSS may see only a small reduction."
+    },
+    {
+     "question": "Is my CSS sent to a server?",
+     "answer": "No. All minification happens locally in your browser. The code never leaves your device."
+    },
+    {
+     "question": "Can I minify large CSS files?",
+     "answer": "Yes. Since minification happens in the browser, it can handle large CSS files. However, very large files (>50 MB) may be slow due to browser memory limits."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "HTML Minifier",
+     "href": "/tools/html-minifier"
+    },
+    {
+     "name": "JS Minifier",
+     "href": "/tools/js-minifier"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    }
+   ],
+   "labels": {
+    "input": "Input",
+    "output": "Output",
+    "inputPlaceholder": "Paste your CSS here...",
+    "outputPlaceholder": "Minified CSS will appear here...",
+    "saved": "Saved {bytes} bytes"
+   },
+   "buttons": {
+    "minify": "Minify",
+    "clear": "Clear"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Minifier?",
+     "paragraphs": [
+      "A CSS minifier is a free online tool for reducing the size of CSS files by removing unnecessary whitespace, comments and other characters. This can improve page load speed and reduce bandwidth usage. All minification happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to minify CSS",
+      "paragraphs": [
+       "Paste your CSS code into the input field. Click the minify button. The tool removes whitespace and comments to produce a smaller output. Copy the result or download the minified file."
+      ]
+     },
+     {
+      "title": "How minification works",
+      "paragraphs": [
+       "Minification removes characters that are not needed in CSS: multiple spaces become a single space, CSS comments are removed, line breaks are removed, and values are shortened where possible."
+      ]
+     },
+     {
+      "title": "Common use cases",
+      "items": [
+       "Optimize page load speed",
+       "Reduce bandwidth usage",
+       "Prepare CSS for production",
+       "Reduce stylesheet size",
+       "Optimize server responses"
+      ]
+     }
+    ]
+   }
+  },
+  "diff-checker": {
+   "metadata": {
+    "title": "Text Diff Checker",
+    "description": "Compare two blocks of text and highlight the differences. Free online diff tool.",
+    "category": "Developer"
+   },
+   "keywords": [
+    "diff checker",
+    "compare text",
+    "online diff tool",
+    "free text comparison",
+    "text comparer",
+    "view text differences",
+    "code comparison tool",
+    "side-by-side compare"
+   ],
+   "faqs": [
+    {
+     "question": "How do I compare text?",
+     "answer": "Paste two blocks of text and the tool highlights the differences."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "Plain text, code, HTML and more are supported."
+    },
+    {
+     "question": "Can I compare files?",
+     "answer": "Yes, upload files to compare them."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Are multiple comparison modes supported?",
+     "answer": "Yes, side-by-side and unified views are supported."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Regex Tester",
+     "href": "/tools/regex-tester"
+    },
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    }
+   ],
+   "labels": {
+    "original": "Original",
+    "modified": "Modified",
+    "differences": "Differences"
+   },
+   "buttons": {
+    "compare": "Compare",
+    "clear": "Clear"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Text Diff Checker?",
+     "paragraphs": [
+      "A text diff checker is a free online tool that lets you compare two blocks of text and see the differences highlighted.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "doc-compare": {
+   "metadata": {
+    "title": "Document Compare (Word/PDF)",
+    "description": "Compare two Word, PDF or text documents in the browser with line-by-line highlighted differences.",
+    "category": "Productivity"
+   },
+   "title": "Document Compare",
+   "description": "Upload two documents (Word .docx, PDF or plain text) and instantly highlight added, removed and unchanged lines. All processing happens locally in your browser — your documents are never uploaded to any server.",
+   "category": "Productivity",
+   "labels": {
+    "fileA": "Document A (Original)",
+    "fileB": "Document B (Modified)",
+    "dropHint": "Drop files here or click to select",
+    "loading": "Extracting text…",
+    "lines": "lines",
+    "differences": "differences",
+    "unchanged": "lines unchanged",
+    "viewSide": "Side-by-side view",
+    "viewMerge": "Merged view"
+   },
+   "buttons": {
+    "compare": "Compare",
+    "clear": "Clear",
+    "remove": "Remove",
+    "exportDiff": "Export diff"
+   },
+   "formats": {
+    "docx": "Word",
+    "pdf": "PDF",
+    "text": "Text",
+    "unsupported": "Unsupported"
+   },
+   "errors": {
+    "needBoth": "Please upload two documents before comparing.",
+    "unsupported": "Unsupported file format. Please use .docx, PDF or plain text files.",
+    "readFailed": "Failed to read the document."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is document comparison?",
+     "body": [
+      "A document comparison tool detects the differences between two versions of a document. After you upload Word (.docx), PDF or plain text files, it highlights every added, removed and unchanged line in color, line by line.",
+      "All processing is done locally in your browser — your documents are never uploaded to any server."
+     ]
+    },
+    "howTo": {
+     "title": "How to compare documents",
+     "items": [
+      "Upload the original as Document A and the modified version as Document B. Word, PDF and common text formats are detected automatically.",
+      "Click <b>Compare</b> and the tool extracts the text of both files and highlights the differences line by line.",
+      "Green lines are added, red lines are removed, and gray lines are unchanged. Use <b>Export diff</b> to download the result as a text file."
+     ]
+    },
+    "supported": {
+     "title": "Supported formats",
+     "items": [
+      "<b>Word (.docx)</b> — extracts text from the document body.",
+      "<b>PDF</b> — extracts text from every page.",
+      "<b>Text files</b> — .txt, .md, .html, .json, .csv, .xml, .log and source code files are read directly."
+     ]
+    },
+    "tips": {
+     "title": "Usage tips",
+     "items": [
+      "Comparison quality depends on the extracted text. Scanned PDFs without a text layer are not supported.",
+      "Large documents may take a few seconds to compare locally.",
+      "To compare formatting changes, export both versions as plain text first."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "Can I compare a Word document with a PDF?",
+     "answer": "Yes. The tool automatically detects the format of each file and extracts its text, so any combination of .docx, PDF and text files can be compared."
+    },
+    {
+     "question": "Are my documents uploaded to a server?",
+     "answer": "No. Text extraction and comparison happen entirely in your browser, and your documents never leave your device."
+    },
+    {
+     "question": "Why can't my scanned PDF be compared?",
+     "answer": "Only PDFs with a text layer (digital text) are supported. Scanned PDFs contain only images without extractable text — convert them with OCR first."
+    },
+    {
+     "question": "What does each color mean in the results?",
+     "answer": "Green lines are content added in the modified version, red lines are content that was removed, and gray lines are unchanged. The counters above the results show the totals for each category."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "Word (.docx), PDF, and common text formats such as .txt, .md, .html, .json, .csv, .xml, .log and source code."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Text Diff Checker",
+     "href": "/tools/diff-checker"
+    },
+    {
+     "name": "PDF to Word",
+     "href": "/tools/pdf-to-word"
+    },
+    {
+     "name": "Merge PDF",
+     "href": "/tools/merge-pdf"
+    }
+   ],
+   "keywords": [
+    "document compare",
+    "Word compare",
+    "PDF compare",
+    "docx diff",
+    "text diff",
+    "file comparison"
+   ]
+  },
+  "favicon-generator": {
+   "metadata": {
+    "title": "Favicon Generator",
+    "description": "Generate favicons in multiple sizes from an image",
+    "category": "Design"
+   },
+   "keywords": [
+    "favicon generator",
+    "create favicon",
+    "online favicon tool",
+    "free favicon generation",
+    "make website icon",
+    "generate browser icon",
+    "favicon maker",
+    "website icon generator"
+   ],
+   "faqs": [
+    {
+     "question": "What is a favicon?",
+     "answer": "A small icon displayed in the browser tab of a website."
+    },
+    {
+     "question": "How do I generate a favicon?",
+     "answer": "Upload an image or pick an icon, adjust the size and generate your favicon."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "ICO, PNG, SVG and more are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I generate multiple sizes?",
+     "answer": "Yes, 16x16, 32x32, 96x96 and more are supported."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "QR Code Generator",
+     "href": "/tools/qr-code-generator"
+    },
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    }
+   ],
+   "labels": {
+    "text": "Text / Emoji",
+    "upload": "Upload image",
+    "size": "Size",
+    "background": "Background",
+    "foreground": "Foreground",
+    "preview": "Preview",
+    "svgFavicon": "SVG favicon"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "downloadPng": "Download PNG",
+    "downloadSvg": "Download SVG"
+   },
+   "options": {
+    "text": "Text",
+    "image": "Image"
+   },
+   "errors": {
+    "invalidImage": "Please select a valid image file."
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Favicon Generator?",
+     "paragraphs": [
+      "A Favicon Generator is a free online tool that lets you generate favicons in multiple sizes from an image.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "glassmorphism-generator": {
+   "metadata": {
+    "title": "Glassmorphism Generator",
+    "description": "Create frosted glass CSS effects with a live visual editor. Adjust blur, opacity and borders.",
+    "category": "Developer"
+   },
+   "keywords": [
+    "glassmorphism generator",
+    "CSS glassmorphism effects",
+    "glassmorphism UI generator",
+    "online glassmorphism tool",
+    "free glassmorphism generator",
+    "generate frosted glass effects",
+    "CSS blur effects",
+    "modern UI design"
+   ],
+   "faqs": [
+    {
+     "question": "What is the glassmorphism effect?",
+     "answer": "A UI design style using semi-transparent blurred surfaces."
+    },
+    {
+     "question": "How do I generate glassmorphism CSS?",
+     "answer": "Adjust the parameters and the tool generates the CSS code."
+    },
+    {
+     "question": "Can I customize the colors?",
+     "answer": "Yes, custom colors and opacity are supported."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Is the generated code compatible with all browsers?",
+     "answer": "Yes, it works with all modern browsers."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Neumorphism Generator",
+     "href": "/tools/neumorphism-generator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    }
+   ],
+   "labels": {
+    "blur": "Blur",
+    "opacity": "Opacity",
+    "saturation": "Saturation",
+    "radius": "Border radius",
+    "border": "Border",
+    "backgroundColor": "Background color",
+    "css": "CSS"
+   },
+   "preview": {
+    "title": "Glass card",
+    "body": "Frosted glass effect"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Glassmorphism Generator?",
+     "paragraphs": [
+      "A glassmorphism generator is a free online tool that lets you create frosted glass CSS effects with a live visual editor.",
+      "All processing happens in your browser — your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the screen",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally to protect your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "hash-generator": {
+   "metadata": {
+    "title": "Hash Generator",
+    "description": "Generate MD5, SHA-1, SHA-256 and more hashes from text",
+    "category": "Developer"
+   },
+   "keywords": [
+    "hash generator",
+    "sha256 generator",
+    "sha-256 online",
+    "hash function",
+    "message digest",
+    "sha1 generator",
+    "sha512 hash",
+    "cryptographic hash"
+   ],
+   "faqs": [
+    {
+     "question": "What is a hash generator?",
+     "answer": "A hash generator is a tool that converts input text into a fixed-length string. Hashes are one-way — you cannot reverse a hash back into the original text. They are used for data integrity, password storage and digital signatures."
+    },
+    {
+     "question": "Which hash algorithms are supported?",
+     "answer": "The tool supports SHA-1, SHA-256, SHA-384 and SHA-512. SHA-256 and SHA-512 are recommended for secure applications. SHA-1 is no longer recommended for security reasons but may be used for legacy systems."
+    },
+    {
+     "question": "How do I generate a hash?",
+     "answer": "Type or paste text into the input field. Select the desired hash algorithm. The hash is generated and displayed immediately. Click copy to copy it to your clipboard."
+    },
+    {
+     "question": "Are the hashes secure?",
+     "answer": "SHA-256 and SHA-512 are currently considered secure. SHA-1 has known collision vulnerabilities and should not be used for security purposes. For password hashing, use dedicated functions such as bcrypt or Argon2."
+    },
+    {
+     "question": "Can I hash files?",
+     "answer": "The current version only supports text input. For file hashing, you need to read the file contents and pass them as text."
+    },
+    {
+     "question": "Is hashing safe in the browser?",
+     "answer": "Yes. All hashing is done in the browser using the native Web Crypto API. No data is sent to any server."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "UUID Generator",
+     "href": "/tools/uuid-generator"
+    },
+    {
+     "name": "Password Generator",
+     "href": "/tools/password-generator"
+    }
+   ],
+   "labels": {
+    "input": "Input",
+    "output": "Output",
+    "inputPlaceholder": "Enter text to hash...",
+    "outputPlaceholder": "The hash value will appear here...",
+    "algorithm": "Algorithm",
+    "empty": "Please enter text to hash",
+    "error": "Failed to generate hash"
+   },
+   "buttons": {
+    "generate": "Generate"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Hash Generator?",
+     "paragraphs": [
+      "A hash generator is a free online tool for generating cryptographic hashes from text input. It supports the SHA-1, SHA-256, SHA-384 and SHA-512 algorithms. All computations happen in the browser using the native Web Crypto API."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to generate a hash",
+      "paragraphs": [
+       "Type or paste text into the input field. Select the hash algorithm from the dropdown. The hash is generated and displayed in the output field immediately."
+      ]
+     },
+     {
+      "title": "Understanding hash algorithms",
+      "paragraphs": [
+       "SHA-256 and SHA-512 are the recommended cryptographically secure algorithms. SHA-256 produces a 256-bit (32-byte) hash, usually represented as 64 hexadecimal characters. SHA-512 produces a 512-bit (64-byte) hash."
+      ]
+     },
+     {
+      "title": "Common uses of hashes",
+      "items": [
+       "Verifying file integrity",
+       "Storing passwords securely (with salting)",
+       "Generating unique identifiers for data",
+       "Creating digital signatures",
+       "Indexing data in hash tables"
+      ]
+     }
+    ]
+   }
+  },
+  "html-entity-encoder": {
+   "metadata": {
+    "title": "HTML Entity Encoder",
+    "description": "Encode and decode HTML entities in text",
+    "category": "Developer"
+   },
+   "keywords": [
+    "html entity encoder",
+    "html entity decoder",
+    "html escaping",
+    "html unescaping",
+    "html entity conversion",
+    "special character encoding",
+    "html entity reference",
+    "html character escaping"
+   ],
+   "faqs": [
+    {
+     "question": "What are HTML entities?",
+     "answer": "HTML entities are codes used to display reserved characters or characters that are not easy to type on a keyboard in HTML. For example, < becomes &lt;, > becomes &gt;, and & becomes &amp;."
+    },
+    {
+     "question": "How do I encode HTML entities?",
+     "answer": "Paste your text into the input field. Select the encode mode. The tool converts special characters into HTML entities."
+    },
+    {
+     "question": "How do I decode HTML entities?",
+     "answer": "Paste text containing HTML entities into the input field. Select the decode mode. The tool converts the entities back into their original characters."
+    },
+    {
+     "question": "Why do I need to encode HTML entities?",
+     "answer": "Some characters have special meaning in HTML (like < and > for tags). To display them on a page, they must be encoded as entities, otherwise the browser interprets them as HTML."
+    },
+    {
+     "question": "What is the difference between named and numeric entities?",
+     "answer": "Named entities use names (like &lt;), while numeric entities use character codes (like &#60;). They are equivalent, but named entities are easier to read."
+    },
+    {
+     "question": "Is HTML entity encoding safe?",
+     "answer": "Yes. This tool encodes and decodes HTML entities locally in the browser. No data is sent to any server."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "URL Encoder/Decoder",
+     "href": "/tools/url-encoder"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    }
+   ],
+   "labels": {
+    "text": "Text",
+    "entities": "Entities",
+    "textPlaceholder": "Enter text to encode...",
+    "entitiesPlaceholder": "Enter HTML entities to decode...",
+    "output": "Output",
+    "outputPlaceholder": "The result will appear here..."
+   },
+   "buttons": {
+    "encode": "Encode",
+    "decode": "Decode",
+    "clear": "Clear"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an HTML Entity Encoder/Decoder?",
+     "paragraphs": [
+      "An HTML entity encoder/decoder is a free online tool for converting between characters and HTML entities. It encodes special characters as entities for safe display in HTML, or decodes entities back into their original characters. All processing happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to encode HTML entities",
+      "paragraphs": [
+       "Paste your text into the input field. Select the encode mode. The tool converts characters such as <, >, &, \" and ' into HTML entities."
+      ]
+     },
+     {
+      "title": "How to decode HTML entities",
+      "paragraphs": [
+       "Paste text containing HTML entities into the input field. Select the decode mode. The tool converts entities such as &lt;, &gt; and &amp; back into their original characters."
+      ]
+     },
+     {
+      "title": "Common HTML entities",
+      "items": [
+       "&lt; - Less-than sign (<)",
+       "&gt; - Greater-than sign (>)",
+       "&amp; - Ampersand (&)",
+       "&quot; - Double quote (\")",
+       "&apos; - Single quote (')",
+       "&nbsp; - Non-breaking space"
+      ]
+     }
+    ]
+   }
+  },
+  "html-minifier": {
+   "metadata": {
+    "title": "HTML Minifier",
+    "description": "Minify HTML to reduce file size",
+    "category": "Developer"
+   },
+   "keywords": [
+    "html minifier",
+    "html minify",
+    "minify html",
+    "html code minification",
+    "html size reduction",
+    "html optimization",
+    "html cleaner",
+    "html compression tool"
+   ],
+   "faqs": [
+    {
+     "question": "What is HTML minification?",
+     "answer": "HTML minification reduces the size of an HTML file by removing unnecessary whitespace, comments and optionally inlining CSS/JavaScript. This can improve page load speed and reduce bandwidth usage."
+    },
+    {
+     "question": "How do I minify HTML?",
+     "answer": "Paste your HTML code into the input field. Click the minify button. The tool removes whitespace and comments to produce a smaller output. Copy the result or download the minified file."
+    },
+    {
+     "question": "Does minification affect HTML functionality?",
+     "answer": "No. Minification only removes characters that are unnecessary for rendering. The functionality and appearance of your HTML remain unchanged. However, it may make the code harder to read or debug."
+    },
+    {
+     "question": "How much can minification reduce file size?",
+     "answer": "The reduction depends on the original HTML. Files with lots of whitespace and comments can be reduced by 50-80%. Already compact HTML may see only a small reduction."
+    },
+    {
+     "question": "Is my HTML sent to a server?",
+     "answer": "No. All minification happens locally in your browser. The code never leaves your device."
+    },
+    {
+     "question": "Can I minify large HTML files?",
+     "answer": "Yes. Since minification happens in the browser, it can handle large HTML files. However, very large files (>50 MB) may be slow due to browser memory limits."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Minifier",
+     "href": "/tools/css-minifier"
+    },
+    {
+     "name": "JS Minifier",
+     "href": "/tools/js-minifier"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    }
+   ],
+   "labels": {
+    "input": "Input",
+    "output": "Output",
+    "inputPlaceholder": "Paste your HTML here...",
+    "outputPlaceholder": "Minified HTML will appear here...",
+    "saved": "Saved {bytes} bytes"
+   },
+   "buttons": {
+    "minify": "Minify",
+    "clear": "Clear"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an HTML Minifier?",
+     "paragraphs": [
+      "An HTML minifier is a free online tool for reducing the size of HTML files by removing unnecessary whitespace, comments and other characters. This can improve page load speed and reduce bandwidth usage. All minification happens in the browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to minify HTML",
+      "paragraphs": [
+       "Paste your HTML code into the input field. Click the minify button. The tool removes whitespace and comments to produce a smaller output. Copy the result or download the minified file."
+      ]
+     },
+     {
+      "title": "How minification works",
+      "paragraphs": [
+       "Minification removes characters that are not needed for rendering HTML: multiple spaces become a single space, HTML comments are removed, line breaks are removed, and CSS and JavaScript can optionally be inlined."
+      ]
+     },
+     {
+      "title": "Common use cases",
+      "items": [
+       "Optimize page load speed",
+       "Reduce bandwidth usage",
+       "Prepare HTML for production",
+       "Reduce static file size",
+       "Optimize server responses"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

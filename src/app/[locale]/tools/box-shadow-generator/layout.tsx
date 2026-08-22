@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/box-shadow-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/box-shadow-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/box-shadow-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/box-shadow-generator`,
       },
     },
   };

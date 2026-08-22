@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-palette`,
         ja: `https://www.toolkitlife.com/ja/tools/image-palette`,
         ko: `https://www.toolkitlife.com/ko/tools/image-palette`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-palette`,
       },
     },
   };

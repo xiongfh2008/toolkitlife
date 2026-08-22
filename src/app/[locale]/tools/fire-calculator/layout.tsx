@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/fire-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/fire-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/fire-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/fire-calculator`,
       },
     },
   };

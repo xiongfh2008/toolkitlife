@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/chmod-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/chmod-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/chmod-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/chmod-calculator`,
       },
     },
   };

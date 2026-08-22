@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/color-mixer`,
         ja: `https://www.toolkitlife.com/ja/tools/color-mixer`,
         ko: `https://www.toolkitlife.com/ko/tools/color-mixer`,
+        ru: `https://www.toolkitlife.com/ru/tools/color-mixer`,
       },
     },
   };

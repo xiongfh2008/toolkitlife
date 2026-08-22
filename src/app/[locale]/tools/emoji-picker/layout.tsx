@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/emoji-picker`,
         ja: `https://www.toolkitlife.com/ja/tools/emoji-picker`,
         ko: `https://www.toolkitlife.com/ko/tools/emoji-picker`,
+        ru: `https://www.toolkitlife.com/ru/tools/emoji-picker`,
       },
     },
   };

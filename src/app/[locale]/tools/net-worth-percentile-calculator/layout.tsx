@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/net-worth-percentile-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/net-worth-percentile-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/net-worth-percentile-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/net-worth-percentile-calculator`,
       },
     },
   };

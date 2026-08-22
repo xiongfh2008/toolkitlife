@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/base64-to-image`,
         ja: `https://www.toolkitlife.com/ja/tools/base64-to-image`,
         ko: `https://www.toolkitlife.com/ko/tools/base64-to-image`,
+        ru: `https://www.toolkitlife.com/ru/tools/base64-to-image`,
       },
     },
   };

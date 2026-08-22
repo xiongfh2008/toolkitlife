@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/medicaid-work-requirement-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/medicaid-work-requirement-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/medicaid-work-requirement-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/medicaid-work-requirement-calculator`,
       },
     },
   };

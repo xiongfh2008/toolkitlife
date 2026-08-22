@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/color-contrast-checker`,
         ja: `https://www.toolkitlife.com/ja/tools/color-contrast-checker`,
         ko: `https://www.toolkitlife.com/ko/tools/color-contrast-checker`,
+        ru: `https://www.toolkitlife.com/ru/tools/color-contrast-checker`,
       },
     },
   };

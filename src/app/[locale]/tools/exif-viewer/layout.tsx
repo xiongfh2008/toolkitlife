@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/exif-viewer`,
         ja: `https://www.toolkitlife.com/ja/tools/exif-viewer`,
         ko: `https://www.toolkitlife.com/ko/tools/exif-viewer`,
+        ru: `https://www.toolkitlife.com/ru/tools/exif-viewer`,
       },
     },
   };

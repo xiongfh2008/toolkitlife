@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/keyword-density`,
         ja: `https://www.toolkitlife.com/ja/tools/keyword-density`,
         ko: `https://www.toolkitlife.com/ko/tools/keyword-density`,
+        ru: `https://www.toolkitlife.com/ru/tools/keyword-density`,
       },
     },
   };

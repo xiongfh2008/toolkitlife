@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/url-opener`,
         ja: `https://www.toolkitlife.com/ja/tools/url-opener`,
         ko: `https://www.toolkitlife.com/ko/tools/url-opener`,
+        ru: `https://www.toolkitlife.com/ru/tools/url-opener`,
       },
     },
   };

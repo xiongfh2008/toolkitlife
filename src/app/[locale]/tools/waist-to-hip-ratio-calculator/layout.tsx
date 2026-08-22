@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/waist-to-hip-ratio-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/waist-to-hip-ratio-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/waist-to-hip-ratio-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/waist-to-hip-ratio-calculator`,
       },
     },
   };

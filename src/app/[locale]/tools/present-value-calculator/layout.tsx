@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/present-value-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/present-value-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/present-value-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/present-value-calculator`,
       },
     },
   };

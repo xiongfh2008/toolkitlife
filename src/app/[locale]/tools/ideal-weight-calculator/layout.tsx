@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/ideal-weight-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/ideal-weight-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/ideal-weight-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/ideal-weight-calculator`,
       },
     },
   };

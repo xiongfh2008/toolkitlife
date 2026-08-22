@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/budget-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/budget-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/budget-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/budget-calculator`,
       },
     },
   };

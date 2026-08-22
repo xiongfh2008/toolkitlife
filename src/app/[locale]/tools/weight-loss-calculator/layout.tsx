@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/weight-loss-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/weight-loss-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/weight-loss-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/weight-loss-calculator`,
       },
     },
   };

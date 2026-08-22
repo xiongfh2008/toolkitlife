@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/face-crop`,
         ja: `https://www.toolkitlife.com/ja/tools/face-crop`,
         ko: `https://www.toolkitlife.com/ko/tools/face-crop`,
+        ru: `https://www.toolkitlife.com/ru/tools/face-crop`,
       },
     },
   };

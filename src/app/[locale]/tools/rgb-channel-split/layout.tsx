@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/rgb-channel-split`,
         ja: `https://www.toolkitlife.com/ja/tools/rgb-channel-split`,
         ko: `https://www.toolkitlife.com/ko/tools/rgb-channel-split`,
+        ru: `https://www.toolkitlife.com/ru/tools/rgb-channel-split`,
       },
     },
   };

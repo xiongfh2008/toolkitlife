@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/pdf-to-png`,
         ja: `https://www.toolkitlife.com/ja/tools/pdf-to-png`,
         ko: `https://www.toolkitlife.com/ko/tools/pdf-to-png`,
+        ru: `https://www.toolkitlife.com/ru/tools/pdf-to-png`,
       },
     },
   };

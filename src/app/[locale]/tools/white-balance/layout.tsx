@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/white-balance`,
         ja: `https://www.toolkitlife.com/ja/tools/white-balance`,
         ko: `https://www.toolkitlife.com/ko/tools/white-balance`,
+        ru: `https://www.toolkitlife.com/ru/tools/white-balance`,
       },
     },
   };

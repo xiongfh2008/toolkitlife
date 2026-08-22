@@ -1,0 +1,2598 @@
+{
+ "tools": {
+  "bmr-calculator": {
+   "metadata": {
+    "title": "BMR Calculator",
+    "description": "Calculate your basal metabolic rate using three formulas with activity factors.",
+    "category": "Health"
+   },
+   "keywords": [
+    "bmr calculator",
+    "basal metabolic rate",
+    "resting metabolism",
+    "calorie calculator",
+    "metabolism calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is BMR?",
+     "answer": "Basal metabolic rate is the number of calories your body needs at complete rest to maintain basic functions like breathing, circulation, and cell production. It typically accounts for 60-75% of daily energy expenditure."
+    },
+    {
+     "question": "Which BMR formula is best?",
+     "answer": "Mifflin-St Jeor is considered the most accurate for most people. Harris-Benedict tends to slightly overestimate. If you know your body fat percentage, Katch-McArdle is best."
+    },
+    {
+     "question": "How is BMR different from TDEE?",
+     "answer": "BMR is calories at rest. TDEE (Total Daily Energy Expenditure) = BMR × activity factor. TDEE includes all daily activity and exercise. Use TDEE for calorie planning, not BMR alone."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    },
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "Macro Calculator",
+     "href": "/tools/macro-calculator"
+    }
+   ],
+   "labels": {
+    "gender": "Gender",
+    "weightKg": "Weight (kg)",
+    "heightCm": "Height (cm)",
+    "age": "Age",
+    "bmr": "Basal Metabolic Rate (BMR)"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "male": "Male",
+    "female": "Female"
+   },
+   "description": "Calculate your basal metabolic rate - the calories your body burns at rest. Three formulas with activity level factors.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a BMR Calculator?",
+     "body": [
+      "Calculate your basal metabolic rate - the calories your body burns at rest.",
+      "Three formulas combined with activity level factors to estimate your total daily needs."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate BMR",
+     "intro": "Follow these steps:",
+     "items": [
+      "Select your preferred unit system.",
+      "Enter your age, gender, height, and weight.",
+      "Choose your activity level.",
+      "Click calculate to see your BMR and daily calorie needs."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "BMR is just your resting metabolism - use TDEE for total daily needs.",
+      "Recalculate when your weight or activity level changes.",
+      "Use BMR as a baseline for setting calorie goals."
+     ]
+    }
+   }
+  },
+  "waist-to-hip-ratio-calculator": {
+   "metadata": {
+    "title": "Waist-to-Hip Ratio Calculator",
+    "description": "Assess health risk according to the WHO waist-to-hip ratio standards.",
+    "category": "Health"
+   },
+   "keywords": [
+    "waist-to-hip ratio",
+    "whr calculator",
+    "body shape calculator",
+    "health risk assessment",
+    "WHO guidelines"
+   ],
+   "faqs": [
+    {
+     "question": "What is the waist-to-hip ratio?",
+     "answer": "Waist-to-hip ratio = waist circumference ÷ hip circumference. It measures fat distribution. Higher ratios (more abdominal fat) are associated with increased health risks for heart disease, diabetes, and stroke."
+    },
+    {
+     "question": "What is a healthy waist-to-hip ratio?",
+     "answer": "WHO guidelines: men should stay below 0.90 and women below 0.80. Ratios above 1.0 (men) or 0.85 (women) indicate significantly elevated health risk."
+    },
+    {
+     "question": "How do I measure correctly?",
+     "answer": "Waist: measure at the narrowest point between the ribs and hip bones (usually at the navel). Hips: measure at the widest part of the buttocks. Keep the tape horizontal, snug but not tight."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "Body Fat Calculator",
+     "href": "/tools/body-fat-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    }
+   ],
+   "labels": {
+    "gender": "Gender",
+    "waist": "Waist",
+    "hip": "Hip",
+    "ratio": "Waist-to-Hip Ratio",
+    "category": "Risk Category"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "male": "Male",
+    "female": "Female"
+   },
+   "categories": {
+    "low": "Low Risk",
+    "moderate": "Moderate Risk",
+    "high": "High Risk"
+   },
+   "description": "Calculate your waist-to-hip ratio (WHR) to assess health risk based on WHO guidelines.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Waist-to-Hip Ratio Calculator?",
+     "body": [
+      "Calculate your waist-to-hip ratio (WHR) to assess health risk.",
+      "Based on World Health Organization (WHO) guidelines for men and women."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Waist-to-Hip Ratio",
+     "intro": "Follow these steps:",
+     "items": [
+      "Select your preferred unit system.",
+      "Select your gender.",
+      "Enter your waist and hip measurements.",
+      "Click calculate to see your waist-to-hip ratio and risk level."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Measure at the correct anatomical landmarks for accuracy.",
+      "The waist-to-hip ratio is one indicator - combine it with other health metrics.",
+      "Consult a healthcare professional for a full assessment."
+     ]
+    }
+   }
+  },
+  "water-intake-calculator": {
+   "metadata": {
+    "title": "Water Intake Calculator",
+    "description": "Calculate your recommended daily water intake based on weight, activity level, and climate.",
+    "category": "Health"
+   },
+   "keywords": [
+    "water intake calculator",
+    "daily water intake",
+    "hydration calculator",
+    "how much water to drink",
+    "water needs"
+   ],
+   "faqs": [
+    {
+     "question": "How much water should I drink per day?",
+     "answer": "A general guideline is about 35 ml per kilogram of body weight (roughly half your weight in ounces). Active people and those in hot climates need more. The '8 glasses of water a day' rule is a rough estimate."
+    },
+    {
+     "question": "Does coffee count toward my water intake?",
+     "answer": "Mostly yes. Although caffeine is a mild diuretic, the water in coffee and tea still contributes to hydration. However, plain water remains the best source."
+    },
+    {
+     "question": "How do I know if I'm well hydrated?",
+     "answer": "Check your urine color — pale yellow indicates good hydration. Dark yellow means you need to drink more water. Other signs of dehydration: thirst, dry mouth, headache, and fatigue."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    }
+   ],
+   "labels": {
+    "weightKg": "Weight (kg)",
+    "weightLbs": "Weight (lbs)",
+    "activityLevel": "Activity Level",
+    "dailyWater": "Daily Water Intake",
+    "cups": "cups"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "sedentary": "Sedentary",
+    "light": "Lightly Active",
+    "moderate": "Moderately Active",
+    "active": "Active",
+    "veryActive": "Very Active"
+   },
+   "description": "Calculate how much water you should drink each day based on your weight, activity level, and climate.",
+   "guide": {
+    "whatIs": {
+     "title": "What is the Water Intake Calculator?",
+     "body": [
+      "Calculates how much water you should drink each day based on your weight, activity level, and climate.",
+      "Get personalized recommendations in multiple units (milliliters, ounces, cups, bottles)."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Your Water Intake",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose your preferred unit system.",
+      "Enter your weight.",
+      "Select your activity level.",
+      "Select your climate.",
+      "Click Calculate to see your daily water needs."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Drink water gradually throughout the day rather than all at once.",
+      "Increase your intake when exercising or in hot weather.",
+      "Monitor your urine color as a hydration indicator."
+     ]
+    }
+   }
+  },
+  "1rm-calculator": {
+   "metadata": {
+    "title": "1RM Calculator",
+    "description": "Estimate your one-rep max using popular formulas like Epley, Brzycki, Lombardi, Mayhew, and O'Conner.",
+    "category": "Health"
+   },
+   "keywords": [
+    "1rm calculator",
+    "one rep max calculator",
+    "strength calculator",
+    "weightlifting calculator",
+    "training percentages"
+   ],
+   "faqs": [
+    {
+     "question": "What is a 1RM?",
+     "answer": "Your one-rep max (1RM) is the maximum weight you can lift with proper form. It is used to set training percentages and track strength progress."
+    },
+    {
+     "question": "Which 1RM formula is most accurate?",
+     "answer": "Brzycki and Epley are the most commonly used and tend to be accurate for 1-10 reps. All formulas become less accurate above 10 reps. For best accuracy, test with a weight you can lift 3-5 times."
+    },
+    {
+     "question": "How do I train using my 1RM?",
+     "answer": "Common training zones: Strength: 80-90%, 3-5 reps. Hypertrophy: 65-80%, 8-12 reps. Endurance: 50-65%, 15-20 reps. Power: 50-70%, 3-6 explosive reps."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "Protein Calculator",
+     "href": "/tools/protein-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    }
+   ],
+   "labels": {
+    "weight": "Weight Lifted",
+    "reps": "Reps Completed",
+    "formula": "Formula",
+    "oneRepMax": "Estimated 1RM",
+    "formulaResults": "Results by Formula"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "epley": "Epley",
+    "brzycki": "Brzycki",
+    "lombardi": "Lombardi",
+    "mayhew": "Mayhew",
+    "oconner": "O'Conner",
+    "average": "Average of All Formulas"
+   },
+   "errors": {
+    "invalid": "Please enter a valid weight and reps between 1-50."
+   },
+   "formulaNote": "These formulas estimate the maximum weight you can lift for one rep. Results vary by individual and are for reference only.",
+   "description": "Calculate your estimated one-rep max from any weight and rep count. Using four validated formulas.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a 1RM Calculator?",
+     "body": [
+      "Calculate your estimated one-rep max from any weight and rep count.",
+      "Uses four validated formulas (Epley, Brzycki, Lombardi, Mayhew) and provides a training percentage chart."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Your 1RM",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose your preferred unit system.",
+      "Enter the weight you lifted.",
+      "Enter the number of reps you completed.",
+      "Click calculate to see your estimated 1RM."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use 3-5 reps for the most accurate 1RM estimate.",
+      "Ensure proper form when testing.",
+      "Use training percentages to set workout weights."
+     ]
+    }
+   }
+  },
+  "annuity-calculator": {
+   "metadata": {
+    "title": "Annuity Calculator",
+    "description": "Calculate the present and future value of an annuity, supporting ordinary and annuity due.",
+    "category": "Finance",
+    "icon": "💰"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no registration tools",
+    "browser tools",
+    "annuity calculator",
+    "annuity payout calculator",
+    "fixed annuity calculator",
+    "variable annuity calculator",
+    "annuity income calculator",
+    "retirement annuity calculator",
+    "tax-deferred annuity calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is an annuity and how does it work?",
+     "answer": "An annuity is a financial contract between you and an insurance company. During the accumulation phase, you invest money that grows tax-deferred. During the payout (annuitization) phase, the insurer pays you a regular income stream. Annuities are commonly used for retirement planning to guarantee income you cannot outlive."
+    },
+    {
+     "question": "What is the difference between a fixed and variable annuity?",
+     "answer": "A fixed annuity offers a guaranteed interest rate and predictable growth, making it lower risk. A variable annuity invests in sub-accounts similar to mutual funds, so returns fluctuate with the market. Variable annuities have higher growth potential but also more risk. This calculator models both so you can compare projected outcomes."
+    },
+    {
+     "question": "How does tax-deferred growth benefit an annuity?",
+     "answer": "In a tax-deferred annuity, you don't pay taxes on investment gains each year. This lets your entire balance compound without tax drag. Over decades, this advantage can be substantial. For example, at a 6% return and 25% tax rate over 20 years, tax deferral can result in tens of thousands of dollars more in your account compared to a taxable investment."
+    },
+    {
+     "question": "How is my annuity payout amount calculated?",
+     "answer": "Payout amounts are calculated using the present value of an annuity formula: PMT = PV x r / (1 - (1 + r)^-n), where PV is your account balance, r is the interest rate per period, and n is the total number of payment periods. This ensures your balance is fully distributed over the chosen payout period while continuing to earn interest."
+    },
+    {
+     "question": "When should I consider buying an annuity?",
+     "answer": "Annuities are worth considering if you've maxed out other tax-advantaged accounts (401k, IRA), want guaranteed retirement income, or are concerned about outliving your savings. They work best as part of a diversified retirement strategy. Deferred annuities are most effective when purchased 10-30 years before retirement to maximize tax-deferred compounding."
+    },
+    {
+     "question": "What fees are typically associated with annuities?",
+     "answer": "Common annuity fees include mortality and expense charges (1-1.5%), administrative fees, fund management fees for variable annuities (0.5-2%), and surrender charges for early withdrawal (typically 5-10% declining over 5-10 years). This calculator shows gross returns before fees. Subtract roughly 1-2.5% from the interest rate to estimate after-fee performance for variable annuities."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    },
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    }
+   ],
+   "labels": {
+    "payment": "Payment per Period",
+    "rate": "Annual Interest Rate (%)",
+    "years": "Number of Years",
+    "frequency": "Compounding Frequency",
+    "type": "Annuity Type",
+    "presentValue": "Present Value",
+    "futureValue": "Future Value",
+    "totalPayments": "Total Payments"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "annually": "Annually",
+    "quarterly": "Quarterly",
+    "monthly": "Monthly",
+    "ordinary": "Ordinary Annuity",
+    "due": "Annuity Due"
+   },
+   "placeholders": {
+    "payment": "Enter payment per period",
+    "rate": "Enter annual interest rate (%)",
+    "years": "Enter number of years"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is an Annuity Calculator?",
+     "paragraphs": [
+      "Calculate annuity growth during accumulation or income payouts during distribution. Compare fixed vs variable annuities and see the tax-deferred growth advantage."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the annuity calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool is for estimation - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  },
+  "blood-alcohol-calculator": {
+   "metadata": {
+    "title": "Blood Alcohol Calculator",
+    "description": "Estimate blood alcohol concentration (BAC) based on drinks, weight, gender, and time.",
+    "category": "Health"
+   },
+   "keywords": [
+    "blood alcohol calculator",
+    "bac calculator",
+    "blood alcohol content",
+    "widmark formula",
+    "bac estimator"
+   ],
+   "faqs": [
+    {
+     "question": "How does the Widmark formula calculate BAC?",
+     "answer": "The Widmark formula estimates BAC as: BAC = (grams of alcohol consumed / (body weight in grams x Widmark r factor)) - (0.015 x hours since first drink). The Widmark r factor accounts for differences in body water distribution between genders (0.68 for men, 0.55 for women). The 0.015 rate represents the average hourly elimination rate of alcohol."
+    },
+    {
+     "question": "What is a standard drink in the U.S.?",
+     "answer": "A U.S. standard drink contains about 14 grams (0.6 fluid ounces) of pure alcohol. This is roughly equivalent to 12 ounces of regular beer (5% ABV), 5 ounces of wine (12% ABV), or 1.5 ounces of distilled spirits (40% ABV / 80 proof). Many cocktails and craft beers contain more than one standard drink."
+    },
+    {
+     "question": "Is this BAC calculator accurate?",
+     "answer": "This calculator provides only a rough estimate. Actual BAC is influenced by many factors not considered here, including food intake, medications, liver health, hydration status, individual metabolism, genetics, and body composition. Two people of the same weight and gender can have very different BACs after drinking the same amount. Never rely on a calculator to judge whether it is safe to drive."
+    },
+    {
+     "question": "What BAC level is considered drunk driving?",
+     "answer": "In the U.S., the legal driving limit for drivers aged 21 and over in all 50 states is 0.08% BAC. Commercial drivers (CDL holders) have a lower limit of 0.04%. Drivers under 21 face zero-tolerance laws, typically 0.00-0.02% depending on the state. Many countries have lower limits, such as 0.05% in Australia and most of Europe."
+    },
+    {
+     "question": "How long does alcohol take to leave the body?",
+     "answer": "On average, the body eliminates alcohol at a rate of about 0.015% BAC per hour, roughly equal to one standard drink per hour. However, this rate varies from person to person. A person with a BAC of 0.08% would need about 5.3 hours to reach 0.00%. There is no way to speed up the process; coffee, cold showers, and exercise will not lower BAC faster."
+    },
+    {
+     "question": "Why does body weight affect BAC?",
+     "answer": "Alcohol distributes through body water. Larger people typically have more body water to dilute the alcohol, resulting in a lower BAC for the same amount of alcohol. This is also why the Widmark factor differs by gender: men generally have a higher body water percentage (68%) than women (55%), meaning the same amount of alcohol at the same weight typically produces a higher BAC in women."
+    },
+    {
+     "question": "Can I use this calculator to know if it is safe to drive?",
+     "answer": "No. This calculator is for educational and informational purposes only. The rough estimate it provides can differ significantly from your actual BAC. Impairment can occur even below legal limits. The only safe amount of alcohol to consume before driving is zero. If you have been drinking, use a designated driver, ride-share service, or taxi."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "BMR Calculator",
+     "href": "/tools/bmr-calculator"
+    },
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "Body Fat Calculator",
+     "href": "/tools/body-fat-calculator"
+    }
+   ],
+   "labels": {
+    "gender": "Gender",
+    "weight": "Weight",
+    "weightUnit": "Weight Unit",
+    "drinks": "Standard Drinks",
+    "hours": "Hours Since First Drink",
+    "bac": "Estimated BAC",
+    "bacStatus": "Status"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "male": "Male",
+    "female": "Female",
+    "kg": "Kilograms",
+    "lbs": "Pounds"
+   },
+   "errors": {
+    "invalid": "Please enter a valid weight, number of drinks, and hours."
+   },
+   "categories": {
+    "safe": "Likely below impairment threshold",
+    "impaired": "Possible partial impairment",
+    "illegal": "At or above common legal driving limits",
+    "dangerous": "BAC dangerously high"
+   },
+   "description": "Estimate blood alcohol content (BAC) using the Widmark formula. Enter your weight, gender, drinking details, and time for an approximate BAC level and impairment description.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Blood Alcohol Calculator?",
+     "body": [
+      "Estimate blood alcohol content (BAC) using the Widmark formula.",
+      "Enter your weight, gender, drinking details, and time for an approximate BAC level and impairment description."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Blood Alcohol Calculator",
+     "intro": "Follow these steps:",
+     "items": [
+      "Select your biological sex.",
+      "Enter your weight.",
+      "Choose the drink type and quantity.",
+      "Enter the drinking duration and time since your last drink.",
+      "Click calculate to see your estimated BAC."
+     ]
+    },
+    "tips": {
+     "title": "Important Warning",
+     "items": [
+      "This calculator is for educational purposes only.",
+      "Never use this calculator to decide if you are fit to drive.",
+      "The only safe BAC for driving is zero.",
+      "Use a designated driver if you have been drinking."
+     ]
+    }
+   }
+  },
+  "calorie-deficit-calculator": {
+   "metadata": {
+    "title": "Calorie Deficit Calculator",
+    "description": "Calculate how many calories to eat per day for weight loss based on your TDEE.",
+    "category": "Health"
+   },
+   "keywords": [
+    "calorie deficit calculator",
+    "weight loss calories",
+    "calorie deficit",
+    "tdee calculator",
+    "fat loss calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is a calorie deficit?",
+     "answer": "A calorie deficit means consuming fewer calories than your body burns (TDEE). A daily deficit of 500 calories can lead to about 1 pound of fat loss per week (3,500 calories = 1 pound)."
+    },
+    {
+     "question": "How large should the deficit be?",
+     "answer": "A 500-calorie daily deficit (1 pound per week) is sustainable for most people. Deficits over 1,000 calories per day may lead to muscle loss, fatigue, and a slowed metabolism. Don't go below 1,200 calories per day without medical supervision."
+    },
+    {
+     "question": "Why am I not losing weight despite a deficit?",
+     "answer": "Common causes: underestimating portion sizes, not tracking cooking oils or drinks, water retention masking fat loss, or metabolic adaptation. Try accurately re-measuring your food intake for 1-2 weeks."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    },
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "Macro Calculator",
+     "href": "/tools/macro-calculator"
+    }
+   ],
+   "labels": {
+    "currentWeight": "Current Weight (kg)",
+    "goalWeight": "Target Weight (kg)",
+    "timeframe": "Timeframe (weeks)",
+    "activityLevel": "Activity Level",
+    "dailyDeficit": "Daily Calorie Deficit",
+    "dailyCalories": "Recommended Daily Calories",
+    "totalDeficit": "Total Deficit Needed"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "sedentary": "Sedentary (little or no exercise)",
+    "light": "Lightly Active (1-3 days/week)",
+    "moderate": "Moderately Active (3-5 days/week)",
+    "active": "Very Active (6-7 days/week)",
+    "veryActive": "Super Active (physical job/training)"
+   },
+   "description": "Calculate how many calories to eat for weight loss. Based on your TDEE, with adjustable deficit levels.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Calorie Deficit Calculator?",
+     "body": [
+      "Calculate how many calories to eat for weight loss.",
+      "Based on your TDEE, adjust the deficit level and get macronutrient recommendations."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Your Calorie Deficit",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter your personal information and activity level.",
+      "Choose your weight loss goal.",
+      "Click calculate to see your daily calorie target.",
+      "Review the macronutrient split recommendations for your deficit."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Start with a moderate deficit (500 calories per day) to stay consistent.",
+      "Track your food intake accurately.",
+      "Adjust calories as your weight decreases."
+     ]
+    }
+   }
+  },
+  "car-lease-calculator": {
+   "metadata": {
+    "title": "Car Lease Calculator",
+    "description": "Calculate monthly lease payments, money factor, and total lease cost.",
+    "category": "Finance",
+    "icon": "🚗"
+   },
+   "keywords": [
+    "car lease",
+    "lease calculator",
+    "monthly lease",
+    "lease cost",
+    "money factor",
+    "residual value",
+    "capitalized cost",
+    "lease payment",
+    "car leasing",
+    "lease vs buy"
+   ],
+   "faqs": [
+    {
+     "question": "What is a money factor in car leasing?",
+     "answer": "The money factor is the lease equivalent of an interest rate, expressed as a decimal (e.g., 0.0025). To convert to APR, multiply by 2,400. A lower money factor means lower financing costs."
+    },
+    {
+     "question": "How is the monthly lease payment calculated?",
+     "answer": "Monthly lease payment = (Depreciation + Rent Charge) × Tax. Depreciation = (Negotiated Price - Residual Value) / Term. Rent Charge = (Negotiated Price + Residual Value) × Money Factor."
+    },
+    {
+     "question": "What is residual value?",
+     "answer": "Residual value is the estimated worth of the vehicle at lease end, set by the leasing company. It's typically 50-60% of MSRP for a 3-year lease. Higher residual means lower monthly payments."
+    },
+    {
+     "question": "Should I lease or buy?",
+     "answer": "Leasing is better if you drive less than 15,000 miles/year, want lower monthly payments, and prefer driving a new car every 2-3 years. Buying is better if you drive a lot, plan to keep the car long-term, or want to build equity."
+    },
+    {
+     "question": "Can I negotiate the lease price?",
+     "answer": "Yes. The negotiated price (cap cost) is negotiable just like a purchase price. Lower negotiated price means lower monthly payments. Research invoice prices and negotiate before discussing lease terms."
+    },
+    {
+     "question": "What fees are included in a lease?",
+     "answer": "Typical lease fees include acquisition fee, disposition fee, excess mileage charges, and wear-and-tear fees. This calculator focuses on monthly payments. Ask the dealer for a complete fee breakdown."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Auto Loan Calculator",
+     "href": "/tools/auto-loan-calculator"
+    },
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "EMI Calculator",
+     "href": "/tools/emi-calculator"
+    },
+    {
+     "name": "Debt-to-Income Calculator",
+     "href": "/tools/debt-to-income-calculator"
+    }
+   ],
+   "labels": {
+    "msrp": "MSRP",
+    "negotiatedPrice": "Negotiated Price",
+    "downPayment": "Down Payment",
+    "residualPercent": "Residual Value (%)",
+    "moneyFactor": "Money Factor",
+    "term": "Term (years)",
+    "taxRate": "Tax Rate (%)",
+    "monthlyPayment": "Monthly Payment",
+    "monthlyPreTax": "Pre-Tax Monthly Payment",
+    "monthlyTax": "Monthly Tax",
+    "depreciation": "Depreciation",
+    "rentCharge": "Rent Charge",
+    "totalCost": "Total Cost"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "msrp": "Enter MSRP",
+    "negotiatedPrice": "Enter negotiated price",
+    "downPayment": "Enter down payment",
+    "residualPercent": "Enter residual value (%)",
+    "moneyFactor": "Enter money factor",
+    "term": "Enter term (years)",
+    "taxRate": "Enter tax rate (%)"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is a Car Lease Calculator?",
+     "paragraphs": [
+      "The Car Lease Calculator helps you estimate monthly lease payments, understand money factors, and compare leasing vs buying. Enter the vehicle's MSRP, negotiated price, down payment, residual value percentage, money factor, lease term, and tax rate to see your total monthly cost breakdown."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the car lease calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool is for estimation - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  },
+  "commission-calculator": {
+   "metadata": {
+    "title": "Commission Calculator",
+    "description": "Free online calculator to compute commission income, tax, and after-tax net pay based on sales amount, commission rate, and fixed fees, for sales and agency scenarios.",
+    "category": "Finance",
+    "icon": "💵"
+   },
+   "keywords": [
+    "commission calculator",
+    "commission calculation",
+    "sales commission",
+    "commission rate",
+    "after-tax commission",
+    "commission income calculator",
+    "commission calculator online"
+   ],
+   "faqs": [
+    {
+     "question": "How is commission calculated?",
+     "answer": "Total commission = Sales amount × Commission rate + Fixed fee. Tax only applies to the commission portion: after-tax commission = Total commission − Commission tax."
+    },
+    {
+     "question": "What is a fixed fee?",
+     "answer": "A fixed fee is an extra flat amount charged per transaction, such as a platform service fee or a settlement fee. Enter 0 if there is no fixed fee."
+    },
+    {
+     "question": "What is a typical commission rate?",
+     "answer": "It varies greatly by industry: real estate sales are usually 2-6%, e-commerce platforms around 5-15%, and insurance and financial product sales can reach 20% or more."
+    },
+    {
+     "question": "Does the result include tax?",
+     "answer": "You can set a commission tax rate in the inputs. The calculator shows the pre-tax commission, the tax amount, and the after-tax net pay separately."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Profit Margin Calculator",
+     "href": "/tools/profit-margin-calculator"
+    },
+    {
+     "name": "Discount Calculator",
+     "href": "/tools/discount-calculator"
+    },
+    {
+     "name": "Sales Tax Calculator",
+     "href": "/tools/sales-tax-calculator"
+    }
+   ],
+   "labels": {
+    "saleAmount": "Sale Amount",
+    "rate": "Commission Rate (%)",
+    "fixedFee": "Fixed Fee",
+    "taxRate": "Commission Tax Rate (%)",
+    "commission": "Total Commission",
+    "netCommission": "After-Tax Commission",
+    "commissionTax": "Commission Tax",
+    "sellerNet": "Seller Net Income"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "placeholders": {
+    "saleAmount": "Enter sale amount",
+    "rate": "Enter commission rate",
+    "fixedFee": "Enter fixed fee",
+    "taxRate": "Enter commission tax rate"
+   },
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Commission Calculator?",
+     "body": [
+      "The commission calculator quickly computes total commission and the actual after-tax amount you receive based on sales amount, commission rate, fixed fee, and tax rate, ideal for sales commissions and agency settlements."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the commission calculator is simple:",
+     "items": [
+      "Enter the sales amount, commission rate, and fixed fee",
+      "Set the commission tax rate as needed",
+      "View the total commission and after-tax net pay instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Enter the commission rate as a percentage, e.g., 5 means 5%",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Keep the sales amount and commission in the same currency"
+     ]
+    }
+   }
+  },
+  "depreciation-calculator": {
+   "metadata": {
+    "title": "Depreciation Calculator",
+    "description": "Free online calculator to compute annual asset depreciation and year-by-year book value using straight-line and double declining balance methods, with a complete depreciation table.",
+    "category": "Finance",
+    "icon": "📉"
+   },
+   "keywords": [
+    "depreciation calculator",
+    "asset depreciation",
+    "straight-line depreciation",
+    "double declining balance",
+    "book value",
+    "depreciation calculator online",
+    "fixed asset depreciation"
+   ],
+   "faqs": [
+    {
+     "question": "What is the difference between straight-line and double declining balance?",
+     "answer": "Straight-line depreciation is the same every year and simple to calculate. Double declining balance is an accelerated method: higher depreciation in early years and less later, matching how equipment loses value quickly."
+    },
+    {
+     "question": "What is salvage value?",
+     "answer": "Salvage value is the estimated remaining value of an asset at the end of its useful life. It must be lower than the asset cost. Total depreciation = Cost − Salvage value."
+    },
+    {
+     "question": "Which method is better for taxes?",
+     "answer": "Tax rules vary by region. Straight-line is widely accepted and simple. Accelerated methods (like double declining balance) are used for certain asset classes in some countries - consult a tax professional."
+    },
+    {
+     "question": "What does the results table include?",
+     "answer": "The table shows the annual depreciation and ending book value for both methods year by year, making it easy to compare and prepare depreciation details."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "ROI Calculator",
+     "href": "/tools/roi-calculator"
+    },
+    {
+     "name": "Profit Margin Calculator",
+     "href": "/tools/profit-margin-calculator"
+    },
+    {
+     "name": "Commission Calculator",
+     "href": "/tools/commission-calculator"
+    }
+   ],
+   "labels": {
+    "cost": "Asset Cost",
+    "salvage": "Salvage Value",
+    "years": "Useful Life (years)",
+    "straightLine": "Straight-Line Annual Depreciation",
+    "ddbFirstYear": "DDB First-Year Depreciation"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "placeholders": {
+    "cost": "Enter asset cost",
+    "salvage": "Enter salvage value",
+    "years": "Enter useful life"
+   },
+   "errors": {
+    "invalidInputs": "Please enter valid values (salvage must be less than cost, years must be a whole number)"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Depreciation Calculator?",
+     "body": [
+      "The depreciation calculator computes annual asset depreciation using both the straight-line and double declining balance methods and shows the book value year by year, helping with cost allocation and asset planning."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the depreciation calculator is simple:",
+     "items": [
+      "Enter the asset cost and estimated salvage value",
+      "Enter the useful life in whole years",
+      "View the annual depreciation for both methods and the depreciation table"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Salvage value must be less than the asset cost",
+      "The double declining balance method automatically converges to salvage value at the end",
+      "This tool is for estimation - consult a professional for tax questions"
+     ]
+    }
+   },
+   "table": {
+    "year": "Year",
+    "slDep": "Straight-Line Depreciation",
+    "slValue": "Straight-Line Book Value",
+    "ddbDep": "DDB Depreciation",
+    "ddbValue": "DDB Book Value"
+   }
+  },
+  "lease-calculator": {
+   "metadata": {
+    "title": "Lease Calculator",
+    "description": "Free online calculator to compute monthly payments, depreciation, interest costs, and total cost for equipment or vehicle leases.",
+    "category": "Finance",
+    "icon": "🔑"
+   },
+   "keywords": [
+    "lease calculator",
+    "monthly lease payment",
+    "equipment lease",
+    "lease cost",
+    "residual value",
+    "lease calculator online",
+    "lease payment"
+   ],
+   "faqs": [
+    {
+     "question": "What makes up the monthly lease payment?",
+     "answer": "Monthly payment = (Depreciation + Rent Charge) × (1 + Tax Rate). Depreciation = (Price − Residual Value) ÷ Term, and Rent Charge = (Price + Residual Value) × Money Factor."
+    },
+    {
+     "question": "What is the residual value percentage?",
+     "answer": "Residual value is the estimated remaining value of the asset at the end of the lease, usually entered as a percentage of the price. The higher the residual value, the lower the monthly payment."
+    },
+    {
+     "question": "How do I convert an annual interest rate to a money factor?",
+     "answer": "Money factor = Annual rate (%) ÷ 2400. For example, a 4.5% annual rate equals a money factor of 0.001875."
+    },
+    {
+     "question": "What scenarios is this calculator for?",
+     "answer": "It suits various financing leases such as vehicles, construction machinery, and office equipment, for estimating monthly payments and comparing lease options."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Car Lease Calculator",
+     "href": "/tools/car-lease-calculator"
+    },
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Auto Loan Calculator",
+     "href": "/tools/auto-loan-calculator"
+    }
+   ],
+   "labels": {
+    "price": "Asset Price",
+    "downPayment": "Down Payment",
+    "residualPercent": "Residual Value (%)",
+    "annualRate": "Annual Rate (%)",
+    "term": "Term (months)",
+    "taxRate": "Tax Rate (%)",
+    "monthlyPayment": "Monthly Payment",
+    "totalCost": "Total Lease Cost",
+    "depreciation": "Depreciation",
+    "rentCharge": "Rent Charge",
+    "monthlyPreTax": "Pre-Tax Monthly Payment",
+    "residualValue": "Residual Value"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "placeholders": {
+    "price": "Enter asset price",
+    "downPayment": "Enter down payment",
+    "residualPercent": "Enter residual value (%)",
+    "annualRate": "Enter annual rate",
+    "term": "Enter term",
+    "taxRate": "Enter tax rate"
+   },
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Lease Calculator?",
+     "body": [
+      "The lease calculator estimates monthly lease payments and total cost based on asset price, down payment, residual value, annual rate, term, and tax rate, helping you compare different lease options."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the lease calculator is simple:",
+     "items": [
+      "Enter the asset price, down payment, and residual value percentage",
+      "Enter the annual rate, term, and tax rate",
+      "View the monthly payment and total lease cost instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "A higher down payment lowers the monthly payment",
+      "Residual value percentages are typically 50-65%",
+      "This tool is for estimation - verify the full fee breakdown before signing"
+     ]
+    }
+   }
+  },
+  "overtime-calculator": {
+   "metadata": {
+    "title": "Overtime Calculator",
+    "description": "Free online calculator to compute regular pay, overtime pay, and weekly pay from hourly rate, regular hours, and overtime hours, with 1.5x and 2x rates.",
+    "category": "Finance",
+    "icon": "⏰"
+   },
+   "keywords": [
+    "overtime calculator",
+    "overtime pay",
+    "overtime rate",
+    "hourly wage calculator",
+    "overtime calculator online",
+    "overtime pay rate"
+   ],
+   "faqs": [
+    {
+     "question": "How is overtime pay calculated?",
+     "answer": "Overtime pay = Hourly rate × Overtime multiplier × Overtime hours. Common multipliers are 1.5x (outside legal holidays) and 2x (on holidays)."
+    },
+    {
+     "question": "What is the difference between 1.5x and 2x rates?",
+     "answer": "Many regions require 1.5x pay for hours beyond the standard daily hours and 2x pay on public holidays. Exact standards vary by region."
+    },
+    {
+     "question": "How do I estimate annual income?",
+     "answer": "Multiply the weekly pay by 52 for an annual estimate. This tool directly shows your weekly regular pay, weekly overtime pay, and weekly pay."
+    },
+    {
+     "question": "Who is this calculator for?",
+     "answer": "It suits hourly workers, part-timers, and hourly-paid full-time employees, for checking pay stubs or estimating overtime income."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    },
+    {
+     "name": "Hourly to Salary Calculator",
+     "href": "/tools/hourly-to-salary-calculator"
+    },
+    {
+     "name": "Paycheck Calculator",
+     "href": "/tools/paycheck-calculator"
+    }
+   ],
+   "labels": {
+    "hourlyRate": "Hourly Rate",
+    "regularHours": "Regular Hours/Week",
+    "overtimeHours": "Overtime Hours/Week",
+    "multiplier": "Overtime Multiplier",
+    "regularPay": "Regular Pay",
+    "overtimePay": "Overtime Pay",
+    "weeklyPay": "Weekly Pay"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "placeholders": {
+    "hourlyRate": "Enter hourly rate",
+    "regularHours": "Enter regular hours",
+    "overtimeHours": "Enter overtime hours"
+   },
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is an Overtime Calculator?",
+     "body": [
+      "The overtime calculator quickly computes regular pay, overtime pay, and weekly pay from your hourly rate, regular hours, overtime hours, and overtime multiplier, making it easy to verify pay stubs."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the overtime calculator is simple:",
+     "items": [
+      "Enter your hourly rate and weekly regular hours",
+      "Enter weekly overtime hours and choose the multiplier",
+      "View regular pay, overtime pay, and weekly pay instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Choose a 1.5x or 2x multiplier",
+      "Overtime standards vary by region - follow local regulations",
+      "This tool is for estimation - actual settlement is based on your pay stub"
+     ]
+    }
+   }
+  },
+  "present-value-calculator": {
+   "metadata": {
+    "title": "Present Value Calculator",
+    "description": "Free online calculator to compute present value, discount factor, and interest amount from future value, annual rate, years, and compounding frequency.",
+    "category": "Finance",
+    "icon": "⏳"
+   },
+   "keywords": [
+    "present value calculator",
+    "discount rate",
+    "discount factor",
+    "future value",
+    "present value calculator online",
+    "time value of money",
+    "PV calculation"
+   ],
+   "faqs": [
+    {
+     "question": "What is present value?",
+     "answer": "Present value is what a future amount is worth today at a given discount rate: PV = FV ÷ (1 + r/m)^(m×t)."
+    },
+    {
+     "question": "What is a discount factor?",
+     "answer": "Discount factor = 1 ÷ (1 + r/m)^(m×t), representing how much 1 dollar in the future is worth today. The larger the factor, the lower the discount rate or the shorter the term."
+    },
+    {
+     "question": "How does compounding frequency affect the result?",
+     "answer": "The more frequent the compounding (e.g., monthly vs yearly), the stronger the discounting effect at the same nominal rate, so the lower the present value."
+    },
+    {
+     "question": "What is present value used for?",
+     "answer": "It is used for investment valuation, bond pricing, discounting project cash flows (DCF), and comparing the value of money at different points in time."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Future Value Calculator",
+     "href": "/tools/future-value-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Interest Calculator",
+     "href": "/tools/interest-calculator"
+    }
+   ],
+   "labels": {
+    "futureValue": "Future Value",
+    "rate": "Annual Rate (%)",
+    "years": "Years",
+    "compounding": "Compounding Frequency",
+    "presentValue": "Present Value",
+    "discountFactor": "Discount Factor",
+    "totalInterest": "Discount Difference"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "placeholders": {
+    "futureValue": "Enter future value",
+    "rate": "Enter annual rate",
+    "years": "Enter years"
+   },
+   "freqs": {
+    "annual": "Annually",
+    "semi": "Semi-annually",
+    "quarterly": "Quarterly",
+    "monthly": "Monthly"
+   },
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Present Value Calculator?",
+     "body": [
+      "The present value calculator discounts a future amount to today's value using an annual rate and compounding frequency, and gives the discount factor, helping you understand the time value of money."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the present value calculator is simple:",
+     "items": [
+      "Enter the future value, annual rate, and years",
+      "Choose the compounding frequency",
+      "View the present value and discount factor instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Enter the annual rate as a percentage, e.g., 5 means 5%",
+      "The more frequent the compounding, the lower the present value",
+      "This tool is for estimation - consult a professional for investment decisions"
+     ]
+    }
+   }
+  },
+  "rent-vs-buy-calculator": {
+   "metadata": {
+    "title": "Rent vs Buy Calculator",
+    "description": "Free online calculator to compare the long-term cost and net worth of renting vs buying a home, with break-even year, cumulative costs, and year-by-year net worth difference.",
+    "category": "Finance",
+    "icon": "🏠"
+   },
+   "keywords": [
+    "rent vs buy",
+    "rent or buy",
+    "renting vs buying",
+    "break-even",
+    "rent vs buy calculator",
+    "is buying worth it",
+    "home buying decision"
+   ],
+   "faqs": [
+    {
+     "question": "How does this calculator compare renting and buying?",
+     "answer": "It simulates both paths year by year: the renter invests the money saved at a set return rate, while the buyer builds home equity (appreciation minus the remaining loan). The year when both net worths are equal is the break-even point."
+    },
+    {
+     "question": "What is the break-even year?",
+     "answer": "The break-even year is the first year the buyer's net worth exceeds the renter's. Before that, renting plus investing is better; after that, buying is better. It is typically 5-10 years."
+    },
+    {
+     "question": "Why count investment returns for the renter?",
+     "answer": "It reflects opportunity cost: the down payment and monthly payment difference could have been invested. Including it makes the comparison of real wealth accumulation fair for both sides."
+    },
+    {
+     "question": "Which assumptions affect the result most?",
+     "answer": "Home appreciation, property tax rate, and annual rent growth have the biggest impact and vary greatly by city. Adjust them to local market data."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Mortgage Affordability Calculator",
+     "href": "/tools/mortgage-affordability-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    }
+   ],
+   "labels": {
+    "monthlyRent": "Monthly Rent",
+    "renterInsurance": "Renter Insurance ($/mo)",
+    "rentIncrease": "Annual Rent Increase (%)",
+    "homePrice": "Home Price",
+    "downPercent": "Down Payment (%)",
+    "mortgageRate": "Mortgage Rate (%)",
+    "termYears": "Loan Term (years)",
+    "propTaxRate": "Property Tax Rate (%/yr)",
+    "homeInsurance": "Home Insurance ($/yr)",
+    "hoa": "HOA Fees ($/mo)",
+    "maintenancePct": "Maintenance (% of home price/yr)",
+    "closingPct": "Closing Costs (% of home price)",
+    "analysisYears": "Analysis Period (years)",
+    "investReturn": "Investment Return (%/yr)",
+    "appreciation": "Home Appreciation (%/yr)"
+   },
+   "placeholders": {
+    "monthlyRent": "1800",
+    "renterInsurance": "30",
+    "rentIncrease": "3",
+    "homePrice": "400000",
+    "downPercent": "20",
+    "mortgageRate": "6.5",
+    "termYears": "30",
+    "propTaxRate": "1.2",
+    "homeInsurance": "1200",
+    "hoa": "200",
+    "maintenancePct": "1",
+    "closingPct": "3",
+    "analysisYears": "30",
+    "investReturn": "7",
+    "appreciation": "4"
+   },
+   "groups": {
+    "rent": "Renting Inputs",
+    "buy": "Buying Inputs",
+    "assumptions": "Assumptions"
+   },
+   "results": {
+    "monthlyRent": "Current Monthly Rent",
+    "monthlyBuy": "Current Monthly Cost of Buying",
+    "breakEven": "Break-Even Year",
+    "breakEvenValue": "Year {year}",
+    "noBreakEven": "Not reached within the analysis period",
+    "verdict": "Verdict",
+    "buyWins": "Buying is better",
+    "rentWins": "Renting is better",
+    "renterNW": "Renter's Net Worth",
+    "buyerNW": "Buyer's Net Worth"
+   },
+   "table": {
+    "year": "Year",
+    "rent": "Annual Rent Cost",
+    "buy": "Annual Buying Cost",
+    "renterNW": "Renter's Net Worth",
+    "buyerNW": "Buyer's Net Worth"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Rent vs Buy Calculator?",
+     "body": [
+      "The rent vs buy calculator simulates the cost and net worth of renting vs buying year by year, giving monthly cost comparison, break-even year, and year-by-year net worth difference to support your home buying decision."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the rent vs buy calculator is simple:",
+     "items": [
+      "Enter monthly rent, insurance, and rent increase",
+      "Enter home price, down payment, rate, taxes, and maintenance costs",
+      "Set the analysis period, investment return, and appreciation, then view the comparison results"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Home appreciation and property tax rate affect the result most - use local market values",
+      "Use the long-term stock market average return (about 7%) as the investment return",
+      "This tool is for estimation - consult a professional for major home buying decisions"
+     ]
+    }
+   }
+  },
+  "dog-age-calculator": {
+   "metadata": {
+    "title": "Dog Age Calculator",
+    "description": "Free online calculator to convert dog age to human age based on scientific formulas, supporting small, medium, and large breed sizes with a complete comparison chart.",
+    "category": "Utility",
+    "icon": "🐕"
+   },
+   "keywords": [
+    "dog age calculator",
+    "dog years to human years",
+    "dog years to human years converter",
+    "dog age",
+    "dog age calculator online",
+    "dog age chart",
+    "pet age"
+   ],
+   "faqs": [
+    {
+     "question": "How is dog age converted to human age?",
+     "answer": "This tool uses a scientific formula: the first two years equal about 24 human years, then each year adds roughly 16×ln(dog age)+31, with adjustments for breed size."
+    },
+    {
+     "question": "Why does breed size affect the conversion?",
+     "answer": "Small breeds mature faster but age more slowly overall; large breeds are the opposite. So at the same dog age, large breeds have a higher human age."
+    },
+    {
+     "question": "Is the \"dog age × 7\" rule accurate?",
+     "answer": "No. The \"×7\" rule is just a rough rule of thumb that ignores early development speed and size differences. The logarithmic formula is much closer to real biology."
+    },
+    {
+     "question": "How do I use the comparison chart?",
+     "answer": "The chart lists the human ages corresponding to dogs of different sizes from 1 to 20 years old, so you can quickly look up the reference human age for any dog age."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Age Calculator",
+     "href": "/tools/age-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    }
+   ],
+   "labels": {
+    "dogAge": "Dog Age",
+    "size": "Size"
+   },
+   "sizes": {
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large"
+   },
+   "results": {
+    "humanAge": "Equivalent Human Age",
+    "note": "A {dog}-year-old dog is about {human} human years old"
+   },
+   "table": {
+    "dogAge": "Dog Age",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "placeholders": {
+    "dogAge": "Enter dog age"
+   },
+   "errors": {
+    "invalidInputs": "Please enter a valid dog age between 0.1 and 30"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Dog Age Calculator?",
+     "body": [
+      "The dog age calculator converts dog age to human age using a biology-based formula, supports small, medium, and large breed size differences, and includes a complete 1-20 year comparison chart."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the dog age calculator is simple:",
+     "items": [
+      "Enter your dog's age",
+      "Choose your dog's size",
+      "View the corresponding human age and comparison chart instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Puppies grow much faster than the \"×7\" rule suggests",
+      "Size choice affects results more noticeably for large breeds",
+      "This result is for fun and reference only - consult a vet for health concerns"
+     ]
+    }
+   }
+  },
+  "cd-calculator": {
+   "metadata": {
+    "title": "CD Calculator",
+    "description": "Calculate CD interest and maturity value with compounding frequency and taxes.",
+    "category": "Finance",
+    "icon": "💰"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no registration tools",
+    "browser tools",
+    "cd calculator",
+    "certificate of deposit calculator",
+    "cd interest calculator",
+    "cd rate calculator",
+    "cd ladder calculator",
+    "cd early withdrawal penalty calculator",
+    "best cd rates calculator",
+    "cd maturity calculator",
+    "cd earnings calculator",
+    "cd comparison tool"
+   ],
+   "faqs": [
+    {
+     "question": "What is a Certificate of Deposit (CD) and how does it work?",
+     "answer": "A Certificate of Deposit is a savings product offered by banks and credit unions where you deposit money for a fixed period (the term) at a guaranteed interest rate. In exchange for locking up your money, you typically earn a higher interest rate than a regular savings account. When the CD matures (reaches the end of its term), you receive your original deposit plus all accrued interest. Terms range from as short as 1 month to as long as 10 years."
+    },
+    {
+     "question": "What is the difference between APY and APR for CDs?",
+     "answer": "APY (Annual Percentage Yield) reflects the total amount of interest you earn in a year including the effect of compounding. APR (Annual Percentage Rate) is the simple interest rate without compounding factored in. Because CDs compound interest, the APY is always slightly higher than the APR. Banks are required to advertise APY, making it easier to compare offers. For example, a 5.00% APR compounded daily yields an APY of approximately 5.13%."
+    },
+    {
+     "question": "What is a CD ladder strategy and why should I use one?",
+     "answer": "A CD ladder involves splitting your total investment across multiple CDs with staggered maturity dates (e.g., 1-year, 2-year, 3-year, 4-year, and 5-year CDs). As each shorter-term CD matures, you can reinvest it at the longest term to capture higher rates, or access the cash if needed. This strategy balances liquidity with higher long-term rates, reducing the risk of locking all your money away at a single rate while still earning more than a savings account."
+    },
+    {
+     "question": "What are typical early withdrawal penalties for CDs?",
+     "answer": "Early withdrawal penalties vary by bank and CD term. Common penalties include 3 months of interest for CDs with terms under 1 year, 6 months of interest for 1-year CDs, and 12 months or more of interest for longer-term CDs. Some banks charge a flat fee instead. In extreme cases, the penalty can eat into your principal if you withdraw very early. Always check your bank's specific penalty terms before opening a CD."
+    },
+    {
+     "question": "How does compounding frequency affect my CD earnings?",
+     "answer": "Compounding frequency determines how often earned interest is added to your balance to earn additional interest. Daily compounding yields the most because interest is calculated and added every day. Monthly, quarterly, and annual compounding produce progressively less total interest. However, the differences are relatively small. For example, on a $10,000 CD at 5% APY for 1 year, the difference between daily and annual compounding is typically only a few dollars."
+    },
+    {
+     "question": "Are CDs safe? Is my money insured?",
+     "answer": "CDs from FDIC-insured banks are insured up to $250,000 per depositor, per bank, per ownership category. Credit union CDs (called share certificates) are similarly insured by the NCUA. This makes CDs one of the safest investment options available. The trade-off is that CD rates are generally lower than potential stock market returns, but your principal is guaranteed and the interest rate is locked in for the term."
+    },
+    {
+     "question": "When is the best time to open a CD?",
+     "answer": "The best time to open a CD is when interest rates are high relative to historical norms, or when you expect rates to decline. Locking in a high rate before the Federal Reserve cuts rates means you benefit from that rate for the entire CD term. If rates are expected to rise, shorter-term CDs or a CD ladder strategy lets you reinvest at higher rates as they become available."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "APR Calculator",
+     "href": "/tools/apr-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    }
+   ],
+   "labels": {
+    "deposit": "Deposit Amount",
+    "rate": "Annual Interest Rate (%)",
+    "term": "Term (years)",
+    "frequency": "Compounding Frequency",
+    "taxRate": "Tax Rate (%)",
+    "maturityValue": "Maturity Value",
+    "interestEarned": "Interest Earned",
+    "tax": "Tax",
+    "afterTaxValue": "After-Tax Value"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "annually": "Annually",
+    "quarterly": "Quarterly",
+    "monthly": "Monthly",
+    "daily": "Daily"
+   },
+   "placeholders": {
+    "deposit": "Enter deposit amount",
+    "rate": "Enter annual interest rate (%)",
+    "term": "Enter term (years)",
+    "taxRate": "Enter tax rate (%)"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is a CD Calculator?",
+     "paragraphs": [
+      "Calculate Certificate of Deposit earnings, compare CD rates from multiple banks, plan a CD ladder strategy, and estimate early withdrawal penalties. Free and instant."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the CD calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool is for estimation - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  },
+  "compress-pdf": {
+   "metadata": {
+    "title": "Compress PDF - Free Online Tool",
+    "description": "Compress PDF file size online for free. Reduce PDFs in your browser by lowering image quality — no upload, no registration.",
+    "category": "Utility"
+   },
+   "title": "Compress PDF",
+   "description": "Compress PDF file size online for free. Reduce PDFs in your browser by lowering image quality — no upload, no registration.",
+   "category": "Utility",
+   "keywords": [
+    "compress pdf",
+    "pdf compressor",
+    "reduce pdf size",
+    "pdf compression tool",
+    "compress pdf online"
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload your PDF file.",
+     "Adjust the JPEG quality and output DPI.",
+     "Click \"Compress PDF\" and download the smaller file."
+    ]
+   },
+   "faqs": [
+    {
+     "question": "How does this tool compress PDFs?",
+     "answer": "The tool renders each PDF page as a JPEG image at your chosen quality and DPI, then regenerates the PDF. This can significantly reduce file size but may lower text and image sharpness."
+    },
+    {
+     "question": "Does compression affect text quality?",
+     "answer": "Yes. Because pages are rasterized into images, text becomes part of the image and is no longer selectable. Use higher quality settings if you need better text clarity."
+    },
+    {
+     "question": "Are PDFs uploaded to a server?",
+     "answer": "No. Compression happens entirely in your browser using pdf-lib and PDF.js, so your files always stay on your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Merge PDF",
+     "href": "/tools/merge-pdf"
+    },
+    {
+     "name": "Split PDF",
+     "href": "/tools/split-pdf"
+    }
+   ],
+   "dropzone": {
+    "title": "Drop PDF here or click to upload",
+    "subtitle": "Only PDF files supported"
+   },
+   "file": {
+    "size": "{size} KB"
+   },
+   "labels": {
+    "quality": "JPEG Quality",
+    "dpi": "Output DPI"
+   },
+   "buttons": {
+    "compress": "Compress PDF",
+    "download": "Download Compressed PDF",
+    "newFile": "Upload New File",
+    "change": "Change"
+   },
+   "notice": {
+    "quality": "Compression rasterizes pages into JPEG images. Text will no longer be selectable, and quality depends on the settings below."
+   },
+   "status": {
+    "loadingEngine": "Loading PDF engine...",
+    "rendering": "Rendering page {current} / {total}...",
+    "saving": "Saving compressed PDF..."
+   },
+   "processing": {
+    "title": "Compressing PDF",
+    "progress": "Progress"
+   },
+   "done": {
+    "title": "Compression Complete",
+    "original": "Original",
+    "compressed": "Compressed"
+   },
+   "errors": {
+    "generic": "Compression failed: {message}"
+   }
+  },
+  "emi-calculator": {
+   "metadata": {
+    "title": "EMI Calculator",
+    "description": "Calculate equated monthly installments, total interest, and generate an amortization schedule.",
+    "category": "Finance",
+    "icon": "💳"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no registration tools",
+    "browser tools",
+    "EMI calculator",
+    "equated monthly installment calculator",
+    "home loan EMI calculator",
+    "car loan EMI calculator",
+    "loan EMI calculator online",
+    "EMI calculator with prepayment",
+    "loan comparison calculator",
+    "amortization schedule calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is EMI and how is it calculated?",
+     "answer": "EMI stands for Equated Monthly Installment. It is the fixed amount you pay every month to repay your loan. The formula is EMI = P x r x (1+r)^n / [(1+r)^n - 1], where P is the principal loan amount, r is the monthly interest rate (annual rate divided by 12), and n is the total number of monthly installments. This calculator computes EMI instantly for any loan amount, interest rate, and tenure."
+    },
+    {
+     "question": "How does prepayment affect my loan?",
+     "answer": "Prepayment — whether as extra monthly payments or a one-time lump sum — goes directly toward reducing your outstanding principal. This lowers the interest charged in subsequent months, which can significantly reduce total interest paid and shorten your loan tenure. Even small additional monthly payments can save thousands over the life of a loan."
+    },
+    {
+     "question": "What is an amortization schedule?",
+     "answer": "An amortization schedule is a table showing every payment over the life of a loan, broken down into principal and interest components. Early payments are mostly interest, while later payments are mostly principal. This calculator provides both a month-by-month and year-by-year amortization schedule so you can see exactly how your loan balance decreases over time."
+    },
+    {
+     "question": "Can I compare multiple loan offers with this calculator?",
+     "answer": "Yes. The Loan Comparison tab lets you enter up to three different loan offers with varying amounts, interest rates, and tenures. The calculator shows EMI, total interest, and total payment for each offer side by side, making it easy to pick the most cost-effective option."
+    },
+    {
+     "question": "Does a longer tenure mean I pay more interest?",
+     "answer": "Yes. A longer loan tenure lowers your monthly EMI, making it more affordable month-to-month, but you pay significantly more in total interest. For example, a $500,000 loan at 8.5% costs about $230,000 in interest over 15 years but over $420,000 over 30 years. Always weigh monthly affordability against total cost when choosing a tenure."
+    },
+    {
+     "question": "Is this EMI calculator accurate for all loan types?",
+     "answer": "This calculator is accurate for any fixed-rate loan with equal monthly installments, including home loans, car loans, personal loans, and education loans. It does not account for variable interest rates, processing fees, or insurance premiums, which may affect your actual repayment amount."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Auto Loan Calculator",
+     "href": "/tools/auto-loan-calculator"
+    }
+   ],
+   "labels": {
+    "principal": "Principal",
+    "rate": "Annual Interest Rate (%)",
+    "years": "Number of Years",
+    "prepayment": "Monthly Prepayment",
+    "emi": "Monthly EMI",
+    "totalPayment": "Total Payment",
+    "totalInterest": "Total Interest",
+    "actualMonths": "Actual Months",
+    "baseEmi": "Base EMI",
+    "schedule": "Amortization Schedule",
+    "month": "Month",
+    "interestPaid": "Interest Paid",
+    "principalPaid": "Principal Paid",
+    "remainingBalance": "Remaining Balance"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "principal": "Enter principal",
+    "rate": "Enter annual interest rate (%)",
+    "years": "Enter number of years",
+    "prepayment": "Enter monthly prepayment"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is an EMI Calculator?",
+     "paragraphs": [
+      "Calculate your Equated Monthly Installment (EMI) for home loans, car loans, or personal loans. View amortization schedules, compare loan offers, and see how prepayments reduce your interest burden."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the EMI calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool is for estimation - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  },
+  "future-value-calculator": {
+   "metadata": {
+    "title": "Future Value Calculator",
+    "description": "Calculate the future value of investments with regular contributions and compounding frequency.",
+    "category": "Finance",
+    "icon": "📈"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no registration tools",
+    "browser tools",
+    "future value calculator",
+    "FV calculator",
+    "annuity calculator",
+    "investment growth calculator",
+    "time value of money calculator",
+    "future value of annuity",
+    "lump sum investment calculator",
+    "compound growth calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is future value and why does it matter?",
+     "answer": "Future value (FV) is the projected worth of an investment at a specific point in the future, based on a given rate of return. It matters because it helps you understand how much your savings or investments will grow over time, enabling better financial planning for goals like retirement, education, or major purchases."
+    },
+    {
+     "question": "What is the difference between an ordinary annuity and an annuity due?",
+     "answer": "An ordinary annuity makes payments at the end of each period (e.g., most bond coupon payments), while an annuity due makes payments at the beginning of each period (e.g., rent or insurance premiums). An annuity due grows slightly more because each payment has one extra period to earn interest."
+    },
+    {
+     "question": "How does compounding frequency affect future value?",
+     "answer": "More frequent compounding (monthly vs. annually) produces a higher future value because interest begins earning interest sooner. For example, $10,000 at 6% compounded monthly yields more than 6% compounded annually over the same period. The difference becomes more pronounced at higher rates and longer time horizons."
+    },
+    {
+     "question": "What is the future value formula for a lump sum?",
+     "answer": "The future value of a lump sum is calculated as FV = PV x (1 + r/n)^(n*t), where PV is the present value, r is the annual interest rate, n is the number of compounding periods per year, and t is the number of years. This formula accounts for compound interest on the initial investment."
+    },
+    {
+     "question": "Why should I adjust future value for inflation?",
+     "answer": "Inflation erodes purchasing power over time. A dollar today buys more than a dollar 20 years from now. Adjusting for inflation (using the real rate of return) shows your investment's future value in today's purchasing power, giving you a more realistic picture of what your money will actually be worth."
+    },
+    {
+     "question": "What is a growth multiplier?",
+     "answer": "The growth multiplier shows how many times your total contributions have multiplied through compound interest. For example, a growth multiplier of 1.5x means your investment grew to 1.5 times what you put in. A multiplier above 2x means you earned more in interest than you contributed."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    }
+   ],
+   "labels": {
+    "presentValue": "Present Value",
+    "payment": "Payment per Period",
+    "rate": "Annual Interest Rate (%)",
+    "years": "Number of Years",
+    "frequency": "Compounding Frequency",
+    "timing": "Payment Timing",
+    "futureValue": "Future Value",
+    "totalContributions": "Total Contributions",
+    "totalInterest": "Total Interest"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "annually": "Annually",
+    "quarterly": "Quarterly",
+    "monthly": "Monthly",
+    "end": "End of Period",
+    "begin": "Beginning of Period"
+   },
+   "placeholders": {
+    "presentValue": "Enter present value",
+    "payment": "Enter payment per period",
+    "rate": "Enter annual interest rate (%)",
+    "years": "Enter number of years"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is a Future Value Calculator?",
+     "paragraphs": [
+      "Calculate the future value of investments with lump sums, regular contributions, or both. Compare ordinary annuities vs annuity due, adjust for inflation, and visualize year-by-year growth."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the future value calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool is for estimation - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  },
+  "heart-rate-zone-calculator": {
+   "metadata": {
+    "title": "Heart Rate Zone Calculator",
+    "description": "Calculate your maximum heart rate and training zones based on age and resting heart rate.",
+    "category": "Health"
+   },
+   "keywords": [
+    "heart rate zone calculator",
+    "training zones",
+    "karvonen method",
+    "max heart rate",
+    "heart rate calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What are heart rate zones?",
+     "answer": "Heart rate zones divide effort into 5 levels based on a percentage of your maximum heart rate. Each zone trains a different energy system — from easy recovery (Zone 1) to maximal effort sprints (Zone 5)."
+    },
+    {
+     "question": "What is the Karvonen method?",
+     "answer": "Karvonen uses your heart rate reserve (max heart rate - resting heart rate) for more personalized zones. It accounts for your fitness level through your resting heart rate and is more accurate than simple percentages of max heart rate."
+    },
+    {
+     "question": "How do I find my resting heart rate?",
+     "answer": "Measure your pulse before getting out of bed in the morning for 3 consecutive days. Count beats for 60 seconds. Take the average. Typical resting heart rate: 60-80 bpm (athletes: 40-60)."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "Pace Calculator",
+     "href": "/tools/pace-calculator"
+    },
+    {
+     "name": "BMR Calculator",
+     "href": "/tools/bmr-calculator"
+    }
+   ],
+   "labels": {
+    "age": "Age",
+    "restingHeartRate": "Resting Heart Rate (bpm)",
+    "maxHeartRate": "Max Heart Rate",
+    "zone": "Zone",
+    "range": "Range",
+    "bpm": "bpm"
+   },
+   "options": {
+    "zone1": "Zone 1 (Recovery)",
+    "zone2": "Zone 2 (Aerobic)",
+    "zone3": "Zone 3 (Tempo)",
+    "zone4": "Zone 4 (Threshold)",
+    "zone5": "Zone 5 (Anaerobic)"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "description": "Calculate your five heart rate training zones. Using the Karvonen or max heart rate percentage method.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Heart Rate Zone Calculator?",
+     "body": [
+      "Calculate your five heart rate training zones.",
+      "Personalized zone ranges using the Karvonen or max heart rate percentage method."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Heart Rate Zones",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter your age.",
+      "Enter your resting heart rate (for the Karvonen method).",
+      "Choose your preferred calculation method.",
+      "Click calculate to see your five training zones."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use Zone 2 to build endurance.",
+      "Use Zones 4-5 to improve speed and performance.",
+      "Monitor your heart rate during workouts."
+     ]
+    }
+   }
+  },
+  "ideal-weight-calculator": {
+   "metadata": {
+    "title": "Ideal Weight Calculator",
+    "description": "Find your ideal body weight using four scientific formulas.",
+    "category": "Health"
+   },
+   "keywords": [
+    "ideal weight calculator",
+    "healthy weight calculator",
+    "body weight calculator",
+    "weight calculator",
+    "body frame size"
+   ],
+   "faqs": [
+    {
+     "question": "What is ideal body weight?",
+     "answer": "Ideal body weight is an estimated healthy weight range based on height and gender. Four common formulas (Devine, Robinson, Miller, Hamwi) give slightly different results. Use the average as a general guideline."
+    },
+    {
+     "question": "Are ideal weight formulas accurate?",
+     "answer": "These formulas are rough estimates and do not account for muscle mass, bone density, or body composition. A muscular person may weigh more than the ideal weight yet still be very healthy. Use the BMI range as a supplementary metric."
+    },
+    {
+     "question": "How do I know my body frame size?",
+     "answer": "Wrap your thumb and index finger around your wrist. If they overlap: small frame. If they touch: medium frame. If they don't touch: large frame. You can also measure your wrist circumference — less than 6.5 inches indicates a small frame."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "Body Fat Calculator",
+     "href": "/tools/body-fat-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    }
+   ],
+   "labels": {
+    "heightCm": "Height (cm)",
+    "heightIn": "Height (in)",
+    "idealRange": "Ideal Weight Range",
+    "devine": "Devine",
+    "robinson": "Robinson",
+    "miller": "Miller"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "male": "Male",
+    "female": "Female"
+   },
+   "description": "Find your ideal weight using four scientific formulas. Adjusted for body frame size.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is an Ideal Weight Calculator?",
+     "body": [
+      "Find your ideal weight using four scientific formulas.",
+      "Adjust results for body frame size and see healthy BMI weight ranges."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Your Ideal Weight",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose your preferred unit system.",
+      "Select your gender.",
+      "Enter your height.",
+      "Select your body frame size.",
+      "Click calculate to see your ideal weight."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Treat ideal weight as a general guideline, not an absolute goal.",
+      "Consider body composition alongside weight.",
+      "Consult a medical professional for personalized advice."
+     ]
+    }
+   }
+  },
+  "jpg-to-pdf-converter": {
+   "metadata": {
+    "title": "JPG to PDF - Free Online Tool",
+    "description": "Convert JPG images to PDF online for free. Combine multiple JPGs into one PDF in your browser — no upload, no registration.",
+    "category": "Utility"
+   },
+   "title": "JPG to PDF",
+   "description": "Convert JPG images to PDF online for free. Combine multiple JPGs into one PDF in your browser — no upload, no registration.",
+   "category": "Utility",
+   "keywords": [
+    "jpg to pdf",
+    "jpeg to pdf",
+    "image to pdf",
+    "jpg to pdf converter",
+    "convert jpg to pdf online"
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload one or more JPG images.",
+     "Reorder the images as needed.",
+     "Click \"Convert to PDF\" and download the file."
+    ]
+   },
+   "faqs": [
+    {
+     "question": "How do I convert JPG to PDF for free?",
+     "answer": "Upload your JPG images, arrange them in the order you want, then click Convert. Each image becomes one page in the PDF."
+    },
+    {
+     "question": "Can I convert multiple JPGs at once?",
+     "answer": "Yes. Upload any number of JPG images and they will be combined into a single PDF with one image per page."
+    },
+    {
+     "question": "Are images uploaded to a server?",
+     "answer": "No. The conversion runs in your browser using pdf-lib, and your images never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "PNG to PDF",
+     "href": "/tools/png-to-pdf-converter"
+    },
+    {
+     "name": "Merge PDF",
+     "href": "/tools/merge-pdf"
+    }
+   ],
+   "dropzone": {
+    "title": "Drop JPGs here or click to upload",
+    "subtitle": "JPG / JPEG images"
+   },
+   "file": {
+    "size": "{size} KB"
+   },
+   "buttons": {
+    "convert": "Convert to PDF",
+    "download": "Download PDF",
+    "newFiles": "Upload New Files"
+   },
+   "status": {
+    "converting": "Converting image {current} / {total}...",
+    "saving": "Saving PDF..."
+   },
+   "processing": {
+    "title": "Converting to PDF",
+    "progress": "Progress"
+   },
+   "done": {
+    "title": "Conversion Complete",
+    "pages": "{count} pages total"
+   },
+   "errors": {
+    "generic": "Conversion failed: {message}"
+   }
+  },
+  "keto-calculator": {
+   "metadata": {
+    "title": "Keto Calculator",
+    "description": "Calculate carb, protein, and fat macros based on your daily calories and keto style.",
+    "category": "Health"
+   },
+   "keywords": [
+    "keto calculator",
+    "ketogenic diet calculator",
+    "keto macro calculator",
+    "ketogenic macros",
+    "net carb calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is the ketogenic diet?",
+     "answer": "The keto diet is very low in carbs (usually 20-50g net carbs per day), moderate in protein, and high in fat. This shifts your body into ketosis, burning fat instead of carbs for fuel."
+    },
+    {
+     "question": "How many carbs can I eat on keto?",
+     "answer": "Most people enter ketosis at under 20-25g net carbs per day. Some can go as high as 50g and stay in ketosis. Net carbs = total carbs minus fiber. Start at 20g and adjust based on results."
+    },
+    {
+     "question": "How much protein do I need on keto?",
+     "answer": "Aim for 1.2-2.0g per kg of body weight. Too little protein leads to muscle loss. Contrary to popular belief, moderate-to-high protein won't kick you out of ketosis."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Macro Calculator",
+     "href": "/tools/macro-calculator"
+    },
+    {
+     "name": "Calorie Deficit Calculator",
+     "href": "/tools/calorie-deficit-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    }
+   ],
+   "labels": {
+    "calories": "Daily Calories (kcal)",
+    "preset": "Keto Style",
+    "macroTargets": "Daily Keto Macros",
+    "carbs": "Net Carbs",
+    "protein": "Protein",
+    "fat": "Fat"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "standard": "Standard Keto (5% carbs / 25% protein / 70% fat)",
+    "highProtein": "High-Protein Keto (5% carbs / 35% protein / 60% fat)",
+    "therapeutic": "Therapeutic Keto (2% carbs / 8% protein / 90% fat)"
+   },
+   "errors": {
+    "invalid": "Please enter a valid daily calorie target."
+   },
+   "description": "Calculate your keto macros — fat, protein, and net carbs for the ketogenic diet.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Keto Calculator?",
+     "body": [
+      "Calculate your keto macros — fat, protein, and net carbs for the ketogenic diet.",
+      "Get personalized macronutrient ratios to maintain ketosis."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Keto Macros",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter your personal information and activity level.",
+      "Select your fitness goal.",
+      "Click calculate to see your keto macro targets.",
+      "Aim for 20-50g of net carbs per day."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Track net carbs (total carbs minus fiber).",
+      "Prioritize healthy fat sources.",
+      "Monitor ketone levels when starting out."
+     ]
+    }
+   }
+  },
+  "markup-calculator": {
+   "metadata": {
+    "title": "Markup Calculator",
+    "description": "Calculate markup, profit margin, and selling price, with batch support for multiple products.",
+    "category": "Finance",
+    "icon": "💲"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no registration tools",
+    "browser tools",
+    "markup calculator",
+    "markup percentage calculator",
+    "selling price calculator",
+    "markup vs margin",
+    "cost markup calculator",
+    "price markup calculator",
+    "gross profit calculator",
+    "retail markup calculator",
+    "markup to margin converter",
+    "product pricing calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is markup and how is it calculated?",
+     "answer": "Markup is the percentage added to the cost of a product to determine its selling price. The formula is: Markup % = ((Selling Price - Cost) / Cost) x 100. For example, if a product costs $50 and you sell it for $80, the markup is ((80 - 50) / 50) x 100 = 60%."
+    },
+    {
+     "question": "What is the difference between markup and profit margin?",
+     "answer": "Markup is calculated as a percentage of cost, while profit margin is calculated as a percentage of the selling price (revenue). A 100% markup equals a 50% profit margin. Markup is always higher than margin for the same transaction because cost is a smaller base than revenue. Both measure profitability but from different perspectives."
+    },
+    {
+     "question": "How do I convert markup to margin?",
+     "answer": "To convert markup to margin, use the formula: Margin % = (Markup % / (100 + Markup %)) x 100. For example, a 50% markup converts to (50 / 150) x 100 = 33.33% margin. To convert margin to markup: Markup % = (Margin % / (100 - Margin %)) x 100."
+    },
+    {
+     "question": "What is a typical markup percentage for retail?",
+     "answer": "Markup varies widely by industry. Grocery stores typically use 10-30% markup, clothing retail 100-300%, electronics 30-50%, restaurants 200-400% on food, and jewelry 100-400%. The ideal markup depends on operating costs, competition, perceived value, and demand elasticity."
+    },
+    {
+     "question": "How do I calculate selling price from cost and markup?",
+     "answer": "Multiply the cost by (1 + markup percentage / 100). For example, if your cost is $40 and you want a 75% markup: $40 x (1 + 0.75) = $40 x 1.75 = $70 selling price. The gross profit would be $70 - $40 = $30."
+    },
+    {
+     "question": "Can markup percentage be over 100%?",
+     "answer": "Yes, a markup over 100% is common in many industries. A 100% markup means you sell an item for double its cost. A 200% markup means the selling price is three times the cost. Restaurants, for example, often apply 200-400% markup on beverages and food items."
+    },
+    {
+     "question": "How do I find cost from selling price and markup?",
+     "answer": "Divide the selling price by (1 + markup percentage / 100). For example, if the selling price is $120 and the markup is 50%: $120 / (1 + 0.50) = $120 / 1.50 = $80 cost. This is useful for reverse-engineering competitor pricing."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Profit Margin Calculator",
+     "href": "/tools/profit-margin-calculator"
+    },
+    {
+     "name": "Discount Calculator",
+     "href": "/tools/discount-calculator"
+    },
+    {
+     "name": "Sales Tax Calculator",
+     "href": "/tools/sales-tax-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Break Even Calculator",
+     "href": "/tools/break-even-calculator"
+    },
+    {
+     "name": "ROI Calculator",
+     "href": "/tools/roi-calculator"
+    }
+   ],
+   "labels": {
+    "cost": "Cost",
+    "margin": "Profit Margin (%)",
+    "sellingPrice": "Selling Price",
+    "markupAmount": "Markup Amount",
+    "markupPercent": "Markup Percentage",
+    "marginPercent": "Margin Percentage"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "cost": "Enter cost",
+    "margin": "Enter profit margin (%)"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is a Markup Calculator?",
+     "paragraphs": [
+      "Calculate markup percentage, selling price, cost, and profit margin. Compare markup vs margin, use batch mode for multiple products, and reference common markup-to-margin conversions."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the markup calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool is for estimation - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  },
+  "mean-median-mode-calculator": {
+   "metadata": {
+    "title": "Mean Median Mode Calculator",
+    "description": "Calculate the mean, median, and mode from a list of numbers, with count and sum.",
+    "category": "Math"
+   },
+   "keywords": [
+    "mean median mode calculator",
+    "average calculator",
+    "central tendency calculator",
+    "statistics calculator",
+    "data set analyzer"
+   ],
+   "faqs": [
+    {
+     "question": "What is the difference between mean, median, and mode?",
+     "answer": "The mean is the average (sum ÷ count). The median is the middle value when sorted. The mode is the most frequent value. They are similar for symmetric data but can differ significantly for skewed data."
+    },
+    {
+     "question": "When should I use the median instead of the mean?",
+     "answer": "Use the median when data has outliers or is skewed (like income data). The median is resistant to extreme values. For example, if most people earn $50,000 but one person earns $10 million, the median better represents the typical value."
+    },
+    {
+     "question": "Can there be multiple modes?",
+     "answer": "Yes. If two values tie as most frequent, the data is bimodal. If all values occur equally often, there is no mode."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Standard Deviation Calculator",
+     "href": "/tools/standard-deviation-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Scientific Calculator",
+     "href": "/tools/scientific-calculator"
+    }
+   ],
+   "labels": {
+    "numbers": "Numbers",
+    "placeholder": "Enter numbers separated by commas, spaces, or new lines...",
+    "count": "Count",
+    "sum": "Sum",
+    "mean": "Mean",
+    "median": "Median",
+    "mode": "Mode",
+    "noMode": "No Mode"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "errors": {
+    "empty": "Please enter at least one number.",
+    "invalid": "Please enter valid numbers separated by commas, spaces, or new lines."
+   },
+   "description": "Calculate the mean, median, mode, range, standard deviation, and more from any data set.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Mean, Median, Mode Calculator?",
+     "body": [
+      "Calculate the mean, median, mode, range, standard deviation, and more from any data set.",
+      "Get a comprehensive statistical analysis including a five-number summary."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Mean, Median, and Mode",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter your numbers separated by commas, spaces, or new lines.",
+      "Click calculate to see all statistics.",
+      "Review the mean, median, mode, and other measures."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use the median for skewed data with outliers.",
+      "The mode is useful for categorical data.",
+      "Standard deviation shows data spread."
+     ]
+    }
+   }
+  }
+ }
+}

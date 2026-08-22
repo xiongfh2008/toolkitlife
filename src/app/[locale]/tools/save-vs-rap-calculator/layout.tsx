@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/save-vs-rap-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/save-vs-rap-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/save-vs-rap-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/save-vs-rap-calculator`,
       },
     },
   };

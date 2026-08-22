@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/color-shades-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/color-shades-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/color-shades-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/color-shades-generator`,
       },
     },
   };

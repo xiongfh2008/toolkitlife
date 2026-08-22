@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/compound-interest-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/compound-interest-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/compound-interest-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/compound-interest-calculator`,
       },
     },
   };

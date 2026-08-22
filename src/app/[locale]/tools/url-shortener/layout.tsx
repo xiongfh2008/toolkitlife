@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/url-shortener`,
         ja: `https://www.toolkitlife.com/ja/tools/url-shortener`,
         ko: `https://www.toolkitlife.com/ko/tools/url-shortener`,
+        ru: `https://www.toolkitlife.com/ru/tools/url-shortener`,
       },
     },
   };

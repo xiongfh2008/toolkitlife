@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/audio-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/audio-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/audio-converter`,
+        ru: `https://www.toolkitlife.com/ru/tools/audio-converter`,
       },
     },
   };

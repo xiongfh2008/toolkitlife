@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/hdr-tone-mapping`,
         ja: `https://www.toolkitlife.com/ja/tools/hdr-tone-mapping`,
         ko: `https://www.toolkitlife.com/ko/tools/hdr-tone-mapping`,
+        ru: `https://www.toolkitlife.com/ru/tools/hdr-tone-mapping`,
       },
     },
   };

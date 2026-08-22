@@ -1854,6 +1854,30 @@
         "description": "将 Word 文档的每一页转换为 PNG 图片，可打包为 ZIP 下载。",
         "category": "Utility",
         "icon": "📄"
+      },
+      "morse-code": {
+        "name": "摩尔斯电码翻译器",
+        "description": "将文本与摩尔斯电码即时互转",
+        "category": "Text",
+        "icon": "📡"
+      },
+      "reverse-text": {
+        "name": "文本反转生成器",
+        "description": "即时反转字符、单词或行序",
+        "category": "Text",
+        "icon": "↔"
+      },
+      "px-to-rem": {
+        "name": "PX 转 REM 换算器",
+        "description": "像素与 rem 互转，支持自定义基准字号",
+        "category": "Developer",
+        "icon": "Rem"
+      },
+      "password-strength": {
+        "name": "密码强度检测器",
+        "description": "即时检测密码强度并给出评分与建议",
+        "category": "Utility",
+        "icon": "🔒"
       }
     },
     "scenes": {
@@ -32705,6 +32729,360 @@
             "多页文档建议用「打包下载」一次导出全部页面。"
           ]
         }
+      }
+    },
+    "morse-code": {
+      "metadata": {
+        "title": "摩尔斯电码翻译器",
+        "description": "将文本与摩尔斯电码互转，即时、免费、在浏览器本地运行。",
+        "category": "Text"
+      },
+      "keywords": [
+        "摩尔斯电码翻译",
+        "摩尔斯电码转换",
+        "文本转摩尔斯",
+        "摩尔斯转文本",
+        "摩斯密码",
+        "摩斯电码翻译器",
+        "SOS摩斯电码",
+        "电报码"
+      ],
+      "faqs": [
+        {
+          "question": "什么是摩尔斯电码？",
+          "answer": "摩尔斯电码是一种用点（.）和划（-）的序列来编码文本的方法。每个字母和数字都有唯一的编码，单词之间用斜杠（/）分隔。"
+        },
+        {
+          "question": "如何把文本转成摩尔斯电码？",
+          "answer": "在输入框中输入或粘贴文字，摩尔斯电码会即时生成——字母间以空格分隔，单词间以斜杠分隔。"
+        },
+        {
+          "question": "如何把摩尔斯电码转回文本？",
+          "answer": "切换到“解码”模式，粘贴由点、划和空格组成的摩尔斯电码（单词间用“/”分隔）即可，解码结果即时显示。"
+        },
+        {
+          "question": "什么是 SOS 信号？",
+          "answer": "SOS 是最著名的摩尔斯信号之一：... --- ...（三点、三划、三点），通常用作遇险求救信号。"
+        },
+        {
+          "question": "这个工具免费吗？",
+          "answer": "完全免费。所有转换都在浏览器本地完成，内容不会被上传。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "文本大小写转换器",
+          "href": "/tools/text-case-converter"
+        },
+        {
+          "name": "文本反转生成器",
+          "href": "/tools/reverse-text"
+        },
+        {
+          "name": "单词计数器",
+          "href": "/tools/word-counter"
+        }
+      ],
+      "labels": {
+        "textToEncode": "要编码的文本",
+        "morseToDecode": "要解码的摩尔斯电码",
+        "output": "输出结果",
+        "enterText": "输入或粘贴文字",
+        "enterMorse": "输入摩尔斯电码（点、划、空格）",
+        "invalidMorse": "摩尔斯电码无效——只能使用点、划、空格和斜杠。",
+        "hint": "字母之间用空格分隔，单词之间用“/”分隔。不支持的字符将被忽略。"
+      },
+      "buttons": {
+        "encode": "编码",
+        "decode": "解码"
+      },
+      "guide": {
+        "intro": {
+          "title": "什么是摩尔斯电码翻译器？",
+          "paragraphs": [
+            "摩尔斯电码翻译器是一款免费在线工具，可以将文本转换为摩尔斯电码，也可以将摩尔斯电码解码为可读文本。全部在浏览器本地运行，内容安全私密。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "items": [
+              "打开浏览器中的工具",
+              "输入或粘贴文字；或切换到解码模式粘贴摩尔斯电码",
+              "一键复制结果"
+            ]
+          },
+          {
+            "title": "主要特点",
+            "items": [
+              "完全免费，无需注册",
+              "双向即时转换",
+              "本地运行保护隐私",
+              "支持字母 A–Z 和数字 0–9"
+            ]
+          }
+        ]
+      }
+    },
+    "reverse-text": {
+      "metadata": {
+        "title": "文本反转生成器",
+        "description": "即时反转任意文本——可反转字符、单词或行序。免费且私密。",
+        "category": "Text"
+      },
+      "keywords": [
+        "文本反转",
+        "文字反转",
+        "文本倒序",
+        "反转字符串",
+        "反转单词",
+        "翻转文字",
+        "反向文本",
+        "倒序文字"
+      ],
+      "faqs": [
+        {
+          "question": "如何反转文本？",
+          "answer": "在输入框中粘贴文字并选择模式，反转结果会即时显示。"
+        },
+        {
+          "question": "支持哪些模式？",
+          "answer": "支持三种模式：反转字符顺序、反转单词顺序、反转行顺序。"
+        },
+        {
+          "question": "这个工具免费吗？",
+          "answer": "完全免费，所有处理都在浏览器本地完成。"
+        },
+        {
+          "question": "为什么我的表情符号没有反转？",
+          "answer": "表情符号由多个 Unicode 码点组成，部分浏览器可能无法逐字符反转。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "文本大小写转换器",
+          "href": "/tools/text-case-converter"
+        },
+        {
+          "name": "摩尔斯电码翻译器",
+          "href": "/tools/morse-code"
+        },
+        {
+          "name": "单词计数器",
+          "href": "/tools/word-counter"
+        }
+      ],
+      "labels": {
+        "input": "要反转的文本",
+        "output": "反转结果",
+        "enterText": "输入或粘贴文字"
+      },
+      "buttons": {
+        "chars": "反转字符",
+        "words": "反转单词",
+        "lines": "反转行序"
+      },
+      "guide": {
+        "intro": {
+          "title": "什么是文本反转生成器？",
+          "paragraphs": [
+            "文本反转生成器是一款免费在线工具，可以按不同方式翻转文本：反转字符顺序、单词顺序或行顺序。所有处理都在浏览器本地完成。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "items": [
+              "粘贴文字，选择模式",
+              "一键复制结果"
+            ]
+          },
+          {
+            "title": "主要特点",
+            "items": [
+              "三种反转模式",
+              "输入即出结果，实时显示",
+              "无需上传，天然保护隐私",
+              "免费，支持任何设备"
+            ]
+          }
+        ]
+      }
+    },
+    "px-to-rem": {
+      "metadata": {
+        "title": "PX 转 REM 换算器",
+        "description": "在像素（px）与 rem 之间换算，支持自定义根字号。免费的 CSS 单位转换工具。",
+        "category": "Developer"
+      },
+      "keywords": [
+        "px转rem",
+        "rem转px",
+        "px和rem换算",
+        "css单位换算",
+        "根字号",
+        "响应式排版",
+        "像素转rem",
+        "rem计算器"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 rem？",
+          "answer": "rem 是相对于根元素（通常是 html）字号的 CSS 单位。与 em 不同，它不受父元素字号影响。"
+        },
+        {
+          "question": "基准字号是多少？",
+          "answer": "默认基准为 16px（浏览器默认值），也可以切换到 14、15、17、18 或 20px。"
+        },
+        {
+          "question": "如何把 px 换算成 rem？",
+          "answer": "用像素值除以基准字号即可：16px ÷ 16 = 1rem。本工具会即时计算。"
+        },
+        {
+          "question": "为什么要用 rem 而不是 px？",
+          "answer": "rem 会随根字号缩放，便于构建响应式布局，同时尊重用户浏览器设置的字号。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "进制转换器",
+          "href": "/tools/binary-converter"
+        },
+        {
+          "name": "单位换算器",
+          "href": "/tools/unit-converter"
+        },
+        {
+          "name": "CSS 压缩工具",
+          "href": "/tools/css-minifier"
+        }
+      ],
+      "labels": {
+        "baseFontSize": "基准字号",
+        "pxToRem": "像素（px）→ rem",
+        "remToPx": "rem → 像素（px）",
+        "hint": "当前基准字号下 1rem = {base}px。可在上方切换基准字号。"
+      },
+      "guide": {
+        "intro": {
+          "title": "什么是 PX 转 REM 换算器？",
+          "paragraphs": [
+            "PX 转 REM 换算器是一款免费在线工具，可在像素与 rem 单位之间互相换算，并支持自定义基准字号，帮助开发者构建响应式、无障碍的布局。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "items": [
+              "选择基准字号（默认 16px）",
+              "在任一输入框中输入数值，另一侧即时显示换算结果",
+              "将结果复制到你的 CSS 中"
+            ]
+          },
+          {
+            "title": "主要特点",
+            "items": [
+              "双向即时换算",
+              "可配置根字号",
+              "支持小数",
+              "免费，完全在浏览器中运行"
+            ]
+          }
+        ]
+      }
+    },
+    "password-strength": {
+      "metadata": {
+        "title": "密码强度检测器",
+        "description": "即时检测密码强度，给出评分、检查清单与改进建议。所有分析都在浏览器本地完成。",
+        "category": "Utility"
+      },
+      "keywords": [
+        "密码强度",
+        "密码强度检测",
+        "密码强度测试",
+        "强密码",
+        "密码安全",
+        "密码评分",
+        "密码检测工具",
+        "密码复杂度"
+      ],
+      "faqs": [
+        {
+          "question": "强度是如何计算的？",
+          "answer": "评分综合密码长度与字符多样性：大写字母、小写字母、数字和符号都会增加分数。"
+        },
+        {
+          "question": "什么样的密码才算强？",
+          "answer": "至少 12 位，包含大小写字母、数字与符号的混合，且不使用常见单词或个人信息。"
+        },
+        {
+          "question": "我的密码会被发送出去吗？",
+          "answer": "不会。所有分析都在浏览器本地完成，密码不会离开你的设备。"
+        },
+        {
+          "question": "什么样的评分算好？",
+          "answer": "目标是“良好”或“强”。如果显示“弱”或“一般”，请加长密码并增加更多字符类型。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "密码生成器",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "随机数生成器",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "二维码生成器",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "password": "密码",
+        "enterPassword": "输入要检测的密码",
+        "strength": "强度",
+        "empty": "—",
+        "weak": "弱",
+        "fair": "一般",
+        "good": "良好",
+        "strong": "强",
+        "privacy": "你的密码仅在浏览器本地分析，绝不会发送到任何地方。",
+        "criteria": {
+          "length": "至少 8 位",
+          "upper": "大写字母（A–Z）",
+          "lower": "小写字母（a–z）",
+          "digit": "数字（0–9）",
+          "symbol": "符号（!@#$…）"
+        }
+      },
+      "guide": {
+        "intro": {
+          "title": "什么是密码强度检测器？",
+          "paragraphs": [
+            "密码强度检测器是一款免费工具，可分析你的密码并显示它对猜测或暴力破解的抵抗能力。分析在浏览器本地完成。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "使用方法",
+            "items": [
+              "打开工具并输入密码",
+              "实时查看强度条与检查清单的变化",
+              "根据建议创建更安全的密码"
+            ]
+          },
+          {
+            "title": "主要特点",
+            "items": [
+              "实时评分",
+              "清晰的视觉检查清单",
+              "100% 本地分析，不上传任何数据",
+              "免费，无需注册"
+            ]
+          }
+        ]
       }
     }
   },

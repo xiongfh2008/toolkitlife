@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/credit-card-payoff-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/credit-card-payoff-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/credit-card-payoff-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/credit-card-payoff-calculator`,
       },
     },
   };

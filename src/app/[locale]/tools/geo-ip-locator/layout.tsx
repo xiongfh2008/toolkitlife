@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/geo-ip-locator`,
         ja: `https://www.toolkitlife.com/ja/tools/geo-ip-locator`,
         ko: `https://www.toolkitlife.com/ko/tools/geo-ip-locator`,
+        ru: `https://www.toolkitlife.com/ru/tools/geo-ip-locator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/domain-age`,
         ja: `https://www.toolkitlife.com/ja/tools/domain-age`,
         ko: `https://www.toolkitlife.com/ko/tools/domain-age`,
+        ru: `https://www.toolkitlife.com/ru/tools/domain-age`,
       },
     },
   };

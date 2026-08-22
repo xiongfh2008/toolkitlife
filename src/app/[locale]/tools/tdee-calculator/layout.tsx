@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/tdee-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/tdee-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/tdee-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/tdee-calculator`,
       },
     },
   };

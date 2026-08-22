@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/meta-tags-analyzer`,
         ja: `https://www.toolkitlife.com/ja/tools/meta-tags-analyzer`,
         ko: `https://www.toolkitlife.com/ko/tools/meta-tags-analyzer`,
+        ru: `https://www.toolkitlife.com/ru/tools/meta-tags-analyzer`,
       },
     },
   };

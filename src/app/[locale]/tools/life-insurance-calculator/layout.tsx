@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/life-insurance-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/life-insurance-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/life-insurance-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/life-insurance-calculator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/emi-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/emi-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/emi-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/emi-calculator`,
       },
     },
   };

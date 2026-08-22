@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/auto-contrast`,
         ja: `https://www.toolkitlife.com/ja/tools/auto-contrast`,
         ko: `https://www.toolkitlife.com/ko/tools/auto-contrast`,
+        ru: `https://www.toolkitlife.com/ru/tools/auto-contrast`,
       },
     },
   };

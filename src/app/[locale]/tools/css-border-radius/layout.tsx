@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/css-border-radius`,
         ja: `https://www.toolkitlife.com/ja/tools/css-border-radius`,
         ko: `https://www.toolkitlife.com/ko/tools/css-border-radius`,
+        ru: `https://www.toolkitlife.com/ru/tools/css-border-radius`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/css-background-pattern`,
         ja: `https://www.toolkitlife.com/ja/tools/css-background-pattern`,
         ko: `https://www.toolkitlife.com/ko/tools/css-background-pattern`,
+        ru: `https://www.toolkitlife.com/ru/tools/css-background-pattern`,
       },
     },
   };

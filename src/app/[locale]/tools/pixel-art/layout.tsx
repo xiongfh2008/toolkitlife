@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/pixel-art`,
         ja: `https://www.toolkitlife.com/ja/tools/pixel-art`,
         ko: `https://www.toolkitlife.com/ko/tools/pixel-art`,
+        ru: `https://www.toolkitlife.com/ru/tools/pixel-art`,
       },
     },
   };

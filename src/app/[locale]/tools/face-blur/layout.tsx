@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/face-blur`,
         ja: `https://www.toolkitlife.com/ja/tools/face-blur`,
         ko: `https://www.toolkitlife.com/ko/tools/face-blur`,
+        ru: `https://www.toolkitlife.com/ru/tools/face-blur`,
       },
     },
   };

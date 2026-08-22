@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/redirect-checker`,
         ja: `https://www.toolkitlife.com/ja/tools/redirect-checker`,
         ko: `https://www.toolkitlife.com/ko/tools/redirect-checker`,
+        ru: `https://www.toolkitlife.com/ru/tools/redirect-checker`,
       },
     },
   };

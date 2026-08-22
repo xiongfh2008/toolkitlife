@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/debt-to-income-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/debt-to-income-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/debt-to-income-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/debt-to-income-calculator`,
       },
     },
   };

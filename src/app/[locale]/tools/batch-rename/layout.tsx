@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/batch-rename`,
         ja: `https://www.toolkitlife.com/ja/tools/batch-rename`,
         ko: `https://www.toolkitlife.com/ko/tools/batch-rename`,
+        ru: `https://www.toolkitlife.com/ru/tools/batch-rename`,
       },
     },
   };

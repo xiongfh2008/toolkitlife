@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/calorie-deficit-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/calorie-deficit-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/calorie-deficit-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/calorie-deficit-calculator`,
       },
     },
   };

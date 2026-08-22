@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-phash`,
         ja: `https://www.toolkitlife.com/ja/tools/image-phash`,
         ko: `https://www.toolkitlife.com/ko/tools/image-phash`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-phash`,
       },
     },
   };

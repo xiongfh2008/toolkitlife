@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-shadow`,
         ja: `https://www.toolkitlife.com/ja/tools/image-shadow`,
         ko: `https://www.toolkitlife.com/ko/tools/image-shadow`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-shadow`,
       },
     },
   };

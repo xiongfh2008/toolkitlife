@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/tax-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/tax-calculator`,
       },
     },
   };

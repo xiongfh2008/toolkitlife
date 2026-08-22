@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/dehaze`,
         ja: `https://www.toolkitlife.com/ja/tools/dehaze`,
         ko: `https://www.toolkitlife.com/ko/tools/dehaze`,
+        ru: `https://www.toolkitlife.com/ru/tools/dehaze`,
       },
     },
   };

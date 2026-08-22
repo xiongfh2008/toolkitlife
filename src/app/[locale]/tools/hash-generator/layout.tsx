@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/hash-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/hash-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/hash-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/hash-generator`,
       },
     },
   };

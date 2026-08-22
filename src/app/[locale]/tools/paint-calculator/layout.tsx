@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/paint-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/paint-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/paint-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/paint-calculator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/what-is-my-browser`,
         ja: `https://www.toolkitlife.com/ja/tools/what-is-my-browser`,
         ko: `https://www.toolkitlife.com/ko/tools/what-is-my-browser`,
+        ru: `https://www.toolkitlife.com/ru/tools/what-is-my-browser`,
       },
     },
   };

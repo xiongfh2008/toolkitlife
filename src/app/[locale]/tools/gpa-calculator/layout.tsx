@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/gpa-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/gpa-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/gpa-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/gpa-calculator`,
       },
     },
   };

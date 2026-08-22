@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/square-footage-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/square-footage-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/square-footage-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/square-footage-calculator`,
       },
     },
   };

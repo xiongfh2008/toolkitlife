@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/credit-score-simulator`,
         ja: `https://www.toolkitlife.com/ja/tools/credit-score-simulator`,
         ko: `https://www.toolkitlife.com/ko/tools/credit-score-simulator`,
+        ru: `https://www.toolkitlife.com/ru/tools/credit-score-simulator`,
       },
     },
   };

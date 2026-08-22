@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/glassmorphism-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/glassmorphism-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/glassmorphism-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/glassmorphism-generator`,
       },
     },
   };

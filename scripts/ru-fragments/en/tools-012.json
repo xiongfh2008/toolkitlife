@@ -1,0 +1,2555 @@
+{
+ "tools": {
+  "image-histogram": {
+   "metadata": {
+    "title": "Image Histogram - View RGB & Brightness Distribution Online",
+    "description": "Free online image histogram viewer: RGB channels and brightness distribution at a glance. Processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Image Histogram",
+   "description": "View the RGB channel and brightness histogram of your image to understand its exposure and color distribution. All analysis happens locally in your browser — your image is never uploaded.",
+   "category": "Image Tools",
+   "keywords": [
+    "image histogram",
+    "histogram",
+    "RGB histogram",
+    "brightness distribution",
+    "luminance",
+    "exposure analysis"
+   ],
+   "faqs": [
+    {
+     "question": "What is an image histogram?",
+     "answer": "A histogram counts how many pixels sit at each brightness level (0-255): the horizontal axis is brightness and the vertical axis is pixel count. It gives you an instant read on your image's exposure and contrast."
+    },
+    {
+     "question": "How can I tell if my image is overexposed or underexposed?",
+     "answer": "If the histogram bunches up on the right side (near 255), the image is overexposed; if it bunches up on the left (near 0), it's underexposed. A well-exposed image usually has a fairly even spread."
+    },
+    {
+     "question": "What's the difference between an RGB histogram and a brightness histogram?",
+     "answer": "An RGB histogram charts the red, green, and blue channels separately, while a brightness histogram combines them by how bright they appear to the human eye — making it better for judging overall exposure."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All analysis happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Color Extractor",
+     "href": "/tools/image-palette"
+    },
+    {
+     "name": "Image Perceptual Hash",
+     "href": "/tools/image-phash"
+    },
+    {
+     "name": "Histogram Equalization",
+     "href": "/tools/histogram-equalize"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "rgb": "RGB Channels",
+    "luma": "Brightness"
+   },
+   "buttons": {
+    "newImage": "New Image"
+   },
+   "status": {
+    "processing": "Analyzing…"
+   },
+   "errors": {
+    "process": "Failed to analyze the image. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is an Image Histogram?",
+     "body": [
+      "An image histogram charts how many pixels sit at each brightness level (0-255). The horizontal axis is brightness — dark on the left, bright on the right — and the vertical axis is the number of pixels at that brightness.",
+      "By reading the histogram you can quickly tell whether an image is properly exposed, whether its contrast is high or low, and whether the colors are shifted. It's one of the most common diagnostic tools in photography and design."
+     ]
+    },
+    "howTo": {
+     "title": "How to View an Image Histogram",
+     "intro": "Three steps to view your image histogram:",
+     "items": [
+      "Click the upload area and choose a local image (PNG, JPG, WEBP, or BMP supported).",
+      "The histogram is generated automatically as soon as the image loads.",
+      "Switch between RGB channels and brightness modes to inspect different dimensions of the color distribution."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "If the histogram leans left, the image is dark; if it leans right, the image is bright.",
+      "In RGB mode, the overlap of the three channels indicates color balance — a strong shift toward one channel means a color cast.",
+      "If the histogram is pushed against both edges with a hollow middle, the image has very high contrast."
+     ]
+    }
+   }
+  },
+  "image-palette": {
+   "metadata": {
+    "title": "Color Extractor - Extract a Palette from Your Image",
+    "description": "Free online color extractor that automatically pulls the dominant colors from an image into a harmonious palette. Adjustable count, click to copy hex values.",
+    "category": "Image Tools"
+   },
+   "title": "Color Extractor",
+   "description": "Automatically analyze the dominant colors in an image and generate a color palette. Choose between 4-16 colors and click any swatch to copy its HEX value. Everything runs locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "color extractor",
+    "color palette",
+    "dominant colors",
+    "extract colors from image",
+    "image color picker",
+    "palette generator"
+   ],
+   "faqs": [
+    {
+     "question": "How does color extraction work?",
+     "answer": "The tool uses a median cut algorithm to analyze every pixel, group similar colors together, and average each group into one representative color — giving you the color combination that best represents the image."
+    },
+    {
+     "question": "Is more colors always better?",
+     "answer": "Not necessarily. 4-8 colors are usually enough to capture an image's overall tone. More colors add more detail but can also produce near-duplicate shades, so pick based on the image's complexity."
+    },
+    {
+     "question": "What format are the extracted colors in?",
+     "answer": "Every swatch shows its HEX value (e.g. #FF5733). Click a swatch to copy it in one click, ready to paste into your design tool."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All analysis happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Histogram",
+     "href": "/tools/image-histogram"
+    },
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    },
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "colors": "Color Count",
+    "palette": "Dominant Palette",
+    "clickToCopy": "Click a swatch to copy its HEX value"
+   },
+   "buttons": {
+    "analyze": "Extract Colors",
+    "newImage": "New Image"
+   },
+   "status": {
+    "processing": "Extracting…"
+   },
+   "errors": {
+    "process": "Failed to extract colors. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Color Extraction?",
+     "body": [
+      "Color extraction (palette extraction) automatically analyzes the most representative colors in an image and turns them into a palette.",
+      "It's commonly used for brand color inspiration, web design picking, and asset style analysis — a quick way to capture the color mood of any image."
+     ]
+    },
+    "howTo": {
+     "title": "How to Extract a Color Palette",
+     "intro": "Three steps to extract an image's dominant colors:",
+     "items": [
+      "Upload a local image (PNG, JPG, WEBP, or BMP supported).",
+      "Drag the slider to choose how many colors to extract (4-16).",
+      "Click Extract Colors to generate the palette, then click any swatch to copy its HEX value."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "For more accurate brand colors, use an image with a clean background.",
+      "The percentage under each swatch shows how much of the image that color covers.",
+      "The copied HEX values work directly in CSS, design files, and documents."
+     ]
+    }
+   }
+  },
+  "image-phash": {
+   "metadata": {
+    "title": "Image Perceptual Hash - Compute pHash Online",
+    "description": "Free online tool to compute the perceptual hash (pHash) of an image. The 64-bit hash is ideal for similar-image comparison and deduplication.",
+    "category": "Image Tools"
+   },
+   "title": "Image Perceptual Hash (pHash)",
+   "description": "Compute the perceptual hash (pHash) of an image. pHash compresses image content into a 64-bit fingerprint, and similar images produce similar hashes — ideal for duplicate detection and similarity comparison.",
+   "category": "Image Tools",
+   "keywords": [
+    "perceptual hash",
+    "phash",
+    "image hash",
+    "image fingerprint",
+    "similar images",
+    "image hash online"
+   ],
+   "faqs": [
+    {
+     "question": "What is a perceptual hash (pHash)?",
+     "answer": "A perceptual hash is a content-aware image fingerprint: the image is shrunk and converted to grayscale, DCT is applied to extract low-frequency features, and a 64-bit hash is produced. Similar images get similar hashes."
+    },
+    {
+     "question": "How is pHash different from a regular hash?",
+     "answer": "Regular hashes like MD5 or SHA are extremely sensitive — changing a single pixel changes the result completely. pHash focuses on the image's overall structure, so recompression, resizing, or slight color tweaks barely affect it."
+    },
+    {
+     "question": "How do I use the hash to tell if two images are similar?",
+     "answer": "Compute the Hamming distance between the two hashes (the number of differing bits). The smaller the distance, the more similar — generally under 10-12 bits means highly similar."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All computation happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Duplicate Image Finder",
+     "href": "/tools/duplicate-finder"
+    },
+    {
+     "name": "Image Compare",
+     "href": "/tools/image-compare"
+    },
+    {
+     "name": "Image Histogram",
+     "href": "/tools/image-histogram"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "phash": "Perceptual Hash (pHash)",
+    "binary": "Binary",
+    "copied": "Copied"
+   },
+   "buttons": {
+    "compute": "Compute Hash",
+    "copy": "Copy",
+    "newImage": "New Image"
+   },
+   "status": {
+    "processing": "Computing…"
+   },
+   "errors": {
+    "process": "Failed to compute the hash. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Perceptual Hash?",
+     "body": [
+      "A perceptual hash squeezes an image into a fixed-length fingerprint (64 bits here) while ensuring that visually similar images get similar fingerprints.",
+      "It works by extracting low-frequency features in the frequency domain with DCT, ignoring compression, resizing, and slight color shifts that don't affect how we perceive the image."
+     ]
+    },
+    "howTo": {
+     "title": "How to Compute an Image Perceptual Hash",
+     "intro": "Three steps to compute the pHash of your image:",
+     "items": [
+      "Upload a local image (PNG, JPG, WEBP, or BMP supported).",
+      "Click Compute Hash to generate the 64-bit hash value.",
+      "Copy the HEX or binary result for programmatic comparison or archiving."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Different compression or resized versions of the same image produce nearly identical hashes.",
+      "A Hamming distance under 10-12 bits indicates similar images.",
+      "Pair this tool with Duplicate Image Finder to deduplicate images in bulk."
+     ]
+    }
+   }
+  },
+  "image-compare": {
+   "metadata": {
+    "title": "Image Compare - Compare Two Images Online",
+    "description": "Free online tool to compare two images: see the difference percentage at a glance and generate a red-highlighted difference map.",
+    "category": "Image Tools"
+   },
+   "title": "Image Compare",
+   "description": "Upload two images, compare them pixel by pixel, and get a difference ratio plus a red-highlighted difference map — a quick way to pinpoint exactly what changed.",
+   "category": "Image Tools",
+   "keywords": [
+    "image compare",
+    "compare images",
+    "image difference",
+    "diff image",
+    "spot the difference",
+    "image comparison"
+   ],
+   "faqs": [
+    {
+     "question": "How is the difference ratio calculated?",
+     "answer": "The second image is resized to match the first, then the two are compared pixel by pixel. Pixels whose color difference exceeds a threshold are counted as different, and their share of the total is the difference ratio."
+    },
+    {
+     "question": "What does red mean in the difference map?",
+     "answer": "Red highlights mark the areas where the two images differ. Everything else is dimmed so you can spot every difference at a glance."
+    },
+    {
+     "question": "Can I compare images of different sizes?",
+     "answer": "Yes. The tool automatically resizes the second image to match the first before comparing pixel by pixel."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All comparison happens locally in your browser — your images never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Duplicate Image Finder",
+     "href": "/tools/duplicate-finder"
+    },
+    {
+     "name": "Image Perceptual Hash",
+     "href": "/tools/image-phash"
+    },
+    {
+     "name": "Image Histogram",
+     "href": "/tools/image-histogram"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "imageA": "Image A",
+    "imageB": "Image B",
+    "diffRate": "Difference Ratio",
+    "diff": "Difference Map"
+   },
+   "buttons": {
+    "compare": "Compare",
+    "download": "Download Diff",
+    "newImage": "New Image"
+   },
+   "status": {
+    "processing": "Comparing…"
+   },
+   "errors": {
+    "process": "Failed to compare the images. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Image Comparison?",
+     "body": [
+      "The Image Compare tool analyzes two images pixel by pixel, computes an overall difference ratio, and highlights differing regions in red while dimming the identical parts.",
+      "It's commonly used to verify whether an image was modified, check design-versus-implementation gaps, and compare screenshots of different versions."
+     ]
+    },
+    "howTo": {
+     "title": "How to Compare Two Images",
+     "intro": "Three steps to compare two images:",
+     "items": [
+      "Upload image A and image B in the two areas above (PNG, JPG, WEBP, or BMP supported).",
+      "Click Compare to get the difference ratio and difference map.",
+      "To keep the result, click Download Diff to save the comparison output."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Using same-size images of the same content gives the clearest comparison.",
+      "A lower difference ratio means the two images are closer to identical.",
+      "To quickly check whether two images show the same content, run the Image Perceptual Hash tool first."
+     ]
+    }
+   }
+  },
+  "duplicate-finder": {
+   "metadata": {
+    "title": "Duplicate Image Finder - Batch Detect Similar Images Online",
+    "description": "Free online tool to batch detect duplicate or similar images. Groups them automatically with perceptual hashing to help you clean up duplicates.",
+    "category": "Image Tools"
+   },
+   "title": "Duplicate Image Finder",
+   "description": "Upload multiple images at once. Each image gets a perceptual hash, and duplicates or highly similar images are grouped automatically — perfect for reclaiming disk space.",
+   "category": "Image Tools",
+   "keywords": [
+    "duplicate image finder",
+    "find duplicate images",
+    "similar images",
+    "image deduplication",
+    "duplicate photos",
+    "duplicate image detector"
+   ],
+   "faqs": [
+    {
+     "question": "How are duplicate images detected?",
+     "answer": "Every image is hashed with a perceptual hash (pHash). Images whose Hamming distance is small enough (similar enough) are automatically grouped together."
+    },
+    {
+     "question": "Can it detect modified images?",
+     "answer": "Yes. Perceptual hashes are insensitive to resizing, compression, and slight color adjustments, so recompressed or resized copies are recognized too."
+    },
+    {
+     "question": "How many images can I upload at once?",
+     "answer": "Up to 20 images at a time. Need to check more? Just run the detection in batches."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All detection happens locally in your browser — your images never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Perceptual Hash",
+     "href": "/tools/image-phash"
+    },
+    {
+     "name": "Image Compare",
+     "href": "/tools/image-compare"
+    },
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    }
+   ],
+   "upload": {
+    "drop": "Drop multiple images or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP, up to 20 images"
+   },
+   "labels": {
+    "uploaded": "Added Images",
+    "none": "No duplicate or similar images found.",
+    "groups": "Found {count} duplicate groups",
+    "similarity": "Similarity"
+   },
+   "buttons": {
+    "find": "Find Duplicates",
+    "newImage": "Upload Again"
+   },
+   "status": {
+    "scanning": "Scanning…"
+   },
+   "errors": {
+    "process": "Failed to find duplicates. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Duplicate Image Detection?",
+     "body": [
+      "Duplicate image detection generates a perceptual hash fingerprint for every image, compares the fingerprints pairwise with Hamming distance, and groups highly similar images together.",
+      "It's far more reliable than comparing file sizes or names — even copies with different names or dimensions are caught as long as the content matches."
+     ]
+    },
+    "howTo": {
+     "title": "How to Find Duplicate Images",
+     "intro": "Three steps to find duplicate images:",
+     "items": [
+      "Drag in or select multiple images (up to 20 at once; PNG, JPG, WEBP, or BMP supported).",
+      "Click Find Duplicates to start scanning — each image's hash is computed automatically.",
+      "Review the duplicate groups and similarity scores, then delete the copies you don't need."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Images with a similarity above roughly 80% are grouped together.",
+      "Images in the same group may not be pixel-identical — preview before deleting.",
+      "Great for cleaning up downloaded assets, photo backups, and other duplicated content."
+     ]
+    }
+   }
+  },
+  "rgb-channel-split": {
+   "metadata": {
+    "title": "RGB Channel Split - Separate Image Channels Online",
+    "description": "Free online tool to split an image into red, green, and blue channels. View and download each channel separately.",
+    "category": "Image Tools"
+   },
+   "title": "RGB Channel Split",
+   "description": "Split an image into three independent red, green, and blue channels shown side by side. Each channel keeps only the brightness of its own color — great for learning color theory or creating channel assets.",
+   "category": "Image Tools",
+   "keywords": [
+    "rgb channel split",
+    "split rgb channels",
+    "color channels",
+    "red channel",
+    "green channel",
+    "blue channel"
+   ],
+   "faqs": [
+    {
+     "question": "What is an RGB channel?",
+     "answer": "An RGB image is made of red, green, and blue color channels layered together. Each channel records the brightness of its own color, and the three combined produce the final displayed color."
+    },
+    {
+     "question": "What do the separated channel images look like?",
+     "answer": "The red channel image keeps only red brightness information (the picture appears in red tones), and the green and blue channels work the same way. The brighter a channel, the stronger that color is in that area."
+    },
+    {
+     "question": "What is channel splitting used for?",
+     "answer": "It's commonly used to learn color theory, create channel assets, diagnose color casts, and for color separation in professional print workflows."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Histogram",
+     "href": "/tools/image-histogram"
+    },
+    {
+     "name": "Image Filter Effects",
+     "href": "/tools/image-filters"
+    },
+    {
+     "name": "Color Extractor",
+     "href": "/tools/image-palette"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "original": "Original",
+    "red": "Red Channel",
+    "green": "Green Channel",
+    "blue": "Blue Channel"
+   },
+   "buttons": {
+    "split": "Split Channels",
+    "download": "Download",
+    "newImage": "New Image"
+   },
+   "status": {
+    "processing": "Processing…"
+   },
+   "errors": {
+    "process": "Failed to split the channels. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is RGB Channel Splitting?",
+     "body": [
+      "RGB channel splitting breaks a color image into three independent red, green, and blue images, each retaining only the brightness information of its own channel.",
+      "It's a fundamental operation for understanding digital color, and an important step in color separation and channel compositing workflows."
+     ]
+    },
+    "howTo": {
+     "title": "How to Split RGB Channels",
+     "intro": "Three steps to split the RGB channels:",
+     "items": [
+      "Upload a local image (PNG, JPG, WEBP, or BMP supported).",
+      "Click Split Channels to generate the original plus the red, green, and blue channel images.",
+      "Click Download on any channel to save that single-channel image."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The brighter a channel, the stronger that color is in that area.",
+      "If one channel looks overly bright or dark, it can help you diagnose a color cast.",
+      "Pair this with the Image Histogram tool to inspect the brightness distribution of each channel."
+     ]
+    }
+   }
+  },
+  "image-web-optimizer": {
+   "metadata": {
+    "title": "Web Image Optimizer - Compress Images Online",
+    "description": "Free online batch image compression with WebP, JPEG, and PNG conversion to reduce file size and speed up your web pages.",
+    "category": "Image Tools"
+   },
+   "title": "Web Image Optimizer",
+   "description": "Compress images in bulk and convert them to web-friendly formats (WebP, JPEG, PNG), with adjustable maximum width and compression quality to significantly reduce file size. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "web image optimizer",
+    "image compression",
+    "WebP converter",
+    "batch compress images",
+    "speed up web pages",
+    "image optimizer"
+   ],
+   "faqs": [
+    {
+     "question": "Will the optimized images lose quality?",
+     "answer": "You can control the compression strength with the quality slider. Higher quality means less visible loss but larger files; lower quality produces smaller files with more visible loss."
+    },
+    {
+     "question": "Is WebP better than JPEG?",
+     "answer": "At the same visual quality, WebP is usually smaller than JPEG, which makes it great for websites. JPEG has the broadest compatibility and is a safe choice when wide support is needed."
+    },
+    {
+     "question": "Can I optimize multiple images at once?",
+     "answer": "Yes. You can upload up to 10 images at a time. After optimizing, you can download them individually or package them all into a ZIP file."
+    },
+    {
+     "question": "Are my images uploaded to a server?",
+     "answer": "No. All compression and format conversion happens locally in your browser — your images never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Batch Rename",
+     "href": "/tools/batch-rename"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP (up to 10)"
+   },
+   "labels": {
+    "maxWidth": "Max Width",
+    "quality": "Quality",
+    "format": "Output Format"
+   },
+   "buttons": {
+    "optimize": "Optimize All",
+    "downloadAll": "Download ZIP",
+    "download": "Download",
+    "newImage": "Choose New"
+   },
+   "status": {
+    "processing": "Optimizing…",
+    "zipping": "Zipping…"
+   },
+   "errors": {
+    "process": "Failed to optimize the images. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Web Image Optimization?",
+     "body": [
+      "Web image optimization reduces file size through compression, resizing, and format conversion, which speeds up page loading and saves bandwidth.",
+      "A common approach is to output WebP and choose an appropriate compression quality to balance quality against file size."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Optimize your images in three steps:",
+     "items": [
+      "Upload images (up to 10) in PNG, JPG, WEBP, or BMP format.",
+      "Set the maximum width, quality, and output format (WebP/JPEG/PNG).",
+      "Click Optimize All, then download images individually or as a ZIP."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "For web background images, output WebP and lower the quality a bit.",
+      "For icons or images that need transparency, choose PNG or WebP.",
+      "Compare the old and new file sizes before optimizing to avoid over-compressing."
+     ]
+    }
+   }
+  },
+  "batch-rename": {
+   "metadata": {
+    "title": "Batch Rename - Rename Files Online",
+    "description": "Free online batch file renaming with rule chains: find & replace, regex, sequence numbering, case conversion and more. Preview new names in real time, then download everything as a ZIP.",
+    "category": "Image Tools"
+   },
+   "title": "Batch Rename",
+   "description": "Batch rename any type of files with configurable rules. Combine find & replace, regex, sequence numbering, case conversion, insert and cleanup rules into a chain, preview every new name in real time, then download the renamed files as a ZIP or copy the renaming list.",
+   "category": "Image Tools",
+   "keywords": [
+    "batch rename",
+    "rename files",
+    "bulk rename",
+    "file renaming",
+    "batch rename tool"
+   ],
+   "faqs": [
+    {
+     "question": "What are rename rules?",
+     "answer": "Rules are the building blocks of renaming. You can add find & replace, regex, sequence numbering, case conversion, insert and cleanup rules, combine them in any order, and the chain runs from top to bottom on every file name."
+    },
+    {
+     "question": "Will this modify my local files?",
+     "answer": "No. The tool only generates new names and packages copies for download — your original files are never modified."
+    },
+    {
+     "question": "How many files can I rename at once?",
+     "answer": "You can upload up to 1000 files of any type at a time, and the file name list updates in real time."
+    },
+    {
+     "question": "How do I avoid duplicate names?",
+     "answer": "Conflicts are detected automatically and highlighted in the preview. Use the Fix Conflicts button to automatically append (1), (2) and so on."
+    },
+    {
+     "question": "Are the extensions preserved?",
+     "answer": "By default the rules apply to the file name only and the extension is preserved. You can switch the scope to Extension or Full name to apply rules there instead."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Web Image Optimizer",
+     "href": "/tools/image-web-optimizer"
+    },
+    {
+     "name": "Duplicate Image Finder",
+     "href": "/tools/duplicate-finder"
+    },
+    {
+     "name": "Text Case Converter",
+     "href": "/tools/text-case-converter"
+    }
+   ],
+   "upload": {
+    "drop": "Drop files or click to upload",
+    "formats": "Any file type (up to {max})",
+    "folderHint": "You can also drop or pick a whole folder — all files inside are imported."
+   },
+   "scope": {
+    "label": "Apply rules to",
+    "name": "Name",
+    "extension": "Extension",
+    "full": "Full name"
+   },
+   "rulesPanel": {
+    "title": "Rules",
+    "add": "Add rule",
+    "clear": "Clear rules",
+    "empty": "No rules yet — add one below.",
+    "reorderHint": "Rules run from top to bottom. Disable a rule to skip it."
+   },
+   "ruleTypes": {
+    "findReplace": "Find & Replace",
+    "insert": "Insert",
+    "sequence": "Sequence",
+    "caseStyle": "Case & Style",
+    "regex": "Regex",
+    "removeCleanup": "Remove & Cleanup",
+    "recombine": "Recombine",
+    "slice": "Extract Slice",
+    "random": "Random",
+    "mapList": "Mapping List"
+   },
+   "fields": {
+    "find": "Find",
+    "replace": "Replace with",
+    "caseSensitive": "Case sensitive",
+    "matchAll": "Replace all",
+    "replacePosition": "Replace by position",
+    "fromEnd": "End",
+    "position": "Start position",
+    "length": "Length",
+    "insertText": "Text",
+    "insertPosition": "Position",
+    "positionStart": "Start",
+    "positionEnd": "End",
+    "positionIndex": "At index",
+    "seqType": "Type",
+    "numeric": "Numbers",
+    "alpha": "Letters (A, B, C…)",
+    "roman": "Roman numerals",
+    "seqStart": "Start at",
+    "step": "Step",
+    "padding": "Digits",
+    "seqPosition": "Place number",
+    "replaceWhole": "Replace whole name",
+    "template": "Template (use {n})",
+    "regexPattern": "Pattern",
+    "regexReplacement": "Replacement",
+    "flags": "Flags",
+    "mode": "Style",
+    "style": "Separators",
+    "removeMode": "Mode",
+    "charsDirection": "Remove from",
+    "fromStart": "Start",
+    "charsCount": "Count",
+    "rangeStart": "From index",
+    "rangeEnd": "To index",
+    "removeDigits": "Digits",
+    "removeSymbols": "Symbols",
+    "removeSpaces": "Spaces",
+    "removeChinese": "Chinese characters",
+    "removeEnglish": "Letters",
+    "recombineSeparator": "Split by",
+    "recombineJoinWith": "Join with",
+    "recombineOrder": "New order",
+    "recombineOrderHint": "e.g. 3,1,2 · empty = reverse",
+    "sliceStart": "From index",
+    "sliceJoinWith": "Join pieces with",
+    "sliceAdd": "Add slice",
+    "randomCharset": "Characters",
+    "randomLength": "Length",
+    "randomPosition": "Place",
+    "randomCustomChars": "Custom characters",
+    "mapListHint": "One mapping per line (from=to)",
+    "mapListPlaceholder": "old=newname\nIMG=photo"
+   },
+   "randomCharsets": {
+    "digits": "Digits (0-9)",
+    "letters": "Letters (A-Z, a-z)",
+    "alphanumeric": "Letters & digits",
+    "custom": "Custom"
+   },
+   "styleOptions": {
+    "none": "Keep case",
+    "uppercase": "UPPERCASE",
+    "lowercase": "lowercase",
+    "titlecase": "Title Case",
+    "sentencecase": "Sentence case",
+    "camelCase": "camelCase",
+    "PascalCase": "PascalCase",
+    "kebab-case": "kebab-case",
+    "snake_case": "snake_case"
+   },
+   "separatorOptions": {
+    "none": "Keep separators",
+    "spaceToDash": "Spaces → dashes",
+    "spaceToUnderscore": "Spaces → underscores",
+    "dashToSpace": "Dashes → spaces",
+    "underscoreToSpace": "Underscores → spaces"
+   },
+   "removeModes": {
+    "chars": "Remove N characters",
+    "range": "Remove range",
+    "cleanup": "Remove types"
+   },
+   "labels": {
+    "files": "Files",
+    "addFiles": "Add files",
+    "addFolder": "Add folder",
+    "sortByName": "By name",
+    "sortBySize": "By size",
+    "reorderHint": "Drag rows to reorder — the sequence affects numbering rules.",
+    "selectAll": "Select all",
+    "selectFile": "Include in rename",
+    "remove": "Remove",
+    "preview": "Preview",
+    "originalName": "Original",
+    "newName": "New name",
+    "renamedCount": "{renamed} of {total} will be renamed",
+    "conflictCount": "{count} conflicts",
+    "conflict": "Conflict",
+    "invalid": "Invalid",
+    "conflictHint": "Conflicts found — fix them before downloading, or download anyway.",
+    "noFiles": "Upload files to preview names.",
+    "noChange": "Nothing to rename — add files and rules.",
+    "copied": "Copied!",
+    "enableRule": "Enable rule",
+    "downloadAllHint": "Save each renamed file individually to your device.",
+    "downloadScriptHint": "Download a Windows .cmd script that renames your original files locally."
+   },
+   "buttons": {
+    "downloadZip": "Download ZIP",
+    "downloadAll": "Download All",
+    "downloadScript": "CMD Script",
+    "copy": "Copy List",
+    "newBatch": "Start Over",
+    "autoFix": "Fix Conflicts",
+    "undoFix": "Undo Fix",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "cloneRule": "Duplicate rule",
+    "removeRule": "Remove rule"
+   },
+   "status": {
+    "zipping": "Zipping…"
+   },
+   "errors": {
+    "process": "Operation failed. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Batch Renaming?",
+     "body": [
+      "Batch renaming generates uniformly formatted new file names for multiple files at once, which is handy for organizing assets, archiving photos, or naming web assets consistently.",
+      "With rule chains you can do much more than numbering: clean up text, apply regular expressions, convert case, insert dates and sequence numbers — all in one pass."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Rename your files in three steps:",
+     "items": [
+      "Upload files of any type (up to 1000), or a whole folder.",
+      "Add rules and configure them; the preview updates instantly.",
+      "Fix any conflicts if needed, then click Download ZIP or copy the renaming list."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Rules run from top to bottom — use the arrows to reorder them.",
+      "Use the Sequence rule with a template like image_{n} for numbered names.",
+      "Renaming only affects the downloaded copies — your local files are safe."
+     ]
+    }
+   }
+  },
+  "image-to-ascii": {
+   "metadata": {
+    "title": "Image to ASCII Art - Convert Images to Character Art Online",
+    "description": "Free online tool to convert an image into ASCII character art with adjustable width and inversion. Copy or download the result as text.",
+    "category": "Image Tools"
+   },
+   "title": "Image to ASCII Art",
+   "description": "Convert an image into ASCII art made of characters, with an adjustable output width and an invert mode. Copy the result to your clipboard or download it as a text file.",
+   "category": "Image Tools",
+   "keywords": [
+    "image to ascii",
+    "character art",
+    "ASCII art converter",
+    "image to text art",
+    "ascii art"
+   ],
+   "faqs": [
+    {
+     "question": "What is ASCII art?",
+     "answer": "ASCII art uses the density of different characters to mimic the brightness of an image — denser characters represent darker areas and sparser characters represent brighter ones."
+    },
+    {
+     "question": "What does the width setting do?",
+     "answer": "The width (number of columns) determines how many characters the output uses. More columns mean more detail but a wider result; fewer columns produce a more abstract look."
+    },
+    {
+     "question": "What does invert mean?",
+     "answer": "Invert flips the brightness mapping, using sparse characters for dark areas and dense characters for bright ones — useful for displaying on dark backgrounds."
+    },
+    {
+     "question": "Can I save the result?",
+     "answer": "Yes. You can copy it to your clipboard with one click, or download it as a .txt file."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Sprite Generator",
+     "href": "/tools/css-sprite-generator"
+    },
+    {
+     "name": "Placeholder Image Generator",
+     "href": "/tools/placeholder-image"
+    },
+    {
+     "name": "Image to Base64",
+     "href": "/tools/image-to-base64"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "width": "Width (Columns)",
+    "invert": "Invert",
+    "copied": "Copied!"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "copy": "Copy",
+    "download": "Download",
+    "newImage": "New Image"
+   },
+   "status": {
+    "processing": "Generating…"
+   },
+   "errors": {
+    "process": "Failed to generate. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is ASCII Art?",
+     "body": [
+      "ASCII art uses a set of characters to mimic an image's light and dark contours through brightness gradients — a retro yet creative way to render pictures.",
+      "The tool samples the image brightness and maps it to a character sequence from dense to sparse, producing pure text art."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Generate ASCII art in three steps:",
+     "items": [
+      "Upload an image.",
+      "Adjust the width (columns) and enable invert if needed.",
+      "Click Generate, then copy or download the text result."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Images with clear lines and high contrast produce better results.",
+      "ASCII art looks best when displayed in a monospace font.",
+      "For very wide or tall images, crop them first for a better result."
+     ]
+    }
+   }
+  },
+  "css-sprite-generator": {
+   "metadata": {
+    "title": "CSS Sprite Generator - Combine Images into a Sprite Online",
+    "description": "Free online tool to merge multiple images into a CSS sprite sheet with horizontal, vertical, and grid layouts. CSS code is generated automatically.",
+    "category": "Image Tools"
+   },
+   "title": "CSS Sprite Generator",
+   "description": "Combine multiple images into a single sprite sheet and automatically generate the matching CSS background-position code. Supports horizontal, vertical, and grid layouts.",
+   "category": "Image Tools",
+   "keywords": [
+    "css sprite generator",
+    "sprite sheet generator",
+    "sprite sheet",
+    "css sprite",
+    "combine images"
+   ],
+   "faqs": [
+    {
+     "question": "What is a CSS sprite?",
+     "answer": "A sprite combines several small images into one larger image. CSS background-position is used to show just one part of it, reducing HTTP requests and speeding up loading."
+    },
+    {
+     "question": "What's the difference between the three layouts?",
+     "answer": "The horizontal layout arranges all images side by side, the vertical layout stacks them vertically, and the grid layout arranges them into rows and columns of roughly square cells."
+    },
+    {
+     "question": "How do I use the generated CSS?",
+     "answer": "Each icon corresponds to a .icon-N style containing its width, height, background image path, and negative offsets. Just copy it into your stylesheet."
+    },
+    {
+     "question": "How many images can I combine at once?",
+     "answer": "You can upload up to 40 images at a time, and adjust the gap to regenerate in real time."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image to ASCII Art",
+     "href": "/tools/image-to-ascii"
+    },
+    {
+     "name": "Web Image Optimizer",
+     "href": "/tools/image-web-optimizer"
+    },
+    {
+     "name": "SVG Wave Generator",
+     "href": "/tools/svg-wave-generator"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP (up to 40)"
+   },
+   "labels": {
+    "layout": "Layout",
+    "layoutHorizontal": "Horizontal",
+    "layoutVertical": "Vertical",
+    "layoutGrid": "Grid",
+    "gap": "Gap",
+    "cssCode": "CSS Code",
+    "copied": "Copied!"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "download": "Download Sprite",
+    "copy": "Copy CSS",
+    "newImage": "Choose New"
+   },
+   "status": {
+    "processing": "Generating…"
+   },
+   "errors": {
+    "process": "Failed to generate. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is a CSS Sprite?",
+     "body": [
+      "A CSS sprite merges many icons into a single image and uses background-position to display the needed part on the page.",
+      "This significantly reduces the number of image requests the browser makes — a common front-end performance optimization."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Generate a sprite in three steps:",
+     "items": [
+      "Upload multiple images (up to 40).",
+      "Choose a horizontal, vertical, or grid layout and adjust the gap.",
+      "Click Generate to download the sprite and copy the CSS code."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Normalize icon sizes first for a cleaner sprite sheet.",
+      "PNG keeps transparency, which is great for icons.",
+      "The generated CSS uses the relative path sprite.png — adjust it to where you actually store the file."
+     ]
+    }
+   }
+  },
+  "og-image-generator": {
+   "metadata": {
+    "title": "OG Image Generator - Create Social Sharing Cover Images Online",
+    "description": "Free online generator for 1200×630 Open Graph images with custom titles, descriptions, colors, and backgrounds.",
+    "category": "Image Tools"
+   },
+   "title": "OG Image Generator",
+   "description": "Create 1200×630 Open Graph images for social media and link sharing, with customizable title, description, site name, colors, and background image.",
+   "category": "Image Tools",
+   "keywords": [
+    "og image generator",
+    "open graph image",
+    "social sharing image",
+    "cover image generator",
+    "og image"
+   ],
+   "faqs": [
+    {
+     "question": "What is an OG image?",
+     "answer": "An OG (Open Graph) image is the preview image shown when a link is shared on social media (WeChat, Facebook, Twitter, etc.). The standard size is 1200×630."
+    },
+    {
+     "question": "How do I use the generated image?",
+     "answer": "Download the PNG, place it on your website, and set its URL in the og:image meta tag of your HTML."
+    },
+    {
+     "question": "Does the text wrap automatically?",
+     "answer": "Yes. The title and description wrap automatically to fit the 1200×630 canvas, and the title font shrinks automatically if it gets too long."
+    },
+    {
+     "question": "Can I use my own background image?",
+     "answer": "Yes. You can upload a background image, and a semi-transparent overlay is added automatically to keep the text readable."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Placeholder Image Generator",
+     "href": "/tools/placeholder-image"
+    },
+    {
+     "name": "Image to Base64",
+     "href": "/tools/image-to-base64"
+    },
+    {
+     "name": "Favicon Generator",
+     "href": "/tools/favicon-generator"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload"
+   },
+   "labels": {
+    "title": "Title",
+    "description": "Description",
+    "siteName": "Site Name",
+    "bgColor": "Background Color",
+    "textColor": "Text Color",
+    "fontSize": "Title Font Size",
+    "bgImage": "Background Image",
+    "logo": "Logo",
+    "preview": "Preview",
+    "placeholder": "Enter your title"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "download": "Download",
+    "newImage": "Reset",
+    "removeBg": "Remove Background",
+    "removeLogo": "Remove Logo"
+   },
+   "status": {
+    "processing": "Generating…"
+   },
+   "errors": {
+    "process": "Failed to generate. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is an OG Image?",
+     "body": [
+      "An OG image is the preview cover shown when a link is shared on social platforms. The standard size is 1200×630, and it can significantly boost click-through rates.",
+      "A good OG image includes a clear title, a concise description, and recognizable branding."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Create an OG image in three steps:",
+     "items": [
+      "Enter the title, description, and site name, and optionally upload a logo or background image.",
+      "Adjust the background/text colors and title font size, previewing in real time.",
+      "Click Generate and download the 1200×630 PNG."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Keep the title to 6-10 words to avoid too many line breaks.",
+      "Use high contrast between text and background so it stays readable at small sizes.",
+      "Social platforms cache link previews — use a new link or clear the cache after updating the image."
+     ]
+    }
+   }
+  },
+  "blob-dataurl": {
+   "metadata": {
+    "title": "Blob ↔ DataURL Converter - Online Image Format Conversion",
+    "description": "Free online tool to get an image's Blob URL and Base64 DataURL with one-click copy, perfect for embedding or debugging.",
+    "category": "Image Tools"
+   },
+   "title": "Blob ↔ DataURL Converter",
+   "description": "Upload an image to get both its Blob URL and Base64 DataURL at once. Copy either one with a single click for embedding or debugging image resources in your code.",
+   "category": "Image Tools",
+   "keywords": [
+    "blob url",
+    "dataurl",
+    "base64 image",
+    "image to base64",
+    "blob dataurl"
+   ],
+   "faqs": [
+    {
+     "question": "What's the difference between Blob URL and DataURL?",
+     "answer": "A Blob URL (starting with blob:) points to an object in the browser's memory and is great for in-page use. A DataURL is a Base64-encoded string that can be embedded directly into HTML/CSS, making it easy to share and store."
+    },
+    {
+     "question": "Can a Blob URL be used long term?",
+     "answer": "No. A Blob URL is only valid within the current page session and becomes invalid after a refresh or when the page is closed."
+    },
+    {
+     "question": "Are there any downsides to DataURL?",
+     "answer": "Base64 encoding increases the size by about 33% and is not ideal for large images, but it's convenient for embedding directly in code."
+    },
+    {
+     "question": "Is my image uploaded to a server?",
+     "answer": "No. The conversion happens entirely locally in your browser."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image to Base64",
+     "href": "/tools/image-to-base64"
+    },
+    {
+     "name": "Base64 Encoder/Decoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "Base64 to Image",
+     "href": "/tools/base64-to-image"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "blobUrl": "Blob URL",
+    "dataUrl": "DataURL (Base64)",
+    "preview": "Image Preview"
+   },
+   "buttons": {
+    "newImage": "New Image"
+   },
+   "status": {},
+   "errors": {
+    "process": "Conversion failed. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Are Blob and DataURL?",
+     "body": [
+      "A Blob URL is a temporary address starting with blob: that points to a file object in the browser's memory, commonly used for front-end image previews and uploads.",
+      "A DataURL encodes a file as a Base64 string that can be embedded directly in img tags, CSS backgrounds, or JSON data."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Convert in two steps:",
+     "items": [
+      "Upload an image.",
+      "Copy the Blob URL or DataURL into your code."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Small icons are great candidates for inline DataURLs; use separate files for large images.",
+      "Blob URLs can be used in img tags, video sources, or fetch downloads.",
+      "To get the Base64 of other file types, pair this with the Base64 Encoder/Decoder tool."
+     ]
+    }
+   }
+  },
+  "image-similarity": {
+   "metadata": {
+    "title": "Image Similarity - Calculate Image Similarity and PSNR Online",
+    "description": "Free online tool to calculate the similarity percentage, MSE, and PSNR of two images.",
+    "category": "Image Tools"
+   },
+   "title": "Image Similarity",
+   "description": "Upload two images to calculate pixel-level similarity, mean squared error (MSE), and peak signal-to-noise ratio (PSNR), with an adjustable tolerance threshold.",
+   "category": "Image Tools",
+   "keywords": [
+    "image similarity",
+    "image comparison",
+    "mse",
+    "psnr",
+    "image similarity calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How is similarity calculated?",
+     "answer": "The RGB values are compared pixel by pixel. Two pixels are considered similar when their color difference is within the tolerance, and the similarity percentage is the proportion of similar pixels."
+    },
+    {
+     "question": "What do MSE and PSNR mean?",
+     "answer": "MSE (mean squared error) is smaller when the two images are closer. PSNR (peak signal-to-noise ratio) is measured in dB — above 30 dB generally indicates near-lossless quality."
+    },
+    {
+     "question": "What happens if I increase the tolerance?",
+     "answer": "A larger tolerance treats pixels with small color differences as similar, so similarity increases. A smaller tolerance makes the comparison stricter."
+    },
+    {
+     "question": "Can images of different sizes be compared?",
+     "answer": "Yes. The tool scales both images to the same size before comparing them pixel by pixel."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Compare",
+     "href": "/tools/image-compare"
+    },
+    {
+     "name": "Duplicate Image Finder",
+     "href": "/tools/duplicate-finder"
+    },
+    {
+     "name": "Perceptual Image Hash",
+     "href": "/tools/image-phash"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload"
+   },
+   "labels": {
+    "imageA": "Image A",
+    "imageB": "Image B",
+    "tolerance": "Tolerance",
+    "similarity": "Similarity",
+    "mse": "MSE (Mean Squared Error)",
+    "psnr": "PSNR (Peak Signal-to-Noise Ratio)"
+   },
+   "buttons": {
+    "compare": "Compare",
+    "newImage": "New Image"
+   },
+   "status": {
+    "processing": "Calculating…"
+   },
+   "errors": {
+    "process": "Failed to calculate. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Image Similarity?",
+     "body": [
+      "Image similarity compares the color differences of two images pixel by pixel and reports objective metrics such as similarity percentage, MSE, and PSNR.",
+      "It's commonly used to measure quality loss after compression, detect whether an image has been modified, or find duplicate images."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Compare similarity in three steps:",
+     "items": [
+      "Upload Image A and Image B.",
+      "Adjust the tolerance threshold.",
+      "Click Compare to view similarity, MSE, and PSNR."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "A PSNR above 30 dB usually means very little quality loss.",
+      "The default tolerance is 10 — keep it as is, then fine-tune if needed.",
+      "Pair this with the Perceptual Image Hash tool to compare images that are similar in content but different in size."
+     ]
+    }
+   }
+  },
+  "video-frame-extractor": {
+   "metadata": {
+    "title": "Video Frame Extractor - Extract Video Frames Online",
+    "description": "Free online tool to extract frames from a video at set intervals, save them as PNG/JPEG, or download them all as a ZIP.",
+    "category": "Video Tools"
+   },
+   "title": "Video Frame Extractor",
+   "description": "Extract still frames from a video at set intervals, preview them in a grid, and download them individually or as a ZIP. All processing happens locally in your browser.",
+   "category": "Video Tools",
+   "keywords": [
+    "video frame extractor",
+    "extract frames from video",
+    "video screenshot",
+    "video snapshot",
+    "video frame grabber",
+    "frame extraction"
+   ],
+   "faqs": [
+    {
+     "question": "How do I set the frame extraction interval?",
+     "answer": "The interval is how often a frame is captured, in seconds. A smaller interval gives more, smoother frames; a larger interval gives fewer frames and saves storage space."
+    },
+    {
+     "question": "What is the maximum number of frames I can extract?",
+     "answer": "To protect browser memory, up to 100 frames can be extracted at a time. We recommend increasing the interval or trimming the video first."
+    },
+    {
+     "question": "What formats can I save to?",
+     "answer": "PNG (lossless, ideal for crisp screenshots) and JPEG (smaller file size) are supported. Download frames one by one or bundle them all into a ZIP with one click."
+    },
+    {
+     "question": "Is my video uploaded to a server?",
+     "answer": "No. The video is decoded entirely in your browser — the frames never leave your device during extraction."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Thumbnail",
+     "href": "/tools/video-thumbnail"
+    },
+    {
+     "name": "Video to GIF Converter",
+     "href": "/tools/video-to-gif"
+    },
+    {
+     "name": "GIF to Images Splitter",
+     "href": "/tools/gif-to-images"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a video or click to upload",
+    "formats": "MP4, WebM, MOV, AVI"
+   },
+   "labels": {
+    "interval": "Extract Interval",
+    "format": "Output Format"
+   },
+   "buttons": {
+    "extract": "Extract Frames",
+    "downloadAll": "Download ZIP",
+    "download": "Download",
+    "newVideo": "New Video"
+   },
+   "status": {
+    "processing": "Extracting…"
+   },
+   "errors": {
+    "process": "Extraction failed. Please try again."
+   },
+   "info": {
+    "frames": "{count} frames extracted"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Video Frame Extraction?",
+     "body": [
+      "Video frame extraction captures still frames from a video at fixed time intervals, commonly used for building assets, collecting screenshots, or analyzing video content.",
+      "The tool samples frames one by one and shows them in a grid, making it easy to pick out the shots you need."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Extract frames in three steps:",
+     "items": [
+      "Upload a video (MP4, WebM, MOV, AVI, or other browser-playable formats).",
+      "Set the extraction interval and output format (PNG/JPEG).",
+      "Click Extract Frames, preview the results, then download frames individually or as a ZIP."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "To grab a specific shot, locate the time in a player first, then work out the interval to use.",
+      "JPEG is small and great for quick previews; PNG is crisp and better for assets.",
+      "Trim long videos before extracting to avoid too many frames."
+     ]
+    }
+   }
+  },
+  "animated-webp": {
+   "metadata": {
+    "title": "Animated WebP - Convert Video to Animated WebP Online",
+    "description": "Free online tool to convert a video into an animated WebP image, with adjustable frame rate, quality, and width, plus lossless compression.",
+    "category": "Video Tools"
+   },
+   "title": "Animated WebP",
+   "description": "Convert a video into an animated WebP image. Adjust the frame rate, quality, and output width, and enable lossless compression. Animated WebP is smaller and sharper than GIF.",
+   "category": "Video Tools",
+   "keywords": [
+    "animated webp",
+    "webp animation",
+    "video to webp",
+    "webp maker",
+    "create animated webp",
+    "video to animated webp"
+   ],
+   "faqs": [
+    {
+     "question": "What is the difference between animated WebP and GIF?",
+     "answer": "At the same visual quality, an animated WebP is usually only 30%-50% of a GIF's size, supports 16 million colors, and compresses better — though some older platforms don't support it."
+    },
+    {
+     "question": "What is the difference between lossless and lossy?",
+     "answer": "Lossless compression keeps full quality but produces larger files; lossy compression slightly reduces quality for much smaller files, which suits photo-like content."
+    },
+    {
+     "question": "Will the generated WebP loop automatically?",
+     "answer": "Yes. The converted animated WebP loops infinitely by default."
+    },
+    {
+     "question": "How long does the conversion take?",
+     "answer": "The first run downloads the ~30MB FFmpeg engine (cached afterwards); then conversion speed depends on the video's length and resolution."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "APNG Maker",
+     "href": "/tools/apng-maker"
+    },
+    {
+     "name": "Video to GIF Converter",
+     "href": "/tools/video-to-gif"
+    },
+    {
+     "name": "Image to GIF Maker",
+     "href": "/tools/image-to-gif"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a video or click to upload",
+    "formats": "MP4, WebM, MOV, AVI"
+   },
+   "labels": {
+    "fps": "Frame Rate",
+    "quality": "Quality",
+    "width": "Width",
+    "lossless": "Lossless Compression"
+   },
+   "buttons": {
+    "convert": "Convert",
+    "newVideo": "New Video",
+    "download": "Download"
+   },
+   "status": {
+    "processing": "Converting…",
+    "converting": "Encoding animated WebP…",
+    "finishing": "Generating file…",
+    "progress": "Progress",
+    "keepOpen": "Keep this page open — all processing happens locally in your browser."
+   },
+   "errors": {
+    "prefix": "Conversion failed:",
+    "empty": "The output file is empty. Please check your input video."
+   },
+   "result": {
+    "original": "Original",
+    "converted": "Converted"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Animated WebP?",
+     "body": [
+      "Animated WebP is a motion image based on the WebP format. It supports transparency and infinite looping, with noticeably better compression than GIF.",
+      "This tool encodes everything locally in your browser via FFmpeg WebAssembly — no need to upload your video."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Convert in three steps:",
+     "items": [
+      "Upload a video (MP4, WebM, MOV, AVI, etc.).",
+      "Set the frame rate, quality, and output width; enable lossless compression if needed.",
+      "Click Convert, then download your animated WebP."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "A frame rate of 15 and quality of 80 strike a good balance between size and smoothness.",
+      "Short clips at lower resolutions convert faster and produce smaller files.",
+      "Use lossless mode when you need a transparent background (requires a source video with transparency)."
+     ]
+    }
+   }
+  },
+  "apng-maker": {
+   "metadata": {
+    "title": "APNG Maker - Convert Video to APNG Online",
+    "description": "Free online tool to convert a video into an animated APNG image, with adjustable frame rate and width and lossless quality.",
+    "category": "Video Tools"
+   },
+   "title": "APNG Maker",
+   "description": "Convert a video into an animated APNG image. APNG is based on the lossless PNG format, supports transparency and infinite looping, and suits scenarios that need lossless quality.",
+   "category": "Video Tools",
+   "keywords": [
+    "apng",
+    "apng maker",
+    "video to apng",
+    "animated png",
+    "create apng",
+    "apng animation"
+   ],
+   "faqs": [
+    {
+     "question": "What is the difference between APNG and GIF?",
+     "answer": "APNG is lossless and supports full 24-bit color and per-pixel transparency, with far better quality than GIF — but files are larger and compatibility is slightly lower."
+    },
+    {
+     "question": "Will the generated APNG loop automatically?",
+     "answer": "Yes. It loops infinitely by default and can be previewed directly in the browser."
+    },
+    {
+     "question": "Why is my file so large?",
+     "answer": "APNG uses lossless compression, so more frames and higher resolutions mean bigger files. Try lowering the frame rate or reducing the width."
+    },
+    {
+     "question": "How long does the conversion take?",
+     "answer": "The first run downloads the ~30MB FFmpeg engine (cached afterwards); then conversion speed depends on the video's length and resolution."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Animated WebP",
+     "href": "/tools/animated-webp"
+    },
+    {
+     "name": "Video to GIF Converter",
+     "href": "/tools/video-to-gif"
+    },
+    {
+     "name": "Image to GIF Maker",
+     "href": "/tools/image-to-gif"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a video or click to upload",
+    "formats": "MP4, WebM, MOV, AVI"
+   },
+   "labels": {
+    "fps": "Frame Rate",
+    "width": "Width",
+    "note": "APNG is a lossless format, so files can be large. Try lowering the frame rate or reducing the size."
+   },
+   "buttons": {
+    "convert": "Convert",
+    "newVideo": "New Video",
+    "download": "Download"
+   },
+   "status": {
+    "processing": "Converting…",
+    "converting": "Encoding APNG…",
+    "finishing": "Generating file…",
+    "progress": "Progress",
+    "keepOpen": "Keep this page open — all processing happens locally in your browser."
+   },
+   "errors": {
+    "prefix": "Conversion failed:",
+    "empty": "The output file is empty. Please check your input video."
+   },
+   "result": {
+    "original": "Original",
+    "converted": "Converted"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is APNG?",
+     "body": [
+      "APNG (Animated PNG) is an animation extension of the PNG format. It stores frames losslessly and supports transparency and infinite looping.",
+      "This tool encodes everything locally in your browser via FFmpeg WebAssembly — no need to upload your video."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Convert in three steps:",
+     "items": [
+      "Upload a video (MP4, WebM, MOV, AVI, etc.).",
+      "Set the frame rate and output width.",
+      "Click Convert, then download your animated APNG."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "APNG suits icon animations and motion graphics that need transparent backgrounds.",
+      "Keep the frame rate at 15 or below to avoid oversized files.",
+      "Switch to the Animated WebP tool when you need a smaller file."
+     ]
+    }
+   }
+  },
+  "video-thumbnail": {
+   "metadata": {
+    "title": "Video Thumbnail - Generate a Video Thumbnail Grid Online",
+    "description": "Free online tool to generate a thumbnail grid (contact sheet) from a video, with customizable rows, columns, thumbnail width, and timestamps.",
+    "category": "Video Tools"
+   },
+   "title": "Video Thumbnail",
+   "description": "Automatically capture multiple frames from a video and combine them into a single thumbnail grid (contact sheet), with customizable rows, columns, thumbnail width, and optional per-frame timestamps.",
+   "category": "Video Tools",
+   "keywords": [
+    "video thumbnail",
+    "video screenshot",
+    "thumbnail grid",
+    "contact sheet",
+    "video preview",
+    "video thumbnail generator"
+   ],
+   "faqs": [
+    {
+     "question": "What is a thumbnail grid?",
+     "answer": "A thumbnail grid (contact sheet) arranges multiple frames of a video into rows and columns on a single image, so you can quickly overview the video's content."
+    },
+    {
+     "question": "How are the frames selected?",
+     "answer": "Frames are distributed evenly across the whole video. For example, 3 rows × 4 columns gives 12 frames captured at equal intervals from start to finish."
+    },
+    {
+     "question": "Can timestamps be displayed?",
+     "answer": "Yes. When Show Timestamps is enabled, each frame is labeled with its time position (minutes:seconds) in the video."
+    },
+    {
+     "question": "What format is the generated image?",
+     "answer": "The output is a PNG image whose dimensions depend on the rows, columns, and thumbnail width. Download it for use as a video cover or index page."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Frame Extractor",
+     "href": "/tools/video-frame-extractor"
+    },
+    {
+     "name": "Video to GIF Converter",
+     "href": "/tools/video-to-gif"
+    },
+    {
+     "name": "Video Converter",
+     "href": "/tools/video-converter"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a video or click to upload",
+    "formats": "MP4, WebM, MOV, AVI"
+   },
+   "labels": {
+    "rows": "Rows",
+    "cols": "Columns",
+    "thumbWidth": "Thumbnail Width",
+    "showTime": "Show Timestamps"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "download": "Download",
+    "newVideo": "New Video"
+   },
+   "status": {
+    "processing": "Generating…"
+   },
+   "errors": {
+    "process": "Generation failed. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Video Thumbnail?",
+     "body": [
+      "The Video Thumbnail tool captures multiple frames from a video and merges them into one large grid image, commonly used for video covers, index pages, or content overviews.",
+      "All frame capture and compositing happens locally in your browser."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Generate a thumbnail grid in three steps:",
+     "items": [
+      "Upload a video (MP4, WebM, MOV, AVI, etc.).",
+      "Set the number of rows, columns, and thumbnail width; enable timestamps if needed.",
+      "Click Generate to preview, then download the PNG image."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "3 rows × 4 columns (12 frames) suits most videos.",
+      "Enabling timestamps helps you quickly locate the shot you're looking for.",
+      "Not happy with the layout? Adjust the rows and columns and generate again."
+     ]
+    }
+   }
+  },
+  "video-to-images": {
+   "metadata": {
+    "title": "Video to Images - Online Video Frame Extractor",
+    "description": "Free online tool to extract frames from videos at set intervals and convert them to PNG/JPEG/WebP and more, supporting 20+ video formats like MKV, AVI, and FLV.",
+    "category": "Video Tools"
+   },
+   "title": "Video to Images",
+   "description": "Extract frames from a video at fixed time intervals and save them as PNG, JPEG, WebP, BMP, or TIFF. Powered by FFmpeg WebAssembly, it supports 20+ video container formats including MKV, AVI, FLV, and TS, all processed locally in your browser.",
+   "category": "Video Tools",
+   "keywords": [
+    "video frame extraction",
+    "video to images",
+    "extract video frames",
+    "mkv to image",
+    "avi to png",
+    "video to image converter",
+    "video snapshots"
+   ],
+   "faqs": [
+    {
+     "question": "Which video formats are supported?",
+     "answer": "Based on FFmpeg decoding, it supports 20+ container formats including MP4, MKV, AVI, MOV, FLV, WebM, M2TS, TS, OGV, MXF, 3GP, WMV, and VOB."
+    },
+    {
+     "question": "Which image formats can I export?",
+     "answer": "Five formats are supported: PNG, JPEG, WebP, BMP, and TIFF. PNG is lossless and great for assets; JPEG is smaller for quick previews."
+    },
+    {
+     "question": "How do I set the extraction interval?",
+     "answer": "The interval is how many seconds between each extracted frame. Smaller intervals give more frames for smoother coverage; larger intervals use less storage. To protect memory, a maximum of 150 frames can be extracted at once."
+    },
+    {
+     "question": "Are videos uploaded to a server?",
+     "answer": "No. Videos are decoded locally in your browser with FFmpeg WebAssembly and never leave your device. First use downloads an ~30MB engine (cached afterwards)."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Frame Extractor",
+     "href": "/tools/video-frame-extractor"
+    },
+    {
+     "name": "Video Thumbnail",
+     "href": "/tools/video-thumbnail"
+    },
+    {
+     "name": "Video to GIF",
+     "href": "/tools/video-to-gif"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a video or click to upload",
+    "formats": "MP4, MKV, AVI, MOV, FLV, TS and 20+ more"
+   },
+   "labels": {
+    "interval": "Extraction interval",
+    "intervalValue": "1 frame every {seconds} seconds",
+    "format": "Output format",
+    "scale": "Output width"
+   },
+   "scaleOptions": {
+    "original": "Original size"
+   },
+   "buttons": {
+    "extract": "Extract frames",
+    "newVideo": "New video",
+    "clear": "Clear",
+    "downloadAll": "Download ZIP",
+    "download": "Download",
+    "back": "Back to settings"
+   },
+   "status": {
+    "title": "Processing",
+    "loading": "Loading FFmpeg engine…",
+    "extracting": "Extracting frames…",
+    "progress": "Progress",
+    "keepOpen": "Keep this page open — everything is processed locally in your browser."
+   },
+   "errors": {
+    "prefix": "Extraction failed: ",
+    "tooManyFrames": "Frame count exceeds the {count} frame limit; increase the extraction interval and try again.",
+    "noFrames": "No frames were extracted; check whether the video can be decoded."
+   },
+   "info": {
+    "frames": "{count} frames extracted",
+    "previewNote": "Only the first 12 frames are previewed; all frames are included in the ZIP download."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is video frame extraction?",
+     "body": [
+      "Video frame extraction captures still images from a video at fixed time intervals, commonly used for asset gathering, content previews, and video analysis.",
+      "Powered by FFmpeg WebAssembly, this tool can decode formats like MKV and AVI that browsers cannot play directly, and batch-export them to multiple image formats."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Three steps to extract frames:",
+     "items": [
+      "Upload a video (MP4, MKV, AVI, FLV and 20+ more).",
+      "Set the extraction interval, output format, and width.",
+      "Click \"Extract frames\", preview, then download all frames as a ZIP."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "A 1-second interval with 1280px width is a good balance for most cases.",
+      "For smaller files, prefer JPEG or WebP.",
+      "For very long videos, increase the interval to stay under the 150-frame limit."
+     ]
+    }
+   }
+  },
+  "pdf-long-image": {
+   "metadata": {
+    "title": "PDF to Long Image - Combine PDF Pages into One Image",
+    "description": "Free online tool to merge all pages of a PDF into one vertical long image, with adjustable sharpness and output format. No upload required.",
+    "category": "Utility"
+   },
+   "title": "PDF to Long Image",
+   "description": "Merge all pages of a PDF into a single vertical long image for continuous reading and sharing. Choose sharpness (1x-3x) and PNG/JPEG output; everything is processed locally in your browser.",
+   "category": "Utility",
+   "keywords": [
+    "pdf to long image",
+    "pdf to one image",
+    "combine pdf into image",
+    "pdf long image",
+    "merge pdf pages into one image",
+    "pdf to image"
+   ],
+   "faqs": [
+    {
+     "question": "What is a long image?",
+     "answer": "A long image stitches every page of a PDF vertically into one complete picture for continuous reading, ideal for sharing on social platforms or archiving."
+    },
+    {
+     "question": "How do I choose the sharpness?",
+     "answer": "Sharpness is the render scale: 1x is smallest, 3x is sharpest. Very large images may hit browser canvas limits; lower the scale in that case."
+    },
+    {
+     "question": "PNG or JPEG?",
+     "answer": "PNG is lossless with crisp text but larger; JPEG is smaller and suits big documents. Use JPEG for regular documents and PNG for documents with screenshots."
+    },
+    {
+     "question": "Is the document uploaded to a server?",
+     "answer": "No. The PDF is rendered and merged locally with pdf.js in your browser and never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "PDF to JPG",
+     "href": "/tools/pdf-to-jpg"
+    },
+    {
+     "name": "Image Stitcher",
+     "href": "/tools/image-stitcher"
+    },
+    {
+     "name": "Compress PDF",
+     "href": "/tools/compress-pdf"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a PDF or click to upload",
+    "formats": "PDF documents"
+   },
+   "labels": {
+    "format": "Output format",
+    "scale": "Sharpness"
+   },
+   "buttons": {
+    "convert": "Generate long image",
+    "clear": "Clear",
+    "download": "Download",
+    "newFile": "New file"
+   },
+   "status": {
+    "title": "Generating",
+    "rendering": "Rendering page {current}/{total}…",
+    "finishing": "Combining long image…",
+    "progress": "Progress",
+    "keepOpen": "Keep this page open — everything is processed locally in your browser."
+   },
+   "errors": {
+    "tooLarge": "The image is too large for your browser; lower the sharpness and try again.",
+    "tooSide": "The long image exceeds browser canvas limits; lower the sharpness and try again.",
+    "empty": "The result is empty; check your PDF file."
+   },
+   "info": {
+    "dimensions": "{width}×{height}px"
+   },
+   "units": {
+    "kb": "{size} KB",
+    "mb": "{size} MB"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a PDF long image?",
+     "body": [
+      "A PDF long image stitches every page vertically into one large picture for quick full-document previews, social sharing, or archiving.",
+      "This tool renders and combines pages locally with pdf.js; no upload required."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Three steps to create a long image:",
+     "items": [
+      "Upload a PDF document.",
+      "Choose the output format and sharpness.",
+      "Click \"Generate long image\", preview, then download."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "For large multi-page documents use JPEG to keep the file smaller.",
+      "Long image height is limited by the browser; lower sharpness for very large files.",
+      "To export pages individually, use the \"PDF to JPG\" tool instead."
+     ]
+    }
+   }
+  },
+  "image-stitcher": {
+   "metadata": {
+    "title": "Image Stitcher - Stitch Multiple Images Online",
+    "description": "Free online tool to stitch multiple images into a long image, with vertical or horizontal layouts and center or stretch alignment. No upload required.",
+    "category": "Image Tools"
+   },
+   "title": "Image Stitcher",
+   "description": "Stitch multiple images into one long image with vertical or horizontal direction, center or stretch alignment, and selectable background color and output format. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "image stitcher",
+    "stitch images",
+    "merge images into long image",
+    "vertical image merge",
+    "combine pictures",
+    "long image maker"
+   ],
+   "faqs": [
+    {
+     "question": "How many images can I stitch?",
+     "answer": "Up to 20 images. You can reorder or remove any image in the list and re-stitch."
+    },
+    {
+     "question": "How are images with different sizes handled?",
+     "answer": "Center mode keeps each image's original aspect ratio centered; stretch mode stretches images to the alignment width (vertical) or height (horizontal)."
+    },
+    {
+     "question": "How do I use a transparent background?",
+     "answer": "Choose the transparent background and export PNG to keep transparency; JPEG does not support transparency and will use a white background automatically."
+    },
+    {
+     "question": "The result is too large. What can I do?",
+     "answer": "Lower the scale (e.g. 50%) or switch to JPEG output to reduce the final file size and canvas dimensions."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "PDF to Long Image",
+     "href": "/tools/pdf-long-image"
+    },
+    {
+     "name": "Image to PDF",
+     "href": "/tools/jpg-to-pdf-converter"
+    },
+    {
+     "name": "Compress Image",
+     "href": "/tools/image-compressor"
+    }
+   ],
+   "upload": {
+    "drop": "Drop multiple images or click to upload",
+    "formats": "PNG, JPG, WebP and more; select multiple at once"
+   },
+   "labels": {
+    "direction": "Direction",
+    "align": "Alignment",
+    "bg": "Background",
+    "scale": "Scale",
+    "format": "Output format"
+   },
+   "directions": {
+    "vertical": "Vertical",
+    "horizontal": "Horizontal"
+   },
+   "aligns": {
+    "center": "Center",
+    "stretch": "Stretch"
+   },
+   "backgrounds": {
+    "white": "White",
+    "black": "Black",
+    "transparent": "Transparent"
+   },
+   "buttons": {
+    "stitch": "Stitch",
+    "processing": "Stitching…",
+    "download": "Download",
+    "clear": "Clear"
+   },
+   "errors": {
+    "minimum": "Please add at least two images.",
+    "tooSide": "The result exceeds browser canvas limits; lower the scale.",
+    "tooLarge": "The result is too large; lower the scale or remove images.",
+    "process": "Stitching failed, please try again."
+   },
+   "info": {
+    "count": "{count} images added",
+    "dimensions": "{width}×{height}px"
+   },
+   "units": {
+    "kb": "{size} KB",
+    "mb": "{size} MB"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is image stitching?",
+     "body": [
+      "Image stitching merges multiple images into one long image, commonly used for chat screenshot compilations, long screenshots, document collection, and content layouts.",
+      "The tool supports vertical and horizontal directions with center and stretch alignment."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Three steps to stitch images:",
+     "items": [
+      "Drop or select multiple images; reorder them in the list as needed.",
+      "Set the direction, alignment, background, scale, and format.",
+      "Click \"Stitch\" to preview, then download the result."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The stitch order matches the list order; move items up or down anytime.",
+      "For screenshots, use center mode to avoid aspect-ratio distortion.",
+      "For very large sets, lower the scale before stitching."
+     ]
+    }
+   }
+  },
+  "pdf-to-jpg": {
+   "metadata": {
+    "title": "PDF to JPG - Convert Every PDF Page to JPG Online",
+    "description": "Free online tool to convert every page of a PDF document to JPG images, with adjustable quality and ZIP download. No upload required.",
+    "category": "Utility"
+   },
+   "title": "PDF to JPG",
+   "description": "Convert every page of a PDF document to JPG images. Adjustable quality (1x-3x) — all conversion happens locally in your browser, so files are never uploaded to a server.",
+   "category": "Utility",
+   "keywords": [
+    "PDF to JPG",
+    "PDF to image",
+    "PDF to JPEG",
+    "PDF page to image",
+    "pdf to jpg",
+    "extract images from PDF"
+   ],
+   "faqs": [
+    {
+     "question": "Are the converted images sharp?",
+     "answer": "Quality can be set from 1x to 3x. The 3x output produces higher-resolution images that are great for printing or enlarging, but the file size is also larger."
+    },
+    {
+     "question": "Can I convert an entire PDF at once?",
+     "answer": "Yes. The tool automatically converts every page to an image, shows them in a grid, and lets you download them one by one or package them all as a ZIP file."
+    },
+    {
+     "question": "Is the PDF uploaded to a server?",
+     "answer": "No. The conversion happens entirely in your browser — your PDF never leaves your device."
+    },
+    {
+     "question": "Can scanned PDFs be converted too?",
+     "answer": "Yes. Every page of a scanned PDF is rendered to an image, so the output reflects exactly what's on each scanned page."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "PDF to PNG",
+     "href": "/tools/pdf-to-png"
+    },
+    {
+     "name": "DOCX to JPG",
+     "href": "/tools/docx-to-jpg"
+    },
+    {
+     "name": "JPG to PDF",
+     "href": "/tools/jpg-to-pdf-converter"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a PDF or click to upload",
+    "formats": "PDF"
+   },
+   "labels": {
+    "scale": "Quality"
+   },
+   "buttons": {
+    "convert": "Convert",
+    "downloadAll": "Download All (ZIP)",
+    "download": "Download",
+    "clear": "Choose Again"
+   },
+   "status": {
+    "title": "Converting",
+    "converting": "Converting page {current}/{total}…",
+    "finishing": "Generating preview…",
+    "progress": "Progress",
+    "keepOpen": "Keep this page open"
+   },
+   "errors": {
+    "generic": "Conversion failed: {message}"
+   },
+   "info": {
+    "pages": "{count} page images"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is PDF to JPG?",
+     "body": [
+      "PDF to JPG renders every page of a PDF document as a JPG image — handy for sharing, adding to slides, creating assets, or printing single pages.",
+      "The tool renders pages locally in your browser, so conversion is fast and your document never leaves your device."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Convert a PDF in three steps:",
+     "items": [
+      "Upload a PDF file.",
+      "Choose the output quality (1x-3x).",
+      "Click Convert, preview the result, then download images one by one or as a ZIP file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The default 2x quality fits most use cases.",
+      "JPG files are small, making them ideal for sharing online; use PNG if you need a transparent background.",
+      "For multi-page documents, use Download All (ZIP) to export every page at once."
+     ]
+    }
+   }
+  },
+  "pdf-to-png": {
+   "metadata": {
+    "title": "PDF to PNG - Convert Every PDF Page to PNG Online",
+    "description": "Free online tool to convert every page of a PDF document to PNG images, with adjustable quality and ZIP download. No upload required.",
+    "category": "Utility"
+   },
+   "title": "PDF to PNG",
+   "description": "Convert every page of a PDF document to PNG images. Adjustable quality (1x-3x) — all conversion happens locally in your browser, so files are never uploaded to a server.",
+   "category": "Utility",
+   "keywords": [
+    "PDF to PNG",
+    "PDF to image",
+    "PDF page to PNG",
+    "pdf to png",
+    "extract images from PDF",
+    "PDF to transparent background"
+   ],
+   "faqs": [
+    {
+     "question": "What's the difference between PNG and JPG?",
+     "answer": "PNG is a lossless format: images are sharper and support transparency, but file sizes are larger. JPG files are smaller and better for sharing online."
+    },
+    {
+     "question": "Are the converted images sharp?",
+     "answer": "Quality can be set from 1x to 3x. The 3x output produces higher-resolution images that are great for printing or enlarging, but the file size is also larger."
+    },
+    {
+     "question": "Can I convert an entire PDF at once?",
+     "answer": "Yes. The tool automatically converts every page to an image, shows them in a grid, and lets you download them one by one or package them all as a ZIP file."
+    },
+    {
+     "question": "Is the PDF uploaded to a server?",
+     "answer": "No. The conversion happens entirely in your browser — your PDF never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "PDF to JPG",
+     "href": "/tools/pdf-to-jpg"
+    },
+    {
+     "name": "DOCX to PNG",
+     "href": "/tools/docx-to-png"
+    },
+    {
+     "name": "PNG to PDF",
+     "href": "/tools/png-to-pdf-converter"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a PDF or click to upload",
+    "formats": "PDF"
+   },
+   "labels": {
+    "scale": "Quality"
+   },
+   "buttons": {
+    "convert": "Convert",
+    "downloadAll": "Download All (ZIP)",
+    "download": "Download",
+    "clear": "Choose Again"
+   },
+   "status": {
+    "title": "Converting",
+    "converting": "Converting page {current}/{total}…",
+    "finishing": "Generating preview…",
+    "progress": "Progress",
+    "keepOpen": "Keep this page open"
+   },
+   "errors": {
+    "generic": "Conversion failed: {message}"
+   },
+   "info": {
+    "pages": "{count} page images"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is PDF to PNG?",
+     "body": [
+      "PDF to PNG renders every page of a PDF document as a PNG image — a lossless output that suits high-quality assets or transparent backgrounds.",
+      "The tool renders pages locally in your browser, so conversion is fast and your document never leaves your device."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Convert a PDF in three steps:",
+     "items": [
+      "Upload a PDF file.",
+      "Choose the output quality (1x-3x).",
+      "Click Convert, preview the result, then download images one by one or as a ZIP file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The default 2x quality fits most use cases.",
+      "PNG is lossless and preserves sharp text edges.",
+      "For multi-page documents, use Download All (ZIP) to export every page at once."
+     ]
+    }
+   }
+  },
+  "docx-to-jpg": {
+   "metadata": {
+    "title": "DOCX to JPG - Convert Every Word Page to JPG Online",
+    "description": "Free online tool to convert every page of a Word document to JPG images, with adjustable quality and ZIP download. No upload required.",
+    "category": "Utility"
+   },
+   "title": "DOCX to JPG",
+   "description": "Convert every page of a Word (DOCX) document to JPG images. Adjustable quality (1x-3x) — rendered locally in your browser, so files are never uploaded to a server.",
+   "category": "Utility",
+   "keywords": [
+    "DOCX to JPG",
+    "Word to JPG",
+    "Word to image",
+    "docx to image",
+    "docx to jpg",
+    "convert Word document to image"
+   ],
+   "faqs": [
+    {
+     "question": "How is a Word document converted to images?",
+     "answer": "The tool renders the document in your browser following Word's layout, splits it into pages, and saves each page as a JPG image with the layout close to the original."
+    },
+    {
+     "question": "Which Word formats are supported?",
+     "answer": ".docx is supported (Word 2007 and later). For older .doc files, save them as .docx in Word first before converting."
+    },
+    {
+     "question": "Will the result look identical to the original document?",
+     "answer": "The tool makes every effort to preserve the layout, including fonts, tables, and images; complex layouts may show minor differences."
+    },
+    {
+     "question": "Is the document uploaded to a server?",
+     "answer": "No. The conversion happens entirely in your browser — your document never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "DOCX to PNG",
+     "href": "/tools/docx-to-png"
+    },
+    {
+     "name": "PDF to JPG",
+     "href": "/tools/pdf-to-jpg"
+    },
+    {
+     "name": "Document Converter",
+     "href": "/tools/document-converter"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a DOCX or click to upload",
+    "formats": "DOCX"
+   },
+   "labels": {
+    "scale": "Quality"
+   },
+   "buttons": {
+    "convert": "Convert",
+    "downloadAll": "Download All (ZIP)",
+    "download": "Download",
+    "clear": "Choose Again"
+   },
+   "status": {
+    "title": "Converting",
+    "converting": "Converting page {current}/{total}…",
+    "finishing": "Generating preview…",
+    "progress": "Progress",
+    "keepOpen": "Keep this page open"
+   },
+   "errors": {
+    "generic": "Conversion failed: {message}"
+   },
+   "info": {
+    "pages": "{count} page images"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is DOCX to JPG?",
+     "body": [
+      "DOCX to JPG renders every page of a Word document as a JPG image — handy for sharing document screenshots, adding to slides, or creating assets.",
+      "The tool renders and paginates locally in your browser, keeping the layout close to the original without uploading anything."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Convert a Word document in three steps:",
+     "items": [
+      "Upload a .docx file.",
+      "Choose the output quality (1x-3x).",
+      "Click Convert, preview the result, then download images one by one or as a ZIP file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The default 2x quality fits most use cases.",
+      "JPG files are small, making them ideal for sharing online; use PNG if you need a transparent background.",
+      "For multi-page documents, use Download All (ZIP) to export every page at once."
+     ]
+    }
+   }
+  },
+  "docx-to-png": {
+   "metadata": {
+    "title": "DOCX to PNG - Convert Every Word Page to PNG Online",
+    "description": "Free online tool to convert every page of a Word document to PNG images, with adjustable quality and ZIP download. No upload required.",
+    "category": "Utility"
+   },
+   "title": "DOCX to PNG",
+   "description": "Convert every page of a Word (DOCX) document to PNG images. Adjustable quality (1x-3x) — rendered locally in your browser, so files are never uploaded to a server.",
+   "category": "Utility",
+   "keywords": [
+    "DOCX to PNG",
+    "Word to PNG",
+    "Word to image",
+    "docx to image",
+    "docx to png",
+    "convert Word document to image"
+   ],
+   "faqs": [
+    {
+     "question": "How is a Word document converted to images?",
+     "answer": "The tool renders the document in your browser following Word's layout, splits it into pages, and saves each page as a PNG image with the layout close to the original."
+    },
+    {
+     "question": "Which Word formats are supported?",
+     "answer": ".docx is supported (Word 2007 and later). For older .doc files, save them as .docx in Word first before converting."
+    },
+    {
+     "question": "What's the difference between PNG and JPG?",
+     "answer": "PNG is a lossless format: images are sharper and support transparency, but file sizes are larger. JPG files are smaller and better for sharing online."
+    },
+    {
+     "question": "Is the document uploaded to a server?",
+     "answer": "No. The conversion happens entirely in your browser — your document never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "DOCX to JPG",
+     "href": "/tools/docx-to-jpg"
+    },
+    {
+     "name": "PDF to PNG",
+     "href": "/tools/pdf-to-png"
+    },
+    {
+     "name": "Document Converter",
+     "href": "/tools/document-converter"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a DOCX or click to upload",
+    "formats": "DOCX"
+   },
+   "labels": {
+    "scale": "Quality"
+   },
+   "buttons": {
+    "convert": "Convert",
+    "downloadAll": "Download All (ZIP)",
+    "download": "Download",
+    "clear": "Choose Again"
+   },
+   "status": {
+    "title": "Converting",
+    "converting": "Converting page {current}/{total}…",
+    "finishing": "Generating preview…",
+    "progress": "Progress",
+    "keepOpen": "Keep this page open"
+   },
+   "errors": {
+    "generic": "Conversion failed: {message}"
+   },
+   "info": {
+    "pages": "{count} page images"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is DOCX to PNG?",
+     "body": [
+      "DOCX to PNG renders every page of a Word document as a PNG image — a lossless output that suits high-quality assets or transparent backgrounds.",
+      "The tool renders and paginates locally in your browser, keeping the layout close to the original without uploading anything."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Convert a Word document in three steps:",
+     "items": [
+      "Upload a .docx file.",
+      "Choose the output quality (1x-3x).",
+      "Click Convert, preview the result, then download images one by one or as a ZIP file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The default 2x quality fits most use cases.",
+      "PNG is lossless and preserves sharp text edges.",
+      "For multi-page documents, use Download All (ZIP) to export every page at once."
+     ]
+    }
+   }
+  }
+ }
+}

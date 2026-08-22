@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/mean-median-mode-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/mean-median-mode-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/mean-median-mode-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/mean-median-mode-calculator`,
       },
     },
   };

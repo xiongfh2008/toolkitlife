@@ -1,0 +1,2282 @@
+{
+ "tools": {
+  "dividend-calculator": {
+   "metadata": {
+    "title": "Dividend Calculator",
+    "description": "Calculate dividend income, project growth with reinvestment and recurring contributions.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "dividend calculator",
+    "dividend income calculator",
+    "dividend yield calculator",
+    "dividend reinvestment calculator",
+    "DRIP calculator",
+    "dividend snowball",
+    "dividend income goal",
+    "stock dividend lookup"
+   ],
+   "faqs": [
+    {
+     "question": "What is dividend yield?",
+     "answer": "Dividend yield is the annual dividend per share divided by the stock price, expressed as a percentage. For example, a $50 stock paying a $2 annual dividend has a 4% yield (2 ÷ 50 × 100)."
+    },
+    {
+     "question": "How does dividend reinvestment work?",
+     "answer": "A DRIP (Dividend Reinvestment Plan) automatically uses your dividends to buy more shares, usually commission-free. This accelerates growth through compounding - your dividends buy more shares, which then generate more dividends."
+    },
+    {
+     "question": "How are dividends taxed?",
+     "answer": "Qualified dividends are taxed at the lower long-term capital gains rates (0%, 15%, or 20%). Non-qualified dividends are taxed at your ordinary income rate. The stock must be held for more than 60 days during the ex-dividend period to qualify for qualified treatment."
+    },
+    {
+     "question": "Is a higher dividend yield always better?",
+     "answer": "No. Unusually high yields (>8%) may signal a falling stock price or unsustainable dividends. Sustainable yields typically fall in the 2-6% range. Check the payout ratio - dividends paying out more than 60-70% of earnings may be at risk."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Stock Profit Calculator",
+     "href": "/tools/stock-profit-calculator"
+    }
+   ],
+   "labels": {
+    "shares": "Shares",
+    "dividendPerShare": "Dividend per Share",
+    "frequency": "Frequency",
+    "annualIncome": "Annual Income",
+    "monthlyIncome": "Monthly Income",
+    "perPeriod": "Amount per Period"
+   },
+   "options": {
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "semiannually": "Semiannually",
+    "annually": "Annually"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Dividend Calculator?",
+     "body": [
+      "Calculate dividend income, look up stock yields by ticker, project growth with DRIP reinvestment, visualize your dividend snowball, and plan toward income goals with tax-adjusted estimates."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the dividend calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate dividend income, reinvestment, and long-term growth."
+  },
+  "calorie-burn-calculator": {
+   "metadata": {
+    "title": "Calorie Burn Calculator",
+    "description": "Estimate calories burned during various exercises based on activity duration and weight.",
+    "category": "Health"
+   },
+   "keywords": [
+    "calorie burn calculator",
+    "calories burned calculator",
+    "activity calorie calculator",
+    "exercise calculator",
+    "calorie consumption"
+   ],
+   "faqs": [
+    {
+     "question": "How are calories burned calculated?",
+     "answer": "Calories burned are estimated using MET (Metabolic Equivalent of Task) values, which represent the energy cost of an activity. The formula is: Calories = MET × weight (kg) × time (hours)."
+    },
+    {
+     "question": "Which activities burn the most calories?",
+     "answer": "High-intensity activities such as running, jump rope, and HIIT burn the most calories per minute. However, the best activity is one you can sustain consistently."
+    },
+    {
+     "question": "Are calorie burn estimates accurate?",
+     "answer": "These are estimates based on average MET values. Individual variation exists due to differences in fitness level, efficiency, and body composition. Use these numbers to track trends rather than absolute accuracy."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    }
+   ],
+   "labels": {
+    "activity": "Activity",
+    "duration": "Duration",
+    "minutes": "minutes",
+    "weight": "Weight",
+    "caloriesBurned": "Calories Burned",
+    "kcal": "kcal",
+    "activityLabel": "Activity"
+   },
+   "options": {
+    "kg": "kg",
+    "lbs": "lbs"
+   },
+   "activities": {
+    "walking": "Walking",
+    "running": "Running",
+    "cycling": "Cycling",
+    "swimming": "Swimming",
+    "yoga": "Yoga",
+    "weightlifting": "Weightlifting",
+    "hiit": "HIIT",
+    "hiking": "Hiking",
+    "jumpingRope": "Jump Rope",
+    "elliptical": "Elliptical"
+   },
+   "description": "Estimate calories burned during various activities based on duration and weight.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Calorie Burn Calculator?",
+     "body": [
+      "Estimate calories burned during various activities based on duration and weight.",
+      "Compare different exercises and their calorie consumption."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Calories Burned",
+     "intro": "Follow these steps:",
+     "items": [
+      "Select your preferred unit system.",
+      "Enter your weight.",
+      "Choose an activity.",
+      "Enter the duration.",
+      "Click calculate to see calories burned."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use this calculator to compare different activities.",
+      "Combine with calorie tracking for weight management.",
+      "Choose activities you enjoy for consistency."
+     ]
+    }
+   }
+  },
+  "fire-calculator": {
+   "metadata": {
+    "title": "FIRE Calculator",
+    "description": "Calculate your Financial Independence number and years needed for early retirement.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "fire calculator",
+    "financial independence calculator",
+    "retire early calculator",
+    "fire number calculator",
+    "early retirement calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is the FIRE movement?",
+     "answer": "FIRE (Financial Independence, Retire Early) is a movement focused on retiring before the traditional retirement age through aggressive saving and investing. A typical goal is accumulating 25 times your annual expenses in net worth."
+    },
+    {
+     "question": "What is the 4% rule?",
+     "answer": "The 4% rule suggests you can withdraw 4% of your portfolio in the first year of retirement, then adjust that amount for inflation each year, with a very low probability of running out of money. 25 times your annual expenses achieves this."
+    },
+    {
+     "question": "How much do I need to FIRE?",
+     "answer": "Multiply your annual expenses by 25. If you spend $40,000 per year, you need $1 million (40,000 × 25). This assumes a 4% safe withdrawal rate based on historical market returns."
+    },
+    {
+     "question": "What is the difference between Lean FIRE and Fat FIRE?",
+     "answer": "Lean FIRE targets minimal expenses (typically under $40,000 per year), requiring less savings but a tighter budget. Fat FIRE targets luxurious spending (over $100,000 per year), requiring a larger portfolio ($2.5 million+)."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    },
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    },
+    {
+     "name": "401(k) Calculator",
+     "href": "/tools/401k-calculator"
+    }
+   ],
+   "labels": {
+    "currentSavings": "Current Savings",
+    "annualExpenses": "Annual Expenses",
+    "expectedReturn": "Expected Annual Return (%)",
+    "fireNumber": "FIRE Number",
+    "yearsToFi": "Years to Financial Independence",
+    "years": "years",
+    "never": "Not achievable with current savings"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a FIRE Calculator?",
+     "body": [
+      "Calculate your Financial Independence, Retire Early (FIRE) number. See how long until you can retire based on savings rate and investments."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the FIRE calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Plan your Financial Independence, Retire Early (FIRE) path."
+  },
+  "vat-calculator": {
+   "metadata": {
+    "title": "VAT Calculator",
+    "description": "Calculate Value Added Tax, add tax or extract it from the total price, with country rate presets.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "vat calculator",
+    "value added tax calculator",
+    "vat calculator uk",
+    "vat calculator online",
+    "calculate vat"
+   ],
+   "faqs": [
+    {
+     "question": "What is VAT?",
+     "answer": "VAT (Value Added Tax) is a consumption tax levied on the value added to goods or services at each stage of the supply chain. It is ultimately borne by the end consumer, and businesses remit it to the government."
+    },
+    {
+     "question": "How do I calculate the gross price from a net price?",
+     "answer": "Gross price = Net price × (1 + VAT rate). If the net price is $100 and VAT is 20%: gross price = 100 × 1.20 = $120."
+    },
+    {
+     "question": "How do I extract the net price from a gross price?",
+     "answer": "Net price = Gross price ÷ (1 + VAT rate). If the gross price is $120 and VAT is 20%: net price = 120 ÷ 1.20 = $100."
+    },
+    {
+     "question": "What is the difference between VAT and GST?",
+     "answer": "GST (Goods and Services Tax) is a single-stage tax collected at the point of final sale. VAT is a multi-stage tax collected at each stage of the supply chain, with credits along the way. Both function similarly but differ in structure."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Sales Tax Calculator",
+     "href": "/tools/sales-tax-calculator"
+    },
+    {
+     "name": "Discount Calculator",
+     "href": "/tools/discount-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    }
+   ],
+   "labels": {
+    "netAmount": "Net Amount",
+    "grossAmount": "Gross Amount",
+    "vatRate": "VAT Rate (%)",
+    "vatAmount": "VAT Amount",
+    "amount": "Amount",
+    "mode": "Mode"
+   },
+   "buttons": {
+    "calculate": "Calculate",
+    "copy": "Copy"
+   },
+   "options": {
+    "exclusive": "Add VAT",
+    "inclusive": "Extract VAT"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a VAT Calculator?",
+     "body": [
+      "Calculate Value Added Tax (VAT). Add VAT to a net price or extract VAT from a gross price. Country rate presets included."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the VAT calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate Value Added Tax (VAT), net and gross prices."
+  },
+  "break-even-calculator": {
+   "metadata": {
+    "title": "Break Even Calculator",
+    "description": "Calculate the break-even point - the number of units needed to cover fixed and variable costs.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "break even calculator",
+    "breakeven calculator",
+    "break even analysis",
+    "break even point calculator",
+    "breakeven analysis"
+   ],
+   "faqs": [
+    {
+     "question": "What is the break-even point?",
+     "answer": "The break-even point is where total revenue equals total costs - no profit and no loss. Above it, the business is profitable; below it, the business loses money."
+    },
+    {
+     "question": "How do I calculate the break-even point (in units)?",
+     "answer": "Break-even units = Fixed costs ÷ (Selling price - Variable cost per unit). If fixed costs are $10,000, the selling price is $50, and variable costs are $30: break-even = 10,000 ÷ (50 - 30) = 500 units."
+    },
+    {
+     "question": "What is the difference between fixed and variable costs?",
+     "answer": "Fixed costs do not change with production levels (rent, insurance, salaries). Variable costs change with production (raw materials, direct labor, shipping). Identifying both is essential for an accurate break-even analysis."
+    },
+    {
+     "question": "Why is break-even analysis important?",
+     "answer": "It tells you how much you need to sell to start making a profit, informing pricing, cost control, and business planning. It helps evaluate the viability of new products or the impact of changes on profitability."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Profit Margin Calculator",
+     "href": "/tools/profit-margin-calculator"
+    },
+    {
+     "name": "ROI Calculator",
+     "href": "/tools/roi-calculator"
+    },
+    {
+     "name": "Discount Calculator",
+     "href": "/tools/discount-calculator"
+    }
+   ],
+   "labels": {
+    "fixedCosts": "Fixed Costs",
+    "variableCost": "Variable Cost per Unit",
+    "pricePerUnit": "Price per Unit",
+    "profitPerUnit": "Profit per Unit",
+    "breakEvenUnits": "Break-Even Units",
+    "breakEvenRevenue": "Break-Even Revenue",
+    "notProfitable": "Not Profitable"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Break Even Calculator?",
+     "body": [
+      "Calculate the break-even point for your business. See how many units you need to sell to cover fixed and variable costs."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Break Even Calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Find the break-even point where revenue covers costs."
+  },
+  "mortgage-affordability-calculator": {
+   "metadata": {
+    "title": "Mortgage Affordability Calculator",
+    "description": "Calculate the affordable home price based on income and debts, following the 28/36 DTI rule.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "mortgage affordability calculator",
+    "how much house can I afford",
+    "home affordability calculator",
+    "house affordability calculator",
+    "mortgage qualification calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What debt-to-income (DTI) ratios do lenders use?",
+     "answer": "Most lenders prefer the 28/36 rule - housing costs at no more than 28% of gross income and total debt (including housing) at no more than 36%. Some loans allow DTI up to 43-50%, but they carry more risk."
+    },
+    {
+     "question": "Should I budget for home maintenance?",
+     "answer": "Yes. The rule of thumb is 1-3% of the home's value per year. A $300,000 home should have $3,000-$9,000 budgeted annually for maintenance - HVAC, roof, plumbing, and more. This is not in the mortgage payment but is essential."
+    },
+    {
+     "question": "What is the 28/36 rule?",
+     "answer": "The 28/36 rule suggests your housing expenses (principal, interest, taxes, insurance) should not exceed 28% of your monthly gross income, and total debt payments (housing + car loans + credit cards, etc.) should not exceed 36%."
+    },
+    {
+     "question": "How do property taxes and insurance affect affordability?",
+     "answer": "They have a significant impact. A $125,000 home pays $1,250 per year in property tax in a 1% state, versus $3,125 in a 2.5% state. This changes what you can afford. Always include taxes and insurance before calculating your home price."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Down Payment Calculator",
+     "href": "/tools/down-payment-calculator"
+    },
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    }
+   ],
+   "labels": {
+    "annualIncome": "Annual Income",
+    "monthlyDebts": "Monthly Debt Payments",
+    "downPayment": "Down Payment",
+    "interestRate": "Interest Rate (%)",
+    "maxHomePrice": "Max Home Price",
+    "loanAmount": "Loan Amount",
+    "maxMonthlyPayment": "Max Monthly Payment"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Mortgage Affordability Calculator?",
+     "body": [
+      "Find out how much house you can afford based on income, debts, and down payment. Uses the 28/36 DTI rule."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the mortgage affordability calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Determine the home price you can afford based on your budget."
+  },
+  "apr-calculator": {
+   "metadata": {
+    "title": "APR Calculator",
+    "description": "Calculate the true APR of a loan including fees, compare APR vs nominal interest rate.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "apr calculator",
+    "annual percentage rate calculator",
+    "loan apr calculator",
+    "true cost of loan calculator",
+    "effective interest rate calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is APR?",
+     "answer": "APR (Annual Percentage Rate) is the true annual cost of a loan expressed as a rate. It includes the interest rate plus fees (origination fees, closing costs, etc.), providing a single comparable number."
+    },
+    {
+     "question": "What is the difference between APR and the interest rate?",
+     "answer": "The interest rate is your cost of borrowing. APR includes the interest rate plus loan fees (origination fees, points, mortgage insurance, closing costs). APR is always equal to or higher than the interest rate and gives the full cost picture."
+    },
+    {
+     "question": "Why is APR important for comparing loans?",
+     "answer": "Lenders may offer a low rate with high fees, or a high rate with low fees. APR combines both into one number, making different loan products from different lenders truly comparable."
+    },
+    {
+     "question": "Does APR account for early repayment?",
+     "answer": "No. APR assumes you hold the loan for its full term. If you pay off early or refinance, the actual cost may be higher because you pay the same fees over a shorter period."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Interest Calculator",
+     "href": "/tools/interest-calculator"
+    },
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    }
+   ],
+   "labels": {
+    "loanAmount": "Loan Amount",
+    "fees": "Fees",
+    "interestRate": "Interest Rate (%)",
+    "termYears": "Term (Years)",
+    "apr": "Estimated APR",
+    "totalCost": "Total Cost"
+   },
+   "placeholders": {
+    "loanAmount": "10000",
+    "fees": "500",
+    "interestRate": "6",
+    "termYears": "5"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an APR Calculator?",
+     "body": [
+      "Calculate the true Annual Percentage Rate (APR) of a loan including fees. Compare APR vs stated interest rate."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the APR calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate the true Annual Percentage Rate (APR) of a loan."
+  },
+  "student-loan-calculator": {
+   "metadata": {
+    "title": "Student Loan Calculator",
+    "description": "Calculate student loan monthly payments and total interest, see the impact of extra payments.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "student loan calculator",
+    "student loan payment calculator",
+    "student loan repayment calculator",
+    "student loan interest calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is the difference between federal and private student loans?",
+     "answer": "Federal loans offer income-driven repayment, Public Service Loan Forgiveness, and flexible deferment options. Private loans typically lack these protections but may offer lower rates for borrowers with good credit."
+    },
+    {
+     "question": "What is income-driven repayment (IDR)?",
+     "answer": "IDR plans cap monthly payments at 10-20% of discretionary income depending on the plan. Remaining balances are forgiven after 20-25 years. There are four types: SAVE, PAYE, IBR, and ICR."
+    },
+    {
+     "question": "Should I refinance my student loans?",
+     "answer": "Refinancing private loans with good credit can save on interest, but you lose protections like IDR and PSLF. If you have a stable income and do not seek forgiveness, refinancing may be worthwhile."
+    },
+    {
+     "question": "How is student loan interest calculated?",
+     "answer": "Daily simple interest: daily interest = (outstanding balance × interest rate) ÷ 365. It is then capitalized (added to the principal). Federal loans do not accrue interest during school and grace periods."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    }
+   ],
+   "labels": {
+    "loanAmount": "Loan Amount",
+    "interestRate": "Interest Rate (%)",
+    "termYears": "Loan Term (Years)",
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest",
+    "totalCost": "Total Cost"
+   },
+   "placeholders": {
+    "loanAmount": "30000",
+    "interestRate": "5.5",
+    "termYears": "10"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Student Loan Calculator?",
+     "body": [
+      "Calculate monthly student loan payments and total interest. Compare standard vs extra payment plans."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the student loan calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Estimate student loan payments, interest, and repayment plans."
+  },
+  "capital-gains-tax-calculator": {
+   "metadata": {
+    "title": "Capital Gains Tax Calculator",
+    "description": "Calculate capital gains tax on investments, distinguishing short-term and long-term rates.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "capital gains tax calculator",
+    "capital gains calculator",
+    "stock tax calculator",
+    "investment tax calculator",
+    "long term capital gains tax calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is the difference between short-term and long-term capital gains?",
+     "answer": "Short-term gains apply to assets held for less than a year and are taxed at ordinary income rates (10-37%). Long-term gains apply to assets held for more than a year and are taxed at lower rates (0%, 15%, or 20%)."
+    },
+    {
+     "question": "What is the Net Investment Income Tax (NIIT)?",
+     "answer": "NIIT is an additional 3.8% tax on investment income for high earners (over $200,000 single, $250,000 married filing jointly). It is added on top of regular capital gains tax."
+    },
+    {
+     "question": "How do capital gains interact with my other income?",
+     "answer": "Capital gains stack on top of your ordinary income. If your total income pushes you into a higher bracket, your gains may face a higher rate. Long-term gains have their own brackets, which may differ from ordinary income."
+    },
+    {
+     "question": "Can I offset gains with capital losses?",
+     "answer": "Yes. Capital losses first offset gains of the same type (short-term against short-term, long-term against long-term). Net losses can offset up to $3,000 of ordinary income. Excess losses carry forward to future years."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Stock Profit Calculator",
+     "href": "/tools/stock-profit-calculator"
+    },
+    {
+     "name": "Income Tax Calculator",
+     "href": "/tools/income-tax-calculator"
+    },
+    {
+     "name": "ROI Calculator",
+     "href": "/tools/roi-calculator"
+    }
+   ],
+   "labels": {
+    "costBasis": "Cost Basis",
+    "salePrice": "Sale Price",
+    "holdingPeriod": "Holding Period",
+    "taxableIncome": "Taxable Income",
+    "capitalGain": "Capital Gain",
+    "holdingType": "Holding Type",
+    "estimatedTax": "Estimated Tax"
+   },
+   "options": {
+    "shortTerm": "Short-Term",
+    "longTerm": "Long-Term"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Capital Gains Tax Calculator?",
+     "body": [
+      "Calculate capital gains tax on investments. Compare short-term vs long-term rates based on income and filing status."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the capital gains tax calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Estimate capital gains tax on investment profits."
+  },
+  "gpa-calculator": {
+   "metadata": {
+    "title": "GPA Calculator",
+    "description": "Calculate semester and cumulative GPA, add courses with grades and credits.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "gpa calculator",
+    "grade point average calculator",
+    "college gpa calculator",
+    "cumulative gpa calculator",
+    "semester gpa calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How is GPA calculated?",
+     "answer": "GPA = total quality points ÷ total credits. Quality points = credits × grade points for each course. A = 4.0, B = 3.0, C = 2.0, D = 1.0, F = 0. Plus/minus adjustments: A- = 3.7, B+ = 3.3, and so on."
+    },
+    {
+     "question": "What is the difference between weighted and unweighted GPA?",
+     "answer": "Unweighted GPA measures all courses on a 4.0 scale. Weighted GPA assigns higher values (typically a 5.0 scale) to honors, AP, or IB courses, recognizing course difficulty. Colleges may use either or both in admissions."
+    },
+    {
+     "question": "What is a good GPA?",
+     "answer": "An unweighted 3.0-3.4 is considered good, while 3.5+ is very competitive. Weighted GPA varies by school profile. Top universities typically expect weighted GPAs above 4.0 (due to honors courses)."
+    },
+    {
+     "question": "How can I improve my GPA?",
+     "answer": "Focus on high-scoring courses to raise your cumulative GPA. Retake low-grade courses (if allowed). Balance challenging courses with ones you can do well in. Discuss strategies with your advisor."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Grade Calculator",
+     "href": "/tools/grade-calculator"
+    }
+   ],
+   "labels": {
+    "course": "Course",
+    "credits": "Credits",
+    "grade": "Grade",
+    "gpa": "GPA",
+    "totalCredits": "Total Credits"
+   },
+   "buttons": {
+    "addCourse": "Add Course",
+    "remove": "Remove"
+   },
+   "placeholders": {
+    "course": "Course Name",
+    "credits": "3"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a GPA Calculator?",
+     "body": [
+      "Calculate your semester and cumulative GPA. Add courses with grades and credit hours for instant results."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the GPA calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate semester and cumulative GPA, quality points."
+  },
+  "grade-calculator": {
+   "metadata": {
+    "title": "Grade Calculator",
+    "description": "Calculate your total class grade by weighted or points-based grading.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "grade calculator",
+    "final grade calculator",
+    "weighted grade calculator",
+    "class grade calculator",
+    "grade average calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate my class grade?",
+     "answer": "Multiply each category's score by its weight, then add them up. For example: Tests (50%) = 85 × 0.50 = 42.5, Homework (30%) = 90 × 0.30 = 27, Quizzes (20%) = 80 × 0.20 = 16. Total = 85.5%."
+    },
+    {
+     "question": "What score do I need to get an A?",
+     "answer": "Subtract your current weighted total from the grade you want (90% for an A), then divide by the weight of the remaining category. If you have 80% and the final is worth 20%: (90 - 80) ÷ 0.20 = 50%. You need to score 50% on the final."
+    },
+    {
+     "question": "What is the difference between weighted and unweighted grades?",
+     "answer": "Weighted grades account for the percentage value of each assignment and category weights. Unweighted is simply the total score divided by the total possible. Weighted is more accurate because different assignments have different importance."
+    },
+    {
+     "question": "How does dropping the lowest score affect my grade?",
+     "answer": "Dropping the lowest score usually raises your grade, especially if it is significantly below your average. It works by removing the outlier that drags your average down. Calculate with and without the drop to see the difference."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "GPA Calculator",
+     "href": "/tools/gpa-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    }
+   ],
+   "labels": {
+    "assignment": "Assignment",
+    "score": "Score",
+    "weight": "Weight (%)",
+    "currentGrade": "Current Grade",
+    "targetGrade": "Target Grade (%)",
+    "neededScore": "Score Needed on Remaining Assignments",
+    "remainingWeight": "Remaining Weight"
+   },
+   "buttons": {
+    "addAssignment": "Add Assignment",
+    "remove": "Remove"
+   },
+   "placeholders": {
+    "assignment": "Assignment Name",
+    "score": "85",
+    "weight": "20",
+    "targetGrade": "90"
+   },
+   "errors": {
+    "weightOverflow": "Total weight cannot exceed 100%."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Grade Calculator?",
+     "body": [
+      "Calculate your class grade with weighted or points-based grading. Add assignments with scores and weights."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the grade calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate class grades, required scores, and weighted averages."
+  },
+  "random-number-generator": {
+   "metadata": {
+    "title": "Random Number Generator",
+    "description": "Generate random numbers within a range, single or batch, with or without repeats.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "random number generator",
+    "random number picker",
+    "generate random numbers",
+    "random integer generator",
+    "random numbers without repeats",
+    "random number tool"
+   ],
+   "faqs": [
+    {
+     "question": "Are these numbers truly random?",
+     "answer": "These numbers use JavaScript's Math.random(), which is a pseudorandom number generator (PRNG). It is suitable for games, simulations, and general purposes. For cryptographic use, try our password generator, which uses the Web Crypto API."
+    },
+    {
+     "question": "Can I generate numbers without repeats?",
+     "answer": "Yes! Uncheck 'Allow repeats' to generate numbers without repetition. This uses the Fisher-Yates shuffle algorithm for unbiased selection. When repeats are disabled, the count is capped at the range size."
+    },
+    {
+     "question": "What is the maximum range supported?",
+     "answer": "JavaScript can safely handle integers up to 9,007,199,254,740,991. In practice, any range within ±1 billion works perfectly."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Password Generator",
+     "href": "/tools/password-generator"
+    },
+    {
+     "name": "UUID Generator",
+     "href": "/tools/uuid-generator"
+    },
+    {
+     "name": "Lorem Ipsum Generator",
+     "href": "/tools/lorem-ipsum-generator"
+    }
+   ],
+   "labels": {
+    "min": "Minimum",
+    "max": "Maximum",
+    "result": "Result"
+   },
+   "buttons": {
+    "generate": "Generate"
+   },
+   "description": "Generate random numbers within a range. Single or multiple numbers, repeatable or non-repeatable.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Random Number Generator?",
+     "body": [
+      "Generate random integers within a minimum and maximum range. Create a single number or multiple numbers, and choose whether repeats are allowed."
+     ]
+    },
+    "howTo": {
+     "title": "How to Generate Random Numbers",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter the minimum and maximum values.",
+      "Choose how many numbers to generate.",
+      "Check or uncheck 'Allow repeats'.",
+      "Click generate to get your random numbers."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use non-repeating numbers for raffles, draws, and unbiased sampling.",
+      "For cryptographic security, use the password generator instead.",
+      "The generator safely handles values in the billions."
+     ]
+    }
+   }
+  },
+  "countdown-timer": {
+   "metadata": {
+    "title": "Countdown Timer",
+    "description": "Free online countdown with presets, set hours, minutes, and seconds.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "countdown timer",
+    "online timer",
+    "pomodoro timer",
+    "free countdown",
+    "preset timer",
+    "study timer"
+   ],
+   "faqs": [
+    {
+     "question": "Does the timer keep working when the tab is in the background?",
+     "answer": "Yes. The timer uses absolute timestamps, so it stays accurate even when the browser tab is in the background. However, audio alerts may not play if the tab is in the background."
+    },
+    {
+     "question": "What is the Pomodoro technique?",
+     "answer": "A time management method: work for 25 minutes, then rest for 5 minutes. After every 4 cycles, take a 15-30 minute break. Use the 25-minute preset for Pomodoro work sessions."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Age Calculator",
+     "href": "/tools/age-calculator"
+    },
+    {
+     "name": "Unix Timestamp Converter",
+     "href": "/tools/timestamp-converter"
+    }
+   ],
+   "labels": {
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "timeRemaining": "Time Remaining"
+   },
+   "buttons": {
+    "start": "Start",
+    "pause": "Pause",
+    "reset": "Reset"
+   },
+   "errors": {
+    "invalidTime": "Please enter a valid time."
+   },
+   "description": "Free online countdown timer with preset durations. Set hours, minutes, and seconds and start the countdown.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Countdown Timer?",
+     "body": [
+      "A free online countdown timer that lets you set hours, minutes, and seconds. It includes quick presets for common durations like 1, 5, 10, 15, 25, 30, 45 minutes and 1 hour."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Countdown Timer",
+     "intro": "Set the time and start:",
+     "items": [
+      "Enter hours, minutes, and seconds.",
+      "Or click a quick preset to fill the fields instantly.",
+      "Click start to begin the countdown.",
+      "Use pause and reset to control the timer."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use the 25-minute preset for the Pomodoro technique.",
+      "The timer stays accurate even when the tab is in the background.",
+      "Audio alerts may not play if the tab is in the background."
+     ]
+    }
+   }
+  },
+  "stopwatch": {
+   "metadata": {
+    "title": "Stopwatch",
+    "description": "Online stopwatch with lap timing, accurate to the hundredth of a second.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "stopwatch",
+    "online stopwatch",
+    "lap timer",
+    "free stopwatch",
+    "stopwatch with laps",
+    "hundredth-second stopwatch"
+   ],
+   "faqs": [
+    {
+     "question": "How accurate is this stopwatch?",
+     "answer": "It uses high-resolution timestamps (Date.now()), with precision of about 1 millisecond. The display updates every 10 milliseconds. That is more than enough for everyday timing."
+    },
+    {
+     "question": "Does it keep working in the background?",
+     "answer": "Yes. The stopwatch uses absolute timestamps rather than interval counting, so it stays accurate even when the tab is in the background."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Countdown Timer",
+     "href": "/tools/countdown-timer"
+    },
+    {
+     "name": "Unix Timestamp Converter",
+     "href": "/tools/timestamp-converter"
+    }
+   ],
+   "labels": {
+    "elapsed": "Elapsed Time",
+    "laps": "Laps",
+    "lap": "Lap"
+   },
+   "buttons": {
+    "start": "Start",
+    "pause": "Pause",
+    "reset": "Reset",
+    "lap": "Lap"
+   },
+   "description": "Free online stopwatch with lap timing. Accurate to the hundredth of a second, with start, stop, lap, and reset controls.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Stopwatch?",
+     "body": [
+      "A free online stopwatch with start, pause, lap, and reset controls. It tracks elapsed time to the hundredth of a second and keeps a list of lap times."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Stopwatch",
+     "intro": "Timing is simple:",
+     "items": [
+      "Click start to begin timing.",
+      "Click lap to record split times.",
+      "Click pause to stop the display temporarily.",
+      "Click reset to clear the stopwatch and laps."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The stopwatch uses high-resolution timestamps for accuracy.",
+      "Stays accurate even when the browser tab is in the background.",
+      "Laps display in reverse order, with the most recent first."
+     ]
+    }
+   }
+  },
+  "scientific-calculator": {
+   "metadata": {
+    "title": "Scientific Calculator",
+    "description": "Free scientific calculator with trigonometric functions, logarithms, powers, memory functions, and degree/radian modes.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "scientific calculator",
+    "online calculator",
+    "trigonometry calculator",
+    "logarithm calculator",
+    "math calculator",
+    "engineering calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What functions are supported?",
+     "answer": "The calculator includes sin, cos, ln (natural logarithm), square root, powers, and basic arithmetic operations."
+    },
+    {
+     "question": "How do I switch between degrees and radians?",
+     "answer": "Click the degrees/radians toggle button to switch the angle mode. This affects how trigonometric functions are calculated."
+    },
+    {
+     "question": "What do the memory buttons do?",
+     "answer": "MC clears the memory, MR recalls the stored value, M+ adds to the memory, and M- subtracts from the memory."
+    },
+    {
+     "question": "Can I use keyboard input?",
+     "answer": "Yes. You can type numbers and operators directly, or use the on-screen buttons."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Fraction Calculator",
+     "href": "/tools/fraction-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Square Root Calculator",
+     "href": "/tools/square-root-calculator"
+    }
+   ],
+   "labels": {
+    "expression": "Expression",
+    "result": "Result"
+   },
+   "buttons": {
+    "sin": "sin",
+    "cos": "cos",
+    "log": "ln",
+    "sqrt": "√",
+    "power": "^",
+    "delete": "Delete",
+    "clear": "Clear",
+    "equals": "=",
+    "memoryClear": "MC",
+    "memoryRecall": "MR",
+    "memoryPlus": "M+",
+    "memoryMinus": "M-"
+   },
+   "options": {
+    "degrees": "Degrees",
+    "radians": "Radians"
+   },
+   "errors": {
+    "invalid": "Invalid expression"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Scientific Calculator?",
+     "body": [
+      "A free scientific calculator supporting trigonometric functions, logarithms, powers, memory functions, and degree/radian modes. Perfect for math, science, and engineering calculations."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Scientific Calculator",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter expressions with the buttons or keyboard.",
+      "Use trigonometric functions (sin, cos), logarithms (ln), and powers (^).",
+      "Toggle between degree and radian modes as needed.",
+      "Use memory functions (MC, MR, M+, M-) for complex calculations.",
+      "Press = to see the result."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use parentheses for complex expressions.",
+      "Check the angle mode (degrees/radians) before trig calculations.",
+      "Memory functions help with multi-step calculations.",
+      "The calculator follows standard order of operations."
+     ]
+    }
+   }
+  },
+  "fraction-calculator": {
+   "metadata": {
+    "title": "Fraction Calculator",
+    "description": "Add, subtract, multiply, and divide fractions, simplify, and convert between fractions and decimals.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "fraction calculator",
+    "add fractions",
+    "subtract fractions",
+    "multiply fractions",
+    "divide fractions",
+    "simplify fractions"
+   ],
+   "faqs": [
+    {
+     "question": "How do I add fractions?",
+     "answer": "Enter two fractions, choose addition, and click calculate. The tool finds a common denominator and adds the numerators."
+    },
+    {
+     "question": "Can I divide fractions?",
+     "answer": "Yes. Dividing by a fraction is the same as multiplying by its reciprocal. The calculator handles this automatically."
+    },
+    {
+     "question": "Are results automatically simplified?",
+     "answer": "Yes. All results are automatically reduced to their simplest form."
+    },
+    {
+     "question": "How do I convert to a decimal?",
+     "answer": "The decimal equivalent is displayed alongside the fraction result."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Scientific Calculator",
+     "href": "/tools/scientific-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Mean Median Mode Calculator",
+     "href": "/tools/mean-median-mode-calculator"
+    }
+   ],
+   "labels": {
+    "result": "Result",
+    "decimal": "Decimal"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Fraction Calculator?",
+     "body": [
+      "Add, subtract, multiply, and divide fractions. Results are automatically simplified and converted to decimals. Perfect for math homework and everyday fraction calculations."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Fractions",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter the numerator and denominator of each fraction.",
+      "Choose the operation (add, subtract, multiply, divide).",
+      "Click calculate to see the result.",
+      "View the simplified fraction and its decimal equivalent."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The calculator automatically simplifies results.",
+      "Enter mixed numbers as improper fractions.",
+      "The decimal output helps you understand the size of the fraction.",
+      "Use it to check homework or for real-world calculations."
+     ]
+    }
+   }
+  },
+  "character-counter": {
+   "metadata": {
+    "title": "Character Counter",
+    "description": "Count characters, words, sentences, and paragraphs, with social media limits and reading time.",
+    "category": "Text"
+   },
+   "keywords": [
+    "character counter",
+    "word count tool",
+    "social media character limits",
+    "count characters online",
+    "Twitter character counter",
+    "Instagram bio counter",
+    "reading time calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How are words counted?",
+     "answer": "Words are counted by splitting the text on whitespace (spaces, tabs, newlines). Multiple consecutive spaces count as a single separator. Empty text has 0 words."
+    },
+    {
+     "question": "Which social media character limits does it track?",
+     "answer": "Twitter/X (280), Instagram bios (150), LinkedIn posts (3,000), YouTube titles (100), TikTok captions (2,200), SEO meta titles (60), and meta descriptions (160)."
+    },
+    {
+     "question": "How is reading time calculated?",
+     "answer": "Based on an average reading speed of 200 words per minute. Speaking time uses 130 words per minute (average speaking pace)."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "Text Case Converter",
+     "href": "/tools/text-case-converter"
+    },
+    {
+     "name": "Lorem Ipsum Generator",
+     "href": "/tools/lorem-ipsum-generator"
+    }
+   ],
+   "labels": {
+    "enterText": "Enter Text",
+    "placeholder": "Type or paste your text here...",
+    "statistics": "Statistics",
+    "characters": "Characters",
+    "words": "Words",
+    "lines": "Lines",
+    "bytes": "Bytes"
+   },
+   "buttons": {},
+   "description": "Count characters, words, sentences, paragraphs, and lines. Social media character limits and reading time.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Character Counter?",
+     "body": [
+      "Count characters, words, sentences, paragraphs, and lines in any text. It also shows reading time, speaking time, and character limits for popular social media platforms."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Character Counter",
+     "intro": "Start counting:",
+     "items": [
+      "Type or paste your text in the input area.",
+      "View live counts of characters, words, sentences, paragraphs, and lines.",
+      "See social media character limits in the panel below.",
+      "Check reading and speaking time estimates."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use the no-spaces count for platforms that exclude spaces.",
+      "The tool works with any language and Unicode text.",
+      "Watch the limits for Twitter/X, Instagram bios, and meta descriptions."
+     ]
+    }
+   }
+  },
+  "text-repeater": {
+   "metadata": {
+    "title": "Text Repeater",
+    "description": "Repeat any text multiple times with a custom separator.",
+    "category": "Text"
+   },
+   "keywords": [
+    "text repeater",
+    "repeat text online",
+    "text multiplier",
+    "string repeater tool",
+    "repeat word generator",
+    "copy text multiple times"
+   ],
+   "faqs": [
+    {
+     "question": "What is this tool used for?",
+     "answer": "Repeat any text, word, or phrase a specified number of times. Useful for testing, filling form fields, social media, generating test data, or creating patterns."
+    },
+    {
+     "question": "Is there a limit on the number of repeats?",
+     "answer": "To prevent browser lag, the tool is limited to 10,000 repeats. That is more than enough for most use cases."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Lorem Ipsum Generator",
+     "href": "/tools/lorem-ipsum-generator"
+    },
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "Character Counter",
+     "href": "/tools/character-counter"
+    }
+   ],
+   "labels": {
+    "text": "Text",
+    "count": "Repeat Count",
+    "separator": "Separator",
+    "output": "Output"
+   },
+   "buttons": {
+    "repeat": "Repeat"
+   },
+   "description": "Repeat any text multiple times with a custom separator. Copy the repeated text to paste anywhere.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Text Repeater?",
+     "body": [
+      "Repeat any text, word, or phrase a specified number of times. Choose a separator like newline, space, comma, or a custom string."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Text Repeater",
+     "intro": "Repeat text in seconds:",
+     "items": [
+      "Enter the text you want to repeat.",
+      "Set the repeat count (up to 10,000).",
+      "Choose a separator or enter a custom one.",
+      "Click repeat to generate the output and copy it."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use the newline separator to create a vertical list.",
+      "Use comma or space to create a horizontal sequence.",
+      "Great for generating test data or filling form fields."
+     ]
+    }
+   }
+  },
+  "whois-lookup": {
+   "metadata": {
+    "title": "Whois Lookup",
+    "description": "Free whois lookup for registrar, creation/expiry dates, status and DNS servers",
+    "category": "Developer"
+   },
+   "keywords": [
+    "whois lookup",
+    "domain whois",
+    "domain lookup",
+    "domain registration info",
+    "domain expiry check",
+    "rdap lookup",
+    "registrar lookup",
+    "whois tool"
+   ],
+   "faqs": [
+    {
+     "question": "What is Whois?",
+     "answer": "Whois is the protocol for looking up domain registration data. This tool uses its modern standard, RDAP, to return the registrar, creation/expiry dates, domain status and DNS servers."
+    },
+    {
+     "question": "Why can't I see the registrant's name and email?",
+     "answer": "Since the GDPR took effect in 2018, most registrars redact the registrant contact details of personal domains. Only the registrar, dates, status and DNS servers remain public."
+    },
+    {
+     "question": "Which TLDs are supported?",
+     "answer": "Via the rdap.org bootstrap service, most gTLDs (.com, .net, .org, .io and more) and many ccTLDs (.cn, .jp, .de, .uk and more) are supported. A few TLDs without RDAP may return partial data."
+    },
+    {
+     "question": "How fresh is the data?",
+     "answer": "RDAP queries each registry's authoritative data source directly, returning real-time (or registry-cached) information."
+    },
+    {
+     "question": "Is it free and safe?",
+     "answer": "Completely free. Your browser queries the public RDAP service directly; domain registration data is public information, with no sign-up or API key required."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "IP Address Lookup",
+     "href": "/tools/ip-lookup"
+    },
+    {
+     "name": "EXIF Viewer",
+     "href": "/tools/exif-viewer"
+    },
+    {
+     "name": "Meta Tag Generator",
+     "href": "/tools/meta-tag-generator"
+    }
+   ],
+   "labels": {
+    "domain": "Domain",
+    "example": "e.g. example.com",
+    "lookUp": "Look up",
+    "loading": "Searching…",
+    "errorEmpty": "Please enter a domain",
+    "errorInvalid": "Invalid domain format",
+    "errorNotFound": "No registration data found for this domain",
+    "errorGeneric": "Lookup failed, please try again",
+    "domainName": "Domain",
+    "status": "Status",
+    "created": "Created",
+    "updated": "Updated",
+    "expires": "Expires",
+    "dnssec": "DNSSEC",
+    "registrar": "Registrar",
+    "registrant": "Registrant",
+    "nameservers": "Nameservers",
+    "unknown": "Unknown",
+    "copy": "Copy",
+    "copied": "Copied",
+    "rawJson": "View raw JSON"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Whois lookup?",
+     "paragraphs": [
+      "A domain Whois lookup is a free tool for viewing a domain's public registration data: registrar, creation and expiry dates, domain status, DNS servers and more. It uses RDAP (Registration Data Access Protocol) — the modern standard replacing Whois — to fetch authoritative data directly from each registry."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use",
+      "paragraphs": [
+       "Enter a domain (e.g. example.com) in the input box and click Look up. The tool automatically strips http://, www. prefixes and lowercases it.",
+       "Results are shown field by field: domain, status, created/updated dates, expiry, DNSSEC, registrar, registrant and DNS servers. Click the copy button next to any field to copy it."
+      ]
+     },
+     {
+      "title": "About RDAP",
+      "paragraphs": [
+       "RDAP is the structured JSON replacement for Whois, mandated by ICANN since 2018. This tool routes to the correct registry's RDAP server via the rdap.org bootstrap service."
+      ]
+     },
+     {
+      "title": "Common uses",
+      "items": [
+       "Check whether a domain is registered and when it expires",
+       "Confirm a domain's registrar and status",
+       "Brand protection and domain ownership research",
+       "Troubleshoot DNS server configuration"
+      ]
+     }
+    ]
+   }
+  },
+  "ip-lookup": {
+   "metadata": {
+    "title": "IP Address Lookup",
+    "description": "Look up the network owner, CIDR block, country and type for any IP, including your own",
+    "category": "Developer"
+   },
+   "keywords": [
+    "ip lookup",
+    "ip address lookup",
+    "ip location",
+    "my ip address",
+    "ip whois",
+    "ip geolocation",
+    "ip address info",
+    "ip network lookup"
+   ],
+   "faqs": [
+    {
+     "question": "What is an IP address lookup?",
+     "answer": "An IP address lookup uses RDAP (Registration Data Access Protocol) to view the network an IP belongs to: CIDR block, owner, country/region, network type and status."
+    },
+    {
+     "question": "How do I see my public IP?",
+     "answer": "Open the tool and it automatically detects and displays your public IP and its network information. Click Refresh to re-detect."
+    },
+    {
+     "question": "Does it support IPv6?",
+     "answer": "RDAP supports both IPv4 and IPv6. The current input box accepts IPv4 format; IPv6 lookup is being improved."
+    },
+    {
+     "question": "How accurate are the results?",
+     "answer": "Data comes from the official RDAP services of the five Regional Internet Registries (ARIN, RIPE, APNIC, LACNIC, AFRINIC) — authoritative network allocation information."
+    },
+    {
+     "question": "Is it free and safe?",
+     "answer": "Completely free. Your browser queries the public RDAP service directly — no sign-up, no API key."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Whois Lookup",
+     "href": "/tools/whois-lookup"
+    },
+    {
+     "name": "URL Shortener",
+     "href": "/tools/url-shortener"
+    }
+   ],
+   "labels": {
+    "myIp": "My IP address",
+    "refresh": "Refresh",
+    "ipInput": "Enter IP address",
+    "lookUp": "Look up",
+    "loading": "Searching…",
+    "errorEmpty": "Please enter an IP address",
+    "errorInvalid": "Invalid IP address format",
+    "errorNotFound": "No network information found for this IP",
+    "errorGeneric": "Lookup failed, please try again",
+    "ipAddress": "IP address",
+    "cidrBlock": "CIDR block",
+    "addressRange": "Address range",
+    "networkName": "Network name",
+    "country": "Country/Region",
+    "networkType": "Network type",
+    "status": "Status",
+    "owner": "Owner/Organization",
+    "copy": "Copy",
+    "copied": "Copied",
+    "noData": "No data available"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an IP address lookup?",
+     "paragraphs": [
+      "An IP address lookup is a free tool for viewing the network information of any IP address: CIDR block, address range, network name, country/region, network type and owner. Data comes from the official RDAP services of the RIRs."
+     ]
+    },
+    "sections": [
+     {
+      "title": "See your public IP",
+      "paragraphs": [
+       "Opening the tool automatically detects your public IP and shows its network information. Click Refresh to re-detect."
+      ]
+     },
+     {
+      "title": "Look up any IP",
+      "paragraphs": [
+       "Enter an IPv4 address (e.g. 8.8.8.8) in the input box and click Look up to see the network details of that IP."
+      ]
+     },
+     {
+      "title": "Common uses",
+      "items": [
+       "Confirm your public IP and its network",
+       "Identify an IP's owner and region",
+       "Troubleshoot network and server configuration",
+       "Initial cybersecurity and threat-intel checks"
+      ]
+     }
+    ]
+   }
+  },
+  "binary-converter": {
+   "metadata": {
+    "title": "Binary Converter",
+    "description": "Convert between text and binary.",
+    "category": "Developer"
+   },
+   "keywords": [
+    "binary converter",
+    "binary to decimal",
+    "decimal to binary",
+    "hex converter",
+    "octal converter",
+    "number base conversion",
+    "binary calculation",
+    "base conversion"
+   ],
+   "faqs": [
+    {
+     "question": "What is a binary converter?",
+     "answer": "A binary converter is a tool that converts numbers between binary (base 2), decimal (base 10), hexadecimal (base 16), and octal (base 8)."
+    },
+    {
+     "question": "How do I convert numbers?",
+     "answer": "Enter a number in the input field. Select the base of the number you entered. The tool automatically converts it to all other bases and displays the results."
+    },
+    {
+     "question": "What is the difference between binary and decimal?",
+     "answer": "Binary uses base 2 (only the digits 0 and 1), while decimal uses base 10 (digits 0-9). Binary is used in computing; decimal is used for everyday counting."
+    },
+    {
+     "question": "What is hexadecimal?",
+     "answer": "Hexadecimal is a base 16 number system using digits 0-9 and letters A-F. It is commonly used in computing to represent color codes, memory addresses, and other values."
+    },
+    {
+     "question": "What is octal?",
+     "answer": "Octal is a base 8 number system using digits 0-7. It is sometimes used in computing, particularly for Unix permissions."
+    },
+    {
+     "question": "Is the converter safe?",
+     "answer": "Yes. This tool converts numbers locally in your browser. No data is sent to any server."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "Hash Generator",
+     "href": "/tools/hash-generator"
+    }
+   ],
+   "labels": {
+    "mode": "Mode",
+    "input": "Input",
+    "output": "Output",
+    "inputPlaceholder": "Enter text or encoded value...",
+    "error": "Invalid input for the selected mode"
+   },
+   "buttons": {
+    "convert": "Convert"
+   },
+   "options": {
+    "textToBinary": "Text to Binary",
+    "binaryToText": "Binary to Text",
+    "textToHex": "Text to Hex",
+    "hexToText": "Hex to Text",
+    "textToDecimal": "Text to Decimal",
+    "decimalToText": "Decimal to Text"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Binary Converter?",
+     "paragraphs": [
+      "A binary converter is a free online tool for converting numbers between binary, decimal, hexadecimal, and octal. It is useful for programming, debugging, and understanding different number systems. All conversions happen in your browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Convert Numbers",
+      "paragraphs": [
+       "Enter a number in the input field. Select the base of the number you entered (binary, decimal, hexadecimal, or octal). The tool automatically converts it to all other bases."
+      ]
+     },
+     {
+      "title": "Understanding Number Bases",
+      "paragraphs": [
+       "Binary (base 2) uses 0 and 1. Decimal (base 10) uses 0-9. Hexadecimal (base 16) uses 0-9 and A-F. Octal (base 8) uses 0-7."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Convert binary to decimal",
+       "Convert decimal to hexadecimal",
+       "Understand color codes",
+       "Calculate Unix permissions",
+       "Debug low-level code"
+      ]
+     }
+    ]
+   }
+  },
+  "color-mixer": {
+   "metadata": {
+    "title": "Color Mixer",
+    "description": "Mix two or more colors together.",
+    "category": "Design"
+   },
+   "keywords": [
+    "color mixer",
+    "mix colors",
+    "online color mixing tool",
+    "free color mixer",
+    "color mixing tool",
+    "mix two colors",
+    "color blending tool",
+    "color mix preview"
+   ],
+   "faqs": [
+    {
+     "question": "How do I mix colors?",
+     "answer": "Select two or more colors, adjust the ratio, and view the mixed result."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Which color modes are supported?",
+     "answer": "RGB, HEX, HSL, and more."
+    },
+    {
+     "question": "Can I save the mixed result?",
+     "answer": "Yes, you can save and export colors."
+    },
+    {
+     "question": "Can I mix multiple colors?",
+     "answer": "Yes, multiple color mixing is supported."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    },
+    {
+     "name": "Color Contrast Checker",
+     "href": "/tools/color-contrast-checker"
+    },
+    {
+     "name": "Color Converter",
+     "href": "/tools/color-converter"
+    }
+   ],
+   "labels": {
+    "color1": "Color 1",
+    "color2": "Color 2",
+    "ratio": "Mix Ratio",
+    "invalid": "Invalid color"
+   },
+   "buttons": {
+    "copy": "Copy CSS"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Color Mixer?",
+     "paragraphs": [
+      "The color mixer is a free online tool that lets you mix two or more colors together.",
+      "All processing happens in your browser, so your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the on-screen instructions",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally for privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "css-transform-generator": {
+   "metadata": {
+    "title": "CSS Transform Generator",
+    "description": "Generate CSS transform properties visually.",
+    "category": "Design"
+   },
+   "keywords": [
+    "CSS transform generator",
+    "create CSS transforms",
+    "CSS 2D/3D transforms",
+    "online transform tool",
+    "free transform generator",
+    "generate transform code",
+    "CSS rotate and scale",
+    "visual transform editor"
+   ],
+   "faqs": [
+    {
+     "question": "What are CSS transforms?",
+     "answer": "CSS properties used to rotate, scale, translate, and skew elements."
+    },
+    {
+     "question": "How do I generate transform code?",
+     "answer": "Adjust the parameters and the tool generates the CSS transform code."
+    },
+    {
+     "question": "Are 3D transforms supported?",
+     "answer": "Yes, including rotateX/Y/Z, translateZ, and more."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Is the generated code compatible with all browsers?",
+     "answer": "Yes, it is compatible with modern browsers."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Cubic Bezier Generator",
+     "href": "/tools/css-cubic-bezier"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    }
+   ],
+   "labels": {
+    "translateX": "Translate X",
+    "translateY": "Translate Y",
+    "rotate": "Rotate",
+    "scale": "Scale",
+    "skewX": "Skew X",
+    "skewY": "Skew Y"
+   },
+   "buttons": {
+    "copy": "Copy CSS"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a CSS Transform Generator?",
+     "paragraphs": [
+      "The CSS transform generator is a free online tool that lets you generate CSS transform properties visually.",
+      "All processing happens in your browser, so your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the on-screen instructions",
+       "Get your result and download it for use"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally for privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "pregnancy-calculator": {
+   "metadata": {
+    "title": "Due Date Calculator",
+    "description": "Estimate your due date based on your last menstrual period, with pregnancy week tracking and key milestones.",
+    "category": "Health"
+   },
+   "keywords": [
+    "pregnancy calculator",
+    "due date calculator",
+    "pregnancy due date",
+    "pregnancy calculator due date",
+    "conception date"
+   ],
+   "faqs": [
+    {
+     "question": "How is the due date calculated?",
+     "answer": "Using Naegele's rule: add 280 days (40 weeks) to the first day of your last menstrual period (LMP). This assumes a 28-day cycle - the calculator adjusts for different cycle lengths."
+    },
+    {
+     "question": "Is the due date calculator accurate?",
+     "answer": "Only about 4% of babies are born on their exact due date. Most are born within 2 weeks of it. The due date is an estimate - healthcare providers may adjust it based on ultrasound measurements."
+    },
+    {
+     "question": "What is the conception date?",
+     "answer": "Conception typically occurs about 14 days after the first day of your last period (at ovulation). This adjusts with cycle length - longer cycles mean later ovulation."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Age Calculator",
+     "href": "/tools/age-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    }
+   ],
+   "labels": {
+    "mode": "Mode",
+    "lastPeriod": "First Day of Last Period",
+    "dueDate": "Due Date",
+    "estimatedDueDate": "Estimated Due Date",
+    "gestationalAge": "Gestational Age",
+    "trimester": "Trimester",
+    "daysRemaining": "Days Remaining"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "lastPeriodMode": "Calculate from Last Period",
+    "dueDateMode": "Calculate from Due Date"
+   },
+   "description": "Calculate your estimated due date based on your last menstrual period. See trimester, milestones, and conception date.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Due Date Calculator?",
+     "body": [
+      "Calculate your estimated due date based on your last menstrual period.",
+      "See your trimester, milestones, and conception date."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Your Due Date",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter the first day of your last menstrual period.",
+      "Enter your average cycle length.",
+      "Click calculate to see your estimated due date.",
+      "View trimester information and key milestones."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The due date is an estimate - most babies are born within 2 weeks of it.",
+      "Healthcare providers may adjust the due date based on ultrasound.",
+      "Track prenatal appointments and milestones."
+     ]
+    }
+   }
+  },
+  "pace-calculator": {
+   "metadata": {
+    "title": "Pace Calculator",
+    "description": "Calculate running pace, finish time, or distance, with common race presets.",
+    "category": "Health"
+   },
+   "keywords": [
+    "pace calculator",
+    "running pace calculator",
+    "race pace calculator",
+    "running calculator",
+    "pace per mile"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate pace?",
+     "answer": "Pace = time ÷ distance. If you run 3.1 miles in 25 minutes: 25 ÷ 3.1 = 8:04/mile pace. For kilometers, divide by the distance in kilometers instead."
+    },
+    {
+     "question": "What is a good running pace?",
+     "answer": "It varies widely. Beginners: 10-13 minutes/mile. Intermediate: 8-10 minutes/mile. Advanced: 6-8 minutes/mile. Elite: under 5 minutes/mile. Focus on personal progress, not comparisons."
+    },
+    {
+     "question": "How do I convert pace to speed?",
+     "answer": "Speed (mph) = 60 ÷ pace (minutes per mile). An 8:00/mile pace = 60 ÷ 8 = 7.5 mph. An 8:00/km pace = 7.5 km/h."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "Unit Converter",
+     "href": "/tools/unit-converter"
+    }
+   ],
+   "labels": {
+    "mode": "Mode",
+    "distance": "Distance",
+    "time": "Time",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "pace": "Pace",
+    "predictedTime": "Predicted Time",
+    "distanceUnit": "Distance Unit"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "pace": "Calculate pace from time and distance",
+    "time": "Calculate time from pace and distance",
+    "km": "Kilometers",
+    "mile": "Miles",
+    "marathon": "Marathon (42.195 km)",
+    "halfMarathon": "Half Marathon (21.0975 km)",
+    "fiveK": "5K",
+    "tenK": "10K"
+   },
+   "description": "Calculate running pace, finish time, or distance. Supports miles and kilometers with race distance presets.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Pace Calculator?",
+     "body": [
+      "Calculate running pace, finish time, or distance.",
+      "Supports miles and kilometers with race distance presets (5K, 10K, half marathon, marathon)."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Pace Calculator",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose what you want to calculate (pace, time, or distance).",
+      "Enter the known values.",
+      "Select your distance unit or race preset.",
+      "Click calculate to see the result."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use race presets for quick calculations.",
+      "Convert between pace and speed as needed.",
+      "Track your pace over time to monitor progress."
+     ]
+    }
+   }
+  }
+ }
+}

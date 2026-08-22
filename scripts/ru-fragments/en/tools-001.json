@@ -1,0 +1,2660 @@
+{
+ "tools": {
+  "what-is-my-browser": {
+   "metadata": {
+    "title": "What Is My Browser",
+    "description": "Detect your browser name, version, OS and IP address",
+    "category": "Tracking"
+   },
+   "keywords": [
+    "what is my browser",
+    "browser detector",
+    "my browser version",
+    "detect browser",
+    "user agent",
+    "browser os",
+    "what browser am I using",
+    "browser info"
+   ],
+   "labels": {
+    "browser": "Browser",
+    "version": "Version",
+    "engine": "Engine",
+    "os": "Operating System",
+    "screen": "Screen Resolution",
+    "colorDepth": "Color Depth",
+    "language": "Language",
+    "languages": "Languages",
+    "timezone": "Timezone",
+    "ipAddress": "IP Address",
+    "cookies": "Cookies Enabled",
+    "online": "Online",
+    "userAgent": "User Agent String"
+   },
+   "buttons": {
+    "refresh": "Refresh",
+    "copy": "Copy"
+   },
+   "messages": {
+    "ipFailed": "Unable to detect",
+    "yes": "Yes",
+    "no": "No"
+   },
+   "faqs": [
+    {
+     "question": "How does this detect my browser?",
+     "answer": "The tool reads your browser's User-Agent string and other JavaScript APIs available to any website."
+    },
+    {
+     "question": "Is my data sent anywhere?",
+     "answer": "No. Everything is detected locally in your browser, except your public IP which is requested from a public IP service."
+    },
+    {
+     "question": "Why does my browser matter for websites?",
+     "answer": "Websites use browser detection to deliver compatible features, and your User-Agent helps developers test and debug their sites."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "IP Address Lookup",
+     "href": "/tools/ip-lookup"
+    },
+    {
+     "name": "GEO IP Locator",
+     "href": "/tools/geo-ip-locator"
+    },
+    {
+     "name": "User Agent Parser",
+     "href": "/tools/typing-speed-test"
+    },
+    {
+     "name": "IP Finder",
+     "href": "/tools/ip-lookup"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is My Browser?",
+     "paragraphs": [
+      "This tool detects your browser name, version, rendering engine, operating system, screen resolution, language, timezone and public IP address."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Open the page and the information is detected automatically. Click Refresh to re-detect after changing settings."
+      ],
+      "items": [
+       "The User-Agent string is shown at the bottom for developers.",
+       "Copy the User-Agent to share it when reporting a bug."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "If you use a VPN, the IP shown may belong to your VPN provider instead of your real location."
+      ]
+     }
+    ]
+   }
+  },
+  "geo-ip-locator": {
+   "metadata": {
+    "title": "GEO IP Locator",
+    "description": "Find the geographic location, ISP and organization of any IP address",
+    "category": "Tracking"
+   },
+   "keywords": [
+    "geo ip locator",
+    "ip location",
+    "ip geolocation",
+    "find ip location",
+    "ip address location",
+    "ip tracker",
+    "geolocate ip",
+    "ip to location"
+   ],
+   "labels": {
+    "ip": "IP Address",
+    "continent": "Continent",
+    "country": "Country",
+    "region": "Region",
+    "city": "City",
+    "coordinates": "Coordinates",
+    "isp": "ISP",
+    "organization": "Organization",
+    "asn": "ASN",
+    "timezone": "Timezone",
+    "type": "IP Type",
+    "myIp": "Use my IP address"
+   },
+   "buttons": {
+    "lookUp": "Look Up",
+    "loading": "Looking up..."
+   },
+   "messages": {
+    "errorInvalid": "Please enter a valid IPv4 address.",
+    "errorNotFound": "No location data found for this IP.",
+    "errorGeneric": "Could not look up this IP. Please try again."
+   },
+   "faqs": [
+    {
+     "question": "How accurate is IP geolocation?",
+     "answer": "IP geolocation typically identifies the city or region level. It is not exact to a physical address."
+    },
+    {
+     "question": "Can IP location be wrong?",
+     "answer": "Yes. VPNs, proxies and mobile carriers can make an IP appear in a different location than you actually are."
+    },
+    {
+     "question": "What is an ASN?",
+     "answer": "An Autonomous System Number identifies the network that owns the IP block, usually an ISP or hosting company."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "IP Address Lookup",
+     "href": "/tools/ip-lookup"
+    },
+    {
+     "name": "Whois Lookup",
+     "href": "/tools/whois-lookup"
+    },
+    {
+     "name": "Domain Hosting Checker",
+     "href": "/tools/domain-hosting"
+    },
+    {
+     "name": "What Is My Browser",
+     "href": "/tools/what-is-my-browser"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a GEO IP Locator?",
+     "paragraphs": [
+      "A GEO IP locator finds the approximate geographic location of any IP address, along with the ISP and network information."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter an IPv4 address and click Look Up, or click 'Use my IP address' to look up your own public IP."
+      ],
+      "items": [
+       "The result shows continent, country, city and coordinates.",
+       "ISP and ASN identify the network that owns the IP."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Use it to check where your visitors or traffic come from, or to verify a suspicious IP address."
+      ]
+     }
+    ]
+   }
+  },
+  "redirect-checker": {
+   "metadata": {
+    "title": "Redirect Checker",
+    "description": "Check where a URL redirects to and its final status code",
+    "category": "Tracking"
+   },
+   "keywords": [
+    "redirect checker",
+    "url redirect checker",
+    "301 redirect check",
+    "redirect chain",
+    "link redirect",
+    "url redirect test",
+    "check redirects",
+    "redirect tracker"
+   ],
+   "labels": {
+    "url": "URL",
+    "originalUrl": "Original URL",
+    "finalUrl": "Final URL",
+    "statusCode": "Status Code",
+    "hasRedirect": "This URL redirects to another address",
+    "noRedirect": "This URL loads directly"
+   },
+   "buttons": {
+    "check": "Check",
+    "checking": "Checking..."
+   },
+   "messages": {
+    "empty": "Enter a URL to check.",
+    "fetchFailed": "Could not fetch the URL. The site may block automated requests or the URL may be invalid.",
+    "disclaimer": "This is a lightweight check performed through a proxy. For full redirect chains, use a server-side tool."
+   },
+   "faqs": [
+    {
+     "question": "What is a 301 redirect?",
+     "answer": "A 301 redirect permanently points an old URL to a new one, telling browsers and search engines the page has moved."
+    },
+    {
+     "question": "Why should I check redirects?",
+     "answer": "Broken or long redirect chains slow down your site and can hurt SEO. Checking helps you keep links healthy."
+    },
+    {
+     "question": "What status codes matter?",
+     "answer": "200 means OK, 301/302 mean redirected, 404 means not found, and 403/500 indicate errors."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Is It Down",
+     "href": "/tools/is-it-down"
+    },
+    {
+     "name": "URL Opener",
+     "href": "/tools/url-opener"
+    },
+    {
+     "name": "URL Slug Generator",
+     "href": "/tools/url-slug-generator"
+    },
+    {
+     "name": "Mobile Friendly Test",
+     "href": "/tools/mobile-friendly-test"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a Redirect Checker?",
+     "paragraphs": [
+      "A redirect checker tests a URL to see if it redirects to another address and shows the final destination and status code."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter the URL and click Check. The tool fetches the URL through a proxy and compares the final URL with the original."
+      ],
+      "items": [
+       "If the final URL differs, the page is being redirected.",
+       "The status code tells you if the page is healthy (200) or moved (301/302)."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "After moving pages, always set up 301 redirects from old URLs to preserve SEO value."
+      ]
+     }
+    ]
+   }
+  },
+  "is-it-down": {
+   "metadata": {
+    "title": "Is It Down",
+    "description": "Check if a website is down for everyone or just you",
+    "category": "Tracking"
+   },
+   "keywords": [
+    "is it down",
+    "website down checker",
+    "is website down",
+    "site status",
+    "uptime check",
+    "website status checker",
+    "is site down",
+    "down detector"
+   ],
+   "labels": {
+    "url": "URL",
+    "status": "Status Code",
+    "responseTime": "Response Time"
+   },
+   "buttons": {
+    "check": "Check",
+    "checking": "Checking..."
+   },
+   "messages": {
+    "empty": "Enter a URL to check.",
+    "online": "It's up!",
+    "offline": "It might be down",
+    "disclaimer": "This checks reachability through a proxy. A site may still be down for you due to local network issues, or up for you while down elsewhere."
+   },
+   "faqs": [
+    {
+     "question": "How does this check if a site is down?",
+     "answer": "The tool requests the website through a public proxy. If the request succeeds, the site is reachable; if it fails, the site may be down."
+    },
+    {
+     "question": "Why does it say 'might be down'?",
+     "answer": "Some sites block automated requests, and regional outages can differ. The result is a strong signal, not a guarantee."
+    },
+    {
+     "question": "What should I do if my site is down?",
+     "answer": "Check your hosting provider's status page, look for DNS changes, and contact support if it stays down."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Redirect Checker",
+     "href": "/tools/redirect-checker"
+    },
+    {
+     "name": "Domain Hosting Checker",
+     "href": "/tools/domain-hosting"
+    },
+    {
+     "name": "Whois Lookup",
+     "href": "/tools/whois-lookup"
+    },
+    {
+     "name": "Uptime Tracker",
+     "href": "/tools/typing-speed-test"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is Is It Down?",
+     "paragraphs": [
+      "Is It Down checks whether a website is reachable right now, helping you tell if an outage affects everyone or just you."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter the URL and click Check. The tool requests the site through a proxy and shows whether it responded."
+      ],
+      "items": [
+       "A successful response means the site is up.",
+       "The status code and response time are shown for reference."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "If a site is down for you but up here, the problem is likely on your side: your internet, DNS cache or local firewall."
+      ]
+     }
+    ]
+   }
+  },
+  "domain-age": {
+   "metadata": {
+    "title": "Domain Age Checker",
+    "description": "Find out the age and registration date of any domain",
+    "category": "Domain"
+   },
+   "keywords": [
+    "domain age",
+    "domain age checker",
+    "domain age check",
+    "check domain age",
+    "domain registration date",
+    "how old is a domain",
+    "domain age tool",
+    "whois age"
+   ],
+   "labels": {
+    "domain": "Domain",
+    "registrationDate": "Registration Date",
+    "expiryDate": "Expiry Date",
+    "updatedDate": "Last Updated",
+    "status": "Status",
+    "years": "{n} years",
+    "months": "{n} months",
+    "days": "{n} days"
+   },
+   "buttons": {
+    "check": "Check",
+    "checking": "Checking..."
+   },
+   "messages": {
+    "errorEmpty": "Enter a domain name.",
+    "errorInvalid": "Please enter a valid domain name.",
+    "errorNotFound": "No registration data found for this domain.",
+    "errorGeneric": "Could not check this domain. Please try again.",
+    "noRegistration": "No registration date was found for this domain."
+   },
+   "faqs": [
+    {
+     "question": "Why does domain age matter?",
+     "answer": "Older domains often appear more trustworthy to search engines and users, and expired-age domains may carry established history."
+    },
+    {
+     "question": "Where does the data come from?",
+     "answer": "The tool reads the public RDAP registry data, the modern standard that replaced traditional WHOIS."
+    },
+    {
+     "question": "Can the registration date be hidden?",
+     "answer": "Most registries publish registration dates publicly through RDAP. Privacy protection usually hides contact details, not dates."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Whois Lookup",
+     "href": "/tools/whois-lookup"
+    },
+    {
+     "name": "Domain Hosting Checker",
+     "href": "/tools/domain-hosting"
+    },
+    {
+     "name": "GEO IP Locator",
+     "href": "/tools/geo-ip-locator"
+    },
+    {
+     "name": "IP Address Lookup",
+     "href": "/tools/ip-lookup"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a Domain Age Checker?",
+     "paragraphs": [
+      "A domain age checker shows when a domain was registered and calculates how old it is in years, months and days."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter a domain name (without http:// or www) and click Check. The registration, expiry and update dates are shown."
+      ],
+      "items": [
+       "The age is calculated from the registration date.",
+       "Expiry and update dates are shown when available."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Use domain age when evaluating a site's history or deciding on a domain purchase."
+      ]
+     }
+    ]
+   }
+  },
+  "domain-hosting": {
+   "metadata": {
+    "title": "Domain Hosting Checker",
+    "description": "Find out which hosting provider and network a domain uses",
+    "category": "Domain"
+   },
+   "keywords": [
+    "domain hosting checker",
+    "who hosts a website",
+    "find hosting provider",
+    "check website hosting",
+    "domain host lookup",
+    "hosting checker",
+    "where is a site hosted",
+    "find web host"
+   ],
+   "labels": {
+    "domain": "Domain",
+    "ipAddress": "IP Address",
+    "host": "Hosting Provider",
+    "organization": "Organization",
+    "asn": "ASN",
+    "country": "Country",
+    "city": "City"
+   },
+   "buttons": {
+    "check": "Check",
+    "checking": "Checking..."
+   },
+   "messages": {
+    "errorEmpty": "Enter a domain name.",
+    "errorInvalid": "Please enter a valid domain name.",
+    "errorNoARecord": "No A record was found for this domain. It may not be connected to a host yet.",
+    "errorGeneric": "Could not check this domain. Please try again."
+   },
+   "faqs": [
+    {
+     "question": "How is hosting detected?",
+     "answer": "The domain's A record is resolved to an IP address, then the network owner of that IP is looked up — that reveals the hosting provider."
+    },
+    {
+     "question": "What if the domain uses a CDN?",
+     "answer": "If a CDN is in front, the IP belongs to the CDN (like Cloudflare) rather than the origin server. The tool will show the CDN as the host."
+    },
+    {
+     "question": "What is an ASN?",
+     "answer": "An Autonomous System Number is a unique identifier for a network, typically an ISP, hosting provider or CDN."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Whois Lookup",
+     "href": "/tools/whois-lookup"
+    },
+    {
+     "name": "Domain Age Checker",
+     "href": "/tools/domain-age"
+    },
+    {
+     "name": "IP Address Lookup",
+     "href": "/tools/ip-lookup"
+    },
+    {
+     "name": "Is It Down",
+     "href": "/tools/is-it-down"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a Domain Hosting Checker?",
+     "paragraphs": [
+      "A domain hosting checker reveals which hosting provider or network a website is running on by resolving its IP address and looking up the network owner."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter a domain and click Check. The tool resolves the A record, then looks up the ISP and organization of the IP."
+      ],
+      "items": [
+       "The result shows the IP address and its network owner.",
+       "ASN identifies the hosting provider or CDN."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Knowing a competitor's hosting provider can help you compare performance options."
+      ]
+     }
+    ]
+   }
+  },
+  "xml-sitemap": {
+   "metadata": {
+    "title": "XML Sitemap Generator",
+    "description": "Create a standard XML sitemap for your website in seconds",
+    "category": "Marketing"
+   },
+   "keywords": [
+    "xml sitemap generator",
+    "sitemap generator",
+    "generate sitemap",
+    "seo sitemap",
+    "sitemap.xml",
+    "website sitemap",
+    "sitemap creator",
+    "sitemap tool"
+   ],
+   "labels": {
+    "websiteUrl": "Website URL",
+    "paths": "Page Paths (one per line)",
+    "changefreq": "Change Frequency",
+    "priority": "Priority",
+    "results": "Sitemap Output"
+   },
+   "placeholders": {
+    "websiteUrl": "https://example.com",
+    "paths": "/\n/about\n/contact\n/blog"
+   },
+   "buttons": {
+    "generate": "Generate Sitemap",
+    "clear": "Clear",
+    "download": "Download XML",
+    "copy": "Copy XML"
+   },
+   "options": {
+    "always": "Always",
+    "hourly": "Hourly",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "never": "Never"
+   },
+   "messages": {
+    "empty": "Enter at least one page path.",
+    "invalidUrl": "Please enter a valid website URL.",
+    "placeholder": "Your generated sitemap will appear here."
+   },
+   "faqs": [
+    {
+     "question": "What is an XML sitemap?",
+     "answer": "An XML sitemap is a file that lists the important pages of your website so search engines can find and crawl them more efficiently."
+    },
+    {
+     "question": "How often should I update my sitemap?",
+     "answer": "Update your sitemap whenever you add, remove, or change important pages. Most sites set the change frequency to weekly or monthly."
+    },
+    {
+     "question": "Where should I upload the sitemap?",
+     "answer": "Upload sitemap.xml to the root of your website and submit it in Google Search Console or Bing Webmaster Tools."
+    },
+    {
+     "question": "What priority should I use?",
+     "answer": "Priority ranges from 0.0 to 1.0 and tells search engines which pages are more important. Use 1.0 only for your homepage and key landing pages."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Robots.txt Generator",
+     "href": "/tools/robots-txt-generator"
+    },
+    {
+     "name": "Meta Tag Generator",
+     "href": "/tools/meta-tag-generator"
+    },
+    {
+     "name": "URL Slug Generator",
+     "href": "/tools/url-slug-generator"
+    },
+    {
+     "name": "Keyword Position Checker",
+     "href": "/tools/keyword-position"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is an XML Sitemap Generator?",
+     "paragraphs": [
+      "An XML sitemap generator creates a sitemap.xml file that lists the URLs of your website, helping search engines discover and index your pages."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter your website URL, list the page paths (one per line), choose a change frequency and priority, then click Generate Sitemap."
+      ],
+      "items": [
+       "Paths can be absolute (/about) or relative (about).",
+       "The lastmod date is set to today automatically.",
+       "Download the XML file and upload it to your site root."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Keep your sitemap under 50,000 URLs. For large sites, split it into multiple sitemaps."
+      ]
+     }
+    ]
+   }
+  },
+  "adsense-calculator": {
+   "metadata": {
+    "title": "Adsense Calculator",
+    "description": "Estimate your Google AdSense revenue based on traffic and ad metrics",
+    "category": "Marketing"
+   },
+   "keywords": [
+    "adsense calculator",
+    "adsense earnings calculator",
+    "google adsense revenue",
+    "adsense income calculator",
+    "cpm calculator",
+    "adsense rpm",
+    "ad revenue calculator",
+    "earnings calculator"
+   ],
+   "labels": {
+    "dailyPageviews": "Daily Pageviews",
+    "adsPerPage": "Ads per Page",
+    "ctr": "CTR (%)",
+    "cpc": "CPC ($)",
+    "daily": "Estimated Daily Earnings",
+    "monthly": "Estimated Monthly Earnings",
+    "yearly": "Estimated Yearly Earnings"
+   },
+   "messages": {
+    "disclaimer": "Estimates only. Real earnings depend on niche, location, season, ad quality and many other factors."
+   },
+   "faqs": [
+    {
+     "question": "How is AdSense revenue calculated?",
+     "answer": "Earnings are roughly pageviews × ads per page × click-through rate (CTR) × cost per click (CPC). This tool uses that formula to give an estimate."
+    },
+    {
+     "question": "What is a good CTR for AdSense?",
+     "answer": "A CTR between 1% and 3% is typical for display ads. High-quality, well-placed ads can perform better."
+    },
+    {
+     "question": "What is CPC and what affects it?",
+     "answer": "CPC is the amount paid per click. It varies by niche, user location, season and advertiser competition."
+    },
+    {
+     "question": "Why are the numbers only estimates?",
+     "answer": "Real earnings depend on many factors this calculator cannot know, such as traffic sources, ad quality and user behavior."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Revenue Calculator",
+     "href": "/tools/revenue-calculator"
+    },
+    {
+     "name": "Profit Margin Calculator",
+     "href": "/tools/profit-margin-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Keyword Density Checker",
+     "href": "/tools/keyword-density"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is an AdSense Calculator?",
+     "paragraphs": [
+      "An AdSense calculator estimates how much money your website can earn from Google AdSense based on your traffic and ad settings."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter your daily pageviews, the average number of ads per page, your click-through rate and cost per click. The daily, monthly and yearly estimates update instantly."
+      ],
+      "items": [
+       "CTR is the percentage of ad impressions that get clicked.",
+       "CPC is the average amount you earn per click.",
+       "Use realistic values from your AdSense dashboard for better estimates."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Experiment with different inputs to see how traffic and engagement affect revenue."
+      ]
+     }
+    ]
+   }
+  },
+  "url-opener": {
+   "metadata": {
+    "title": "URL Opener",
+    "description": "Open multiple URLs at once in new browser tabs",
+    "category": "Marketing"
+   },
+   "keywords": [
+    "url opener",
+    "open multiple urls",
+    "bulk url opener",
+    "open urls at once",
+    "multi url opener",
+    "url opener tool",
+    "open many urls",
+    "link opener"
+   ],
+   "labels": {
+    "urls": "URLs (one per line or comma separated)"
+   },
+   "placeholders": {
+    "urls": "https://example.com\nhttps://example.com/about"
+   },
+   "buttons": {
+    "open": "Open All URLs",
+    "clear": "Clear"
+   },
+   "messages": {
+    "empty": "Enter at least one URL.",
+    "popupBlocked": "Your browser blocked some pop-ups. Allow pop-ups for this site and try again."
+   },
+   "status": {
+    "pending": "Pending",
+    "opened": "Opened",
+    "blocked": "Blocked"
+   },
+   "faqs": [
+    {
+     "question": "Why does my browser block the tabs?",
+     "answer": "Browsers block pop-ups triggered outside of a user gesture. If this happens, allow pop-ups for this site in your browser settings and try again."
+    },
+    {
+     "question": "Can I open URLs without http://?",
+     "answer": "Yes. The tool automatically adds https:// to URLs that don't include a protocol."
+    },
+    {
+     "question": "How many URLs can I open?",
+     "answer": "You can open as many as you like, but very large lists may be limited by your browser."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "URL Shortener",
+     "href": "/tools/url-shortener"
+    },
+    {
+     "name": "URL Slug Generator",
+     "href": "/tools/url-slug-generator"
+    },
+    {
+     "name": "Keyword Position Checker",
+     "href": "/tools/keyword-position"
+    },
+    {
+     "name": "Whois Lookup",
+     "href": "/tools/whois-lookup"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a URL Opener?",
+     "paragraphs": [
+      "A URL opener lets you open many links at the same time in new tabs, saving you from copying and pasting each one individually."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Paste your list of URLs (one per line or separated by commas), then click Open All URLs. Each URL opens in a new tab."
+      ],
+      "items": [
+       "Duplicates are removed automatically.",
+       "If the browser blocks tabs, allow pop-ups for this site."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Use this tool to check multiple pages of your site, open a batch of references, or test links quickly."
+      ]
+     }
+    ]
+   }
+  },
+  "html-viewer": {
+   "metadata": {
+    "title": "HTML Viewer",
+    "description": "View and preview HTML code in real time with syntax highlighting",
+    "category": "Developer"
+   },
+   "keywords": [
+    "html viewer",
+    "html preview",
+    "html renderer",
+    "online html viewer",
+    "html code viewer",
+    "preview html",
+    "html sandbox",
+    "view html online"
+   ],
+   "labels": {
+    "html": "HTML Code"
+   },
+   "tabs": {
+    "preview": "Preview",
+    "source": "Source"
+   },
+   "buttons": {
+    "clear": "Clear",
+    "copy": "Copy HTML"
+   },
+   "faqs": [
+    {
+     "question": "Does the preview run scripts?",
+     "answer": "The preview renders in a sandboxed iframe, so scripts are not executed for safety. Static HTML, CSS and inline styles work fully."
+    },
+    {
+     "question": "Is my HTML sent anywhere?",
+     "answer": "No. Everything runs in your browser — your code never leaves your device."
+    },
+    {
+     "question": "Can I copy the rendered output?",
+     "answer": "Use the Source tab to copy your HTML code, or the preview to check the visual result."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    },
+    {
+     "name": "HTML Minifier",
+     "href": "/tools/html-minifier"
+    },
+    {
+     "name": "HTML Encoder",
+     "href": "/tools/html-entity-encoder"
+    },
+    {
+     "name": "HTML to Image",
+     "href": "/tools/html-to-image"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is an HTML Viewer?",
+     "paragraphs": [
+      "An HTML viewer renders your HTML code in real time so you can see the visual result while you edit."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Type or paste HTML into the editor on the left. The preview on the right updates automatically. Switch between Preview and Source tabs to inspect the rendered page or the code."
+      ],
+      "items": [
+       "The preview supports HTML, CSS and inline styles.",
+       "External resources are blocked for safety."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Use it to prototype a small page, debug layout issues, or check how an email template looks."
+      ]
+     }
+    ]
+   }
+  },
+  "mobile-friendly-test": {
+   "metadata": {
+    "title": "Mobile Friendly Test",
+    "description": "Check if your website is optimized for mobile devices",
+    "category": "Marketing"
+   },
+   "keywords": [
+    "mobile friendly test",
+    "mobile friendly checker",
+    "responsive test",
+    "mobile usability",
+    "mobile seo",
+    "mobile friendly check",
+    "responsive checker",
+    "mobile test"
+   ],
+   "labels": {
+    "url": "Page URL",
+    "score": "Mobile Friendliness Score",
+    "pass": "Pass",
+    "fail": "Fail"
+   },
+   "placeholders": {
+    "url": "https://example.com"
+   },
+   "buttons": {
+    "check": "Check URL",
+    "checking": "Checking..."
+   },
+   "messages": {
+    "empty": "Enter a URL to check.",
+    "fetchFailed": "Could not fetch the page. The site may block automated requests or the URL may be invalid.",
+    "viewportPass": "The page has a viewport meta tag set to device-width.",
+    "viewportFail": "The page is missing a proper viewport meta tag.",
+    "titlePass": "The page has a title tag.",
+    "titleFail": "The page has no title tag.",
+    "descriptionPass": "The page has a meta description.",
+    "descriptionFail": "The page has no meta description.",
+    "responsivePass": "The page uses responsive CSS (media queries detected).",
+    "responsiveFail": "No media queries found — the layout may not adapt to small screens.",
+    "fontSizePass": "Legible font sizes (12px+) were detected in the CSS.",
+    "fontSizeFail": "Font sizes are not clearly set; text may be hard to read on mobile.",
+    "disclaimer": "This is a lightweight heuristic check based on the page HTML. For a full analysis, use Google's official Mobile-Friendly Test."
+   },
+   "faqs": [
+    {
+     "question": "How does the mobile friendly test work?",
+     "answer": "The tool fetches the page HTML and checks for common mobile optimizations: viewport meta tag, title, description, responsive CSS and font sizes."
+    },
+    {
+     "question": "What is a viewport meta tag?",
+     "answer": "A viewport meta tag like width=device-width tells mobile browsers to render the page at the device width instead of a desktop width."
+    },
+    {
+     "question": "Is this as accurate as Google's test?",
+     "answer": "No. This is a quick heuristic check. Google's Mobile-Friendly Test renders the page and provides a more complete evaluation."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Meta Tags Analyzer",
+     "href": "/tools/meta-tags-analyzer"
+    },
+    {
+     "name": "HTML Viewer",
+     "href": "/tools/html-viewer"
+    },
+    {
+     "name": "XML Sitemap Generator",
+     "href": "/tools/xml-sitemap"
+    },
+    {
+     "name": "Image Web Optimizer",
+     "href": "/tools/image-web-optimizer"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a Mobile Friendly Test?",
+     "paragraphs": [
+      "A mobile friendly test checks whether your website works well on phones and tablets, which is important for both user experience and Google's mobile-first indexing."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter the URL of the page you want to check and click Check URL. The tool fetches the page and shows a score with the checks it performed."
+      ],
+      "items": [
+       "The score is based on the checks below it.",
+       "Fix failing checks to improve your mobile experience."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Start with the viewport meta tag — it is the most important single fix for mobile rendering."
+      ]
+     }
+    ]
+   }
+  },
+  "keyword-density": {
+   "metadata": {
+    "title": "Keyword Density Checker",
+    "description": "Analyze keyword frequency and density in your content",
+    "category": "Marketing"
+   },
+   "keywords": [
+    "keyword density checker",
+    "keyword density analysis",
+    "keyword frequency checker",
+    "keyword density calculator",
+    "check keyword density",
+    "keyword density tool",
+    "content keyword analysis",
+    "seo keyword density"
+   ],
+   "labels": {
+    "content": "Enter Your Content",
+    "minLength": "Min Word Length",
+    "showTop": "Show Top",
+    "totalWords": "Total Words",
+    "uniqueWords": "Unique Words",
+    "topDensity": "Top Density",
+    "results": "Keyword Density Results",
+    "word": "Keyword",
+    "count": "Count",
+    "density": "Density"
+   },
+   "placeholders": {
+    "content": "Paste or type your content here..."
+   },
+   "buttons": {
+    "analyze": "Analyze Keyword Density",
+    "clear": "Clear"
+   },
+   "options": {
+    "top10": "Top 10",
+    "top20": "Top 20",
+    "top50": "Top 50"
+   },
+   "messages": {
+    "empty": "Enter some content to analyze."
+   },
+   "csv": {
+    "word": "Keyword",
+    "count": "Count",
+    "density": "Density"
+   },
+   "faqs": [
+    {
+     "question": "What is keyword density?",
+     "answer": "Keyword density is the percentage of times a keyword or phrase appears in your content compared to the total number of words. It is calculated as (keyword occurrences ÷ total words) × 100."
+    },
+    {
+     "question": "What is a good keyword density?",
+     "answer": "A keyword density between 1% and 3% is generally considered optimal for SEO. Going much higher can look like keyword stuffing, which search engines may penalize."
+    },
+    {
+     "question": "How is the density calculated in this tool?",
+     "answer": "The tool counts every word in your content, then divides the occurrences of each keyword by the total word count and multiplies by 100. You can set a minimum word length to ignore very short words."
+    },
+    {
+     "question": "Why should I check keyword density?",
+     "answer": "Checking keyword density helps you confirm your primary keywords appear frequently enough for search engines to understand your topic, without overusing them. It also helps you spot underused secondary keywords."
+    },
+    {
+     "question": "Is my content sent to a server?",
+     "answer": "No. All analysis happens locally in your browser. Your content never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "Character Counter",
+     "href": "/tools/character-counter"
+    },
+    {
+     "name": "Meta Tag Generator",
+     "href": "/tools/meta-tag-generator"
+    },
+    {
+     "name": "Keyword Position Checker",
+     "href": "/tools/keyword-position"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a Keyword Density Checker?",
+     "paragraphs": [
+      "A keyword density checker is a free online tool that analyzes how often specific words or phrases appear in your content. It shows each keyword's count, frequency, and percentage of the total text so you can optimize your writing for search engines without keyword stuffing."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Paste or type your content into the text area, set a minimum word length to filter out short filler words, choose how many top keywords to show, and click Analyze."
+      ],
+      "items": [
+       "Review the total and unique word counts for an overview of your content size.",
+       "Check each keyword's count and density percentage in the results table.",
+       "Aim for a density of 1% to 3% for your main keywords."
+      ]
+     },
+     {
+      "title": "Tips for better SEO",
+      "paragraphs": [
+       "Use your primary keyword in the title, headings, and first paragraph, then repeat it naturally throughout the body. Use this tool to verify you are not overusing it."
+      ],
+      "items": [
+       "Target a density of 1% to 3% for primary keywords.",
+       "Use related synonyms and long-tail variants for secondary keywords.",
+       "Keep the writing natural for readers first, search engines second."
+      ]
+     }
+    ]
+   }
+  },
+  "meta-tags-analyzer": {
+   "metadata": {
+    "title": "Meta Tags Analyzer",
+    "description": "Analyze the meta tags of any URL and get SEO suggestions",
+    "category": "Marketing"
+   },
+   "keywords": [
+    "meta tags analyzer",
+    "meta tag checker",
+    "analyze meta tags",
+    "meta description checker",
+    "seo meta tags",
+    "meta tags of url",
+    "og tag analyzer",
+    "check website meta tags"
+   ],
+   "labels": {
+    "urlMode": "By URL",
+    "htmlMode": "Paste HTML",
+    "url": "Page URL",
+    "html": "HTML Source"
+   },
+   "placeholders": {
+    "html": "Paste the HTML source of a page here..."
+   },
+   "buttons": {
+    "analyze": "Analyze Meta Tags",
+    "loading": "Analyzing..."
+   },
+   "messages": {
+    "fetchFailed": "Could not fetch the page. The site may block automated requests. Try the Paste HTML mode instead.",
+    "proxyNote": "Pages are fetched through a public CORS proxy because browsers cannot read cross-origin pages directly.",
+    "noTags": "No recognizable meta tags were found."
+   },
+   "faqs": [
+    {
+     "question": "What is a meta tags analyzer?",
+     "answer": "A meta tags analyzer reads the title, meta description, keywords, Open Graph, Twitter Card, and other tags of a web page. It shows you what search engines and social networks see, and warns about missing or malformed tags."
+    },
+    {
+     "question": "Which meta tags does it check?",
+     "answer": "It checks the title, meta description, keywords, robots, canonical link, H1, and social tags including Open Graph (og:title, og:description, og:image) and Twitter Cards."
+    },
+    {
+     "question": "Why can't it fetch some URLs?",
+     "answer": "Browsers block cross-origin requests, so the page is fetched through a public proxy. Some sites block proxy requests or require JavaScript, which prevents fetching. In that case, use the Paste HTML mode."
+    },
+    {
+     "question": "Is my data stored?",
+     "answer": "No. The page content is fetched and analyzed in your browser session only. Nothing is uploaded to our servers."
+    },
+    {
+     "question": "What makes good meta tags?",
+     "answer": "A title under 60 characters, a meta description under 160 characters, an accurate H1, a canonical URL, and Open Graph and Twitter Card tags for social sharing. The analyzer warns you when these are missing or too long."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Meta Tag Generator",
+     "href": "/tools/meta-tag-generator"
+    },
+    {
+     "name": "Robots.txt Generator",
+     "href": "/tools/robots-txt-generator"
+    },
+    {
+     "name": "Open Graph Preview",
+     "href": "/tools/og-preview"
+    },
+    {
+     "name": "Keyword Density Checker",
+     "href": "/tools/keyword-density"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a Meta Tags Analyzer?",
+     "paragraphs": [
+      "A meta tags analyzer is a free online tool that fetches a web page and extracts all of its meta tags. It helps you audit how your page appears in search engine results and social media previews, and flags issues that can hurt your click-through rate."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter a page URL and click Analyze Meta Tags. The tool fetches the page through a proxy and lists every meta tag it finds."
+      ],
+      "items": [
+       "Check that the title is under 60 characters.",
+       "Check that the meta description is under 160 characters.",
+       "Make sure Open Graph and Twitter Card tags are present for social sharing."
+      ]
+     },
+     {
+      "title": "Troubleshooting",
+      "paragraphs": [
+       "If a URL cannot be fetched, copy the page's HTML source and switch to the Paste HTML mode. This works for any page, including private or dynamic ones."
+      ]
+     }
+    ]
+   }
+  },
+  "long-tail-keywords": {
+   "metadata": {
+    "title": "Long Tail Keyword Tool",
+    "description": "Generate long-tail keyword suggestions for your topic",
+    "category": "Marketing"
+   },
+   "keywords": [
+    "long tail keywords",
+    "long tail keyword generator",
+    "keyword suggestions",
+    "long tail keywords tool",
+    "keyword ideas",
+    "seo keyword generator",
+    "keyword combinations",
+    "long tail seo"
+   ],
+   "labels": {
+    "seed": "Seed Keyword",
+    "country": "Country / Language",
+    "category": "Category",
+    "results": "Long-Tail Keyword Suggestions"
+   },
+   "placeholders": {
+    "seed": "e.g. coffee maker, yoga mat..."
+   },
+   "options": {
+    "global": "Global",
+    "us": "USA (English)",
+    "uk": "UK (English)",
+    "in": "India (English)",
+    "au": "Australia (English)",
+    "ca": "Canada (English)",
+    "general": "General",
+    "howTo": "How To",
+    "best": "Best / Top",
+    "buy": "Buy / Purchase",
+    "reviews": "Reviews",
+    "nearMe": "Near Me",
+    "question": "Questions"
+   },
+   "buttons": {
+    "generate": "Generate Long-Tail Keywords",
+    "copy": "Copy",
+    "copied": "Copied"
+   },
+   "faqs": [
+    {
+     "question": "What are long-tail keywords?",
+     "answer": "Long-tail keywords are longer, more specific search phrases, such as 'best budget coffee maker for camping' instead of 'coffee maker'. They usually have lower search volume but much higher conversion intent."
+    },
+    {
+     "question": "How does this tool generate keywords?",
+     "answer": "It combines your seed keyword with prefixes and suffixes such as 'best', 'how to', 'reviews', and location words, then generates combinations like 'how to use a french press' or 'best espresso machine reviews'."
+    },
+    {
+     "question": "Why are long-tail keywords important for SEO?",
+     "answer": "They face less competition, are easier to rank for, and attract visitors who are closer to making a purchase or finding a specific answer."
+    },
+    {
+     "question": "How many keywords can I generate?",
+     "answer": "The tool generates up to 60 suggestions per seed keyword, including country-specific and question-based variants. You can copy individual keywords or the whole list."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Keyword Density Checker",
+     "href": "/tools/keyword-density"
+    },
+    {
+     "name": "Keyword Position Checker",
+     "href": "/tools/keyword-position"
+    },
+    {
+     "name": "Meta Tag Generator",
+     "href": "/tools/meta-tag-generator"
+    },
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a Long Tail Keyword Tool?",
+     "paragraphs": [
+      "A long-tail keyword tool is a free generator that turns one seed keyword into dozens of longer, specific search phrases. It is a fast way to build keyword lists for blog posts, product pages, and SEO campaigns."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter a seed keyword, pick a target country or language, choose a category such as How To or Best / Top, and click Generate."
+      ],
+      "items": [
+       "Use question keywords ('what is', 'how to') for informational content.",
+       "Use 'best', 'reviews', and 'buy' keywords for commercial pages.",
+       "Use 'near me' and country variants for local SEO."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Start with a broad seed keyword and let the tool expand it. Then filter the list to the phrases that match your audience's intent."
+      ]
+     }
+    ]
+   }
+  },
+  "keyword-position": {
+   "metadata": {
+    "title": "Keyword Position Checker",
+    "description": "Check where your keywords rank in search engines",
+    "category": "Marketing"
+   },
+   "keywords": [
+    "keyword position checker",
+    "keyword rank checker",
+    "check keyword position",
+    "keyword ranking tool",
+    "serp position checker",
+    "keyword rank tracking",
+    "position checker seo",
+    "check ranking position"
+   ],
+   "labels": {
+    "domain": "Your Website URL",
+    "keywords": "Keywords to Check (one per line)",
+    "results": "Position Results",
+    "keyword": "Keyword",
+    "position": "Position",
+    "url": "Matching URL",
+    "notFound": "Not in top 50"
+   },
+   "placeholders": {
+    "keywords": "coffee maker\nbest espresso machine\nfrench press"
+   },
+   "buttons": {
+    "check": "Check Keyword Positions",
+    "checking": "Checking..."
+   },
+   "messages": {
+    "disclaimer": "This tool checks Bing organic results in your browser. Positions are estimates and may not match Google. For accurate rankings, use Google Search Console or a professional SEO tool.",
+    "partial": "Some keywords could not be checked or were not found in the top 50 results."
+   },
+   "faqs": [
+    {
+     "question": "How does the keyword position checker work?",
+     "answer": "For each keyword, the tool fetches the search engine results page through a proxy, parses the organic results, and finds the position where your domain appears."
+    },
+    {
+     "question": "Which search engine does it check?",
+     "answer": "It checks Bing organic results. Browsers block direct requests to Google, so Bing is used as a reliable, accessible estimate of your ranking position."
+    },
+    {
+     "question": "Why do positions differ between search engines?",
+     "answer": "Google and Bing use different ranking algorithms and indexes, so the same keyword can rank differently. The tool marks results as estimates for this reason."
+    },
+    {
+     "question": "How many keywords can I check at once?",
+     "answer": "You can check any number of keywords, one per line. Larger lists take longer because each keyword requires a separate search request."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Keyword Density Checker",
+     "href": "/tools/keyword-density"
+    },
+    {
+     "name": "Long Tail Keyword Tool",
+     "href": "/tools/long-tail-keywords"
+    },
+    {
+     "name": "Meta Tag Generator",
+     "href": "/tools/meta-tag-generator"
+    },
+    {
+     "name": "Domain Whois Lookup",
+     "href": "/tools/whois-lookup"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What is a Keyword Position Checker?",
+     "paragraphs": [
+      "A keyword position checker (or rank checker) shows where your website appears in search engine results for specific keywords. It helps you monitor your SEO progress without paying for expensive rank tracking software."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to use it",
+      "paragraphs": [
+       "Enter your website URL and a list of keywords (one per line), then click Check Keyword Positions. The tool shows the position of each keyword and the matching result URL."
+      ],
+      "items": [
+       "Positions 1 to 10 are the most valuable for organic traffic.",
+       "Keywords not found in the top 50 are shown as 'Not in top 50'.",
+       "Run the check regularly to track ranking changes over time."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Check keywords that already bring you traffic to understand your baseline, then focus on keywords in positions 11 to 30, which are easiest to push into the top 10."
+      ]
+     }
+    ]
+   }
+  },
+  "json-formatter": {
+   "metadata": {
+    "title": "JSON Formatter",
+    "description": "Prettify, minify, and validate JSON with syntax highlighting",
+    "category": "Developer"
+   },
+   "keywords": [
+    "json formatter",
+    "json beautifier",
+    "json validator online",
+    "json pretty print",
+    "format json online",
+    "minify json",
+    "json syntax checker",
+    "json formatter with highlighting"
+   ],
+   "labels": {
+    "input": "Input",
+    "output": "Output",
+    "indent": "Indent",
+    "inputPlaceholder": "Paste JSON here... e.g. '{'\"key\": \"value\"'}'",
+    "outputPlaceholder": "Formatted output will appear here...",
+    "errorFallback": "Invalid JSON"
+   },
+   "buttons": {
+    "format": "Format",
+    "minify": "Minify",
+    "validate": "Validate",
+    "clear": "Clear",
+    "copy": "Copy"
+   },
+   "options": {
+    "indent2": "2 Spaces",
+    "indent4": "4 Spaces",
+    "indentTab": "Tab"
+   },
+   "faqs": [
+    {
+     "question": "How do I format JSON online?",
+     "answer": "Paste your raw or minified JSON into the input field and click Format. The tool parses and pretty-prints it with your chosen indentation (2 spaces, 4 spaces, or tabs) and applies syntax highlighting for easy reading."
+    },
+    {
+     "question": "How do I validate if my JSON is correct?",
+     "answer": "Click the Validate button after pasting your JSON. The tool will tell you whether the JSON is valid or display the exact parsing error with a description of what went wrong and where."
+    },
+    {
+     "question": "What is the difference between formatting and minifying JSON?",
+     "answer": "Formatting adds whitespace and line breaks to make JSON human-readable. Minifying removes all unnecessary whitespace to produce the smallest possible output, which is useful for reducing payload size in APIs and config files."
+    },
+    {
+     "question": "Can I format large JSON files in this tool?",
+     "answer": "Yes. Since the tool runs entirely in your browser, it can handle large JSON payloads. For files over 10 MB, you may experience a brief delay while parsing. There is no server-side limit."
+    },
+    {
+     "question": "Is my JSON data sent to a server?",
+     "answer": "No. All formatting, minifying, and validation happens locally in your browser. Your data never leaves your device, making this tool safe for sensitive API responses and configuration files."
+    },
+    {
+     "question": "Does the formatter support JSON with comments?",
+     "answer": "No. The tool uses the standard JSON parser which does not allow comments. If your JSON contains comments (JSONC), you will need to remove them before pasting. Consider using a JSONC-aware editor for commented files."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "Regex Tester",
+     "href": "/tools/regex-tester"
+    },
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    },
+    {
+     "name": "UUID Generator",
+     "href": "/tools/uuid-generator"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the JSON Formatter?",
+     "paragraphs": [
+      "The JSON Formatter is a free online tool for formatting, minifying, and validating JSON data. It features syntax highlighting that color-codes keys, strings, numbers, booleans, and null values so you can read and debug JSON at a glance.",
+      "All processing runs in your browser. Your data is never sent to a server, making this tool safe for working with API responses, configuration files, and any JSON that contains sensitive information."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Format JSON",
+      "paragraphs": [
+       "Getting nicely formatted JSON takes just a couple of clicks:"
+      ],
+      "items": [
+       "Paste your raw or minified JSON into the Input text area on the left.",
+       "Click Format to pretty-print with your chosen indentation (2 spaces, 4 spaces, or tabs).",
+       "The formatted output appears on the right with syntax highlighting.",
+       "Click Copy to copy the formatted JSON to your clipboard."
+      ]
+     },
+     {
+      "title": "Minifying JSON",
+      "paragraphs": [
+       "Click the Minify button to strip all whitespace and line breaks from your JSON, producing the most compact representation. This is useful when you need to reduce payload size for APIs, embed JSON in URL parameters, or store JSON in space-constrained environments."
+      ]
+     },
+     {
+      "title": "Validating JSON",
+      "paragraphs": [
+       "Click Validate to check whether your input is valid JSON. If there is a syntax error, the tool displays the error message with details about what went wrong — such as unexpected tokens, missing commas, or unclosed brackets — so you can find and fix the problem quickly."
+      ]
+     },
+     {
+      "title": "Tips for Working with JSON",
+      "items": [
+       "JSON keys must be double-quoted strings. Single quotes will cause a parse error.",
+       "Trailing commas after the last item in an array or object are not valid JSON.",
+       "Use 2-space indentation for compact readability, or 4-space for codebases that follow that convention.",
+       "If you are debugging a large API response, format first, then use your browser's find function to search within the output."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Formatting API responses for debugging and documentation.",
+       "Validating configuration files before deployment.",
+       "Minifying JSON payloads for production environments.",
+       "Inspecting webhook payloads and event data.",
+       "Converting between compact and readable JSON during development."
+      ]
+     }
+    ]
+   }
+  },
+  "base64-encoder": {
+   "metadata": {
+    "title": "Base64 Encoder",
+    "description": "Encode and decode text and files to and from Base64",
+    "category": "Developer"
+   },
+   "keywords": [
+    "base64 encoder",
+    "base64 decoder",
+    "base64 encode online",
+    "decode base64 string",
+    "image to base64",
+    "file to base64",
+    "base64 converter",
+    "base64 text encoder"
+   ],
+   "labels": {
+    "output": "Output",
+    "uploadText": "Drag & drop a file here, or click to select",
+    "uploadHint": "Images will show a preview with their data URL",
+    "imagePreview": "Image Preview",
+    "textToEncode": "Text to Encode",
+    "base64ToDecode": "Base64 to Decode",
+    "enterText": "Enter text to encode...",
+    "pasteBase64": "Paste Base64 string...",
+    "errorEncode": "Failed to encode input",
+    "errorDecode": "Invalid Base64 string"
+   },
+   "buttons": {
+    "encode": "Encode",
+    "decode": "Decode",
+    "copy": "Copy"
+   },
+   "faqs": [
+    {
+     "question": "What is Base64 encoding?",
+     "answer": "Base64 encoding converts binary data into a text format using 64 ASCII characters. It is commonly used to embed images in HTML or CSS, transmit binary data over text-based protocols like email, and store data in JSON or XML."
+    },
+    {
+     "question": "How do I encode text to Base64?",
+     "answer": "Select the Encode mode, type or paste your text into the input field, and the Base64-encoded output appears instantly. Click the copy button to grab the result for use in your project."
+    },
+    {
+     "question": "How do I decode a Base64 string?",
+     "answer": "Switch to Decode mode and paste your Base64 string into the input field. The tool automatically converts it back to readable text. If the string is invalid Base64, an error message is displayed."
+    },
+    {
+     "question": "Can I convert an image to Base64?",
+     "answer": "Yes. Drag and drop an image file onto the upload area, or click to select a file. The tool generates a data URL with the Base64-encoded image, and shows a preview if it is an image file."
+    },
+    {
+     "question": "Does Base64 encoding encrypt my data?",
+     "answer": "No. Base64 is an encoding scheme, not encryption. Anyone can decode a Base64 string to view the original data. Do not use Base64 as a security measure for sensitive information."
+    },
+    {
+     "question": "Why is my Base64 output larger than the original?",
+     "answer": "Base64 encoding increases data size by approximately 33%. Every three bytes of input become four characters of Base64 output. This overhead is the tradeoff for safe text-based transmission of binary data."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "UUID Generator",
+     "href": "/tools/uuid-generator"
+    },
+    {
+     "name": "Password Generator",
+     "href": "/tools/password-generator"
+    },
+    {
+     "name": "Regex Tester",
+     "href": "/tools/regex-tester"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Base64 Encoder / Decoder?",
+     "paragraphs": [
+      "This tool encodes text and files into Base64 format and decodes Base64 strings back into readable content. Base64 is a binary-to-text encoding scheme used widely in web development, email systems, and APIs. Everything runs in your browser with no data sent to any server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Encode Text to Base64",
+      "paragraphs": [
+       "Make sure the mode is set to Encode. Type or paste your text into the input area. The Base64-encoded result appears instantly in the output panel. Click the copy button to copy the output to your clipboard."
+      ]
+     },
+     {
+      "title": "How to Decode Base64 to Text",
+      "paragraphs": [
+       "Switch the mode to Decode. Paste your Base64 string into the input area. The decoded plain text appears in the output. If the input is not valid Base64, an error message lets you know."
+      ]
+     },
+     {
+      "title": "Encoding Files and Images",
+      "paragraphs": [
+       "Drag and drop any file onto the upload area, or click to open a file picker. The tool reads the file and produces a data URL containing the Base64-encoded content. For image files, a visual preview is displayed so you can verify the result."
+      ],
+      "items": [
+       "Supports all file types including images, PDFs, and documents.",
+       "Image files display an inline preview below the upload area.",
+       "The full data URL is shown in the output and can be copied."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Embedding small images directly in HTML or CSS as data URLs.",
+       "Encoding binary data for safe transmission in JSON APIs.",
+       "Preparing file attachments for email protocols.",
+       "Debugging encoded strings in authentication tokens or cookies.",
+       "Converting configuration files for use in environment variables."
+      ]
+     },
+     {
+      "title": "Tips for Working with Base64",
+      "paragraphs": [
+       "Keep in mind that Base64 increases data size by about a third. For large files, it is usually better to serve them as separate resources rather than embedding them inline. Base64 is ideal for small assets like icons and thumbnails where reducing HTTP requests matters more than payload size."
+      ]
+     }
+    ]
+   }
+  },
+  "base64-to-image": {
+   "metadata": {
+    "title": "Base64 to Image Converter",
+    "description": "Convert Base64 strings into images instantly. Paste Base64 data to preview and download as PNG, JPEG, GIF, WebP, or SVG. Free and private.",
+    "category": "Developer"
+   },
+   "keywords": [
+    "base64 to image",
+    "base64 image converter",
+    "decode base64 to image",
+    "base64 to png",
+    "base64 to jpg",
+    "data url to image",
+    "convert base64 string to image"
+   ],
+   "labels": {
+    "pasteBase64": "Base64 String",
+    "placeholder": "Paste a Base64 string or data URL here...",
+    "preview": "Image Preview",
+    "format": "Format",
+    "size": "Size",
+    "hint": "Supports PNG, JPEG, GIF, WebP, and SVG — with or without the data:image prefix.",
+    "notImage": "The decoded data is not a valid image",
+    "invalidBase64": "Invalid Base64 string",
+    "noData": "Enter a Base64 string to see the image preview."
+   },
+   "buttons": {
+    "download": "Download Image",
+    "copyDataUrl": "Copy Data URL",
+    "clear": "Clear"
+   },
+   "faqs": [
+    {
+     "question": "What image formats are supported?",
+     "answer": "PNG, JPEG, GIF, WebP, and SVG. The tool detects the format automatically from the Base64 header, so you do not need to specify it."
+    },
+    {
+     "question": "Do I need to include the data:image prefix?",
+     "answer": "No. The tool accepts both raw Base64 strings and full data URLs that start with data:image/.... If the prefix is present, it is used to identify the format."
+    },
+    {
+     "question": "Is my data uploaded anywhere?",
+     "answer": "No. All decoding happens locally in your browser. Your Base64 data never leaves your device."
+    },
+    {
+     "question": "Why does the tool say my string is not an image?",
+     "answer": "The string may not be valid Base64, or it may encode something other than an image, such as text or a document. Double-check that you copied the full string."
+    },
+    {
+     "question": "How do I download the converted image?",
+     "answer": "Once the preview appears, click the Download Image button. The file is saved in its original format, for example .png or .jpg."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "Image to Base64",
+     "href": "/tools/image-to-base64"
+    },
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    },
+    {
+     "name": "Image Format Converter",
+     "href": "/tools/convert"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is a Base64 to Image Converter?",
+     "paragraphs": [
+      "This tool turns Base64-encoded image data back into a viewable image. Paste a Base64 string (with or without the data:image prefix), and the image appears instantly with its format and size, ready to download. Everything runs locally in your browser — nothing is uploaded."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Convert Base64 to an Image",
+      "paragraphs": [
+       "Copy the Base64 string of your image and paste it into the input box. The tool detects the format automatically (PNG, JPEG, GIF, WebP, or SVG) and shows a live preview. Click Download Image to save the file to your device."
+      ],
+      "items": [
+       "Works with or without the data:image/png;base64, prefix.",
+       "Format and file size are detected automatically.",
+       "Download keeps the original image format."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Recovering images from Base64 strings stored in databases or JSON APIs.",
+       "Extracting images embedded in HTML, CSS, or email source code.",
+       "Verifying Base64 image data before using it in your projects.",
+       "Converting data URLs to standalone image files."
+      ]
+     },
+     {
+      "title": "Tips",
+      "paragraphs": [
+       "Base64 increases the data size by about 33%, so large images produce long strings. If you have a very long string, make sure the entire content is pasted. This tool never sends your data anywhere — everything is processed in your browser."
+      ]
+     }
+    ]
+   }
+  },
+  "lorem-ipsum-generator": {
+   "metadata": {
+    "title": "Lorem Ipsum Generator",
+    "description": "Generate placeholder text in paragraphs, sentences, or words.",
+    "category": "Text"
+   },
+   "keywords": [
+    "lorem ipsum generator",
+    "placeholder text generator",
+    "dummy text generator",
+    "lorem ipsum paragraphs",
+    "filler text online",
+    "generate lorem ipsum",
+    "random text generator"
+   ],
+   "labels": {
+    "type": "Type",
+    "quantity": "Quantity",
+    "startWithLorem": "Start with \"Lorem ipsum...\"",
+    "words": "words",
+    "characters": "characters"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "copy": "Copy"
+   },
+   "options": {
+    "paragraphs": "Paragraphs",
+    "sentences": "Sentences",
+    "words": "Words"
+   },
+   "faqs": [
+    {
+     "question": "What is Lorem Ipsum?",
+     "answer": "Lorem Ipsum is placeholder text derived from a 1st-century BC Latin work by Cicero. Designers and developers use it to fill layouts before real content is available, allowing them to evaluate visual design without being distracted by readable text."
+    },
+    {
+     "question": "How do I generate Lorem Ipsum text?",
+     "answer": "Choose a type (paragraphs, sentences, or words), set the quantity you need, and click Generate. The placeholder text is created instantly and can be copied to your clipboard with one click."
+    },
+    {
+     "question": "Can I generate a specific number of paragraphs?",
+     "answer": "Yes. Set the type to Paragraphs and enter the number you need, from 1 to 100. Each generated paragraph contains a randomized mix of 3 to 7 Latin-style sentences."
+    },
+    {
+     "question": "What does the 'Start with Lorem ipsum' option do?",
+     "answer": "When enabled, the generated text begins with the traditional 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' opening. Disable it if you want fully randomized placeholder text from the start."
+    },
+    {
+     "question": "Is Lorem Ipsum good for SEO testing?",
+     "answer": "Lorem Ipsum is useful for testing page layouts and typography but should never appear on a production site. Search engines may flag pages with Latin placeholder text as low-quality or incomplete content."
+    },
+    {
+     "question": "Can I use this generated text commercially?",
+     "answer": "Yes. Lorem Ipsum text is not copyrighted and can be used freely in mockups, wireframes, prototypes, and design presentations. It is intended solely as placeholder content and should be replaced before launch."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Password Generator",
+     "href": "/tools/password-generator"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Lorem Ipsum Generator?",
+     "paragraphs": [
+      "The Lorem Ipsum Generator creates placeholder text for design mockups, wireframes, and development prototypes. It produces realistic-looking Latin text in paragraphs, sentences, or individual words so you can focus on layout and typography without waiting for real content."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use the Lorem Ipsum Generator",
+      "paragraphs": [
+       "Generating placeholder text takes just a few clicks. Choose your output format, set the quantity, and hit Generate."
+      ],
+      "items": [
+       "Select a type: Paragraphs for body text blocks, Sentences for shorter fills, or Words for inline placeholders.",
+       "Enter the quantity you need, from 1 to 100 units.",
+       "Toggle \"Start with Lorem ipsum...\" to begin with the classic opening phrase or leave it off for random text.",
+       "Click Generate to produce the text.",
+       "Copy the result to your clipboard with the copy button."
+      ]
+     },
+     {
+      "title": "When to Use Placeholder Text",
+      "paragraphs": [
+       "Placeholder text is essential during early design phases when real copy is not yet available. It lets you evaluate font sizes, line heights, spacing, and overall page balance. Developers use it to test dynamic content rendering, text overflow behavior, and responsive layouts."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Filling website mockups and wireframes during the design phase.",
+       "Testing typography, font sizes, and line spacing in CSS.",
+       "Populating prototype pages for client presentations.",
+       "Checking text wrapping and overflow in responsive layouts.",
+       "Generating sample content for CMS templates and themes."
+      ]
+     },
+     {
+      "title": "Tips for Better Mockups",
+      "paragraphs": [
+       "Match the placeholder quantity to realistic content lengths. If a blog post is typically 500 words, generate roughly that amount so the mockup reflects the real experience. Use paragraphs for body sections and individual words or sentences for headings, captions, and UI labels.",
+       "The built-in word and character counts help you verify that the generated text matches your target length before pasting it into your project."
+      ]
+     }
+    ]
+   },
+   "description": "Generate placeholder text as paragraphs, sentences, or words."
+  },
+  "uuid-generator": {
+   "metadata": {
+    "title": "UUID Generator",
+    "description": "Generate random UUID v4 identifiers, single or in bulk",
+    "category": "Developer"
+   },
+   "keywords": [
+    "uuid generator",
+    "uuid v4 generator",
+    "random uuid online",
+    "generate guid",
+    "bulk uuid generator",
+    "unique identifier generator",
+    "uuid creator",
+    "guid generator online"
+   ],
+   "labels": {
+    "quantity": "Quantity",
+    "count": "{count} UUID(s)",
+    "uppercase": "Uppercase",
+    "hyphens": "Hyphens"
+   },
+   "buttons": {
+    "generateOne": "Generate UUID",
+    "bulkGenerate": "Bulk Generate",
+    "copy": "Copy",
+    "copyAll": "Copy All"
+   },
+   "faqs": [
+    {
+     "question": "What is a UUID?",
+     "answer": "A UUID (Universally Unique Identifier) is a 128-bit identifier formatted as a 32-character hexadecimal string with hyphens. UUID v4, which this tool generates, uses random values, making collisions virtually impossible across systems without coordination."
+    },
+    {
+     "question": "What is the difference between UUID and GUID?",
+     "answer": "UUID and GUID (Globally Unique Identifier) are the same concept. UUID is the standard term used by the IETF and in most programming languages, while GUID is the term commonly used in Microsoft technologies. The format and purpose are identical."
+    },
+    {
+     "question": "Can I generate multiple UUIDs at once?",
+     "answer": "Yes. Enter the quantity you need (up to 100) and click Bulk Generate. All UUIDs appear in a scrollable list. You can copy individual UUIDs or click Copy All to grab the entire list at once."
+    },
+    {
+     "question": "Are generated UUIDs truly unique?",
+     "answer": "UUID v4 uses cryptographically random values, providing 122 bits of randomness. The probability of generating a duplicate is astronomically low, effectively making each UUID unique for all practical purposes."
+    },
+    {
+     "question": "Can I remove hyphens from generated UUIDs?",
+     "answer": "Yes. Uncheck the Hyphens option to generate UUIDs without dashes. This produces a continuous 32-character hexadecimal string, which some systems and databases prefer."
+    },
+    {
+     "question": "When should I use UUIDs instead of auto-increment IDs?",
+     "answer": "Use UUIDs when you need identifiers that are unique across distributed systems without a central authority. They are ideal for microservices, client-side ID generation, database merging, and scenarios where sequential IDs would reveal record counts."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Password Generator",
+     "href": "/tools/password-generator"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Regex Tester",
+     "href": "/tools/regex-tester"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the UUID Generator?",
+     "paragraphs": [
+      "The UUID Generator creates random version 4 UUIDs (Universally Unique Identifiers) directly in your browser. UUIDs are 128-bit identifiers used across software development for database primary keys, API request tracking, session tokens, and anywhere a unique identifier is needed without central coordination."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Generate UUIDs",
+      "paragraphs": [
+       "Click the Generate UUID button for a single UUID, or use the bulk feature to create many at once."
+      ],
+      "items": [
+       "Click \"Generate UUID\" for a single new identifier.",
+       "Set a quantity (1 to 100) and click \"Bulk Generate\" for multiple UUIDs at once.",
+       "Toggle Uppercase to switch between lowercase and uppercase hexadecimal output.",
+       "Toggle Hyphens to include or remove the standard dash separators.",
+       "Copy individual UUIDs or use \"Copy All\" to grab the full list."
+      ]
+     },
+     {
+      "title": "Formatting Options",
+      "paragraphs": [
+       "By default, UUIDs are generated in the standard lowercase format with hyphens, such as `550e8400-e29b-41d4-a716-446655440000`. Enable the Uppercase option for capital letters. Disable Hyphens for a compact 32-character string. These options let you match whatever format your database or API expects."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Database primary keys in distributed systems and microservices.",
+       "Unique file names for uploads to prevent conflicts.",
+       "API request IDs for tracing and logging.",
+       "Session and transaction identifiers.",
+       "Test data generation for development and QA."
+      ]
+     },
+     {
+      "title": "UUID v4 Explained",
+      "paragraphs": [
+       "UUID version 4 generates identifiers using random or pseudo-random numbers. Of the 128 bits, 122 are random and 6 are fixed to indicate the version and variant. This produces over 5.3 undecillion possible combinations, making the chance of a collision negligibly small even at massive scale.",
+       "All generation happens client-side in your browser. No UUIDs are sent to or stored on any server, so you can safely generate identifiers for any project without privacy concerns."
+      ]
+     }
+    ]
+   }
+  },
+  "word-counter": {
+   "metadata": {
+    "title": "Word Counter",
+    "description": "Count words, characters, sentences, and paragraphs. Analyze reading time and word frequency.",
+    "category": "Text"
+   },
+   "keywords": [
+    "word counter",
+    "character counter",
+    "word count tool",
+    "online word counter",
+    "count characters in text",
+    "sentence counter",
+    "reading time calculator",
+    "word frequency analyzer"
+   ],
+   "labels": {
+    "enterText": "Enter your text",
+    "placeholder": "Start typing or paste your text here...",
+    "statistics": "Statistics",
+    "readingTime": "Reading Time",
+    "readingTimeHint": "~200 words per minute",
+    "topWords": "Top Words",
+    "topWordsHint": "Start typing to see word frequency",
+    "words": "Words",
+    "characters": "Characters",
+    "charactersNoSpaces": "Characters (no spaces)",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs",
+    "min": "min"
+   },
+   "buttons": {
+    "copy": "Copy"
+   },
+   "faqs": [
+    {
+     "question": "How do I count words in my text?",
+     "answer": "Paste or type your text into the input area. The word count updates instantly in the statistics panel on the right. The tool also shows character count, sentence count, paragraph count, and estimated reading time."
+    },
+    {
+     "question": "Does the word counter include spaces in the character count?",
+     "answer": "The tool provides both counts. The Characters stat includes spaces, while the Characters (no spaces) stat excludes them. This is useful for platforms that count characters differently."
+    },
+    {
+     "question": "How is reading time calculated?",
+     "answer": "Reading time is estimated at an average rate of 200 words per minute, which is the standard for adult reading speed. The result is rounded up to the nearest minute to give a practical estimate."
+    },
+    {
+     "question": "What does the word frequency feature show?",
+     "answer": "The Top Words section displays the 10 most frequently used words in your text along with their occurrence count and a visual bar chart. Single-letter words are excluded to focus on meaningful terms."
+    },
+    {
+     "question": "Can I use this to check essay word limits?",
+     "answer": "Yes. Paste your essay or assignment text and instantly see the word count, character count, and paragraph count. This helps you stay within submission requirements for school, college, or professional writing."
+    },
+    {
+     "question": "Does this tool work for languages other than English?",
+     "answer": "The word counter works with any language that separates words with spaces. It counts words by splitting on whitespace. Character counting works for all languages and Unicode text."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Lorem Ipsum Generator",
+     "href": "/tools/lorem-ipsum-generator"
+    },
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Regex Tester",
+     "href": "/tools/regex-tester"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Word Counter?",
+     "paragraphs": [
+      "The Word Counter is an online text analysis tool that instantly counts words, characters, sentences, and paragraphs in any text you enter. It also estimates reading time and reveals your most frequently used words. Whether you are writing an essay, blog post, or social media caption, this tool helps you hit your targets."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use the Word Counter",
+      "paragraphs": [
+       "Using the tool is straightforward. Paste or type your text and all statistics update in real time."
+      ],
+      "items": [
+       "Paste your text into the large input area, or start typing directly.",
+       "View word count, character count, and more in the Statistics panel.",
+       "Check the Characters (no spaces) stat for platforms with strict character limits.",
+       "See the estimated reading time based on 200 words per minute.",
+       "Review the Top Words section to identify overused terms.",
+       "Use the copy button to copy your text after reviewing the stats."
+      ]
+     },
+     {
+      "title": "Understanding the Statistics",
+      "paragraphs": [
+       "The tool provides five core metrics: word count, total characters, characters without spaces, sentence count, and paragraph count. Sentences are detected by periods, exclamation marks, and question marks. Paragraphs are split by blank lines.",
+       "Reading time is calculated at 200 words per minute, which is a widely accepted average for adult reading speed. The word frequency chart highlights your top 10 most-used words, helping you spot repetition in your writing."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Meeting word count requirements for essays, articles, and assignments.",
+       "Checking character limits for tweets, meta descriptions, and SMS.",
+       "Estimating reading time for blog posts and newsletters.",
+       "Identifying overused words to improve writing quality.",
+       "Verifying paragraph and sentence counts for structured writing."
+      ]
+     },
+     {
+      "title": "Tips for Better Writing",
+      "paragraphs": [
+       "Use the word frequency analysis to spot words you repeat too often. If a non-essential word appears at the top of the list, consider replacing some instances with synonyms or restructuring your sentences. Aim for variety to keep your writing engaging and clear."
+      ]
+     }
+    ]
+   },
+   "description": "Count words, characters, sentences, and paragraphs. Analyze reading time and word frequency."
+  },
+  "image-color-picker": {
+   "metadata": {
+    "title": "Image Color Picker",
+    "description": "Upload an image and pick any color with an eyedropper",
+    "category": "Design"
+   },
+   "keywords": [
+    "image color picker",
+    "pick color from image",
+    "get hex color from image",
+    "eyedropper tool online",
+    "image to hex color",
+    "RGB color picker from photo",
+    "extract color from image"
+   ],
+   "labels": {
+    "uploadText": "Drop an image here or click to upload",
+    "uploadHint": "Supports PNG, JPG, GIF, WebP",
+    "clickInstruction": "Click on the image to pick a color",
+    "changeImage": "Change Image",
+    "pickedColor": "Picked Color",
+    "recentPicks": "Recent Picks",
+    "hex": "HEX",
+    "rgb": "RGB",
+    "hsl": "HSL"
+   },
+   "buttons": {
+    "copy": "Copy"
+   },
+   "faqs": [
+    {
+     "question": "How do I pick a color from an image online?",
+     "answer": "Upload your image to this tool by dragging it onto the page or clicking the upload area. Once loaded, click anywhere on the image and the tool instantly shows you the HEX, RGB, and HSL color values for that pixel."
+    },
+    {
+     "question": "What image formats does the color picker support?",
+     "answer": "The tool supports all common web image formats including PNG, JPG/JPEG, GIF, and WebP. Any image your browser can display can be used with this color picker."
+    },
+    {
+     "question": "Can I pick multiple colors from the same image?",
+     "answer": "Yes. Every color you click is added to the Recent Picks palette, which stores up to 10 colors. You can click any swatch in the palette to revisit its color values and copy them."
+    },
+    {
+     "question": "Is the image color picker accurate for design work?",
+     "answer": "The tool samples exact pixel values from the loaded image, so it is pixel-accurate. For best results with design work, use high-resolution PNG or lossless images, since JPEG compression can alter colors slightly."
+    },
+    {
+     "question": "Does this tool upload my images to a server?",
+     "answer": "No. Everything runs entirely in your browser. Your images are processed locally using the HTML5 Canvas API and are never uploaded to any server."
+    },
+    {
+     "question": "How do I convert HEX color to RGB from an image?",
+     "answer": "Simply upload your image and click on the color you want. The tool automatically displays the color in all three formats at once: HEX, RGB, and HSL. You can copy whichever format you need."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Aspect Ratio Calculator",
+     "href": "/tools/aspect-ratio-calculator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Image Color Picker?",
+     "paragraphs": [
+      "The Image Color Picker lets you extract exact colors from any image right in your browser. Upload a photo, screenshot, or design file, then click anywhere on the image to instantly get the color value in HEX, RGB, and HSL formats. No software installation required.",
+      "Whether you are matching brand colors from a logo, sampling colors from a photograph for a design project, or identifying the exact shade used on a website screenshot, this tool gives you pixel-perfect accuracy in one click."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use the Image Color Picker",
+      "items": [
+       "Drag and drop an image onto the upload area, or click to select a file from your device. PNG, JPG, GIF, and WebP formats are supported.",
+       "Once the image loads, hover over it and click on any pixel. The crosshair cursor guides your selection.",
+       "The picked color appears in the sidebar with its HEX, RGB, and HSL values. Click the copy button next to any format to copy it to your clipboard.",
+       "Every color you pick is saved to the Recent Picks palette. Click any swatch to revisit a previously sampled color.",
+       "Use the Change Image button to load a different file without refreshing the page."
+      ]
+     },
+     {
+      "title": "Tips for Accurate Color Picking",
+      "paragraphs": [
+       "For the best results, use high-resolution images. Compressed JPEGs may introduce color artifacts around edges. If you need a color from a specific area, zoom into your image in an editor first and then take a screenshot of the zoomed region before uploading.",
+       "The tool scales large images to fit the canvas while preserving aspect ratio. The color values are sampled from the scaled image pixels, so results are consistent regardless of the original file size."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Extracting brand colors from a client logo or marketing material",
+       "Matching paint or fabric colors from a reference photo",
+       "Sampling color palettes from photography or artwork for design inspiration",
+       "Identifying HEX codes from website screenshots for CSS development",
+       "Building a color palette from a mood board image"
+      ]
+     },
+     {
+      "title": "Supported Color Formats",
+      "paragraphs": [
+       "Every picked color is displayed in three standard formats. HEX codes like #3b82f6 are commonly used in CSS and web design. RGB values are useful for graphic design software and digital displays. HSL values provide an intuitive way to understand a color in terms of hue, saturation, and lightness, making adjustments easier."
+      ]
+     }
+    ]
+   }
+  },
+  "aspect-ratio-calculator": {
+   "metadata": {
+    "title": "Aspect Ratio Calculator",
+    "description": "Calculate and visualize aspect ratios with presets",
+    "category": "Design"
+   },
+   "keywords": [
+    "aspect ratio calculator",
+    "calculate aspect ratio",
+    "16:9 resolution calculator",
+    "image aspect ratio",
+    "video aspect ratio calculator",
+    "screen resolution ratio",
+    "resize image keep ratio",
+    "aspect ratio from dimensions"
+   ],
+   "labels": {
+    "width": "Width",
+    "height": "Height",
+    "aspectRatio": "Aspect Ratio",
+    "commonRatios": "Common Ratios",
+    "ratioNa": "N/A",
+    "lockTitleLocked": "Unlock ratio",
+    "lockTitleUnlocked": "Lock ratio"
+   },
+   "faqs": [
+    {
+     "question": "How do I calculate the aspect ratio of an image?",
+     "answer": "Enter the image width and height in pixels into the calculator. It automatically simplifies the ratio using the greatest common divisor. For example, a 1920x1080 image returns 16:9."
+    },
+    {
+     "question": "What is the aspect ratio of 1920x1080?",
+     "answer": "1920x1080 has an aspect ratio of 16:9. This is the standard Full HD widescreen ratio used by most monitors, TVs, and video streaming platforms."
+    },
+    {
+     "question": "How do I resize an image without distortion?",
+     "answer": "Enter your current dimensions, then click the lock button to lock the ratio. Now when you change either the width or height, the other dimension adjusts automatically to maintain the exact proportion, preventing any stretching or distortion."
+    },
+    {
+     "question": "What aspect ratio should I use for YouTube videos?",
+     "answer": "YouTube recommends 16:9 for standard videos. Use the 16:9 preset in this calculator to find the right dimensions. For YouTube Shorts, use the 9:16 vertical preset instead."
+    },
+    {
+     "question": "What is the difference between 16:9 and 4:3?",
+     "answer": "16:9 is a widescreen format that is wider relative to its height, standard for modern displays and video. 4:3 is the older, more square-shaped format used by classic TVs and some presentation slides."
+    },
+    {
+     "question": "How do I find the width if I know the height and aspect ratio?",
+     "answer": "Select a preset ratio or enter your known dimensions to lock the ratio. Then change the height field to your target value and the width will be calculated automatically."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Color Picker",
+     "href": "/tools/image-color-picker"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Box Shadow Generator",
+     "href": "/tools/box-shadow-generator"
+    },
+    {
+     "name": "Unit Converter",
+     "href": "/tools/unit-converter"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is the Aspect Ratio Calculator?",
+     "paragraphs": [
+      "The Aspect Ratio Calculator helps you determine the proportional relationship between width and height for any dimensions. Enter a width and height to instantly see the simplified ratio, or lock a ratio and let the tool auto-calculate the missing dimension when you change one value.",
+      "This is essential for designers, video editors, photographers, and developers who need to resize content while maintaining correct proportions. The visual preview shows you exactly how the dimensions look relative to each other."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use the Aspect Ratio Calculator",
+      "items": [
+       "Enter your width and height values in pixels. The simplified aspect ratio appears instantly below the inputs.",
+       "Click the lock button between the width and height fields to lock the current ratio. When locked, changing one dimension automatically updates the other to maintain the proportion.",
+       "Use the preset buttons (16:9, 4:3, 1:1, 21:9, 9:16, 3:2) to quickly apply common aspect ratios. The calculator keeps your current width and adjusts the height to match.",
+       "The visual preview on the right updates in real time to show you the shape of your dimensions.",
+       "Unlock the ratio at any time to freely edit both dimensions independently."
+      ]
+     },
+     {
+      "title": "Common Aspect Ratios Explained",
+      "paragraphs": [
+       "16:9 is the standard widescreen ratio used by most monitors, TVs, and YouTube videos. 4:3 is the classic TV and presentation format. 1:1 is a perfect square, commonly used for social media profile images and Instagram posts. 21:9 is the ultrawide cinema format. 9:16 is vertical video for TikTok, Instagram Reels, and YouTube Shorts. 3:2 is the traditional photography ratio used by most DSLR cameras."
+      ]
+     },
+     {
+      "title": "Use Cases",
+      "items": [
+       "Calculating video export dimensions for specific platforms",
+       "Resizing images for web design while preserving proportions",
+       "Determining the correct resolution for monitor or display setups",
+       "Planning responsive layouts that maintain visual consistency",
+       "Converting between standard aspect ratios for print and digital media"
+      ]
+     },
+     {
+      "title": "How Aspect Ratios Are Calculated",
+      "paragraphs": [
+       "The tool finds the greatest common divisor (GCD) of your width and height, then divides both values by it. For example, 1920 and 1080 share a GCD of 120, giving you 16:9. When the ratio is locked, the tool stores the decimal ratio and uses it to calculate the complementary dimension as you type."
+      ]
+     }
+    ]
+   }
+  },
+  "screen-recorder": {
+   "metadata": {
+    "title": "Screen Recorder - Free Online Tool",
+    "description": "Record your screen, webcam, or both with audio. No upload, no watermark, runs entirely in your browser."
+   },
+   "title": "Screen Recorder",
+   "description": "Record your screen, webcam, or both with audio. No upload, no watermark, runs entirely in your browser.",
+   "category": "Utility",
+   "keywords": [
+    "screen recorder",
+    "record screen online",
+    "free screen recorder",
+    "webcam recorder",
+    "browser tab recorder",
+    "no watermark screen recorder"
+   ],
+   "faqs": [
+    {
+     "question": "Is this screen recorder free?",
+     "answer": "Yes. It runs entirely in your browser using the MediaRecorder API. No upload, no account, no watermark, no time limit."
+    },
+    {
+     "question": "What format is the recording?",
+     "answer": "Recordings are saved as MP4 (VP9) files, which play on virtually every platform while avoiding the glitches H.264 recording can produce in some browsers. On browsers without MP4 recording support (e.g. Firefox), recordings fall back to WebM."
+    },
+    {
+     "question": "Can I record audio?",
+     "answer": "Yes. You can record system audio (when sharing a tab or screen) and/or your microphone. Enable the options before starting."
+    },
+    {
+     "question": "Is there a time limit?",
+     "answer": "No. Record as long as you want. The recording is stored in memory, so very long recordings (hours) may use significant RAM."
+    },
+    {
+     "question": "Can I record a specific window or tab?",
+     "answer": "Yes. When you click Start Recording, your browser will ask you to choose between your entire screen, a specific window, or a browser tab."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Compressor",
+     "href": "/tools/video-compressor"
+    },
+    {
+     "name": "Video to GIF",
+     "href": "/tools/video-to-gif"
+    }
+   ],
+   "source": {
+    "screen": "Screen / Tab",
+    "camera": "Camera"
+   },
+   "audio": {
+    "system": "Include system audio",
+    "microphone": "Include microphone"
+   },
+   "recording": {
+    "recording": "Recording",
+    "paused": "Paused"
+   },
+   "buttons": {
+    "start": "Start Recording",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop",
+    "download": "Download",
+    "newRecording": "New Recording"
+   },
+   "result": {
+    "duration": "Duration: {time}",
+    "size": "Size: {size} MB"
+   },
+   "errors": {
+    "permissionDenied": "Permission denied. Please allow access to your screen or camera and try again.",
+    "startFailed": "Failed to start recording. Please make sure your browser supports screen recording."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Screen Recorder?",
+     "body": [
+      "Record your screen, a specific window, or your webcam directly in your browser. You can include system audio and microphone audio, and download the recording as a WebM video."
+     ]
+    },
+    "modes": {
+     "title": "Recording Sources",
+     "items": [
+      "Screen / Window / Tab — capture anything on your screen.",
+      "Webcam — record from your camera.",
+      "Optionally include system audio and microphone."
+     ]
+    },
+    "howTo": {
+     "title": "How to Record",
+     "intro": "Start recording in a few clicks:",
+     "items": [
+      "Choose Screen / Window / Tab or Webcam.",
+      "Enable audio options if needed.",
+      "Click Start Recording and select what to share.",
+      "Click Stop when finished and download the MP4 file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Close unnecessary tabs to improve performance.",
+      "Use a microphone in a quiet room for clearer audio.",
+      "Very long recordings use more RAM; download promptly."
+     ]
+    }
+   }
+  },
+  "text-to-speech": {
+   "metadata": {
+    "title": "Text to Speech - Free Online Tool",
+    "description": "Convert text to natural speech using your browser's built-in voices. Multiple languages, adjustable speed and pitch. Free and private."
+   },
+   "title": "Text to Speech",
+   "description": "Convert text to natural speech using your browser's built-in voices. Multiple languages, adjustable speed and pitch. Free and private.",
+   "category": "Utility",
+   "keywords": [
+    "text to speech",
+    "tts",
+    "free text to speech",
+    "online text to speech",
+    "read text aloud",
+    "text reader"
+   ],
+   "faqs": [
+    {
+     "question": "Is this text to speech tool free?",
+     "answer": "Yes. It uses the Web Speech API built into your browser. No server processing, no signup, no limits."
+    },
+    {
+     "question": "What languages are supported?",
+     "answer": "It depends on your browser and operating system. Most support English, Spanish, French, German, Japanese, Chinese, Korean, and many more. The voice dropdown shows all available voices."
+    },
+    {
+     "question": "Can I download the audio?",
+     "answer": "The Web Speech API doesn't support direct audio export. For downloadable audio, you'd need a server-side TTS service. This tool is designed for listening and proofreading."
+    },
+    {
+     "question": "Why do some voices sound more natural than others?",
+     "answer": "Browsers include both basic and premium voices. On macOS and iOS, voices like Samantha and Alex are high quality. On Chrome, Google's voices tend to sound more natural. Premium voices are downloaded on-demand."
+    },
+    {
+     "question": "Is my text sent to a server?",
+     "answer": "No. The Web Speech API processes text locally in your browser. Your text never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image to Text (OCR)",
+     "href": "/tools/image-to-text"
+    },
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    }
+   ],
+   "placeholder": "Enter text to speak...",
+   "labels": {
+    "voice": "Voice",
+    "speed": "Speed: {rate}",
+    "pitch": "Pitch: {pitch}"
+   },
+   "buttons": {
+    "speak": "Speak",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop"
+   },
+   "stats": "{count} characters · ~{minutes} min read",
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Text to Speech Tool?",
+     "body": [
+      "Convert any text into natural-sounding speech using voices built into your browser. Choose from multiple languages and voices, and adjust speed and pitch to suit your needs."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use It",
+     "intro": "Listen to your text in seconds:",
+     "items": [
+      "Type or paste your text into the input area.",
+      "Select a voice from the dropdown.",
+      "Adjust the speed and pitch sliders.",
+      "Click Speak to start playback."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use this tool for proofreading by hearing your text aloud.",
+      " macOS and iOS voices like Samantha tend to sound very natural.",
+      "Your text never leaves your device — all processing is local."
+     ]
+    }
+   }
+  }
+ }
+}

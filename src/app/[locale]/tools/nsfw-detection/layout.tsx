@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/nsfw-detection`,
         ja: `https://www.toolkitlife.com/ja/tools/nsfw-detection`,
         ko: `https://www.toolkitlife.com/ko/tools/nsfw-detection`,
+        ru: `https://www.toolkitlife.com/ru/tools/nsfw-detection`,
       },
     },
   };

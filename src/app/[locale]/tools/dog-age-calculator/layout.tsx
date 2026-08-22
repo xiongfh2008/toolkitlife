@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/dog-age-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/dog-age-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/dog-age-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/dog-age-calculator`,
       },
     },
   };

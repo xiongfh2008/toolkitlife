@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/keyword-position`,
         ja: `https://www.toolkitlife.com/ja/tools/keyword-position`,
         ko: `https://www.toolkitlife.com/ko/tools/keyword-position`,
+        ru: `https://www.toolkitlife.com/ru/tools/keyword-position`,
       },
     },
   };

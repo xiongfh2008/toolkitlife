@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/timestamp-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/timestamp-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/timestamp-converter`,
+        ru: `https://www.toolkitlife.com/ru/tools/timestamp-converter`,
       },
     },
   };

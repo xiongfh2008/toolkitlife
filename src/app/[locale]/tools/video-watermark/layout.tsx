@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/video-watermark`,
         ja: `https://www.toolkitlife.com/ja/tools/video-watermark`,
         ko: `https://www.toolkitlife.com/ko/tools/video-watermark`,
+        ru: `https://www.toolkitlife.com/ru/tools/video-watermark`,
       },
     },
   };

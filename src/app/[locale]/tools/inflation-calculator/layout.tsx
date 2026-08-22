@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/inflation-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/inflation-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/inflation-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/inflation-calculator`,
       },
     },
   };

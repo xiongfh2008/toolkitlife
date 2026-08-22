@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/unsharp-mask`,
         ja: `https://www.toolkitlife.com/ja/tools/unsharp-mask`,
         ko: `https://www.toolkitlife.com/ko/tools/unsharp-mask`,
+        ru: `https://www.toolkitlife.com/ru/tools/unsharp-mask`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-negative`,
         ja: `https://www.toolkitlife.com/ja/tools/image-negative`,
         ko: `https://www.toolkitlife.com/ko/tools/image-negative`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-negative`,
       },
     },
   };

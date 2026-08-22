@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/debt-payoff-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/debt-payoff-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/debt-payoff-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/debt-payoff-calculator`,
       },
     },
   };

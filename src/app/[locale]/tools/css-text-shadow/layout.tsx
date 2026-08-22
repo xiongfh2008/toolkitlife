@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/css-text-shadow`,
         ja: `https://www.toolkitlife.com/ja/tools/css-text-shadow`,
         ko: `https://www.toolkitlife.com/ko/tools/css-text-shadow`,
+        ru: `https://www.toolkitlife.com/ru/tools/css-text-shadow`,
       },
     },
   };

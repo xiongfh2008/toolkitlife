@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/mortgage-payoff-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/mortgage-payoff-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/mortgage-payoff-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/mortgage-payoff-calculator`,
       },
     },
   };

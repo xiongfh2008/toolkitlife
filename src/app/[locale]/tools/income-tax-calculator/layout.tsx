@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/income-tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/income-tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/income-tax-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/income-tax-calculator`,
       },
     },
   };

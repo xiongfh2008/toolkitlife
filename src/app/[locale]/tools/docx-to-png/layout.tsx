@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/docx-to-png`,
         ja: `https://www.toolkitlife.com/ja/tools/docx-to-png`,
         ko: `https://www.toolkitlife.com/ko/tools/docx-to-png`,
+        ru: `https://www.toolkitlife.com/ru/tools/docx-to-png`,
       },
     },
   };

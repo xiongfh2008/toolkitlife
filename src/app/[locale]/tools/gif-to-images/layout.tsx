@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/gif-to-images`,
         ja: `https://www.toolkitlife.com/ja/tools/gif-to-images`,
         ko: `https://www.toolkitlife.com/ko/tools/gif-to-images`,
+        ru: `https://www.toolkitlife.com/ru/tools/gif-to-images`,
       },
     },
   };

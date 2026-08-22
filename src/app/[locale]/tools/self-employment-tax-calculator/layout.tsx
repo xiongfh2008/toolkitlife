@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/self-employment-tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/self-employment-tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/self-employment-tax-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/self-employment-tax-calculator`,
       },
     },
   };

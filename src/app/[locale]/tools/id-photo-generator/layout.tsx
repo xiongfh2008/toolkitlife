@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/id-photo-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/id-photo-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/id-photo-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/id-photo-generator`,
       },
     },
   };

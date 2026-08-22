@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/qr-code-reader`,
         ja: `https://www.toolkitlife.com/ja/tools/qr-code-reader`,
         ko: `https://www.toolkitlife.com/ko/tools/qr-code-reader`,
+        ru: `https://www.toolkitlife.com/ru/tools/qr-code-reader`,
       },
     },
   };

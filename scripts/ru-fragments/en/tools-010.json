@@ -1,0 +1,2658 @@
+{
+ "tools": {
+  "life-insurance-calculator": {
+   "metadata": {
+    "title": "Life Insurance Calculator",
+    "description": "Estimate recommended life insurance coverage using the income replacement method.",
+    "category": "Finance",
+    "icon": "🛡"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "life insurance calculator",
+    "how much life insurance do i need",
+    "life insurance needs calculator",
+    "term life insurance calculator",
+    "life insurance cost calculator",
+    "life insurance estimator"
+   ],
+   "faqs": [
+    {
+     "question": "How much life insurance do I need?",
+     "answer": "A common rule of thumb is 10-15 times your income, but a better approach is to calculate your needs: outstanding debts (mortgage, loans) + future expenses (college, living costs) - existing resources (savings, current coverage). The difference is the coverage you need."
+    },
+    {
+     "question": "What is the difference between term and whole life insurance?",
+     "answer": "Term life provides a death benefit for a specific period (10-30 years) and is cheaper. Whole life covers you for your entire life and builds cash value, but premiums are 5-10 times higher. Most people only need term life."
+    },
+    {
+     "question": "How are life insurance premiums calculated?",
+     "answer": "Premiums are based on age, health, coverage amount, policy type, and habits (smokers pay more). Younger, healthier individuals get lower rates. With term life, rates are locked in for the duration of the policy."
+    },
+    {
+     "question": "Do I need life insurance through work?",
+     "answer": "Employer-provided coverage is usually insufficient (often only 1-2 times your income). If you have dependents, add an individual policy to cover the gap. Individual policies stay with you when you change jobs."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    },
+    {
+     "name": "Net Worth Calculator",
+     "href": "/tools/net-worth-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    }
+   ],
+   "labels": {
+    "annualIncome": "Annual Income",
+    "yearsToReplace": "Years of Income to Replace",
+    "debts": "Debts",
+    "futureExpenses": "Future Expenses",
+    "savings": "Existing Savings",
+    "recommendedCoverage": "Recommended Coverage",
+    "incomeReplacement": "Income Replacement",
+    "totalObligations": "Total Obligations"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "annualIncome": "Enter annual income",
+    "yearsToReplace": "Enter years of income to replace",
+    "debts": "Enter debts",
+    "futureExpenses": "Enter future expenses",
+    "savings": "Enter existing savings"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Life Insurance Calculator?",
+     "paragraphs": [
+      "Calculate exactly how much life insurance coverage you need based on your income, debts, dependents, and financial goals."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the life insurance calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   },
+   "description": "Estimate life insurance needs and premiums."
+  },
+  "medicare-cost-calculator": {
+   "metadata": {
+    "title": "Medicare Cost Calculator",
+    "description": "Estimate annual Medicare costs, including premiums, IRMAA surcharges, and out-of-pocket expenses.",
+    "category": "Legal"
+   },
+   "keywords": [
+    "Medicare cost calculator",
+    "Medicare premium estimator",
+    "IRMAA calculator",
+    "Medicare Part B costs",
+    "Medicare Part D costs",
+    "Medigap calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How much does Medicare cost in 2026?",
+     "answer": "Most people pay $0 for Part A, and Part B is $202.90/month (standard premium). Part D averages about $39/month. Total baseline: about $242/month. Higher earners pay more due to IRMAA surcharges — up to $689.90/month for Part B alone at the highest income tier."
+    },
+    {
+     "question": "What is IRMAA?",
+     "answer": "IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge added to Part B and Part D premiums for higher-income beneficiaries. It is based on your MAGI from 2 years ago (2026 premiums use 2024 income). IRMAA kicks in starting at $109,001 for singles and $218,001 for married filing jointly. The highest tier (single $500K+, joint $750K+) adds $487/month to Part B and $91/month to Part D."
+    },
+    {
+     "question": "Is Medicare Part A really free?",
+     "answer": "Part A is premium-free if you (or your spouse) worked and paid Medicare taxes for more than 40 quarters (10 years). With 30-39 quarters, you pay $311/month. Fewer than 30 quarters: $565/month. However, Part A still has a $1,736 deductible per benefit period, plus daily copays beyond 60 days."
+    },
+    {
+     "question": "What does Medicare Part B cover?",
+     "answer": "Part B covers doctor visits, outpatient care, preventive services, medical equipment, ambulance services, mental health, and some home health care. After the $283 annual deductible, you typically pay 20% coinsurance with no out-of-pocket maximum — which is why many people buy Medigap supplemental coverage."
+    },
+    {
+     "question": "What is the Part D out-of-pocket cap?",
+     "answer": "Starting in 2025, the Inflation Reduction Act set the Part D out-of-pocket cap at $2,000 per year ($2,100 in 2026). Once you reach this cap, you pay $0 for covered drugs for the rest of the year. This is a major change — previously there was no annual cap and costs could spiral."
+    },
+    {
+     "question": "What is Medigap?",
+     "answer": "Medigap (Medicare Supplement) plans are private insurance that covers the gaps in Original Medicare — copays, coinsurance, and deductibles. Plan G is the most popular, typically $100-$250/month depending on age, location, and insurer. Medigap only works with Original Medicare, not Medicare Advantage."
+    },
+    {
+     "question": "What happens if I delay enrolling in Medicare?",
+     "answer": "Part B: a 10% premium surcharge for every full 12 months you were eligible but did not enroll — permanently. Part D: 1% of the base premium for every uncovered month ($0.39/month in 2026) — also permanent. These penalties add up fast: delaying Part B by 3 years means paying 30% more for life."
+    },
+    {
+     "question": "When can I enroll in Medicare?",
+     "answer": "Your Initial Enrollment Period lasts 7 months: it begins 3 months before your 65th birthday month, includes your birthday month, and ends 3 months after. You can also enroll during the General Enrollment Period (January 1-March 31, with coverage starting July 1) or during a Special Enrollment Period if you have a qualifying event."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Social Security Calculator",
+     "href": "/tools/social-security-calculator"
+    }
+   ],
+   "labels": {
+    "annualIncome": "Annual Income (MAGI)",
+    "hospitalStays": "Expected Hospital Stays",
+    "partB": "Medicare Part B",
+    "partD": "Medicare Part D",
+    "annualEstimate": "Estimated Annual Cost",
+    "partBCost": "Part B Premium",
+    "partDCost": "Part D Premium",
+    "irmaaSurcharge": "IRMAA Surcharge",
+    "outOfPocket": "Estimated Out-of-Pocket"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "Understanding Medicare Costs",
+     "content": "Medicare has several cost components: Part A (hospital), Part B (medical/outpatient), Part D (prescription drugs), and optional Medigap supplemental coverage. Most people pay $0 for Part A if they have more than 40 quarters of Medicare-covered employment. Parts B and D have standard premiums, which are increased by IRMAA surcharges for higher earners."
+    },
+    "howTo": {
+     "title": "Medicare Cost Components",
+     "sections": [
+      {
+       "heading": "Part A (Hospital Insurance)",
+       "content": "Part A is premium-free if you (or your spouse) worked and paid Medicare taxes for more than 40 quarters (10 years). With 30-39 quarters, you pay $311/month. Fewer than 30 quarters: $565/month. Part A has a $1,736 deductible per benefit period (2026), plus daily copays beyond 60 days."
+      },
+      {
+       "heading": "Part B (Medical Insurance)",
+       "content": "Part B covers doctor visits, outpatient care, preventive services, medical equipment, ambulance services, mental health, and some home health care. The 2026 standard premium is $202.90/month with a $283 annual deductible. After the deductible, you typically pay 20% coinsurance with no out-of-pocket maximum."
+      },
+      {
+       "heading": "Part D (Prescription Drugs)",
+       "content": "Part D averages about $39/month in 2026. Starting in 2025, the Inflation Reduction Act set the Part D out-of-pocket cap at $2,000 per year ($2,100 in 2026). Once you reach this cap, you pay $0 for covered drugs for the rest of the year."
+      },
+      {
+       "heading": "IRMAA Surcharges",
+       "content": "IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge added to Part B and Part D premiums for higher-income beneficiaries. It is based on your MAGI from 2 years ago (2026 premiums use 2024 income). IRMAA kicks in starting at $109,001 for singles and $218,001 for married filing jointly."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Late Enrollment Penalties",
+     "content": "Part B: a 10% premium surcharge for every full 12 months you were eligible but did not enroll — permanently. Part D: 1% of the base premium for every uncovered month ($0.39/month in 2026) — also permanent. These penalties add up fast: delaying Part B by 3 years means paying 30% more for life."
+    }
+   }
+  },
+  "mortgage-payoff-calculator": {
+   "metadata": {
+    "title": "Mortgage Payoff Calculator",
+    "description": "Calculate how much extra monthly payments can shorten your term and save in interest.",
+    "category": "Finance",
+    "icon": "🏡"
+   },
+   "keywords": [
+    "mortgage payoff",
+    "early payoff",
+    "extra payments",
+    "interest savings",
+    "payoff strategies",
+    "biweekly payments",
+    "mortgage",
+    "repayment plan",
+    "principal reduction",
+    "loan term"
+   ],
+   "faqs": [
+    {
+     "question": "How can I pay off my mortgage faster?",
+     "answer": "Strategies: 1) Biweekly payments (one extra payment per year), 2) add 1/12 to each monthly payment, 3) make one extra lump-sum payment per year, 4) round payments up to the next $100. Any method saves thousands in interest."
+    },
+    {
+     "question": "Should I refinance or make extra payments?",
+     "answer": "Refinancing is worth it if rates are more than 1% lower. Otherwise, extra payments are better — no closing costs and immediate interest savings. Refinancing resets your term (unless you choose a 15-year)."
+    },
+    {
+     "question": "How do extra payments save interest?",
+     "answer": "Extra payments directly reduce the principal, shrinking the amount that accrues interest. A $100 extra payment on a 30-year, 4% loan saves about $180 in interest. Over time, the compounding savings are significant."
+    },
+    {
+     "question": "Are there prepayment penalties?",
+     "answer": "Some loans have them — especially in the early years. Check your promissory note. Most conventional loans have no penalty. If the penalty exceeds the savings, avoid extra payments until the penalty period ends."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    },
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    }
+   ],
+   "labels": {
+    "currentBalance": "Current Balance",
+    "rate": "Annual Interest Rate (%)",
+    "remainingTerm": "Remaining Term (Years)",
+    "extraPayment": "Extra Monthly Payment",
+    "interestSaved": "Interest Saved",
+    "monthsSaved": "Months Saved",
+    "baseMonthly": "Base Monthly Payment",
+    "newPayoffMonths": "New Payoff Months"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "currentBalance": "Enter current balance",
+    "rate": "Enter annual interest rate (%)",
+    "remainingTerm": "Enter remaining term (years)",
+    "extraPayment": "Enter extra monthly payment"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Mortgage Payoff Calculator?",
+     "paragraphs": [
+      "The Mortgage Payoff Calculator shows how extra monthly payments can shorten your mortgage term and save you thousands in interest. Enter your current loan balance, interest rate, remaining term, and extra payment amount to see your new payoff date and total interest savings."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the mortgage payoff calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   },
+   "description": "Compare strategies to pay off your mortgage faster."
+  },
+  "net-worth-percentile-calculator": {
+   "metadata": {
+    "title": "Net Worth Percentile Calculator",
+    "description": "Estimate your net worth percentile by country.",
+    "category": "Finance",
+    "icon": "📊"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "net worth percentile calculator",
+    "net worth by age",
+    "am i wealthy",
+    "average net worth by age",
+    "wealth percentile",
+    "net worth comparison",
+    "how much should i have saved",
+    "median net worth by age",
+    "net worth rank",
+    "top 1 percent net worth"
+   ],
+   "faqs": [
+    {
+     "question": "What is the median net worth in the U.S.?",
+     "answer": "The median U.S. household net worth is approximately $192,700. The average (mean) is much higher at about $1,060,000 because extremely wealthy households pull the average up. Median is a better measure of the 'typical' American's wealth."
+    },
+    {
+     "question": "What net worth makes you top 1%?",
+     "answer": "A net worth of roughly $13 million or more puts you in the top 1% of U.S. households. The threshold varies by age: for under-35 households it's around $1.5M, while for 55-64 year olds it's around $15M."
+    },
+    {
+     "question": "What should my net worth be at my age?",
+     "answer": "A common guideline is to have 1x your annual salary saved by 30, 3x by 40, 6x by 50, 8x by 60, and 10x by 67. However, these are rough targets. The median net worth by age group gives a more realistic picture of where Americans actually stand."
+    },
+    {
+     "question": "Does net worth include home equity?",
+     "answer": "Yes. Net worth equals total assets minus total debts. Assets include home equity, retirement accounts, savings, investments, vehicles, and other property. Debts include mortgages, student loans, auto loans, credit cards, and any other liabilities."
+    },
+    {
+     "question": "Why is average net worth so much higher than median?",
+     "answer": "The top 10% of households hold about 70% of all wealth. A few extremely wealthy families (with net worths in the billions) dramatically pull the average upward, making it unrepresentative of typical Americans. The median (50th percentile) is the point where exactly half of households have more and half have less."
+    },
+    {
+     "question": "How does net worth vary by age?",
+     "answer": "Net worth generally increases with age due to accumulated savings, home equity, and investment growth. The median rises from about $39,000 for under-35 to $410,000 for ages 65-74, then declines slightly to $336,000 for 75+ as retirees draw down savings."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Net Worth Calculator",
+     "href": "/tools/net-worth-calculator"
+    },
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    },
+    {
+     "name": "Income Percentile Calculator",
+     "href": "/tools/income-percentile-calculator"
+    },
+    {
+     "name": "FIRE Calculator",
+     "href": "/tools/fire-calculator"
+    }
+   ],
+   "labels": {
+    "percentileSuffix": "percentileSuffix",
+    "country": "Country",
+    "netWorth": "Net Worth",
+    "estimatedPercentile": "Estimated Percentile",
+    "countryMedian": "Country Median"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "us": "United States",
+    "uk": "United Kingdom",
+    "ca": "Canada",
+    "au": "Australia",
+    "de": "Germany",
+    "jp": "Japan",
+    "kr": "South Korea",
+    "cn": "China"
+   },
+   "placeholders": {
+    "netWorth": "Enter net worth"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Net Worth Percentile Calculator?",
+     "paragraphs": [
+      "See how your net worth compares to other Americans by age group. Uses Federal Reserve Survey of Consumer Finances data to calculate your wealth percentile."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the net worth percentile calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  },
+  "ohms-law-calculator": {
+   "metadata": {
+    "title": "Ohm's Law Calculator",
+    "description": "Calculate voltage, current, resistance, or power from any two known values.",
+    "category": "Math"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "ohms law calculator",
+    "voltage calculator",
+    "resistance calculator",
+    "current calculator",
+    "power calculator",
+    "electrical calculator",
+    "ohm's law wheel",
+    "series parallel resistance",
+    "AWG wire size chart",
+    "V=IR calculator"
+   ],
+   "labels": {
+    "known1": "Known Value 1",
+    "known2": "Known Value 2"
+   },
+   "placeholders": {
+    "value": "Enter a value"
+   },
+   "quantities": {
+    "voltage": "Voltage",
+    "current": "Current",
+    "resistance": "Resistance",
+    "power": "Power"
+   },
+   "units": {
+    "voltage": "V",
+    "current": "A",
+    "resistance": "Ω",
+    "power": "W"
+   },
+   "errors": {
+    "missingValues": "Please enter two known values.",
+    "divideByZero": "Cannot divide by zero. Please check your inputs.",
+    "resistancePositive": "Resistance must be greater than zero when calculating current and voltage from power.",
+    "sameQuantity": "Please select two different quantities.",
+    "invalidResult": "Could not calculate a valid result. Please check your inputs."
+   },
+   "faqs": [
+    {
+     "question": "What is Ohm's Law?",
+     "answer": "Ohm's Law states that voltage = current × resistance (V = IR). It describes the relationship between voltage, current, and resistance in a circuit. If you know two of them, you can calculate the third."
+    },
+    {
+     "question": "How do I calculate power?",
+     "answer": "Power (watts) = voltage × current (P = VI). Using Ohm's Law to substitute: P = I²R or P = V²/R. This is used for electrical systems and appliance ratings."
+    },
+    {
+     "question": "What happens to current if resistance increases?",
+     "answer": "At constant voltage, current decreases as resistance increases (I = V/R). Doubling the resistance means half the current. This is why long extension cords (higher resistance) reduce current to devices."
+    },
+    {
+     "question": "Why is Ohm's Law important?",
+     "answer": "It is the foundation of all electrical engineering. Designing circuits, selecting fuses, wiring, and ensuring appliances receive the right power all rely on Ohm's Law. Without it, electrical systems would be unpredictable and dangerous."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Unit Converter",
+     "href": "/tools/unit-converter"
+    },
+    {
+     "name": "Scientific Calculator",
+     "href": "/tools/scientific-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    }
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Ohm's Law Calculator?",
+     "body": [
+      "Calculate voltage, current, resistance, and power using Ohm's Law. Enter any two values to find the other two instantly. Includes unit converter, series/parallel resistance calculator, and AWG wire reference."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Ohm's Law Calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View your results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool provides estimates - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate voltage, current, resistance, and power."
+  },
+  "personal-injury-calculator": {
+   "metadata": {
+    "title": "Personal Injury Calculator",
+    "description": "Estimate personal injury settlement amounts based on medical bills, lost wages, and a pain multiplier.",
+    "category": "Legal"
+   },
+   "keywords": [
+    "personal injury calculator",
+    "settlement calculator",
+    "pain and suffering calculator",
+    "injury claim estimate",
+    "personal injury settlement estimate",
+    "multiplier method calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How are personal injury settlements calculated?",
+     "answer": "Insurance companies use the \"multiplier method\" as a starting point. Your total medical expenses are multiplied by a factor (1.5x for minor injuries, up to 10x for catastrophic injuries) to estimate pain and suffering. Lost wages and property damage are added separately. The result is then adjusted by your percentage of fault according to your state's negligence rules and is limited by the defendant's insurance policy limits."
+    },
+    {
+     "question": "What is the pain and suffering multiplier?",
+     "answer": "The multiplier is a number (typically 1.5 to 10) applied to your medical bills to estimate non-economic damages such as pain, suffering, mental anguish, and loss of enjoyment of life. Minor soft tissue injuries use 1.5-3x, moderate injuries like fractures use 3-5x, serious injuries requiring surgery use 5-7x, and catastrophic or permanent injuries use 7-10x or higher."
+    },
+    {
+     "question": "What is comparative negligence?",
+     "answer": "Comparative negligence reduces your settlement by your percentage of fault. In \"pure comparative\" states (like CA and NY), you can recover even at 99% fault. In \"modified comparative\" states, you are barred from recovery at 50% or 51% fault, depending on the state. In \"pure contributory\" states (AL, MD, NC, VA, DC), you are barred from any recovery even at just 1% fault."
+    },
+    {
+     "question": "How do insurance policy limits affect my settlement?",
+     "answer": "The defendant's insurance policy limits are usually the practical ceiling on your recovery, regardless of your case's theoretical value. If your case is worth $500,000 but the defendant only has $50,000 in liability coverage, you will likely only collect $50,000 unless the defendant has substantial personal assets. Your own underinsured motorist (UIM) coverage can make up the difference."
+    },
+    {
+     "question": "Does having surgery increase my settlement?",
+     "answer": "Yes, significantly. Cases involving surgery typically settle for 2-5 times more than cases with conservative treatment only. Surgery provides objective evidence of injury severity and proves that less invasive treatment was insufficient."
+    },
+    {
+     "question": "What if I have a pre-existing condition?",
+     "answer": "Under the \"eggshell plaintiff\" doctrine, the defendant takes you as they find you — if a minor collision causes serious injury because of a pre-existing condition, the defendant is still liable. However, insurance adjusters will argue your treatment was for the pre-existing condition rather than the accident. The key is proving the accident caused a flare-up or worsening of your condition."
+    },
+    {
+     "question": "Do most states cap pain and suffering damages?",
+     "answer": "No. Most states do not cap non-economic damages in general personal injury cases. Only about 4 states have enforceable general personal injury damage caps (CO, MD, OH, TN). More states cap damages specifically for medical malpractice cases, but those caps do not apply to car accidents, slip and falls, or other general injury claims."
+    },
+    {
+     "question": "Should I hire a lawyer for my injury claim?",
+     "answer": "Research consistently shows that represented claimants recover 3-3.5 times more than unrepresented claimants, even after attorney fees (typically 33-40% on contingency). For minor soft tissue injuries with clear liability and low medical bills, you may be able to handle the claim yourself. For moderate to severe injuries, surgery cases, liability disputes, or cases involving permanent impairment, an attorney will almost certainly increase your net recovery."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Workers' Comp Calculator",
+     "href": "/tools/workers-comp-calculator"
+    }
+   ],
+   "labels": {
+    "medicalExpenses": "Medical Expenses",
+    "lostWages": "Lost Wages",
+    "propertyDamage": "Property Damage",
+    "futureMedical": "Future Medical Expenses",
+    "painMultiplier": "Pain and Suffering Multiplier",
+    "totalEstimate": "Total Estimated Settlement",
+    "economicDamages": "Economic Damages",
+    "painAndSuffering": "Pain and Suffering Award"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How the Personal Injury Calculator Works",
+     "content": "This calculator uses the multiplier method to estimate your personal injury settlement, the standard approach insurance adjusters and personal injury attorneys use to evaluate claims."
+    },
+    "howTo": {
+     "title": "The Multiplier Method",
+     "sections": [
+      {
+       "heading": "The Formula",
+       "content": "Your medical expenses (called \"specials\") are multiplied by a factor based on injury severity to estimate pain and suffering (\"generals\"). Lost wages and property damage are added as separate economic damages. Formula: settlement = medical bills + (medical bills × multiplier) + lost wages + property damage"
+      },
+      {
+       "heading": "State Negligence Rules",
+       "content": "Your state's negligence laws determine how fault affects your recovery. Pure comparative negligence states allow recovery at any fault level (reduced proportionally). Modified comparative states bar recovery at 50% or 51% fault. Five jurisdictions (AL, MD, NC, VA, DC) use pure contributory negligence, which bars any recovery even at 1% fault."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Why Results Are Estimates",
+     "content": "Insurance companies use proprietary software (like Colossus) that considers hundreds of factors. The multiplier method is a simplified version of what that software does. Actual settlements depend on the specific facts of your case, the quality of evidence, the jurisdiction, the judge or jury, whether you have an attorney, and the defendant's insurance coverage."
+    }
+   }
+  },
+  "save-vs-rap-calculator": {
+   "metadata": {
+    "title": "SAVE vs REPAYE Calculator",
+    "description": "Compare the U.S. federal SAVE and REPAYE income-driven student loan repayment plans.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "save vs rap calculator",
+    "rap student loan calculator",
+    "save plan replacement",
+    "repayment assistance plan calculator",
+    "student loan payment comparison",
+    "rap vs ibr"
+   ],
+   "labels": {
+    "loanAmount": "Loan Amount",
+    "interestRate": "Annual Interest Rate (%)",
+    "annualIncome": "Annual Income",
+    "familySize": "Family Size",
+    "repaymentYears": "Repayment Years",
+    "monthlyPayment": "Monthly Payment",
+    "totalPaid": "Total Paid",
+    "forgiveness": "Estimated Forgiveness",
+    "comparison": "Plan Comparison",
+    "savePlan": "SAVE Plan",
+    "repayePlan": "REPAYE Plan",
+    "disclaimer": "This calculator provides estimates only. Actual SAVE and REPAYE terms depend on federal regulations, loan types, tax filing status, and other factors. Consult your loan servicer or a financial advisor for official calculations."
+   },
+   "placeholders": {
+    "loanAmount": "30000",
+    "interestRate": "5.5",
+    "annualIncome": "50000",
+    "familySize": "1",
+    "repaymentYears": "20"
+   },
+   "faqs": [
+    {
+     "question": "What is RAP?",
+     "answer": "RAP (Random Additional Payments) are extra payments made beyond your regular loan payment. They directly reduce the principal, accelerating repayment and saving interest. Same as extra payments, but the terminology varies by lender."
+    },
+    {
+     "question": "What is the difference between RAP and extra payments?",
+     "answer": "None — they are the same thing. RAP is just the term some lenders use. Both reduce the principal, shorten the loan term, and save interest."
+    },
+    {
+     "question": "Should I save or pay RAP?",
+     "answer": "If your loan rate is higher than your savings rate, pay RAP. If the loan rate is lower than investment returns, invest the difference. Rule of thumb: if the rate is > 6%, prioritize the debt; if it is < 4%, prioritize investing."
+    },
+    {
+     "question": "How does RAP affect my loan?",
+     "answer": "RAP reduces the outstanding balance, lowering future interest. Some lenders recalculate your payment (lowering it), while others shorten the term (keeping payments the same). Designate the payment to be applied to principal."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Student Loan Calculator",
+     "href": "/tools/student-loan-calculator"
+    },
+    {
+     "name": "Student Loan Tax Bomb Calculator",
+     "href": "/tools/student-loan-tax-bomb-calculator"
+    },
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    },
+    {
+     "name": "Income Tax Calculator",
+     "href": "/tools/income-tax-calculator"
+    }
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What Is the SAVE vs REPAYE Calculator?",
+     "body": [
+      "The SAVE plan is dead. Compare your monthly student loan payments under the new RAP plan, IBR, and standard repayment. See how much more you'll pay and plan ahead."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the SAVE vs REPAYE Calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View your results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool provides estimates - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Compare saving vs. random additional payments (RAP)."
+  },
+  "self-employment-tax-calculator": {
+   "metadata": {
+    "title": "Self-Employment Tax Calculator",
+    "description": "Estimate your self-employment tax amount and deductible portion.",
+    "category": "Finance",
+    "icon": "📝"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "self employment tax calculator",
+    "1099 tax calculator",
+    "freelance tax calculator",
+    "quarterly tax calculator",
+    "self employed tax estimator",
+    "independent contractor tax calculator",
+    "gig worker tax calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is self-employment tax?",
+     "answer": "Self-employment tax is the Social Security and Medicare tax for self-employed workers. In 2026, the rate is 15.3% of net earnings (12.4% Social Security + 2.9% Medicare). You pay both the employer and employee shares."
+    },
+    {
+     "question": "How much income is subject to self-employment tax?",
+     "answer": "Social Security tax applies to net earnings up to $176,100 (2026). Medicare tax applies to all net earnings. An additional 0.9% Medicare tax applies above $200,000 (single)."
+    },
+    {
+     "question": "Can I deduct self-employment tax?",
+     "answer": "Yes. You can deduct the employer-equivalent portion (7.65% of net earnings) as an above-the-line deduction. This reduces your income tax, but not the self-employment tax itself."
+    },
+    {
+     "question": "Do LLC owners pay self-employment tax?",
+     "answer": "Yes, unless you elect S corporation status. A single-member LLC is treated as a disregarded entity — you pay self-employment tax. S corp owners pay FICA tax only on their salary (not distributions), which can save money."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Tax Calculator",
+     "href": "/tools/tax-calculator"
+    },
+    {
+     "name": "Income Tax Calculator",
+     "href": "/tools/income-tax-calculator"
+    },
+    {
+     "name": "Profit Margin Calculator",
+     "href": "/tools/profit-margin-calculator"
+    },
+    {
+     "name": "Invoice Generator",
+     "href": "/tools/invoice-generator"
+    }
+   ],
+   "labels": {
+    "netIncome": "Net Self-Employment Income",
+    "seTax": "Self-Employment Tax",
+    "seTaxableIncome": "Taxable Self-Employment Income",
+    "deductiblePortion": "Deductible Portion",
+    "effectiveRate": "Effective Rate"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "netIncome": "Enter net self-employment income"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Self-Employment Tax Calculator?",
+     "paragraphs": [
+      "Calculate self-employment tax, estimated quarterly payments, and total tax burden for freelancers, 1099 contractors, and gig workers. Includes SE tax, federal income tax, and state taxes for 2026."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the self-employment tax calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   },
+   "description": "Estimate self-employment tax (Social Security and Medicare)."
+  },
+  "small-claims-court-calculator": {
+   "metadata": {
+    "title": "Small Claims Court Calculator",
+    "description": "Estimate small claims court filing and service fees based on your claim amount.",
+    "category": "Legal"
+   },
+   "keywords": [
+    "small claims court fees",
+    "small claims calculator",
+    "filing fee calculator",
+    "court cost estimate",
+    "small claims limits by state",
+    "small claims court rules"
+   ],
+   "faqs": [
+    {
+     "question": "What is small claims court?",
+     "answer": "Small claims court is a simplified legal process for resolving disputes involving relatively small amounts of money. The rules are designed for people without lawyers — hearings are informal, there is no jury, and cases are usually decided the same day. Amount limits range from $2,500 (Kentucky) to $25,000 (Tennessee, Delaware). Filing fees are typically $25-$150."
+    },
+    {
+     "question": "Do I need a lawyer in small claims court?",
+     "answer": "In most cases, no — in 13 states (including California, Arizona, Colorado, Michigan, and Washington), attorneys are actually prohibited from representing parties in small claims court. The court is designed for self-representation. However, in states that allow lawyers, one side having an attorney can put the other at a disadvantage."
+    },
+    {
+     "question": "What is the statute of limitations?",
+     "answer": "The statute of limitations is the deadline for filing a claim after an event occurs. It varies by state and claim type. For example, Kentucky gives you only 1 year for personal injury claims, while Maine allows 6 years. Written contracts usually have longer deadlines (3-15 years) than personal injury claims (1-6 years). Missing this deadline means your case is dismissed."
+    },
+    {
+     "question": "What if my claim exceeds the small claims limit?",
+     "answer": "You have three options: (1) reduce your claim to the small claims limit and waive the rest, (2) file in regular civil court (more expensive and complex), or (3) in some states, split the claim into multiple cases (though many states prohibit this). If the excess is small relative to civil court costs, option 1 is usually the best choice."
+    },
+    {
+     "question": "Can I appeal a small claims decision?",
+     "answer": "It depends on your state. Most states allow either party to appeal, usually within 10-30 days. California and Massachusetts only allow the defendant to appeal. Arizona does not allow small claims appeals at all. Appeals are usually \"trial de novo\" (a brand-new trial) in a higher court."
+    },
+    {
+     "question": "Where do I file a small claims case?",
+     "answer": "Almost always in the county or district where the defendant lives or does business, or where the incident occurred (where the contract was signed, where the property was damaged, etc.). Filing in the wrong location can result in dismissal."
+    },
+    {
+     "question": "Which states have the highest and lowest limits?",
+     "answer": "Highest: Tennessee and Delaware ($25,000), Texas and Utah ($20,000), Georgia, Minnesota, and North Dakota ($15,000). Lowest: Kentucky ($2,500), Arizona and Mississippi ($3,500), Nebraska ($3,900), Kansas ($4,000). California allows $12,500 for individuals but only $6,250 for businesses."
+    },
+    {
+     "question": "How long does small claims court take?",
+     "answer": "It typically takes 30-75 days from filing to the hearing. The hearing itself usually takes 15-60 minutes, and you get a decision that day or within a few days. If you win, collecting the judgment can take longer — the court does not collect it for you."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "DUI Cost Calculator",
+     "href": "/tools/dui-cost-calculator"
+    }
+   ],
+   "labels": {
+    "claimAmount": "Claim Amount",
+    "serviceFee": "Service Fee",
+    "totalCost": "Estimated Court Costs",
+    "filingFee": "Filing Fee"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is Small Claims Court?",
+     "content": "Small claims court is a simplified legal process for resolving disputes involving relatively small amounts of money. The rules are designed for people without lawyers — hearings are informal, there is no jury, and cases are usually decided the same day. Amount limits range from $2,500 (Kentucky) to $25,000 (Tennessee, Delaware)."
+    },
+    "howTo": {
+     "title": "How Small Claims Court Works",
+     "sections": [
+      {
+       "heading": "Amount Limits",
+       "content": "Each state sets its own maximum claim amount. Highest: Tennessee and Delaware ($25,000), Texas and Utah ($20,000), Georgia, Minnesota, and North Dakota ($15,000). Lowest: Kentucky ($2,500), Arizona and Mississippi ($3,500), Nebraska ($3,900), Kansas ($4,000). California allows $12,500 for individuals but only $6,250 for businesses."
+      },
+      {
+       "heading": "Filing Fees and Statutes of Limitations",
+       "content": "Filing fees are typically $25-$150, varying by state and claim amount. The statute of limitations (deadline to file) varies by state and claim type. Written contracts usually have longer deadlines (3-15 years) than personal injury claims (1-6 years)."
+      },
+      {
+       "heading": "Attorney Rules",
+       "content": "In most cases, no lawyer is needed — in 13 states (including California, Arizona, Colorado, Michigan, and Washington), attorneys are actually prohibited from representing parties in small claims court. The court is designed for self-representation."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Important Notes",
+     "content": "Rules and fees vary by county/jurisdiction within each state. Always check with your local court clerk before filing. Amount limits, filing fees, and rules differ by county within each state. The filing fees shown are typical ranges — check with your local court clerk for exact amounts. This is for informational purposes only and is not legal advice."
+    }
+   }
+  },
+  "social-security-calculator": {
+   "metadata": {
+    "title": "Social Security Calculator",
+    "description": "Estimate Social Security retirement benefits based on AIME and claiming age.",
+    "category": "Legal"
+   },
+   "keywords": [
+    "social security calculator",
+    "retirement benefits estimate",
+    "social security retirement",
+    "claiming age"
+   ],
+   "faqs": [
+    {
+     "question": "How is Social Security calculated?",
+     "answer": "The SSA takes your 35 highest-earning years, adjusts them for inflation (indexes them), calculates your Average Indexed Monthly Earnings (AIME), then applies a three-tier formula: 90% of the first $1,286, plus 32% of earnings between $1,286 and $7,749, plus 15% of earnings above $7,749 (2026 bend points). The result is your Primary Insurance Amount (PIA) — your monthly benefit at Full Retirement Age."
+    },
+    {
+     "question": "What is Full Retirement Age?",
+     "answer": "Full Retirement Age (FRA) is 67 for anyone born in 1960 or later. For those born 1955-1959, it gradually increases from 66 years and 2 months to 66 years and 10 months. At FRA, you receive 100% of your PIA, with no reduction or increase."
+    },
+    {
+     "question": "How much less will I get at 62?",
+     "answer": "Claiming at 62 (with an FRA of 67) reduces your benefit by 30%. This reduction is permanent — it does not recover when you reach 67. For example, if your PIA is $2,000/month, you receive $1,400/month for life if you claim at 62."
+    },
+    {
+     "question": "How much more will I get at 70?",
+     "answer": "Waiting until 70 earns delayed retirement credits of 8% per year past FRA. With an FRA of 67, waiting until 70 gives you 124% of your PIA. A $2,000 PIA becomes $2,480/month. No additional credits accrue after 70."
+    },
+    {
+     "question": "Are Social Security benefits taxable?",
+     "answer": "Depending on your total income, up to 85% of your benefits may be taxable. If your combined income (AGI + nontaxable interest + half of your SS benefits) exceeds $25,000 (single) or $32,000 (married filing jointly), part of your benefits is taxable. Below these thresholds, benefits are tax-free."
+    },
+    {
+     "question": "What are spousal benefits?",
+     "answer": "A spouse can receive up to 50% of the higher earner's PIA at FRA, if that is higher than their own benefit. The higher earner must already be claiming. Spousal benefits can be claimed as early as 62 (at a reduced rate). Spousal benefits earn no delayed retirement credits — there is no advantage to waiting past FRA."
+    },
+    {
+     "question": "What is the maximum Social Security benefit in 2026?",
+     "answer": "The maximum monthly benefit in 2026 is $2,969 at 62, $4,152 at FRA, and $5,181 at 70. To get the maximum, you need to earn at or above the taxable maximum ($184,500 in 2026) in each of your 35 highest-earning years."
+    },
+    {
+     "question": "What if I work fewer than 35 years?",
+     "answer": "The SSA always uses 35 years. If you work fewer than 35 years, zero-income years fill the gaps, dragging down your average. Each missing year reduces your AIME by 1/35. Even a few more years of work can significantly increase your benefit if they replace zero years."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    }
+   ],
+   "labels": {
+    "currentAge": "Current Age",
+    "retirementAge": "Planned Retirement Age",
+    "aime": "Average Indexed Monthly Earnings (AIME)",
+    "yearsWorked": "Years Worked",
+    "monthlyBenefit": "Estimated Monthly Benefit",
+    "annualBenefit": "Estimated Annual Benefit",
+    "adjustment": "Age Adjustment"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How Social Security Benefits Are Calculated",
+     "content": "Social Security retirement benefits are calculated using your 35 highest-earning years, adjusted for inflation (indexed), to determine your Average Indexed Monthly Earnings (AIME). A three-tier formula then calculates your Primary Insurance Amount (PIA) — your monthly benefit at Full Retirement Age. The 2026 bend points are $1,286 and $7,749."
+    },
+    "howTo": {
+     "title": "The PIA Formula and Claiming Age",
+     "sections": [
+      {
+       "heading": "1. Calculate AIME",
+       "content": "The SSA takes your 35 highest-earning years (capped at the taxable maximum, $184,500 in 2026), indexes them for inflation, and divides by 420 months (35 years) to get your Average Indexed Monthly Earnings (AIME). If you worked fewer than 35 years, zero-income years fill the gaps."
+      },
+      {
+       "heading": "2. Apply the PIA Formula",
+       "content": "2026 formula: 90% of the first $1,286 of AIME, plus 32% of AIME between $1,286 and $7,749, plus 15% of AIME above $7,749. The result is your Primary Insurance Amount (PIA) — your monthly benefit at Full Retirement Age."
+      },
+      {
+       "heading": "3. Adjust for Claiming Age",
+       "content": "Claiming before Full Retirement Age (67 for those born in 1960 or later) permanently reduces benefits — by 30% at 62. Claiming after FRA earns delayed retirement credits of 8% per year up to 70 (124% of PIA). No additional credits accrue after 70."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Important Considerations",
+     "content": "This calculator provides a simplified estimate using the 2026 bend points and does not perform full wage indexing. Actual benefits depend on your complete earnings history, including year-by-year inflation adjustments. For a precise estimate, use the my Social Security account at ssa.gov. Benefits are subject to federal income tax if your combined income exceeds $25,000 (single) or $32,000 (married filing jointly)."
+    }
+   }
+  },
+  "student-loan-tax-bomb-calculator": {
+   "metadata": {
+    "title": "Student Loan Tax Bomb Calculator",
+    "description": "Estimate the income tax owed on forgiven student loan amounts.",
+    "category": "Finance",
+    "icon": "💣"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "student loan tax bomb calculator",
+    "student loan forgiveness tax calculator",
+    "IDR forgiveness tax calculator",
+    "student loan forgiveness taxable 2026",
+    "insolvency exclusion student loans",
+    "student loan tax bill calculator",
+    "income driven repayment tax",
+    "loan forgiveness tax estimate",
+    "Form 982 student loans",
+    "student loan forgiveness tax bomb 2026"
+   ],
+   "faqs": [
+    {
+     "question": "What is the student loan tax bomb?",
+     "answer": "When student loans are forgiven or discharged, the forgiven amount may be treated as taxable income. For example, $50,000 forgiven under an IDR plan after 20 years could result in a $10,000-$12,000 tax bill."
+    },
+    {
+     "question": "Is all loan forgiveness taxable?",
+     "answer": "No. PSLF (Public Service Loan Forgiveness) is tax-free. Teacher forgiveness is also tax-free. From 2021-2025, certain federal loan forgiveness was tax-free under COVID relief. IDR forgiveness after 20 years is generally taxable."
+    },
+    {
+     "question": "How can I prepare for the tax bomb?",
+     "answer": "Estimate your forgiveness amount and save into an investment account. If $50,000 is forgiven, save $200-300 per month into a taxable account. Alternatively, adjust your income-driven repayment plan to avoid a large forgiveness event."
+    },
+    {
+     "question": "Is there a way to avoid the tax bomb?",
+     "answer": "Yes. Pursue PSLF (tax-free forgiveness after 10 years). File separately if married (may reduce the taxable amount). Or adjust your IDR plan to minimize forgiveness."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Student Loan Calculator",
+     "href": "/tools/student-loan-calculator"
+    },
+    {
+     "name": "Income Tax Calculator",
+     "href": "/tools/income-tax-calculator"
+    },
+    {
+     "name": "Tax Calculator",
+     "href": "/tools/tax-calculator"
+    },
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    }
+   ],
+   "labels": {
+    "currentBalance": "Current Balance",
+    "forgivenAmount": "Forgiven Amount",
+    "taxBracket": "Tax Bracket (%)",
+    "estimatedTaxDue": "Estimated Tax Due",
+    "effectiveTaxRate": "Effective Tax Rate on Forgiven Amount",
+    "remainingBalance": "Remaining Principal"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "currentBalance": "Enter current balance",
+    "forgivenAmount": "Enter forgiven amount",
+    "taxBracket": "Enter tax bracket (%)"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Student Loan Tax Bomb Calculator?",
+     "paragraphs": [
+      "Calculate your tax bill when student loan forgiveness becomes taxable income. See your federal and state taxes, check if the insolvency exclusion applies, and plan ahead."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the student loan tax bomb calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   },
+   "description": "Estimate the tax impact of student loan forgiveness."
+  },
+  "trump-account-calculator": {
+   "metadata": {
+    "title": "Trump Account Calculator",
+    "description": "Estimate the growth of a proposed savings account with contributions and employer match.",
+    "category": "Finance",
+    "icon": "🇺🇸"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "trump account calculator",
+    "maga account calculator",
+    "530a calculator",
+    "trump account growth",
+    "trump account for kids",
+    "money account for growth and advancement"
+   ],
+   "faqs": [
+    {
+     "question": "What is a Trump Account?",
+     "answer": "A Trump Account is a proposed investment account for children, with the government contributing $1,000 for every newborn. Parents can contribute additional funds, and the money grows tax-free until the child turns 18."
+    },
+    {
+     "question": "How does a Trump Account work?",
+     "answer": "The government deposits $1,000 for each newborn. Parents can contribute up to an additional $5,000 per year (same limit as an IRA). Funds are invested in index funds and grow tax-free. At age 18, the child takes control of the account."
+    },
+    {
+     "question": "How much will it be worth at 18?",
+     "answer": "Assuming a 7% annual return: $1,000 initial + $1,000 yearly contributions for 18 years = about $40,000. Government-only $1,000 for 18 years = about $3,400."
+    },
+    {
+     "question": "What is the difference between a Trump Account and a 529 plan?",
+     "answer": "A 529 plan is specifically for education expenses; withdrawals for non-education purposes are taxed and penalized. A Trump Account can be used for any purpose — education, a home, a business, or retirement. Both offer tax-free growth."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    },
+    {
+     "name": "401k Calculator",
+     "href": "/tools/401k-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    }
+   ],
+   "labels": {
+    "currentBalance": "Current Balance",
+    "annualContribution": "Annual Contribution",
+    "employerMatch": "Employer Match (%)",
+    "rate": "Annual Interest Rate (%)",
+    "years": "Years",
+    "futureValue": "Future Value",
+    "totalContributions": "Total Contributions",
+    "totalInterest": "Total Interest"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "currentBalance": "Enter current balance",
+    "annualContribution": "Enter annual contribution",
+    "employerMatch": "Enter employer match (%)",
+    "rate": "Enter annual interest rate (%)",
+    "years": "Enter number of years"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Trump Account Calculator?",
+     "paragraphs": [
+      "Calculate how much a Trump Account (MAGA Account) could grow for your child. See projected value from the $1,000 government seed deposit and $5,000 annual contributions with tax basis tracking."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the Trump Account calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   },
+   "description": "Estimate the growth of a Trump Account (children's investment account)."
+  },
+  "va-disability-calculator": {
+   "metadata": {
+    "title": "VA Disability Calculator",
+    "description": "Estimate your combined disability rating and monthly VA disability compensation (with dependents).",
+    "category": "Legal"
+   },
+   "keywords": [
+    "veterans disability compensation",
+    "VA rating calculator",
+    "veterans benefits",
+    "combined rating calculation"
+   ],
+   "faqs": [
+    {
+     "question": "How does VA math work?",
+     "answer": "The VA does not add ratings together. Instead, each disability reduces your remaining \"whole person\" efficiency. Start at 100% healthy. A 70% rating leaves 30%. A second 50% rating takes 50% of the remaining 30% (=15%), leaving 15%. So 70% + 50% = 85% combined (not 120%), rounded to 90%. This is why two 50% ratings equal 75%, not 100%."
+    },
+    {
+     "question": "How does VA rounding work?",
+     "answer": "The VA rounds the combined rating to the nearest 10%. Values ending in 5 or higher round up: 75% → 80%, 65% → 70%. Values ending in 4 or lower round down: 74% → 70%, 64% → 60%. This rounding can make a significant difference in monthly compensation."
+    },
+    {
+     "question": "When do I get dependent allowances?",
+     "answer": "You must have a combined rating of 30% or higher to receive additional compensation for dependents (spouse, children, dependent parents). At 10% and 20%, you receive only the basic veteran rate regardless of dependents."
+    },
+    {
+     "question": "What is TDIU?",
+     "answer": "Total Disability based on Individual Unemployability (TDIU) pays at the 100% rate even when your combined rating is below 100%, if you cannot maintain substantially gainful employment due to your service-connected disabilities. Eligibility: one disability at 60%+, or multiple disabilities combined at 70%+ with at least one at 40%+."
+    },
+    {
+     "question": "Are VA disability payments taxable?",
+     "answer": "No. VA disability compensation is completely tax-free at both the federal and state level. A $3,828 monthly payment at 100% is equivalent to roughly $5,000 per month in taxable income, depending on your tax rate."
+    },
+    {
+     "question": "What is the bilateral factor?",
+     "answer": "When disabilities affect paired extremities (both arms, both legs), the VA first combines those ratings, then adds 10% of that combined value before combining with other disabilities. This slightly increases the overall combined rating."
+    },
+    {
+     "question": "How often do VA rates change?",
+     "answer": "VA compensation rates are adjusted annually based on the Cost of Living Adjustment (COLA), the same increase applied to Social Security. The 2026 rates (effective December 1, 2025) reflect a 2.5% COLA increase."
+    },
+    {
+     "question": "What is Special Monthly Compensation?",
+     "answer": "SMC provides additional payments beyond the standard rating for severe disabilities. SMC-K (about $140/month) is the most common, for loss of reproductive organs, a hand, a foot, or an eye. SMC-S (about $4,215/month) is for housebound veterans. Higher levels (L through R) can exceed $11,000/month for veterans needing extensive personal care."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Social Security Calculator",
+     "href": "/tools/social-security-calculator"
+    }
+   ],
+   "labels": {
+    "ratingsInput": "Disability Ratings (comma-separated)",
+    "dependents": "Number of Dependents",
+    "monthlyCompensation": "Estimated Monthly Compensation",
+    "combinedRating": "Combined Rating",
+    "roundedRating": "Rounded Rating"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "The VA Combined Rating Formula",
+     "content": "The VA does not add disability ratings together. Instead, each disability reduces your remaining \"whole person\" efficiency. The VA starts at 100% healthy and subtracts each disability rating as a percentage of what remains. The final combined rating is rounded to the nearest 10%."
+    },
+    "howTo": {
+     "title": "How VA Math Works",
+     "sections": [
+      {
+       "heading": "Step-by-Step Calculation",
+       "content": "Example: combining 50% + 30%. Start at 100%. Apply 50%: 100 × 50% = 50, leaving 50%. Apply 30%: 50 × 30% = 15, leaving 35%. Combined: 100 - 35 = 65%. Rounded to the nearest 10%: 70%."
+      },
+      {
+       "heading": "Rounding Rules",
+       "content": "The VA rounds the combined rating to the nearest 10%. Values ending in 5 or higher round up (65% → 70%, 75% → 80%). Values ending in 4 or lower round down (64% → 60%, 74% → 70%)."
+      },
+      {
+       "heading": "2026 Compensation Rates",
+       "content": "Rates effective December 1, 2025 (2.5% COLA). They range from $175.51/month at 10% to $3,828.06/month at 100%. All VA disability compensation is completely tax-free at the federal and state level."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Dependents and TDIU",
+     "content": "You must have a combined rating of 30% or higher to receive additional compensation for dependents (spouse, children, dependent parents). TDIU (Total Disability Individual Unemployability) pays at the 100% rate even when your combined rating is below 100%, if you cannot maintain substantially gainful employment due to your service-connected disabilities."
+    }
+   }
+  },
+  "workers-comp-calculator": {
+   "metadata": {
+    "title": "Workers' Comp Calculator",
+    "description": "Estimate workers' compensation benefits based on weekly wage and disability level.",
+    "category": "Legal"
+   },
+   "keywords": [
+    "workers comp calculator",
+    "workers compensation calculator",
+    "disability benefits calculator",
+    "work injury calculator",
+    "TTD benefits calculator",
+    "workers comp benefits estimate"
+   ],
+   "faqs": [
+    {
+     "question": "How much does workers' comp pay?",
+     "answer": "Most states pay 66.67% (two-thirds) of your average weekly wage (AWW) as temporary total disability (TTD). A few states use different rates: Massachusetts and New Hampshire pay 60%, New Jersey, Oklahoma, and Texas pay 70%, and Connecticut, Rhode Island, Alaska, Iowa, Maine, and Michigan use 75-80% of after-tax wages. All states have weekly benefit maximums — ranging from $631 in Mississippi to $2,350 in Iowa."
+    },
+    {
+     "question": "Is workers' comp taxable?",
+     "answer": "No. Workers' compensation benefits are not subject to federal income tax. However, if you also receive Social Security Disability Insurance (SSDI), some SSDI benefits may become taxable if your workers' comp + SSDI total exceeds 80% of your pre-injury earnings. All states follow the federal exemption for state tax purposes."
+    },
+    {
+     "question": "What is the waiting period?",
+     "answer": "The waiting period is the number of days after an injury before wage-replacement benefits begin (medical treatment is covered from day one). Most states have a 3-day or 7-day waiting period. If your disability exceeds the \"retroactive period\" (usually 14-21 days), the waiting period is paid retroactively."
+    },
+    {
+     "question": "What are monopolistic states?",
+     "answer": "Four states require employers to buy workers' comp exclusively from a state fund (no private insurers): Ohio (BWC), Washington (L&I), Wyoming (DWS), and North Dakota (WSI). This does not affect your benefits — it just means the state, rather than a private insurer, administers claims."
+    },
+    {
+     "question": "Can my employer opt out of workers' comp?",
+     "answer": "Texas is the only state where workers' comp is truly voluntary. Employers who opt out (\"nonsubscribers\") lose certain legal protections, and injured workers can sue them without the usual defenses. Oklahoma had an opt-out system starting in 2013, but it was ruled unconstitutional in 2016. In all other states, coverage is mandatory."
+    },
+    {
+     "question": "What is the difference between TTD, TPD, PPD, and PTD?",
+     "answer": "TTD (temporary total disability) is paid when you are completely unable to work during recovery — this is what the calculator estimates. TPD (temporary partial disability) pays partial benefits when you can do light-duty work but at reduced wages. PPD (permanent partial disability) compensates lasting impairment after reaching maximum medical improvement. PTD (permanent total disability) pays ongoing benefits when you can never return to work."
+    },
+    {
+     "question": "How long do workers' comp benefits last?",
+     "answer": "TTD benefits typically last until you can return to work or reach maximum medical improvement (MMI). Most states have no strict time limit on TTD, but some do (Georgia caps it at 400 weeks unless catastrophic). PPD benefits have scheduled durations based on the body part and impairment percentage. PTD benefits may last until retirement age or for life, depending on the state."
+    },
+    {
+     "question": "Does workers' comp cover medical bills?",
+     "answer": "Yes, separately from wage replacement. Workers' comp covers all reasonable and necessary medical treatment related to the work injury — usually with no deductibles, copays, or coverage limits. This includes emergency visits, surgery, physical therapy, prescriptions, and medical equipment. You typically must use approved providers or obtain authorization."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Personal Injury Calculator",
+     "href": "/tools/personal-injury-calculator"
+    }
+   ],
+   "labels": {
+    "weeklyWage": "Average Weekly Wage",
+    "disabilityPercent": "Disability Level (%)",
+    "weeks": "Number of Weeks",
+    "stateFactor": "State Adjustment Factor",
+    "totalBenefit": "Estimated Total Benefit",
+    "weeklyBenefit": "Weekly Benefit",
+    "replacementRate": "Replacement Rate"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How the Workers' Comp Calculator Works",
+     "content": "This calculator estimates your temporary total disability (TTD) benefits based on your state's workers' compensation rules. TTD is the most common type of workers' comp benefit — it replaces part of your wages when you cannot work due to a work-related injury or illness."
+    },
+    "howTo": {
+     "title": "The Basic Formula",
+     "sections": [
+      {
+       "heading": "Calculating the Weekly Benefit",
+       "content": "Weekly benefit = AWW × state rate (capped by state minimums/maximums). Most states use 66.67% (two-thirds) of your average weekly wage. A few states use a higher percentage of after-tax wages (75-80%), which usually produces a similar amount."
+      },
+      {
+       "heading": "Waiting and Retroactive Periods",
+       "content": "Every state has a waiting period (3-7 days) before wage benefits begin — medical treatment is covered from day one. If your disability exceeds the retroactive period (usually 14-21 days), the waiting period is paid retroactively, meaning you are compensated for the full time off."
+      },
+      {
+       "heading": "Why Benefits Are Tax-Free",
+       "content": "Workers' comp benefits are exempt from federal and state income taxes. This means your $800 weekly benefit has the same purchasing power as roughly $1,000-$1,100 in regular wages. When evaluating wage replacement, keep in mind that you keep more of every dollar."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Important Notes",
+     "content": "This calculator only estimates temporary total disability (TTD) benefits. Actual benefits are determined by your state's workers' compensation board based on your verified wage history and medical records. Medical treatment costs are covered separately, with no deductibles or copays."
+    }
+   }
+  },
+  "video-watermark": {
+   "metadata": {
+    "title": "Video Watermark Tool",
+    "description": "Add text or image watermarks to videos free, directly in your browser with FFmpeg.",
+    "category": "Design"
+   },
+   "keywords": [
+    "video watermark",
+    "add watermark to video",
+    "video logo overlay",
+    "text watermark video",
+    "online video watermark",
+    "free video watermark",
+    "watermark mp4"
+   ],
+   "labels": {
+    "watermarkType": "Watermark type",
+    "types": {
+     "text": "Text",
+     "image": "Image"
+    },
+    "textContent": "Watermark text",
+    "textPlaceholder": "e.g. © 2026 Your Brand",
+    "fontSize": "Font size (% of width)",
+    "color": "Color",
+    "opacity": "Opacity",
+    "position": "Position",
+    "size": "Size (% of width)",
+    "uploadWm": "Watermark image (transparent PNG works best)",
+    "positions": {
+     "tl": "TL",
+     "tr": "TR",
+     "bl": "BL",
+     "br": "BR",
+     "center": "Center"
+    },
+    "errorText": "Please enter watermark text",
+    "errorImage": "Please upload a watermark image",
+    "errorGeneric": "Processing failed, please try again"
+   },
+   "upload": {
+    "icon": "🎬",
+    "title": "Upload a video",
+    "subtitle": "Drag & drop or click to choose an MP4, WebM or MOV file"
+   },
+   "videoInfo": {
+    "size": "Size",
+    "resolution": "Resolution"
+   },
+   "buttons": {
+    "process": "Add Watermark",
+    "newVideo": "New Video",
+    "download": "Download",
+    "adjust": "Adjust"
+   },
+   "processing": {
+    "title": "Adding watermark…",
+    "subtitle": "Encoding with FFmpeg in your browser",
+    "label": "Progress",
+    "keepOpen": "Please keep this page open — everything runs locally."
+   },
+   "done": {
+    "title": "Done! Your watermarked video is ready"
+   },
+   "units": {
+    "kb": "{size} KB",
+    "mb": "{size} MB"
+   },
+   "faqs": [
+    {
+     "question": "Is the video uploaded to a server?",
+     "answer": "No. Everything runs locally in your browser with FFmpeg WebAssembly. Your video never leaves your device."
+    },
+    {
+     "question": "Can I use my logo as a watermark?",
+     "answer": "Yes. Switch to image watermark and upload a PNG (transparent background works best). You can control its size, opacity and position."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "MP4, WebM and MOV input are supported; the output is always MP4 (H.264) with the original audio kept."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Watermark",
+     "href": "/tools/image-watermark"
+    },
+    {
+     "name": "Video Compressor",
+     "href": "/tools/video-compressor"
+    },
+    {
+     "name": "Video to GIF",
+     "href": "/tools/video-to-gif"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is a Video Watermark?",
+     "paragraphs": [
+      "A video watermark is a text or logo overlaid on your footage to claim ownership, prevent piracy, or promote a brand. This free tool renders the watermark as a transparent PNG and composites it onto every frame with FFmpeg, entirely in your browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Upload a video, then choose a text or image watermark. Adjust the font size or logo size, color, opacity and position, then click “Add Watermark”. The processed video is encoded locally and can be downloaded instantly."
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Use a semi-transparent logo for subtle branding",
+       "Keep text short so it stays readable on small screens",
+       "For square videos pick a smaller font size percentage"
+      ]
+     }
+    ]
+   }
+  },
+  "image-watermark": {
+   "metadata": {
+    "title": "Image Watermark Tool",
+    "description": "Add text or image watermarks to one or many images with full control over position, size, opacity and tiling.",
+    "category": "Design"
+   },
+   "keywords": [
+    "image watermark",
+    "add watermark to photo",
+    "batch watermark",
+    "text watermark",
+    "logo watermark",
+    "watermark position",
+    "tile watermark",
+    "online image watermark"
+   ],
+   "labels": {
+    "watermarkType": "Watermark type",
+    "types": {
+     "text": "Text",
+     "image": "Image"
+    },
+    "textContent": "Watermark text",
+    "textPlaceholder": "e.g. © 2026 Your Brand",
+    "fontSize": "Font size (% of width)",
+    "color": "Color",
+    "opacity": "Opacity",
+    "position": "Position",
+    "size": "Size (% of width)",
+    "uploadWm": "Watermark image (transparent PNG works best)",
+    "positions": {
+     "tl": "TL",
+     "tc": "TC",
+     "tr": "TR",
+     "ml": "ML",
+     "mc": "MC",
+     "mr": "MR",
+     "bl": "BL",
+     "bc": "BC",
+     "br": "BR"
+    },
+    "tile": "Tile the watermark across the image",
+    "gap": "Tile gap (% of width)",
+    "processing": "Processing…",
+    "results": "{count} images ready",
+    "errorNoImage": "Please upload at least one image",
+    "errorText": "Please enter watermark text",
+    "errorImage": "Please upload a watermark image",
+    "errorGeneric": "Processing failed, please try again"
+   },
+   "upload": {
+    "icon": "🖼️",
+    "title": "Upload images",
+    "subtitle": "Drag & drop or click to choose one or multiple images"
+   },
+   "buttons": {
+    "process": "Add Watermark",
+    "reset": "Start Over",
+    "downloadOne": "Download",
+    "downloadAll": "Download All (ZIP)"
+   },
+   "faqs": [
+    {
+     "question": "Can I watermark many images at once?",
+     "answer": "Yes. Select multiple images when uploading; they are processed with the same watermark settings and can be downloaded individually or as one ZIP archive."
+    },
+    {
+     "question": "What watermark options are available?",
+     "answer": "Text or image watermark, 9 placement positions, font size / logo size, color, opacity, and an optional tiled pattern with adjustable spacing."
+    },
+    {
+     "question": "Are my images uploaded to a server?",
+     "answer": "No. Everything is rendered locally with the HTML5 canvas API. Your images never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Watermark",
+     "href": "/tools/video-watermark"
+    },
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is an Image Watermark?",
+     "paragraphs": [
+      "An image watermark is text or a logo added to a photo to protect copyright or promote a brand. This tool supports single and batch watermarking, giving you full control over position, size, opacity and tiling — all in your browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Upload one or more images, choose a text or image watermark, adjust the settings, then click “Add Watermark”. Preview the results and download them one by one or as a ZIP file."
+      ]
+     },
+     {
+      "title": "Batch Tips",
+      "items": [
+       "Use the same logo so all photos look consistent",
+       "Lower opacity keeps the original photo readable",
+       "Enable tiling to cover the whole image against copying"
+      ]
+     }
+    ]
+   }
+  },
+  "emoji-picker": {
+   "metadata": {
+    "title": "Emoji Picker",
+    "description": "Browse, search and copy free Unicode emoji on any device. No install, no registration.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "emoji picker",
+    "copy emoji",
+    "emoji list",
+    "emoji search",
+    "free emoji",
+    "unicode emoji",
+    "emoji copy paste"
+   ],
+   "labels": {
+    "searchPlaceholder": "Search emoji… e.g. smile, heart, flag",
+    "categories": {
+     "all": "All",
+     "smileys": "Smileys",
+     "gestures": "People",
+     "animals": "Animals",
+     "food": "Food",
+     "activity": "Activity",
+     "travel": "Travel",
+     "objects": "Objects",
+     "symbols": "Symbols",
+     "flags": "Flags"
+    },
+    "copy": "Click to copy",
+    "copied": "Copied!",
+    "noResults": "No emoji found",
+    "count": "{count} emoji",
+    "clickToCopy": "Click an emoji to copy it"
+   },
+   "faqs": [
+    {
+     "question": "Are these emoji free to use?",
+     "answer": "Yes. Emoji characters are defined by the Unicode standard and the glyphs are provided by your operating system or device — no license or payment is required to display or copy them."
+    },
+    {
+     "question": "Why do emoji look different on different devices?",
+     "answer": "Each platform (Apple, Google, Microsoft, Samsung…) renders emoji with its own font, so the same character can look slightly different. What you copy is the underlying Unicode character, which works everywhere."
+    },
+    {
+     "question": "How do I copy an emoji?",
+     "answer": "Simply click any emoji and it is copied to your clipboard; paste it anywhere — chats, social media, documents or code."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Fancy Text Generator",
+     "href": "/tools/fancy-text-generator"
+    },
+    {
+     "name": "QR Code Generator",
+     "href": "/tools/qr-code-generator"
+    },
+    {
+     "name": "Character Counter",
+     "href": "/tools/character-counter"
+    }
+   ],
+   "guide": {
+    "intro": {
+     "title": "What Is an Emoji Picker?",
+     "paragraphs": [
+      "An emoji picker is a tool that collects the emoji defined by the Unicode standard into categories so you can find and copy the one you need. It is fully free — the glyphs come from your own device fonts."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Type in the search box to filter emoji, or switch between categories. Click an emoji to copy it to your clipboard, then paste it anywhere."
+      ]
+     },
+     {
+      "title": "Search Tips",
+      "items": [
+       "Search by emoji name in English, e.g. “heart”, “fire”, “flag”",
+       "You can also paste an emoji into the search box to find its category",
+       "Use categories to browse visually"
+      ]
+     }
+    ]
+   }
+  },
+  "video-transcript": {
+   "metadata": {
+    "title": "Video Transcript Extractor - Free Online Tool",
+    "description": "Paste a YouTube or Bilibili video link to extract a timestamped transcript for free. Copy or export as TXT."
+   },
+   "title": "Video Transcript",
+   "description": "Paste a YouTube or Bilibili video link to instantly extract the full timestamped transcript. Copy everything or download as a TXT file.",
+   "category": "Media Tools",
+   "keywords": [
+    "video transcript",
+    "video to text",
+    "youtube transcript",
+    "youtube subtitle extractor",
+    "bilibili subtitle",
+    "transcript extractor",
+    "video caption",
+    "speech to text"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What is Video Transcript?",
+     "body": [
+      "This tool fetches official or auto-generated subtitles from YouTube and Bilibili video links and converts them into a clean, timestamped text transcript. No video download, no login required, all done in your browser."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Three steps to get a transcript:",
+     "items": [
+      "Paste a YouTube or Bilibili video link into the input box.",
+      "Click the extract button and wait a few seconds.",
+      "Review the result, copy the full text, or download it as a TXT file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Some Bilibili videos require login to access subtitles. If you see a no-subtitle error, fill in the SESSDATA cookie from your browser in the advanced options and retry.",
+      "YouTube subtitles are official or auto-generated, depending on the video; extraction fails for videos that have no subtitles.",
+      "This tool only extracts text subtitles. It does not download any video file."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "Which platforms are supported?",
+     "answer": "YouTube and Bilibili, including b23.tv short links and plain BV IDs."
+    },
+    {
+     "question": "Do I need to log in?",
+     "answer": "No login is needed for YouTube. Some Bilibili subtitles require a logged-in session; fill in the SESSDATA cookie to unlock them."
+    },
+    {
+     "question": "How do I get my Bilibili SESSDATA cookie?",
+     "answer": "Log in to Bilibili, press F12 to open DevTools, go to Application > Cookies, copy the value of SESSDATA and paste it into the advanced options."
+    },
+    {
+     "question": "Are the transcripts timestamped?",
+     "answer": "Yes. Every line is prefixed with a mm:ss timestamp so you can locate any part of the video."
+    },
+    {
+     "question": "Does this tool download videos?",
+     "answer": "No. It only extracts subtitle text. No video content is transmitted or stored."
+    },
+    {
+     "question": "What if a video has no subtitles?",
+     "answer": "The tool reports that no subtitle is available. For Bilibili, try again after filling in the SESSDATA cookie."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Watermark",
+     "href": "/tools/video-watermark"
+    },
+    {
+     "name": "Video Compressor",
+     "href": "/tools/video-compressor"
+    },
+    {
+     "name": "Video to GIF",
+     "href": "/tools/video-to-gif"
+    }
+   ],
+   "labels": {
+    "url": "Video link",
+    "urlPlaceholder": "Paste a YouTube / Bilibili link, e.g. https://www.youtube.com/watch?v=... or https://www.bilibili.com/video/BV...",
+    "supported": "Supports YouTube, Bilibili, b23.tv short links and BV IDs",
+    "advanced": "Advanced (Bilibili cookie)",
+    "cookie": "SESSDATA cookie (optional)",
+    "cookieHint": "Only needed for Bilibili videos whose subtitles require login",
+    "cookiePlaceholder": "e.g. abc123..., optional",
+    "extract": "Extract Transcript",
+    "extracting": "Extracting...",
+    "result": "Extracted transcript",
+    "language": "Language",
+    "author": "Author",
+    "segments": "segments",
+    "copy": "Copy All",
+    "copied": "Copied!",
+    "downloadTxt": "Download TXT"
+   },
+   "errors": {
+    "empty": "Please enter a video link.",
+    "invalidUrl": "Invalid link. Please check and try again.",
+    "unsupported": "Unsupported link. Only YouTube and Bilibili are supported.",
+    "noSubtitle": "This video has no available subtitles. For Bilibili, try filling in the SESSDATA cookie in the advanced options.",
+    "biliFailed": "Failed to fetch video info. The link may be invalid or the video may be removed.",
+    "failed": "Extraction failed. Please try again later.",
+    "copyFailed": "Copy failed. Please select and copy the text manually."
+   }
+  },
+  "address-generator": {
+   "metadata": {
+    "title": "Global Address Generator - Free Online Tool",
+    "description": "Generate random realistic addresses for 20+ countries for free. Supports batch generation, copy, and TXT/CSV export."
+   },
+   "title": "Address Generator",
+   "description": "Powered by the open-source Faker library, generate realistic random addresses for 20+ countries — street, city, state and ZIP. Perfect for test data, forms and demos.",
+   "category": "Utilities",
+   "keywords": [
+    "address generator",
+    "random address",
+    "fake address",
+    "global address",
+    "street address generator",
+    "test data generator",
+    "address lookup",
+    "faker address"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What is Address Generator?",
+     "body": [
+      "This tool uses the open-source @faker-js/faker data library to generate random street, city, state and ZIP codes that follow each country's naming conventions."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Three steps to generate addresses:",
+     "items": [
+      "Pick a country or region from the list.",
+      "Choose how many addresses to generate (optionally include coordinates).",
+      "Click generate, then copy a single address, copy all, or export TXT/CSV."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Generated addresses are for testing and demo purposes only — do not use them for shipping.",
+      "Some small locales may fall back to English for missing fields.",
+      "All generation happens locally in your browser; nothing is uploaded."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "Which countries are supported?",
+     "answer": "China, United States, United Kingdom, Taiwan, Japan, South Korea, Germany, France, Spain, Italy, Russia, Brazil, Netherlands, Australia, Canada, India, Mexico, Türkiye, UAE, Vietnam, Thailand, Indonesia, Poland, Sweden and more."
+    },
+    {
+     "question": "Are the addresses real?",
+     "answer": "The addresses are randomly generated but follow local naming conventions, making them great as realistic-looking test data."
+    },
+    {
+     "question": "Can I generate multiple addresses at once?",
+     "answer": "Yes. Generate up to 20 per batch and export them as CSV for bulk import."
+    },
+    {
+     "question": "Where does the data come from?",
+     "answer": "The data is provided by the open-source @faker-js/faker library (MIT license). Everything is generated locally — no data is uploaded."
+    },
+    {
+     "question": "Can I use these addresses for shipping?",
+     "answer": "We don't recommend it. The addresses are random and may not correspond to real locations."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Lorem Ipsum Generator",
+     "href": "/tools/lorem-ipsum-generator"
+    },
+    {
+     "name": "Random Number Generator",
+     "href": "/tools/random-number-generator"
+    },
+    {
+     "name": "UUID Generator",
+     "href": "/tools/uuid-generator"
+    }
+   ],
+   "labels": {
+    "country": "Country / Region",
+    "count": "Quantity",
+    "coords": "Include latitude & longitude",
+    "generate": "Generate",
+    "generating": "Generating...",
+    "copyAll": "Copy All",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "downloadTxt": "Export TXT",
+    "city": "City",
+    "zip": "ZIP"
+   },
+   "errors": {
+    "failed": "Failed to generate addresses. Please try again.",
+    "copyFailed": "Copy failed. Please copy manually."
+   }
+  },
+  "slideshow-maker": {
+   "metadata": {
+    "title": "Slideshow Video Maker - Free Online Tool",
+    "description": "Free online tool to combine photos and background music into an MP4 slideshow video with fade transitions and multiple resolutions. All processing happens in your browser."
+   },
+   "title": "Slideshow Video Maker",
+   "description": "Turn your photos into an MP4 slideshow video with optional background music. Choose duration, resolution and transitions — everything runs locally in your browser, nothing is uploaded.",
+   "category": "Media Tools",
+   "keywords": [
+    "slideshow maker",
+    "photo to video",
+    "image slideshow",
+    "make slideshow",
+    "slideshow generator",
+    "photos to video",
+    "slideshow with music",
+    "background music video"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What is a Slideshow Video Maker?",
+     "body": [
+      "This tool combines multiple photos into an MP4 video slideshow. You can add background music and control how long each image is shown, the resolution and the transition effect. Everything is processed locally in your browser using FFmpeg — your images never leave your device."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Create your slideshow in three steps:",
+     "items": [
+      "Upload two or more images (drag & drop or click to select).",
+      "Set the duration per image, resolution, frame rate and transition, and optionally add background music.",
+      "Click “Generate Video”, wait for it to finish and download the MP4 file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The fade transition adds a 0.5–1s crossfade between images for a smoother look.",
+      "Background music loops automatically to match the video length; a longer track is trimmed to fit.",
+      "The video is generated entirely in your browser. Keep the tab open while large images or long videos are processing."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "Are my images uploaded?",
+     "answer": "No. All processing happens locally in your browser using FFmpeg WebAssembly. Your images and music never leave your device."
+    },
+    {
+     "question": "Which formats are supported?",
+     "answer": "Images: JPG, PNG, WebP, BMP and other formats readable by the browser. Music: MP3, WAV, M4A and other common audio formats. JPG/PNG images are recommended."
+    },
+    {
+     "question": "Why is the video a bit shorter or longer than expected?",
+     "answer": "Total duration = number of images × duration per image − number of transitions × transition length. Choosing the fade transition shortens the video slightly because consecutive images overlap during the crossfade."
+    },
+    {
+     "question": "What if my music is too short?",
+     "answer": "The music loops automatically until the video ends. If the track is longer than the video, it is trimmed to match the video length."
+    },
+    {
+     "question": "Which resolution should I pick?",
+     "answer": "720p (1280×720) is the best balance of speed and quality. 1080p is sharper but takes longer to generate. Images are center-cropped to 16:9 automatically."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video to GIF",
+     "href": "/tools/video-to-gif"
+    },
+    {
+     "name": "Video Converter",
+     "href": "/tools/video-converter"
+    },
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    }
+   ],
+   "labels": {
+    "uploadTitle": "Drag & drop images here, or click to upload",
+    "uploadSubtitle": "Multiple images supported — the slideshow follows their order",
+    "uploadFormats": "JPG · PNG · WebP · BMP (multiple selection)",
+    "continue": "Next: Settings",
+    "addMore": "Add more",
+    "remove": "Remove",
+    "duration": "Duration per image",
+    "durationHint": "How long each image is shown (1–10 seconds)",
+    "transition": "Transition",
+    "transitionNone": "None",
+    "transitionFade": "Fade",
+    "resolution": "Resolution",
+    "fps": "Frame rate",
+    "audio": "Background music (optional)",
+    "audioAdd": "Click to add background music (MP3 / WAV / M4A)",
+    "audioRemove": "Remove music",
+    "audioHint": "Music loops automatically to match the video length",
+    "totalDuration": "{count} images · est. duration {duration}",
+    "resultSize": "Video size: {size}"
+   },
+   "buttons": {
+    "generate": "Generate Video",
+    "download": "Download",
+    "adjust": "Adjust Settings",
+    "newVideo": "New Video"
+   },
+   "progress": {
+    "title": "Generating video",
+    "rendering": "Rendering frames…",
+    "encoding": "Encoding video…",
+    "finishing": "Finalizing file…",
+    "keepOpen": "Processing happens entirely in your browser. Keep this tab open."
+   },
+   "errors": {
+    "noImages": "Please upload at least one image first.",
+    "render": "Failed to render frames. Please try again.",
+    "emptyOutput": "The generated file is empty. Please adjust the settings and try again.",
+    "failed": "Generation failed. Please try again."
+   }
+  },
+  "video-trimmer": {
+   "metadata": {
+    "title": "Video Trimmer - Free Online Tool",
+    "description": "Free online video trimmer: pick start/end times, cut losslessly or re-encode precisely, output MP4. All processing happens in your browser."
+   },
+   "title": "Video Trimmer",
+   "description": "Upload a video, drag to choose the start and end times, and cut out the clip you want — fast lossless trim or precise re-encode. Everything runs locally in your browser.",
+   "category": "Video Tools",
+   "keywords": [
+    "video trimmer",
+    "cut video",
+    "trim video",
+    "video cutter",
+    "clip video",
+    "video segment",
+    "crop video"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What is a Video Trimmer?",
+     "body": [
+      "This tool lets you pick the start and end times of a video and cut out the clip you need in one click. Two modes are available: lossless fast trim (stream copy, done in seconds) and precise re-encode (frame-accurate). Everything runs locally in your browser."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Done in three steps:",
+     "items": [
+      "Upload a video (drag & drop or click).",
+      "Drag the start/end sliders to select the segment you want to keep.",
+      "Choose a mode, click “Cut Video” and download the MP4 when done."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Fast (lossless) mode does not re-encode, so it is very fast — great for grabbing long segments.",
+      "Precise mode re-encodes for frame-accurate cut points.",
+      "To remove a middle section, cut two parts first, then join them with the Video Joiner."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "What is the difference between fast (lossless) and precise (re-encode)?",
+     "answer": "Fast mode uses stream copy without re-encoding, so it is very fast but cut points may not be frame-exact. Precise mode re-encodes for frame-accurate cuts at the cost of speed."
+    },
+    {
+     "question": "Which video formats are supported?",
+     "answer": "MP4, WebM, MOV and other formats the browser can read."
+    },
+    {
+     "question": "Are my videos uploaded?",
+     "answer": "No. All processing happens locally in your browser; your video never leaves your device."
+    },
+    {
+     "question": "Why is the file size almost unchanged after a lossless cut?",
+     "answer": "Because lossless mode only copies streams without recompressing, so the size stays close to the source. Precise mode recompresses and is usually smaller."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Joiner",
+     "href": "/tools/video-joiner"
+    },
+    {
+     "name": "Video Speed Changer",
+     "href": "/tools/video-speed-changer"
+    },
+    {
+     "name": "Subtitle Burner",
+     "href": "/tools/video-subtitle-burner"
+    }
+   ],
+   "labels": {
+    "dropPrompt": "Drag & drop a video here, or click to upload",
+    "start": "Start time",
+    "end": "End time",
+    "mode": "Cut mode",
+    "modeFast": "Fast (lossless)",
+    "modePrecise": "Precise (re-encode)",
+    "modeFastHint": "Stream copy, no re-encode — very fast, cut may not be frame-exact",
+    "modePreciseHint": "Re-encodes for frame-accurate cuts, slower",
+    "selected": "Selected {start} – {end} (duration {duration})",
+    "resultSize": "Video size: {size}"
+   },
+   "buttons": {
+    "cut": "Cut Video",
+    "download": "Download",
+    "newVideo": "New Video"
+   },
+   "progress": {
+    "title": "Cutting video",
+    "keepOpen": "Processing happens entirely in your browser. Keep this tab open."
+   },
+   "errors": {
+    "failed": "Cut failed. Please try again.",
+    "emptyOutput": "The generated file is empty. Please adjust the settings and try again."
+   }
+  },
+  "video-joiner": {
+   "metadata": {
+    "title": "Video Joiner - Free Online Tool",
+    "description": "Free online tool to merge multiple videos into one MP4 in order. Lossless fast join for matching videos, all processing in your browser."
+   },
+   "title": "Video Joiner",
+   "description": "Upload multiple videos, reorder them with the up/down buttons, and merge them into one MP4 in one click. Matching videos join losslessly; all processing happens locally.",
+   "category": "Video Tools",
+   "keywords": [
+    "video joiner",
+    "merge video",
+    "join video",
+    "combine video",
+    "video merger",
+    "concatenate video"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What is a Video Joiner?",
+     "body": [
+      "This tool joins multiple videos into one MP4 in the order you set. When codecs and resolution match, it merges with a lossless stream copy (fast, no quality loss); otherwise it automatically falls back to re-encoding."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Done in three steps:",
+     "items": [
+      "Upload two or more videos (multi-select or add repeatedly).",
+      "Reorder clips with the up/down buttons and remove any you don't need.",
+      "Click “Join Videos” and download the merged MP4 when done."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Videos with the same codec and resolution (e.g. clips exported from the same app) join fastest with no quality loss.",
+      "Videos with different codecs automatically take the re-encode path with a small quality loss.",
+      "All processing happens in your browser — nothing is uploaded."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "Does joining re-encode my videos?",
+     "answer": "Videos with matching codecs and parameters are joined losslessly via stream copy (fast). If they differ, it automatically falls back to re-encoding."
+    },
+    {
+     "question": "Which video formats are supported?",
+     "answer": "MP4, WebM, MOV and other formats the browser can read."
+    },
+    {
+     "question": "Why did my merge fail?",
+     "answer": "It is usually caused by mismatched codecs/resolutions; the re-encode path is tried automatically. We recommend using videos exported with the same settings."
+    },
+    {
+     "question": "Are my videos uploaded?",
+     "answer": "No. All processing happens locally in your browser."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Trimmer",
+     "href": "/tools/video-trimmer"
+    },
+    {
+     "name": "Video Speed Changer",
+     "href": "/tools/video-speed-changer"
+    },
+    {
+     "name": "Subtitle Burner",
+     "href": "/tools/video-subtitle-burner"
+    }
+   ],
+   "labels": {
+    "dropPrompt": "Drag & drop videos here, or click to upload",
+    "dropHint": "Multiple selection supported — merged in order added",
+    "addMore": "Add more",
+    "remove": "Remove",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "joinHint": "Tip: videos with matching codec and resolution join fastest with lossless quality.",
+    "resultSize": "Video size: {size}"
+   },
+   "buttons": {
+    "join": "Join Videos",
+    "download": "Download",
+    "newVideo": "New Video"
+   },
+   "progress": {
+    "title": "Joining videos",
+    "keepOpen": "Processing happens entirely in your browser. Keep this tab open."
+   },
+   "errors": {
+    "failed": "Join failed. Please try again.",
+    "emptyOutput": "The generated file is empty. Please adjust the settings and try again."
+   }
+  },
+  "video-speed-changer": {
+   "metadata": {
+    "title": "Video Speed Changer - Free Online Tool",
+    "description": "Free online tool to change video playback speed from 0.25x to 4x while keeping the audio pitch unchanged. All processing in your browser."
+   },
+   "title": "Video Speed Changer",
+   "description": "Upload a video, pick or drag a speed (0.25x–4x), and generate a speed-changed video in one click. Audio is processed with atempo so the pitch stays the same. Everything runs locally.",
+   "category": "Video Tools",
+   "keywords": [
+    "video speed changer",
+    "speed up video",
+    "slow down video",
+    "video speed",
+    "change playback speed",
+    "fast forward",
+    "slow motion"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What is a Video Speed Changer?",
+     "body": [
+      "This tool changes the playback speed of a video — speed it up to 4x or slow it down to 0.25x. The audio is processed with the atempo filter, so the pitch stays the same instead of going squeaky."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Done in three steps:",
+     "items": [
+      "Upload a video (drag & drop or click).",
+      "Drag the slider or tap a preset to choose the speed (0.25x–4x).",
+      "Click “Change Speed” and download the result when done."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "After speeding up, the duration is about 1/speed of the original; the same applies when slowing down.",
+      "Audio stays in sync with the picture and the pitch is preserved.",
+      "Processing happens entirely in your browser; the video is never uploaded."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "Why doesn't the audio sound chipmunk-y after speeding up?",
+     "answer": "The audio is processed with the atempo filter, which changes speed while preserving the pitch."
+    },
+    {
+     "question": "How fast or slow can I go?",
+     "answer": "From 0.25x to 4x."
+    },
+    {
+     "question": "Are my videos uploaded?",
+     "answer": "No. All processing happens locally in your browser."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Trimmer",
+     "href": "/tools/video-trimmer"
+    },
+    {
+     "name": "Video Joiner",
+     "href": "/tools/video-joiner"
+    },
+    {
+     "name": "Subtitle Burner",
+     "href": "/tools/video-subtitle-burner"
+    }
+   ],
+   "labels": {
+    "dropPrompt": "Drag & drop a video here, or click to upload",
+    "speed": "Playback speed",
+    "fasterHint": "Picture and audio speed up together, pitch is preserved",
+    "slowerHint": "Picture and audio slow down together, pitch is preserved",
+    "resultSize": "Video size: {size}"
+   },
+   "buttons": {
+    "change": "Change Speed",
+    "download": "Download",
+    "newVideo": "New Video"
+   },
+   "progress": {
+    "title": "Changing speed",
+    "keepOpen": "Processing happens entirely in your browser. Keep this tab open."
+   },
+   "errors": {
+    "failed": "Speed change failed. Please try again.",
+    "emptyOutput": "The generated file is empty. Please adjust the settings and try again."
+   }
+  },
+  "video-subtitle-burner": {
+   "metadata": {
+    "title": "Subtitle Burner - Free Online Tool",
+    "description": "Free online tool to burn SRT/ASS/VTT subtitles into your video, with optional custom font support. All processing in your browser."
+   },
+   "title": "Subtitle Burner",
+   "description": "Upload a video and a subtitle file (SRT/ASS/VTT) to burn the subtitles directly into the picture. A custom font is optional. Everything runs locally — nothing is uploaded.",
+   "category": "Video Tools",
+   "keywords": [
+    "subtitle burner",
+    "burn subtitles",
+    "hardcode subtitles",
+    "embed subtitles",
+    "srt to video",
+    "video subtitles"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What is a Subtitle Burner?",
+     "body": [
+      "This tool burns (composites) SRT/ASS/VTT subtitles directly into the video picture, so any player can show them without an external subtitle file. It uses DejaVu Sans by default; for Chinese subtitles we recommend uploading a font that supports CJK glyphs."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Done in three steps:",
+     "items": [
+      "Upload a video (drag & drop or click).",
+      "Add a subtitle file (SRT / ASS / VTT), and optionally a font (TTF / OTF).",
+      "Click “Burn Subtitles” and download the subtitled video when done."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Burned subtitles are part of the picture — they display in any player on any platform.",
+      "The default font has no CJK glyphs; for Chinese/Japanese/Korean subtitles upload a matching font (e.g. Noto Sans CJK TTF).",
+      "The video is re-encoded to H.264 while the audio is copied as-is, so quality loss is minimal."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "What is the difference between burned and soft subtitles?",
+     "answer": "Burned (hard) subtitles are composited into the picture so any player shows them. Soft subtitles are a separate track that requires player support."
+    },
+    {
+     "question": "Which subtitle formats are supported?",
+     "answer": "SRT, ASS and VTT (WebVTT)."
+    },
+    {
+     "question": "Why do my Chinese subtitles show as boxes?",
+     "answer": "The default DejaVu Sans font has no CJK glyphs. Please upload a font that supports Chinese (e.g. Noto Sans CJK TTF)."
+    },
+    {
+     "question": "Are my video and subtitles uploaded?",
+     "answer": "No. All processing happens locally in your browser."
+    },
+    {
+     "question": "Does burning reduce quality?",
+     "answer": "The video is re-encoded to H.264 while the audio is copied unchanged, so quality loss is minimal."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Video Trimmer",
+     "href": "/tools/video-trimmer"
+    },
+    {
+     "name": "Video Joiner",
+     "href": "/tools/video-joiner"
+    },
+    {
+     "name": "Video Speed Changer",
+     "href": "/tools/video-speed-changer"
+    }
+   ],
+   "labels": {
+    "dropPrompt": "Drag & drop a video here, or click to upload",
+    "subtitle": "Subtitle file",
+    "subtitleAdd": "Click to add subtitles (SRT / ASS / VTT)",
+    "subtitleHint": "Subtitles are burned into the picture — no player support needed",
+    "font": "Font (optional)",
+    "fontAdd": "Click to add a font (TTF / OTF)",
+    "fontHint": "Defaults to DejaVu Sans; upload a matching font for CJK subtitles",
+    "remove": "Remove",
+    "resultSize": "Video size: {size}"
+   },
+   "buttons": {
+    "burn": "Burn Subtitles",
+    "download": "Download",
+    "newVideo": "New Video"
+   },
+   "progress": {
+    "title": "Burning subtitles",
+    "keepOpen": "Processing happens entirely in your browser. Keep this tab open."
+   },
+   "errors": {
+    "failed": "Burn failed. Please try again.",
+    "emptyOutput": "The generated file is empty. Please adjust the settings and try again.",
+    "fontDownload": "Failed to download the default font. Check your network and try again, or upload a custom font."
+   }
+  },
+  "currency-converter": {
+   "metadata": {
+    "title": "Currency Converter - Free Online Tool",
+    "description": "Free online currency converter with live exchange rates for 40+ currencies. No signup required — works offline with built-in fallback rates."
+   },
+   "title": "Currency Converter",
+   "description": "Convert between 40+ world currencies with live exchange rates. Everything happens right in your browser — no signup, no data sent to us.",
+   "category": "Utilities",
+   "keywords": [
+    "currency converter",
+    "exchange rate",
+    "currency exchange",
+    "money converter",
+    "forex",
+    "FX converter"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What is a currency converter?",
+     "body": [
+      "This tool converts any amount between 40+ world currencies using live exchange rates. Rates are fetched from free public APIs when you open the page; if the network is unavailable, built-in rates are used instead so the tool keeps working offline."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Three steps:",
+     "items": [
+      "Enter the amount you want to convert.",
+      "Choose the source currency (From) and target currency (To).",
+      "Read the converted amount and the unit rate instantly — no button needed."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use the Swap button to flip the currencies — the amount is carried over automatically.",
+      "The offline fallback is a snapshot and may be stale; prefer live rates when accuracy matters.",
+      "Rates refresh each time you open the page."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "How often are the exchange rates updated?",
+     "answer": "Rates are fetched from free public APIs (European Central Bank data via frankfurter.app, or open.er-api.com) each time the page loads. ECB rates update once per working day; open.er-api updates daily."
+    },
+    {
+     "question": "Does it still work offline?",
+     "answer": "Yes. If every live API is unreachable, the tool falls back to built-in snapshot rates so you can still convert — just note they may be out of date."
+    },
+    {
+     "question": "Which currencies are supported?",
+     "answer": "Over 40 major currencies, including USD, EUR, GBP, JPY, CNY, HKD, KRW and many more."
+    },
+    {
+     "question": "Is my data sent to a server?",
+     "answer": "No. The amount you enter is only processed in your browser. The only network request is to fetch public exchange rates."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Unit Converter",
+     "href": "/tools/unit-converter"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Discount Calculator",
+     "href": "/tools/discount-calculator"
+    },
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    }
+   ],
+   "labels": {
+    "amount": "Amount",
+    "from": "From",
+    "to": "To",
+    "swap": "Swap",
+    "result": "Converted amount",
+    "lastUpdate": "Last updated",
+    "live": "Live rates",
+    "offline": "Offline: using built-in rates, which may be out of date",
+    "loading": "Loading rates…",
+    "popularTitle": "{currency} cross-rates"
+   },
+   "currencies": {
+    "usd": "US Dollar",
+    "eur": "Euro",
+    "gbp": "British Pound",
+    "jpy": "Japanese Yen",
+    "cny": "Chinese Yuan",
+    "hkd": "Hong Kong Dollar",
+    "aud": "Australian Dollar",
+    "cad": "Canadian Dollar",
+    "chf": "Swiss Franc",
+    "krw": "South Korean Won",
+    "inr": "Indian Rupee",
+    "sgd": "Singapore Dollar",
+    "nzd": "New Zealand Dollar",
+    "sek": "Swedish Krona",
+    "nok": "Norwegian Krone",
+    "dkk": "Danish Krone",
+    "pln": "Polish Zloty",
+    "czk": "Czech Koruna",
+    "huf": "Hungarian Forint",
+    "try": "Turkish Lira",
+    "brl": "Brazilian Real",
+    "mxn": "Mexican Peso",
+    "zar": "South African Rand",
+    "aed": "UAE Dirham",
+    "sar": "Saudi Riyal",
+    "thb": "Thai Baht",
+    "myr": "Malaysian Ringgit",
+    "idr": "Indonesian Rupiah",
+    "php": "Philippine Peso",
+    "vnd": "Vietnamese Dong",
+    "rub": "Russian Ruble",
+    "twd": "New Taiwan Dollar",
+    "ils": "Israeli Shekel",
+    "clp": "Chilean Peso",
+    "cop": "Colombian Peso",
+    "ars": "Argentine Peso",
+    "egp": "Egyptian Pound",
+    "ngn": "Nigerian Naira",
+    "pkr": "Pakistani Rupee",
+    "bdt": "Bangladeshi Taka",
+    "uah": "Ukrainian Hryvnia",
+    "kzt": "Kazakhstani Tenge"
+   }
+  }
+ }
+}

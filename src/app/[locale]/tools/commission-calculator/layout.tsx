@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/commission-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/commission-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/commission-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/commission-calculator`,
       },
     },
   };

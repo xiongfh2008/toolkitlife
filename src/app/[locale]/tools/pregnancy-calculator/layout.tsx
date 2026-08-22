@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/pregnancy-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/pregnancy-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/pregnancy-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/pregnancy-calculator`,
       },
     },
   };

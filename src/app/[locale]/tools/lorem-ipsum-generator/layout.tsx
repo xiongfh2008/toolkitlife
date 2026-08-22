@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/lorem-ipsum-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/lorem-ipsum-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/lorem-ipsum-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/lorem-ipsum-generator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/calorie-burn-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/calorie-burn-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/calorie-burn-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/calorie-burn-calculator`,
       },
     },
   };

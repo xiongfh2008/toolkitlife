@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/neumorphism-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/neumorphism-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/neumorphism-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/neumorphism-generator`,
       },
     },
   };

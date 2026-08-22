@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/slideshow-maker`,
         ja: `https://www.toolkitlife.com/ja/tools/slideshow-maker`,
         ko: `https://www.toolkitlife.com/ko/tools/slideshow-maker`,
+        ru: `https://www.toolkitlife.com/ru/tools/slideshow-maker`,
       },
     },
   };

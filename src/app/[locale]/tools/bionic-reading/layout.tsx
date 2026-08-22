@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/bionic-reading`,
         ja: `https://www.toolkitlife.com/ja/tools/bionic-reading`,
         ko: `https://www.toolkitlife.com/ko/tools/bionic-reading`,
+        ru: `https://www.toolkitlife.com/ru/tools/bionic-reading`,
       },
     },
   };

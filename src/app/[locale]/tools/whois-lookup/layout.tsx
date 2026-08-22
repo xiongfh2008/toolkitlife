@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/whois-lookup`,
         ja: `https://www.toolkitlife.com/ja/tools/whois-lookup`,
         ko: `https://www.toolkitlife.com/ko/tools/whois-lookup`,
+        ru: `https://www.toolkitlife.com/ru/tools/whois-lookup`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/bmr-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/bmr-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/bmr-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/bmr-calculator`,
       },
     },
   };

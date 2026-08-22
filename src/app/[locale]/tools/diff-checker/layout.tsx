@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/diff-checker`,
         ja: `https://www.toolkitlife.com/ja/tools/diff-checker`,
         ko: `https://www.toolkitlife.com/ko/tools/diff-checker`,
+        ru: `https://www.toolkitlife.com/ru/tools/diff-checker`,
       },
     },
   };

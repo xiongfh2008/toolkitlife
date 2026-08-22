@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/markup-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/markup-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/markup-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/markup-calculator`,
       },
     },
   };

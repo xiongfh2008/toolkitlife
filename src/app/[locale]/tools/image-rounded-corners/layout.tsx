@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-rounded-corners`,
         ja: `https://www.toolkitlife.com/ja/tools/image-rounded-corners`,
         ko: `https://www.toolkitlife.com/ko/tools/image-rounded-corners`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-rounded-corners`,
       },
     },
   };

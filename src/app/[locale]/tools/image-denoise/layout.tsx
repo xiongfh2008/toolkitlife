@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-denoise`,
         ja: `https://www.toolkitlife.com/ja/tools/image-denoise`,
         ko: `https://www.toolkitlife.com/ko/tools/image-denoise`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-denoise`,
       },
     },
   };

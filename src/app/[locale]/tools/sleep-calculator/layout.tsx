@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/sleep-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/sleep-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/sleep-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/sleep-calculator`,
       },
     },
   };

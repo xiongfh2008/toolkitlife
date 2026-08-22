@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/css-clip-path`,
         ja: `https://www.toolkitlife.com/ja/tools/css-clip-path`,
         ko: `https://www.toolkitlife.com/ko/tools/css-clip-path`,
+        ru: `https://www.toolkitlife.com/ru/tools/css-clip-path`,
       },
     },
   };

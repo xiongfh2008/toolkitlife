@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/ohms-law-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/ohms-law-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/ohms-law-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/ohms-law-calculator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/html-minifier`,
         ja: `https://www.toolkitlife.com/ja/tools/html-minifier`,
         ko: `https://www.toolkitlife.com/ko/tools/html-minifier`,
+        ru: `https://www.toolkitlife.com/ru/tools/html-minifier`,
       },
     },
   };

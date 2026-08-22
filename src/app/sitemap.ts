@@ -3,7 +3,7 @@ import path from "path";
 import type { MetadataRoute } from "next";
 import { blogPostsMeta } from "@/data/blog-posts";
 
-const locales = ["en", "zh", "ja", "ko"] as const;
+const locales = ["en", "zh", "ja", "ko", "ru"] as const;
 
 // Every tool slug, derived from the en message file so newly added tools are
 // included automatically instead of being maintained by hand here.

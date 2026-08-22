@@ -37,6 +37,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/screen-color-picker`,
         ja: `https://www.toolkitlife.com/ja/tools/screen-color-picker`,
         ko: `https://www.toolkitlife.com/ko/tools/screen-color-picker`,
+        ru: `https://www.toolkitlife.com/ru/tools/screen-color-picker`,
       },
     },
   };

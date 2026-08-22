@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/password-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/password-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/password-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/password-generator`,
       },
     },
   };

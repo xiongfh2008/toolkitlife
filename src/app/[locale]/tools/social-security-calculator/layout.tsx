@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/social-security-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/social-security-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/social-security-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/social-security-calculator`,
       },
     },
   };

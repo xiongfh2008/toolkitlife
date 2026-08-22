@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/body-fat-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/body-fat-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/body-fat-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/body-fat-calculator`,
       },
     },
   };

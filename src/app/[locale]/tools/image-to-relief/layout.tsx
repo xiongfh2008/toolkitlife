@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-to-relief`,
         ja: `https://www.toolkitlife.com/ja/tools/image-to-relief`,
         ko: `https://www.toolkitlife.com/ko/tools/image-to-relief`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-to-relief`,
       },
     },
   };

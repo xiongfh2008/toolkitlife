@@ -1,0 +1,2591 @@
+{
+ "tools": {
+  "merge-pdf": {
+   "metadata": {
+    "title": "Merge PDF - Free Online Tool",
+    "description": "Combine multiple PDF files online for free. Reorder and merge PDFs in your browser — no upload, no registration.",
+    "category": "Utility"
+   },
+   "title": "Merge PDF",
+   "description": "Combine multiple PDF files online for free. Reorder and merge PDFs in your browser — no upload, no registration.",
+   "category": "Utility",
+   "keywords": [
+    "merge pdf",
+    "combine pdf",
+    "pdf merger",
+    "merge pdf files",
+    "merge pdf online"
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload two or more PDF files.",
+     "Use the up and down arrows to reorder the files.",
+     "Click \"Merge PDF\" and download the combined file."
+    ]
+   },
+   "faqs": [
+    {
+     "question": "How do I merge PDF files for free?",
+     "answer": "Upload your PDF files, arrange them in the order you want, then click Merge. The merged file downloads immediately."
+    },
+    {
+     "question": "How many PDF files can I merge?",
+     "answer": "There is no fixed limit. Processing happens locally in your browser, but too many files or very large files may be limited by your device's memory."
+    },
+    {
+     "question": "Are my files uploaded to a server?",
+     "answer": "No. The entire merge process runs in your browser using pdf-lib, and your files never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Split PDF",
+     "href": "/tools/split-pdf"
+    },
+    {
+     "name": "Compress PDF",
+     "href": "/tools/compress-pdf"
+    }
+   ],
+   "dropzone": {
+    "title": "Drop PDFs here or click to upload",
+    "subtitle": "You can select multiple PDF files"
+   },
+   "file": {
+    "size": "{size} KB"
+   },
+   "buttons": {
+    "merge": "Merge PDF",
+    "download": "Download Merged PDF",
+    "newFiles": "Upload New Files"
+   },
+   "status": {
+    "loading": "Loading PDF {current} / {total}...",
+    "saving": "Saving merged PDF..."
+   },
+   "processing": {
+    "title": "Merging PDFs",
+    "progress": "Progress"
+   },
+   "done": {
+    "title": "Merge Complete",
+    "pages": "{count} pages total"
+   },
+   "errors": {
+    "generic": "Merge failed: {message}"
+   }
+  },
+  "number-base-converter": {
+   "metadata": {
+    "title": "Number Base Converter",
+    "description": "Convert numbers between binary, octal, decimal, hexadecimal, and base 36 instantly.",
+    "category": "Math"
+   },
+   "keywords": [
+    "base converter",
+    "binary to decimal",
+    "hex to binary",
+    "number base converter",
+    "octal converter"
+   ],
+   "faqs": [
+    {
+     "question": "What is a number base?",
+     "answer": "A number base is a different way to represent numbers. Binary (base 2) uses 0-1, octal (base 8) uses 0-7, decimal (base 10) uses 0-9, and hexadecimal (base 16) uses 0-9 and A-F."
+    },
+    {
+     "question": "How do I convert between bases?",
+     "answer": "To convert between bases you can use the division and remainder method, or use decimal as an intermediate step. This calculator handles all conversions instantly."
+    },
+    {
+     "question": "Why use different bases?",
+     "answer": "Binary is used in computing (on/off states). Hexadecimal provides a compact way to represent binary data. Octal is used in older computer systems. Decimal is the standard human-readable system."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Binary Converter",
+     "href": "/tools/binary-converter"
+    }
+   ],
+   "labels": {
+    "fromBase": "From Base",
+    "toBase": "To Base",
+    "input": "Input Number",
+    "inputPlaceholder": "Enter a number...",
+    "result": "Result",
+    "resultBase": "Base {base}"
+   },
+   "buttons": {
+    "convert": "Convert"
+   },
+   "options": {
+    "base": "Base {base}"
+   },
+   "errors": {
+    "invalidInput": "Not a valid number for base {base}"
+   },
+   "description": "Convert numbers between binary, octal, decimal, hexadecimal, and base 36 instantly.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Number Base Converter?",
+     "body": [
+      "Convert numbers between binary, octal, decimal, hexadecimal, and base 36 instantly.",
+      "Supports custom bases up to base 36."
+     ]
+    },
+    "howTo": {
+     "title": "How to Convert Number Bases",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter the number you want to convert.",
+      "Select the input base.",
+      "Select the output base.",
+      "Click calculate to see the result."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Binary and hexadecimal are commonly used in programming.",
+      "Use base 36 for alphanumeric encoding.",
+      "Verify conversions with multiple examples."
+     ]
+    }
+   }
+  },
+  "ovulation-calculator": {
+   "metadata": {
+    "title": "Ovulation Calculator",
+    "description": "Predict ovulation day, fertile window, and next period based on your cycle length.",
+    "category": "Health"
+   },
+   "keywords": [
+    "ovulation calculator",
+    "fertile window calculator",
+    "ovulation date calculator",
+    "menstrual cycle calculator",
+    "fertility calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How is the ovulation date calculated?",
+     "answer": "Ovulation is estimated by subtracting 14 days (typical luteal phase length) from the total cycle length, then counting forward that many days from the first day of your last period. For a 28-day cycle, ovulation typically occurs around day 14. For a 30-day cycle, around day 16."
+    },
+    {
+     "question": "What is the fertile window and how long does it last?",
+     "answer": "The fertile window lasts about 6 days: the 5 days before ovulation plus the day of ovulation itself. Sperm can survive up to 5 days in the reproductive tract, while the egg is fertilizable for about 12-24 hours after release. Conception chances are highest 1-2 days before ovulation."
+    },
+    {
+     "question": "Are ovulation calculators accurate?",
+     "answer": "Ovulation calculators provide estimates based on average cycle data. Actual ovulation can vary by several days even in regular cycles due to stress, illness, travel, or hormonal fluctuations. For more precise tracking, combine this calculator with ovulation predictor kits (OPKs), basal body temperature charting, or cervical mucus monitoring."
+    },
+    {
+     "question": "What is the luteal phase and why is it always 14 days?",
+     "answer": "The luteal phase is the second half of the menstrual cycle, from ovulation to the start of the next period. While 14 days is the most common length, individual luteal phases can range from 10-16 days. A luteal phase consistently shorter than 10 days is called a luteal phase defect and may affect fertility."
+    },
+    {
+     "question": "Can I use this calculator for contraception?",
+     "answer": "No. This calculator should not be used as a contraceptive method. Ovulation timing can vary significantly between cycles, and sperm can survive up to 5 days. Calendar-based methods alone have a high failure rate. Consult a medical professional for reliable contraception options."
+    },
+    {
+     "question": "How does cycle length affect ovulation timing?",
+     "answer": "Cycle length directly affects when you ovulate. With shorter cycles (like 21 days), ovulation occurs earlier (around day 7). With longer cycles (like 35 days), ovulation occurs later (around day 21). The luteal phase (after ovulation) stays relatively constant at about 14 days, so the variation happens in the pre-ovulatory follicular phase."
+    },
+    {
+     "question": "What are the signs of ovulation?",
+     "answer": "Common ovulation signs include a slight rise in basal body temperature (0.4-1.0 degrees F), changes in cervical mucus (clear, stretchy, egg-white-like), mild pelvic pain or cramping on one side (mittelschmerz), increased libido, breast tenderness, and a positive ovulation predictor kit (OPK) detecting the LH surge."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Pregnancy Calculator",
+     "href": "/tools/pregnancy-calculator"
+    },
+    {
+     "name": "Age Calculator",
+     "href": "/tools/age-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    }
+   ],
+   "labels": {
+    "lastPeriod": "First Day of Last Period",
+    "cycleLength": "Cycle Length (days)",
+    "ovulationDate": "Estimated Ovulation Date",
+    "fertileWindow": "Fertile Window",
+    "nextPeriod": "Next Expected Period"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "errors": {
+    "invalid": "Please enter a valid last period date and cycle length (14-60 days)."
+   },
+   "description": "Calculate your estimated ovulation date, fertile window, and next period based on your menstrual cycle. Visualize cycle phases on a color-coded calendar timeline.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is an Ovulation Calculator?",
+     "body": [
+      "Calculate your estimated ovulation date, fertile window, and next period based on your menstrual cycle.",
+      "Visualize cycle phases on a color-coded calendar timeline."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Ovulation Calculator",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter the first day of your last period.",
+      "Enter your average cycle length.",
+      "Click calculate to see your ovulation date and fertile window.",
+      "Review the calendar timeline to visualize cycle phases."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Track multiple cycles for better accuracy.",
+      "Combine with basal body temperature tracking.",
+      "Use ovulation predictor kits for confirmation."
+     ]
+    }
+   }
+  },
+  "period-calculator": {
+   "metadata": {
+    "title": "Period Calculator",
+    "description": "Predict your next period, ovulation, fertile window, and estimated safe days.",
+    "category": "Health"
+   },
+   "keywords": [
+    "period calculator",
+    "menstrual cycle calculator",
+    "period tracker",
+    "ovulation calculator",
+    "fertility calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How does the period calculator predict my next period?",
+     "answer": "The calculator uses your last menstrual period (LMP) date and average cycle length to predict future periods. It adds your cycle length to each period start to estimate when the next one begins. For example, with a 28-day cycle, your next period is predicted 28 days after the start of your last one. This assumes your cycle length is fairly consistent."
+    },
+    {
+     "question": "How is the fertile window calculated?",
+     "answer": "The fertile window is estimated based on ovulation timing. Ovulation typically occurs about 14 days before the start of your next period. Since sperm can survive up to 5 days in the reproductive tract, the fertile window extends from 5 days before ovulation through the day of ovulation itself — 6 days total. This is the time range when conception is most likely."
+    },
+    {
+     "question": "What is a normal menstrual cycle length?",
+     "answer": "Normal menstrual cycles range from 21-35 days, with 28 days being the commonly cited average. However, most women don't have a perfect 28-day cycle. Cycles between 24-35 days are considered normal. Cycle length can also vary month to month due to stress, diet, exercise, illness, or hormonal changes. Consistently irregular cycles may warrant a visit to a medical professional."
+    },
+    {
+     "question": "Can I use this calculator for contraception or conception?",
+     "answer": "This calculator provides average-based estimates and should not be used as a sole contraceptive method. Ovulation can shift by several days between cycles, even in women with regular periods. If you are trying to conceive, this calculator can help you identify your most fertile days, but consider using ovulation predictor kits or basal body temperature tracking for greater accuracy. Always consult a medical professional for personalized advice."
+    },
+    {
+     "question": "Why is my period irregular?",
+     "answer": "Irregular periods can be caused by many factors, including stress, significant weight changes, excessive exercise, polycystic ovary syndrome (PCOS), thyroid disorders, perimenopause, or certain medications. Occasional irregularity is common and usually not a problem. However, if your cycles are consistently shorter than 21 days, longer than 35 days, or you frequently skip periods, consult a medical professional for evaluation."
+    },
+    {
+     "question": "Is the ovulation prediction accurate?",
+     "answer": "Calendar-based ovulation prediction assumes ovulation occurs 14 days before your next period. While this is a reasonable average, actual ovulation can vary by several days. Factors like stress, sleep, travel, and illness can shift ovulation timing. For more precise ovulation tracking, consider combining this calculator with basal body temperature charting, cervical mucus observation, or over-the-counter ovulation predictor kits."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Pregnancy Calculator",
+     "href": "/tools/pregnancy-calculator"
+    },
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "Sleep Calculator",
+     "href": "/tools/sleep-calculator"
+    },
+    {
+     "name": "Water Intake Calculator",
+     "href": "/tools/water-intake-calculator"
+    }
+   ],
+   "labels": {
+    "lastPeriod": "First Day of Last Period",
+    "cycleLength": "Cycle Length (days)",
+    "duration": "Period Duration (days)",
+    "nextPeriod": "Next Period Start",
+    "nextPeriodEnd": "Next Period End",
+    "ovulation": "Estimated Ovulation Date",
+    "fertileWindow": "Fertile Window",
+    "safePeriod": "Estimated Safe Days",
+    "noSafePeriod": "No reliable safe days estimated for this cycle"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "errors": {
+    "invalid": "Please enter a valid date, cycle length (14-60 days), and period duration."
+   },
+   "description": "Track and predict your menstrual cycle with our free period calculator. See upcoming periods, fertile windows, and ovulation dates on a visual calendar.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Period Calculator?",
+     "body": [
+      "Track and predict your menstrual cycle with our free period calculator.",
+      "See upcoming periods, fertile windows, and ovulation dates on a visual calendar."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Period Calculator",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter the first day of your last period.",
+      "Enter your average cycle length and period duration.",
+      "Select your cycle regularity.",
+      "Click calculate to see predicted cycles and the calendar."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Track your cycle for 3-6 months for accurate averages.",
+      "Log symptoms to identify personal patterns.",
+      "Consult a medical professional for persistently irregular cycles."
+     ]
+    }
+   }
+  },
+  "png-to-pdf-converter": {
+   "metadata": {
+    "title": "PNG to PDF - Free Online Tool",
+    "description": "Convert PNG images to PDF online for free. Combine multiple PNGs into one PDF in your browser — no upload, no registration.",
+    "category": "Utility"
+   },
+   "title": "PNG to PDF",
+   "description": "Convert PNG images to PDF online for free. Combine multiple PNGs into one PDF in your browser — no upload, no registration.",
+   "category": "Utility",
+   "keywords": [
+    "png to pdf",
+    "image to pdf",
+    "png to pdf converter",
+    "combine pngs into pdf",
+    "convert png to pdf online"
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload one or more PNG images.",
+     "Reorder the images as needed.",
+     "Click \"Convert to PDF\" and download the file."
+    ]
+   },
+   "faqs": [
+    {
+     "question": "How do I convert PNG to PDF for free?",
+     "answer": "Upload your PNG images, arrange them in the order you want, then click Convert. Each image becomes one page in the PDF."
+    },
+    {
+     "question": "Can I convert multiple PNGs at once?",
+     "answer": "Yes. Upload any number of PNG images and they will be combined into a single PDF with one image per page."
+    },
+    {
+     "question": "Are images uploaded to a server?",
+     "answer": "No. The conversion runs in your browser using pdf-lib, and your images never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "JPG to PDF",
+     "href": "/tools/jpg-to-pdf-converter"
+    },
+    {
+     "name": "Merge PDF",
+     "href": "/tools/merge-pdf"
+    }
+   ],
+   "dropzone": {
+    "title": "Drop PNGs here or click to upload",
+    "subtitle": "PNG images"
+   },
+   "file": {
+    "size": "{size} KB"
+   },
+   "buttons": {
+    "convert": "Convert to PDF",
+    "download": "Download PDF",
+    "newFiles": "Upload New Files"
+   },
+   "status": {
+    "converting": "Converting image {current} / {total}...",
+    "saving": "Saving PDF..."
+   },
+   "processing": {
+    "title": "Converting to PDF",
+    "progress": "Progress"
+   },
+   "done": {
+    "title": "Conversion Complete",
+    "pages": "{count} pages total"
+   },
+   "errors": {
+    "generic": "Conversion failed: {message}"
+   }
+  },
+  "protein-calculator": {
+   "metadata": {
+    "title": "Protein Calculator",
+    "description": "Calculate daily protein needs based on weight, goal, and activity level.",
+    "category": "Health"
+   },
+   "keywords": [
+    "protein calculator",
+    "daily protein needs",
+    "protein intake calculator",
+    "how much protein",
+    "protein per day"
+   ],
+   "faqs": [
+    {
+     "question": "How much protein do I need per day?",
+     "answer": "General health: 0.8 g per kg of body weight. Weight loss: 1.2-1.6 g/kg (to preserve muscle). Muscle gain: 1.6-2.2 g/kg. Athletes may need up to 2.4 g/kg during intense training."
+    },
+    {
+     "question": "Can I eat too much protein?",
+     "answer": "Up to 2.2 g/kg per day long-term is safe for healthy adults. Higher intakes offer no extra benefit for most people. People with kidney disease should consult a doctor. Excess protein is converted to energy or stored as fat."
+    },
+    {
+     "question": "When should I eat protein?",
+     "answer": "Spread protein across 3-5 meals for best results. Post-workout protein (within 2 hours) supports recovery. 20-40 g per meal is optimal for muscle protein synthesis."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Macro Calculator",
+     "href": "/tools/macro-calculator"
+    },
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    }
+   ],
+   "labels": {
+    "weight": "Weight (kg)",
+    "goal": "Goal",
+    "activityLevel": "Activity Level",
+    "protein": "Recommended Daily Protein",
+    "range": "Range"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "maintain": "Maintain Weight",
+    "lose": "Lose Weight",
+    "gain": "Gain Muscle",
+    "sedentary": "Sedentary",
+    "light": "Lightly Active",
+    "moderate": "Moderately Active",
+    "active": "Active",
+    "veryActive": "Very Active"
+   },
+   "description": "Calculate daily protein needs based on weight, fitness goal, and activity level.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Protein Calculator?",
+     "body": [
+      "Calculate daily protein needs based on weight, fitness goal, and activity level.",
+      "Get personalized recommendations, including meal distribution and protein source references."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Protein Needs",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose your preferred unit system.",
+      "Enter your weight.",
+      "Select your fitness goal.",
+      "Select your activity level.",
+      "Click calculate to see your daily protein needs."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Spread protein intake across multiple meals.",
+      "Prioritize protein after workouts.",
+      "Choose high-quality protein sources."
+     ]
+    }
+   }
+  },
+  "refinance-calculator": {
+   "metadata": {
+    "title": "Refinance Calculator",
+    "description": "Compare your current loan with a refinance option and calculate the break-even point and total savings.",
+    "category": "Finance",
+    "icon": "🏦"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no registration tools",
+    "browser tools",
+    "refinance calculator",
+    "mortgage refinance calculator",
+    "refinance savings calculator",
+    "refinance break even calculator",
+    "mortgage refinance comparison",
+    "should I refinance calculator",
+    "loan refinance calculator",
+    "refinance amortization calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I know if refinancing my mortgage is worth it?",
+     "answer": "Refinancing is generally worth considering when you can lower your interest rate by at least 0.5–1%, plan to stay in the home long enough to pass the break-even point, or need to switch from an adjustable-rate to a fixed-rate mortgage. Use the break-even calculation to see how many months of savings it takes to recoup closing costs."
+    },
+    {
+     "question": "What is the break-even point on a mortgage refinance?",
+     "answer": "The break-even point is the number of months it takes for your monthly payment savings to equal the total closing costs of the refinance. For example, if closing costs are $4,500 and you save $150/month, your break-even point is 30 months. If you plan to stay in the home beyond this point, refinancing saves you money."
+    },
+    {
+     "question": "What are typical closing costs for a mortgage refinance?",
+     "answer": "Typical refinance closing costs range from 2% to 5% of the loan amount and may include application fees, appraisal fees, title insurance, origination fees, and prepaid items like taxes and insurance escrow. On a $280,000 loan, expect $5,600 to $14,000 in closing costs."
+    },
+    {
+     "question": "What are mortgage points and should I buy them?",
+     "answer": "Mortgage discount points are upfront fees paid to the lender to reduce your interest rate, typically costing 1% of the loan amount per point and reducing the rate by about 0.25%. Buying points makes sense if you plan to keep the loan long enough for the monthly savings to exceed the upfront cost."
+    },
+    {
+     "question": "Does refinancing restart my mortgage clock?",
+     "answer": "Yes. Refinancing replaces your existing loan with a new one, so if you refinance into a new 30-year term after paying 5 years on your original mortgage, you will have 30 new years of payments. However, you can choose a shorter term (such as 15 or 20 years) to avoid extending your payoff date significantly."
+    },
+    {
+     "question": "Can I refinance with bad credit?",
+     "answer": "While it is harder to refinance with a low credit score, options exist. FHA streamline refinances, VA IRRRLs, and USDA streamline refinances have more lenient credit requirements. Conventional refinances typically require a minimum score of 620, though better rates are available at 740 and above."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Amortization Calculator",
+     "href": "/tools/amortization-calculator"
+    }
+   ],
+   "labels": {
+    "currentBalance": "Current Balance",
+    "currentRate": "Current Interest Rate (%)",
+    "currentTerm": "Current Term (years)",
+    "newRate": "New Interest Rate (%)",
+    "newTerm": "New Term (years)",
+    "closingCosts": "Closing Costs",
+    "monthlySavings": "Monthly Savings",
+    "currentMonthly": "Current Monthly Payment",
+    "newMonthly": "New Monthly Payment",
+    "breakEven": "Break-Even Months",
+    "months": "Months",
+    "never": "Never Pays Off",
+    "totalInterestSavings": "Total Interest Savings",
+    "currentTotalInterest": "Current Total Interest",
+    "newTotalInterest": "New Total Interest"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "currentBalance": "Enter current balance",
+    "currentRate": "Enter current interest rate (%)",
+    "currentTerm": "Enter current term (years)",
+    "newRate": "Enter new interest rate (%)",
+    "newTerm": "Enter new term (years)",
+    "closingCosts": "Enter closing costs"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is a Refinance Calculator?",
+     "paragraphs": [
+      "Compare your current mortgage with a refinanced loan. Calculate monthly savings, total interest saved, break-even point, and view a side-by-side amortization comparison to decide if refinancing is right for you."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the refinance calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool is for estimation - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  },
+  "sleep-calculator": {
+   "metadata": {
+    "title": "Sleep Calculator",
+    "description": "Calculate ideal bedtimes and wake times based on 90-minute sleep cycles.",
+    "category": "Health"
+   },
+   "keywords": [
+    "sleep calculator",
+    "sleep cycle calculator",
+    "bedtime calculator",
+    "wake up calculator",
+    "sleep cycles"
+   ],
+   "faqs": [
+    {
+     "question": "What is a sleep cycle?",
+     "answer": "A sleep cycle lasts about 90 minutes and moves through light, deep, and REM sleep. Waking between cycles (rather than during deep sleep) helps you feel more refreshed. Most adults need 5-6 complete cycles (7.5-9 hours)."
+    },
+    {
+     "question": "Why do I feel groggy after 8 hours of sleep?",
+     "answer": "You may be waking during deep sleep. Try adjusting your alarm by 15-30 minutes. Aim for complete 90-minute cycles, so 7.5 hours (5 cycles) may feel better than 8 hours."
+    },
+    {
+     "question": "How long does it take to fall asleep?",
+     "answer": "The average person takes about 10-20 minutes to fall asleep. This calculator uses 15 minutes. Adjust your bedtime accordingly if you fall asleep faster or slower."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Age Calculator",
+     "href": "/tools/age-calculator"
+    },
+    {
+     "name": "Countdown Timer",
+     "href": "/tools/countdown-timer"
+    },
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    }
+   ],
+   "labels": {
+    "mode": "Mode",
+    "wakeTime": "Wake-Up Time",
+    "bedTime": "Bedtime",
+    "duration": "Sleep Duration (hours)",
+    "recommendedBedtime": "Recommended Bedtime",
+    "recommendedWakeTimes": "Recommended Wake-Up Times"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "bedtime": "Calculate bedtime from wake-up time",
+    "waketime": "Calculate wake-up time from bedtime"
+   },
+   "description": "Find the best bedtime and wake-up time based on 90-minute sleep cycles. Wake up refreshed, not groggy.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Sleep Calculator?",
+     "body": [
+      "Find the best bedtime and wake-up time based on 90-minute sleep cycles.",
+      "Wake up refreshed, not groggy, by timing your sleep to complete full cycles."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Sleep Calculator",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose whether you want to calculate a bedtime or a wake-up time.",
+      "Enter your desired wake-up time or bedtime.",
+      "Click calculate to see the best sleep times.",
+      "Pick a time that allows 5-6 complete cycles."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Aim for 7.5-9 hours of sleep (5-6 cycles).",
+      "Keep a consistent sleep schedule.",
+      "Create a relaxing bedtime routine."
+     ]
+    }
+   }
+  },
+  "split-pdf": {
+   "metadata": {
+    "title": "Split PDF - Free Online Tool",
+    "description": "Extract specific pages from a PDF online for free. Enter page ranges and download new PDFs in your browser — no upload, no registration.",
+    "category": "Utility"
+   },
+   "title": "Split PDF",
+   "description": "Extract specific pages from a PDF online for free. Enter page ranges and download new PDFs in your browser — no upload, no registration.",
+   "category": "Utility",
+   "keywords": [
+    "split pdf",
+    "pdf splitter",
+    "extract pdf pages",
+    "pdf page extractor",
+    "split pdf online"
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Upload your PDF file.",
+     "Enter page ranges, e.g. 1-3,5,7-9.",
+     "Choose single PDF or ZIP output, then click Split and download."
+    ]
+   },
+   "faqs": [
+    {
+     "question": "How do I extract pages from a PDF?",
+     "answer": "Upload your PDF, enter the page numbers or ranges you want, then click Split. The downloaded file contains only the selected pages."
+    },
+    {
+     "question": "What range formats are supported?",
+     "answer": "Separate single pages or ranges with commas and use a hyphen for consecutive ranges. For example, 1-3,5,7-9 extracts pages 1, 2, 3, 5, 7, 8, and 9."
+    },
+    {
+     "question": "Are PDFs uploaded to a server?",
+     "answer": "No. Splitting happens entirely in your browser using pdf-lib, and your PDF never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Merge PDF",
+     "href": "/tools/merge-pdf"
+    },
+    {
+     "name": "Compress PDF",
+     "href": "/tools/compress-pdf"
+    }
+   ],
+   "dropzone": {
+    "title": "Drop PDF here or click to upload",
+    "subtitle": "Only PDF files supported"
+   },
+   "file": {
+    "pages": "{count} pages",
+    "size": "{size} KB"
+   },
+   "labels": {
+    "range": "Page Range",
+    "selected": "{count} pages selected",
+    "total": "{count} pages total",
+    "outputMode": "Output Format"
+   },
+   "options": {
+    "single": "Single PDF",
+    "zip": "ZIP (one PDF per page)"
+   },
+   "placeholders": {
+    "range": "e.g. 1-3,5,7-9"
+   },
+   "buttons": {
+    "split": "Split PDF",
+    "download": "Download Split PDF",
+    "downloadZip": "Download ZIP",
+    "newFile": "Upload New File",
+    "change": "Change"
+   },
+   "status": {
+    "loading": "Loading PDF...",
+    "extracting": "Extracting page {current} / {total}...",
+    "saving": "Saving split PDF...",
+    "generatingZip": "Creating ZIP..."
+   },
+   "processing": {
+    "title": "Splitting PDF",
+    "progress": "Progress"
+   },
+   "done": {
+    "title": "Split Complete",
+    "pages": "{count} pages extracted"
+   },
+   "errors": {
+    "generic": "Split failed: {message}",
+    "read": "Failed to read PDF: {message}",
+    "noPages": "Please enter at least one valid page number."
+   }
+  },
+  "square-root-calculator": {
+   "metadata": {
+    "title": "Square Root Calculator",
+    "description": "Calculate square roots of real and negative numbers, including complex results.",
+    "category": "Math"
+   },
+   "keywords": [
+    "square root calculator",
+    "cube root calculator",
+    "nth root calculator",
+    "radical calculator",
+    "perfect square calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate a square root?",
+     "answer": "The square root of a number x is the value that, when multiplied by itself, equals x. For example, √144 = 12 because 12 × 12 = 144. This calculator handles any positive number and simplifies radicals."
+    },
+    {
+     "question": "What is a perfect square?",
+     "answer": "A perfect square is a number whose square root is an integer. Examples: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225."
+    },
+    {
+     "question": "How do I simplify radicals?",
+     "answer": "Factor out perfect squares from under the radical. For example, √72 = √(36 × 2) = 6√2. Find the largest perfect square factor and move its root outside."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Scientific Calculator",
+     "href": "/tools/scientific-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Fraction Calculator",
+     "href": "/tools/fraction-calculator"
+    }
+   ],
+   "labels": {
+    "value": "Number",
+    "placeholder": "Enter a number...",
+    "realResult": "Square Root",
+    "complexResult": "Complex Square Root",
+    "complexNote": "Negative numbers produce imaginary results."
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "errors": {
+    "invalid": "Please enter a valid number."
+   },
+   "description": "Calculate square roots, cube roots, and nth roots. Shows simplified radical form, a perfect square check, and a reference table.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Square Root Calculator?",
+     "body": [
+      "Calculate square roots, cube roots, and nth roots.",
+      "Shows simplified radical form, a perfect square check, and a reference table."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate a Square Root",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter a number.",
+      "Select the root type (square, cube, 4th, or custom nth).",
+      "Click calculate to see the result."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Check the perfect squares reference for common values.",
+      "Simplifying radicals is useful in algebra.",
+      "Use nth roots for various math applications."
+     ]
+    }
+   }
+  },
+  "standard-deviation-calculator": {
+   "metadata": {
+    "title": "Standard Deviation Calculator",
+    "description": "Calculate the standard deviation and variance for sample or population data sets.",
+    "category": "Math"
+   },
+   "keywords": [
+    "standard deviation calculator",
+    "variance calculator",
+    "z score calculator",
+    "statistics calculator",
+    "confidence interval calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is standard deviation?",
+     "answer": "Standard deviation measures how spread out data is from the mean. A low standard deviation means data points cluster close to the mean. A high standard deviation means they are widely spread. It is expressed in the same units as the data."
+    },
+    {
+     "question": "Population vs sample standard deviation?",
+     "answer": "Population standard deviation (σ) divides by N — used when you have all data points. Sample standard deviation (s) divides by N-1 — used when you have a sample from a larger population. The N-1 correction (Bessel's correction) makes the sample standard deviation an unbiased estimator."
+    },
+    {
+     "question": "What is a z-score?",
+     "answer": "A z-score tells you how many standard deviations a value is from the mean. Z=0 is at the mean. Z=1 is 1 standard deviation above. Z=-2 is 2 below. About 68% of data falls within ±1 standard deviation and 95% within ±2."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mean/Median/Mode Calculator",
+     "href": "/tools/mean-median-mode-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Scientific Calculator",
+     "href": "/tools/scientific-calculator"
+    }
+   ],
+   "labels": {
+    "type": "Calculation Type",
+    "numbers": "Numbers",
+    "placeholder": "Enter numbers separated by commas, spaces, or new lines...",
+    "count": "Count",
+    "mean": "Mean",
+    "variance": "Variance",
+    "stdDev": "Standard Deviation",
+    "typeNote": "Use sample standard deviation when your data is a subset of a larger population."
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "sample": "Sample",
+    "population": "Population"
+   },
+   "errors": {
+    "empty": "Please enter at least one number.",
+    "invalid": "Please enter valid numbers separated by commas, spaces, or new lines.",
+    "sampleSize": "Sample standard deviation requires at least two numbers."
+   },
+   "description": "Calculate standard deviation, variance, z-scores, and confidence intervals for any data set.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Standard Deviation Calculator?",
+     "body": [
+      "Calculate standard deviation, variance, z-scores, and confidence intervals for any data set.",
+      "Get a comprehensive statistical analysis with population and sample options."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Standard Deviation",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter your numbers separated by commas, spaces, or new lines.",
+      "Choose population or sample standard deviation.",
+      "Click calculate to see all statistics."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use population standard deviation when you have all data points.",
+      "Use sample standard deviation for subsets of data.",
+      "Z-scores help identify outliers."
+     ]
+    }
+   }
+  },
+  "typing-speed-test": {
+   "metadata": {
+    "title": "Typing Speed Test",
+    "description": "Test your typing speed with WPM, CPM, and accuracy. 60-second countdown with sample text.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "typing speed test",
+    "wpm test",
+    "typing test",
+    "words per minute",
+    "typing accuracy test"
+   ],
+   "faqs": [
+    {
+     "question": "What is a good typing speed?",
+     "answer": "A good typing speed for casual typists is about 40-50 WPM. Professional typists typically reach 65-75 WPM, and expert typists can exceed 100 WPM. For most office jobs, 50-60 WPM is considered proficient."
+    },
+    {
+     "question": "How is WPM calculated?",
+     "answer": "WPM (words per minute) is calculated by dividing the total characters typed by 5 (the standard word length), then dividing by the elapsed time in minutes. Net WPM subtracts errors, while gross/raw WPM counts all keystrokes."
+    },
+    {
+     "question": "What is the average typing speed?",
+     "answer": "The average typing speed is about 40 WPM for casual computer users. Students and professionals who type regularly average around 50-60 WPM. Practiced touch typists typically reach 60-80 WPM."
+    },
+    {
+     "question": "How can I type faster?",
+     "answer": "To improve your typing speed: learn touch typing (using all fingers without looking at the keyboard), practice at least 15 minutes daily, focus on accuracy before speed, maintain proper posture, and take regular typing tests to track progress."
+    },
+    {
+     "question": "What is the difference between gross WPM and net WPM?",
+     "answer": "Gross (raw) WPM counts all your keystrokes divided by 5, regardless of accuracy. Net WPM only counts correctly typed characters divided by 5. Net WPM more accurately reflects your effective typing speed."
+    },
+    {
+     "question": "Is 40 WPM good?",
+     "answer": "40 WPM is about average for casual typists and sufficient for most general computer use. However, for professional roles involving heavy typing, you will benefit from improving to 50-60+ WPM. With practice, most people can reach this level."
+    },
+    {
+     "question": "What is the fastest recorded typing speed?",
+     "answer": "The fastest recorded typing speed is 216 WPM, achieved by Stella Pajunas on an IBM electric typewriter in 1946. In modern times, competitive typists on platforms like TypeRacer and Monkeytype often exceed 150-200 WPM over short bursts."
+    },
+    {
+     "question": "How accurate should I be when typing?",
+     "answer": "You should aim for at least 95% accuracy, with 97-99% being ideal. High accuracy matters more than raw speed because errors slow you down through corrections. Focus on accuracy first; speed will improve naturally with practice."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Character Counter",
+     "href": "/tools/character-counter"
+    },
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "Text Case Converter",
+     "href": "/tools/text-case-converter"
+    },
+    {
+     "name": "Stopwatch",
+     "href": "/tools/stopwatch"
+    }
+   ],
+   "labels": {
+    "time": "Time",
+    "wpm": "WPM",
+    "cpm": "CPM",
+    "accuracy": "Accuracy",
+    "placeholder": "Start typing to begin the test...",
+    "results": "Test Results"
+   },
+   "buttons": {
+    "start": "Start Test",
+    "finish": "Finish",
+    "restart": "Restart"
+   },
+   "sampleText": "The quick brown fox jumps over the lazy dog while the bright sun shines over the calm lake.",
+   "description": "Test your typing speed and accuracy. See your WPM, track progress, and compare against average speeds.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Typing Speed Test?",
+     "body": [
+      "Test your typing speed and accuracy.",
+      "See your WPM, track progress, and compare against average speeds."
+     ]
+    },
+    "howTo": {
+     "title": "How to Take a Typing Speed Test",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose a test duration (15, 30, 60, or 120 seconds).",
+      "Select a text type (common, extended, quotes, or numbers).",
+      "Click start and type the displayed text.",
+      "View your WPM and accuracy results."
+     ]
+    },
+    "tips": {
+     "title": "Tips to Improve Speed",
+     "items": [
+      "Learn proper finger placement on the home row.",
+      "Never look at the keyboard while typing.",
+      "Practice consistently for 15-20 minutes daily.",
+      "Prioritize accuracy over speed.",
+      "Use all ten fingers and minimize hand movement."
+     ]
+    }
+   }
+  },
+  "walking-calorie-calculator": {
+   "metadata": {
+    "title": "Walking Calorie Calculator",
+    "description": "Estimate calories burned walking based on weight, distance or steps, and speed.",
+    "category": "Health"
+   },
+   "keywords": [
+    "walking calorie calculator",
+    "calories burned walking",
+    "walking calculator",
+    "calorie burn calculator",
+    "met calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How many calories do you burn walking a mile?",
+     "answer": "As a general estimate, a 150-170 lb person walking 1 mile at a moderate pace (3 mph) burns about 80-100 calories. However, the exact number depends on your weight, speed, and terrain. Heavier people burn more calories per mile, and walking uphill significantly increases calorie burn. Use this calculator to enter your specific details for a personalized estimate."
+    },
+    {
+     "question": "How does walking speed affect calories burned?",
+     "answer": "Walking faster burns more calories per minute because it requires more energy. A brisk 3.5 mph walk has a MET value of about 4.3, while a slow 2 mph stroll has a MET of 2.8 — meaning brisk walking burns about 50% more calories per minute. A power walk at 4.5 mph can burn more than double the calories of a slow stroll in the same time."
+    },
+    {
+     "question": "Does walking uphill burn more calories?",
+     "answer": "Yes, walking uphill significantly increases calorie burn. Walking uphill at a 5% incline burns 30-40% more calories than walking at the same speed on flat ground. A steep 10-15% incline can nearly double the calorie burn. This calculator adjusts the MET value based on the incline you select."
+    },
+    {
+     "question": "Is the MET formula for walking calories accurate?",
+     "answer": "The MET (Metabolic Equivalent of Task) formula — calories = MET x weight (kg) x time (hours) — is the standard method used by exercise physiologists and is fairly accurate for most people. Individual variation of 10-20% is normal due to differences in fitness level, walking economy, and body composition. It provides a reliable estimate for tracking and planning purposes."
+    },
+    {
+     "question": "How many steps are in a mile?",
+     "answer": "The average person takes about 2,000 steps per mile at a moderate walking pace. This varies with stride length, which depends on height, leg length, and walking speed. At a slow pace you might take 2,400 steps per mile, while a power walk might only require 1,800. This calculator estimates steps based on your walking speed."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "Calorie Burn Calculator",
+     "href": "/tools/calorie-burn-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    }
+   ],
+   "labels": {
+    "weight": "Weight",
+    "distanceKm": "Distance (km)",
+    "distanceMile": "Distance (miles)",
+    "steps": "Steps",
+    "speedKmh": "Speed (km/h)",
+    "speedMph": "Speed (mph)",
+    "calories": "Calories Burned",
+    "duration": "Duration",
+    "minutes": "Minutes"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "distance": "Distance",
+    "steps": "Steps"
+   },
+   "errors": {
+    "invalid": "Please enter a valid weight, distance/steps, and speed."
+   },
+   "description": "Estimate calories burned walking based on weight, distance or steps, and speed.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Walking Calorie Calculator?",
+     "body": [
+      "Estimate calories burned walking based on weight, distance or steps, and speed.",
+      "Compare calorie burn across different conditions."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Walking Calorie Calculator",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose your preferred unit system.",
+      "Enter your weight.",
+      "Enter distance, steps, or duration.",
+      "Select your walking speed.",
+      "Click calculate to see calories burned."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use this calculator to compare different activities.",
+      "Combine with calorie tracking for weight management.",
+      "Pick activities you enjoy to stay consistent."
+     ]
+    }
+   }
+  },
+  "weight-loss-calculator": {
+   "metadata": {
+    "title": "Weight Loss Calculator",
+    "description": "Estimate how long it takes to reach your target weight based on daily calorie deficit.",
+    "category": "Health"
+   },
+   "keywords": [
+    "weight loss calculator",
+    "target weight calculator",
+    "weight loss timeline",
+    "calorie deficit calculator",
+    "fat loss calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How does this weight loss calculator work?",
+     "answer": "This calculator uses the Mifflin-St Jeor formula to estimate your basal metabolic rate (BMR), then multiplies by an activity factor to get your total daily energy expenditure (TDEE). It then subtracts daily calorie deficits of 250, 500, 750, and 1,000 calories to show how quickly you will reach your target weight at each pace. One pound of body fat equals about 3,500 calories, so a 500-calorie daily deficit leads to about 1 pound of loss per week."
+    },
+    {
+     "question": "What is a safe rate of weight loss?",
+     "answer": "Most medical professionals recommend losing 1-2 pounds per week for sustainable, healthy weight loss. Losing more than 2 pounds per week long-term can lead to muscle loss, nutritional deficiencies, gallstones, and a slowed metabolism. The calculator warns you if a deficit would put your daily intake below 1,200 calories (women) or 1,500 calories (men), which are generally considered the minimum safe intake without medical supervision."
+    },
+    {
+     "question": "What is the Mifflin-St Jeor formula?",
+     "answer": "The Mifflin-St Jeor formula is the most widely recommended equation for estimating basal metabolic rate (BMR). For men: BMR = 10 x weight (kg) + 6.25 x height (cm) - 5 x age - 5. For women: BMR = 10 x weight (kg) + 6.25 x height (cm) - 5 x age - 161. Research shows it predicts actual resting metabolic rate within 10% for most people, making it more accurate than the older Harris-Benedict formula."
+    },
+    {
+     "question": "Why does my weight loss slow down over time?",
+     "answer": "As you lose weight, your body needs fewer calories to maintain itself, meaning your TDEE decreases. This is called metabolic adaptation. A deficit that initially caused 2 pounds of loss per week may only produce 1 pound per week after significant weight loss. To keep losing at the same rate, you need to further reduce calories or increase physical activity. This calculator uses your current weight for estimates, so recalculate regularly as you progress."
+    },
+    {
+     "question": "How should I split macros for weight loss?",
+     "answer": "When losing weight, higher protein intake helps preserve muscle mass and keeps you feeling full. A common recommendation is 30% of calories from protein, 35% from carbohydrates, and 35% from fat. This calculator provides macronutrient targets in grams for each deficit level. Protein and carbs provide 4 calories per gram, while fat provides 9 calories per gram. Adjust the ratio based on your preferences and body response."
+    },
+    {
+     "question": "Is eating below 1,200 or 1,500 calories safe?",
+     "answer": "Going below 1,200 calories (women) or 1,500 calories (men) per day long-term is generally not recommended without medical supervision. Very low-calorie diets can lead to nutritional deficiencies, muscle loss, fatigue, hair loss, and metabolic adaptation that makes future weight loss harder. If the calculator shows your target falling below these thresholds, consider a more moderate deficit combined with increased physical activity."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    },
+    {
+     "name": "Calorie Deficit Calculator",
+     "href": "/tools/calorie-deficit-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "Macro Calculator",
+     "href": "/tools/macro-calculator"
+    },
+    {
+     "name": "Body Fat Calculator",
+     "href": "/tools/body-fat-calculator"
+    },
+    {
+     "name": "Ideal Weight Calculator",
+     "href": "/tools/ideal-weight-calculator"
+    }
+   ],
+   "labels": {
+    "currentWeight": "Current Weight",
+    "targetWeight": "Target Weight",
+    "dailyDeficit": "Daily Calorie Deficit (kcal)",
+    "daysToGoal": "Days to Goal",
+    "goalDate": "Estimated Goal Date",
+    "weeklyLoss": "Estimated Weekly Loss",
+    "totalDeficit": "Total Calorie Deficit",
+    "perWeek": "Week",
+    "kcal": "kcal"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "kg": "Kilograms",
+    "lbs": "Pounds"
+   },
+   "errors": {
+    "invalid": "Please enter a valid weight and a daily deficit greater than 0. Target weight must be lower than current weight."
+   },
+   "description": "Calculate how long it takes to reach your target weight. Get personalized calorie targets, macro breakdowns, and a visual timeline based on your BMR, TDEE, and activity level.",
+   "guide": {
+    "whatIs": {
+     "title": "What Is a Weight Loss Calculator?",
+     "body": [
+      "Calculate how long it takes to reach your target weight.",
+      "Get personalized calorie targets, macro breakdowns, and a visual timeline based on your BMR, TDEE, and activity level."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use the Weight Loss Calculator",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter your current weight, target weight, height, age, and gender.",
+      "Select your activity level.",
+      "Click calculate to see your BMR, TDEE, and weight loss plan.",
+      "Review the timeline chart and macro breakdown."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Aim for 1-2 pounds of loss per week for sustainable weight loss.",
+      "Prioritize protein to preserve muscle mass.",
+      "Recalculate after every 10-15 pounds lost.",
+      "Combine diet changes with exercise."
+     ]
+    }
+   }
+  },
+  "alimony-calculator": {
+   "metadata": {
+    "title": "Alimony Calculator",
+    "description": "Estimate spousal support based on income gap and marriage length.",
+    "category": "Legal"
+   },
+   "keywords": [
+    "alimony calculator",
+    "spousal support",
+    "alimony estimate",
+    "divorce maintenance"
+   ],
+   "faqs": [
+    {
+     "question": "How is alimony calculated?",
+     "answer": "Alimony calculations vary by state. About 16 states have some form of formula or advisory guideline — for example, New York uses 30% of the payer's income minus 20% of the recipient's income (without child support). Illinois uses 33.33% of the payer's net income minus 25% of the recipient's net income. The remaining states use judicial discretion, where judges weigh factors such as marriage length, income disparity, age, health, and earning capacity."
+    },
+    {
+     "question": "How long does alimony last?",
+     "answer": "The duration depends on your state and the length of the marriage. Texas caps alimony at 5-10 years maximum. Florida caps durational alimony at 50-75% of the marriage length (and eliminated permanent alimony in 2023). Massachusetts caps it at 50-80% depending on marriage length. For marriages over 20 years, many states allow indefinite or longer-term support. Several states have recently reformed their laws to limit alimony duration."
+    },
+    {
+     "question": "What is the difference between alimony and spousal support?",
+     "answer": "They are usually the same thing — different states use different terms. \"Alimony\" is the traditional term. Some states use \"spousal support\" (California), \"spousal maintenance\" (New York, Colorado), or \"maintenance\" (Illinois). Pennsylvania distinguishes between \"spousal support\" (during separation), \"APL\" (during divorce proceedings), and \"alimony\" (after divorce). Formulas may differ between the types."
+    },
+    {
+     "question": "Is alimony tax deductible?",
+     "answer": "No. For divorce and separation agreements executed after December 31, 2018, alimony is not deductible by the payer and is not taxable income for the recipient. This changed under the 2017 Tax Cuts and Jobs Act. Pre-2019 agreements keep the old tax treatment (deductible for the payer, taxable for the recipient) unless specifically modified."
+    },
+    {
+     "question": "Can alimony be modified?",
+     "answer": "In most states, yes — if there is a substantial change in circumstances, such as job loss, retirement, a significant income change, or the recipient becoming self-sufficient. However, certain types of alimony are not modifiable (such as Florida's durational or lump-sum awards). Alimony usually terminates when the recipient remarries and often when they cohabit."
+    },
+    {
+     "question": "Does adultery affect alimony?",
+     "answer": "In some states, yes. Georgia and South Carolina bar an adulterous spouse from receiving alimony. North Carolina denies alimony to a dependent spouse who engaged in \"illicit sexual behavior,\" but it must be paid if the supporting spouse did so. Virginia treats adultery as one factor. In no-fault states like California, adultery generally does not affect alimony."
+    },
+    {
+     "question": "Which states award the most and least alimony?",
+     "answer": "The highest alimony estimates come from states like New York, California, and Illinois — all of which have formulas or guidelines that produce substantial awards when there is a large income gap. Texas and Indiana are the most restrictive: Texas caps alimony at $5,000 per month with strict eligibility, and Indiana limits it to only 3 years for rehabilitation purposes. Mississippi courts are also reluctant to award alimony."
+    },
+    {
+     "question": "How accurate is this calculator?",
+     "answer": "For states with statutory formulas (New York, Illinois, New Hampshire, Colorado, Pennsylvania), this calculator closely follows the actual formulas. For states with caps (Texas, Florida, Massachusetts, Louisiana), it accurately applies the caps. For discretionary states, it uses the AAML (American Academy of Matrimonial Lawyers) recommended guidelines as a rough estimate. Actual awards depend on many factors the calculator cannot capture, including judicial discretion, property division, health, earning capacity, and the standard of living during the marriage."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Child Support Calculator",
+     "href": "/tools/child-support-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    }
+   ],
+   "labels": {
+    "payerIncome": "Payer Monthly Income",
+    "recipientIncome": "Recipient Monthly Income",
+    "yearsMarried": "Years Married",
+    "monthlyAlimony": "Estimated Monthly Alimony",
+    "annualAlimony": "Annual Alimony",
+    "durationYears": "Estimated Duration (Years)"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How the Spousal Support Calculator Works",
+     "content": "This calculator estimates spousal support (alimony) based on your state's calculation method, both spouses' incomes, and the duration of the marriage. It implements specific formulas in states with statutory formulas and uses professional guidelines in discretionary states."
+    },
+    "howTo": {
+     "title": "Calculation Methods by State",
+     "sections": [
+      {
+       "heading": "Formula States",
+       "content": "States like New York, Illinois, New Hampshire, and Pennsylvania have statutory formulas that produce specific amounts. For example, New York uses 30% of the payer's income minus 20% of the recipient's income (without child support)."
+      },
+      {
+       "heading": "Advisory Guideline States",
+       "content": "States like Colorado, Arizona, and New Mexico have formulas, but judges can deviate based on case-specific factors."
+      },
+      {
+       "heading": "Cap-Only States",
+       "content": "States like Texas, Florida, Massachusetts, and Louisiana have no formula for calculating amounts but do have statutory maximums. Texas caps alimony at $5,000 per month with strict eligibility."
+      },
+      {
+       "heading": "Discretionary States",
+       "content": "The remaining ~30 states use judicial discretion with no formula. This calculator uses the AAML recommended guideline (30% of the payer's gross income minus 20% of the recipient's gross income) as an approximation."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Duration Estimates",
+     "content": "Many states tie alimony duration to marriage length. This calculator estimates duration based on your state's guidelines — for example, Florida caps durational alimony at 50% of the marriage length for short-term marriages and 75% for long-term ones. States like Texas have absolute maximum durations (5-10 years). For marriages over 20 years in most states, indefinite alimony remains possible."
+    }
+   }
+  },
+  "bankruptcy-means-test": {
+   "metadata": {
+    "title": "Bankruptcy Means Test",
+    "description": "Determine Chapter 7 bankruptcy eligibility by comparing household income to state median income.",
+    "category": "Legal"
+   },
+   "keywords": [
+    "bankruptcy means test",
+    "chapter 7 calculator",
+    "bankruptcy eligibility",
+    "means test calculator",
+    "chapter 13 eligibility",
+    "bankruptcy income test"
+   ],
+   "faqs": [
+    {
+     "question": "What is the bankruptcy means test?",
+     "answer": "The means test determines whether you qualify for Chapter 7 bankruptcy (debt discharge) or must file Chapter 13 (repayment plan). It compares your income against the median for your state and household size. If you are below the median, you pass automatically. If above, a detailed calculation using IRS standard deductions determines your disposable income."
+    },
+    {
+     "question": "What income does the means test count?",
+     "answer": "The means test uses your \"current monthly income\" (CMI) — the average of all income sources over the 6 calendar months before filing. This includes wages, commissions, bonuses, self-employment income, rental income, pensions, unemployment benefits, and alimony received. Social Security benefits are excluded."
+    },
+    {
+     "question": "What if I fail the means test?",
+     "answer": "If you fail, there is a presumption of abuse for Chapter 7. You can still file Chapter 13 (a 3-5 year repayment plan), or you can rebut the presumption by showing special circumstances (serious medical conditions, active duty, etc.). A bankruptcy attorney can help determine your options."
+    },
+    {
+     "question": "How often do the median income figures change?",
+     "answer": "The DOJ U.S. Trustee Program updates state median income figures about every 6 months based on Census Bureau data. This calculator uses the latest figures effective April 1, 2026. The disposable income thresholds ($9,075/$15,150) are adjusted every 3 years."
+    },
+    {
+     "question": "What is the difference between Chapter 7 and Chapter 13?",
+     "answer": "Chapter 7 discharges most unsecured debts (credit cards, medical bills) within 3-4 months but may require liquidating non-exempt assets. Chapter 13 creates a 3-5 year repayment plan based on your disposable income — you keep your assets but must make monthly payments. Chapter 7 requires passing the means test; Chapter 13 has debt limits (as of April 2025, $526,700 unsecured / $1,580,125 secured)."
+    },
+    {
+     "question": "What deductions are allowed?",
+     "answer": "The means test allows IRS standard living expense deductions (food, clothing, personal care), out-of-pocket medical expenses ($84/month under 65, $149/month over 65), transportation (ownership and operating costs), and actual expenses for housing, utilities, taxes, health insurance, childcare, and court-ordered payments. These deductions reduce your disposable income."
+    },
+    {
+     "question": "Does Social Security count as income?",
+     "answer": "No. Social Security benefits (retirement, disability, SSI) are expressly excluded from the means test income calculation under 11 U.S.C. § 101(10A). This is one of the most important exclusions — if your only income is Social Security, you automatically pass the means test."
+    },
+    {
+     "question": "Can I still file Chapter 7 if I fail the means test?",
+     "answer": "Possibly. Failing creates a rebuttable presumption of abuse. Special circumstances that may overcome the presumption include: serious medical conditions, active duty, or other documented events beyond your control that reduce income or increase expenses. Additionally, if your debts are primarily business debts (not consumer), the means test does not apply at all."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    }
+   ],
+   "labels": {
+    "householdIncome": "Annual Household Income",
+    "householdSize": "Household Size",
+    "stateMedianIncome": "State Median Income (1 person)",
+    "status": "Eligibility",
+    "medianForSize": "Median Adjusted for Household Size",
+    "diff": "Income Difference"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "eligible": "Likely Eligible for Chapter 7",
+    "notEligible": "May Need Chapter 13"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Bankruptcy Means Test?",
+     "content": "The means test determines whether you qualify for Chapter 7 bankruptcy (debt discharge) or must file Chapter 13 (repayment plan). It compares your income against the median for your state and household size. If you are below the median, you pass automatically. If above, a detailed calculation using IRS standard deductions determines your disposable income."
+    },
+    "howTo": {
+     "title": "How the Means Test Works",
+     "sections": [
+      {
+       "heading": "Step 1: Income vs. State Median",
+       "content": "The means test uses your \"current monthly income\" (CMI) — the average of all income sources over the 6 calendar months before filing. This includes wages, commissions, bonuses, self-employment income, rental income, pensions, unemployment benefits, and alimony received. Social Security benefits are excluded."
+      },
+      {
+       "heading": "Step 2: Allowable Deductions",
+       "content": "The means test allows IRS standard living expense deductions (food, clothing, personal care), out-of-pocket medical expenses ($84/month under 65, $149/month over 65), transportation (ownership and operating costs), and actual expenses for housing, utilities, taxes, health insurance, childcare, and court-ordered payments."
+      },
+      {
+       "heading": "Step 3: Disposable Income",
+       "content": "If your income exceeds the median, the calculator subtracts allowable deductions to determine disposable income. If your disposable income over 5 years is below $9,075, you pass. If it is above $15,150, you fail. Between these amounts, you pass only if disposable income is less than 25% of your non-priority unsecured debt."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Data Sources and Limitations",
+     "content": "This is a simplified estimate of the Chapter 7 means test. The actual means test (official Forms 122A-1 and 122A-2) includes additional deductions and line items not covered here. Median income data comes from the DOJ U.S. Trustee Program (effective April 1, 2026). Always consult a bankruptcy attorney for an accurate assessment."
+    }
+   }
+  },
+  "business-loan-calculator": {
+   "metadata": {
+    "title": "Business Loan Calculator",
+    "description": "Calculate business loan monthly payments, total interest, and total cost.",
+    "category": "Finance",
+    "icon": "💼"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "business loan calculator",
+    "small business loan calculator",
+    "SBA loan calculator",
+    "business loan payment calculator",
+    "commercial loan calculator",
+    "business financing calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is a good interest rate for a business loan?",
+     "answer": "As of 2026, a good rate for good credit is 6-10%. SBA loans run 7-9%. Traditional bank loans are 5-8%. Online lenders and alternative financing may be 10-25%+. Rates depend on credit, revenue, and time in business."
+    },
+    {
+     "question": "What is the difference between business and personal loans?",
+     "answer": "Business loans are used for business purposes (equipment, working capital, expansion) and are typically based on business revenue and credit. Personal loans are for personal expenses and based on personal credit. Business loans may require a personal guarantee."
+    },
+    {
+     "question": "What are typical business loan terms?",
+     "answer": "Working capital loans: 6 months - 2 years. Equipment loans: 3-10 years (matched to equipment life). Real estate loans: 10-25 years. SBA 7(a) loans: up to 10 years for working capital and 25 years for real estate."
+    },
+    {
+     "question": "Do I need collateral?",
+     "answer": "Loans over $250,000 typically require collateral. SBA loans require collateral worth more than 25% of the loan amount. Equipment loans use the equipment as collateral. Lines of credit may be unsecured."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "ROI Calculator",
+     "href": "/tools/roi-calculator"
+    },
+    {
+     "name": "Break Even Calculator",
+     "href": "/tools/break-even-calculator"
+    },
+    {
+     "name": "Profit Margin Calculator",
+     "href": "/tools/profit-margin-calculator"
+    }
+   ],
+   "labels": {
+    "principal": "Principal",
+    "rate": "Annual Interest Rate (%)",
+    "term": "Term (Years)",
+    "monthlyPayment": "Monthly Payment",
+    "totalPayment": "Total Payment",
+    "totalInterest": "Total Interest"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "principal": "Enter principal",
+    "rate": "Enter annual interest rate (%)",
+    "term": "Enter term (years)"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Business Loan Calculator?",
+     "paragraphs": [
+      "Calculate business loan payments, total interest, and compare SBA, term, and line of credit options. See amortization schedules and the true cost of borrowing."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the business loan calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   },
+   "description": "Calculate business loan payments, interest, and repayment schedules."
+  },
+  "car-loan-interest-deduction-calculator": {
+   "metadata": {
+    "title": "Car Loan Interest Deduction Calculator",
+    "description": "Estimate tax savings from business-use car loan interest.",
+    "category": "Finance",
+    "icon": "🚘"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "car loan interest deduction calculator",
+    "auto loan interest tax deduction",
+    "OBBBA car loan deduction",
+    "car loan interest deduction 2026",
+    "new car tax deduction calculator",
+    "auto loan tax savings",
+    "can I deduct car loan interest",
+    "vehicle loan interest deduction",
+    "car interest write off calculator",
+    "Schedule 1-A auto loan"
+   ],
+   "faqs": [
+    {
+     "question": "Can I deduct car loan interest?",
+     "answer": "Generally not, unless you are self-employed and use the vehicle for business. Interest on a personal car loan is not deductible. For business use: you can deduct the business-use percentage of the interest, or use the standard mileage rate."
+    },
+    {
+     "question": "When is car loan interest deductible?",
+     "answer": "If you are self-employed and use the vehicle for business (deliveries, client meetings, work errands), you can deduct the business-use percentage of the interest. Detailed mileage records are required."
+    },
+    {
+     "question": "What is the difference between the actual expense and standard mileage methods?",
+     "answer": "The actual expense method deducts the business-use percentage of vehicle costs (gas, maintenance, insurance, depreciation, loan interest). The standard mileage method uses an IRS-set per-mile rate (70 cents in 2026). Compare both to choose the better method."
+    },
+    {
+     "question": "Can I deduct commuting?",
+     "answer": "No. Commuting from home to a regular workplace is a personal expense and not deductible. Only business-related errands (office to client, temporary work sites) are deductible."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Auto Loan Calculator",
+     "href": "/tools/auto-loan-calculator"
+    },
+    {
+     "name": "OBBBA Tax Calculator",
+     "href": "/tools/obbba-tax-calculator"
+    },
+    {
+     "name": "Tax Calculator",
+     "href": "/tools/tax-calculator"
+    },
+    {
+     "name": "Income Tax Calculator",
+     "href": "/tools/income-tax-calculator"
+    }
+   ],
+   "labels": {
+    "loanAmount": "Loan Amount",
+    "rate": "Annual Interest Rate (%)",
+    "term": "Term (Years)",
+    "taxBracket": "Tax Bracket (%)",
+    "deductibleAmount": "Deductible Amount",
+    "annualInterest": "Annual Interest",
+    "taxSavings": "Tax Savings",
+    "monthlyPayment": "Monthly Payment"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "loanAmount": "Enter loan amount",
+    "rate": "Enter annual interest rate (%)",
+    "term": "Enter term (years)",
+    "taxBracket": "Enter tax bracket (%)"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Car Loan Interest Deduction Calculator?",
+     "paragraphs": [
+      "Calculate your OBBBA car loan interest tax deduction for 2025-2028. See how much you'll save on taxes with the new auto loan interest deduction."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the car loan interest deduction calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   },
+   "description": "Calculate tax deductions for car loan interest."
+  },
+  "chatgpt-ads-calculator": {
+   "metadata": {
+    "title": "ChatGPT Ads Calculator",
+    "description": "Estimate impressions, clicks, and total spend for a ChatGPT ads campaign.",
+    "category": "Marketing"
+   },
+   "keywords": [
+    "ChatGPT ads calculator",
+    "ChatGPT ads cost",
+    "AI ad spend estimator",
+    "CPM calculator",
+    "ChatGPT ads ROI calculator",
+    "AI ads calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How much do ChatGPT ads cost?",
+     "answer": "ChatGPT ads currently cost about $60 CPM (cost per mille, or per thousand impressions), with a minimum commitment of $200,000-$250,000 for pilot programs. This makes ChatGPT about 3x more expensive than Meta ads (average $15 CPM) and about 12x more than Google Display (average $5 CPM). Pricing is expected to evolve as OpenAI introduces self-serve options (possibly in Q4 2026)."
+    },
+    {
+     "question": "What do ChatGPT ads look like?",
+     "answer": "ChatGPT ads come in two main formats: (1) sponsored text links with a headline, description, and destination URL that appear below the AI response, labeled \"Sponsored\" with a brand favicon; and (2) product/shopping cards that show brand logos, product images, pricing, stock status, and action buttons in a scrollable horizontal layout. Video ads are not supported yet but are expected later in 2026."
+    },
+    {
+     "question": "Who can advertise on ChatGPT?",
+     "answer": "Currently, ChatGPT ads are enterprise-only and onboarded directly by OpenAI. There is no self-serve platform yet. A self-serve option is expected in Q4 2026. Interested advertisers can register at openai.com/advertisers. Minimum spend is about $200,000-$250,000."
+    },
+    {
+     "question": "Who sees ChatGPT ads?",
+     "answer": "Ads are shown only to logged-in U.S. adults on the Free tier and the Go tier ($8/month). Users on Plus ($20/month), Pro ($200/month), Team, Business, Enterprise, and Education plans do not see ads. This limits the ad audience to free and low-tier users."
+    },
+    {
+     "question": "How does ChatGPT ad targeting work?",
+     "answer": "ChatGPT uses contextual targeting only, based on real-time conversations. There is no keyword bidding (like Google), no interest targeting (like Meta), and no demographic targeting. Advertisers never get access to individual conversations, chat history, or personal data. Only aggregated performance metrics (total views and clicks) are provided."
+    },
+    {
+     "question": "Which brands are advertising on ChatGPT?",
+     "answer": "Early advertisers include Target, Ford, Mazda, Adobe, Qualcomm, Expedia, HelloFresh, Williams-Sonoma, Audible, Mrs. Meyer's, and Audemars Piguet. Retail and grocery brands make up about 44% of early ChatGPT advertisers."
+    },
+    {
+     "question": "How do ChatGPT ads compare to Google and Meta?",
+     "answer": "ChatGPT ads are significantly more expensive per impression ($60 CPM vs. $5-38 for Google and $15 for Meta) but offer a unique contextual targeting model. Key trade-offs: ChatGPT ads reach users at high-intent conversational moments, but measurement is limited, format options are fewer (text links and product cards vs. full image/video/carousel), and there is no self-serve access."
+    },
+    {
+     "question": "Are ChatGPT ads worth the cost?",
+     "answer": "It depends on your goals. ChatGPT ads reach users at high-intent moments (actively asking questions about products/services), which may mean higher conversion rates. However, the $60 CPM and $200K minimum make it viable only for brands with significant budgets. Use this calculator to compare estimated ROAS across platforms against your specific conversion metrics."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "ROI Calculator",
+     "href": "/tools/roi-calculator"
+    }
+   ],
+   "labels": {
+    "dailyBudget": "Daily Budget",
+    "cpm": "CPM (Cost per Mille)",
+    "ctr": "Click-Through Rate (%)",
+    "campaignDays": "Campaign Days",
+    "totalSpend": "Total Spend",
+    "impressions": "Estimated Impressions",
+    "clicks": "Estimated Clicks",
+    "cpc": "Cost per Click"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "ChatGPT Ads: What Marketers Need to Know",
+     "content": "OpenAI launched ads in ChatGPT in February 2026, creating an entirely new channel for brands. Unlike search ads (keyword intent) or social ads (interest-based), ChatGPT ads use contextual targeting based on the user's real-time conversation with the AI."
+    },
+    "howTo": {
+     "title": "Current Formats (2026)",
+     "sections": [
+      {
+       "heading": "Sponsored Text Links",
+       "content": "Headline (about 60 characters) + description (about 180 characters) + destination URL, labeled \"Sponsored\" with a brand favicon. Appears below the AI response. The primary ad format."
+      },
+      {
+       "heading": "Product/Shopping Cards",
+       "content": "Scrollable horizontal cards with brand logos, product images, names, prices, stock status, and action buttons (e.g., install, buy). Used for e-commerce and app promotion. Up to 3-4 scrollable cards per row."
+      },
+      {
+       "heading": "Pricing",
+       "content": "ChatGPT ads cost about $60 CPM with a minimum commitment of $200,000-$250,000. This is premium pricing: roughly 3x Meta, 1.5x Google Search, and 12x Google Display. The high price reflects the platform's novelty and the high-intent nature of conversational queries."
+      },
+      {
+       "heading": "Who Sees the Ads",
+       "content": "Ads are shown only to logged-in U.S. adults on the Free or Go ($8/month) tiers. Paid users on Plus, Pro, Team, Business, Enterprise, and Education plans do not see ads. This means the ad audience is limited to free-tier users."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Key Differences from Other Platforms",
+     "content": "Targeting: contextual only, based on the conversation. No keyword bidding, no demographic targeting, no behavioral data. Measurement: aggregate metrics only (total views, clicks). No individual-level attribution, no conversion tracking pixels, no retargeting. Privacy: advertisers never get access to conversation data, chat history, or personal information."
+    }
+   }
+  },
+  "child-support-calculator": {
+   "metadata": {
+    "title": "Child Support Calculator",
+    "description": "Estimate monthly child support based on parent incomes, custody time, and number of children.",
+    "category": "Legal"
+   },
+   "keywords": [
+    "child support calculator",
+    "child support estimate",
+    "custody time calculation",
+    "child support formula"
+   ],
+   "faqs": [
+    {
+     "question": "How is child support calculated?",
+     "answer": "Child support calculations vary by state but generally fall into three models. Income-percentage states (like Texas and Wisconsin) apply a fixed percentage to the non-custodial parent's income based on the number of children. Income-shares states (the majority) combine both parents' incomes, determine a basic obligation from a schedule, then split it proportionally. A few states like California use algebraic formulas that factor in custody time. All states also consider health insurance and childcare costs."
+    },
+    {
+     "question": "What is the difference between income shares and income percentage?",
+     "answer": "Income percentage uses only the non-custodial parent's income and applies a fixed percentage. Income shares combines both parents' incomes to determine the total child-rearing cost, then assigns each parent their proportional share. Income shares is considered fairer because it reflects what would be spent on the children if the family were intact. About 41 states use income shares and 6 use income percentage."
+    },
+    {
+     "question": "Does custody time allocation affect child support?",
+     "answer": "Yes, significantly. When the non-custodial parent has substantial custody time (typically 35% or more of overnights), most states reduce child support. The logic is that a parent who spends more time with the children directly bears more costs. Some states, like California, build custody time directly into the formula. A 50/50 custody arrangement usually results in a lower obligation, though the higher earner typically still pays something."
+    },
+    {
+     "question": "What income is included in child support calculations?",
+     "answer": "Most states use gross income from all sources, including wages, salaries, commissions, bonuses, overtime, self-employment income, investment income, rental income, retirement benefits, and disability payments. Some states then deduct taxes and mandatory fees to arrive at net income. Income typically excluded includes means-tested public assistance (like TANF or SSI) and a new spouse's income."
+    },
+    {
+     "question": "Can child support be modified?",
+     "answer": "Yes, child support orders can be modified when there is a significant change in circumstances. Common reasons include a significant increase or decrease in either parent's income (typically 15-20% or more), a change in custody or parenting time, a change in the child's needs (medical, educational), or the child reaching adulthood. Either parent can file a motion to modify, and some states allow administrative reviews every few years."
+    },
+    {
+     "question": "What happens if a parent loses their job?",
+     "answer": "Courts can impute income to a parent who is voluntarily unemployed or underemployed. This means the court assigns an income they could reasonably earn based on their education, skills, work history, and local job opportunities. If the job loss is involuntary and the parent is actively looking for work, the court may use actual income or unemployment benefits. Quitting a job just to reduce child support is generally not an effective strategy."
+    },
+    {
+     "question": "How long does child support last?",
+     "answer": "In most states, child support lasts until the child turns 18 or graduates from high school, whichever is later. Some states extend it to 19 or 21. New York can order support until age 21. A few states allow support to continue through college graduation. Support can also end early if the child is emancipated (legally independent), joins the military, or marries. Disabled children may receive support indefinitely."
+    },
+    {
+     "question": "Is child support tax deductible?",
+     "answer": "No. Child support is never a tax deduction for the payer and is not taxable income for the recipient. This differs from spousal support, which was deductible under agreements made before 2019 but lost that treatment under the Tax Cuts and Jobs Act. The parent who claims the child as a dependent gets the child tax credit — usually the custodial parent, unless the parents agree otherwise using IRS Form 8332."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Alimony Calculator",
+     "href": "/tools/alimony-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    }
+   ],
+   "labels": {
+    "parent1Income": "Parent 1 Monthly Income",
+    "parent2Income": "Parent 2 Monthly Income",
+    "children": "Number of Children",
+    "custodyPercent": "Parent 1 Custody Time (%)",
+    "monthlySupport": "Estimated Monthly Support",
+    "payer": "Payer",
+    "parent1Share": "Parent 1 Share",
+    "parent2Share": "Parent 2 Share"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "parent1": "Parent 1",
+    "parent2": "Parent 2"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How the Child Support Calculator Works",
+     "content": "This calculator estimates child support based on your state's calculation model, both parents' incomes, the number of children, and the custody time arrangement. It implements the three main calculation methods used in the United States."
+    },
+    "howTo": {
+     "title": "The Three Child Support Calculation Models",
+     "sections": [
+      {
+       "heading": "1. Income Percentage Model",
+       "content": "Texas, Wisconsin, Mississippi, Alaska, Nevada, and North Dakota use this model. It applies a fixed percentage to the non-custodial parent's income. The percentage increases with the number of children. For example, Texas uses 20% of net resources for one child, 25% for two children, and up to 40% for five or more children. The custodial parent's income is not counted."
+      },
+      {
+       "heading": "2. Income Shares Model",
+       "content": "Most states (about 41) use this model. It combines both parents' incomes and uses a schedule to determine how much parents at that income level typically spend on their children. Each parent then pays their proportional share. Health insurance and childcare costs are added to the basic obligation."
+      },
+      {
+       "heading": "3. State-Specific Formulas",
+       "content": "California uses an algebraic formula (CS = K[HN - (H%)(TN)]) that directly incorporates custody time. New York uses Child Support Standards Act (CSSA) percentages applied to combined income up to a statutory cap. Delaware, Hawaii, and Montana use the Melson formula, which is similar to income shares but includes a self-support reserve."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Why Results Are Estimates",
+     "content": "Actual child support calculations involve state-specific lookup tables with thousands of entries, judicial discretion, and dozens of additional factors this calculator cannot consider. These include extraordinary medical expenses, prior support obligations, visitation travel costs, tax filing details, and more. This tool provides a reasonable approximation to help you understand the possible range, but it should not be used as a substitute for legal advice."
+    }
+   }
+  },
+  "credit-score-simulator": {
+   "metadata": {
+    "title": "Credit Score Simulator",
+    "description": "Simulate how common credit actions affect your credit score.",
+    "category": "Finance",
+    "icon": "📱"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "credit score simulator",
+    "credit score calculator",
+    "what affects credit score",
+    "credit score estimator",
+    "improve credit score",
+    "FICO score calculator",
+    "credit score checker"
+   ],
+   "faqs": [
+    {
+     "question": "How are credit scores calculated?",
+     "answer": "FICO score: payment history (35%), amounts owed (30%), length of credit history (15%), credit mix (10%), new credit (10%). VantageScore uses similar factors with different weights."
+    },
+    {
+     "question": "What makes a good credit score?",
+     "answer": "FICO scores range from 300-850. Good: 670-739. Very good: 740-799. Exceptional: 800+. A score of 670+ gets you approved, and 740+ gets you the best rates. Below 580 is considered poor and limits your options."
+    },
+    {
+     "question": "How can I improve my credit score?",
+     "answer": "Pay on time (the most important factor). Keep credit utilization below 30% (ideally under 10%). Don't close old accounts. Limit hard inquiries. Dispute errors on your report."
+    },
+    {
+     "question": "What is the difference between hard and soft inquiries?",
+     "answer": "Hard inquiries (loan applications) lower your score by 5-10 points for up to 2 years. Soft inquiries (checking your own score, employer checks, pre-approvals) do not affect your score."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Credit Card Payoff Calculator",
+     "href": "/tools/credit-card-payoff-calculator"
+    },
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    },
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    }
+   ],
+   "labels": {
+    "currentScore": "Current Credit Score",
+    "action": "Credit Action",
+    "estimatedScore": "Estimated Credit Score",
+    "change": "Score Change"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "none": "None",
+    "payDownRevolving": "Pay Down Revolving Debt",
+    "onTimePayments6": "6 Months of On-Time Payments",
+    "onTimePayments12": "12 Months of On-Time Payments",
+    "missPayment30": "30-Day Late Payment",
+    "missPayment90": "90-Day Late Payment",
+    "hardInquiry": "Hard Inquiry",
+    "newAccount": "New Account",
+    "maxOutCard": "Max Out a Credit Card",
+    "settleDebt": "Debt Settlement"
+   },
+   "placeholders": {
+    "currentScore": "Enter current credit score"
+   },
+   "results": {
+    "none": "No change",
+    "payDownRevolving": "Paying down revolving debt can help your credit score.",
+    "onTimePayments6": "6 months of on-time payments can help your credit score.",
+    "onTimePayments12": "12 months of on-time payments can significantly improve your credit score.",
+    "missPayment30": "A 30-day late payment could lower your credit score.",
+    "missPayment90": "A 90-day late payment could seriously damage your credit score.",
+    "hardInquiry": "A hard inquiry creates a small, short-term impact.",
+    "newAccount": "A new account may temporarily lower your credit score slightly.",
+    "maxOutCard": "Maxing out a card can significantly lower your credit score.",
+    "settleDebt": "Settling a debt could lower your credit score."
+   },
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Credit Score Simulator?",
+     "paragraphs": [
+      "Simulate how financial actions like paying off debt, opening new accounts, or missing payments could affect your credit score. Free, instant, and educational."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the credit score simulator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   },
+   "description": "See how actions affect your credit score."
+  },
+  "debt-to-income-calculator": {
+   "metadata": {
+    "title": "Debt-to-Income Ratio Calculator",
+    "description": "Calculate your DTI ratio to assess loan eligibility and credit health.",
+    "category": "Finance",
+    "icon": "📊"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "debt to income ratio calculator",
+    "DTI calculator",
+    "debt to income calculator",
+    "back end DTI ratio",
+    "front end DTI ratio",
+    "mortgage DTI calculator",
+    "debt ratio calculator",
+    "DTI for mortgage"
+   ],
+   "faqs": [
+    {
+     "question": "What is a debt-to-income (DTI) ratio?",
+     "answer": "Your debt-to-income ratio is the percentage of your gross monthly income that goes toward paying debts. Lenders use it to gauge your ability to manage monthly payments and repay borrowed money. A lower DTI means less risk to lenders and more borrowing power for you."
+    },
+    {
+     "question": "What is the difference between front-end and back-end DTI?",
+     "answer": "Front-end DTI (also called the housing ratio) only includes housing-related costs like mortgage or rent. Back-end DTI includes all recurring monthly debts: housing, car payments, student loans, credit cards, child support, and any other obligations. Lenders evaluate both, but back-end DTI is typically the deciding factor."
+    },
+    {
+     "question": "What is a good debt-to-income ratio for a mortgage?",
+     "answer": "For a conventional mortgage, lenders prefer a front-end DTI of 28% or less and a back-end DTI of 36% or less. FHA loans allow up to 43% back-end (sometimes 50% with compensating factors). VA loans have a guideline of 41% back-end but no strict front-end limit. Generally, keeping your DTI below 36% gives you the most options."
+    },
+    {
+     "question": "How can I lower my debt-to-income ratio?",
+     "answer": "You can lower DTI by paying down existing debts (especially high-payment ones like car loans or credit cards), increasing your income, avoiding new debt, or refinancing to lower monthly payments. Even paying off a single debt can significantly improve your ratio and mortgage eligibility."
+    },
+    {
+     "question": "Does DTI affect my credit score?",
+     "answer": "DTI itself does not directly appear on your credit report or affect your credit score. However, the factors that cause high DTI — like high credit card balances — do impact your credit utilization ratio, which is a major credit score factor. Reducing debt improves both your DTI and your credit profile."
+    },
+    {
+     "question": "Is gross or net income used for DTI calculations?",
+     "answer": "Lenders use gross income (before taxes and deductions) when calculating DTI. This is your total pre-tax salary, not your take-home pay. Self-employed borrowers typically use adjusted gross income from tax returns. This calculator uses gross monthly income for accurate lender-comparable results."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Affordability Calculator",
+     "href": "/tools/mortgage-affordability-calculator"
+    },
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    }
+   ],
+   "labels": {
+    "monthlyIncome": "Monthly Gross Income",
+    "rentMortgage": "Rent/Mortgage",
+    "carPayment": "Car Payment",
+    "creditCards": "Credit Cards",
+    "studentLoans": "Student Loans",
+    "otherDebts": "Other Debts",
+    "dtiRatio": "Debt-to-Income Ratio",
+    "totalMonthlyDebt": "Total Monthly Debt",
+    "verdict": "Assessment"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "monthlyIncome": "Enter monthly gross income",
+    "rentMortgage": "Enter rent/mortgage",
+    "carPayment": "Enter car payment",
+    "creditCards": "Enter credit cards",
+    "studentLoans": "Enter student loans",
+    "otherDebts": "Enter other debts"
+   },
+   "results": {
+    "excellent": "Excellent",
+    "good": "Good",
+    "fair": "Fair",
+    "high": "Debt-to-income ratio too high"
+   },
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Debt-to-Income Ratio Calculator?",
+     "paragraphs": [
+      "Calculate your front-end and back-end DTI ratios. See where you stand for mortgage qualification, and find out how much debt to reduce to hit your target ratio."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the debt-to-income ratio calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  },
+  "dui-cost-calculator": {
+   "metadata": {
+    "title": "DUI Cost Calculator",
+    "description": "Estimate the total cost of a DUI, including fines, attorney fees, and insurance increases.",
+    "category": "Legal"
+   },
+   "keywords": [
+    "DUI cost calculator",
+    "DWI cost calculator",
+    "DUI cost estimate",
+    "DUI fine calculator",
+    "DUI penalty calculator",
+    "DUI insurance increase"
+   ],
+   "faqs": [
+    {
+     "question": "How much does a DUI cost?",
+     "answer": "A first-offense DUI typically costs $10,000-$25,000 or more (including fines, court costs, insurance increases, IID fees, DUI school, attorney fees, towing, and bail). Insurance increases alone average $5,000-$15,000 over 3-5 years."
+    },
+    {
+     "question": "How much does car insurance increase after a DUI?",
+     "answer": "Nationwide, insurance rates increase by about 88% on average after a DUI. North Carolina sees the largest increases at 300-400%+. California, Georgia, Hawaii, and Michigan increase 100-130%. Pennsylvania is the lowest at 30-50%. Increases typically last 3-5 years and can add $5,000-$25,000 or more to your total insurance costs."
+    },
+    {
+     "question": "Do I need a lawyer for a DUI?",
+     "answer": "While not required, a DUI attorney can often negotiate reduced charges, alternative sentencing, or dismissal. Attorney fees range from $2,500 for a simple plea to $10,000+ for a trial. Studies show that represented defendants get better outcomes in 70-80% of cases."
+    },
+    {
+     "question": "How long does a DUI stay on your record?",
+     "answer": "It varies by state. 11 states (including Alaska, Colorado, Kansas, Massachusetts, Oregon, and Texas) have lifetime lookback periods — meaning a DUI from decades ago still counts as a prior. Others range from 5 years (Alabama, Mississippi, Missouri) to 15 years (DC, Nebraska). Most states use a 10-year lookback period."
+    },
+    {
+     "question": "What is an ignition interlock device (IID)?",
+     "answer": "An IID is a breathalyzer wired to your vehicle's ignition. You must blow into it and register below a set BAC (usually 0.02-0.04) to start the car. Random retests are also required while driving. Cost: roughly $70-$150/month to rent, plus a $100-$200 installation fee. 34 states + DC require IIDs for all first-time DUI convictions."
+    },
+    {
+     "question": "What is SR-22 insurance?",
+     "answer": "SR-22 is a certificate of financial responsibility that your insurer files with the DMV proving you carry the minimum required coverage. It is not insurance — it is a filing. Most states require it for 3 years after a DUI. Any lapse resets the clock. The filing fee is $15-$50, but the real cost is the higher insurance premiums during the SR-22 period."
+    },
+    {
+     "question": "What is Utah's 0.05 BAC law?",
+     "answer": "Utah lowered its legal BAC limit from 0.08 to 0.05, effective December 30, 2018, making it the strictest in the nation. Every other state uses 0.08. For reference, a 180-pound man could reach 0.05 after 2 drinks in one hour."
+    },
+    {
+     "question": "Is a first-offense DUI a felony?",
+     "answer": "In most states, a standard first-offense DUI is a misdemeanor. However, certain aggravating factors can elevate it to a felony: causing serious injury or death, having a minor passenger, an extremely high BAC, or multiple priors. Oklahoma's SB 54 (effective November 2025) makes certain first-offense DUIs felonies. Second or third DUIs are felonies in many states."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Blood Alcohol Calculator",
+     "href": "/tools/blood-alcohol-calculator"
+    }
+   ],
+   "labels": {
+    "fine": "Court Fines",
+    "lawyerFees": "Attorney Fees",
+    "insuranceIncrease": "Monthly Insurance Increase",
+    "years": "Years of Increased Premiums",
+    "additionalFees": "Other Fees (Classes, Towing, etc.)",
+    "totalCost": "Estimated Total DUI Cost",
+    "directCosts": "Direct Costs",
+    "insuranceTotal": "Total Insurance Increase"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How the DUI Cost Calculator Works",
+     "content": "This calculator estimates the total cost of a DUI/DWI conviction in all 50 states. It includes court fines, insurance increases, ignition interlock device (IID) fees, DUI school costs, towing, bail, and attorney fees (for first and repeat offenses)."
+    },
+    "howTo": {
+     "title": "Cost Breakdown",
+     "sections": [
+      {
+       "heading": "Fines and Court Costs",
+       "content": "Base fines are relatively low, but penalty assessments multiply the total. For example, in California the base fine may be $390, but with assessments the total reaches $1,560-$4,000+. DUI school adds $500-$1,800 depending on course length."
+      },
+      {
+       "heading": "Insurance Increases",
+       "content": "Nationwide, insurance rates increase by about 88% on average after a DUI. North Carolina sees the largest increases at 300-400%+. California, Georgia, Hawaii, and Michigan increase 100-130%. Pennsylvania is the lowest at 30-50%. Increases typically last 3-5 years."
+      },
+      {
+       "heading": "IID and Other Fees",
+       "content": "Ignition interlock devices rent for about $70-$150/month, plus a $100-$200 installation fee. 34 states + DC require IIDs for all first-time DUI convictions. Additional costs include towing ($150-$300), bail ($500-$2,000), and attorney fees ($2,500-$10,000+)."
+      }
+     ]
+    },
+    "tips": {
+     "title": "Important Considerations",
+     "content": "A first-offense DUI typically costs $10,000-$25,000 or more (including all costs). Insurance increases alone average $5,000-$15,000 over 3-5 years. This calculator provides estimates based on state regulations and average insurance data. Actual costs depend on your specific situation, BAC level, judge, attorney, and insurance company."
+    }
+   }
+  },
+  "home-affordability-calculator": {
+   "metadata": {
+    "title": "Home Affordability Calculator",
+    "description": "Calculate the maximum home price you can afford based on income, debts, and DTI limits.",
+    "category": "Finance",
+    "icon": "🏠"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "home affordability calculator",
+    "how much house can i afford",
+    "house affordability calculator",
+    "mortgage affordability",
+    "home buying calculator",
+    "what can i afford house"
+   ],
+   "faqs": [
+    {
+     "question": "How is home affordability calculated?",
+     "answer": "Lenders use the 28/36 rule: housing costs should not exceed 28% of monthly income, and total debt should not exceed 36%. Affordability also depends on your down payment, interest rate, property taxes, and insurance."
+    },
+    {
+     "question": "How much should I put down?",
+     "answer": "Conventional loans require 20% to avoid PMI, but many buyers put down 3-5% (3.5% for FHA loans). A lower down payment means a higher monthly payment and PMI if below 20%."
+    },
+    {
+     "question": "How much house can I afford?",
+     "answer": "Rough rule of thumb: a house priced at about 2.5-3 times your annual income. Earning $80,000, aim for a price of $200,000-$240,000. But actual affordability depends on your debt, down payment, and current interest rates."
+    },
+    {
+     "question": "What are the hidden costs?",
+     "answer": "Property taxes (1-3% of home value per year), homeowners insurance ($1,000-$3,000 per year), maintenance (1-2% per year), HOA fees (if applicable), and closing costs (2-5% of the purchase price)."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Mortgage Affordability Calculator",
+     "href": "/tools/mortgage-affordability-calculator"
+    },
+    {
+     "name": "Down Payment Calculator",
+     "href": "/tools/down-payment-calculator"
+    },
+    {
+     "name": "Debt to Income Calculator",
+     "href": "/tools/debt-to-income-calculator"
+    }
+   ],
+   "labels": {
+    "annualIncome": "Annual Income",
+    "monthlyDebts": "Monthly Debt Payments",
+    "downPayment": "Down Payment",
+    "rate": "Annual Interest Rate (%)",
+    "term": "Term (Years)",
+    "dtiLimit": "DTI Limit (%)",
+    "maxHomePrice": "Max Home Price",
+    "maxMonthlyPayment": "Max Monthly Payment",
+    "loanAmount": "Loan Amount"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {},
+   "placeholders": {
+    "annualIncome": "Enter annual income",
+    "monthlyDebts": "Enter monthly debt payments",
+    "downPayment": "Enter down payment",
+    "rate": "Enter annual interest rate (%)",
+    "term": "Enter term (years)",
+    "dtiLimit": "Enter DTI limit (%)"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Home Affordability Calculator?",
+     "paragraphs": [
+      "Find out how much house you can afford based on your income, debts, down payment, and interest rate. See a full monthly payment breakdown with taxes, insurance, and PMI."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the home affordability calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   },
+   "description": "Determine how much house you can afford."
+  },
+  "income-percentile-calculator": {
+   "metadata": {
+    "title": "Income Percentile Calculator",
+    "description": "Estimate your income percentile by country.",
+    "category": "Finance",
+    "icon": "📉"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "income percentile calculator",
+    "what income percentile am i",
+    "household income percentile",
+    "salary percentile",
+    "income rank",
+    "income distribution",
+    "am i middle class",
+    "top 10 percent income",
+    "top 1 percent income",
+    "income comparison"
+   ],
+   "faqs": [
+    {
+     "question": "What is the median household income in the U.S.?",
+     "answer": "The median U.S. household income is approximately $80,610 as of 2024. This means half of all households earn more and half earn less. Median is more meaningful than average because extremely high earners skew the average upward to about $114,000."
+    },
+    {
+     "question": "What income puts you in the top 1%?",
+     "answer": "A household income of roughly $600,000 or more puts you in the top 1% of U.S. earners. For individual income, the threshold is around $400,000. These figures are based on adjusted gross income from IRS and Census data."
+    },
+    {
+     "question": "What is considered middle class income?",
+     "answer": "The Pew Research Center defines middle class as households earning between two-thirds and double the median income. For 2024, that's roughly $54,000 to $161,000 for a household. However, cost of living varies dramatically by location — $80K in rural Ohio stretches much further than $80K in San Francisco."
+    },
+    {
+     "question": "Does this include all types of income?",
+     "answer": "This calculator uses total money income, which includes wages, salaries, self-employment income, Social Security, pensions, investment income, and other regular payments before taxes. It does not include capital gains, non-cash benefits, or one-time payments."
+    },
+    {
+     "question": "Why does household vs individual matter?",
+     "answer": "Household income counts all earners in a home. A household with two people each earning $50K has a $100K household income (68th percentile) but each individual is at the 57th percentile. Use household to compare family financial standing, individual to benchmark your personal earnings."
+    },
+    {
+     "question": "How does income percentile vary by age?",
+     "answer": "Income typically peaks between ages 45-54 when the median household income reaches about $97,000. Younger households (under 25) have a median around $40,000, while those 65+ have a median around $55,000. Your percentile relative to your age group may differ significantly from the overall percentile."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    },
+    {
+     "name": "Inflation Calculator",
+     "href": "/tools/inflation-calculator"
+    },
+    {
+     "name": "Income Tax Calculator",
+     "href": "/tools/income-tax-calculator"
+    },
+    {
+     "name": "Net Worth Calculator",
+     "href": "/tools/net-worth-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    }
+   ],
+   "labels": {
+    "percentileSuffix": "percentileSuffix",
+    "country": "Country",
+    "annualIncome": "Annual Income",
+    "estimatedPercentile": "Estimated Percentile",
+    "countryMedian": "Country Median"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "us": "United States",
+    "uk": "United Kingdom",
+    "ca": "Canada",
+    "au": "Australia",
+    "de": "Germany",
+    "jp": "Japan",
+    "kr": "South Korea",
+    "cn": "China"
+   },
+   "placeholders": {
+    "annualIncome": "Enter annual income"
+   },
+   "results": {},
+   "errors": {
+    "invalidInputs": "Please enter valid values"
+   },
+   "guide": {
+    "intro": {
+     "title": "What Is the Income Percentile Calculator?",
+     "paragraphs": [
+      "Find out where your income ranks compared to all Americans. Uses U.S. Census Bureau data for both household and individual income percentiles."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "paragraphs": [
+       "Using the income percentile calculator is simple:"
+      ],
+      "items": [
+       "Enter your values in the input fields",
+       "Click the calculate button",
+       "View your results instantly"
+      ]
+     },
+     {
+      "title": "Tips",
+      "items": [
+       "Double-check your inputs for accurate results",
+       "This tool provides estimates - consult a professional for important decisions",
+       "Save your results for future reference"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

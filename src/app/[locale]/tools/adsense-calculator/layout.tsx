@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/adsense-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/adsense-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/adsense-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/adsense-calculator`,
       },
     },
   };

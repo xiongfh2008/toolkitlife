@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/alimony-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/alimony-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/alimony-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/alimony-calculator`,
       },
     },
   };

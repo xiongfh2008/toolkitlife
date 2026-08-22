@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/break-even-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/break-even-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/break-even-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/break-even-calculator`,
       },
     },
   };

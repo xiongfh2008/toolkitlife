@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/refinance-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/refinance-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/refinance-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/refinance-calculator`,
       },
     },
   };

@@ -23,6 +23,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-to-text`,
         ja: `https://www.toolkitlife.com/ja/tools/image-to-text`,
         ko: `https://www.toolkitlife.com/ko/tools/image-to-text`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-to-text`,
       },
     },
   };

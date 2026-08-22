@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/video-to-images`,
         ja: `https://www.toolkitlife.com/ja/tools/video-to-images`,
         ko: `https://www.toolkitlife.com/ko/tools/video-to-images`,
+        ru: `https://www.toolkitlife.com/ru/tools/video-to-images`,
       },
     },
   };

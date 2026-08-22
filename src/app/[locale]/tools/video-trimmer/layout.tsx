@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/video-trimmer`,
         ja: `https://www.toolkitlife.com/ja/tools/video-trimmer`,
         ko: `https://www.toolkitlife.com/ko/tools/video-trimmer`,
+        ru: `https://www.toolkitlife.com/ru/tools/video-trimmer`,
       },
     },
   };

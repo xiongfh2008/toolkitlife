@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/car-lease-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/car-lease-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/car-lease-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/car-lease-calculator`,
       },
     },
   };

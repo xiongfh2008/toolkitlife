@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/blood-alcohol-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/blood-alcohol-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/blood-alcohol-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/blood-alcohol-calculator`,
       },
     },
   };

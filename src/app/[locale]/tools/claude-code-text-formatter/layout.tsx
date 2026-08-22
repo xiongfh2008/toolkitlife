@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/claude-code-text-formatter`,
         ja: `https://www.toolkitlife.com/ja/tools/claude-code-text-formatter`,
         ko: `https://www.toolkitlife.com/ko/tools/claude-code-text-formatter`,
+        ru: `https://www.toolkitlife.com/ru/tools/claude-code-text-formatter`,
       },
     },
   };

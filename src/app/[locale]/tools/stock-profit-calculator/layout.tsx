@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/stock-profit-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/stock-profit-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/stock-profit-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/stock-profit-calculator`,
       },
     },
   };

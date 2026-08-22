@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-to-ascii`,
         ja: `https://www.toolkitlife.com/ja/tools/image-to-ascii`,
         ko: `https://www.toolkitlife.com/ko/tools/image-to-ascii`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-to-ascii`,
       },
     },
   };

@@ -1,0 +1,2405 @@
+{
+ "tools": {
+  "exif-viewer": {
+   "metadata": {
+    "title": "EXIF Viewer",
+    "description": "View EXIF metadata of images",
+    "category": "Developer"
+   },
+   "keywords": [
+    "exif viewer",
+    "image metadata",
+    "photo data",
+    "camera info",
+    "gps coordinates",
+    "image properties",
+    "exif data viewer",
+    "photo metadata"
+   ],
+   "faqs": [
+    {
+     "question": "What is EXIF data?",
+     "answer": "EXIF (Exchangeable Image File Format) is metadata stored in image files. It includes camera model, settings (aperture, shutter speed, ISO), date taken, GPS coordinates, and more."
+    },
+    {
+     "question": "How do I view EXIF data?",
+     "answer": "Drag and drop an image onto the upload area, or click to select a file. The tool extracts and displays all available EXIF data, including camera information, settings, and location data."
+    },
+    {
+     "question": "Do all images have EXIF data?",
+     "answer": "No. EXIF data is typically added by digital cameras and smartphones. Images downloaded from the web or edited may have no EXIF data. Some formats (like PNG) don't support EXIF."
+    },
+    {
+     "question": "Does EXIF data include GPS location?",
+     "answer": "It can. Many smartphones store GPS coordinates in EXIF data if camera location permissions are enabled on your device. You can view location data with this tool."
+    },
+    {
+     "question": "Can I remove EXIF data?",
+     "answer": "This tool only views EXIF data, it doesn't remove it. To strip EXIF data, use a dedicated image editor or privacy tool."
+    },
+    {
+     "question": "Are images sent to a server?",
+     "answer": "No. All EXIF extraction happens locally in your browser. Images are never uploaded to any server."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image to Base64",
+     "href": "/tools/image-to-base64"
+    }
+   ],
+   "labels": {
+    "hint": "Choose a JPEG image to view its metadata.",
+    "loading": "Reading metadata...",
+    "fileName": "File Name",
+    "fileType": "File Type",
+    "fileSize": "File Size",
+    "dimensions": "Dimensions",
+    "orientation": "Orientation",
+    "dateTaken": "Date Taken",
+    "camera": "Camera",
+    "gps": "GPS Coordinates",
+    "exifTags": "EXIF Tags"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an EXIF Viewer?",
+     "paragraphs": [
+      "An EXIF Viewer is a free online tool for viewing metadata stored in image files. It extracts and displays camera information, shooting settings, GPS coordinates, and more. All processing happens in your browser and images are never uploaded to any server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to View EXIF Data",
+      "paragraphs": [
+       "Drag and drop an image onto the upload area, or click to select a file. The tool extracts and displays all available EXIF data, including camera model, settings, and location information."
+      ]
+     },
+     {
+      "title": "Understanding EXIF Data",
+      "paragraphs": [
+       "EXIF data includes camera model, aperture, shutter speed, ISO, focal length, and the date and time the photo was taken. It also includes GPS latitude and longitude when available."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "View photo shooting settings",
+       "Verify image authenticity",
+       "Find where a photo was taken",
+       "Organize photos by camera model",
+       "Debug camera settings"
+      ]
+     }
+    ]
+   }
+  },
+  "html-table-generator": {
+   "metadata": {
+    "title": "HTML Table Generator",
+    "description": "Generate HTML tables visually with a spreadsheet-like editor",
+    "category": "Design"
+   },
+   "keywords": [
+    "HTML table generator",
+    "create HTML tables",
+    "online table tool",
+    "free table generator",
+    "HTML table maker",
+    "generate table code",
+    "HTML data table",
+    "visual table editor"
+   ],
+   "faqs": [
+    {
+     "question": "How do I generate an HTML table?",
+     "answer": "Enter your data in the visual editor and the tool generates HTML code."
+    },
+    {
+     "question": "Can I customize the styling?",
+     "answer": "Yes, you can customize borders, colors, alignment, and more."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I merge cells?",
+     "answer": "Yes, colspan and rowspan are supported."
+    },
+    {
+     "question": "Does the generated code work in all browsers?",
+     "answer": "Yes, standard HTML code is generated."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "HTML Entity Encoder",
+     "href": "/tools/html-entity-encoder"
+    },
+    {
+     "name": "HTML Minifier",
+     "href": "/tools/html-minifier"
+    },
+    {
+     "name": "Markdown Preview",
+     "href": "/tools/markdown-preview"
+    }
+   ],
+   "labels": {
+    "input": "Data (comma or tab separated)",
+    "inputPlaceholder": "Name,Age\nJohn,30",
+    "output": "HTML Table",
+    "firstRowHeader": "First Row as Header"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "copy": "Copy HTML"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an HTML Table Generator?",
+     "paragraphs": [
+      "An HTML Table Generator is a free online tool that lets you generate HTML tables visually with a spreadsheet-like editor.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "image-filters": {
+   "metadata": {
+    "title": "Image Filter Tool",
+    "description": "Apply CSS filters to images and preview the results",
+    "category": "Design"
+   },
+   "keywords": [
+    "image filters",
+    "apply image filters",
+    "online image filter tool",
+    "free image filters",
+    "image effect applicator",
+    "photo filter tool",
+    "image editor",
+    "CSS filter generation"
+   ],
+   "faqs": [
+    {
+     "question": "How do I apply image filters?",
+     "answer": "Upload an image, choose a filter, and adjust the parameters."
+    },
+    {
+     "question": "Which filters are supported?",
+     "answer": "Blur, grayscale, sepia, brightness, contrast, and more."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I combine filters?",
+     "answer": "Yes, multiple filters can be stacked."
+    },
+    {
+     "question": "Can I download the filter code?",
+     "answer": "Yes, CSS filter code is generated."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Image Compressor",
+     "href": "/tools/image-compressor"
+    },
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    }
+   ],
+   "labels": {
+    "upload": "Upload",
+    "grayscale": "Grayscale",
+    "sepia": "Sepia",
+    "blur": "Blur",
+    "brightness": "Brightness",
+    "contrast": "Contrast",
+    "saturate": "Saturate",
+    "hueRotate": "Hue Rotate",
+    "preview": "Preview",
+    "dropPrompt": "Drop an image here or click to upload",
+    "dropHint": "JPG, PNG, WebP, GIF",
+    "presets": "Filter presets",
+    "custom": "Custom"
+   },
+   "buttons": {
+    "reset": "Reset",
+    "download": "Download"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an Image Filter Tool?",
+     "paragraphs": [
+      "An Image Filter Tool is a free online tool that lets you apply CSS filters to images and preview the results.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "investment-calculator": {
+   "metadata": {
+    "title": "Investment Calculator",
+    "description": "Project investment returns, see nominal and inflation-adjusted returns.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "investment calculator",
+    "investment growth calculator",
+    "stock market calculator",
+    "investment return calculator",
+    "portfolio growth calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What are historical market returns?",
+     "answer": "The US stock market has historically averaged about 10% annually (nominal), or 7% after inflation. Bonds average 5-6%. These are long-term averages - individual years vary widely."
+    },
+    {
+     "question": "How do fees affect investment returns?",
+     "answer": "Fees directly reduce returns. A 1% fee reduces your final balance by about 25% over 30 years. Low-fee index funds at 0.1% outperform actively managed funds charging 1%+ after fees."
+    },
+    {
+     "question": "How often should I rebalance?",
+     "answer": "Annually, or when allocations drift more than 5% from target. Rebalancing maintains risk levels and enforces \"buy low, sell high\". Rebalancing too often triggers taxes and trading costs."
+    },
+    {
+     "question": "How do taxes affect returns?",
+     "answer": "Taxes significantly reduce net returns. In taxable accounts, capital gains and dividends are taxed annually. Use tax-advantaged accounts (401k, IRA) for long-term investing to defer or avoid taxes."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    }
+   ],
+   "labels": {
+    "initialInvestment": "Initial Investment",
+    "monthlyContribution": "Monthly Contribution",
+    "annualReturn": "Annual Return (%)",
+    "years": "Investment Period (Years)",
+    "futureValue": "Future Value",
+    "totalContributions": "Total Contributions",
+    "totalInterest": "Total Returns"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an Investment Calculator?",
+     "body": [
+      "Project your investment growth over time with regular contributions. See nominal and inflation-adjusted returns side by side."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Investment Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Project investment growth and future value."
+  },
+  "invoice-generator": {
+   "metadata": {
+    "title": "Invoice Generator",
+    "description": "Create professional invoices for free, no signup, no watermark, print or save as PDF",
+    "category": "Utilities"
+   },
+   "keywords": [
+    "invoice generator",
+    "free invoice maker",
+    "create invoice online",
+    "invoice template",
+    "print invoice PDF",
+    "professional invoice"
+   ],
+   "faqs": [
+    {
+     "question": "Is this invoice generator free?",
+     "answer": "Yes, completely free. No signup, no watermark, no data storage, and you can generate unlimited invoices. Everything runs in your browser."
+    },
+    {
+     "question": "Are these invoices legally valid?",
+     "answer": "These invoices include all standard fields businesses need to bill clients. However, legal requirements vary by jurisdiction. Consult your accountant for compliance requirements specific to your region."
+    },
+    {
+     "question": "Can I save the invoice as a PDF?",
+     "answer": "Yes. Click \"Print / Save PDF\", then use your browser's print dialog to save as PDF. This works in all modern browsers and preserves the invoice layout."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "QR Code Generator",
+     "href": "/tools/qr-code-generator"
+    },
+    {
+     "name": "Word Counter",
+     "href": "/tools/word-counter"
+    },
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    }
+   ],
+   "labels": {
+    "company": "Company",
+    "companyPlaceholder": "Your Company Name",
+    "client": "Client",
+    "clientPlaceholder": "Client Name",
+    "invoiceNumber": "Invoice Number",
+    "invoiceNumberPlaceholder": "INV-001",
+    "taxRate": "Tax Rate (%)",
+    "date": "Date",
+    "dueDate": "Due Date",
+    "items": "Items",
+    "itemDescription": "Description",
+    "qty": "Qty",
+    "rate": "Rate",
+    "amount": "Amount",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "total": "Total",
+    "yourCompany": "Your Company",
+    "invoice": "Invoice",
+    "billTo": "Bill To",
+    "clientName": "Client Name"
+   },
+   "buttons": {
+    "addItem": "Add Item",
+    "remove": "Remove",
+    "print": "Print / Save PDF"
+   },
+   "description": "Create professional invoices for free. No signup, no watermark. Print or save as PDF directly from your browser.",
+   "guide": {
+    "whatIs": {
+     "title": "What is an Invoice Generator?",
+     "body": [
+      "Create professional invoices for free in your browser. Add your company and client details, line items, tax rate, and notes, then print or save as PDF. No signup, no watermark, no data storage."
+     ]
+    },
+    "howTo": {
+     "title": "How to Create an Invoice",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter your company name and client name.",
+      "Add the invoice number, date, and due date.",
+      "Add line items with descriptions, quantities, and rates.",
+      "Set the tax rate if applicable.",
+      "Click Print / Save PDF and use your browser's print dialog."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check the total before saving.",
+      "Use the notes section for payment terms or bank information.",
+      "Invoices are generated locally and never uploaded."
+     ]
+    }
+   }
+  },
+  "json-validator": {
+   "metadata": {
+    "title": "JSON Validator",
+    "description": "Validate JSON syntax with detailed error reports",
+    "category": "Developer"
+   },
+   "keywords": [
+    "json validator",
+    "json syntax checker",
+    "json error finder",
+    "validate json online",
+    "check json",
+    "json parser",
+    "json debugger",
+    "json format validation"
+   ],
+   "faqs": [
+    {
+     "question": "How do I validate JSON?",
+     "answer": "Paste JSON into the input field. The tool immediately checks the syntax and shows whether it's valid. If there are errors, it shows the exact location and cause."
+    },
+    {
+     "question": "What are common JSON errors?",
+     "answer": "Common errors include missing commas, trailing commas, single quotes instead of double quotes, missing quotes, unclosed brackets, and invalid escape characters. The tool highlights the exact issue."
+    },
+    {
+     "question": "Can I validate large JSON files?",
+     "answer": "Yes. Since validation happens in the browser, it can handle large JSON files. However, very large files (>50 MB) may be slow due to browser memory limits."
+    },
+    {
+     "question": "Does the validator fix JSON?",
+     "answer": "No. The validator only checks the syntax and reports errors. You need to fix them manually. However, the error messages tell you exactly what and where to fix."
+    },
+    {
+     "question": "Is JSON data sent to a server?",
+     "answer": "No. All validation happens locally in your browser. Your data never leaves your device."
+    },
+    {
+     "question": "Does the validator support JSON with comments (JSONC)?",
+     "answer": "No. Standard JSON does not allow comments. If your JSON contains comments, you need to remove them before validating."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "JSON Formatter",
+     "href": "/tools/json-formatter"
+    },
+    {
+     "name": "Base64 Encoder",
+     "href": "/tools/base64-encoder"
+    }
+   ],
+   "labels": {
+    "input": "Input",
+    "inputPlaceholder": "Paste JSON here...",
+    "outputPlaceholder": "The result will appear here...",
+    "errorFallback": "Invalid JSON",
+    "valid": "JSON is valid!",
+    "empty": "Please enter JSON to validate",
+    "line": "Line",
+    "column": "Column"
+   },
+   "buttons": {
+    "validate": "Validate",
+    "format": "Format",
+    "minify": "Minify",
+    "clear": "Clear"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a JSON Validator?",
+     "paragraphs": [
+      "A JSON Validator is a free online tool that checks JSON syntax and finds errors. It verifies that your JSON is well-formed and provides detailed feedback on any syntax errors. All validation happens in your browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Validate JSON",
+      "paragraphs": [
+       "Paste JSON into the input field. The tool immediately checks the syntax and shows whether it's valid. If there are errors, it shows the exact location and cause."
+      ]
+     },
+     {
+      "title": "Common JSON Errors",
+      "paragraphs": [
+       "JSON syntax is strict. Common errors include missing commas, trailing commas, single quotes instead of double quotes, missing quotes, and unclosed brackets. The tool highlights the exact issue."
+      ]
+     },
+     {
+      "title": "JSON Syntax Rules",
+      "items": [
+       "Keys must be double-quoted strings",
+       "Strings must use double quotes",
+       "Trailing commas are not allowed",
+       "Comments are not allowed",
+       "Values must be strings, numbers, objects, arrays, true, false, or null"
+      ]
+     }
+    ]
+   }
+  },
+  "loan-calculator": {
+   "metadata": {
+    "title": "Loan Calculator",
+    "description": "Calculate monthly payments, total interest, and a full repayment schedule.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "loan calculator",
+    "loan payment calculator",
+    "personal loan calculator",
+    "loan amortization calculator",
+    "monthly payment calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How is the monthly payment calculated?",
+     "answer": "The calculator uses the standard amortization formula: M = P[r(1+r)^n]/[(1+r)^n-1], where P is the loan amount, r is the monthly interest rate, and n is the total number of payments."
+    },
+    {
+     "question": "What types of loans does this work for?",
+     "answer": "This calculator works for any fixed-rate loan with equal monthly payments - personal loans, auto loans, student loans, home equity loans, and more. It doesn't apply to variable-rate or interest-only loans."
+    },
+    {
+     "question": "How does the loan term affect total cost?",
+     "answer": "Longer terms mean lower monthly payments but significantly more total interest paid. Shorter terms have higher payments but save money overall. Always compare total cost, not just the monthly payment."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Auto Loan Calculator",
+     "href": "/tools/auto-loan-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    }
+   ],
+   "labels": {
+    "principal": "Principal",
+    "annualRate": "Annual Interest Rate (%)",
+    "term": "Loan Term",
+    "termUnit": "Term Unit",
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest",
+    "totalPayment": "Total Payment"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "years": "Years",
+    "months": "Months"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Loan Calculator?",
+     "body": [
+      "Calculate monthly loan payments, total interest, and see a full payment schedule for any loan amount, rate, and term."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Loan Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate loan monthly payments, total interest, and a repayment schedule."
+  },
+  "mortgage-calculator": {
+   "metadata": {
+    "title": "Mortgage Calculator",
+    "description": "Calculate monthly payments, taxes, insurance, PMI, and amortization schedule.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "mortgage calculator",
+    "home loan calculator",
+    "mortgage payment calculator",
+    "amortization calculator",
+    "house payment calculator",
+    "mortgage with taxes and insurance",
+    "true mortgage cost"
+   ],
+   "faqs": [
+    {
+     "question": "How is the monthly mortgage payment calculated?",
+     "answer": "The monthly payment is calculated using the standard amortization formula: M = P[r(1+r)^n]/[(1+r)^n - 1], where P is the loan amount, r is the monthly interest rate, and n is the total number of payments."
+    },
+    {
+     "question": "How accurate are the property tax and insurance estimates?",
+     "answer": "Property tax rates are based on effective rates by state. Insurance rates are based on average annual premiums by state. Both are applied as a percentage of the home price and update automatically when you change state or price. These are state averages; actual costs vary by county, city, coverage level, and property specifics."
+    },
+    {
+     "question": "What is PMI?",
+     "answer": "Private mortgage insurance (PMI) is required when your down payment is less than 20% of the home price. It typically costs 0.3%-1.5% of the loan amount per year and protects the lender in case of default."
+    },
+    {
+     "question": "Why do property taxes differ so much by state?",
+     "answer": "Property tax rates range from 0.28% in Hawaii to 2.47% in New Jersey. That means on a $350,000 home you'd pay $980 per year in Hawaii and $8,645 in New Jersey. States without income tax typically have higher property taxes to compensate."
+    },
+    {
+     "question": "Why is home insurance so expensive in some states?",
+     "answer": "Insurance costs are significantly higher in states prone to natural disasters. Florida averages about 1.05% of home value due to hurricane risk. Oklahoma and Louisiana are high due to tornado and hurricane exposure. Hawaii, Utah, and Oregon have the lowest rates."
+    },
+    {
+     "question": "Does this include taxes and insurance?",
+     "answer": "Yes. After you select a state, property taxes and home insurance are estimated automatically based on state averages and the home price. These are added to the principal and interest payment to show the true monthly cost. You can also adjust both values manually."
+    },
+    {
+     "question": "What is an amortization schedule?",
+     "answer": "An amortization schedule shows how each monthly payment is split between principal and interest over the life of the loan. Early payments are mostly interest; later payments are mostly principal."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Affordability Calculator",
+     "href": "/tools/mortgage-affordability-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Home Affordability Calculator",
+     "href": "/tools/home-affordability-calculator"
+    }
+   ],
+   "labels": {
+    "principal": "Principal",
+    "annualRate": "Annual Interest Rate",
+    "term": "Term",
+    "propertyTaxes": "Property Taxes",
+    "homeInsurance": "Home Insurance",
+    "pmi": "Mortgage Insurance (PMI)",
+    "totalMonthlyPayment": "Total Monthly Payment",
+    "principalAndInterest": "Principal & Interest",
+    "totalInterest": "Total Interest",
+    "totalCost": "Total Cost"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Mortgage Calculator?",
+     "body": [
+      "Calculate your monthly mortgage payment with accurate property tax and insurance estimates by state. Includes PMI, full amortization schedule, and payment breakdown."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Mortgage Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   }
+  },
+  "noise-generator": {
+   "metadata": {
+    "title": "Noise Texture Generator",
+    "description": "Generate seamless noise and grain textures, downloadable as PNG or copyable as CSS.",
+    "category": "Design"
+   },
+   "keywords": [
+    "noise generator",
+    "grain texture",
+    "noise texture",
+    "background noise",
+    "SVG noise",
+    "CSS grain"
+   ],
+   "faqs": [
+    {
+     "question": "What are noise textures used for?",
+     "answer": "Noise textures add grain, depth, and visual interest to designs. They are often used for backgrounds, overlays, and reducing banding in gradients."
+    },
+    {
+     "question": "Are the generated textures seamless?",
+     "answer": "Yes, the generated textures tile seamlessly when used as a repeating background."
+    },
+    {
+     "question": "Can I use them in commercial projects?",
+     "answer": "Yes, all generated textures are free to use in any project, no attribution required."
+    },
+    {
+     "question": "Which format should I use?",
+     "answer": "Use PNG for maximum compatibility. Use SVG for smaller file sizes and infinite scaling in web projects."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "CSS Background Pattern",
+     "href": "/tools/css-background-pattern"
+    },
+    {
+     "name": "CSS Gradient Generator",
+     "href": "/tools/css-gradient-generator"
+    },
+    {
+     "name": "Color Converter",
+     "href": "/tools/color-converter"
+    }
+   ],
+   "labels": {
+    "size": "Size (px)",
+    "density": "Density",
+    "backgroundColor": "Background Color",
+    "opacity": "Noise Opacity"
+   },
+   "buttons": {
+    "generate": "Generate",
+    "downloadPng": "Download PNG",
+    "copySvg": "Copy SVG"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Noise Texture Generator?",
+     "body": [
+      "Generate seamless noise and grain textures for backgrounds, design elements, and artistic effects. Download as PNG or copy as CSS/SVG code."
+     ]
+    },
+    "howTo": {
+     "title": "How to Generate a Noise Texture",
+     "intro": "Follow these steps:",
+     "items": [
+      "Set the texture size (in pixels).",
+      "Adjust the noise density.",
+      "Choose a background color.",
+      "Set the noise opacity.",
+      "Click Generate to create the texture.",
+      "Download as PNG or copy the SVG/CSS code."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use low opacity (5-20%) for a subtle grain effect.",
+      "Larger sizes create more varied patterns.",
+      "The SVG output can be embedded directly in CSS.",
+      "Noise textures can add depth to flat designs."
+     ]
+    }
+   }
+  },
+  "og-preview": {
+   "metadata": {
+    "title": "OG Preview Tool",
+    "description": "Preview Open Graph and Twitter Card meta tags",
+    "category": "Developer"
+   },
+   "keywords": [
+    "og preview",
+    "open graph preview",
+    "social share preview",
+    "facebook preview",
+    "twitter card preview",
+    "social media preview",
+    "link preview",
+    "og tag checker"
+   ],
+   "faqs": [
+    {
+     "question": "What is an Open Graph preview?",
+     "answer": "An Open Graph preview shows how your website looks when shared on Facebook, LinkedIn, and other social platforms. It uses your site's og: meta tags to display the title, description, image, and URL."
+    },
+    {
+     "question": "How do I use the OG preview?",
+     "answer": "Enter your website URL. The tool fetches and parses the Open Graph tags, then shows previews of how it will look when shared on Facebook and Twitter."
+    },
+    {
+     "question": "Why does my preview look wrong?",
+     "answer": "Check that your site has the correct og:title, og:description, og:image, and og:url tags. Images should be at least 1200x630 pixels. Some platforms cache previews, so it may take time to update."
+    },
+    {
+     "question": "What is the difference between Facebook and Twitter previews?",
+     "answer": "Facebook uses Open Graph tags, while Twitter uses Twitter Card tags (falling back to Open Graph if available). The layouts and designs are also slightly different."
+    },
+    {
+     "question": "Can I preview the OG tags of a specific page?",
+     "answer": "Yes. Enter any URL and the tool will fetch that page's OG tags and display the preview."
+    },
+    {
+     "question": "Are the previews accurate?",
+     "answer": "Previews are based on the OG tags fetched from your website. They aim to match Facebook's and Twitter's current designs, but actual rendering may differ slightly due to platform updates."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Meta Tag Generator",
+     "href": "/tools/meta-tag-generator"
+    },
+    {
+     "name": "URL Encoder/Decoder",
+     "href": "/tools/url-encoder"
+    }
+   ],
+   "labels": {
+    "metaTags": "Meta Tags",
+    "title": "Title",
+    "description": "Description",
+    "imageUrl": "Image URL",
+    "siteName": "Site Name",
+    "url": "URL"
+   },
+   "buttons": {
+    "copyMetaTags": "Copy Meta Tags"
+   },
+   "preview": {
+    "facebook": "Facebook / LinkedIn",
+    "twitter": "Twitter / X",
+    "slack": "Slack / Discord"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is an OG Preview?",
+     "paragraphs": [
+      "OG Preview is a free online tool that shows how your website looks when shared on social platforms. It displays previews for Facebook, Twitter, and more, helping you optimize your Open Graph tags for better social sharing. All fetching happens in your browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Preview Social Sharing",
+      "paragraphs": [
+       "Enter your website URL. The tool fetches and parses the Open Graph tags, then shows previews of how it will look when shared on Facebook and Twitter."
+      ]
+     },
+     {
+      "title": "Optimizing OG Tags",
+      "paragraphs": [
+       "Use og:title (50-60 characters), og:description (150-160 characters), og:image (at least 1200x630 pixels), and og:url. These tags control how your website appears in social shares."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Test social share appearance before publishing",
+       "Debug OG tag issues",
+       "Optimize social share engagement",
+       "Verify image dimensions",
+       "Compare Facebook and Twitter previews"
+      ]
+     }
+    ]
+   }
+  },
+  "percentage-calculator": {
+   "metadata": {
+    "title": "Percentage Calculator",
+    "description": "Calculate percentages of numbers, increases/decreases, percentage change, and more",
+    "category": "Utilities"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "percentage calculator",
+    "percent calculator",
+    "percentage change calculator",
+    "percent of number",
+    "percentage increase calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate a percentage of a number?",
+     "answer": "Multiply the number by the percentage divided by 100. For example, 25% of 200 = 200 * (25/100) = 50."
+    },
+    {
+     "question": "How do I calculate percentage change?",
+     "answer": "Percentage change = ((new value - old value) / old value) * 100. A change from 80 to 100 is ((100-80)/80) * 100 = a 25% increase."
+    },
+    {
+     "question": "What's the difference between percentage and percentage points?",
+     "answer": "A change from 10% to 15% is a 5 percentage point increase, but a 50% percentage increase. Percentage points measure absolute differences; percentages measure relative change."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Tip Calculator",
+     "href": "/tools/tip-calculator"
+    },
+    {
+     "name": "Discount Calculator",
+     "href": "/tools/discount-calculator"
+    },
+    {
+     "name": "Profit Margin Calculator",
+     "href": "/tools/profit-margin-calculator"
+    }
+   ],
+   "labels": {
+    "percentage": "Percentage",
+    "value": "Value",
+    "of": "of",
+    "to": "to",
+    "result": "Result"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "percentOf": "X% of Y",
+    "whatPercent": "X is What Percent of Y",
+    "percentChange": "Percentage Change"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Percentage Calculator?",
+     "body": [
+      "Calculate percentages instantly. Find what percent of a number, percentage change, increase, decrease, and more."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Percentage Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate percentages, percentage change, differences, and ratios."
+  },
+  "pixel-art": {
+   "metadata": {
+    "title": "Pixel Art Editor",
+    "description": "Create pixel art with a grid-based editor",
+    "category": "Design"
+   },
+   "keywords": [
+    "pixel art generator",
+    "create pixel art",
+    "online pixel art tool",
+    "free pixel editor",
+    "pixel art maker",
+    "8-bit art generator",
+    "retro pixel art",
+    "pixel grid editor"
+   ],
+   "faqs": [
+    {
+     "question": "How do I create pixel art?",
+     "answer": "Click on the grid to draw pixels, choosing colors and tools."
+    },
+    {
+     "question": "Is the tool free?",
+     "answer": "Completely free."
+    },
+    {
+     "question": "Can I export images?",
+     "answer": "Yes, export to PNG and other formats is supported."
+    },
+    {
+     "question": "Which tools are supported?",
+     "answer": "Brush, eraser, fill, color picker, and more."
+    },
+    {
+     "question": "Can I customize the grid size?",
+     "answer": "Yes, the canvas size can be customized."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    },
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    },
+    {
+     "name": "Color Palette Generator",
+     "href": "/tools/color-palette-generator"
+    }
+   ],
+   "labels": {
+    "color": "Color",
+    "gridSize": "Grid Size",
+    "preview": "Preview"
+   },
+   "buttons": {
+    "clear": "Clear",
+    "downloadPng": "Download PNG",
+    "downloadSvg": "Download SVG"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a Pixel Art Editor?",
+     "paragraphs": [
+      "A Pixel Art Editor is a free online tool that lets you create pixel art with a grid-based editor.",
+      "All processing happens in your browser; your data is never sent to a server."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Use",
+      "items": [
+       "Open the tool in your browser",
+       "Follow the instructions on the interface",
+       "Get the result and use it"
+      ]
+     },
+     {
+      "title": "Key Features",
+      "items": [
+       "Completely free to use",
+       "No registration or login required",
+       "Data is processed locally, protecting your privacy",
+       "Supports multiple formats and options"
+      ]
+     }
+    ]
+   }
+  },
+  "retirement-calculator": {
+   "metadata": {
+    "title": "Retirement Calculator",
+    "description": "Project retirement savings growth with contributions, inflation, and withdrawal income.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "retirement calculator",
+    "retirement savings calculator",
+    "401k calculator",
+    "retirement planning calculator",
+    "how much to retire"
+   ],
+   "faqs": [
+    {
+     "question": "What is the 4% rule?",
+     "answer": "The 4% rule suggests you can withdraw 4% of your retirement savings per year without running out of money over 30 years. It's based on research using historical market returns. Adjust for inflation to maintain purchasing power."
+    },
+    {
+     "question": "How much do I need to retire?",
+     "answer": "Multiply your annual expenses by 25 (based on the 4% rule). If you need $50,000 per year, aim for $1.25 million. This includes Social Security and pensions as income sources."
+    },
+    {
+     "question": "How does Social Security affect retirement?",
+     "answer": "Social Security replaces about 40% of pre-retirement income. Higher earners get a lower replacement percentage. Claim at 67 (full retirement age), or wait until 70 to increase payments by 8%/year."
+    },
+    {
+     "question": "How aggressive should I invest?",
+     "answer": "A rule of thumb: stock percentage = 110 - your age. At 30: 80% stocks. At 60: 50% stocks. Reduce risk as you approach retirement. But adjust based on your risk tolerance and time horizon."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    },
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    }
+   ],
+   "labels": {
+    "currentAge": "Current Age",
+    "retirementAge": "Retirement Age",
+    "currentSavings": "Current Savings",
+    "monthlyContribution": "Monthly Contribution",
+    "annualReturn": "Expected Annual Return (%)",
+    "inflationRate": "Inflation Rate (%)",
+    "retirementSavings": "Total Retirement Savings",
+    "yearsToRetire": "Years to Retirement",
+    "monthlyIncome": "Estimated Monthly Income",
+    "realRetirementSavings": "Real Value (Inflation-Adjusted)"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Retirement Calculator?",
+     "body": [
+      "Calculate how much you need to retire. See projected savings growth, withdrawal income, and the impact of inflation on your retirement funds."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Retirement Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Estimate retirement savings needs, growth, and income."
+  },
+  "salary-calculator": {
+   "metadata": {
+    "title": "Salary Calculator",
+    "description": "Convert between annual salary and hourly wage, estimate taxes and income breakdown.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "salary calculator",
+    "hourly to salary calculator",
+    "salary to hourly calculator",
+    "pay calculator",
+    "wage calculator",
+    "annual salary calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I convert annual salary to hourly?",
+     "answer": "Divide the annual salary by the number of hours worked per year. For a standard 40-hour work week, 52 weeks: $65,000 / 2,080 hours = $31.25/hour."
+    },
+    {
+     "question": "How do I convert hourly to annual salary?",
+     "answer": "Multiply the hourly rate by the hours per week, then by the weeks per year. $20/hour * 40 hours * 52 weeks = $41,600/year."
+    },
+    {
+     "question": "Are the tax estimates accurate?",
+     "answer": "Tax estimates use a simplified 2026 US federal tax bracket for single filers with the standard deduction, plus FICA (7.65%). Actual taxes vary based on filing status, state taxes, deductions, and credits. Use as a rough guide only."
+    },
+    {
+     "question": "What if I have paid vacation?",
+     "answer": "If your employer provides paid vacation, keep weeks per year at 52 - you still get paid for those weeks. Only reduce the number if you have unpaid time off."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Tip Calculator",
+     "href": "/tools/tip-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    }
+   ],
+   "labels": {
+    "hourly": "Hourly",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "mode": "Mode",
+    "hoursPerWeek": "Hours per Week",
+    "payBreakdown": "Pay Breakdown"
+   },
+   "options": {
+    "annual": "Annual",
+    "hourly": "Hourly"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Salary Calculator?",
+     "body": [
+      "Convert between annual salary and hourly wage. See monthly, biweekly, weekly, and daily breakdown with estimated federal tax."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Salary Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate net take-home salary based on tax rates, deductions, and contributions."
+  },
+  "savings-calculator": {
+   "metadata": {
+    "title": "Savings Calculator",
+    "description": "Calculate savings growth with regular deposits and compound interest.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "savings calculator",
+    "savings account calculator",
+    "savings goal calculator",
+    "savings interest calculator",
+    "how much will I save"
+   ],
+   "faqs": [
+    {
+     "question": "How does compound interest affect savings?",
+     "answer": "Compound interest accrues on both your principal and accumulated interest. Compounding monthly vs. annually produces slightly higher returns. The difference grows with time and rate."
+    },
+    {
+     "question": "How do regular deposits affect growth?",
+     "answer": "Regular deposits significantly increase the final balance through compounding. Depositing $200/month at a 5% annual return for 10 years = about $31,000 - you contribute $24,000 and interest contributes $7,000."
+    },
+    {
+     "question": "What's the difference between savings and money market accounts?",
+     "answer": "Savings accounts offer a fixed rate and simple access. Money market accounts typically offer higher rates but require higher minimum balances and may offer check-writing privileges. Both are FDIC-insured."
+    },
+    {
+     "question": "How does inflation affect my savings?",
+     "answer": "Inflation erodes purchasing power. 3% inflation reduces purchasing power by 26% over 10 years. Always compare your savings rate to inflation - if the rate is below inflation, your money is losing real value."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    }
+   ],
+   "labels": {
+    "initialSavings": "Initial Savings",
+    "monthlyDeposit": "Monthly Deposit",
+    "interestRate": "Annual Interest Rate (%)",
+    "years": "Savings Period (Years)",
+    "totalSavings": "Total Savings",
+    "totalDeposits": "Total Deposits",
+    "totalInterest": "Total Interest"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Savings Calculator?",
+     "body": [
+      "Calculate how your savings will grow over time with regular deposits and compound interest. See year-by-year breakdown."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Savings Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "See how your savings grow over time."
+  },
+  "tip-calculator": {
+   "metadata": {
+    "title": "Tip Calculator",
+    "description": "Calculate tip amounts and split the bill at preset or custom percentages.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tool",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no signup tools",
+    "browser tools",
+    "tip calculator",
+    "gratuity calculator",
+    "tip split calculator",
+    "bill split calculator",
+    "restaurant tip calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How much should I tip?",
+     "answer": "In the US, 15-20% is standard at sit-down restaurants. 20% for good service, 25%+ for exceptional service. Takeout typically 10-15%. Delivery 15-20% or at least $3-5."
+    },
+    {
+     "question": "Should I tip on the pre-tax or after-tax amount?",
+     "answer": "Traditionally, tips are calculated on the pre-tax subtotal. However, many people calculate on the total including tax for simplicity. The difference is usually small."
+    },
+    {
+     "question": "How do I split tips when dividing the bill?",
+     "answer": "The simplest way is to add the tip to the total bill first, then divide by the number of people. This ensures the server receives the full tip regardless of how the bill is split."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Discount Calculator",
+     "href": "/tools/discount-calculator"
+    },
+    {
+     "name": "Invoice Generator",
+     "href": "/tools/invoice-generator"
+    }
+   ],
+   "labels": {
+    "billAmount": "Bill Amount",
+    "tipPercentage": "Tip Percentage (%)",
+    "numberOfPeople": "Number of People",
+    "presets": "Quick Presets",
+    "tipAmount": "Tip Amount",
+    "totalAmount": "Total Amount",
+    "tipPerPerson": "Tip per Person",
+    "totalPerPerson": "Total per Person"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Tip Calculator?",
+     "body": [
+      "Calculate tip amount and split the bill between friends. Preset percentages, custom tip, round-up option, and per-person breakdown."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the Tip Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the Calculate button",
+      "View the result immediately"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Quickly calculate tips based on the bill amount and the number of people."
+  },
+  "url-shortener": {
+   "metadata": {
+    "title": "URL Shortener - Free Online Tool",
+    "description": "Shorten long links into short URLs for free. Powered by is.gd and TinyURL, with optional custom short links, no signup required."
+   },
+   "title": "URL Shortener",
+   "description": "Shorten long URLs instantly for free and create short links you can share anywhere, with optional custom short links. Powered by is.gd with automatic TinyURL fallback.",
+   "category": "Utilities",
+   "keywords": [
+    "url shortener",
+    "shorten links",
+    "free url short link",
+    "short link generator",
+    "online short links",
+    "link shortening tool",
+    "custom short links",
+    "is.gd",
+    "tinyurl"
+   ],
+   "guide": {
+    "heading": "How to use:",
+    "steps": [
+     "Paste the long URL you want to shorten.",
+     "Optional: enter a custom short link (letters and numbers only).",
+     "Click \"Generate Short Link\" and copy the result."
+    ]
+   },
+   "faqs": [
+    {
+     "question": "Is this URL shortener free?",
+     "answer": "Completely free. Short links are created through the public APIs of is.gd and TinyURL, with no account, signup, or payment required."
+    },
+    {
+     "question": "Can I choose a custom short link?",
+     "answer": "Yes. Enter an alias in the optional custom field and the tool will request that short code from is.gd. Whether the custom code is available depends on the provider's service status and usage limits."
+    },
+    {
+     "question": "Are my links tracked or logged?",
+     "answer": "No. The tool only forwards your URL to the shortening service and returns the short link. This site performs no statistics, tracking, or storage."
+    },
+    {
+     "question": "Do short links expire?",
+     "answer": "Links generated by is.gd and TinyURL are permanent and don't expire, unless the target page is removed."
+    },
+    {
+     "question": "Why was my short link generated by TinyURL?",
+     "answer": "The tool prefers is.gd (which supports structured errors and custom short links). When is.gd is rate-limited or unavailable, it automatically falls back to TinyURL so you still get a working short link."
+    },
+    {
+     "question": "What URLs are supported?",
+     "answer": "Any public http or https link. Private addresses or localhost will be rejected by the shortening services."
+    },
+    {
+     "question": "Why doesn't my short link open?",
+     "answer": "Short links are hosted by third-party services is.gd and TinyURL, and these domains may not be accessible from some networks (such as mainland China). The short link itself is valid—if it doesn't open, switch to a network that can reach these domains."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "URL Encoder",
+     "href": "/tools/url-encoder"
+    },
+    {
+     "name": "URL Slug Generator",
+     "href": "/tools/url-slug-generator"
+    },
+    {
+     "name": "QR Code Generator",
+     "href": "/tools/qr-code-generator"
+    }
+   ],
+   "labels": {
+    "url": "URL to Shorten",
+    "urlPlaceholder": "Paste a long URL here, e.g. https://example.com/very/long/path",
+    "custom": "Custom Short Link (Optional)",
+    "customHint": "Letters and numbers only",
+    "customPlaceholder": "e.g. my-link",
+    "shorten": "Generate Short Link",
+    "shortening": "Generating...",
+    "result": "Your Short Link",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "poweredBy": "Powered by",
+    "thirdPartyNotice": "Short links are hosted by third-party services (is.gd / TinyURL) and may not be accessible from some networks or regions (e.g. mainland China)."
+   },
+   "errors": {
+    "empty": "Please enter a URL to shorten.",
+    "invalidUrl": "Invalid URL. Please enter a valid http or https link.",
+    "failed": "Shortening failed. Please try again later.",
+    "copyFailed": "Copy failed. Please copy the link manually."
+   }
+  },
+  "url-slug-generator": {
+   "metadata": {
+    "title": "URL Slug Generator",
+    "description": "Generate URL-friendly slugs from text",
+    "category": "Developer"
+   },
+   "keywords": [
+    "url slug generator",
+    "slug generator",
+    "url friendly text",
+    "seo friendly url",
+    "slug converter",
+    "url cleaner",
+    "permalink generator",
+    "url formatting"
+   ],
+   "faqs": [
+    {
+     "question": "What is a URL slug?",
+     "answer": "A URL slug is the text portion of a URL that identifies a specific page. It should be readable, SEO-friendly, and contain only lowercase letters, numbers, and hyphens. For example: \"my-blog-post\"."
+    },
+    {
+     "question": "How do I generate a slug?",
+     "answer": "Type or paste text into the input field. The tool automatically converts it into a URL-friendly slug, removing special characters, converting to lowercase, and replacing spaces with hyphens."
+    },
+    {
+     "question": "Are slugs important for SEO?",
+     "answer": "Yes. Descriptive slugs help search engines understand page content. They also make it easier for users to predict what a link contains. Good slugs can improve search engine rankings and click-through rates."
+    },
+    {
+     "question": "What characters should I use in a slug?",
+     "answer": "Use lowercase letters, numbers, and hyphens. Avoid spaces, uppercase, special characters, and consecutive hyphens. Keep slugs short but descriptive."
+    },
+    {
+     "question": "Can I customize the slug?",
+     "answer": "Yes. After the initial slug is generated, you can edit it manually for further customization. The tool provides a clean starting point."
+    },
+    {
+     "question": "Is the slug generator safe?",
+     "answer": "Yes. This tool generates slugs locally in your browser. No data is sent to any server."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Meta Tag Generator",
+     "href": "/tools/meta-tag-generator"
+    },
+    {
+     "name": "URL Encoder/Decoder",
+     "href": "/tools/url-encoder"
+    }
+   ],
+   "labels": {
+    "input": "Input",
+    "output": "Output",
+    "placeholder": "Enter text to convert..."
+   },
+   "buttons": {
+    "generate": "Generate Slug"
+   },
+   "guide": {
+    "intro": {
+     "title": "What is a URL Slug Generator?",
+     "paragraphs": [
+      "A URL Slug Generator is a free online tool that creates URL-friendly slugs from text. It converts text to lowercase, removes special characters, and replaces spaces with hyphens. All conversion happens in your browser."
+     ]
+    },
+    "sections": [
+     {
+      "title": "How to Generate a Slug",
+      "paragraphs": [
+       "Type or paste text into the input field. The tool automatically converts it into a URL-friendly slug. Copy the result for use in URLs."
+      ]
+     },
+     {
+      "title": "Slug Best Practices",
+      "paragraphs": [
+       "Keep slugs short but descriptive. Use keywords without stuffing them. Avoid stop words (like a, the, is) unless essential to meaning. Use hyphens to separate words."
+      ]
+     },
+     {
+      "title": "Common Use Cases",
+      "items": [
+       "Create URLs for blog posts",
+       "Generate slugs for product pages",
+       "Prepare URLs for documentation",
+       "Create permalinks for CMS content",
+       "Generate identifiers for API endpoints"
+      ]
+     }
+    ]
+   }
+  },
+  "401k-calculator": {
+   "metadata": {
+    "title": "401k Calculator",
+    "description": "Project your 401k growth with employer match, contributions, and investment returns.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "401k calculator",
+    "retirement calculator",
+    "401k retirement calculator",
+    "401k growth calculator",
+    "employer match calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How much should I contribute to my 401(k)?",
+     "answer": "At minimum, contribute enough to get the full employer match - that's free money. The 2026 contribution limit is $23,500 ($31,000 if 50 or older). Financial advisors often recommend saving 15% of your income for retirement."
+    },
+    {
+     "question": "What is an employer match?",
+     "answer": "Many employers match a percentage of your 401(k) contributions. A common match is 50% of contributions up to 6% of your salary. On a $75,000 salary, that's $2,250 per year in free money."
+    },
+    {
+     "question": "What return rate should I use?",
+     "answer": "The S&P 500 has averaged about 10% per year, or about 7% after inflation. Use 7% for a realistic inflation-adjusted estimate, or 10% for a nominal return estimate. Be conservative when planning."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    },
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    }
+   ],
+   "labels": {
+    "salary": "Annual Salary",
+    "contribution": "Personal Contribution (%)",
+    "employerMatch": "Employer Match (%)",
+    "employerMatchCap": "Employer Match Cap (%)",
+    "currentBalance": "Current 401(k) Balance",
+    "returnRate": "Annual Return Rate (%)",
+    "years": "Years Until Retirement",
+    "finalBalance": "Projected 401(k) Balance",
+    "totalContributions": "Total Personal Contributions",
+    "totalEmployerMatch": "Total Employer Match",
+    "totalGrowth": "Total Growth"
+   },
+   "placeholders": {
+    "salary": "60000",
+    "contribution": "10",
+    "employerMatch": "50",
+    "employerMatchCap": "6",
+    "currentBalance": "0",
+    "returnRate": "7",
+    "years": "30"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a 401(k) Calculator?",
+     "body": [
+      "Calculate how much your 401(k) will be worth at retirement. Includes employer match, annual contributions, and investment growth."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the 401(k) calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate 401(k) retirement savings growth and employer match."
+  },
+  "age-calculator": {
+   "metadata": {
+    "title": "Age Calculator",
+    "description": "Calculate your exact age in years, months, days, and hours, showing your zodiac sign and countdown to your next birthday.",
+    "category": "Utility"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "age calculator",
+    "how old am I",
+    "calculate age",
+    "age in days calculator",
+    "birthday calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate my age?",
+     "answer": "Age = Current Date - Birth Date. The calculator computes full years, months, and days. For example, born May 15, 1990, and today May 15, 2024 = 34 years old."
+    },
+    {
+     "question": "Why might my age differ in different countries?",
+     "answer": "Age calculation is universal, but cultural interpretations can differ. Some cultures use nominal age (1 year old at birth), while others use zero age (0 at birth). This calculator uses the international standard."
+    },
+    {
+     "question": "How do I calculate days between two dates?",
+     "answer": "Days = End Date - Start Date. The calculator accounts for leap years. For example, January 1, 2024 to December 31, 2024 = 365 days (2024 is a leap year)."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    }
+   ],
+   "labels": {
+    "birthDate": "Birth Date",
+    "age": "Age",
+    "years": "Years",
+    "months": "Months",
+    "days": "Days"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an Age Calculator?",
+     "body": [
+      "Calculate your exact age in years, months, days, hours, and minutes. See your zodiac sign, birth day, and days until next birthday."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the age calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate age, date differences, and milestones."
+  },
+  "amortization-calculator": {
+   "metadata": {
+    "title": "Amortization Calculator",
+    "description": "Generate a full amortization schedule, see principal/interest breakdowns and extra payment savings.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "amortization calculator",
+    "amortization schedule",
+    "loan amortization calculator",
+    "mortgage amortization calculator",
+    "amortization table"
+   ],
+   "faqs": [
+    {
+     "question": "What is amortization?",
+     "answer": "Amortization is spreading a loan into a series of fixed payments. Early payments are mostly interest; later payments are mostly principal. The amortization schedule shows this breakdown for each payment."
+    },
+    {
+     "question": "How do extra payments help?",
+     "answer": "Extra payments go directly toward the principal, reducing the balance faster. On a $250,000 mortgage at 6.5% over 30 years, adding just $200 per month saves about $108,000 in interest and pays off the loan 7 years early."
+    },
+    {
+     "question": "Why do my early payments go mostly to interest?",
+     "answer": "Interest is calculated on the remaining balance. Early on, the balance is large, so most of your payment goes toward interest. As the balance shrinks, more goes toward principal. This is normal for amortized loans."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Payment Calculator",
+     "href": "/tools/payment-calculator"
+    }
+   ],
+   "labels": {
+    "principal": "Principal",
+    "annualRate": "Annual Interest Rate",
+    "term": "Term",
+    "monthlyPayment": "Monthly Payment",
+    "totalPayment": "Total Payment",
+    "totalInterest": "Total Interest",
+    "schedule": "Amortization Schedule",
+    "month": "Month",
+    "payment": "Payment",
+    "principalPaid": "Principal Paid",
+    "interestPaid": "Interest Paid",
+    "remainingBalance": "Remaining Balance"
+   },
+   "buttons": {
+    "calculate": "Calculate",
+    "downloadCsv": "Download CSV"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an Amortization Calculator?",
+     "body": [
+      "Generate a full amortization schedule showing principal and interest breakdown for each payment. See how extra payments save money."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the amortization calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Generate a loan amortization schedule and repayment breakdown."
+  },
+  "body-fat-calculator": {
+   "metadata": {
+    "title": "Body Fat Calculator",
+    "description": "Estimate your body fat percentage using the U.S. Navy formula from waist, neck, and hip measurements.",
+    "category": "Health"
+   },
+   "keywords": [
+    "body fat calculator",
+    "body fat percentage",
+    "us navy method",
+    "fat mass",
+    "lean body mass"
+   ],
+   "faqs": [
+    {
+     "question": "How does the U.S. Navy method work?",
+     "answer": "The U.S. Navy body fat formula uses circumference measurements (waist, neck, and hips for women) combined with height to estimate body fat percentage. It is fairly accurate for most people and requires no specialized equipment."
+    },
+    {
+     "question": "How do I measure correctly?",
+     "answer": "Waist: measure at the narrowest point (at navel level for men). Neck: measure below the larynx. Hips (women only): measure at the widest point. Use a soft tape measure, keep it snug but not compressed, and measure in the morning."
+    },
+    {
+     "question": "What is a healthy body fat percentage?",
+     "answer": "Men: 10-20% is considered fit, 6-13% for athletes. Women: 18-28% is fit, 14-20% for athletes. Essential fat minimums are about 2-5% for men and 10-13% for women."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    },
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    }
+   ],
+   "labels": {
+    "waistCm": "Waist (cm)",
+    "waistIn": "Waist (inches)",
+    "neckCm": "Neck (cm)",
+    "neckIn": "Neck (inches)",
+    "hipCm": "Hip (cm)",
+    "hipIn": "Hip (inches)",
+    "heightCm": "Height (cm)",
+    "heightIn": "Height (inches)",
+    "bodyFat": "Body Fat",
+    "category": "Category"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "male": "Male",
+    "female": "Female"
+   },
+   "categories": {
+    "essential": "Essential Fat",
+    "athletes": "Athletes",
+    "fitness": "Fitness",
+    "average": "Average",
+    "obese": "Obese"
+   },
+   "description": "Estimate your body fat percentage using the U.S. Navy method. Enter your measurements to see fat mass, lean body mass, and fitness classification.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Body Fat Calculator?",
+     "body": [
+      "Estimate your body fat percentage using the U.S. Navy method.",
+      "Enter your measurements to see fat mass, lean body mass, and fitness classification."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Body Fat",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose your preferred unit system.",
+      "Select your gender.",
+      "Enter your height, weight, waist, and neck measurements.",
+      "Women should also enter their hip measurement.",
+      "Click calculate to see your body fat percentage."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Measure in the morning for consistency.",
+      "Take multiple measurements and average them.",
+      "Track trends over time rather than focusing on the absolute number."
+     ]
+    }
+   }
+  },
+  "budget-calculator": {
+   "metadata": {
+    "title": "Budget Calculator",
+    "description": "Plan a monthly budget by expense category and compare with the 50/30/20 rule.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "budget calculator",
+    "monthly budget calculator",
+    "budget planner",
+    "expense calculator",
+    "personal budget calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is the 50/30/20 rule?",
+     "answer": "The 50/30/20 rule suggests: 50% to needs (housing, utilities, groceries), 30% to wants (entertainment, dining out), and 20% to savings and debt repayment. It's a starting point for a balanced budget."
+    },
+    {
+     "question": "How do I track expenses?",
+     "answer": "Record every transaction for a month, use bank statements, or try a budgeting app. Categorize spending (housing, food, transportation). Identify areas of overspending and adjust."
+    },
+    {
+     "question": "How often should I review my budget?",
+     "answer": "Review and adjust monthly. Life changes (new job, moving, a baby) need immediate updates. An annual review ensures your budget stays aligned with long-term goals."
+    },
+    {
+     "question": "What if my income is irregular?",
+     "answer": "Use your lowest monthly income as the base. Allocate extra income to savings and debt. Build an emergency fund (3-6 months of expenses) for low-income months."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Paycheck Calculator",
+     "href": "/tools/paycheck-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    },
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    }
+   ],
+   "labels": {
+    "income": "Monthly Income",
+    "expenses": "Expenses",
+    "expenseName": "Expense Name",
+    "totalIncome": "Total Income",
+    "totalExpenses": "Total Expenses",
+    "remaining": "Remaining",
+    "fiftyThirtyTwenty": "50/30/20 Rule",
+    "needs": "Needs",
+    "wants": "Wants",
+    "savings": "Savings"
+   },
+   "buttons": {
+    "addExpense": "Add Expense",
+    "remove": "Remove"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Budget Calculator?",
+     "body": [
+      "Plan your monthly budget with income and expense categories. See where your money goes and compare with the 50/30/20 rule."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the budget calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Create a budget and track expenses."
+  },
+  "calorie-calculator": {
+   "metadata": {
+    "title": "Calorie Calculator",
+    "description": "Calculate your daily calorie needs based on age, gender, height, weight, and activity level.",
+    "category": "Health"
+   },
+   "keywords": [
+    "calorie calculator",
+    "daily calories",
+    "calorie needs",
+    "mifflin-st jeor",
+    "tdee calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How are daily calories calculated?",
+     "answer": "This calculator uses the Mifflin-St Jeor equation to calculate your Basal Metabolic Rate (BMR), then multiplies it by an activity factor to get your Total Daily Energy Expenditure (TDEE). The Mifflin-St Jeor equation is considered the most accurate equation for most people."
+    },
+    {
+     "question": "How many calories should I eat to lose weight?",
+     "answer": "Reducing your daily intake by 500 calories leads to roughly 1 pound of weight loss per week. A 250-calorie reduction is about 0.5 pounds per week. Don't go below 1,200 calories for women or 1,500 calories for men without medical supervision."
+    },
+    {
+     "question": "What is the difference between BMR and TDEE?",
+     "answer": "BMR (Basal Metabolic Rate) is the calories your body burns at complete rest - just to stay alive. TDEE (Total Daily Energy Expenditure) is BMR plus the calories burned through activity. TDEE is what you actually need to eat to maintain your weight."
+    },
+    {
+     "question": "Is the calorie calculator accurate?",
+     "answer": "Calorie calculators provide estimates, not exact numbers. Individual metabolic differences range from +/- 10-15%. Use the result as a starting point, track your weight for 2-3 weeks, then adjust up or down based on actual results."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    },
+    {
+     "name": "Macro Calculator",
+     "href": "/tools/macro-calculator"
+    }
+   ],
+   "labels": {
+    "mode": "Calculation Mode",
+    "bmr": "Basal Metabolic Rate",
+    "gender": "Gender",
+    "weightKg": "Weight (kg)",
+    "heightCm": "Height (cm)",
+    "age": "Age",
+    "activityLevel": "Activity Level",
+    "dailyCalories": "Daily Calories Needed",
+    "unit": "Unit",
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "weightLbs": "Weight (lbs)",
+    "feet": "Feet",
+    "inches": "Inches",
+    "maintain": "Daily Calories to Maintain",
+    "bmrResult": "BMR",
+    "weightLoss": "Weight Loss",
+    "weightGain": "Weight Gain",
+    "losePerWeek": "Lose {value} lb/week",
+    "gainPerWeek": "Gain {value} lb/week",
+    "calPerDay": "{value} cal/day"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "bmr": "Use BMR",
+    "stats": "Calculate from Body Stats",
+    "male": "Male",
+    "female": "Female",
+    "sedentary": "Sedentary (little or no exercise)",
+    "light": "Lightly active (1-3 days/week)",
+    "moderate": "Moderately active (3-5 days/week)",
+    "active": "Very active (6-7 days/week)",
+    "veryActive": "Extremely active (physical labor/intense training)",
+    "sedentaryDesc": "Little or no exercise, desk job",
+    "lightDesc": "Light exercise 1-3 days/week",
+    "moderateDesc": "Moderate exercise 3-5 days/week",
+    "activeDesc": "Hard exercise 6-7 days/week",
+    "veryActiveDesc": "Intense exercise + physical job"
+   },
+   "description": "Calculate your daily calorie needs based on age, gender, height, weight, and activity level. Uses the Mifflin-St Jeor equation.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Calorie Calculator?",
+     "body": [
+      "Calculate your daily calorie needs based on age, gender, height, weight, and activity level.",
+      "Uses the Mifflin-St Jeor equation, considered the most accurate equation for estimating calorie needs."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Daily Calories",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose your preferred unit system.",
+      "Enter your age, gender, height, and weight.",
+      "Select your activity level.",
+      "View your daily calorie needs, updated live as you type."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use the result as a starting point and adjust based on actual weight changes.",
+      "Track your food intake accurately for best results.",
+      "Consult a medical professional before making major dietary changes."
+     ]
+    }
+   }
+  },
+  "concrete-calculator": {
+   "metadata": {
+    "title": "Concrete Calculator",
+    "description": "Estimate concrete volume and the number of bags needed based on length, width, and depth.",
+    "category": "Home & Energy"
+   },
+   "keywords": [
+    "concrete calculator",
+    "concrete volume calculator",
+    "cubic yards calculator",
+    "concrete bags",
+    "slab calculator",
+    "concrete cost estimator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate how much concrete I need?",
+     "answer": "Measure the length, width, and depth (thickness) of the project area. Multiply these three dimensions together to get the volume. For a rectangular slab, use length x width x depth. For a cylinder, use pi x radius squared x height. Always add 5-10% extra material for waste, spillage, and uneven subgrade."
+    },
+    {
+     "question": "How many bags of concrete do I need?",
+     "answer": "First calculate the total cubic feet required. Then divide by the bag yield: a 40-lb bag covers 0.30 cubic feet, a 60-lb bag covers 0.45 cubic feet, and an 80-lb bag covers 0.60 cubic feet. For example, a 10x10 foot slab 4 inches thick needs about 33.3 cubic feet, about 56 bags of 80-lb concrete mix."
+    },
+    {
+     "question": "How thick should a concrete slab be?",
+     "answer": "Sidewalks and patios typically require 4 inches of concrete. Driveways and garage floors should be 6 inches thick. Foundation walls are usually 8 inches, and foundations or footings are typically 12 inches thick. Heavier loads and vehicle traffic require thicker slabs."
+    },
+    {
+     "question": "What is the difference between cubic yards and cubic feet of concrete?",
+     "answer": "1 cubic yard equals 27 cubic feet. Ready-mix concrete bought from a truck is usually sold by the cubic yard, while bagged concrete is measured in cubic feet. To convert cubic feet to cubic yards, divide by 27. For example, 81 cubic feet equals 3 cubic yards."
+    },
+    {
+     "question": "How much does a yard of concrete cost?",
+     "answer": "Ready-mix concrete typically costs $120 to $200 per cubic yard delivered, depending on your location, mix type, and delivery distance. Orders below 5-10 yards may incur a short-load fee. Specialty mixes, fiber reinforcement, or accelerated curing may add $10-30 per yard."
+    },
+    {
+     "question": "Should I add extra concrete for waste?",
+     "answer": "Yes, always add a 5-10% waste factor to your calculated volume. This accounts for spillage, uneven subgrade, form irregularities, and over-excavation. For complex shapes like stairs or irregular forms, consider adding 10-15% extra. It's always better to have extra concrete than not enough during a pour."
+    },
+    {
+     "question": "When should I use bagged vs. ready-mix concrete?",
+     "answer": "Bagged concrete is best for small projects under 1 cubic yard, such as setting fence posts, small pads, or repairs. For projects over 1-2 cubic yards, ready-mix delivery is more cost-effective and practical. Mixing more than 40-50 bags by hand is very labor-intensive."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Unit Converter",
+     "href": "/tools/unit-converter"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Square Footage Calculator",
+     "href": "/tools/square-footage-calculator"
+    }
+   ],
+   "labels": {
+    "unit": "Unit",
+    "length": "Length",
+    "width": "Width",
+    "depth": "Depth",
+    "volume": "Volume",
+    "bags": "Bags"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "metric": "Metric",
+    "imperial": "Imperial"
+   },
+   "units": {
+    "cubicYards": "Cubic Yards",
+    "cubicMeters": "Cubic Meters",
+    "eightyLb": "80 lb",
+    "twentyFiveKg": "25 kg"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How to Use the Concrete Calculator",
+     "content": "This calculator helps you estimate the amount of concrete needed for any project. Choose the shape you're pouring, enter the dimensions, and get instant results in cubic yards, cubic feet, and cubic meters. You can add multiple sections to calculate combined totals for complex projects."
+    },
+    "howTo": {
+     "title": "Supported Shapes",
+     "content": "Slab/Square: for patios, sidewalks, driveways, and garage floors. Enter length, width, and depth. Cylinder/Column: for round columns, piers, sonotubes, and post holes. Enter diameter and height. Wall/Footing: for foundation walls, retaining walls, and footings. Enter length, height, and wall thickness. Stairs: for concrete steps. Enter the number of steps, riser height, tread width, and total stair width."
+    },
+    "tips": {
+     "title": "Tips",
+     "content": "Always order 5-10% more concrete than your calculations to account for waste and uneven ground. For ready-mix deliveries, most companies have a 1 cubic yard minimum, and small orders may incur a short-load fee. One 80-lb bag of premix concrete yields about 0.6 cubic feet of cured concrete."
+    }
+   }
+  }
+ }
+}

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/vat-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/vat-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/vat-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/vat-calculator`,
       },
     },
   };

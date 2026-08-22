@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/dui-cost-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/dui-cost-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/dui-cost-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/dui-cost-calculator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/annuity-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/annuity-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/annuity-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/annuity-calculator`,
       },
     },
   };

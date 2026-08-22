@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/jwt-decoder`,
         ja: `https://www.toolkitlife.com/ja/tools/jwt-decoder`,
         ko: `https://www.toolkitlife.com/ko/tools/jwt-decoder`,
+        ru: `https://www.toolkitlife.com/ru/tools/jwt-decoder`,
       },
     },
   };

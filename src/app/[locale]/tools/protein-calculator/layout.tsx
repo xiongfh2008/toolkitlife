@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/protein-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/protein-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/protein-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/protein-calculator`,
       },
     },
   };

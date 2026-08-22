@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/scroll-capture`,
         ja: `https://www.toolkitlife.com/ja/tools/scroll-capture`,
         ko: `https://www.toolkitlife.com/ko/tools/scroll-capture`,
+        ru: `https://www.toolkitlife.com/ru/tools/scroll-capture`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/uuid-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/uuid-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/uuid-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/uuid-generator`,
       },
     },
   };

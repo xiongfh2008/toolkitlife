@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-compressor`,
         ja: `https://www.toolkitlife.com/ja/tools/image-compressor`,
         ko: `https://www.toolkitlife.com/ko/tools/image-compressor`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-compressor`,
       },
     },
   };

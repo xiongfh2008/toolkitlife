@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/va-disability-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/va-disability-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/va-disability-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/va-disability-calculator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/invoice-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/invoice-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/invoice-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/invoice-generator`,
       },
     },
   };

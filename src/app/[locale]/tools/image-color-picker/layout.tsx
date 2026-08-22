@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-color-picker`,
         ja: `https://www.toolkitlife.com/ja/tools/image-color-picker`,
         ko: `https://www.toolkitlife.com/ko/tools/image-color-picker`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-color-picker`,
       },
     },
   };

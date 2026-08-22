@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/age-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/age-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/age-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/age-calculator`,
       },
     },
   };

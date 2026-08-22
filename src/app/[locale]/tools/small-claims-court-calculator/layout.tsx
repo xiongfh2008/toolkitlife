@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/small-claims-court-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/small-claims-court-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/small-claims-court-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/small-claims-court-calculator`,
       },
     },
   };

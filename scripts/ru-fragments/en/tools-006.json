@@ -1,0 +1,2381 @@
+{
+ "tools": {
+  "debt-payoff-calculator": {
+   "metadata": {
+    "title": "Debt Payoff Calculator",
+    "description": "Calculate how long it takes to pay off debt and total interest, and compare extra payment scenarios.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "debt payoff calculator",
+    "debt calculator",
+    "credit card payoff calculator",
+    "debt repayment calculator",
+    "how long to pay off debt"
+   ],
+   "faqs": [
+    {
+     "question": "What is the avalanche method?",
+     "answer": "The avalanche method pays off the debt with the highest interest rate first while making minimum payments on other debts. This mathematically saves the most interest but may take longer to see progress."
+    },
+    {
+     "question": "What is the snowball method?",
+     "answer": "The snowball method pays off the debt with the smallest balance first while making minimum payments on other debts. This provides quick wins and motivation but costs more in interest than the avalanche method."
+    },
+    {
+     "question": "Should I consolidate my debt?",
+     "answer": "Yes, if you can consolidate at a lower rate (personal loan, balance transfer card). Balance transfer cards offer 0% APR for 12-18 months but charge transfer fees of 3-5%. It only works if you can pay it off before the promo period ends."
+    },
+    {
+     "question": "Where should extra payments go?",
+     "answer": "Always apply extra payments to the principal - not to future payments. This immediately reduces the balance and saves interest. Specify 'apply to principal' when making payments."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Interest Calculator",
+     "href": "/tools/interest-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    }
+   ],
+   "labels": {
+    "balance": "Debt Balance",
+    "interestRate": "Annual Interest Rate (%)",
+    "monthlyPayment": "Monthly Payment",
+    "monthsToPayoff": "Months to Pay Off",
+    "payoffDate": "Payoff Date",
+    "totalInterest": "Total Interest",
+    "totalPaid": "Total Paid"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Debt Payoff Calculator?",
+     "body": [
+      "See how long it takes to pay off debt and how much interest you'll pay. Compare with extra payments to save money."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the debt payoff calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Compare debt repayment strategies and save on interest."
+  },
+  "discount-calculator": {
+   "metadata": {
+    "title": "Discount Calculator",
+    "description": "Calculate the final price after a discount, with support for double discounts, tax, and savings.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "discount calculator",
+    "sale price calculator",
+    "percent off calculator",
+    "discount percentage calculator",
+    "savings calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate a discount?",
+     "answer": "Discount = Original Price * (Discount Percentage / 100). Final Price = Original Price - Discount. For example, 25% off a $100 item: discount = 100 * (25/100) = $25, final price = 100 - 25 = $75."
+    },
+    {
+     "question": "How do consecutive discounts work?",
+     "answer": "Consecutive discounts are not simply added. 50% plus 30% is not an 80% discount. After the first discount, the second discount applies to the reduced price. $100: after 50% = $50, then 30% of $50 = $15, final = $35 (65% off total)."
+    },
+    {
+     "question": "How do I reverse-calculate the original price from the final price?",
+     "answer": "Original Price = Final Price / (1 - Discount Rate). If an item sold for $75 at 25% off: original price = 75 / (1 - 0.25) = 75 / 0.75 = $100."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Sales Tax Calculator",
+     "href": "/tools/sales-tax-calculator"
+    },
+    {
+     "name": "Tip Calculator",
+     "href": "/tools/tip-calculator"
+    }
+   ],
+   "labels": {
+    "originalPrice": "Original Price",
+    "discountPercentage": "Discount (%)",
+    "finalPrice": "Final Price",
+    "amountSaved": "Amount Saved"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Discount Calculator?",
+     "body": [
+      "Calculate the final price after discount. Supports double discounts, sales tax, and shows total savings."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the discount calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate discounts, final prices, and sale savings."
+  },
+  "electricity-cost-calculator": {
+   "metadata": {
+    "title": "Electricity Cost Calculator",
+    "description": "Calculate appliance running costs and see your monthly electricity bill breakdown by appliance and category.",
+    "category": "Home & Energy"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "electricity cost calculator",
+    "electric bill calculator",
+    "electricity usage calculator",
+    "kWh calculator",
+    "appliance energy cost",
+    "how much does it cost to run",
+    "energy cost calculator",
+    "power consumption calculator",
+    "electric bill estimator",
+    "appliance electricity cost calculator",
+    "electricity price by state",
+    "home energy calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is a kilowatt-hour (kWh)?",
+     "answer": "A kilowatt-hour is a unit of energy - running a 1,000-watt appliance for one hour. A 100-watt light bulb running for 10 hours uses 1 kWh. Electricity is billed per kWh."
+    },
+    {
+     "question": "How do I find my electricity rate?",
+     "answer": "Check your electricity bill - it shows the cents per kWh rate. The U.S. average is 17 cents/kWh. Rates vary by state, time of day, and usage."
+    },
+    {
+     "question": "How much electricity do appliances use?",
+     "answer": "Central air conditioning: 3,000-5,000 watts. Refrigerator: 150-400 watts. LED lights: 10-15 watts. Microwave: 1,000 watts. Water heater: 4,500 watts. Use watts * hours / 1,000 = kWh."
+    },
+    {
+     "question": "How can I lower my electricity bill?",
+     "answer": "Switch to LED lights (save 75%). Seal duct leaks. Use a programmable thermostat. Run appliances during off-peak hours. Upgrade to energy-efficient appliances. These can reduce your bill by 20-30%."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    },
+    {
+     "name": "Unit Converter",
+     "href": "/tools/unit-converter"
+    },
+    {
+     "name": "Ohm's Law Calculator",
+     "href": "/tools/ohms-law-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    }
+   ],
+   "labels": {
+    "wattage": "Wattage (Watts)",
+    "hoursPerDay": "Hours Per Day",
+    "days": "Days",
+    "ratePerKwh": "Rate per kWh",
+    "monthlyCost": "Monthly Cost",
+    "dailyCost": "Daily Cost",
+    "yearlyCost": "Yearly Cost",
+    "energyUsage": "Energy Usage"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an Electricity Cost Calculator?",
+     "body": [
+      "Calculate how much your appliances cost to run. See your monthly electric bill breakdown by appliance and category with real state-by-state electricity rates."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the electricity cost calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate electricity costs based on usage and rates."
+  },
+  "hourly-to-salary-calculator": {
+   "metadata": {
+    "title": "Hourly to Salary Calculator",
+    "description": "Convert between hourly wage and annual salary, accounting for vacation time.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "hourly to salary calculator",
+    "salary to hourly calculator",
+    "hourly rate calculator",
+    "annual salary calculator",
+    "wage calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I convert hourly wage to annual salary?",
+     "answer": "Multiply the hourly rate by hours per week, then by weeks per year. $20/hour * 40 hours * 52 weeks = $41,600/year."
+    },
+    {
+     "question": "How do I convert annual salary to hourly wage?",
+     "answer": "Divide the annual salary by the number of work hours per year. Standard 40-hour work week, 52 weeks: $65,000 / 2,080 hours = $31.25/hour."
+    },
+    {
+     "question": "Are paid holidays included in the calculation?",
+     "answer": "If you have paid vacation, use 52 weeks - you're still paid for those weeks. If you only have unpaid vacation, reduce the number of weeks. Most full-time jobs include paid vacation."
+    },
+    {
+     "question": "How do taxes affect the conversion?",
+     "answer": "These calculations are pre-tax (gross income). After-tax (net income) depends on your tax bracket, deductions, and credits. Use a paycheck calculator to estimate after-tax income."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    },
+    {
+     "name": "Paycheck Calculator",
+     "href": "/tools/paycheck-calculator"
+    },
+    {
+     "name": "Overtime Calculator",
+     "href": "/tools/overtime-calculator"
+    }
+   ],
+   "labels": {
+    "hourlyRate": "Hourly Rate",
+    "hoursPerWeek": "Hours Per Week",
+    "weeksPerYear": "Weeks Worked Per Year",
+    "annualSalary": "Annual Salary",
+    "monthlySalary": "Monthly Salary",
+    "weeklySalary": "Weekly Salary"
+   },
+   "placeholders": {
+    "hourlyRate": "25",
+    "hoursPerWeek": "40",
+    "weeksPerYear": "52"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an Hourly to Salary Calculator?",
+     "body": [
+      "Convert hourly wage to annual salary and vice versa. Accounts for hours worked and vacation time."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the hourly to salary calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Convert between hourly wage and annual salary."
+  },
+  "income-tax-calculator": {
+   "metadata": {
+    "title": "Income Tax Calculator",
+    "description": "Estimate federal income tax using 2026 rates, with marginal and effective tax rates.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "income tax calculator",
+    "federal tax calculator",
+    "tax bracket calculator",
+    "tax estimator",
+    "how much tax do I owe"
+   ],
+   "faqs": [
+    {
+     "question": "How do tax brackets work?",
+     "answer": "Tax brackets are marginal - only the income within each bracket is taxed at that rate. Being 'in the 24% bracket' does not mean all your income is taxed at 24%. The first $11,925 (single) is taxed at 10%, the next portion at 12%, and so on."
+    },
+    {
+     "question": "What is the difference between marginal and effective tax rates?",
+     "answer": "Your marginal tax rate is the bracket your last dollar falls into. Your effective tax rate is total tax divided by total income. Someone earning $85,000 (single) has a marginal rate of 22% but an effective rate of only about 14%."
+    },
+    {
+     "question": "Should I take the standard deduction or itemize?",
+     "answer": "Take whichever is larger. The 2026 standard deduction is $15,700 (single) or $31,400 (married). Only itemize if your deductible expenses (mortgage interest, state/local taxes up to $10,000, charitable donations) exceed the standard deduction."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Paycheck Calculator",
+     "href": "/tools/paycheck-calculator"
+    },
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    },
+    {
+     "name": "Sales Tax Calculator",
+     "href": "/tools/sales-tax-calculator"
+    }
+   ],
+   "labels": {
+    "income": "Income",
+    "deductions": "Deductions",
+    "federalTax": "Federal Tax",
+    "taxableIncome": "Taxable Income",
+    "effectiveRate": "Effective Rate",
+    "takeHome": "Take-Home Income"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an Income Tax Calculator?",
+     "body": [
+      "Estimate your federal income tax using 2026 brackets. See marginal and effective rates with a bracket-by-bracket breakdown."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the income tax calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Estimate your federal income tax using the 2026 tax brackets."
+  },
+  "inflation-calculator": {
+   "metadata": {
+    "title": "Inflation Calculator",
+    "description": "See how inflation affects purchasing power, with future value and past value modes.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "inflation calculator",
+    "cpi calculator",
+    "purchasing power calculator",
+    "dollar value over time",
+    "what was a dollar worth in",
+    "inflation rate by year",
+    "cost of living calculator",
+    "historical inflation calculator"
+   ],
+   "faqs": [
+    {
+     "question": "Where does the CPI data come from?",
+     "answer": "This calculator uses annual averages of the Consumer Price Index for All Urban Consumers (CPI-U) published by the U.S. Bureau of Labor Statistics. CPI data goes back to 1913 and is updated each year. The reference period is 1982-84 = 100."
+    },
+    {
+     "question": "What is the average inflation rate in the U.S.?",
+     "answer": "From 1913 to 2025, the average annual inflation rate in the U.S. has been about 3.2%. But this varies by decade: the 1970s averaged over 7%, while the 2010s averaged under 2%. Recent years saw a spike reaching 8% in 2022, then cooling to about 2.5% in 2025."
+    },
+    {
+     "question": "How does inflation affect purchasing power?",
+     "answer": "Inflation reduces what each dollar can buy. If inflation is 3% per year, $100 today buys only $97 worth of goods next year. Over 25 years at 3%, $100 loses more than half its purchasing power - you would need about $209 to buy what $100 bought 25 years ago."
+    },
+    {
+     "question": "Why did inflation spike in 2021-2022?",
+     "answer": "The 2021-2022 inflation spike was driven by pandemic-era stimulus spending, supply chain disruptions, labor shortages, and energy price increases following geopolitical events. CPI rose 4.7% in 2021 and 8.0% in 2022 - the highest since 1981."
+    },
+    {
+     "question": "Is CPI the only way to measure inflation?",
+     "answer": "No. Other measures include the Personal Consumption Expenditures (PCE) price index (the Fed's preferred gauge), the Producer Price Index (PPI), and core CPI (excluding volatile food and energy prices). Each captures a different aspect of price changes."
+    },
+    {
+     "question": "How is the inflation adjustment calculated?",
+     "answer": "The formula is: Adjusted Amount = Original Amount * (Target Year CPI / Original Year CPI). For example, $100 in 1990 with a CPI of 130.7, adjusted to 2025 with a CPI of 321.4: $100 * (321.4 / 130.7) = $245.83."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    },
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    }
+   ],
+   "labels": {
+    "amount": "Amount",
+    "inflationRate": "Inflation Rate",
+    "years": "Years",
+    "futureValue": "Future Value",
+    "purchasingPowerLoss": "Purchasing Power Loss"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an Inflation Calculator?",
+     "body": [
+      "Calculate how inflation has changed the value of money using real U.S. CPI data from 1913 to 2025. See what past dollars are worth today and how purchasing power has changed over time."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the inflation calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate inflation, purchasing power, and changes in the value of money."
+  },
+  "interest-calculator": {
+   "metadata": {
+    "title": "Interest Calculator",
+    "description": "Calculate simple and compound interest with year-by-year breakdowns and APY comparison.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "interest calculator",
+    "simple interest calculator",
+    "compound interest calculator",
+    "interest rate calculator",
+    "savings interest calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is the difference between simple and compound interest?",
+     "answer": "Simple interest is calculated only on the original principal: I = P * r * t. Compound interest is calculated on the principal plus accumulated interest, so you earn 'interest on interest'. Over time, compounding grows faster."
+    },
+    {
+     "question": "What is APY?",
+     "answer": "APY (Annual Percentage Yield) is the effective annual rate when compounding is considered. A 5% rate compounded monthly has an APY of 5.12%. APY lets you compare accounts with different compounding frequencies."
+    },
+    {
+     "question": "How often should interest be compounded?",
+     "answer": "More frequent compounding earns slightly more. $10,000 at 5% for 10 years: monthly compounding = $16,470, annual compounding = $16,289 - a difference of $181. Daily compounding adds even less on top of monthly."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    },
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    }
+   ],
+   "labels": {
+    "mode": "Mode",
+    "principal": "Principal",
+    "annualRate": "Annual Interest Rate",
+    "time": "Time",
+    "frequency": "Compounding Frequency",
+    "interestEarned": "Interest Earned",
+    "totalAmount": "Total Amount"
+   },
+   "options": {
+    "simple": "Simple",
+    "compound": "Compound",
+    "annually": "Annually",
+    "semiannually": "Semi-annually",
+    "quarterly": "Quarterly",
+    "monthly": "Monthly",
+    "daily": "Daily"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an Interest Calculator?",
+     "body": [
+      "Calculate simple and compound interest on savings or investments. Compare growth over time with year-by-year breakdown."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the interest calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate simple interest, compound interest, and investment interest."
+  },
+  "macro-calculator": {
+   "metadata": {
+    "title": "Macro Calculator",
+    "description": "Calculate your daily protein, carbs, and fat intake based on your goals, with multiple diet ratio presets.",
+    "category": "Health"
+   },
+   "keywords": [
+    "macro calculator",
+    "macronutrients",
+    "protein calculator",
+    "carb calculator",
+    "fat calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What are macronutrients?",
+     "answer": "Macronutrients (macros) are the three main nutrients that provide calories: protein (4 cal/g), carbohydrates (4 cal/g), and fat (9 cal/g). Tracking macros helps you control body composition, not just total calories."
+    },
+    {
+     "question": "How much protein do I need?",
+     "answer": "For muscle gain: 0.7-1.0 grams per pound of body weight. For maintenance: 0.5-0.7 grams per pound. For fat loss: 0.8-1.2 grams per pound (higher protein preserves muscle during a calorie deficit)."
+    },
+    {
+     "question": "Which macro split should I choose?",
+     "answer": "Balanced (30/40/30) works for most people. High protein (40/35/25) is best for muscle gain. Low carb (40/20/40) suits people who feel better on fewer carbs. Keto (30/5/65) is for people adapted to ketosis, with very low carbs."
+    },
+    {
+     "question": "Do I need to hit my macros exactly?",
+     "answer": "No. Hit your protein target within +/- 5 grams (most important), and carbs and fat can be flexible. Hitting your calorie target matters most, followed by protein. Carbs and fat can flex based on preference."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "TDEE Calculator",
+     "href": "/tools/tdee-calculator"
+    },
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    }
+   ],
+   "labels": {
+    "calories": "Daily Calories",
+    "protein": "Protein (%)",
+    "carbs": "Carbohydrates (%)",
+    "fats": "Fat (%)",
+    "presets": "Presets",
+    "dailyTargets": "Daily Macro Targets",
+    "proteinGrams": "Protein",
+    "carbsGrams": "Carbohydrates",
+    "fatsGrams": "Fat"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "balanced": "Balanced",
+    "lowCarb": "Low Carb",
+    "highCarb": "High Carb",
+    "keto": "Keto"
+   },
+   "errors": {
+    "invalid": "Please enter valid positive numbers.",
+    "total": "Percentages must add up to 100% (currently {total}%)."
+   },
+   "description": "Calculate your daily protein, carbohydrate, and fat targets based on your TDEE and fitness goals. Multiple diet split presets provided.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a Macro Calculator?",
+     "body": [
+      "Calculate your daily protein, carbohydrate, and fat targets based on your TDEE and fitness goals.",
+      "Offers multiple diet split presets to match your preferences and goals."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate Macros",
+     "intro": "Follow these steps:",
+     "items": [
+      "Enter your personal details and activity level.",
+      "Select your fitness goal.",
+      "Choose a macro split that fits your preferences.",
+      "Click calculate to see your daily macro targets."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Prioritize hitting your protein target.",
+      "Flex carbs and fat based on your preferences.",
+      "Track your food intake accurately for best results."
+     ]
+    }
+   }
+  },
+  "medicaid-work-requirement-calculator": {
+   "metadata": {
+    "title": "Medicaid Work Requirement Calculator",
+    "description": "Check if you must meet the new 80-hour work requirement, whether you qualify for an exemption, and what to do next.",
+    "category": "Health"
+   },
+   "keywords": [
+    "medicaid work requirements",
+    "obbba calculator",
+    "medicaid 80-hour requirement",
+    "medicaid exemption calculator",
+    "medicaid work rules",
+    "medicaid eligibility calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is the Medicaid work requirement?",
+     "answer": "Under the One Big Beautiful Bill Act (OBBBA), adults aged 19-64 who joined Medicaid through the ACA expansion must complete 80 hours of qualifying activities per month, such as employment, job training, education, or community service. This takes effect January 1, 2027 for most states, though some states (like Nebraska) are implementing it early. Non-compliance can result in losing Medicaid coverage."
+    },
+    {
+     "question": "Who is exempt from the Medicaid work requirement?",
+     "answer": "Mandatory exemptions include: people who are pregnant, parents/caretakers of children 13 or younger, caretakers of people with disabilities, people who are blind, disabled, or medically frail (including those with substance use disorders, serious mental illness, or complex conditions), disabled veterans, American Indians/Alaska Natives, former foster youth under 26, people in substance abuse treatment programs, people already meeting TANF or SNAP work requirements, people currently incarcerated or released within 90 days, and certain Medicare beneficiaries. Additionally, earning at least $580 per month from employment satisfies the requirement through the income-based alternative."
+    },
+    {
+     "question": "What activities count toward the 80 hours?",
+     "answer": "Qualifying activities include: paid employment (part-time or full-time), job training or workforce development programs, enrollment in higher education or vocational/technical education (at least half-time), community service or volunteer activities, and participation in work programs. There is also an income-based alternative: earning at least $580 per month satisfies the requirement regardless of hours. Caring for a child under 13 or a disabled family member makes you exempt. 80 hours per month is roughly equivalent to 20 hours per week."
+    },
+    {
+     "question": "What happens if I don't meet the 80 hours?",
+     "answer": "If your state cannot verify your compliance, you'll receive a notice and have a 30-day cure period to prove compliance or request an exemption. If you don't respond within 30 days, you'll be disenrolled from Medicaid. To restore coverage, you must reapply from scratch. Importantly, people who lose Medicaid due to work requirement non-compliance are also ineligible for ACA marketplace premium tax credits, meaning you also can't get subsidized health insurance through Healthcare.gov."
+    },
+    {
+     "question": "When does this take effect?",
+     "answer": "The federal mandate takes effect January 1, 2027. However, states can implement the requirement early. Nebraska began enforcement on May 1, 2026. States are required to begin notifying beneficiaries between June 30 and August 31, 2026. HHS must release the full interim final rule by June 1, 2026."
+    },
+    {
+     "question": "Does this apply in every state?",
+     "answer": "It applies to all states that have expanded Medicaid (40 states plus Washington, D.C.). The 10 states that have not expanded Medicaid (Alabama, Florida, Georgia, Kansas, Mississippi, South Carolina, Tennessee, Texas, Wisconsin, Wyoming) are not directly affected because they have no Medicaid expansion population. States cannot waive this requirement after January 1, 2027."
+    },
+    {
+     "question": "Will I permanently lose health insurance?",
+     "answer": "You will lose Medicaid and must reapply. There is no automatic reinstatement. Additionally, the law bars people disenrolled for non-compliance from receiving ACA marketplace premium tax credits, meaning you may not be able to get affordable health insurance through any subsidized program until you regain Medicaid eligibility. This makes compliance or requesting an exemption extremely important."
+    },
+    {
+     "question": "How do I report my hours?",
+     "answer": "States must first try to verify your compliance through automatic data matching (wage records, TANF/SNAP records, education enrollment). If your hours can't be verified automatically, you may need to self-report. Your state Medicaid office will provide specific reporting instructions. States verify compliance at least every 6 months."
+    },
+    {
+     "question": "Does part-time work count?",
+     "answer": "Yes. Any paid employment counts toward the 80 monthly hours, including part-time work. If you work 20 hours a week, you meet the requirement. There is no minimum wage or income threshold - only the hours matter."
+    },
+    {
+     "question": "What if I'm between jobs?",
+     "answer": "If you're temporarily unemployed, you can meet the requirement through job training, education (at least half-time), community service, or volunteer activities. You can combine different qualifying activities to reach 80 hours. If you've recently been released from incarceration (within 90 days), you're temporarily exempt."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "OBBBA Tax Calculator",
+     "href": "/tools/obbba-tax-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    },
+    {
+     "name": "Income Tax Calculator",
+     "href": "/tools/income-tax-calculator"
+    }
+   ],
+   "labels": {
+    "hoursPerWeek": "Hours Per Week",
+    "weeksPerMonth": "Weeks Per Month",
+    "monthlyHours": "Monthly Hours",
+    "status": "Status",
+    "hoursNeeded": "Hours Still Needed"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "meets": "Meets",
+    "doesNotMeet": "Does Not Meet"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "Understanding the Medicaid Work Requirement",
+     "content": "The One Big Beautiful Bill Act (OBBBA) was signed into law in 2025 and adds new work requirements for adults who joined Medicaid through the ACA expansion. Starting January 1, 2027, you must complete 80 hours of qualifying activities per month to keep your Medicaid coverage. Some states are implementing this early - Nebraska began enforcement in May 2026."
+    },
+    "howTo": {
+     "title": "Who Is Affected and Qualifying Activities",
+     "content": "This requirement applies to adults aged 19-64 who joined Medicaid through the expansion program (typically people with income up to 138% of the federal poverty level). About 18.5 million people nationwide are enrolled in expansion Medicaid. You can satisfy the 80-hour requirement through any combination of: paid employment (any job, part-time or full-time), job training (workforce development programs, apprenticeships, or vocational training), higher education or vocational/technical education (must be enrolled at least half-time), and community service (volunteering at nonprofits, faith-based organizations, or government programs). There is also an income-based alternative: earning at least $580 per month (80 hours at the federal minimum wage of $7.25/hour) satisfies the requirement regardless of actual hours worked."
+    },
+    "tips": {
+     "title": "Exemptions and Consequences of Non-Compliance",
+     "content": "Many people are exempt and don't need to meet the 80-hour requirement. Exemptions include: people who are pregnant or within 12 months postpartum, parents or caretakers of children 13 or younger, caretakers of family members with disabilities, people with disabilities (physical, intellectual, or developmental), people with substance use disorders, serious mental illness, or complex conditions, disabled veterans, American Indians and Alaska Natives, former foster youth under 26, people in substance abuse treatment programs, people already meeting TANF or SNAP work requirements, people currently incarcerated or released within the past 90 days, and certain Medicare beneficiaries. If your state can't verify that you meet the 80-hour requirement, you'll receive a notice. You then have 30 days to prove compliance or request an exemption. If you don't respond, you'll be disenrolled from Medicaid and must reapply from scratch to restore coverage. Importantly, if you lose Medicaid for failing the work requirement, you'll also be barred from premium tax credits for ACA marketplace insurance (Healthcare.gov)."
+    }
+   }
+  },
+  "obbba-tax-calculator": {
+   "metadata": {
+    "title": "OBBBA Tax Savings Calculator",
+    "description": "Estimate tax savings from tips, overtime, and more under the One Big Beautiful Bill Act.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "obba",
+    "tax bill",
+    "tax relief",
+    "tax benefits",
+    "tax calculation",
+    "tax savings",
+    "tax legislation",
+    "tip tax exemption",
+    "overtime tax exemption",
+    "senior citizen deduction",
+    "auto loan interest deduction"
+   ],
+   "faqs": [
+    {
+     "question": "What is the OBBA bill?",
+     "answer": "The One Big Beautiful Bill Act (OBBA) is a proposed tax legislation that includes tip tax exemptions, overtime pay exemptions, a senior citizen deduction, and an auto loan interest deduction. It aims to reduce the tax burden on working Americans and seniors."
+    },
+    {
+     "question": "How does the tip tax exemption work?",
+     "answer": "OBBA allows service workers to exclude up to $30,000 of tip income (single) or $60,000 (married filing jointly) from taxable income. This applies to workers who receive tips - servers, bartenders, hotel staff."
+    },
+    {
+     "question": "What is the senior citizen deduction?",
+     "answer": "Taxpayers 65 and older can claim an additional standard deduction of up to $6,000 (single) or $12,000 (married filing jointly). This reduces taxable income, directly lowering the tax bill."
+    },
+    {
+     "question": "What is the auto loan interest deduction?",
+     "answer": "OBBA allows deducting up to $10,000 of auto loan interest (available to taxpayers with AGI below $100,000). This applies to individuals purchasing new cars."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Tax Calculator",
+     "href": "/tools/tax-calculator"
+    },
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    },
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    }
+   ],
+   "labels": {
+    "businessIncome": "Business Income",
+    "expenses": "Expenses",
+    "taxRate": "Tax Rate (%)",
+    "estimatedTax": "Estimated Tax",
+    "netIncome": "Net Income",
+    "afterTaxProfit": "After-Tax Profit",
+    "effectiveRate": "Effective Rate"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is the OBBBA Tax Savings Calculator?",
+     "body": [
+      "The OBBBA Tax Savings Calculator helps you estimate how much you could save under the One Big Beautiful Bill Act. This proposed legislation includes tax breaks for tips, overtime pay, senior citizens, and auto loan interest. Enter your income and expenses to see your potential tax reduction."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the OBBBA Tax Savings Calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Estimate your tax savings under the OBBA Act."
+  },
+  "paint-calculator": {
+   "metadata": {
+    "title": "Paint Calculator",
+    "description": "Estimate the amount of paint needed based on wall area, door/window area, number of coats, and coverage.",
+    "category": "Home & Energy"
+   },
+   "keywords": [
+    "paint calculator",
+    "paint coverage calculator",
+    "paint gallons",
+    "room paint estimator",
+    "paint cost calculator",
+    "interior paint calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How much paint do I need for a 12x12 room?",
+     "answer": "A 12x12 room with 8-foot ceilings has about 384 square feet of wall area. Subtract a door (about 21 sq ft) and a window (about 15 sq ft), and you have roughly 348 square feet of paintable surface. With 2 coats and standard coverage of 350 sq ft per gallon, you'll need about 2 gallons of paint."
+    },
+    {
+     "question": "How many square feet does a gallon of paint cover?",
+     "answer": "A gallon of interior latex paint typically covers 350-400 square feet per coat on smooth surfaces. Textured walls, unpainted drywall, or porous surfaces can reduce coverage to 200-300 sq ft per gallon. Premium paints sometimes offer higher coverage, around 400+ sq ft per gallon."
+    },
+    {
+     "question": "Should I buy gallons or quarts of paint?",
+     "answer": "Gallons are more cost-effective per unit volume. Quarts typically cost about 30% of the gallon price but only contain 25% of the paint. Buy gallons for large areas, and quarts only for small touch-ups or accent walls under 100 square feet. This calculator shows the best combination."
+    },
+    {
+     "question": "How do I calculate paint for a room with vaulted ceilings?",
+     "answer": "For vaulted or cathedral ceilings, use this calculator's manual mode. Measure each wall separately, calculate the area of triangular or trapezoid walls (base * average height), then enter the total wall area. Remember to subtract doors and windows as usual."
+    },
+    {
+     "question": "Do I need to calculate primer separately?",
+     "answer": "Yes. Primer coverage differs from paint, typically 200-300 square feet per gallon. If painting over dark colors, new drywall, or stained surfaces, add a primer coat before the paint coats. Some paint-and-primer combo products may skip this step, but separate primer works better on problem surfaces."
+    },
+    {
+     "question": "How much extra paint should I buy?",
+     "answer": "Buy 10-15% extra paint to account for touch-ups, mistakes, and future repairs. This calculator rounds up to the nearest gallon, which usually provides that buffer. Store leftover paint sealed for future touch-ups, since exact color matching can be difficult later."
+    },
+    {
+     "question": "How do I estimate paint for textured walls?",
+     "answer": "Textured walls absorb more paint. For light texture, reduce coverage to about 300 sq ft per gallon. For heavy texture like stucco or popcorn, use 200-250 sq ft per gallon. Adjust the coverage field in this calculator to match your wall texture for a more accurate estimate."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Square Footage Calculator",
+     "href": "/tools/square-footage-calculator"
+    },
+    {
+     "name": "Concrete Calculator",
+     "href": "/tools/concrete-calculator"
+    },
+    {
+     "name": "Unit Converter",
+     "href": "/tools/unit-converter"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    }
+   ],
+   "labels": {
+    "unit": "Unit",
+    "wallArea": "Wall Area",
+    "openingsArea": "Doors and Windows Area",
+    "coats": "Coats",
+    "coverage": "Coverage",
+    "paintNeeded": "Paint Needed",
+    "netArea": "Net Area",
+    "error": "Door and window area cannot be larger than wall area."
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "metric": "Metric",
+    "imperial": "Imperial"
+   },
+   "units": {
+    "gallons": "Gallons",
+    "liters": "Liters",
+    "squareFeet": "Square Feet",
+    "squareMeters": "Square Meters"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How to Use the Paint Calculator",
+     "content": "Start by adding your rooms. For each room, enter the length, width, and ceiling height to automatically calculate the wall area, or switch to manual mode if you already know the total wall area. Add any doors and windows to subtract their area from the total. The calculator accounts for multiple coats and your paint coverage to give you the exact number of gallons."
+    },
+    "howTo": {
+     "title": "Paint Coverage by Type",
+     "content": "Flat/Matte latex: 350-400 sq ft per gallon (ceilings, low-traffic rooms). Eggshell latex: 350-400 sq ft per gallon (living rooms, bedrooms). Satin latex: 350-400 sq ft per gallon (kitchens, bathrooms, hallways). Semi-gloss latex: 350-400 sq ft per gallon (trim, doors, cabinets). High gloss: 300-350 sq ft per gallon (trim, furniture, accents). Oil/Alkyd: 350-450 sq ft per gallon (trim, cabinets, high-wear areas). Primer (latex or shellac/oil): 200-300 sq ft per gallon (new drywall, stain blocking)."
+    },
+    "tips": {
+     "title": "Surface Preparation Tips",
+     "content": "Before painting, clean the walls with a damp cloth or TSP solution to remove dust, grease, and dirt. Fill nail holes and cracks with lightweight spackle. Lightly sand glossy surfaces (120-150 grit) to help new paint adhere. Apply painter's tape to trim, ceiling edges, and any areas you want to protect. Use a stain-blocking primer on water stains, smoke damage, or when going from dark to light colors. Let the primer and each coat of paint dry completely (usually 2-4 hours for latex) before applying the next coat."
+    }
+   }
+  },
+  "paycheck-calculator": {
+   "metadata": {
+    "title": "Paycheck Calculator",
+    "description": "Estimate your take-home pay per paycheck, including federal tax, FICA, state tax, and 401k deductions.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "paycheck calculator",
+    "take home pay calculator",
+    "net pay calculator",
+    "salary after tax calculator",
+    "paycheck estimator"
+   ],
+   "faqs": [
+    {
+     "question": "Is this paycheck calculator accurate?",
+     "answer": "This provides a reasonable estimate using 2026 federal tax brackets, the standard deduction, and FICA rates. Actual paychecks may differ due to local taxes, pre-tax benefits (health insurance), W-4 withholding choices, and employer-specific deductions."
+    },
+    {
+     "question": "What is FICA?",
+     "answer": "FICA stands for the Federal Insurance Contributions Act. It includes Social Security tax (6.2%, up to $168,600) and Medicare tax (1.45%, plus an extra 0.9% on income over $200,000). Your employer matches these amounts."
+    },
+    {
+     "question": "Does this include state taxes?",
+     "answer": "Yes, you can set a state income tax rate. Note that 9 states (AK, FL, NV, NH, SD, TN, TX, WA, WY) have no state income tax - set the rate to 0% for those states."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    },
+    {
+     "name": "Tax Calculator",
+     "href": "/tools/tax-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    }
+   ],
+   "labels": {
+    "grossPay": "Gross Pay",
+    "frequency": "Pay Frequency",
+    "taxRate": "Tax Rate (%)",
+    "deductions": "Other Deductions",
+    "netPay": "Net Pay",
+    "taxes": "Taxes"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "weekly": "Weekly",
+    "biweekly": "Biweekly",
+    "semimonthly": "Semi-monthly",
+    "monthly": "Monthly",
+    "annual": "Annual"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Paycheck Calculator?",
+     "body": [
+      "Estimate your take-home pay per paycheck. Includes federal tax, FICA, state tax, and 401k contributions."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the paycheck calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate after-tax salary, deductions, and net income."
+  },
+  "payment-calculator": {
+   "metadata": {
+    "title": "Payment Calculator",
+    "description": "Calculate monthly payments for any amount, interest rate, and term.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "payment calculator",
+    "monthly payment calculator",
+    "loan payment calculator",
+    "calculate monthly payment"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate monthly payments?",
+     "answer": "Monthly payments are calculated using the standard amortization formula: M = P[r(1+r)^n]/[(1+r)^n-1], where P is the loan amount, r is the monthly interest rate, and n is the total number of payments."
+    },
+    {
+     "question": "Does a longer term mean lower payments?",
+     "answer": "Yes, longer terms have lower monthly payments, but you pay more total interest. A $25,000 loan at 6.5% has a $489 monthly payment over 5 years ($4,349 interest), versus $280 over 10 years ($8,580 interest)."
+    },
+    {
+     "question": "What does this calculator not include?",
+     "answer": "This only calculates principal and interest. Actual payments may include taxes, insurance, fees, and other escrow items depending on the loan type."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Auto Loan Calculator",
+     "href": "/tools/auto-loan-calculator"
+    }
+   ],
+   "labels": {
+    "principal": "Loan Amount",
+    "annualRate": "Annual Interest Rate (%)",
+    "term": "Term",
+    "termUnit": "Term Unit",
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest",
+    "totalPayment": "Total Payment"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "years": "Years",
+    "months": "Months"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Payment Calculator?",
+     "body": [
+      "Calculate monthly loan payments for any amount, interest rate, and term. See total interest and total cost."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the payment calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate loan monthly payments, interest, and repayment plan."
+  },
+  "profit-margin-calculator": {
+   "metadata": {
+    "title": "Profit Margin Calculator",
+    "description": "Calculate profit margin, markup rate, and profit from cost and revenue.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "profit margin calculator",
+    "markup calculator",
+    "margin calculator",
+    "gross profit calculator",
+    "profit percentage calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is the difference between profit margin and markup?",
+     "answer": "Profit margin is profit as a percentage of revenue (selling price). Markup is profit as a percentage of cost. $60 profit on $100 revenue is a 60% margin, but a 150% markup on a $40 cost."
+    },
+    {
+     "question": "How do I calculate profit margin?",
+     "answer": "Margin = ((Revenue - Cost) / Revenue) * 100. For example, selling at $100 with a cost of $40: ((100-40)/100) * 100 = 60% margin."
+    },
+    {
+     "question": "What is a good profit margin?",
+     "answer": "It varies by industry. Software: 70-90%. Retail: 2-5%. Restaurants: 3-9%. Services: 15-30%. Manufacturing: 5-10%. Compare with industry averages."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Discount Calculator",
+     "href": "/tools/discount-calculator"
+    },
+    {
+     "name": "Sales Tax Calculator",
+     "href": "/tools/sales-tax-calculator"
+    }
+   ],
+   "labels": {
+    "cost": "Cost",
+    "price": "Selling Price",
+    "profitMargin": "Profit Margin",
+    "profit": "Profit",
+    "markup": "Markup"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Profit Margin Calculator?",
+     "body": [
+      "Calculate profit margin, markup percentage, and profit from cost and revenue. Switch between margin, markup, and revenue modes."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the profit margin calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate gross margin, net margin, and markup percentage."
+  },
+  "roi-calculator": {
+   "metadata": {
+    "title": "ROI Calculator",
+    "description": "Calculate return on investment and annualized return.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "roi calculator",
+    "return on investment calculator",
+    "investment return calculator",
+    "roi percentage calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate ROI?",
+     "answer": "ROI = ((Final Value - Initial Investment) / Initial Investment) * 100. For example, investing $1,000 with a final value of $1,500: ROI = ((1,500 - 1,000) / 1,000) * 100 = 50%."
+    },
+    {
+     "question": "What is annualized ROI?",
+     "answer": "Annualized ROI converts returns into a yearly equivalent so you can compare investments across different periods. Formula: annualized ROI = ((Final Value / Initial Value)^(1/Years) - 1) * 100."
+    },
+    {
+     "question": "What is the difference between ROI and CAGR?",
+     "answer": "ROI measures the total return percentage without considering time. CAGR (Compound Annual Growth Rate) measures the annual equivalent growth rate. For multi-year investments, CAGR provides better comparability."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Profit Margin Calculator",
+     "href": "/tools/profit-margin-calculator"
+    }
+   ],
+   "labels": {
+    "investedAmount": "Invested Amount",
+    "returnedAmount": "Returned Amount",
+    "roi": "Return on Investment (ROI)",
+    "profitLoss": "Profit/Loss"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an ROI Calculator?",
+     "body": [
+      "Calculate Return on Investment (ROI) and annualized return from initial investment and final value."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the ROI calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate return on investment, annualized return, and profit."
+  },
+  "sales-tax-calculator": {
+   "metadata": {
+    "title": "Sales Tax Calculator",
+    "description": "Calculate sales tax on any purchase, with options to add tax or extract tax from a total.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "sales tax calculator",
+    "tax calculator",
+    "sales tax",
+    "calculate sales tax",
+    "tax amount calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate sales tax?",
+     "answer": "Sales tax = Price * (Tax Rate / 100). For example, a $50 item at 7% tax: sales tax = 50 * (7/100) = $3.50, total = 50 + 3.50 = $53.50."
+    },
+    {
+     "question": "How do I remove sales tax from a total?",
+     "answer": "Pre-tax price = Total / (1 + Tax Rate/100). If the total is $107 at 7% tax: pre-tax price = 107 / (1 + 7/100) = 107 / 1.07 = $100."
+    },
+    {
+     "question": "Which states have no sales tax?",
+     "answer": "Five states have no state sales tax: Alaska, Delaware, Montana, New Hampshire, and Oregon. Note that local jurisdictions may still impose their own sales taxes."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Tip Calculator",
+     "href": "/tools/tip-calculator"
+    },
+    {
+     "name": "Discount Calculator",
+     "href": "/tools/discount-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    }
+   ],
+   "labels": {
+    "amount": "Amount",
+    "totalAmount": "Total Amount",
+    "taxRate": "Tax Rate (%)",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "total": "Total"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "add": "Add Tax",
+    "extract": "Extract Tax"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Sales Tax Calculator?",
+     "body": [
+      "Calculate sales tax on any purchase. Add tax to a price or extract tax from a total. Quick state rate presets included."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the sales tax calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate sales tax, after-tax price, and pre-tax price."
+  },
+  "simple-interest-calculator": {
+   "metadata": {
+    "title": "Simple Interest Calculator",
+    "description": "Calculate simple interest and see the formula, with comparison to compound interest.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "simple interest calculator",
+    "simple interest formula",
+    "calculate simple interest",
+    "interest calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is simple interest?",
+     "answer": "Simple interest is calculated only on the initial principal. Formula: Interest = Principal * Rate * Time. Unlike compound interest, your earnings don't generate earnings of their own."
+    },
+    {
+     "question": "What is the difference between simple and compound interest?",
+     "answer": "Simple interest is calculated only on the principal. Compound interest is calculated on the principal and accumulated interest. $1,000 at 5% for 3 years: simple interest = $150. Compound interest = $157.63. The difference grows with time and rate."
+    },
+    {
+     "question": "Where is simple interest used?",
+     "answer": "Simple interest is used for auto loans, personal loans, and short-term loans. Most mortgages and credit cards use compound interest. Always confirm which type your loan uses."
+    },
+    {
+     "question": "How do I calculate the amount due?",
+     "answer": "Amount Due = Principal + Interest. Or: Amount Due = Principal * (1 + Rate * Time). $1,000 at 5% for 3 years: amount due = 1,000 * (1 + 0.05 * 3) = $1,150."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Interest Calculator",
+     "href": "/tools/interest-calculator"
+    },
+    {
+     "name": "Compound Interest Calculator",
+     "href": "/tools/compound-interest-calculator"
+    },
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    }
+   ],
+   "labels": {
+    "principal": "Principal",
+    "rate": "Annual Interest Rate (%)",
+    "time": "Time (Years)",
+    "interest": "Interest",
+    "total": "Total Amount",
+    "formula": "Formula: I = P * R * T = {principal} * {rate}% * {time} = {interest}"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Simple Interest Calculator?",
+     "body": [
+      "Calculate simple interest on a principal amount. See total interest, monthly interest, and compare with compound interest."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the simple interest calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate simple interest, principal, and interest rate."
+  },
+  "square-footage-calculator": {
+   "metadata": {
+    "title": "Square Footage Calculator",
+    "description": "Calculate the area of rectangles, circles, and triangles, with metric and imperial unit switching.",
+    "category": "Home & Energy"
+   },
+   "keywords": [
+    "square footage calculator",
+    "area calculator",
+    "room measurement",
+    "square feet calculator",
+    "square meters",
+    "acres calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate the square footage of a room?",
+     "answer": "Measure the room's length and width in feet, then multiply them together. For example, a 12-foot by 10-foot room is 120 square feet. If the room is not a simple rectangle, break it into smaller rectangles, calculate each area, and add them together."
+    },
+    {
+     "question": "How many square feet are in an acre?",
+     "answer": "There are exactly 43,560 square feet in an acre. To convert square feet to acres, divide the square feet by 43,560. For example, 10,000 square feet is approximately 0.23 acres."
+    },
+    {
+     "question": "How do I convert square feet to square meters?",
+     "answer": "Multiply square feet by 0.0929 to get square meters. For example, 500 square feet is approximately 46.45 square meters. To convert from square meters to square feet, multiply by 10.764."
+    },
+    {
+     "question": "How do I calculate the square footage of an irregularly shaped room?",
+     "answer": "Break the irregular shape into standard geometric shapes such as rectangles, triangles, or circles. Calculate the area of each shape separately, then add them all together. This calculator's L-shaped mode and room calculator make common layouts simple."
+    },
+    {
+     "question": "How much flooring do I need? Should I buy extra?",
+     "answer": "Calculate the total square footage of all rooms to be floored. Standard practice is to add 10% extra material for waste from cuts, mistakes, and future repairs. For diagonal or pattern installations, add 15-20% extra material."
+    },
+    {
+     "question": "What is the difference between square feet and linear feet?",
+     "answer": "Linear feet measure length in a straight line (one dimension), while square feet measure area (two dimensions). For example, a board 1 foot wide and 8 feet long is 8 linear feet and also 8 square feet. Knowing the difference matters when buying materials."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Unit Converter",
+     "href": "/tools/unit-converter"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Aspect Ratio Calculator",
+     "href": "/tools/aspect-ratio-calculator"
+    }
+   ],
+   "labels": {
+    "shape": "Shape",
+    "unit": "Unit",
+    "length": "Length",
+    "width": "Width",
+    "radius": "Radius",
+    "base": "Base",
+    "height": "Height",
+    "area": "Area",
+    "areaInOther": "Conversion"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "rectangle": "Rectangle",
+    "circle": "Circle",
+    "triangle": "Triangle"
+   },
+   "units": {
+    "squareFeet": "Square Feet",
+    "squareMeters": "Square Meters"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How to Use the Square Footage Calculator",
+     "content": "Choose the shape that matches the area you want to measure: rectangle for standard rooms, circle for round spaces, triangle for sloped areas, trapezoid for tapered spaces, or L-shape for rooms with alcoves. Enter dimensions in feet and inches, or switch to metric mode to use meters. The calculator instantly shows results in square feet, square meters, square yards, and acres."
+    },
+    "howTo": {
+     "title": "Room Calculator",
+     "content": "Use the room calculator to measure an entire house or multi-room project. Calculate each room individually, give it a name, and add it to your list. The calculator keeps a running total so you can see the total square footage of all rooms at a glance."
+    },
+    "tips": {
+     "title": "Cost Estimator",
+     "content": "Enter a price per square foot to estimate material and project costs. This works for flooring, paint, tile, carpet, and other projects priced by area. The estimator uses the current shape calculation or the total from your room list."
+    }
+   }
+  },
+  "tax-calculator": {
+   "metadata": {
+    "title": "Tax Calculator",
+    "description": "Calculate your total tax burden including federal, FICA, and state taxes. See rates and take-home income.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "tax calculator",
+    "tax calculator 2026",
+    "how much tax do i pay",
+    "income tax calculator",
+    "federal tax calculator",
+    "state tax calculator",
+    "payroll tax calculator",
+    "tax estimator",
+    "effective tax rate calculator",
+    "total tax burden calculator",
+    "take home pay calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What taxes does this calculator include?",
+     "answer": "This calculator estimates four taxes: federal income tax (using 2026 brackets), Social Security tax (6.2%, up to $176,100), Medicare tax (1.45%, plus an extra 0.9% on income over $200,000), and state income tax. It does not include local taxes, self-employment tax, or capital gains tax."
+    },
+    {
+     "question": "Is this calculator accurate?",
+     "answer": "This provides a reliable estimate for W-2 employees. Actual taxes depend on many factors, including tax credits (Child Tax Credit, Earned Income Tax Credit), additional income sources, and state-specific rules. Use it as a planning tool, not a substitute for filing."
+    },
+    {
+     "question": "Why is my effective rate lower than my bracket?",
+     "answer": "Tax brackets are marginal - only the income within each bracket is taxed at that rate. If you earn $85,000 (single), your first $11,925 is taxed at 10%, the next portion at 12%, and so on. Your effective rate averages all brackets, so it is always lower than your highest marginal bracket."
+    },
+    {
+     "question": "Do 401(k) contributions reduce my taxes?",
+     "answer": "Yes. Traditional 401(k) contributions are pre-tax, meaning they reduce your federal and state taxable income. Contributing $10,000 to a 401(k) while in the 22% bracket saves about $2,200 in federal tax alone. This calculator accounts for 401(k) and HSA contributions."
+    },
+    {
+     "question": "Which states have no income tax?",
+     "answer": "Nine states have no income tax: Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, and Wyoming. However, these states typically make up the revenue through higher sales taxes, property taxes, or other fees."
+    },
+    {
+     "question": "What are FICA taxes?",
+     "answer": "FICA stands for the Federal Insurance Contributions Act. It includes Social Security tax (6.2% on the first $176,100 of income) and Medicare tax (1.45% on all income, plus an additional 0.9% on income over $200,000). Your employer pays an equal amount."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Income Tax Calculator",
+     "href": "/tools/income-tax-calculator"
+    },
+    {
+     "name": "Paycheck Calculator",
+     "href": "/tools/paycheck-calculator"
+    },
+    {
+     "name": "Salary Calculator",
+     "href": "/tools/salary-calculator"
+    },
+    {
+     "name": "Sales Tax Calculator",
+     "href": "/tools/sales-tax-calculator"
+    },
+    {
+     "name": "Capital Gains Tax Calculator",
+     "href": "/tools/capital-gains-tax-calculator"
+    }
+   ],
+   "labels": {
+    "income": "Income",
+    "deductions": "Deductions",
+    "mode": "Mode",
+    "taxRate": "Tax Rate",
+    "estimatedTax": "Estimated Tax",
+    "taxableIncome": "Taxable Income",
+    "effectiveRate": "Effective Rate",
+    "takeHome": "Take-Home Income"
+   },
+   "options": {
+    "flat": "Flat Rate",
+    "bracket": "Progressive Brackets"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Tax Calculator?",
+     "body": [
+      "Calculate your total tax burden - federal income tax, Social Security, Medicare, and state taxes. See your effective rate, bracket breakdown, and take-home pay."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the tax calculator is very simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the results instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate your total tax burden: federal, Social Security, Medicare, and state taxes."
+  },
+  "tdee-calculator": {
+   "metadata": {
+    "title": "TDEE Calculator",
+    "description": "Calculate your Total Daily Energy Expenditure with multiple formulas, plus macronutrient split recommendations.",
+    "category": "Health"
+   },
+   "keywords": [
+    "tdee calculator",
+    "total daily energy expenditure",
+    "maintenance calories",
+    "bmr calculator",
+    "macronutrient split"
+   ],
+   "faqs": [
+    {
+     "question": "What is TDEE?",
+     "answer": "Total Daily Energy Expenditure (TDEE) is the total number of calories you burn each day, including your Basal Metabolic Rate (BMR) plus all physical activity. Eating at your TDEE maintains your current weight."
+    },
+    {
+     "question": "Which formula is most accurate?",
+     "answer": "Mifflin-St Jeor is considered the most accurate for most people. If you know your body fat percentage, Katch-McArdle is better because it accounts for lean body mass. Harris-Benedict is the oldest formula and tends to slightly overestimate."
+    },
+    {
+     "question": "How do I lose weight using TDEE?",
+     "answer": "Subtracting 250-500 calories from your TDEE achieves steady weight loss of 0.5-1 pound per week. A 500-calorie daily deficit equals about 3,500 calories per week, roughly equal to 1 pound of fat."
+    },
+    {
+     "question": "Why is activity level so important?",
+     "answer": "Activity level can change your TDEE by 40-60%. A sedentary person with a BMR of 1,700 has a TDEE of about 2,040, while a highly active person with the same BMR has a TDEE of about 2,930. Fill in your activity level honestly for accurate results."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Calorie Calculator",
+     "href": "/tools/calorie-calculator"
+    },
+    {
+     "name": "BMI Calculator",
+     "href": "/tools/bmi-calculator"
+    },
+    {
+     "name": "Macro Calculator",
+     "href": "/tools/macro-calculator"
+    }
+   ],
+   "labels": {
+    "bmr": "Basal Metabolic Rate (BMR)",
+    "activityLevel": "Activity Level",
+    "tdee": "Total Daily Energy Expenditure (TDEE)"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "sedentary": "Sedentary (little or no exercise)",
+    "light": "Lightly active (1-3 days/week)",
+    "moderate": "Moderately active (3-5 days/week)",
+    "active": "Very active (6-7 days/week)",
+    "veryActive": "Extremely active (physical work/training)"
+   },
+   "description": "Calculate your Total Daily Energy Expenditure (TDEE) using multiple formulas. See BMR, maintenance calories, and recommended macronutrient splits.",
+   "guide": {
+    "whatIs": {
+     "title": "What is a TDEE Calculator?",
+     "body": [
+      "Calculate your Total Daily Energy Expenditure (TDEE) using multiple formulas.",
+      "See BMR, maintenance calories, and macronutrient split recommendations based on your goals."
+     ]
+    },
+    "howTo": {
+     "title": "How to Calculate TDEE",
+     "intro": "Follow these steps:",
+     "items": [
+      "Choose your preferred unit system.",
+      "Enter your age, gender, height, and weight.",
+      "Select a formula (Mifflin-St Jeor recommended).",
+      "Select your activity level.",
+      "Click calculate to see your TDEE and macronutrient recommendations."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Fill in your activity level honestly for accurate results.",
+      "Use TDEE as a starting point and adjust based on weight changes.",
+      "Recalculate when your weight or activity level changes significantly."
+     ]
+    }
+   }
+  },
+  "tile-calculator": {
+   "metadata": {
+    "title": "Tile Calculator",
+    "description": "Calculate the number of tiles needed based on area, tile size, and waste rate.",
+    "category": "Home & Energy"
+   },
+   "keywords": [
+    "tile calculator",
+    "floor tile calculator",
+    "tile estimator",
+    "backsplash calculator",
+    "tile layout calculator",
+    "tile cost calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate how many tiles I need?",
+     "answer": "Measure the length and width of the area to get the total square footage. Divide it by the area of a single tile (in square feet) to get the base tile count. Then add 10-20% extra material for waste, cuts, and breakage based on your chosen layout pattern."
+    },
+    {
+     "question": "How much extra tile should I buy for waste?",
+     "answer": "For standard straight/grid layouts, plan on 10% extra. Diagonal layouts typically need 15% waste, brick/offset patterns about 12%, and herringbone patterns about 20%. Complex room shapes with many cuts may need more. It's always better to have leftover tiles than to run out mid-project."
+    },
+    {
+     "question": "Does grout line size affect how many tiles I need?",
+     "answer": "Yes. Wider grout lines slightly reduce the number of tiles needed because each tile actually covers a larger footprint (tile + half a grout line on each side). A standard 1/8-inch grout line has little effect, but larger 1/4-inch or 3/8-inch gaps can noticeably reduce tile count over large areas."
+    },
+    {
+     "question": "How do I convert tile size from inches to square feet?",
+     "answer": "Multiply the tile width by the height (in inches) to get square inches, then divide by 144 (since 1 square foot = 144 square inches). For example, a 12x24-inch tile is 288 square inches / 144 = 2 square feet per tile."
+    },
+    {
+     "question": "What is the most cost-effective tile layout pattern?",
+     "answer": "Straight or grid patterns are the most cost-effective because they produce the least waste (about 10%). Brick/offset adds about 12%, diagonal about 15%, and herringbone about 20%. The extra cost comes from more cuts and unusable remnants. Straight layouts also install faster, lowering labor costs."
+    },
+    {
+     "question": "How do I calculate tile for a wall or backsplash?",
+     "answer": "Use the same method as for floors: measure the wall height and width to get the area, then subtract any windows, doors, or outlets. Enter these dimensions into the calculator and it will compute the tiles needed. For backsplashes, measure from the countertop to the bottom of the upper cabinets."
+    },
+    {
+     "question": "Should I round up tiles or boxes?",
+     "answer": "Always round up. You can't buy partial tiles or partial boxes. This calculator automatically rounds up the number of tiles and boxes. Having a few extra tiles for future repairs is better than running out mid-installation."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Square Footage Calculator",
+     "href": "/tools/square-footage-calculator"
+    },
+    {
+     "name": "Unit Converter",
+     "href": "/tools/unit-converter"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    },
+    {
+     "name": "Concrete Calculator",
+     "href": "/tools/concrete-calculator"
+    }
+   ],
+   "labels": {
+    "unit": "Unit",
+    "area": "Area",
+    "tileWidth": "Tile Width",
+    "tileHeight": "Tile Height",
+    "waste": "Waste (%)",
+    "boxSize": "Tiles Per Box",
+    "tilesNeeded": "Tiles Needed",
+    "boxesNeeded": "Boxes Needed"
+   },
+   "buttons": {
+    "calculate": "Calculate"
+   },
+   "options": {
+    "metric": "Metric",
+    "imperial": "Imperial"
+   },
+   "units": {
+    "squareFeet": "Square Feet",
+    "squareMeters": "Square Meters",
+    "inches": "Inches",
+    "centimeters": "Centimeters"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "How to Use the Tile Calculator",
+     "content": "This tile calculator helps you determine the exact number of tiles, boxes, and total cost needed for any tiling project. Whether you're tiling a bathroom floor, kitchen backsplash, or an entire room, follow these steps for an accurate estimate."
+    },
+    "howTo": {
+     "title": "Step-by-Step Instructions",
+     "content": "Step 1: Enter your area dimensions - measure the length and width of the area you're tiling. You can enter measurements in feet and inches, or switch to metric for projects using meters. For irregularly shaped rooms, split the space into rectangles, calculate each one separately, then add the totals together. Step 2: Choose your tile size - select from common tile sizes like 12x12, 12x24, or 24x24 inches, or enter a custom tile size. The calculator accounts for grout line width when determining how many tiles fit in your space. Step 3: Choose a layout pattern - different layout patterns require different amounts of waste material due to cuts. Straight/grid is the most efficient, while herringbone requires the most extra material. The calculator automatically adjusts the waste percentage based on your chosen pattern, or you can set a custom waste percentage. Step 4: View results and cost - the results section shows the total number of tiles needed (with and without waste), the number of boxes to purchase, and the estimated total cost based on the price you entered."
+    },
+    "tips": {
+     "title": "Layout Patterns and Waste",
+     "content": "Straight/Grid: about 10% waste (most efficient). Diagonal (45 degrees): about 15% waste. Herringbone: about 20% waste. Brick/Offset: about 12% waste. Complex room shapes with many cuts may need more. It's always better to have leftover tiles than to run out mid-project."
+    }
+   }
+  },
+  "net-worth-calculator": {
+   "metadata": {
+    "title": "Net Worth Calculator",
+    "description": "Calculate net worth, tally assets and liabilities, including the debt-to-asset ratio.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "net worth calculator",
+    "calculate net worth",
+    "net worth tracker",
+    "personal net worth calculator",
+    "wealth calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What is net worth?",
+     "answer": "Net worth is what you own (assets) minus what you owe (liabilities). It measures financial health. A positive net worth means your assets exceed your debts. A negative net worth means your debts exceed your assets."
+    },
+    {
+     "question": "What counts as an asset?",
+     "answer": "Assets include: cash and savings accounts, investments (stocks, bonds, retirement accounts), real estate market value, vehicle value, personal property (jewelry, art), and retirement accounts."
+    },
+    {
+     "question": "What counts as a liability?",
+     "answer": "Liabilities include: mortgage balances, car loans, student loans, credit card debt, medical debt, personal loans, and any other money you owe."
+    },
+    {
+     "question": "How often should I calculate my net worth?",
+     "answer": "Track progress quarterly or semiannually. More frequent tracking can cause anxiety due to market fluctuations. An annual review is sufficient for long-term planning. The trend matters more than any single number."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    },
+    {
+     "name": "Retirement Calculator",
+     "href": "/tools/retirement-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    }
+   ],
+   "labels": {
+    "assets": "Assets",
+    "liabilities": "Liabilities",
+    "itemName": "Item Name",
+    "totalAssets": "Total Assets",
+    "totalLiabilities": "Total Liabilities",
+    "netWorth": "Net Worth",
+    "debtToAssetRatio": "Debt-to-Asset Ratio"
+   },
+   "buttons": {
+    "addAsset": "Add Asset",
+    "addLiability": "Add Liability",
+    "remove": "Remove"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Net Worth Calculator?",
+     "body": [
+      "Calculate your net worth by adding up assets and subtracting liabilities. Track your financial health."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the net worth calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate your net worth (assets minus liabilities)."
+  },
+  "stock-profit-calculator": {
+   "metadata": {
+    "title": "Stock Profit Calculator",
+    "description": "Calculate stock trading profit, rate of return, and break-even price, including commission fees.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "stock profit calculator",
+    "stock calculator",
+    "stock return calculator",
+    "share profit calculator",
+    "stock gain calculator"
+   ],
+   "faqs": [
+    {
+     "question": "How do I calculate stock profit?",
+     "answer": "Profit = (Sell Price - Buy Price) × Shares - Commission. Include all fees paid when buying and selling. This gives your net profit, not just the price difference."
+    },
+    {
+     "question": "How is the rate of return calculated?",
+     "answer": "Rate of return = (Profit ÷ Total Investment) × 100. Total investment = Buy Price × Shares + Buy Commission. This shows the percentage you earned, not just the dollar amount."
+    },
+    {
+     "question": "Are dividends included in profit calculations?",
+     "answer": "Not by default, but they should be. Add any dividends received during the holding period to your sell proceeds. Total profit = capital gains + dividends - fees."
+    },
+    {
+     "question": "How do taxes affect stock profits?",
+     "answer": "Short-term holdings (under one year) are taxed at ordinary income rates. Long-term holdings (over one year) are taxed at lower capital gains rates (0%, 15%, or 20%). Hold for more than a year to minimize taxes."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "ROI Calculator",
+     "href": "/tools/roi-calculator"
+    },
+    {
+     "name": "Investment Calculator",
+     "href": "/tools/investment-calculator"
+    },
+    {
+     "name": "Percentage Calculator",
+     "href": "/tools/percentage-calculator"
+    }
+   ],
+   "labels": {
+    "shares": "Shares",
+    "buyPrice": "Buy Price",
+    "sellPrice": "Sell Price",
+    "commission": "Commission",
+    "profitLoss": "Profit/Loss",
+    "roi": "ROI",
+    "breakEven": "Break-Even Price",
+    "cost": "Total Cost",
+    "revenue": "Net Proceeds"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Stock Profit Calculator?",
+     "body": [
+      "Calculate stock trading profit or loss. Enter buy/sell prices and shares to see total return, ROI, and break-even price."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the stock profit calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate profit and return on stock investments."
+  },
+  "credit-card-payoff-calculator": {
+   "metadata": {
+    "title": "Credit Card Payoff Calculator",
+    "description": "Calculate credit card payoff time and interest, compare monthly payment plans.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "credit card payoff calculator",
+    "credit card calculator",
+    "how long to pay off credit card",
+    "credit card interest calculator",
+    "credit card payment calculator"
+   ],
+   "faqs": [
+    {
+     "question": "What happens if I only make minimum payments?",
+     "answer": "You pay the most interest and take the longest. On $10,000 at 18% APR with minimum payments (2% or $25): it takes over 30 years to pay off with more than $16,000 in interest. Always pay as much as you can."
+    },
+    {
+     "question": "What is the debt avalanche method?",
+     "answer": "The debt avalanche attacks the highest-rate card first while making minimum payments on the others. It mathematically saves the most interest and pays off debt the fastest."
+    },
+    {
+     "question": "What is a balance transfer card?",
+     "answer": "Balance transfer cards offer 0% APR for 12-18 months, typically charging a 3-5% fee. Savings are significant if you pay off the balance before the promo ends. If you don't, rates spike."
+    },
+    {
+     "question": "How do I stop adding to my credit card debt?",
+     "answer": "Remove saved card numbers. Use cash or debit. Build an emergency fund to cover unexpected expenses. Track spending to identify triggers. Address the root cause - insufficient income or excessive spending."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Debt Payoff Calculator",
+     "href": "/tools/debt-payoff-calculator"
+    },
+    {
+     "name": "Interest Calculator",
+     "href": "/tools/interest-calculator"
+    },
+    {
+     "name": "Budget Calculator",
+     "href": "/tools/budget-calculator"
+    }
+   ],
+   "labels": {
+    "balance": "Balance",
+    "apr": "APR (%)",
+    "monthlyPayment": "Monthly Payment",
+    "payoffTime": "Payoff Time",
+    "months": "months",
+    "totalInterest": "Total Interest",
+    "totalPaid": "Total Paid"
+   },
+   "errors": {
+    "paymentTooLow": "The monthly payment must be greater than the interest accrued each month."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Credit Card Payoff Calculator?",
+     "body": [
+      "Calculate how long to pay off your credit card or what monthly payment hits your target date. See total interest cost."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the credit card payoff calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate the time and interest to pay off credit card debt."
+  },
+  "down-payment-calculator": {
+   "metadata": {
+    "title": "Down Payment Calculator",
+    "description": "Calculate down payment amount and its impact on mortgage, monthly payment, and PMI.",
+    "category": "Finance"
+   },
+   "keywords": [
+    "free online tools",
+    "free calculator",
+    "online calculator",
+    "developer tools",
+    "design tools",
+    "finance calculator",
+    "health calculator",
+    "no sign-up tools",
+    "browser tools",
+    "down payment calculator",
+    "house down payment calculator",
+    "mortgage down payment calculator",
+    "how much down payment"
+   ],
+   "faqs": [
+    {
+     "question": "How much should I put down?",
+     "answer": "20% for conventional loans to avoid PMI. FHA loans allow 3.5%, and VA loans require 0% (for eligible veterans). The lower your down payment, the higher your monthly payment and the more total interest you pay."
+    },
+    {
+     "question": "What is PMI?",
+     "answer": "Private mortgage insurance is required when your down payment is below 20%. It typically costs 0.3-1.5% of the loan amount per year. You can cancel PMI at 20% equity. Avoid it by putting down 20%."
+    },
+    {
+     "question": "How does the down payment affect interest rates?",
+     "answer": "A larger down payment usually means a lower rate. A 20% down payment can save 0.25-0.5% compared to 5%. Lenders see more equity as lower risk. This reduces both your monthly payment and total interest."
+    },
+    {
+     "question": "Can I accept a gift as a down payment?",
+     "answer": "Yes, from family members. Lenders require a gift letter and proof of funds. Some loans (investment properties) do not allow gifts. Document all sources."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Mortgage Calculator",
+     "href": "/tools/mortgage-calculator"
+    },
+    {
+     "name": "Loan Calculator",
+     "href": "/tools/loan-calculator"
+    },
+    {
+     "name": "Savings Calculator",
+     "href": "/tools/savings-calculator"
+    }
+   ],
+   "labels": {
+    "homePrice": "Home Price",
+    "downPaymentPercent": "Down Payment (%)",
+    "downPaymentAmount": "Down Payment Amount ($)",
+    "summary": "Summary",
+    "downPayment": "Down Payment",
+    "downPaymentRatio": "Down Payment Ratio",
+    "loanAmount": "Loan Amount"
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is a Down Payment Calculator?",
+     "body": [
+      "Calculate your down payment amount and see how it affects your mortgage payment, interest, and PMI requirements."
+     ]
+    },
+    "howTo": {
+     "title": "How to Use",
+     "intro": "Using the down payment calculator is simple:",
+     "items": [
+      "Enter your values in the input fields",
+      "Click the calculate button",
+      "View the result instantly"
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Double-check your inputs for accurate results",
+      "This tool is for estimation - consult a professional for important decisions",
+      "Save your results for future reference"
+     ]
+    }
+   },
+   "description": "Calculate home down payment and the factors that affect it."
+  }
+ }
+}

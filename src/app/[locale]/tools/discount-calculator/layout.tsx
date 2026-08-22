@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/discount-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/discount-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/discount-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/discount-calculator`,
       },
     },
   };

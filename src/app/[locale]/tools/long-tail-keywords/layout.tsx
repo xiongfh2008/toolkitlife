@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/long-tail-keywords`,
         ja: `https://www.toolkitlife.com/ja/tools/long-tail-keywords`,
         ko: `https://www.toolkitlife.com/ko/tools/long-tail-keywords`,
+        ru: `https://www.toolkitlife.com/ru/tools/long-tail-keywords`,
       },
     },
   };

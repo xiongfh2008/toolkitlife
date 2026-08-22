@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-edge-detect`,
         ja: `https://www.toolkitlife.com/ja/tools/image-edge-detect`,
         ko: `https://www.toolkitlife.com/ko/tools/image-edge-detect`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-edge-detect`,
       },
     },
   };

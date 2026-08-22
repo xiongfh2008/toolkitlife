@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/text-case-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/text-case-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/text-case-converter`,
+        ru: `https://www.toolkitlife.com/ru/tools/text-case-converter`,
       },
     },
   };

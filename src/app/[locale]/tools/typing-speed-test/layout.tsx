@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/typing-speed-test`,
         ja: `https://www.toolkitlife.com/ja/tools/typing-speed-test`,
         ko: `https://www.toolkitlife.com/ko/tools/typing-speed-test`,
+        ru: `https://www.toolkitlife.com/ru/tools/typing-speed-test`,
       },
     },
   };

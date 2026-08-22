@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/color-palette-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/color-palette-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/color-palette-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/color-palette-generator`,
       },
     },
   };

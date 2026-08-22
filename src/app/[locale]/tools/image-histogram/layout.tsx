@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-histogram`,
         ja: `https://www.toolkitlife.com/ja/tools/image-histogram`,
         ko: `https://www.toolkitlife.com/ko/tools/image-histogram`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-histogram`,
       },
     },
   };

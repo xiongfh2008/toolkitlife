@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/blob-dataurl`,
         ja: `https://www.toolkitlife.com/ja/tools/blob-dataurl`,
         ko: `https://www.toolkitlife.com/ko/tools/blob-dataurl`,
+        ru: `https://www.toolkitlife.com/ru/tools/blob-dataurl`,
       },
     },
   };

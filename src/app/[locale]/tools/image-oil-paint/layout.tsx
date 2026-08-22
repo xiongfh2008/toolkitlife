@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-oil-paint`,
         ja: `https://www.toolkitlife.com/ja/tools/image-oil-paint`,
         ko: `https://www.toolkitlife.com/ko/tools/image-oil-paint`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-oil-paint`,
       },
     },
   };

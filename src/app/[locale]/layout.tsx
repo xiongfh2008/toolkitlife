@@ -65,6 +65,7 @@ export async function generateMetadata({
         zh: "https://www.toolkitlife.com/zh",
         ja: "https://www.toolkitlife.com/ja",
         ko: "https://www.toolkitlife.com/ko",
+        ru: "https://www.toolkitlife.com/ru",
       },
     },
   };

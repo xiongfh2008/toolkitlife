@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/color-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/color-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/color-converter`,
+        ru: `https://www.toolkitlife.com/ru/tools/color-converter`,
       },
     },
   };

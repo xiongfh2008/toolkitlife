@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/profit-margin-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/profit-margin-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/profit-margin-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/profit-margin-calculator`,
       },
     },
   };

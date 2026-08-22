@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/medicare-cost-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/medicare-cost-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/medicare-cost-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/medicare-cost-calculator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/aspect-ratio-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/aspect-ratio-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/aspect-ratio-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/aspect-ratio-calculator`,
       },
     },
   };

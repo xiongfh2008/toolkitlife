@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/income-percentile-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/income-percentile-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/income-percentile-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/income-percentile-calculator`,
       },
     },
   };

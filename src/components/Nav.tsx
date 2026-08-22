@@ -20,12 +20,9 @@ export default function Nav() {
           href="/"
           className="flex items-center gap-2 font-display text-lg text-zinc-100 transition-colors hover:text-blue-500 md:text-xl"
         >
-          <svg viewBox="0 0 64 64" className="h-7 w-7 shrink-0" fill="none" aria-hidden="true">
-            <path d="M34 28 C31 19 25 13 16 10 C19 19 26 25 34 28 Z" fill="#22c55e" />
-            <path d="M34 28 C28 25 23 21 19 15" stroke="#065f46" strokeWidth="1.6" strokeLinecap="round" />
-            <path d="M12 28 a5 5 0 0 1 5-5 h30 a5 5 0 0 1 5 5 v18 a5 5 0 0 1-5 5 H17 a5 5 0 0 1-5-5 Z" fill="#3b82f6" />
-            <path d="M22 28 V23 a5 5 0 0 1 5-5 h10 a5 5 0 0 1 5 5 v5" stroke="#3b82f6" strokeWidth="4.5" strokeLinecap="round" />
-            <rect x="27" y="34" width="10" height="6" rx="2" fill="#1d4ed8" />
+          <svg viewBox="0 0 64 64" className="h-7 w-7 shrink-0" aria-hidden="true">
+            <rect x="2" y="2" width="60" height="60" rx="14" fill="#6366F1" />
+            <path d="M20 17 h24 a3 3 0 0 1 0 6 h-9 v22 a3 3 0 0 1-6 0 V23 h-9 a3 3 0 0 1 0-6 Z" fill="#ffffff" />
           </svg>
           <span className="truncate tracking-tight">{t("home")}</span>
         </Link>

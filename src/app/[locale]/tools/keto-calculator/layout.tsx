@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/keto-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/keto-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/keto-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/keto-calculator`,
       },
     },
   };

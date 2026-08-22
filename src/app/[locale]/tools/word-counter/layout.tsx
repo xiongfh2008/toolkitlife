@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/word-counter`,
         ja: `https://www.toolkitlife.com/ja/tools/word-counter`,
         ko: `https://www.toolkitlife.com/ko/tools/word-counter`,
+        ru: `https://www.toolkitlife.com/ru/tools/word-counter`,
       },
     },
   };

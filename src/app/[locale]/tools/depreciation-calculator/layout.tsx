@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/depreciation-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/depreciation-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/depreciation-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/depreciation-calculator`,
       },
     },
   };

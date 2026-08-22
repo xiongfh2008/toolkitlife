@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/ip-lookup`,
         ja: `https://www.toolkitlife.com/ja/tools/ip-lookup`,
         ko: `https://www.toolkitlife.com/ko/tools/ip-lookup`,
+        ru: `https://www.toolkitlife.com/ru/tools/ip-lookup`,
       },
     },
   };

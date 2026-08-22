@@ -1,0 +1,2510 @@
+{
+ "tools": {
+  "image-to-relief": {
+   "metadata": {
+    "title": "Image to 3D Relief - Free Online Tool",
+    "description": "Free online tool to turn any photo into a 3D relief. Preview in 3D and export GLB or STL. No signup, fully private — processing happens in your browser."
+   },
+   "title": "Image to 3D Relief",
+   "description": "Turn any photo into a 3D relief based on its brightness. Preview the result in full 3D and export as GLB or STL — all in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "image to 3d",
+    "3d relief",
+    "photo to 3d",
+    "relief generator",
+    "height map",
+    "displacement map",
+    "stl relief",
+    "emboss"
+   ],
+   "guide": {
+    "whatIs": {
+     "title": "What is an image-to-3D relief tool?",
+     "body": [
+      "This tool turns any photo into a 3D relief: it maps the image's brightness onto a mesh so bright areas stand out, then lets you preview the result with full 3D controls and export it as GLB (viewers/game engines) or STL (3D printing). Everything runs locally in your browser — nothing is uploaded."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Three steps:",
+     "items": [
+      "Upload an image (JPG, PNG or WebP).",
+      "Adjust grid resolution, relief strength and smoothing, then click Generate 3D.",
+      "Preview the mesh (drag to rotate, scroll to zoom), then download GLB or STL."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Images with strong contrast produce more dramatic reliefs.",
+      "Increase smoothing to reduce noise on detailed photos.",
+      "For 3D printing, choose STL — the model is automatically laid flat for slicing."
+     ]
+    }
+   },
+   "faqs": [
+    {
+     "question": "How is the 3D relief generated?",
+     "answer": "The tool reads each pixel's brightness (luminance) and lifts the mesh height accordingly — bright areas rise, dark areas stay low. Parameters let you control resolution, height and smoothing."
+    },
+    {
+     "question": "What's the difference between GLB and STL?",
+     "answer": "GLB is a general 3D format for viewers and game engines. STL is the standard format for 3D printing and is exported pre-oriented flat."
+    },
+    {
+     "question": "Is my image uploaded?",
+     "answer": "No. All processing happens in your browser; your image never leaves your device."
+    },
+    {
+     "question": "Why does my result look flat?",
+     "answer": "Low-contrast images produce subtle reliefs. Try increasing relief strength, lowering smoothing, or using a photo with stronger lighting contrast."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    },
+    {
+     "name": "Image Upscaler",
+     "href": "/tools/image-upscaler"
+    },
+    {
+     "name": "Image Filter Effects",
+     "href": "/tools/image-filters"
+    },
+    {
+     "name": "Image Format Converter",
+     "href": "/tools/convert"
+    }
+   ],
+   "labels": {
+    "dropPrompt": "Upload an image to create a 3D relief",
+    "dropHint": "JPG · PNG · WebP",
+    "source": "Source image",
+    "gridSize": "Grid resolution",
+    "strength": "Relief strength",
+    "smooth": "Smoothing",
+    "invert": "Invert depth (light = recessed)",
+    "generate": "Generate 3D",
+    "generating": "Generating…",
+    "previewHint": "Drag to rotate · Scroll to zoom",
+    "downloadGlb": "Download GLB",
+    "downloadStl": "Download STL (3D printing)",
+    "newImage": "New image"
+   },
+   "errors": {
+    "failed": "Generation failed. Please try again."
+   }
+  },
+  "id-photo-generator": {
+   "metadata": {
+    "title": "ID Photo Generator",
+    "description": "Turn your portrait photo into a passport or ID photo. Pick an official size, choose a background color, and fine-tune the framing with zoom and offset controls — then download a print-ready PNG. Everything runs locally in your browser.",
+    "category": "Image Tools"
+   },
+   "keywords": [
+    "id photo",
+    "passport photo",
+    "visa photo",
+    "证件照",
+    "photo generator",
+    "背景替换",
+    "passport generator",
+    "id photo maker"
+   ],
+   "faqs": [
+    {
+     "question": "Is this ID photo generator free?",
+     "answer": "Yes, completely free. No registration, no watermarks, no hidden fees. All processing happens locally in your browser."
+    },
+    {
+     "question": "What ID sizes are supported?",
+     "answer": "We support US passport/visa (2×2 in), EU/UK passport (35×45 mm), China passport (33×48 mm), Japan passport (45×35 mm), 1×1 inch (25×25 mm), small ID (30×40 mm), plus Chinese 1-inch (25×35 mm) and 2-inch (35×49 mm) photos. All sizes output at 300 DPI."
+    },
+    {
+     "question": "Can I change the background color?",
+     "answer": "Yes. Choose white, blue, red or gray — the chosen color is placed behind your photo."
+    },
+    {
+     "question": "What if my photo isn't perfectly centered?",
+     "answer": "Use the X/Y offset sliders to move the photo and the zoom slider to control how large the face appears."
+    },
+    {
+     "question": "Is my photo uploaded to a server?",
+     "answer": "No. The AI background removal and all rendering happen entirely in your browser using WebAssembly — your photo never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Image Crop Tool",
+     "href": "/tools/image-crop"
+    },
+    {
+     "name": "Image Filter Effects",
+     "href": "/tools/image-filters"
+    }
+   ],
+   "labels": {
+    "dropPrompt": "Upload a portrait to create an ID photo",
+    "dropHint": "JPG · PNG · WebP",
+    "processing": "Removing background…",
+    "processingHint": "AI is processing your photo, please wait",
+    "spec": "ID photo size",
+    "background": "Background color",
+    "scale": "Zoom",
+    "offsetX": "Horizontal position",
+    "offsetY": "Vertical position",
+    "original": "Original",
+    "preview": "Preview",
+    "download": "Download ID photo",
+    "newImage": "New photo",
+    "pixel": "px",
+    "bgWhite": "White",
+    "bgBlue": "Blue",
+    "bgRed": "Red",
+    "bgGray": "Gray",
+    "bgCustom": "Custom"
+   },
+   "errors": {
+    "failed": "Background removal failed. Please try another photo."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What is an ID photo generator?",
+     "body": [
+      "This tool makes passport, visa and ID photos in your browser. Upload a portrait, and the AI removes the background so you can place your face on any official background color (white, blue, red or gray). Pick one of the international sizes — all rendered at 300 DPI print quality — adjust zoom and position, and download a high-quality PNG. Your photo never leaves your device."
+     ]
+    },
+    "howTo": {
+     "title": "How to use",
+     "intro": "Three steps:",
+     "items": [
+      "Upload a front-facing portrait photo with a plain, well-lit background.",
+      "Choose your target ID size and background color. Use the zoom and offset controls to frame the face correctly.",
+      "Download a high-quality PNG, ready to print or submit digitally."
+     ]
+    },
+    "tips": {
+     "title": "Tips for best results",
+     "body": [
+      "Well-lit, front-facing photos with both ears visible and a natural expression work best.",
+      "Keep the face centered — zoom and offset controls fine-tune the composition.",
+      "White is the most common background for passport photos; check your destination country's requirements."
+     ]
+    }
+   }
+  },
+  "background-replace": {
+   "metadata": {
+    "title": "Background Replace - Free Online Tool",
+    "description": "Remove a photo's background and replace it with a solid color, gradient, a custom image, or a blurred version of the original. AI powered, runs entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Background Replace",
+   "description": "Remove the background of any photo and replace it with a solid color, gradient, a custom image, or a blurred version of the original. The AI cutout and all rendering happen locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "background replace",
+    "replace photo background",
+    "change background color",
+    "photo background changer",
+    "background remover and replace",
+    "background editor online"
+   ],
+   "faqs": [
+    {
+     "question": "Is the background replace free?",
+     "answer": "Yes. This tool is completely free with no signup, no watermarks, and no usage limits. Everything runs locally in your browser."
+    },
+    {
+     "question": "What background options are available?",
+     "answer": "You can choose a solid color (with a palette and custom color picker), a two-color gradient, a custom background image, or a blurred version of the original photo with adjustable strength."
+    },
+    {
+     "question": "Is my photo uploaded to a server?",
+     "answer": "No. The AI background removal uses WebAssembly and runs entirely in your browser, so your photo never leaves your device."
+    },
+    {
+     "question": "What file formats can I use?",
+     "answer": "You can upload PNG, JPG, WEBP and BMP images. The result is always downloaded as a high-quality PNG file."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    },
+    {
+     "name": "ID Photo Generator",
+     "href": "/tools/id-photo-generator"
+    },
+    {
+     "name": "Face Detector",
+     "href": "/tools/face-detector"
+    },
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "background": "Background",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "changeImage": "Change image",
+    "uploadImage": "Upload image",
+    "blurStrength": "Blur strength",
+    "original": "Original",
+    "result": "Result"
+   },
+   "modes": {
+    "solid": "Solid",
+    "gradient": "Gradient",
+    "image": "Image",
+    "blur": "Blur"
+   },
+   "status": {
+    "processing": "Replacing background…"
+   },
+   "buttons": {
+    "replace": "Replace Background",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "replace": "Failed to replace the background. Please try another image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Background Replace Tool?",
+     "body": [
+      "This tool removes the background of any photo using an AI model that runs in your browser, then lets you place the cut-out subject on a new background: a solid color, a gradient, a custom image, or a blurred version of the original photo.",
+      "Because everything is processed locally with WebAssembly, your photos never leave your device and the tool is free to use with no limits."
+     ]
+    },
+    "howTo": {
+     "title": "How to Replace a Background",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload the photo you want to edit.",
+      "Choose a background mode: solid, gradient, image, or blur.",
+      "Tune the settings — color, direction, image, or blur strength.",
+      "Click Replace Background and wait a few seconds.",
+      "Download the result as a high-quality PNG."
+     ]
+    },
+    "tips": {
+     "title": "Tips for Best Results",
+     "items": [
+      "Photos with a clear subject and a simple background produce the cleanest cutouts.",
+      "Use a blurred version of the original when you want a natural, in-place look.",
+      "For product shots, a plain solid or gradient background often looks most professional."
+     ]
+    }
+   }
+  },
+  "face-blur": {
+   "metadata": {
+    "title": "Face Blur - Blur Faces in Photos for Privacy",
+    "description": "Automatically detect and blur faces in photos to protect privacy. Adjustable blur strength, runs entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Face Blur",
+   "description": "Automatically detect all faces in a photo and blur them with adjustable strength. Perfect for privacy protection before sharing images publicly. Everything runs locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "face blur",
+    "blur faces in photo",
+    "face pixelation",
+    "privacy protection photo",
+    "anonymize faces",
+    "blur faces online"
+   ],
+   "faqs": [
+    {
+     "question": "How does the face blur work?",
+     "answer": "The tool uses the MediaPipe BlazeFace model to find every face in the photo, then applies a Gaussian blur to each detected region. You can control the strength of the blur."
+    },
+    {
+     "question": "Can I blur multiple faces at once?",
+     "answer": "Yes. All faces in the photo are detected and blurred automatically — the tool reports how many faces were processed."
+    },
+    {
+     "question": "Is this safe for privacy?",
+     "answer": "Yes. The AI model and all image processing run entirely in your browser. Your photo is never uploaded anywhere."
+    },
+    {
+     "question": "What output format is the result?",
+     "answer": "The blurred image is exported as a PNG file, preserving the original dimensions (up to 4096px)."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Face Detector",
+     "href": "/tools/face-detector"
+    },
+    {
+     "name": "Face Crop",
+     "href": "/tools/face-crop"
+    },
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "blurStrength": "Blur strength",
+    "facesBlurred": "{count} face(s) blurred",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "loading": "Loading AI model…",
+    "processing": "Blurring faces…"
+   },
+   "buttons": {
+    "blur": "Blur Faces",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image.",
+    "model": "Failed to load the AI model. Please check your connection and try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Face Blur Tool?",
+     "body": [
+      "The Face Blur tool automatically detects every face in a photo and applies a smooth Gaussian blur to each one. It is ideal for anonymizing photos before publishing them online or sharing them publicly.",
+      "The detection model and all processing run locally in your browser using WebAssembly, so your images stay completely private."
+     ]
+    },
+    "howTo": {
+     "title": "How to Blur Faces",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload a photo containing faces.",
+      "Adjust the blur strength slider if needed.",
+      "Click Blur Faces and wait for the AI model to process the image.",
+      "Download the result as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The model detects front, side, and profile faces well.",
+      "Use well-lit photos for the most reliable detection.",
+      "A blur strength around 25% looks natural in most cases."
+     ]
+    }
+   }
+  },
+  "face-crop": {
+   "metadata": {
+    "title": "Face Crop - Auto Crop Faces from Photos",
+    "description": "Automatically detect faces and crop each one into a square image with adjustable padding. Download individually or as a ZIP.",
+    "category": "Image Tools"
+   },
+   "title": "Face Crop",
+   "description": "Detect every face in a photo automatically and crop each one into a clean square image. Adjust the padding around the face and download crops individually or all at once as a ZIP. Runs entirely in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "face crop",
+    "crop faces from photo",
+    "auto face crop",
+    "extract faces",
+    "face photo cropper",
+    "square face crop"
+   ],
+   "faqs": [
+    {
+     "question": "How does the auto face crop work?",
+     "answer": "The tool uses the MediaPipe BlazeFace model to locate every face, then crops a square region centered on each face. You can add extra padding around the face with the slider."
+    },
+    {
+     "question": "Can I crop multiple faces at once?",
+     "answer": "Yes. All detected faces are cropped automatically. Download each crop individually or save all crops as a ZIP archive."
+    },
+    {
+     "question": "How do I control the crop size?",
+     "answer": "Use the Padding slider to add space around the face. A padding of 50% usually frames the head and shoulders nicely."
+    },
+    {
+     "question": "Are my photos uploaded?",
+     "answer": "No. Everything runs locally in your browser via WebAssembly — your photos never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Face Detector",
+     "href": "/tools/face-detector"
+    },
+    {
+     "name": "Face Blur",
+     "href": "/tools/face-blur"
+    },
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "padding": "Padding",
+    "found": "{count} face(s) found",
+    "face": "Face"
+   },
+   "status": {
+    "loading": "Loading AI model…",
+    "processing": "Cropping faces…"
+   },
+   "buttons": {
+    "crop": "Detect & Crop Faces",
+    "newImage": "New Image",
+    "download": "Download",
+    "downloadAll": "Download All (ZIP)"
+   },
+   "errors": {
+    "noFace": "No faces were detected in this image.",
+    "detect": "Failed to process the image.",
+    "model": "Failed to load the AI model. Please check your connection and try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Face Crop Tool?",
+     "body": [
+      "The Face Crop tool detects every face in a photo automatically and crops each one into a square image centered on the face, with optional padding.",
+      "This is handy for extracting portrait thumbnails, building avatar sets, or organizing group photos. All processing happens locally in your browser."
+     ]
+    },
+    "howTo": {
+     "title": "How to Crop Faces",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload a photo with one or more faces.",
+      "Adjust the padding slider to control how much space surrounds each face.",
+      "Click Detect & Crop Faces — the preview shows the detected boxes.",
+      "Download crops one by one, or save everything as a ZIP."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The model handles front, side, and profile faces well.",
+      "Increase padding if you want the head and shoulders included.",
+      "Faces smaller than about 10% of the image height may not be detected."
+     ]
+    }
+   }
+  },
+  "image-caption": {
+   "metadata": {
+    "title": "Image Caption Generator - AI Image Description",
+    "description": "Automatically generate a natural-language caption for any image using an AI vision model running in your browser. Free and private.",
+    "category": "Image Tools"
+   },
+   "title": "Image Caption Generator",
+   "description": "Upload any image and get a natural-language description generated by an AI vision-language model, entirely in your browser. Useful for accessibility, alt text, and organizing photo libraries.",
+   "category": "Image Tools",
+   "keywords": [
+    "image caption generator",
+    "ai image description",
+    "describe image",
+    "image to text description",
+    "alt text generator",
+    "photo caption generator"
+   ],
+   "faqs": [
+    {
+     "question": "How does the caption generator work?",
+     "answer": "The tool uses the ViT-GPT2 vision-language model via Transformers.js. It analyzes the image content and produces a short, natural English sentence describing the scene."
+    },
+    {
+     "question": "Are captions generated in other languages?",
+     "answer": "The built-in model generates captions in English. You can translate the result with any translator afterwards."
+    },
+    {
+     "question": "Is my image uploaded?",
+     "answer": "No. The model and all inference run entirely in your browser — your images never leave your device."
+    },
+    {
+     "question": "Why is the first run slow?",
+     "answer": "The vision-language model (~250 MB) must be downloaded once to your browser. Later runs are much faster."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image to Text",
+     "href": "/tools/image-to-text"
+    },
+    {
+     "name": "Image Classifier",
+     "href": "/tools/image-classify"
+    },
+    {
+     "name": "Exif Viewer",
+     "href": "/tools/exif-viewer"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "status": {
+    "modelNote": "Downloading the AI model (~250 MB). First use may take a while…",
+    "processing": "Generating caption…"
+   },
+   "buttons": {
+    "generate": "Generate Caption",
+    "newImage": "New Image",
+    "copy": "Copy"
+   },
+   "labels": {
+    "result": "Caption",
+    "copied": "Copied!"
+   },
+   "errors": {
+    "generate": "Failed to generate the caption. Please try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Image Caption Generator?",
+     "body": [
+      "This tool automatically writes a short, natural-language description of any image using an AI vision-language model that runs in your browser.",
+      "It is useful for generating alt text, improving accessibility, and organizing large photo libraries. Your images never leave your device."
+     ]
+    },
+    "howTo": {
+     "title": "How to Generate a Caption",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Wait for the AI model to download on first use.",
+      "Click Generate Caption.",
+      "Copy the caption to use as alt text or in your documents."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Clear photos with a single main subject produce the best descriptions.",
+      "The model output is in English — translate it if needed.",
+      "Use the copy button to grab the caption instantly."
+     ]
+    }
+   }
+  },
+  "image-classify": {
+   "metadata": {
+    "title": "Image Classifier - Identify Objects in Photos with AI",
+    "description": "Upload any photo and see the top 5 predicted categories (ImageNet) with confidence scores. Runs entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Image Classifier",
+   "description": "Identify what's in any photo using a MobileNetV2 model trained on 1000 ImageNet categories. See the top 5 predictions with confidence scores — all processed locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "image classifier",
+    "image recognition",
+    "identify objects in photo",
+    "ai image classification",
+    "photo object detection",
+    "what is in this photo"
+   ],
+   "faqs": [
+    {
+     "question": "How does the image classifier work?",
+     "answer": "The tool runs a MobileNetV2 model in your browser via ONNX Runtime. The model is trained on the ImageNet dataset and can recognize 1000 common categories such as animals, plants, vehicles, and everyday objects."
+    },
+    {
+     "question": "What can it recognize?",
+     "answer": "The model covers 1000 ImageNet categories, including dogs, cats, birds, flowers, food, vehicles, tools, and more. Category names are shown in English."
+    },
+    {
+     "question": "Is my photo uploaded?",
+     "answer": "No. The model and all inference run entirely in your browser — your photo never leaves your device."
+    },
+    {
+     "question": "Why does it take a while the first time?",
+     "answer": "The model file must be downloaded once to your browser on first use. Subsequent classifications are nearly instant."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Caption Generator",
+     "href": "/tools/image-caption"
+    },
+    {
+     "name": "Image to Text",
+     "href": "/tools/image-to-text"
+    },
+    {
+     "name": "NSFW Detection",
+     "href": "/tools/nsfw-detection"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "status": {
+    "loading": "Loading AI model…",
+    "modelNote": "Downloading the MobileNetV2 model (~15 MB). First use may take a moment…",
+    "processing": "Classifying…"
+   },
+   "buttons": {
+    "classify": "Classify Image",
+    "newImage": "New Image"
+   },
+   "labels": {
+    "topPredictions": "Top predictions",
+    "class": "Class #{index}"
+   },
+   "errors": {
+    "classify": "Failed to classify the image.",
+    "model": "Failed to load the AI model. Please check your connection and try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Image Classifier?",
+     "body": [
+      "This tool identifies the main objects in any photo using a MobileNetV2 neural network that runs in your browser.",
+      "It returns the top 5 predictions from 1000 ImageNet categories with confidence scores, helping you understand what is in an image at a glance."
+     ]
+    },
+    "howTo": {
+     "title": "How to Classify an Image",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Wait for the model to load on first use.",
+      "Click Classify Image.",
+      "Review the top 5 predictions and their confidence scores."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Photos with one clear, centered subject classify most reliably.",
+      "Confidence scores indicate how sure the model is about each category.",
+      "The 1000 categories are everyday objects — not people, faces, or scenes."
+     ]
+    }
+   }
+  },
+  "nsfw-detection": {
+   "metadata": {
+    "title": "NSFW Detection - AI Content Safety Checker",
+    "description": "Automatically detect not-safe-for-work content in images using a neural network that runs entirely in your browser. Free and private.",
+    "category": "Image Tools"
+   },
+   "title": "NSFW Detection",
+   "description": "Check any image for not-safe-for-work content using the NSFWJS neural network. See the probability for each class (Neutral, Porn, Hentai, Sexy, Drawing) and a clear verdict. Everything runs locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "nsfw detection",
+    "nsfw detector",
+    "adult content detection",
+    "image content moderation",
+    "nsfw checker",
+    "safe image check"
+   ],
+   "faqs": [
+    {
+     "question": "How does NSFW detection work?",
+     "answer": "The tool uses the NSFWJS MobileNetV2 model, trained to classify images into five classes: Neutral, Porn, Hentai, Sexy, and Drawing. The model runs entirely in your browser."
+    },
+    {
+     "question": "How accurate is it?",
+     "answer": "The model is a practical moderation tool, not perfect. It is best used as a first-pass filter alongside human review."
+    },
+    {
+     "question": "Is my image uploaded?",
+     "answer": "No. The model and all inference run locally in your browser via TensorFlow.js — your image never leaves your device."
+    },
+    {
+     "question": "How is the verdict determined?",
+     "answer": "The combined probability of the Porn, Hentai, and Sexy classes is computed. If it reaches 50% or more, the image is flagged as NSFW."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Classifier",
+     "href": "/tools/image-classify"
+    },
+    {
+     "name": "Image Caption Generator",
+     "href": "/tools/image-caption"
+    },
+    {
+     "name": "Face Blur",
+     "href": "/tools/face-blur"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "status": {
+    "loading": "Loading AI model…",
+    "modelNote": "Loading the NSFW model (~10 MB). First use may take a moment…",
+    "processing": "Analyzing…"
+   },
+   "buttons": {
+    "detect": "Detect Content",
+    "newImage": "New Image"
+   },
+   "classes": {
+    "neutral": "Neutral",
+    "porn": "Porn",
+    "hentai": "Hentai",
+    "sexy": "Sexy",
+    "drawing": "Drawing"
+   },
+   "verdict": {
+    "nsfw": "NSFW content detected",
+    "safe": "Looks safe",
+    "score": "NSFW score: {score}%"
+   },
+   "labels": {
+    "classes": "Class probabilities"
+   },
+   "errors": {
+    "detect": "Failed to analyze the image.",
+    "model": "Failed to load the AI model. Please check your connection and try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the NSFW Detection Tool?",
+     "body": [
+      "This tool checks whether an image contains not-safe-for-work content using the NSFWJS neural network, which runs entirely in your browser.",
+      "It shows the probability for each of five classes — Neutral, Porn, Hentai, Sexy, and Drawing — and gives a clear safe/unsafe verdict."
+     ]
+    },
+    "howTo": {
+     "title": "How to Check an Image",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Wait for the model to load on first use.",
+      "Click Detect Content.",
+      "Review the class probabilities and the final verdict."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Use the tool as a first-pass filter, not as a final moderation decision.",
+      "Photos and illustrations are classified in separate categories (Drawing).",
+      "Everything runs locally — nothing is uploaded or stored."
+     ]
+    }
+   }
+  },
+  "photo-colorize": {
+   "metadata": {
+    "title": "Photo Colorize - Colorize Black & White Photos with AI",
+    "description": "Automatically add realistic colors to black and white photos using an AI model that runs in your browser. Free and private.",
+    "category": "Image Tools"
+   },
+   "title": "Photo Colorize",
+   "description": "Bring old black-and-white photos to life with realistic AI colorization. Upload a grayscale photo and download the colorized version — all processed locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "photo colorize",
+    "colorize black and white photos",
+    "black and white photo colorizer",
+    "ai photo colorizer",
+    "colorize old photos",
+    "colorize photos online"
+   ],
+   "faqs": [
+    {
+     "question": "How does the AI colorization work?",
+     "answer": "The tool runs a DeOldify-style neural network in your browser via WebAssembly. The model analyzes the grayscale image and predicts natural colors for every pixel."
+    },
+    {
+     "question": "Are the colors accurate?",
+     "answer": "The AI makes its best guess based on common patterns it learned. Colors look natural, but may differ from the true historical colors of the scene."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. The model and all processing run entirely in your browser — your photos never leave your device."
+    },
+    {
+     "question": "Why does it take a while the first time?",
+     "answer": "The colorization model is about 60 MB and must be downloaded once to your browser. After that, subsequent images process much faster."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Upscaler",
+     "href": "/tools/image-upscaler"
+    },
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "status": {
+    "loading": "Loading AI model…",
+    "modelNote": "Downloading the colorization model (~60 MB). First use may take a while…",
+    "processing": "Colorizing…"
+   },
+   "buttons": {
+    "colorize": "Colorize Photo",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "labels": {
+    "original": "Original",
+    "result": "Result"
+   },
+   "errors": {
+    "colorize": "Failed to colorize the image.",
+    "model": "Failed to load the AI model. Please check your connection and try again."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Photo Colorize Tool?",
+     "body": [
+      "The Photo Colorize tool uses a deep learning model to add realistic colors to black-and-white photos automatically.",
+      "It is a great way to restore old family portraits and historical photographs. Everything runs locally in your browser."
+     ]
+    },
+    "howTo": {
+     "title": "How to Colorize a Photo",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload a black-and-white photo.",
+      "Wait for the AI model to download on first use.",
+      "Click Colorize Photo — the result appears in a few seconds.",
+      "Download the colorized image as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Clear, well-scanned grayscale photos give the best results.",
+      "The model works on any grayscale image, not just old photographs.",
+      "Combine with the Image Upscaler to enhance details afterwards."
+     ]
+    }
+   }
+  },
+  "image-denoise": {
+   "metadata": {
+    "title": "Image Denoise - Remove Noise from Photos Online",
+    "description": "Free online tool to remove noise and grain from photos. Median filter algorithm with adjustable strength, processed entirely in your browser — private and secure.",
+    "category": "Image Tools"
+   },
+   "title": "Image Denoise",
+   "description": "Automatically remove noise, grain, and compression artifacts from photos for a cleaner, sharper image. Uses a median filter algorithm that preserves edge detail well while denoising. All processing happens locally in your browser — your photos are never uploaded.",
+   "category": "Image Tools",
+   "keywords": [
+    "image denoise",
+    "photo denoise",
+    "remove noise",
+    "remove grain",
+    "image denoising",
+    "denoise image",
+    "denoise photo"
+   ],
+   "faqs": [
+    {
+     "question": "How does denoising work?",
+     "answer": "The tool uses a median filter algorithm: for each pixel, it takes the median value of its surrounding neighborhood as the new value. This effectively removes random noise and salt-and-pepper noise while preserving edges better than a mean blur."
+    },
+    {
+     "question": "What is noise?",
+     "answer": "Noise is the randomly distributed grain or colored speckles in a photo, usually caused by high ISO, low-light conditions, or JPEG compression. Denoising can dramatically improve the quality of such photos."
+    },
+    {
+     "question": "Will denoising make my image blurry?",
+     "answer": "A median filter preserves edges better than blur-based algorithms, but overly strong denoising can still lose some detail. Start with a small radius and increase it gradually if you are not satisfied."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your photos never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Upscaler",
+     "href": "/tools/image-upscaler"
+    },
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    },
+    {
+     "name": "Image Deblur",
+     "href": "/tools/image-deblur"
+    },
+    {
+     "name": "Auto Contrast",
+     "href": "/tools/auto-contrast"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "radius": "Filter Radius",
+    "strength": "Strength",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Denoising…"
+   },
+   "buttons": {
+    "denoise": "Denoise",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Image Denoise Tool?",
+     "body": [
+      "The Image Denoise tool uses a median filter algorithm to automatically remove noise and grain from photos — ideal for high-ISO night shots, low-light captures, and heavily JPEG-compressed images.",
+      "A median filter removes noise while preserving edges and detail better than most approaches, making it a common denoising technique in photo editing."
+     ]
+    },
+    "howTo": {
+     "title": "How to Denoise an Image",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload the image you want to denoise.",
+      "Adjust the filter radius and strength as needed.",
+      "Click Denoise and wait for processing to finish.",
+      "Download the result as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "For noisy night photos, a 2px radius is a good starting point.",
+      "A strength of 100% uses the full filter result; lower values keep more of the original detail.",
+      "Denoise before upscaling to avoid amplifying noise along with the image."
+     ]
+    }
+   }
+  },
+  "image-deblur": {
+   "metadata": {
+    "title": "Image Deblur - Sharpen Blurry Photos Online",
+    "description": "Free online tool to sharpen blurry photos and restore crisp detail. Laplacian sharpening convolution with adjustable strength and iterations, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Image Deblur",
+   "description": "Sharpen blurry or out-of-focus photos and restore detail and outlines. The tool uses Laplacian sharpening convolution with multiple iterations to make mildly blurred photos crisp again. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "image deblur",
+    "sharpen photo",
+    "fix blurry photo",
+    "image sharpening",
+    "fix out of focus",
+    "deblur photo",
+    "photo sharpener"
+   ],
+   "faqs": [
+    {
+     "question": "How does deblurring work?",
+     "answer": "The tool uses Laplacian sharpening convolution: it detects edges (high-frequency detail) in the image and re-adds that detail on top of the image. Multiple iterations gradually enhance clarity."
+    },
+    {
+     "question": "Can it fix severely blurred photos?",
+     "answer": "It works well for mild to moderate blur and out-of-focus shots, but detail lost in heavily blurred photos cannot be recovered out of thin air. Start with a low strength to avoid halos and noise."
+    },
+    {
+     "question": "How should I set the parameters?",
+     "answer": "Strength controls how much sharpening is applied per iteration (20–50% is recommended), and iterations controls how many rounds are applied (1–3 is recommended). Too much strength produces a halo effect."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your photos never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Unsharp Mask",
+     "href": "/tools/unsharp-mask"
+    },
+    {
+     "name": "Image Upscaler",
+     "href": "/tools/image-upscaler"
+    },
+    {
+     "name": "Image Denoise",
+     "href": "/tools/image-denoise"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "strength": "Strength",
+    "iterations": "Iterations",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Deblurring…"
+   },
+   "buttons": {
+    "deblur": "Deblur",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Image Deblur Tool?",
+     "body": [
+      "The Image Deblur tool enhances image edges using Laplacian sharpening convolution, making mildly blurred, out-of-focus, or shaky photos crisp again.",
+      "Combined with multiple iterations, it gradually restores detail lost to blur — a convenient way to quickly fix blurry photos."
+     ]
+    },
+    "howTo": {
+     "title": "How to Deblur a Photo",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload a blurry photo.",
+      "Set a suitable strength and number of iterations.",
+      "Click Deblur and review the result.",
+      "Download the sharper version as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Start with a strength of 30% and 1 iteration, then fine-tune from there.",
+      "Run the Image Denoise tool first to remove noise for better results.",
+      "White halos at high strength mean you have over-sharpened — lower the parameters."
+     ]
+    }
+   }
+  },
+  "unsharp-mask": {
+   "metadata": {
+    "title": "Unsharp Mask - Online Image Sharpening Tool",
+    "description": "Free online Unsharp Mask sharpening tool. The classic photography sharpening algorithm with adjustable amount and radius, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Unsharp Mask",
+   "description": "Apply the classic photography sharpening algorithm — Unsharp Mask. It subtracts a blurred version from the original to get a detail mask, then blends it back in, giving precise control over sharpening amount and radius. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "unsharp mask",
+    "sharpen image",
+    "photo sharpening",
+    "unsharp mask filter",
+    "sharpening filter",
+    "edge enhancement"
+   ],
+   "faqs": [
+    {
+     "question": "What is an unsharp mask?",
+     "answer": "Unsharp Mask is the most classic sharpening algorithm in photography: it applies a Gaussian blur to the image, subtracts the blurred version from the original to get a detail mask, then blends the mask back in by a set ratio. It gives precise control over the sharpening amount and radius."
+    },
+    {
+     "question": "What is the difference between amount and radius?",
+     "answer": "Amount controls the sharpening intensity, i.e. how much of the detail mask is blended in; Radius controls the sharpening range, i.e. the size of the blur kernel used when detecting detail. Small radii enhance fine edges, while large radii affect wider edge regions."
+    },
+    {
+     "question": "Does sharpening damage image quality?",
+     "answer": "Moderate sharpening makes photos look crisper, but too much amount produces white halos and noise that look unnatural. Try starting with an amount of 60–100%."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your photos never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Deblur",
+     "href": "/tools/image-deblur"
+    },
+    {
+     "name": "Image Denoise",
+     "href": "/tools/image-denoise"
+    },
+    {
+     "name": "Image Upscaler",
+     "href": "/tools/image-upscaler"
+    },
+    {
+     "name": "Auto Contrast",
+     "href": "/tools/auto-contrast"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "amount": "Amount",
+    "radius": "Radius",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Sharpening…"
+   },
+   "buttons": {
+    "sharpen": "Sharpen",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Unsharp Mask Tool?",
+     "body": [
+      "Unsharp Mask is a sharpening algorithm commonly used in professional software such as Adobe Photoshop. It boosts clarity by extracting and enhancing edge detail in the image.",
+      "Unlike simple convolution sharpening, Unsharp Mask offers independent amount and radius controls, giving more natural and controllable results."
+     ]
+    },
+    "howTo": {
+     "title": "How to Sharpen a Photo",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload the photo you want to sharpen.",
+      "Adjust the amount (sharpening intensity) and radius (sharpening range).",
+      "Click Sharpen to preview the result.",
+      "Download the sharpened image as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "For portraits, an amount of 60–80% with a radius of 2–3px is recommended.",
+      "For landscapes and architecture, you can increase the amount to 100%.",
+      "Sharpening is usually best done after color adjustments and resizing."
+     ]
+    }
+   }
+  },
+  "white-balance": {
+   "metadata": {
+    "title": "White Balance - Fix Photo Color Cast Online",
+    "description": "Free online white balance correction tool. The gray-world algorithm automatically removes color casts and restores pure whites, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "White Balance",
+   "description": "Automatically correct color casts in your photos so whites return to pure white and colors look natural. The tool uses the gray-world algorithm to analyze the whole image and compute correction gains automatically — no need to pick a gray point by hand. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "white balance",
+    "color cast correction",
+    "color correction",
+    "white balance adjust",
+    "fix color cast",
+    "white balance online"
+   ],
+   "faqs": [
+    {
+     "question": "What is white balance?",
+     "answer": "White balance is the process of removing color casts from photos. Different light sources have different color temperatures, which can make photos look yellowish, bluish, or greenish. White balance correction makes white objects appear white in the photo."
+    },
+    {
+     "question": "How does the tool correct it?",
+     "answer": "The tool uses the gray-world algorithm: it computes the average of the red, green, and blue channels across the whole image, then adjusts the channel gains so the three averages converge, neutralizing the color cast."
+    },
+    {
+     "question": "Which photos is it good for?",
+     "answer": "It works well for photos taken under indoor incandescent (yellowish) or fluorescent (greenish) lighting, as well as photos with obvious color casts from sunsets or overcast days."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your photos never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Auto Contrast",
+     "href": "/tools/auto-contrast"
+    },
+    {
+     "name": "Histogram Equalization",
+     "href": "/tools/histogram-equalize"
+    },
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "strength": "Strength",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Correcting white balance…"
+   },
+   "buttons": {
+    "correct": "Correct White Balance",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the White Balance Tool?",
+     "body": [
+      "The White Balance tool automatically corrects color casts in photos — a quick fix for shots taken with incorrect white balance settings.",
+      "It uses the gray-world algorithm to analyze the colors of the whole image and automatically computes and applies the correction, with no need to pick a gray point or adjust color temperature manually."
+     ]
+    },
+    "howTo": {
+     "title": "How to Correct White Balance",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload a photo with a color cast.",
+      "Adjust the strength as needed (100% by default).",
+      "Click Correct White Balance to see the result.",
+      "Download the corrected image as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "For strong color casts, keep the strength at 100%.",
+      "Images dominated by a single color (e.g. a solid red background) may not correct well.",
+      "Pair with Auto Contrast afterwards to further improve the look."
+     ]
+    }
+   }
+  },
+  "auto-contrast": {
+   "metadata": {
+    "title": "Auto Contrast - Optimize Photo Depth Online",
+    "description": "Free online auto contrast tool. Histogram stretching automatically optimizes the light and dark distribution with an adjustable clip ratio, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Auto Contrast",
+   "description": "Optimize your photo's contrast and dynamic range in one click. The tool analyzes the image histogram, automatically stretches the light and dark distribution, and lets you clip extreme pixels to avoid blown-out highlights and crushed shadows. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "auto contrast",
+    "contrast adjustment",
+    "histogram stretch",
+    "brighten photo",
+    "auto contrast photo",
+    "contrast enhancement"
+   ],
+   "faqs": [
+    {
+     "question": "How does auto contrast work?",
+     "answer": "The tool analyzes the image's brightness histogram, finds the actual darkest and brightest pixels, and stretches them across the full range (0–255), making the light and dark distribution fuller and giving the image more depth."
+    },
+    {
+     "question": "What does the clip ratio mean?",
+     "answer": "The clip ratio decides how many extreme pixels are ignored. Setting it to 0.5% ignores the darkest and brightest 0.5% of pixels, preventing a few outliers (like specular highlights) from skewing the stretch."
+    },
+    {
+     "question": "Will it over-process my photo?",
+     "answer": "The default 0.5% clip ratio is fairly gentle. If the image already has normal contrast, the stretch is minimal; low-contrast images see a clear improvement."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your photos never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Histogram Equalization",
+     "href": "/tools/histogram-equalize"
+    },
+    {
+     "name": "White Balance",
+     "href": "/tools/white-balance"
+    },
+    {
+     "name": "HDR Tone Mapping",
+     "href": "/tools/hdr-tone-mapping"
+    },
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "clip": "Clip Ratio",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Adjusting contrast…"
+   },
+   "buttons": {
+    "enhance": "Apply Auto Contrast",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Auto Contrast Tool?",
+     "body": [
+      "The Auto Contrast tool uses histogram stretching to automatically optimize the light and dark distribution of an image, turning flat, hazy photos into clear ones with depth.",
+      "No need to adjust curves manually — one click gives you a fuller dynamic range."
+     ]
+    },
+    "howTo": {
+     "title": "How to Apply Auto Contrast",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload the photo you want to optimize.",
+      "Adjust the clip ratio as needed (0.5% by default).",
+      "Click Apply Auto Contrast and review the result.",
+      "Download the optimized image as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Flat, hazy photos show the biggest improvement.",
+      "For photos with normal contrast, set the clip ratio to 0.",
+      "Combine with HDR Tone Mapping for even richer detail."
+     ]
+    }
+   }
+  },
+  "histogram-equalize": {
+   "metadata": {
+    "title": "Histogram Equalization - Boost Image Contrast Online",
+    "description": "Free online histogram equalization tool. Redistributes pixel brightness to bring out detail in shadows and highlights, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Histogram Equalization",
+   "description": "Apply the histogram equalization algorithm to redistribute the brightness distribution of the image's pixels, stretching contrast in the luminance domain so that detail in both shadows and highlights becomes more visible. Adjustable strength, processed entirely locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "histogram equalization",
+    "histogram equalize",
+    "contrast enhancement",
+    "image enhancement",
+    "equalize image",
+    "histogram equalizer"
+   ],
+   "faqs": [
+    {
+     "question": "What is histogram equalization?",
+     "answer": "Histogram equalization remaps pixel brightness so the image's brightness histogram is more evenly distributed. It spreads brightness concentrated in a narrow range across the full range, significantly boosting contrast."
+    },
+    {
+     "question": "How is it different from auto contrast?",
+     "answer": "Auto contrast only does a linear stretch, while equalization performs a non-linear mapping based on the cumulative distribution function. It uses the full brightness range more thoroughly and is especially good at enhancing detail in low-contrast images."
+    },
+    {
+     "question": "Will it introduce color casts?",
+     "answer": "The tool equalizes the luminance (grayscale) channel while keeping each pixel's color proportions unchanged, so it will not introduce color casts."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your photos never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Auto Contrast",
+     "href": "/tools/auto-contrast"
+    },
+    {
+     "name": "HDR Tone Mapping",
+     "href": "/tools/hdr-tone-mapping"
+    },
+    {
+     "name": "White Balance",
+     "href": "/tools/white-balance"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "strength": "Strength",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Equalizing histogram…"
+   },
+   "buttons": {
+    "equalize": "Equalize",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Histogram Equalization Tool?",
+     "body": [
+      "Histogram equalization is a classic image enhancement algorithm. It redistributes pixel brightness to make the histogram more uniform, boosting overall contrast.",
+      "It is ideal for backlit, underexposed, or hazy photos, bringing hidden detail to light."
+     ]
+    },
+    "howTo": {
+     "title": "How to Equalize a Histogram",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload the photo you want to enhance.",
+      "Adjust the strength as needed (100% by default).",
+      "Click Equalize to see the result.",
+      "Download the enhanced image as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Works best on low-contrast, hazy photos.",
+      "A strength around 50% gives a more natural look.",
+      "Noise may become more visible after processing — pair with Image Denoise if needed."
+     ]
+    }
+   }
+  },
+  "hdr-tone-mapping": {
+   "metadata": {
+    "title": "HDR Tone Mapping - Reveal High Dynamic Range Online",
+    "description": "Free online HDR tone mapping tool. The Reinhard operator reveals highlight and shadow detail with adjustable exposure and strength, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "HDR Tone Mapping",
+   "description": "Apply the HDR tone mapping algorithm (Reinhard operator) to compress the light and dark differences of high-dynamic-range scenes, keeping highlights from blowing out and shadows full of detail. Adjustable exposure and strength, processed entirely locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "HDR",
+    "tone mapping",
+    "HDR effect",
+    "high dynamic range",
+    "tone mapping online",
+    "HDR tone mapping"
+   ],
+   "faqs": [
+    {
+     "question": "What is HDR tone mapping?",
+     "answer": "Tone mapping compresses the light and dark information of a high-dynamic-range (HDR) scene into a range that ordinary displays can show. The Reinhard operator applies non-linear compression to luminance, preserving detail in both highlights and shadows."
+    },
+    {
+     "question": "Does it work on ordinary photos?",
+     "answer": "Yes. Even on a regular JPG, applying tone mapping makes highlights softer and shadow detail richer, producing an HDR-like look."
+    },
+    {
+     "question": "How should I understand the exposure parameter?",
+     "answer": "Exposure mimics the exposure compensation used in HDR merging: raising it brightens shadows, while lowering it makes highlights more delicate. The default of 100% is neutral."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your photos never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Auto Contrast",
+     "href": "/tools/auto-contrast"
+    },
+    {
+     "name": "Histogram Equalization",
+     "href": "/tools/histogram-equalize"
+    },
+    {
+     "name": "White Balance",
+     "href": "/tools/white-balance"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "exposure": "Exposure",
+    "strength": "Strength",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Applying tone mapping…"
+   },
+   "buttons": {
+    "apply": "Apply HDR Tone Mapping",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the HDR Tone Mapping Tool?",
+     "body": [
+      "The HDR Tone Mapping tool uses the Reinhard operator to compress the image's luminance range, simulating the look of high-dynamic-range photography.",
+      "It makes highlights softer and shadow detail richer — ideal for backlit landscapes, night lights, and other scenes with a wide tonal range."
+     ]
+    },
+    "howTo": {
+     "title": "How to Apply HDR Tone Mapping",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload the photo you want to process.",
+      "Adjust the exposure and strength parameters.",
+      "Click Apply HDR Tone Mapping to review the effect.",
+      "Download the processed image as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Backlit and night photos show the most dramatic improvement.",
+      "An exposure of 120–150% enhances shadow detail.",
+      "Too much strength makes the image look flat — keep it around 80–100%."
+     ]
+    }
+   }
+  },
+  "dehaze": {
+   "metadata": {
+    "title": "Dehaze - Remove Fog and Haze from Photos Online",
+    "description": "Free online dehazing tool. The dark channel prior algorithm removes fog and haze to restore clear, crisp landscapes, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Dehaze",
+   "description": "Remove fog, haze, and the low contrast they cause in your photos, restoring a clear and crisp scene. The tool uses the dark channel prior algorithm to estimate and compensate for atmospheric scattering. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "dehaze",
+    "remove fog",
+    "photo dehaze",
+    "haze removal",
+    "clear landscape",
+    "dehaze photo",
+    "remove haze"
+   ],
+   "faqs": [
+    {
+     "question": "How does dehazing work?",
+     "answer": "The tool uses the dark channel prior algorithm: it estimates the atmospheric light in the image, uses the dark channel to estimate the haze density (transmission) of each region, then reverses the atmospheric scattering to restore a clear scene."
+    },
+    {
+     "question": "Which photos is it good for?",
+     "answer": "It works well on photos taken on foggy, hazy, or humid days, hazy-looking shots, and lightly misted mountain landscapes."
+    },
+    {
+     "question": "What does the window size mean?",
+     "answer": "The window size is the local neighborhood range used when computing the dark channel, and it determines how finely the haze density is estimated. Larger windows give smoother estimates; smaller windows keep more detail."
+    },
+    {
+     "question": "Is my photo uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your photos never leave your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Auto Contrast",
+     "href": "/tools/auto-contrast"
+    },
+    {
+     "name": "White Balance",
+     "href": "/tools/white-balance"
+    },
+    {
+     "name": "HDR Tone Mapping",
+     "href": "/tools/hdr-tone-mapping"
+    }
+   ],
+   "upload": {
+    "drop": "Drop a photo or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "strength": "Strength",
+    "window": "Window Size",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Dehazing…"
+   },
+   "buttons": {
+    "dehaze": "Dehaze",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Dehaze Tool?",
+     "body": [
+      "The Dehaze tool uses the dark channel prior algorithm to remove fog and haze from photos, restoring the scene's original clarity and color saturation.",
+      "It is ideal for fixing landscape photos taken on foggy or hazy days, making distant mountains and skies clear again."
+     ]
+    },
+    "howTo": {
+     "title": "How to Remove Haze from a Photo",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload a hazy or foggy photo.",
+      "Adjust the strength and window size as needed.",
+      "Click Dehaze and review the result.",
+      "Download the dehazed image as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The default strength of 100% suits most foggy photos.",
+      "Pair with Auto Contrast afterwards for further refinement.",
+      "For extremely dense fog, process twice for a more natural result."
+     ]
+    }
+   }
+  },
+  "image-rotate-flip": {
+   "metadata": {
+    "title": "Rotate & Flip - Rotate and Flip Images Online",
+    "description": "Free online tool to rotate, flip horizontally, and mirror images vertically. Rotate at any angle with 90° quick buttons, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Rotate & Flip",
+   "description": "Rotate, flip horizontally, or mirror your image vertically online. Rotate at any angle with a fine-tuned slider or use the 90° quick buttons, and toggle horizontal/vertical flip anytime. All processing happens locally in your browser — your image is never uploaded.",
+   "category": "Image Tools",
+   "keywords": [
+    "rotate image",
+    "flip image",
+    "horizontal flip",
+    "mirror image",
+    "vertical mirror",
+    "image rotation",
+    "rotate photo",
+    "flip photo"
+   ],
+   "faqs": [
+    {
+     "question": "Can I rotate at any angle?",
+     "answer": "Yes. Besides the 90° quick buttons, a slider from -180° to 180° lets you rotate your image to any angle."
+    },
+    {
+     "question": "What's the difference between a horizontal flip and a vertical mirror?",
+     "answer": "A horizontal flip mirrors the image left-to-right along the vertical axis (like a mirror), while a vertical mirror turns it upside down along the horizontal axis. The two can be combined."
+    },
+    {
+     "question": "Will rotation change the image size?",
+     "answer": "Yes. When rotating at a custom angle, the output canvas expands to fit the rotated image, and the extra area is filled with a white background."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    },
+    {
+     "name": "Image Resizer",
+     "href": "/tools/image-resizer"
+    },
+    {
+     "name": "Add Border",
+     "href": "/tools/image-border"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "angle": "Rotation Angle",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Processing…"
+   },
+   "buttons": {
+    "rotateLeft": "Rotate Left 90°",
+    "rotateRight": "Rotate Right 90°",
+    "flipH": "Flip Horizontal",
+    "flipV": "Mirror Vertical",
+    "apply": "Apply Transform",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Rotate & Flip Tool?",
+     "body": [
+      "The Rotate & Flip tool lets you quickly adjust your image's orientation: rotation fixes tilted or upside-down photos, while flipping and mirroring are great for symmetrical effects or reversing an image's direction.",
+      "It supports rotation at any angle, horizontal flip, and vertical mirror — all done locally in your browser."
+     ]
+    },
+    "howTo": {
+     "title": "How to Rotate and Flip",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Adjust the angle with the slider or use the rotate/flip buttons.",
+      "Click Apply Transform and preview the result.",
+      "Download the processed image as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "The 90° buttons quickly switch between landscape and portrait.",
+      "For slightly tilted photos, start with a small-angle rotation to fine-tune.",
+      "Flipping an image with text horizontally will mirror the text."
+     ]
+    }
+   }
+  },
+  "image-negative": {
+   "metadata": {
+    "title": "Negative/Invert - Invert Image Colors Online",
+    "description": "Free online tool to invert image colors for a film negative effect. One click, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Negative/Invert",
+   "description": "Invert every pixel color in your image (255 minus the original value) for a film negative look. Black-and-white photos take on an X-ray quality, while color photos produce interesting complementary-color effects. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "negative",
+    "invert image",
+    "invert colors",
+    "color invert",
+    "photo negative",
+    "invert",
+    "image inversion"
+   ],
+   "faqs": [
+    {
+     "question": "What is the negative effect?",
+     "answer": "The negative effect inverts every color in the image: black becomes white and white becomes black, with each color turning into its complementary color, just like a traditional film negative."
+    },
+    {
+     "question": "What is it good for?",
+     "answer": "You can create X-ray-style black-and-white images, or give photos an artistic complementary-color look. Inverting again restores the original image."
+    },
+    {
+     "question": "Will I lose image information?",
+     "answer": "No. Inversion is reversible — apply it again and the original colors come back."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    },
+    {
+     "name": "Grayscale",
+     "href": "/tools/image-filters"
+    },
+    {
+     "name": "Vintage",
+     "href": "/tools/image-filters"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Inverting…"
+   },
+   "buttons": {
+    "invert": "Invert Colors",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Negative Tool?",
+     "body": [
+      "The Negative tool fully inverts the colors of an image to mimic the look of a traditional film negative.",
+      "Black-and-white photos take on an X-ray quality, while color photos produce complementary-color artistic effects."
+     ]
+    },
+    "howTo": {
+     "title": "How to Create a Negative Effect",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Click Invert Colors.",
+      "Preview the negative effect.",
+      "Download the result as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "Black-and-white portraits look most X-ray-like when inverted.",
+      "Invert again to restore the original image.",
+      "Combine with edge detection for interesting outline images."
+     ]
+    }
+   }
+  },
+  "image-pixelate": {
+   "metadata": {
+    "title": "Pixelate/Mosaic - Pixelate Images Online",
+    "description": "Free online tool to pixelate images for a mosaic or retro 8-bit look. Adjustable block size, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Pixelate/Mosaic",
+   "description": "Average each region of your image into color blocks for a mosaic or retro pixel look. Adjust the block size to control the effect — small blocks give a retro 8-bit style, while large blocks are great for covering private details. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "pixelate image",
+    "mosaic",
+    "pixel art",
+    "8-bit",
+    "image pixelation",
+    "pixelate",
+    "photo mosaic"
+   ],
+   "faqs": [
+    {
+     "question": "What's the difference between mosaic and pixelate?",
+     "answer": "They're essentially the same — both divide the image into color blocks. 'Mosaic' usually refers to large blocks (for covering details), while 'pixelate' refers to small blocks (for retro pixel art)."
+    },
+    {
+     "question": "Can I use it to cover faces or private details?",
+     "answer": "Yes. Set the block size large (32px or above) to cover faces, license plates, and other sensitive areas with color blocks."
+    },
+    {
+     "question": "How do I get a retro 8-bit style?",
+     "answer": "Set the block size to 4–12px and keep the original colors — you'll get a pixel-art look like classic retro games."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Face Blur",
+     "href": "/tools/face-blur"
+    },
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    },
+    {
+     "name": "Oil Paint",
+     "href": "/tools/image-oil-paint"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "blockSize": "Block Size",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Pixelating…"
+   },
+   "buttons": {
+    "pixelate": "Pixelate",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Pixelate Tool?",
+     "body": [
+      "The Pixelate tool divides your image into uniform color blocks, each filled with the average color of that region, creating a mosaic or pixel-art effect.",
+      "Use large blocks to cover private details, or small blocks for a retro 8-bit style."
+     ]
+    },
+    "howTo": {
+     "title": "How to Pixelate an Image",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Adjust the block size to control the pixelation level.",
+      "Click Pixelate and preview the result.",
+      "Download the result as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "4–12px suits retro pixel art; 32px and above works for covering private details.",
+      "For large images, resize first with the image resizer tool.",
+      "Combine with edge detection for pixel-art outlines."
+     ]
+    }
+   }
+  },
+  "image-oil-paint": {
+   "metadata": {
+    "title": "Oil Paint - Turn Photos into Oil Paintings Online",
+    "description": "Free online tool to turn photos into oil paintings. Adjustable brush radius and color levels, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Oil Paint",
+   "description": "Turn your photos into oil paintings. The algorithm counts the most frequent quantized color in each pixel neighborhood and paints with it, mimicking a painter's brushstrokes. Adjust the brush radius and color quantization level — all processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "oil painting",
+    "oil paint effect",
+    "photo to oil painting",
+    "oil paint filter",
+    "oil painting style",
+    "oil painting effect"
+   ],
+   "faqs": [
+    {
+     "question": "How does the oil paint effect work?",
+     "answer": "The algorithm counts the most frequent quantized color in each pixel neighborhood and fills the center pixel with it, mimicking the smearing and blending of an oil painting brush."
+    },
+    {
+     "question": "What do radius and levels mean?",
+     "answer": "Radius controls the brush size (larger means thicker strokes); levels control color quantization (fewer levels means simpler colors and a bolder style)."
+    },
+    {
+     "question": "Which photos work best?",
+     "answer": "Landscapes, still lifes, and portraits all work well. Photos with rich detail produce more vivid results — start with the default settings and adjust from there."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Edge Detection",
+     "href": "/tools/image-edge-detect"
+    },
+    {
+     "name": "Pixelate/Mosaic",
+     "href": "/tools/image-pixelate"
+    },
+    {
+     "name": "Image Filters",
+     "href": "/tools/image-filters"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "radius": "Brush Radius",
+    "levels": "Color Levels",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Painting…"
+   },
+   "buttons": {
+    "paint": "Apply Oil Paint",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Oil Paint Tool?",
+     "body": [
+      "The Oil Paint tool mimics the brushstrokes and color blending of oil painting to turn ordinary photos into artistic paintings.",
+      "The brush radius and color level parameters let you control how bold the style looks."
+     ]
+    },
+    "howTo": {
+     "title": "How to Create an Oil Painting Effect",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload a photo.",
+      "Adjust the brush radius and color levels.",
+      "Click Apply Oil Paint and preview the result.",
+      "Download your oil painting as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "A radius of 3–6 with levels of 8–16 looks most natural.",
+      "Landscape photos usually turn out better than photos with flat solid-color backgrounds.",
+      "If processing feels slow, lower the brush radius."
+     ]
+    }
+   }
+  },
+  "image-edge-detect": {
+   "metadata": {
+    "title": "Edge Detection - Extract Image Outlines Online",
+    "description": "Free online edge detection tool. The Sobel operator extracts object outlines into a black-and-white line drawing, with adjustable threshold, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Edge Detection",
+   "description": "Detect edges in your image with the Sobel operator to extract object outlines and create a black-and-white line-art effect. Adjust the threshold to control line density. All processing happens locally in your browser — your image is never uploaded.",
+   "category": "Image Tools",
+   "keywords": [
+    "edge detection",
+    "line art",
+    "outline extraction",
+    "sketch effect",
+    "sobel",
+    "photo to line art",
+    "extract outlines"
+   ],
+   "faqs": [
+    {
+     "question": "How does edge detection work?",
+     "answer": "The tool uses the Sobel operator to compute the brightness gradient of each pixel in the horizontal and vertical directions. Pixels with large gradients are edges, and the result is a black-and-white line drawing."
+    },
+    {
+     "question": "What does the threshold mean?",
+     "answer": "The threshold decides which gradients count as edges: lower thresholds detect more lines, while higher thresholds keep only the most obvious outlines."
+    },
+    {
+     "question": "What is it good for?",
+     "answer": "You can create line-art style images, extract object outlines for design reference, or use it as a sketch-style artistic filter."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Oil Paint",
+     "href": "/tools/image-oil-paint"
+    },
+    {
+     "name": "Negative/Invert",
+     "href": "/tools/image-negative"
+    },
+    {
+     "name": "Pixelate/Mosaic",
+     "href": "/tools/image-pixelate"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "threshold": "Threshold",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Detecting edges…"
+   },
+   "buttons": {
+    "detect": "Detect Edges",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Edge Detection Tool?",
+     "body": [
+      "The Edge Detection tool uses the Sobel operator to extract object outlines from your image, turning photos into black-and-white line art.",
+      "It's great for line-art illustrations, extracting design outlines, or as an artistic filter."
+     ]
+    },
+    "howTo": {
+     "title": "How to Extract Image Outlines",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Adjust the threshold to control line density.",
+      "Click Detect Edges and preview the line art.",
+      "Download the line art as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "A threshold of 30–80 usually works best.",
+      "High-contrast images produce clearer outlines.",
+      "Combine line art with the negative tool for an inverted white version."
+     ]
+    }
+   }
+  },
+  "image-rounded-corners": {
+   "metadata": {
+    "title": "Rounded Corners - Add Rounded Corners to Images Online",
+    "description": "Free online tool to add rounded corners to images and export a transparent-background PNG. Adjustable corner radius, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Rounded Corners",
+   "description": "Round the four corners of your image and export a PNG with a transparent background — perfect for websites, app icons, or design assets. The corner radius is fully adjustable. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "rounded corners",
+    "round image corners",
+    "image rounded corners",
+    "rounded rectangle",
+    "round corners image",
+    "rounded corner png"
+   ],
+   "faqs": [
+    {
+     "question": "What's the output format?",
+     "answer": "The output is a PNG with transparent corners, so you can place it directly over any background."
+    },
+    {
+     "question": "How large can the corner radius be?",
+     "answer": "The radius ranges from 0 to 200px and never exceeds half of the image's width or height (beyond that it becomes a capsule or circle)."
+    },
+    {
+     "question": "What is it good for?",
+     "answer": "It's great for app icons, avatars, card covers, and web assets that need rounded corners."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Add Border",
+     "href": "/tools/image-border"
+    },
+    {
+     "name": "Drop Shadow",
+     "href": "/tools/image-shadow"
+    },
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "radius": "Corner Radius",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Processing…"
+   },
+   "buttons": {
+    "apply": "Apply Rounded Corners",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Rounded Corners Tool?",
+     "body": [
+      "The Rounded Corners tool adds smooth rounded corners to your image and exports a transparent-background PNG, ideal for avatars, icons, and design assets.",
+      "The corner radius is fully adjustable, from slightly rounded to a complete circle."
+     ]
+    },
+    "howTo": {
+     "title": "How to Add Rounded Corners to an Image",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Drag the slider to adjust the corner radius.",
+      "Click Apply Rounded Corners and preview the result.",
+      "Download the PNG with a transparent background."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "For avatars, a radius around 25% of the image size looks best.",
+      "Icons commonly use a radius-to-size ratio of about 22%.",
+      "When the radius exceeds half the image size, the image becomes a circle."
+     ]
+    }
+   }
+  },
+  "image-border": {
+   "metadata": {
+    "title": "Add Border - Add Borders to Images Online",
+    "description": "Free online tool to add colorful borders to images. Adjustable width and color, with custom color support, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Add Border",
+   "description": "Add a colorful border around your image with an adjustable width of 2–200px, 10 built-in colors, and a custom color picker. Great for framing photos, ID pictures, or social sharing. All processing happens locally in your browser.",
+   "category": "Image Tools",
+   "keywords": [
+    "add border to image",
+    "image border",
+    "photo border",
+    "picture frame",
+    "add border",
+    "photo frame online"
+   ],
+   "faqs": [
+    {
+     "question": "Does the border change the image size?",
+     "answer": "Yes. The output image is the original size plus twice the border width, while the image content itself stays at its original size."
+    },
+    {
+     "question": "What colors are supported?",
+     "answer": "There are 10 built-in colors — white, black, red, orange, yellow, green, cyan, blue, purple, and pink — plus a color picker for any custom color."
+    },
+    {
+     "question": "What is it good for?",
+     "answer": "Add white borders to photos for social sharing, create a picture-frame effect, or add regulation-colored borders to ID photos."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Rounded Corners",
+     "href": "/tools/image-rounded-corners"
+    },
+    {
+     "name": "Drop Shadow",
+     "href": "/tools/image-shadow"
+    },
+    {
+     "name": "Image Crop",
+     "href": "/tools/image-crop"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "width": "Border Width",
+    "color": "Border Color",
+    "custom": "Custom",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Adding border…"
+   },
+   "buttons": {
+    "apply": "Add Border",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Add Border Tool?",
+     "body": [
+      "The Add Border tool adds a border with customizable width and color around your image, perfect for framing photos and sharing.",
+      "It supports 10 built-in colors and a custom color picker, with a border width adjustable from 2–200px."
+     ]
+    },
+    "howTo": {
+     "title": "How to Add a Border to an Image",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Adjust the border width and choose a color.",
+      "Click Add Border and preview the result.",
+      "Download the image with its border as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "A white border of 20–40px is great for sharing on social platforms.",
+      "Add rounded corners first, then a border, for a rounded picture frame.",
+      "Choose the border color for ID photos according to the required specifications."
+     ]
+    }
+   }
+  },
+  "image-shadow": {
+   "metadata": {
+    "title": "Drop Shadow - Add Shadows to Images Online",
+    "description": "Free online tool to add a soft drop shadow to images. Adjustable blur and offsets, processed entirely in your browser.",
+    "category": "Image Tools"
+   },
+   "title": "Drop Shadow",
+   "description": "Add a soft drop shadow to your image so it looks more three-dimensional. The blur amount and horizontal/vertical offsets are all adjustable. All processing happens locally in your browser — your image is never uploaded.",
+   "category": "Image Tools",
+   "keywords": [
+    "drop shadow",
+    "image shadow",
+    "shadow effect",
+    "add shadow to image",
+    "photo shadow",
+    "soft shadow"
+   ],
+   "faqs": [
+    {
+     "question": "What is a drop shadow?",
+     "answer": "A drop shadow draws an offset, blurred dark outline behind the image to simulate the shadow cast by light, giving the image a sense of floating above its background."
+    },
+    {
+     "question": "What do blur and offset control?",
+     "answer": "Blur controls how soft the shadow's edges are; the X/Y offsets control how far the shadow shifts horizontally and vertically."
+    },
+    {
+     "question": "What is it good for?",
+     "answer": "It's great for web assets, product showcase images, and screenshot decoration that need a sense of depth."
+    },
+    {
+     "question": "Is my image uploaded anywhere?",
+     "answer": "No. All processing happens locally in your browser — your image never leaves your device."
+    }
+   ],
+   "relatedTools": [
+    {
+     "name": "Add Border",
+     "href": "/tools/image-border"
+    },
+    {
+     "name": "Rounded Corners",
+     "href": "/tools/image-rounded-corners"
+    },
+    {
+     "name": "Background Remover",
+     "href": "/tools/background-remover"
+    }
+   ],
+   "upload": {
+    "drop": "Drop an image or click to upload",
+    "formats": "PNG, JPG, WEBP, BMP"
+   },
+   "labels": {
+    "blur": "Blur",
+    "offsetX": "Offset X",
+    "offsetY": "Offset Y",
+    "original": "Original",
+    "result": "Result"
+   },
+   "status": {
+    "processing": "Adding shadow…"
+   },
+   "buttons": {
+    "apply": "Add Shadow",
+    "newImage": "New Image",
+    "download": "Download"
+   },
+   "errors": {
+    "process": "Failed to process the image."
+   },
+   "guide": {
+    "whatIs": {
+     "title": "What Is the Drop Shadow Tool?",
+     "body": [
+      "The Drop Shadow tool adds a soft shadow behind your image, making it look like it's floating above its background.",
+      "Blur, horizontal offset, and vertical offset can all be adjusted independently, and the output is a PNG with a transparent background."
+     ]
+    },
+    "howTo": {
+     "title": "How to Add a Shadow to an Image",
+     "intro": "Follow these steps:",
+     "items": [
+      "Drop or upload an image.",
+      "Adjust the blur and offset parameters.",
+      "Click Add Shadow and preview the result.",
+      "Download the image with its shadow as a PNG file."
+     ]
+    },
+    "tips": {
+     "title": "Tips",
+     "items": [
+      "A blur of 20–40px gives the most natural shadow.",
+      "With an offset of 0, the shadow sits directly behind the image for a soft-glow effect.",
+      "Images with transparent backgrounds (like cutouts) produce the best shadows."
+     ]
+    }
+   }
+  }
+ }
+}

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/water-intake-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/water-intake-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/water-intake-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/water-intake-calculator`,
       },
     },
   };

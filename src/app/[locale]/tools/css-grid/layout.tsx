@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/css-grid`,
         ja: `https://www.toolkitlife.com/ja/tools/css-grid`,
         ko: `https://www.toolkitlife.com/ko/tools/css-grid`,
+        ru: `https://www.toolkitlife.com/ru/tools/css-grid`,
       },
     },
   };

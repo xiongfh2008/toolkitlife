@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/simple-interest-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/simple-interest-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/simple-interest-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/simple-interest-calculator`,
       },
     },
   };

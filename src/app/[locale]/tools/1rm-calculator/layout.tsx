@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/1rm-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/1rm-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/1rm-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/1rm-calculator`,
       },
     },
   };

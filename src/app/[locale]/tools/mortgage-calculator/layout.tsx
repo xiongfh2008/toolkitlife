@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/mortgage-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/mortgage-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/mortgage-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/mortgage-calculator`,
       },
     },
   };

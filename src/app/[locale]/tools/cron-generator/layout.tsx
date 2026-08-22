@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/cron-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/cron-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/cron-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/cron-generator`,
       },
     },
   };

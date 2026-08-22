@@ -183,6 +183,7 @@ const BASE_SCENES: HomeScene[] = [
       "chmod-calculator",
       "binary-converter",
       "number-base-converter",
+      "px-to-rem",
       "whois-lookup",
       "ip-lookup",
       "claude-code-text-formatter",
@@ -344,12 +345,15 @@ const BASE_SCENES: HomeScene[] = [
       "fancy-text-generator",
       "lorem-ipsum-generator",
       "typing-speed-test",
+      "morse-code",
+      "reverse-text",
     ],
   },
   {
     key: "utility",
     tools: [
       "password-generator",
+      "password-strength",
       "qr-code-generator",
       "qr-code-reader",
       "barcode-generator",

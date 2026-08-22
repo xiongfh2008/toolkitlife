@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/paycheck-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/paycheck-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/paycheck-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/paycheck-calculator`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/video-subtitle-burner`,
         ja: `https://www.toolkitlife.com/ja/tools/video-subtitle-burner`,
         ko: `https://www.toolkitlife.com/ko/tools/video-subtitle-burner`,
+        ru: `https://www.toolkitlife.com/ru/tools/video-subtitle-burner`,
       },
     },
   };

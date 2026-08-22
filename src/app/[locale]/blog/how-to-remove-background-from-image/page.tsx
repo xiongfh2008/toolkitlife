@@ -43,6 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         zh: `https://www.toolkitlife.com/zh/blog/${post.slug}`,
         ja: `https://www.toolkitlife.com/ja/blog/${post.slug}`,
         ko: `https://www.toolkitlife.com/ko/blog/${post.slug}`,
+        ru: `https://www.toolkitlife.com/ru/blog/${post.slug}`,
       },
     },
     openGraph: { title: post.title, description: post.description, url, siteName: "ToolkitLife", type: "article", publishedTime: post.datePublished, modifiedTime: post.dateModified, tags: post.tags, images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }] },

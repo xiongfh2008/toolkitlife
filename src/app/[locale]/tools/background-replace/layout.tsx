@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/background-replace`,
         ja: `https://www.toolkitlife.com/ja/tools/background-replace`,
         ko: `https://www.toolkitlife.com/ko/tools/background-replace`,
+        ru: `https://www.toolkitlife.com/ru/tools/background-replace`,
       },
     },
   };

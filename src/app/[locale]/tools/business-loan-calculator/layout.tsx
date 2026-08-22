@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/business-loan-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/business-loan-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/business-loan-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/business-loan-calculator`,
       },
     },
   };

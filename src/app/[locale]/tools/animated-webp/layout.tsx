@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/animated-webp`,
         ja: `https://www.toolkitlife.com/ja/tools/animated-webp`,
         ko: `https://www.toolkitlife.com/ko/tools/animated-webp`,
+        ru: `https://www.toolkitlife.com/ru/tools/animated-webp`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-compare`,
         ja: `https://www.toolkitlife.com/ja/tools/image-compare`,
         ko: `https://www.toolkitlife.com/ko/tools/image-compare`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-compare`,
       },
     },
   };

@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/video-frame-extractor`,
         ja: `https://www.toolkitlife.com/ja/tools/video-frame-extractor`,
         ko: `https://www.toolkitlife.com/ko/tools/video-frame-extractor`,
+        ru: `https://www.toolkitlife.com/ru/tools/video-frame-extractor`,
       },
     },
   };

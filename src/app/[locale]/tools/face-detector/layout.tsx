@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/face-detector`,
         ja: `https://www.toolkitlife.com/ja/tools/face-detector`,
         ko: `https://www.toolkitlife.com/ko/tools/face-detector`,
+        ru: `https://www.toolkitlife.com/ru/tools/face-detector`,
       },
     },
   };

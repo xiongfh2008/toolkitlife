@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/payment-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/payment-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/payment-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/payment-calculator`,
       },
     },
   };

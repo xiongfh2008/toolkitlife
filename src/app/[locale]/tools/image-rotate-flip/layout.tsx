@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/image-rotate-flip`,
         ja: `https://www.toolkitlife.com/ja/tools/image-rotate-flip`,
         ko: `https://www.toolkitlife.com/ko/tools/image-rotate-flip`,
+        ru: `https://www.toolkitlife.com/ru/tools/image-rotate-flip`,
       },
     },
   };

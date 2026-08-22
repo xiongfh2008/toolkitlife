@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/css-gradient-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/css-gradient-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/css-gradient-generator`,
+        ru: `https://www.toolkitlife.com/ru/tools/css-gradient-generator`,
       },
     },
   };

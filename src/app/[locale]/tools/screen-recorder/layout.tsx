@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/screen-recorder`,
         ja: `https://www.toolkitlife.com/ja/tools/screen-recorder`,
         ko: `https://www.toolkitlife.com/ko/tools/screen-recorder`,
+        ru: `https://www.toolkitlife.com/ru/tools/screen-recorder`,
       },
     },
   };

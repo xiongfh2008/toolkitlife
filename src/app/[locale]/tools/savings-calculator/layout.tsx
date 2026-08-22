@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/savings-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/savings-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/savings-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/savings-calculator`,
       },
     },
   };

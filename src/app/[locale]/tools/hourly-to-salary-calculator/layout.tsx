@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/hourly-to-salary-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/hourly-to-salary-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/hourly-to-salary-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/hourly-to-salary-calculator`,
       },
     },
   };

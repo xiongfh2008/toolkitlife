@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/square-root-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/square-root-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/square-root-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/square-root-calculator`,
       },
     },
   };

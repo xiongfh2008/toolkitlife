@@ -1854,6 +1854,30 @@
         "description": "Convert every page of a Word document to PNG images and download them as a ZIP.",
         "category": "Utility",
         "icon": "📄"
+      },
+      "morse-code": {
+        "name": "Morse Code Translator",
+        "description": "Translate text to Morse code and back instantly",
+        "category": "Text",
+        "icon": "📡"
+      },
+      "reverse-text": {
+        "name": "Reverse Text Generator",
+        "description": "Reverse characters, words or lines instantly",
+        "category": "Text",
+        "icon": "↔"
+      },
+      "px-to-rem": {
+        "name": "PX to REM Converter",
+        "description": "Convert pixels to rem and back with a custom base font size",
+        "category": "Developer",
+        "icon": "Rem"
+      },
+      "password-strength": {
+        "name": "Password Strength Checker",
+        "description": "Test password strength with an instant score and tips",
+        "category": "Utility",
+        "icon": "🔒"
       }
     },
     "scenes": {
@@ -32870,6 +32894,360 @@
             "For multi-page documents, use Download All (ZIP) to export every page at once."
           ]
         }
+      }
+    },
+    "morse-code": {
+      "metadata": {
+        "title": "Morse Code Translator",
+        "description": "Translate text to Morse code and Morse code back to text instantly. Free, private and runs entirely in your browser.",
+        "category": "Text"
+      },
+      "keywords": [
+        "morse code translator",
+        "morse code converter",
+        "text to morse code",
+        "morse code to text",
+        "morse encoder",
+        "morse decoder",
+        "sos morse code",
+        "morse code alphabet"
+      ],
+      "faqs": [
+        {
+          "question": "What is Morse code?",
+          "answer": "Morse code is a method of encoding text as sequences of dots (.) and dashes (-). Each letter and digit has a unique pattern, and words are separated by a slash (/)."
+        },
+        {
+          "question": "How do I convert text to Morse code?",
+          "answer": "Type or paste your text in the input box. The Morse output updates instantly — letters are separated by spaces and words by slashes."
+        },
+        {
+          "question": "How do I convert Morse code back to text?",
+          "answer": "Switch to the “Decode” mode and paste the Morse code using dots, dashes and spaces (words separated by “/”). The decoded text appears instantly."
+        },
+        {
+          "question": "What is the SOS signal?",
+          "answer": "SOS is one of the best-known Morse signals: ... --- ... (three dots, three dashes, three dots). It is used as a distress signal."
+        },
+        {
+          "question": "Is this tool free?",
+          "answer": "Yes, completely free. All conversion happens in your browser — nothing is uploaded."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Text Case Converter",
+          "href": "/tools/text-case-converter"
+        },
+        {
+          "name": "Reverse Text Generator",
+          "href": "/tools/reverse-text"
+        },
+        {
+          "name": "Word Counter",
+          "href": "/tools/word-counter"
+        }
+      ],
+      "labels": {
+        "textToEncode": "Text to encode",
+        "morseToDecode": "Morse code to decode",
+        "output": "Output",
+        "enterText": "Type or paste text",
+        "enterMorse": "Enter Morse code (dots, dashes, spaces)",
+        "invalidMorse": "Invalid Morse code — use only dots, dashes, spaces and slashes.",
+        "hint": "Letters are separated by spaces, words by “/”. Unsupported characters are skipped."
+      },
+      "buttons": {
+        "encode": "Encode",
+        "decode": "Decode"
+      },
+      "guide": {
+        "intro": {
+          "title": "What is a Morse Code Translator?",
+          "paragraphs": [
+            "A Morse code translator is a free online tool that converts text into Morse code and decodes Morse code back into readable text. It works entirely in your browser, so your messages stay private."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use",
+            "items": [
+              "Open the tool in your browser",
+              "Type or paste your text, or switch to Decode mode and paste Morse code",
+              "Copy the result with one click"
+            ]
+          },
+          {
+            "title": "Key features",
+            "items": [
+              "Completely free, no signup required",
+              "Instant conversion in both directions",
+              "Runs locally in your browser for privacy",
+              "Supports letters A–Z and digits 0–9"
+            ]
+          }
+        ]
+      }
+    },
+    "reverse-text": {
+      "metadata": {
+        "title": "Reverse Text Generator",
+        "description": "Reverse any text instantly — reverse characters, word order or line order. Free and private.",
+        "category": "Text"
+      },
+      "keywords": [
+        "reverse text",
+        "reverse text generator",
+        "text reverser",
+        "reverse string",
+        "reverse words",
+        "flip text",
+        "backwards text",
+        "reverse letters"
+      ],
+      "faqs": [
+        {
+          "question": "How do I reverse text?",
+          "answer": "Paste your text in the input box and choose a mode — the reversed result appears instantly."
+        },
+        {
+          "question": "What modes are supported?",
+          "answer": "Three modes: reverse characters, reverse word order, and reverse line order."
+        },
+        {
+          "question": "Is this tool free?",
+          "answer": "Yes, completely free. Everything runs in your browser."
+        },
+        {
+          "question": "Why isn’t my emoji reversed?",
+          "answer": "Emoji are made of multiple Unicode code points, so they may not be reversed character-by-character in all browsers."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Text Case Converter",
+          "href": "/tools/text-case-converter"
+        },
+        {
+          "name": "Morse Code Translator",
+          "href": "/tools/morse-code"
+        },
+        {
+          "name": "Word Counter",
+          "href": "/tools/word-counter"
+        }
+      ],
+      "labels": {
+        "input": "Text to reverse",
+        "output": "Reversed result",
+        "enterText": "Type or paste your text"
+      },
+      "buttons": {
+        "chars": "Reverse characters",
+        "words": "Reverse words",
+        "lines": "Reverse lines"
+      },
+      "guide": {
+        "intro": {
+          "title": "What is a Reverse Text Generator?",
+          "paragraphs": [
+            "A reverse text generator is a free online tool that flips text in different ways: it can reverse the order of characters, words or lines. All processing happens in your browser."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use",
+            "items": [
+              "Paste your text, choose a mode",
+              "Copy the result with one click"
+            ]
+          },
+          {
+            "title": "Key features",
+            "items": [
+              "Three reverse modes",
+              "Instant results while you type",
+              "No upload — private by design",
+              "Free and works on any device"
+            ]
+          }
+        ]
+      }
+    },
+    "px-to-rem": {
+      "metadata": {
+        "title": "PX to REM Converter",
+        "description": "Convert pixels (px) to rem and rem to pixels with a custom base font size. Free CSS unit converter.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "px to rem",
+        "rem to px",
+        "px rem converter",
+        "css unit converter",
+        "root font size",
+        "responsive typography",
+        "pixel to rem",
+        "rem calculator"
+      ],
+      "faqs": [
+        {
+          "question": "What is rem?",
+          "answer": "rem is a CSS unit relative to the root element’s font size (usually html). Unlike em, it isn’t affected by parent font sizes."
+        },
+        {
+          "question": "What is the base font size?",
+          "answer": "The default base is 16px — the browser default — and you can switch to 14, 15, 17, 18 or 20px."
+        },
+        {
+          "question": "How do I convert px to rem?",
+          "answer": "Divide the pixel value by the base font size: 16px ÷ 16 = 1rem. The tool does this instantly."
+        },
+        {
+          "question": "Why use rem instead of px?",
+          "answer": "rem scales with the root font size, which makes responsive layouts easier and respects the user’s browser font-size setting."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Binary Converter",
+          "href": "/tools/binary-converter"
+        },
+        {
+          "name": "Unit Converter",
+          "href": "/tools/unit-converter"
+        },
+        {
+          "name": "CSS Minifier",
+          "href": "/tools/css-minifier"
+        }
+      ],
+      "labels": {
+        "baseFontSize": "Base font size",
+        "pxToRem": "Pixels (px) → rem",
+        "remToPx": "rem → pixels (px)",
+        "hint": "1rem equals {base}px at the current base size. Change the base size above."
+      },
+      "guide": {
+        "intro": {
+          "title": "What is a PX to REM Converter?",
+          "paragraphs": [
+            "A px to rem converter is a free online tool that converts pixel values to rem units and back, using a configurable base font size. It helps developers build responsive, accessible layouts."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use",
+            "items": [
+              "Choose the base font size (default 16px)",
+              "Type a value in either field — the conversion happens instantly in the other",
+              "Copy the resulting value into your CSS"
+            ]
+          },
+          {
+            "title": "Key features",
+            "items": [
+              "Instant two-way conversion",
+              "Configurable root font size",
+              "Works with decimal values",
+              "Free and runs entirely in your browser"
+            ]
+          }
+        ]
+      }
+    },
+    "password-strength": {
+      "metadata": {
+        "title": "Password Strength Checker",
+        "description": "Test how strong your password is with an instant score, checklist and tips. Runs entirely in your browser.",
+        "category": "Utility"
+      },
+      "keywords": [
+        "password strength",
+        "password strength checker",
+        "password test",
+        "strong password",
+        "password security",
+        "password score",
+        "check password strength",
+        "password entropy"
+      ],
+      "faqs": [
+        {
+          "question": "How is the strength calculated?",
+          "answer": "The score combines length and character variety: uppercase, lowercase, digits and symbols each add points."
+        },
+        {
+          "question": "What makes a strong password?",
+          "answer": "At least 12 characters, a mix of upper/lowercase letters, digits and symbols, and no common words or personal info."
+        },
+        {
+          "question": "Is my password sent anywhere?",
+          "answer": "No. Everything runs in your browser — your password never leaves your device."
+        },
+        {
+          "question": "What is a good score?",
+          "answer": "Aim for “Good” or “Strong”. If you see “Weak” or “Fair”, make the password longer and add more character types."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Password Generator",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "Random Number Generator",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "password": "Password",
+        "enterPassword": "Type a password to test",
+        "strength": "Strength",
+        "empty": "—",
+        "weak": "Weak",
+        "fair": "Fair",
+        "good": "Good",
+        "strong": "Strong",
+        "privacy": "Your password is analyzed locally in your browser and never sent anywhere.",
+        "criteria": {
+          "length": "At least 8 characters",
+          "upper": "Uppercase letters (A–Z)",
+          "lower": "Lowercase letters (a–z)",
+          "digit": "Numbers (0–9)",
+          "symbol": "Symbols (!@#$…)"
+        }
+      },
+      "guide": {
+        "intro": {
+          "title": "What is a Password Strength Checker?",
+          "paragraphs": [
+            "A password strength checker is a free tool that analyzes your password and shows how resistant it is to guessing or brute-force attacks. The analysis happens locally in your browser."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to use",
+            "items": [
+              "Open the tool and type your password",
+              "Watch the strength bar and checklist update in real time",
+              "Use the suggestions to create a stronger password"
+            ]
+          },
+          {
+            "title": "Key features",
+            "items": [
+              "Instant real-time scoring",
+              "Clear visual checklist",
+              "100% local analysis — nothing is uploaded",
+              "Free, no signup required"
+            ]
+          }
+        ]
       }
     }
   },

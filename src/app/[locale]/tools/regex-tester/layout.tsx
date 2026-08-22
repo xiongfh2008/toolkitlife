@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/regex-tester`,
         ja: `https://www.toolkitlife.com/ja/tools/regex-tester`,
         ko: `https://www.toolkitlife.com/ko/tools/regex-tester`,
+        ru: `https://www.toolkitlife.com/ru/tools/regex-tester`,
       },
     },
   };

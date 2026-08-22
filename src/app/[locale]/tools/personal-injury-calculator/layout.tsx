@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/personal-injury-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/personal-injury-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/personal-injury-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/personal-injury-calculator`,
       },
     },
   };

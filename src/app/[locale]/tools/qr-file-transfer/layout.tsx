@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/qr-file-transfer`,
         ja: `https://www.toolkitlife.com/ja/tools/qr-file-transfer`,
         ko: `https://www.toolkitlife.com/ko/tools/qr-file-transfer`,
+        ru: `https://www.toolkitlife.com/ru/tools/qr-file-transfer`,
       },
     },
   };

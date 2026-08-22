@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/css-cubic-bezier`,
         ja: `https://www.toolkitlife.com/ja/tools/css-cubic-bezier`,
         ko: `https://www.toolkitlife.com/ko/tools/css-cubic-bezier`,
+        ru: `https://www.toolkitlife.com/ru/tools/css-cubic-bezier`,
       },
     },
   };

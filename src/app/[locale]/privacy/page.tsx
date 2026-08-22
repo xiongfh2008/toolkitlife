@@ -19,6 +19,7 @@ export async function generateMetadata({
         zh: "https://www.toolkitlife.com/zh/privacy",
         ja: "https://www.toolkitlife.com/ja/privacy",
         ko: "https://www.toolkitlife.com/ko/privacy",
+        ru: "https://www.toolkitlife.com/ru/privacy",
       },
     },
   };

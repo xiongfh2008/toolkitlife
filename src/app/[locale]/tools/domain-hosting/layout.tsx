@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/domain-hosting`,
         ja: `https://www.toolkitlife.com/ja/tools/domain-hosting`,
         ko: `https://www.toolkitlife.com/ko/tools/domain-hosting`,
+        ru: `https://www.toolkitlife.com/ru/tools/domain-hosting`,
       },
     },
   };

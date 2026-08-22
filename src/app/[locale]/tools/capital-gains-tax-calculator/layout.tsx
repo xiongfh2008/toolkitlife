@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/capital-gains-tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/capital-gains-tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/capital-gains-tax-calculator`,
+        ru: `https://www.toolkitlife.com/ru/tools/capital-gains-tax-calculator`,
       },
     },
   };

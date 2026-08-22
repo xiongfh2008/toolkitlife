@@ -22,6 +22,7 @@ export async function generateMetadata({
         zh: `https://www.toolkitlife.com/zh/tools/character-counter`,
         ja: `https://www.toolkitlife.com/ja/tools/character-counter`,
         ko: `https://www.toolkitlife.com/ko/tools/character-counter`,
+        ru: `https://www.toolkitlife.com/ru/tools/character-counter`,
       },
     },
   };
