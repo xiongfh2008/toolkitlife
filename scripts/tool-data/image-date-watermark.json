@@ -1,0 +1,343 @@
+{
+  "slug": "image-date-watermark",
+  "icon": "📅",
+  "home": {
+    "en": {
+      "name": "Date Watermark",
+      "description": "Add a date watermark to photos in batches — pick the format, position and style.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片日期水印",
+      "description": "批量为图片添加日期水印，可自定义格式、位置与样式。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "日付ウォーターマーク",
+      "description": "写真に日付ウォーターマークを一括追加。形式・位置・スタイルをカスタマイズ。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "날짜 워터마크",
+      "description": "사진에 날짜 워터마크를 일괄 추가하세요. 형식·위치·스타일을 지정할 수 있습니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Водяной знак с датой",
+      "description": "Пакетно добавляйте на фото водяной знак с датой: формат, позиция и стиль на выбор.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Date Watermark - Free Online Tool",
+        "description": "Free online tool to add date watermarks to photos in batches. Choose the date format, position, size and color, then download all images as a zip. Runs in your browser."
+      },
+      "title": "Date Watermark",
+      "description": "Add a date watermark to your photos in one go. Pick a date format, position, font size and color, then download all processed images as a zip.",
+      "category": "Image Tools",
+      "keywords": [
+        "date watermark",
+        "add date to photo",
+        "photo date stamp",
+        "batch date watermark",
+        "date on image",
+        "watermark date"
+      ],
+      "faqs": [
+        {
+          "question": "Which date is added?",
+          "answer": "By default the file's modification date is used. Turn off 'Use file date' to stamp today's date on every image instead."
+        },
+        {
+          "question": "Can I process multiple photos at once?",
+          "answer": "Yes. Select several images and they are all processed together, then downloaded as a single zip archive."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Watermark",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "Image Slice",
+          "href": "/tools/image-slice"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "labels": {
+        "format": "Date format",
+        "position": "Position",
+        "fontSize": "Font size",
+        "color": "Color",
+        "shadow": "Text shadow",
+        "count": "{count} images",
+        "useFileDate": "Use file modification date"
+      },
+      "positions": {
+        "topLeft": "Top left",
+        "topRight": "Top right",
+        "bottomLeft": "Bottom left",
+        "bottomRight": "Bottom right",
+        "center": "Center"
+      },
+      "buttons": {
+        "addImages": "Add images",
+        "downloadAll": "Download all (zip)",
+        "processing": "Processing…"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片日期水印 - 免费在线工具",
+        "description": "免费的在线图片日期水印工具。选择日期格式、位置、字号与颜色，批量为图片添加水印并打包下载，全部在浏览器中完成。"
+      },
+      "title": "图片日期水印",
+      "description": "一次为照片添加日期水印。选择日期格式、位置、字号与颜色，处理后打包下载为 zip。",
+      "category": "图片工具",
+      "keywords": [
+        "日期水印",
+        "图片加日期",
+        "照片日期戳",
+        "批量日期水印",
+        "图片日期标注",
+        "照片日期水印"
+      ],
+      "faqs": [
+        {
+          "question": "添加的是哪个日期？",
+          "answer": "默认使用文件的修改日期。关闭「使用文件修改日期」后，则为每张图片加盖当天日期。"
+        },
+        {
+          "question": "可以一次处理多张照片吗？",
+          "answer": "可以。选择多张图片即可一起处理，并打包为单个 zip 文件下载。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片水印",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "图片切割",
+          "href": "/tools/image-slice"
+        },
+        {
+          "name": "图片留白",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "labels": {
+        "format": "日期格式",
+        "position": "位置",
+        "fontSize": "字号",
+        "color": "颜色",
+        "shadow": "文字阴影",
+        "count": "{count} 张图片",
+        "useFileDate": "使用文件修改日期"
+      },
+      "positions": {
+        "topLeft": "左上",
+        "topRight": "右上",
+        "bottomLeft": "左下",
+        "bottomRight": "右下",
+        "center": "居中"
+      },
+      "buttons": {
+        "addImages": "添加图片",
+        "downloadAll": "全部下载 (zip)",
+        "processing": "处理中…"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "日付ウォーターマーク - 無料オンラインツール",
+        "description": "写真に日付ウォーターマークを一括追加する無料ツール。形式・位置・サイズ・色を選び、zip で一括ダウンロード。ブラウザ内で処理。"
+      },
+      "title": "日付ウォーターマーク",
+      "description": "写真に日付ウォーターマークを一度に追加。日付形式・位置・フォントサイズ・色を選び、処理後 zip でダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "日付ウォーターマーク",
+        "写真に日付",
+        "日付スタンプ",
+        "一括日付追加",
+        "画像に日付",
+        "日付入り写真"
+      ],
+      "faqs": [
+        {
+          "question": "どの日付が追加されますか？",
+          "answer": "デフォルトではファイルの更新日です。「ファイルの更新日を使う」をオフにすると、全画像に今日の日付が付きます。"
+        },
+        {
+          "question": "複数枚を一度に処理できますか？",
+          "answer": "はい。複数の画像を選択するとまとめて処理され、zip でダウンロードできます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像ウォーターマーク",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "画像スライス",
+          "href": "/tools/image-slice"
+        },
+        {
+          "name": "余白追加",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "labels": {
+        "format": "日付形式",
+        "position": "位置",
+        "fontSize": "フォントサイズ",
+        "color": "色",
+        "shadow": "文字の影",
+        "count": "{count} 枚の画像",
+        "useFileDate": "ファイルの更新日を使う"
+      },
+      "positions": {
+        "topLeft": "左上",
+        "topRight": "右上",
+        "bottomLeft": "左下",
+        "bottomRight": "右下",
+        "center": "中央"
+      },
+      "buttons": {
+        "addImages": "画像を追加",
+        "downloadAll": "すべてダウンロード (zip)",
+        "processing": "処理中…"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "날짜 워터마크 - 무료 온라인 도구",
+        "description": "사진에 날짜 워터마크를 일괄 추가하는 무료 온라인 도구입니다. 형식·위치·크기·색상을 고르고 zip으로 일괄 다운로드하세요."
+      },
+      "title": "날짜 워터마크",
+      "description": "사진에 날짜 워터마크를 한 번에 추가하세요. 날짜 형식·위치·글꼴 크기·색상을 고르고 처리된 이미지를 zip으로 다운로드합니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "날짜 워터마크",
+        "사진에 날짜 넣기",
+        "날짜 스탬프",
+        "일괄 날짜 워터마크",
+        "이미지 날짜 표시",
+        "사진 날짜 찍기"
+      ],
+      "faqs": [
+        {
+          "question": "어떤 날짜가 추가되나요?",
+          "answer": "기본적으로 파일의 수정 날짜가 사용됩니다. '파일 수정 날짜 사용'을 끄면 모든 이미지에 오늘 날짜가 표시됩니다."
+        },
+        {
+          "question": "여러 장을 한 번에 처리할 수 있나요?",
+          "answer": "네. 여러 이미지를 선택하면 함께 처리되어 하나의 zip 파일로 다운로드됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 워터마크",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "이미지 분할",
+          "href": "/tools/image-slice"
+        },
+        {
+          "name": "이미지 여백",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "labels": {
+        "format": "날짜 형식",
+        "position": "위치",
+        "fontSize": "글꼴 크기",
+        "color": "색상",
+        "shadow": "텍스트 그림자",
+        "count": "이미지 {count}장",
+        "useFileDate": "파일 수정 날짜 사용"
+      },
+      "positions": {
+        "topLeft": "왼쪽 위",
+        "topRight": "오른쪽 위",
+        "bottomLeft": "왼쪽 아래",
+        "bottomRight": "오른쪽 아래",
+        "center": "가운데"
+      },
+      "buttons": {
+        "addImages": "이미지 추가",
+        "downloadAll": "전체 다운로드 (zip)",
+        "processing": "처리 중…"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Водяной знак с датой - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-инструмент для пакетного добавления даты на фото. Выберите формат, позицию, размер и цвет — всё в вашем браузере."
+      },
+      "title": "Водяной знак с датой",
+      "description": "Добавьте дату на фотографии разом. Выберите формат, позицию, размер шрифта и цвет, затем скачайте все изображения архивом zip.",
+      "category": "Изображения",
+      "keywords": [
+        "водяной знак дата",
+        "дата на фото",
+        "штамп даты",
+        "пакетная дата на фото",
+        "дата на изображении",
+        "дата на фотографии"
+      ],
+      "faqs": [
+        {
+          "question": "Какая дата добавляется?",
+          "answer": "По умолчанию — дата изменения файла. Отключите «Использовать дату файла», чтобы ставить сегодняшнюю дату на все изображения."
+        },
+        {
+          "question": "Можно ли обработать несколько фото сразу?",
+          "answer": "Да. Выберите несколько изображений — все будут обработаны вместе и скачаны одним архивом zip."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Водяной знак",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "Разделение изображения",
+          "href": "/tools/image-slice"
+        },
+        {
+          "name": "Поля изображения",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "labels": {
+        "format": "Формат даты",
+        "position": "Позиция",
+        "fontSize": "Размер шрифта",
+        "color": "Цвет",
+        "shadow": "Тень текста",
+        "count": "Изображений: {count}",
+        "useFileDate": "Использовать дату файла"
+      },
+      "positions": {
+        "topLeft": "Сверху слева",
+        "topRight": "Сверху справа",
+        "bottomLeft": "Снизу слева",
+        "bottomRight": "Снизу справа",
+        "center": "По центру"
+      },
+      "buttons": {
+        "addImages": "Добавить изображения",
+        "downloadAll": "Скачать все (zip)",
+        "processing": "Обработка…"
+      }
+    }
+  }
+}

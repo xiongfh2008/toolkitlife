@@ -1567,6 +1567,18 @@
         "category": "Image Tools",
         "icon": "🧊"
       },
+      "image-to-printmaking": {
+        "name": "Image to Printmaking",
+        "description": "Turn any photo into a black & white printmaking effect. Adjustable threshold, instant preview. Free & private.",
+        "category": "Image Tools",
+        "icon": "🖨️"
+      },
+      "image-emboss": {
+        "name": "Emboss Effect",
+        "description": "Turn any photo into a stone-carved emboss effect. Adjustable strength, instant preview. Free & private.",
+        "category": "Image Tools",
+        "icon": "🗿"
+      },
       "id-photo-generator": {
         "name": "ID Photo Generator",
         "description": "Create passport & visa photos in one click — choose size & background, adjust framing. Free & private.",
@@ -1878,6 +1890,408 @@
         "description": "Test password strength with an instant score and tips",
         "category": "Utility",
         "icon": "🔒"
+      },
+      "color-text-image": {
+        "name": "Color Text Image",
+        "description": "Generate a colorful text image with custom text, colors, font size and background.",
+        "category": "Image Tools",
+        "icon": "🌈"
+      },
+      "email-image": {
+        "name": "Email Image Generator",
+        "description": "Turn an email address into an image to protect it from spam crawlers.",
+        "category": "Image Tools",
+        "icon": "✉️"
+      },
+      "excel-img": {
+        "name": "Excel Image Extractor",
+        "description": "Extract all images embedded in an Excel workbook and download them.",
+        "category": "Image Tools",
+        "icon": "📊"
+      },
+      "exif-cleaner": {
+        "name": "EXIF Cleaner",
+        "description": "Re-encode an image to strip EXIF, GPS and device metadata for privacy.",
+        "category": "Image Tools",
+        "icon": "🧹"
+      },
+      "gif-edit": {
+        "name": "GIF Frame Editor",
+        "description": "Edit GIF animations frame by frame: reorder, delete, duplicate and change speed.",
+        "category": "Image Tools",
+        "icon": "🎞️"
+      },
+      "heic": {
+        "name": "HEIC to JPG/PNG",
+        "description": "Convert HEIC/HEIF photos to JPG or PNG right in your browser.",
+        "category": "Image Tools",
+        "icon": "📱"
+      },
+      "icon-size-generator": {
+        "name": "Multi-size Icon Generator",
+        "description": "Generate icons in 16 to 512 px sizes from one image for apps, favicons and Chrome extensions.",
+        "category": "Image Tools",
+        "icon": "📱"
+      },
+      "image-alpha-invert": {
+        "name": "Alpha Invert",
+        "description": "Invert the transparency of a PNG image — swap transparent and visible areas.",
+        "category": "Image Tools",
+        "icon": "◐"
+      },
+      "image-auto-trim": {
+        "name": "Auto Trim Image",
+        "description": "Automatically trim transparent edges or solid-color borders from an image.",
+        "category": "Image Tools",
+        "icon": "✂️"
+      },
+      "image-background": {
+        "name": "Image Background",
+        "description": "Add a solid background color to transparent PNG images in one click. Great for dark-mode adapters.",
+        "category": "Image Tools",
+        "icon": "🎨"
+      },
+      "image-clear": {
+        "name": "Image Content Clear",
+        "description": "Clear all image content and replace it with a solid color or full transparency.",
+        "category": "Image Tools",
+        "icon": "🧽"
+      },
+      "image-color-replace": {
+        "name": "Color Replace",
+        "description": "Replace one color in an image with another, or make it transparent. Pick colors with an eyedropper.",
+        "category": "Image Tools",
+        "icon": "🔄"
+      },
+      "image-coord-marker": {
+        "name": "Image Coordinate Marker",
+        "description": "Click on an image to add numbered coordinate markers, then download the result.",
+        "category": "Image Tools",
+        "icon": "📍"
+      },
+      "image-date-watermark": {
+        "name": "Date Watermark",
+        "description": "Add a date watermark to photos in batches — pick the format, position and style.",
+        "category": "Image Tools",
+        "icon": "📅"
+      },
+      "image-dpi": {
+        "name": "Image DPI Changer",
+        "description": "Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) for print without changing pixels.",
+        "category": "Image Tools",
+        "icon": "📏"
+      },
+      "image-file-size": {
+        "name": "Image File Size",
+        "description": "Recompress an image to reach a target file size in KB, without changing dimensions.",
+        "category": "Image Tools",
+        "icon": "⚖️"
+      },
+      "image-format-converter": {
+        "name": "Image Format Converter",
+        "description": "Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser.",
+        "category": "Image Tools",
+        "icon": "🔁"
+      },
+      "image-margin": {
+        "name": "Image Margin",
+        "description": "Add transparent or colored margin around an image. Perfect for framing and padding.",
+        "category": "Image Tools",
+        "icon": "🖼️"
+      },
+      "image-region-mask": {
+        "name": "Region Mask",
+        "description": "Drag to select areas and apply mosaic or blur to hide sensitive parts of an image.",
+        "category": "Image Tools",
+        "icon": "🎭"
+      },
+      "image-slice": {
+        "name": "Image Slicer",
+        "description": "Split an image into equal pieces horizontally or vertically. Download each slice as PNG.",
+        "category": "Image Tools",
+        "icon": "🔪"
+      },
+      "img-padding": {
+        "name": "Image Tiler",
+        "description": "Tile a small image across a large canvas to create a seamless wallpaper or pattern.",
+        "category": "Image Tools",
+        "icon": "🧱"
+      },
+      "img-size": {
+        "name": "Force Image Resize",
+        "description": "Resize an image to exact width and height, with optional stretching and quality control.",
+        "category": "Image Tools",
+        "icon": "📐"
+      },
+      "ppt-img": {
+        "name": "PowerPoint Image Extractor",
+        "description": "Extract all images embedded in a PowerPoint file and download them.",
+        "category": "Image Tools",
+        "icon": "📽️"
+      },
+      "qrcode-batch": {
+        "name": "Batch QR Code Generator",
+        "description": "Generate QR codes for a whole list of texts or URLs at once and download them as a zip.",
+        "category": "Image Tools",
+        "icon": "🗂️"
+      },
+      "screenshot-beautify": {
+        "name": "Screenshot Beautifier",
+        "description": "Add a background, padding, rounded corners, border and shadow to screenshots.",
+        "category": "Image Tools",
+        "icon": "🖼️"
+      },
+      "screenshot-markup": {
+        "name": "Screenshot Markup",
+        "description": "Annotate screenshots with rectangles, circles, arrows, lines and text.",
+        "category": "Image Tools",
+        "icon": "✏️"
+      },
+      "solid-color-image": {
+        "name": "Solid Color Image",
+        "description": "Generate a solid-color background image with any color and size in seconds.",
+        "category": "Image Tools",
+        "icon": "🟦"
+      },
+      "svg-path": {
+        "name": "SVG Path Preview",
+        "description": "Paste an SVG path and preview its shape instantly. Tune stroke, fill and width.",
+        "category": "Image Tools",
+        "icon": "📐"
+      },
+      "svg-preview": {
+        "name": "SVG Preview",
+        "description": "Paste SVG code and preview it rendered instantly in the browser.",
+        "category": "Image Tools",
+        "icon": "🔍"
+      },
+      "svg-to-image": {
+        "name": "SVG to Image",
+        "description": "Convert SVG code to PNG, JPG or WebP with preview, and get the Base64 data URL.",
+        "category": "Image Tools",
+        "icon": "🧩"
+      },
+      "text-logo": {
+        "name": "Text Logo Maker",
+        "description": "Create a simple text logo in seconds. Pick text, color, font size and background.",
+        "category": "Image Tools",
+        "icon": "🔤"
+      },
+      "web-icon": {
+        "name": "Website Icon Fetcher",
+        "description": "Fetch and download the favicon of any website instantly by entering its domain.",
+        "category": "Image Tools",
+        "icon": "🌐"
+      },
+      "wifi-qrcode": {
+        "name": "WiFi QR Code",
+        "description": "Generate a QR code that shares your WiFi password. Scan to connect instantly.",
+        "category": "Image Tools",
+        "icon": "📶"
+      },
+      "audio-cutter": {
+        "name": "Audio Cutter",
+        "description": "Cut and trim MP3/WAV audio online with a visual waveform. Export as MP3 or WAV.",
+        "category": "Audio Tools",
+        "icon": "✂️"
+      },
+      "audio-merge": {
+        "name": "Audio Merge",
+        "description": "Combine multiple audio files into one track in your chosen order. Export as MP3 or WAV.",
+        "category": "Audio Tools",
+        "icon": "🎚️"
+      },
+      "audio-player": {
+        "name": "Audio Player",
+        "description": "View the waveform of any audio file and listen to it right in your browser.",
+        "category": "Audio Tools",
+        "icon": "🎧"
+      },
+      "hz": {
+        "name": "Frequency Tone Generator",
+        "description": "Generate sine, square, sawtooth or triangle tones at any frequency. Download as WAV.",
+        "category": "Audio Tools",
+        "icon": "🔊"
+      },
+      "white-noise": {
+        "name": "White Noise Generator",
+        "description": "Generate white, pink or brown noise for sleep and focus. Download as WAV.",
+        "category": "Audio Tools",
+        "icon": "🌫️"
+      },
+      "alarm": {
+        "name": "Alarm Clock",
+        "description": "Set an alarm at a specific time or in N minutes.",
+        "category": "Life Tools",
+        "icon": "⏰"
+      },
+      "answer-book": {
+        "name": "Magic Answer Book",
+        "description": "Ask a question and get a random answer.",
+        "category": "Life Tools",
+        "icon": "🔮"
+      },
+      "bank-card-validate": {
+        "name": "Card Number Check",
+        "description": "Validate a bank card number with the Luhn algorithm.",
+        "category": "Life Tools",
+        "icon": "💳"
+      },
+      "blood-type": {
+        "name": "Blood Type Inheritance",
+        "description": "Predict possible blood types of children from parents.",
+        "category": "Life Tools",
+        "icon": "🩸"
+      },
+      "calendar": {
+        "name": "Year Calendar",
+        "description": "Generate a full-year calendar as an image.",
+        "category": "Life Tools",
+        "icon": "🗓️"
+      },
+      "click-speed": {
+        "name": "Click Speed Test",
+        "description": "Test how many clicks you can make in 10 seconds.",
+        "category": "Life Tools",
+        "icon": "🖱️"
+      },
+      "coin-flip": {
+        "name": "Coin Flip",
+        "description": "Flip a virtual coin with heads/tails statistics.",
+        "category": "Life Tools",
+        "icon": "🪙"
+      },
+      "color-blindness-test": {
+        "name": "Color Blindness Test",
+        "description": "Self-test with Ishihara-style color plates.",
+        "category": "Life Tools",
+        "icon": "👁️"
+      },
+      "date-calculator": {
+        "name": "Date Calculator",
+        "description": "Calculate the difference between dates or add days.",
+        "category": "Life Tools",
+        "icon": "🧮"
+      },
+      "day-of-week": {
+        "name": "Day of Week",
+        "description": "Find which weekday any date falls on.",
+        "category": "Life Tools",
+        "icon": "📆"
+      },
+      "day-of-year": {
+        "name": "Day of Year",
+        "description": "Find which day of the year a date is.",
+        "category": "Life Tools",
+        "icon": "📅"
+      },
+      "dice-roller": {
+        "name": "Dice Roller",
+        "description": "Roll 1-10 dice and see the total instantly.",
+        "category": "Life Tools",
+        "icon": "🎲"
+      },
+      "expiration": {
+        "name": "Expiration Date",
+        "description": "Calculate expiry date from production date and shelf life.",
+        "category": "Life Tools",
+        "icon": "🏷️"
+      },
+      "group-randomizer": {
+        "name": "Random Group Generator",
+        "description": "Split a list of names into random groups by count or size.",
+        "category": "Life Tools",
+        "icon": "👥"
+      },
+      "hearing-test": {
+        "name": "Hearing Test",
+        "description": "Find the highest frequency your ears can hear.",
+        "category": "Life Tools",
+        "icon": "👂"
+      },
+      "height-predict": {
+        "name": "Height Predictor",
+        "description": "Predict a child's height from the parents' heights.",
+        "category": "Life Tools",
+        "icon": "📏"
+      },
+      "keycode": {
+        "name": "Keycode Tester",
+        "description": "Press any key to see its key code and event info.",
+        "category": "Life Tools",
+        "icon": "⌨️"
+      },
+      "monte-carlo-pi": {
+        "name": "Monte Carlo Pi",
+        "description": "Estimate pi by throwing random points on a circle.",
+        "category": "Life Tools",
+        "icon": "📐"
+      },
+      "online-clock": {
+        "name": "Online Clock",
+        "description": "Full-screen clock with Unix timestamp and ISO time.",
+        "category": "Life Tools",
+        "icon": "🕐"
+      },
+      "pi-digits": {
+        "name": "Pi Digits",
+        "description": "Generate and search millions of pi digits.",
+        "category": "Life Tools",
+        "icon": "🥧"
+      },
+      "random-picker": {
+        "name": "Random Picker",
+        "description": "Draw one or more names at random from a list.",
+        "category": "Life Tools",
+        "icon": "🎯"
+      },
+      "reaction-time": {
+        "name": "Reaction Time Test",
+        "description": "Measure how fast you can react.",
+        "category": "Life Tools",
+        "icon": "⚡"
+      },
+      "schulte-grid": {
+        "name": "Schulte Grid",
+        "description": "Train attention by tapping numbers 1-N in order.",
+        "category": "Life Tools",
+        "icon": "🔢"
+      },
+      "text-reader": {
+        "name": "Text Reader",
+        "description": "Paste text and read it in a large comfortable layout.",
+        "category": "Life Tools",
+        "icon": "📖"
+      },
+      "text-to-image": {
+        "name": "Text to Image",
+        "description": "Render multi-line text into a PNG image.",
+        "category": "Life Tools",
+        "icon": "🖼️"
+      },
+      "vcf-generator": {
+        "name": "VCF Generator",
+        "description": "Turn a name+phone list into a contacts VCF file.",
+        "category": "Life Tools",
+        "icon": "📇"
+      },
+      "web-shortcut": {
+        "name": "Web Shortcut Maker",
+        "description": "Generate a .url shortcut file for any website.",
+        "category": "Life Tools",
+        "icon": "🔗"
+      },
+      "world-clock": {
+        "name": "World Clock",
+        "description": "Current time in 16 cities around the world.",
+        "category": "Life Tools",
+        "icon": "🌍"
+      },
+      "zip-viewer": {
+        "name": "ZIP Viewer",
+        "description": "List files inside a ZIP archive without extracting.",
+        "category": "Life Tools",
+        "icon": "🗜️"
       }
     },
     "scenes": {
@@ -1889,7 +2303,8 @@
       "calculator": "Calculators",
       "text": "Text Tools",
       "utility": "Utilities",
-      "marketing": "Marketing"
+      "marketing": "Marketing",
+      "life": "Life Tools"
     },
     "scenesGroups": {
       "finance": "Finance",
@@ -7130,43 +7545,7 @@
             "Building search-and-replace operations for code refactoring",
             "Learning regular expression syntax with instant visual feedback"
           ]
-        },
-        "intro": {
-          "title": "What is a Regex Tester?",
-          "paragraphs": [
-            "A regex tester is a free online tool for testing and debugging regular expressions. It shows matches in a test string in real time, and provides detailed information about capture groups and match positions. Everything is processed in your browser."
-          ]
-        },
-        "sections": [
-          {
-            "title": "How to Test a Regular Expression",
-            "paragraphs": [
-              "Enter a pattern in the regex field and text in the test string field. Matches are highlighted in color immediately."
-            ]
-          },
-          {
-            "title": "Using Flags",
-            "paragraphs": [
-              "Use the flag toggle buttons to enable or disable regex flags. g (global) finds all matches, i (case-insensitive) makes matching case-insensitive, and m (multiline) makes ^ and $ match line boundaries."
-            ]
-          },
-          {
-            "title": "Viewing Match Information",
-            "paragraphs": [
-              "The match info panel shows details for each match, including index positions and capture groups. This is useful for debugging complex patterns and verifying that your regex works as expected."
-            ]
-          },
-          {
-            "title": "Common Regex Patterns",
-            "items": [
-              "Email: [\\w.-]+@[\\w.-]+\\.\\w+",
-              "URL: https?://[\\w.-]+(?:\\.[\\w]+)+",
-              "Phone number: \\+?\\d{10,15}",
-              "Date (YYYY-MM-DD): \\d{4}-\\d{2}-\\d{2}",
-              "Hex color: #[0-9A-Fa-f]{6}"
-            ]
-          }
-        ]
+        }
       },
       "faqs": [
         {
@@ -27937,6 +28316,200 @@
         "failed": "Generation failed. Please try again."
       }
     },
+    "image-to-printmaking": {
+      "metadata": {
+        "title": "Image to Printmaking - Free Online Tool",
+        "description": "Free online tool to convert photos into black & white printmaking (woodcut) art. Adjustable threshold with instant preview. No uploads — all processing happens in your browser."
+      },
+      "title": "Image to Printmaking",
+      "description": "Turn any photo into a black & white printmaking effect. A precise threshold removes grayscale transitions so only pure black and white remain — like a woodcut or screen print.",
+      "category": "Image Tools",
+      "keywords": [
+        "printmaking",
+        "image to printmaking",
+        "photo to printmaking",
+        "woodcut effect",
+        "linocut",
+        "screen print effect",
+        "black and white threshold",
+        "bw art"
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "What is an image-to-printmaking tool?",
+          "body": [
+            "This tool converts any photo into a black & white printmaking style in one click. A precise threshold algorithm removes grayscale transitions so only pure black and pure white remain, mimicking traditional woodcut, screen print or old letterpress effects."
+          ]
+        },
+        "howTo": {
+          "title": "How to use",
+          "intro": "Three steps:",
+          "items": [
+            "Upload an image (JPG, PNG or WebP).",
+            "Drag the threshold slider to balance black and white areas — the preview updates instantly.",
+            "Download the final printmaking image as PNG."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "Photos with strong contrast produce bolder printmaking effects.",
+            "Lower thresholds turn more of the image black; higher thresholds keep more white.",
+            "Enable Invert to swap black and white for a negative-like look."
+          ]
+        }
+      },
+      "faqs": [
+        {
+          "question": "How does the printmaking effect work?",
+          "answer": "The tool converts each pixel to grayscale, then applies a threshold: pixels darker than the threshold become black, the rest become white. No gray tones remain, which creates the classic woodcut look."
+        },
+        {
+          "question": "Is my image uploaded to a server?",
+          "answer": "No. Everything runs locally in your browser — your image never leaves your device."
+        },
+        {
+          "question": "What is the best threshold value?",
+          "answer": "It depends on your image. Start around 128 and adjust: lower values make more of the image black, higher values keep more white. Use the live preview to find the best balance."
+        },
+        {
+          "question": "Can I get the opposite colors?",
+          "answer": "Yes, enable the Invert option to swap black and white."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Filter Effects",
+          "href": "/tools/image-filters"
+        },
+        {
+          "name": "Oil Paint Effect",
+          "href": "/tools/image-oil-paint"
+        },
+        {
+          "name": "Pixelate Image",
+          "href": "/tools/image-pixelate"
+        },
+        {
+          "name": "Image Negative",
+          "href": "/tools/image-negative"
+        }
+      ],
+      "upload": {
+        "drop": "Upload an image to create printmaking art",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "threshold": "Threshold",
+        "invert": "Invert (black ↔ white)",
+        "original": "Original",
+        "result": "Printmaking"
+      },
+      "errors": {
+        "failed": "Processing failed. Please try again."
+      }
+    },
+    "image-emboss": {
+      "metadata": {
+        "title": "Image Emboss - Free Online Tool",
+        "description": "Free online tool to turn any photo into an embossed stone/metal carving effect. Adjustable strength with instant preview. No uploads — all processing happens in your browser."
+      },
+      "title": "Image Emboss",
+      "description": "Turn any photo into an embossed relief with a pixel-difference algorithm that extracts edges and contours — like stone carving or metal stamping.",
+      "category": "Image Tools",
+      "keywords": [
+        "emboss",
+        "emboss effect",
+        "image emboss",
+        "photo emboss",
+        "relief effect",
+        "stone carving effect",
+        "metal stamp effect",
+        "3d text emboss"
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "What is an image emboss tool?",
+          "body": [
+            "This tool applies an emboss filter to any photo: a pixel-difference algorithm highlights edges and contours by comparing each pixel with its neighbors, producing a realistic stone-carving or metal-stamping look in seconds."
+          ]
+        },
+        "howTo": {
+          "title": "How to use",
+          "intro": "Three steps:",
+          "items": [
+            "Upload an image (JPG, PNG or WebP).",
+            "Adjust the strength slider to control how pronounced the emboss is — the preview updates instantly.",
+            "Download the embossed image as PNG."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "Images with strong edges and details produce the most dramatic emboss.",
+            "Lower strength gives a subtle texture; higher strength creates a bold stone-carved look.",
+            "Enable Invert to flip which side of the edges is raised."
+          ]
+        }
+      },
+      "faqs": [
+        {
+          "question": "How does the emboss effect work?",
+          "answer": "The tool compares each pixel with its neighbors using a convolution kernel. Areas with little change become mid-gray, while edges become bright or dark — creating the 3D carved look."
+        },
+        {
+          "question": "Is my image uploaded to a server?",
+          "answer": "No. Everything runs locally in your browser — your image never leaves your device."
+        },
+        {
+          "question": "What is the best strength value?",
+          "answer": "It depends on your image. Start at 1.0 and adjust: lower values give a subtle texture, higher values create a bolder, deeper carving."
+        },
+        {
+          "question": "Why is the result mostly gray?",
+          "answer": "That's the classic emboss look — flat areas render as mid-gray, and only edges stand out in light and dark. Increase the strength for a stronger effect."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Filter Effects",
+          "href": "/tools/image-filters"
+        },
+        {
+          "name": "Edge Detection",
+          "href": "/tools/image-edge-detect"
+        },
+        {
+          "name": "Image to 3D Relief",
+          "href": "/tools/image-to-relief"
+        },
+        {
+          "name": "Image to Printmaking",
+          "href": "/tools/image-to-printmaking"
+        }
+      ],
+      "upload": {
+        "drop": "Upload an image to create an emboss effect",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "strength": "Strength",
+        "invert": "Invert (flip raised side)",
+        "original": "Original",
+        "result": "Emboss"
+      },
+      "errors": {
+        "failed": "Processing failed. Please try again."
+      }
+    },
     "id-photo-generator": {
       "metadata": {
         "title": "ID Photo Generator",
@@ -33248,6 +33821,3629 @@
             ]
           }
         ]
+      }
+    },
+    "color-text-image": {
+      "metadata": {
+        "title": "Color Text Image Generator – Text with Custom Colors",
+        "description": "Generate a colorful text image online with custom text, colors, font size and background. Download as PNG. Free and private."
+      },
+      "title": "Color Text Image",
+      "description": "Generate a colorful text image in seconds. Customize the text, text color, background color and font size, then download the PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "color text image",
+        "text image generator",
+        "text to image",
+        "colored text picture",
+        "text with color background",
+        "quote image generator",
+        "text graphic",
+        "typography image"
+      ],
+      "faqs": [
+        {
+          "question": "How do I create a text image?",
+          "answer": "Type your text, pick the text and background colors and the font size, then download the PNG."
+        },
+        {
+          "question": "Can the background be transparent?",
+          "answer": "Yes, enable transparent background to get a PNG with no background."
+        },
+        {
+          "question": "What is this useful for?",
+          "answer": "Making quote cards, social media graphics, headers and simple typography art."
+        },
+        {
+          "question": "Is my text sent anywhere?",
+          "answer": "No — everything is rendered locally in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Text Logo Maker",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "Image Watermark",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG Image Generator",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "Text",
+        "fontSize": "Font size",
+        "textColor": "Text color",
+        "bgColor": "Background color",
+        "transparentBg": "Transparent background"
+      },
+      "buttons": {
+        "download": "Download PNG"
+      }
+    },
+    "email-image": {
+      "metadata": {
+        "title": "Email Image Generator – Protect Your Email from Spam",
+        "description": "Turn an email address into a PNG image to hide it from spam bots and crawlers. Customize font size and color. Free, no uploads."
+      },
+      "title": "Email Image Generator",
+      "description": "Turn an email address into an image so spam crawlers can't read it. Customize the font size and color, then download the PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "email image",
+        "email to image",
+        "hide email from spam",
+        "email protector",
+        "anti spam email",
+        "email as image",
+        "email captcha image",
+        "mask email address"
+      ],
+      "faqs": [
+        {
+          "question": "Why turn an email into an image?",
+          "answer": "Spam bots scan web pages for plain-text emails. Rendering it as an image keeps it readable to humans but invisible to most crawlers."
+        },
+        {
+          "question": "Can I change the look?",
+          "answer": "Yes, adjust the font size and text color before downloading."
+        },
+        {
+          "question": "Is my email uploaded?",
+          "answer": "No. The image is rendered entirely in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image to Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "Text Logo Maker",
+          "href": "/tools/text-logo"
+        }
+      ],
+      "labels": {
+        "email": "Email address",
+        "fontSize": "Font size",
+        "color": "Text color"
+      },
+      "buttons": {
+        "download": "Download PNG"
+      }
+    },
+    "excel-img": {
+      "metadata": {
+        "title": "Excel Image Extractor - Free Online Tool",
+        "description": "Free online tool to extract all embedded images from an .xlsx file. Files stay in your browser — nothing is uploaded."
+      },
+      "title": "Excel Image Extractor",
+      "description": "Pull every image embedded inside an .xlsx workbook — charts, logos, product photos — and download them individually or all at once as a ZIP.",
+      "category": "Image Tools",
+      "keywords": [
+        "extract images from excel",
+        "excel image extractor",
+        "xlsx images",
+        "get images from spreadsheet",
+        "unzip xlsx images"
+      ],
+      "faqs": [
+        {
+          "question": "Where are images stored inside an Excel file?",
+          "answer": "An .xlsx file is a ZIP archive. Embedded images live in the xl/media folder, which this tool reads directly."
+        },
+        {
+          "question": "Are my files uploaded anywhere?",
+          "answer": "No. Everything is parsed locally in your browser using JSZip."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "PowerPoint Image Extractor",
+          "href": "/tools/ppt-img"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an Excel workbook here",
+        "formats": "XLSX · XLSM"
+      },
+      "labels": {
+        "processing": "Extracting images…",
+        "count": "{count} images found"
+      },
+      "buttons": {
+        "download": "Download",
+        "downloadAll": "Download all (ZIP)"
+      },
+      "errors": {
+        "empty": "No images found in this workbook.",
+        "invalid": "Could not read this file. Make sure it is a valid .xlsx workbook."
+      }
+    },
+    "exif-cleaner": {
+      "metadata": {
+        "title": "EXIF Cleaner – Remove Photo Metadata",
+        "description": "Strip EXIF, GPS and device metadata from your photos online. Re-encode to PNG to remove all metadata. Free and private, runs in your browser."
+      },
+      "title": "EXIF Cleaner",
+      "description": "Re-encode an image to strip EXIF, GPS and device metadata. Compare the before and after file size, then download a clean PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "exif cleaner",
+        "remove exif",
+        "strip metadata",
+        "remove gps data",
+        "delete exif data",
+        "photo metadata remover",
+        "remove location from photo",
+        "exif remover online"
+      ],
+      "faqs": [
+        {
+          "question": "What is EXIF data?",
+          "answer": "EXIF is metadata embedded in photos — camera model, lens, date, GPS coordinates and more. It can reveal where and how a photo was taken."
+        },
+        {
+          "question": "How does this tool remove it?",
+          "answer": "It decodes the image and re-encodes it as a fresh PNG, which drops all original metadata chunks."
+        },
+        {
+          "question": "Will the image quality change?",
+          "answer": "The pixels are preserved; only the metadata is removed."
+        },
+        {
+          "question": "Is my photo uploaded?",
+          "answer": "No. Everything runs locally in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "EXIF Viewer",
+          "href": "/tools/exif-viewer"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image File Size",
+          "href": "/tools/image-file-size"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here or click to upload",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "Download clean PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "processing": "Processing…",
+        "before": "Before",
+        "after": "After",
+        "original": "Original",
+        "result": "Cleaned"
+      }
+    },
+    "gif-edit": {
+      "metadata": {
+        "title": "GIF Frame Editor - Free Online Tool",
+        "description": "Free online GIF frame editor. Split any GIF into frames, reorder, delete or duplicate them, adjust the delay and export a new animated GIF. Runs in your browser."
+      },
+      "title": "GIF Frame Editor",
+      "description": "Take any GIF apart frame by frame. Reorder, delete or duplicate frames, set a global delay, preview the animation and download the edited GIF.",
+      "category": "Image Tools",
+      "keywords": [
+        "gif editor",
+        "edit gif frames",
+        "gif frame editor",
+        "reorder gif frames",
+        "remove gif frames",
+        "change gif speed"
+      ],
+      "faqs": [
+        {
+          "question": "Can I change how fast the GIF plays?",
+          "answer": "Yes. Set the delay (ms) applied to every frame — lower values make the animation faster, higher values slower."
+        },
+        {
+          "question": "Is the quality preserved?",
+          "answer": "The GIF is re-encoded from the original frames in your browser. Colors may be re-quantized, so slight changes are possible, especially on complex animations."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "GIF to Images",
+          "href": "/tools/gif-to-images"
+        },
+        {
+          "name": "Image to GIF",
+          "href": "/tools/image-to-gif"
+        },
+        {
+          "name": "Video to GIF",
+          "href": "/tools/video-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "Upload a GIF to edit",
+        "formats": "GIF"
+      },
+      "labels": {
+        "delay": "Frame delay",
+        "frames": "Frames",
+        "preview": "Preview",
+        "resultSize": "Size: {size} KB"
+      },
+      "buttons": {
+        "changeFile": "Change file",
+        "clear": "Clear",
+        "pause": "Pause",
+        "play": "Play",
+        "generate": "Generate",
+        "processing": "Processing…",
+        "download": "Download GIF"
+      },
+      "errors": {
+        "type": "Please select a GIF file.",
+        "parse": "Could not read this GIF. The file may be corrupted.",
+        "encode": "Encoding failed. Please try again."
+      }
+    },
+    "heic": {
+      "metadata": {
+        "title": "HEIC to JPG/PNG Converter - Free Online Tool",
+        "description": "Free online HEIC/HEIF converter: turn iPhone photos into JPG or PNG in your browser. No upload, private and instant."
+      },
+      "title": "HEIC to JPG/PNG",
+      "description": "Convert iPhone and Android HEIC/HEIF photos to JPG or PNG. Everything runs locally in your browser — no upload, no quality loss beyond the chosen format.",
+      "category": "Image Tools",
+      "keywords": [
+        "heic to jpg",
+        "heic to png",
+        "heif converter",
+        "iphone photo converter",
+        "convert heic",
+        "heic online"
+      ],
+      "faqs": [
+        {
+          "question": "Are my photos uploaded to a server?",
+          "answer": "No. The conversion runs entirely in your browser with WebAssembly, so your photos never leave your device."
+        },
+        {
+          "question": "Which format should I pick?",
+          "answer": "JPG is smaller and universally supported; PNG is lossless and keeps transparency where available."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "WebP Converter",
+          "href": "/tools/image-to-webp"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a HEIC/HEIF photo here",
+        "formats": "HEIC · HEIF"
+      },
+      "labels": {
+        "outputFormat": "Output format",
+        "converting": "Converting…"
+      },
+      "buttons": {
+        "download": "Download"
+      },
+      "errors": {
+        "type": "Please choose a HEIC/HEIF file.",
+        "failed": "Conversion failed. The file may be corrupted."
+      }
+    },
+    "icon-size-generator": {
+      "metadata": {
+        "title": "Multi-size Icon Generator – 16 to 512 px",
+        "description": "Generate app icons, favicons and extension icons in multiple sizes from one image. Select 16–512 px sizes and download each as PNG. Free."
+      },
+      "title": "Multi-size Icon Generator",
+      "description": "Generate icons in 16 to 512 px sizes from a single image. Tick the sizes you need and download each one as a PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "icon generator",
+        "icon size generator",
+        "multi size icon",
+        "app icon generator",
+        "favicon generator",
+        "chrome extension icon",
+        "ios icon sizes",
+        "android icon generator"
+      ],
+      "faqs": [
+        {
+          "question": "What sizes can I generate?",
+          "answer": "16, 32, 48, 64, 128, 256 and 512 pixels — tick any combination."
+        },
+        {
+          "question": "How are icons scaled?",
+          "answer": "The image is cover-fit into a square canvas of the target size, so the icon never gets distorted."
+        },
+        {
+          "question": "What are these sizes for?",
+          "answer": "16–64 px for favicons and browser UI, 128 px for Chrome extensions, 512 px for app store icons."
+        },
+        {
+          "question": "Is my image uploaded?",
+          "answer": "No. Everything runs in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon Generator",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image DPI Changer",
+          "href": "/tools/image-dpi"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here or click to upload",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download"
+      },
+      "labels": {
+        "sizes": "Icon sizes"
+      }
+    },
+    "image-alpha-invert": {
+      "metadata": {
+        "title": "Alpha Invert - Flip Image Transparency Online",
+        "description": "Invert the alpha channel of a PNG image: transparent areas become visible and visible areas become transparent. Free, runs in your browser."
+      },
+      "title": "Alpha Invert",
+      "description": "Flip the transparency of a PNG image in one click — swap the transparent and visible areas. Great for masks, stickers and PNG editing.",
+      "category": "Image Tools",
+      "keywords": [
+        "alpha invert",
+        "invert transparency",
+        "flip alpha channel",
+        "png transparency",
+        "invert alpha",
+        "transparent to opaque"
+      ],
+      "faqs": [
+        {
+          "question": "What does alpha invert do?",
+          "answer": "It flips the alpha channel: fully transparent pixels become opaque and opaque pixels become transparent, keeping colors the same."
+        },
+        {
+          "question": "Does it work on JPG files?",
+          "answer": "JPG has no alpha channel, so this tool is for PNG (and WebP) images with transparency."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "Image Clear",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a PNG image here",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "original": "Original",
+        "result": "Inverted"
+      }
+    },
+    "image-auto-trim": {
+      "metadata": {
+        "title": "Auto Trim Image - Cut Empty Edges Online",
+        "description": "Automatically trim transparent edges or solid-color borders from an image. Free, runs in your browser."
+      },
+      "title": "Auto Trim Image",
+      "description": "Remove transparent or solid-colored edges from an image in one click. Perfect for cleaning up PNGs, screenshots and logos.",
+      "category": "Image Tools",
+      "keywords": [
+        "auto trim image",
+        "trim transparent edges",
+        "remove white border",
+        "crop transparent pixels",
+        "auto crop image",
+        "trim image edges"
+      ],
+      "faqs": [
+        {
+          "question": "How does auto trim detect edges?",
+          "answer": "In transparent mode it removes rows and columns where every pixel is fully transparent; in corner mode it removes edges matching the top-left corner color."
+        },
+        {
+          "question": "Will it crop my photo incorrectly?",
+          "answer": "Photos usually have no fully transparent or uniform border, so nothing is trimmed and the image is kept unchanged in that case."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "Image Crop Tool",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "mode": "Trim mode",
+        "transparent": "Transparent edges",
+        "corner": "Solid-color border",
+        "original": "Original",
+        "result": "Trimmed",
+        "nothingToTrim": "Nothing to trim"
+      }
+    },
+    "image-background": {
+      "metadata": {
+        "title": "Image Background - Add Solid Color Behind PNG",
+        "description": "Add a solid background color to transparent PNG images in one click. Free, runs in your browser, no upload."
+      },
+      "title": "Image Background",
+      "description": "Give a transparent PNG a solid background color in one click. Great for dark-mode adapters, stickers and sharing on colored cards.",
+      "category": "Image Tools",
+      "keywords": [
+        "add background to png",
+        "png background color",
+        "image background changer",
+        "solid background image",
+        "add color background",
+        "png transparency background"
+      ],
+      "faqs": [
+        {
+          "question": "What does this tool do?",
+          "answer": "It fills the transparent areas of a PNG with the color you choose and exports a new PNG with the background baked in."
+        },
+        {
+          "question": "Does it work on JPG images?",
+          "answer": "JPG has no transparency, so there is nothing to fill — the tool is designed for PNG (and WebP) images with an alpha channel."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Alpha Invert",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a PNG image here",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "color": "Background color",
+        "original": "Original",
+        "result": "Result"
+      }
+    },
+    "image-clear": {
+      "metadata": {
+        "title": "Image Content Clear - Free Online Tool",
+        "description": "Free online tool to clear image content: replace the entire image with a solid color or full transparency while keeping the original dimensions."
+      },
+      "title": "Image Content Clear",
+      "description": "Erase everything in an image and fill the canvas with a solid color or full transparency — keeping the original size. Great for placeholders and masks.",
+      "category": "Image Tools",
+      "keywords": [
+        "clear image",
+        "blank image",
+        "remove image content",
+        "transparent image maker",
+        "solid color image",
+        "image placeholder"
+      ],
+      "faqs": [
+        {
+          "question": "Does this delete my original file?",
+          "answer": "No. Your original file is never modified — the tool only creates a new cleared image that you can download."
+        },
+        {
+          "question": "What can I fill the image with?",
+          "answer": "Either a solid color of your choice, or full transparency (only the canvas size is kept)."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "Alpha Invert",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "Upload an image to clear",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "transparent": "Transparent",
+        "color": "Color"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download PNG"
+      }
+    },
+    "image-color-replace": {
+      "metadata": {
+        "title": "Color Replace - Swap Image Colors Online",
+        "description": "Replace one color in an image with another, or make it transparent. Pick colors with an eyedropper. Free, runs in your browser."
+      },
+      "title": "Color Replace",
+      "description": "Replace one color in an image with another, or make it transparent. Click the result to pick the source color, then tune the tolerance.",
+      "category": "Image Tools",
+      "keywords": [
+        "replace color in image",
+        "change image color",
+        "color swap tool",
+        "make color transparent",
+        "replace one color with another",
+        "image color replacement"
+      ],
+      "faqs": [
+        {
+          "question": "How does color replacement work?",
+          "answer": "The tool compares every pixel with the source color and swaps the pixels that fall within the tolerance for the target color."
+        },
+        {
+          "question": "Can I make the source color transparent?",
+          "answer": "Yes — tick the 'to transparent' option and all matching pixels keep their colors but lose their opacity."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Color Picker",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Alpha Invert",
+          "href": "/tools/image-alpha-invert"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "source": "Source color",
+        "pick": "Pick from image",
+        "target": "Target color",
+        "toTransparent": "Make transparent",
+        "tolerance": "Tolerance",
+        "pickHint": "Click the result image to pick the source color",
+        "original": "Original",
+        "result": "Result"
+      }
+    },
+    "image-coord-marker": {
+      "metadata": {
+        "title": "Image Coordinate Marker - Annotate Points Online",
+        "description": "Click on an image to add numbered coordinate markers, then download the result. Free, runs in your browser."
+      },
+      "title": "Image Coordinate Marker",
+      "description": "Click anywhere on an image to drop numbered coordinate markers showing exact pixel positions, then download the annotated result.",
+      "category": "Image Tools",
+      "keywords": [
+        "image coordinate marker",
+        "add coordinates to image",
+        "numbered markers on image",
+        "mark image points",
+        "coordinate annotation",
+        "point marker tool"
+      ],
+      "faqs": [
+        {
+          "question": "How do I add a marker?",
+          "answer": "Upload an image and simply click on the canvas — a numbered red dot appears at the click position with its pixel coordinates."
+        },
+        {
+          "question": "Can I remove markers?",
+          "answer": "Yes, the Clear button removes all markers at once. Use New image to start over with a different image."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Watermark",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "Image Caption Generator",
+          "href": "/tools/image-caption"
+        },
+        {
+          "name": "Date Watermark",
+          "href": "/tools/image-date-watermark"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "clear": "Clear markers",
+        "newImage": "New image"
+      },
+      "labels": {
+        "hint": "Click on the image to add a marker"
+      }
+    },
+    "image-date-watermark": {
+      "metadata": {
+        "title": "Date Watermark - Free Online Tool",
+        "description": "Free online tool to add date watermarks to photos in batches. Choose the date format, position, size and color, then download all images as a zip. Runs in your browser."
+      },
+      "title": "Date Watermark",
+      "description": "Add a date watermark to your photos in one go. Pick a date format, position, font size and color, then download all processed images as a zip.",
+      "category": "Image Tools",
+      "keywords": [
+        "date watermark",
+        "add date to photo",
+        "photo date stamp",
+        "batch date watermark",
+        "date on image",
+        "watermark date"
+      ],
+      "faqs": [
+        {
+          "question": "Which date is added?",
+          "answer": "By default the file's modification date is used. Turn off 'Use file date' to stamp today's date on every image instead."
+        },
+        {
+          "question": "Can I process multiple photos at once?",
+          "answer": "Yes. Select several images and they are all processed together, then downloaded as a single zip archive."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Watermark",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "Image Slice",
+          "href": "/tools/image-slice"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "labels": {
+        "format": "Date format",
+        "position": "Position",
+        "fontSize": "Font size",
+        "color": "Color",
+        "shadow": "Text shadow",
+        "count": "{count} images",
+        "useFileDate": "Use file modification date"
+      },
+      "positions": {
+        "topLeft": "Top left",
+        "topRight": "Top right",
+        "bottomLeft": "Bottom left",
+        "bottomRight": "Bottom right",
+        "center": "Center"
+      },
+      "buttons": {
+        "addImages": "Add images",
+        "downloadAll": "Download all (zip)",
+        "processing": "Processing…"
+      }
+    },
+    "image-dpi": {
+      "metadata": {
+        "title": "Image DPI Changer - Rewrite PNG DPI Online",
+        "description": "Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) for print without changing pixels. Free, runs in your browser."
+      },
+      "title": "Image DPI Changer",
+      "description": "Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) so print software sizes it correctly — the pixels stay untouched.",
+      "category": "Image Tools",
+      "keywords": [
+        "change image dpi",
+        "png dpi changer",
+        "set dpi 300",
+        "image dpi metadata",
+        "dpi converter",
+        "change dpi without resizing"
+      ],
+      "faqs": [
+        {
+          "question": "What is DPI and what does this tool change?",
+          "answer": "DPI (dots per inch) is print metadata that tells software how large to print an image. This tool rewrites only that metadata chunk."
+        },
+        {
+          "question": "Does it resize or recompress my image?",
+          "answer": "No — the pixel data is copied as-is. Only the pHYs metadata chunk that stores the DPI value is rewritten."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image File Size",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a PNG image here",
+        "formats": "PNG"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "dpi": "DPI",
+        "note": "metadata only, pixels unchanged"
+      }
+    },
+    "image-file-size": {
+      "metadata": {
+        "title": "Image File Size - Compress to Target KB Online",
+        "description": "Recompress an image to reach a target file size in KB, without changing dimensions. Free, runs in your browser."
+      },
+      "title": "Image File Size",
+      "description": "Set a target size in KB and the tool recompresses your image to get as close as possible — dimensions never change.",
+      "category": "Image Tools",
+      "keywords": [
+        "image file size reducer",
+        "compress image to size",
+        "target file size",
+        "reduce image kb",
+        "image size compressor",
+        "resize image file size"
+      ],
+      "faqs": [
+        {
+          "question": "How does it reach the target size?",
+          "answer": "The tool tries a range of JPEG quality levels and keeps the one whose file size is closest to (and below) your target."
+        },
+        {
+          "question": "Are the image dimensions changed?",
+          "answer": "No. Only the compression quality changes, so the width and height stay exactly the same."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "convert": "Convert",
+        "newImage": "New image",
+        "download": "Download JPG"
+      },
+      "labels": {
+        "processing": "Compressing...",
+        "cannotReach": "Could not reach target size",
+        "target": "Target size (KB)",
+        "resultSize": "Result size"
+      }
+    },
+    "image-format-converter": {
+      "metadata": {
+        "title": "Image Format Converter - PNG JPG WebP Online",
+        "description": "Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser. Free, private."
+      },
+      "title": "Image Format Converter",
+      "description": "Convert one or many images between PNG, JPG and WebP at once. Adjust quality for JPG and WebP, then download the results.",
+      "category": "Image Tools",
+      "keywords": [
+        "image format converter",
+        "convert png to jpg",
+        "convert jpg to webp",
+        "batch image converter",
+        "change image format",
+        "webp converter"
+      ],
+      "faqs": [
+        {
+          "question": "Which formats are supported?",
+          "answer": "PNG, JPG and WebP. You can convert from any input image format to any of these three output formats."
+        },
+        {
+          "question": "Are my images uploaded to a server?",
+          "answer": "No. Everything is processed locally in your browser — your images never leave your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image File Size",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Image to GIF Maker",
+          "href": "/tools/image-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "Drop images here",
+        "multi": "You can select multiple images"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "download": "Download"
+      },
+      "labels": {
+        "format": "Output format",
+        "quality": "Quality",
+        "processing": "Converting...",
+        "results": "Results"
+      }
+    },
+    "image-margin": {
+      "metadata": {
+        "title": "Image Margin - Add Padding Around Photos Online",
+        "description": "Add transparent or colored margin around an image. Perfect for framing and padding. Free, runs in your browser."
+      },
+      "title": "Image Margin",
+      "description": "Add transparent or colored margin around an image for framing, padding and social-ready layouts.",
+      "category": "Image Tools",
+      "keywords": [
+        "image margin",
+        "add margin to image",
+        "image padding",
+        "add white border around image",
+        "image frame padding",
+        "add space around image"
+      ],
+      "faqs": [
+        {
+          "question": "What does the margin do?",
+          "answer": "It adds a border of empty space around the image, either fully transparent or filled with the color you choose."
+        },
+        {
+          "question": "Can I use a custom color for the margin?",
+          "answer": "Yes — toggle off 'transparent' and pick any color with the color input or one of the quick presets."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Add Border",
+          "href": "/tools/image-border"
+        },
+        {
+          "name": "Rounded Corners",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "size": "Margin size",
+        "color": "Margin color",
+        "transparent": "Transparent",
+        "original": "Original",
+        "result": "Result"
+      }
+    },
+    "image-region-mask": {
+      "metadata": {
+        "title": "Region Mask - Mosaic & Blur Parts of an Image Online",
+        "description": "Drag to select areas and apply mosaic or blur to hide sensitive parts of an image. Free, runs in your browser."
+      },
+      "title": "Region Mask",
+      "description": "Drag over any part of an image to apply mosaic or blur and hide sensitive details like faces, plates or text.",
+      "category": "Image Tools",
+      "keywords": [
+        "image region mask",
+        "mosaic blur tool",
+        "blur part of image",
+        "mosaic part of image",
+        "hide area in image",
+        "pixelate region"
+      ],
+      "faqs": [
+        {
+          "question": "How do I select a region?",
+          "answer": "Click and drag on the image to draw a rectangle over the area you want to mask — release the mouse to apply the effect."
+        },
+        {
+          "question": "What is the difference between mosaic and blur?",
+          "answer": "Mosaic replaces the area with large color blocks (pixelation), while blur softens the details with a smooth Gaussian-like effect."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Face Blur",
+          "href": "/tools/face-blur"
+        },
+        {
+          "name": "Pixelate/Mosaic",
+          "href": "/tools/image-pixelate"
+        },
+        {
+          "name": "Image Content Clear",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "clear": "Clear regions",
+        "newImage": "New image"
+      },
+      "labels": {
+        "mode": "Effect",
+        "mosaic": "Mosaic",
+        "blur": "Blur",
+        "size": "Block size",
+        "hint": "Drag on the image to mask an area"
+      }
+    },
+    "image-slice": {
+      "metadata": {
+        "title": "Image Slicer – Split Images into Equal Pieces",
+        "description": "Free online tool to split an image into equal pieces horizontally or vertically and download each slice as a PNG file. Runs entirely in your browser."
+      },
+      "title": "Image Slicer",
+      "description": "Split an image into equal pieces horizontally or vertically. Choose 2–12 slices and download each piece as a PNG. All processing happens locally in your browser.",
+      "category": "Image Tools",
+      "keywords": [
+        "image slicer",
+        "split image",
+        "cut image into pieces",
+        "slice image",
+        "divide image",
+        "image splitter",
+        "cut image online",
+        "split image into equal parts"
+      ],
+      "faqs": [
+        {
+          "question": "How do I split an image?",
+          "answer": "Upload an image, choose horizontal or vertical slicing and the number of pieces, then download each slice as a PNG."
+        },
+        {
+          "question": "What is the difference between horizontal and vertical slicing?",
+          "answer": "Horizontal slicing cuts the image into vertical strips side by side; vertical slicing cuts it into horizontal strips stacked top to bottom."
+        },
+        {
+          "question": "How many pieces can I create?",
+          "answer": "Between 2 and 12 pieces."
+        },
+        {
+          "question": "Is my image uploaded anywhere?",
+          "answer": "No. All slicing happens in your browser and your image never leaves your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Crop Tool",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image Stitcher",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here or click to upload",
+        "formats": "JPG · PNG · WebP · GIF"
+      },
+      "labels": {
+        "direction": "Direction",
+        "horizontal": "Horizontal",
+        "vertical": "Vertical",
+        "count": "Pieces",
+        "pieces": "Slices"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download"
+      }
+    },
+    "img-padding": {
+      "metadata": {
+        "title": "Image Tiler - Free Online Tool",
+        "description": "Free online image tiling tool. Upload a small image and tile it across a large canvas to create a seamless pattern or wallpaper. Runs in your browser."
+      },
+      "title": "Image Tiler",
+      "description": "Tile a small image across a large canvas. Set the output width and height, and the image repeats to fill the area — perfect for patterns and wallpapers.",
+      "category": "Image Tools",
+      "keywords": [
+        "image tiler",
+        "tile image",
+        "image pattern",
+        "repeat image",
+        "image wallpaper",
+        "tiling tool"
+      ],
+      "faqs": [
+        {
+          "question": "How does image tiling work?",
+          "answer": "The tool draws your image repeatedly, side by side, until the output canvas is completely filled. Smaller images produce more visible repetition."
+        },
+        {
+          "question": "Can I make a seamless pattern?",
+          "answer": "Yes — images whose edges match naturally create seamless tiles. For best results use square images designed for repetition."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image Stitcher",
+          "href": "/tools/image-stitcher"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "Upload a small image to tile",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "Output width",
+        "height": "Output height",
+        "tileSize": "Tile size: {w} × {h} px"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download PNG"
+      }
+    },
+    "img-size": {
+      "metadata": {
+        "title": "Force Image Resize - Free Online Tool",
+        "description": "Free online tool to resize an image to exact dimensions, with optional stretching. Adjust quality and export as PNG, JPG or WebP. Runs in your browser."
+      },
+      "title": "Force Image Resize",
+      "description": "Resize an image to an exact width and height. Keep the aspect ratio or stretch freely, tune the output quality and save as PNG, JPG or WebP.",
+      "category": "Image Tools",
+      "keywords": [
+        "force resize image",
+        "resize image exact size",
+        "stretch image",
+        "change image dimensions",
+        "resize to exact width height",
+        "image aspect ratio"
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference from a normal resizer?",
+          "answer": "A normal resizer keeps proportions. Here you can uncheck 'Keep aspect ratio' and force any width and height, stretching the image if needed."
+        },
+        {
+          "question": "Which output formats are supported?",
+          "answer": "PNG (lossless), JPG and WebP. For JPG and WebP you can adjust the quality slider."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image File Size",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Upload an image to resize",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "Width",
+        "height": "Height",
+        "keepAspect": "Keep aspect ratio",
+        "quality": "Quality"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download"
+      }
+    },
+    "ppt-img": {
+      "metadata": {
+        "title": "PowerPoint Image Extractor - Free Online Tool",
+        "description": "Free online tool to extract all embedded images from a .pptx file. Files stay in your browser — nothing is uploaded."
+      },
+      "title": "PowerPoint Image Extractor",
+      "description": "Grab every image embedded inside a .pptx presentation — photos, clip art, slide backgrounds — and download them individually or all at once as a ZIP.",
+      "category": "Image Tools",
+      "keywords": [
+        "extract images from powerpoint",
+        "pptx image extractor",
+        "ppt images",
+        "get images from presentation",
+        "pptx media folder"
+      ],
+      "faqs": [
+        {
+          "question": "Where are images stored inside a PowerPoint file?",
+          "answer": "A .pptx file is a ZIP archive. Embedded images live in the ppt/media folder, which this tool reads directly."
+        },
+        {
+          "question": "Can I extract images from .ppt (old format)?",
+          "answer": "Only the newer .pptx/.pptm formats are supported — the legacy .ppt format is a different binary structure."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Excel Image Extractor",
+          "href": "/tools/excel-img"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a PowerPoint file here",
+        "formats": "PPTX · PPTM"
+      },
+      "labels": {
+        "processing": "Extracting images…",
+        "count": "{count} images found"
+      },
+      "buttons": {
+        "download": "Download",
+        "downloadAll": "Download all (ZIP)"
+      },
+      "errors": {
+        "empty": "No images found in this presentation.",
+        "invalid": "Could not read this file. Make sure it is a valid .pptx presentation."
+      }
+    },
+    "qrcode-batch": {
+      "metadata": {
+        "title": "Batch QR Code Generator - Free Online Tool",
+        "description": "Free online batch QR code generator. Paste a list of texts or URLs, generate QR codes for all of them at once, and download them individually or as a zip."
+      },
+      "title": "Batch QR Code Generator",
+      "description": "Generate QR codes for an entire list at once. Paste one item per line, adjust the size, and download every code individually or as a zip archive.",
+      "category": "Image Tools",
+      "keywords": [
+        "batch qr code",
+        "multiple qr codes",
+        "generate many qr codes",
+        "qr code list",
+        "bulk qr generator",
+        "qr codes from text list"
+      ],
+      "faqs": [
+        {
+          "question": "How many QR codes can I generate at once?",
+          "answer": "There is no hard limit — paste as many lines as you need. Generating a very large list may take a few seconds."
+        },
+        {
+          "question": "Can I download all codes together?",
+          "answer": "Yes. Click Download all to save every generated QR code as PNG files inside a single zip archive."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "WiFi QR Code",
+          "href": "/tools/wifi-qrcode"
+        },
+        {
+          "name": "QR Code Reader",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "list": "Text list (one per line)",
+        "hint": "One text or URL per line",
+        "size": "Size",
+        "count": "{count} QR codes"
+      },
+      "buttons": {
+        "generate": "Generate",
+        "processing": "Generating…",
+        "downloadAll": "Download all (zip)",
+        "download": "Download"
+      },
+      "errors": {
+        "failed": "Failed to generate QR codes. Please try again."
+      }
+    },
+    "screenshot-beautify": {
+      "metadata": {
+        "title": "Screenshot Beautifier - Free Online Tool",
+        "description": "Free online tool to make screenshots look great: add a background color, padding, rounded corners, border and shadow. Runs entirely in your browser."
+      },
+      "title": "Screenshot Beautifier",
+      "description": "Turn a plain screenshot into a polished product image. Add a background color, padding, rounded corners, border and shadow with instant preview.",
+      "category": "Image Tools",
+      "keywords": [
+        "screenshot beautifier",
+        "beautify screenshot",
+        "screenshot frame",
+        "screenshot presentation",
+        "mac screenshot style",
+        "code screenshot"
+      ],
+      "faqs": [
+        {
+          "question": "What can I customize?",
+          "answer": "Background color, padding around the image, corner radius, border width and color, and a drop shadow — all with live preview."
+        },
+        {
+          "question": "Is the image uploaded to a server?",
+          "answer": "No. Everything is rendered locally in your browser with the HTML canvas API."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Screenshot Markup",
+          "href": "/tools/screenshot-markup"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "Image Rounded Corners",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "Upload a screenshot to beautify",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "background": "Background",
+        "padding": "Padding",
+        "radius": "Corner radius",
+        "borderWidth": "Border width",
+        "borderColor": "Border color",
+        "shadow": "Drop shadow"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download PNG"
+      }
+    },
+    "screenshot-markup": {
+      "metadata": {
+        "title": "Screenshot Markup - Free Online Tool",
+        "description": "Free online tool to annotate screenshots. Draw rectangles, circles, arrows, lines and text, then download the annotated image. Runs in your browser."
+      },
+      "title": "Screenshot Markup",
+      "description": "Annotate a screenshot in seconds. Draw rectangles, circles, arrows, lines and text with adjustable color and stroke width, then download the result.",
+      "category": "Image Tools",
+      "keywords": [
+        "screenshot markup",
+        "annotate screenshot",
+        "markup image",
+        "screenshot arrows",
+        "highlight screenshot",
+        "annotation tool"
+      ],
+      "faqs": [
+        {
+          "question": "What can I draw?",
+          "answer": "Rectangles, circles, arrows, lines and text. Pick a tool, choose a color and stroke width, then drag on the image to draw."
+        },
+        {
+          "question": "Can I remove annotations?",
+          "answer": "Yes — use Clear to remove all annotations at once. You can also start over with a new image at any time."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Screenshot Beautifier",
+          "href": "/tools/screenshot-beautify"
+        },
+        {
+          "name": "Image Coordinate Marker",
+          "href": "/tools/image-coord-marker"
+        },
+        {
+          "name": "Region Mask",
+          "href": "/tools/image-region-mask"
+        }
+      ],
+      "upload": {
+        "drop": "Upload a screenshot to annotate",
+        "formats": "JPG · PNG · WebP"
+      },
+      "tools": {
+        "rect": "Rectangle",
+        "circle": "Circle",
+        "arrow": "Arrow",
+        "line": "Line",
+        "text": "Text"
+      },
+      "labels": {
+        "width": "Width",
+        "textSize": "Text size",
+        "textHint": "Click the image to place the text",
+        "hint": "Drag on the image to draw the selected shape. Use the text tool and click to add text."
+      },
+      "buttons": {
+        "clear": "Clear",
+        "download": "Download PNG"
+      }
+    },
+    "solid-color-image": {
+      "metadata": {
+        "title": "Solid Color Image - Plain Background Generator Online",
+        "description": "Generate a solid-color background image with any color and size in seconds. Free, runs in your browser."
+      },
+      "title": "Solid Color Image",
+      "description": "Create a plain solid-color background image with any color and size in seconds — perfect for placeholders, thumbnails and tests.",
+      "category": "Image Tools",
+      "keywords": [
+        "solid color image",
+        "solid color background generator",
+        "plain color image",
+        "solid background png",
+        "color background maker",
+        "single color image"
+      ],
+      "faqs": [
+        {
+          "question": "What sizes can I generate?",
+          "answer": "Any size from 16×16 up to 8192×8192 pixels. Enter the width and height you need and the image is drawn instantly."
+        },
+        {
+          "question": "What format is the downloaded file?",
+          "answer": "The image is exported as PNG, which preserves the exact color without compression artifacts."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Placeholder Image Generator",
+          "href": "/tools/placeholder-image"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "buttons": {
+        "download": "Download PNG"
+      },
+      "labels": {
+        "color": "Color",
+        "width": "Width",
+        "height": "Height"
+      }
+    },
+    "svg-path": {
+      "metadata": {
+        "title": "SVG Path Preview - Free Online Tool",
+        "description": "Free online SVG path previewer. Paste a path and see its shape rendered instantly. Adjust stroke, fill and width. Runs entirely in your browser."
+      },
+      "title": "SVG Path Preview",
+      "description": "Paste an SVG path (the d attribute) and preview its shape instantly. Tune stroke color, fill and stroke width, then download as SVG.",
+      "category": "Image Tools",
+      "keywords": [
+        "svg path",
+        "svg path preview",
+        "path d preview",
+        "svg path viewer",
+        "svg d attribute",
+        "path shape preview"
+      ],
+      "faqs": [
+        {
+          "question": "What is an SVG path?",
+          "answer": "An SVG path is defined by the d attribute — commands like M (move), L (line) and C (curve) that describe a shape."
+        },
+        {
+          "question": "Does my path get uploaded?",
+          "answer": "No. The path is rendered locally in your browser and never leaves your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "SVG Preview",
+          "href": "/tools/svg-preview"
+        },
+        {
+          "name": "SVG to Image",
+          "href": "/tools/svg-to-image"
+        },
+        {
+          "name": "SVG Blob Generator",
+          "href": "/tools/svg-blob-generator"
+        }
+      ],
+      "labels": {
+        "pathD": "Path (d)",
+        "stroke": "Stroke",
+        "fill": "Fill",
+        "width": "Width",
+        "preview": "Preview"
+      },
+      "buttons": {
+        "download": "Download SVG"
+      }
+    },
+    "svg-preview": {
+      "metadata": {
+        "title": "SVG Preview - Free Online Tool",
+        "description": "Free online SVG code preview and renderer. Paste SVG markup and see it rendered instantly. No uploads, runs entirely in your browser."
+      },
+      "title": "SVG Preview",
+      "description": "Paste any SVG code and preview how it renders. Edit the markup live and download the result as an .svg file.",
+      "category": "Image Tools",
+      "keywords": [
+        "svg preview",
+        "svg renderer",
+        "svg viewer",
+        "view svg code",
+        "svg code preview",
+        "online svg viewer"
+      ],
+      "faqs": [
+        {
+          "question": "Is my SVG code sent to a server?",
+          "answer": "No. Everything runs in your browser — your code never leaves your device."
+        },
+        {
+          "question": "What SVG features are supported?",
+          "answer": "Anything your browser supports natively, including gradients, filters, paths and embedded text."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "SVG to Image",
+          "href": "/tools/svg-to-image"
+        },
+        {
+          "name": "SVG Path Preview",
+          "href": "/tools/svg-path"
+        },
+        {
+          "name": "Color Text Image",
+          "href": "/tools/color-text-image"
+        }
+      ],
+      "labels": {
+        "code": "SVG Code",
+        "preview": "Preview"
+      },
+      "buttons": {
+        "download": "Download SVG"
+      },
+      "errors": {
+        "invalid": "Invalid SVG code. Please check the markup."
+      }
+    },
+    "svg-to-image": {
+      "metadata": {
+        "title": "SVG to Image Converter – SVG to PNG/JPG/WebP",
+        "description": "Convert SVG code to PNG, JPG or WebP online with scale and quality controls. Get a preview and a Base64 data URL. Free, no uploads."
+      },
+      "title": "SVG to Image",
+      "description": "Paste SVG code and convert it to PNG, JPG or WebP instantly. Adjust scale and quality, preview the result and copy the Base64 data URL.",
+      "category": "Image Tools",
+      "keywords": [
+        "svg to png",
+        "svg to jpg",
+        "svg to webp",
+        "convert svg to image",
+        "svg converter",
+        "svg to image online",
+        "svg to base64",
+        "render svg to png"
+      ],
+      "faqs": [
+        {
+          "question": "Which formats can I convert SVG to?",
+          "answer": "PNG, JPG and WebP."
+        },
+        {
+          "question": "Can I change the output size?",
+          "answer": "Yes, use the scale slider from 0.25× to 4× to resize the output without editing the SVG."
+        },
+        {
+          "question": "What is the Base64 output for?",
+          "answer": "The data URL can be embedded directly in HTML, CSS or code — useful for icons and inline images."
+        },
+        {
+          "question": "Is the SVG sent to a server?",
+          "answer": "No. Conversion happens entirely in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "Image to Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "Favicon Generator",
+          "href": "/tools/favicon-generator"
+        }
+      ],
+      "errors": {
+        "failed": "Failed to render this SVG. Please check the code."
+      },
+      "labels": {
+        "svg": "SVG code",
+        "format": "Format",
+        "scale": "Scale",
+        "quality": "Quality",
+        "copied": "Copied!",
+        "copyBase64": "Copy Base64",
+        "base64": "Base64 data URL",
+        "preview": "Preview"
+      },
+      "buttons": {
+        "download": "Download"
+      }
+    },
+    "text-logo": {
+      "metadata": {
+        "title": "Text Logo Maker – Free Simple Logo Creator",
+        "description": "Create a simple text logo online in seconds. Customize text, color, font size and background, then download as PNG. Free, no signup."
+      },
+      "title": "Text Logo Maker",
+      "description": "Create a simple text logo in seconds. Enter your text, pick a color, font size and background — then download it as a transparent or solid PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "text logo maker",
+        "text logo generator",
+        "logo from text",
+        "make a logo online",
+        "simple logo creator",
+        "typography logo",
+        "text based logo",
+        "wordmark generator"
+      ],
+      "faqs": [
+        {
+          "question": "How do I create a text logo?",
+          "answer": "Type your text, adjust the font size and colors, choose a background (or transparent), then download the PNG."
+        },
+        {
+          "question": "Can I make the background transparent?",
+          "answer": "Yes, enable the transparent background option and download a PNG with no background."
+        },
+        {
+          "question": "What is the maximum font size?",
+          "answer": "Font size can go up to 400 px for crisp, high-resolution logos."
+        },
+        {
+          "question": "Is this tool free?",
+          "answer": "Yes, completely free — and everything runs in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Color Text Image",
+          "href": "/tools/color-text-image"
+        },
+        {
+          "name": "Image Watermark",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG Image Generator",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "Text",
+        "fontSize": "Font size",
+        "color": "Text color",
+        "bgColor": "Background color",
+        "transparentBg": "Transparent background"
+      },
+      "buttons": {
+        "download": "Download PNG"
+      }
+    },
+    "web-icon": {
+      "metadata": {
+        "title": "Website Icon Fetcher - Free Online Tool",
+        "description": "Free online tool to fetch and download the favicon of any website. Enter a domain and get its icon instantly, ready to download."
+      },
+      "title": "Website Icon Fetcher",
+      "description": "Get the favicon of any website in seconds. Enter a domain, preview the icon and download it for use in your own projects.",
+      "category": "Image Tools",
+      "keywords": [
+        "website icon",
+        "favicon download",
+        "favicon fetcher",
+        "get favicon",
+        "website favicon",
+        "favicon from url",
+        "site icon"
+      ],
+      "faqs": [
+        {
+          "question": "Which favicon is returned?",
+          "answer": "The tool returns the favicon served by the site for its domain (usually the .ico or PNG icon shown in the browser tab)."
+        },
+        {
+          "question": "Can I use the icon in my own project?",
+          "answer": "Yes — download it as a 256 × 256 PNG and use it anywhere. Note that favicons may be copyrighted by their owners."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon Generator",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Multi-size Icon Generator",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "Domain Age",
+          "href": "/tools/domain-age"
+        }
+      ],
+      "labels": {
+        "size": "Size"
+      },
+      "buttons": {
+        "fetch": "Fetch",
+        "download": "Download PNG"
+      },
+      "errors": {
+        "failed": "Could not fetch the icon. Check the domain and try again."
+      }
+    },
+    "wifi-qrcode": {
+      "metadata": {
+        "title": "WiFi QR Code Generator - Free Online Tool",
+        "description": "Free online WiFi QR code generator. Enter your network name and password to create a QR code that lets anyone join instantly. No signup, runs in your browser."
+      },
+      "title": "WiFi QR Code Generator",
+      "description": "Turn your WiFi network into a QR code. Enter the network name, password and security type — friends scan the code and connect instantly.",
+      "category": "Image Tools",
+      "keywords": [
+        "wifi qr code",
+        "wifi qr generator",
+        "qr code wifi password",
+        "share wifi qr",
+        "wifi password qr code",
+        "qr wifi login"
+      ],
+      "faqs": [
+        {
+          "question": "How does sharing WiFi with a QR code work?",
+          "answer": "The QR encodes a WIFI: string with your network name, password and security type. Phones with a QR scanner or camera can read it and join without typing."
+        },
+        {
+          "question": "Is my WiFi password exposed?",
+          "answer": "The password is encoded directly into the QR code, so only share it with people you trust — anyone who scans it can connect."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "Batch QR Codes",
+          "href": "/tools/qrcode-batch"
+        },
+        {
+          "name": "QR Code Reader",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "ssid": "Network name (SSID)",
+        "password": "Password",
+        "encryption": "Security type",
+        "hidden": "Hidden network",
+        "placeholder": "Fill in the network name to generate"
+      },
+      "encryptions": {
+        "WPA": "WPA / WPA2",
+        "WEP": "WEP",
+        "nopass": "No password"
+      },
+      "buttons": {
+        "download": "Download PNG"
+      }
+    },
+    "audio-cutter": {
+      "metadata": {
+        "title": "Audio Cutter - Trim MP3/WAV Online Free",
+        "description": "Free online audio cutter. Trim MP3, WAV and other audio files by dragging on the waveform. Export as MP3 or WAV. Private — everything runs in your browser."
+      },
+      "title": "Audio Cutter",
+      "description": "Upload an audio file, drag on the waveform to choose the part you want to keep, and export it as MP3 or WAV. All processing happens locally in your browser.",
+      "category": "Audio Tools",
+      "keywords": [
+        "audio cutter",
+        "cut mp3",
+        "trim audio online",
+        "mp3 cutter",
+        "audio trimmer",
+        "cut music online"
+      ],
+      "faqs": [
+        {
+          "question": "Which audio formats can I cut?",
+          "answer": "Any format your browser can decode — MP3, WAV, OGG, M4A, FLAC and more. The trimmed result is exported as MP3 or WAV."
+        },
+        {
+          "question": "Is my audio uploaded to a server?",
+          "answer": "No. The audio is decoded and processed entirely in your browser using WebAssembly, so your files never leave your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Audio Merge",
+          "href": "/tools/audio-merge"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "Video Trimmer",
+          "href": "/tools/video-trimmer"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an audio file here",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "totalDuration": "Total duration",
+        "start": "Start",
+        "end": "End",
+        "outputFormat": "Output format",
+        "resultSize": "File size"
+      },
+      "buttons": {
+        "cut": "Cut Audio",
+        "download": "Download",
+        "reset": "Reset"
+      },
+      "errors": {
+        "decode": "Could not read this audio file. It may be corrupted or unsupported.",
+        "failed": "Cutting failed. Please try again."
+      }
+    },
+    "audio-merge": {
+      "metadata": {
+        "title": "Audio Merger - Combine Audio Files Online Free",
+        "description": "Free online audio merger. Combine MP3, WAV, OGG and other audio files into a single track in any order. Export as MP3 or WAV. Private — all in your browser."
+      },
+      "title": "Audio Merge",
+      "description": "Upload multiple audio files, arrange them in the order you want, and merge them into a single MP3 or WAV track. Processing happens locally in your browser.",
+      "category": "Audio Tools",
+      "keywords": [
+        "merge audio",
+        "combine mp3",
+        "join audio files",
+        "audio merger",
+        "merge songs",
+        "combine audio online"
+      ],
+      "faqs": [
+        {
+          "question": "Can I merge files with different formats?",
+          "answer": "Yes. MP3, WAV, OGG, M4A and other formats can be mixed together — each segment is normalized before joining and exported as MP3 or WAV."
+        },
+        {
+          "question": "How is the output order decided?",
+          "answer": "The files are merged in the order shown in the list. Use the up and down arrows to rearrange them before merging."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Audio Cutter",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "Video Joiner",
+          "href": "/tools/video-joiner"
+        }
+      ],
+      "upload": {
+        "drop": "Drop audio files here (multiple allowed)",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "count": "Files to merge: {count}",
+        "outputFormat": "Output format",
+        "resultSize": "File size"
+      },
+      "buttons": {
+        "merge": "Merge Audio",
+        "download": "Download",
+        "reset": "Reset"
+      },
+      "errors": {
+        "failed": "Merging failed. Some files may be unsupported or corrupted."
+      }
+    },
+    "audio-player": {
+      "metadata": {
+        "title": "Audio Player - Waveform Viewer & Player Online",
+        "description": "Free online audio player with waveform visualization. Upload an audio file, view its waveform, duration, sample rate and channels, and play it instantly."
+      },
+      "title": "Audio Player",
+      "description": "Upload an audio file to see its waveform, duration, sample rate and channel count — then play it right in the browser. Everything stays local.",
+      "category": "Audio Tools",
+      "keywords": [
+        "audio player",
+        "audio waveform",
+        "waveform viewer",
+        "play audio online",
+        "audio visualizer",
+        "mp3 player"
+      ],
+      "faqs": [
+        {
+          "question": "How do I listen to an audio file here?",
+          "answer": "Just drop or select an audio file. Its waveform is drawn automatically and you can hit play — no upload, no signup."
+        },
+        {
+          "question": "Which audio formats are supported?",
+          "answer": "Everything your browser can decode: MP3, WAV, OGG, M4A, FLAC and more. The file stays on your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Audio Cutter",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "Video Transcript",
+          "href": "/tools/video-transcript"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an audio file here",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "duration": "Duration",
+        "sampleRate": "Sample rate",
+        "channels": "Channels"
+      },
+      "buttons": {
+        "play": "Play",
+        "pause": "Pause"
+      },
+      "errors": {
+        "decode": "Could not read this audio file. It may be corrupted or unsupported."
+      }
+    },
+    "hz": {
+      "metadata": {
+        "title": "Frequency Tone Generator - Sine Wave & Sound Online",
+        "description": "Free online tone generator. Create sine, square, sawtooth or triangle waves at any frequency (20 Hz – 20 kHz), choose duration and volume, preview and download as WAV."
+      },
+      "title": "Frequency Tone Generator",
+      "description": "Generate a pure test tone at any frequency between 20 Hz and 20 kHz. Pick the waveform, frequency, duration and volume, preview it, then download the WAV file.",
+      "category": "Audio Tools",
+      "keywords": [
+        "tone generator",
+        "sine wave generator",
+        "frequency generator",
+        "audio tone",
+        "440 hz tone",
+        "sound frequency generator"
+      ],
+      "faqs": [
+        {
+          "question": "What is this tool used for?",
+          "answer": "It creates a test tone at an exact frequency — handy for testing speakers, calibrating audio gear, tuning instruments or checking your hearing range."
+        },
+        {
+          "question": "What frequency range is supported?",
+          "answer": "Any frequency from 20 Hz (deep bass) to 20 kHz (very high). The downloadable WAV is generated at 44.1 kHz sample rate."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "White Noise Generator",
+          "href": "/tools/white-noise"
+        },
+        {
+          "name": "Text to Speech",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "waveform": "Waveform",
+        "frequency": "Frequency",
+        "duration": "Duration",
+        "amplitude": "Volume",
+        "placeholder": "Generate a tone to preview it here"
+      },
+      "waveforms": {
+        "sine": "Sine",
+        "square": "Square",
+        "sawtooth": "Sawtooth",
+        "triangle": "Triangle"
+      },
+      "buttons": {
+        "generate": "Generate Tone",
+        "download": "Download WAV"
+      },
+      "errors": {
+        "failed": "Generation failed. Please try again."
+      }
+    },
+    "white-noise": {
+      "metadata": {
+        "title": "White Noise Generator - Sleep & Focus Sounds Free",
+        "description": "Free online white noise generator. Create white, pink or brown noise for sleeping, studying or masking background sounds. Choose duration and volume, download as WAV."
+      },
+      "title": "White Noise Generator",
+      "description": "Generate white, pink or brown noise right in your browser. Pick the noise color, duration and volume, preview it, and download the result as a WAV file.",
+      "category": "Audio Tools",
+      "keywords": [
+        "white noise generator",
+        "pink noise",
+        "brown noise",
+        "sleep noise",
+        "white noise for sleep",
+        "noise generator online"
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between white, pink and brown noise?",
+          "answer": "White noise sounds like static — equal energy at all frequencies. Pink noise is deeper and softer, while brown noise is even deeper with a low rumble, similar to rain or a distant waterfall."
+        },
+        {
+          "question": "What can I use the generated noise for?",
+          "answer": "Many people use it for sleep, studying, focus or masking distracting background sounds. You can preview the sound and download it as a WAV file to use offline."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Frequency Tone Generator",
+          "href": "/tools/hz"
+        },
+        {
+          "name": "Text to Speech",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "type": "Noise color",
+        "duration": "Duration",
+        "amplitude": "Volume",
+        "placeholder": "Generate a noise to preview it here"
+      },
+      "types": {
+        "white": "White noise",
+        "pink": "Pink noise",
+        "brown": "Brown noise"
+      },
+      "buttons": {
+        "generate": "Generate Noise",
+        "download": "Download WAV"
+      },
+      "errors": {
+        "failed": "Generation failed. Please try again."
+      }
+    },
+    "alarm": {
+      "metadata": {
+        "title": "Alarm Clock - Set an Online Alarm",
+        "description": "Free online alarm clock. Set an alarm for a specific time of day or a few minutes from now, with a ringing sound. Runs entirely in your browser."
+      },
+      "title": "Alarm Clock",
+      "description": "Set an alarm to ring at a chosen time, or a number of minutes from now. When the time comes, a tone sounds to wake you up.",
+      "category": "Life Tools",
+      "keywords": [
+        "alarm clock",
+        "online alarm",
+        "set alarm",
+        "wake up",
+        "alarm timer",
+        "reminder"
+      ],
+      "faqs": [
+        {
+          "question": "Does the alarm work when the page is open?",
+          "answer": "Yes, while the page stays open. The alarm only rings when this tab is running, so keep it open or use your device's native alarm for best reliability."
+        },
+        {
+          "question": "Can I test the sound first?",
+          "answer": "Yes — use the test sound button to check the volume before setting the alarm."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Online Clock",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "Countdown Timer",
+          "href": "/tools/countdown-timer"
+        },
+        {
+          "name": "World Clock",
+          "href": "/tools/world-clock"
+        }
+      ],
+      "labels": {
+        "ringing": "Alarm ringing!",
+        "countdown": "Rings in",
+        "placeholder": "Set a time or minutes below"
+      },
+      "buttons": {
+        "setTime": "Set Time Alarm",
+        "setMinutes": "Set Minutes Alarm",
+        "stop": "Stop",
+        "testSound": "Test Sound"
+      }
+    },
+    "answer-book": {
+      "metadata": {
+        "title": "Magic Answer Book - Get a Random Answer Online",
+        "description": "Free online magic answer book. Think of a question, tap the book and receive a random answer. Fun and private — everything runs in your browser."
+      },
+      "title": "Magic Answer Book",
+      "description": "Hold a yes/no question in your mind, tap the book and let it reveal an answer at random. A fun way to break indecision.",
+      "category": "Life Tools",
+      "keywords": [
+        "answer book",
+        "magic 8 ball",
+        "random answer",
+        "yes or no",
+        "decision maker",
+        "fortune book"
+      ],
+      "faqs": [
+        {
+          "question": "Is this a real fortune teller?",
+          "answer": "No — answers are picked at random. Treat it as a fun decision helper, not a prediction."
+        },
+        {
+          "question": "Can I ask again?",
+          "answer": "Yes, tap the book as many times as you like. Each tap gives a new random answer."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Coin Flip",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Random Picker",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "Dice Roller",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "ask": "Ask a question, then tap the book",
+        "hint": "Tap the book to reveal an answer"
+      },
+      "buttons": {}
+    },
+    "bank-card-validate": {
+      "metadata": {
+        "title": "Card Number Check - Validate with Luhn Online",
+        "description": "Free online bank card number validator using the Luhn algorithm. Check whether a card number passes the checksum. Runs in your browser."
+      },
+      "title": "Card Number Check",
+      "description": "Enter a card number to check whether it passes the Luhn checksum — the same check used by payment networks to catch typos.",
+      "category": "Life Tools",
+      "keywords": [
+        "card number check",
+        "luhn algorithm",
+        "validate card number",
+        "credit card check",
+        "card validator",
+        "luhn check"
+      ],
+      "faqs": [
+        {
+          "question": "What is the Luhn algorithm?",
+          "answer": "A simple checksum formula used by payment cards to catch mistyped digits. It validates the number's structure, not whether the card exists."
+        },
+        {
+          "question": "Is my card number stored?",
+          "answer": "No. Everything is processed locally in your browser; nothing is sent or saved."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Random Password Generator",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "Hash Generator",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "placeholder": "Enter card number (spaces allowed)",
+        "valid": "This number passes the Luhn check",
+        "invalid": "This number fails the Luhn check",
+        "luhnNote": "Luhn only verifies the checksum — it does not confirm the card exists."
+      },
+      "buttons": {
+        "validate": "Validate"
+      }
+    },
+    "blood-type": {
+      "metadata": {
+        "title": "Blood Type Inheritance - Possible Child Blood Types",
+        "description": "Free online blood type inheritance calculator. Select the parents' ABO blood types to see which blood types their child can or cannot have. Runs in your browser."
+      },
+      "title": "Blood Type Inheritance",
+      "description": "Select the father's and mother's ABO blood types to instantly see which blood types their child can have — and which are impossible.",
+      "category": "Life Tools",
+      "keywords": [
+        "blood type inheritance",
+        "child blood type",
+        "blood type calculator",
+        "abo inheritance",
+        "possible blood types",
+        "parents blood type"
+      ],
+      "faqs": [
+        {
+          "question": "Why are some blood types impossible?",
+          "answer": "Blood type follows Mendelian inheritance of the A, B and O alleles. Combining the parents' possible genotypes rules out some types."
+        },
+        {
+          "question": "Is this medical advice?",
+          "answer": "No. It is a general genetics table. For anything important, consult a doctor or geneticist."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Height Predictor",
+          "href": "/tools/height-predict"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Pregnancy Calculator",
+          "href": "/tools/pregnancy-calculator"
+        }
+      ],
+      "labels": {
+        "father": "Father",
+        "mother": "Mother",
+        "possible": "Possible for the child",
+        "impossible": "Not possible for the child"
+      },
+      "buttons": {}
+    },
+    "calendar": {
+      "metadata": {
+        "title": "Year Calendar - Generate a Full-Year Calendar Image",
+        "description": "Free online year calendar generator. Render a full year (12 months) as a printable PNG image with weekends highlighted. Runs in your browser."
+      },
+      "title": "Year Calendar",
+      "description": "Pick a year and render all 12 months on a single canvas. Weekends are highlighted, and you can download the calendar as a PNG image.",
+      "category": "Life Tools",
+      "keywords": [
+        "year calendar",
+        "calendar generator",
+        "printable calendar",
+        "2026 calendar",
+        "full year calendar",
+        "calendar image"
+      ],
+      "faqs": [
+        {
+          "question": "Can I choose any year?",
+          "answer": "Yes — enter any year and the tool builds the correct month layouts, including leap years."
+        },
+        {
+          "question": "Can I print it?",
+          "answer": "Yes. Download the PNG and print it, or use it as a wallpaper or planner insert."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Day of Week",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "Day of Year",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Date Calculator",
+          "href": "/tools/date-calculator"
+        }
+      ],
+      "labels": {},
+      "buttons": {
+        "render": "Render Calendar",
+        "download": "Download PNG"
+      }
+    },
+    "click-speed": {
+      "metadata": {
+        "title": "Click Speed Test - CPS Test in 10 Seconds",
+        "description": "Free click speed test. Measure your clicks per second (CPS) in a 10-second challenge. Track your best score. Runs in your browser."
+      },
+      "title": "Click Speed Test",
+      "description": "A 10-second challenge: click as fast as you can and measure your clicks per second (CPS). Your best score is saved during the session.",
+      "category": "Life Tools",
+      "keywords": [
+        "click speed test",
+        "cps test",
+        "clicks per second",
+        "clicker test",
+        "10 second click test",
+        "mouse speed test"
+      ],
+      "faqs": [
+        {
+          "question": "What is a good CPS?",
+          "answer": "A typical result is 5-7 CPS. Skilled gamers reach 10+ CPS with jitter clicking."
+        },
+        {
+          "question": "How long does a test take?",
+          "answer": "Each round lasts 10 seconds, and you can retake it as many times as you want."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Schulte Grid",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "Typing Speed Test",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "timeLeft": "Time left",
+        "clicks": "Clicks",
+        "cps": "CPS",
+        "click": "Click!",
+        "best": "Best"
+      },
+      "buttons": {
+        "start": "Start"
+      }
+    },
+    "coin-flip": {
+      "metadata": {
+        "title": "Coin Flip - Flip a Virtual Coin Online",
+        "description": "Flip a virtual coin online. Track heads and tails with a running tally. Great for decisions and practice. Runs in your browser."
+      },
+      "title": "Coin Flip",
+      "description": "Flip a virtual coin with a single click. The counter keeps track of heads and tails so you can see the distribution over time.",
+      "category": "Life Tools",
+      "keywords": [
+        "coin flip",
+        "flip a coin",
+        "coin toss",
+        "heads or tails",
+        "virtual coin",
+        "coin flipper"
+      ],
+      "faqs": [
+        {
+          "question": "Is this a fair coin?",
+          "answer": "Yes — the result is generated with a secure random number generator, so heads and tails are equally likely."
+        },
+        {
+          "question": "Is there a limit on flips?",
+          "answer": "No. You can flip as many times as you like, and the running totals always stay visible."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Dice Roller",
+          "href": "/tools/dice-roller"
+        },
+        {
+          "name": "Random Picker",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "Random Group Generator",
+          "href": "/tools/group-randomizer"
+        }
+      ],
+      "labels": {
+        "result": "Result",
+        "heads": "Heads",
+        "tails": "Tails",
+        "headsCount": "Heads",
+        "tailsCount": "Tails",
+        "total": "Total"
+      },
+      "buttons": {
+        "flip": "Flip Coin",
+        "reset": "Reset"
+      }
+    },
+    "color-blindness-test": {
+      "metadata": {
+        "title": "Color Blindness Test - Ishihara Style Plates Online",
+        "description": "Free online color blindness self-test. Numbers are hidden in Ishihara-style color plates — try to read them. A quick screening, not a medical diagnosis. Runs in your browser."
+      },
+      "title": "Color Blindness Test",
+      "description": "Numbers are hidden inside Ishihara-style color plates. Try to read each number, then check whether your answer is correct. A quick self-screening only.",
+      "category": "Life Tools",
+      "keywords": [
+        "color blindness test",
+        "ishihara test",
+        "color vision test",
+        "daltonism test",
+        "color blind check",
+        "eye test"
+      ],
+      "faqs": [
+        {
+          "question": "Can this diagnose color blindness?",
+          "answer": "No. It is a fun self-screening based on the Ishihara style. For a real diagnosis please see an eye care professional."
+        },
+        {
+          "question": "Which color plates are used?",
+          "answer": "The tool generates two plate types: red-green and green-red patterns, which are commonly used to screen for red-green deficiencies."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Hearing Test",
+          "href": "/tools/hearing-test"
+        },
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Schulte Grid",
+          "href": "/tools/schulte-grid"
+        }
+      ],
+      "labels": {
+        "none": "I can't see a number",
+        "correct": "Correct!",
+        "wrong": "Incorrect",
+        "score": "Score",
+        "hint": "Plate colors may vary by screen — this is not a diagnosis"
+      },
+      "buttons": {
+        "next": "Next Plate"
+      }
+    },
+    "date-calculator": {
+      "metadata": {
+        "title": "Date Calculator - Date Difference and Add Days",
+        "description": "Free online date calculator. Compute the number of days, weeks and months between two dates, or add/subtract days to a date. Runs in your browser."
+      },
+      "title": "Date Calculator",
+      "description": "Two handy modes: calculate the difference between two dates in days, weeks and months, or add (or subtract) a number of days to a given date.",
+      "category": "Life Tools",
+      "keywords": [
+        "date calculator",
+        "days between dates",
+        "date difference",
+        "add days to date",
+        "date add subtract",
+        "days calculator"
+      ],
+      "faqs": [
+        {
+          "question": "How are months calculated?",
+          "answer": "Months use the average month length (~30.44 days), which is accurate for planning purposes."
+        },
+        {
+          "question": "Can I subtract days?",
+          "answer": "Yes — enter a negative number of days to go backwards from the start date."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Day of Week",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "Day of Year",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Expiration Date",
+          "href": "/tools/expiration"
+        }
+      ],
+      "labels": {
+        "days": "days",
+        "weeks": "weeks",
+        "months": "months"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      },
+      "modes": {
+        "diff": "Difference",
+        "add": "Add Days"
+      }
+    },
+    "day-of-week": {
+      "metadata": {
+        "title": "Day of Week - What Day Is That Date?",
+        "description": "Free online day of week calculator. Pick any date and instantly see the weekday, including historical or future dates. Runs in your browser."
+      },
+      "title": "Day of Week",
+      "description": "Pick any date and find out which day of the week it falls on — today, a past birthday, or a future holiday.",
+      "category": "Life Tools",
+      "keywords": [
+        "day of week",
+        "what day is it",
+        "weekday calculator",
+        "date weekday",
+        "what day is that date",
+        "calendar day"
+      ],
+      "faqs": [
+        {
+          "question": "Can I check historical dates?",
+          "answer": "Yes — any date works, from ancient history to far in the future."
+        },
+        {
+          "question": "Does it handle leap years?",
+          "answer": "Yes, the calculation uses the Gregorian calendar rules including leap years."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Day of Year",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Date Calculator",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "Year Calendar",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "result": "This date is a"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      }
+    },
+    "day-of-year": {
+      "metadata": {
+        "title": "Day of Year - Which Day of the Year Is Today?",
+        "description": "Free online day of year calculator. Find which day of the year any date is, plus how many days are left in the year. Runs in your browser."
+      },
+      "title": "Day of Year",
+      "description": "Pick a date and see its day number of the year, the total days in that year, and how many days remain.",
+      "category": "Life Tools",
+      "keywords": [
+        "day of year",
+        "day number",
+        "day of the year calculator",
+        "days in year",
+        "days remaining",
+        "ordinal date"
+      ],
+      "faqs": [
+        {
+          "question": "What is the day of year?",
+          "answer": "It is the ordinal number of the day within the year — January 1 is day 1, February 1 is day 32 in a non-leap year."
+        },
+        {
+          "question": "Are leap years handled?",
+          "answer": "Yes, leap years correctly show 366 days with February 29 counted."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Day of Week",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "Date Calculator",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "Year Calendar",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "dayOfYear": "Day of year",
+        "totalDays": "Days in year",
+        "daysLeft": "Days left"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      }
+    },
+    "dice-roller": {
+      "metadata": {
+        "title": "Dice Roller - Roll 1-10 Dice Online",
+        "description": "Free online dice roller. Roll between 1 and 10 dice with realistic faces and an instant total. Runs entirely in your browser."
+      },
+      "title": "Dice Roller",
+      "description": "Choose how many dice to roll (1 to 10), then roll them to see each face and the total. Handy for board games and tabletop RPGs.",
+      "category": "Life Tools",
+      "keywords": [
+        "dice roller",
+        "roll dice",
+        "d20",
+        "dice online",
+        "board game dice",
+        "dice simulator"
+      ],
+      "faqs": [
+        {
+          "question": "How many dice can I roll at once?",
+          "answer": "Between 1 and 10 dice per roll, and you can roll as many times as you want."
+        },
+        {
+          "question": "Are the rolls random?",
+          "answer": "Yes — each die uses a secure random number generator, so every face is equally likely."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Coin Flip",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Random Number Generator",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "Random Picker",
+          "href": "/tools/random-picker"
+        }
+      ],
+      "labels": {
+        "total": "Total",
+        "diceCount": "Number of dice"
+      },
+      "buttons": {
+        "roll": "Roll Dice",
+        "reset": "Reset"
+      }
+    },
+    "expiration": {
+      "metadata": {
+        "title": "Expiration Date - Calculate Expiry From Production Date",
+        "description": "Free online expiration date calculator. Enter the production date and shelf life in days to get the expiry date and how many days are left. Runs in your browser."
+      },
+      "title": "Expiration Date",
+      "description": "Enter the production date and shelf life in days to instantly get the expiry date and how much time is left until it expires.",
+      "category": "Life Tools",
+      "keywords": [
+        "expiration date",
+        "expiry calculator",
+        "shelf life calculator",
+        "best before",
+        "expiration date calculator",
+        "expiry date"
+      ],
+      "faqs": [
+        {
+          "question": "Is this calculation reliable?",
+          "answer": "It is a simple date math based on the shelf life you enter. Always check the label on the product for the official date."
+        },
+        {
+          "question": "Can I use months instead of days?",
+          "answer": "Enter the shelf life in days — for example 90 days for roughly 3 months."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Date Calculator",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "Day of Year",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Day of Week",
+          "href": "/tools/day-of-week"
+        }
+      ],
+      "labels": {
+        "producedAt": "Production date",
+        "shelfLife": "Shelf life",
+        "days": "days",
+        "expiresAt": "Expiry date",
+        "daysLeft": "Days remaining",
+        "expiredDays": "Expired {count, plural, one {# day} other {# days}} ago"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      }
+    },
+    "hearing-test": {
+      "metadata": {
+        "title": "Hearing Test - Find Your Highest Audible Frequency",
+        "description": "Free online hearing test. Play pure tones from 125 Hz to 16 kHz and find the highest frequency you can hear. Use headphones for best results. Runs in your browser."
+      },
+      "title": "Hearing Test",
+      "description": "Play pure tones across 9 frequencies from 125 Hz to 16 kHz. Mark which ones you hear to find the highest audible frequency for your ears.",
+      "category": "Life Tools",
+      "keywords": [
+        "hearing test",
+        "frequency test",
+        "hearing range",
+        "pure tone test",
+        "audible frequency",
+        "ear test"
+      ],
+      "faqs": [
+        {
+          "question": "How should I take this test?",
+          "answer": "Use headphones in a quiet room, and keep the volume comfortable — never too loud. Play each frequency and honestly mark what you hear."
+        },
+        {
+          "question": "Is this a medical hearing test?",
+          "answer": "No. It is a quick self-check of your audible frequency range. Please see an audiologist for a professional evaluation."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Color Blindness Test",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Frequency Tone Generator",
+          "href": "/tools/hz"
+        }
+      ],
+      "labels": {
+        "range": "Highest audible frequency",
+        "hint": "Use headphones in a quiet room"
+      },
+      "buttons": {
+        "heard": "I heard it",
+        "notHeard": "Can't hear it"
+      }
+    },
+    "height-predict": {
+      "metadata": {
+        "title": "Height Predictor - Estimate Child Height from Parents",
+        "description": "Free online height predictor. Enter the parents' heights and gender of the child to get a rough adult height estimate. Runs in your browser."
+      },
+      "title": "Height Predictor",
+      "description": "Enter the father's and mother's heights and the child's gender to estimate the child's adult height using a common prediction formula.",
+      "category": "Life Tools",
+      "keywords": [
+        "height predictor",
+        "child height",
+        "height calculator",
+        "predict height",
+        "mid-parental height",
+        "growth estimate"
+      ],
+      "faqs": [
+        {
+          "question": "How accurate is this?",
+          "answer": "It uses the mid-parental height formula, which is an estimate. Actual height depends on genetics, nutrition and health."
+        },
+        {
+          "question": "Is this medical advice?",
+          "answer": "No, it is an educational estimate. Consult a pediatrician for growth concerns."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Blood Type Inheritance",
+          "href": "/tools/blood-type"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Ideal Weight",
+          "href": "/tools/ideal-weight-calculator"
+        }
+      ],
+      "labels": {
+        "father": "Father height",
+        "mother": "Mother height",
+        "estimate": "Estimated adult height"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      },
+      "genders": {
+        "boy": "Boy",
+        "girl": "Girl"
+      }
+    },
+    "keycode": {
+      "metadata": {
+        "title": "Keycode Tester - Identify Any Keyboard Key Online",
+        "description": "Free online keycode tester. Press any key to instantly see its event.key, event.code, keyCode and location. Perfect for developers. Runs in your browser."
+      },
+      "title": "Keycode Tester",
+      "description": "Press any key on your keyboard and instantly see its key, code, keyCode and location. A handy reference for web developers.",
+      "category": "Life Tools",
+      "keywords": [
+        "keycode",
+        "key code tester",
+        "event key",
+        "javascript keycode",
+        "keyboard event",
+        "key press test"
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between key and code?",
+          "answer": "key is the character produced (e.g. \"a\" or \"A\"), while code is the physical key location (e.g. \"KeyA\"), independent of layout."
+        },
+        {
+          "question": "Do I need to install anything?",
+          "answer": "No. Everything runs in your browser and no data is sent anywhere."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Typing Speed Test",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "Character Counter",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        }
+      ],
+      "labels": {
+        "key": "Key",
+        "code": "Code",
+        "location": "Location",
+        "pressAny": "Press any key…"
+      },
+      "buttons": {}
+    },
+    "monte-carlo-pi": {
+      "metadata": {
+        "title": "Monte Carlo Pi - Estimate π with Random Points",
+        "description": "Estimate pi by throwing random points into a circle and counting how many land inside the quarter circle. A fun visual demo. Runs in your browser."
+      },
+      "title": "Monte Carlo Pi",
+      "description": "Drop random points into a square and count how many fall inside the quarter circle. The ratio approximates π/4, so the estimate converges to π.",
+      "category": "Life Tools",
+      "keywords": [
+        "monte carlo pi",
+        "estimate pi",
+        "pi simulation",
+        "random points pi",
+        "monte carlo method",
+        "pi approximation"
+      ],
+      "faqs": [
+        {
+          "question": "Why does this work?",
+          "answer": "The quarter circle covers π/4 of the square. With enough random points, the fraction inside the circle approaches π/4, giving an estimate of π."
+        },
+        {
+          "question": "How accurate is it?",
+          "answer": "Accuracy grows with the number of points. With 200,000 points you typically get π correct to about 2-3 decimal places."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Pi Digits",
+          "href": "/tools/pi-digits"
+        },
+        {
+          "name": "Random Number Generator",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "Dice Roller",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "points": "Points",
+        "estimate": "π estimate",
+        "inside": "Inside circle",
+        "accuracy": "Accuracy"
+      },
+      "buttons": {
+        "run": "Run Simulation"
+      }
+    },
+    "online-clock": {
+      "metadata": {
+        "title": "Online Clock - Current Time with Unix Timestamp",
+        "description": "Free online clock showing the current time, live Unix timestamp and ISO time, updated every second. Perfect as a time reference. Runs in your browser."
+      },
+      "title": "Online Clock",
+      "description": "A live clock with the current time in seconds, plus the Unix timestamp and ISO 8601 time for developers and time references.",
+      "category": "Life Tools",
+      "keywords": [
+        "online clock",
+        "current time",
+        "unix timestamp",
+        "iso time",
+        "live clock",
+        "clock online"
+      ],
+      "faqs": [
+        {
+          "question": "Why are Unix timestamps useful?",
+          "answer": "Unix timestamps are the number of seconds since 1970-01-01 UTC, used in APIs, databases and scripts for unambiguous time values."
+        },
+        {
+          "question": "Is the displayed time my local time?",
+          "answer": "Yes — the clock shows your device's local time and updates every second."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "World Clock",
+          "href": "/tools/world-clock"
+        },
+        {
+          "name": "Unix Timestamp Converter",
+          "href": "/tools/timestamp-converter"
+        },
+        {
+          "name": "Alarm Clock",
+          "href": "/tools/alarm"
+        }
+      ],
+      "labels": {
+        "unix": "Unix timestamp",
+        "iso": "ISO time"
+      },
+      "buttons": {}
+    },
+    "pi-digits": {
+      "metadata": {
+        "title": "Pi Digits - Generate and Search Pi Online",
+        "description": "Generate up to 100,000 digits of pi in your browser, search for number sequences inside them, and download the digits as a text file."
+      },
+      "title": "Pi Digits",
+      "description": "Generate anywhere from 10 to 100,000 digits of π right in your browser using a spigot algorithm, then search for any digit sequence inside the result.",
+      "category": "Life Tools",
+      "keywords": [
+        "pi digits",
+        "pi search",
+        "search pi",
+        "pi calculator",
+        "digits of pi",
+        "pi sequence"
+      ],
+      "faqs": [
+        {
+          "question": "How are the digits generated?",
+          "answer": "A BigInt spigot algorithm computes the digits on the fly in your browser — no server or database is involved."
+        },
+        {
+          "question": "How many digits can I generate?",
+          "answer": "From 10 up to 100,000 digits per run. Larger requests take a few seconds."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Monte Carlo Pi",
+          "href": "/tools/monte-carlo-pi"
+        },
+        {
+          "name": "Hash Generator",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Random Number Generator",
+          "href": "/tools/random-number-generator"
+        }
+      ],
+      "labels": {
+        "digits": "Digits",
+        "searchPlaceholder": "Search a number sequence…",
+        "notFound": "Not found",
+        "found": "First occurrence at position"
+      },
+      "buttons": {
+        "generate": "Generate",
+        "search": "Search",
+        "download": "Download .txt"
+      }
+    },
+    "random-picker": {
+      "metadata": {
+        "title": "Random Picker - Pick a Name at Random Online",
+        "description": "Free online random picker. Enter a list of names and draw one or several winners at random. Perfect for raffles and giveaways. Runs in your browser."
+      },
+      "title": "Random Picker",
+      "description": "Paste a list of names, choose how many to draw, and pick the winners at random. Great for class calls, raffles and lucky draws.",
+      "category": "Life Tools",
+      "keywords": [
+        "random picker",
+        "pick a name",
+        "random name selector",
+        "name wheel",
+        "raffle picker",
+        "lucky draw"
+      ],
+      "faqs": [
+        {
+          "question": "Can I draw more than one name?",
+          "answer": "Yes — set the number of names to draw, and duplicates are avoided automatically."
+        },
+        {
+          "question": "Is the drawing fair?",
+          "answer": "Yes. Names are selected with a secure random number generator."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Random Group Generator",
+          "href": "/tools/group-randomizer"
+        },
+        {
+          "name": "Coin Flip",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Dice Roller",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "list": "Name list",
+        "placeholder": "Enter names, one per line (commas, semicolons and tabs also work)",
+        "count": "Number to draw",
+        "result": "Result"
+      },
+      "buttons": {
+        "pick": "Pick Random"
+      }
+    },
+    "reaction-time": {
+      "metadata": {
+        "title": "Reaction Time Test - Measure Your Reflexes Online",
+        "description": "Free online reaction time test. Wait for the screen to turn green, then click as fast as you can. Track your best and average times. Runs in your browser."
+      },
+      "title": "Reaction Time Test",
+      "description": "A classic reaction test: wait for the green screen and click immediately. The last 10 results are recorded with your best and average times.",
+      "category": "Life Tools",
+      "keywords": [
+        "reaction time test",
+        "reflex test",
+        "reaction speed",
+        "human benchmark",
+        "click speed test",
+        "reflex check"
+      ],
+      "faqs": [
+        {
+          "question": "What is a good reaction time?",
+          "answer": "The average human reaction time is around 250ms. Top athletes can go under 200ms."
+        },
+        {
+          "question": "Why wait for green?",
+          "answer": "The random delay prevents you from anticipating the signal, giving a true reaction measurement."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Click Speed Test",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "Schulte Grid",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "Keycode Test",
+          "href": "/tools/keycode"
+        }
+      ],
+      "labels": {
+        "clickNow": "Click now!",
+        "wait": "Wait for green…",
+        "tooSoon": "Too soon! Try again",
+        "result": "ms",
+        "best": "Best",
+        "average": "Average",
+        "attempts": "Attempts"
+      },
+      "buttons": {}
+    },
+    "schulte-grid": {
+      "metadata": {
+        "title": "Schulte Grid - Train Focus and Attention Online",
+        "description": "Free online Schulte grid trainer. Tap the numbers from 1 to N in ascending order to train peripheral vision and focus. Runs in your browser."
+      },
+      "title": "Schulte Grid",
+      "description": "A classic attention-training grid. Numbers from 1 to N are shuffled in the grid — tap them in ascending order as fast as you can.",
+      "category": "Life Tools",
+      "keywords": [
+        "schulte grid",
+        "attention training",
+        "focus training",
+        "peripheral vision",
+        "schulte table",
+        "mind training"
+      ],
+      "faqs": [
+        {
+          "question": "What sizes are available?",
+          "answer": "From 3x3 (1-9) up to 8x8 (1-64). Start small and increase the size as you improve."
+        },
+        {
+          "question": "How do I get faster?",
+          "answer": "Regular practice trains your peripheral vision and visual scanning speed. Track your best time and try to beat it."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Click Speed Test",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "Typing Speed Test",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "size": "Grid size",
+        "time": "Time",
+        "best": "Best",
+        "next": "Next"
+      },
+      "buttons": {
+        "start": "Start"
+      }
+    },
+    "text-reader": {
+      "metadata": {
+        "title": "Text Reader - Comfortable Large-Text Reading",
+        "description": "Free online text reader. Paste any text and read it in a clean, large, comfortable layout with adjustable font size and line height. Runs in your browser."
+      },
+      "title": "Text Reader",
+      "description": "Paste any text and switch to reading mode: a clean layout with adjustable font size and line height for comfortable reading.",
+      "category": "Life Tools",
+      "keywords": [
+        "text reader",
+        "large text reading",
+        "reading mode",
+        "comfortable reading",
+        "text viewer",
+        "read mode"
+      ],
+      "faqs": [
+        {
+          "question": "Can I adjust the text size?",
+          "answer": "Yes — font size from 12px to 40px and line height from 1.2 to 2.6 are both adjustable with sliders."
+        },
+        {
+          "question": "Is my text stored anywhere?",
+          "answer": "No. Everything stays in your browser tab; nothing is uploaded or saved."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Text to Speech",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "Word Counter",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "Reverse Text",
+          "href": "/tools/reverse-text"
+        }
+      ],
+      "labels": {
+        "placeholder": "Paste or type your text here…",
+        "fontSize": "Font size",
+        "lineHeight": "Line height",
+        "empty": "Paste some text to start reading"
+      },
+      "buttons": {
+        "read": "Start Reading",
+        "hide": "Back to Editor"
+      }
+    },
+    "text-to-image": {
+      "metadata": {
+        "title": "Text to Image - Render Text as PNG Online",
+        "description": "Free online text to image converter. Turn multi-line text into a PNG with custom font size, colors, background and padding. Runs in your browser."
+      },
+      "title": "Text to Image",
+      "description": "Type or paste multi-line text and render it into a PNG image. Adjust font size, text color, background color and padding, then download the result.",
+      "category": "Life Tools",
+      "keywords": [
+        "text to image",
+        "text to png",
+        "text image generator",
+        "make text image",
+        "text poster",
+        "quote image generator"
+      ],
+      "faqs": [
+        {
+          "question": "What can I use this for?",
+          "answer": "Making quote images, sharing snippets, or creating simple text-based graphics for social media."
+        },
+        {
+          "question": "Can I customize the look?",
+          "answer": "Yes — font size, max width, padding, text color and background color are all adjustable before rendering."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Meme Generator",
+          "href": "/tools/meme-generator"
+        },
+        {
+          "name": "Text Logo",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "Image to Base64",
+          "href": "/tools/image-to-base64"
+        }
+      ],
+      "labels": {
+        "placeholder": "Enter your text here…",
+        "fontSize": "Font size",
+        "maxWidth": "Max width",
+        "padding": "Padding",
+        "color": "Text color",
+        "bgColor": "Background"
+      },
+      "buttons": {
+        "render": "Render Image",
+        "download": "Download PNG"
+      }
+    },
+    "vcf-generator": {
+      "metadata": {
+        "title": "VCF Generator - Create Contacts File Online",
+        "description": "Free online VCF generator. Paste a name and phone number list to create a .vcf contacts file you can import to your phone. Runs in your browser."
+      },
+      "title": "VCF Generator",
+      "description": "Paste a list of names and phone numbers, one per line, and download a .vcf file that imports directly into your phone's contacts app.",
+      "category": "Life Tools",
+      "keywords": [
+        "vcf generator",
+        "vcard generator",
+        "contacts file",
+        "import contacts",
+        "vcf file",
+        "phone contacts"
+      ],
+      "faqs": [
+        {
+          "question": "How do I import the file?",
+          "answer": "Download the .vcf, then open it from your phone's file manager — your contacts app will offer to import it."
+        },
+        {
+          "question": "What formats are accepted?",
+          "answer": "Each line should be: name then phone number, separated by a tab, comma, or semicolon."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "Card Number Check",
+          "href": "/tools/bank-card-validate"
+        },
+        {
+          "name": "Text to Image",
+          "href": "/tools/text-to-image"
+        }
+      ],
+      "labels": {
+        "placeholder": "Name, phone number — one per line\nJohn, 13800138000",
+        "noContact": "No valid contacts found. Check the format.",
+        "parsed": "{count, plural, one {# contact} other {# contacts}} ready"
+      },
+      "buttons": {
+        "download": "Download VCF"
+      }
+    },
+    "web-shortcut": {
+      "metadata": {
+        "title": "Web Shortcut Maker - Generate .url Files Online",
+        "description": "Free online .url shortcut generator. Turn any URL into a Windows internet shortcut file with an optional icon. Runs in your browser."
+      },
+      "title": "Web Shortcut Maker",
+      "description": "Enter a website URL (and optionally a name and icon) to generate a .url internet shortcut file for Windows.",
+      "category": "Life Tools",
+      "keywords": [
+        "web shortcut",
+        "url shortcut",
+        "create shortcut",
+        "internet shortcut",
+        ".url file",
+        "desktop shortcut"
+      ],
+      "faqs": [
+        {
+          "question": "Where can I use the .url file?",
+          "answer": "Windows recognizes .url files as internet shortcuts — put them on your desktop or in a folder and double-click to open the site."
+        },
+        {
+          "question": "Can I add a custom icon?",
+          "answer": "Yes — enter a local .ico/.png path, or a web URL to an icon file, and it will be attached to the shortcut."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "URL Opener",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "URL Shortener",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "name": "Shortcut name",
+        "namePlaceholder": "My Website (optional)",
+        "url": "Website URL",
+        "icon": "Icon (optional)",
+        "iconPlaceholder": "Path or URL to an .ico/.png icon"
+      },
+      "buttons": {
+        "download": "Download .url"
+      }
+    },
+    "world-clock": {
+      "metadata": {
+        "title": "World Clock - Current Time in 16 Cities Online",
+        "description": "Free online world clock showing the current time in 16 major cities across all continents. Updates every second. Runs in your browser."
+      },
+      "title": "World Clock",
+      "description": "See the current local time in 16 major cities across the globe at a glance, updated every second.",
+      "category": "Life Tools",
+      "keywords": [
+        "world clock",
+        "time zones",
+        "world time",
+        "city time",
+        "international time",
+        "current time"
+      ],
+      "faqs": [
+        {
+          "question": "Which cities are included?",
+          "answer": "16 major cities across all continents: London, New York, Los Angeles, Toronto, Sao Paulo, Berlin, Paris, Moscow, Dubai, Mumbai, Singapore, Beijing, Tokyo, Seoul, Sydney and Auckland."
+        },
+        {
+          "question": "Is the time accurate?",
+          "answer": "Yes — times are computed from your device's clock using official IANA time zone data, and refresh every second."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Online Clock",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "Alarm Clock",
+          "href": "/tools/alarm"
+        },
+        {
+          "name": "Unix Timestamp Converter",
+          "href": "/tools/timestamp-converter"
+        }
+      ],
+      "labels": {},
+      "buttons": {}
+    },
+    "zip-viewer": {
+      "metadata": {
+        "title": "ZIP Viewer - List Archive Contents Online",
+        "description": "Free online ZIP viewer. Upload a ZIP file and see every file inside it with its size — no extraction needed. Runs entirely in your browser."
+      },
+      "title": "ZIP Viewer",
+      "description": "Upload a ZIP archive to instantly list every file inside, with sizes, without extracting or uploading anything to a server.",
+      "category": "Life Tools",
+      "keywords": [
+        "zip viewer",
+        "list zip contents",
+        "view zip file",
+        "zip file reader",
+        "archive viewer",
+        "zip contents"
+      ],
+      "faqs": [
+        {
+          "question": "Is my ZIP uploaded to a server?",
+          "answer": "No. The archive is parsed entirely in your browser with JSZip, so the file never leaves your device."
+        },
+        {
+          "question": "Can I extract files?",
+          "answer": "This tool only lists contents. For extraction, use a local archive manager."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "File Converter",
+          "href": "/tools/document-converter"
+        },
+        {
+          "name": "File Size Checker",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "labels": {
+        "invalid": "This doesn't look like a valid ZIP file.",
+        "loading": "Reading archive…",
+        "count": "{count, plural, one {# file} other {# files}}"
+      },
+      "buttons": {
+        "choose": "Choose ZIP File"
+      }
+    },
+    "group-randomizer": {
+      "metadata": {
+        "title": "Random Group Generator - Split Names into Teams Online",
+        "description": "Free online random group generator. Shuffle names and split them into balanced groups by number of groups or people per group. Everything runs in your browser."
+      },
+      "title": "Random Group Generator",
+      "description": "Paste a list of names, choose whether to group by the number of groups or by people per group, and split everyone into random teams instantly.",
+      "category": "Life Tools",
+      "keywords": [
+        "random group generator",
+        "random team splitter",
+        "group names randomly",
+        "team randomizer",
+        "split list into groups",
+        "random grouping"
+      ],
+      "faqs": [
+        {
+          "question": "Can I paste names copied from Excel?",
+          "answer": "Yes. Paste names separated by newlines, commas, or tabs — all of these are recognized as separators."
+        },
+        {
+          "question": "Is the grouping fair?",
+          "answer": "Names are shuffled before assignment, so every run produces a fresh random grouping."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Random Picker",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "Coin Flip",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Dice Roller",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "list": "Name list",
+        "placeholder": "Enter names, one per line (commas, semicolons and tabs also work)",
+        "groupName": "Group"
+      },
+      "modes": {
+        "byGroups": "By number of groups",
+        "bySize": "By people per group"
+      },
+      "buttons": {
+        "group": "Random Group"
       }
     }
   },

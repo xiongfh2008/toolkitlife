@@ -1,0 +1,293 @@
+{
+  "slug": "expiration",
+  "icon": "🏷️",
+  "home": {
+    "en": {
+      "name": "Expiration Date",
+      "description": "Calculate expiry date from production date and shelf life.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "保质期计算",
+      "description": "根据生产日期与保质期计算过期日期。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "賞味期限計算",
+      "description": "製造日と賞味期間から期限を計算します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "유통기한 계산",
+      "description": "제조일과 유통기한으로 만료일을 계산합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Срок годности",
+      "description": "Рассчитайте срок годности по дате производства.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Expiration Date - Calculate Expiry From Production Date",
+        "description": "Free online expiration date calculator. Enter the production date and shelf life in days to get the expiry date and how many days are left. Runs in your browser."
+      },
+      "title": "Expiration Date",
+      "description": "Enter the production date and shelf life in days to instantly get the expiry date and how much time is left until it expires.",
+      "category": "Life Tools",
+      "keywords": [
+        "expiration date",
+        "expiry calculator",
+        "shelf life calculator",
+        "best before",
+        "expiration date calculator",
+        "expiry date"
+      ],
+      "faqs": [
+        {
+          "question": "Is this calculation reliable?",
+          "answer": "It is a simple date math based on the shelf life you enter. Always check the label on the product for the official date."
+        },
+        {
+          "question": "Can I use months instead of days?",
+          "answer": "Enter the shelf life in days — for example 90 days for roughly 3 months."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Date Calculator",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "Day of Year",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Day of Week",
+          "href": "/tools/day-of-week"
+        }
+      ],
+      "labels": {
+        "producedAt": "Production date",
+        "shelfLife": "Shelf life",
+        "days": "days",
+        "expiresAt": "Expiry date",
+        "daysLeft": "Days remaining",
+        "expiredDays": "Expired {count, plural, one {# day} other {# days}} ago"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "保质期计算 - 根据生产日期计算过期日",
+        "description": "免费在线保质期计算工具，输入生产日期与保质期天数即可得到过期日期与剩余天数。全程在浏览器本地完成。"
+      },
+      "title": "保质期计算",
+      "description": "输入生产日期与保质期天数，立即得到过期日期以及距离过期还剩多少天。",
+      "category": "生活工具",
+      "keywords": [
+        "保质期计算",
+        "过期日期",
+        "保质期",
+        "有效期计算",
+        "过期时间",
+        "生产日期"
+      ],
+      "faqs": [
+        {
+          "question": "计算结果可靠吗？",
+          "answer": "它只是基于你输入的保质期做日期计算。实际请以产品包装上的官方日期为准。"
+        },
+        {
+          "question": "可以用月数吗？",
+          "answer": "请按天数输入，例如 90 天约等于 3 个月。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "日期计算",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "第几天",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "星期查询",
+          "href": "/tools/day-of-week"
+        }
+      ],
+      "labels": {
+        "producedAt": "生产日期",
+        "shelfLife": "保质期",
+        "days": "天",
+        "expiresAt": "过期日期",
+        "daysLeft": "剩余天数",
+        "expiredDays": "已过期 {count, plural, =1 {1 天} other {# 天}}"
+      },
+      "buttons": {
+        "calculate": "计算"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "賞味期限計算 - 製造日から期限を計算",
+        "description": "製造日と賞味期間（日数）から期限日と残り日数を計算する無料ツール。ブラウザ内で完結。"
+      },
+      "title": "賞味期限計算",
+      "description": "製造日と賞味期間を日数で入力すると、期限日と期限までの残り日数を即座に計算します。",
+      "category": "生活ツール",
+      "keywords": [
+        "賞味期限",
+        "消費期限計算",
+        "賞味期限計算",
+        "期限日",
+        "残り日数",
+        "有効期限"
+      ],
+      "faqs": [
+        {
+          "question": "計算は信頼できますか？",
+          "answer": "入力した賞味期間に基づく単純な日付計算です。公式の期限は商品ラベルで確認してください。"
+        },
+        {
+          "question": "月数で入力できますか？",
+          "answer": "日数で入力してください。例：約3ヶ月なら90日。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "日付計算",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "年間通算日",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "曜日計算",
+          "href": "/tools/day-of-week"
+        }
+      ],
+      "labels": {
+        "producedAt": "製造日",
+        "shelfLife": "賞味期間",
+        "days": "日",
+        "expiresAt": "期限日",
+        "daysLeft": "残り日数",
+        "expiredDays": "期限切れから {count, plural, =1 {1 日} other {# 日}}"
+      },
+      "buttons": {
+        "calculate": "計算"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "유통기한 계산 - 제조일로 만료일 계산",
+        "description": "제조일과 유통기한(일수)으로 만료일과 남은 일수를 계산하는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "유통기한 계산",
+      "description": "제조일과 유통기한을 일수로 입력하면 만료일과 만료까지 남은 일수를 즉시 계산합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "유통기한 계산",
+        "만료일",
+        "소비기한",
+        "유효기간 계산",
+        "제조일",
+        "유통기한"
+      ],
+      "faqs": [
+        {
+          "question": "계산이 정확한가요?",
+          "answer": "입력한 유통기한에 기반한 단순 날짜 계산입니다. 공식 날짜는 제품 라벨을 확인하세요."
+        },
+        {
+          "question": "개월로 입력할 수 있나요?",
+          "answer": "일수로 입력하세요. 예: 약 3개월은 90일입니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "날짜 계산",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "올해 며칠째",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "요일 계산",
+          "href": "/tools/day-of-week"
+        }
+      ],
+      "labels": {
+        "producedAt": "제조일",
+        "shelfLife": "유통기한",
+        "days": "일",
+        "expiresAt": "만료일",
+        "daysLeft": "남은 일수",
+        "expiredDays": "만료 후 {count, plural, =1 {1일} other {#일}} 지남"
+      },
+      "buttons": {
+        "calculate": "계산"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Срок годности - рассчитать по дате производства",
+        "description": "Бесплатный онлайн-калькулятор срока годности. Введите дату производства и срок в днях — получите дату истечения и оставшиеся дни. Всё в браузере."
+      },
+      "title": "Срок годности",
+      "description": "Введите дату производства и срок годности в днях, чтобы мгновенно получить дату истечения и оставшееся время.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "срок годности",
+        "калькулятор срока",
+        "годен до",
+        "срок хранения",
+        "дата истечения",
+        "просрочка"
+      ],
+      "faqs": [
+        {
+          "question": "Расчёт надёжен?",
+          "answer": "Это простое вычисление даты на основе введённого срока. Официальную дату всегда проверяйте на этикетке."
+        },
+        {
+          "question": "Можно указать месяцы?",
+          "answer": "Вводите срок в днях — например, 90 дней примерно равно 3 месяцам."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Калькулятор дат",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "День года",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "День недели",
+          "href": "/tools/day-of-week"
+        }
+      ],
+      "labels": {
+        "producedAt": "Дата производства",
+        "shelfLife": "Срок годности",
+        "days": "дней",
+        "expiresAt": "Годен до",
+        "daysLeft": "Осталось дней",
+        "expiredDays": "Просрочено на {count, plural, one {# день} few {# дня} other {# дней}}"
+      },
+      "buttons": {
+        "calculate": "Рассчитать"
+      }
+    }
+  }
+}

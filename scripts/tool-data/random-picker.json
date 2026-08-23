@@ -1,0 +1,283 @@
+{
+  "slug": "random-picker",
+  "icon": "🎯",
+  "home": {
+    "en": {
+      "name": "Random Picker",
+      "description": "Draw one or more names at random from a list.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "随机抽签",
+      "description": "从名单中随机抽取一个或多个名字。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "ランダム抽選",
+      "description": "リストから名前をランダムに1つ以上抽選します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "랜덤 뽑기",
+      "description": "목록에서 이름을 무작위로 하나 이상 뽑습니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Случайный выбор",
+      "description": "Случайно вытяните одно или несколько имён из списка.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Random Picker - Pick a Name at Random Online",
+        "description": "Free online random picker. Enter a list of names and draw one or several winners at random. Perfect for raffles and giveaways. Runs in your browser."
+      },
+      "title": "Random Picker",
+      "description": "Paste a list of names, choose how many to draw, and pick the winners at random. Great for class calls, raffles and lucky draws.",
+      "category": "Life Tools",
+      "keywords": [
+        "random picker",
+        "pick a name",
+        "random name selector",
+        "name wheel",
+        "raffle picker",
+        "lucky draw"
+      ],
+      "faqs": [
+        {
+          "question": "Can I draw more than one name?",
+          "answer": "Yes — set the number of names to draw, and duplicates are avoided automatically."
+        },
+        {
+          "question": "Is the drawing fair?",
+          "answer": "Yes. Names are selected with a secure random number generator."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Random Group Generator",
+          "href": "/tools/group-randomizer"
+        },
+        {
+          "name": "Coin Flip",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Dice Roller",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "list": "Name list",
+        "placeholder": "Enter names, one per line (commas, semicolons and tabs also work)",
+        "count": "Number to draw",
+        "result": "Result"
+      },
+      "buttons": {
+        "pick": "Pick Random"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "随机抽签 - 在线随机抽取名字",
+        "description": "免费在线随机抽签工具，输入名单后可随机抽取一个或多个名字，适合课堂点名、抽奖等场景。全程在浏览器本地完成。"
+      },
+      "title": "随机抽签",
+      "description": "粘贴名单并选择抽取数量，即可随机抽取中奖者。适合课堂点名、抽奖和幸运抽选。",
+      "category": "生活工具",
+      "keywords": [
+        "随机抽签",
+        "随机点名",
+        "抽签工具",
+        "名字抽取",
+        "抽奖",
+        "点名器"
+      ],
+      "faqs": [
+        {
+          "question": "可以一次抽取多个名字吗？",
+          "answer": "可以。设置抽取数量即可，且会自动避免重复。"
+        },
+        {
+          "question": "抽取公平吗？",
+          "answer": "公平。名字由安全随机数生成器选取。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "名单随机分组",
+          "href": "/tools/group-randomizer"
+        },
+        {
+          "name": "抛硬币",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "掷骰子",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "list": "名单",
+        "placeholder": "输入名单，每行一个（也支持逗号、分号、Tab）",
+        "count": "抽取数量",
+        "result": "抽取结果"
+      },
+      "buttons": {
+        "pick": "随机抽取"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "ランダム抽選 - オンラインで名前を抽選",
+        "description": "名前リストからランダムに1つ以上を抽選する無料ツール。授業の指名や抽選会に最適。ブラウザ内で完結します。"
+      },
+      "title": "ランダム抽選",
+      "description": "名前リストを貼り付け、抽選数を選ぶだけで当選者をランダムに決定できます。",
+      "category": "生活ツール",
+      "keywords": [
+        "ランダム抽選",
+        "抽選ツール",
+        "名前を抽選",
+        "くじ引き",
+        "当選者",
+        "指名"
+      ],
+      "faqs": [
+        {
+          "question": "複数名を一度に抽選できますか？",
+          "answer": "はい。抽選数を指定すれば、重複なしで抽選できます。"
+        },
+        {
+          "question": "抽選は公平ですか？",
+          "answer": "はい。安全な乱数生成器で名前を選びます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "ランダムグループ分け",
+          "href": "/tools/group-randomizer"
+        },
+        {
+          "name": "コイントス",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "サイコロ",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "list": "名前リスト",
+        "placeholder": "名前を1行に1つ入力（カンマ、セミコロン、タブも可）",
+        "count": "抽選数",
+        "result": "抽選結果"
+      },
+      "buttons": {
+        "pick": "ランダム抽選"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "랜덤 뽑기 - 온라인 이름 추첨",
+        "description": "이름 목록에서 무작위로 하나 이상 뽑는 무료 도구입니다. 수업 지명, 추첨, 경품 이벤트에 적합하며 브라우저에서 완료됩니다."
+      },
+      "title": "랜덤 뽑기",
+      "description": "이름 목록을 붙여넣고 뽑을 개수를 선택하면 무작위로 당첨자를 결정합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "랜덤 뽑기",
+        "이름 추첨",
+        "제비뽑기",
+        "당첨자 뽑기",
+        "추첨기",
+        "이름 선택기"
+      ],
+      "faqs": [
+        {
+          "question": "한 번에 여러 명을 뽑을 수 있나요?",
+          "answer": "네. 뽑을 개수를 지정하면 중복 없이 추첨됩니다."
+        },
+        {
+          "question": "추첨은 공정한가요?",
+          "answer": "네. 안전한 난수 생성기로 이름을 선택합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "랜덤 그룹 나누기",
+          "href": "/tools/group-randomizer"
+        },
+        {
+          "name": "동전 던지기",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "주사위",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "list": "이름 목록",
+        "placeholder": "이름을 한 줄에 하나씩 입력 (쉼표, 세미콜론, 탭도 가능)",
+        "count": "뽑을 개수",
+        "result": "추첨 결과"
+      },
+      "buttons": {
+        "pick": "랜덤 추첨"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Случайный выбор - выбрать имя онлайн",
+        "description": "Бесплатный онлайн-выбор имени. Введите список и случайно вытяните одного или несколько победителей. Идеально для лотерей и розыгрышей. Всё в браузере."
+      },
+      "title": "Случайный выбор",
+      "description": "Вставьте список имён, укажите количество победителей и вытяните их случайным образом. Подходит для лотерей и розыгрышей.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "случайный выбор",
+        "выбрать имя",
+        "генератор имён",
+        "лотерея онлайн",
+        "розыгрыш",
+        "случайное имя"
+      ],
+      "faqs": [
+        {
+          "question": "Можно ли вытянуть несколько имён?",
+          "answer": "Да — укажите количество, и дубликаты исключаются автоматически."
+        },
+        {
+          "question": "Выбор честный?",
+          "answer": "Да. Имена выбираются защищённым генератором случайных чисел."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Случайные группы",
+          "href": "/tools/group-randomizer"
+        },
+        {
+          "name": "Монетка",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Кубики",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "list": "Список имён",
+        "placeholder": "Введите имена, по одному на строку (также работают запятая, точка с запятой, табуляция)",
+        "count": "Сколько вытянуть",
+        "result": "Результат"
+      },
+      "buttons": {
+        "pick": "Выбрать"
+      }
+    }
+  }
+}

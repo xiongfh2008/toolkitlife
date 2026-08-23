@@ -1,0 +1,313 @@
+{
+  "slug": "wifi-qrcode",
+  "icon": "📶",
+  "home": {
+    "en": {
+      "name": "WiFi QR Code",
+      "description": "Generate a QR code that shares your WiFi password. Scan to connect instantly.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "WiFi 二维码",
+      "description": "生成分享 WiFi 密码的二维码，扫码即可连接网络。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "WiFi QRコード",
+      "description": "WiFi パスワードを共有する QRコードを生成。スキャンして即接続。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "WiFi QR 코드",
+      "description": "WiFi 비밀번호를 공유하는 QR 코드를 생성하세요. 스캔만 하면 즉시 연결됩니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "WiFi QR-код",
+      "description": "Создайте QR-код с паролем от WiFi. Отсканируйте и подключитесь мгновенно.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "WiFi QR Code Generator - Free Online Tool",
+        "description": "Free online WiFi QR code generator. Enter your network name and password to create a QR code that lets anyone join instantly. No signup, runs in your browser."
+      },
+      "title": "WiFi QR Code Generator",
+      "description": "Turn your WiFi network into a QR code. Enter the network name, password and security type — friends scan the code and connect instantly.",
+      "category": "Image Tools",
+      "keywords": [
+        "wifi qr code",
+        "wifi qr generator",
+        "qr code wifi password",
+        "share wifi qr",
+        "wifi password qr code",
+        "qr wifi login"
+      ],
+      "faqs": [
+        {
+          "question": "How does sharing WiFi with a QR code work?",
+          "answer": "The QR encodes a WIFI: string with your network name, password and security type. Phones with a QR scanner or camera can read it and join without typing."
+        },
+        {
+          "question": "Is my WiFi password exposed?",
+          "answer": "The password is encoded directly into the QR code, so only share it with people you trust — anyone who scans it can connect."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "Batch QR Codes",
+          "href": "/tools/qrcode-batch"
+        },
+        {
+          "name": "QR Code Reader",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "ssid": "Network name (SSID)",
+        "password": "Password",
+        "encryption": "Security type",
+        "hidden": "Hidden network",
+        "placeholder": "Fill in the network name to generate"
+      },
+      "encryptions": {
+        "WPA": "WPA / WPA2",
+        "WEP": "WEP",
+        "nopass": "No password"
+      },
+      "buttons": {
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "WiFi 二维码生成器 - 免费在线工具",
+        "description": "免费的在线 WiFi 二维码生成器。输入网络名称和密码即可生成二维码，扫码一键连接，无需注册，在浏览器中运行。"
+      },
+      "title": "WiFi 二维码生成器",
+      "description": "将你的 WiFi 网络生成二维码。输入网络名称、密码和加密方式，朋友扫码即可连接。",
+      "category": "图片工具",
+      "keywords": [
+        "wifi二维码",
+        "wifi二维码生成",
+        "二维码分享wifi",
+        "wifi密码二维码",
+        "扫码连wifi",
+        "wifi二维码生成器"
+      ],
+      "faqs": [
+        {
+          "question": "WiFi 二维码分享如何工作？",
+          "answer": "二维码内编码了 WIFI: 字符串，包含网络名称、密码和加密方式。手机扫码即可无需输入直接连接。"
+        },
+        {
+          "question": "我的 WiFi 密码会泄露吗？",
+          "answer": "密码直接编码在二维码中，请只分享给你信任的人——任何扫码者都能连接。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "二维码生成器",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "批量二维码",
+          "href": "/tools/qrcode-batch"
+        },
+        {
+          "name": "二维码识别",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "ssid": "网络名称 (SSID)",
+        "password": "密码",
+        "encryption": "加密方式",
+        "hidden": "隐藏网络",
+        "placeholder": "输入网络名称后生成"
+      },
+      "encryptions": {
+        "WPA": "WPA / WPA2",
+        "WEP": "WEP",
+        "nopass": "无密码"
+      },
+      "buttons": {
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "WiFi QRコード生成 - 無料オンラインツール",
+        "description": "ネットワーク名とパスワードを入力して QRコードを生成。スキャンするだけで接続できる無料ツール。登録不要、ブラウザ内で処理。"
+      },
+      "title": "WiFi QRコード生成",
+      "description": "WiFi ネットワークを QRコードに変換。ネットワーク名・パスワード・セキュリティ方式を入力すると、スキャンして即接続できます。",
+      "category": "画像ツール",
+      "keywords": [
+        "wifi qrコード",
+        "wifi qr生成",
+        "wifiパスワード qr",
+        "qrでwifi共有",
+        "wi-fi qrコード",
+        "wifi qr作成"
+      ],
+      "faqs": [
+        {
+          "question": "QRコードでの WiFi 共有はどう機能しますか？",
+          "answer": "QRコードにはネットワーク名・パスワード・セキュリティ方式を含む WIFI: 文字列がエンコードされ、スマホのカメラで読み取るだけで接続できます。"
+        },
+        {
+          "question": "WiFi パスワードは公開されますか？",
+          "answer": "パスワードは QRコードに直接エンコードされるため、信頼できる相手にのみ共有してください。スキャンした人は誰でも接続できます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QRコード生成",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "一括QRコード",
+          "href": "/tools/qrcode-batch"
+        },
+        {
+          "name": "QRコード読み取り",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "ssid": "ネットワーク名 (SSID)",
+        "password": "パスワード",
+        "encryption": "セキュリティ方式",
+        "hidden": "隠しネットワーク",
+        "placeholder": "ネットワーク名を入力して生成"
+      },
+      "encryptions": {
+        "WPA": "WPA / WPA2",
+        "WEP": "WEP",
+        "nopass": "パスワードなし"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "WiFi QR 코드 생성기 - 무료 온라인 도구",
+        "description": "네트워크 이름과 비밀번호를 입력해 QR 코드를 생성하는 무료 온라인 도구입니다. 스캔만 하면 즉시 연결됩니다. 브라우저에서 모두 처리됩니다."
+      },
+      "title": "WiFi QR 코드 생성기",
+      "description": "WiFi 네트워크를 QR 코드로 변환하세요. 네트워크 이름·비밀번호·보안 방식을 입력하면 친구가 스캔만으로 바로 연결됩니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "wifi qr 코드",
+        "wifi qr 생성",
+        "wifi 비밀번호 qr",
+        "qr로 wifi 공유",
+        "스캔 와이파이",
+        "wifi qr 만들기"
+      ],
+      "faqs": [
+        {
+          "question": "QR 코드로 WiFi를 공유하는 방법은?",
+          "answer": "QR 코드에는 네트워크 이름·비밀번호·보안 방식을 담은 WIFI: 문자열이 인코딩되어, 스마트폰 카메라로 스캔하면 입력 없이 연결됩니다."
+        },
+        {
+          "question": "WiFi 비밀번호가 노출되나요?",
+          "answer": "비밀번호가 QR 코드에 직접 인코딩되므로 신뢰하는 사람에게만 공유하세요. 스캔한 사람은 누구나 연결할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR 코드 생성기",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "일괄 QR 코드",
+          "href": "/tools/qrcode-batch"
+        },
+        {
+          "name": "QR 코드 인식",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "ssid": "네트워크 이름 (SSID)",
+        "password": "비밀번호",
+        "encryption": "보안 방식",
+        "hidden": "숨김 네트워크",
+        "placeholder": "네트워크 이름을 입력해 생성"
+      },
+      "encryptions": {
+        "WPA": "WPA / WPA2",
+        "WEP": "WEP",
+        "nopass": "비밀번호 없음"
+      },
+      "buttons": {
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Генератор WiFi QR-кода - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-генератор WiFi QR-кодов. Укажите имя сети и пароль — создайте QR-код, по которому можно подключиться мгновенно. Всё в браузере."
+      },
+      "title": "Генератор WiFi QR-кода",
+      "description": "Превратите свою WiFi-сеть в QR-код. Введите имя сети, пароль и тип защиты — друзья сканируют код и подключаются мгновенно.",
+      "category": "Изображения",
+      "keywords": [
+        "wifi qr код",
+        "генератор wifi qr",
+        "qr код пароль wifi",
+        "поделиться wifi qr",
+        "qr wifi вход",
+        "wifi qr создать"
+      ],
+      "faqs": [
+        {
+          "question": "Как работает передача WiFi через QR-код?",
+          "answer": "В QR-код зашита строка WIFI: с именем сети, паролем и типом защиты. Камера смартфона считывает её и подключается без ввода."
+        },
+        {
+          "question": "Безопасен ли мой пароль от WiFi?",
+          "answer": "Пароль зашит прямо в QR-код, поэтому делитесь им только с теми, кому доверяете — любой, кто отсканирует код, сможет подключиться."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор QR-кодов",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "Пакетные QR-коды",
+          "href": "/tools/qrcode-batch"
+        },
+        {
+          "name": "Сканер QR-кодов",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "ssid": "Имя сети (SSID)",
+        "password": "Пароль",
+        "encryption": "Тип защиты",
+        "hidden": "Скрытая сеть",
+        "placeholder": "Введите имя сети для генерации"
+      },
+      "encryptions": {
+        "WPA": "WPA / WPA2",
+        "WEP": "WEP",
+        "nopass": "Без пароля"
+      },
+      "buttons": {
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

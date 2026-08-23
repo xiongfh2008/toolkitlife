@@ -1,0 +1,298 @@
+{
+  "slug": "date-calculator",
+  "icon": "🧮",
+  "home": {
+    "en": {
+      "name": "Date Calculator",
+      "description": "Calculate the difference between dates or add days.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "日期计算器",
+      "description": "计算日期差或推算加天后的日期。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "日付計算",
+      "description": "日付の差や加算日数を計算します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "날짜 계산",
+      "description": "날짜 차이 또는 날짜 더하기를 계산합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Калькулятор дат",
+      "description": "Считайте разницу между датами или прибавляйте дни.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Date Calculator - Date Difference and Add Days",
+        "description": "Free online date calculator. Compute the number of days, weeks and months between two dates, or add/subtract days to a date. Runs in your browser."
+      },
+      "title": "Date Calculator",
+      "description": "Two handy modes: calculate the difference between two dates in days, weeks and months, or add (or subtract) a number of days to a given date.",
+      "category": "Life Tools",
+      "keywords": [
+        "date calculator",
+        "days between dates",
+        "date difference",
+        "add days to date",
+        "date add subtract",
+        "days calculator"
+      ],
+      "faqs": [
+        {
+          "question": "How are months calculated?",
+          "answer": "Months use the average month length (~30.44 days), which is accurate for planning purposes."
+        },
+        {
+          "question": "Can I subtract days?",
+          "answer": "Yes — enter a negative number of days to go backwards from the start date."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Day of Week",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "Day of Year",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Expiration Date",
+          "href": "/tools/expiration"
+        }
+      ],
+      "labels": {
+        "days": "days",
+        "weeks": "weeks",
+        "months": "months"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      },
+      "modes": {
+        "diff": "Difference",
+        "add": "Add Days"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "日期计算器 - 日期差与日期推算",
+        "description": "免费在线日期计算器：计算两个日期相差的天数、周数与月数，或给指定日期加/减天数。全程在浏览器本地完成。"
+      },
+      "title": "日期计算器",
+      "description": "两种实用模式：计算两个日期之间相差的天数、周数和月数；或为指定日期加上（减去）若干天。",
+      "category": "生活工具",
+      "keywords": [
+        "日期计算器",
+        "日期差",
+        "天数计算",
+        "日期推算",
+        "加天数",
+        "计算日期"
+      ],
+      "faqs": [
+        {
+          "question": "月数是怎么计算的？",
+          "answer": "月数按平均月长（约 30.44 天）计算，用于规划场景足够准确。"
+        },
+        {
+          "question": "可以减去天数吗？",
+          "answer": "可以。输入负数天数即可从起始日期向前推算。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "星期查询",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "第几天",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "保质期计算",
+          "href": "/tools/expiration"
+        }
+      ],
+      "labels": {
+        "days": "天",
+        "weeks": "周",
+        "months": "个月"
+      },
+      "buttons": {
+        "calculate": "计算"
+      },
+      "modes": {
+        "diff": "日期差",
+        "add": "加天数"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "日付計算 - 日付の差と日数加算",
+        "description": "2つの日付の差（日・週・月）や、日付への加算・減算ができる無料ツール。ブラウザ内で完結。"
+      },
+      "title": "日付計算",
+      "description": "2つのモード：日付間の差を日・週・月で計算するか、指定日付に日数を加算（減算）します。",
+      "category": "生活ツール",
+      "keywords": [
+        "日付計算",
+        "日数計算",
+        "日付の差",
+        "日数加算",
+        "日付加算",
+        "カレンダー計算"
+      ],
+      "faqs": [
+        {
+          "question": "月数はどう計算されますか？",
+          "answer": "平均の月長（約30.44日）で計算するため、計画用途には十分正確です。"
+        },
+        {
+          "question": "日数を減算できますか？",
+          "answer": "はい。負の日数を入力すると開始日から遡って計算します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "曜日計算",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "年間通算日",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "賞味期限計算",
+          "href": "/tools/expiration"
+        }
+      ],
+      "labels": {
+        "days": "日",
+        "weeks": "週",
+        "months": "ヶ月"
+      },
+      "buttons": {
+        "calculate": "計算"
+      },
+      "modes": {
+        "diff": "差を計算",
+        "add": "日数を加算"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "날짜 계산 - 날짜 차이와 더하기",
+        "description": "두 날짜 사이의 차이(일·주·월) 또는 날짜 더하기/빼기를 계산하는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "날짜 계산",
+      "description": "두 가지 모드: 두 날짜 사이의 차이를 일·주·월로 계산하거나, 지정된 날짜에 일 수를 더하거나 뺍니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "날짜 계산",
+        "날짜 차이",
+        "일수 계산",
+        "날짜 더하기",
+        "날짜 계산기",
+        "디데이 계산"
+      ],
+      "faqs": [
+        {
+          "question": "월은 어떻게 계산되나요?",
+          "answer": "평균 월 길이(약 30.44일)로 계산해 계획 용도로 충분히 정확합니다."
+        },
+        {
+          "question": "일 수를 뺄 수 있나요?",
+          "answer": "네. 음수 일 수를 입력하면 시작 날짜에서 거슬러 계산합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "요일 계산",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "올해 며칠째",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "유통기한 계산",
+          "href": "/tools/expiration"
+        }
+      ],
+      "labels": {
+        "days": "일",
+        "weeks": "주",
+        "months": "개월"
+      },
+      "buttons": {
+        "calculate": "계산"
+      },
+      "modes": {
+        "diff": "차이",
+        "add": "날짜 더하기"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Калькулятор дат - разница и прибавление дней",
+        "description": "Бесплатный онлайн-калькулятор дат. Считайте разницу между датами в днях, неделях и месяцах или прибавляйте дни к дате. Всё в браузере."
+      },
+      "title": "Калькулятор дат",
+      "description": "Два удобных режима: разница между двумя датами в днях, неделях и месяцах, либо прибавление (вычитание) дней к дате.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "калькулятор дат",
+        "дней между датами",
+        "разница дат",
+        "прибавить дни",
+        "сложение дат",
+        "счётчик дней"
+      ],
+      "faqs": [
+        {
+          "question": "Как считаются месяцы?",
+          "answer": "Месяцы считаются по средней длине месяца (~30,44 дня), чего достаточно для планирования."
+        },
+        {
+          "question": "Можно ли вычитать дни?",
+          "answer": "Да — введите отрицательное число дней, чтобы идти назад от начальной даты."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "День недели",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "День года",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Срок годности",
+          "href": "/tools/expiration"
+        }
+      ],
+      "labels": {
+        "days": "дней",
+        "weeks": "недель",
+        "months": "месяцев"
+      },
+      "buttons": {
+        "calculate": "Вычислить"
+      },
+      "modes": {
+        "diff": "Разница",
+        "add": "Прибавить дни"
+      }
+    }
+  }
+}

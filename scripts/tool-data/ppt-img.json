@@ -1,0 +1,313 @@
+{
+  "slug": "ppt-img",
+  "icon": "📽️",
+  "home": {
+    "en": {
+      "name": "PowerPoint Image Extractor",
+      "description": "Extract all images embedded in a PowerPoint file and download them.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "PPT 图片提取",
+      "description": "提取 PowerPoint 演示文稿中嵌入的全部图片并一键下载。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "PowerPoint 画像抽出",
+      "description": "PowerPoint ファイルに埋め込まれた画像をすべて抽出してダウンロード。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "PPT 이미지 추출",
+      "description": "PowerPoint 파일에 포함된 모든 이미지를 추출해 다운로드하세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Картинки из PowerPoint",
+      "description": "Извлеките все изображения из презентации PowerPoint и скачайте их.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "PowerPoint Image Extractor - Free Online Tool",
+        "description": "Free online tool to extract all embedded images from a .pptx file. Files stay in your browser — nothing is uploaded."
+      },
+      "title": "PowerPoint Image Extractor",
+      "description": "Grab every image embedded inside a .pptx presentation — photos, clip art, slide backgrounds — and download them individually or all at once as a ZIP.",
+      "category": "Image Tools",
+      "keywords": [
+        "extract images from powerpoint",
+        "pptx image extractor",
+        "ppt images",
+        "get images from presentation",
+        "pptx media folder"
+      ],
+      "faqs": [
+        {
+          "question": "Where are images stored inside a PowerPoint file?",
+          "answer": "A .pptx file is a ZIP archive. Embedded images live in the ppt/media folder, which this tool reads directly."
+        },
+        {
+          "question": "Can I extract images from .ppt (old format)?",
+          "answer": "Only the newer .pptx/.pptm formats are supported — the legacy .ppt format is a different binary structure."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Excel Image Extractor",
+          "href": "/tools/excel-img"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a PowerPoint file here",
+        "formats": "PPTX · PPTM"
+      },
+      "labels": {
+        "processing": "Extracting images…",
+        "count": "{count} images found"
+      },
+      "buttons": {
+        "download": "Download",
+        "downloadAll": "Download all (ZIP)"
+      },
+      "errors": {
+        "empty": "No images found in this presentation.",
+        "invalid": "Could not read this file. Make sure it is a valid .pptx presentation."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "PPT 图片提取工具 - 免费在线工具",
+        "description": "免费在线提取 .pptx 文件中所有嵌入图片的工具。文件仅在浏览器中处理，不会上传。"
+      },
+      "title": "PPT 图片提取工具",
+      "description": "提取 .pptx 演示文稿中嵌入的全部图片——照片、剪贴画、幻灯片背景等，可逐个下载或一键打包为 ZIP。",
+      "category": "图片工具",
+      "keywords": [
+        "ppt 提取图片",
+        "pptx 图片提取器",
+        "演示文稿图片",
+        "ppt 图片导出",
+        "ppt 素材提取"
+      ],
+      "faqs": [
+        {
+          "question": "PowerPoint 文件中的图片存在哪里？",
+          "answer": ".pptx 本质是一个 ZIP 压缩包，嵌入的图片位于 ppt/media 目录，本工具直接读取该目录。"
+        },
+        {
+          "question": "可以提取 .ppt（旧格式）吗？",
+          "answer": "仅支持新版 .pptx/.pptm 格式，旧版 .ppt 是另一种二进制结构，暂不支持。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Excel 图片提取",
+          "href": "/tools/excel-img"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片格式转换",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "将 PowerPoint 文件拖到此处",
+        "formats": "PPTX · PPTM"
+      },
+      "labels": {
+        "processing": "正在提取图片…",
+        "count": "找到 {count} 张图片"
+      },
+      "buttons": {
+        "download": "下载",
+        "downloadAll": "全部下载（ZIP）"
+      },
+      "errors": {
+        "empty": "此演示文稿中未找到图片。",
+        "invalid": "无法读取该文件，请确认是有效的 .pptx 演示文稿。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "PowerPoint 画像抽出ツール - 無料オンラインツール",
+        "description": ".pptx ファイルに埋め込まれた画像をすべて抽出する無料ツール。ファイルはブラウザ内だけで処理され、アップロードされません。"
+      },
+      "title": "PowerPoint 画像抽出ツール",
+      "description": ".pptx プレゼンテーションに埋め込まれたすべての画像（写真、クリップアート、スライド背景など）を抽出し、個別または ZIP 一括でダウンロードできます。",
+      "category": "画像ツール",
+      "keywords": [
+        "ppt 画像抽出",
+        "pptx 画像",
+        "プレゼン 画像取り出し",
+        "パワーポイント 画像",
+        "ppt 素材抽出"
+      ],
+      "faqs": [
+        {
+          "question": "PowerPoint 内の画像はどこに保存されていますか？",
+          "answer": ".pptx は ZIP アーカイブで、埋め込まれた画像は ppt/media フォルダーにあります。このツールはそこを直接読み取ります。"
+        },
+        {
+          "question": ".ppt（旧形式）は抽出できますか？",
+          "answer": "新しい .pptx/.pptm 形式のみ対応しています。旧 .ppt は別のバイナリ構造のため非対応です。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Excel 画像抽出",
+          "href": "/tools/excel-img"
+        },
+        {
+          "name": "画像圧縮",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "画像形式変換",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "PowerPoint ファイルをドロップ",
+        "formats": "PPTX · PPTM"
+      },
+      "labels": {
+        "processing": "画像を抽出中…",
+        "count": "{count} 枚の画像が見つかりました"
+      },
+      "buttons": {
+        "download": "ダウンロード",
+        "downloadAll": "すべてダウンロード（ZIP）"
+      },
+      "errors": {
+        "empty": "このプレゼンテーションには画像がありません。",
+        "invalid": "ファイルを読み取れません。有効な .pptx プレゼンテーションか確認してください。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "PPT 이미지 추출기 - 무료 온라인 도구",
+        "description": ".pptx 파일에 포함된 모든 이미지를 추출하는 무료 온라인 도구입니다. 파일은 브라우저에서만 처리되며 업로드되지 않습니다."
+      },
+      "title": "PPT 이미지 추출기",
+      "description": ".pptx 프레젠테이션에 포함된 모든 이미지(사진, 클립아트, 슬라이드 배경 등)를 추출하고 개별 다운로드 또는 ZIP 일괄 다운로드할 수 있습니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "ppt 이미지 추출",
+        "pptx 이미지",
+        "프레젠테이션 이미지",
+        "파워포인트 사진 빼기",
+        "ppt 이미지 다운로드"
+      ],
+      "faqs": [
+        {
+          "question": "PowerPoint 파일의 이미지는 어디에 있나요?",
+          "answer": ".pptx는 ZIP 아카이브이며, 포함된 이미지는 ppt/media 폴더에 있습니다. 이 도구가 해당 폴더를 직접 읽습니다."
+        },
+        {
+          "question": ".ppt(구형식)도 추출할 수 있나요?",
+          "answer": "새로운 .pptx/.pptm 형식만 지원합니다. 구형 .ppt는 별도의 바이너리 구조라 지원하지 않습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "엑셀 이미지 추출",
+          "href": "/tools/excel-img"
+        },
+        {
+          "name": "이미지 압축",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "이미지 형식 변환",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "PowerPoint 파일을 여기에 놓으세요",
+        "formats": "PPTX · PPTM"
+      },
+      "labels": {
+        "processing": "이미지 추출 중…",
+        "count": "이미지 {count}개 발견"
+      },
+      "buttons": {
+        "download": "다운로드",
+        "downloadAll": "전체 다운로드 (ZIP)"
+      },
+      "errors": {
+        "empty": "이 프레젠테이션에 이미지가 없습니다.",
+        "invalid": "파일을 읽을 수 없습니다. 유효한 .pptx 프레젠테이션인지 확인하세요."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Картинки из PowerPoint - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-инструмент для извлечения всех встроенных изображений из файла .pptx. Файлы не покидают браузер."
+      },
+      "title": "Картинки из PowerPoint",
+      "description": "Извлеките все изображения, встроенные в презентацию .pptx — фото, клип-арт, фоны слайдов — и скачайте их по одному или пакетом в ZIP.",
+      "category": "Изображения",
+      "keywords": [
+        "извлечь картинки из powerpoint",
+        "картинки из pptx",
+        "изображения из презентации",
+        "достать картинки ppt",
+        "медиа папка pptx"
+      ],
+      "faqs": [
+        {
+          "question": "Где хранятся изображения в файле PowerPoint?",
+          "answer": "Файл .pptx — это ZIP-архив. Встроенные изображения лежат в папке ppt/media, которую инструмент читает напрямую."
+        },
+        {
+          "question": "Можно ли извлечь картинки из .ppt (старый формат)?",
+          "answer": "Поддерживаются только новые форматы .pptx/.pptm — старый .ppt имеет другую бинарную структуру."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Картинки из Excel",
+          "href": "/tools/excel-img"
+        },
+        {
+          "name": "Сжатие изображений",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Конвертер форматов",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите файл PowerPoint сюда",
+        "formats": "PPTX · PPTM"
+      },
+      "labels": {
+        "processing": "Извлечение изображений…",
+        "count": "Найдено изображений: {count}"
+      },
+      "buttons": {
+        "download": "Скачать",
+        "downloadAll": "Скачать всё (ZIP)"
+      },
+      "errors": {
+        "empty": "В этой презентации нет изображений.",
+        "invalid": "Не удалось прочитать файл. Убедитесь, что это корректная презентация .pptx."
+      }
+    }
+  }
+}

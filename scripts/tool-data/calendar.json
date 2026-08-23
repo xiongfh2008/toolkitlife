@@ -1,0 +1,263 @@
+{
+  "slug": "calendar",
+  "icon": "🗓️",
+  "home": {
+    "en": {
+      "name": "Year Calendar",
+      "description": "Generate a full-year calendar as an image.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "全年日历",
+      "description": "生成全年日历图片，可下载打印。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "年間カレンダー",
+      "description": "1年分のカレンダー画像を生成します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "연간 달력",
+      "description": "1년치 달력 이미지를 생성합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Годовой календарь",
+      "description": "Создайте календарь на весь год в виде изображения.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Year Calendar - Generate a Full-Year Calendar Image",
+        "description": "Free online year calendar generator. Render a full year (12 months) as a printable PNG image with weekends highlighted. Runs in your browser."
+      },
+      "title": "Year Calendar",
+      "description": "Pick a year and render all 12 months on a single canvas. Weekends are highlighted, and you can download the calendar as a PNG image.",
+      "category": "Life Tools",
+      "keywords": [
+        "year calendar",
+        "calendar generator",
+        "printable calendar",
+        "2026 calendar",
+        "full year calendar",
+        "calendar image"
+      ],
+      "faqs": [
+        {
+          "question": "Can I choose any year?",
+          "answer": "Yes — enter any year and the tool builds the correct month layouts, including leap years."
+        },
+        {
+          "question": "Can I print it?",
+          "answer": "Yes. Download the PNG and print it, or use it as a wallpaper or planner insert."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Day of Week",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "Day of Year",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Date Calculator",
+          "href": "/tools/date-calculator"
+        }
+      ],
+      "labels": {},
+      "buttons": {
+        "render": "Render Calendar",
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "全年日历 - 在线生成全年日历图片",
+        "description": "免费在线全年日历生成器，将 12 个月渲染为一张 PNG 图片，周末高亮，可下载打印。全程在浏览器本地完成。"
+      },
+      "title": "全年日历",
+      "description": "选择年份，将全年 12 个月绘制在同一张画布上。周末高亮显示，可下载为 PNG 图片。",
+      "category": "生活工具",
+      "keywords": [
+        "全年日历",
+        "日历生成器",
+        "打印日历",
+        "年历",
+        "日历图片",
+        "电子日历"
+      ],
+      "faqs": [
+        {
+          "question": "可以选任意年份吗？",
+          "answer": "可以。输入任意年份即可自动生成正确的月份布局，包含闰年处理。"
+        },
+        {
+          "question": "可以打印吗？",
+          "answer": "可以。下载 PNG 后即可打印，也可以用作壁纸或计划表。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "星期查询",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "第几天",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "日期计算",
+          "href": "/tools/date-calculator"
+        }
+      ],
+      "labels": {},
+      "buttons": {
+        "render": "生成日历",
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "年間カレンダー - オンラインでカレンダー画像を生成",
+        "description": "12ヶ月分を1枚のPNG画像に描画する無料の年間カレンダー生成ツール。週末を強調表示。ブラウザ内で完結。"
+      },
+      "title": "年間カレンダー",
+      "description": "年を選ぶと12ヶ月すべてを1枚のキャンバスに描画します。週末を強調表示し、PNG画像としてダウンロードできます。",
+      "category": "生活ツール",
+      "keywords": [
+        "年間カレンダー",
+        "カレンダー生成",
+        "印刷用カレンダー",
+        "年カレンダー",
+        "カレンダー画像",
+        "無料カレンダー"
+      ],
+      "faqs": [
+        {
+          "question": "任意の年を選べますか？",
+          "answer": "はい。任意の年を入力すれば、うるう年を含めて正しい月レイアウトを作成します。"
+        },
+        {
+          "question": "印刷できますか？",
+          "answer": "はい。PNGをダウンロードして印刷したり、壁紙やプランナーとして使えます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "曜日計算",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "年間通算日",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "日付計算",
+          "href": "/tools/date-calculator"
+        }
+      ],
+      "labels": {},
+      "buttons": {
+        "render": "カレンダーを生成",
+        "download": "PNGをダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "연간 달력 - 온라인 달력 이미지 생성",
+        "description": "12개월을 한 장의 PNG 이미지로 그리는 무료 연간 달력 생성기입니다. 주말을 강조하며 브라우저에서 완료됩니다."
+      },
+      "title": "연간 달력",
+      "description": "연도를 선택하면 12개월 전체를 하나의 캔버스에 렌더링합니다. 주말이 강조되며 PNG 이미지로 다운로드할 수 있습니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "연간 달력",
+        "달력 생성기",
+        "인쇄용 달력",
+        "달력 이미지",
+        "전체 달력",
+        "무료 달력"
+      ],
+      "faqs": [
+        {
+          "question": "원하는 연도를 선택할 수 있나요?",
+          "answer": "네. 어떤 연도든 입력하면 윤년을 포함해 올바른 달력 레이아웃이 만들어집니다."
+        },
+        {
+          "question": "인쇄할 수 있나요?",
+          "answer": "네. PNG를 다운로드해 인쇄하거나 배경화면, 플래너로 사용할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "요일 계산",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "올해 며칠째",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "날짜 계산",
+          "href": "/tools/date-calculator"
+        }
+      ],
+      "labels": {},
+      "buttons": {
+        "render": "달력 생성",
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Годовой календарь - сгенерировать изображение на весь год",
+        "description": "Бесплатный онлайн-генератор годового календаря. 12 месяцев на одном холсте в PNG с выделенными выходными. Всё в браузере."
+      },
+      "title": "Годовой календарь",
+      "description": "Выберите год и отрисуйте все 12 месяцев на одном холсте. Выходные выделены, календарь скачивается в формате PNG.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "годовой календарь",
+        "генератор календаря",
+        "печатный календарь",
+        "календарь на год",
+        "изображение календаря",
+        "календарь онлайн"
+      ],
+      "faqs": [
+        {
+          "question": "Можно выбрать любой год?",
+          "answer": "Да — введите любой год, и инструмент построит правильную раскладку месяцев, включая високосные годы."
+        },
+        {
+          "question": "Можно распечатать?",
+          "answer": "Да. Скачайте PNG и распечатайте или используйте как обои и планировщик."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "День недели",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "День года",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Калькулятор дат",
+          "href": "/tools/date-calculator"
+        }
+      ],
+      "labels": {},
+      "buttons": {
+        "render": "Создать календарь",
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

@@ -1567,6 +1567,18 @@
         "category": "图像工具",
         "icon": "🧊"
       },
+      "image-to-printmaking": {
+        "name": "黑白版画制作",
+        "description": "一键将照片转换为黑白版画风格，阈值可调，实时预览。免费且私密。",
+        "category": "图像工具",
+        "icon": "🖨️"
+      },
+      "image-emboss": {
+        "name": "图片浮雕效果",
+        "description": "一键将照片转换为石雕质感的浮雕效果，强度可调，实时预览。免费且私密。",
+        "category": "图像工具",
+        "icon": "🗿"
+      },
       "id-photo-generator": {
         "name": "证件照制作",
         "description": "在线制作护照、签证证件照：选择规格与背景色，一键换底并微调构图，免费使用。",
@@ -1878,6 +1890,408 @@
         "description": "即时检测密码强度并给出评分与建议",
         "category": "Utility",
         "icon": "🔒"
+      },
+      "color-text-image": {
+        "name": "彩色文字图片",
+        "description": "生成彩色文字图片，可自定义文字、颜色、字号与背景。",
+        "category": "图片工具",
+        "icon": "🌈"
+      },
+      "email-image": {
+        "name": "邮箱图片生成器",
+        "description": "将邮箱地址转为图片，防止被垃圾邮件爬虫抓取。",
+        "category": "图片工具",
+        "icon": "✉️"
+      },
+      "excel-img": {
+        "name": "Excel 图片提取",
+        "description": "提取 Excel 工作簿中嵌入的全部图片并一键下载。",
+        "category": "图片工具",
+        "icon": "📊"
+      },
+      "exif-cleaner": {
+        "name": "EXIF 清理器",
+        "description": "重新编码图片，清除 EXIF、GPS 与设备元数据，保护隐私。",
+        "category": "图片工具",
+        "icon": "🧹"
+      },
+      "gif-edit": {
+        "name": "GIF 帧编辑器",
+        "description": "逐帧编辑 GIF 动图：排序、删除、复制帧并调整播放速度。",
+        "category": "图片工具",
+        "icon": "🎞️"
+      },
+      "heic": {
+        "name": "HEIC 转 JPG/PNG",
+        "description": "在浏览器中直接将 HEIC/HEIF 照片转换为 JPG 或 PNG。",
+        "category": "图片工具",
+        "icon": "📱"
+      },
+      "icon-size-generator": {
+        "name": "多尺寸图标生成器",
+        "description": "从一张图片生成 16 至 512 像素的图标，适用于应用、favicon 与 Chrome 扩展。",
+        "category": "图片工具",
+        "icon": "📱"
+      },
+      "image-alpha-invert": {
+        "name": "透明度反转",
+        "description": "反转 PNG 图片的透明度——透明与可见区域互换。",
+        "category": "图片工具",
+        "icon": "◐"
+      },
+      "image-auto-trim": {
+        "name": "图片自动裁剪",
+        "description": "自动去除图片四周的透明边缘或纯色边框。",
+        "category": "图片工具",
+        "icon": "✂️"
+      },
+      "image-background": {
+        "name": "图片加背景",
+        "description": "一键为透明 PNG 图片添加纯色背景，适配微信暗黑模式等场景。",
+        "category": "图片工具",
+        "icon": "🎨"
+      },
+      "image-clear": {
+        "name": "图像内容清除",
+        "description": "清除图像全部内容，替换为纯色或完全透明。",
+        "category": "图片工具",
+        "icon": "🧽"
+      },
+      "image-color-replace": {
+        "name": "颜色替换",
+        "description": "将图片中的一种颜色替换为另一种颜色，或设为透明，支持吸管取色。",
+        "category": "图片工具",
+        "icon": "🔄"
+      },
+      "image-coord-marker": {
+        "name": "图片坐标标记",
+        "description": "点击图片添加带编号的坐标标记，并可下载标记后的图片。",
+        "category": "图片工具",
+        "icon": "📍"
+      },
+      "image-date-watermark": {
+        "name": "图片日期水印",
+        "description": "批量为图片添加日期水印，可自定义格式、位置与样式。",
+        "category": "图片工具",
+        "icon": "📅"
+      },
+      "image-dpi": {
+        "name": "图片 DPI 修改",
+        "description": "重写 PNG 图片的 DPI 元数据（如 300 DPI）用于打印，不改变像素。",
+        "category": "图片工具",
+        "icon": "📏"
+      },
+      "image-file-size": {
+        "name": "图片文件大小调整",
+        "description": "重新压缩图片以达到目标 KB 大小，尺寸保持不变。",
+        "category": "图片工具",
+        "icon": "⚖️"
+      },
+      "image-format-converter": {
+        "name": "图片格式转换器",
+        "description": "批量将图片在 PNG、JPG 与 WebP 之间互转，完全在浏览器本地运行。",
+        "category": "图片工具",
+        "icon": "🔁"
+      },
+      "image-margin": {
+        "name": "图片加边距",
+        "description": "为图片四周添加透明或彩色边距，适合做相框与留白效果。",
+        "category": "图片工具",
+        "icon": "🖼️"
+      },
+      "image-region-mask": {
+        "name": "区域马赛克/模糊",
+        "description": "拖拽选中区域并应用马赛克或模糊，隐藏图片中的敏感内容。",
+        "category": "图片工具",
+        "icon": "🎭"
+      },
+      "image-slice": {
+        "name": "图片切割器",
+        "description": "将图片沿水平或垂直方向均等切割为多张小图，可逐个下载 PNG。",
+        "category": "图片工具",
+        "icon": "🔪"
+      },
+      "img-padding": {
+        "name": "图片平铺",
+        "description": "将小图片平铺填充生成大图，制作无缝壁纸或图案。",
+        "category": "图片工具",
+        "icon": "🧱"
+      },
+      "img-size": {
+        "name": "强制改图片尺寸",
+        "description": "将图片调整为精确宽高，支持强制拉伸与画质控制。",
+        "category": "图片工具",
+        "icon": "📐"
+      },
+      "ppt-img": {
+        "name": "PPT 图片提取",
+        "description": "提取 PowerPoint 演示文稿中嵌入的全部图片并一键下载。",
+        "category": "图片工具",
+        "icon": "📽️"
+      },
+      "qrcode-batch": {
+        "name": "批量二维码生成器",
+        "description": "一次为整批文本或网址生成二维码，并可打包下载为 zip。",
+        "category": "图片工具",
+        "icon": "🗂️"
+      },
+      "screenshot-beautify": {
+        "name": "截图美化",
+        "description": "为截图添加背景色、内边距、圆角、边框与阴影效果。",
+        "category": "图片工具",
+        "icon": "🖼️"
+      },
+      "screenshot-markup": {
+        "name": "截图标注",
+        "description": "在截图上添加矩形、圆形、箭头、直线与文字标注。",
+        "category": "图片工具",
+        "icon": "✏️"
+      },
+      "solid-color-image": {
+        "name": "纯色图片生成器",
+        "description": "几秒生成任意颜色、任意尺寸的纯色背景图片。",
+        "category": "图片工具",
+        "icon": "🟦"
+      },
+      "svg-path": {
+        "name": "SVG 路径预览",
+        "description": "粘贴 SVG 路径并即时预览形状，可调整描边、填充与粗细。",
+        "category": "图片工具",
+        "icon": "📐"
+      },
+      "svg-preview": {
+        "name": "SVG 预览",
+        "description": "粘贴 SVG 代码，在浏览器中即时预览渲染效果。",
+        "category": "图片工具",
+        "icon": "🔍"
+      },
+      "svg-to-image": {
+        "name": "SVG 转图片",
+        "description": "将 SVG 代码转换为 PNG、JPG 或 WebP，支持预览并获取 Base64 编码。",
+        "category": "图片工具",
+        "icon": "🧩"
+      },
+      "text-logo": {
+        "name": "文字 Logo 生成器",
+        "description": "几秒生成简约文字 Logo，可自定义文字、颜色、字号与背景。",
+        "category": "图片工具",
+        "icon": "🔤"
+      },
+      "web-icon": {
+        "name": "网站图标获取",
+        "description": "输入域名，一键获取并下载任意网站的 favicon 图标。",
+        "category": "图片工具",
+        "icon": "🌐"
+      },
+      "wifi-qrcode": {
+        "name": "WiFi 二维码",
+        "description": "生成分享 WiFi 密码的二维码，扫码即可连接网络。",
+        "category": "图片工具",
+        "icon": "📶"
+      },
+      "audio-cutter": {
+        "name": "音频剪切",
+        "description": "在线剪切 MP3/WAV 音频，可视化波形选区，导出 MP3 或 WAV。",
+        "category": "音频工具",
+        "icon": "✂️"
+      },
+      "audio-merge": {
+        "name": "音频合并",
+        "description": "将多段音频按顺序合并成一首，导出为 MP3 或 WAV。",
+        "category": "音频工具",
+        "icon": "🎚️"
+      },
+      "audio-player": {
+        "name": "音频播放",
+        "description": "在浏览器中查看任意音频文件的波形图并直接试听播放。",
+        "category": "音频工具",
+        "icon": "🎧"
+      },
+      "hz": {
+        "name": "频率音频生成",
+        "description": "生成任意频率的正弦波、方波、锯齿波或三角波音频，可下载 WAV。",
+        "category": "音频工具",
+        "icon": "🔊"
+      },
+      "white-noise": {
+        "name": "白噪音生成器",
+        "description": "生成白噪音、粉红噪音或棕噪音助眠专注，可下载 WAV 文件。",
+        "category": "音频工具",
+        "icon": "🌫️"
+      },
+      "alarm": {
+        "name": "闹钟",
+        "description": "在指定时间或 N 分钟后设置闹钟提醒。",
+        "category": "生活工具",
+        "icon": "⏰"
+      },
+      "answer-book": {
+        "name": "答案之书",
+        "description": "心中默念问题，翻开书得到随机答案。",
+        "category": "生活工具",
+        "icon": "🔮"
+      },
+      "bank-card-validate": {
+        "name": "银行卡校验",
+        "description": "使用 Luhn 算法校验银行卡号。",
+        "category": "生活工具",
+        "icon": "💳"
+      },
+      "blood-type": {
+        "name": "血型遗传",
+        "description": "根据父母血型预测子女可能的血型。",
+        "category": "生活工具",
+        "icon": "🩸"
+      },
+      "calendar": {
+        "name": "全年日历",
+        "description": "生成全年日历图片，可下载打印。",
+        "category": "生活工具",
+        "icon": "🗓️"
+      },
+      "click-speed": {
+        "name": "点击速度测试",
+        "description": "测试你在 10 秒内能点击多少次。",
+        "category": "生活工具",
+        "icon": "🖱️"
+      },
+      "coin-flip": {
+        "name": "抛硬币",
+        "description": "虚拟抛硬币，记录正反面统计结果。",
+        "category": "生活工具",
+        "icon": "🪙"
+      },
+      "color-blindness-test": {
+        "name": "色盲测试",
+        "description": "通过石原式色觉测试图进行自测。",
+        "category": "生活工具",
+        "icon": "👁️"
+      },
+      "date-calculator": {
+        "name": "日期计算器",
+        "description": "计算日期差或推算加天后的日期。",
+        "category": "生活工具",
+        "icon": "🧮"
+      },
+      "day-of-week": {
+        "name": "星期查询",
+        "description": "查询任意日期是星期几。",
+        "category": "生活工具",
+        "icon": "📆"
+      },
+      "day-of-year": {
+        "name": "第几天",
+        "description": "查询某个日期是当年的第几天。",
+        "category": "生活工具",
+        "icon": "📅"
+      },
+      "dice-roller": {
+        "name": "掷骰子",
+        "description": "一次性掷 1-10 个骰子，立即显示总和。",
+        "category": "生活工具",
+        "icon": "🎲"
+      },
+      "expiration": {
+        "name": "保质期计算",
+        "description": "根据生产日期与保质期计算过期日期。",
+        "category": "生活工具",
+        "icon": "🏷️"
+      },
+      "group-randomizer": {
+        "name": "名单随机分组",
+        "description": "将名单随机分成若干小组，支持按组数或每组人数分组。",
+        "category": "生活工具",
+        "icon": "👥"
+      },
+      "hearing-test": {
+        "name": "听力测试",
+        "description": "测试你的耳朵能听到的最高频率。",
+        "category": "生活工具",
+        "icon": "👂"
+      },
+      "height-predict": {
+        "name": "身高预测",
+        "description": "根据父母身高预测孩子身高。",
+        "category": "生活工具",
+        "icon": "📏"
+      },
+      "keycode": {
+        "name": "按键码查询",
+        "description": "按下任意按键查看 keyCode 与按键事件信息。",
+        "category": "生活工具",
+        "icon": "⌨️"
+      },
+      "monte-carlo-pi": {
+        "name": "蒙特卡洛圆周率",
+        "description": "通过向圆形随机撒点估算圆周率。",
+        "category": "生活工具",
+        "icon": "📐"
+      },
+      "online-clock": {
+        "name": "在线时钟",
+        "description": "大屏时钟，显示 Unix 时间戳与 ISO 时间。",
+        "category": "生活工具",
+        "icon": "🕐"
+      },
+      "pi-digits": {
+        "name": "圆周率查询",
+        "description": "生成并搜索圆周率百万位数字。",
+        "category": "生活工具",
+        "icon": "🥧"
+      },
+      "random-picker": {
+        "name": "随机抽签",
+        "description": "从名单中随机抽取一个或多个名字。",
+        "category": "生活工具",
+        "icon": "🎯"
+      },
+      "reaction-time": {
+        "name": "反应速度测试",
+        "description": "测试你的反应速度有多快。",
+        "category": "生活工具",
+        "icon": "⚡"
+      },
+      "schulte-grid": {
+        "name": "舒尔特方格",
+        "description": "按顺序点击 1-N 数字，训练注意力。",
+        "category": "生活工具",
+        "icon": "🔢"
+      },
+      "text-reader": {
+        "name": "文本阅读",
+        "description": "粘贴文本，以大字舒适排版阅读。",
+        "category": "生活工具",
+        "icon": "📖"
+      },
+      "text-to-image": {
+        "name": "文字转图片",
+        "description": "将多行文字渲染为 PNG 图片。",
+        "category": "生活工具",
+        "icon": "🖼️"
+      },
+      "vcf-generator": {
+        "name": "通讯录生成",
+        "description": "将姓名+手机号列表生成通讯录 VCF 文件。",
+        "category": "生活工具",
+        "icon": "📇"
+      },
+      "web-shortcut": {
+        "name": "网址快捷方式",
+        "description": "为任意网址生成 .url 快捷方式文件。",
+        "category": "生活工具",
+        "icon": "🔗"
+      },
+      "world-clock": {
+        "name": "世界时钟",
+        "description": "查看全球 16 个城市的当前时间。",
+        "category": "生活工具",
+        "icon": "🌍"
+      },
+      "zip-viewer": {
+        "name": "ZIP 文件查看",
+        "description": "不解压即可查看 ZIP 包内文件列表。",
+        "category": "生活工具",
+        "icon": "🗜️"
       }
     },
     "scenes": {
@@ -1889,7 +2303,8 @@
       "calculator": "计算器",
       "text": "文字工具",
       "utility": "实用工具",
-      "marketing": "营销"
+      "marketing": "营销",
+      "life": "生活工具"
     },
     "scenesGroups": {
       "finance": "财务",
@@ -2051,7 +2466,8 @@
         "检测浏览器",
         "user agent",
         "浏览器系统",
-        "我在用什么浏览器"
+        "我在用什么浏览器",
+        "browser info"
       ],
       "labels": {
         "browser": "浏览器",
@@ -2149,7 +2565,8 @@
         "查询 ip 位置",
         "ip 地址定位",
         "ip 追踪",
-        "ip 转位置"
+        "ip 转位置",
+        "ip to location"
       ],
       "labels": {
         "ip": "IP 地址",
@@ -2246,7 +2663,8 @@
         "重定向链",
         "链接重定向",
         "重定向测试",
-        "检查重定向"
+        "检查重定向",
+        "redirect tracker"
       ],
       "labels": {
         "url": "网址",
@@ -2337,7 +2755,8 @@
         "网站可用性",
         "uptime 检测",
         "站点状态",
-        "宕机检测"
+        "宕机检测",
+        "down detector"
       ],
       "labels": {
         "url": "网址",
@@ -2426,7 +2845,8 @@
         "查询域名年龄",
         "域名注册日期",
         "域名多大",
-        "whois 年龄"
+        "whois 年龄",
+        "whois age"
       ],
       "labels": {
         "domain": "域名",
@@ -2521,7 +2941,8 @@
         "网站托管查询",
         "域名主机查询",
         "托管检测",
-        "网站部署在哪"
+        "网站部署在哪",
+        "find web host"
       ],
       "labels": {
         "domain": "域名",
@@ -2614,7 +3035,8 @@
         "SEO 站点地图",
         "sitemap.xml",
         "网站地图",
-        "站点地图工具"
+        "站点地图工具",
+        "sitemap tool"
       ],
       "labels": {
         "websiteUrl": "网站地址",
@@ -2724,7 +3146,8 @@
         "广告收入计算",
         "cpm 计算器",
         "adsense rpm",
-        "广告收益计算器"
+        "广告收益计算器",
+        "earnings calculator"
       ],
       "labels": {
         "dailyPageviews": "每日页面浏览量",
@@ -2814,7 +3237,9 @@
         "同时打开多个链接",
         "多链接打开器",
         "网址批量打开",
-        "链接批量打开"
+        "链接批量打开",
+        "open many urls",
+        "link opener"
       ],
       "labels": {
         "urls": "网址（每行一个或用逗号分隔）"
@@ -2907,7 +3332,8 @@
         "在线 html 查看",
         "html 代码预览",
         "预览 html",
-        "html 沙盒"
+        "html 沙盒",
+        "view html online"
       ],
       "labels": {
         "html": "HTML 代码"
@@ -2992,7 +3418,8 @@
         "移动端可用性",
         "移动端 seo",
         "移动友好检测",
-        "响应式检测"
+        "响应式检测",
+        "mobile test"
       ],
       "labels": {
         "url": "页面地址",
@@ -3542,6 +3969,10 @@
         {
           "question": "视频会上传到服务器吗？",
           "answer": "是的，需要上传处理，但处理后会删除。"
+        },
+        {
+          "question": "Is my video uploaded to a server?",
+          "answer": "No. All processing happens entirely in your browser using WebAssembly-powered FFmpeg. Your video never leaves your device."
         }
       ],
       "relatedTools": [
@@ -3696,6 +4127,10 @@
         {
           "question": "图像质量会损失吗？",
           "answer": "使用先进算法，质量损失最小。"
+        },
+        {
+          "question": "Is my photo uploaded to a server?",
+          "answer": "No. All processing happens entirely in your browser. Your image never leaves your device, so your photos stay completely private."
         }
       ],
       "relatedTools": [
@@ -3831,6 +4266,10 @@
         {
           "question": "可以追踪二维码扫描吗？",
           "answer": "动态二维码支持追踪，静态二维码不支持。"
+        },
+        {
+          "question": "Can I use the generated QR codes for commercial purposes?",
+          "answer": "Yes. The QR codes you generate are yours to use however you like, including on printed materials, products, business cards, and marketing campaigns. There are no restrictions."
         }
       ],
       "relatedTools": [
@@ -3845,6 +4284,10 @@
         {
           "name": "favicon 生成器",
           "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Color Palette Generator",
+          "href": "/tools/color-palette-generator"
         }
       ],
       "keywords": [
@@ -4339,6 +4782,10 @@
         {
           "question": "可以从图像生成调色板吗？",
           "answer": "可以，上传图像自动提取主色调。"
+        },
+        {
+          "question": "Is there a keyboard shortcut to generate new palettes?",
+          "answer": "Yes. Press the spacebar to instantly generate a new palette. This makes it fast to cycle through combinations until you find one you like."
         }
       ],
       "relatedTools": [
@@ -4353,6 +4800,10 @@
         {
           "name": "颜色混合器",
           "href": "/tools/color-mixer"
+        },
+        {
+          "name": "Photo Watermark Remover",
+          "href": "/tools/photo-watermark-remover"
         }
       ],
       "keywords": [
@@ -4461,6 +4912,10 @@
         {
           "name": "CSS 背景图案",
           "href": "/tools/css-background-pattern"
+        },
+        {
+          "name": "Markdown Preview",
+          "href": "/tools/markdown-preview"
         }
       ],
       "faqs": [
@@ -4483,6 +4938,10 @@
         {
           "question": "生成的代码兼容所有浏览器吗？",
           "answer": "是的，生成标准 CSS3 代码，兼容现代浏览器。"
+        },
+        {
+          "question": "How do I use gradient presets?",
+          "answer": "Click any preset button like Sunset, Ocean, or Rainbow to instantly load a professionally designed gradient. You can then customize the colors, stops, type, and angle to match your design needs."
         }
       ],
       "guide": {
@@ -4580,6 +5039,10 @@
         {
           "name": "CSS 文本阴影",
           "href": "/tools/css-text-shadow"
+        },
+        {
+          "name": "Markdown Preview",
+          "href": "/tools/markdown-preview"
         }
       ],
       "faqs": [
@@ -4602,6 +5065,10 @@
         {
           "question": "生成的代码兼容所有浏览器吗？",
           "answer": "是的，兼容现代浏览器。"
+        },
+        {
+          "question": "Can I copy the generated box-shadow CSS?",
+          "answer": "Yes. The generated CSS code is displayed below the preview. Click the copy button to copy it to your clipboard and paste it directly into your stylesheet or component."
         }
       ],
       "guide": {
@@ -5035,6 +5502,10 @@
         {
           "name": "屏幕录制器",
           "href": "/tools/screen-recorder"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
         }
       ],
       "upload": {
@@ -5578,12 +6049,24 @@
         {
           "question": "可以添加多份工作或学校吗？",
           "answer": "可以。使用“添加”按钮增加更多经历或教育条目，使用“删除”移除不需要的条目。"
+        },
+        {
+          "question": "How long should my resume be?",
+          "answer": "One page for early-career professionals (0-10 years). Two pages are acceptable for senior roles with extensive experience. Keep it concise — recruiters spend an average of 6-7 seconds on initial resume screening."
         }
       ],
       "relatedTools": [
         {
           "name": "PDF 转 Word 转换器",
           "href": "/tools/pdf-to-word"
+        },
+        {
+          "name": "PDF to Word Converter",
+          "href": "/tools/pdf-to-word"
+        },
+        {
+          "name": "Word Counter",
+          "href": "/tools/word-counter"
         }
       ],
       "guide": {
@@ -5877,7 +6360,6 @@
         "referenceTitle": "{inputVal} {abbr} 换算为其他单位",
         "unitOption": "{name} ({abbr})"
       },
-      "description": "长度、重量、温度、数据、时间等单位互相转换",
       "keywords": [
         "单位转换器",
         "长度转换器",
@@ -5887,6 +6369,7 @@
         "时间转换器",
         "公制转英制"
       ],
+      "description": "长度、重量、温度、数据、时间等单位互相转换",
       "units": {
         "millimeters": "毫米",
         "centimeters": "厘米",
@@ -5937,6 +6420,16 @@
           "正则测试在线"
         ]
       },
+      "keywords": [
+        "正则表达式测试器",
+        "正则测试器",
+        "正则表达式匹配",
+        "正则表达式检查器",
+        "在线正则表达式",
+        "正则表达式调试",
+        "模式匹配",
+        "正则表达式验证器"
+      ],
       "guide": {
         "introduction": {
           "title": "什么是正则表达式测试工具？",
@@ -5976,43 +6469,7 @@
             "为代码重构构建查找替换操作",
             "通过即时可视化反馈学习正则表达式语法"
           ]
-        },
-        "intro": {
-          "title": "什么是正则表达式测试器？",
-          "paragraphs": [
-            "正则表达式测试器是一个免费的在线工具，用于测试和调试正则表达式。它在测试字符串中实时显示匹配项，并提供有关捕获组和匹配位置的详细信息。所有处理都在浏览器中进行。"
-          ]
-        },
-        "sections": [
-          {
-            "title": "如何测试正则表达式",
-            "paragraphs": [
-              "在正则表达式字段中输入模式，在测试字符串字段中输入文本。匹配项会立即用颜色高亮显示。"
-            ]
-          },
-          {
-            "title": "使用标志",
-            "paragraphs": [
-              "使用标志切换按钮启用或禁用正则表达式标志。g（全局）查找所有匹配项，i（不区分大小写）使匹配不区分大小写，m（多行）使 ^ 和 $ 匹配行边界。"
-            ]
-          },
-          {
-            "title": "查看匹配信息",
-            "paragraphs": [
-              "匹配信息面板显示每个匹配的详细信息，包括索引位置和捕获组。这对于调试复杂模式和验证正则表达式按预期工作很有用。"
-            ]
-          },
-          {
-            "title": "常见正则表达式模式",
-            "items": [
-              "电子邮件：[\\w.-]+@[\\w.-]+\\.\\w+",
-              "URL：https?://[\\w.-]+(?:\\.[\\w]+)+",
-              "电话号码：\\+?\\d{10,15}",
-              "日期（YYYY-MM-DD）：\\d{4}-\\d{2}-\\d{2}",
-              "十六进制颜色：#[0-9A-Fa-f]{6}"
-            ]
-          }
-        ]
+        }
       },
       "faqs": [
         {
@@ -6052,6 +6509,10 @@
         {
           "name": "UUID 生成器",
           "href": "/tools/uuid-generator"
+        },
+        {
+          "name": "Word Counter",
+          "href": "/tools/word-counter"
         }
       ],
       "labels": {
@@ -6080,16 +6541,6 @@
         "commonPatternsTitle": "常用模式",
         "errorFallback": "正则表达式无效"
       },
-      "keywords": [
-        "正则表达式测试器",
-        "正则测试器",
-        "正则表达式匹配",
-        "正则表达式检查器",
-        "在线正则表达式",
-        "正则表达式调试",
-        "模式匹配",
-        "正则表达式验证器"
-      ],
       "commonPatterns": {
         "email": "邮箱",
         "url": "网址",
@@ -6229,6 +6680,14 @@
         {
           "name": "HTML 压缩器",
           "href": "/tools/html-minifier"
+        },
+        {
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "Regex Tester",
+          "href": "/tools/regex-tester"
         }
       ],
       "defaultMarkdown": "# 欢迎使用 Markdown 预览\n\n这是一个**实时预览**编辑器。在左侧开始输入，即可在右侧看到渲染输出。\n\n## 功能\n\n- **粗体**、*斜体*和~~删除线~~文本\n- [链接](https://example.com)和图片\n- 带语法高亮的代码块\n\n### 代码示例\n\n```javascript\nfunction greet(name) {\n  console.log(`你好，${name}！`);\n}\ngreet(\"世界\");\n```\n\n### 表格示例\n\n| 功能 | 状态 |\n|---------|--------|\n| GFM 表格 | 支持 |\n| 任务列表 | 支持 |\n| 删除线 | 支持 |\n\n### 任务列表\n\n- [x] 编写 Markdown\n- [x] 预览输出\n- [ ] 导出为 HTML\n\n> 引用块也受支持，在深色模式下看起来很棒。\n\n---\n\n享受编写 Markdown 的乐趣！\n",
@@ -6468,7 +6927,6 @@
         "upscalePrompt": "点击“放大”查看结果",
         "download": "下载"
       },
-      "description": "免费放大和增强图片。支持 2 倍和 4 倍缩放及多种算法。无需上传、无需注册——完全在浏览器中运行。",
       "keywords": [
         "图片放大器",
         "放大图片",
@@ -6476,7 +6934,8 @@
         "提高图片分辨率",
         "图片 enlarger",
         "照片放大器"
-      ]
+      ],
+      "description": "免费放大和增强图片。支持 2 倍和 4 倍缩放及多种算法。无需上传、无需注册——完全在浏览器中运行。"
     },
     "image-to-text": {
       "metadata": {
@@ -6531,6 +6990,14 @@
         {
           "name": "PDF 转 Word 转换器",
           "href": "/tools/pdf-to-word"
+        },
+        {
+          "name": "PDF to Word Converter",
+          "href": "/tools/pdf-to-word"
+        },
+        {
+          "name": "Text Case Converter",
+          "href": "/tools/text-case-converter"
         }
       ],
       "languages": [
@@ -6609,7 +7076,6 @@
         "loadFailed": "加载 OCR 引擎失败",
         "generic": "OCR 失败：{message}"
       },
-      "description": "使用 OCR 从图片中免费提取文本。上传截图、照片或扫描文档，即时获得可编辑文本。无需上传、无需注册。",
       "keywords": [
         "图片转文字",
         "在线 OCR",
@@ -6618,6 +7084,7 @@
         "截图转文字",
         "OCR 转换器"
       ],
+      "description": "使用 OCR 从图片中免费提取文本。上传截图、照片或扫描文档，即时获得可编辑文本。无需上传、无需注册。",
       "engines": {
         "paddleocr": "PaddleOCR（推荐 · 中英文）",
         "tesseract": "Tesseract（多语言）"
@@ -6666,6 +7133,10 @@
         {
           "name": "PDF 转 Word 转换器",
           "href": "/tools/pdf-to-word"
+        },
+        {
+          "name": "Invoice Generator",
+          "href": "/tools/invoice-generator"
         }
       ],
       "modes": {
@@ -7077,6 +7548,11 @@
             "title": "如何将图像转换为 Base64",
             "paragraphs": [
               "将图像文件拖放到上传区域，或点击选择文件。工具会生成包含 Base64 编码图像的 data URL（格式为 data:image/[type];base64,...），可以直接在 HTML img 标签或 CSS 中使用。"
+            ],
+            "items": [
+              "Supports all file types including images, PDFs, and documents.",
+              "Image files display an inline preview below the upload area.",
+              "The full data URL is shown in the output and can be copied."
             ]
           },
           {
@@ -7087,6 +7563,12 @@
               "在基于文本的协议中编码附件",
               "在 URL 中存储小型数据",
               "创建 data URL 用于内联资源"
+            ]
+          },
+          {
+            "title": "Tips for Working with Base64",
+            "paragraphs": [
+              "Keep in mind that Base64 increases data size by about a third. For large files, it is usually better to serve them as separate resources rather than embedding them inline. Base64 is ideal for small assets like icons and thumbnails where reducing HTTP requests matters more than payload size."
             ]
           }
         ]
@@ -7407,6 +7889,13 @@
             "title": "如何生成 UUID",
             "paragraphs": [
               "点击生成按钮创建一个随机的 UUID v4。它会立即显示在输出字段中。点击复制将其复制到剪贴板。"
+            ],
+            "items": [
+              "Click \"Generate UUID\" for a single new identifier.",
+              "Set a quantity (1 to 100) and click \"Bulk Generate\" for multiple UUIDs at once.",
+              "Toggle Uppercase to switch between lowercase and uppercase hexadecimal output.",
+              "Toggle Hyphens to include or remove the standard dash separators.",
+              "Copy individual UUIDs or use \"Copy All\" to grab the full list."
             ]
           },
           {
@@ -7417,18 +7906,19 @@
           },
           {
             "title": "了解 UUID v4",
-            "paragraphs": [
-              "UUID v4 使用加密安全的随机数生成器。格式为 xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx，其中 x 是随机十六进制数字，y 是 8、9、a 或 f 之一。版本 4 表示随机生成。"
+            "items": [
+              "Database primary keys in distributed systems and microservices.",
+              "Unique file names for uploads to prevent conflicts.",
+              "API request IDs for tracing and logging.",
+              "Session and transaction identifiers.",
+              "Test data generation for development and QA."
             ]
           },
           {
             "title": "UUID 的常见用例",
-            "items": [
-              "数据库记录的唯一 ID",
-              "分布式系统中的会话标识符",
-              "API 的事务 ID",
-              "微服务中的请求相关 ID",
-              "文件上传的标识符"
+            "paragraphs": [
+              "UUID version 4 generates identifiers using random or pseudo-random numbers. Of the 128 bits, 122 are random and 6 are fixed to indicate the version and variant. This produces over 5.3 undecillion possible combinations, making the chance of a collision negligibly small even at massive scale.",
+              "All generation happens client-side in your browser. No UUIDs are sent to or stored on any server, so you can safely generate identifiers for any project without privacy concerns."
             ]
           }
         ]
@@ -7914,7 +8404,10 @@
         "终端输出清理",
         "ansi 代码移除",
         "行号移除",
-        "控制字符清理"
+        "控制字符清理",
+        "strip control characters",
+        "text cleaner online",
+        "claude output formatter"
       ],
       "faqs": [
         {
@@ -7928,6 +8421,10 @@
         {
           "question": "这个工具会修改我的代码吗？",
           "answer": "不会。这个工具只处理文本输出，不会修改代码逻辑。它只是清理显示格式，使内容更易读。"
+        },
+        {
+          "question": "Can I keep line numbers in the output?",
+          "answer": "Line numbers are removed by default. If your output has no line numbers, or you only need to strip ANSI codes, you can turn the Strip Line Numbers option off before formatting."
         }
       ],
       "relatedTools": [
@@ -7938,28 +8435,22 @@
         {
           "name": "正则表达式测试器",
           "href": "/tools/regex-tester"
+        },
+        {
+          "name": "Regex Tester",
+          "href": "/tools/regex-tester"
+        },
+        {
+          "name": "Base64 Encoder",
+          "href": "/tools/base64-encoder"
         }
       ],
-      "labels": {
-        "stripAnsi": "去除 ANSI 代码",
-        "stripControl": "去除控制字符",
-        "stripLineNumbers": "去除行号",
-        "input": "输入",
-        "output": "输出"
-      },
-      "placeholders": {
-        "input": "在此输入或粘贴文本",
-        "output": "结果将显示在这里"
-      },
-      "buttons": {
-        "format": "格式化",
-        "clear": "清空"
-      },
       "guide": {
         "intro": {
           "title": "什么是 Claude Code 文本格式化器？",
           "paragraphs": [
-            "Claude Code 文本格式化器是一个专门用于清理 Claude Code 和终端输出文本的工具。当您从终端复制输出时，通常会包含 ANSI 转义码、行号和各种控制字符，这些在粘贴到文本编辑器时会显示为乱码。这个工具可以自动清理这些内容，提供干净的纯文本输出。"
+            "Claude Code 文本格式化器是一个专门用于清理 Claude Code 和终端输出文本的工具。当您从终端复制输出时，通常会包含 ANSI 转义码、行号和各种控制字符，这些在粘贴到文本编辑器时会显示为乱码。这个工具可以自动清理这些内容，提供干净的纯文本输出。",
+            "Everything runs locally in your browser. Your input never leaves your device, so the tool is safe for cleaning output that contains sensitive information."
           ]
         },
         "sections": [
@@ -7979,16 +8470,43 @@
           {
             "title": "常见用例",
             "paragraphs": [
-              "这个工具特别适合处理 Claude Code 的输出、终端命令结果、日志文件内容等需要清理格式的场景。"
-            ],
+              "这个工具特别适合处理 Claude Code 的输出、终端命令结果、日志文件内容等需要清理格式的场景。",
+              "Line numbers added by terminal multiplexers and log viewers also create extra noise. The formatter removes all of this automatically."
+            ]
+          },
+          {
+            "title": "Typical Use Cases",
             "items": [
-              "清理 Claude Code 响应",
-              "移除终端颜色代码",
-              "准备文档内容",
-              "清理日志输出"
+              "Cleaning Claude Code session logs before sharing them in bug reports.",
+              "Copying terminal output into tickets, docs, or chat messages without escape-code noise.",
+              "Preparing log snippets for code reviews and documentation.",
+              "Removing line numbers from code listings so they can be pasted back into editors."
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "If a pasted block still looks odd, try toggling Strip Control to remove hidden characters.",
+              "The tool handles output from most modern terminals, including iTerm, Windows Terminal, and VS Code's integrated terminal.",
+              "There is no limit on input size, so you can clean very long logs in one pass."
             ]
           }
         ]
+      },
+      "labels": {
+        "stripAnsi": "去除 ANSI 代码",
+        "stripControl": "去除控制字符",
+        "stripLineNumbers": "去除行号",
+        "input": "输入",
+        "output": "输出"
+      },
+      "placeholders": {
+        "input": "在此输入或粘贴文本",
+        "output": "结果将显示在这里"
+      },
+      "buttons": {
+        "format": "格式化",
+        "clear": "清空"
       }
     },
     "fancy-text-generator": {
@@ -8064,7 +8582,6 @@
         "circled": "圆圈体",
         "squared": "方框体"
       },
-      "description": "将文本转换为时尚的 Unicode 字体，适用于 Instagram、TikTok、Twitter 等。只需输入、点击复制并粘贴到任意位置。",
       "guide": {
         "whatIs": {
           "title": "什么是花式文本生成器？",
@@ -8102,7 +8619,8 @@
             "数字支持圆圈体、全角和上下颠倒样式。"
           ]
         }
-      }
+      },
+      "description": "将文本转换为时尚的 Unicode 字体，适用于 Instagram、TikTok、Twitter 等。只需输入、点击复制并粘贴到任意位置。"
     },
     "image-compressor": {
       "metadata": {
@@ -8154,8 +8672,59 @@
         {
           "name": "图像转 Base64",
           "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "Image Upscaler",
+          "href": "/tools/image-upscaler"
         }
       ],
+      "guide": {
+        "intro": {
+          "title": "什么是图片压缩工具？",
+          "paragraphs": [
+            "图片压缩工具是一个免费的在线工具，Compress images by up to 90% with adjustable quality。",
+            "所有处理都在浏览器中进行，您的数据永远不会发送到服务器。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何使用",
+            "paragraphs": [
+              "Compressing an image takes three steps:"
+            ],
+            "items": [
+              "在浏览器中打开工具",
+              "按照界面上的说明操作",
+              "获取结果并下载使用",
+              "Compare sizes, then download each image or the whole batch as a ZIP."
+            ]
+          },
+          {
+            "title": "主要特点",
+            "paragraphs": [
+              "JPEG is the best all-around choice for photos. WebP and AVIF offer even better compression for photos and graphics and are supported by all modern browsers. PNG is lossless and ideal for sharp edges, text, or transparency — use the Colors and Dithering controls to shrink it dramatically. GIF suits small animations and logos with flat colors."
+            ]
+          },
+          {
+            "title": "Typical Use Cases",
+            "items": [
+              "Shrinking product photos before uploading them to an online store.",
+              "Optimizing images for web pages and email newsletters to speed up loading.",
+              "Reducing file size so images fit within messenger and email attachment limits.",
+              "Preparing social media images that upload faster on slow connections."
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Start at 80% quality — it usually looks identical to the original while saving a lot of space.",
+              "For images with transparency, keep PNG and only lower quality if size still matters.",
+              "Compress the largest images first; they offer the biggest savings.",
+              "Use the format dropdown to convert a bulky PNG to WebP or JPEG in the same step."
+            ]
+          }
+        ]
+      },
       "labels": {
         "upload": "上传",
         "format": "格式",
@@ -8192,34 +8761,6 @@
         "saved": "节省 {percent}%",
         "noChange": "无变化",
         "totalSaved": "共节省 {size}"
-      },
-      "guide": {
-        "intro": {
-          "title": "什么是图片压缩工具？",
-          "paragraphs": [
-            "图片压缩工具是一个免费的在线工具，Compress images by up to 90% with adjustable quality。",
-            "所有处理都在浏览器中进行，您的数据永远不会发送到服务器。"
-          ]
-        },
-        "sections": [
-          {
-            "title": "如何使用",
-            "items": [
-              "在浏览器中打开工具",
-              "按照界面上的说明操作",
-              "获取结果并下载使用"
-            ]
-          },
-          {
-            "title": "主要特点",
-            "items": [
-              "完全免费使用",
-              "无需注册或登录",
-              "数据在本地处理，保护隐私",
-              "支持多种格式和选项"
-            ]
-          }
-        ]
       }
     },
     "image-resizer": {
@@ -8272,8 +8813,53 @@
         {
           "name": "图像滤镜",
           "href": "/tools/image-filters"
+        },
+        {
+          "name": "Aspect Ratio Calculator",
+          "href": "/tools/aspect-ratio-calculator"
         }
       ],
+      "guide": {
+        "intro": {
+          "title": "什么是图片调整大小工具？",
+          "paragraphs": [
+            "图片调整大小工具是一个免费的在线工具，Resize images with social media presets。",
+            "所有处理都在浏览器中进行，您的数据永远不会发送到服务器。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何使用",
+            "items": [
+              "在浏览器中打开工具",
+              "按照界面上的说明操作",
+              "获取结果并下载使用",
+              "Preview the result and download your resized PNG."
+            ]
+          },
+          {
+            "title": "主要特点",
+            "paragraphs": [
+              "The built-in presets cover the most commonly recommended dimensions: Instagram square posts (1080x1080), Instagram stories and Reels (1080x1920), YouTube thumbnails (1280x720), Facebook profile and cover sizes, Twitter/X header images, and Pinterest pins. Selecting a preset automatically fills in the exact width and height for you."
+            ]
+          },
+          {
+            "title": "Understanding Aspect Ratio",
+            "paragraphs": [
+              "Aspect ratio is the relationship between an image's width and height. Changing only one dimension breaks the ratio and distorts the image. With Maintain aspect ratio enabled, the resizer scales both dimensions proportionally, and the Aspect Ratio Calculator is available if you need to work out dimensions for a specific ratio like 16:9 or 4:3."
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Resize before compressing for the smallest final file size.",
+              "Use 100% zoom in the preview to check sharpness after resizing.",
+              "For print, target at least 300 DPI at the final print size.",
+              "Downscaling improves perceived sharpness — it's a great way to clean up large camera photos."
+            ]
+          }
+        ]
+      },
       "labels": {
         "upload": "上传图片",
         "width": "宽度（px）",
@@ -8294,34 +8880,6 @@
       },
       "errors": {
         "invalidImage": "请选择有效的图片文件。"
-      },
-      "guide": {
-        "intro": {
-          "title": "什么是图片调整大小工具？",
-          "paragraphs": [
-            "图片调整大小工具是一个免费的在线工具，Resize images with social media presets。",
-            "所有处理都在浏览器中进行，您的数据永远不会发送到服务器。"
-          ]
-        },
-        "sections": [
-          {
-            "title": "如何使用",
-            "items": [
-              "在浏览器中打开工具",
-              "按照界面上的说明操作",
-              "获取结果并下载使用"
-            ]
-          },
-          {
-            "title": "主要特点",
-            "items": [
-              "完全免费使用",
-              "无需注册或登录",
-              "数据在本地处理，保护隐私",
-              "支持多种格式和选项"
-            ]
-          }
-        ]
       }
     },
     "convert": {
@@ -8374,42 +8932,12 @@
         {
           "name": "Base64 编码器",
           "href": "/tools/base64-encoder"
+        },
+        {
+          "name": "Background Remover",
+          "href": "/tools/background-remover"
         }
       ],
-      "labels": {
-        "upload": "上传",
-        "format": "格式",
-        "quality": "质量",
-        "preview": "预览"
-      },
-      "buttons": {
-        "download": "下载",
-        "convert": "转换",
-        "newFile": "新文件",
-        "adjust": "调整"
-      },
-      "upload": {
-        "title": "拖入图片或点击上传",
-        "formats": "支持 JPG、PNG、WebP、GIF、BMP、TIFF、ICO、SVG、HEIC 等 20+ 种输入格式"
-      },
-      "status": {
-        "downloading": "正在加载 FFmpeg 引擎…",
-        "rasterizing": "正在渲染 SVG…",
-        "converting": "正在转换图片…",
-        "finishing": "正在收尾…"
-      },
-      "processing": {
-        "title": "正在转换…",
-        "label": "进度",
-        "keepOpen": "请保持此标签页打开——转换在你的浏览器中本地运行。"
-      },
-      "done": {
-        "title": "转换完成！"
-      },
-      "errors": {
-        "prefix": "转换失败：",
-        "svgFailed": "无法读取此 SVG 图片。"
-      },
       "guide": {
         "intro": {
           "title": "什么是图片格式转换器？",
@@ -8450,6 +8978,40 @@
             ]
           }
         ]
+      },
+      "labels": {
+        "upload": "上传",
+        "format": "格式",
+        "quality": "质量",
+        "preview": "预览"
+      },
+      "buttons": {
+        "download": "下载",
+        "convert": "转换",
+        "newFile": "新文件",
+        "adjust": "调整"
+      },
+      "upload": {
+        "title": "拖入图片或点击上传",
+        "formats": "支持 JPG、PNG、WebP、GIF、BMP、TIFF、ICO、SVG、HEIC 等 20+ 种输入格式"
+      },
+      "status": {
+        "downloading": "正在加载 FFmpeg 引擎…",
+        "rasterizing": "正在渲染 SVG…",
+        "converting": "正在转换图片…",
+        "finishing": "正在收尾…"
+      },
+      "processing": {
+        "title": "正在转换…",
+        "label": "进度",
+        "keepOpen": "请保持此标签页打开——转换在你的浏览器中本地运行。"
+      },
+      "done": {
+        "title": "转换完成！"
+      },
+      "errors": {
+        "prefix": "转换失败：",
+        "svgFailed": "无法读取此 SVG 图片。"
       }
     },
     "audio-converter": {
@@ -8828,8 +9390,49 @@
         {
           "name": "图像滤镜",
           "href": "/tools/image-filters"
+        },
+        {
+          "name": "Image Color Picker",
+          "href": "/tools/image-color-picker"
         }
       ],
+      "guide": {
+        "intro": {
+          "title": "什么是背景移除工具？",
+          "paragraphs": [
+            "免费的在线背景移除工具，支持 AI 自动抠图或按颜色去除背景。",
+            "所有处理都在浏览器中完成，您的图片永远不会离开设备。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何使用",
+            "items": [
+              "选择 AI 模式处理有人物/产品/动物的照片，或颜色模式处理纯色背景。",
+              "上传图片（拖放或点击选择文件）。",
+              "AI 模式：点击“移除背景”并等待处理；颜色模式：选择背景色并调整容差/羽化。",
+              "下载透明背景的 PNG 结果。"
+            ]
+          },
+          {
+            "title": "主要特点",
+            "items": [
+              "完全免费使用",
+              "无需注册或登录",
+              "数据在本地处理，保护隐私",
+              "支持多种格式和选项"
+            ]
+          },
+          {
+            "title": "Tips",
+            "items": [
+              "Download as PNG to keep the transparent background for designs and web pages.",
+              "Choose a background color instead when the image will sit on a solid surface.",
+              "Run the tool on a copy of your original so the source file is never altered."
+            ]
+          }
+        ]
+      },
       "labels": {
         "upload": "上传图片",
         "backgroundColor": "背景色",
@@ -8859,35 +9462,6 @@
       },
       "buttons": {
         "download": "下载"
-      },
-      "guide": {
-        "intro": {
-          "title": "什么是背景移除工具？",
-          "paragraphs": [
-            "免费的在线背景移除工具，支持 AI 自动抠图或按颜色去除背景。",
-            "所有处理都在浏览器中完成，您的图片永远不会离开设备。"
-          ]
-        },
-        "sections": [
-          {
-            "title": "如何使用",
-            "items": [
-              "选择 AI 模式处理有人物/产品/动物的照片，或颜色模式处理纯色背景。",
-              "上传图片（拖放或点击选择文件）。",
-              "AI 模式：点击“移除背景”并等待处理；颜色模式：选择背景色并调整容差/羽化。",
-              "下载透明背景的 PNG 结果。"
-            ]
-          },
-          {
-            "title": "主要特点",
-            "items": [
-              "完全免费使用",
-              "无需注册或登录",
-              "数据在本地处理，保护隐私",
-              "支持多种格式和选项"
-            ]
-          }
-        ]
       },
       "modes": {
         "ai": "AI 模式 — 人物与主体",
@@ -27765,6 +28339,200 @@
         "failed": "生成失败，请重试。"
       }
     },
+    "image-to-printmaking": {
+      "metadata": {
+        "title": "图片转黑白版画 - 免费在线工具",
+        "description": "免费在线将普通照片一键转换为极具艺术感的黑白版画风格。阈值可调、实时预览。全程浏览器本地处理，图片不会上传。"
+      },
+      "title": "图片转黑白版画",
+      "description": "一键将彩色照片转换为黑白版画风格。通过精准的阈值算法去除灰度过渡，只保留纯黑与纯白，模拟木刻版画、丝网版画或老式印刷品效果。",
+      "category": "图像工具",
+      "keywords": [
+        "黑白版画",
+        "图片转版画",
+        "照片转版画",
+        "木刻版画",
+        "丝网版画",
+        "版画效果",
+        "黑白阈值",
+        "黑白艺术"
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "什么是图片转黑白版画工具？",
+          "body": [
+            "本工具一键将任意照片转换为黑白版画风格：通过精准的阈值算法去除图片中的灰度过渡，只保留纯黑与纯白两种颜色，模拟传统木刻版画、丝网版画或老式印刷品的视觉效果。"
+          ]
+        },
+        "howTo": {
+          "title": "使用方法",
+          "intro": "三步完成：",
+          "items": [
+            "上传一张图片（JPG、PNG 或 WebP）。",
+            "拖动阈值滑块调整黑白分布比例，预览实时更新。",
+            "点击下载按钮保存黑白版画图片（PNG）。"
+          ]
+        },
+        "tips": {
+          "title": "小提示",
+          "items": [
+            "对比度强的照片生成的版画效果更鲜明。",
+            "阈值越低画面越黑，阈值越高画面越白。",
+            "开启“反色”可交换黑白，获得类似负片的效果。"
+          ]
+        }
+      },
+      "faqs": [
+        {
+          "question": "版画效果是怎么生成的？",
+          "answer": "工具先将每个像素转为灰度，再应用阈值：低于阈值的像素变为黑色，其余变为白色。画面中不再保留任何灰色过渡，从而形成经典的黑白版画质感。"
+        },
+        {
+          "question": "我的图片会被上传吗？",
+          "answer": "不会。所有处理都在浏览器本地完成，图片不会离开你的设备。"
+        },
+        {
+          "question": "阈值设置多少最合适？",
+          "answer": "取决于图片本身。建议从 128 开始调整：数值越小画面越黑，越大越白，借助实时预览找到最佳平衡点。"
+        },
+        {
+          "question": "可以反色吗？",
+          "answer": "可以，勾选“反色”选项即可交换黑白颜色。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片滤镜工具",
+          "href": "/tools/image-filters"
+        },
+        {
+          "name": "图片油画效果",
+          "href": "/tools/image-oil-paint"
+        },
+        {
+          "name": "图片像素化",
+          "href": "/tools/image-pixelate"
+        },
+        {
+          "name": "图片反色",
+          "href": "/tools/image-negative"
+        }
+      ],
+      "upload": {
+        "drop": "上传图片，生成黑白版画",
+        "formats": "支持 JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "重新上传"
+      },
+      "labels": {
+        "threshold": "阈值",
+        "invert": "反色（黑白互换）",
+        "original": "原图",
+        "result": "版画效果"
+      },
+      "errors": {
+        "failed": "处理失败，请重试。"
+      }
+    },
+    "image-emboss": {
+      "metadata": {
+        "title": "图片浮雕效果 - 免费在线工具",
+        "description": "免费在线将普通照片一键转换为立体雕刻质感的浮雕效果。强度可调、实时预览。全程浏览器本地处理，图片不会上传。"
+      },
+      "title": "图片浮雕效果",
+      "description": "一键将照片转换为浮雕效果。通过像素差值算法精准提取图片的边缘和轮廓，赋予其逼真的石雕或金属压花质感。",
+      "category": "图像工具",
+      "keywords": [
+        "浮雕",
+        "浮雕效果",
+        "图片浮雕",
+        "照片浮雕",
+        "浮雕滤镜",
+        "石雕效果",
+        "金属压花",
+        "浮雕画"
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "什么是图片浮雕效果工具？",
+          "body": [
+            "本工具为任意照片应用浮雕滤镜：通过像素差值算法将每个像素与其相邻像素进行比较，突出边缘和轮廓，几秒钟内生成逼真的石雕或金属压花质感。"
+          ]
+        },
+        "howTo": {
+          "title": "使用方法",
+          "intro": "三步完成：",
+          "items": [
+            "上传一张图片（JPG、PNG 或 WebP）。",
+            "拖动强度滑块调整浮雕的明显程度，预览实时更新。",
+            "点击下载按钮保存浮雕图片（PNG）。"
+          ]
+        },
+        "tips": {
+          "title": "小提示",
+          "items": [
+            "边缘和细节丰富的图片浮雕效果更突出。",
+            "强度越低效果越细腻，强度越高越像粗犷的石雕。",
+            "开启“反色”可翻转凹凸方向。"
+          ]
+        }
+      },
+      "faqs": [
+        {
+          "question": "浮雕效果是怎么生成的？",
+          "answer": "工具使用卷积核将每个像素与相邻像素进行差值比较。变化小的区域呈现中灰色，边缘则变为高光或暗影，从而产生立体雕刻的视觉效果。"
+        },
+        {
+          "question": "我的图片会被上传吗？",
+          "answer": "不会。所有处理都在浏览器本地完成，图片不会离开你的设备。"
+        },
+        {
+          "question": "强度设置多少最合适？",
+          "answer": "取决于图片本身。建议从 1.0 开始调整：数值越低效果越细腻，越高雕刻感越强。"
+        },
+        {
+          "question": "为什么结果大部分是灰色的？",
+          "answer": "这是经典的浮雕效果——平坦区域呈现中灰色，只有边缘以亮暗对比凸显。提高强度可以让效果更明显。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片滤镜工具",
+          "href": "/tools/image-filters"
+        },
+        {
+          "name": "图片边缘检测",
+          "href": "/tools/image-edge-detect"
+        },
+        {
+          "name": "图片转 3D 浮雕",
+          "href": "/tools/image-to-relief"
+        },
+        {
+          "name": "图片转黑白版画",
+          "href": "/tools/image-to-printmaking"
+        }
+      ],
+      "upload": {
+        "drop": "上传图片，生成浮雕效果",
+        "formats": "支持 JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "重新上传"
+      },
+      "labels": {
+        "strength": "强度",
+        "invert": "反色（翻转凹凸方向）",
+        "original": "原图",
+        "result": "浮雕效果"
+      },
+      "errors": {
+        "failed": "处理失败，请重试。"
+      }
+    },
     "id-photo-generator": {
       "metadata": {
         "title": "证件照制作",
@@ -29900,7 +30668,8 @@
         "图片圆角",
         "圆角图片",
         "rounded corners",
-        "圆角矩形"
+        "圆角矩形",
+        "rounded corner png"
       ],
       "faqs": [
         {
@@ -33083,6 +33852,3629 @@
             ]
           }
         ]
+      }
+    },
+    "color-text-image": {
+      "metadata": {
+        "title": "彩色文字图片生成器 – 自定义颜色文字图片",
+        "description": "在线生成彩色文字图片，可自定义文字、颜色、字号与背景，并下载为 PNG。免费且私密。"
+      },
+      "title": "彩色文字图片",
+      "description": "几秒生成彩色文字图片。自定义文字、文字颜色、背景颜色与字号，即可下载 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "彩色文字图片",
+        "文字图片生成器",
+        "文字转图片",
+        "彩色文字",
+        "带背景色文字",
+        "语录图片生成",
+        "文字海报",
+        "排版文字图片"
+      ],
+      "faqs": [
+        {
+          "question": "如何生成文字图片？",
+          "answer": "输入文字，选择文字与背景颜色以及字号，然后下载 PNG。"
+        },
+        {
+          "question": "背景可以透明吗？",
+          "answer": "可以，开启透明背景后即可得到无背景的 PNG。"
+        },
+        {
+          "question": "这个工具适合做什么？",
+          "answer": "适合制作语录卡片、社交媒体配图、标题图与简约文字排版。"
+        },
+        {
+          "question": "我的文字会被发送吗？",
+          "answer": "不会，所有内容都在浏览器本地渲染。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "文字 Logo 生成器",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "图片水印",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG 图片生成器",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "文字",
+        "fontSize": "字号",
+        "textColor": "文字颜色",
+        "bgColor": "背景颜色",
+        "transparentBg": "透明背景"
+      },
+      "buttons": {
+        "download": "下载 PNG"
+      }
+    },
+    "email-image": {
+      "metadata": {
+        "title": "邮箱图片生成器 – 防止邮箱被爬虫抓取",
+        "description": "将邮箱地址转换为 PNG 图片，防止被垃圾邮件机器人抓取。可自定义字号与颜色。免费、无需上传。"
+      },
+      "title": "邮箱图片生成器",
+      "description": "将邮箱地址转为图片，让垃圾邮件爬虫无法读取。可自定义字号与颜色，然后下载 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "邮箱图片",
+        "邮箱转图片",
+        "防垃圾邮件",
+        "邮箱保护",
+        "反垃圾邮件",
+        "邮箱图片化",
+        "邮箱验证码图片",
+        "隐藏邮箱地址"
+      ],
+      "faqs": [
+        {
+          "question": "为什么要把邮箱转成图片？",
+          "answer": "垃圾邮件机器人会扫描网页中的纯文本邮箱。将其渲染为图片后，人类可正常阅读，但多数爬虫无法识别。"
+        },
+        {
+          "question": "可以调整外观吗？",
+          "answer": "可以，下载前可调整字号与文字颜色。"
+        },
+        {
+          "question": "我的邮箱会被上传吗？",
+          "answer": "不会，图片完全在浏览器本地渲染。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片转 Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "二维码生成器",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "文字 Logo 生成器",
+          "href": "/tools/text-logo"
+        }
+      ],
+      "labels": {
+        "email": "邮箱地址",
+        "fontSize": "字号",
+        "color": "文字颜色"
+      },
+      "buttons": {
+        "download": "下载 PNG"
+      }
+    },
+    "excel-img": {
+      "metadata": {
+        "title": "Excel 图片提取工具 - 免费在线工具",
+        "description": "免费在线提取 .xlsx 文件中所有嵌入图片的工具。文件仅在浏览器中处理，不会上传。"
+      },
+      "title": "Excel 图片提取工具",
+      "description": "提取 .xlsx 工作簿中嵌入的全部图片——图表、Logo、产品图等，可逐个下载或一键打包为 ZIP。",
+      "category": "图片工具",
+      "keywords": [
+        "excel 提取图片",
+        "excel 图片提取器",
+        "xlsx 图片",
+        "从表格提取图片",
+        "excel 图片导出"
+      ],
+      "faqs": [
+        {
+          "question": "Excel 文件中的图片存在哪里？",
+          "answer": ".xlsx 本质是一个 ZIP 压缩包，嵌入的图片位于 xl/media 目录，本工具直接读取该目录。"
+        },
+        {
+          "question": "我的文件会被上传吗？",
+          "answer": "不会。所有解析都在浏览器本地通过 JSZip 完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "PPT 图片提取",
+          "href": "/tools/ppt-img"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片格式转换",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "将 Excel 工作簿拖到此处",
+        "formats": "XLSX · XLSM"
+      },
+      "labels": {
+        "processing": "正在提取图片…",
+        "count": "找到 {count} 张图片"
+      },
+      "buttons": {
+        "download": "下载",
+        "downloadAll": "全部下载（ZIP）"
+      },
+      "errors": {
+        "empty": "此工作簿中未找到图片。",
+        "invalid": "无法读取该文件，请确认是有效的 .xlsx 工作簿。"
+      }
+    },
+    "exif-cleaner": {
+      "metadata": {
+        "title": "EXIF 清理器 – 移除照片元数据",
+        "description": "在线清除照片中的 EXIF、GPS 与设备信息。重新编码为 PNG 以移除全部元数据。免费且私密，在浏览器本地运行。"
+      },
+      "title": "EXIF 清理器",
+      "description": "重新编码图片以清除 EXIF、GPS 与设备元数据。对比前后文件大小，下载干净版 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "exif清理",
+        "去除exif",
+        "清除元数据",
+        "移除gps信息",
+        "删除exif数据",
+        "照片元数据清理",
+        "去除照片定位",
+        "在线exif清理器"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 EXIF 数据？",
+          "answer": "EXIF 是照片中嵌入的元数据，如相机型号、镜头、日期、GPS 坐标等，可能暴露照片的拍摄地点与方式。"
+        },
+        {
+          "question": "这个工具如何清除？",
+          "answer": "它会解码图片并重新编码为全新 PNG，从而丢弃所有原始元数据块。"
+        },
+        {
+          "question": "图片质量会改变吗？",
+          "answer": "像素保持不变，仅移除元数据。"
+        },
+        {
+          "question": "照片会被上传吗？",
+          "answer": "不会，所有处理都在浏览器本地完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "EXIF 查看器",
+          "href": "/tools/exif-viewer"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片文件大小",
+          "href": "/tools/image-file-size"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处或点击上传",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "下载干净 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "processing": "处理中…",
+        "before": "清理前",
+        "after": "清理后",
+        "original": "原图",
+        "result": "已清理"
+      }
+    },
+    "gif-edit": {
+      "metadata": {
+        "title": "GIF 帧编辑器 - 免费在线工具",
+        "description": "免费的在线 GIF 帧编辑工具：将 GIF 拆分为帧，排序、删除或复制，调整速度并导出新的动图，全部在浏览器中完成。"
+      },
+      "title": "GIF 帧编辑器",
+      "description": "逐帧拆分任意 GIF。排序、删除或复制帧，设置统一延迟，预览动画并下载编辑后的 GIF。",
+      "category": "图片工具",
+      "keywords": [
+        "gif编辑器",
+        "gif帧编辑",
+        "gif排序",
+        "删除gif帧",
+        "gif变速",
+        "动图编辑"
+      ],
+      "faqs": [
+        {
+          "question": "可以改变 GIF 播放速度吗？",
+          "answer": "可以。设置应用到每一帧的延迟（毫秒），数值越小动画越快，越大越慢。"
+        },
+        {
+          "question": "画质会保留吗？",
+          "answer": "GIF 会在浏览器中基于原始帧重新编码，颜色可能重新量化，复杂动画可能有轻微变化。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "GIF 拆帧",
+          "href": "/tools/gif-to-images"
+        },
+        {
+          "name": "图片转 GIF",
+          "href": "/tools/image-to-gif"
+        },
+        {
+          "name": "视频转 GIF",
+          "href": "/tools/video-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "上传要编辑的 GIF",
+        "formats": "GIF"
+      },
+      "labels": {
+        "delay": "帧延迟",
+        "frames": "帧数",
+        "preview": "预览",
+        "resultSize": "大小：{size} KB"
+      },
+      "buttons": {
+        "changeFile": "更换文件",
+        "clear": "清除",
+        "pause": "暂停",
+        "play": "播放",
+        "generate": "生成",
+        "processing": "处理中…",
+        "download": "下载 GIF"
+      },
+      "errors": {
+        "type": "请选择 GIF 文件。",
+        "parse": "无法读取该 GIF，文件可能已损坏。",
+        "encode": "编码失败，请重试。"
+      }
+    },
+    "heic": {
+      "metadata": {
+        "title": "HEIC 转 JPG/PNG 转换器 - 免费在线工具",
+        "description": "免费在线 HEIC/HEIF 转换器：在浏览器中将 iPhone 照片转换为 JPG 或 PNG。无需上传，私密且即时。"
+      },
+      "title": "HEIC 转 JPG/PNG",
+      "description": "将 iPhone 和 Android 的 HEIC/HEIF 照片转换为 JPG 或 PNG。所有处理都在浏览器本地完成——无需上传，除所选格式外无画质损失。",
+      "category": "图片工具",
+      "keywords": [
+        "heic 转 jpg",
+        "heic 转 png",
+        "heif 转换",
+        "苹果照片转换",
+        "heic 转换器",
+        "heic 在线转换"
+      ],
+      "faqs": [
+        {
+          "question": "我的照片会上传到服务器吗？",
+          "answer": "不会。转换完全在浏览器中通过 WebAssembly 进行，照片不会离开你的设备。"
+        },
+        {
+          "question": "应该选择哪种格式？",
+          "answer": "JPG 体积更小且兼容性最好；PNG 无损，可保留透明通道。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片格式转换",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "WebP 转换",
+          "href": "/tools/image-to-webp"
+        }
+      ],
+      "upload": {
+        "drop": "将 HEIC/HEIF 照片拖到此处",
+        "formats": "HEIC · HEIF"
+      },
+      "labels": {
+        "outputFormat": "输出格式",
+        "converting": "转换中…"
+      },
+      "buttons": {
+        "download": "下载"
+      },
+      "errors": {
+        "type": "请选择 HEIC/HEIF 文件。",
+        "failed": "转换失败，文件可能已损坏。"
+      }
+    },
+    "icon-size-generator": {
+      "metadata": {
+        "title": "多尺寸图标生成器 – 16 至 512 像素",
+        "description": "从一张图片生成多种尺寸的应用图标、favicon 与扩展图标。可选 16–512 像素并逐个下载 PNG。免费。"
+      },
+      "title": "多尺寸图标生成器",
+      "description": "从一张图片生成 16 至 512 像素的图标。勾选所需尺寸即可逐个下载 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "图标生成器",
+        "图标尺寸生成",
+        "多尺寸图标",
+        "应用图标生成",
+        "favicon生成",
+        "chrome扩展图标",
+        "ios图标尺寸",
+        "android图标生成"
+      ],
+      "faqs": [
+        {
+          "question": "可以生成哪些尺寸？",
+          "answer": "16、32、48、64、128、256 与 512 像素，可任意组合勾选。"
+        },
+        {
+          "question": "图标如何缩放？",
+          "answer": "图片会按目标尺寸等比覆盖到正方形画布中，因此图标不会变形。"
+        },
+        {
+          "question": "这些尺寸有什么用途？",
+          "answer": "16–64 像素用于 favicon 与浏览器界面，128 像素用于 Chrome 扩展，512 像素用于应用商店图标。"
+        },
+        {
+          "question": "图片会被上传吗？",
+          "answer": "不会，所有处理都在浏览器本地完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon 生成器",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "图片尺寸调整",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片 DPI 修改",
+          "href": "/tools/image-dpi"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处或点击上传",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "newImage": "新图片",
+        "download": "下载"
+      },
+      "labels": {
+        "sizes": "图标尺寸"
+      }
+    },
+    "image-alpha-invert": {
+      "metadata": {
+        "title": "透明度反转 - 在线翻转图片透明通道",
+        "description": "反转 PNG 图片的 Alpha 通道：透明区域变为可见，可见区域变为透明。免费，浏览器内运行。"
+      },
+      "title": "透明度反转",
+      "description": "一键翻转 PNG 图片的透明度——透明与可见区域互换。适合蒙版、贴纸与 PNG 编辑。",
+      "category": "图片工具",
+      "keywords": [
+        "透明度反转",
+        "反转alpha通道",
+        "透明翻转",
+        "png透明度",
+        "透明变不透明",
+        "反转透明区域"
+      ],
+      "faqs": [
+        {
+          "question": "透明度反转是什么？",
+          "answer": "它翻转 Alpha 通道：完全透明的像素变为不透明，不透明的变为透明，颜色保持不变。"
+        },
+        {
+          "question": "支持 JPG 吗？",
+          "answer": "JPG 没有 Alpha 通道，因此本工具仅适用于带透明的 PNG（及 WebP）图片。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "纯色图片",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "图像内容清除",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "将 PNG 图片拖到此处",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "original": "原图",
+        "result": "反转后"
+      }
+    },
+    "image-auto-trim": {
+      "metadata": {
+        "title": "图片自动裁剪 - 在线去除图片多余边缘",
+        "description": "自动去除图片四周的透明边缘或纯色边框。免费，浏览器内运行。"
+      },
+      "title": "图片自动裁剪",
+      "description": "一键去除图片四周的透明或纯色边缘，适合清理 PNG、截图和 Logo。",
+      "category": "图片工具",
+      "keywords": [
+        "图片自动裁剪",
+        "去除透明边缘",
+        "去除白色边框",
+        "裁剪透明像素",
+        "自动裁剪图片",
+        "去除图片边缘"
+      ],
+      "faqs": [
+        {
+          "question": "自动裁剪如何识别边缘？",
+          "answer": "透明模式下会移除整行整列都完全透明的区域；纯色模式下会移除与左上角颜色一致的边缘。"
+        },
+        {
+          "question": "会把照片裁坏吗？",
+          "answer": "照片通常没有完全透明或纯色的边框，此时不会进行裁剪，图片保持原样。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加边距",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "图片裁剪工具",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "mode": "裁剪模式",
+        "transparent": "透明边缘",
+        "corner": "纯色边框",
+        "original": "原图",
+        "result": "裁剪后",
+        "nothingToTrim": "无需裁剪"
+      }
+    },
+    "image-background": {
+      "metadata": {
+        "title": "图片加背景 - 在线为透明PNG添加纯色背景",
+        "description": "一键为透明 PNG 图片添加纯色背景。免费，浏览器内运行，无需上传。"
+      },
+      "title": "图片加背景",
+      "description": "一键为透明 PNG 添加纯色背景，适配微信暗黑模式、贴纸或彩色卡片分享等场景。",
+      "category": "图片工具",
+      "keywords": [
+        "png加背景",
+        "图片背景颜色",
+        "图片加背景色",
+        "纯色背景图片",
+        "添加颜色背景",
+        "png透明背景"
+      ],
+      "faqs": [
+        {
+          "question": "这个工具是做什么的？",
+          "answer": "它会用你选择的颜色填充 PNG 的透明区域，并导出一张已合成背景的新 PNG 图片。"
+        },
+        {
+          "question": "支持 JPG 吗？",
+          "answer": "JPG 没有透明度，没有可填充的区域——本工具适用于带 Alpha 通道的 PNG（及 WebP）图片。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "透明度反转",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "纯色图片生成器",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "图片加边距",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "将 PNG 图片拖到此处",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "color": "背景颜色",
+        "original": "原图",
+        "result": "结果"
+      }
+    },
+    "image-clear": {
+      "metadata": {
+        "title": "图像内容清除工具 - 免费在线工具",
+        "description": "免费的在线图像清除工具：将整张图片替换为纯色或完全透明，保持原始尺寸不变。"
+      },
+      "title": "图像内容清除工具",
+      "description": "清除图片中的所有内容，用纯色或完全透明填充画布，并保持原始尺寸。适合制作占位图与蒙版。",
+      "category": "图片工具",
+      "keywords": [
+        "清除图像",
+        "空白图片",
+        "去除图片内容",
+        "透明图片",
+        "纯色图片",
+        "占位图"
+      ],
+      "faqs": [
+        {
+          "question": "会删除我的原图吗？",
+          "answer": "不会。原图不会被修改，工具只生成一张新的清除后图片供你下载。"
+        },
+        {
+          "question": "可以用什么填充？",
+          "answer": "可以选择任意纯色，或完全透明（仅保留画布尺寸）。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "纯色图片",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "透明度反转",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "图片背景",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "上传要清除的图片",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "transparent": "透明",
+        "color": "纯色"
+      },
+      "buttons": {
+        "newImage": "更换图片",
+        "download": "下载 PNG"
+      }
+    },
+    "image-color-replace": {
+      "metadata": {
+        "title": "颜色替换 - 在线更换图片颜色",
+        "description": "将图片中的一种颜色替换为另一种颜色，或设为透明，支持吸管取色。免费，浏览器内运行。"
+      },
+      "title": "颜色替换",
+      "description": "将图片中的一种颜色替换为另一种颜色，或设为透明。点击结果图可取色，再调整容差即可。",
+      "category": "图片工具",
+      "keywords": [
+        "图片颜色替换",
+        "替换图片颜色",
+        "颜色互换工具",
+        "颜色变透明",
+        "把一种颜色换成另一种",
+        "图片换色"
+      ],
+      "faqs": [
+        {
+          "question": "颜色替换是如何工作的？",
+          "answer": "工具会将每个像素与源颜色比较，把容差范围内匹配的像素替换为目标颜色。"
+        },
+        {
+          "question": "能把源颜色变成透明吗？",
+          "answer": "可以——勾选“设为透明”后，匹配的像素保留原颜色但失去不透明度。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片取色器",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "透明度反转",
+          "href": "/tools/image-alpha-invert"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "source": "源颜色",
+        "pick": "从图片取色",
+        "target": "目标颜色",
+        "toTransparent": "设为透明",
+        "tolerance": "容差",
+        "pickHint": "点击结果图可取源颜色",
+        "original": "原图",
+        "result": "结果"
+      }
+    },
+    "image-coord-marker": {
+      "metadata": {
+        "title": "图片坐标标记 - 在线标注图片坐标点",
+        "description": "点击图片添加带编号的坐标标记，并可下载标记后的图片。免费，浏览器内运行。"
+      },
+      "title": "图片坐标标记",
+      "description": "点击图片任意位置即可添加带编号的坐标标记，显示精确像素坐标，并可下载标注后的图片。",
+      "category": "图片工具",
+      "keywords": [
+        "图片坐标标记",
+        "图片添加坐标",
+        "图片编号标记",
+        "标记图片位置",
+        "坐标标注",
+        "图片标记点"
+      ],
+      "faqs": [
+        {
+          "question": "如何添加标记？",
+          "answer": "上传图片后直接在画布上点击即可——点击处会出现带编号的红点，并显示其像素坐标。"
+        },
+        {
+          "question": "可以删除标记吗？",
+          "answer": "可以。点击“清除标记”可一键移除全部标记；点击“新图片”可换一张图重新开始。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加水印工具",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "图片描述生成",
+          "href": "/tools/image-caption"
+        },
+        {
+          "name": "图片日期水印",
+          "href": "/tools/image-date-watermark"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "clear": "清除标记",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "hint": "点击图片添加标记"
+      }
+    },
+    "image-date-watermark": {
+      "metadata": {
+        "title": "图片日期水印 - 免费在线工具",
+        "description": "免费的在线图片日期水印工具。选择日期格式、位置、字号与颜色，批量为图片添加水印并打包下载，全部在浏览器中完成。"
+      },
+      "title": "图片日期水印",
+      "description": "一次为照片添加日期水印。选择日期格式、位置、字号与颜色，处理后打包下载为 zip。",
+      "category": "图片工具",
+      "keywords": [
+        "日期水印",
+        "图片加日期",
+        "照片日期戳",
+        "批量日期水印",
+        "图片日期标注",
+        "照片日期水印"
+      ],
+      "faqs": [
+        {
+          "question": "添加的是哪个日期？",
+          "answer": "默认使用文件的修改日期。关闭「使用文件修改日期」后，则为每张图片加盖当天日期。"
+        },
+        {
+          "question": "可以一次处理多张照片吗？",
+          "answer": "可以。选择多张图片即可一起处理，并打包为单个 zip 文件下载。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片水印",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "图片切割",
+          "href": "/tools/image-slice"
+        },
+        {
+          "name": "图片留白",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "labels": {
+        "format": "日期格式",
+        "position": "位置",
+        "fontSize": "字号",
+        "color": "颜色",
+        "shadow": "文字阴影",
+        "count": "{count} 张图片",
+        "useFileDate": "使用文件修改日期"
+      },
+      "positions": {
+        "topLeft": "左上",
+        "topRight": "右上",
+        "bottomLeft": "左下",
+        "bottomRight": "右下",
+        "center": "居中"
+      },
+      "buttons": {
+        "addImages": "添加图片",
+        "downloadAll": "全部下载 (zip)",
+        "processing": "处理中…"
+      }
+    },
+    "image-dpi": {
+      "metadata": {
+        "title": "图片 DPI 修改 - 在线重写 PNG DPI",
+        "description": "重写 PNG 图片的 DPI 元数据（如 300 DPI）用于打印，不改变像素。免费，浏览器内运行。"
+      },
+      "title": "图片 DPI 修改",
+      "description": "重写 PNG 图片的 DPI 元数据（如 300 DPI），让打印软件按正确尺寸输出——像素保持不变。",
+      "category": "图片工具",
+      "keywords": [
+        "修改图片dpi",
+        "png dpi修改",
+        "设置300dpi",
+        "图片dpi元数据",
+        "dpi转换",
+        "不改变尺寸修改dpi"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 DPI，这个工具改的是什么？",
+          "answer": "DPI（每英寸点数）是打印元数据，告诉软件图片按多大尺寸打印。本工具只重写这部分的元数据。"
+        },
+        {
+          "question": "会重新缩放或压缩我的图片吗？",
+          "answer": "不会——像素数据原样复制，只重写存储 DPI 值的 pHYs 元数据块。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片文件大小调整",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "图片尺寸调整工具",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片压缩工具",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "upload": {
+        "drop": "将 PNG 图片拖到此处",
+        "formats": "PNG"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "dpi": "DPI",
+        "note": "仅元数据，像素不变"
+      }
+    },
+    "image-file-size": {
+      "metadata": {
+        "title": "图片文件大小调整 - 在线压缩到指定KB",
+        "description": "重新压缩图片以达到目标 KB 大小，尺寸保持不变。免费，浏览器内运行。"
+      },
+      "title": "图片文件大小调整",
+      "description": "设置目标 KB 大小，工具会重新压缩图片使其尽可能接近目标——尺寸始终保持不变。",
+      "category": "图片工具",
+      "keywords": [
+        "图片文件大小调整",
+        "压缩图片到指定大小",
+        "目标文件大小",
+        "减小图片kb",
+        "图片大小压缩",
+        "图片体积压缩"
+      ],
+      "faqs": [
+        {
+          "question": "它是如何达到目标大小的？",
+          "answer": "工具会尝试一系列 JPEG 质量等级，保留文件大小最接近（且不超过）目标值的那个。"
+        },
+        {
+          "question": "图片尺寸会改变吗？",
+          "answer": "不会。只调整压缩质量，宽高始终保持不变。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片压缩工具",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片格式转换器",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "图片尺寸调整工具",
+          "href": "/tools/image-resizer"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "convert": "开始转换",
+        "newImage": "新图片",
+        "download": "下载 JPG"
+      },
+      "labels": {
+        "processing": "压缩中...",
+        "cannotReach": "无法达到目标大小",
+        "target": "目标大小 (KB)",
+        "resultSize": "结果大小"
+      }
+    },
+    "image-format-converter": {
+      "metadata": {
+        "title": "图片格式转换器 - 在线PNG JPG WebP互转",
+        "description": "批量将图片在 PNG、JPG 与 WebP 之间互转，完全在浏览器本地运行。免费、隐私安全。"
+      },
+      "title": "图片格式转换器",
+      "description": "一次将单张或多张图片在 PNG、JPG 与 WebP 之间互转，可调整 JPG 和 WebP 的质量，然后下载结果。",
+      "category": "图片工具",
+      "keywords": [
+        "图片格式转换",
+        "png转jpg",
+        "jpg转webp",
+        "批量图片转换",
+        "修改图片格式",
+        "webp转换"
+      ],
+      "faqs": [
+        {
+          "question": "支持哪些格式？",
+          "answer": "支持 PNG、JPG 和 WebP，可从任意输入格式转换为这三种输出格式中的任意一种。"
+        },
+        {
+          "question": "图片会上传到服务器吗？",
+          "answer": "不会。所有处理都在浏览器本地完成——图片不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片压缩工具",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片文件大小调整",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "图片转 GIF 制作器",
+          "href": "/tools/image-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "multi": "支持同时选择多张图片"
+      },
+      "buttons": {
+        "reset": "重置",
+        "download": "下载"
+      },
+      "labels": {
+        "format": "输出格式",
+        "quality": "质量",
+        "processing": "转换中...",
+        "results": "转换结果"
+      }
+    },
+    "image-margin": {
+      "metadata": {
+        "title": "图片加边距 - 在线为图片添加留白",
+        "description": "为图片四周添加透明或彩色边距，适合做相框与留白效果。免费，浏览器内运行。"
+      },
+      "title": "图片加边距",
+      "description": "为图片四周添加透明或彩色边距，适合相框、留白与社交媒体排版。",
+      "category": "图片工具",
+      "keywords": [
+        "图片加边距",
+        "图片加留白",
+        "图片内边距",
+        "图片加白边",
+        "图片相框留白",
+        "图片周围加空白"
+      ],
+      "faqs": [
+        {
+          "question": "边距是做什么的？",
+          "answer": "它会在图片四周添加一圈空白区域，可以是完全透明，也可以用你选择的颜色填充。"
+        },
+        {
+          "question": "边距能用自定义颜色吗？",
+          "answer": "可以——关闭“透明”开关后，即可用取色器或预设色板选择任意颜色。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "添加边框",
+          "href": "/tools/image-border"
+        },
+        {
+          "name": "圆角",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "size": "边距大小",
+        "color": "边距颜色",
+        "transparent": "透明",
+        "original": "原图",
+        "result": "结果"
+      }
+    },
+    "image-region-mask": {
+      "metadata": {
+        "title": "区域马赛克/模糊 - 在线遮挡图片局部",
+        "description": "拖拽选中区域并应用马赛克或模糊，隐藏图片中的敏感内容。免费，浏览器内运行。"
+      },
+      "title": "区域马赛克/模糊",
+      "description": "拖拽选中图片任意区域，应用马赛克或模糊，隐藏人脸、车牌、文字等敏感细节。",
+      "category": "图片工具",
+      "keywords": [
+        "区域马赛克",
+        "图片局部模糊",
+        "马赛克模糊工具",
+        "遮挡图片区域",
+        "局部打码",
+        "区域像素化"
+      ],
+      "faqs": [
+        {
+          "question": "如何选择区域？",
+          "answer": "在图片上按住并拖动鼠标，框选出要遮挡的矩形区域，松开鼠标即可应用效果。"
+        },
+        {
+          "question": "马赛克和模糊有什么区别？",
+          "answer": "马赛克用大色块（像素化）覆盖区域，模糊则用平滑的类高斯效果柔化细节。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "面部模糊",
+          "href": "/tools/face-blur"
+        },
+        {
+          "name": "马赛克/像素化",
+          "href": "/tools/image-pixelate"
+        },
+        {
+          "name": "图像内容清除",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "clear": "清除区域",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "mode": "效果",
+        "mosaic": "马赛克",
+        "blur": "模糊",
+        "size": "块大小",
+        "hint": "在图片上拖拽以遮挡区域"
+      }
+    },
+    "image-slice": {
+      "metadata": {
+        "title": "图片切割器 – 将图片均等切割为多张小图",
+        "description": "免费在线工具，可将图片沿水平或垂直方向均等切割为多张小图并逐个下载 PNG。完全在浏览器本地运行。"
+      },
+      "title": "图片切割器",
+      "description": "将图片沿水平或垂直方向均等切割。可选 2–12 份并逐个下载 PNG。所有处理都在浏览器本地完成。",
+      "category": "图片工具",
+      "keywords": [
+        "图片切割",
+        "切割图片",
+        "图片切片",
+        "均等切割",
+        "图片分割",
+        "图片切分工具",
+        "在线切图",
+        "图片等分"
+      ],
+      "faqs": [
+        {
+          "question": "如何切割图片？",
+          "answer": "上传图片，选择水平或垂直方向与份数，即可逐个下载每一份 PNG 切片。"
+        },
+        {
+          "question": "水平和垂直切割有什么区别？",
+          "answer": "水平切割将图片切成并排的竖条；垂直切割将图片切成上下堆叠的横条。"
+        },
+        {
+          "question": "最多可以切成几份？",
+          "answer": "支持 2 至 12 份。"
+        },
+        {
+          "question": "我的图片会被上传吗？",
+          "answer": "不会。所有切割都在浏览器本地完成，图片不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片裁剪工具",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "图片尺寸调整",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片拼接工具",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处或点击上传",
+        "formats": "JPG · PNG · WebP · GIF"
+      },
+      "labels": {
+        "direction": "方向",
+        "horizontal": "水平",
+        "vertical": "垂直",
+        "count": "份数",
+        "pieces": "切片"
+      },
+      "buttons": {
+        "newImage": "新图片",
+        "download": "下载"
+      }
+    },
+    "img-padding": {
+      "metadata": {
+        "title": "图片平铺工具 - 免费在线工具",
+        "description": "免费的在线图片平铺工具。上传小图片并平铺填充到大型画布，制作无缝图案或壁纸，全部在浏览器中完成。"
+      },
+      "title": "图片平铺工具",
+      "description": "将小图片平铺填充生成大图。设置输出宽高，图片将重复铺满整个区域，适合制作图案与壁纸。",
+      "category": "图片工具",
+      "keywords": [
+        "图片平铺",
+        "图片填充",
+        "平铺工具",
+        "图片图案",
+        "无缝平铺",
+        "壁纸生成"
+      ],
+      "faqs": [
+        {
+          "question": "图片平铺是如何工作的？",
+          "answer": "工具会将图片一张接一张地重复绘制，直到输出画布被完全填满。图片越小，重复效果越明显。"
+        },
+        {
+          "question": "能制作无缝图案吗？",
+          "answer": "可以。边缘自然衔接的图片可以无缝平铺，建议使用为重复设计的方形图片效果最佳。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片缩放",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片拼接",
+          "href": "/tools/image-stitcher"
+        },
+        {
+          "name": "图片留白",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "上传小图片进行平铺",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "输出宽度",
+        "height": "输出高度",
+        "tileSize": "瓦片尺寸：{w} × {h} px"
+      },
+      "buttons": {
+        "newImage": "更换图片",
+        "download": "下载 PNG"
+      }
+    },
+    "img-size": {
+      "metadata": {
+        "title": "强制改图片尺寸 - 免费在线工具",
+        "description": "免费的在线图片尺寸修改工具：精确指定宽高、支持强制拉伸，可调整画质并导出为 PNG、JPG 或 WebP，全部在浏览器中完成。"
+      },
+      "title": "强制改图片尺寸",
+      "description": "将图片调整为精确宽高。保持纵横比或自由拉伸，调整输出画质，保存为 PNG、JPG 或 WebP。",
+      "category": "图片工具",
+      "keywords": [
+        "强制改尺寸",
+        "图片精确缩放",
+        "图片拉伸",
+        "修改图片尺寸",
+        "指定宽高",
+        "图片比例调整"
+      ],
+      "faqs": [
+        {
+          "question": "与普通缩放有什么区别？",
+          "answer": "普通缩放保持比例。这里可以取消「保持纵横比」，强制指定任意宽高，必要时拉伸图片。"
+        },
+        {
+          "question": "支持哪些输出格式？",
+          "answer": "PNG（无损）、JPG 与 WebP。JPG 和 WebP 可调整画质。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片缩放",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片体积控制",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "图片格式转换",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "上传要调整尺寸的图片",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "宽度",
+        "height": "高度",
+        "keepAspect": "保持纵横比",
+        "quality": "画质"
+      },
+      "buttons": {
+        "newImage": "更换图片",
+        "download": "下载"
+      }
+    },
+    "ppt-img": {
+      "metadata": {
+        "title": "PPT 图片提取工具 - 免费在线工具",
+        "description": "免费在线提取 .pptx 文件中所有嵌入图片的工具。文件仅在浏览器中处理，不会上传。"
+      },
+      "title": "PPT 图片提取工具",
+      "description": "提取 .pptx 演示文稿中嵌入的全部图片——照片、剪贴画、幻灯片背景等，可逐个下载或一键打包为 ZIP。",
+      "category": "图片工具",
+      "keywords": [
+        "ppt 提取图片",
+        "pptx 图片提取器",
+        "演示文稿图片",
+        "ppt 图片导出",
+        "ppt 素材提取"
+      ],
+      "faqs": [
+        {
+          "question": "PowerPoint 文件中的图片存在哪里？",
+          "answer": ".pptx 本质是一个 ZIP 压缩包，嵌入的图片位于 ppt/media 目录，本工具直接读取该目录。"
+        },
+        {
+          "question": "可以提取 .ppt（旧格式）吗？",
+          "answer": "仅支持新版 .pptx/.pptm 格式，旧版 .ppt 是另一种二进制结构，暂不支持。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Excel 图片提取",
+          "href": "/tools/excel-img"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片格式转换",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "将 PowerPoint 文件拖到此处",
+        "formats": "PPTX · PPTM"
+      },
+      "labels": {
+        "processing": "正在提取图片…",
+        "count": "找到 {count} 张图片"
+      },
+      "buttons": {
+        "download": "下载",
+        "downloadAll": "全部下载（ZIP）"
+      },
+      "errors": {
+        "empty": "此演示文稿中未找到图片。",
+        "invalid": "无法读取该文件，请确认是有效的 .pptx 演示文稿。"
+      }
+    },
+    "qrcode-batch": {
+      "metadata": {
+        "title": "批量二维码生成器 - 免费在线工具",
+        "description": "免费的在线批量二维码生成工具。粘贴一列文本或网址，一次为全部内容生成二维码，可逐个下载或打包为 zip。"
+      },
+      "title": "批量二维码生成器",
+      "description": "一次为整批内容生成二维码。每行粘贴一条文本或网址，调整尺寸后即可逐个下载或打包为 zip。",
+      "category": "图片工具",
+      "keywords": [
+        "批量二维码",
+        "多个二维码",
+        "批量生成二维码",
+        "二维码列表",
+        "文本列表生成二维码",
+        "二维码批量工具"
+      ],
+      "faqs": [
+        {
+          "question": "一次能生成多少个二维码？",
+          "answer": "没有硬性限制，需要多少行就粘贴多少行。非常大的列表可能需要几秒。"
+        },
+        {
+          "question": "可以一起下载所有二维码吗？",
+          "answer": "可以。点击「全部下载」即可将所有 PNG 二维码打包进一个 zip 文件。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "二维码生成器",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "WiFi 二维码",
+          "href": "/tools/wifi-qrcode"
+        },
+        {
+          "name": "二维码识别",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "list": "文本列表（每行一条）",
+        "hint": "每行一条文本或网址",
+        "size": "尺寸",
+        "count": "{count} 个二维码"
+      },
+      "buttons": {
+        "generate": "生成",
+        "processing": "生成中…",
+        "downloadAll": "全部下载 (zip)",
+        "download": "下载"
+      },
+      "errors": {
+        "failed": "生成二维码失败，请重试。"
+      }
+    },
+    "screenshot-beautify": {
+      "metadata": {
+        "title": "截图美化工具 - 免费在线工具",
+        "description": "免费的在线截图美化工具：为截图添加背景色、内边距、圆角、边框与阴影，全部在浏览器中完成。"
+      },
+      "title": "截图美化工具",
+      "description": "将普通截图变成精致的展示图。添加背景色、内边距、圆角、边框与阴影，实时预览。",
+      "category": "图片工具",
+      "keywords": [
+        "截图美化",
+        "截图加背景",
+        "截图圆角",
+        "截图展示",
+        "代码截图美化",
+        "截图边框"
+      ],
+      "faqs": [
+        {
+          "question": "可以自定义哪些效果？",
+          "answer": "背景色、图片内边距、圆角、边框宽度与颜色、投影，均支持实时预览。"
+        },
+        {
+          "question": "图片会上传到服务器吗？",
+          "answer": "不会。所有渲染都在浏览器本地通过 Canvas 完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "截图标注",
+          "href": "/tools/screenshot-markup"
+        },
+        {
+          "name": "图片留白",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "图片圆角",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "上传要美化的截图",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "background": "背景色",
+        "padding": "内边距",
+        "radius": "圆角",
+        "borderWidth": "边框宽度",
+        "borderColor": "边框颜色",
+        "shadow": "投影"
+      },
+      "buttons": {
+        "newImage": "更换图片",
+        "download": "下载 PNG"
+      }
+    },
+    "screenshot-markup": {
+      "metadata": {
+        "title": "截图标注工具 - 免费在线工具",
+        "description": "免费的在线截图标注工具。绘制矩形、圆形、箭头、直线与文字，然后下载标注后的图片，全部在浏览器中完成。"
+      },
+      "title": "截图标注工具",
+      "description": "几秒钟完成截图标注。绘制矩形、圆形、箭头、直线与文字，可调整颜色与描边粗细，下载最终结果。",
+      "category": "图片工具",
+      "keywords": [
+        "截图标注",
+        "图片标注",
+        "截图箭头",
+        "截图高亮",
+        "标注工具",
+        "截图画图"
+      ],
+      "faqs": [
+        {
+          "question": "可以绘制哪些图形？",
+          "answer": "矩形、圆形、箭头、直线与文字。选择工具、颜色与描边粗细，然后在图片上拖动绘制。"
+        },
+        {
+          "question": "可以撤销标注吗？",
+          "answer": "可以。使用「清除」一键移除全部标注，也可以随时更换图片重新开始。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "截图美化",
+          "href": "/tools/screenshot-beautify"
+        },
+        {
+          "name": "图片坐标标记",
+          "href": "/tools/image-coord-marker"
+        },
+        {
+          "name": "区域马赛克",
+          "href": "/tools/image-region-mask"
+        }
+      ],
+      "upload": {
+        "drop": "上传要标注的截图",
+        "formats": "JPG · PNG · WebP"
+      },
+      "tools": {
+        "rect": "矩形",
+        "circle": "圆形",
+        "arrow": "箭头",
+        "line": "直线",
+        "text": "文字"
+      },
+      "labels": {
+        "width": "粗细",
+        "textSize": "字号",
+        "textHint": "点击图片放置文字",
+        "hint": "在图片上拖动绘制所选图形；文字工具需点击图片放置。"
+      },
+      "buttons": {
+        "clear": "清除",
+        "download": "下载 PNG"
+      }
+    },
+    "solid-color-image": {
+      "metadata": {
+        "title": "纯色图片生成器 - 在线生成纯色背景图",
+        "description": "几秒生成任意颜色、任意尺寸的纯色背景图片。免费，浏览器内运行。"
+      },
+      "title": "纯色图片生成器",
+      "description": "几秒钟生成任意颜色、任意尺寸的纯色背景图片——适合占位图、缩略图和测试用图。",
+      "category": "图片工具",
+      "keywords": [
+        "纯色图片",
+        "纯色背景生成",
+        "纯色背景图片",
+        "纯色png",
+        "背景色图片生成",
+        "单色图片"
+      ],
+      "faqs": [
+        {
+          "question": "支持生成多大尺寸？",
+          "answer": "支持从 16×16 到 8192×8192 像素的任意尺寸，输入宽高后立即生成。"
+        },
+        {
+          "question": "下载的文件是什么格式？",
+          "answer": "导出为 PNG 格式，可无失真地保留精确颜色。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "占位图生成器",
+          "href": "/tools/placeholder-image"
+        },
+        {
+          "name": "图片加边距",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "buttons": {
+        "download": "下载 PNG"
+      },
+      "labels": {
+        "color": "颜色",
+        "width": "宽度",
+        "height": "高度"
+      }
+    },
+    "svg-path": {
+      "metadata": {
+        "title": "SVG 路径预览 - 免费在线工具",
+        "description": "免费的在线 SVG 路径预览工具。粘贴路径并即时查看形状，可调整描边、填充与粗细，全部在浏览器本地完成。"
+      },
+      "title": "SVG 路径预览",
+      "description": "粘贴 SVG 路径（d 属性）并即时预览形状，可调整描边颜色、填充与粗细，并下载为 SVG。",
+      "category": "图片工具",
+      "keywords": [
+        "svg路径",
+        "svg路径预览",
+        "path d 预览",
+        "svg路径查看",
+        "路径形状预览",
+        "svg路径在线预览"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 SVG 路径？",
+          "answer": "SVG 路径由 d 属性定义，通过 M（移动）、L（直线）、C（曲线）等命令描述形状。"
+        },
+        {
+          "question": "我的路径会上传吗？",
+          "answer": "不会。路径在浏览器本地渲染，不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "SVG 预览",
+          "href": "/tools/svg-preview"
+        },
+        {
+          "name": "SVG 转图片",
+          "href": "/tools/svg-to-image"
+        },
+        {
+          "name": "SVG 波浪生成器",
+          "href": "/tools/svg-wave-generator"
+        }
+      ],
+      "labels": {
+        "pathD": "路径 (d)",
+        "stroke": "描边",
+        "fill": "填充",
+        "width": "粗细",
+        "preview": "预览"
+      },
+      "buttons": {
+        "download": "下载 SVG"
+      }
+    },
+    "svg-preview": {
+      "metadata": {
+        "title": "SVG 预览 - 免费在线工具",
+        "description": "免费的在线 SVG 代码预览与渲染工具。粘贴 SVG 代码即可实时查看渲染效果，无需上传，全部在浏览器本地完成。"
+      },
+      "title": "SVG 预览",
+      "description": "粘贴任意 SVG 代码并预览渲染效果，实时编辑并下载为 .svg 文件。",
+      "category": "图片工具",
+      "keywords": [
+        "svg预览",
+        "svg渲染",
+        "svg查看",
+        "查看svg代码",
+        "svg代码预览",
+        "在线svg查看器"
+      ],
+      "faqs": [
+        {
+          "question": "我的 SVG 代码会上传到服务器吗？",
+          "answer": "不会，所有处理都在浏览器本地完成，代码不会离开你的设备。"
+        },
+        {
+          "question": "支持哪些 SVG 特性？",
+          "answer": "浏览器原生支持的所有特性，包括渐变、滤镜、路径和文字。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "SVG 转图片",
+          "href": "/tools/svg-to-image"
+        },
+        {
+          "name": "SVG 路径预览",
+          "href": "/tools/svg-path"
+        },
+        {
+          "name": "彩色文字图片",
+          "href": "/tools/color-text-image"
+        }
+      ],
+      "labels": {
+        "code": "SVG 代码",
+        "preview": "预览"
+      },
+      "buttons": {
+        "download": "下载 SVG"
+      },
+      "errors": {
+        "invalid": "SVG 代码无效，请检查语法。"
+      }
+    },
+    "svg-to-image": {
+      "metadata": {
+        "title": "SVG 转图片 – SVG 转 PNG/JPG/WebP",
+        "description": "在线将 SVG 代码转换为 PNG、JPG 或 WebP，支持缩放与质量调节，可预览并获取 Base64。免费、无需上传。"
+      },
+      "title": "SVG 转图片",
+      "description": "粘贴 SVG 代码即可即时转换为 PNG、JPG 或 WebP。可调整缩放与质量，预览结果并复制 Base64 数据地址。",
+      "category": "图片工具",
+      "keywords": [
+        "svg转png",
+        "svg转jpg",
+        "svg转webp",
+        "svg转图片",
+        "svg转换器",
+        "在线svg转图片",
+        "svg转base64",
+        "svg渲染png"
+      ],
+      "faqs": [
+        {
+          "question": "SVG 可以转换成哪些格式？",
+          "answer": "支持 PNG、JPG 和 WebP。"
+        },
+        {
+          "question": "可以改变输出尺寸吗？",
+          "answer": "可以，通过缩放滑块（0.25×–4×）调整输出大小，无需修改 SVG 源码。"
+        },
+        {
+          "question": "Base64 输出有什么用？",
+          "answer": "数据地址可直接嵌入 HTML、CSS 或代码中，非常适合图标和行内图片。"
+        },
+        {
+          "question": "SVG 会被发送到服务器吗？",
+          "answer": "不会。转换完全在浏览器本地完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片格式转换器",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "图片转 Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "Favicon 生成器",
+          "href": "/tools/favicon-generator"
+        }
+      ],
+      "errors": {
+        "failed": "SVG 渲染失败，请检查代码。"
+      },
+      "labels": {
+        "svg": "SVG 代码",
+        "format": "格式",
+        "scale": "缩放",
+        "quality": "质量",
+        "copied": "已复制！",
+        "copyBase64": "复制 Base64",
+        "base64": "Base64 数据地址",
+        "preview": "预览"
+      },
+      "buttons": {
+        "download": "下载"
+      }
+    },
+    "text-logo": {
+      "metadata": {
+        "title": "文字 Logo 生成器 – 免费简约 Logo 制作",
+        "description": "在线几秒生成简约文字 Logo，可自定义文字、颜色、字号与背景，并下载为 PNG。免费、无需注册。"
+      },
+      "title": "文字 Logo 生成器",
+      "description": "几秒生成简约文字 Logo。输入文字，选择颜色、字号与背景，即可下载透明或纯色背景的 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "文字logo生成器",
+        "文字logo制作",
+        "文字生成logo",
+        "在线制作logo",
+        "简约logo制作",
+        "字体logo",
+        "文字标志",
+        "字标生成器"
+      ],
+      "faqs": [
+        {
+          "question": "如何制作文字 Logo？",
+          "answer": "输入文字，调整字号与颜色，选择背景（或透明），然后下载 PNG 即可。"
+        },
+        {
+          "question": "背景可以设为透明吗？",
+          "answer": "可以，开启透明背景选项后即可下载无背景的 PNG。"
+        },
+        {
+          "question": "最大字号是多少？",
+          "answer": "字号最高支持 400 像素，可生成清晰的高分辨率 Logo。"
+        },
+        {
+          "question": "这个工具免费吗？",
+          "answer": "完全免费，所有处理都在浏览器本地完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "彩色文字图片",
+          "href": "/tools/color-text-image"
+        },
+        {
+          "name": "图片水印",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG 图片生成器",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "文字",
+        "fontSize": "字号",
+        "color": "文字颜色",
+        "bgColor": "背景颜色",
+        "transparentBg": "透明背景"
+      },
+      "buttons": {
+        "download": "下载 PNG"
+      }
+    },
+    "web-icon": {
+      "metadata": {
+        "title": "网站图标获取工具 - 免费在线工具",
+        "description": "免费的在线网站 favicon 获取工具。输入域名即可查看并下载任意网站的图标。"
+      },
+      "title": "网站图标获取工具",
+      "description": "几秒钟获取任意网站的 favicon。输入域名，预览图标并下载用于自己的项目。",
+      "category": "图片工具",
+      "keywords": [
+        "网站图标",
+        "favicon下载",
+        "获取favicon",
+        "网站favicon",
+        "站点图标",
+        "favicon获取",
+        "域名图标"
+      ],
+      "faqs": [
+        {
+          "question": "返回的是哪个图标？",
+          "answer": "返回该网站域名对应的 favicon（通常是浏览器标签页显示的 .ico 或 PNG 图标）。"
+        },
+        {
+          "question": "可以用于自己的项目吗？",
+          "answer": "可以。下载为 256 × 256 PNG 后随处可用。注意 favicon 可能归网站所有者所有。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon 生成器",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "多尺寸图标生成器",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "域名年龄查询",
+          "href": "/tools/domain-age"
+        }
+      ],
+      "labels": {
+        "size": "尺寸"
+      },
+      "buttons": {
+        "fetch": "获取",
+        "download": "下载 PNG"
+      },
+      "errors": {
+        "failed": "无法获取图标，请检查域名后重试。"
+      }
+    },
+    "wifi-qrcode": {
+      "metadata": {
+        "title": "WiFi 二维码生成器 - 免费在线工具",
+        "description": "免费的在线 WiFi 二维码生成器。输入网络名称和密码即可生成二维码，扫码一键连接，无需注册，在浏览器中运行。"
+      },
+      "title": "WiFi 二维码生成器",
+      "description": "将你的 WiFi 网络生成二维码。输入网络名称、密码和加密方式，朋友扫码即可连接。",
+      "category": "图片工具",
+      "keywords": [
+        "wifi二维码",
+        "wifi二维码生成",
+        "二维码分享wifi",
+        "wifi密码二维码",
+        "扫码连wifi",
+        "wifi二维码生成器"
+      ],
+      "faqs": [
+        {
+          "question": "WiFi 二维码分享如何工作？",
+          "answer": "二维码内编码了 WIFI: 字符串，包含网络名称、密码和加密方式。手机扫码即可无需输入直接连接。"
+        },
+        {
+          "question": "我的 WiFi 密码会泄露吗？",
+          "answer": "密码直接编码在二维码中，请只分享给你信任的人——任何扫码者都能连接。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "二维码生成器",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "批量二维码",
+          "href": "/tools/qrcode-batch"
+        },
+        {
+          "name": "二维码识别",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "ssid": "网络名称 (SSID)",
+        "password": "密码",
+        "encryption": "加密方式",
+        "hidden": "隐藏网络",
+        "placeholder": "输入网络名称后生成"
+      },
+      "encryptions": {
+        "WPA": "WPA / WPA2",
+        "WEP": "WEP",
+        "nopass": "无密码"
+      },
+      "buttons": {
+        "download": "下载 PNG"
+      }
+    },
+    "audio-cutter": {
+      "metadata": {
+        "title": "音频剪切 - 在线免费剪切 MP3/WAV",
+        "description": "免费在线音频剪切工具。拖动波形选择保留片段，支持 MP3、WAV 等格式，导出 MP3 或 WAV。全程在浏览器中处理，隐私安全。"
+      },
+      "title": "音频剪切",
+      "description": "上传音频文件，在波形上拖动选择要保留的片段，即可导出为 MP3 或 WAV。所有处理都在浏览器本地完成。",
+      "category": "音频工具",
+      "keywords": [
+        "音频剪切",
+        "mp3剪切",
+        "在线剪切音频",
+        "mp3剪辑",
+        "音频裁剪",
+        "音乐剪切工具"
+      ],
+      "faqs": [
+        {
+          "question": "支持哪些音频格式？",
+          "answer": "支持浏览器能解码的任何格式——MP3、WAV、OGG、M4A、FLAC 等。剪切结果导出为 MP3 或 WAV。"
+        },
+        {
+          "question": "音频会上传到服务器吗？",
+          "answer": "不会。音频在浏览器中通过 WebAssembly 本地解码和处理，文件不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "音频合并",
+          "href": "/tools/audio-merge"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "视频裁剪",
+          "href": "/tools/video-trimmer"
+        }
+      ],
+      "upload": {
+        "drop": "将音频文件拖到此处",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "totalDuration": "总时长",
+        "start": "开始",
+        "end": "结束",
+        "outputFormat": "输出格式",
+        "resultSize": "文件大小"
+      },
+      "buttons": {
+        "cut": "剪切音频",
+        "download": "下载",
+        "reset": "重置"
+      },
+      "errors": {
+        "decode": "无法读取该音频文件，可能已损坏或不支持。",
+        "failed": "剪切失败，请重试。"
+      }
+    },
+    "audio-merge": {
+      "metadata": {
+        "title": "音频合并 - 在线免费合并音频文件",
+        "description": "免费在线音频合并工具。将 MP3、WAV、OGG 等音频文件按任意顺序合并成一首，导出 MP3 或 WAV。隐私安全，全程在浏览器中处理。"
+      },
+      "title": "音频合并",
+      "description": "上传多段音频，按想要的顺序排列，然后合并成一首 MP3 或 WAV。所有处理都在浏览器本地完成。",
+      "category": "音频工具",
+      "keywords": [
+        "音频合并",
+        "合并mp3",
+        "音频拼接",
+        "音乐合并",
+        "多段音频合并",
+        "在线合并音频"
+      ],
+      "faqs": [
+        {
+          "question": "可以合并不同格式的文件吗？",
+          "answer": "可以。MP3、WAV、OGG、M4A 等格式可以混用——合并前每段都会统一参数，最终导出为 MP3 或 WAV。"
+        },
+        {
+          "question": "输出顺序如何决定？",
+          "answer": "文件按列表中的顺序依次合并。合并前可以用上下箭头调整顺序。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "音频剪切",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "视频合并",
+          "href": "/tools/video-joiner"
+        }
+      ],
+      "upload": {
+        "drop": "将音频文件拖到此处（支持多个）",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "count": "待合并文件：{count} 个",
+        "outputFormat": "输出格式",
+        "resultSize": "文件大小"
+      },
+      "buttons": {
+        "merge": "合并音频",
+        "download": "下载",
+        "reset": "重置"
+      },
+      "errors": {
+        "failed": "合并失败，部分文件可能不受支持或已损坏。"
+      }
+    },
+    "audio-player": {
+      "metadata": {
+        "title": "音频播放器 - 在线波形查看与试听",
+        "description": "免费在线音频播放器，带波形可视化。上传音频文件即可查看波形、时长、采样率与声道，并即时播放。"
+      },
+      "title": "音频播放",
+      "description": "上传音频文件，查看波形、时长、采样率和声道数，然后直接在浏览器中试听。所有数据都留在本地。",
+      "category": "音频工具",
+      "keywords": [
+        "音频播放",
+        "音频波形",
+        "波形查看",
+        "在线播放音频",
+        "音频可视化",
+        "mp3播放器"
+      ],
+      "faqs": [
+        {
+          "question": "如何在这里试听音频？",
+          "answer": "拖入或选择音频文件即可。波形会自动绘制，点击播放按钮即可试听——无需上传、无需注册。"
+        },
+        {
+          "question": "支持哪些音频格式？",
+          "answer": "支持浏览器能解码的所有格式：MP3、WAV、OGG、M4A、FLAC 等。文件不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "音频剪切",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "视频转文字",
+          "href": "/tools/video-transcript"
+        }
+      ],
+      "upload": {
+        "drop": "将音频文件拖到此处",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "duration": "时长",
+        "sampleRate": "采样率",
+        "channels": "声道"
+      },
+      "buttons": {
+        "play": "播放",
+        "pause": "暂停"
+      },
+      "errors": {
+        "decode": "无法读取该音频文件，可能已损坏或不支持。"
+      }
+    },
+    "hz": {
+      "metadata": {
+        "title": "频率音频生成器 - 免费正弦波与声音生成",
+        "description": "免费在线音频生成器。在 20 Hz – 20 kHz 范围内生成正弦波、方波、锯齿波或三角波，可调节时长与音量，试听后下载为 WAV 文件。"
+      },
+      "title": "频率音频生成器",
+      "description": "在 20 Hz 至 20 kHz 之间生成任意频率的纯音。选择波形、频率、时长和音量，试听效果后即可下载 WAV 文件。",
+      "category": "音频工具",
+      "keywords": [
+        "音频发生器",
+        "正弦波生成",
+        "频率生成器",
+        "音频测试音",
+        "440hz声音",
+        "声音频率生成"
+      ],
+      "faqs": [
+        {
+          "question": "这个工具有什么用途？",
+          "answer": "用于生成精确频率的测试音——测试音箱、校准音频设备、乐器调音或检测听力范围都非常方便。"
+        },
+        {
+          "question": "支持什么频率范围？",
+          "answer": "支持 20 Hz（深沉低音）到 20 kHz（极高频）之间的任意频率。下载的 WAV 以 44.1 kHz 采样率生成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "白噪音生成器",
+          "href": "/tools/white-noise"
+        },
+        {
+          "name": "文字转语音",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "waveform": "波形",
+        "frequency": "频率",
+        "duration": "时长",
+        "amplitude": "音量",
+        "placeholder": "生成音频后可在此试听"
+      },
+      "waveforms": {
+        "sine": "正弦波",
+        "square": "方波",
+        "sawtooth": "锯齿波",
+        "triangle": "三角波"
+      },
+      "buttons": {
+        "generate": "生成音频",
+        "download": "下载 WAV"
+      },
+      "errors": {
+        "failed": "生成失败，请重试。"
+      }
+    },
+    "white-noise": {
+      "metadata": {
+        "title": "白噪音生成器 - 免费助眠专注声音",
+        "description": "免费在线白噪音生成器。生成白噪音、粉红噪音或棕噪音，用于助眠、学习或掩盖环境噪音。可选择时长与音量，下载为 WAV 文件。"
+      },
+      "title": "白噪音生成器",
+      "description": "在浏览器中直接生成白噪音、粉红噪音或棕噪音。选择噪音类型、时长和音量，试听后即可下载为 WAV 文件。",
+      "category": "音频工具",
+      "keywords": [
+        "白噪音生成器",
+        "粉红噪音",
+        "棕噪音",
+        "助眠噪音",
+        "白噪音助眠",
+        "在线噪音生成"
+      ],
+      "faqs": [
+        {
+          "question": "白噪音、粉红噪音和棕噪音有什么区别？",
+          "answer": "白噪音类似静电声，各频率能量均匀。粉红噪音更深沉柔和，棕噪音则更低频，类似远处的雷声或瀑布声。"
+        },
+        {
+          "question": "生成的噪音可以用来做什么？",
+          "answer": "常用于助眠、学习、集中注意力或掩盖环境噪音。你可以试听效果，并下载为 WAV 文件离线使用。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "频率音频生成",
+          "href": "/tools/hz"
+        },
+        {
+          "name": "文字转语音",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "type": "噪音类型",
+        "duration": "时长",
+        "amplitude": "音量",
+        "placeholder": "生成噪音后可在此试听"
+      },
+      "types": {
+        "white": "白噪音",
+        "pink": "粉红噪音",
+        "brown": "棕噪音"
+      },
+      "buttons": {
+        "generate": "生成噪音",
+        "download": "下载 WAV"
+      },
+      "errors": {
+        "failed": "生成失败，请重试。"
+      }
+    },
+    "alarm": {
+      "metadata": {
+        "title": "闹钟 - 在线设置闹钟",
+        "description": "免费在线闹钟，可设置指定时刻闹钟或 N 分钟后提醒，到点响铃。全程在浏览器本地完成。"
+      },
+      "title": "闹钟",
+      "description": "设置一个在指定时间或 N 分钟后响铃的闹钟，时间到时会播放提示音提醒你。",
+      "category": "生活工具",
+      "keywords": [
+        "闹钟",
+        "在线闹钟",
+        "设置闹钟",
+        "起床闹钟",
+        "定时提醒",
+        "闹钟提醒"
+      ],
+      "faqs": [
+        {
+          "question": "页面打开时闹钟才会响吗？",
+          "answer": "是的，闹钟只在当前标签页运行时才会响。请保持页面打开，或使用设备自带闹钟获得更可靠的提醒。"
+        },
+        {
+          "question": "可以先试听铃声吗？",
+          "answer": "可以。设置前先用「试听声音」按钮确认音量。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "在线时钟",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "倒计时",
+          "href": "/tools/countdown-timer"
+        },
+        {
+          "name": "世界时钟",
+          "href": "/tools/world-clock"
+        }
+      ],
+      "labels": {
+        "ringing": "闹钟响了！",
+        "countdown": "响铃倒计时",
+        "placeholder": "请在下方设置时间或分钟"
+      },
+      "buttons": {
+        "setTime": "设置定时闹钟",
+        "setMinutes": "设置分钟闹钟",
+        "stop": "停止",
+        "testSound": "试听声音"
+      }
+    },
+    "answer-book": {
+      "metadata": {
+        "title": "答案之书 - 在线随机答案",
+        "description": "免费在线答案之书。心中默念问题，点击书籍即可获得随机答案，有趣又私密。全程在浏览器本地完成。"
+      },
+      "title": "答案之书",
+      "description": "在脑海中默念一个是否类问题，点击书页即可获得随机答案。一种有趣的做决定方式。",
+      "category": "生活工具",
+      "keywords": [
+        "答案之书",
+        "随机答案",
+        "魔法书",
+        "是否答案",
+        "决策工具",
+        "占卜书"
+      ],
+      "faqs": [
+        {
+          "question": "这是真正的占卜吗？",
+          "answer": "不是，答案完全随机。请把它当作有趣的决策辅助，而非预测。"
+        },
+        {
+          "question": "可以重复提问吗？",
+          "answer": "可以，点击多少次都行，每次都会得到新的随机答案。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "抛硬币",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "随机抽签",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "掷骰子",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "ask": "心中默念问题，然后点击书籍",
+        "hint": "点击书籍获得答案"
+      },
+      "buttons": {}
+    },
+    "bank-card-validate": {
+      "metadata": {
+        "title": "银行卡校验 - Luhn 算法在线校验",
+        "description": "免费在线银行卡号校验工具，使用 Luhn 算法检测卡号是否符合校验规则。全程在浏览器本地完成。"
+      },
+      "title": "银行卡校验",
+      "description": "输入卡号，检测它是否通过 Luhn 校验和——这是支付网络用于发现输入错误的方法。",
+      "category": "生活工具",
+      "keywords": [
+        "银行卡校验",
+        "luhn算法",
+        "卡号校验",
+        "信用卡校验",
+        "银行卡验证",
+        "luhn校验"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 Luhn 算法？",
+          "answer": "支付卡用于发现数字输入错误的简单校验和公式。它只验证号码结构，不验证卡是否存在。"
+        },
+        {
+          "question": "卡号会被保存吗？",
+          "answer": "不会。所有处理都在浏览器本地完成，不会发送或保存任何数据。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "随机密码",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "哈希生成",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "二维码生成",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "placeholder": "输入银行卡号（可含空格）",
+        "valid": "该号码通过 Luhn 校验",
+        "invalid": "该号码未通过 Luhn 校验",
+        "luhnNote": "Luhn 只校验校验和，不能确认卡真实存在。"
+      },
+      "buttons": {
+        "validate": "校验"
+      }
+    },
+    "blood-type": {
+      "metadata": {
+        "title": "血型遗传 - 子女可能的血型",
+        "description": "免费在线血型遗传计算器，选择父母 ABO 血型即可查看子女可能和不可能的血型。全程在浏览器本地完成。"
+      },
+      "title": "血型遗传",
+      "description": "选择父亲与母亲的 ABO 血型，立即查看子女可能的血型以及不可能出现的血型。",
+      "category": "生活工具",
+      "keywords": [
+        "血型遗传",
+        "子女血型",
+        "血型计算",
+        "ABO遗传",
+        "父母血型",
+        "血型预测"
+      ],
+      "faqs": [
+        {
+          "question": "为什么有些血型不可能？",
+          "answer": "血型遵循 A、B、O 等位基因的孟德尔遗传规律，综合父母可能的基因型后可排除部分血型。"
+        },
+        {
+          "question": "这是医学建议吗？",
+          "answer": "不是。它只是通用的遗传学表格，重要情况请咨询医生或遗传学专家。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "身高预测",
+          "href": "/tools/height-predict"
+        },
+        {
+          "name": "BMI计算",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "怀孕计算",
+          "href": "/tools/pregnancy-calculator"
+        }
+      ],
+      "labels": {
+        "father": "父亲",
+        "mother": "母亲",
+        "possible": "子女可能血型",
+        "impossible": "子女不可能血型"
+      },
+      "buttons": {}
+    },
+    "calendar": {
+      "metadata": {
+        "title": "全年日历 - 在线生成全年日历图片",
+        "description": "免费在线全年日历生成器，将 12 个月渲染为一张 PNG 图片，周末高亮，可下载打印。全程在浏览器本地完成。"
+      },
+      "title": "全年日历",
+      "description": "选择年份，将全年 12 个月绘制在同一张画布上。周末高亮显示，可下载为 PNG 图片。",
+      "category": "生活工具",
+      "keywords": [
+        "全年日历",
+        "日历生成器",
+        "打印日历",
+        "年历",
+        "日历图片",
+        "电子日历"
+      ],
+      "faqs": [
+        {
+          "question": "可以选任意年份吗？",
+          "answer": "可以。输入任意年份即可自动生成正确的月份布局，包含闰年处理。"
+        },
+        {
+          "question": "可以打印吗？",
+          "answer": "可以。下载 PNG 后即可打印，也可以用作壁纸或计划表。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "星期查询",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "第几天",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "日期计算",
+          "href": "/tools/date-calculator"
+        }
+      ],
+      "labels": {},
+      "buttons": {
+        "render": "生成日历",
+        "download": "下载 PNG"
+      }
+    },
+    "click-speed": {
+      "metadata": {
+        "title": "点击速度测试 - 10 秒 CPS 测试",
+        "description": "免费点击速度测试，10 秒挑战测出你的每秒点击数（CPS），并记录最佳成绩。全程在浏览器本地完成。"
+      },
+      "title": "点击速度测试",
+      "description": "10 秒挑战：以最快速度点击，测出每秒点击数（CPS）。本次会话会记录你的最佳成绩。",
+      "category": "生活工具",
+      "keywords": [
+        "点击速度测试",
+        "cps测试",
+        "每秒点击数",
+        "连点测试",
+        "鼠标点击速度",
+        "10秒点击测试"
+      ],
+      "faqs": [
+        {
+          "question": "多少 CPS 算快？",
+          "answer": "普通人约为 5-7 CPS，熟练玩家可通过抖动点击达到 10+ CPS。"
+        },
+        {
+          "question": "一次测试多久？",
+          "answer": "每轮 10 秒，想测多少次都可以。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "舒尔特方格",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "打字速度测试",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "timeLeft": "剩余时间",
+        "clicks": "点击数",
+        "cps": "CPS",
+        "click": "点击！",
+        "best": "最佳"
+      },
+      "buttons": {
+        "start": "开始"
+      }
+    },
+    "coin-flip": {
+      "metadata": {
+        "title": "抛硬币 - 在线虚拟抛硬币",
+        "description": "在线虚拟抛硬币，记录正反面统计次数，可用于决策或练习。所有操作都在浏览器本地完成。"
+      },
+      "title": "抛硬币",
+      "description": "一键抛掷虚拟硬币，计数器会记录正反面次数，方便观察分布情况。",
+      "category": "生活工具",
+      "keywords": [
+        "抛硬币",
+        "掷硬币",
+        "硬币正反面",
+        "随机硬币",
+        "抛硬币决定",
+        "在线硬币"
+      ],
+      "faqs": [
+        {
+          "question": "硬币公平吗？",
+          "answer": "公平。结果由安全的随机数生成器产生，正反面概率各占一半。"
+        },
+        {
+          "question": "抛掷次数有限制吗？",
+          "answer": "没有限制，可以一直抛，累计次数始终可见。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "掷骰子",
+          "href": "/tools/dice-roller"
+        },
+        {
+          "name": "随机抽签",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "名单随机分组",
+          "href": "/tools/group-randomizer"
+        }
+      ],
+      "labels": {
+        "result": "结果",
+        "heads": "正面",
+        "tails": "反面",
+        "headsCount": "正面",
+        "tailsCount": "反面",
+        "total": "总次数"
+      },
+      "buttons": {
+        "flip": "抛硬币",
+        "reset": "重置"
+      }
+    },
+    "color-blindness-test": {
+      "metadata": {
+        "title": "色盲测试 - 在线石原式色觉自测",
+        "description": "免费在线色盲自测：石原式色觉测试图中隐藏着数字，尝试读出即可。仅作快速筛查，不能替代医学诊断。全程在浏览器本地完成。"
+      },
+      "title": "色盲测试",
+      "description": "数字隐藏在石原式色觉测试图中。尝试读出每个数字并核对答案，仅作快速自测。",
+      "category": "生活工具",
+      "keywords": [
+        "色盲测试",
+        "石原测试",
+        "色觉测试",
+        "色弱测试",
+        "色盲自测",
+        "色觉检查"
+      ],
+      "faqs": [
+        {
+          "question": "这个能诊断色盲吗？",
+          "answer": "不能。它只是基于石原式的趣味自测，真实诊断请咨询眼科专业人士。"
+        },
+        {
+          "question": "使用哪些色板？",
+          "answer": "工具会生成红绿与绿红两种图板，常用于筛查红绿色觉异常。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "听力测试",
+          "href": "/tools/hearing-test"
+        },
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "舒尔特方格",
+          "href": "/tools/schulte-grid"
+        }
+      ],
+      "labels": {
+        "none": "看不到数字",
+        "correct": "正确！",
+        "wrong": "不正确",
+        "score": "得分",
+        "hint": "屏幕颜色可能存在偏差，本测试不能作为诊断依据"
+      },
+      "buttons": {
+        "next": "下一张"
+      }
+    },
+    "date-calculator": {
+      "metadata": {
+        "title": "日期计算器 - 日期差与日期推算",
+        "description": "免费在线日期计算器：计算两个日期相差的天数、周数与月数，或给指定日期加/减天数。全程在浏览器本地完成。"
+      },
+      "title": "日期计算器",
+      "description": "两种实用模式：计算两个日期之间相差的天数、周数和月数；或为指定日期加上（减去）若干天。",
+      "category": "生活工具",
+      "keywords": [
+        "日期计算器",
+        "日期差",
+        "天数计算",
+        "日期推算",
+        "加天数",
+        "计算日期"
+      ],
+      "faqs": [
+        {
+          "question": "月数是怎么计算的？",
+          "answer": "月数按平均月长（约 30.44 天）计算，用于规划场景足够准确。"
+        },
+        {
+          "question": "可以减去天数吗？",
+          "answer": "可以。输入负数天数即可从起始日期向前推算。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "星期查询",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "第几天",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "保质期计算",
+          "href": "/tools/expiration"
+        }
+      ],
+      "labels": {
+        "days": "天",
+        "weeks": "周",
+        "months": "个月"
+      },
+      "buttons": {
+        "calculate": "计算"
+      },
+      "modes": {
+        "diff": "日期差",
+        "add": "加天数"
+      }
+    },
+    "day-of-week": {
+      "metadata": {
+        "title": "星期查询 - 任意日期是星期几",
+        "description": "免费在线星期查询工具，选择任意日期即可立即查看它是星期几，支持历史与未来日期。全程在浏览器本地完成。"
+      },
+      "title": "星期查询",
+      "description": "选择任意日期，即可查看它是星期几——无论是今天、过去的生日，还是未来的节日。",
+      "category": "生活工具",
+      "keywords": [
+        "星期查询",
+        "星期几",
+        "星期计算",
+        "日期星期",
+        "查询星期",
+        "日历星期"
+      ],
+      "faqs": [
+        {
+          "question": "可以查询历史日期吗？",
+          "answer": "可以。任意日期都支持，从古代到遥远的未来都可以。"
+        },
+        {
+          "question": "闰年处理正确吗？",
+          "answer": "正确。计算使用格里高利历规则，包含闰年处理。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "第几天",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "日期计算",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "全年日历",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "result": "这一天是"
+      },
+      "buttons": {
+        "calculate": "查询"
+      }
+    },
+    "day-of-year": {
+      "metadata": {
+        "title": "第几天 - 查询今天是当年的第几天",
+        "description": "免费在线第几天查询工具，可查看任意日期是当年的第几天、全年天数与剩余天数。全程在浏览器本地完成。"
+      },
+      "title": "第几天",
+      "description": "选择日期，查看它是当年的第几天、该年总天数以及还剩多少天。",
+      "category": "生活工具",
+      "keywords": [
+        "第几天",
+        "年度日序",
+        "一年中的第几天",
+        "全年天数",
+        "剩余天数",
+        "日序号"
+      ],
+      "faqs": [
+        {
+          "question": "什么是当年第几天？",
+          "answer": "即该日在一年中的序号——1 月 1 日是第 1 天，平年 2 月 1 日是第 32 天。"
+        },
+        {
+          "question": "闰年处理正确吗？",
+          "answer": "正确。闰年显示 366 天，并计入 2 月 29 日。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "星期查询",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "日期计算",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "全年日历",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "dayOfYear": "当年第几天",
+        "totalDays": "全年天数",
+        "daysLeft": "剩余天数"
+      },
+      "buttons": {
+        "calculate": "查询"
+      }
+    },
+    "dice-roller": {
+      "metadata": {
+        "title": "掷骰子 - 在线掷 1-10 个骰子",
+        "description": "免费在线掷骰子工具，支持 1-10 个骰子，真实骰面并即时计算总和。全程在浏览器本地完成。"
+      },
+      "title": "掷骰子",
+      "description": "选择要掷的骰子数量（1-10 个），即可查看每个骰面与总和，适合桌游和跑团使用。",
+      "category": "生活工具",
+      "keywords": [
+        "掷骰子",
+        "骰子",
+        "在线骰子",
+        "骰子模拟",
+        "桌面游戏骰子",
+        "投骰子"
+      ],
+      "faqs": [
+        {
+          "question": "一次能掷多少个骰子？",
+          "answer": "每次可掷 1 到 10 个，且不限次数。"
+        },
+        {
+          "question": "结果是随机的吗？",
+          "answer": "是。每个骰子使用安全随机数生成器，每个骰面概率均等。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "抛硬币",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "随机数生成",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "随机抽签",
+          "href": "/tools/random-picker"
+        }
+      ],
+      "labels": {
+        "total": "总和",
+        "diceCount": "骰子数量"
+      },
+      "buttons": {
+        "roll": "掷骰子",
+        "reset": "重置"
+      }
+    },
+    "expiration": {
+      "metadata": {
+        "title": "保质期计算 - 根据生产日期计算过期日",
+        "description": "免费在线保质期计算工具，输入生产日期与保质期天数即可得到过期日期与剩余天数。全程在浏览器本地完成。"
+      },
+      "title": "保质期计算",
+      "description": "输入生产日期与保质期天数，立即得到过期日期以及距离过期还剩多少天。",
+      "category": "生活工具",
+      "keywords": [
+        "保质期计算",
+        "过期日期",
+        "保质期",
+        "有效期计算",
+        "过期时间",
+        "生产日期"
+      ],
+      "faqs": [
+        {
+          "question": "计算结果可靠吗？",
+          "answer": "它只是基于你输入的保质期做日期计算。实际请以产品包装上的官方日期为准。"
+        },
+        {
+          "question": "可以用月数吗？",
+          "answer": "请按天数输入，例如 90 天约等于 3 个月。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "日期计算",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "第几天",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "星期查询",
+          "href": "/tools/day-of-week"
+        }
+      ],
+      "labels": {
+        "producedAt": "生产日期",
+        "shelfLife": "保质期",
+        "days": "天",
+        "expiresAt": "过期日期",
+        "daysLeft": "剩余天数",
+        "expiredDays": "已过期 {count, plural, =1 {1 天} other {# 天}}"
+      },
+      "buttons": {
+        "calculate": "计算"
+      }
+    },
+    "hearing-test": {
+      "metadata": {
+        "title": "听力测试 - 测出你的最高可听频率",
+        "description": "免费在线听力测试：播放 125Hz 到 16kHz 的纯音，找出你能听到的最高频率。建议佩戴耳机测试。全程在浏览器本地完成。"
+      },
+      "title": "听力测试",
+      "description": "播放 125Hz 到 16kHz 共 9 个频率的纯音，标记能听到的频率，找出你的耳朵可听到的最高频率。",
+      "category": "生活工具",
+      "keywords": [
+        "听力测试",
+        "频率测试",
+        "听力范围",
+        "纯音测试",
+        "可听频率",
+        "耳朵测试"
+      ],
+      "faqs": [
+        {
+          "question": "应该如何测试？",
+          "answer": "在安静环境佩戴耳机，音量保持舒适、切勿过大。逐个播放频率并如实标记是否听到。"
+        },
+        {
+          "question": "这是医学听力测试吗？",
+          "answer": "不是。它只是可听频率范围的快速自测，专业评估请咨询听力专家。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "色盲测试",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "频率发生器",
+          "href": "/tools/hz"
+        }
+      ],
+      "labels": {
+        "range": "最高可听频率",
+        "hint": "建议在安静环境佩戴耳机测试"
+      },
+      "buttons": {
+        "heard": "能听到",
+        "notHeard": "听不到"
+      }
+    },
+    "height-predict": {
+      "metadata": {
+        "title": "身高预测 - 根据父母身高估算孩子身高",
+        "description": "免费在线身高预测工具，输入父母身高与孩子性别即可用常见公式估算成年身高。全程在浏览器本地完成。"
+      },
+      "title": "身高预测",
+      "description": "输入父亲与母亲的身高以及孩子性别，使用常见预测公式估算孩子的成年身高。",
+      "category": "生活工具",
+      "keywords": [
+        "身高预测",
+        "孩子身高",
+        "身高计算",
+        "预测身高",
+        "父母身高",
+        "身高估算"
+      ],
+      "faqs": [
+        {
+          "question": "准确吗？",
+          "answer": "使用父母中位身高公式进行估算，实际身高还受遗传、营养与健康等因素影响。"
+        },
+        {
+          "question": "这是医学建议吗？",
+          "answer": "不是，只是科普性估算。有生长发育疑问请咨询儿科医生。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "血型遗传",
+          "href": "/tools/blood-type"
+        },
+        {
+          "name": "BMI计算",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "理想体重",
+          "href": "/tools/ideal-weight-calculator"
+        }
+      ],
+      "labels": {
+        "father": "父亲身高",
+        "mother": "母亲身高",
+        "estimate": "预估成年身高"
+      },
+      "buttons": {
+        "calculate": "计算"
+      },
+      "genders": {
+        "boy": "男孩",
+        "girl": "女孩"
+      }
+    },
+    "keycode": {
+      "metadata": {
+        "title": "按键码查询 - 在线识别键盘按键",
+        "description": "免费在线按键码查询工具，按下任意按键即可查看 event.key、event.code、keyCode 与位置信息，方便开发者调试。全程在浏览器本地完成。"
+      },
+      "title": "按键码查询",
+      "description": "按下键盘上的任意按键，即可查看它的 key、code、keyCode 与位置信息，是 Web 开发者的常用参考工具。",
+      "category": "生活工具",
+      "keywords": [
+        "按键码",
+        "keycode",
+        "按键测试",
+        "键盘事件",
+        "按键值查询",
+        "javascript按键"
+      ],
+      "faqs": [
+        {
+          "question": "key 和 code 有什么区别？",
+          "answer": "key 是产生的字符（如 \"a\" 或 \"A\"），code 是物理按键位置（如 \"KeyA\"），与输入法布局无关。"
+        },
+        {
+          "question": "需要安装任何东西吗？",
+          "answer": "不需要。所有功能都在浏览器本地运行，不会上传任何数据。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "打字速度测试",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "字数统计",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        }
+      ],
+      "labels": {
+        "key": "按键",
+        "code": "代码",
+        "location": "位置",
+        "pressAny": "请按下任意按键…"
+      },
+      "buttons": {}
+    },
+    "monte-carlo-pi": {
+      "metadata": {
+        "title": "蒙特卡洛圆周率 - 用随机点估算 π",
+        "description": "通过向正方形内随机撒点，统计落入四分之一圆的点数来估算圆周率，可视化演示有趣又直观。全程在浏览器本地完成。"
+      },
+      "title": "蒙特卡洛圆周率",
+      "description": "向正方形随机撒点，统计落在四分之一圆内的比例。该比例趋近 π/4，由此估算圆周率 π。",
+      "category": "生活工具",
+      "keywords": [
+        "蒙特卡洛圆周率",
+        "估算圆周率",
+        "圆周率模拟",
+        "随机撒点",
+        "蒙特卡洛方法",
+        "圆周率近似"
+      ],
+      "faqs": [
+        {
+          "question": "为什么这样能算出圆周率？",
+          "answer": "四分之一圆占正方形的 π/4。随机点足够多时，落入圆内的比例趋近 π/4，从而估算出 π。"
+        },
+        {
+          "question": "精度有多高？",
+          "answer": "精度随点数增加而提高。20 万点时通常可精确到 2-3 位小数。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "圆周率查询",
+          "href": "/tools/pi-digits"
+        },
+        {
+          "name": "随机数生成",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "掷骰子",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "points": "点数",
+        "estimate": "π 估算值",
+        "inside": "圆内点数",
+        "accuracy": "精度"
+      },
+      "buttons": {
+        "run": "运行模拟"
+      }
+    },
+    "online-clock": {
+      "metadata": {
+        "title": "在线时钟 - 当前时间与 Unix 时间戳",
+        "description": "免费在线时钟，显示当前时间、实时 Unix 时间戳和 ISO 时间，每秒自动刷新，适合作为时间参考。全程在浏览器本地完成。"
+      },
+      "title": "在线时钟",
+      "description": "实时时钟显示精确到秒的当前时间，以及 Unix 时间戳和 ISO 8601 时间，方便开发者与时间参照。",
+      "category": "生活工具",
+      "keywords": [
+        "在线时钟",
+        "当前时间",
+        "unix时间戳",
+        "iso时间",
+        "实时时钟",
+        "网络时钟"
+      ],
+      "faqs": [
+        {
+          "question": "Unix 时间戳有什么用？",
+          "answer": "Unix 时间戳是从 1970-01-01 UTC 起经过的秒数，常用于 API、数据库和脚本中表示无歧义的时间值。"
+        },
+        {
+          "question": "显示的是本地时间吗？",
+          "answer": "是的，时钟显示你设备的本地时间，并每秒更新。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "世界时钟",
+          "href": "/tools/world-clock"
+        },
+        {
+          "name": "时间戳转换",
+          "href": "/tools/timestamp-converter"
+        },
+        {
+          "name": "闹钟",
+          "href": "/tools/alarm"
+        }
+      ],
+      "labels": {
+        "unix": "Unix 时间戳",
+        "iso": "ISO 时间"
+      },
+      "buttons": {}
+    },
+    "pi-digits": {
+      "metadata": {
+        "title": "圆周率查询 - 在线生成与搜索圆周率",
+        "description": "在浏览器中生成最多 10 万位圆周率，可搜索数字序列并下载为文本文件。全程本地计算，无需服务器。"
+      },
+      "title": "圆周率查询",
+      "description": "使用 spigot 算法在浏览器中生成 10 到 10 万位圆周率，并可在结果中搜索任意数字序列。",
+      "category": "生活工具",
+      "keywords": [
+        "圆周率",
+        "圆周率查询",
+        "π搜索",
+        "圆周率计算",
+        "π位数",
+        "圆周率数字"
+      ],
+      "faqs": [
+        {
+          "question": "数字是如何生成的？",
+          "answer": "使用 BigInt spigot 算法在浏览器中实时计算，无需服务器或数据库。"
+        },
+        {
+          "question": "最多能生成多少位？",
+          "answer": "每次可生成 10 到 10 万位，更大的请求需要几秒钟。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "蒙特卡洛圆周率",
+          "href": "/tools/monte-carlo-pi"
+        },
+        {
+          "name": "哈希生成",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "随机数生成",
+          "href": "/tools/random-number-generator"
+        }
+      ],
+      "labels": {
+        "digits": "位数",
+        "searchPlaceholder": "搜索数字序列…",
+        "notFound": "未找到",
+        "found": "首次出现位置"
+      },
+      "buttons": {
+        "generate": "生成",
+        "search": "搜索",
+        "download": "下载 .txt"
+      }
+    },
+    "random-picker": {
+      "metadata": {
+        "title": "随机抽签 - 在线随机抽取名字",
+        "description": "免费在线随机抽签工具，输入名单后可随机抽取一个或多个名字，适合课堂点名、抽奖等场景。全程在浏览器本地完成。"
+      },
+      "title": "随机抽签",
+      "description": "粘贴名单并选择抽取数量，即可随机抽取中奖者。适合课堂点名、抽奖和幸运抽选。",
+      "category": "生活工具",
+      "keywords": [
+        "随机抽签",
+        "随机点名",
+        "抽签工具",
+        "名字抽取",
+        "抽奖",
+        "点名器"
+      ],
+      "faqs": [
+        {
+          "question": "可以一次抽取多个名字吗？",
+          "answer": "可以。设置抽取数量即可，且会自动避免重复。"
+        },
+        {
+          "question": "抽取公平吗？",
+          "answer": "公平。名字由安全随机数生成器选取。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "名单随机分组",
+          "href": "/tools/group-randomizer"
+        },
+        {
+          "name": "抛硬币",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "掷骰子",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "list": "名单",
+        "placeholder": "输入名单，每行一个（也支持逗号、分号、Tab）",
+        "count": "抽取数量",
+        "result": "抽取结果"
+      },
+      "buttons": {
+        "pick": "随机抽取"
+      }
+    },
+    "reaction-time": {
+      "metadata": {
+        "title": "反应速度测试 - 在线测试你的反应力",
+        "description": "免费在线反应速度测试。等屏幕变绿后立即点击，记录你的最佳和平均反应时间。全程在浏览器本地完成。"
+      },
+      "title": "反应速度测试",
+      "description": "经典反应测试：等屏幕变绿后立即点击。系统会记录最近 10 次结果并计算最佳与平均时间。",
+      "category": "生活工具",
+      "keywords": [
+        "反应速度测试",
+        "反应力测试",
+        "反应时间",
+        "反射测试",
+        "反应测试",
+        "人类基准测试"
+      ],
+      "faqs": [
+        {
+          "question": "多少反应时间算快？",
+          "answer": "人类平均反应时间约为 250 毫秒，顶级运动员可低于 200 毫秒。"
+        },
+        {
+          "question": "为什么要等变绿？",
+          "answer": "随机延迟可以防止你提前预判，从而测出真实反应时间。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "点击速度测试",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "舒尔特方格",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "按键码查询",
+          "href": "/tools/keycode"
+        }
+      ],
+      "labels": {
+        "clickNow": "立即点击！",
+        "wait": "等待变绿…",
+        "tooSoon": "点早了！再试一次",
+        "result": "毫秒",
+        "best": "最佳",
+        "average": "平均",
+        "attempts": "次数"
+      },
+      "buttons": {}
+    },
+    "schulte-grid": {
+      "metadata": {
+        "title": "舒尔特方格 - 在线注意力训练",
+        "description": "免费在线舒尔特方格训练器，按从小到大的顺序点击 1-N 数字，训练周边视觉与专注力。全程在浏览器本地完成。"
+      },
+      "title": "舒尔特方格",
+      "description": "经典的注意力训练方格：1-N 的数字被打乱排列，按升序尽快点击即可。",
+      "category": "生活工具",
+      "keywords": [
+        "舒尔特方格",
+        "注意力训练",
+        "专注力训练",
+        "周边视觉",
+        "舒尔特表",
+        "脑力训练"
+      ],
+      "faqs": [
+        {
+          "question": "支持哪些规格？",
+          "answer": "从 3×3（1-9）到 8×8（1-64），建议从小规格开始，随水平提高逐渐加大。"
+        },
+        {
+          "question": "怎样才能更快？",
+          "answer": "坚持练习可以提升周边视觉与视觉扫描速度。记录最佳时间并不断挑战。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "点击速度测试",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "打字速度测试",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "size": "方格规格",
+        "time": "用时",
+        "best": "最佳",
+        "next": "下一个"
+      },
+      "buttons": {
+        "start": "开始"
+      }
+    },
+    "text-reader": {
+      "metadata": {
+        "title": "文本阅读 - 大字舒适排版阅读",
+        "description": "免费在线文本阅读器，粘贴任意文本即可进入干净大字阅读模式，支持调节字号与行距。全程在浏览器本地完成。"
+      },
+      "title": "文本阅读",
+      "description": "粘贴任意文本，切换到阅读模式：干净的排版，可调节字号与行距，阅读更舒适。",
+      "category": "生活工具",
+      "keywords": [
+        "文本阅读",
+        "大字阅读",
+        "阅读模式",
+        "舒适阅读",
+        "文本查看",
+        "阅读器"
+      ],
+      "faqs": [
+        {
+          "question": "可以调节文字大小吗？",
+          "answer": "可以。字号可在 12px 到 40px、行距在 1.2 到 2.6 之间用滑块调节。"
+        },
+        {
+          "question": "文本会被保存吗？",
+          "answer": "不会。一切都在浏览器标签页内完成，不会上传或保存。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "文字转语音",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "字数统计",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "文字倒序",
+          "href": "/tools/reverse-text"
+        }
+      ],
+      "labels": {
+        "placeholder": "在此粘贴或输入文本…",
+        "fontSize": "字号",
+        "lineHeight": "行距",
+        "empty": "粘贴一些文本即可开始阅读"
+      },
+      "buttons": {
+        "read": "开始阅读",
+        "hide": "返回编辑"
+      }
+    },
+    "text-to-image": {
+      "metadata": {
+        "title": "文字转图片 - 在线将文字渲染为 PNG",
+        "description": "免费在线文字转图片工具，可将多行文字渲染为 PNG 图片，支持自定义字号、颜色、背景与内边距。全程在浏览器本地完成。"
+      },
+      "title": "文字转图片",
+      "description": "输入或粘贴多行文字，渲染为 PNG 图片。可调整字号、文字颜色、背景色与内边距，最后下载结果。",
+      "category": "生活工具",
+      "keywords": [
+        "文字转图片",
+        "文字转png",
+        "文字图片生成",
+        "制作文字图片",
+        "文字海报",
+        "语录图片生成"
+      ],
+      "faqs": [
+        {
+          "question": "这个工具有什么用？",
+          "answer": "可以制作语录图片、分享文字片段，或生成简单的文字图形用于社交媒体。"
+        },
+        {
+          "question": "可以自定义样式吗？",
+          "answer": "可以。字号、最大宽度、内边距、文字颜色与背景色都可在渲染前调整。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "表情包生成",
+          "href": "/tools/meme-generator"
+        },
+        {
+          "name": "文字Logo",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "图片转Base64",
+          "href": "/tools/image-to-base64"
+        }
+      ],
+      "labels": {
+        "placeholder": "在此输入文字…",
+        "fontSize": "字号",
+        "maxWidth": "最大宽度",
+        "padding": "内边距",
+        "color": "文字颜色",
+        "bgColor": "背景色"
+      },
+      "buttons": {
+        "render": "渲染图片",
+        "download": "下载 PNG"
+      }
+    },
+    "vcf-generator": {
+      "metadata": {
+        "title": "通讯录生成 - 在线生成 VCF 通讯录文件",
+        "description": "免费在线 VCF 生成器，粘贴姓名与手机号列表即可生成 .vcf 通讯录文件，直接导入手机。全程在浏览器本地完成。"
+      },
+      "title": "通讯录生成",
+      "description": "粘贴姓名与手机号列表（每行一个），下载 .vcf 文件即可直接导入手机通讯录。",
+      "category": "生活工具",
+      "keywords": [
+        "vcf生成",
+        "通讯录生成",
+        "vcard生成",
+        "导入通讯录",
+        "vcf文件",
+        "手机通讯录"
+      ],
+      "faqs": [
+        {
+          "question": "如何导入文件？",
+          "answer": "下载 .vcf 后，用手机的文件管理器打开它，通讯录应用会提示导入。"
+        },
+        {
+          "question": "支持什么格式？",
+          "answer": "每行格式：姓名加手机号，用 Tab、逗号或分号分隔。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "二维码生成",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "银行卡校验",
+          "href": "/tools/bank-card-validate"
+        },
+        {
+          "name": "文字转图片",
+          "href": "/tools/text-to-image"
+        }
+      ],
+      "labels": {
+        "placeholder": "姓名, 手机号 —— 每行一个\n张三, 13800138000",
+        "noContact": "未找到有效联系人，请检查格式。",
+        "parsed": "已解析 {count, plural, =1 {1 个} other {# 个}}联系人"
+      },
+      "buttons": {
+        "download": "下载 VCF"
+      }
+    },
+    "web-shortcut": {
+      "metadata": {
+        "title": "网址快捷方式 - 在线生成 .url 文件",
+        "description": "免费在线网址快捷方式生成器，将任意网址转换为 Windows 网络快捷方式文件，可附带图标。全程在浏览器本地完成。"
+      },
+      "title": "网址快捷方式",
+      "description": "输入网址（可选名称与图标），生成 Windows 的 .url 网络快捷方式文件。",
+      "category": "生活工具",
+      "keywords": [
+        "网址快捷方式",
+        "url快捷方式",
+        "生成快捷方式",
+        "网络快捷方式",
+        "url文件",
+        "桌面快捷方式"
+      ],
+      "faqs": [
+        {
+          "question": ".url 文件在哪里用？",
+          "answer": "Windows 将 .url 识别为网络快捷方式，放到桌面或文件夹里双击即可打开网站。"
+        },
+        {
+          "question": "可以加自定义图标吗？",
+          "answer": "可以。输入本地 .ico/.png 路径或图标的网络地址即可附加到快捷方式。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "批量打开网址",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "短链接生成",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "二维码生成",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "name": "快捷方式名称",
+        "namePlaceholder": "我的网站（可选）",
+        "url": "网站地址",
+        "icon": "图标（可选）",
+        "iconPlaceholder": ".ico/.png 图标的路径或网址"
+      },
+      "buttons": {
+        "download": "下载 .url"
+      }
+    },
+    "world-clock": {
+      "metadata": {
+        "title": "世界时钟 - 全球 16 城当前时间",
+        "description": "免费在线世界时钟，显示全球 16 个主要城市的当前时间，每秒自动刷新。全程在浏览器本地完成。"
+      },
+      "title": "世界时钟",
+      "description": "一眼查看全球 16 个主要城市的当前当地时间，每秒自动刷新。",
+      "category": "生活工具",
+      "keywords": [
+        "世界时钟",
+        "时区",
+        "世界时间",
+        "城市时间",
+        "国际时间",
+        "当前时间"
+      ],
+      "faqs": [
+        {
+          "question": "包含哪些城市？",
+          "answer": "覆盖各大洲的 16 个主要城市：伦敦、纽约、洛杉矶、多伦多、圣保罗、柏林、巴黎、莫斯科、迪拜、孟买、新加坡、北京、东京、首尔、悉尼和奥克兰。"
+        },
+        {
+          "question": "时间准确吗？",
+          "answer": "准确。时间基于你设备的时钟，使用官方 IANA 时区数据计算，并每秒刷新。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "在线时钟",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "闹钟",
+          "href": "/tools/alarm"
+        },
+        {
+          "name": "时间戳转换",
+          "href": "/tools/timestamp-converter"
+        }
+      ],
+      "labels": {},
+      "buttons": {}
+    },
+    "zip-viewer": {
+      "metadata": {
+        "title": "ZIP 文件查看 - 在线查看压缩包内容",
+        "description": "免费在线 ZIP 查看器，上传 ZIP 文件即可查看包内所有文件及其大小，无需解压。全程在浏览器本地完成。"
+      },
+      "title": "ZIP 文件查看",
+      "description": "上传 ZIP 压缩包，立即列出包内所有文件及大小，无需解压，也不会向服务器上传任何内容。",
+      "category": "生活工具",
+      "keywords": [
+        "zip查看",
+        "查看压缩包",
+        "zip文件列表",
+        "zip读取",
+        "压缩包查看",
+        "zip内容"
+      ],
+      "faqs": [
+        {
+          "question": "ZIP 会上传到服务器吗？",
+          "answer": "不会。压缩包完全在浏览器中通过 JSZip 解析，文件不会离开你的设备。"
+        },
+        {
+          "question": "可以解压文件吗？",
+          "answer": "本工具只提供列表查看，解压请使用本地压缩软件。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "文件转换",
+          "href": "/tools/document-converter"
+        },
+        {
+          "name": "文件大小",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "labels": {
+        "invalid": "这不是有效的 ZIP 文件。",
+        "loading": "正在读取压缩包…",
+        "count": "共 {count, plural, =1 {1 个} other {# 个}}文件"
+      },
+      "buttons": {
+        "choose": "选择 ZIP 文件"
+      }
+    },
+    "group-randomizer": {
+      "metadata": {
+        "title": "名单随机分组 - 在线随机分组工具",
+        "description": "免费在线名单随机分组工具，支持按组数或每组人数随机分组，一键打乱名单。所有处理都在浏览器本地完成。"
+      },
+      "title": "名单随机分组",
+      "description": "粘贴一份名单，选择按组数还是按每组人数分组，即可一键随机分组成小组。",
+      "category": "生活工具",
+      "keywords": [
+        "随机分组",
+        "名单分组",
+        "分组工具",
+        "随机分组器",
+        "打乱名单分组",
+        "随机分组生成器"
+      ],
+      "faqs": [
+        {
+          "question": "可以粘贴 Excel 里的名单吗？",
+          "answer": "可以。将名单按换行、逗号、分号或 Tab 分隔粘贴即可。"
+        },
+        {
+          "question": "分组公平吗？",
+          "answer": "分配前会先打乱名单，每次运行都会得到不同的随机结果。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "随机抽签",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "抛硬币",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "掷骰子",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "list": "名单",
+        "placeholder": "输入名单，每行一个（也支持逗号、分号、Tab）",
+        "groupName": "第"
+      },
+      "modes": {
+        "byGroups": "按组数",
+        "bySize": "按每组人数"
+      },
+      "buttons": {
+        "group": "随机分组"
       }
     }
   },

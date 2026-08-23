@@ -1,0 +1,268 @@
+{
+  "slug": "day-of-week",
+  "icon": "📆",
+  "home": {
+    "en": {
+      "name": "Day of Week",
+      "description": "Find which weekday any date falls on.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "星期查询",
+      "description": "查询任意日期是星期几。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "曜日計算",
+      "description": "任意の日付が何曜日かを調べます。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "요일 계산",
+      "description": "어떤 날짜가 무슨 요일인지 확인합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "День недели",
+      "description": "Узнайте, на какой день недели выпадает дата.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Day of Week - What Day Is That Date?",
+        "description": "Free online day of week calculator. Pick any date and instantly see the weekday, including historical or future dates. Runs in your browser."
+      },
+      "title": "Day of Week",
+      "description": "Pick any date and find out which day of the week it falls on — today, a past birthday, or a future holiday.",
+      "category": "Life Tools",
+      "keywords": [
+        "day of week",
+        "what day is it",
+        "weekday calculator",
+        "date weekday",
+        "what day is that date",
+        "calendar day"
+      ],
+      "faqs": [
+        {
+          "question": "Can I check historical dates?",
+          "answer": "Yes — any date works, from ancient history to far in the future."
+        },
+        {
+          "question": "Does it handle leap years?",
+          "answer": "Yes, the calculation uses the Gregorian calendar rules including leap years."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Day of Year",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Date Calculator",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "Year Calendar",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "result": "This date is a"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "星期查询 - 任意日期是星期几",
+        "description": "免费在线星期查询工具，选择任意日期即可立即查看它是星期几，支持历史与未来日期。全程在浏览器本地完成。"
+      },
+      "title": "星期查询",
+      "description": "选择任意日期，即可查看它是星期几——无论是今天、过去的生日，还是未来的节日。",
+      "category": "生活工具",
+      "keywords": [
+        "星期查询",
+        "星期几",
+        "星期计算",
+        "日期星期",
+        "查询星期",
+        "日历星期"
+      ],
+      "faqs": [
+        {
+          "question": "可以查询历史日期吗？",
+          "answer": "可以。任意日期都支持，从古代到遥远的未来都可以。"
+        },
+        {
+          "question": "闰年处理正确吗？",
+          "answer": "正确。计算使用格里高利历规则，包含闰年处理。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "第几天",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "日期计算",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "全年日历",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "result": "这一天是"
+      },
+      "buttons": {
+        "calculate": "查询"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "曜日計算 - その日付は何曜日？",
+        "description": "任意の日付の曜日を即座に調べられる無料ツール。過去・未来の日付に対応。ブラウザ内で完結。"
+      },
+      "title": "曜日計算",
+      "description": "任意の日付が何曜日かを確認できます。今日、過去の誕生日、未来の祝日にも対応。",
+      "category": "生活ツール",
+      "keywords": [
+        "曜日計算",
+        "何曜日",
+        "曜日調べ",
+        "日付の曜日",
+        "カレンダー",
+        "曜日変換"
+      ],
+      "faqs": [
+        {
+          "question": "過去の日付も調べられますか？",
+          "answer": "はい。古代から遠い未来まで、どの日付でも対応します。"
+        },
+        {
+          "question": "うるう年は考慮されますか？",
+          "answer": "はい。グレゴリオ暦の規則に従い、うるう年も正しく処理されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "年間通算日",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "日付計算",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "年間カレンダー",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "result": "この日は"
+      },
+      "buttons": {
+        "calculate": "計算"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "요일 계산 - 그 날짜는 무슨 요일?",
+        "description": "원하는 날짜의 요일을 즉시 확인하는 무료 도구입니다. 과거와 미래 날짜를 모두 지원하며 브라우저에서 완료됩니다."
+      },
+      "title": "요일 계산",
+      "description": "원하는 날짜가 무슨 요일인지 확인하세요. 오늘, 지난 생일, 다가올 공휴일 등 모든 날짜를 지원합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "요일 계산",
+        "무슨 요일",
+        "요일 확인",
+        "날짜 요일",
+        "요일 찾기",
+        "달력 요일"
+      ],
+      "faqs": [
+        {
+          "question": "과거 날짜도 확인할 수 있나요?",
+          "answer": "네. 고대부터 먼 미래까지 모든 날짜를 지원합니다."
+        },
+        {
+          "question": "윤년은 처리되나요?",
+          "answer": "네. 그레고리력 규칙에 따라 윤년을 올바르게 처리합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "올해 며칠째",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "날짜 계산",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "연간 달력",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "result": "이 날짜는"
+      },
+      "buttons": {
+        "calculate": "계산"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "День недели - какой день недели у даты",
+        "description": "Бесплатный онлайн-калькулятор дня недели. Выберите дату и мгновенно узнайте день недели — для прошлых и будущих дат. Всё в браузере."
+      },
+      "title": "День недели",
+      "description": "Выберите любую дату и узнайте, на какой день недели она выпадает — сегодня, прошедший день рождения или будущий праздник.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "день недели",
+        "какой день",
+        "калькулятор дня недели",
+        "день недели по дате",
+        "календарь",
+        "узнать день недели"
+      ],
+      "faqs": [
+        {
+          "question": "Можно ли проверить исторические даты?",
+          "answer": "Да — работает любая дата, от глубокой древности до далёкого будущего."
+        },
+        {
+          "question": "Учитываются ли високосные годы?",
+          "answer": "Да, расчёт по правилам григорианского календаря, включая високосные годы."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "День года",
+          "href": "/tools/day-of-year"
+        },
+        {
+          "name": "Калькулятор дат",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "Годовой календарь",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "result": "Эта дата —"
+      },
+      "buttons": {
+        "calculate": "Вычислить"
+      }
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "zip-viewer",
+  "icon": "🗜️",
+  "home": {
+    "en": {
+      "name": "ZIP Viewer",
+      "description": "List files inside a ZIP archive without extracting.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "ZIP 文件查看",
+      "description": "不解压即可查看 ZIP 包内文件列表。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "ZIPビューア",
+      "description": "解凍せずにZIP内のファイル一覧を表示します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "ZIP 뷰어",
+      "description": "압축 해제 없이 ZIP 내부 파일 목록을 확인합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Просмотр ZIP",
+      "description": "Просматривайте файлы внутри ZIP без распаковки.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "ZIP Viewer - List Archive Contents Online",
+        "description": "Free online ZIP viewer. Upload a ZIP file and see every file inside it with its size — no extraction needed. Runs entirely in your browser."
+      },
+      "title": "ZIP Viewer",
+      "description": "Upload a ZIP archive to instantly list every file inside, with sizes, without extracting or uploading anything to a server.",
+      "category": "Life Tools",
+      "keywords": [
+        "zip viewer",
+        "list zip contents",
+        "view zip file",
+        "zip file reader",
+        "archive viewer",
+        "zip contents"
+      ],
+      "faqs": [
+        {
+          "question": "Is my ZIP uploaded to a server?",
+          "answer": "No. The archive is parsed entirely in your browser with JSZip, so the file never leaves your device."
+        },
+        {
+          "question": "Can I extract files?",
+          "answer": "This tool only lists contents. For extraction, use a local archive manager."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "File Converter",
+          "href": "/tools/document-converter"
+        },
+        {
+          "name": "File Size Checker",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "labels": {
+        "invalid": "This doesn't look like a valid ZIP file.",
+        "loading": "Reading archive…",
+        "count": "{count, plural, one {# file} other {# files}}"
+      },
+      "buttons": {
+        "choose": "Choose ZIP File"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "ZIP 文件查看 - 在线查看压缩包内容",
+        "description": "免费在线 ZIP 查看器，上传 ZIP 文件即可查看包内所有文件及其大小，无需解压。全程在浏览器本地完成。"
+      },
+      "title": "ZIP 文件查看",
+      "description": "上传 ZIP 压缩包，立即列出包内所有文件及大小，无需解压，也不会向服务器上传任何内容。",
+      "category": "生活工具",
+      "keywords": [
+        "zip查看",
+        "查看压缩包",
+        "zip文件列表",
+        "zip读取",
+        "压缩包查看",
+        "zip内容"
+      ],
+      "faqs": [
+        {
+          "question": "ZIP 会上传到服务器吗？",
+          "answer": "不会。压缩包完全在浏览器中通过 JSZip 解析，文件不会离开你的设备。"
+        },
+        {
+          "question": "可以解压文件吗？",
+          "answer": "本工具只提供列表查看，解压请使用本地压缩软件。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "文件转换",
+          "href": "/tools/document-converter"
+        },
+        {
+          "name": "文件大小",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "labels": {
+        "invalid": "这不是有效的 ZIP 文件。",
+        "loading": "正在读取压缩包…",
+        "count": "共 {count, plural, =1 {1 个} other {# 个}}文件"
+      },
+      "buttons": {
+        "choose": "选择 ZIP 文件"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "ZIPビューア - オンラインで内容を一覧表示",
+        "description": "ZIPファイルをアップロードすると、解凍せずに内部の全ファイルとサイズを確認できる無料ツール。ブラウザ内で完結。"
+      },
+      "title": "ZIPビューア",
+      "description": "ZIPファイルをアップロードすると、解凍せずに内部の全ファイルとサイズを即座に一覧表示します。",
+      "category": "生活ツール",
+      "keywords": [
+        "zipビューア",
+        "zip内容一覧",
+        "zipを表示",
+        "zip読み取り",
+        "アーカイブ表示",
+        "zipファイル"
+      ],
+      "faqs": [
+        {
+          "question": "ZIPはサーバーに送信されますか？",
+          "answer": "いいえ。JSZipでブラウザ内だけで解析するため、ファイルは端末の外に出ません。"
+        },
+        {
+          "question": "解凍はできますか？",
+          "answer": "このツールは一覧表示のみです。解凍はローカルのアーカイバをご利用ください。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "ファイル変換",
+          "href": "/tools/document-converter"
+        },
+        {
+          "name": "ファイルサイズ",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "画像圧縮",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "labels": {
+        "invalid": "有効なZIPファイルではありません。",
+        "loading": "アーカイブを読み込み中…",
+        "count": "全 {count, plural, =1 {1 ファイル} other {# ファイル}}"
+      },
+      "buttons": {
+        "choose": "ZIPファイルを選択"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "ZIP 뷰어 - 온라인 압축 파일 내용 보기",
+        "description": "ZIP 파일을 업로드하면 압축 해제 없이 내부의 모든 파일과 크기를 확인할 수 있는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "ZIP 뷰어",
+      "description": "ZIP 압축 파일을 업로드하면 압축 해제 없이 내부의 모든 파일과 크기를 즉시 나열합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "zip 뷰어",
+        "zip 내용 보기",
+        "zip 파일 목록",
+        "zip 읽기",
+        "압축 파일 보기",
+        "zip 내용"
+      ],
+      "faqs": [
+        {
+          "question": "ZIP이 서버로 업로드되나요?",
+          "answer": "아니요. JSZip으로 브라우저 안에서만 파싱하므로 파일이 기기를 떠나지 않습니다."
+        },
+        {
+          "question": "압축을 풀 수 있나요?",
+          "answer": "이 도구는 목록만 제공합니다. 해제는 로컬 압축 프로그램을 사용하세요."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "파일 변환",
+          "href": "/tools/document-converter"
+        },
+        {
+          "name": "파일 크기",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "이미지 압축",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "labels": {
+        "invalid": "유효한 ZIP 파일이 아닙니다.",
+        "loading": "압축 파일을 읽는 중…",
+        "count": "총 {count, plural, =1 {1개} other {#개}} 파일"
+      },
+      "buttons": {
+        "choose": "ZIP 파일 선택"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Просмотр ZIP - список содержимого архива онлайн",
+        "description": "Бесплатный онлайн-просмотрщик ZIP. Загрузите ZIP и увидите все файлы внутри с размерами — без распаковки. Всё в браузере."
+      },
+      "title": "Просмотр ZIP",
+      "description": "Загрузите ZIP-архив, чтобы мгновенно увидеть все файлы внутри с размерами — без распаковки и загрузки на сервер.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "просмотр zip",
+        "список файлов zip",
+        "открыть zip",
+        "чтение zip",
+        "просмотр архива",
+        "содержимое zip"
+      ],
+      "faqs": [
+        {
+          "question": "ZIP загружается на сервер?",
+          "answer": "Нет. Архив разбирается прямо в браузере с помощью JSZip, файл не покидает ваше устройство."
+        },
+        {
+          "question": "Можно ли извлечь файлы?",
+          "answer": "Этот инструмент только показывает содержимое. Для извлечения используйте локальный архиватор."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Конвертер файлов",
+          "href": "/tools/document-converter"
+        },
+        {
+          "name": "Размер файла",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Сжатие изображений",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "labels": {
+        "invalid": "Похоже, это не ZIP-файл.",
+        "loading": "Чтение архива…",
+        "count": "{count, plural, one {# файл} few {# файла} other {# файлов}}"
+      },
+      "buttons": {
+        "choose": "Выбрать ZIP"
+      }
+    }
+  }
+}

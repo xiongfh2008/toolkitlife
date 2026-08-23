@@ -1,0 +1,283 @@
+{
+  "slug": "monte-carlo-pi",
+  "icon": "📐",
+  "home": {
+    "en": {
+      "name": "Monte Carlo Pi",
+      "description": "Estimate pi by throwing random points on a circle.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "蒙特卡洛圆周率",
+      "description": "通过向圆形随机撒点估算圆周率。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "モンテカルロ円周率",
+      "description": "円にランダムに点を打って円周率を推定します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "몬테카를로 파이",
+      "description": "원 안에 무작위 점을 던져 원주율을 추정합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Монте-Карло π",
+      "description": "Оцените число π, бросая случайные точки в круг.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Monte Carlo Pi - Estimate π with Random Points",
+        "description": "Estimate pi by throwing random points into a circle and counting how many land inside the quarter circle. A fun visual demo. Runs in your browser."
+      },
+      "title": "Monte Carlo Pi",
+      "description": "Drop random points into a square and count how many fall inside the quarter circle. The ratio approximates π/4, so the estimate converges to π.",
+      "category": "Life Tools",
+      "keywords": [
+        "monte carlo pi",
+        "estimate pi",
+        "pi simulation",
+        "random points pi",
+        "monte carlo method",
+        "pi approximation"
+      ],
+      "faqs": [
+        {
+          "question": "Why does this work?",
+          "answer": "The quarter circle covers π/4 of the square. With enough random points, the fraction inside the circle approaches π/4, giving an estimate of π."
+        },
+        {
+          "question": "How accurate is it?",
+          "answer": "Accuracy grows with the number of points. With 200,000 points you typically get π correct to about 2-3 decimal places."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Pi Digits",
+          "href": "/tools/pi-digits"
+        },
+        {
+          "name": "Random Number Generator",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "Dice Roller",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "points": "Points",
+        "estimate": "π estimate",
+        "inside": "Inside circle",
+        "accuracy": "Accuracy"
+      },
+      "buttons": {
+        "run": "Run Simulation"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "蒙特卡洛圆周率 - 用随机点估算 π",
+        "description": "通过向正方形内随机撒点，统计落入四分之一圆的点数来估算圆周率，可视化演示有趣又直观。全程在浏览器本地完成。"
+      },
+      "title": "蒙特卡洛圆周率",
+      "description": "向正方形随机撒点，统计落在四分之一圆内的比例。该比例趋近 π/4，由此估算圆周率 π。",
+      "category": "生活工具",
+      "keywords": [
+        "蒙特卡洛圆周率",
+        "估算圆周率",
+        "圆周率模拟",
+        "随机撒点",
+        "蒙特卡洛方法",
+        "圆周率近似"
+      ],
+      "faqs": [
+        {
+          "question": "为什么这样能算出圆周率？",
+          "answer": "四分之一圆占正方形的 π/4。随机点足够多时，落入圆内的比例趋近 π/4，从而估算出 π。"
+        },
+        {
+          "question": "精度有多高？",
+          "answer": "精度随点数增加而提高。20 万点时通常可精确到 2-3 位小数。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "圆周率查询",
+          "href": "/tools/pi-digits"
+        },
+        {
+          "name": "随机数生成",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "掷骰子",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "points": "点数",
+        "estimate": "π 估算值",
+        "inside": "圆内点数",
+        "accuracy": "精度"
+      },
+      "buttons": {
+        "run": "运行模拟"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "モンテカルロ円周率 - ランダム点でπを推定",
+        "description": "正方形にランダムに点を打ち、四分円に入った割合から円周率を推定する視覚的なデモ。ブラウザ内で完結。"
+      },
+      "title": "モンテカルロ円周率",
+      "description": "正方形にランダムに点を打ち、四分円の内側に入った割合を数えます。この割合はπ/4に近づくため、πを推定できます。",
+      "category": "生活ツール",
+      "keywords": [
+        "モンテカルロ法",
+        "円周率",
+        "π推定",
+        "ランダム点",
+        "円周率近似",
+        "シミュレーション"
+      ],
+      "faqs": [
+        {
+          "question": "なぜこれでπが求まるのですか？",
+          "answer": "四分円は正方形のπ/4を占めます。ランダム点が十分多ければ円内の割合がπ/4に近づき、πを推定できます。"
+        },
+        {
+          "question": "精度はどのくらい？",
+          "answer": "点数が多いほど正確になります。20万点でおよそ小数2〜3桁まで正確です。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "円周率検索",
+          "href": "/tools/pi-digits"
+        },
+        {
+          "name": "乱数生成",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "サイコロ",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "points": "点数",
+        "estimate": "π推定値",
+        "inside": "円内の点数",
+        "accuracy": "精度"
+      },
+      "buttons": {
+        "run": "シミュレーション実行"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "몬테카를로 파이 - 무작위 점으로 π 추정",
+        "description": "정사각형에 무작위로 점을 던져 4분원 안에 들어온 비율로 원주율을 추정하는 시각적 데모입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "몬테카를로 파이",
+      "description": "정사각형에 무작위 점을 던지고 4분원 안에 들어온 점의 비율을 셉니다. 이 비율은 π/4에 수렴하므로 π를 추정할 수 있습니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "몬테카를로 파이",
+        "원주율 추정",
+        "π 시뮬레이션",
+        "무작위 점",
+        "몬테카를로 방법",
+        "원주율 근사"
+      ],
+      "faqs": [
+        {
+          "question": "왜 이 방법이 통하나요?",
+          "answer": "4분원은 정사각형의 π/4를 차지합니다. 점이 충분히 많으면 원 안의 비율이 π/4에 수렴해 π를 추정할 수 있습니다."
+        },
+        {
+          "question": "정확도는 어느 정도인가요?",
+          "answer": "점 수가 많을수록 정확해지며, 20만 점이면 보통 소수 2-3자리까지 정확합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "원주율 검색",
+          "href": "/tools/pi-digits"
+        },
+        {
+          "name": "난수 생성",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "주사위",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "points": "점 수",
+        "estimate": "π 추정값",
+        "inside": "원 안 점",
+        "accuracy": "정확도"
+      },
+      "buttons": {
+        "run": "시뮬레이션 실행"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Монте-Карло π - оценить число π случайными точками",
+        "description": "Оцените число π, бросая случайные точки в квадрат и считая попадания в четверть круга. Наглядная демонстрация. Всё в браузере."
+      },
+      "title": "Монте-Карло π",
+      "description": "Бросайте случайные точки в квадрат и считайте, сколько попало в четверть круга. Доля попаданий стремится к π/4, поэтому оценка сходится к π.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "монте-карло π",
+        "оценить π",
+        "моделирование π",
+        "случайные точки",
+        "метод монте-карло",
+        "приближение π"
+      ],
+      "faqs": [
+        {
+          "question": "Почему это работает?",
+          "answer": "Четверть круга занимает π/4 площади квадрата. При большом числе точек доля попаданий стремится к π/4, что даёт оценку π."
+        },
+        {
+          "question": "Насколько это точно?",
+          "answer": "Точность растёт с числом точек. При 200 000 точках π обычно верно до 2-3 знаков после запятой."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Цифры числа π",
+          "href": "/tools/pi-digits"
+        },
+        {
+          "name": "Генератор чисел",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "Кубики",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "points": "Точки",
+        "estimate": "Оценка π",
+        "inside": "Внутри круга",
+        "accuracy": "Точность"
+      },
+      "buttons": {
+        "run": "Запустить"
+      }
+    }
+  }
+}

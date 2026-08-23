@@ -1,0 +1,278 @@
+{
+  "slug": "vcf-generator",
+  "icon": "📇",
+  "home": {
+    "en": {
+      "name": "VCF Generator",
+      "description": "Turn a name+phone list into a contacts VCF file.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "通讯录生成",
+      "description": "将姓名+手机号列表生成通讯录 VCF 文件。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "VCF生成",
+      "description": "名前と電話番号のリストから連絡先VCFを生成。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "VCF 생성",
+      "description": "이름+전화번호 목록을 연락처 VCF 파일로 변환합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Генератор VCF",
+      "description": "Превратите список имён и номеров в файл контактов VCF.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "VCF Generator - Create Contacts File Online",
+        "description": "Free online VCF generator. Paste a name and phone number list to create a .vcf contacts file you can import to your phone. Runs in your browser."
+      },
+      "title": "VCF Generator",
+      "description": "Paste a list of names and phone numbers, one per line, and download a .vcf file that imports directly into your phone's contacts app.",
+      "category": "Life Tools",
+      "keywords": [
+        "vcf generator",
+        "vcard generator",
+        "contacts file",
+        "import contacts",
+        "vcf file",
+        "phone contacts"
+      ],
+      "faqs": [
+        {
+          "question": "How do I import the file?",
+          "answer": "Download the .vcf, then open it from your phone's file manager — your contacts app will offer to import it."
+        },
+        {
+          "question": "What formats are accepted?",
+          "answer": "Each line should be: name then phone number, separated by a tab, comma, or semicolon."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "Card Number Check",
+          "href": "/tools/bank-card-validate"
+        },
+        {
+          "name": "Text to Image",
+          "href": "/tools/text-to-image"
+        }
+      ],
+      "labels": {
+        "placeholder": "Name, phone number — one per line\nJohn, 13800138000",
+        "noContact": "No valid contacts found. Check the format.",
+        "parsed": "{count, plural, one {# contact} other {# contacts}} ready"
+      },
+      "buttons": {
+        "download": "Download VCF"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "通讯录生成 - 在线生成 VCF 通讯录文件",
+        "description": "免费在线 VCF 生成器，粘贴姓名与手机号列表即可生成 .vcf 通讯录文件，直接导入手机。全程在浏览器本地完成。"
+      },
+      "title": "通讯录生成",
+      "description": "粘贴姓名与手机号列表（每行一个），下载 .vcf 文件即可直接导入手机通讯录。",
+      "category": "生活工具",
+      "keywords": [
+        "vcf生成",
+        "通讯录生成",
+        "vcard生成",
+        "导入通讯录",
+        "vcf文件",
+        "手机通讯录"
+      ],
+      "faqs": [
+        {
+          "question": "如何导入文件？",
+          "answer": "下载 .vcf 后，用手机的文件管理器打开它，通讯录应用会提示导入。"
+        },
+        {
+          "question": "支持什么格式？",
+          "answer": "每行格式：姓名加手机号，用 Tab、逗号或分号分隔。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "二维码生成",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "银行卡校验",
+          "href": "/tools/bank-card-validate"
+        },
+        {
+          "name": "文字转图片",
+          "href": "/tools/text-to-image"
+        }
+      ],
+      "labels": {
+        "placeholder": "姓名, 手机号 —— 每行一个\n张三, 13800138000",
+        "noContact": "未找到有效联系人，请检查格式。",
+        "parsed": "已解析 {count, plural, =1 {1 个} other {# 个}}联系人"
+      },
+      "buttons": {
+        "download": "下载 VCF"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "VCF生成 - オンラインで連絡先ファイルを作成",
+        "description": "名前と電話番号のリストから .vcf 連絡先ファイルを作成する無料ツール。スマホにそのまま取り込めます。ブラウザ内で完結。"
+      },
+      "title": "VCF生成",
+      "description": "名前と電話番号のリスト（1行1件）を貼り付けると、スマホの連絡先アプリに直接取り込める .vcf ファイルをダウンロードできます。",
+      "category": "生活ツール",
+      "keywords": [
+        "vcf生成",
+        "vcard生成",
+        "連絡先ファイル",
+        "連絡先インポート",
+        "vcfファイル",
+        "アドレス帳"
+      ],
+      "faqs": [
+        {
+          "question": "どうやって取り込みますか？",
+          "answer": ".vcf をダウンロードし、スマホのファイル管理アプリから開くと連絡先アプリがインポートを提案します。"
+        },
+        {
+          "question": "対応フォーマットは？",
+          "answer": "各行は「名前、電話番号」をタブ、カンマ、セミコロンで区切ります。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QRコード生成",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "カード番号チェック",
+          "href": "/tools/bank-card-validate"
+        },
+        {
+          "name": "テキストを画像に",
+          "href": "/tools/text-to-image"
+        }
+      ],
+      "labels": {
+        "placeholder": "名前, 電話番号 — 1行1件\n山田太郎, 09012345678",
+        "noContact": "有効な連絡先が見つかりません。形式を確認してください。",
+        "parsed": "{count, plural, =1 {1件} other {#件}}の連絡先を準備"
+      },
+      "buttons": {
+        "download": "VCFをダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "VCF 생성 - 온라인 연락처 파일 만들기",
+        "description": "이름과 전화번호 목록으로 .vcf 연락처 파일을 만드는 무료 도구입니다. 휴대폰에 바로 가져올 수 있으며 브라우저에서 완료됩니다."
+      },
+      "title": "VCF 생성",
+      "description": "이름과 전화번호 목록(한 줄에 하나)을 붙여넣으면 휴대폰 연락처 앱에 바로 가져올 수 있는 .vcf 파일을 다운로드합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "vcf 생성",
+        "vcard 생성",
+        "연락처 파일",
+        "연락처 가져오기",
+        "vcf 파일",
+        "전화번호부"
+      ],
+      "faqs": [
+        {
+          "question": "파일은 어떻게 가져오나요?",
+          "answer": ".vcf를 다운로드한 뒤 휴대폰 파일 관리자에서 열면 연락처 앱이 가져오기를 제안합니다."
+        },
+        {
+          "question": "어떤 형식을 지원하나요?",
+          "answer": "각 줄은 이름과 전화번호를 탭, 쉼표, 세미콜론으로 구분합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR 코드 생성",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "카드 번호 검증",
+          "href": "/tools/bank-card-validate"
+        },
+        {
+          "name": "텍스트를 이미지로",
+          "href": "/tools/text-to-image"
+        }
+      ],
+      "labels": {
+        "placeholder": "이름, 전화번호 — 한 줄에 하나\n홍길동, 01012345678",
+        "noContact": "유효한 연락처를 찾을 수 없습니다. 형식을 확인하세요.",
+        "parsed": "{count, plural, =1 {1개} other {#개}} 연락처 준비됨"
+      },
+      "buttons": {
+        "download": "VCF 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Генератор VCF - создать файл контактов онлайн",
+        "description": "Бесплатный онлайн-генератор VCF. Вставьте список имён и номеров, чтобы создать файл .vcf для импорта в телефон. Всё в браузере."
+      },
+      "title": "Генератор VCF",
+      "description": "Вставьте список имён и номеров телефонов (по одному на строку) и скачайте файл .vcf, который импортируется прямо в контакты телефона.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "генератор vcf",
+        "генератор vcard",
+        "файл контактов",
+        "импорт контактов",
+        "vcf файл",
+        "контакты телефона"
+      ],
+      "faqs": [
+        {
+          "question": "Как импортировать файл?",
+          "answer": "Скачайте .vcf и откройте его в файловом менеджере телефона — приложение контактов предложит импорт."
+        },
+        {
+          "question": "Какие форматы принимаются?",
+          "answer": "Каждая строка: имя и номер, разделённые табуляцией, запятой или точкой с запятой."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор QR",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "Проверка карты",
+          "href": "/tools/bank-card-validate"
+        },
+        {
+          "name": "Текст в картинку",
+          "href": "/tools/text-to-image"
+        }
+      ],
+      "labels": {
+        "placeholder": "Имя, номер — по одному на строку\nИван, 79101234567",
+        "noContact": "Действительные контакты не найдены. Проверьте формат.",
+        "parsed": "{count, plural, one {# контакт} few {# контакта} other {# контактов}} готово"
+      },
+      "buttons": {
+        "download": "Скачать VCF"
+      }
+    }
+  }
+}

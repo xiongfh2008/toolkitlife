@@ -1,0 +1,278 @@
+{
+  "slug": "solid-color-image",
+  "icon": "🟦",
+  "home": {
+    "en": {
+      "name": "Solid Color Image",
+      "description": "Generate a solid-color background image with any color and size in seconds.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "纯色图片生成器",
+      "description": "几秒生成任意颜色、任意尺寸的纯色背景图片。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "単色画像生成",
+      "description": "任意の色・サイズの単色背景画像を数秒で生成します。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "단색 이미지 생성기",
+      "description": "원하는 색상·크기의 단색 배경 이미지를 몇 초 만에 생성합니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Однотонное изображение",
+      "description": "Создайте однотонное фоновое изображение любого цвета и размера за секунды.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Solid Color Image - Plain Background Generator Online",
+        "description": "Generate a solid-color background image with any color and size in seconds. Free, runs in your browser."
+      },
+      "title": "Solid Color Image",
+      "description": "Create a plain solid-color background image with any color and size in seconds — perfect for placeholders, thumbnails and tests.",
+      "category": "Image Tools",
+      "keywords": [
+        "solid color image",
+        "solid color background generator",
+        "plain color image",
+        "solid background png",
+        "color background maker",
+        "single color image"
+      ],
+      "faqs": [
+        {
+          "question": "What sizes can I generate?",
+          "answer": "Any size from 16×16 up to 8192×8192 pixels. Enter the width and height you need and the image is drawn instantly."
+        },
+        {
+          "question": "What format is the downloaded file?",
+          "answer": "The image is exported as PNG, which preserves the exact color without compression artifacts."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Placeholder Image Generator",
+          "href": "/tools/placeholder-image"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "buttons": {
+        "download": "Download PNG"
+      },
+      "labels": {
+        "color": "Color",
+        "width": "Width",
+        "height": "Height"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "纯色图片生成器 - 在线生成纯色背景图",
+        "description": "几秒生成任意颜色、任意尺寸的纯色背景图片。免费，浏览器内运行。"
+      },
+      "title": "纯色图片生成器",
+      "description": "几秒钟生成任意颜色、任意尺寸的纯色背景图片——适合占位图、缩略图和测试用图。",
+      "category": "图片工具",
+      "keywords": [
+        "纯色图片",
+        "纯色背景生成",
+        "纯色背景图片",
+        "纯色png",
+        "背景色图片生成",
+        "单色图片"
+      ],
+      "faqs": [
+        {
+          "question": "支持生成多大尺寸？",
+          "answer": "支持从 16×16 到 8192×8192 像素的任意尺寸，输入宽高后立即生成。"
+        },
+        {
+          "question": "下载的文件是什么格式？",
+          "answer": "导出为 PNG 格式，可无失真地保留精确颜色。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "占位图生成器",
+          "href": "/tools/placeholder-image"
+        },
+        {
+          "name": "图片加边距",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "buttons": {
+        "download": "下载 PNG"
+      },
+      "labels": {
+        "color": "颜色",
+        "width": "宽度",
+        "height": "高度"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "単色画像生成 - オンラインで単色背景を作成",
+        "description": "任意の色・サイズの単色背景画像を数秒で生成します。無料・ブラウザ内で完結。"
+      },
+      "title": "単色画像生成",
+      "description": "任意の色・サイズの単色背景画像を数秒で作成——プレースホルダーやサムネイル、テスト用に最適。",
+      "category": "画像ツール",
+      "keywords": [
+        "単色画像",
+        "単色背景生成",
+        "単色背景画像",
+        "単色 png",
+        "背景色画像生成",
+        "単色画像作成"
+      ],
+      "faqs": [
+        {
+          "question": "どのサイズまで生成できますか？",
+          "answer": "16×16 から 8192×8192 ピクセルまでの任意サイズに対応。幅と高さを入力するとすぐに描画されます。"
+        },
+        {
+          "question": "ダウンロード形式は？",
+          "answer": "PNG 形式で書き出されます。色が圧縮による劣化なく正確に保たれます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像背景追加",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "プレースホルダー画像生成ツール",
+          "href": "/tools/placeholder-image"
+        },
+        {
+          "name": "画像マージン追加",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "buttons": {
+        "download": "PNG をダウンロード"
+      },
+      "labels": {
+        "color": "色",
+        "width": "幅",
+        "height": "高さ"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "단색 이미지 생성기 - 온라인 단색 배경 만들기",
+        "description": "원하는 색상·크기의 단색 배경 이미지를 몇 초 만에 생성합니다. 무료, 브라우저에서 실행."
+      },
+      "title": "단색 이미지 생성기",
+      "description": "원하는 색상과 크기의 단색 배경 이미지를 몇 초 만에 생성합니다 — 플레이스홀더·썸네일·테스트용에 유용.",
+      "category": "이미지 도구",
+      "keywords": [
+        "단색 이미지",
+        "단색 배경 생성",
+        "단색 배경 이미지",
+        "단색 png",
+        "배경색 이미지 생성",
+        "단색 이미지 만들기"
+      ],
+      "faqs": [
+        {
+          "question": "어떤 크기를 생성할 수 있나요?",
+          "answer": "16×16부터 8192×8192 픽셀까지 원하는 크기로 만들 수 있습니다. 너비와 높이를 입력하면 즉시 그려집니다."
+        },
+        {
+          "question": "다운로드 형식은 무엇인가요?",
+          "answer": "PNG 형식으로 내보내지며, 색상이 압축 왜곡 없이 정확하게 유지됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 배경 추가",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "플레이스홀더 이미지 생성기",
+          "href": "/tools/placeholder-image"
+        },
+        {
+          "name": "이미지 여백 추가",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "buttons": {
+        "download": "PNG 다운로드"
+      },
+      "labels": {
+        "color": "색상",
+        "width": "너비",
+        "height": "높이"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Однотонное изображение - генератор фона онлайн",
+        "description": "Создайте однотонное фоновое изображение любого цвета и размера за секунды. Бесплатно, работает в браузере."
+      },
+      "title": "Однотонное изображение",
+      "description": "Создайте однотонное фоновое изображение любого цвета и размера за секунды — для заглушек, миниатюр и тестов.",
+      "category": "Изображения",
+      "keywords": [
+        "однотонное изображение",
+        "генератор однотонного фона",
+        "сплошной цвет",
+        "однотонный png",
+        "фоновое изображение одного цвета",
+        "создать однотонное изображение"
+      ],
+      "faqs": [
+        {
+          "question": "Какие размеры можно задать?",
+          "answer": "Любой размер от 16×16 до 8192×8192 пикселей. Введите ширину и высоту — изображение создастся мгновенно."
+        },
+        {
+          "question": "В каком формате скачивается файл?",
+          "answer": "Изображение экспортируется в PNG, который сохраняет точный цвет без артефактов сжатия."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Фон для изображения",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Генератор изображений-заглушек",
+          "href": "/tools/placeholder-image"
+        },
+        {
+          "name": "Поля вокруг изображения",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "buttons": {
+        "download": "Скачать PNG"
+      },
+      "labels": {
+        "color": "Цвет",
+        "width": "Ширина",
+        "height": "Высота"
+      }
+    }
+  }
+}

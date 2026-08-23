@@ -1,0 +1,288 @@
+{
+  "slug": "text-reader",
+  "icon": "📖",
+  "home": {
+    "en": {
+      "name": "Text Reader",
+      "description": "Paste text and read it in a large comfortable layout.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "文本阅读",
+      "description": "粘贴文本，以大字舒适排版阅读。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "テキストリーダー",
+      "description": "テキストを貼り付けて快適な大文字で読みます。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "텍스트 리더",
+      "description": "텍스트를 붙여넣어 큰 글씨로 편하게 읽습니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Читалка текста",
+      "description": "Вставьте текст и читайте его в крупном удобном формате.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Text Reader - Comfortable Large-Text Reading",
+        "description": "Free online text reader. Paste any text and read it in a clean, large, comfortable layout with adjustable font size and line height. Runs in your browser."
+      },
+      "title": "Text Reader",
+      "description": "Paste any text and switch to reading mode: a clean layout with adjustable font size and line height for comfortable reading.",
+      "category": "Life Tools",
+      "keywords": [
+        "text reader",
+        "large text reading",
+        "reading mode",
+        "comfortable reading",
+        "text viewer",
+        "read mode"
+      ],
+      "faqs": [
+        {
+          "question": "Can I adjust the text size?",
+          "answer": "Yes — font size from 12px to 40px and line height from 1.2 to 2.6 are both adjustable with sliders."
+        },
+        {
+          "question": "Is my text stored anywhere?",
+          "answer": "No. Everything stays in your browser tab; nothing is uploaded or saved."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Text to Speech",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "Word Counter",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "Reverse Text",
+          "href": "/tools/reverse-text"
+        }
+      ],
+      "labels": {
+        "placeholder": "Paste or type your text here…",
+        "fontSize": "Font size",
+        "lineHeight": "Line height",
+        "empty": "Paste some text to start reading"
+      },
+      "buttons": {
+        "read": "Start Reading",
+        "hide": "Back to Editor"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "文本阅读 - 大字舒适排版阅读",
+        "description": "免费在线文本阅读器，粘贴任意文本即可进入干净大字阅读模式，支持调节字号与行距。全程在浏览器本地完成。"
+      },
+      "title": "文本阅读",
+      "description": "粘贴任意文本，切换到阅读模式：干净的排版，可调节字号与行距，阅读更舒适。",
+      "category": "生活工具",
+      "keywords": [
+        "文本阅读",
+        "大字阅读",
+        "阅读模式",
+        "舒适阅读",
+        "文本查看",
+        "阅读器"
+      ],
+      "faqs": [
+        {
+          "question": "可以调节文字大小吗？",
+          "answer": "可以。字号可在 12px 到 40px、行距在 1.2 到 2.6 之间用滑块调节。"
+        },
+        {
+          "question": "文本会被保存吗？",
+          "answer": "不会。一切都在浏览器标签页内完成，不会上传或保存。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "文字转语音",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "字数统计",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "文字倒序",
+          "href": "/tools/reverse-text"
+        }
+      ],
+      "labels": {
+        "placeholder": "在此粘贴或输入文本…",
+        "fontSize": "字号",
+        "lineHeight": "行距",
+        "empty": "粘贴一些文本即可开始阅读"
+      },
+      "buttons": {
+        "read": "开始阅读",
+        "hide": "返回编辑"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "テキストリーダー - 快適な大文字リーディング",
+        "description": "テキストを貼り付けて、文字サイズと行間を調整できるクリーンな大文字レイアウトで読む無料ツール。ブラウザ内で完結。"
+      },
+      "title": "テキストリーダー",
+      "description": "任意のテキストを貼り付けて読み取りモードへ。文字サイズと行間を調整できる快適なレイアウトです。",
+      "category": "生活ツール",
+      "keywords": [
+        "テキストリーダー",
+        "大文字リーディング",
+        "読み取りモード",
+        "快適な読書",
+        "テキストビューア",
+        "リードモード"
+      ],
+      "faqs": [
+        {
+          "question": "文字サイズは変更できますか？",
+          "answer": "はい。文字サイズ12〜40px、行間1.2〜2.6をスライダーで調整できます。"
+        },
+        {
+          "question": "テキストは保存されますか？",
+          "answer": "いいえ。ブラウザのタブ内で完結し、アップロードや保存はされません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "テキスト読み上げ",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "単語数カウント",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "テキスト反転",
+          "href": "/tools/reverse-text"
+        }
+      ],
+      "labels": {
+        "placeholder": "ここにテキストを貼り付け…",
+        "fontSize": "文字サイズ",
+        "lineHeight": "行間",
+        "empty": "テキストを貼り付けて読み始めましょう"
+      },
+      "buttons": {
+        "read": "読み始める",
+        "hide": "編集に戻る"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "텍스트 리더 - 큰 글씨로 편하게 읽기",
+        "description": "텍스트를 붙여넣고 글꼴 크기와 줄 간격을 조절하며 큰 글씨로 읽는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "텍스트 리더",
+      "description": "원하는 텍스트를 붙여넣고 읽기 모드로 전환하세요. 글꼴 크기와 줄 간격을 조정할 수 있는 깔끔한 레이아웃입니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "텍스트 리더",
+        "큰 글씨 읽기",
+        "읽기 모드",
+        "편안한 읽기",
+        "텍스트 뷰어",
+        "리더 모드"
+      ],
+      "faqs": [
+        {
+          "question": "글자 크기를 조절할 수 있나요?",
+          "answer": "네. 글꼴 크기 12~40px, 줄 간격 1.2~2.6을 슬라이더로 조절할 수 있습니다."
+        },
+        {
+          "question": "텍스트가 저장되나요?",
+          "answer": "아니요. 브라우저 탭 안에서만 처리되며 업로드되거나 저장되지 않습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "텍스트 음성 변환",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "단어 수 세기",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "텍스트 뒤집기",
+          "href": "/tools/reverse-text"
+        }
+      ],
+      "labels": {
+        "placeholder": "여기에 텍스트를 붙여넣으세요…",
+        "fontSize": "글꼴 크기",
+        "lineHeight": "줄 간격",
+        "empty": "텍스트를 붙여넣으면 읽기를 시작합니다"
+      },
+      "buttons": {
+        "read": "읽기 시작",
+        "hide": "편집으로 돌아가기"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Читалка текста - удобное чтение крупным шрифтом",
+        "description": "Бесплатная онлайн-читалка. Вставьте любой текст и читайте его в чистом крупном формате с настраиваемым шрифтом и интервалом. Всё в браузере."
+      },
+      "title": "Читалка текста",
+      "description": "Вставьте любой текст и включите режим чтения: чистый макет с настраиваемым размером шрифта и межстрочным интервалом.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "читалка текста",
+        "крупный текст",
+        "режим чтения",
+        "удобное чтение",
+        "просмотр текста",
+        "режим читателя"
+      ],
+      "faqs": [
+        {
+          "question": "Можно ли менять размер текста?",
+          "answer": "Да — размер шрифта от 12 до 40px и интервал от 1.2 до 2.6 настраиваются ползунками."
+        },
+        {
+          "question": "Текст где-то сохраняется?",
+          "answer": "Нет. Всё остаётся в вашей вкладке; ничего не загружается и не сохраняется."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Текст в речь",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "Счётчик слов",
+          "href": "/tools/word-counter"
+        },
+        {
+          "name": "Переворот текста",
+          "href": "/tools/reverse-text"
+        }
+      ],
+      "labels": {
+        "placeholder": "Вставьте или введите текст здесь…",
+        "fontSize": "Размер шрифта",
+        "lineHeight": "Интервал",
+        "empty": "Вставьте текст, чтобы начать чтение"
+      },
+      "buttons": {
+        "read": "Читать",
+        "hide": "Вернуться к редактору"
+      }
+    }
+  }
+}

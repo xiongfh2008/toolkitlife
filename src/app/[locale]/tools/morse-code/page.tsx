@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import ToolLayout from "@/components/ToolLayout";
+import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 import CopyButton from "@/components/CopyButton";
 
 // International Morse code: letters A-Z and digits 0-9.
@@ -25,6 +25,9 @@ type Mode = "encode" | "decode";
 
 export default function MorseCodePage() {
   const t = useTranslations("tools.morse-code");
+  const faqs = t.raw("faqs") as FAQ[];
+  const relatedTools = t.raw("relatedTools") as RelatedTool[];
+  const keywords = t.raw("keywords") as string[];
   const [mode, setMode] = useState<Mode>("encode");
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
@@ -78,6 +81,9 @@ export default function MorseCodePage() {
       description={t("metadata.description")}
       category={t("metadata.category")}
       slug="morse-code"
+      faqs={faqs}
+      relatedTools={relatedTools}
+      keywords={keywords}
     >
       <div className="space-y-4">
         {/* Mode toggle */}

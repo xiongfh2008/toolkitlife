@@ -1,0 +1,298 @@
+{
+  "slug": "height-predict",
+  "icon": "📏",
+  "home": {
+    "en": {
+      "name": "Height Predictor",
+      "description": "Predict a child's height from the parents' heights.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "身高预测",
+      "description": "根据父母身高预测孩子身高。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "身長予測",
+      "description": "両親の身長から子の身長を予測します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "키 예측",
+      "description": "부모의 키로 자녀의 키를 예측합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Прогноз роста",
+      "description": "Спрогнозируйте рост ребёнка по росту родителей.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Height Predictor - Estimate Child Height from Parents",
+        "description": "Free online height predictor. Enter the parents' heights and gender of the child to get a rough adult height estimate. Runs in your browser."
+      },
+      "title": "Height Predictor",
+      "description": "Enter the father's and mother's heights and the child's gender to estimate the child's adult height using a common prediction formula.",
+      "category": "Life Tools",
+      "keywords": [
+        "height predictor",
+        "child height",
+        "height calculator",
+        "predict height",
+        "mid-parental height",
+        "growth estimate"
+      ],
+      "faqs": [
+        {
+          "question": "How accurate is this?",
+          "answer": "It uses the mid-parental height formula, which is an estimate. Actual height depends on genetics, nutrition and health."
+        },
+        {
+          "question": "Is this medical advice?",
+          "answer": "No, it is an educational estimate. Consult a pediatrician for growth concerns."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Blood Type Inheritance",
+          "href": "/tools/blood-type"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Ideal Weight",
+          "href": "/tools/ideal-weight-calculator"
+        }
+      ],
+      "labels": {
+        "father": "Father height",
+        "mother": "Mother height",
+        "estimate": "Estimated adult height"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      },
+      "genders": {
+        "boy": "Boy",
+        "girl": "Girl"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "身高预测 - 根据父母身高估算孩子身高",
+        "description": "免费在线身高预测工具，输入父母身高与孩子性别即可用常见公式估算成年身高。全程在浏览器本地完成。"
+      },
+      "title": "身高预测",
+      "description": "输入父亲与母亲的身高以及孩子性别，使用常见预测公式估算孩子的成年身高。",
+      "category": "生活工具",
+      "keywords": [
+        "身高预测",
+        "孩子身高",
+        "身高计算",
+        "预测身高",
+        "父母身高",
+        "身高估算"
+      ],
+      "faqs": [
+        {
+          "question": "准确吗？",
+          "answer": "使用父母中位身高公式进行估算，实际身高还受遗传、营养与健康等因素影响。"
+        },
+        {
+          "question": "这是医学建议吗？",
+          "answer": "不是，只是科普性估算。有生长发育疑问请咨询儿科医生。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "血型遗传",
+          "href": "/tools/blood-type"
+        },
+        {
+          "name": "BMI计算",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "理想体重",
+          "href": "/tools/ideal-weight-calculator"
+        }
+      ],
+      "labels": {
+        "father": "父亲身高",
+        "mother": "母亲身高",
+        "estimate": "预估成年身高"
+      },
+      "buttons": {
+        "calculate": "计算"
+      },
+      "genders": {
+        "boy": "男孩",
+        "girl": "女孩"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "身長予測 - 両親の身長から子の身長を推定",
+        "description": "両親の身長と子の性別を入力して成人時の身長を推定する無料ツール。ブラウザ内で完結。"
+      },
+      "title": "身長予測",
+      "description": "父親と母親の身長、子の性別を入力すると、一般的な予測式で成人時の身長を推定します。",
+      "category": "生活ツール",
+      "keywords": [
+        "身長予測",
+        "子供の身長",
+        "身長計算",
+        "予測身長",
+        "両親の身長",
+        "身長推定"
+      ],
+      "faqs": [
+        {
+          "question": "どのくらい正確ですか？",
+          "answer": "両親の平均身長を使う方式で、あくまで推定です。実際の身長は遺伝・栄養・健康に左右されます。"
+        },
+        {
+          "question": "医学的な助言ですか？",
+          "answer": "いいえ。教育的な推定です。成長の不安は小児科医に相談してください。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "血液型遺伝",
+          "href": "/tools/blood-type"
+        },
+        {
+          "name": "BMI計算",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "理想体重",
+          "href": "/tools/ideal-weight-calculator"
+        }
+      ],
+      "labels": {
+        "father": "父親の身長",
+        "mother": "母親の身長",
+        "estimate": "予測される成人身長"
+      },
+      "buttons": {
+        "calculate": "計算"
+      },
+      "genders": {
+        "boy": "男の子",
+        "girl": "女の子"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "키 예측 - 부모 키로 자녀 키 추정",
+        "description": "부모의 키와 자녀의 성별을 입력해 성인 키를 추정하는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "키 예측",
+      "description": "아버지와 어머니의 키, 자녀의 성별을 입력하면 일반적인 예측 공식으로 성인 키를 추정합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "키 예측",
+        "자녀 키",
+        "키 계산",
+        "예상 키",
+        "부모 키",
+        "키 추정"
+      ],
+      "faqs": [
+        {
+          "question": "정확한가요?",
+          "answer": "부모 중간 키 공식을 사용한 추정치입니다. 실제 키는 유전, 영양, 건강에 따라 달라집니다."
+        },
+        {
+          "question": "의학적 조언인가요?",
+          "answer": "아니요, 교육적 추정입니다. 성장 관련 우려는 소아과 의사와 상담하세요."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "혈액형 유전",
+          "href": "/tools/blood-type"
+        },
+        {
+          "name": "BMI 계산",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "이상 체중",
+          "href": "/tools/ideal-weight-calculator"
+        }
+      ],
+      "labels": {
+        "father": "아버지 키",
+        "mother": "어머니 키",
+        "estimate": "예상 성인 키"
+      },
+      "buttons": {
+        "calculate": "계산"
+      },
+      "genders": {
+        "boy": "남아",
+        "girl": "여아"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Прогноз роста - оценить рост ребёнка по родителям",
+        "description": "Бесплатный онлайн-прогноз роста. Введите рост родителей и пол ребёнка, чтобы получить примерный взрослый рост. Всё в браузере."
+      },
+      "title": "Прогноз роста",
+      "description": "Введите рост отца и матери и пол ребёнка, чтобы оценить его взрослый рост по распространённой формуле.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "прогноз роста",
+        "рост ребёнка",
+        "калькулятор роста",
+        "предсказать рост",
+        "средний родительский рост",
+        "оценка роста"
+      ],
+      "faqs": [
+        {
+          "question": "Насколько это точно?",
+          "answer": "Используется формула среднего родительского роста — это оценка. Реальный рост зависит от генетики, питания и здоровья."
+        },
+        {
+          "question": "Это медицинская рекомендация?",
+          "answer": "Нет, это образовательная оценка. При вопросах о росте обратитесь к педиатру."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Группа крови",
+          "href": "/tools/blood-type"
+        },
+        {
+          "name": "Калькулятор ИМТ",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Идеальный вес",
+          "href": "/tools/ideal-weight-calculator"
+        }
+      ],
+      "labels": {
+        "father": "Рост отца",
+        "mother": "Рост матери",
+        "estimate": "Оценка взрослого роста"
+      },
+      "buttons": {
+        "calculate": "Рассчитать"
+      },
+      "genders": {
+        "boy": "Мальчик",
+        "girl": "Девочка"
+      }
+    }
+  }
+}

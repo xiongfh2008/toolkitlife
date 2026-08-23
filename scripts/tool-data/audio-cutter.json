@@ -1,0 +1,338 @@
+{
+  "slug": "audio-cutter",
+  "icon": "✂️",
+  "home": {
+    "en": {
+      "name": "Audio Cutter",
+      "description": "Cut and trim MP3/WAV audio online with a visual waveform. Export as MP3 or WAV.",
+      "category": "Audio Tools"
+    },
+    "zh": {
+      "name": "音频剪切",
+      "description": "在线剪切 MP3/WAV 音频，可视化波形选区，导出 MP3 或 WAV。",
+      "category": "音频工具"
+    },
+    "ja": {
+      "name": "音声カッター",
+      "description": "波形を見ながら MP3/WAV 音声をカット。MP3 または WAV で書き出し。",
+      "category": "音声ツール"
+    },
+    "ko": {
+      "name": "오디오 자르기",
+      "description": "파형을 보며 MP3/WAV 오디오를 자르세요. MP3 또는 WAV로 내보냅니다.",
+      "category": "오디오 도구"
+    },
+    "ru": {
+      "name": "Обрезка аудио",
+      "description": "Обрезайте MP3/WAV онлайн по визуальной волновой форме. Экспорт в MP3 или WAV.",
+      "category": "Аудиоинструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Audio Cutter - Trim MP3/WAV Online Free",
+        "description": "Free online audio cutter. Trim MP3, WAV and other audio files by dragging on the waveform. Export as MP3 or WAV. Private — everything runs in your browser."
+      },
+      "title": "Audio Cutter",
+      "description": "Upload an audio file, drag on the waveform to choose the part you want to keep, and export it as MP3 or WAV. All processing happens locally in your browser.",
+      "category": "Audio Tools",
+      "keywords": [
+        "audio cutter",
+        "cut mp3",
+        "trim audio online",
+        "mp3 cutter",
+        "audio trimmer",
+        "cut music online"
+      ],
+      "faqs": [
+        {
+          "question": "Which audio formats can I cut?",
+          "answer": "Any format your browser can decode — MP3, WAV, OGG, M4A, FLAC and more. The trimmed result is exported as MP3 or WAV."
+        },
+        {
+          "question": "Is my audio uploaded to a server?",
+          "answer": "No. The audio is decoded and processed entirely in your browser using WebAssembly, so your files never leave your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Audio Merge",
+          "href": "/tools/audio-merge"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "Video Trimmer",
+          "href": "/tools/video-trimmer"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an audio file here",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "totalDuration": "Total duration",
+        "start": "Start",
+        "end": "End",
+        "outputFormat": "Output format",
+        "resultSize": "File size"
+      },
+      "buttons": {
+        "cut": "Cut Audio",
+        "download": "Download",
+        "reset": "Reset"
+      },
+      "errors": {
+        "decode": "Could not read this audio file. It may be corrupted or unsupported.",
+        "failed": "Cutting failed. Please try again."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "音频剪切 - 在线免费剪切 MP3/WAV",
+        "description": "免费在线音频剪切工具。拖动波形选择保留片段，支持 MP3、WAV 等格式，导出 MP3 或 WAV。全程在浏览器中处理，隐私安全。"
+      },
+      "title": "音频剪切",
+      "description": "上传音频文件，在波形上拖动选择要保留的片段，即可导出为 MP3 或 WAV。所有处理都在浏览器本地完成。",
+      "category": "音频工具",
+      "keywords": [
+        "音频剪切",
+        "mp3剪切",
+        "在线剪切音频",
+        "mp3剪辑",
+        "音频裁剪",
+        "音乐剪切工具"
+      ],
+      "faqs": [
+        {
+          "question": "支持哪些音频格式？",
+          "answer": "支持浏览器能解码的任何格式——MP3、WAV、OGG、M4A、FLAC 等。剪切结果导出为 MP3 或 WAV。"
+        },
+        {
+          "question": "音频会上传到服务器吗？",
+          "answer": "不会。音频在浏览器中通过 WebAssembly 本地解码和处理，文件不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "音频合并",
+          "href": "/tools/audio-merge"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "视频裁剪",
+          "href": "/tools/video-trimmer"
+        }
+      ],
+      "upload": {
+        "drop": "将音频文件拖到此处",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "totalDuration": "总时长",
+        "start": "开始",
+        "end": "结束",
+        "outputFormat": "输出格式",
+        "resultSize": "文件大小"
+      },
+      "buttons": {
+        "cut": "剪切音频",
+        "download": "下载",
+        "reset": "重置"
+      },
+      "errors": {
+        "decode": "无法读取该音频文件，可能已损坏或不支持。",
+        "failed": "剪切失败，请重试。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "音声カッター - MP3/WAV 無料オンラインカット",
+        "description": "波形を見ながら MP3・WAV などの音声をカットできる無料ツール。MP3 または WAV で書き出し。ブラウザ内だけで処理され、プライバシー安全。"
+      },
+      "title": "音声カッター",
+      "description": "音声ファイルをアップロードし、波形上で残したい部分を選ぶだけで MP3 または WAV で書き出せます。すべてブラウザ内で完結します。",
+      "category": "音声ツール",
+      "keywords": [
+        "音声カット",
+        "mp3カット",
+        "音声トリミング",
+        "mp3編集",
+        "音楽カット",
+        "オンライン音声カッター"
+      ],
+      "faqs": [
+        {
+          "question": "対応している音声形式は？",
+          "answer": "ブラウザでデコードできる形式なら対応 — MP3、WAV、OGG、M4A、FLAC など。出力は MP3 または WAV です。"
+        },
+        {
+          "question": "音声はサーバーに送信されますか？",
+          "answer": "いいえ。音声は WebAssembly によりブラウザ内で完結して処理されるため、ファイルが端末の外に出ることはありません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "音声結合",
+          "href": "/tools/audio-merge"
+        },
+        {
+          "name": "音声変換",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "動画トリマー",
+          "href": "/tools/video-trimmer"
+        }
+      ],
+      "upload": {
+        "drop": "音声ファイルをドロップ",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "totalDuration": "総再生時間",
+        "start": "開始",
+        "end": "終了",
+        "outputFormat": "出力形式",
+        "resultSize": "ファイルサイズ"
+      },
+      "buttons": {
+        "cut": "カットする",
+        "download": "ダウンロード",
+        "reset": "リセット"
+      },
+      "errors": {
+        "decode": "この音声ファイルを読み込めませんでした。破損しているか非対応の可能性があります。",
+        "failed": "カットに失敗しました。もう一度お試しください。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "오디오 자르기 - MP3/WAV 무료 온라인 편집",
+        "description": "파형을 보며 MP3, WAV 등 오디오를 자르는 무료 온라인 도구입니다. MP3 또는 WAV로 내보내며 모든 처리는 브라우저에서 완료됩니다."
+      },
+      "title": "오디오 자르기",
+      "description": "오디오 파일을 업로드하고 파형에서 남길 구간을 드래그로 선택하면 MP3 또는 WAV로 내보냅니다. 모든 처리는 브라우저에서 로컬로 진행됩니다.",
+      "category": "오디오 도구",
+      "keywords": [
+        "오디오 자르기",
+        "mp3 자르기",
+        "오디오 편집",
+        "mp3 편집",
+        "음악 자르기",
+        "온라인 오디오 커터"
+      ],
+      "faqs": [
+        {
+          "question": "어떤 오디오 형식을 지원하나요?",
+          "answer": "브라우저가 디코딩할 수 있는 모든 형식 — MP3, WAV, OGG, M4A, FLAC 등. 결과물은 MP3 또는 WAV로 내보냅니다."
+        },
+        {
+          "question": "오디오가 서버로 업로드되나요?",
+          "answer": "아니요. 오디오는 WebAssembly로 브라우저 안에서만 처리되므로 파일이 기기를 떠나지 않습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "오디오 합치기",
+          "href": "/tools/audio-merge"
+        },
+        {
+          "name": "오디오 변환기",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "동영상 자르기",
+          "href": "/tools/video-trimmer"
+        }
+      ],
+      "upload": {
+        "drop": "오디오 파일을 여기에 놓으세요",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "totalDuration": "총 길이",
+        "start": "시작",
+        "end": "끝",
+        "outputFormat": "출력 형식",
+        "resultSize": "파일 크기"
+      },
+      "buttons": {
+        "cut": "오디오 자르기",
+        "download": "다운로드",
+        "reset": "초기화"
+      },
+      "errors": {
+        "decode": "이 오디오 파일을 읽을 수 없습니다. 손상되었거나 지원되지 않을 수 있습니다.",
+        "failed": "자르기에 실패했습니다. 다시 시도해 주세요."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Обрезка аудио - бесплатно обрезать MP3/WAV онлайн",
+        "description": "Бесплатный онлайн-редактор аудио. Обрезайте MP3, WAV и другие файлы, перетаскивая ползунки по волновой форме. Экспорт в MP3 или WAV. Приватно — всё в браузере."
+      },
+      "title": "Обрезка аудио",
+      "description": "Загрузите аудиофайл, выберите нужный фрагмент на волновой форме и экспортируйте его в MP3 или WAV. Обработка полностью выполняется в вашем браузере.",
+      "category": "Аудиоинструменты",
+      "keywords": [
+        "обрезать аудио",
+        "вырезать mp3",
+        "обрезать музыку",
+        "редактор mp3",
+        "тримминг аудио",
+        "обрезка песни онлайн"
+      ],
+      "faqs": [
+        {
+          "question": "Какие форматы поддерживаются?",
+          "answer": "Любые форматы, которые декодирует браузер — MP3, WAV, OGG, M4A, FLAC и другие. Результат экспортируется в MP3 или WAV."
+        },
+        {
+          "question": "Файл загружается на сервер?",
+          "answer": "Нет. Аудио декодируется и обрабатывается прямо в браузере через WebAssembly, поэтому файлы не покидают ваше устройство."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Объединение аудио",
+          "href": "/tools/audio-merge"
+        },
+        {
+          "name": "Конвертер аудио",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "Обрезка видео",
+          "href": "/tools/video-trimmer"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите аудиофайл сюда",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "totalDuration": "Длительность",
+        "start": "Начало",
+        "end": "Конец",
+        "outputFormat": "Формат вывода",
+        "resultSize": "Размер файла"
+      },
+      "buttons": {
+        "cut": "Обрезать",
+        "download": "Скачать",
+        "reset": "Сбросить"
+      },
+      "errors": {
+        "decode": "Не удалось прочитать аудиофайл. Возможно, он повреждён или не поддерживается.",
+        "failed": "Не удалось обрезать. Попробуйте ещё раз."
+      }
+    }
+  }
+}

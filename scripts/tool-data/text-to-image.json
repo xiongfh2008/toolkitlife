@@ -1,0 +1,298 @@
+{
+  "slug": "text-to-image",
+  "icon": "🖼️",
+  "home": {
+    "en": {
+      "name": "Text to Image",
+      "description": "Render multi-line text into a PNG image.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "文字转图片",
+      "description": "将多行文字渲染为 PNG 图片。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "テキストを画像に",
+      "description": "複数行のテキストをPNG画像に変換します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "텍스트를 이미지로",
+      "description": "여러 줄의 텍스트를 PNG 이미지로 변환합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Текст в картинку",
+      "description": "Превратите многострочный текст в изображение PNG.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Text to Image - Render Text as PNG Online",
+        "description": "Free online text to image converter. Turn multi-line text into a PNG with custom font size, colors, background and padding. Runs in your browser."
+      },
+      "title": "Text to Image",
+      "description": "Type or paste multi-line text and render it into a PNG image. Adjust font size, text color, background color and padding, then download the result.",
+      "category": "Life Tools",
+      "keywords": [
+        "text to image",
+        "text to png",
+        "text image generator",
+        "make text image",
+        "text poster",
+        "quote image generator"
+      ],
+      "faqs": [
+        {
+          "question": "What can I use this for?",
+          "answer": "Making quote images, sharing snippets, or creating simple text-based graphics for social media."
+        },
+        {
+          "question": "Can I customize the look?",
+          "answer": "Yes — font size, max width, padding, text color and background color are all adjustable before rendering."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Meme Generator",
+          "href": "/tools/meme-generator"
+        },
+        {
+          "name": "Text Logo",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "Image to Base64",
+          "href": "/tools/image-to-base64"
+        }
+      ],
+      "labels": {
+        "placeholder": "Enter your text here…",
+        "fontSize": "Font size",
+        "maxWidth": "Max width",
+        "padding": "Padding",
+        "color": "Text color",
+        "bgColor": "Background"
+      },
+      "buttons": {
+        "render": "Render Image",
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "文字转图片 - 在线将文字渲染为 PNG",
+        "description": "免费在线文字转图片工具，可将多行文字渲染为 PNG 图片，支持自定义字号、颜色、背景与内边距。全程在浏览器本地完成。"
+      },
+      "title": "文字转图片",
+      "description": "输入或粘贴多行文字，渲染为 PNG 图片。可调整字号、文字颜色、背景色与内边距，最后下载结果。",
+      "category": "生活工具",
+      "keywords": [
+        "文字转图片",
+        "文字转png",
+        "文字图片生成",
+        "制作文字图片",
+        "文字海报",
+        "语录图片生成"
+      ],
+      "faqs": [
+        {
+          "question": "这个工具有什么用？",
+          "answer": "可以制作语录图片、分享文字片段，或生成简单的文字图形用于社交媒体。"
+        },
+        {
+          "question": "可以自定义样式吗？",
+          "answer": "可以。字号、最大宽度、内边距、文字颜色与背景色都可在渲染前调整。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "表情包生成",
+          "href": "/tools/meme-generator"
+        },
+        {
+          "name": "文字Logo",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "图片转Base64",
+          "href": "/tools/image-to-base64"
+        }
+      ],
+      "labels": {
+        "placeholder": "在此输入文字…",
+        "fontSize": "字号",
+        "maxWidth": "最大宽度",
+        "padding": "内边距",
+        "color": "文字颜色",
+        "bgColor": "背景色"
+      },
+      "buttons": {
+        "render": "渲染图片",
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "テキストを画像に - オンラインでPNGに変換",
+        "description": "複数行のテキストをPNG画像に変換する無料ツール。フォントサイズ・色・背景・余白をカスタマイズ可能。ブラウザ内で完結。"
+      },
+      "title": "テキストを画像に",
+      "description": "複数行のテキストを入力してPNG画像に変換。文字サイズ、文字色、背景色、余白を調整してダウンロードできます。",
+      "category": "生活ツール",
+      "keywords": [
+        "テキストを画像",
+        "テキストからpng",
+        "文字画像生成",
+        "テキストポスター",
+        "引用画像",
+        "画像変換"
+      ],
+      "faqs": [
+        {
+          "question": "何に使えますか？",
+          "answer": "引用画像の作成、テキストの共有、SNS用のシンプルな文字画像の作成に使えます。"
+        },
+        {
+          "question": "見た目はカスタマイズできますか？",
+          "answer": "はい。フォントサイズ、最大幅、余白、文字色、背景色を変換前に調整できます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "ミーム生成",
+          "href": "/tools/meme-generator"
+        },
+        {
+          "name": "テキストロゴ",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "画像をBase64",
+          "href": "/tools/image-to-base64"
+        }
+      ],
+      "labels": {
+        "placeholder": "ここにテキストを入力…",
+        "fontSize": "文字サイズ",
+        "maxWidth": "最大幅",
+        "padding": "余白",
+        "color": "文字色",
+        "bgColor": "背景色"
+      },
+      "buttons": {
+        "render": "画像を生成",
+        "download": "PNGをダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "텍스트를 이미지로 - 온라인 PNG 변환",
+        "description": "여러 줄의 텍스트를 PNG 이미지로 변환하는 무료 도구입니다. 글꼴 크기, 색상, 배경, 여백을 조정할 수 있습니다. 브라우저에서 완료됩니다."
+      },
+      "title": "텍스트를 이미지로",
+      "description": "여러 줄의 텍스트를 입력해 PNG 이미지로 변환합니다. 글꼴 크기, 텍스트 색상, 배경색, 여백을 조정한 뒤 다운로드할 수 있습니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "텍스트를 이미지로",
+        "텍스트 png",
+        "텍스트 이미지 생성",
+        "문구 이미지",
+        "텍스트 포스터",
+        "인용구 이미지"
+      ],
+      "faqs": [
+        {
+          "question": "어디에 쓸 수 있나요?",
+          "answer": "인용구 이미지, 텍스트 공유, SNS용 간단한 텍스트 그래픽을 만드는 데 사용할 수 있습니다."
+        },
+        {
+          "question": "스타일을 조정할 수 있나요?",
+          "answer": "네. 글꼴 크기, 최대 너비, 여백, 텍스트 색상, 배경색을 렌더링 전에 모두 조정할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "밈 생성기",
+          "href": "/tools/meme-generator"
+        },
+        {
+          "name": "텍스트 로고",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "이미지 Base64",
+          "href": "/tools/image-to-base64"
+        }
+      ],
+      "labels": {
+        "placeholder": "여기에 텍스트를 입력하세요…",
+        "fontSize": "글꼴 크기",
+        "maxWidth": "최대 너비",
+        "padding": "여백",
+        "color": "텍스트 색상",
+        "bgColor": "배경색"
+      },
+      "buttons": {
+        "render": "이미지 생성",
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Текст в картинку - конвертировать в PNG онлайн",
+        "description": "Бесплатный онлайн-конвертер текста в изображение. Превратите многострочный текст в PNG с настраиваемым шрифтом, цветами, фоном и полями. Всё в браузере."
+      },
+      "title": "Текст в картинку",
+      "description": "Введите или вставьте многострочный текст и превратите его в изображение PNG. Настройте размер шрифта, цвет, фон и поля, затем скачайте результат.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "текст в картинку",
+        "текст в png",
+        "генератор текстовых картинок",
+        "текстовый плакат",
+        "цитата в картинке",
+        "текст в изображение"
+      ],
+      "faqs": [
+        {
+          "question": "Для чего это нужно?",
+          "answer": "Для создания картинок с цитатами, обмена фрагментами текста или простых текстовых графиков для соцсетей."
+        },
+        {
+          "question": "Можно ли настроить вид?",
+          "answer": "Да — размер шрифта, ширина, поля, цвет текста и фона настраиваются до рендеринга."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор мемов",
+          "href": "/tools/meme-generator"
+        },
+        {
+          "name": "Текстовый логотип",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "Изображение в Base64",
+          "href": "/tools/image-to-base64"
+        }
+      ],
+      "labels": {
+        "placeholder": "Введите текст здесь…",
+        "fontSize": "Размер шрифта",
+        "maxWidth": "Ширина",
+        "padding": "Поля",
+        "color": "Цвет текста",
+        "bgColor": "Фон"
+      },
+      "buttons": {
+        "render": "Создать",
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

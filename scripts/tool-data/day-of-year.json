@@ -1,0 +1,278 @@
+{
+  "slug": "day-of-year",
+  "icon": "📅",
+  "home": {
+    "en": {
+      "name": "Day of Year",
+      "description": "Find which day of the year a date is.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "第几天",
+      "description": "查询某个日期是当年的第几天。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "年間通算日",
+      "description": "その日付が1年のうち何日目かを調べます。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "올해 며칠째",
+      "description": "어떤 날짜가 올해의 며칠째인지 확인합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "День года",
+      "description": "Узнайте, какой это день года.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Day of Year - Which Day of the Year Is Today?",
+        "description": "Free online day of year calculator. Find which day of the year any date is, plus how many days are left in the year. Runs in your browser."
+      },
+      "title": "Day of Year",
+      "description": "Pick a date and see its day number of the year, the total days in that year, and how many days remain.",
+      "category": "Life Tools",
+      "keywords": [
+        "day of year",
+        "day number",
+        "day of the year calculator",
+        "days in year",
+        "days remaining",
+        "ordinal date"
+      ],
+      "faqs": [
+        {
+          "question": "What is the day of year?",
+          "answer": "It is the ordinal number of the day within the year — January 1 is day 1, February 1 is day 32 in a non-leap year."
+        },
+        {
+          "question": "Are leap years handled?",
+          "answer": "Yes, leap years correctly show 366 days with February 29 counted."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Day of Week",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "Date Calculator",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "Year Calendar",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "dayOfYear": "Day of year",
+        "totalDays": "Days in year",
+        "daysLeft": "Days left"
+      },
+      "buttons": {
+        "calculate": "Calculate"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "第几天 - 查询今天是当年的第几天",
+        "description": "免费在线第几天查询工具，可查看任意日期是当年的第几天、全年天数与剩余天数。全程在浏览器本地完成。"
+      },
+      "title": "第几天",
+      "description": "选择日期，查看它是当年的第几天、该年总天数以及还剩多少天。",
+      "category": "生活工具",
+      "keywords": [
+        "第几天",
+        "年度日序",
+        "一年中的第几天",
+        "全年天数",
+        "剩余天数",
+        "日序号"
+      ],
+      "faqs": [
+        {
+          "question": "什么是当年第几天？",
+          "answer": "即该日在一年中的序号——1 月 1 日是第 1 天，平年 2 月 1 日是第 32 天。"
+        },
+        {
+          "question": "闰年处理正确吗？",
+          "answer": "正确。闰年显示 366 天，并计入 2 月 29 日。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "星期查询",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "日期计算",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "全年日历",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "dayOfYear": "当年第几天",
+        "totalDays": "全年天数",
+        "daysLeft": "剩余天数"
+      },
+      "buttons": {
+        "calculate": "查询"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "年間通算日 - 今日は1年の何日目？",
+        "description": "任意の日付が1年の何日目か、その年の総日数と残り日数を調べられる無料ツール。ブラウザ内で完結。"
+      },
+      "title": "年間通算日",
+      "description": "日付を選ぶと、その年の通算日数、その年の総日数、残り日数がわかります。",
+      "category": "生活ツール",
+      "keywords": [
+        "年間通算日",
+        "日数",
+        "1年の何日目",
+        "年の日数",
+        "残り日数",
+        "通算日"
+      ],
+      "faqs": [
+        {
+          "question": "年間通算日とは？",
+          "answer": "1年の中でのその日の番号です。1月1日が1日目、平年の2月1日は32日目になります。"
+        },
+        {
+          "question": "うるう年は考慮されますか？",
+          "answer": "はい。うるう年は366日として2月29日も数えます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "曜日計算",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "日付計算",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "年間カレンダー",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "dayOfYear": "年間通算日",
+        "totalDays": "年の総日数",
+        "daysLeft": "残り日数"
+      },
+      "buttons": {
+        "calculate": "計算"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "올해 며칠째 - 날짜의 연중 일수 확인",
+        "description": "원하는 날짜가 올해의 며칠째인지, 해당 연도의 총 일수와 남은 일수를 확인하는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "올해 며칠째",
+      "description": "날짜를 선택하면 그날이 연중 몇 번째 날인지, 그해 총 일수와 남은 일수를 보여줍니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "올해 며칠째",
+        "연중 일수",
+        "날짜 일수",
+        "연간 일수",
+        "남은 일수",
+        "일수 계산"
+      ],
+      "faqs": [
+        {
+          "question": "연중 일수가 무엇인가요?",
+          "answer": "그날이 1년 중 몇 번째인지를 나타냅니다. 1월 1일이 1일째, 평년 2월 1일은 32일째입니다."
+        },
+        {
+          "question": "윤년은 처리되나요?",
+          "answer": "네. 윤년은 366일로 표시하고 2월 29일도 셉니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "요일 계산",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "날짜 계산",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "연간 달력",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "dayOfYear": "연중 일수",
+        "totalDays": "연간 총 일수",
+        "daysLeft": "남은 일수"
+      },
+      "buttons": {
+        "calculate": "계산"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "День года - какой сегодня день года",
+        "description": "Бесплатный онлайн-калькулятор дня года. Узнайте номер дня любого числа, общее число дней в году и сколько осталось. Всё в браузере."
+      },
+      "title": "День года",
+      "description": "Выберите дату и увидите её номер в году, общее число дней в этом году и сколько дней осталось.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "день года",
+        "номер дня",
+        "какой день года",
+        "дней в году",
+        "осталось дней",
+        "порядковый день"
+      ],
+      "faqs": [
+        {
+          "question": "Что такое день года?",
+          "answer": "Это порядковый номер дня в году — 1 января это день 1, 1 февраля в невисокосный год это день 32."
+        },
+        {
+          "question": "Високосные годы учитываются?",
+          "answer": "Да, високосный год показывает 366 дней с учётом 29 февраля."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "День недели",
+          "href": "/tools/day-of-week"
+        },
+        {
+          "name": "Калькулятор дат",
+          "href": "/tools/date-calculator"
+        },
+        {
+          "name": "Годовой календарь",
+          "href": "/tools/calendar"
+        }
+      ],
+      "labels": {
+        "dayOfYear": "День года",
+        "totalDays": "Дней в году",
+        "daysLeft": "Осталось дней"
+      },
+      "buttons": {
+        "calculate": "Вычислить"
+      }
+    }
+  }
+}

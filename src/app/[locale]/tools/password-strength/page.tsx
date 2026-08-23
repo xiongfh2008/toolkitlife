@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import ToolLayout from "@/components/ToolLayout";
+import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 
 interface Strength {
   label: string;
@@ -13,6 +13,9 @@ interface Strength {
 
 export default function PasswordStrengthPage() {
   const t = useTranslations("tools.password-strength");
+  const faqs = t.raw("faqs") as FAQ[];
+  const relatedTools = t.raw("relatedTools") as RelatedTool[];
+  const keywords = t.raw("keywords") as string[];
   const [password, setPassword] = useState("");
 
   const checks = {
@@ -52,6 +55,9 @@ export default function PasswordStrengthPage() {
       description={t("metadata.description")}
       category={t("metadata.category")}
       slug="password-strength"
+      faqs={faqs}
+      relatedTools={relatedTools}
+      keywords={keywords}
     >
       <div className="max-w-xl space-y-4">
         <div>

@@ -1,0 +1,318 @@
+{
+  "slug": "image-region-mask",
+  "icon": "🎭",
+  "home": {
+    "en": {
+      "name": "Region Mask",
+      "description": "Drag to select areas and apply mosaic or blur to hide sensitive parts of an image.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "区域马赛克/模糊",
+      "description": "拖拽选中区域并应用马赛克或模糊，隐藏图片中的敏感内容。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "領域マスク",
+      "description": "領域をドラッグ選択し、モザイクやぼかしで画像のプライバシー部分を隠します。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "영역 마스크",
+      "description": "영역을 드래그로 선택하고 모자이크·블러를 적용해 민감한 부분을 숨깁니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Маскирование области",
+      "description": "Выделите области и примените мозаику или размытие, чтобы скрыть конфиденциальное.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Region Mask - Mosaic & Blur Parts of an Image Online",
+        "description": "Drag to select areas and apply mosaic or blur to hide sensitive parts of an image. Free, runs in your browser."
+      },
+      "title": "Region Mask",
+      "description": "Drag over any part of an image to apply mosaic or blur and hide sensitive details like faces, plates or text.",
+      "category": "Image Tools",
+      "keywords": [
+        "image region mask",
+        "mosaic blur tool",
+        "blur part of image",
+        "mosaic part of image",
+        "hide area in image",
+        "pixelate region"
+      ],
+      "faqs": [
+        {
+          "question": "How do I select a region?",
+          "answer": "Click and drag on the image to draw a rectangle over the area you want to mask — release the mouse to apply the effect."
+        },
+        {
+          "question": "What is the difference between mosaic and blur?",
+          "answer": "Mosaic replaces the area with large color blocks (pixelation), while blur softens the details with a smooth Gaussian-like effect."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Face Blur",
+          "href": "/tools/face-blur"
+        },
+        {
+          "name": "Pixelate/Mosaic",
+          "href": "/tools/image-pixelate"
+        },
+        {
+          "name": "Image Content Clear",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "clear": "Clear regions",
+        "newImage": "New image"
+      },
+      "labels": {
+        "mode": "Effect",
+        "mosaic": "Mosaic",
+        "blur": "Blur",
+        "size": "Block size",
+        "hint": "Drag on the image to mask an area"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "区域马赛克/模糊 - 在线遮挡图片局部",
+        "description": "拖拽选中区域并应用马赛克或模糊，隐藏图片中的敏感内容。免费，浏览器内运行。"
+      },
+      "title": "区域马赛克/模糊",
+      "description": "拖拽选中图片任意区域，应用马赛克或模糊，隐藏人脸、车牌、文字等敏感细节。",
+      "category": "图片工具",
+      "keywords": [
+        "区域马赛克",
+        "图片局部模糊",
+        "马赛克模糊工具",
+        "遮挡图片区域",
+        "局部打码",
+        "区域像素化"
+      ],
+      "faqs": [
+        {
+          "question": "如何选择区域？",
+          "answer": "在图片上按住并拖动鼠标，框选出要遮挡的矩形区域，松开鼠标即可应用效果。"
+        },
+        {
+          "question": "马赛克和模糊有什么区别？",
+          "answer": "马赛克用大色块（像素化）覆盖区域，模糊则用平滑的类高斯效果柔化细节。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "面部模糊",
+          "href": "/tools/face-blur"
+        },
+        {
+          "name": "马赛克/像素化",
+          "href": "/tools/image-pixelate"
+        },
+        {
+          "name": "图像内容清除",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "clear": "清除区域",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "mode": "效果",
+        "mosaic": "马赛克",
+        "blur": "模糊",
+        "size": "块大小",
+        "hint": "在图片上拖拽以遮挡区域"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "領域マスク - オンラインでモザイク・ぼかし",
+        "description": "領域をドラッグ選択し、モザイクやぼかしで画像のプライバシー部分を隠します。無料・ブラウザ内で完結。"
+      },
+      "title": "領域マスク",
+      "description": "画像の任意の部分をドラッグ選択し、モザイクやぼかしで顔・ナンバープレート・文字などの情報を隠します。",
+      "category": "画像ツール",
+      "keywords": [
+        "領域マスク",
+        "画像の部分モザイク",
+        "モザイクぼかしツール",
+        "画像の一部を隠す",
+        "部分ぼかし",
+        "領域ピクセル化"
+      ],
+      "faqs": [
+        {
+          "question": "領域はどうやって選びますか？",
+          "answer": "画像上でドラッグしてマスクしたい範囲を矩形で囲み、マウスを離すと効果が適用されます。"
+        },
+        {
+          "question": "モザイクとぼかしの違いは？",
+          "answer": "モザイクは領域を大きな色ブロック（ピクセル化）で覆い、ぼかしは滑らかなガウス風効果で細部を柔らかくします。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "顔モザイク",
+          "href": "/tools/face-blur"
+        },
+        {
+          "name": "モザイク/ピクセル化",
+          "href": "/tools/image-pixelate"
+        },
+        {
+          "name": "画像内容クリア",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップ",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード",
+        "clear": "領域をクリア",
+        "newImage": "新しい画像"
+      },
+      "labels": {
+        "mode": "エフェクト",
+        "mosaic": "モザイク",
+        "blur": "ぼかし",
+        "size": "ブロックサイズ",
+        "hint": "画像上をドラッグしてマスク"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "영역 마스크 - 온라인 모자이크·블러 도구",
+        "description": "영역을 드래그로 선택하고 모자이크·블러를 적용해 민감한 부분을 숨깁니다. 무료, 브라우저에서 실행."
+      },
+      "title": "영역 마스크",
+      "description": "이미지의 원하는 부분을 드래그해 선택하고 모자이크·블러를 적용해 얼굴, 번호판, 텍스트 등 민감한 정보를 숨깁니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "영역 마스크",
+        "이미지 부분 모자이크",
+        "모자이크 블러 도구",
+        "이미지 부분 가리기",
+        "부분 블러",
+        "영역 픽셀화"
+      ],
+      "faqs": [
+        {
+          "question": "영역은 어떻게 선택하나요?",
+          "answer": "이미지 위에서 드래그해 마스크할 부분을 사각형으로 그린 뒤 마우스를 놓으면 효과가 적용됩니다."
+        },
+        {
+          "question": "모자이크와 블러의 차이는 무엇인가요?",
+          "answer": "모자이크는 영역을 큰 색 블록(픽셀화)으로 덮고, 블러는 부드러운 가우시안 효과로 세부를 흐리게 합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "얼굴 모자이크",
+          "href": "/tools/face-blur"
+        },
+        {
+          "name": "모자이크/픽셀화",
+          "href": "/tools/image-pixelate"
+        },
+        {
+          "name": "이미지 내용 지우기",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 여기에 놓으세요",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG 다운로드",
+        "clear": "영역 지우기",
+        "newImage": "새 이미지"
+      },
+      "labels": {
+        "mode": "효과",
+        "mosaic": "모자이크",
+        "blur": "블러",
+        "size": "블록 크기",
+        "hint": "이미지에서 드래그하여 영역 마스크"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Маскирование области - мозаика и размытие онлайн",
+        "description": "Выделите области и примените мозаику или размытие, чтобы скрыть конфиденциальное. Бесплатно, работает в браузере."
+      },
+      "title": "Маскирование области",
+      "description": "Выделите любую часть изображения и примените мозаику или размытие, чтобы скрыть лица, номера, текст и другие детали.",
+      "category": "Изображения",
+      "keywords": [
+        "маскирование области",
+        "мозаика на части изображения",
+        "размыть часть изображения",
+        "скрыть область изображения",
+        "мозаика и размытие",
+        "пикселизация области"
+      ],
+      "faqs": [
+        {
+          "question": "Как выделить область?",
+          "answer": "Нажмите и перетащите по изображению, чтобы нарисовать прямоугольник над нужной зоной, затем отпустите мышь."
+        },
+        {
+          "question": "Чем мозаика отличается от размытия?",
+          "answer": "Мозаика закрывает область крупными цветными блоками (пикселизация), а размытие мягко скрывает детали эффектом вроде гаусса."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Размытие лиц",
+          "href": "/tools/face-blur"
+        },
+        {
+          "name": "Пикселизация/Мозаика",
+          "href": "/tools/image-pixelate"
+        },
+        {
+          "name": "Очистка содержимого",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображение сюда",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Скачать PNG",
+        "clear": "Очистить области",
+        "newImage": "Новое изображение"
+      },
+      "labels": {
+        "mode": "Эффект",
+        "mosaic": "Мозаика",
+        "blur": "Размытие",
+        "size": "Размер блока",
+        "hint": "Перетащите по изображению, чтобы скрыть область"
+      }
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "slug": "alarm",
+  "icon": "⏰",
+  "home": {
+    "en": {
+      "name": "Alarm Clock",
+      "description": "Set an alarm at a specific time or in N minutes.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "闹钟",
+      "description": "在指定时间或 N 分钟后设置闹钟提醒。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "目覚まし",
+      "description": "指定時刻またはN分後にアラームを設定。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "알람",
+      "description": "특정 시간 또는 N분 후에 알람을 설정합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Будильник",
+      "description": "Установите будильник на точное время или через N минут.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Alarm Clock - Set an Online Alarm",
+        "description": "Free online alarm clock. Set an alarm for a specific time of day or a few minutes from now, with a ringing sound. Runs entirely in your browser."
+      },
+      "title": "Alarm Clock",
+      "description": "Set an alarm to ring at a chosen time, or a number of minutes from now. When the time comes, a tone sounds to wake you up.",
+      "category": "Life Tools",
+      "keywords": [
+        "alarm clock",
+        "online alarm",
+        "set alarm",
+        "wake up",
+        "alarm timer",
+        "reminder"
+      ],
+      "faqs": [
+        {
+          "question": "Does the alarm work when the page is open?",
+          "answer": "Yes, while the page stays open. The alarm only rings when this tab is running, so keep it open or use your device's native alarm for best reliability."
+        },
+        {
+          "question": "Can I test the sound first?",
+          "answer": "Yes — use the test sound button to check the volume before setting the alarm."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Online Clock",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "Countdown Timer",
+          "href": "/tools/countdown-timer"
+        },
+        {
+          "name": "World Clock",
+          "href": "/tools/world-clock"
+        }
+      ],
+      "labels": {
+        "ringing": "Alarm ringing!",
+        "countdown": "Rings in",
+        "placeholder": "Set a time or minutes below"
+      },
+      "buttons": {
+        "setTime": "Set Time Alarm",
+        "setMinutes": "Set Minutes Alarm",
+        "stop": "Stop",
+        "testSound": "Test Sound"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "闹钟 - 在线设置闹钟",
+        "description": "免费在线闹钟，可设置指定时刻闹钟或 N 分钟后提醒，到点响铃。全程在浏览器本地完成。"
+      },
+      "title": "闹钟",
+      "description": "设置一个在指定时间或 N 分钟后响铃的闹钟，时间到时会播放提示音提醒你。",
+      "category": "生活工具",
+      "keywords": [
+        "闹钟",
+        "在线闹钟",
+        "设置闹钟",
+        "起床闹钟",
+        "定时提醒",
+        "闹钟提醒"
+      ],
+      "faqs": [
+        {
+          "question": "页面打开时闹钟才会响吗？",
+          "answer": "是的，闹钟只在当前标签页运行时才会响。请保持页面打开，或使用设备自带闹钟获得更可靠的提醒。"
+        },
+        {
+          "question": "可以先试听铃声吗？",
+          "answer": "可以。设置前先用「试听声音」按钮确认音量。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "在线时钟",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "倒计时",
+          "href": "/tools/countdown-timer"
+        },
+        {
+          "name": "世界时钟",
+          "href": "/tools/world-clock"
+        }
+      ],
+      "labels": {
+        "ringing": "闹钟响了！",
+        "countdown": "响铃倒计时",
+        "placeholder": "请在下方设置时间或分钟"
+      },
+      "buttons": {
+        "setTime": "设置定时闹钟",
+        "setMinutes": "设置分钟闹钟",
+        "stop": "停止",
+        "testSound": "试听声音"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "目覚まし - オンラインでアラームを設定",
+        "description": "指定時刻またはN分後に鳴る無料のオンラインアラーム。ブラウザ内で完結します。"
+      },
+      "title": "目覚まし",
+      "description": "指定時刻または今からN分後に鳴るアラームを設定。時間になると音でお知らせします。",
+      "category": "生活ツール",
+      "keywords": [
+        "目覚まし",
+        "オンラインアラーム",
+        "アラーム設定",
+        "起床",
+        "タイマー",
+        "リマインダー"
+      ],
+      "faqs": [
+        {
+          "question": "ページを開いているときだけ鳴りますか？",
+          "answer": "はい。このタブが動いている間だけ鳴ります。ページを開いたままにするか、確実性を重視するなら端末のアラームをどうぞ。"
+        },
+        {
+          "question": "音を先に確認できますか？",
+          "answer": "はい。「サウンドテスト」ボタンで音量を確認してから設定できます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "オンライン時計",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "カウントダウン",
+          "href": "/tools/countdown-timer"
+        },
+        {
+          "name": "ワールドクロック",
+          "href": "/tools/world-clock"
+        }
+      ],
+      "labels": {
+        "ringing": "アラームが鳴っています！",
+        "countdown": "鳴るまで",
+        "placeholder": "以下で時刻または分数を設定"
+      },
+      "buttons": {
+        "setTime": "時刻アラーム",
+        "setMinutes": "分数アラーム",
+        "stop": "停止",
+        "testSound": "サウンドテスト"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "알람 - 온라인 알람 설정",
+        "description": "특정 시간 또는 N분 후에 울리는 무료 온라인 알람입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "알람",
+      "description": "지정된 시간 또는 지금부터 N분 후에 울리는 알람을 설정하고, 시간이 되면 소리로 알려줍니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "알람",
+        "온라인 알람",
+        "알람 설정",
+        "기상 알람",
+        "타이머",
+        "리마인더"
+      ],
+      "faqs": [
+        {
+          "question": "페이지를 열어둘 때만 울리나요?",
+          "answer": "네. 이 탭이 실행되는 동안만 울립니다. 페이지를 열어두거나 신뢰성을 위해 기기 알람을 사용하세요."
+        },
+        {
+          "question": "소리를 먼저 확인할 수 있나요?",
+          "answer": "네. 설정 전에 '소리 테스트' 버튼으로 볼륨을 확인할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "온라인 시계",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "카운트다운",
+          "href": "/tools/countdown-timer"
+        },
+        {
+          "name": "세계 시계",
+          "href": "/tools/world-clock"
+        }
+      ],
+      "labels": {
+        "ringing": "알람이 울리고 있어요!",
+        "countdown": "울릴 때까지",
+        "placeholder": "아래에서 시간 또는 분을 설정하세요"
+      },
+      "buttons": {
+        "setTime": "시간 알람 설정",
+        "setMinutes": "분 알람 설정",
+        "stop": "중지",
+        "testSound": "소리 테스트"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Будильник - установить онлайн",
+        "description": "Бесплатный онлайн-будильник. Установите сигнал на конкретное время или через несколько минут, со звонком. Всё в браузере."
+      },
+      "title": "Будильник",
+      "description": "Установите будильник на выбранное время или через N минут. Когда время наступит, прозвучит сигнал.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "будильник",
+        "онлайн будильник",
+        "установить будильник",
+        "проснуться",
+        "таймер",
+        "напоминание"
+      ],
+      "faqs": [
+        {
+          "question": "Будильник сработает при открытой странице?",
+          "answer": "Да, пока страница открыта. Сигнал звучит только когда вкладка работает — держите её открытой или используйте системный будильник для надёжности."
+        },
+        {
+          "question": "Можно ли сначала проверить звук?",
+          "answer": "Да — кнопка «Проверить звук» позволяет проверить громкость до установки будильника."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Онлайн-часы",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "Таймер",
+          "href": "/tools/countdown-timer"
+        },
+        {
+          "name": "Мировые часы",
+          "href": "/tools/world-clock"
+        }
+      ],
+      "labels": {
+        "ringing": "Будильник звонит!",
+        "countdown": "Прозвонит через",
+        "placeholder": "Укажите время или минуты ниже"
+      },
+      "buttons": {
+        "setTime": "По времени",
+        "setMinutes": "Через N минут",
+        "stop": "Стоп",
+        "testSound": "Проверить звук"
+      }
+    }
+  }
+}

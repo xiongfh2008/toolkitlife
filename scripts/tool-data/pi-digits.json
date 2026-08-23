@@ -1,0 +1,293 @@
+{
+  "slug": "pi-digits",
+  "icon": "🥧",
+  "home": {
+    "en": {
+      "name": "Pi Digits",
+      "description": "Generate and search millions of pi digits.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "圆周率查询",
+      "description": "生成并搜索圆周率百万位数字。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "円周率検索",
+      "description": "円周率の桁を生成・検索します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "원주율 검색",
+      "description": "원주율의 자릿수를 생성하고 검색합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Цифры числа π",
+      "description": "Генерируйте и ищите миллионы цифр числа π.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Pi Digits - Generate and Search Pi Online",
+        "description": "Generate up to 100,000 digits of pi in your browser, search for number sequences inside them, and download the digits as a text file."
+      },
+      "title": "Pi Digits",
+      "description": "Generate anywhere from 10 to 100,000 digits of π right in your browser using a spigot algorithm, then search for any digit sequence inside the result.",
+      "category": "Life Tools",
+      "keywords": [
+        "pi digits",
+        "pi search",
+        "search pi",
+        "pi calculator",
+        "digits of pi",
+        "pi sequence"
+      ],
+      "faqs": [
+        {
+          "question": "How are the digits generated?",
+          "answer": "A BigInt spigot algorithm computes the digits on the fly in your browser — no server or database is involved."
+        },
+        {
+          "question": "How many digits can I generate?",
+          "answer": "From 10 up to 100,000 digits per run. Larger requests take a few seconds."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Monte Carlo Pi",
+          "href": "/tools/monte-carlo-pi"
+        },
+        {
+          "name": "Hash Generator",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Random Number Generator",
+          "href": "/tools/random-number-generator"
+        }
+      ],
+      "labels": {
+        "digits": "Digits",
+        "searchPlaceholder": "Search a number sequence…",
+        "notFound": "Not found",
+        "found": "First occurrence at position"
+      },
+      "buttons": {
+        "generate": "Generate",
+        "search": "Search",
+        "download": "Download .txt"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "圆周率查询 - 在线生成与搜索圆周率",
+        "description": "在浏览器中生成最多 10 万位圆周率，可搜索数字序列并下载为文本文件。全程本地计算，无需服务器。"
+      },
+      "title": "圆周率查询",
+      "description": "使用 spigot 算法在浏览器中生成 10 到 10 万位圆周率，并可在结果中搜索任意数字序列。",
+      "category": "生活工具",
+      "keywords": [
+        "圆周率",
+        "圆周率查询",
+        "π搜索",
+        "圆周率计算",
+        "π位数",
+        "圆周率数字"
+      ],
+      "faqs": [
+        {
+          "question": "数字是如何生成的？",
+          "answer": "使用 BigInt spigot 算法在浏览器中实时计算，无需服务器或数据库。"
+        },
+        {
+          "question": "最多能生成多少位？",
+          "answer": "每次可生成 10 到 10 万位，更大的请求需要几秒钟。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "蒙特卡洛圆周率",
+          "href": "/tools/monte-carlo-pi"
+        },
+        {
+          "name": "哈希生成",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "随机数生成",
+          "href": "/tools/random-number-generator"
+        }
+      ],
+      "labels": {
+        "digits": "位数",
+        "searchPlaceholder": "搜索数字序列…",
+        "notFound": "未找到",
+        "found": "首次出现位置"
+      },
+      "buttons": {
+        "generate": "生成",
+        "search": "搜索",
+        "download": "下载 .txt"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "円周率検索 - オンラインで生成・検索",
+        "description": "ブラウザ内で最大10万桁の円周率を生成し、数字列を検索・テキストファイルとしてダウンロードできます。"
+      },
+      "title": "円周率検索",
+      "description": "spigot アルゴリズムでブラウザ内に10〜10万桁の円周率を生成し、結果の中から任意の数字列を検索できます。",
+      "category": "生活ツール",
+      "keywords": [
+        "円周率",
+        "円周率検索",
+        "πの桁",
+        "円周率計算",
+        "π検索",
+        "数字列検索"
+      ],
+      "faqs": [
+        {
+          "question": "桁はどうやって生成されますか？",
+          "answer": "BigInt による spigot アルゴリズムがブラウザ内で即時計算します。サーバーやデータベースは不要です。"
+        },
+        {
+          "question": "何桁まで生成できますか？",
+          "answer": "1回で10〜10万桁まで。大きいリクエストは数秒かかります。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "モンテカルロ円周率",
+          "href": "/tools/monte-carlo-pi"
+        },
+        {
+          "name": "ハッシュ生成",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "乱数生成",
+          "href": "/tools/random-number-generator"
+        }
+      ],
+      "labels": {
+        "digits": "桁数",
+        "searchPlaceholder": "数字列を検索…",
+        "notFound": "見つかりません",
+        "found": "最初の出現位置"
+      },
+      "buttons": {
+        "generate": "生成",
+        "search": "検索",
+        "download": "ダウンロード .txt"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "원주율 검색 - 온라인 생성 및 검색",
+        "description": "브라우저에서 최대 10만 자리의 원주율을 생성하고 숫자열을 검색하거나 텍스트 파일로 다운로드할 수 있습니다."
+      },
+      "title": "원주율 검색",
+      "description": "spigot 알고리즘으로 브라우저에서 10~10만 자리의 원주율을 생성하고, 결과에서 원하는 숫자열을 검색할 수 있습니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "원주율",
+        "원주율 검색",
+        "π 자릿수",
+        "원주율 계산",
+        "π 검색",
+        "숫자열 검색"
+      ],
+      "faqs": [
+        {
+          "question": "자릿수는 어떻게 생성되나요?",
+          "answer": "BigInt spigot 알고리즘이 브라우저에서 즉시 계산합니다. 서버나 데이터베이스가 필요 없습니다."
+        },
+        {
+          "question": "몇 자리까지 생성할 수 있나요?",
+          "answer": "한 번에 10~10만 자리까지. 큰 요청은 몇 초가 걸립니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "몬테카를로 파이",
+          "href": "/tools/monte-carlo-pi"
+        },
+        {
+          "name": "해시 생성",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "난수 생성",
+          "href": "/tools/random-number-generator"
+        }
+      ],
+      "labels": {
+        "digits": "자릿수",
+        "searchPlaceholder": "숫자열 검색…",
+        "notFound": "찾을 수 없음",
+        "found": "첫 번째 위치"
+      },
+      "buttons": {
+        "generate": "생성",
+        "search": "검색",
+        "download": "다운로드 .txt"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Цифры числа π - генерировать и искать онлайн",
+        "description": "Сгенерируйте до 100 000 цифр числа π прямо в браузере, ищите последовательности и скачивайте результат в виде текстового файла."
+      },
+      "title": "Цифры числа π",
+      "description": "Сгенерируйте от 10 до 100 000 цифр числа π прямо в браузере с помощью алгоритма-краника, затем ищите любую последовательность в результате.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "цифры π",
+        "поиск π",
+        "число пи",
+        "калькулятор π",
+        "цифры числа пи",
+        "последовательность π"
+      ],
+      "faqs": [
+        {
+          "question": "Как генерируются цифры?",
+          "answer": "Алгоритм-краник на BigInt вычисляет цифры на лету в вашем браузере — без сервера и базы данных."
+        },
+        {
+          "question": "Сколько цифр можно получить?",
+          "answer": "От 10 до 100 000 цифр за раз. Более крупные запросы занимают несколько секунд."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Монте-Карло π",
+          "href": "/tools/monte-carlo-pi"
+        },
+        {
+          "name": "Генератор хэша",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Генератор чисел",
+          "href": "/tools/random-number-generator"
+        }
+      ],
+      "labels": {
+        "digits": "Цифр",
+        "searchPlaceholder": "Поиск последовательности…",
+        "notFound": "Не найдено",
+        "found": "Первое вхождение на позиции"
+      },
+      "buttons": {
+        "generate": "Сгенерировать",
+        "search": "Поиск",
+        "download": "Скачать .txt"
+      }
+    }
+  }
+}

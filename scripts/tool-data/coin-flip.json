@@ -1,0 +1,298 @@
+{
+  "slug": "coin-flip",
+  "icon": "🪙",
+  "home": {
+    "en": {
+      "name": "Coin Flip",
+      "description": "Flip a virtual coin with heads/tails statistics.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "抛硬币",
+      "description": "虚拟抛硬币，记录正反面统计结果。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "コイントス",
+      "description": "仮想コインを投げて表裏の統計を記録します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "동전 던지기",
+      "description": "가상 동전을 던져 앞뒷면 통계를 기록합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Монетка",
+      "description": "Подбросьте виртуальную монету со статистикой орла и решки.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Coin Flip - Flip a Virtual Coin Online",
+        "description": "Flip a virtual coin online. Track heads and tails with a running tally. Great for decisions and practice. Runs in your browser."
+      },
+      "title": "Coin Flip",
+      "description": "Flip a virtual coin with a single click. The counter keeps track of heads and tails so you can see the distribution over time.",
+      "category": "Life Tools",
+      "keywords": [
+        "coin flip",
+        "flip a coin",
+        "coin toss",
+        "heads or tails",
+        "virtual coin",
+        "coin flipper"
+      ],
+      "faqs": [
+        {
+          "question": "Is this a fair coin?",
+          "answer": "Yes — the result is generated with a secure random number generator, so heads and tails are equally likely."
+        },
+        {
+          "question": "Is there a limit on flips?",
+          "answer": "No. You can flip as many times as you like, and the running totals always stay visible."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Dice Roller",
+          "href": "/tools/dice-roller"
+        },
+        {
+          "name": "Random Picker",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "Random Group Generator",
+          "href": "/tools/group-randomizer"
+        }
+      ],
+      "labels": {
+        "result": "Result",
+        "heads": "Heads",
+        "tails": "Tails",
+        "headsCount": "Heads",
+        "tailsCount": "Tails",
+        "total": "Total"
+      },
+      "buttons": {
+        "flip": "Flip Coin",
+        "reset": "Reset"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "抛硬币 - 在线虚拟抛硬币",
+        "description": "在线虚拟抛硬币，记录正反面统计次数，可用于决策或练习。所有操作都在浏览器本地完成。"
+      },
+      "title": "抛硬币",
+      "description": "一键抛掷虚拟硬币，计数器会记录正反面次数，方便观察分布情况。",
+      "category": "生活工具",
+      "keywords": [
+        "抛硬币",
+        "掷硬币",
+        "硬币正反面",
+        "随机硬币",
+        "抛硬币决定",
+        "在线硬币"
+      ],
+      "faqs": [
+        {
+          "question": "硬币公平吗？",
+          "answer": "公平。结果由安全的随机数生成器产生，正反面概率各占一半。"
+        },
+        {
+          "question": "抛掷次数有限制吗？",
+          "answer": "没有限制，可以一直抛，累计次数始终可见。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "掷骰子",
+          "href": "/tools/dice-roller"
+        },
+        {
+          "name": "随机抽签",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "名单随机分组",
+          "href": "/tools/group-randomizer"
+        }
+      ],
+      "labels": {
+        "result": "结果",
+        "heads": "正面",
+        "tails": "反面",
+        "headsCount": "正面",
+        "tailsCount": "反面",
+        "total": "总次数"
+      },
+      "buttons": {
+        "flip": "抛硬币",
+        "reset": "重置"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "コイントス - オンラインでコインを投げる",
+        "description": "仮想コインをオンラインで投げ、表裏の統計を記録。決断や練習に便利。ブラウザ内で完結します。"
+      },
+      "title": "コイントス",
+      "description": "クリックひとつで仮想コインを投げ、表と裏の回数を記録して分布を確認できます。",
+      "category": "生活ツール",
+      "keywords": [
+        "コイントス",
+        "コインを投げる",
+        "表裏",
+        "オンラインコイン",
+        "くじ引き",
+        "コインフリップ"
+      ],
+      "faqs": [
+        {
+          "question": "公平なコインですか？",
+          "answer": "はい。安全な乱数生成で表裏が等確率になるようになっています。"
+        },
+        {
+          "question": "回数に制限はありますか？",
+          "answer": "いいえ。何度でも投げられ、累計は常に表示されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "サイコロ",
+          "href": "/tools/dice-roller"
+        },
+        {
+          "name": "ランダム抽選",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "ランダムグループ分け",
+          "href": "/tools/group-randomizer"
+        }
+      ],
+      "labels": {
+        "result": "結果",
+        "heads": "表",
+        "tails": "裏",
+        "headsCount": "表",
+        "tailsCount": "裏",
+        "total": "合計"
+      },
+      "buttons": {
+        "flip": "コインを投げる",
+        "reset": "リセット"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "동전 던지기 - 온라인 가상 동전",
+        "description": "가상 동전을 온라인으로 던지고 앞뒷면 통계를 기록합니다. 결정이나 연습에 유용하며 브라우저에서 완료됩니다."
+      },
+      "title": "동전 던지기",
+      "description": "클릭 한 번으로 가상 동전을 던지고, 앞면과 뒷면 횟수를 기록해 분포를 확인할 수 있습니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "동전 던지기",
+        "동전 토스",
+        "앞뒷면",
+        "가상 동전",
+        "온라인 동전",
+        "동전 선택"
+      ],
+      "faqs": [
+        {
+          "question": "공정한 동전인가요?",
+          "answer": "네. 안전한 난수 생성기로 앞뒷면 확률이 동일합니다."
+        },
+        {
+          "question": "던지는 횟수 제한이 있나요?",
+          "answer": "없습니다. 몇 번이든 던질 수 있으며 누적 횟수가 항상 표시됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "주사위",
+          "href": "/tools/dice-roller"
+        },
+        {
+          "name": "랜덤 뽑기",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "랜덤 그룹 나누기",
+          "href": "/tools/group-randomizer"
+        }
+      ],
+      "labels": {
+        "result": "결과",
+        "heads": "앞면",
+        "tails": "뒷면",
+        "headsCount": "앞면",
+        "tailsCount": "뒷면",
+        "total": "합계"
+      },
+      "buttons": {
+        "flip": "던지기",
+        "reset": "초기화"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Монетка - подбросить монету онлайн",
+        "description": "Подбросьте виртуальную монету онлайн со счётчиком орлов и решек. Удобно для решений и тренировки. Всё в браузере."
+      },
+      "title": "Монетка",
+      "description": "Подбросьте виртуальную монету одним кликом. Счётчик ведёт учёт орлов и решек, чтобы вы видели распределение.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "подбросить монету",
+        "орёл или решка",
+        "монетка онлайн",
+        "виртуальная монета",
+        "жребий",
+        "бросок монеты"
+      ],
+      "faqs": [
+        {
+          "question": "Монета честная?",
+          "answer": "Да — результат генерируется защищённым генератором случайных чисел, орёл и решка равновероятны."
+        },
+        {
+          "question": "Есть ли лимит бросков?",
+          "answer": "Нет. Бросайте сколько угодно — счётчик всегда перед глазами."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Кубики",
+          "href": "/tools/dice-roller"
+        },
+        {
+          "name": "Случайный выбор",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "Случайные группы",
+          "href": "/tools/group-randomizer"
+        }
+      ],
+      "labels": {
+        "result": "Результат",
+        "heads": "Орёл",
+        "tails": "Решка",
+        "headsCount": "Орёл",
+        "tailsCount": "Решка",
+        "total": "Всего"
+      },
+      "buttons": {
+        "flip": "Подбросить",
+        "reset": "Сбросить"
+      }
+    }
+  }
+}

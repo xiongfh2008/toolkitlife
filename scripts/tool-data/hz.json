@@ -1,0 +1,338 @@
+{
+  "slug": "hz",
+  "icon": "🔊",
+  "home": {
+    "en": {
+      "name": "Frequency Tone Generator",
+      "description": "Generate sine, square, sawtooth or triangle tones at any frequency. Download as WAV.",
+      "category": "Audio Tools"
+    },
+    "zh": {
+      "name": "频率音频生成",
+      "description": "生成任意频率的正弦波、方波、锯齿波或三角波音频，可下载 WAV。",
+      "category": "音频工具"
+    },
+    "ja": {
+      "name": "周波数トーン生成",
+      "description": "任意の周波数でサイン波・方形波・のこぎり波・三角波を生成し、WAV で書き出します。",
+      "category": "音声ツール"
+    },
+    "ko": {
+      "name": "주파수 톤 생성",
+      "description": "원하는 주파수로 사인·구형·톱니·삼각파 톤을 생성하고 WAV로 다운로드하세요.",
+      "category": "오디오 도구"
+    },
+    "ru": {
+      "name": "Генератор тонов",
+      "description": "Создавайте синусоидальные, прямоугольные, пилообразные или треугольные тоны любой частоты. Скачивание в WAV.",
+      "category": "Аудиоинструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Frequency Tone Generator - Sine Wave & Sound Online",
+        "description": "Free online tone generator. Create sine, square, sawtooth or triangle waves at any frequency (20 Hz – 20 kHz), choose duration and volume, preview and download as WAV."
+      },
+      "title": "Frequency Tone Generator",
+      "description": "Generate a pure test tone at any frequency between 20 Hz and 20 kHz. Pick the waveform, frequency, duration and volume, preview it, then download the WAV file.",
+      "category": "Audio Tools",
+      "keywords": [
+        "tone generator",
+        "sine wave generator",
+        "frequency generator",
+        "audio tone",
+        "440 hz tone",
+        "sound frequency generator"
+      ],
+      "faqs": [
+        {
+          "question": "What is this tool used for?",
+          "answer": "It creates a test tone at an exact frequency — handy for testing speakers, calibrating audio gear, tuning instruments or checking your hearing range."
+        },
+        {
+          "question": "What frequency range is supported?",
+          "answer": "Any frequency from 20 Hz (deep bass) to 20 kHz (very high). The downloadable WAV is generated at 44.1 kHz sample rate."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "White Noise Generator",
+          "href": "/tools/white-noise"
+        },
+        {
+          "name": "Text to Speech",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "waveform": "Waveform",
+        "frequency": "Frequency",
+        "duration": "Duration",
+        "amplitude": "Volume",
+        "placeholder": "Generate a tone to preview it here"
+      },
+      "waveforms": {
+        "sine": "Sine",
+        "square": "Square",
+        "sawtooth": "Sawtooth",
+        "triangle": "Triangle"
+      },
+      "buttons": {
+        "generate": "Generate Tone",
+        "download": "Download WAV"
+      },
+      "errors": {
+        "failed": "Generation failed. Please try again."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "频率音频生成器 - 免费正弦波与声音生成",
+        "description": "免费在线音频生成器。在 20 Hz – 20 kHz 范围内生成正弦波、方波、锯齿波或三角波，可调节时长与音量，试听后下载为 WAV 文件。"
+      },
+      "title": "频率音频生成器",
+      "description": "在 20 Hz 至 20 kHz 之间生成任意频率的纯音。选择波形、频率、时长和音量，试听效果后即可下载 WAV 文件。",
+      "category": "音频工具",
+      "keywords": [
+        "音频发生器",
+        "正弦波生成",
+        "频率生成器",
+        "音频测试音",
+        "440hz声音",
+        "声音频率生成"
+      ],
+      "faqs": [
+        {
+          "question": "这个工具有什么用途？",
+          "answer": "用于生成精确频率的测试音——测试音箱、校准音频设备、乐器调音或检测听力范围都非常方便。"
+        },
+        {
+          "question": "支持什么频率范围？",
+          "answer": "支持 20 Hz（深沉低音）到 20 kHz（极高频）之间的任意频率。下载的 WAV 以 44.1 kHz 采样率生成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "白噪音生成器",
+          "href": "/tools/white-noise"
+        },
+        {
+          "name": "文字转语音",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "waveform": "波形",
+        "frequency": "频率",
+        "duration": "时长",
+        "amplitude": "音量",
+        "placeholder": "生成音频后可在此试听"
+      },
+      "waveforms": {
+        "sine": "正弦波",
+        "square": "方波",
+        "sawtooth": "锯齿波",
+        "triangle": "三角波"
+      },
+      "buttons": {
+        "generate": "生成音频",
+        "download": "下载 WAV"
+      },
+      "errors": {
+        "failed": "生成失败，请重试。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "周波数トーン生成器 - サイン波・サウンド無料",
+        "description": "20 Hz 〜 20 kHz の範囲でサイン波・方形波・のこぎり波・三角波を生成できる無料ツール。長さと音量を選び、試聴後に WAV で書き出し。"
+      },
+      "title": "周波数トーン生成器",
+      "description": "20 Hz から 20 kHz の間で任意の周波数の純音を生成。波形・周波数・長さ・音量を選び、試聴してから WAV ファイルをダウンロードできます。",
+      "category": "音声ツール",
+      "keywords": [
+        "トーン生成",
+        "サイン波生成",
+        "周波数生成器",
+        "テストトーン",
+        "440hzトーン",
+        "音の周波数生成"
+      ],
+      "faqs": [
+        {
+          "question": "このツールは何に使いますか？",
+          "answer": "正確な周波数のテストトーンを生成します。スピーカーのテスト、オーディオ機器の校正、楽器のチューニング、聴力範囲の確認などに便利です。"
+        },
+        {
+          "question": "対応する周波数範囲は？",
+          "answer": "20 Hz（深い低音）から 20 kHz（非常に高い音）まで任意の周波数に対応。書き出しは 44.1 kHz サンプルレートの WAV です。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "ホワイトノイズ生成",
+          "href": "/tools/white-noise"
+        },
+        {
+          "name": "テキスト読み上げ",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "音声変換",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "waveform": "波形",
+        "frequency": "周波数",
+        "duration": "長さ",
+        "amplitude": "音量",
+        "placeholder": "トーンを生成するとここで試聴できます"
+      },
+      "waveforms": {
+        "sine": "サイン波",
+        "square": "方形波",
+        "sawtooth": "のこぎり波",
+        "triangle": "三角波"
+      },
+      "buttons": {
+        "generate": "トーンを生成",
+        "download": "WAV をダウンロード"
+      },
+      "errors": {
+        "failed": "生成に失敗しました。もう一度お試しください。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "주파수 톤 생성기 - 사인파·사운드 무료",
+        "description": "20Hz~20kHz 범위에서 사인·구형·톱니·삼각파를 생성하는 무료 온라인 도구입니다. 길이와 볼륨을 선택하고 미리 들어본 뒤 WAV로 저장하세요."
+      },
+      "title": "주파수 톤 생성기",
+      "description": "20Hz에서 20kHz 사이의 원하는 주파수로 순음(純音)을 생성하세요. 파형, 주파수, 길이, 볼륨을 고르고 미리 들어본 뒤 WAV 파일을 다운로드할 수 있습니다.",
+      "category": "오디오 도구",
+      "keywords": [
+        "톤 생성기",
+        "사인파 생성",
+        "주파수 생성기",
+        "테스트 톤",
+        "440hz 톤",
+        "소리 주파수 생성"
+      ],
+      "faqs": [
+        {
+          "question": "이 도구는 어디에 쓰나요?",
+          "answer": "정확한 주파수의 테스트 톤을 만듭니다. 스피커 테스트, 오디오 장비 교정, 악기 튜닝, 청력 범위 확인에 유용합니다."
+        },
+        {
+          "question": "지원 주파수 범위는?",
+          "answer": "20Hz(깊은 저음)부터 20kHz(매우 높은 음)까지 원하는 주파수를 지원합니다. 다운로드 WAV는 44.1kHz 샘플레이트로 생성됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "화이트 노이즈 생성기",
+          "href": "/tools/white-noise"
+        },
+        {
+          "name": "텍스트 음성 변환",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "오디오 변환기",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "waveform": "파형",
+        "frequency": "주파수",
+        "duration": "길이",
+        "amplitude": "볼륨",
+        "placeholder": "톤을 생성하면 여기서 들어볼 수 있습니다"
+      },
+      "waveforms": {
+        "sine": "사인파",
+        "square": "구형파",
+        "sawtooth": "톱니파",
+        "triangle": "삼각파"
+      },
+      "buttons": {
+        "generate": "톤 생성",
+        "download": "WAV 다운로드"
+      },
+      "errors": {
+        "failed": "생성에 실패했습니다. 다시 시도해 주세요."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Генератор тонов - синусоида и звук онлайн бесплатно",
+        "description": "Бесплатный онлайн-генератор тонов. Создавайте синусоидальные, прямоугольные, пилообразные или треугольные волны от 20 Гц до 20 кГц с выбором длительности и громкости. Скачивание в WAV."
+      },
+      "title": "Генератор тонов",
+      "description": "Создайте чистый тестовый тон на любой частоте от 20 Гц до 20 кГц. Выберите форму волны, частоту, длительность и громкость, прослушайте и скачайте WAV.",
+      "category": "Аудиоинструменты",
+      "keywords": [
+        "генератор тонов",
+        "генератор синусоиды",
+        "генератор частоты",
+        "тестовый тон",
+        "тон 440 гц",
+        "генератор звуковой частоты"
+      ],
+      "faqs": [
+        {
+          "question": "Для чего нужен этот инструмент?",
+          "answer": "Он создаёт тестовый тон точной частоты — удобно для проверки колонок, калибровки аудиооборудования, настройки инструментов или проверки слуха."
+        },
+        {
+          "question": "Какой диапазон частот поддерживается?",
+          "answer": "Любая частота от 20 Гц (глубокий бас) до 20 кГц (очень высокий звук). Скачиваемый WAV создаётся с частотой дискретизации 44,1 кГц."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор белого шума",
+          "href": "/tools/white-noise"
+        },
+        {
+          "name": "Текст в речь",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "Конвертер аудио",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "waveform": "Форма волны",
+        "frequency": "Частота",
+        "duration": "Длительность",
+        "amplitude": "Громкость",
+        "placeholder": "Сгенерируйте тон, чтобы прослушать его здесь"
+      },
+      "waveforms": {
+        "sine": "Синусоида",
+        "square": "Прямоугольная",
+        "sawtooth": "Пилообразная",
+        "triangle": "Треугольная"
+      },
+      "buttons": {
+        "generate": "Сгенерировать",
+        "download": "Скачать WAV"
+      },
+      "errors": {
+        "failed": "Не удалось сгенерировать. Попробуйте ещё раз."
+      }
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "slug": "web-shortcut",
+  "icon": "🔗",
+  "home": {
+    "en": {
+      "name": "Web Shortcut Maker",
+      "description": "Generate a .url shortcut file for any website.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "网址快捷方式",
+      "description": "为任意网址生成 .url 快捷方式文件。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "ウェブショートカット",
+      "description": "任意のURLから .url ショートカットを生成します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "웹 바로가기",
+      "description": "원하는 URL의 .url 바로가기 파일을 생성합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Ярлык сайта",
+      "description": "Создайте файл-ярлык .url для любого сайта.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Web Shortcut Maker - Generate .url Files Online",
+        "description": "Free online .url shortcut generator. Turn any URL into a Windows internet shortcut file with an optional icon. Runs in your browser."
+      },
+      "title": "Web Shortcut Maker",
+      "description": "Enter a website URL (and optionally a name and icon) to generate a .url internet shortcut file for Windows.",
+      "category": "Life Tools",
+      "keywords": [
+        "web shortcut",
+        "url shortcut",
+        "create shortcut",
+        "internet shortcut",
+        ".url file",
+        "desktop shortcut"
+      ],
+      "faqs": [
+        {
+          "question": "Where can I use the .url file?",
+          "answer": "Windows recognizes .url files as internet shortcuts — put them on your desktop or in a folder and double-click to open the site."
+        },
+        {
+          "question": "Can I add a custom icon?",
+          "answer": "Yes — enter a local .ico/.png path, or a web URL to an icon file, and it will be attached to the shortcut."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "URL Opener",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "URL Shortener",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "name": "Shortcut name",
+        "namePlaceholder": "My Website (optional)",
+        "url": "Website URL",
+        "icon": "Icon (optional)",
+        "iconPlaceholder": "Path or URL to an .ico/.png icon"
+      },
+      "buttons": {
+        "download": "Download .url"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "网址快捷方式 - 在线生成 .url 文件",
+        "description": "免费在线网址快捷方式生成器，将任意网址转换为 Windows 网络快捷方式文件，可附带图标。全程在浏览器本地完成。"
+      },
+      "title": "网址快捷方式",
+      "description": "输入网址（可选名称与图标），生成 Windows 的 .url 网络快捷方式文件。",
+      "category": "生活工具",
+      "keywords": [
+        "网址快捷方式",
+        "url快捷方式",
+        "生成快捷方式",
+        "网络快捷方式",
+        "url文件",
+        "桌面快捷方式"
+      ],
+      "faqs": [
+        {
+          "question": ".url 文件在哪里用？",
+          "answer": "Windows 将 .url 识别为网络快捷方式，放到桌面或文件夹里双击即可打开网站。"
+        },
+        {
+          "question": "可以加自定义图标吗？",
+          "answer": "可以。输入本地 .ico/.png 路径或图标的网络地址即可附加到快捷方式。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "批量打开网址",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "短链接生成",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "二维码生成",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "name": "快捷方式名称",
+        "namePlaceholder": "我的网站（可选）",
+        "url": "网站地址",
+        "icon": "图标（可选）",
+        "iconPlaceholder": ".ico/.png 图标的路径或网址"
+      },
+      "buttons": {
+        "download": "下载 .url"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "ウェブショートカット - オンラインで .url を生成",
+        "description": "任意のURLをWindowsのインターネットショートカット（.url）にする無料ツール。アイコンも設定可能。ブラウザ内で完結。"
+      },
+      "title": "ウェブショートカット",
+      "description": "URL（任意で名前とアイコン）を入力して、Windows用の .url ネットショートカットファイルを生成します。",
+      "category": "生活ツール",
+      "keywords": [
+        "ウェブショートカット",
+        "urlショートカット",
+        "ショートカット作成",
+        "インターネットショートカット",
+        "urlファイル",
+        "デスクトップショートカット"
+      ],
+      "faqs": [
+        {
+          "question": ".url ファイルはどこで使えますか？",
+          "answer": "Windowsは .url をネットショートカットとして認識します。デスクトップに置いてダブルクリックでサイトを開けます。"
+        },
+        {
+          "question": "カスタムアイコンを設定できますか？",
+          "answer": "はい。ローカルの .ico/.png パスか、アイコンファイルのURLを入力するとショートカットに付きます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "一括URL表示",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "短縮URL",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "QRコード生成",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "name": "ショートカット名",
+        "namePlaceholder": "マイサイト（任意）",
+        "url": "ウェブサイトURL",
+        "icon": "アイコン（任意）",
+        "iconPlaceholder": ".ico/.png アイコンのパスまたはURL"
+      },
+      "buttons": {
+        "download": ".url をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "웹 바로가기 - 온라인 .url 파일 생성",
+        "description": "원하는 URL을 Windows 인터넷 바로가기(.url) 파일로 만드는 무료 도구입니다. 아이콘 설정도 가능하며 브라우저에서 완료됩니다."
+      },
+      "title": "웹 바로가기",
+      "description": "웹사이트 URL(선택적으로 이름과 아이콘)을 입력해 Windows용 .url 인터넷 바로가기 파일을 생성합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "웹 바로가기",
+        "url 바로가기",
+        "바로가기 만들기",
+        "인터넷 바로가기",
+        "url 파일",
+        "바탕화면 바로가기"
+      ],
+      "faqs": [
+        {
+          "question": ".url 파일은 어디에 사용하나요?",
+          "answer": "Windows는 .url을 인터넷 바로가기로 인식합니다. 바탕화면에 두고 더블클릭하면 사이트가 열립니다."
+        },
+        {
+          "question": "커스텀 아이콘을 넣을 수 있나요?",
+          "answer": "네. 로컬 .ico/.png 경로 또는 아이콘 파일의 URL을 입력하면 바로가기에 첨부됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "URL 일괄 열기",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "단축 URL",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "QR 코드 생성",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "name": "바로가기 이름",
+        "namePlaceholder": "내 웹사이트 (선택)",
+        "url": "웹사이트 URL",
+        "icon": "아이콘 (선택)",
+        "iconPlaceholder": ".ico/.png 아이콘 경로 또는 URL"
+      },
+      "buttons": {
+        "download": ".url 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Ярлык сайта - создать файл .url онлайн",
+        "description": "Бесплатный онлайн-генератор ярлыков .url. Превратите любой URL в интернет-ярлык Windows с необязательной иконкой. Всё в браузере."
+      },
+      "title": "Ярлык сайта",
+      "description": "Введите URL сайта (и при желании имя и иконку), чтобы создать интернет-ярлык Windows в формате .url.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "ярлык сайта",
+        "ярлык url",
+        "создать ярлык",
+        "интернет-ярлык",
+        "файл .url",
+        "ярлык на рабочий стол"
+      ],
+      "faqs": [
+        {
+          "question": "Где использовать файл .url?",
+          "answer": "Windows распознаёт .url как интернет-ярлык — поместите его на рабочий стол или в папку и откройте двойным кликом."
+        },
+        {
+          "question": "Можно добавить свою иконку?",
+          "answer": "Да — укажите локальный путь к .ico/.png или веб-адрес файла иконки, и она прикрепится к ярлыку."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Открыть URL",
+          "href": "/tools/url-opener"
+        },
+        {
+          "name": "Короткие ссылки",
+          "href": "/tools/url-shortener"
+        },
+        {
+          "name": "Генератор QR",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "name": "Имя ярлыка",
+        "namePlaceholder": "Мой сайт (необязательно)",
+        "url": "URL сайта",
+        "icon": "Иконка (необязательно)",
+        "iconPlaceholder": "Путь или URL иконки .ico/.png"
+      },
+      "buttons": {
+        "download": "Скачать .url"
+      }
+    }
+  }
+}

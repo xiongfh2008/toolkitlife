@@ -1,0 +1,328 @@
+{
+  "slug": "image-color-replace",
+  "icon": "🔄",
+  "home": {
+    "en": {
+      "name": "Color Replace",
+      "description": "Replace one color in an image with another, or make it transparent. Pick colors with an eyedropper.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "颜色替换",
+      "description": "将图片中的一种颜色替换为另一种颜色，或设为透明，支持吸管取色。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "色の置き換え",
+      "description": "画像内の色を別の色に置換、または透明に。スポイトで色を選択可能。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "색상 교체",
+      "description": "이미지의 한 색상을 다른 색상으로 바꾸거나 투명하게 만듭니다. 스포이드 지원.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Замена цвета",
+      "description": "Замените один цвет изображения другим или сделайте его прозрачным. Пипетка встроена.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Color Replace - Swap Image Colors Online",
+        "description": "Replace one color in an image with another, or make it transparent. Pick colors with an eyedropper. Free, runs in your browser."
+      },
+      "title": "Color Replace",
+      "description": "Replace one color in an image with another, or make it transparent. Click the result to pick the source color, then tune the tolerance.",
+      "category": "Image Tools",
+      "keywords": [
+        "replace color in image",
+        "change image color",
+        "color swap tool",
+        "make color transparent",
+        "replace one color with another",
+        "image color replacement"
+      ],
+      "faqs": [
+        {
+          "question": "How does color replacement work?",
+          "answer": "The tool compares every pixel with the source color and swaps the pixels that fall within the tolerance for the target color."
+        },
+        {
+          "question": "Can I make the source color transparent?",
+          "answer": "Yes — tick the 'to transparent' option and all matching pixels keep their colors but lose their opacity."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Color Picker",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Alpha Invert",
+          "href": "/tools/image-alpha-invert"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "source": "Source color",
+        "pick": "Pick from image",
+        "target": "Target color",
+        "toTransparent": "Make transparent",
+        "tolerance": "Tolerance",
+        "pickHint": "Click the result image to pick the source color",
+        "original": "Original",
+        "result": "Result"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "颜色替换 - 在线更换图片颜色",
+        "description": "将图片中的一种颜色替换为另一种颜色，或设为透明，支持吸管取色。免费，浏览器内运行。"
+      },
+      "title": "颜色替换",
+      "description": "将图片中的一种颜色替换为另一种颜色，或设为透明。点击结果图可取色，再调整容差即可。",
+      "category": "图片工具",
+      "keywords": [
+        "图片颜色替换",
+        "替换图片颜色",
+        "颜色互换工具",
+        "颜色变透明",
+        "把一种颜色换成另一种",
+        "图片换色"
+      ],
+      "faqs": [
+        {
+          "question": "颜色替换是如何工作的？",
+          "answer": "工具会将每个像素与源颜色比较，把容差范围内匹配的像素替换为目标颜色。"
+        },
+        {
+          "question": "能把源颜色变成透明吗？",
+          "answer": "可以——勾选“设为透明”后，匹配的像素保留原颜色但失去不透明度。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片取色器",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "透明度反转",
+          "href": "/tools/image-alpha-invert"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "source": "源颜色",
+        "pick": "从图片取色",
+        "target": "目标颜色",
+        "toTransparent": "设为透明",
+        "tolerance": "容差",
+        "pickHint": "点击结果图可取源颜色",
+        "original": "原图",
+        "result": "结果"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "色の置き換え - オンラインで画像の色を交換",
+        "description": "画像内の色を別の色に置換、または透明に。スポイトで色を選択可能。無料・ブラウザ内で完結。"
+      },
+      "title": "色の置き換え",
+      "description": "画像内の色を別の色に置換、または透明にします。結果画像をクリックして元の色を取得し、許容値を調整。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像の色を置換",
+        "色の置き換え",
+        "色の入れ替え",
+        "色を透明に",
+        "画像の色を変更",
+        "色の入れ替えツール"
+      ],
+      "faqs": [
+        {
+          "question": "色の置き換えはどう動きますか？",
+          "answer": "すべてのピクセルを元の色と比較し、許容値以内に一致したピクセルを目標の色に置き換えます。"
+        },
+        {
+          "question": "元の色を透明にできますか？",
+          "answer": "はい——「透明にする」にチェックすると、一致したピクセルは色を保ったまま不透明度がなくなります。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像カラーピッカー",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "画像背景追加",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "アルファ反転",
+          "href": "/tools/image-alpha-invert"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップ",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード",
+        "newImage": "新しい画像"
+      },
+      "labels": {
+        "source": "元の色",
+        "pick": "画像から取得",
+        "target": "置き換える色",
+        "toTransparent": "透明にする",
+        "tolerance": "許容値",
+        "pickHint": "結果画像をクリックすると元の色を取得できます",
+        "original": "元画像",
+        "result": "結果"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "색상 교체 - 온라인 이미지 색상 변경",
+        "description": "이미지의 한 색상을 다른 색상으로 바꾸거나 투명하게 만듭니다. 스포이드 지원. 무료, 브라우저에서 실행."
+      },
+      "title": "색상 교체",
+      "description": "이미지의 한 색상을 다른 색상으로 바꾸거나 투명하게 만듭니다. 결과 이미지를 클릭해 원본 색을 선택하고 허용 오차를 조절하세요.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 색상 교체",
+        "색상 바꾸기",
+        "색상 변경 도구",
+        "색상 투명하게",
+        "한 색상을 다른 색상으로",
+        "이미지 색상 변경"
+      ],
+      "faqs": [
+        {
+          "question": "색상 교체는 어떻게 동작하나요?",
+          "answer": "모든 픽셀을 원본 색상과 비교하고 허용 오차 범위 안에 들어오는 픽셀을 대상 색상으로 바꿉니다."
+        },
+        {
+          "question": "원본 색상을 투명하게 만들 수 있나요?",
+          "answer": "네 — '투명하게' 옵션을 켜면 일치하는 픽셀은 색상을 유지한 채 불투명도만 사라집니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 색상 선택기",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "이미지 배경 추가",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "알파 반전",
+          "href": "/tools/image-alpha-invert"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 여기에 놓으세요",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG 다운로드",
+        "newImage": "새 이미지"
+      },
+      "labels": {
+        "source": "원본 색상",
+        "pick": "이미지에서 선택",
+        "target": "대상 색상",
+        "toTransparent": "투명하게 만들기",
+        "tolerance": "허용 오차",
+        "pickHint": "결과 이미지를 클릭하면 원본 색상을 선택할 수 있습니다",
+        "original": "원본",
+        "result": "결과"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Замена цвета - онлайн замена цветов в изображении",
+        "description": "Замените один цвет изображения другим или сделайте его прозрачным. Пипетка встроена. Бесплатно, работает в браузере."
+      },
+      "title": "Замена цвета",
+      "description": "Замените один цвет изображения другим или сделайте его прозрачным. Кликните по результату, чтобы выбрать исходный цвет, и настройте допуск.",
+      "category": "Изображения",
+      "keywords": [
+        "замена цвета в изображении",
+        "изменить цвет изображения",
+        "замена одного цвета другим",
+        "сделать цвет прозрачным",
+        "замена цвета",
+        "перекрасить изображение"
+      ],
+      "faqs": [
+        {
+          "question": "Как работает замена цвета?",
+          "answer": "Инструмент сравнивает каждый пиксель с исходным цветом и заменяет попавшие в допуск пиксели на целевой цвет."
+        },
+        {
+          "question": "Можно ли сделать исходный цвет прозрачным?",
+          "answer": "Да — отметьте «сделать прозрачным», и совпавшие пиксели сохранят цвет, но потеряют непрозрачность."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Пипетка для изображений",
+          "href": "/tools/image-color-picker"
+        },
+        {
+          "name": "Фон для изображения",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Инверсия прозрачности",
+          "href": "/tools/image-alpha-invert"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображение сюда",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Скачать PNG",
+        "newImage": "Новое изображение"
+      },
+      "labels": {
+        "source": "Исходный цвет",
+        "pick": "Выбрать из изображения",
+        "target": "Целевой цвет",
+        "toTransparent": "Сделать прозрачным",
+        "tolerance": "Допуск",
+        "pickHint": "Кликните по результату, чтобы выбрать исходный цвет",
+        "original": "Оригинал",
+        "result": "Результат"
+      }
+    }
+  }
+}

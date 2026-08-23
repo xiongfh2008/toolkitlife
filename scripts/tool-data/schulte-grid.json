@@ -1,0 +1,283 @@
+{
+  "slug": "schulte-grid",
+  "icon": "🔢",
+  "home": {
+    "en": {
+      "name": "Schulte Grid",
+      "description": "Train attention by tapping numbers 1-N in order.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "舒尔特方格",
+      "description": "按顺序点击 1-N 数字，训练注意力。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "シュルテ方格",
+      "description": "1〜Nを順番にタップして注意力を鍛えます。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "슐테 그리드",
+      "description": "1부터 N까지 순서대로 탭하며 집중력을 훈련합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Таблица Шульте",
+      "description": "Тренируйте внимание, нажимая числа 1-N по порядку.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Schulte Grid - Train Focus and Attention Online",
+        "description": "Free online Schulte grid trainer. Tap the numbers from 1 to N in ascending order to train peripheral vision and focus. Runs in your browser."
+      },
+      "title": "Schulte Grid",
+      "description": "A classic attention-training grid. Numbers from 1 to N are shuffled in the grid — tap them in ascending order as fast as you can.",
+      "category": "Life Tools",
+      "keywords": [
+        "schulte grid",
+        "attention training",
+        "focus training",
+        "peripheral vision",
+        "schulte table",
+        "mind training"
+      ],
+      "faqs": [
+        {
+          "question": "What sizes are available?",
+          "answer": "From 3x3 (1-9) up to 8x8 (1-64). Start small and increase the size as you improve."
+        },
+        {
+          "question": "How do I get faster?",
+          "answer": "Regular practice trains your peripheral vision and visual scanning speed. Track your best time and try to beat it."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Click Speed Test",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "Typing Speed Test",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "size": "Grid size",
+        "time": "Time",
+        "best": "Best",
+        "next": "Next"
+      },
+      "buttons": {
+        "start": "Start"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "舒尔特方格 - 在线注意力训练",
+        "description": "免费在线舒尔特方格训练器，按从小到大的顺序点击 1-N 数字，训练周边视觉与专注力。全程在浏览器本地完成。"
+      },
+      "title": "舒尔特方格",
+      "description": "经典的注意力训练方格：1-N 的数字被打乱排列，按升序尽快点击即可。",
+      "category": "生活工具",
+      "keywords": [
+        "舒尔特方格",
+        "注意力训练",
+        "专注力训练",
+        "周边视觉",
+        "舒尔特表",
+        "脑力训练"
+      ],
+      "faqs": [
+        {
+          "question": "支持哪些规格？",
+          "answer": "从 3×3（1-9）到 8×8（1-64），建议从小规格开始，随水平提高逐渐加大。"
+        },
+        {
+          "question": "怎样才能更快？",
+          "answer": "坚持练习可以提升周边视觉与视觉扫描速度。记录最佳时间并不断挑战。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "点击速度测试",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "打字速度测试",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "size": "方格规格",
+        "time": "用时",
+        "best": "最佳",
+        "next": "下一个"
+      },
+      "buttons": {
+        "start": "开始"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "シュルテ方格 - オンライン注意力トレーニング",
+        "description": "1〜Nを順番にタップして注意力と周辺視を鍛える無料ツール。ブラウザ内で完結します。"
+      },
+      "title": "シュルテ方格",
+      "description": "定番の注意力トレーニング。1〜Nが並べられた数字を昇順にできるだけ速くタップします。",
+      "category": "生活ツール",
+      "keywords": [
+        "シュルテ方格",
+        "注意力トレーニング",
+        "集中力",
+        "周辺視野",
+        "シュルテ表",
+        "脳トレ"
+      ],
+      "faqs": [
+        {
+          "question": "どんなサイズがありますか？",
+          "answer": "3×3（1〜9）から8×8（1〜64）まで。小さいサイズから始めて徐々に大きくしましょう。"
+        },
+        {
+          "question": "速くなるには？",
+          "answer": "継続的な練習で周辺視と走査速度が向上します。ベストタイムを更新しましょう。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "反応速度テスト",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "クリックスピードテスト",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "タイピング速度テスト",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "size": "サイズ",
+        "time": "時間",
+        "best": "最高",
+        "next": "次"
+      },
+      "buttons": {
+        "start": "開始"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "슐테 그리드 - 온라인 집중력 훈련",
+        "description": "1부터 N까지 순서대로 탭하며 주변 시야와 집중력을 훈련하는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "슐테 그리드",
+      "description": "고전적인 집중력 훈련 그리드입니다. 섞인 숫자 1부터 N까지를 오름차순으로 최대한 빨리 탭하세요.",
+      "category": "생활 도구",
+      "keywords": [
+        "슐테 그리드",
+        "집중력 훈련",
+        "주의력 훈련",
+        "주변 시야",
+        "슐테 표",
+        "두뇌 훈련"
+      ],
+      "faqs": [
+        {
+          "question": "어떤 크기를 지원하나요?",
+          "answer": "3×3(1-9)부터 8×8(1-64)까지. 작은 크기부터 시작해 실력에 따라 키우세요."
+        },
+        {
+          "question": "어떻게 하면 빨라지나요?",
+          "answer": "꾸준한 연습으로 주변 시야와 시각 탐색 속도가 향상됩니다. 최고 기록을 경신해 보세요."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "반응 속도 테스트",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "클릭 속도 테스트",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "타이핑 속도 테스트",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "size": "그리드 크기",
+        "time": "시간",
+        "best": "최고",
+        "next": "다음"
+      },
+      "buttons": {
+        "start": "시작"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Таблица Шульте - тренировка внимания онлайн",
+        "description": "Бесплатный онлайн-тренажёр Шульте. Нажимайте числа от 1 до N по возрастанию, тренируя периферийное зрение и концентрацию. Всё в браузере."
+      },
+      "title": "Таблица Шульте",
+      "description": "Классическая таблица для тренировки внимания. Числа от 1 до N перемешаны — нажимайте их по возрастанию как можно быстрее.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "таблица шульте",
+        "тренировка внимания",
+        "тренировка фокуса",
+        "периферийное зрение",
+        "тренажёр мозга",
+        "внимание"
+      ],
+      "faqs": [
+        {
+          "question": "Какие размеры доступны?",
+          "answer": "От 3×3 (1-9) до 8×8 (1-64). Начните с маленькой и увеличивайте размер по мере прогресса."
+        },
+        {
+          "question": "Как стать быстрее?",
+          "answer": "Регулярные тренировки улучшают периферийное зрение и скорость сканирования. Побивайте свой рекорд."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Тест реакции",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Тест скорости кликов",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "Тест скорости печати",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "size": "Размер сетки",
+        "time": "Время",
+        "best": "Лучший",
+        "next": "Далее"
+      },
+      "buttons": {
+        "start": "Начать"
+      }
+    }
+  }
+}

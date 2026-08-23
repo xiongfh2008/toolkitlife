@@ -2,12 +2,15 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import ToolLayout from "@/components/ToolLayout";
+import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 
 const BASE_OPTIONS = [14, 15, 16, 17, 18, 20];
 
 export default function PxToRemPage() {
   const t = useTranslations("tools.px-to-rem");
+  const faqs = t.raw("faqs") as FAQ[];
+  const relatedTools = t.raw("relatedTools") as RelatedTool[];
+  const keywords = t.raw("keywords") as string[];
   const [base, setBase] = useState(16);
   const [px, setPx] = useState("");
   const [rem, setRem] = useState("");
@@ -21,6 +24,9 @@ export default function PxToRemPage() {
       description={t("metadata.description")}
       category={t("metadata.category")}
       slug="px-to-rem"
+      faqs={faqs}
+      relatedTools={relatedTools}
+      keywords={keywords}
     >
       <div className="max-w-xl space-y-6">
         {/* Base font size */}

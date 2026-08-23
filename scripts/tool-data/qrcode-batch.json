@@ -1,0 +1,313 @@
+{
+  "slug": "qrcode-batch",
+  "icon": "🗂️",
+  "home": {
+    "en": {
+      "name": "Batch QR Code Generator",
+      "description": "Generate QR codes for a whole list of texts or URLs at once and download them as a zip.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "批量二维码生成器",
+      "description": "一次为整批文本或网址生成二维码，并可打包下载为 zip。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "一括QRコード生成",
+      "description": "テキストやURLのリストを一括で QRコード化し、zip でダウンロード。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "일괄 QR 코드 생성기",
+      "description": "텍스트나 URL 목록 전체의 QR 코드를 한 번에 생성하고 zip으로 다운로드하세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Пакетный генератор QR-кодов",
+      "description": "Создайте QR-коды для целого списка текстов или URL разом и скачайте архивом zip.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Batch QR Code Generator - Free Online Tool",
+        "description": "Free online batch QR code generator. Paste a list of texts or URLs, generate QR codes for all of them at once, and download them individually or as a zip."
+      },
+      "title": "Batch QR Code Generator",
+      "description": "Generate QR codes for an entire list at once. Paste one item per line, adjust the size, and download every code individually or as a zip archive.",
+      "category": "Image Tools",
+      "keywords": [
+        "batch qr code",
+        "multiple qr codes",
+        "generate many qr codes",
+        "qr code list",
+        "bulk qr generator",
+        "qr codes from text list"
+      ],
+      "faqs": [
+        {
+          "question": "How many QR codes can I generate at once?",
+          "answer": "There is no hard limit — paste as many lines as you need. Generating a very large list may take a few seconds."
+        },
+        {
+          "question": "Can I download all codes together?",
+          "answer": "Yes. Click Download all to save every generated QR code as PNG files inside a single zip archive."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "WiFi QR Code",
+          "href": "/tools/wifi-qrcode"
+        },
+        {
+          "name": "QR Code Reader",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "list": "Text list (one per line)",
+        "hint": "One text or URL per line",
+        "size": "Size",
+        "count": "{count} QR codes"
+      },
+      "buttons": {
+        "generate": "Generate",
+        "processing": "Generating…",
+        "downloadAll": "Download all (zip)",
+        "download": "Download"
+      },
+      "errors": {
+        "failed": "Failed to generate QR codes. Please try again."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "批量二维码生成器 - 免费在线工具",
+        "description": "免费的在线批量二维码生成工具。粘贴一列文本或网址，一次为全部内容生成二维码，可逐个下载或打包为 zip。"
+      },
+      "title": "批量二维码生成器",
+      "description": "一次为整批内容生成二维码。每行粘贴一条文本或网址，调整尺寸后即可逐个下载或打包为 zip。",
+      "category": "图片工具",
+      "keywords": [
+        "批量二维码",
+        "多个二维码",
+        "批量生成二维码",
+        "二维码列表",
+        "文本列表生成二维码",
+        "二维码批量工具"
+      ],
+      "faqs": [
+        {
+          "question": "一次能生成多少个二维码？",
+          "answer": "没有硬性限制，需要多少行就粘贴多少行。非常大的列表可能需要几秒。"
+        },
+        {
+          "question": "可以一起下载所有二维码吗？",
+          "answer": "可以。点击「全部下载」即可将所有 PNG 二维码打包进一个 zip 文件。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "二维码生成器",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "WiFi 二维码",
+          "href": "/tools/wifi-qrcode"
+        },
+        {
+          "name": "二维码识别",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "list": "文本列表（每行一条）",
+        "hint": "每行一条文本或网址",
+        "size": "尺寸",
+        "count": "{count} 个二维码"
+      },
+      "buttons": {
+        "generate": "生成",
+        "processing": "生成中…",
+        "downloadAll": "全部下载 (zip)",
+        "download": "下载"
+      },
+      "errors": {
+        "failed": "生成二维码失败，请重试。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "一括QRコード生成 - 無料オンラインツール",
+        "description": "テキストやURLのリストを一括で QRコード化する無料ツール。1行1件で貼り付けて、個別または zip でダウンロード。"
+      },
+      "title": "一括QRコード生成",
+      "description": "リスト全体の QRコードを一度に生成。1行に1件貼り付け、サイズを調整して、個別または zip でダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "一括qrコード",
+        "複数qrコード",
+        "qrコード一括生成",
+        "テキストリストqr",
+        "大量qr生成",
+        "qr一括生成"
+      ],
+      "faqs": [
+        {
+          "question": "一度にいくつ生成できますか？",
+          "answer": "上限はありません。必要な行数を貼り付けてください。非常に多い場合は数秒かかります。"
+        },
+        {
+          "question": "まとめてダウンロードできますか？",
+          "answer": "はい。「すべてダウンロード」で全 QRコードを PNG の zip にまとめられます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QRコード生成",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "WiFi QRコード",
+          "href": "/tools/wifi-qrcode"
+        },
+        {
+          "name": "QRコード読み取り",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "list": "テキストリスト（1行1件）",
+        "hint": "1行に1件のテキストまたはURL",
+        "size": "サイズ",
+        "count": "{count} 個のQRコード"
+      },
+      "buttons": {
+        "generate": "生成",
+        "processing": "生成中…",
+        "downloadAll": "すべてダウンロード (zip)",
+        "download": "ダウンロード"
+      },
+      "errors": {
+        "failed": "QRコードの生成に失敗しました。もう一度お試しください。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "일괄 QR 코드 생성기 - 무료 온라인 도구",
+        "description": "텍스트나 URL 목록을 한 번에 QR 코드로 만드는 무료 온라인 도구입니다. 한 줄에 하나씩 붙여넣고 개별 또는 zip으로 다운로드하세요."
+      },
+      "title": "일괄 QR 코드 생성기",
+      "description": "목록 전체의 QR 코드를 한 번에 생성하세요. 한 줄에 하나씩 붙여넣고 크기를 조절한 뒤 개별 또는 zip으로 다운로드할 수 있습니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "일괄 qr 코드",
+        "여러 qr 코드",
+        "qr 코드 대량 생성",
+        "텍스트 목록 qr",
+        "qr 리스트",
+        "qr 일괄 생성"
+      ],
+      "faqs": [
+        {
+          "question": "한 번에 몇 개까지 생성할 수 있나요?",
+          "answer": "제한이 없습니다. 필요한 만큼 줄을 붙여넣으세요. 매우 큰 목록은 몇 초가 걸릴 수 있습니다."
+        },
+        {
+          "question": "모든 코드를 한꺼번에 다운로드할 수 있나요?",
+          "answer": "네. '전체 다운로드'를 누르면 모든 QR 코드 PNG가 하나의 zip 파일로 저장됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR 코드 생성기",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "WiFi QR 코드",
+          "href": "/tools/wifi-qrcode"
+        },
+        {
+          "name": "QR 코드 인식",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "list": "텍스트 목록 (한 줄에 하나)",
+        "hint": "한 줄에 하나의 텍스트 또는 URL",
+        "size": "크기",
+        "count": "QR 코드 {count}개"
+      },
+      "buttons": {
+        "generate": "생성",
+        "processing": "생성 중…",
+        "downloadAll": "전체 다운로드 (zip)",
+        "download": "다운로드"
+      },
+      "errors": {
+        "failed": "QR 코드 생성에 실패했습니다. 다시 시도하세요."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Пакетный генератор QR-кодов - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-генератор QR-кодов для списков. Вставьте список текстов или URL и создайте QR-коды для всех разом — по одному или архивом zip."
+      },
+      "title": "Пакетный генератор QR-кодов",
+      "description": "Создавайте QR-коды для целого списка сразу. Одна строка — один текст или URL. Скачивайте каждый код отдельно или архивом zip.",
+      "category": "Изображения",
+      "keywords": [
+        "пакетные qr коды",
+        "несколько qr кодов",
+        "генерация списка qr",
+        "qrs из текста",
+        "массовая генерация qr",
+        "пакетный генератор qr"
+      ],
+      "faqs": [
+        {
+          "question": "Сколько QR-кодов можно создать за раз?",
+          "answer": "Жёсткого лимита нет — вставляйте столько строк, сколько нужно. Для очень большого списка понадобится несколько секунд."
+        },
+        {
+          "question": "Можно ли скачать все коды вместе?",
+          "answer": "Да. Нажмите «Скачать все», и все QR-коды сохранятся PNG-файлами в одном архиве zip."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор QR-кодов",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "WiFi QR-код",
+          "href": "/tools/wifi-qrcode"
+        },
+        {
+          "name": "Сканер QR-кодов",
+          "href": "/tools/qr-code-reader"
+        }
+      ],
+      "labels": {
+        "list": "Список текста (по одному в строке)",
+        "hint": "Одна строка — один текст или URL",
+        "size": "Размер",
+        "count": "QR-кодов: {count}"
+      },
+      "buttons": {
+        "generate": "Создать",
+        "processing": "Создание…",
+        "downloadAll": "Скачать все (zip)",
+        "download": "Скачать"
+      },
+      "errors": {
+        "failed": "Не удалось создать QR-коды. Попробуйте ещё раз."
+      }
+    }
+  }
+}

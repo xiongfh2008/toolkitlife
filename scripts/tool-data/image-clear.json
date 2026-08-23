@@ -1,0 +1,298 @@
+{
+  "slug": "image-clear",
+  "icon": "🧽",
+  "home": {
+    "en": {
+      "name": "Image Content Clear",
+      "description": "Clear all image content and replace it with a solid color or full transparency.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图像内容清除",
+      "description": "清除图像全部内容，替换为纯色或完全透明。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像内容クリア",
+      "description": "画像の内容をすべて消去し、単色または完全透明に置き換え。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 내용 지우기",
+      "description": "이미지의 모든 내용을 지우고 단색 또는 완전 투명으로 대체하세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Очистка содержимого",
+      "description": "Удалите всё содержимое изображения и замените его сплошным цветом или прозрачностью.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Image Content Clear - Free Online Tool",
+        "description": "Free online tool to clear image content: replace the entire image with a solid color or full transparency while keeping the original dimensions."
+      },
+      "title": "Image Content Clear",
+      "description": "Erase everything in an image and fill the canvas with a solid color or full transparency — keeping the original size. Great for placeholders and masks.",
+      "category": "Image Tools",
+      "keywords": [
+        "clear image",
+        "blank image",
+        "remove image content",
+        "transparent image maker",
+        "solid color image",
+        "image placeholder"
+      ],
+      "faqs": [
+        {
+          "question": "Does this delete my original file?",
+          "answer": "No. Your original file is never modified — the tool only creates a new cleared image that you can download."
+        },
+        {
+          "question": "What can I fill the image with?",
+          "answer": "Either a solid color of your choice, or full transparency (only the canvas size is kept)."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "Alpha Invert",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "Upload an image to clear",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "transparent": "Transparent",
+        "color": "Color"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图像内容清除工具 - 免费在线工具",
+        "description": "免费的在线图像清除工具：将整张图片替换为纯色或完全透明，保持原始尺寸不变。"
+      },
+      "title": "图像内容清除工具",
+      "description": "清除图片中的所有内容，用纯色或完全透明填充画布，并保持原始尺寸。适合制作占位图与蒙版。",
+      "category": "图片工具",
+      "keywords": [
+        "清除图像",
+        "空白图片",
+        "去除图片内容",
+        "透明图片",
+        "纯色图片",
+        "占位图"
+      ],
+      "faqs": [
+        {
+          "question": "会删除我的原图吗？",
+          "answer": "不会。原图不会被修改，工具只生成一张新的清除后图片供你下载。"
+        },
+        {
+          "question": "可以用什么填充？",
+          "answer": "可以选择任意纯色，或完全透明（仅保留画布尺寸）。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "纯色图片",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "透明度反转",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "图片背景",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "上传要清除的图片",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "transparent": "透明",
+        "color": "纯色"
+      },
+      "buttons": {
+        "newImage": "更换图片",
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像内容クリア - 無料オンラインツール",
+        "description": "画像の内容を消去し、単色または完全透明に置き換える無料ツール。元のサイズは保持されます。"
+      },
+      "title": "画像内容クリア",
+      "description": "画像の内容をすべて消去し、キャンバスを単色または完全透明で埋めます。元のサイズはそのまま。プレースホルダーやマスクに最適。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像クリア",
+        "空白画像",
+        "内容消去",
+        "透明画像作成",
+        "単色画像",
+        "プレースホルダー画像"
+      ],
+      "faqs": [
+        {
+          "question": "元のファイルは削除されますか？",
+          "answer": "いいえ。元ファイルは変更されず、クリアした新しい画像が生成されてダウンロードできます。"
+        },
+        {
+          "question": "何で埋められますか？",
+          "answer": "好きな単色、または完全透明（キャンバスサイズのみ保持）を選べます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "単色画像",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "アルファ反転",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "画像背景",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "クリアする画像をアップロード",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "transparent": "透明",
+        "color": "単色"
+      },
+      "buttons": {
+        "newImage": "画像を変更",
+        "download": "PNG をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 내용 지우기 - 무료 온라인 도구",
+        "description": "이미지 내용을 지우고 단색 또는 완전 투명으로 대체하는 무료 온라인 도구입니다. 원본 크기는 유지됩니다."
+      },
+      "title": "이미지 내용 지우기",
+      "description": "이미지의 모든 내용을 지우고 캔버스를 단색 또는 완전 투명으로 채웁니다. 원본 크기는 그대로 유지되며 플레이스홀더와 마스크에 유용합니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 지우기",
+        "빈 이미지",
+        "내용 제거",
+        "투명 이미지 만들기",
+        "단색 이미지",
+        "플레이스홀더 이미지"
+      ],
+      "faqs": [
+        {
+          "question": "원본 파일이 삭제되나요?",
+          "answer": "아니요. 원본은 수정되지 않으며 지워진 새 이미지가 생성되어 다운로드할 수 있습니다."
+        },
+        {
+          "question": "무엇으로 채울 수 있나요?",
+          "answer": "원하는 단색 또는 완전 투명(캔버스 크기만 유지) 중 선택할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "단색 이미지",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "알파 반전",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "이미지 배경",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "지울 이미지 업로드",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "transparent": "투명",
+        "color": "단색"
+      },
+      "buttons": {
+        "newImage": "이미지 변경",
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Очистка содержимого - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-инструмент для очистки изображения: замените всё содержимое сплошным цветом или полной прозрачностью, сохранив размер."
+      },
+      "title": "Очистка содержимого",
+      "description": "Сотрите всё содержимое изображения и заполните холст сплошным цветом или полной прозрачностью, сохранив исходный размер.",
+      "category": "Изображения",
+      "keywords": [
+        "очистить изображение",
+        "пустое изображение",
+        "убрать содержимое",
+        "сделать прозрачным",
+        "изображение-заглушка",
+        "сплошной цвет"
+      ],
+      "faqs": [
+        {
+          "question": "Удаляется ли мой исходный файл?",
+          "answer": "Нет. Исходный файл не изменяется — создаётся только новое очищенное изображение для скачивания."
+        },
+        {
+          "question": "Чем можно заполнить изображение?",
+          "answer": "Либо сплошным цветом по вашему выбору, либо полной прозрачностью (сохраняется только размер холста)."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Однотонное изображение",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "Инверсия альфа",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "Фон изображения",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "Загрузите изображение для очистки",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "transparent": "Прозрачный",
+        "color": "Цвет"
+      },
+      "buttons": {
+        "newImage": "Новое изображение",
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

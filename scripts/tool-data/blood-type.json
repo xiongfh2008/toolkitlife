@@ -1,0 +1,273 @@
+{
+  "slug": "blood-type",
+  "icon": "🩸",
+  "home": {
+    "en": {
+      "name": "Blood Type Inheritance",
+      "description": "Predict possible blood types of children from parents.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "血型遗传",
+      "description": "根据父母血型预测子女可能的血型。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "血液型遺伝",
+      "description": "両親の血液型から子の血液型を予測します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "혈액형 유전",
+      "description": "부모 혈액형으로 자녀의 혈액형을 예측합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Наследование группы крови",
+      "description": "Спрогнозируйте возможные группы крови детей по родителям.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Blood Type Inheritance - Possible Child Blood Types",
+        "description": "Free online blood type inheritance calculator. Select the parents' ABO blood types to see which blood types their child can or cannot have. Runs in your browser."
+      },
+      "title": "Blood Type Inheritance",
+      "description": "Select the father's and mother's ABO blood types to instantly see which blood types their child can have — and which are impossible.",
+      "category": "Life Tools",
+      "keywords": [
+        "blood type inheritance",
+        "child blood type",
+        "blood type calculator",
+        "abo inheritance",
+        "possible blood types",
+        "parents blood type"
+      ],
+      "faqs": [
+        {
+          "question": "Why are some blood types impossible?",
+          "answer": "Blood type follows Mendelian inheritance of the A, B and O alleles. Combining the parents' possible genotypes rules out some types."
+        },
+        {
+          "question": "Is this medical advice?",
+          "answer": "No. It is a general genetics table. For anything important, consult a doctor or geneticist."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Height Predictor",
+          "href": "/tools/height-predict"
+        },
+        {
+          "name": "BMI Calculator",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Pregnancy Calculator",
+          "href": "/tools/pregnancy-calculator"
+        }
+      ],
+      "labels": {
+        "father": "Father",
+        "mother": "Mother",
+        "possible": "Possible for the child",
+        "impossible": "Not possible for the child"
+      },
+      "buttons": {}
+    },
+    "zh": {
+      "metadata": {
+        "title": "血型遗传 - 子女可能的血型",
+        "description": "免费在线血型遗传计算器，选择父母 ABO 血型即可查看子女可能和不可能的血型。全程在浏览器本地完成。"
+      },
+      "title": "血型遗传",
+      "description": "选择父亲与母亲的 ABO 血型，立即查看子女可能的血型以及不可能出现的血型。",
+      "category": "生活工具",
+      "keywords": [
+        "血型遗传",
+        "子女血型",
+        "血型计算",
+        "ABO遗传",
+        "父母血型",
+        "血型预测"
+      ],
+      "faqs": [
+        {
+          "question": "为什么有些血型不可能？",
+          "answer": "血型遵循 A、B、O 等位基因的孟德尔遗传规律，综合父母可能的基因型后可排除部分血型。"
+        },
+        {
+          "question": "这是医学建议吗？",
+          "answer": "不是。它只是通用的遗传学表格，重要情况请咨询医生或遗传学专家。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "身高预测",
+          "href": "/tools/height-predict"
+        },
+        {
+          "name": "BMI计算",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "怀孕计算",
+          "href": "/tools/pregnancy-calculator"
+        }
+      ],
+      "labels": {
+        "father": "父亲",
+        "mother": "母亲",
+        "possible": "子女可能血型",
+        "impossible": "子女不可能血型"
+      },
+      "buttons": {}
+    },
+    "ja": {
+      "metadata": {
+        "title": "血液型遺伝 - 子にあり得る血液型",
+        "description": "両親のABO血液型を選ぶと、子にあり得る・あり得ない血液型がわかる無料ツール。ブラウザ内で完結。"
+      },
+      "title": "血液型遺伝",
+      "description": "父親と母親のABO血液型を選ぶと、子にあり得る血液型とあり得ない血液型がすぐにわかります。",
+      "category": "生活ツール",
+      "keywords": [
+        "血液型遺伝",
+        "子の血液型",
+        "血液型計算",
+        "ABO遺伝",
+        "両親の血液型",
+        "血液型予測"
+      ],
+      "faqs": [
+        {
+          "question": "なぜあり得ない型があるのですか？",
+          "answer": "血液型はA・B・O対立遺伝子のメンデル遺伝に従います。両親の可能な遺伝子型から一部の型は除外されます。"
+        },
+        {
+          "question": "医学的な助言ですか？",
+          "answer": "いいえ。一般的な遺伝学の表です。重要なことは医師や遺伝学者に相談してください。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "身長予測",
+          "href": "/tools/height-predict"
+        },
+        {
+          "name": "BMI計算",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "妊娠計算",
+          "href": "/tools/pregnancy-calculator"
+        }
+      ],
+      "labels": {
+        "father": "父親",
+        "mother": "母親",
+        "possible": "子にあり得る血液型",
+        "impossible": "子にあり得ない血液型"
+      },
+      "buttons": {}
+    },
+    "ko": {
+      "metadata": {
+        "title": "혈액형 유전 - 자녀의 가능 혈액형",
+        "description": "부모의 ABO 혈액형을 선택하면 자녀가 가질 수 있는 혈액형과 불가능한 혈액형을 확인하는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "혈액형 유전",
+      "description": "아버지와 어머니의 ABO 혈액형을 선택하면 자녀가 가질 수 있는 혈액형과 가질 수 없는 혈액형을 바로 확인할 수 있습니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "혈액형 유전",
+        "자녀 혈액형",
+        "혈액형 계산",
+        "ABO 유전",
+        "부모 혈액형",
+        "혈액형 예측"
+      ],
+      "faqs": [
+        {
+          "question": "왜 어떤 혈액형은 불가능한가요?",
+          "answer": "혈액형은 A, B, O 대립유전자의 멘델 유전을 따릅니다. 부모의 가능한 유전자형을 조합하면 일부 혈액형이 제외됩니다."
+        },
+        {
+          "question": "의학적 조언인가요?",
+          "answer": "아니요. 일반적인 유전학 표일 뿐입니다. 중요한 사항은 의사나 유전학 전문가와 상담하세요."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "키 예측",
+          "href": "/tools/height-predict"
+        },
+        {
+          "name": "BMI 계산",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "임신 계산",
+          "href": "/tools/pregnancy-calculator"
+        }
+      ],
+      "labels": {
+        "father": "아버지",
+        "mother": "어머니",
+        "possible": "자녀가 가질 수 있는 혈액형",
+        "impossible": "자녀가 가질 수 없는 혈액형"
+      },
+      "buttons": {}
+    },
+    "ru": {
+      "metadata": {
+        "title": "Наследование группы крови - возможные группы ребёнка",
+        "description": "Бесплатный онлайн-калькулятор наследования группы крови. Выберите группы крови родителей и узнайте, какие группы могут быть у ребёнка. Всё в браузере."
+      },
+      "title": "Наследование группы крови",
+      "description": "Выберите группы крови отца и матери по системе ABO — и сразу увидите, какие группы крови возможны у ребёнка, а какие нет.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "наследование группы крови",
+        "группа крови ребёнка",
+        "калькулятор группы крови",
+        "наследование ABO",
+        "возможные группы",
+        "группа крови родителей"
+      ],
+      "faqs": [
+        {
+          "question": "Почему некоторые группы невозможны?",
+          "answer": "Группа крови наследуется по Менделю через аллели A, B и O. Комбинация возможных генотипов родителей исключает часть групп."
+        },
+        {
+          "question": "Это медицинская рекомендация?",
+          "answer": "Нет. Это общая таблица генетики. Для важных вопросов обратитесь к врачу или генетику."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Прогноз роста",
+          "href": "/tools/height-predict"
+        },
+        {
+          "name": "Калькулятор ИМТ",
+          "href": "/tools/bmi-calculator"
+        },
+        {
+          "name": "Калькулятор беременности",
+          "href": "/tools/pregnancy-calculator"
+        }
+      ],
+      "labels": {
+        "father": "Отец",
+        "mother": "Мать",
+        "possible": "Возможные группы ребёнка",
+        "impossible": "Невозможные группы ребёнка"
+      },
+      "buttons": {}
+    }
+  }
+}

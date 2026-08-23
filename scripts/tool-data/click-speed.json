@@ -1,0 +1,288 @@
+{
+  "slug": "click-speed",
+  "icon": "🖱️",
+  "home": {
+    "en": {
+      "name": "Click Speed Test",
+      "description": "Test how many clicks you can make in 10 seconds.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "点击速度测试",
+      "description": "测试你在 10 秒内能点击多少次。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "クリックスピードテスト",
+      "description": "10秒間で何回クリックできるかテスト。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "클릭 속도 테스트",
+      "description": "10초 동안 몇 번 클릭할 수 있는지 테스트합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Тест скорости кликов",
+      "description": "Проверьте, сколько кликов вы сделаете за 10 секунд.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Click Speed Test - CPS Test in 10 Seconds",
+        "description": "Free click speed test. Measure your clicks per second (CPS) in a 10-second challenge. Track your best score. Runs in your browser."
+      },
+      "title": "Click Speed Test",
+      "description": "A 10-second challenge: click as fast as you can and measure your clicks per second (CPS). Your best score is saved during the session.",
+      "category": "Life Tools",
+      "keywords": [
+        "click speed test",
+        "cps test",
+        "clicks per second",
+        "clicker test",
+        "10 second click test",
+        "mouse speed test"
+      ],
+      "faqs": [
+        {
+          "question": "What is a good CPS?",
+          "answer": "A typical result is 5-7 CPS. Skilled gamers reach 10+ CPS with jitter clicking."
+        },
+        {
+          "question": "How long does a test take?",
+          "answer": "Each round lasts 10 seconds, and you can retake it as many times as you want."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Schulte Grid",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "Typing Speed Test",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "timeLeft": "Time left",
+        "clicks": "Clicks",
+        "cps": "CPS",
+        "click": "Click!",
+        "best": "Best"
+      },
+      "buttons": {
+        "start": "Start"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "点击速度测试 - 10 秒 CPS 测试",
+        "description": "免费点击速度测试，10 秒挑战测出你的每秒点击数（CPS），并记录最佳成绩。全程在浏览器本地完成。"
+      },
+      "title": "点击速度测试",
+      "description": "10 秒挑战：以最快速度点击，测出每秒点击数（CPS）。本次会话会记录你的最佳成绩。",
+      "category": "生活工具",
+      "keywords": [
+        "点击速度测试",
+        "cps测试",
+        "每秒点击数",
+        "连点测试",
+        "鼠标点击速度",
+        "10秒点击测试"
+      ],
+      "faqs": [
+        {
+          "question": "多少 CPS 算快？",
+          "answer": "普通人约为 5-7 CPS，熟练玩家可通过抖动点击达到 10+ CPS。"
+        },
+        {
+          "question": "一次测试多久？",
+          "answer": "每轮 10 秒，想测多少次都可以。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "舒尔特方格",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "打字速度测试",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "timeLeft": "剩余时间",
+        "clicks": "点击数",
+        "cps": "CPS",
+        "click": "点击！",
+        "best": "最佳"
+      },
+      "buttons": {
+        "start": "开始"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "クリックスピードテスト - 10秒のCPS測定",
+        "description": "10秒チャレンジで毎秒クリック数（CPS）を測る無料ツール。ベストスコアを記録。ブラウザ内で完結します。"
+      },
+      "title": "クリックスピードテスト",
+      "description": "10秒のチャレンジ。できるだけ速くクリックして毎秒クリック数（CPS）を測定します。",
+      "category": "生活ツール",
+      "keywords": [
+        "クリックスピードテスト",
+        "cpsテスト",
+        "毎秒クリック数",
+        "連打テスト",
+        "マウス速度",
+        "10秒クリック"
+      ],
+      "faqs": [
+        {
+          "question": "どれくらいのCPSが速いですか？",
+          "answer": "一般的に5〜7 CPS、熟練プレイヤーはジタークリックで10 CPS以上です。"
+        },
+        {
+          "question": "テスト時間は？",
+          "answer": "1ラウンド10秒で、何度でも挑戦できます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "反応速度テスト",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "シュルテ方格",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "タイピング速度テスト",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "timeLeft": "残り時間",
+        "clicks": "クリック数",
+        "cps": "CPS",
+        "click": "クリック！",
+        "best": "最高"
+      },
+      "buttons": {
+        "start": "開始"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "클릭 속도 테스트 - 10초 CPS 측정",
+        "description": "10초 동안의 클릭 횟수(CPS)를 측정하는 무료 도구입니다. 최고 기록을 저장하며 브라우저에서 완료됩니다."
+      },
+      "title": "클릭 속도 테스트",
+      "description": "10초 챌린지: 최대한 빠르게 클릭하여 초당 클릭 수(CPS)를 측정합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "클릭 속도 테스트",
+        "cps 테스트",
+        "초당 클릭 수",
+        "연타 테스트",
+        "마우스 속도",
+        "10초 클릭 테스트"
+      ],
+      "faqs": [
+        {
+          "question": "CPS가 얼마면 빠른 건가요?",
+          "answer": "보통 5-7 CPS이며, 숙련된 게이머는 지터 클릭으로 10 CPS 이상을 달성합니다."
+        },
+        {
+          "question": "테스트는 얼마나 걸리나요?",
+          "answer": "1라운드 10초이며 횟수 제한 없이 다시 도전할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "반응 속도 테스트",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "슐테 그리드",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "타이핑 속도 테스트",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "timeLeft": "남은 시간",
+        "clicks": "클릭 수",
+        "cps": "CPS",
+        "click": "클릭!",
+        "best": "최고"
+      },
+      "buttons": {
+        "start": "시작"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Тест скорости кликов - CPS за 10 секунд",
+        "description": "Бесплатный тест скорости кликов. Измерьте клики в секунду (CPS) за 10-секундный раунд. Лучший результат сохраняется. Всё в браузере."
+      },
+      "title": "Тест скорости кликов",
+      "description": "Челлендж на 10 секунд: кликайте как можно быстрее и узнайте скорость в кликах в секунду (CPS). Лучший результат сохраняется в сессии.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "тест скорости кликов",
+        "cps тест",
+        "клики в секунду",
+        "тест кликов",
+        "скорость мыши",
+        "10 секунд кликов"
+      ],
+      "faqs": [
+        {
+          "question": "Какой CPS считается хорошим?",
+          "answer": "Типичный результат — 5-7 CPS. Опытные игроки достигают 10+ CPS."
+        },
+        {
+          "question": "Сколько длится тест?",
+          "answer": "Каждый раунд — 10 секунд, пересдавать можно сколько угодно."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Тест реакции",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Таблица Шульте",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "Тест скорости печати",
+          "href": "/tools/typing-speed-test"
+        }
+      ],
+      "labels": {
+        "timeLeft": "Осталось",
+        "clicks": "Кликов",
+        "cps": "CPS",
+        "click": "Кликай!",
+        "best": "Лучший"
+      },
+      "buttons": {
+        "start": "Начать"
+      }
+    }
+  }
+}

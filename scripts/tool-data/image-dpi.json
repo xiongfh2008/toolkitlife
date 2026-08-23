@@ -1,0 +1,298 @@
+{
+  "slug": "image-dpi",
+  "icon": "📏",
+  "home": {
+    "en": {
+      "name": "Image DPI Changer",
+      "description": "Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) for print without changing pixels.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片 DPI 修改",
+      "description": "重写 PNG 图片的 DPI 元数据（如 300 DPI）用于打印，不改变像素。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像 DPI 変更",
+      "description": "PNG 画像の DPI メタデータを変更（例：300 DPI）。印刷用・ピクセルは不変。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 DPI 변경",
+      "description": "PNG 이미지의 DPI 메타데이터를 변경합니다(예: 300 DPI). 픽셀은 그대로.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Изменение DPI изображения",
+      "description": "Перепишите метаданные DPI PNG (например, 300 DPI) для печати без изменения пикселей.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Image DPI Changer - Rewrite PNG DPI Online",
+        "description": "Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) for print without changing pixels. Free, runs in your browser."
+      },
+      "title": "Image DPI Changer",
+      "description": "Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) so print software sizes it correctly — the pixels stay untouched.",
+      "category": "Image Tools",
+      "keywords": [
+        "change image dpi",
+        "png dpi changer",
+        "set dpi 300",
+        "image dpi metadata",
+        "dpi converter",
+        "change dpi without resizing"
+      ],
+      "faqs": [
+        {
+          "question": "What is DPI and what does this tool change?",
+          "answer": "DPI (dots per inch) is print metadata that tells software how large to print an image. This tool rewrites only that metadata chunk."
+        },
+        {
+          "question": "Does it resize or recompress my image?",
+          "answer": "No — the pixel data is copied as-is. Only the pHYs metadata chunk that stores the DPI value is rewritten."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image File Size",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a PNG image here",
+        "formats": "PNG"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "dpi": "DPI",
+        "note": "metadata only, pixels unchanged"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片 DPI 修改 - 在线重写 PNG DPI",
+        "description": "重写 PNG 图片的 DPI 元数据（如 300 DPI）用于打印，不改变像素。免费，浏览器内运行。"
+      },
+      "title": "图片 DPI 修改",
+      "description": "重写 PNG 图片的 DPI 元数据（如 300 DPI），让打印软件按正确尺寸输出——像素保持不变。",
+      "category": "图片工具",
+      "keywords": [
+        "修改图片dpi",
+        "png dpi修改",
+        "设置300dpi",
+        "图片dpi元数据",
+        "dpi转换",
+        "不改变尺寸修改dpi"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 DPI，这个工具改的是什么？",
+          "answer": "DPI（每英寸点数）是打印元数据，告诉软件图片按多大尺寸打印。本工具只重写这部分的元数据。"
+        },
+        {
+          "question": "会重新缩放或压缩我的图片吗？",
+          "answer": "不会——像素数据原样复制，只重写存储 DPI 值的 pHYs 元数据块。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片文件大小调整",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "图片尺寸调整工具",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片压缩工具",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "upload": {
+        "drop": "将 PNG 图片拖到此处",
+        "formats": "PNG"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "dpi": "DPI",
+        "note": "仅元数据，像素不变"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像 DPI 変更 - オンラインで PNG の DPI を書き換え",
+        "description": "PNG 画像の DPI メタデータを変更（例：300 DPI）。印刷用・ピクセルは不変。無料・ブラウザ内で完結。"
+      },
+      "title": "画像 DPI 変更",
+      "description": "PNG 画像の DPI メタデータを変更（例：300 DPI）し、印刷ソフトが正しいサイズで出力できるようにします——ピクセルはそのまま。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像 dpi 変更",
+        "png dpi 変更",
+        "300dpi 設定",
+        "画像のdpiメタデータ",
+        "dpi変換",
+        "サイズを変えずにdpi変更"
+      ],
+      "faqs": [
+        {
+          "question": "DPI とは何ですか？このツールは何を変えますか？",
+          "answer": "DPI（1インチあたりのドット数）は印刷用メタデータで、ソフトウェアに印刷サイズを伝えます。本ツールはそのメタデータのみを書き換えます。"
+        },
+        {
+          "question": "画像のリサイズや再圧縮はされますか？",
+          "answer": "いいえ——ピクセルデータはそのままコピーされ、DPI 値を保持する pHYs メタデータチャンクだけが書き換わります。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像ファイルサイズ調整",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "画像リサイズツール",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "画像圧縮ツール",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "upload": {
+        "drop": "PNG 画像をドロップ",
+        "formats": "PNG"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード",
+        "newImage": "新しい画像"
+      },
+      "labels": {
+        "dpi": "DPI",
+        "note": "メタデータのみ、ピクセルは不変"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 DPI 변경 - 온라인 PNG DPI 수정",
+        "description": "PNG 이미지의 DPI 메타데이터를 변경합니다(예: 300 DPI). 픽셀은 그대로. 무료, 브라우저에서 실행."
+      },
+      "title": "이미지 DPI 변경",
+      "description": "PNG 이미지의 DPI 메타데이터를 변경(예: 300 DPI)하여 인쇄 소프트웨어가 올바른 크기로 출력하도록 합니다 — 픽셀은 그대로입니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 dpi 변경",
+        "png dpi 변경",
+        "300dpi 설정",
+        "이미지 dpi 메타데이터",
+        "dpi 변환",
+        "크기 유지 dpi 변경"
+      ],
+      "faqs": [
+        {
+          "question": "DPI란 무엇이며 이 도구는 무엇을 바꾸나요?",
+          "answer": "DPI(인치당 도트 수)는 인쇄 메타데이터로, 소프트웨어에 인쇄 크기를 알려줍니다. 이 도구는 그 메타데이터만 다시 씁니다."
+        },
+        {
+          "question": "이미지 크기가 조정되거나 다시 압축되나요?",
+          "answer": "아니요 — 픽셀 데이터는 그대로 복사되고 DPI 값을 저장하는 pHYs 메타데이터 청크만 다시 작성됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 파일 크기 조정",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "이미지 크기 조정기",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "이미지 압축기",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "upload": {
+        "drop": "PNG 이미지를 여기에 놓으세요",
+        "formats": "PNG"
+      },
+      "buttons": {
+        "download": "PNG 다운로드",
+        "newImage": "새 이미지"
+      },
+      "labels": {
+        "dpi": "DPI",
+        "note": "메타데이터만, 픽셀은 그대로"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Изменение DPI изображения - онлайн-инструмент",
+        "description": "Перепишите метаданные DPI PNG (например, 300 DPI) для печати без изменения пикселей. Бесплатно, работает в браузере."
+      },
+      "title": "Изменение DPI изображения",
+      "description": "Перепишите метаданные DPI PNG (например, 300 DPI), чтобы печать выполнялась в правильном размере — пиксели не меняются.",
+      "category": "Изображения",
+      "keywords": [
+        "изменить dpi изображения",
+        "изменение dpi png",
+        "установить 300 dpi",
+        "метаданные dpi",
+        "конвертер dpi",
+        "изменить dpi без изменения размера"
+      ],
+      "faqs": [
+        {
+          "question": "Что такое DPI и что меняет этот инструмент?",
+          "answer": "DPI (точек на дюйм) — это метаданные печати, сообщающие программе размер отпечатка. Инструмент переписывает только эти метаданные."
+        },
+        {
+          "question": "Изменяет ли он размер или сжатие изображения?",
+          "answer": "Нет — данные пикселей копируются как есть. Переписывается только блок метаданных pHYs, хранящий значение DPI."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Размер файла изображения",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Изменение размера изображений",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Сжатие изображений",
+          "href": "/tools/image-compressor"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите PNG сюда",
+        "formats": "PNG"
+      },
+      "buttons": {
+        "download": "Скачать PNG",
+        "newImage": "Новое изображение"
+      },
+      "labels": {
+        "dpi": "DPI",
+        "note": "только метаданные, пиксели не меняются"
+      }
+    }
+  }
+}

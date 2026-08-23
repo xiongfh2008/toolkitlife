@@ -1,0 +1,288 @@
+{
+  "slug": "reaction-time",
+  "icon": "⚡",
+  "home": {
+    "en": {
+      "name": "Reaction Time Test",
+      "description": "Measure how fast you can react.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "反应速度测试",
+      "description": "测试你的反应速度有多快。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "反応速度テスト",
+      "description": "あなたの反応速度を測定します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "반응 속도 테스트",
+      "description": "당신의 반응 속도를 측정합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Тест реакции",
+      "description": "Измерьте, как быстро вы реагируете.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Reaction Time Test - Measure Your Reflexes Online",
+        "description": "Free online reaction time test. Wait for the screen to turn green, then click as fast as you can. Track your best and average times. Runs in your browser."
+      },
+      "title": "Reaction Time Test",
+      "description": "A classic reaction test: wait for the green screen and click immediately. The last 10 results are recorded with your best and average times.",
+      "category": "Life Tools",
+      "keywords": [
+        "reaction time test",
+        "reflex test",
+        "reaction speed",
+        "human benchmark",
+        "click speed test",
+        "reflex check"
+      ],
+      "faqs": [
+        {
+          "question": "What is a good reaction time?",
+          "answer": "The average human reaction time is around 250ms. Top athletes can go under 200ms."
+        },
+        {
+          "question": "Why wait for green?",
+          "answer": "The random delay prevents you from anticipating the signal, giving a true reaction measurement."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Click Speed Test",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "Schulte Grid",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "Keycode Test",
+          "href": "/tools/keycode"
+        }
+      ],
+      "labels": {
+        "clickNow": "Click now!",
+        "wait": "Wait for green…",
+        "tooSoon": "Too soon! Try again",
+        "result": "ms",
+        "best": "Best",
+        "average": "Average",
+        "attempts": "Attempts"
+      },
+      "buttons": {}
+    },
+    "zh": {
+      "metadata": {
+        "title": "反应速度测试 - 在线测试你的反应力",
+        "description": "免费在线反应速度测试。等屏幕变绿后立即点击，记录你的最佳和平均反应时间。全程在浏览器本地完成。"
+      },
+      "title": "反应速度测试",
+      "description": "经典反应测试：等屏幕变绿后立即点击。系统会记录最近 10 次结果并计算最佳与平均时间。",
+      "category": "生活工具",
+      "keywords": [
+        "反应速度测试",
+        "反应力测试",
+        "反应时间",
+        "反射测试",
+        "反应测试",
+        "人类基准测试"
+      ],
+      "faqs": [
+        {
+          "question": "多少反应时间算快？",
+          "answer": "人类平均反应时间约为 250 毫秒，顶级运动员可低于 200 毫秒。"
+        },
+        {
+          "question": "为什么要等变绿？",
+          "answer": "随机延迟可以防止你提前预判，从而测出真实反应时间。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "点击速度测试",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "舒尔特方格",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "按键码查询",
+          "href": "/tools/keycode"
+        }
+      ],
+      "labels": {
+        "clickNow": "立即点击！",
+        "wait": "等待变绿…",
+        "tooSoon": "点早了！再试一次",
+        "result": "毫秒",
+        "best": "最佳",
+        "average": "平均",
+        "attempts": "次数"
+      },
+      "buttons": {}
+    },
+    "ja": {
+      "metadata": {
+        "title": "反応速度テスト - オンラインで反射神経を測定",
+        "description": "画面が緑に変わったらすぐにクリックする無料の反応速度テスト。最高・平均タイムを記録します。ブラウザ内で完結。"
+      },
+      "title": "反応速度テスト",
+      "description": "定番の反応テスト。緑に変わった瞬間にクリック。直近10回の結果と最高・平均タイムを記録します。",
+      "category": "生活ツール",
+      "keywords": [
+        "反応速度テスト",
+        "反射神経テスト",
+        "反応時間",
+        "人間ベンチマーク",
+        "クリック速度",
+        "反射チェック"
+      ],
+      "faqs": [
+        {
+          "question": "どれくらいの反応時間が速いですか？",
+          "answer": "人間の平均は約250ミリ秒、一流アスリートは200ミリ秒を切ります。"
+        },
+        {
+          "question": "なぜ緑を待つのですか？",
+          "answer": "ランダムな遅延で先読みを防ぎ、真の反応時間を測ります。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "クリックスピードテスト",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "シュルテ方格",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "キーコード確認",
+          "href": "/tools/keycode"
+        }
+      ],
+      "labels": {
+        "clickNow": "今すぐクリック！",
+        "wait": "緑になるのを待つ…",
+        "tooSoon": "早すぎました！もう一度",
+        "result": "ミリ秒",
+        "best": "最高",
+        "average": "平均",
+        "attempts": "回数"
+      },
+      "buttons": {}
+    },
+    "ko": {
+      "metadata": {
+        "title": "반응 속도 테스트 - 온라인 반사 신경 측정",
+        "description": "화면이 초록색으로 바뀌면 바로 클릭하는 무료 반응 속도 테스트입니다. 최고·평균 시간을 기록하며 브라우저에서 완료됩니다."
+      },
+      "title": "반응 속도 테스트",
+      "description": "고전적인 반응 테스트: 초록 화면이 나타나면 즉시 클릭하세요. 최근 10회 결과와 최고·평균 시간을 기록합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "반응 속도 테스트",
+        "반사 신경 테스트",
+        "반응 시간",
+        "휴먼 벤치마크",
+        "클릭 속도",
+        "반사 신경"
+      ],
+      "faqs": [
+        {
+          "question": "어느 정도 반응 시간이 빠른 건가요?",
+          "answer": "인간의 평균 반응 시간은 약 250ms이며, 최고 수준 선수는 200ms 이하입니다."
+        },
+        {
+          "question": "왜 초록색을 기다리나요?",
+          "answer": "무작위 지연으로 미리 예측하는 것을 막아 진짜 반응 시간을 측정합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "클릭 속도 테스트",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "슐테 그리드",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "키코드 확인",
+          "href": "/tools/keycode"
+        }
+      ],
+      "labels": {
+        "clickNow": "지금 클릭하세요!",
+        "wait": "초록색을 기다리세요…",
+        "tooSoon": "너무 빨랐어요! 다시 시도",
+        "result": "ms",
+        "best": "최고",
+        "average": "평균",
+        "attempts": "횟수"
+      },
+      "buttons": {}
+    },
+    "ru": {
+      "metadata": {
+        "title": "Тест реакции - измерьте рефлексы онлайн",
+        "description": "Бесплатный онлайн-тест реакции. Дождитесь зелёного экрана и нажмите как можно быстрее. Отслеживайте лучший и средний результаты. Всё в браузере."
+      },
+      "title": "Тест реакции",
+      "description": "Классический тест реакции: дождитесь зелёного экрана и сразу нажмите. Записываются последние 10 результатов с лучшим и средним временем.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "тест реакции",
+        "проверка рефлексов",
+        "скорость реакции",
+        "человеческий бенчмарк",
+        "тест скорости кликов",
+        "рефлекс"
+      ],
+      "faqs": [
+        {
+          "question": "Какое время реакции считается хорошим?",
+          "answer": "Среднее время реакции человека около 250 мс. Топ-спортсмены укладываются в 200 мс."
+        },
+        {
+          "question": "Зачем ждать зелёного?",
+          "answer": "Случайная задержка не даёт предугадать сигнал, поэтому результат отражает настоящую реакцию."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Тест скорости кликов",
+          "href": "/tools/click-speed"
+        },
+        {
+          "name": "Таблица Шульте",
+          "href": "/tools/schulte-grid"
+        },
+        {
+          "name": "Коды клавиш",
+          "href": "/tools/keycode"
+        }
+      ],
+      "labels": {
+        "clickNow": "Жмите сейчас!",
+        "wait": "Ждите зелёного…",
+        "tooSoon": "Слишком рано! Ещё раз",
+        "result": "мс",
+        "best": "Лучший",
+        "average": "Средний",
+        "attempts": "Попыток"
+      },
+      "buttons": {}
+    }
+  }
+}

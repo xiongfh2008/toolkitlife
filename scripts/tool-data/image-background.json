@@ -1,0 +1,303 @@
+{
+  "slug": "image-background",
+  "icon": "🎨",
+  "home": {
+    "en": {
+      "name": "Image Background",
+      "description": "Add a solid background color to transparent PNG images in one click. Great for dark-mode adapters.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片加背景",
+      "description": "一键为透明 PNG 图片添加纯色背景，适配微信暗黑模式等场景。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像背景追加",
+      "description": "透明 PNG にワンクリックで単色背景を追加。ダークモード対応に最適。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 배경 추가",
+      "description": "투명 PNG에 한 번의 클릭으로 단색 배경을 추가합니다. 다크모드 대응에 유용.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Фон для изображения",
+      "description": "Добавьте однотонный фон прозрачному PNG в один клик. Идеально для тёмной темы.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Image Background - Add Solid Color Behind PNG",
+        "description": "Add a solid background color to transparent PNG images in one click. Free, runs in your browser, no upload."
+      },
+      "title": "Image Background",
+      "description": "Give a transparent PNG a solid background color in one click. Great for dark-mode adapters, stickers and sharing on colored cards.",
+      "category": "Image Tools",
+      "keywords": [
+        "add background to png",
+        "png background color",
+        "image background changer",
+        "solid background image",
+        "add color background",
+        "png transparency background"
+      ],
+      "faqs": [
+        {
+          "question": "What does this tool do?",
+          "answer": "It fills the transparent areas of a PNG with the color you choose and exports a new PNG with the background baked in."
+        },
+        {
+          "question": "Does it work on JPG images?",
+          "answer": "JPG has no transparency, so there is nothing to fill — the tool is designed for PNG (and WebP) images with an alpha channel."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Alpha Invert",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a PNG image here",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "color": "Background color",
+        "original": "Original",
+        "result": "Result"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片加背景 - 在线为透明PNG添加纯色背景",
+        "description": "一键为透明 PNG 图片添加纯色背景。免费，浏览器内运行，无需上传。"
+      },
+      "title": "图片加背景",
+      "description": "一键为透明 PNG 添加纯色背景，适配微信暗黑模式、贴纸或彩色卡片分享等场景。",
+      "category": "图片工具",
+      "keywords": [
+        "png加背景",
+        "图片背景颜色",
+        "图片加背景色",
+        "纯色背景图片",
+        "添加颜色背景",
+        "png透明背景"
+      ],
+      "faqs": [
+        {
+          "question": "这个工具是做什么的？",
+          "answer": "它会用你选择的颜色填充 PNG 的透明区域，并导出一张已合成背景的新 PNG 图片。"
+        },
+        {
+          "question": "支持 JPG 吗？",
+          "answer": "JPG 没有透明度，没有可填充的区域——本工具适用于带 Alpha 通道的 PNG（及 WebP）图片。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "透明度反转",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "纯色图片生成器",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "图片加边距",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "将 PNG 图片拖到此处",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "color": "背景颜色",
+        "original": "原图",
+        "result": "结果"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像背景追加 - 透明PNGに単色背景を追加",
+        "description": "透明 PNG にワンクリックで単色背景を追加。無料・ブラウザ内で完結、アップロード不要。"
+      },
+      "title": "画像背景追加",
+      "description": "透明 PNG にワンクリックで単色背景を追加。ダークモード対応・ステッカー・カラフルなカード共有に最適。",
+      "category": "画像ツール",
+      "keywords": [
+        "pngに背景を追加",
+        "画像の背景色変更",
+        "背景色を追加",
+        "単色背景",
+        "画像に背景を付ける",
+        "png透明背景"
+      ],
+      "faqs": [
+        {
+          "question": "このツールは何をするのですか？",
+          "answer": "選択した色で PNG の透明部分を塗りつぶし、背景を合成した新しい PNG を書き出します。"
+        },
+        {
+          "question": "JPG にも使えますか？",
+          "answer": "JPG には透明度がなく塗りつぶす部分がないため、アルファチャンネルを持つ PNG（や WebP）向けです。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "アルファ反転",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "単色画像生成",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "画像マージン追加",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "PNG 画像をドロップ",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード",
+        "newImage": "新しい画像"
+      },
+      "labels": {
+        "color": "背景色",
+        "original": "元画像",
+        "result": "結果"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 배경 추가 - 투명 PNG에 단색 배경 넣기",
+        "description": "투명 PNG에 한 번의 클릭으로 단색 배경을 추가합니다. 무료, 브라우저에서 실행, 업로드 불필요."
+      },
+      "title": "이미지 배경 추가",
+      "description": "투명 PNG에 원하는 단색 배경을 한 번의 클릭으로 넣습니다. 다크모드·스티커·컬러 카드 공유에 유용.",
+      "category": "이미지 도구",
+      "keywords": [
+        "png 배경 추가",
+        "이미지 배경색 변경",
+        "배경색 추가",
+        "단색 배경 이미지",
+        "이미지 배경 넣기",
+        "png 투명 배경"
+      ],
+      "faqs": [
+        {
+          "question": "이 도구는 무엇을 하나요?",
+          "answer": "선택한 색상으로 PNG의 투명 영역을 채우고 배경이 합성된 새 PNG를 내보냅니다."
+        },
+        {
+          "question": "JPG에서도 되나요?",
+          "answer": "JPG에는 투명도가 없어 채울 부분이 없으므로 알파 채널이 있는 PNG(및 WebP) 이미지에 적합합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "알파 반전",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "단색 이미지 생성기",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "이미지 여백 추가",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "PNG 이미지를 여기에 놓으세요",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "PNG 다운로드",
+        "newImage": "새 이미지"
+      },
+      "labels": {
+        "color": "배경 색상",
+        "original": "원본",
+        "result": "결과"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Фон для изображения - добавить цвет за прозрачным PNG",
+        "description": "Добавьте однотонный фон прозрачному PNG в один клик. Бесплатно, работает в браузере, без загрузки."
+      },
+      "title": "Фон для изображения",
+      "description": "Добавьте прозрачному PNG однотонный фон в один клик. Идеально для тёмной темы, стикеров и цветных карточек.",
+      "category": "Изображения",
+      "keywords": [
+        "добавить фон png",
+        "цвет фона изображения",
+        "добавить цветной фон",
+        "однотонный фон",
+        "фон для прозрачного png",
+        "изменить фон изображения"
+      ],
+      "faqs": [
+        {
+          "question": "Что делает этот инструмент?",
+          "answer": "Он заливает прозрачные области PNG выбранным цветом и экспортирует новое PNG с фоном."
+        },
+        {
+          "question": "Работает ли с JPG?",
+          "answer": "У JPG нет прозрачности, заливать нечего — инструмент предназначен для PNG (и WebP) с альфа-каналом."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Инверсия прозрачности",
+          "href": "/tools/image-alpha-invert"
+        },
+        {
+          "name": "Однотонное изображение",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "Поля вокруг изображения",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите PNG сюда",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "Скачать PNG",
+        "newImage": "Новое изображение"
+      },
+      "labels": {
+        "color": "Цвет фона",
+        "original": "Оригинал",
+        "result": "Результат"
+      }
+    }
+  }
+}

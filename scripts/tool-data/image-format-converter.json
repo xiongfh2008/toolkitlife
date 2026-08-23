@@ -1,0 +1,308 @@
+{
+  "slug": "image-format-converter",
+  "icon": "🔁",
+  "home": {
+    "en": {
+      "name": "Image Format Converter",
+      "description": "Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片格式转换器",
+      "description": "批量将图片在 PNG、JPG 与 WebP 之间互转，完全在浏览器本地运行。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像フォーマット変換",
+      "description": "複数画像を一括で PNG・JPG・WebP に変換。すべてブラウザ内で完結。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 형식 변환기",
+      "description": "여러 이미지를 한 번에 PNG·JPG·WebP로 변환합니다. 브라우저에서 완전 처리.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Конвертер форматов изображений",
+      "description": "Конвертируйте несколько изображений в PNG, JPG или WebP за раз. Всё в браузере.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Image Format Converter - PNG JPG WebP Online",
+        "description": "Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser. Free, private."
+      },
+      "title": "Image Format Converter",
+      "description": "Convert one or many images between PNG, JPG and WebP at once. Adjust quality for JPG and WebP, then download the results.",
+      "category": "Image Tools",
+      "keywords": [
+        "image format converter",
+        "convert png to jpg",
+        "convert jpg to webp",
+        "batch image converter",
+        "change image format",
+        "webp converter"
+      ],
+      "faqs": [
+        {
+          "question": "Which formats are supported?",
+          "answer": "PNG, JPG and WebP. You can convert from any input image format to any of these three output formats."
+        },
+        {
+          "question": "Are my images uploaded to a server?",
+          "answer": "No. Everything is processed locally in your browser — your images never leave your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image File Size",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Image to GIF Maker",
+          "href": "/tools/image-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "Drop images here",
+        "multi": "You can select multiple images"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "download": "Download"
+      },
+      "labels": {
+        "format": "Output format",
+        "quality": "Quality",
+        "processing": "Converting...",
+        "results": "Results"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片格式转换器 - 在线PNG JPG WebP互转",
+        "description": "批量将图片在 PNG、JPG 与 WebP 之间互转，完全在浏览器本地运行。免费、隐私安全。"
+      },
+      "title": "图片格式转换器",
+      "description": "一次将单张或多张图片在 PNG、JPG 与 WebP 之间互转，可调整 JPG 和 WebP 的质量，然后下载结果。",
+      "category": "图片工具",
+      "keywords": [
+        "图片格式转换",
+        "png转jpg",
+        "jpg转webp",
+        "批量图片转换",
+        "修改图片格式",
+        "webp转换"
+      ],
+      "faqs": [
+        {
+          "question": "支持哪些格式？",
+          "answer": "支持 PNG、JPG 和 WebP，可从任意输入格式转换为这三种输出格式中的任意一种。"
+        },
+        {
+          "question": "图片会上传到服务器吗？",
+          "answer": "不会。所有处理都在浏览器本地完成——图片不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片压缩工具",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片文件大小调整",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "图片转 GIF 制作器",
+          "href": "/tools/image-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "multi": "支持同时选择多张图片"
+      },
+      "buttons": {
+        "reset": "重置",
+        "download": "下载"
+      },
+      "labels": {
+        "format": "输出格式",
+        "quality": "质量",
+        "processing": "转换中...",
+        "results": "转换结果"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像フォーマット変換 - PNG JPG WebP オンライン変換",
+        "description": "複数画像を一括で PNG・JPG・WebP に変換。すべてブラウザ内で完結。無料・プライバシー保護。"
+      },
+      "title": "画像フォーマット変換",
+      "description": "1枚または複数の画像を一度に PNG・JPG・WebP へ変換。JPG と WebP の品質を調整して結果をダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像フォーマット変換",
+        "pngをjpgに変換",
+        "jpgをwebpに変換",
+        "一括画像変換",
+        "画像形式を変更",
+        "webp変換"
+      ],
+      "faqs": [
+        {
+          "question": "対応フォーマットは？",
+          "answer": "PNG・JPG・WebP に対応。任意の入力形式から、この3つの出力形式のいずれかに変換できます。"
+        },
+        {
+          "question": "画像はサーバーにアップロードされますか？",
+          "answer": "いいえ。すべてブラウザ内で処理されるため、画像がデバイスの外に出ることはありません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像圧縮ツール",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "画像ファイルサイズ調整",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "画像からGIF作成",
+          "href": "/tools/image-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップ",
+        "multi": "複数画像を同時に選択できます"
+      },
+      "buttons": {
+        "reset": "リセット",
+        "download": "ダウンロード"
+      },
+      "labels": {
+        "format": "出力形式",
+        "quality": "品質",
+        "processing": "変換中...",
+        "results": "変換結果"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 형식 변환기 - PNG JPG WebP 온라인 변환",
+        "description": "여러 이미지를 한 번에 PNG·JPG·WebP로 변환합니다. 브라우저에서 완전 처리. 무료·프라이버시 보호."
+      },
+      "title": "이미지 형식 변환기",
+      "description": "한 장 또는 여러 이미지를 한 번에 PNG·JPG·WebP로 변환합니다. JPG·WebP 품질을 조절하고 결과를 다운로드하세요.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 형식 변환",
+        "png를 jpg로",
+        "jpg를 webp로",
+        "이미지 일괄 변환",
+        "이미지 형식 변경",
+        "webp 변환"
+      ],
+      "faqs": [
+        {
+          "question": "어떤 형식을 지원하나요?",
+          "answer": "PNG·JPG·WebP를 지원하며, 어떤 입력 형식이든 이 세 가지 출력 형식 중 하나로 변환할 수 있습니다."
+        },
+        {
+          "question": "이미지가 서버에 업로드되나요?",
+          "answer": "아니요. 모든 처리가 브라우저에서 로컬로 이루어지므로 이미지가 기기를 떠나지 않습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 압축기",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "이미지 파일 크기 조정",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "이미지 GIF 제작기",
+          "href": "/tools/image-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 여기에 놓으세요",
+        "multi": "여러 이미지를 한 번에 선택할 수 있습니다"
+      },
+      "buttons": {
+        "reset": "초기화",
+        "download": "다운로드"
+      },
+      "labels": {
+        "format": "출력 형식",
+        "quality": "품질",
+        "processing": "변환 중...",
+        "results": "변환 결과"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Конвертер форматов изображений - PNG JPG WebP онлайн",
+        "description": "Конвертируйте несколько изображений в PNG, JPG или WebP за раз. Всё в браузере. Бесплатно и конфиденциально."
+      },
+      "title": "Конвертер форматов изображений",
+      "description": "Конвертируйте одно или несколько изображений в PNG, JPG и WebP за раз. Настройте качество для JPG и WebP и скачайте результат.",
+      "category": "Изображения",
+      "keywords": [
+        "конвертер форматов изображений",
+        "конвертировать png в jpg",
+        "конвертировать jpg в webp",
+        "пакетное преобразование изображений",
+        "изменить формат изображения",
+        "конвертер webp"
+      ],
+      "faqs": [
+        {
+          "question": "Какие форматы поддерживаются?",
+          "answer": "PNG, JPG и WebP. Любой входной формат можно преобразовать в один из этих трёх выходных форматов."
+        },
+        {
+          "question": "Загружаются ли изображения на сервер?",
+          "answer": "Нет. Всё обрабатывается локально в браузере — изображения не покидают ваше устройство."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Сжатие изображений",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Размер файла изображения",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Изображения в GIF",
+          "href": "/tools/image-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображения сюда",
+        "multi": "Можно выбрать несколько изображений"
+      },
+      "buttons": {
+        "reset": "Сбросить",
+        "download": "Скачать"
+      },
+      "labels": {
+        "format": "Формат вывода",
+        "quality": "Качество",
+        "processing": "Конвертация...",
+        "results": "Результаты"
+      }
+    }
+  }
+}

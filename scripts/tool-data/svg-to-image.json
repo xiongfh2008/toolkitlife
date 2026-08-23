@@ -1,0 +1,368 @@
+{
+  "slug": "svg-to-image",
+  "icon": "🧩",
+  "home": {
+    "en": {
+      "name": "SVG to Image",
+      "description": "Convert SVG code to PNG, JPG or WebP with preview, and get the Base64 data URL.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "SVG 转图片",
+      "description": "将 SVG 代码转换为 PNG、JPG 或 WebP，支持预览并获取 Base64 编码。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "SVG 画像変換",
+      "description": "SVG コードを PNG・JPG・WebP に変換。プレビューと Base64 出力に対応。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "SVG 이미지 변환",
+      "description": "SVG 코드를 PNG·JPG·WebP로 변환하고 미리보기와 Base64를 제공합니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "SVG в изображение",
+      "description": "Преобразуйте код SVG в PNG, JPG или WebP с предпросмотром и выводом Base64.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "SVG to Image Converter – SVG to PNG/JPG/WebP",
+        "description": "Convert SVG code to PNG, JPG or WebP online with scale and quality controls. Get a preview and a Base64 data URL. Free, no uploads."
+      },
+      "title": "SVG to Image",
+      "description": "Paste SVG code and convert it to PNG, JPG or WebP instantly. Adjust scale and quality, preview the result and copy the Base64 data URL.",
+      "category": "Image Tools",
+      "keywords": [
+        "svg to png",
+        "svg to jpg",
+        "svg to webp",
+        "convert svg to image",
+        "svg converter",
+        "svg to image online",
+        "svg to base64",
+        "render svg to png"
+      ],
+      "faqs": [
+        {
+          "question": "Which formats can I convert SVG to?",
+          "answer": "PNG, JPG and WebP."
+        },
+        {
+          "question": "Can I change the output size?",
+          "answer": "Yes, use the scale slider from 0.25× to 4× to resize the output without editing the SVG."
+        },
+        {
+          "question": "What is the Base64 output for?",
+          "answer": "The data URL can be embedded directly in HTML, CSS or code — useful for icons and inline images."
+        },
+        {
+          "question": "Is the SVG sent to a server?",
+          "answer": "No. Conversion happens entirely in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "Image to Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "Favicon Generator",
+          "href": "/tools/favicon-generator"
+        }
+      ],
+      "errors": {
+        "failed": "Failed to render this SVG. Please check the code."
+      },
+      "labels": {
+        "svg": "SVG code",
+        "format": "Format",
+        "scale": "Scale",
+        "quality": "Quality",
+        "copied": "Copied!",
+        "copyBase64": "Copy Base64",
+        "base64": "Base64 data URL",
+        "preview": "Preview"
+      },
+      "buttons": {
+        "download": "Download"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "SVG 转图片 – SVG 转 PNG/JPG/WebP",
+        "description": "在线将 SVG 代码转换为 PNG、JPG 或 WebP，支持缩放与质量调节，可预览并获取 Base64。免费、无需上传。"
+      },
+      "title": "SVG 转图片",
+      "description": "粘贴 SVG 代码即可即时转换为 PNG、JPG 或 WebP。可调整缩放与质量，预览结果并复制 Base64 数据地址。",
+      "category": "图片工具",
+      "keywords": [
+        "svg转png",
+        "svg转jpg",
+        "svg转webp",
+        "svg转图片",
+        "svg转换器",
+        "在线svg转图片",
+        "svg转base64",
+        "svg渲染png"
+      ],
+      "faqs": [
+        {
+          "question": "SVG 可以转换成哪些格式？",
+          "answer": "支持 PNG、JPG 和 WebP。"
+        },
+        {
+          "question": "可以改变输出尺寸吗？",
+          "answer": "可以，通过缩放滑块（0.25×–4×）调整输出大小，无需修改 SVG 源码。"
+        },
+        {
+          "question": "Base64 输出有什么用？",
+          "answer": "数据地址可直接嵌入 HTML、CSS 或代码中，非常适合图标和行内图片。"
+        },
+        {
+          "question": "SVG 会被发送到服务器吗？",
+          "answer": "不会。转换完全在浏览器本地完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片格式转换器",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "图片转 Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "Favicon 生成器",
+          "href": "/tools/favicon-generator"
+        }
+      ],
+      "errors": {
+        "failed": "SVG 渲染失败，请检查代码。"
+      },
+      "labels": {
+        "svg": "SVG 代码",
+        "format": "格式",
+        "scale": "缩放",
+        "quality": "质量",
+        "copied": "已复制！",
+        "copyBase64": "复制 Base64",
+        "base64": "Base64 数据地址",
+        "preview": "预览"
+      },
+      "buttons": {
+        "download": "下载"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "SVG 画像変換 – SVG を PNG/JPG/WebP に",
+        "description": "SVG コードを PNG・JPG・WebP にオンライン変換。スケール・品質調整、プレビューと Base64 出力に対応。無料・アップロード不要。"
+      },
+      "title": "SVG 画像変換",
+      "description": "SVG コードを貼り付けるだけで PNG・JPG・WebP に即時変換。スケールと品質を調整し、プレビューと Base64 を取得できます。",
+      "category": "画像ツール",
+      "keywords": [
+        "svgをpngに",
+        "svgをjpgに",
+        "svgをwebpに",
+        "svgを画像に変換",
+        "svgコンバーター",
+        "オンラインsvg変換",
+        "svgをbase64に",
+        "svgをpngで出力"
+      ],
+      "faqs": [
+        {
+          "question": "どの形式に変換できますか？",
+          "answer": "PNG・JPG・WebP に対応しています。"
+        },
+        {
+          "question": "出力サイズを変更できますか？",
+          "answer": "はい。スケールスライダー（0.25×〜4×）で SVG を編集せずにサイズを調整できます。"
+        },
+        {
+          "question": "Base64 出力は何に使いますか？",
+          "answer": "データ URL は HTML・CSS・コードに直接埋め込めるため、アイコンやインライン画像に便利です。"
+        },
+        {
+          "question": "SVG はサーバーに送信されますか？",
+          "answer": "いいえ。変換はすべてブラウザ内で行われます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像フォーマット変換",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "画像を Base64 に変換",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "ファビコン生成",
+          "href": "/tools/favicon-generator"
+        }
+      ],
+      "errors": {
+        "failed": "この SVG を描画できませんでした。コードを確認してください。"
+      },
+      "labels": {
+        "svg": "SVG コード",
+        "format": "形式",
+        "scale": "スケール",
+        "quality": "品質",
+        "copied": "コピーしました！",
+        "copyBase64": "Base64 をコピー",
+        "base64": "Base64 データ URL",
+        "preview": "プレビュー"
+      },
+      "buttons": {
+        "download": "ダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "SVG 이미지 변환 – SVG를 PNG/JPG/WebP로",
+        "description": "SVG 코드를 PNG·JPG·WebP로 변환하는 온라인 도구. 배율·품질 조절, 미리보기와 Base64 출력을 지원합니다. 무료, 업로드 불필요."
+      },
+      "title": "SVG 이미지 변환",
+      "description": "SVG 코드를 붙여넣으면 즉시 PNG·JPG·WebP로 변환됩니다. 배율과 품질을 조정하고 미리보기와 Base64 데이터 URL을 확인하세요.",
+      "category": "이미지 도구",
+      "keywords": [
+        "svg를 png로",
+        "svg를 jpg로",
+        "svg를 webp로",
+        "svg 이미지 변환",
+        "svg 변환기",
+        "온라인 svg 변환",
+        "svg를 base64로",
+        "svg png 렌더링"
+      ],
+      "faqs": [
+        {
+          "question": "어떤 형식으로 변환할 수 있나요?",
+          "answer": "PNG, JPG, WebP를 지원합니다."
+        },
+        {
+          "question": "출력 크기를 바꿀 수 있나요?",
+          "answer": "네, 배율 슬라이더(0.25×~4×)로 SVG를 수정하지 않고 크기를 조정할 수 있습니다."
+        },
+        {
+          "question": "Base64 출력은 어디에 쓰나요?",
+          "answer": "데이터 URL은 HTML·CSS·코드에 바로 넣을 수 있어 아이콘과 인라인 이미지에 유용합니다."
+        },
+        {
+          "question": "SVG가 서버로 전송되나요?",
+          "answer": "아니요. 변환이 브라우저에서 완전히 이루어집니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 형식 변환기",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "이미지를 Base64로",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "파비콘 생성기",
+          "href": "/tools/favicon-generator"
+        }
+      ],
+      "errors": {
+        "failed": "이 SVG를 렌더링하지 못했습니다. 코드를 확인해 주세요."
+      },
+      "labels": {
+        "svg": "SVG 코드",
+        "format": "형식",
+        "scale": "배율",
+        "quality": "품질",
+        "copied": "복사됨!",
+        "copyBase64": "Base64 복사",
+        "base64": "Base64 데이터 URL",
+        "preview": "미리보기"
+      },
+      "buttons": {
+        "download": "다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "SVG в изображение – SVG в PNG/JPG/WebP",
+        "description": "Конвертируйте код SVG в PNG, JPG или WebP с настройкой масштаба и качества. Предпросмотр и Base64. Бесплатно, без загрузок."
+      },
+      "title": "SVG в изображение",
+      "description": "Вставьте код SVG и мгновенно конвертируйте его в PNG, JPG или WebP. Регулируйте масштаб и качество, копируйте Base64-URL.",
+      "category": "Изображения",
+      "keywords": [
+        "svg в png",
+        "svg в jpg",
+        "svg в webp",
+        "конвертер svg в изображение",
+        "svg конвертер",
+        "svg в изображение онлайн",
+        "svg в base64",
+        "svg в png онлайн"
+      ],
+      "faqs": [
+        {
+          "question": "В какие форматы можно конвертировать SVG?",
+          "answer": "PNG, JPG и WebP."
+        },
+        {
+          "question": "Можно ли изменить размер вывода?",
+          "answer": "Да, ползунок масштаба (0.25×–4×) позволяет менять размер без редактирования SVG."
+        },
+        {
+          "question": "Зачем нужен вывод Base64?",
+          "answer": "Data-URL можно встраивать прямо в HTML, CSS или код — удобно для иконок и инлайн-изображений."
+        },
+        {
+          "question": "Отправляется ли SVG на сервер?",
+          "answer": "Нет. Конвертация полностью выполняется в браузере."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Конвертер форматов изображений",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "Изображение в Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "Генератор фавиконок",
+          "href": "/tools/favicon-generator"
+        }
+      ],
+      "errors": {
+        "failed": "Не удалось отрисовать этот SVG. Проверьте код."
+      },
+      "labels": {
+        "svg": "Код SVG",
+        "format": "Формат",
+        "scale": "Масштаб",
+        "quality": "Качество",
+        "copied": "Скопировано!",
+        "copyBase64": "Копировать Base64",
+        "base64": "Base64 data URL",
+        "preview": "Предпросмотр"
+      },
+      "buttons": {
+        "download": "Скачать"
+      }
+    }
+  }
+}

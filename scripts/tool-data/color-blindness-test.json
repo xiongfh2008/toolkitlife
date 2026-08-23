@@ -1,0 +1,288 @@
+{
+  "slug": "color-blindness-test",
+  "icon": "👁️",
+  "home": {
+    "en": {
+      "name": "Color Blindness Test",
+      "description": "Self-test with Ishihara-style color plates.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "色盲测试",
+      "description": "通过石原式色觉测试图进行自测。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "色覚テスト",
+      "description": "石原式カラープレートで自己チェック。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "색각 이상 테스트",
+      "description": "이시하라식 컬러 플레이트로 자가 테스트합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Тест на дальтонизм",
+      "description": "Самотест с таблицами в стиле Исихары.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Color Blindness Test - Ishihara Style Plates Online",
+        "description": "Free online color blindness self-test. Numbers are hidden in Ishihara-style color plates — try to read them. A quick screening, not a medical diagnosis. Runs in your browser."
+      },
+      "title": "Color Blindness Test",
+      "description": "Numbers are hidden inside Ishihara-style color plates. Try to read each number, then check whether your answer is correct. A quick self-screening only.",
+      "category": "Life Tools",
+      "keywords": [
+        "color blindness test",
+        "ishihara test",
+        "color vision test",
+        "daltonism test",
+        "color blind check",
+        "eye test"
+      ],
+      "faqs": [
+        {
+          "question": "Can this diagnose color blindness?",
+          "answer": "No. It is a fun self-screening based on the Ishihara style. For a real diagnosis please see an eye care professional."
+        },
+        {
+          "question": "Which color plates are used?",
+          "answer": "The tool generates two plate types: red-green and green-red patterns, which are commonly used to screen for red-green deficiencies."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Hearing Test",
+          "href": "/tools/hearing-test"
+        },
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Schulte Grid",
+          "href": "/tools/schulte-grid"
+        }
+      ],
+      "labels": {
+        "none": "I can't see a number",
+        "correct": "Correct!",
+        "wrong": "Incorrect",
+        "score": "Score",
+        "hint": "Plate colors may vary by screen — this is not a diagnosis"
+      },
+      "buttons": {
+        "next": "Next Plate"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "色盲测试 - 在线石原式色觉自测",
+        "description": "免费在线色盲自测：石原式色觉测试图中隐藏着数字，尝试读出即可。仅作快速筛查，不能替代医学诊断。全程在浏览器本地完成。"
+      },
+      "title": "色盲测试",
+      "description": "数字隐藏在石原式色觉测试图中。尝试读出每个数字并核对答案，仅作快速自测。",
+      "category": "生活工具",
+      "keywords": [
+        "色盲测试",
+        "石原测试",
+        "色觉测试",
+        "色弱测试",
+        "色盲自测",
+        "色觉检查"
+      ],
+      "faqs": [
+        {
+          "question": "这个能诊断色盲吗？",
+          "answer": "不能。它只是基于石原式的趣味自测，真实诊断请咨询眼科专业人士。"
+        },
+        {
+          "question": "使用哪些色板？",
+          "answer": "工具会生成红绿与绿红两种图板，常用于筛查红绿色觉异常。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "听力测试",
+          "href": "/tools/hearing-test"
+        },
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "舒尔特方格",
+          "href": "/tools/schulte-grid"
+        }
+      ],
+      "labels": {
+        "none": "看不到数字",
+        "correct": "正确！",
+        "wrong": "不正确",
+        "score": "得分",
+        "hint": "屏幕颜色可能存在偏差，本测试不能作为诊断依据"
+      },
+      "buttons": {
+        "next": "下一张"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "色覚テスト - 石原式カラープレート",
+        "description": "石原式カラープレートに隠れた数字を読む無料の色覚自己テスト。簡易スクリーニングであり、診断ではありません。ブラウザ内で完結。"
+      },
+      "title": "色覚テスト",
+      "description": "石原式カラープレートに数字が隠れています。数字を読み取り、正解かどうかを確認する簡易自己テストです。",
+      "category": "生活ツール",
+      "keywords": [
+        "色覚テスト",
+        "色盲テスト",
+        "石原テスト",
+        "色覚異常",
+        "カラービジョンテスト",
+        "色覚チェック"
+      ],
+      "faqs": [
+        {
+          "question": "色盲を診断できますか？",
+          "answer": "いいえ。石原式スタイルの簡易自己スクリーニングです。診断は眼科医に相談してください。"
+        },
+        {
+          "question": "どのカラープレートを使いますか？",
+          "answer": "赤緑と緑赤の2種類のパターンを生成し、赤緑色覚異常のスクリーニングによく使われます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "聴力テスト",
+          "href": "/tools/hearing-test"
+        },
+        {
+          "name": "反応速度テスト",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "シュルテ方格",
+          "href": "/tools/schulte-grid"
+        }
+      ],
+      "labels": {
+        "none": "数字が見えない",
+        "correct": "正解！",
+        "wrong": "不正解",
+        "score": "スコア",
+        "hint": "画面の色は環境により異なります。診断ではありません"
+      },
+      "buttons": {
+        "next": "次のプレート"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "색각 이상 테스트 - 이시하라식 컬러 플레이트",
+        "description": "이시하라식 컬러 플레이트에 숨겨진 숫자를 읽는 무료 색각 자가 테스트입니다. 간단한 선별일 뿐 진단이 아닙니다. 브라우저에서 완료됩니다."
+      },
+      "title": "색각 이상 테스트",
+      "description": "이시하라식 컬러 플레이트에 숫자가 숨겨져 있습니다. 숫자를 읽고 정답 여부를 확인하는 빠른 자가 테스트입니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "색각 이상 테스트",
+        "색맹 테스트",
+        "이시하라 테스트",
+        "색각 검사",
+        "색맹 자가 진단",
+        "색각 확인"
+      ],
+      "faqs": [
+        {
+          "question": "색맹을 진단할 수 있나요?",
+          "answer": "아니요. 이시하라 스타일의 재미있는 자가 선별일 뿐입니다. 진단은 안과 전문의와 상담하세요."
+        },
+        {
+          "question": "어떤 플레이트를 사용하나요?",
+          "answer": "적녹/녹적 두 가지 패턴을 생성하며, 적녹 색각 이상 선별에 흔히 쓰입니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "청력 테스트",
+          "href": "/tools/hearing-test"
+        },
+        {
+          "name": "반응 속도 테스트",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "슐테 그리드",
+          "href": "/tools/schulte-grid"
+        }
+      ],
+      "labels": {
+        "none": "숫자가 안 보여요",
+        "correct": "정답!",
+        "wrong": "오답",
+        "score": "점수",
+        "hint": "화면 색상에 따라 차이가 있을 수 있습니다. 진단이 아닙니다"
+      },
+      "buttons": {
+        "next": "다음 플레이트"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Тест на дальтонизм - таблицы в стиле Исихары",
+        "description": "Бесплатный онлайн-тест на дальтонизм. В таблицах в стиле Исихары спрятаны цифры — попробуйте прочитать их. Быстрый скрининг, не диагноз. Всё в браузере."
+      },
+      "title": "Тест на дальтонизм",
+      "description": "Внутри таблиц в стиле Исихары спрятаны цифры. Прочитайте каждую и проверьте свой ответ. Только быстрый самоконтроль.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "тест на дальтонизм",
+        "тест исихары",
+        "проверка цветового зрения",
+        "дальтонизм",
+        "проверка зрения",
+        "цветовосприятие"
+      ],
+      "faqs": [
+        {
+          "question": "Может ли этот тест поставить диагноз?",
+          "answer": "Нет. Это развлекательный самоконтроль в стиле Исихары. Для реального диагноза обратитесь к офтальмологу."
+        },
+        {
+          "question": "Какие таблицы используются?",
+          "answer": "Генерируются два типа таблиц — красно-зелёные и зелёно-красные, типичные для проверки на красно-зелёную слепоту."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Тест слуха",
+          "href": "/tools/hearing-test"
+        },
+        {
+          "name": "Тест реакции",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Таблица Шульте",
+          "href": "/tools/schulte-grid"
+        }
+      ],
+      "labels": {
+        "none": "Не вижу цифру",
+        "correct": "Верно!",
+        "wrong": "Неверно",
+        "score": "Счёт",
+        "hint": "Цвета зависят от экрана — это не диагноз"
+      },
+      "buttons": {
+        "next": "Следующая таблица"
+      }
+    }
+  }
+}

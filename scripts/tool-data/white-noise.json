@@ -1,0 +1,328 @@
+{
+  "slug": "white-noise",
+  "icon": "🌫️",
+  "home": {
+    "en": {
+      "name": "White Noise Generator",
+      "description": "Generate white, pink or brown noise for sleep and focus. Download as WAV.",
+      "category": "Audio Tools"
+    },
+    "zh": {
+      "name": "白噪音生成器",
+      "description": "生成白噪音、粉红噪音或棕噪音助眠专注，可下载 WAV 文件。",
+      "category": "音频工具"
+    },
+    "ja": {
+      "name": "ホワイトノイズ生成",
+      "description": "睡眠や集中に役立つホワイト・ピンク・ブラウンノイズを生成し、WAV で書き出します。",
+      "category": "音声ツール"
+    },
+    "ko": {
+      "name": "화이트 노이즈 생성기",
+      "description": "수면과 집중을 위한 화이트·핑크·브라운 노이즈를 생성하고 WAV로 다운로드하세요.",
+      "category": "오디오 도구"
+    },
+    "ru": {
+      "name": "Генератор белого шума",
+      "description": "Генерируйте белый, розовый или коричневый шум для сна и концентрации. Скачивание в WAV.",
+      "category": "Аудиоинструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "White Noise Generator - Sleep & Focus Sounds Free",
+        "description": "Free online white noise generator. Create white, pink or brown noise for sleeping, studying or masking background sounds. Choose duration and volume, download as WAV."
+      },
+      "title": "White Noise Generator",
+      "description": "Generate white, pink or brown noise right in your browser. Pick the noise color, duration and volume, preview it, and download the result as a WAV file.",
+      "category": "Audio Tools",
+      "keywords": [
+        "white noise generator",
+        "pink noise",
+        "brown noise",
+        "sleep noise",
+        "white noise for sleep",
+        "noise generator online"
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between white, pink and brown noise?",
+          "answer": "White noise sounds like static — equal energy at all frequencies. Pink noise is deeper and softer, while brown noise is even deeper with a low rumble, similar to rain or a distant waterfall."
+        },
+        {
+          "question": "What can I use the generated noise for?",
+          "answer": "Many people use it for sleep, studying, focus or masking distracting background sounds. You can preview the sound and download it as a WAV file to use offline."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Frequency Tone Generator",
+          "href": "/tools/hz"
+        },
+        {
+          "name": "Text to Speech",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "type": "Noise color",
+        "duration": "Duration",
+        "amplitude": "Volume",
+        "placeholder": "Generate a noise to preview it here"
+      },
+      "types": {
+        "white": "White noise",
+        "pink": "Pink noise",
+        "brown": "Brown noise"
+      },
+      "buttons": {
+        "generate": "Generate Noise",
+        "download": "Download WAV"
+      },
+      "errors": {
+        "failed": "Generation failed. Please try again."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "白噪音生成器 - 免费助眠专注声音",
+        "description": "免费在线白噪音生成器。生成白噪音、粉红噪音或棕噪音，用于助眠、学习或掩盖环境噪音。可选择时长与音量，下载为 WAV 文件。"
+      },
+      "title": "白噪音生成器",
+      "description": "在浏览器中直接生成白噪音、粉红噪音或棕噪音。选择噪音类型、时长和音量，试听后即可下载为 WAV 文件。",
+      "category": "音频工具",
+      "keywords": [
+        "白噪音生成器",
+        "粉红噪音",
+        "棕噪音",
+        "助眠噪音",
+        "白噪音助眠",
+        "在线噪音生成"
+      ],
+      "faqs": [
+        {
+          "question": "白噪音、粉红噪音和棕噪音有什么区别？",
+          "answer": "白噪音类似静电声，各频率能量均匀。粉红噪音更深沉柔和，棕噪音则更低频，类似远处的雷声或瀑布声。"
+        },
+        {
+          "question": "生成的噪音可以用来做什么？",
+          "answer": "常用于助眠、学习、集中注意力或掩盖环境噪音。你可以试听效果，并下载为 WAV 文件离线使用。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "频率音频生成",
+          "href": "/tools/hz"
+        },
+        {
+          "name": "文字转语音",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "type": "噪音类型",
+        "duration": "时长",
+        "amplitude": "音量",
+        "placeholder": "生成噪音后可在此试听"
+      },
+      "types": {
+        "white": "白噪音",
+        "pink": "粉红噪音",
+        "brown": "棕噪音"
+      },
+      "buttons": {
+        "generate": "生成噪音",
+        "download": "下载 WAV"
+      },
+      "errors": {
+        "failed": "生成失败，请重试。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "ホワイトノイズ生成器 - 睡眠・集中用サウンド無料",
+        "description": "睡眠や勉強、周囲の音のマスキングに使えるホワイト・ピンク・ブラウンノイズを生成できる無料ツール。長さと音量を選び、WAV で書き出し。"
+      },
+      "title": "ホワイトノイズ生成器",
+      "description": "ブラウザ上でホワイト・ピンク・ブラウンノイズを生成。ノイズの種類・長さ・音量を選び、試聴してから WAV ファイルとして書き出せます。",
+      "category": "音声ツール",
+      "keywords": [
+        "ホワイトノイズ生成",
+        "ピンクノイズ",
+        "ブラウンノイズ",
+        "睡眠ノイズ",
+        "ホワイトノイズ睡眠",
+        "ノイズ生成オンライン"
+      ],
+      "faqs": [
+        {
+          "question": "ホワイト・ピンク・ブラウンノイズの違いは？",
+          "answer": "ホワイトノイズは全周波数が均等な「サー」という音。ピンクノイズはより深く柔らかく、ブラウンノイズはさらに低く、遠くの雷や滝のような音です。"
+        },
+        {
+          "question": "生成したノイズは何に使えますか？",
+          "answer": "睡眠、勉強、集中、周囲の音のマスキングなどによく使われます。試聴してから WAV で書き出し、オフラインでも利用できます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "周波数トーン生成",
+          "href": "/tools/hz"
+        },
+        {
+          "name": "テキスト読み上げ",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "音声変換",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "type": "ノイズの種類",
+        "duration": "長さ",
+        "amplitude": "音量",
+        "placeholder": "ノイズを生成するとここで試聴できます"
+      },
+      "types": {
+        "white": "ホワイトノイズ",
+        "pink": "ピンクノイズ",
+        "brown": "ブラウンノイズ"
+      },
+      "buttons": {
+        "generate": "ノイズを生成",
+        "download": "WAV をダウンロード"
+      },
+      "errors": {
+        "failed": "生成に失敗しました。もう一度お試しください。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "화이트 노이즈 생성기 - 수면·집중 사운드 무료",
+        "description": "수면, 공부, 주변 소리 차단에 유용한 화이트·핑크·브라운 노이즈를 생성하는 무료 온라인 도구입니다. 길이와 볼륨을 선택하고 WAV로 저장하세요."
+      },
+      "title": "화이트 노이즈 생성기",
+      "description": "브라우저에서 바로 화이트·핑크·브라운 노이즈를 생성하세요. 종류, 길이, 볼륨을 고르고 미리 들어본 뒤 WAV 파일로 다운로드할 수 있습니다.",
+      "category": "오디오 도구",
+      "keywords": [
+        "화이트 노이즈 생성",
+        "핑크 노이즈",
+        "브라운 노이즈",
+        "수면 노이즈",
+        "화이트 노이즈 수면",
+        "노이즈 생성 온라인"
+      ],
+      "faqs": [
+        {
+          "question": "화이트·핑크·브라운 노이즈의 차이는?",
+          "answer": "화이트 노이즈는 모든 주파수가 고른 '쉬' 소리입니다. 핑크 노이즈는 더 깊고 부드러우며, 브라운 노이즈는 더 낮고 먼 천둥이나 폭포 소리와 비슷합니다."
+        },
+        {
+          "question": "생성한 노이즈는 어디에 쓸 수 있나요?",
+          "answer": "수면, 공부, 집중, 주변 소리 차단에 많이 사용됩니다. 미리 들어본 뒤 WAV 파일로 저장해 오프라인에서도 활용할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "주파수 톤 생성",
+          "href": "/tools/hz"
+        },
+        {
+          "name": "텍스트 음성 변환",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "오디오 변환기",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "type": "노이즈 종류",
+        "duration": "길이",
+        "amplitude": "볼륨",
+        "placeholder": "노이즈를 생성하면 여기서 들어볼 수 있습니다"
+      },
+      "types": {
+        "white": "화이트 노이즈",
+        "pink": "핑크 노이즈",
+        "brown": "브라운 노이즈"
+      },
+      "buttons": {
+        "generate": "노이즈 생성",
+        "download": "WAV 다운로드"
+      },
+      "errors": {
+        "failed": "생성에 실패했습니다. 다시 시도해 주세요."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Генератор белого шума - звуки для сна и концентрации",
+        "description": "Бесплатный онлайн-генератор белого шума. Создавайте белый, розовый или коричневый шум для сна, учёбы или маскировки фоновых звуков. Скачивание в WAV."
+      },
+      "title": "Генератор белого шума",
+      "description": "Генерируйте белый, розовый или коричневый шум прямо в браузере. Выберите цвет шума, длительность и громкость, прослушайте и скачайте результат в WAV.",
+      "category": "Аудиоинструменты",
+      "keywords": [
+        "генератор белого шума",
+        "розовый шум",
+        "коричневый шум",
+        "шум для сна",
+        "белый шум для сна",
+        "генератор шума онлайн"
+      ],
+      "faqs": [
+        {
+          "question": "Чем отличаются белый, розовый и коричневый шум?",
+          "answer": "Белый шум звучит как шипение — равная энергия на всех частотах. Розовый глубже и мягче, а коричневый ещё ниже, похож на дальний гром или водопад."
+        },
+        {
+          "question": "Для чего можно использовать сгенерированный шум?",
+          "answer": "Часто его используют для сна, учёбы, концентрации или маскировки посторонних звуков. Можно прослушать и скачать как WAV для офлайн-использования."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор тонов",
+          "href": "/tools/hz"
+        },
+        {
+          "name": "Текст в речь",
+          "href": "/tools/text-to-speech"
+        },
+        {
+          "name": "Конвертер аудио",
+          "href": "/tools/audio-converter"
+        }
+      ],
+      "labels": {
+        "type": "Цвет шума",
+        "duration": "Длительность",
+        "amplitude": "Громкость",
+        "placeholder": "Сгенерируйте шум, чтобы прослушать его здесь"
+      },
+      "types": {
+        "white": "Белый шум",
+        "pink": "Розовый шум",
+        "brown": "Коричневый шум"
+      },
+      "buttons": {
+        "generate": "Сгенерировать",
+        "download": "Скачать WAV"
+      },
+      "errors": {
+        "failed": "Не удалось сгенерировать. Попробуйте ещё раз."
+      }
+    }
+  }
+}

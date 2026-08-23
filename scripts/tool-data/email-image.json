@@ -1,0 +1,308 @@
+{
+  "slug": "email-image",
+  "icon": "✉️",
+  "home": {
+    "en": {
+      "name": "Email Image Generator",
+      "description": "Turn an email address into an image to protect it from spam crawlers.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "邮箱图片生成器",
+      "description": "将邮箱地址转为图片，防止被垃圾邮件爬虫抓取。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "メール画像生成",
+      "description": "メールアドレスを画像化してスパムクローラーから保護します。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이메일 이미지 생성기",
+      "description": "이메일 주소를 이미지로 변환해 스팸 크롤러로부터 보호합니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Генератор изображения email",
+      "description": "Превратите email в изображение, чтобы защитить его от спам-ботов.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Email Image Generator – Protect Your Email from Spam",
+        "description": "Turn an email address into a PNG image to hide it from spam bots and crawlers. Customize font size and color. Free, no uploads."
+      },
+      "title": "Email Image Generator",
+      "description": "Turn an email address into an image so spam crawlers can't read it. Customize the font size and color, then download the PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "email image",
+        "email to image",
+        "hide email from spam",
+        "email protector",
+        "anti spam email",
+        "email as image",
+        "email captcha image",
+        "mask email address"
+      ],
+      "faqs": [
+        {
+          "question": "Why turn an email into an image?",
+          "answer": "Spam bots scan web pages for plain-text emails. Rendering it as an image keeps it readable to humans but invisible to most crawlers."
+        },
+        {
+          "question": "Can I change the look?",
+          "answer": "Yes, adjust the font size and text color before downloading."
+        },
+        {
+          "question": "Is my email uploaded?",
+          "answer": "No. The image is rendered entirely in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image to Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "Text Logo Maker",
+          "href": "/tools/text-logo"
+        }
+      ],
+      "labels": {
+        "email": "Email address",
+        "fontSize": "Font size",
+        "color": "Text color"
+      },
+      "buttons": {
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "邮箱图片生成器 – 防止邮箱被爬虫抓取",
+        "description": "将邮箱地址转换为 PNG 图片，防止被垃圾邮件机器人抓取。可自定义字号与颜色。免费、无需上传。"
+      },
+      "title": "邮箱图片生成器",
+      "description": "将邮箱地址转为图片，让垃圾邮件爬虫无法读取。可自定义字号与颜色，然后下载 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "邮箱图片",
+        "邮箱转图片",
+        "防垃圾邮件",
+        "邮箱保护",
+        "反垃圾邮件",
+        "邮箱图片化",
+        "邮箱验证码图片",
+        "隐藏邮箱地址"
+      ],
+      "faqs": [
+        {
+          "question": "为什么要把邮箱转成图片？",
+          "answer": "垃圾邮件机器人会扫描网页中的纯文本邮箱。将其渲染为图片后，人类可正常阅读，但多数爬虫无法识别。"
+        },
+        {
+          "question": "可以调整外观吗？",
+          "answer": "可以，下载前可调整字号与文字颜色。"
+        },
+        {
+          "question": "我的邮箱会被上传吗？",
+          "answer": "不会，图片完全在浏览器本地渲染。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片转 Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "二维码生成器",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "文字 Logo 生成器",
+          "href": "/tools/text-logo"
+        }
+      ],
+      "labels": {
+        "email": "邮箱地址",
+        "fontSize": "字号",
+        "color": "文字颜色"
+      },
+      "buttons": {
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "メール画像生成 – スパムからメールを保護",
+        "description": "メールアドレスを PNG 画像化してスパムボットやクローラーから保護。フォントサイズと色をカスタマイズ。無料・アップロード不要。"
+      },
+      "title": "メール画像生成",
+      "description": "メールアドレスを画像化してスパムクローラーに読み取られないようにします。フォントサイズと色を調整して PNG をダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "メール画像",
+        "メールを画像に",
+        "スパムからメールを守る",
+        "メール保護",
+        "スパム防止",
+        "メールの画像化",
+        "メールを隠す",
+        "メールアドレスを隠す"
+      ],
+      "faqs": [
+        {
+          "question": "メールを画像にする理由は？",
+          "answer": "スパムボットは Web ページのプレーンテキストのメールをスキャンします。画像化すると人は読めますが、多くのクローラーには見えません。"
+        },
+        {
+          "question": "見た目を変えられますか？",
+          "answer": "はい。ダウンロード前にフォントサイズと文字色を調整できます。"
+        },
+        {
+          "question": "メールはアップロードされますか？",
+          "answer": "いいえ。画像はすべてブラウザ内で描画されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像を Base64 に変換",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "QRコード生成",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "テキストロゴ作成",
+          "href": "/tools/text-logo"
+        }
+      ],
+      "labels": {
+        "email": "メールアドレス",
+        "fontSize": "フォントサイズ",
+        "color": "文字色"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이메일 이미지 생성기 – 스팸으로부터 이메일 보호",
+        "description": "이메일 주소를 PNG 이미지로 변환해 스팸 봇과 크롤러로부터 숨깁니다. 글꼴 크기와 색상을 설정할 수 있습니다. 무료, 업로드 불필요."
+      },
+      "title": "이메일 이미지 생성기",
+      "description": "이메일 주소를 이미지로 변환해 스팸 크롤러가 읽지 못하게 합니다. 글꼴 크기와 색상을 설정한 뒤 PNG를 다운로드하세요.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이메일 이미지",
+        "이메일을 이미지로",
+        "스팸으로부터 이메일 보호",
+        "이메일 보호",
+        "안티 스팸 이메일",
+        "이메일 이미지화",
+        "이메일 숨기기",
+        "이메일 주소 마스킹"
+      ],
+      "faqs": [
+        {
+          "question": "이메일을 이미지로 만드는 이유는?",
+          "answer": "스팸 봇은 웹페이지의 일반 텍스트 이메일을 스캔합니다. 이미지로 만들면 사람은 읽을 수 있지만 대부분의 크롤러에는 보이지 않습니다."
+        },
+        {
+          "question": "모양을 바꿀 수 있나요?",
+          "answer": "네, 다운로드 전에 글꼴 크기와 텍스트 색상을 조정할 수 있습니다."
+        },
+        {
+          "question": "이메일이 업로드되나요?",
+          "answer": "아니요. 이미지가 브라우저에서 완전히 렌더링됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지를 Base64로",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "QR 코드 생성기",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "텍스트 로고 메이커",
+          "href": "/tools/text-logo"
+        }
+      ],
+      "labels": {
+        "email": "이메일 주소",
+        "fontSize": "글꼴 크기",
+        "color": "텍스트 색상"
+      },
+      "buttons": {
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Генератор изображения email – защита от спама",
+        "description": "Превратите email в PNG, чтобы скрыть его от спам-ботов. Настройте размер шрифта и цвет. Бесплатно, без загрузок."
+      },
+      "title": "Генератор изображения email",
+      "description": "Превратите email в изображение, чтобы спам-боты не могли его прочитать. Настройте размер шрифта и цвет, затем скачайте PNG.",
+      "category": "Изображения",
+      "keywords": [
+        "изображение email",
+        "email в изображение",
+        "скрыть email от спама",
+        "защита email",
+        "антиспам email",
+        "email в виде картинки",
+        "скрыть email адрес",
+        "маскировка email"
+      ],
+      "faqs": [
+        {
+          "question": "Зачем превращать email в изображение?",
+          "answer": "Спам-боты сканируют страницы в поисках текстовых email. Изображение читается человеком, но не распознаётся большинством ботов."
+        },
+        {
+          "question": "Можно ли изменить внешний вид?",
+          "answer": "Да, перед скачиванием можно изменить размер шрифта и цвет текста."
+        },
+        {
+          "question": "Загружается ли мой email куда-либо?",
+          "answer": "Нет. Изображение создаётся полностью в вашем браузере."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Изображение в Base64",
+          "href": "/tools/image-to-base64"
+        },
+        {
+          "name": "Генератор QR-кодов",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "Генератор текстового логотипа",
+          "href": "/tools/text-logo"
+        }
+      ],
+      "labels": {
+        "email": "Адрес email",
+        "fontSize": "Размер шрифта",
+        "color": "Цвет текста"
+      },
+      "buttons": {
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

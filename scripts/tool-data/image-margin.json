@@ -1,0 +1,313 @@
+{
+  "slug": "image-margin",
+  "icon": "🖼️",
+  "home": {
+    "en": {
+      "name": "Image Margin",
+      "description": "Add transparent or colored margin around an image. Perfect for framing and padding.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片加边距",
+      "description": "为图片四周添加透明或彩色边距，适合做相框与留白效果。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像マージン追加",
+      "description": "画像の周囲に透明またはカラーの余白を追加。フレームや余白調整に最適。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 여백 추가",
+      "description": "이미지 주변에 투명 또는 컬러 여백을 추가합니다. 프레임과 패딩에 유용.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Поля вокруг изображения",
+      "description": "Добавьте прозрачные или цветные поля вокруг изображения — для рамки и отступов.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Image Margin - Add Padding Around Photos Online",
+        "description": "Add transparent or colored margin around an image. Perfect for framing and padding. Free, runs in your browser."
+      },
+      "title": "Image Margin",
+      "description": "Add transparent or colored margin around an image for framing, padding and social-ready layouts.",
+      "category": "Image Tools",
+      "keywords": [
+        "image margin",
+        "add margin to image",
+        "image padding",
+        "add white border around image",
+        "image frame padding",
+        "add space around image"
+      ],
+      "faqs": [
+        {
+          "question": "What does the margin do?",
+          "answer": "It adds a border of empty space around the image, either fully transparent or filled with the color you choose."
+        },
+        {
+          "question": "Can I use a custom color for the margin?",
+          "answer": "Yes — toggle off 'transparent' and pick any color with the color input or one of the quick presets."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Add Border",
+          "href": "/tools/image-border"
+        },
+        {
+          "name": "Rounded Corners",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "size": "Margin size",
+        "color": "Margin color",
+        "transparent": "Transparent",
+        "original": "Original",
+        "result": "Result"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片加边距 - 在线为图片添加留白",
+        "description": "为图片四周添加透明或彩色边距，适合做相框与留白效果。免费，浏览器内运行。"
+      },
+      "title": "图片加边距",
+      "description": "为图片四周添加透明或彩色边距，适合相框、留白与社交媒体排版。",
+      "category": "图片工具",
+      "keywords": [
+        "图片加边距",
+        "图片加留白",
+        "图片内边距",
+        "图片加白边",
+        "图片相框留白",
+        "图片周围加空白"
+      ],
+      "faqs": [
+        {
+          "question": "边距是做什么的？",
+          "answer": "它会在图片四周添加一圈空白区域，可以是完全透明，也可以用你选择的颜色填充。"
+        },
+        {
+          "question": "边距能用自定义颜色吗？",
+          "answer": "可以——关闭“透明”开关后，即可用取色器或预设色板选择任意颜色。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "添加边框",
+          "href": "/tools/image-border"
+        },
+        {
+          "name": "圆角",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "size": "边距大小",
+        "color": "边距颜色",
+        "transparent": "透明",
+        "original": "原图",
+        "result": "结果"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像マージン追加 - オンラインで余白を追加",
+        "description": "画像の周囲に透明またはカラーの余白を追加。フレームや余白調整に最適。無料・ブラウザ内で完結。"
+      },
+      "title": "画像マージン追加",
+      "description": "画像の周囲に透明またはカラーの余白を追加。フレーム・余白・SNS 向けレイアウトに最適。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像マージン追加",
+        "画像に余白を追加",
+        "画像パディング",
+        "画像に白枠を追加",
+        "画像フレーム余白",
+        "画像の周囲に空白"
+      ],
+      "faqs": [
+        {
+          "question": "マージンとは何ですか？",
+          "answer": "画像の周囲に空白の枠を追加します。完全に透明にするか、選択した色で塗りつぶせます。"
+        },
+        {
+          "question": "マージンの色はカスタマイズできますか？",
+          "answer": "はい——「透明」をオフにすると、カラーピッカーやプリセットで好きな色を選べます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像背景追加",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "枠線追加",
+          "href": "/tools/image-border"
+        },
+        {
+          "name": "角丸",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップ",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード",
+        "newImage": "新しい画像"
+      },
+      "labels": {
+        "size": "余白サイズ",
+        "color": "余白の色",
+        "transparent": "透明",
+        "original": "元画像",
+        "result": "結果"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 여백 추가 - 온라인 여백 넣기",
+        "description": "이미지 주변에 투명 또는 컬러 여백을 추가합니다. 프레임과 패딩에 유용. 무료, 브라우저에서 실행."
+      },
+      "title": "이미지 여백 추가",
+      "description": "이미지 주변에 투명 또는 컬러 여백을 추가합니다. 프레임·패딩·SNS 레이아웃에 유용.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 여백 추가",
+        "이미지 여백 넣기",
+        "이미지 패딩",
+        "이미지 흰 테두리",
+        "이미지 프레임 여백",
+        "이미지 주변 공백"
+      ],
+      "faqs": [
+        {
+          "question": "여백은 무엇을 하나요?",
+          "answer": "이미지 주변에 빈 공간 테두리를 추가합니다. 완전히 투명하게 하거나 선택한 색상으로 채울 수 있습니다."
+        },
+        {
+          "question": "여백 색상을 직접 정할 수 있나요?",
+          "answer": "네 — '투명'을 끄면 색상 선택기나 빠른 프리셋으로 원하는 색을 고를 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 배경 추가",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "테두리 추가",
+          "href": "/tools/image-border"
+        },
+        {
+          "name": "둥근 모서리",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 여기에 놓으세요",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG 다운로드",
+        "newImage": "새 이미지"
+      },
+      "labels": {
+        "size": "여백 크기",
+        "color": "여백 색상",
+        "transparent": "투명",
+        "original": "원본",
+        "result": "결과"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Поля вокруг изображения - онлайн-инструмент",
+        "description": "Добавьте прозрачные или цветные поля вокруг изображения — для рамки и отступов. Бесплатно, работает в браузере."
+      },
+      "title": "Поля вокруг изображения",
+      "description": "Добавьте прозрачные или цветные поля вокруг изображения для рамок, отступов и соцсетей.",
+      "category": "Изображения",
+      "keywords": [
+        "поля вокруг изображения",
+        "добавить отступы к изображению",
+        "рамка вокруг изображения",
+        "добавить белые поля",
+        "отступы для фоторамки",
+        "добавить пространство вокруг изображения"
+      ],
+      "faqs": [
+        {
+          "question": "Что делает это поле?",
+          "answer": "Оно добавляет вокруг изображения рамку из пустого пространства — полностью прозрачную или залитую выбранным цветом."
+        },
+        {
+          "question": "Можно ли задать свой цвет поля?",
+          "answer": "Да — выключите «прозрачный» и выберите любой цвет пипеткой или быстрыми пресетами."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Фон для изображения",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Добавление рамки",
+          "href": "/tools/image-border"
+        },
+        {
+          "name": "Скруглённые углы",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображение сюда",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Скачать PNG",
+        "newImage": "Новое изображение"
+      },
+      "labels": {
+        "size": "Размер поля",
+        "color": "Цвет поля",
+        "transparent": "Прозрачный",
+        "original": "Оригинал",
+        "result": "Результат"
+      }
+    }
+  }
+}

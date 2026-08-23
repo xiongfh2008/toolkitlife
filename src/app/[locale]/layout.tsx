@@ -105,6 +105,28 @@ export default async function LocaleLayout({
       <Script id="theme-init" strategy="beforeInteractive">
         {`(function(){try{var s=localStorage.getItem("toolkitlife-theme");var d=s?s==="dark":window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(d)document.documentElement.classList.add("dark");}catch(e){}})();`}
       </Script>
+
+      {/* Yandex.Metrika counter */}
+      <Script id="ym-counter" strategy="beforeInteractive">
+        {`
+          (function(m,e,t,r,i,k,a){
+              m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+              m[i].l=1*new Date();
+              for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+              k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+          })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=111875924', 'ym');
+
+          ym(111875924, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+        `}
+      </Script>
+      <noscript>
+        <img
+          src="https://mc.yandex.ru/watch/111875924"
+          style={{ position: "absolute", left: -9999 }}
+          alt=""
+        />
+      </noscript>
+      {/* /Yandex.Metrika counter */}
       <HtmlLang locale={locale} />
       <Nav />
       <main className="flex-1">{children}</main>

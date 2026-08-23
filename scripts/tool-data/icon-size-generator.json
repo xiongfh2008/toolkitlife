@@ -1,0 +1,343 @@
+{
+  "slug": "icon-size-generator",
+  "icon": "📱",
+  "home": {
+    "en": {
+      "name": "Multi-size Icon Generator",
+      "description": "Generate icons in 16 to 512 px sizes from one image for apps, favicons and Chrome extensions.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "多尺寸图标生成器",
+      "description": "从一张图片生成 16 至 512 像素的图标，适用于应用、favicon 与 Chrome 扩展。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "マルチサイズアイコン生成",
+      "description": "1枚の画像から16〜512pxのアイコンを生成。アプリ・favicon・拡張機能に最適。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "다중 크기 아이콘 생성기",
+      "description": "하나의 이미지에서 16~512px 아이콘을 생성합니다. 앱·파비콘·확장 프로그램용.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Генератор иконок разных размеров",
+      "description": "Создайте иконки 16–512 px из одного изображения для приложений, favicon и расширений.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Multi-size Icon Generator – 16 to 512 px",
+        "description": "Generate app icons, favicons and extension icons in multiple sizes from one image. Select 16–512 px sizes and download each as PNG. Free."
+      },
+      "title": "Multi-size Icon Generator",
+      "description": "Generate icons in 16 to 512 px sizes from a single image. Tick the sizes you need and download each one as a PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "icon generator",
+        "icon size generator",
+        "multi size icon",
+        "app icon generator",
+        "favicon generator",
+        "chrome extension icon",
+        "ios icon sizes",
+        "android icon generator"
+      ],
+      "faqs": [
+        {
+          "question": "What sizes can I generate?",
+          "answer": "16, 32, 48, 64, 128, 256 and 512 pixels — tick any combination."
+        },
+        {
+          "question": "How are icons scaled?",
+          "answer": "The image is cover-fit into a square canvas of the target size, so the icon never gets distorted."
+        },
+        {
+          "question": "What are these sizes for?",
+          "answer": "16–64 px for favicons and browser UI, 128 px for Chrome extensions, 512 px for app store icons."
+        },
+        {
+          "question": "Is my image uploaded?",
+          "answer": "No. Everything runs in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon Generator",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image DPI Changer",
+          "href": "/tools/image-dpi"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here or click to upload",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download"
+      },
+      "labels": {
+        "sizes": "Icon sizes"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "多尺寸图标生成器 – 16 至 512 像素",
+        "description": "从一张图片生成多种尺寸的应用图标、favicon 与扩展图标。可选 16–512 像素并逐个下载 PNG。免费。"
+      },
+      "title": "多尺寸图标生成器",
+      "description": "从一张图片生成 16 至 512 像素的图标。勾选所需尺寸即可逐个下载 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "图标生成器",
+        "图标尺寸生成",
+        "多尺寸图标",
+        "应用图标生成",
+        "favicon生成",
+        "chrome扩展图标",
+        "ios图标尺寸",
+        "android图标生成"
+      ],
+      "faqs": [
+        {
+          "question": "可以生成哪些尺寸？",
+          "answer": "16、32、48、64、128、256 与 512 像素，可任意组合勾选。"
+        },
+        {
+          "question": "图标如何缩放？",
+          "answer": "图片会按目标尺寸等比覆盖到正方形画布中，因此图标不会变形。"
+        },
+        {
+          "question": "这些尺寸有什么用途？",
+          "answer": "16–64 像素用于 favicon 与浏览器界面，128 像素用于 Chrome 扩展，512 像素用于应用商店图标。"
+        },
+        {
+          "question": "图片会被上传吗？",
+          "answer": "不会，所有处理都在浏览器本地完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon 生成器",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "图片尺寸调整",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片 DPI 修改",
+          "href": "/tools/image-dpi"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处或点击上传",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "newImage": "新图片",
+        "download": "下载"
+      },
+      "labels": {
+        "sizes": "图标尺寸"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "マルチサイズアイコン生成 – 16〜512px",
+        "description": "1枚の画像からアプリアイコン・ファビコン・拡張機能アイコンを複数サイズで生成。16〜512px を選択して各 PNG をダウンロード。無料。"
+      },
+      "title": "マルチサイズアイコン生成",
+      "description": "1枚の画像から 16〜512px のアイコンを生成。必要なサイズにチェックを入れて各 PNG をダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "アイコン生成",
+        "アイコンサイズ生成",
+        "マルチサイズアイコン",
+        "アプリアイコン生成",
+        "ファビコン生成",
+        "chrome拡張機能アイコン",
+        "iosアイコンサイズ",
+        "androidアイコン生成"
+      ],
+      "faqs": [
+        {
+          "question": "どのサイズを生成できますか？",
+          "answer": "16・32・48・64・128・256・512px から任意の組み合わせで選択できます。"
+        },
+        {
+          "question": "アイコンはどう拡大縮小されますか？",
+          "answer": "画像は対象サイズの正方形にカバーフィットされ、歪みません。"
+        },
+        {
+          "question": "各サイズの用途は？",
+          "answer": "16〜64px はファビコンやブラウザ UI、128px は Chrome 拡張機能、512px はアプリストア用です。"
+        },
+        {
+          "question": "画像はアップロードされますか？",
+          "answer": "いいえ。すべてブラウザ内で処理されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "ファビコン生成",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "画像リサイズ",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "画像 DPI 変更",
+          "href": "/tools/image-dpi"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップまたはクリックしてアップロード",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "newImage": "新しい画像",
+        "download": "ダウンロード"
+      },
+      "labels": {
+        "sizes": "アイコンサイズ"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "다중 크기 아이콘 생성기 – 16~512px",
+        "description": "하나의 이미지에서 앱 아이콘·파비콘·확장 프로그램 아이콘을 여러 크기로 생성합니다. 16~512px를 선택하고 각각 PNG로 다운로드. 무료."
+      },
+      "title": "다중 크기 아이콘 생성기",
+      "description": "하나의 이미지에서 16~512px 아이콘을 생성합니다. 필요한 크기를 선택하고 각각 PNG로 다운로드하세요.",
+      "category": "이미지 도구",
+      "keywords": [
+        "아이콘 생성기",
+        "아이콘 크기 생성",
+        "다중 크기 아이콘",
+        "앱 아이콘 생성",
+        "파비콘 생성",
+        "크롬 확장 아이콘",
+        "ios 아이콘 크기",
+        "android 아이콘 생성"
+      ],
+      "faqs": [
+        {
+          "question": "어떤 크기를 생성할 수 있나요?",
+          "answer": "16·32·48·64·128·256·512px 중 원하는 조합을 선택할 수 있습니다."
+        },
+        {
+          "question": "아이콘은 어떻게 크기가 조정되나요?",
+          "answer": "이미지가 대상 크기의 정사각형에 맞게 커버핏되어 왜곡되지 않습니다."
+        },
+        {
+          "question": "이 크기들은 어디에 쓰나요?",
+          "answer": "16~64px는 파비콘·브라우저 UI, 128px는 크롬 확장, 512px는 앱스토어 아이콘용입니다."
+        },
+        {
+          "question": "이미지가 업로드되나요?",
+          "answer": "아니요. 모든 처리가 브라우저에서 이루어집니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "파비콘 생성기",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "이미지 크기 조정",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "이미지 DPI 변경",
+          "href": "/tools/image-dpi"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 끌어다 놓거나 클릭하여 업로드",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "newImage": "새 이미지",
+        "download": "다운로드"
+      },
+      "labels": {
+        "sizes": "아이콘 크기"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Генератор иконок разных размеров – 16–512 px",
+        "description": "Создайте иконки приложений, favicon и расширений в нескольких размерах из одного изображения. 16–512 px, скачивание PNG. Бесплатно."
+      },
+      "title": "Генератор иконок разных размеров",
+      "description": "Создайте иконки размером от 16 до 512 px из одного изображения. Отметьте нужные размеры и скачайте каждую как PNG.",
+      "category": "Изображения",
+      "keywords": [
+        "генератор иконок",
+        "размеры иконок",
+        "иконки разных размеров",
+        "генератор иконок приложения",
+        "генератор favicon",
+        "иконка расширения chrome",
+        "размеры иконок ios",
+        "генератор иконок android"
+      ],
+      "faqs": [
+        {
+          "question": "Какие размеры можно создать?",
+          "answer": "16, 32, 48, 64, 128, 256 и 512 px — отметьте любую комбинацию."
+        },
+        {
+          "question": "Как масштабируются иконки?",
+          "answer": "Изображение вписывается в квадратный холст нужного размера без искажений."
+        },
+        {
+          "question": "Для чего эти размеры?",
+          "answer": "16–64 px — favicon и интерфейс, 128 px — расширения Chrome, 512 px — иконки в магазинах приложений."
+        },
+        {
+          "question": "Загружается ли изображение куда-либо?",
+          "answer": "Нет. Всё выполняется в браузере."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор фавиконок",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Изменение размера",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Изменение DPI",
+          "href": "/tools/image-dpi"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображение сюда или нажмите, чтобы загрузить",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "newImage": "Новое изображение",
+        "download": "Скачать"
+      },
+      "labels": {
+        "sizes": "Размеры иконок"
+      }
+    }
+  }
+}

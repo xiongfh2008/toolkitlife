@@ -1,0 +1,278 @@
+{
+  "slug": "hearing-test",
+  "icon": "👂",
+  "home": {
+    "en": {
+      "name": "Hearing Test",
+      "description": "Find the highest frequency your ears can hear.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "听力测试",
+      "description": "测试你的耳朵能听到的最高频率。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "聴力テスト",
+      "description": "聞こえる最高周波数を調べます。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "청력 테스트",
+      "description": "귀로 들을 수 있는 최고 주파수를 확인합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Тест слуха",
+      "description": "Узнайте самую высокую частоту, которую слышат ваши уши.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Hearing Test - Find Your Highest Audible Frequency",
+        "description": "Free online hearing test. Play pure tones from 125 Hz to 16 kHz and find the highest frequency you can hear. Use headphones for best results. Runs in your browser."
+      },
+      "title": "Hearing Test",
+      "description": "Play pure tones across 9 frequencies from 125 Hz to 16 kHz. Mark which ones you hear to find the highest audible frequency for your ears.",
+      "category": "Life Tools",
+      "keywords": [
+        "hearing test",
+        "frequency test",
+        "hearing range",
+        "pure tone test",
+        "audible frequency",
+        "ear test"
+      ],
+      "faqs": [
+        {
+          "question": "How should I take this test?",
+          "answer": "Use headphones in a quiet room, and keep the volume comfortable — never too loud. Play each frequency and honestly mark what you hear."
+        },
+        {
+          "question": "Is this a medical hearing test?",
+          "answer": "No. It is a quick self-check of your audible frequency range. Please see an audiologist for a professional evaluation."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Color Blindness Test",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Frequency Tone Generator",
+          "href": "/tools/hz"
+        }
+      ],
+      "labels": {
+        "range": "Highest audible frequency",
+        "hint": "Use headphones in a quiet room"
+      },
+      "buttons": {
+        "heard": "I heard it",
+        "notHeard": "Can't hear it"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "听力测试 - 测出你的最高可听频率",
+        "description": "免费在线听力测试：播放 125Hz 到 16kHz 的纯音，找出你能听到的最高频率。建议佩戴耳机测试。全程在浏览器本地完成。"
+      },
+      "title": "听力测试",
+      "description": "播放 125Hz 到 16kHz 共 9 个频率的纯音，标记能听到的频率，找出你的耳朵可听到的最高频率。",
+      "category": "生活工具",
+      "keywords": [
+        "听力测试",
+        "频率测试",
+        "听力范围",
+        "纯音测试",
+        "可听频率",
+        "耳朵测试"
+      ],
+      "faqs": [
+        {
+          "question": "应该如何测试？",
+          "answer": "在安静环境佩戴耳机，音量保持舒适、切勿过大。逐个播放频率并如实标记是否听到。"
+        },
+        {
+          "question": "这是医学听力测试吗？",
+          "answer": "不是。它只是可听频率范围的快速自测，专业评估请咨询听力专家。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "色盲测试",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "频率发生器",
+          "href": "/tools/hz"
+        }
+      ],
+      "labels": {
+        "range": "最高可听频率",
+        "hint": "建议在安静环境佩戴耳机测试"
+      },
+      "buttons": {
+        "heard": "能听到",
+        "notHeard": "听不到"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "聴力テスト - 聞こえる最高周波数をチェック",
+        "description": "125Hz〜16kHzの純音を再生し、聞こえる最高周波数を調べる無料テスト。ヘッドホン推奨。ブラウザ内で完結。"
+      },
+      "title": "聴力テスト",
+      "description": "125Hz〜16kHzの9つの周波数の純音を再生し、聞こえたものを記録して可聴上限を調べます。",
+      "category": "生活ツール",
+      "keywords": [
+        "聴力テスト",
+        "周波数テスト",
+        "聴力範囲",
+        "純音テスト",
+        "可聴周波数",
+        "耳のテスト"
+      ],
+      "faqs": [
+        {
+          "question": "どうやってテストしますか？",
+          "answer": "静かな部屋でヘッドホンを使い、音量は心地よい範囲に。各周波数を再生し、聞こえたかどうかを正直に記録します。"
+        },
+        {
+          "question": "医学的な聴力検査ですか？",
+          "answer": "いいえ。可聴周波数範囲の簡易チェックです。専門的な評価は聴覚専門医に。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "色覚テスト",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "反応速度テスト",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "周波数発生器",
+          "href": "/tools/hz"
+        }
+      ],
+      "labels": {
+        "range": "聞こえる最高周波数",
+        "hint": "静かな部屋でヘッドホンを使用してください"
+      },
+      "buttons": {
+        "heard": "聞こえた",
+        "notHeard": "聞こえない"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "청력 테스트 - 들리는 최고 주파수 확인",
+        "description": "125Hz~16kHz의 순음을 재생해 들을 수 있는 최고 주파수를 확인하는 무료 테스트입니다. 헤드폰 권장. 브라우저에서 완료됩니다."
+      },
+      "title": "청력 테스트",
+      "description": "125Hz~16kHz의 9개 주파수 순음을 재생하고 들리는 것을 표시해 귀의 가청 최고 주파수를 확인합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "청력 테스트",
+        "주파수 테스트",
+        "청력 범위",
+        "순음 테스트",
+        "가청 주파수",
+        "귀 테스트"
+      ],
+      "faqs": [
+        {
+          "question": "어떻게 테스트하나요?",
+          "answer": "조용한 방에서 헤드폰을 쓰고, 볼륨을 편안하게 유지하세요. 각 주파수를 재생하며 들리는지 솔직하게 표시합니다."
+        },
+        {
+          "question": "의학적 청력 검사인가요?",
+          "answer": "아니요. 가청 주파수 범위를 확인하는 빠른 자가 체크입니다. 전문 평가는 청각 전문가에게."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "색각 이상 테스트",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "반응 속도 테스트",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "주파수 발생기",
+          "href": "/tools/hz"
+        }
+      ],
+      "labels": {
+        "range": "최고 가청 주파수",
+        "hint": "조용한 방에서 헤드폰을 사용하세요"
+      },
+      "buttons": {
+        "heard": "들림",
+        "notHeard": "안 들림"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Тест слуха - узнайте верхнюю границу слуха",
+        "description": "Бесплатный онлайн-тест слуха. Воспроизводите чистые тоны от 125 Гц до 16 кГц и найдите самую высокую слышимую частоту. Лучше в наушниках. Всё в браузере."
+      },
+      "title": "Тест слуха",
+      "description": "Воспроизводите чистые тоны на 9 частотах от 125 Гц до 16 кГц. Отмечайте, что слышите, чтобы найти верхнюю границу вашего слуха.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "тест слуха",
+        "тест частот",
+        "диапазон слуха",
+        "чистый тон",
+        "слышимая частота",
+        "проверка ушей"
+      ],
+      "faqs": [
+        {
+          "question": "Как проходить тест?",
+          "answer": "Используйте наушники в тихой комнате, громкость — комфортная, не слишком громкая. Играйте каждую частоту и честно отмечайте, что слышите."
+        },
+        {
+          "question": "Это медицинский тест слуха?",
+          "answer": "Нет. Это быстрая самопроверка диапазона слышимости. Для профессиональной оценки обратитесь к аудиологу."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Тест на дальтонизм",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "Тест реакции",
+          "href": "/tools/reaction-time"
+        },
+        {
+          "name": "Генератор частот",
+          "href": "/tools/hz"
+        }
+      ],
+      "labels": {
+        "range": "Верхняя слышимая частота",
+        "hint": "Используйте наушники в тихой комнате"
+      },
+      "buttons": {
+        "heard": "Слышу",
+        "notHeard": "Не слышу"
+      }
+    }
+  }
+}

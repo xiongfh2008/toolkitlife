@@ -1,0 +1,343 @@
+{
+  "slug": "screenshot-markup",
+  "icon": "✏️",
+  "home": {
+    "en": {
+      "name": "Screenshot Markup",
+      "description": "Annotate screenshots with rectangles, circles, arrows, lines and text.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "截图标注",
+      "description": "在截图上添加矩形、圆形、箭头、直线与文字标注。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "スクリーンショット注釈",
+      "description": "スクリーンショットに矩形・円・矢印・直線・テキストを追加。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "스크린샷 주석",
+      "description": "스크린샷에 사각형·원·화살표·직선·텍스트를 표시하세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Разметка скриншотов",
+      "description": "Добавляйте на скриншоты прямоугольники, круги, стрелки, линии и текст.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Screenshot Markup - Free Online Tool",
+        "description": "Free online tool to annotate screenshots. Draw rectangles, circles, arrows, lines and text, then download the annotated image. Runs in your browser."
+      },
+      "title": "Screenshot Markup",
+      "description": "Annotate a screenshot in seconds. Draw rectangles, circles, arrows, lines and text with adjustable color and stroke width, then download the result.",
+      "category": "Image Tools",
+      "keywords": [
+        "screenshot markup",
+        "annotate screenshot",
+        "markup image",
+        "screenshot arrows",
+        "highlight screenshot",
+        "annotation tool"
+      ],
+      "faqs": [
+        {
+          "question": "What can I draw?",
+          "answer": "Rectangles, circles, arrows, lines and text. Pick a tool, choose a color and stroke width, then drag on the image to draw."
+        },
+        {
+          "question": "Can I remove annotations?",
+          "answer": "Yes — use Clear to remove all annotations at once. You can also start over with a new image at any time."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Screenshot Beautifier",
+          "href": "/tools/screenshot-beautify"
+        },
+        {
+          "name": "Image Coordinate Marker",
+          "href": "/tools/image-coord-marker"
+        },
+        {
+          "name": "Region Mask",
+          "href": "/tools/image-region-mask"
+        }
+      ],
+      "upload": {
+        "drop": "Upload a screenshot to annotate",
+        "formats": "JPG · PNG · WebP"
+      },
+      "tools": {
+        "rect": "Rectangle",
+        "circle": "Circle",
+        "arrow": "Arrow",
+        "line": "Line",
+        "text": "Text"
+      },
+      "labels": {
+        "width": "Width",
+        "textSize": "Text size",
+        "textHint": "Click the image to place the text",
+        "hint": "Drag on the image to draw the selected shape. Use the text tool and click to add text."
+      },
+      "buttons": {
+        "clear": "Clear",
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "截图标注工具 - 免费在线工具",
+        "description": "免费的在线截图标注工具。绘制矩形、圆形、箭头、直线与文字，然后下载标注后的图片，全部在浏览器中完成。"
+      },
+      "title": "截图标注工具",
+      "description": "几秒钟完成截图标注。绘制矩形、圆形、箭头、直线与文字，可调整颜色与描边粗细，下载最终结果。",
+      "category": "图片工具",
+      "keywords": [
+        "截图标注",
+        "图片标注",
+        "截图箭头",
+        "截图高亮",
+        "标注工具",
+        "截图画图"
+      ],
+      "faqs": [
+        {
+          "question": "可以绘制哪些图形？",
+          "answer": "矩形、圆形、箭头、直线与文字。选择工具、颜色与描边粗细，然后在图片上拖动绘制。"
+        },
+        {
+          "question": "可以撤销标注吗？",
+          "answer": "可以。使用「清除」一键移除全部标注，也可以随时更换图片重新开始。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "截图美化",
+          "href": "/tools/screenshot-beautify"
+        },
+        {
+          "name": "图片坐标标记",
+          "href": "/tools/image-coord-marker"
+        },
+        {
+          "name": "区域马赛克",
+          "href": "/tools/image-region-mask"
+        }
+      ],
+      "upload": {
+        "drop": "上传要标注的截图",
+        "formats": "JPG · PNG · WebP"
+      },
+      "tools": {
+        "rect": "矩形",
+        "circle": "圆形",
+        "arrow": "箭头",
+        "line": "直线",
+        "text": "文字"
+      },
+      "labels": {
+        "width": "粗细",
+        "textSize": "字号",
+        "textHint": "点击图片放置文字",
+        "hint": "在图片上拖动绘制所选图形；文字工具需点击图片放置。"
+      },
+      "buttons": {
+        "clear": "清除",
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "スクリーンショット注釈 - 無料オンラインツール",
+        "description": "スクリーンショットに矩形・円・矢印・直線・テキストを描ける無料ツール。色と線幅を調整して結果をダウンロード。ブラウザ内で完結。"
+      },
+      "title": "スクリーンショット注釈",
+      "description": "スクリーンショットに数秒で注釈を追加。矩形・円・矢印・直線・テキストを描き、色と線幅を調整してダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "スクショ注釈",
+        "スクショに矢印",
+        "画像に書き込み",
+        "スクショハイライト",
+        "注釈ツール",
+        "画像マーキング"
+      ],
+      "faqs": [
+        {
+          "question": "何が描けますか？",
+          "answer": "矩形・円・矢印・直線・テキスト。ツール・色・線幅を選んで画像上でドラッグして描きます。"
+        },
+        {
+          "question": "注釈を消せますか？",
+          "answer": "はい。「クリア」で一括削除できます。新しい画像でやり直すこともできます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "スクショ美化",
+          "href": "/tools/screenshot-beautify"
+        },
+        {
+          "name": "画像座標マーカー",
+          "href": "/tools/image-coord-marker"
+        },
+        {
+          "name": "領域マスク",
+          "href": "/tools/image-region-mask"
+        }
+      ],
+      "upload": {
+        "drop": "注釈するスクリーンショットをアップロード",
+        "formats": "JPG · PNG · WebP"
+      },
+      "tools": {
+        "rect": "矩形",
+        "circle": "円",
+        "arrow": "矢印",
+        "line": "直線",
+        "text": "テキスト"
+      },
+      "labels": {
+        "width": "太さ",
+        "textSize": "文字サイズ",
+        "textHint": "画像をクリックしてテキストを配置",
+        "hint": "画像上でドラッグして図形を描画。テキストツールはクリックで配置。"
+      },
+      "buttons": {
+        "clear": "クリア",
+        "download": "PNG をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "스크린샷 주석 - 무료 온라인 도구",
+        "description": "스크린샷에 사각형·원·화살표·직선·텍스트를 그리는 무료 온라인 도구입니다. 색상과 선 굵기를 조절하고 결과를 다운로드하세요."
+      },
+      "title": "스크린샷 주석",
+      "description": "몇 초 만에 스크린샷에 주석을 추가하세요. 사각형·원·화살표·직선·텍스트를 그리고 색상과 굵기를 조절해 다운로드합니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "스크린샷 주석",
+        "이미지 표시",
+        "스크린샷 화살표",
+        "스크린샷 강조",
+        "주석 도구",
+        "이미지 주석"
+      ],
+      "faqs": [
+        {
+          "question": "무엇을 그릴 수 있나요?",
+          "answer": "사각형·원·화살표·직선·텍스트. 도구와 색상, 선 굵기를 고르고 이미지 위에 드래그해 그립니다."
+        },
+        {
+          "question": "주석을 지울 수 있나요?",
+          "answer": "네. '지우기'로 한 번에 모두 삭제할 수 있고, 새 이미지로 다시 시작할 수도 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "스크린샷 꾸미기",
+          "href": "/tools/screenshot-beautify"
+        },
+        {
+          "name": "이미지 좌표 마커",
+          "href": "/tools/image-coord-marker"
+        },
+        {
+          "name": "영역 마스크",
+          "href": "/tools/image-region-mask"
+        }
+      ],
+      "upload": {
+        "drop": "주석할 스크린샷 업로드",
+        "formats": "JPG · PNG · WebP"
+      },
+      "tools": {
+        "rect": "사각형",
+        "circle": "원",
+        "arrow": "화살표",
+        "line": "직선",
+        "text": "텍스트"
+      },
+      "labels": {
+        "width": "굵기",
+        "textSize": "글자 크기",
+        "textHint": "이미지를 클릭해 텍스트 배치",
+        "hint": "이미지 위를 드래그해 도형을 그리세요. 텍스트 도구는 클릭으로 배치합니다."
+      },
+      "buttons": {
+        "clear": "지우기",
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Разметка скриншотов - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-инструмент для разметки скриншотов: прямоугольники, круги, стрелки, линии и текст. Скачайте результат — всё в браузере."
+      },
+      "title": "Разметка скриншотов",
+      "description": "Добавьте разметку на скриншот за секунды. Рисуйте прямоугольники, круги, стрелки, линии и текст, настраивайте цвет и ширину — и скачивайте.",
+      "category": "Изображения",
+      "keywords": [
+        "разметка скриншота",
+        "аннотации на скриншоте",
+        "стрелки на скриншоте",
+        "выделение на скриншоте",
+        "инструмент разметки",
+        "разметка изображения"
+      ],
+      "faqs": [
+        {
+          "question": "Что можно рисовать?",
+          "answer": "Прямоугольники, круги, стрелки, линии и текст. Выберите инструмент, цвет и ширину линии, затем тяните по изображению."
+        },
+        {
+          "question": "Можно ли удалить разметку?",
+          "answer": "Да — кнопка «Очистить» убирает всю разметку сразу. Также можно начать заново с новым изображением."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Оформление скриншотов",
+          "href": "/tools/screenshot-beautify"
+        },
+        {
+          "name": "Маркер координат",
+          "href": "/tools/image-coord-marker"
+        },
+        {
+          "name": "Маска области",
+          "href": "/tools/image-region-mask"
+        }
+      ],
+      "upload": {
+        "drop": "Загрузите скриншот для разметки",
+        "formats": "JPG · PNG · WebP"
+      },
+      "tools": {
+        "rect": "Прямоугольник",
+        "circle": "Круг",
+        "arrow": "Стрелка",
+        "line": "Линия",
+        "text": "Текст"
+      },
+      "labels": {
+        "width": "Ширина",
+        "textSize": "Размер текста",
+        "textHint": "Нажмите на изображение, чтобы разместить текст",
+        "hint": "Тяните по изображению, чтобы нарисовать фигуру. Текстовый инструмент размещает текст по клику."
+      },
+      "buttons": {
+        "clear": "Очистить",
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

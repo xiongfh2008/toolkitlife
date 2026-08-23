@@ -1,0 +1,358 @@
+{
+  "slug": "gif-edit",
+  "icon": "🎞️",
+  "home": {
+    "en": {
+      "name": "GIF Frame Editor",
+      "description": "Edit GIF animations frame by frame: reorder, delete, duplicate and change speed.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "GIF 帧编辑器",
+      "description": "逐帧编辑 GIF 动图：排序、删除、复制帧并调整播放速度。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "GIF フレーム編集",
+      "description": "GIF アニメーションをフレーム単位で編集：並べ替え・削除・複製・速度調整。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "GIF 프레임 편집기",
+      "description": "GIF 애니메이션을 프레임 단위로 편집하세요: 정렬·삭제·복제·속도 조절.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Редактор кадров GIF",
+      "description": "Редактируйте GIF по кадрам: переставляйте, удаляйте, дублируйте и меняйте скорость.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "GIF Frame Editor - Free Online Tool",
+        "description": "Free online GIF frame editor. Split any GIF into frames, reorder, delete or duplicate them, adjust the delay and export a new animated GIF. Runs in your browser."
+      },
+      "title": "GIF Frame Editor",
+      "description": "Take any GIF apart frame by frame. Reorder, delete or duplicate frames, set a global delay, preview the animation and download the edited GIF.",
+      "category": "Image Tools",
+      "keywords": [
+        "gif editor",
+        "edit gif frames",
+        "gif frame editor",
+        "reorder gif frames",
+        "remove gif frames",
+        "change gif speed"
+      ],
+      "faqs": [
+        {
+          "question": "Can I change how fast the GIF plays?",
+          "answer": "Yes. Set the delay (ms) applied to every frame — lower values make the animation faster, higher values slower."
+        },
+        {
+          "question": "Is the quality preserved?",
+          "answer": "The GIF is re-encoded from the original frames in your browser. Colors may be re-quantized, so slight changes are possible, especially on complex animations."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "GIF to Images",
+          "href": "/tools/gif-to-images"
+        },
+        {
+          "name": "Image to GIF",
+          "href": "/tools/image-to-gif"
+        },
+        {
+          "name": "Video to GIF",
+          "href": "/tools/video-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "Upload a GIF to edit",
+        "formats": "GIF"
+      },
+      "labels": {
+        "delay": "Frame delay",
+        "frames": "Frames",
+        "preview": "Preview",
+        "resultSize": "Size: {size} KB"
+      },
+      "buttons": {
+        "changeFile": "Change file",
+        "clear": "Clear",
+        "pause": "Pause",
+        "play": "Play",
+        "generate": "Generate",
+        "processing": "Processing…",
+        "download": "Download GIF"
+      },
+      "errors": {
+        "type": "Please select a GIF file.",
+        "parse": "Could not read this GIF. The file may be corrupted.",
+        "encode": "Encoding failed. Please try again."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "GIF 帧编辑器 - 免费在线工具",
+        "description": "免费的在线 GIF 帧编辑工具：将 GIF 拆分为帧，排序、删除或复制，调整速度并导出新的动图，全部在浏览器中完成。"
+      },
+      "title": "GIF 帧编辑器",
+      "description": "逐帧拆分任意 GIF。排序、删除或复制帧，设置统一延迟，预览动画并下载编辑后的 GIF。",
+      "category": "图片工具",
+      "keywords": [
+        "gif编辑器",
+        "gif帧编辑",
+        "gif排序",
+        "删除gif帧",
+        "gif变速",
+        "动图编辑"
+      ],
+      "faqs": [
+        {
+          "question": "可以改变 GIF 播放速度吗？",
+          "answer": "可以。设置应用到每一帧的延迟（毫秒），数值越小动画越快，越大越慢。"
+        },
+        {
+          "question": "画质会保留吗？",
+          "answer": "GIF 会在浏览器中基于原始帧重新编码，颜色可能重新量化，复杂动画可能有轻微变化。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "GIF 拆帧",
+          "href": "/tools/gif-to-images"
+        },
+        {
+          "name": "图片转 GIF",
+          "href": "/tools/image-to-gif"
+        },
+        {
+          "name": "视频转 GIF",
+          "href": "/tools/video-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "上传要编辑的 GIF",
+        "formats": "GIF"
+      },
+      "labels": {
+        "delay": "帧延迟",
+        "frames": "帧数",
+        "preview": "预览",
+        "resultSize": "大小：{size} KB"
+      },
+      "buttons": {
+        "changeFile": "更换文件",
+        "clear": "清除",
+        "pause": "暂停",
+        "play": "播放",
+        "generate": "生成",
+        "processing": "处理中…",
+        "download": "下载 GIF"
+      },
+      "errors": {
+        "type": "请选择 GIF 文件。",
+        "parse": "无法读取该 GIF，文件可能已损坏。",
+        "encode": "编码失败，请重试。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "GIF フレーム編集 - 無料オンラインツール",
+        "description": "GIF をフレーム単位で編集できる無料ツール。並べ替え・削除・複製・速度調整をして新しい GIF を書き出し。ブラウザ内で完結。"
+      },
+      "title": "GIF フレーム編集",
+      "description": "任意の GIF をフレーム単位で分解。並べ替え・削除・複製、統一遅延の設定、プレビュー、編集後の GIF をダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "gif編集",
+        "gifフレーム編集",
+        "gif並べ替え",
+        "gif削除",
+        "gif速度変更",
+        "アニメーション編集"
+      ],
+      "faqs": [
+        {
+          "question": "再生速度を変えられますか？",
+          "answer": "はい。全フレームに適用する遅延（ms）を設定します。小さいほど速く、大きいほど遅くなります。"
+        },
+        {
+          "question": "画質は保持されますか？",
+          "answer": "ブラウザ内で元のフレームから再エンコードするため、色が再量子化され、複雑なアニメーションでは若干変化することがあります。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "GIF 分割",
+          "href": "/tools/gif-to-images"
+        },
+        {
+          "name": "画像から GIF",
+          "href": "/tools/image-to-gif"
+        },
+        {
+          "name": "動画から GIF",
+          "href": "/tools/video-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "編集する GIF をアップロード",
+        "formats": "GIF"
+      },
+      "labels": {
+        "delay": "フレーム遅延",
+        "frames": "フレーム",
+        "preview": "プレビュー",
+        "resultSize": "サイズ：{size} KB"
+      },
+      "buttons": {
+        "changeFile": "ファイルを変更",
+        "clear": "クリア",
+        "pause": "一時停止",
+        "play": "再生",
+        "generate": "生成",
+        "processing": "処理中…",
+        "download": "GIF をダウンロード"
+      },
+      "errors": {
+        "type": "GIF ファイルを選択してください。",
+        "parse": "この GIF を読み込めません。ファイルが壊れている可能性があります。",
+        "encode": "エンコードに失敗しました。もう一度お試しください。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "GIF 프레임 편집기 - 무료 온라인 도구",
+        "description": "GIF를 프레임 단위로 편집하는 무료 온라인 도구입니다. 정렬·삭제·복제·속도 조절 후 새 GIF를 내보내세요. 브라우저에서 모두 처리됩니다."
+      },
+      "title": "GIF 프레임 편집기",
+      "description": "GIF를 프레임 단위로 분해하세요. 프레임 정렬·삭제·복제, 공통 지연 설정, 미리보기 후 편집된 GIF를 다운로드합니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "gif 편집기",
+        "gif 프레임 편집",
+        "gif 정렬",
+        "gif 프레임 삭제",
+        "gif 속도 변경",
+        "gif 프레임 복제"
+      ],
+      "faqs": [
+        {
+          "question": "GIF 재생 속도를 바꿀 수 있나요?",
+          "answer": "네. 모든 프레임에 적용되는 지연(ms)을 설정하세요. 값이 작을수록 빠르고 클수록 느립니다."
+        },
+        {
+          "question": "화질이 보존되나요?",
+          "answer": "브라우저에서 원본 프레임으로 다시 인코딩되어 색상이 재양자화될 수 있으며 복잡한 애니메이션은 약간 달라질 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "GIF 분할",
+          "href": "/tools/gif-to-images"
+        },
+        {
+          "name": "이미지를 GIF로",
+          "href": "/tools/image-to-gif"
+        },
+        {
+          "name": "비디오를 GIF로",
+          "href": "/tools/video-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "편집할 GIF 업로드",
+        "formats": "GIF"
+      },
+      "labels": {
+        "delay": "프레임 지연",
+        "frames": "프레임",
+        "preview": "미리보기",
+        "resultSize": "크기: {size} KB"
+      },
+      "buttons": {
+        "changeFile": "파일 변경",
+        "clear": "지우기",
+        "pause": "일시정지",
+        "play": "재생",
+        "generate": "생성",
+        "processing": "처리 중…",
+        "download": "GIF 다운로드"
+      },
+      "errors": {
+        "type": "GIF 파일을 선택하세요.",
+        "parse": "이 GIF를 읽을 수 없습니다. 파일이 손상되었을 수 있습니다.",
+        "encode": "인코딩에 실패했습니다. 다시 시도하세요."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Редактор кадров GIF - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-редактор кадров GIF: разбейте анимацию на кадры, переставляйте, удаляйте и дублируйте их, меняйте скорость и экспортируйте новый GIF."
+      },
+      "title": "Редактор кадров GIF",
+      "description": "Разберите любой GIF по кадрам. Переставляйте, удаляйте или дублируйте кадры, задайте общую задержку, посмотрите предпросмотр и скачайте отредактированный GIF.",
+      "category": "Изображения",
+      "keywords": [
+        "редактор gif",
+        "редактирование кадров gif",
+        "переставить кадры gif",
+        "удалить кадры gif",
+        "изменить скорость gif",
+        "дублировать кадры gif"
+      ],
+      "faqs": [
+        {
+          "question": "Можно ли изменить скорость анимации?",
+          "answer": "Да. Задайте задержку (мс) для каждого кадра: меньше — быстрее, больше — медленнее."
+        },
+        {
+          "question": "Сохраняется ли качество?",
+          "answer": "GIF перекодируется из исходных кадров в браузере. Цвета могут быть переквантованы, поэтому на сложных анимациях возможны небольшие изменения."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "GIF в изображения",
+          "href": "/tools/gif-to-images"
+        },
+        {
+          "name": "Изображение в GIF",
+          "href": "/tools/image-to-gif"
+        },
+        {
+          "name": "Видео в GIF",
+          "href": "/tools/video-to-gif"
+        }
+      ],
+      "upload": {
+        "drop": "Загрузите GIF для редактирования",
+        "formats": "GIF"
+      },
+      "labels": {
+        "delay": "Задержка кадра",
+        "frames": "Кадры",
+        "preview": "Предпросмотр",
+        "resultSize": "Размер: {size} КБ"
+      },
+      "buttons": {
+        "changeFile": "Сменить файл",
+        "clear": "Очистить",
+        "pause": "Пауза",
+        "play": "Воспроизвести",
+        "generate": "Создать",
+        "processing": "Обработка…",
+        "download": "Скачать GIF"
+      },
+      "errors": {
+        "type": "Выберите файл GIF.",
+        "parse": "Не удалось прочитать этот GIF. Возможно, файл повреждён.",
+        "encode": "Не удалось закодировать. Попробуйте ещё раз."
+      }
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "slug": "screenshot-beautify",
+  "icon": "🖼️",
+  "home": {
+    "en": {
+      "name": "Screenshot Beautifier",
+      "description": "Add a background, padding, rounded corners, border and shadow to screenshots.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "截图美化",
+      "description": "为截图添加背景色、内边距、圆角、边框与阴影效果。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "スクリーンショット美化",
+      "description": "スクリーンショットに背景・余白・角丸・枠線・影を追加。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "스크린샷 꾸미기",
+      "description": "스크린샷에 배경·여백·모서리·테두리·그림자를 추가하세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Оформление скриншотов",
+      "description": "Добавьте фон, отступы, скругление, рамку и тень к скриншотам.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Screenshot Beautifier - Free Online Tool",
+        "description": "Free online tool to make screenshots look great: add a background color, padding, rounded corners, border and shadow. Runs entirely in your browser."
+      },
+      "title": "Screenshot Beautifier",
+      "description": "Turn a plain screenshot into a polished product image. Add a background color, padding, rounded corners, border and shadow with instant preview.",
+      "category": "Image Tools",
+      "keywords": [
+        "screenshot beautifier",
+        "beautify screenshot",
+        "screenshot frame",
+        "screenshot presentation",
+        "mac screenshot style",
+        "code screenshot"
+      ],
+      "faqs": [
+        {
+          "question": "What can I customize?",
+          "answer": "Background color, padding around the image, corner radius, border width and color, and a drop shadow — all with live preview."
+        },
+        {
+          "question": "Is the image uploaded to a server?",
+          "answer": "No. Everything is rendered locally in your browser with the HTML canvas API."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Screenshot Markup",
+          "href": "/tools/screenshot-markup"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "Image Rounded Corners",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "Upload a screenshot to beautify",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "background": "Background",
+        "padding": "Padding",
+        "radius": "Corner radius",
+        "borderWidth": "Border width",
+        "borderColor": "Border color",
+        "shadow": "Drop shadow"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "截图美化工具 - 免费在线工具",
+        "description": "免费的在线截图美化工具：为截图添加背景色、内边距、圆角、边框与阴影，全部在浏览器中完成。"
+      },
+      "title": "截图美化工具",
+      "description": "将普通截图变成精致的展示图。添加背景色、内边距、圆角、边框与阴影，实时预览。",
+      "category": "图片工具",
+      "keywords": [
+        "截图美化",
+        "截图加背景",
+        "截图圆角",
+        "截图展示",
+        "代码截图美化",
+        "截图边框"
+      ],
+      "faqs": [
+        {
+          "question": "可以自定义哪些效果？",
+          "answer": "背景色、图片内边距、圆角、边框宽度与颜色、投影，均支持实时预览。"
+        },
+        {
+          "question": "图片会上传到服务器吗？",
+          "answer": "不会。所有渲染都在浏览器本地通过 Canvas 完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "截图标注",
+          "href": "/tools/screenshot-markup"
+        },
+        {
+          "name": "图片留白",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "图片圆角",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "上传要美化的截图",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "background": "背景色",
+        "padding": "内边距",
+        "radius": "圆角",
+        "borderWidth": "边框宽度",
+        "borderColor": "边框颜色",
+        "shadow": "投影"
+      },
+      "buttons": {
+        "newImage": "更换图片",
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "スクリーンショット美化 - 無料オンラインツール",
+        "description": "スクリーンショットに背景・余白・角丸・枠線・影を追加して仕上げる無料ツール。すべてブラウザ内で処理。"
+      },
+      "title": "スクリーンショット美化",
+      "description": "素のスクリーンショットを洗練された画像に。背景色・余白・角丸・枠線・影をライブプレビューで調整。",
+      "category": "画像ツール",
+      "keywords": [
+        "スクショ美化",
+        "スクリーンショット装飾",
+        "スクショ枠",
+        "コードスクショ",
+        "スクショプレゼン",
+        "スクショ加工"
+      ],
+      "faqs": [
+        {
+          "question": "何をカスタマイズできますか？",
+          "answer": "背景色、余白、角丸、枠線の幅と色、影をすべてライブプレビューで調整できます。"
+        },
+        {
+          "question": "画像はサーバーに送信されますか？",
+          "answer": "いいえ。ブラウザ内の Canvas API でローカルにレンダリングされます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "スクショ注釈",
+          "href": "/tools/screenshot-markup"
+        },
+        {
+          "name": "余白追加",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "角丸画像",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "美化するスクリーンショットをアップロード",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "background": "背景",
+        "padding": "余白",
+        "radius": "角丸",
+        "borderWidth": "枠線の幅",
+        "borderColor": "枠線の色",
+        "shadow": "影"
+      },
+      "buttons": {
+        "newImage": "画像を変更",
+        "download": "PNG をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "스크린샷 꾸미기 - 무료 온라인 도구",
+        "description": "스크린샷에 배경·여백·모서리·테두리·그림자를 추가해 완성도 높이는 무료 온라인 도구입니다. 브라우저에서 모두 처리됩니다."
+      },
+      "title": "스크린샷 꾸미기",
+      "description": "평범한 스크린샷을 세련된 이미지로 바꾸세요. 배경색·여백·모서리·테두리·그림자를 실시간 미리보기로 조절합니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "스크린샷 꾸미기",
+        "스크린샷 장식",
+        "스크린샷 프레임",
+        "코드 스크린샷",
+        "스크린샷 발표용",
+        "스크린샷 편집"
+      ],
+      "faqs": [
+        {
+          "question": "무엇을 커스터마이즈할 수 있나요?",
+          "answer": "배경색, 이미지 여백, 모서리 반경, 테두리 너비와 색상, 그림자를 모두 실시간 미리보기로 조절할 수 있습니다."
+        },
+        {
+          "question": "이미지가 서버로 업로드되나요?",
+          "answer": "아니요. 모든 렌더링이 브라우저의 Canvas API로 로컬에서 처리됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "스크린샷 주석",
+          "href": "/tools/screenshot-markup"
+        },
+        {
+          "name": "이미지 여백",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "이미지 모서리",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "꾸밀 스크린샷 업로드",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "background": "배경색",
+        "padding": "여백",
+        "radius": "모서리",
+        "borderWidth": "테두리 너비",
+        "borderColor": "테두리 색상",
+        "shadow": "그림자"
+      },
+      "buttons": {
+        "newImage": "이미지 변경",
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Оформление скриншотов - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-инструмент для оформления скриншотов: фон, отступы, скругление, рамка и тень. Всё работает в вашем браузере."
+      },
+      "title": "Оформление скриншотов",
+      "description": "Превратите обычный скриншот в презентабельное изображение. Добавьте фон, отступы, скругление, рамку и тень с мгновенным предпросмотром.",
+      "category": "Изображения",
+      "keywords": [
+        "оформление скриншота",
+        "красивый скриншот",
+        "рамка для скриншота",
+        "скриншот в стиле mac",
+        "скриншот кода",
+        "скриншот для презентации"
+      ],
+      "faqs": [
+        {
+          "question": "Что можно настроить?",
+          "answer": "Цвет фона, отступы вокруг изображения, радиус скругления, ширину и цвет рамки, а также тень — всё с живым предпросмотром."
+        },
+        {
+          "question": "Изображение загружается на сервер?",
+          "answer": "Нет. Всё рендерится локально в браузере через Canvas API."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Разметка скриншота",
+          "href": "/tools/screenshot-markup"
+        },
+        {
+          "name": "Поля изображения",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "Скругление углов",
+          "href": "/tools/image-rounded-corners"
+        }
+      ],
+      "upload": {
+        "drop": "Загрузите скриншот для оформления",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "background": "Фон",
+        "padding": "Отступы",
+        "radius": "Скругление",
+        "borderWidth": "Ширина рамки",
+        "borderColor": "Цвет рамки",
+        "shadow": "Тень"
+      },
+      "buttons": {
+        "newImage": "Новое изображение",
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

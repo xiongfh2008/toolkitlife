@@ -1,0 +1,363 @@
+{
+  "slug": "image-slice",
+  "icon": "🔪",
+  "home": {
+    "en": {
+      "name": "Image Slicer",
+      "description": "Split an image into equal pieces horizontally or vertically. Download each slice as PNG.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片切割器",
+      "description": "将图片沿水平或垂直方向均等切割为多张小图，可逐个下载 PNG。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像スライスツール",
+      "description": "画像を水平・垂直方向に等分し、各スライスを PNG でダウンロード。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 분할 도구",
+      "description": "이미지를 가로·세로로 균등 분할하고 각 조각을 PNG로 다운로드합니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Разделение изображения",
+      "description": "Разрежьте изображение на равные части по горизонтали или вертикали и скачайте каждую как PNG.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Image Slicer – Split Images into Equal Pieces",
+        "description": "Free online tool to split an image into equal pieces horizontally or vertically and download each slice as a PNG file. Runs entirely in your browser."
+      },
+      "title": "Image Slicer",
+      "description": "Split an image into equal pieces horizontally or vertically. Choose 2–12 slices and download each piece as a PNG. All processing happens locally in your browser.",
+      "category": "Image Tools",
+      "keywords": [
+        "image slicer",
+        "split image",
+        "cut image into pieces",
+        "slice image",
+        "divide image",
+        "image splitter",
+        "cut image online",
+        "split image into equal parts"
+      ],
+      "faqs": [
+        {
+          "question": "How do I split an image?",
+          "answer": "Upload an image, choose horizontal or vertical slicing and the number of pieces, then download each slice as a PNG."
+        },
+        {
+          "question": "What is the difference between horizontal and vertical slicing?",
+          "answer": "Horizontal slicing cuts the image into vertical strips side by side; vertical slicing cuts it into horizontal strips stacked top to bottom."
+        },
+        {
+          "question": "How many pieces can I create?",
+          "answer": "Between 2 and 12 pieces."
+        },
+        {
+          "question": "Is my image uploaded anywhere?",
+          "answer": "No. All slicing happens in your browser and your image never leaves your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Crop Tool",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image Stitcher",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here or click to upload",
+        "formats": "JPG · PNG · WebP · GIF"
+      },
+      "labels": {
+        "direction": "Direction",
+        "horizontal": "Horizontal",
+        "vertical": "Vertical",
+        "count": "Pieces",
+        "pieces": "Slices"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片切割器 – 将图片均等切割为多张小图",
+        "description": "免费在线工具，可将图片沿水平或垂直方向均等切割为多张小图并逐个下载 PNG。完全在浏览器本地运行。"
+      },
+      "title": "图片切割器",
+      "description": "将图片沿水平或垂直方向均等切割。可选 2–12 份并逐个下载 PNG。所有处理都在浏览器本地完成。",
+      "category": "图片工具",
+      "keywords": [
+        "图片切割",
+        "切割图片",
+        "图片切片",
+        "均等切割",
+        "图片分割",
+        "图片切分工具",
+        "在线切图",
+        "图片等分"
+      ],
+      "faqs": [
+        {
+          "question": "如何切割图片？",
+          "answer": "上传图片，选择水平或垂直方向与份数，即可逐个下载每一份 PNG 切片。"
+        },
+        {
+          "question": "水平和垂直切割有什么区别？",
+          "answer": "水平切割将图片切成并排的竖条；垂直切割将图片切成上下堆叠的横条。"
+        },
+        {
+          "question": "最多可以切成几份？",
+          "answer": "支持 2 至 12 份。"
+        },
+        {
+          "question": "我的图片会被上传吗？",
+          "answer": "不会。所有切割都在浏览器本地完成，图片不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片裁剪工具",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "图片尺寸调整",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片拼接工具",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处或点击上传",
+        "formats": "JPG · PNG · WebP · GIF"
+      },
+      "labels": {
+        "direction": "方向",
+        "horizontal": "水平",
+        "vertical": "垂直",
+        "count": "份数",
+        "pieces": "切片"
+      },
+      "buttons": {
+        "newImage": "新图片",
+        "download": "下载"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像スライスツール – 画像を等分に分割",
+        "description": "画像を水平・垂直方向に等分し、各スライスを PNG でダウンロードできる無料オンラインツール。すべてブラウザ内で完結。"
+      },
+      "title": "画像スライスツール",
+      "description": "画像を水平・垂直方向に等分します。2〜12枚を選んで各スライスを PNG でダウンロード。すべてブラウザ内で処理。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像スライス",
+        "画像分割",
+        "画像をカット",
+        "スライス分割",
+        "画像等分",
+        "画像スプリッター",
+        "オンライン画像分割",
+        "画像を等分に分割"
+      ],
+      "faqs": [
+        {
+          "question": "画像を分割するには？",
+          "answer": "画像をアップロードし、水平・垂直と分割数を選ぶと、各スライスを PNG でダウンロードできます。"
+        },
+        {
+          "question": "水平と垂直の違いは？",
+          "answer": "水平分割は縦長のストリップに、垂直分割は横長のストリップに切り分けます。"
+        },
+        {
+          "question": "最大何枚に分割できますか？",
+          "answer": "2〜12枚まで選択できます。"
+        },
+        {
+          "question": "画像はアップロードされますか？",
+          "answer": "いいえ。すべてブラウザ内で処理され、画像がデバイス外に送信されることはありません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像クロップツール",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "画像リサイズ",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "画像結合ツール",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップまたはクリックしてアップロード",
+        "formats": "JPG · PNG · WebP · GIF"
+      },
+      "labels": {
+        "direction": "方向",
+        "horizontal": "水平",
+        "vertical": "垂直",
+        "count": "分割数",
+        "pieces": "スライス"
+      },
+      "buttons": {
+        "newImage": "新しい画像",
+        "download": "ダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 분할 도구 – 이미지를 균등 분할",
+        "description": "이미지를 가로·세로로 균등 분할하고 각 조각을 PNG로 다운로드하는 무료 온라인 도구입니다. 브라우저에서 완전히 처리됩니다."
+      },
+      "title": "이미지 분할 도구",
+      "description": "이미지를 가로 또는 세로로 균등 분할합니다. 2~12조각을 선택하고 각 조각을 PNG로 다운로드하세요. 모든 처리가 브라우저에서 이루어집니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 분할",
+        "이미지 자르기",
+        "이미지 슬라이스",
+        "이미지 조각",
+        "이미지 나누기",
+        "이미지 분할기",
+        "온라인 이미지 분할",
+        "이미지 균등 분할"
+      ],
+      "faqs": [
+        {
+          "question": "이미지를 어떻게 분할하나요?",
+          "answer": "이미지를 업로드하고 가로·세로와 조각 수를 선택하면 각 조각을 PNG로 다운로드할 수 있습니다."
+        },
+        {
+          "question": "가로와 세로 분할의 차이는?",
+          "answer": "가로 분할은 세로 줄무늬로, 세로 분할은 가로 줄무늬로 잘라냅니다."
+        },
+        {
+          "question": "몇 조각까지 만들 수 있나요?",
+          "answer": "2~12조각까지 선택할 수 있습니다."
+        },
+        {
+          "question": "이미지가 업로드되나요?",
+          "answer": "아니요. 모든 분할이 브라우저에서 이루어지며 이미지가 기기를 벗어나지 않습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 크롭 도구",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "이미지 크기 조정",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "이미지 이어붙이기",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 끌어다 놓거나 클릭하여 업로드",
+        "formats": "JPG · PNG · WebP · GIF"
+      },
+      "labels": {
+        "direction": "방향",
+        "horizontal": "가로",
+        "vertical": "세로",
+        "count": "조각 수",
+        "pieces": "슬라이스"
+      },
+      "buttons": {
+        "newImage": "새 이미지",
+        "download": "다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Разделение изображения – разрезать на равные части",
+        "description": "Бесплатный онлайн-инструмент для разрезания изображения на равные части по горизонтали или вертикали. Всё работает в браузере."
+      },
+      "title": "Разделение изображения",
+      "description": "Разрежьте изображение на равные части по горизонтали или вертикали. Выберите 2–12 частей и скачайте каждую как PNG.",
+      "category": "Изображения",
+      "keywords": [
+        "разрезать изображение",
+        "разделить изображение",
+        "нарезка изображения",
+        "разрезать картинку на части",
+        "разделить фото",
+        "сплиттер изображений",
+        "разрезать изображение онлайн",
+        "равные части изображения"
+      ],
+      "faqs": [
+        {
+          "question": "Как разрезать изображение?",
+          "answer": "Загрузите изображение, выберите направление (горизонтально/вертикально) и количество частей, затем скачайте каждый фрагмент как PNG."
+        },
+        {
+          "question": "В чём разница между горизонтальным и вертикальным разрезанием?",
+          "answer": "Горизонтальное разрезание даёт вертикальные полосы, вертикальное — горизонтальные полосы, сложенные друг на друга."
+        },
+        {
+          "question": "Сколько частей можно создать?",
+          "answer": "От 2 до 12 частей."
+        },
+        {
+          "question": "Загружается ли моё изображение куда-либо?",
+          "answer": "Нет. Всё выполняется в вашем браузере, изображение не покидает ваше устройство."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Обрезка изображения",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "Изменение размера",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Склейка изображений",
+          "href": "/tools/image-stitcher"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображение сюда или нажмите, чтобы загрузить",
+        "formats": "JPG · PNG · WebP · GIF"
+      },
+      "labels": {
+        "direction": "Направление",
+        "horizontal": "Горизонтально",
+        "vertical": "Вертикально",
+        "count": "Частей",
+        "pieces": "Фрагменты"
+      },
+      "buttons": {
+        "newImage": "Новое изображение",
+        "download": "Скачать"
+      }
+    }
+  }
+}

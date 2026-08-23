@@ -1,0 +1,263 @@
+{
+  "slug": "online-clock",
+  "icon": "🕐",
+  "home": {
+    "en": {
+      "name": "Online Clock",
+      "description": "Full-screen clock with Unix timestamp and ISO time.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "在线时钟",
+      "description": "大屏时钟，显示 Unix 时间戳与 ISO 时间。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "オンライン時計",
+      "description": "UnixタイムスタンプとISO時刻を表示する時計。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "온라인 시계",
+      "description": "Unix 타임스탬프와 ISO 시간을 표시하는 시계입니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Онлайн-часы",
+      "description": "Часы с Unix-временем и временем в формате ISO.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Online Clock - Current Time with Unix Timestamp",
+        "description": "Free online clock showing the current time, live Unix timestamp and ISO time, updated every second. Perfect as a time reference. Runs in your browser."
+      },
+      "title": "Online Clock",
+      "description": "A live clock with the current time in seconds, plus the Unix timestamp and ISO 8601 time for developers and time references.",
+      "category": "Life Tools",
+      "keywords": [
+        "online clock",
+        "current time",
+        "unix timestamp",
+        "iso time",
+        "live clock",
+        "clock online"
+      ],
+      "faqs": [
+        {
+          "question": "Why are Unix timestamps useful?",
+          "answer": "Unix timestamps are the number of seconds since 1970-01-01 UTC, used in APIs, databases and scripts for unambiguous time values."
+        },
+        {
+          "question": "Is the displayed time my local time?",
+          "answer": "Yes — the clock shows your device's local time and updates every second."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "World Clock",
+          "href": "/tools/world-clock"
+        },
+        {
+          "name": "Unix Timestamp Converter",
+          "href": "/tools/timestamp-converter"
+        },
+        {
+          "name": "Alarm Clock",
+          "href": "/tools/alarm"
+        }
+      ],
+      "labels": {
+        "unix": "Unix timestamp",
+        "iso": "ISO time"
+      },
+      "buttons": {}
+    },
+    "zh": {
+      "metadata": {
+        "title": "在线时钟 - 当前时间与 Unix 时间戳",
+        "description": "免费在线时钟，显示当前时间、实时 Unix 时间戳和 ISO 时间，每秒自动刷新，适合作为时间参考。全程在浏览器本地完成。"
+      },
+      "title": "在线时钟",
+      "description": "实时时钟显示精确到秒的当前时间，以及 Unix 时间戳和 ISO 8601 时间，方便开发者与时间参照。",
+      "category": "生活工具",
+      "keywords": [
+        "在线时钟",
+        "当前时间",
+        "unix时间戳",
+        "iso时间",
+        "实时时钟",
+        "网络时钟"
+      ],
+      "faqs": [
+        {
+          "question": "Unix 时间戳有什么用？",
+          "answer": "Unix 时间戳是从 1970-01-01 UTC 起经过的秒数，常用于 API、数据库和脚本中表示无歧义的时间值。"
+        },
+        {
+          "question": "显示的是本地时间吗？",
+          "answer": "是的，时钟显示你设备的本地时间，并每秒更新。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "世界时钟",
+          "href": "/tools/world-clock"
+        },
+        {
+          "name": "时间戳转换",
+          "href": "/tools/timestamp-converter"
+        },
+        {
+          "name": "闹钟",
+          "href": "/tools/alarm"
+        }
+      ],
+      "labels": {
+        "unix": "Unix 时间戳",
+        "iso": "ISO 时间"
+      },
+      "buttons": {}
+    },
+    "ja": {
+      "metadata": {
+        "title": "オンライン時計 - 現在時刻とUnixタイムスタンプ",
+        "description": "現在時刻、リアルタイムのUnixタイムスタンプ、ISO時刻を毎秒更新で表示する無料時計。ブラウザ内で完結。"
+      },
+      "title": "オンライン時計",
+      "description": "秒まで正確な現在時刻と、Unixタイムスタンプ、ISO 8601時刻を表示するリアルタイム時計です。",
+      "category": "生活ツール",
+      "keywords": [
+        "オンライン時計",
+        "現在時刻",
+        "unixタイムスタンプ",
+        "iso時刻",
+        "リアルタイム時計",
+        "ネット時計"
+      ],
+      "faqs": [
+        {
+          "question": "Unixタイムスタンプは何に使いますか？",
+          "answer": "1970-01-01 UTCからの秒数で、APIやデータベース、スクリプトで曖昧さのない時刻値として使われます。"
+        },
+        {
+          "question": "表示はローカル時刻ですか？",
+          "answer": "はい。端末のローカル時刻を毎秒更新で表示します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "ワールドクロック",
+          "href": "/tools/world-clock"
+        },
+        {
+          "name": "タイムスタンプ変換",
+          "href": "/tools/timestamp-converter"
+        },
+        {
+          "name": "目覚まし",
+          "href": "/tools/alarm"
+        }
+      ],
+      "labels": {
+        "unix": "Unixタイムスタンプ",
+        "iso": "ISO時刻"
+      },
+      "buttons": {}
+    },
+    "ko": {
+      "metadata": {
+        "title": "온라인 시계 - 현재 시간과 Unix 타임스탬프",
+        "description": "현재 시간, 실시간 Unix 타임스탬프, ISO 시간을 매초 갱신해 표시하는 무료 시계입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "온라인 시계",
+      "description": "초 단위의 현재 시간과 Unix 타임스탬프, ISO 8601 시간을 표시하는 실시간 시계입니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "온라인 시계",
+        "현재 시간",
+        "unix 타임스탬프",
+        "iso 시간",
+        "실시간 시계",
+        "인터넷 시계"
+      ],
+      "faqs": [
+        {
+          "question": "Unix 타임스탬프는 어디에 쓰이나요?",
+          "answer": "1970-01-01 UTC부터의 초 수로, API·데이터베이스·스크립트에서 모호함 없는 시간 값을 나타낼 때 사용됩니다."
+        },
+        {
+          "question": "표시되는 시간은 로컬 시간인가요?",
+          "answer": "네. 기기의 로컬 시간을 매초 갱신해 표시합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "세계 시계",
+          "href": "/tools/world-clock"
+        },
+        {
+          "name": "타임스탬프 변환",
+          "href": "/tools/timestamp-converter"
+        },
+        {
+          "name": "알람",
+          "href": "/tools/alarm"
+        }
+      ],
+      "labels": {
+        "unix": "Unix 타임스탬프",
+        "iso": "ISO 시간"
+      },
+      "buttons": {}
+    },
+    "ru": {
+      "metadata": {
+        "title": "Онлайн-часы - текущее время и Unix-время",
+        "description": "Бесплатные онлайн-часы с текущим временем, живой Unix-меткой и временем ISO, обновление каждую секунду. Всё в браузере."
+      },
+      "title": "Онлайн-часы",
+      "description": "Живые часы с точным до секунды временем, а также Unix-меткой и временем ISO 8601 для разработчиков и сверки времени.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "онлайн часы",
+        "текущее время",
+        "unix время",
+        "iso время",
+        "живые часы",
+        "часы онлайн"
+      ],
+      "faqs": [
+        {
+          "question": "Зачем нужны Unix-метки?",
+          "answer": "Unix-метка — число секунд с 1970-01-01 UTC, используется в API, базах данных и скриптах для однозначного времени."
+        },
+        {
+          "question": "Показывается местное время?",
+          "answer": "Да — часы показывают местное время вашего устройства и обновляются каждую секунду."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Мировые часы",
+          "href": "/tools/world-clock"
+        },
+        {
+          "name": "Конвертер меток времени",
+          "href": "/tools/timestamp-converter"
+        },
+        {
+          "name": "Будильник",
+          "href": "/tools/alarm"
+        }
+      ],
+      "labels": {
+        "unix": "Unix-метка",
+        "iso": "Время ISO"
+      },
+      "buttons": {}
+    }
+  }
+}

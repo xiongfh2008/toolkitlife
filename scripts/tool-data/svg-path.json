@@ -1,0 +1,288 @@
+{
+  "slug": "svg-path",
+  "icon": "📐",
+  "home": {
+    "en": {
+      "name": "SVG Path Preview",
+      "description": "Paste an SVG path and preview its shape instantly. Tune stroke, fill and width.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "SVG 路径预览",
+      "description": "粘贴 SVG 路径并即时预览形状，可调整描边、填充与粗细。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "SVG パスプレビュー",
+      "description": "SVG パスを貼り付けて形状を即プレビュー。線・塗り・太さを調整可能。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "SVG 경로 미리보기",
+      "description": "SVG 경로를 붙여넣고 모양을 즉시 미리보기하세요. 선·채우기·굵기를 조절할 수 있습니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Просмотр пути SVG",
+      "description": "Вставьте путь SVG и мгновенно увидите его форму. Настройте обводку, заливку и ширину.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "SVG Path Preview - Free Online Tool",
+        "description": "Free online SVG path previewer. Paste a path and see its shape rendered instantly. Adjust stroke, fill and width. Runs entirely in your browser."
+      },
+      "title": "SVG Path Preview",
+      "description": "Paste an SVG path (the d attribute) and preview its shape instantly. Tune stroke color, fill and stroke width, then download as SVG.",
+      "category": "Image Tools",
+      "keywords": [
+        "svg path",
+        "svg path preview",
+        "path d preview",
+        "svg path viewer",
+        "svg d attribute",
+        "path shape preview"
+      ],
+      "faqs": [
+        {
+          "question": "What is an SVG path?",
+          "answer": "An SVG path is defined by the d attribute — commands like M (move), L (line) and C (curve) that describe a shape."
+        },
+        {
+          "question": "Does my path get uploaded?",
+          "answer": "No. The path is rendered locally in your browser and never leaves your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "SVG Preview",
+          "href": "/tools/svg-preview"
+        },
+        {
+          "name": "SVG to Image",
+          "href": "/tools/svg-to-image"
+        },
+        {
+          "name": "SVG Blob Generator",
+          "href": "/tools/svg-blob-generator"
+        }
+      ],
+      "labels": {
+        "pathD": "Path (d)",
+        "stroke": "Stroke",
+        "fill": "Fill",
+        "width": "Width",
+        "preview": "Preview"
+      },
+      "buttons": {
+        "download": "Download SVG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "SVG 路径预览 - 免费在线工具",
+        "description": "免费的在线 SVG 路径预览工具。粘贴路径并即时查看形状，可调整描边、填充与粗细，全部在浏览器本地完成。"
+      },
+      "title": "SVG 路径预览",
+      "description": "粘贴 SVG 路径（d 属性）并即时预览形状，可调整描边颜色、填充与粗细，并下载为 SVG。",
+      "category": "图片工具",
+      "keywords": [
+        "svg路径",
+        "svg路径预览",
+        "path d 预览",
+        "svg路径查看",
+        "路径形状预览",
+        "svg路径在线预览"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 SVG 路径？",
+          "answer": "SVG 路径由 d 属性定义，通过 M（移动）、L（直线）、C（曲线）等命令描述形状。"
+        },
+        {
+          "question": "我的路径会上传吗？",
+          "answer": "不会。路径在浏览器本地渲染，不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "SVG 预览",
+          "href": "/tools/svg-preview"
+        },
+        {
+          "name": "SVG 转图片",
+          "href": "/tools/svg-to-image"
+        },
+        {
+          "name": "SVG 波浪生成器",
+          "href": "/tools/svg-wave-generator"
+        }
+      ],
+      "labels": {
+        "pathD": "路径 (d)",
+        "stroke": "描边",
+        "fill": "填充",
+        "width": "粗细",
+        "preview": "预览"
+      },
+      "buttons": {
+        "download": "下载 SVG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "SVG パスプレビュー - 無料オンラインツール",
+        "description": "SVG パスを貼り付けて形状を即確認できる無料ツール。線・塗り・太さを調整。すべてブラウザ内で処理。"
+      },
+      "title": "SVG パスプレビュー",
+      "description": "SVG パス（d 属性）を貼り付けて形状を即プレビュー。線の色・塗り・太さを調整して SVG としてダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "svgパス",
+        "svgパスプレビュー",
+        "path d",
+        "パス形状プレビュー",
+        "svgパス表示",
+        "svg d属性"
+      ],
+      "faqs": [
+        {
+          "question": "SVG パスとは？",
+          "answer": "SVG パスは d 属性で定義され、M（移動）・L（直線）・C（曲線）などのコマンドで形状を表します。"
+        },
+        {
+          "question": "パスはアップロードされますか？",
+          "answer": "いいえ。ブラウザ内でローカルにレンダリングされ、デバイス外に出ることはありません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "SVG プレビュー",
+          "href": "/tools/svg-preview"
+        },
+        {
+          "name": "SVG を画像に変換",
+          "href": "/tools/svg-to-image"
+        },
+        {
+          "name": "SVG 波形ジェネレーター",
+          "href": "/tools/svg-wave-generator"
+        }
+      ],
+      "labels": {
+        "pathD": "パス (d)",
+        "stroke": "線",
+        "fill": "塗り",
+        "width": "太さ",
+        "preview": "プレビュー"
+      },
+      "buttons": {
+        "download": "SVG をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "SVG 경로 미리보기 - 무료 온라인 도구",
+        "description": "SVG 경로를 붙여넣어 모양을 즉시 확인하는 무료 온라인 도구입니다. 선·채우기·굵기 조절 가능, 브라우저에서 모두 처리됩니다."
+      },
+      "title": "SVG 경로 미리보기",
+      "description": "SVG 경로(d 속성)를 붙여넣고 모양을 즉시 미리보기하세요. 선 색상·채우기·굵기를 조절하고 SVG로 다운로드할 수 있습니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "svg 경로",
+        "svg 경로 미리보기",
+        "path d",
+        "경로 모양 미리보기",
+        "svg 경로 보기",
+        "svg d 속성"
+      ],
+      "faqs": [
+        {
+          "question": "SVG 경로란 무엇인가요?",
+          "answer": "SVG 경로는 d 속성으로 정의되며 M(이동)·L(직선)·C(곡선) 같은 명령으로 모양을 표현합니다."
+        },
+        {
+          "question": "경로가 업로드되나요?",
+          "answer": "아니요. 브라우저에서 로컬로 렌더링되며 기기를 벗어나지 않습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "SVG 미리보기",
+          "href": "/tools/svg-preview"
+        },
+        {
+          "name": "SVG를 이미지로 변환",
+          "href": "/tools/svg-to-image"
+        },
+        {
+          "name": "SVG 웨이브 생성기",
+          "href": "/tools/svg-wave-generator"
+        }
+      ],
+      "labels": {
+        "pathD": "경로 (d)",
+        "stroke": "선",
+        "fill": "채우기",
+        "width": "굵기",
+        "preview": "미리보기"
+      },
+      "buttons": {
+        "download": "SVG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Просмотр пути SVG - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-просмотрщик путей SVG. Вставьте путь и мгновенно увидите форму. Настройте обводку, заливку и ширину — всё в браузере."
+      },
+      "title": "Просмотр пути SVG",
+      "description": "Вставьте путь SVG (атрибут d) и мгновенно посмотрите его форму. Настройте цвет обводки, заливку и ширину, затем скачайте SVG.",
+      "category": "Изображения",
+      "keywords": [
+        "svg путь",
+        "просмотр пути svg",
+        "атрибут d",
+        "форма пути svg",
+        "просмотр path d",
+        "атрибут d svg"
+      ],
+      "faqs": [
+        {
+          "question": "Что такое путь SVG?",
+          "answer": "Путь SVG задаётся атрибутом d — командами M (move), L (line), C (curve), которые описывают форму."
+        },
+        {
+          "question": "Загружается ли мой путь на сервер?",
+          "answer": "Нет. Путь рендерится локально в браузере и не покидает ваше устройство."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Предпросмотр SVG",
+          "href": "/tools/svg-preview"
+        },
+        {
+          "name": "SVG в изображение",
+          "href": "/tools/svg-to-image"
+        },
+        {
+          "name": "Генератор SVG-волн",
+          "href": "/tools/svg-wave-generator"
+        }
+      ],
+      "labels": {
+        "pathD": "Путь (d)",
+        "stroke": "Обводка",
+        "fill": "Заливка",
+        "width": "Ширина",
+        "preview": "Предпросмотр"
+      },
+      "buttons": {
+        "download": "Скачать SVG"
+      }
+    }
+  }
+}

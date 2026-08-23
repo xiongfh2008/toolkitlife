@@ -1,0 +1,248 @@
+{
+  "slug": "world-clock",
+  "icon": "🌍",
+  "home": {
+    "en": {
+      "name": "World Clock",
+      "description": "Current time in 16 cities around the world.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "世界时钟",
+      "description": "查看全球 16 个城市的当前时间。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "ワールドクロック",
+      "description": "世界16都市の現在時刻を表示します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "세계 시계",
+      "description": "세계 16개 도시의 현재 시간을 확인합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Мировые часы",
+      "description": "Текущее время в 16 городах мира.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "World Clock - Current Time in 16 Cities Online",
+        "description": "Free online world clock showing the current time in 16 major cities across all continents. Updates every second. Runs in your browser."
+      },
+      "title": "World Clock",
+      "description": "See the current local time in 16 major cities across the globe at a glance, updated every second.",
+      "category": "Life Tools",
+      "keywords": [
+        "world clock",
+        "time zones",
+        "world time",
+        "city time",
+        "international time",
+        "current time"
+      ],
+      "faqs": [
+        {
+          "question": "Which cities are included?",
+          "answer": "16 major cities across all continents: London, New York, Los Angeles, Toronto, Sao Paulo, Berlin, Paris, Moscow, Dubai, Mumbai, Singapore, Beijing, Tokyo, Seoul, Sydney and Auckland."
+        },
+        {
+          "question": "Is the time accurate?",
+          "answer": "Yes — times are computed from your device's clock using official IANA time zone data, and refresh every second."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Online Clock",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "Alarm Clock",
+          "href": "/tools/alarm"
+        },
+        {
+          "name": "Unix Timestamp Converter",
+          "href": "/tools/timestamp-converter"
+        }
+      ],
+      "labels": {},
+      "buttons": {}
+    },
+    "zh": {
+      "metadata": {
+        "title": "世界时钟 - 全球 16 城当前时间",
+        "description": "免费在线世界时钟，显示全球 16 个主要城市的当前时间，每秒自动刷新。全程在浏览器本地完成。"
+      },
+      "title": "世界时钟",
+      "description": "一眼查看全球 16 个主要城市的当前当地时间，每秒自动刷新。",
+      "category": "生活工具",
+      "keywords": [
+        "世界时钟",
+        "时区",
+        "世界时间",
+        "城市时间",
+        "国际时间",
+        "当前时间"
+      ],
+      "faqs": [
+        {
+          "question": "包含哪些城市？",
+          "answer": "覆盖各大洲的 16 个主要城市：伦敦、纽约、洛杉矶、多伦多、圣保罗、柏林、巴黎、莫斯科、迪拜、孟买、新加坡、北京、东京、首尔、悉尼和奥克兰。"
+        },
+        {
+          "question": "时间准确吗？",
+          "answer": "准确。时间基于你设备的时钟，使用官方 IANA 时区数据计算，并每秒刷新。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "在线时钟",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "闹钟",
+          "href": "/tools/alarm"
+        },
+        {
+          "name": "时间戳转换",
+          "href": "/tools/timestamp-converter"
+        }
+      ],
+      "labels": {},
+      "buttons": {}
+    },
+    "ja": {
+      "metadata": {
+        "title": "ワールドクロック - 世界16都市の現在時刻",
+        "description": "世界16の主要都市の現在時刻を毎秒更新で表示する無料ツール。ブラウザ内で完結します。"
+      },
+      "title": "ワールドクロック",
+      "description": "世界16の主要都市の現在時刻をひと目で確認できます。毎秒自動更新。",
+      "category": "生活ツール",
+      "keywords": [
+        "ワールドクロック",
+        "時差",
+        "世界時計",
+        "都市の時刻",
+        "現在時刻",
+        "国際時刻"
+      ],
+      "faqs": [
+        {
+          "question": "どの都市が含まれますか？",
+          "answer": "ロンドン、ニューヨーク、ロサンゼルス、トロント、サンパウロ、ベルリン、パリ、モスクワ、ドバイ、ムンバイ、シンガポール、北京、東京、ソウル、シドニー、オークランドの16都市です。"
+        },
+        {
+          "question": "時刻は正確ですか？",
+          "answer": "はい。端末の時計と公式IANAタイムゾーンデータから計算し、毎秒更新します。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "オンライン時計",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "目覚まし",
+          "href": "/tools/alarm"
+        },
+        {
+          "name": "タイムスタンプ変換",
+          "href": "/tools/timestamp-converter"
+        }
+      ],
+      "labels": {},
+      "buttons": {}
+    },
+    "ko": {
+      "metadata": {
+        "title": "세계 시계 - 전 세계 16개 도시 현재 시간",
+        "description": "세계 16개 주요 도시의 현재 시간을 매초 갱신해 표시하는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "세계 시계",
+      "description": "전 세계 16개 주요 도시의 현재 현지 시간을 한눈에 확인할 수 있으며 매초 자동 갱신됩니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "세계 시계",
+        "시간대",
+        "세계 시간",
+        "도시 시간",
+        "국제 시간",
+        "현재 시간"
+      ],
+      "faqs": [
+        {
+          "question": "어떤 도시가 포함되나요?",
+          "answer": "런던, 뉴욕, 로스앤젤레스, 토론토, 상파울루, 베를린, 파리, 모스크바, 두바이, 뭄바이, 싱가포르, 베이징, 도쿄, 서울, 시드니, 오클랜드 등 16개 도시입니다."
+        },
+        {
+          "question": "시간이 정확한가요?",
+          "answer": "네. 기기 시계와 공식 IANA 시간대 데이터로 계산되며 매초 갱신됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "온라인 시계",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "알람",
+          "href": "/tools/alarm"
+        },
+        {
+          "name": "타임스탬프 변환",
+          "href": "/tools/timestamp-converter"
+        }
+      ],
+      "labels": {},
+      "buttons": {}
+    },
+    "ru": {
+      "metadata": {
+        "title": "Мировые часы - время в 16 городах онлайн",
+        "description": "Бесплатные онлайн-мировые часы: текущее время в 16 крупных городах всех континентов. Обновление каждую секунду. Всё в браузере."
+      },
+      "title": "Мировые часы",
+      "description": "Смотрите текущее местное время в 16 крупных городах мира одним взглядом, обновляется каждую секунду.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "мировые часы",
+        "часовые пояса",
+        "время в мире",
+        "время в городах",
+        "международное время",
+        "текущее время"
+      ],
+      "faqs": [
+        {
+          "question": "Какие города включены?",
+          "answer": "16 крупных городов со всех континентов: Лондон, Нью-Йорк, Лос-Анджелес, Торонто, Сан-Паулу, Берлин, Париж, Москва, Дубай, Мумбаи, Сингапур, Пекин, Токио, Сеул, Сидней и Окленд."
+        },
+        {
+          "question": "Время точное?",
+          "answer": "Да — время вычисляется по часам вашего устройства с официальными данными IANA и обновляется каждую секунду."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Онлайн-часы",
+          "href": "/tools/online-clock"
+        },
+        {
+          "name": "Будильник",
+          "href": "/tools/alarm"
+        },
+        {
+          "name": "Конвертер меток времени",
+          "href": "/tools/timestamp-converter"
+        }
+      ],
+      "labels": {},
+      "buttons": {}
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "slug": "answer-book",
+  "icon": "🔮",
+  "home": {
+    "en": {
+      "name": "Magic Answer Book",
+      "description": "Ask a question and get a random answer.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "答案之书",
+      "description": "心中默念问题，翻开书得到随机答案。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "答えの本",
+      "description": "質問を心に浮かべて本を開くとランダムな答えが。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "마법의 답변책",
+      "description": "질문을 떠올리고 책을 펼치면 무작위 답변이 나옵니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Книга ответов",
+      "description": "Задайте вопрос и получите случайный ответ.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Magic Answer Book - Get a Random Answer Online",
+        "description": "Free online magic answer book. Think of a question, tap the book and receive a random answer. Fun and private — everything runs in your browser."
+      },
+      "title": "Magic Answer Book",
+      "description": "Hold a yes/no question in your mind, tap the book and let it reveal an answer at random. A fun way to break indecision.",
+      "category": "Life Tools",
+      "keywords": [
+        "answer book",
+        "magic 8 ball",
+        "random answer",
+        "yes or no",
+        "decision maker",
+        "fortune book"
+      ],
+      "faqs": [
+        {
+          "question": "Is this a real fortune teller?",
+          "answer": "No — answers are picked at random. Treat it as a fun decision helper, not a prediction."
+        },
+        {
+          "question": "Can I ask again?",
+          "answer": "Yes, tap the book as many times as you like. Each tap gives a new random answer."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Coin Flip",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Random Picker",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "Dice Roller",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "ask": "Ask a question, then tap the book",
+        "hint": "Tap the book to reveal an answer"
+      },
+      "buttons": {}
+    },
+    "zh": {
+      "metadata": {
+        "title": "答案之书 - 在线随机答案",
+        "description": "免费在线答案之书。心中默念问题，点击书籍即可获得随机答案，有趣又私密。全程在浏览器本地完成。"
+      },
+      "title": "答案之书",
+      "description": "在脑海中默念一个是否类问题，点击书页即可获得随机答案。一种有趣的做决定方式。",
+      "category": "生活工具",
+      "keywords": [
+        "答案之书",
+        "随机答案",
+        "魔法书",
+        "是否答案",
+        "决策工具",
+        "占卜书"
+      ],
+      "faqs": [
+        {
+          "question": "这是真正的占卜吗？",
+          "answer": "不是，答案完全随机。请把它当作有趣的决策辅助，而非预测。"
+        },
+        {
+          "question": "可以重复提问吗？",
+          "answer": "可以，点击多少次都行，每次都会得到新的随机答案。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "抛硬币",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "随机抽签",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "掷骰子",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "ask": "心中默念问题，然后点击书籍",
+        "hint": "点击书籍获得答案"
+      },
+      "buttons": {}
+    },
+    "ja": {
+      "metadata": {
+        "title": "答えの本 - オンラインでランダムな答え",
+        "description": "質問を心に浮かべて本をタップするだけでランダムな答えが得られる無料ツール。楽しくプライベート。ブラウザ内で完結。"
+      },
+      "title": "答えの本",
+      "description": "心の中でイエス/ノー質問を思い浮かべ、本をタップして答えをランダムに表示します。",
+      "category": "生活ツール",
+      "keywords": [
+        "答えの本",
+        "マジック8ボール",
+        "ランダムな答え",
+        "イエスノー",
+        "決断",
+        "占い本"
+      ],
+      "faqs": [
+        {
+          "question": "本当に占えるのですか？",
+          "answer": "いいえ。答えはランダムです。面白い決断補助としてお楽しみください。"
+        },
+        {
+          "question": "何度でも聞けますか？",
+          "answer": "はい。タップするたびに新しいランダムな答えが表示されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "コイントス",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "ランダム抽選",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "サイコロ",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "ask": "質問を思い浮かべて本をタップ",
+        "hint": "本をタップして答えを見る"
+      },
+      "buttons": {}
+    },
+    "ko": {
+      "metadata": {
+        "title": "마법의 답변책 - 온라인 무작위 답변",
+        "description": "질문을 떠올리고 책을 탭하면 무작위 답변이 나오는 무료 도구입니다. 재미있고 프라이빗하게 브라우저에서 완료됩니다."
+      },
+      "title": "마법의 답변책",
+      "description": "마음속으로 예/아니오 질문을 떠올린 뒤 책을 탭하면 무작위 답변이 표시됩니다. 결정을 도와주는 재미있는 방법입니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "답변책",
+        "마법의 책",
+        "무작위 답변",
+        "예 아니오",
+        "결정 도구",
+        "점성술 책"
+      ],
+      "faqs": [
+        {
+          "question": "진짜 점을 보는 건가요?",
+          "answer": "아니요. 답변은 완전히 무작위입니다. 재미있는 결정 보조 도구로 즐기세요."
+        },
+        {
+          "question": "다시 질문할 수 있나요?",
+          "answer": "네. 탭할 때마다 새로운 무작위 답변이 나옵니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "동전 던지기",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "랜덤 뽑기",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "주사위",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "ask": "질문을 떠올린 후 책을 탭하세요",
+        "hint": "책을 탭해 답변을 확인하세요"
+      },
+      "buttons": {}
+    },
+    "ru": {
+      "metadata": {
+        "title": "Книга ответов - случайный ответ онлайн",
+        "description": "Бесплатная онлайн-книга ответов. Загадайте вопрос, нажмите на книгу и получите случайный ответ. Весело и приватно — всё в браузере."
+      },
+      "title": "Книга ответов",
+      "description": "Загадайте вопрос «да/нет», нажмите на книгу, и она даст случайный ответ. Забавный способ выйти из нерешительности.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "книга ответов",
+        "магический шар",
+        "случайный ответ",
+        "да или нет",
+        "помощник решений",
+        "книга гаданий"
+      ],
+      "faqs": [
+        {
+          "question": "Это настоящее гадание?",
+          "answer": "Нет — ответы выбираются случайно. Воспринимайте это как весёлого помощника, а не предсказание."
+        },
+        {
+          "question": "Можно спросить ещё раз?",
+          "answer": "Да, нажимайте сколько угодно — каждый раз появится новый случайный ответ."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Монетка",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Случайный выбор",
+          "href": "/tools/random-picker"
+        },
+        {
+          "name": "Кубики",
+          "href": "/tools/dice-roller"
+        }
+      ],
+      "labels": {
+        "ask": "Задайте вопрос и нажмите на книгу",
+        "hint": "Нажмите на книгу, чтобы получить ответ"
+      },
+      "buttons": {}
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "slug": "web-icon",
+  "icon": "🌐",
+  "home": {
+    "en": {
+      "name": "Website Icon Fetcher",
+      "description": "Fetch and download the favicon of any website instantly by entering its domain.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "网站图标获取",
+      "description": "输入域名，一键获取并下载任意网站的 favicon 图标。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "サイトアイコン取得",
+      "description": "ドメインを入力するだけで、任意サイトのファビコンを取得・ダウンロード。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "웹사이트 아이콘 가져오기",
+      "description": "도메인을 입력하면 모든 웹사이트의 favicon을 즉시 가져와 다운로드하세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Загрузка иконки сайта",
+      "description": "Введите домен и мгновенно получите и скачайте favicon любого сайта.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Website Icon Fetcher - Free Online Tool",
+        "description": "Free online tool to fetch and download the favicon of any website. Enter a domain and get its icon instantly, ready to download."
+      },
+      "title": "Website Icon Fetcher",
+      "description": "Get the favicon of any website in seconds. Enter a domain, preview the icon and download it for use in your own projects.",
+      "category": "Image Tools",
+      "keywords": [
+        "website icon",
+        "favicon download",
+        "favicon fetcher",
+        "get favicon",
+        "website favicon",
+        "favicon from url",
+        "site icon"
+      ],
+      "faqs": [
+        {
+          "question": "Which favicon is returned?",
+          "answer": "The tool returns the favicon served by the site for its domain (usually the .ico or PNG icon shown in the browser tab)."
+        },
+        {
+          "question": "Can I use the icon in my own project?",
+          "answer": "Yes — download it as a 256 × 256 PNG and use it anywhere. Note that favicons may be copyrighted by their owners."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon Generator",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Multi-size Icon Generator",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "Domain Age",
+          "href": "/tools/domain-age"
+        }
+      ],
+      "labels": {
+        "size": "Size"
+      },
+      "buttons": {
+        "fetch": "Fetch",
+        "download": "Download PNG"
+      },
+      "errors": {
+        "failed": "Could not fetch the icon. Check the domain and try again."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "网站图标获取工具 - 免费在线工具",
+        "description": "免费的在线网站 favicon 获取工具。输入域名即可查看并下载任意网站的图标。"
+      },
+      "title": "网站图标获取工具",
+      "description": "几秒钟获取任意网站的 favicon。输入域名，预览图标并下载用于自己的项目。",
+      "category": "图片工具",
+      "keywords": [
+        "网站图标",
+        "favicon下载",
+        "获取favicon",
+        "网站favicon",
+        "站点图标",
+        "favicon获取",
+        "域名图标"
+      ],
+      "faqs": [
+        {
+          "question": "返回的是哪个图标？",
+          "answer": "返回该网站域名对应的 favicon（通常是浏览器标签页显示的 .ico 或 PNG 图标）。"
+        },
+        {
+          "question": "可以用于自己的项目吗？",
+          "answer": "可以。下载为 256 × 256 PNG 后随处可用。注意 favicon 可能归网站所有者所有。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon 生成器",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "多尺寸图标生成器",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "域名年龄查询",
+          "href": "/tools/domain-age"
+        }
+      ],
+      "labels": {
+        "size": "尺寸"
+      },
+      "buttons": {
+        "fetch": "获取",
+        "download": "下载 PNG"
+      },
+      "errors": {
+        "failed": "无法获取图标，请检查域名后重试。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "サイトアイコン取得 - 無料オンラインツール",
+        "description": "ドメインを入力して任意サイトのファビコンを取得・ダウンロードできる無料オンラインツール。"
+      },
+      "title": "サイトアイコン取得",
+      "description": "数秒で任意サイトのファビコンを取得。ドメインを入力してアイコンを確認し、自分のプロジェクトに使えます。",
+      "category": "画像ツール",
+      "keywords": [
+        "サイトアイコン",
+        "ファビコン取得",
+        "faviconダウンロード",
+        "ウェブサイトアイコン",
+        "favicon取得",
+        "ドメインアイコン",
+        "favicon アイコン"
+      ],
+      "faqs": [
+        {
+          "question": "どのアイコンが返されますか？",
+          "answer": "そのドメインの favicon（通常はブラウザタブに表示される .ico または PNG）が返されます。"
+        },
+        {
+          "question": "自分のプロジェクトで使えますか？",
+          "answer": "はい。256 × 256 PNG でダウンロードしてお使いいただけます。著作権にはご注意ください。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "ファビコン生成",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "多サイズアイコン生成",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "ドメイン年齢",
+          "href": "/tools/domain-age"
+        }
+      ],
+      "labels": {
+        "size": "サイズ"
+      },
+      "buttons": {
+        "fetch": "取得",
+        "download": "PNG をダウンロード"
+      },
+      "errors": {
+        "failed": "アイコンを取得できませんでした。ドメインを確認して再試行してください。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "웹사이트 아이콘 가져오기 - 무료 온라인 도구",
+        "description": "도메인을 입력해 모든 웹사이트의 favicon을 가져오고 다운로드할 수 있는 무료 온라인 도구입니다."
+      },
+      "title": "웹사이트 아이콘 가져오기",
+      "description": "몇 초 안에 모든 웹사이트의 favicon을 가져오세요. 도메인을 입력하고 아이콘을 미리본 뒤 자신의 프로젝트에 사용할 수 있습니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "웹사이트 아이콘",
+        "favicon 다운로드",
+        "favicon 가져오기",
+        "웹사이트 favicon",
+        "사이트 아이콘",
+        "도메인 아이콘",
+        "아이콘 가져오기"
+      ],
+      "faqs": [
+        {
+          "question": "어떤 아이콘이 반환되나요?",
+          "answer": "해당 도메인의 favicon(보통 브라우저 탭에 표시되는 .ico 또는 PNG 아이콘)이 반환됩니다."
+        },
+        {
+          "question": "내 프로젝트에 사용할 수 있나요?",
+          "answer": "네. 256 × 256 PNG로 다운로드해 어디서든 사용하세요. favicon의 저작권에 주의하세요."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "파비콘 생성기",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "다중 크기 아이콘 생성기",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "도메인 연식",
+          "href": "/tools/domain-age"
+        }
+      ],
+      "labels": {
+        "size": "크기"
+      },
+      "buttons": {
+        "fetch": "가져오기",
+        "download": "PNG 다운로드"
+      },
+      "errors": {
+        "failed": "아이콘을 가져올 수 없습니다. 도메인을 확인하고 다시 시도하세요."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Загрузка иконки сайта - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-инструмент для получения favicon любого сайта. Введите домен и скачайте иконку мгновенно."
+      },
+      "title": "Загрузка иконки сайта",
+      "description": "Получите favicon любого сайта за секунды. Введите домен, посмотрите иконку и скачайте её для своих проектов.",
+      "category": "Изображения",
+      "keywords": [
+        "иконка сайта",
+        "скачать favicon",
+        "получить favicon",
+        "favicon сайта",
+        "иконка по домену",
+        "favicon из url",
+        "значок по домену"
+      ],
+      "faqs": [
+        {
+          "question": "Какая иконка возвращается?",
+          "answer": "Возвращается favicon домена (обычно значок .ico или PNG из вкладки браузера)."
+        },
+        {
+          "question": "Можно ли использовать иконку в своём проекте?",
+          "answer": "Да — скачайте её как PNG 256 × 256. Учтите, что favicon может быть защищён авторским правом владельца."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор фавиконов",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Многоразмерные иконки",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "Возраст домена",
+          "href": "/tools/domain-age"
+        }
+      ],
+      "labels": {
+        "size": "Размер"
+      },
+      "buttons": {
+        "fetch": "Получить",
+        "download": "Скачать PNG"
+      },
+      "errors": {
+        "failed": "Не удалось получить иконку. Проверьте домен и попробуйте снова."
+      }
+    }
+  }
+}

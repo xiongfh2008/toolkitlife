@@ -1,0 +1,318 @@
+{
+  "slug": "image-auto-trim",
+  "icon": "✂️",
+  "home": {
+    "en": {
+      "name": "Auto Trim Image",
+      "description": "Automatically trim transparent edges or solid-color borders from an image.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片自动裁剪",
+      "description": "自动去除图片四周的透明边缘或纯色边框。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像自動トリミング",
+      "description": "画像の透明な縁や単色の枠を自動で切り取ります。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 자동 트리밍",
+      "description": "이미지 가장자리의 투명 영역이나 단색 테두리를 자동으로 잘라냅니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Автообрезка изображения",
+      "description": "Автоматически обрежьте прозрачные края или одноцветные рамки изображения.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Auto Trim Image - Cut Empty Edges Online",
+        "description": "Automatically trim transparent edges or solid-color borders from an image. Free, runs in your browser."
+      },
+      "title": "Auto Trim Image",
+      "description": "Remove transparent or solid-colored edges from an image in one click. Perfect for cleaning up PNGs, screenshots and logos.",
+      "category": "Image Tools",
+      "keywords": [
+        "auto trim image",
+        "trim transparent edges",
+        "remove white border",
+        "crop transparent pixels",
+        "auto crop image",
+        "trim image edges"
+      ],
+      "faqs": [
+        {
+          "question": "How does auto trim detect edges?",
+          "answer": "In transparent mode it removes rows and columns where every pixel is fully transparent; in corner mode it removes edges matching the top-left corner color."
+        },
+        {
+          "question": "Will it crop my photo incorrectly?",
+          "answer": "Photos usually have no fully transparent or uniform border, so nothing is trimmed and the image is kept unchanged in that case."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "Image Crop Tool",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "mode": "Trim mode",
+        "transparent": "Transparent edges",
+        "corner": "Solid-color border",
+        "original": "Original",
+        "result": "Trimmed",
+        "nothingToTrim": "Nothing to trim"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片自动裁剪 - 在线去除图片多余边缘",
+        "description": "自动去除图片四周的透明边缘或纯色边框。免费，浏览器内运行。"
+      },
+      "title": "图片自动裁剪",
+      "description": "一键去除图片四周的透明或纯色边缘，适合清理 PNG、截图和 Logo。",
+      "category": "图片工具",
+      "keywords": [
+        "图片自动裁剪",
+        "去除透明边缘",
+        "去除白色边框",
+        "裁剪透明像素",
+        "自动裁剪图片",
+        "去除图片边缘"
+      ],
+      "faqs": [
+        {
+          "question": "自动裁剪如何识别边缘？",
+          "answer": "透明模式下会移除整行整列都完全透明的区域；纯色模式下会移除与左上角颜色一致的边缘。"
+        },
+        {
+          "question": "会把照片裁坏吗？",
+          "answer": "照片通常没有完全透明或纯色的边框，此时不会进行裁剪，图片保持原样。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加边距",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "图片裁剪工具",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "mode": "裁剪模式",
+        "transparent": "透明边缘",
+        "corner": "纯色边框",
+        "original": "原图",
+        "result": "裁剪后",
+        "nothingToTrim": "无需裁剪"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像自動トリミング - オンラインで余白をカット",
+        "description": "画像の透明な縁や単色の枠を自動で切り取ります。無料・ブラウザ内で完結。"
+      },
+      "title": "画像自動トリミング",
+      "description": "画像の透明または単色の縁をワンクリックで削除。PNG・スクリーンショット・ロゴの整理に最適。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像自動トリミング",
+        "透明部分を削除",
+        "白い枠を除去",
+        "透明ピクセルをカット",
+        "画像を自動クロップ",
+        "画像の縁を削除"
+      ],
+      "faqs": [
+        {
+          "question": "自動トリミングはどうやって縁を検出しますか？",
+          "answer": "透明モードでは全ピクセルが透明な行・列を除去し、単色モードでは左上の色と一致する縁を除去します。"
+        },
+        {
+          "question": "写真を誤って切り取りますか？",
+          "answer": "写真に完全な透明や単色の縁がない場合は何も切り取らず、画像はそのまま保持されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像マージン追加",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "画像切り抜きツール",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "画像背景追加",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップ",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード",
+        "newImage": "新しい画像"
+      },
+      "labels": {
+        "mode": "トリミングモード",
+        "transparent": "透明な縁",
+        "corner": "単色の枠",
+        "original": "元画像",
+        "result": "トリミング後",
+        "nothingToTrim": "トリミング対象なし"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 자동 트리밍 - 온라인 여백 자르기",
+        "description": "이미지 가장자리의 투명 영역이나 단색 테두리를 자동으로 잘라냅니다. 무료, 브라우저에서 실행."
+      },
+      "title": "이미지 자동 트리밍",
+      "description": "이미지 가장자리의 투명 또는 단색 여백을 한 번의 클릭으로 제거합니다. PNG·스크린샷·로고 정리에 유용.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 자동 트리밍",
+        "투명 가장자리 제거",
+        "흰색 테두리 제거",
+        "투명 픽셀 자르기",
+        "이미지 자동 자르기",
+        "이미지 가장자리 제거"
+      ],
+      "faqs": [
+        {
+          "question": "자동 트리밍은 가장자리를 어떻게 감지하나요?",
+          "answer": "투명 모드에서는 모든 픽셀이 투명한 행·열을 제거하고, 단색 모드에서는 왼쪽 위 모서리 색과 일치하는 가장자리를 제거합니다."
+        },
+        {
+          "question": "사진을 잘못 자를 수도 있나요?",
+          "answer": "사진에는 완전히 투명하거나 단색인 테두리가 없으므로 이 경우 아무것도 자르지 않고 원본을 유지합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 여백 추가",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "이미지 자르기 도구",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "이미지 배경 추가",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 여기에 놓으세요",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG 다운로드",
+        "newImage": "새 이미지"
+      },
+      "labels": {
+        "mode": "트리밍 모드",
+        "transparent": "투명 가장자리",
+        "corner": "단색 테두리",
+        "original": "원본",
+        "result": "트리밍 후",
+        "nothingToTrim": "트리밍할 부분 없음"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Автообрезка изображения - обрезать края онлайн",
+        "description": "Автоматически обрежьте прозрачные края или одноцветные рамки изображения. Бесплатно, работает в браузере."
+      },
+      "title": "Автообрезка изображения",
+      "description": "Удалите прозрачные или одноцветные края изображения в один клик. Идеально для PNG, скриншотов и логотипов.",
+      "category": "Изображения",
+      "keywords": [
+        "автообрезка изображения",
+        "обрезать прозрачные края",
+        "убрать белую рамку",
+        "обрезка прозрачных пикселей",
+        "автоматическая обрезка",
+        "обрезать края изображения"
+      ],
+      "faqs": [
+        {
+          "question": "Как автообрезка определяет края?",
+          "answer": "В прозрачном режиме удаляются строки и столбцы, где все пиксели полностью прозрачны; в режиме рамки — края, совпадающие с цветом верхнего левого угла."
+        },
+        {
+          "question": "Может ли инструмент испортить фото?",
+          "answer": "У фотографий обычно нет полностью прозрачных или однотонных рамок, поэтому в этом случае изображение остаётся без изменений."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Поля вокруг изображения",
+          "href": "/tools/image-margin"
+        },
+        {
+          "name": "Обрезка изображений",
+          "href": "/tools/image-crop"
+        },
+        {
+          "name": "Фон для изображения",
+          "href": "/tools/image-background"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображение сюда",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Скачать PNG",
+        "newImage": "Новое изображение"
+      },
+      "labels": {
+        "mode": "Режим обрезки",
+        "transparent": "Прозрачные края",
+        "corner": "Одноцветная рамка",
+        "original": "Оригинал",
+        "result": "После обрезки",
+        "nothingToTrim": "Нечего обрезать"
+      }
+    }
+  }
+}

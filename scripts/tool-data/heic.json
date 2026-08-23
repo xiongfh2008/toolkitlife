@@ -1,0 +1,313 @@
+{
+  "slug": "heic",
+  "icon": "📱",
+  "home": {
+    "en": {
+      "name": "HEIC to JPG/PNG",
+      "description": "Convert HEIC/HEIF photos to JPG or PNG right in your browser.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "HEIC 转 JPG/PNG",
+      "description": "在浏览器中直接将 HEIC/HEIF 照片转换为 JPG 或 PNG。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "HEIC→JPG/PNG 変換",
+      "description": "HEIC/HEIF 写真をブラウザ内で JPG や PNG に変換します。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "HEIC→JPG/PNG 변환",
+      "description": "브라우저에서 HEIC/HEIF 사진을 JPG 또는 PNG로 바로 변환하세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "HEIC в JPG/PNG",
+      "description": "Конвертируйте фото HEIC/HEIF в JPG или PNG прямо в браузере.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "HEIC to JPG/PNG Converter - Free Online Tool",
+        "description": "Free online HEIC/HEIF converter: turn iPhone photos into JPG or PNG in your browser. No upload, private and instant."
+      },
+      "title": "HEIC to JPG/PNG",
+      "description": "Convert iPhone and Android HEIC/HEIF photos to JPG or PNG. Everything runs locally in your browser — no upload, no quality loss beyond the chosen format.",
+      "category": "Image Tools",
+      "keywords": [
+        "heic to jpg",
+        "heic to png",
+        "heif converter",
+        "iphone photo converter",
+        "convert heic",
+        "heic online"
+      ],
+      "faqs": [
+        {
+          "question": "Are my photos uploaded to a server?",
+          "answer": "No. The conversion runs entirely in your browser with WebAssembly, so your photos never leave your device."
+        },
+        {
+          "question": "Which format should I pick?",
+          "answer": "JPG is smaller and universally supported; PNG is lossless and keeps transparency where available."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "WebP Converter",
+          "href": "/tools/image-to-webp"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a HEIC/HEIF photo here",
+        "formats": "HEIC · HEIF"
+      },
+      "labels": {
+        "outputFormat": "Output format",
+        "converting": "Converting…"
+      },
+      "buttons": {
+        "download": "Download"
+      },
+      "errors": {
+        "type": "Please choose a HEIC/HEIF file.",
+        "failed": "Conversion failed. The file may be corrupted."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "HEIC 转 JPG/PNG 转换器 - 免费在线工具",
+        "description": "免费在线 HEIC/HEIF 转换器：在浏览器中将 iPhone 照片转换为 JPG 或 PNG。无需上传，私密且即时。"
+      },
+      "title": "HEIC 转 JPG/PNG",
+      "description": "将 iPhone 和 Android 的 HEIC/HEIF 照片转换为 JPG 或 PNG。所有处理都在浏览器本地完成——无需上传，除所选格式外无画质损失。",
+      "category": "图片工具",
+      "keywords": [
+        "heic 转 jpg",
+        "heic 转 png",
+        "heif 转换",
+        "苹果照片转换",
+        "heic 转换器",
+        "heic 在线转换"
+      ],
+      "faqs": [
+        {
+          "question": "我的照片会上传到服务器吗？",
+          "answer": "不会。转换完全在浏览器中通过 WebAssembly 进行，照片不会离开你的设备。"
+        },
+        {
+          "question": "应该选择哪种格式？",
+          "answer": "JPG 体积更小且兼容性最好；PNG 无损，可保留透明通道。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片格式转换",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "WebP 转换",
+          "href": "/tools/image-to-webp"
+        }
+      ],
+      "upload": {
+        "drop": "将 HEIC/HEIF 照片拖到此处",
+        "formats": "HEIC · HEIF"
+      },
+      "labels": {
+        "outputFormat": "输出格式",
+        "converting": "转换中…"
+      },
+      "buttons": {
+        "download": "下载"
+      },
+      "errors": {
+        "type": "请选择 HEIC/HEIF 文件。",
+        "failed": "转换失败，文件可能已损坏。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "HEIC→JPG/PNG 変換 - 無料オンラインツール",
+        "description": "ブラウザで iPhone の写真を JPG や PNG に変換する無料の HEIC/HEIF コンバーター。アップロード不要でプライベート。"
+      },
+      "title": "HEIC→JPG/PNG 変換",
+      "description": "iPhone や Android の HEIC/HEIF 写真を JPG または PNG に変換します。すべてブラウザ内で処理されるため、アップロードは一切ありません。",
+      "category": "画像ツール",
+      "keywords": [
+        "heic jpg 変換",
+        "heic png 変換",
+        "heif 変換",
+        "iPhone 写真変換",
+        "heic コンバーター",
+        "heic オンライン"
+      ],
+      "faqs": [
+        {
+          "question": "写真はサーバーにアップロードされますか？",
+          "answer": "いいえ。変換は WebAssembly でブラウザ内で完結するため、写真が端末の外に出ることはありません。"
+        },
+        {
+          "question": "どの形式を選べばいいですか？",
+          "answer": "JPG は軽くて汎用性が高く、PNG はロスレスで透過情報を保持できます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像形式変換",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "画像圧縮",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "WebP 変換",
+          "href": "/tools/image-to-webp"
+        }
+      ],
+      "upload": {
+        "drop": "HEIC/HEIF 写真をドロップ",
+        "formats": "HEIC · HEIF"
+      },
+      "labels": {
+        "outputFormat": "出力形式",
+        "converting": "変換中…"
+      },
+      "buttons": {
+        "download": "ダウンロード"
+      },
+      "errors": {
+        "type": "HEIC/HEIF ファイルを選択してください。",
+        "failed": "変換に失敗しました。ファイルが破損している可能性があります。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "HEIC→JPG/PNG 변환기 - 무료 온라인 도구",
+        "description": "브라우저에서 iPhone 사진을 JPG나 PNG로 변환하는 무료 HEIC/HEIF 변환기입니다. 업로드 없이 안전하게."
+      },
+      "title": "HEIC→JPG/PNG 변환",
+      "description": "iPhone 및 Android의 HEIC/HEIF 사진을 JPG 또는 PNG로 변환합니다. 모든 처리는 브라우저에서 로컬로 진행되어 업로드가 없습니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "heic jpg 변환",
+        "heic png 변환",
+        "heif 변환",
+        "아이폰 사진 변환",
+        "heic 변환기",
+        "heic 온라인 변환"
+      ],
+      "faqs": [
+        {
+          "question": "사진이 서버로 업로드되나요?",
+          "answer": "아니요. WebAssembly로 브라우저 안에서만 변환되므로 사진이 기기를 벗어나지 않습니다."
+        },
+        {
+          "question": "어떤 형식을 선택해야 하나요?",
+          "answer": "JPG는 가볍고 호환성이 높으며, PNG는 무손실로 투명도도 유지할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 형식 변환",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "이미지 압축",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "WebP 변환",
+          "href": "/tools/image-to-webp"
+        }
+      ],
+      "upload": {
+        "drop": "HEIC/HEIF 사진을 여기에 놓으세요",
+        "formats": "HEIC · HEIF"
+      },
+      "labels": {
+        "outputFormat": "출력 형식",
+        "converting": "변환 중…"
+      },
+      "buttons": {
+        "download": "다운로드"
+      },
+      "errors": {
+        "type": "HEIC/HEIF 파일을 선택하세요.",
+        "failed": "변환에 실패했습니다. 파일이 손상되었을 수 있습니다."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "HEIC в JPG/PNG - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-конвертер HEIC/HEIF: превращайте фото iPhone в JPG или PNG в браузере без загрузки на сервер."
+      },
+      "title": "HEIC в JPG/PNG",
+      "description": "Конвертируйте фото HEIC/HEIF с iPhone и Android в JPG или PNG. Всё обрабатывается локально в браузере — без загрузки файлов.",
+      "category": "Изображения",
+      "keywords": [
+        "heic в jpg",
+        "heic в png",
+        "heif конвертер",
+        "конвертер фото iphone",
+        "heic онлайн",
+        "heic конвертер"
+      ],
+      "faqs": [
+        {
+          "question": "Загружаются ли фото на сервер?",
+          "answer": "Нет. Конвертация выполняется в браузере через WebAssembly, поэтому фото не покидают ваше устройство."
+        },
+        {
+          "question": "Какой формат выбрать?",
+          "answer": "JPG легче и поддерживается везде; PNG — без потерь и сохраняет прозрачность."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Конвертер форматов",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "Сжатие изображений",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Конвертер WebP",
+          "href": "/tools/image-to-webp"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите фото HEIC/HEIF сюда",
+        "formats": "HEIC · HEIF"
+      },
+      "labels": {
+        "outputFormat": "Выходной формат",
+        "converting": "Конвертация…"
+      },
+      "buttons": {
+        "download": "Скачать"
+      },
+      "errors": {
+        "type": "Выберите файл HEIC/HEIF.",
+        "failed": "Сбой конвертации. Возможно, файл повреждён."
+      }
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "slug": "img-padding",
+  "icon": "🧱",
+  "home": {
+    "en": {
+      "name": "Image Tiler",
+      "description": "Tile a small image across a large canvas to create a seamless wallpaper or pattern.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片平铺",
+      "description": "将小图片平铺填充生成大图，制作无缝壁纸或图案。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像タイル敷き詰め",
+      "description": "小さな画像を大きなキャンバスに敷き詰めて、シームレスな壁紙やパターンを作成。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 타일링",
+      "description": "작은 이미지를 큰 캔버스에 타일처럼 깔아 매끄러운 배경화면이나 패턴을 만드세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Плиточное заполнение",
+      "description": "Размножьте маленькое изображение по большому холсту, создав бесшовные обои или узор.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Image Tiler - Free Online Tool",
+        "description": "Free online image tiling tool. Upload a small image and tile it across a large canvas to create a seamless pattern or wallpaper. Runs in your browser."
+      },
+      "title": "Image Tiler",
+      "description": "Tile a small image across a large canvas. Set the output width and height, and the image repeats to fill the area — perfect for patterns and wallpapers.",
+      "category": "Image Tools",
+      "keywords": [
+        "image tiler",
+        "tile image",
+        "image pattern",
+        "repeat image",
+        "image wallpaper",
+        "tiling tool"
+      ],
+      "faqs": [
+        {
+          "question": "How does image tiling work?",
+          "answer": "The tool draws your image repeatedly, side by side, until the output canvas is completely filled. Smaller images produce more visible repetition."
+        },
+        {
+          "question": "Can I make a seamless pattern?",
+          "answer": "Yes — images whose edges match naturally create seamless tiles. For best results use square images designed for repetition."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image Stitcher",
+          "href": "/tools/image-stitcher"
+        },
+        {
+          "name": "Image Margin",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "Upload a small image to tile",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "Output width",
+        "height": "Output height",
+        "tileSize": "Tile size: {w} × {h} px"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片平铺工具 - 免费在线工具",
+        "description": "免费的在线图片平铺工具。上传小图片并平铺填充到大型画布，制作无缝图案或壁纸，全部在浏览器中完成。"
+      },
+      "title": "图片平铺工具",
+      "description": "将小图片平铺填充生成大图。设置输出宽高，图片将重复铺满整个区域，适合制作图案与壁纸。",
+      "category": "图片工具",
+      "keywords": [
+        "图片平铺",
+        "图片填充",
+        "平铺工具",
+        "图片图案",
+        "无缝平铺",
+        "壁纸生成"
+      ],
+      "faqs": [
+        {
+          "question": "图片平铺是如何工作的？",
+          "answer": "工具会将图片一张接一张地重复绘制，直到输出画布被完全填满。图片越小，重复效果越明显。"
+        },
+        {
+          "question": "能制作无缝图案吗？",
+          "answer": "可以。边缘自然衔接的图片可以无缝平铺，建议使用为重复设计的方形图片效果最佳。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片缩放",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片拼接",
+          "href": "/tools/image-stitcher"
+        },
+        {
+          "name": "图片留白",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "上传小图片进行平铺",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "输出宽度",
+        "height": "输出高度",
+        "tileSize": "瓦片尺寸：{w} × {h} px"
+      },
+      "buttons": {
+        "newImage": "更换图片",
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像タイル敷き詰め - 無料オンラインツール",
+        "description": "小さな画像を大きなキャンバスに敷き詰めてシームレスなパターンや壁紙を作成する無料ツール。ブラウザ内で完結。"
+      },
+      "title": "画像タイル敷き詰め",
+      "description": "小さな画像を大きなキャンバスに敷き詰めます。出力サイズを指定すると画像が繰り返し敷き詰められ、パターンや壁紙に最適。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像タイル",
+        "画像敷き詰め",
+        "タイルパターン",
+        "繰り返し画像",
+        "壁紙生成",
+        "画像タイリング"
+      ],
+      "faqs": [
+        {
+          "question": "タイル敷き詰めはどう機能しますか？",
+          "answer": "画像を横に並べて繰り返し描画し、出力キャンバスが完全に埋まるまで続けます。小さい画像ほど繰り返しが目立ちます。"
+        },
+        {
+          "question": "シームレスなパターンを作れますか？",
+          "answer": "はい。端が自然に繋がる画像ならシームレスになります。繰り返し用にデザインされた正方形の画像が最適です。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像リサイズ",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "画像連結",
+          "href": "/tools/image-stitcher"
+        },
+        {
+          "name": "余白追加",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "敷き詰める小さな画像をアップロード",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "出力幅",
+        "height": "出力高さ",
+        "tileSize": "タイルサイズ：{w} × {h} px"
+      },
+      "buttons": {
+        "newImage": "画像を変更",
+        "download": "PNG をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 타일링 - 무료 온라인 도구",
+        "description": "작은 이미지를 큰 캔버스에 타일처럼 깔아 매끄러운 패턴이나 배경화면을 만드는 무료 온라인 도구입니다. 브라우저에서 모두 처리됩니다."
+      },
+      "title": "이미지 타일링",
+      "description": "작은 이미지를 큰 캔버스에 타일처럼 깔아 보세요. 출력 크기를 설정하면 이미지가 반복되어 영역을 가득 채웁니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 타일링",
+        "이미지 반복",
+        "패턴 만들기",
+        "타일 이미지",
+        "배경화면 생성",
+        "이미지 타일링 도구"
+      ],
+      "faqs": [
+        {
+          "question": "이미지 타일링은 어떻게 작동하나요?",
+          "answer": "이미지를 옆으로 반복해 그려 출력 캔버스가 완전히 채워질 때까지 계속합니다. 작은 이미지일수록 반복이 눈에 띕니다."
+        },
+        {
+          "question": "매끄러운 패턴을 만들 수 있나요?",
+          "answer": "네. 가장자리가 자연스럽게 이어지는 이미지는 무한 반복 패턴이 됩니다. 반복용으로 디자인된 정사각형 이미지가 가장 좋습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 크기 조정",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "이미지 이어붙이기",
+          "href": "/tools/image-stitcher"
+        },
+        {
+          "name": "이미지 여백",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "타일링할 작은 이미지 업로드",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "출력 너비",
+        "height": "출력 높이",
+        "tileSize": "타일 크기: {w} × {h} px"
+      },
+      "buttons": {
+        "newImage": "이미지 변경",
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Плиточное заполнение - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-инструмент плиточного заполнения. Загрузите маленькое изображение и размножьте его по большому холсту для бесшовного узора или обоев."
+      },
+      "title": "Плиточное заполнение",
+      "description": "Размножьте маленькое изображение по большому холсту. Укажите ширину и высоту вывода — картинка повторится и заполнит всю область.",
+      "category": "Изображения",
+      "keywords": [
+        "плиточное заполнение",
+        "размножить картинку",
+        "повтор изображения",
+        "паттерн из картинки",
+        "обои из изображения",
+        "инструмент тайлинга"
+      ],
+      "faqs": [
+        {
+          "question": "Как работает плиточное заполнение?",
+          "answer": "Инструмент рисует изображение повторно, ряд за рядом, пока холст не заполнится полностью. Чем меньше картинка, тем заметнее повторение."
+        },
+        {
+          "question": "Можно ли сделать бесшовный узор?",
+          "answer": "Да — изображения с совпадающими краями создают бесшовные плитки. Лучше всего использовать квадратные картинки, созданные для повтора."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Изменение размера",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Склейка изображений",
+          "href": "/tools/image-stitcher"
+        },
+        {
+          "name": "Поля изображения",
+          "href": "/tools/image-margin"
+        }
+      ],
+      "upload": {
+        "drop": "Загрузите маленькое изображение",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "Ширина вывода",
+        "height": "Высота вывода",
+        "tileSize": "Размер плитки: {w} × {h} px"
+      },
+      "buttons": {
+        "newImage": "Новое изображение",
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

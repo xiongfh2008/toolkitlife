@@ -1,0 +1,313 @@
+{
+  "slug": "image-file-size",
+  "icon": "⚖️",
+  "home": {
+    "en": {
+      "name": "Image File Size",
+      "description": "Recompress an image to reach a target file size in KB, without changing dimensions.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片文件大小调整",
+      "description": "重新压缩图片以达到目标 KB 大小，尺寸保持不变。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像ファイルサイズ調整",
+      "description": "サイズを変えずに目標の KB に合うよう画像を再圧縮します。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 파일 크기 조정",
+      "description": "크기를 바꾸지 않고 목표 KB에 맞게 이미지를 재압축합니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Размер файла изображения",
+      "description": "Пережмите изображение до нужного размера в КБ, не меняя размеры картинки.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Image File Size - Compress to Target KB Online",
+        "description": "Recompress an image to reach a target file size in KB, without changing dimensions. Free, runs in your browser."
+      },
+      "title": "Image File Size",
+      "description": "Set a target size in KB and the tool recompresses your image to get as close as possible — dimensions never change.",
+      "category": "Image Tools",
+      "keywords": [
+        "image file size reducer",
+        "compress image to size",
+        "target file size",
+        "reduce image kb",
+        "image size compressor",
+        "resize image file size"
+      ],
+      "faqs": [
+        {
+          "question": "How does it reach the target size?",
+          "answer": "The tool tries a range of JPEG quality levels and keeps the one whose file size is closest to (and below) your target."
+        },
+        {
+          "question": "Are the image dimensions changed?",
+          "answer": "No. Only the compression quality changes, so the width and height stay exactly the same."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "convert": "Convert",
+        "newImage": "New image",
+        "download": "Download JPG"
+      },
+      "labels": {
+        "processing": "Compressing...",
+        "cannotReach": "Could not reach target size",
+        "target": "Target size (KB)",
+        "resultSize": "Result size"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片文件大小调整 - 在线压缩到指定KB",
+        "description": "重新压缩图片以达到目标 KB 大小，尺寸保持不变。免费，浏览器内运行。"
+      },
+      "title": "图片文件大小调整",
+      "description": "设置目标 KB 大小，工具会重新压缩图片使其尽可能接近目标——尺寸始终保持不变。",
+      "category": "图片工具",
+      "keywords": [
+        "图片文件大小调整",
+        "压缩图片到指定大小",
+        "目标文件大小",
+        "减小图片kb",
+        "图片大小压缩",
+        "图片体积压缩"
+      ],
+      "faqs": [
+        {
+          "question": "它是如何达到目标大小的？",
+          "answer": "工具会尝试一系列 JPEG 质量等级，保留文件大小最接近（且不超过）目标值的那个。"
+        },
+        {
+          "question": "图片尺寸会改变吗？",
+          "answer": "不会。只调整压缩质量，宽高始终保持不变。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片压缩工具",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片格式转换器",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "图片尺寸调整工具",
+          "href": "/tools/image-resizer"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "convert": "开始转换",
+        "newImage": "新图片",
+        "download": "下载 JPG"
+      },
+      "labels": {
+        "processing": "压缩中...",
+        "cannotReach": "无法达到目标大小",
+        "target": "目标大小 (KB)",
+        "resultSize": "结果大小"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像ファイルサイズ調整 - 指定KBに圧縮",
+        "description": "サイズを変えずに目標の KB に合うよう画像を再圧縮します。無料・ブラウザ内で完結。"
+      },
+      "title": "画像ファイルサイズ調整",
+      "description": "目標の KB サイズを設定すると、画像を再圧縮してできるだけ近づけます——サイズは変わりません。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像ファイルサイズ調整",
+        "指定サイズに圧縮",
+        "目標ファイルサイズ",
+        "画像のkb削減",
+        "画像サイズ圧縮",
+        "画像のファイルサイズを小さく"
+      ],
+      "faqs": [
+        {
+          "question": "どうやって目標サイズに近づけますか？",
+          "answer": "さまざまな JPEG 品質を試し、ファイルサイズが目標値に最も近い（かつ超えない）ものを採用します。"
+        },
+        {
+          "question": "画像のサイズは変わりますか？",
+          "answer": "いいえ。変わるのは圧縮品質だけで、幅と高さはそのまま維持されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像圧縮ツール",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "画像フォーマット変換",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "画像リサイズツール",
+          "href": "/tools/image-resizer"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップ",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "convert": "変換",
+        "newImage": "新しい画像",
+        "download": "JPG をダウンロード"
+      },
+      "labels": {
+        "processing": "圧縮中...",
+        "cannotReach": "目標サイズに到達できません",
+        "target": "目標サイズ (KB)",
+        "resultSize": "結果サイズ"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 파일 크기 조정 - 목표 KB로 압축",
+        "description": "크기를 바꾸지 않고 목표 KB에 맞게 이미지를 재압축합니다. 무료, 브라우저에서 실행."
+      },
+      "title": "이미지 파일 크기 조정",
+      "description": "목표 KB 크기를 설정하면 이미지를 재압축해 최대한 가깝게 맞춥니다 — 크기는 절대 변하지 않습니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 파일 크기 조정",
+        "목표 크기로 압축",
+        "목표 파일 크기",
+        "이미지 kb 줄이기",
+        "이미지 크기 압축",
+        "이미지 용량 줄이기"
+      ],
+      "faqs": [
+        {
+          "question": "목표 크기에 어떻게 도달하나요?",
+          "answer": "여러 JPEG 품질을 시도한 뒤 파일 크기가 목표에 가장 가깝고(초과하지 않는) 결과를 선택합니다."
+        },
+        {
+          "question": "이미지 크기가 변경되나요?",
+          "answer": "아니요. 압축 품질만 바뀌며 가로·세로 크기는 그대로 유지됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 압축기",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "이미지 형식 변환기",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "이미지 크기 조정기",
+          "href": "/tools/image-resizer"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 여기에 놓으세요",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "convert": "변환",
+        "newImage": "새 이미지",
+        "download": "JPG 다운로드"
+      },
+      "labels": {
+        "processing": "압축 중...",
+        "cannotReach": "목표 크기에 도달할 수 없습니다",
+        "target": "목표 크기 (KB)",
+        "resultSize": "결과 크기"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Размер файла изображения - сжать до нужного КБ",
+        "description": "Пережмите изображение до нужного размера в КБ, не меняя размеры картинки. Бесплатно, работает в браузере."
+      },
+      "title": "Размер файла изображения",
+      "description": "Укажите целевой размер в КБ — инструмент пережмёт изображение как можно ближе к нему, не меняя размеры.",
+      "category": "Изображения",
+      "keywords": [
+        "уменьшить размер файла изображения",
+        "сжать изображение до размера",
+        "целевой размер файла",
+        "уменьшить кб изображения",
+        "сжатие размера изображения",
+        "уменьшить вес изображения"
+      ],
+      "faqs": [
+        {
+          "question": "Как достигается целевой размер?",
+          "answer": "Инструмент перебирает уровни качества JPEG и выбирает тот, чей размер ближе всего к целевому (не превышая его)."
+        },
+        {
+          "question": "Меняются ли размеры изображения?",
+          "answer": "Нет. Меняется только качество сжатия, а ширина и высота остаются прежними."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Сжатие изображений",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Конвертер форматов изображений",
+          "href": "/tools/image-format-converter"
+        },
+        {
+          "name": "Изменение размера изображений",
+          "href": "/tools/image-resizer"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображение сюда",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "convert": "Сжать",
+        "newImage": "Новое изображение",
+        "download": "Скачать JPG"
+      },
+      "labels": {
+        "processing": "Сжатие...",
+        "cannotReach": "Не удалось достичь целевого размера",
+        "target": "Целевой размер (КБ)",
+        "resultSize": "Итоговый размер"
+      }
+    }
+  }
+}

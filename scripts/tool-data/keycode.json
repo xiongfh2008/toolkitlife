@@ -1,0 +1,273 @@
+{
+  "slug": "keycode",
+  "icon": "⌨️",
+  "home": {
+    "en": {
+      "name": "Keycode Tester",
+      "description": "Press any key to see its key code and event info.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "按键码查询",
+      "description": "按下任意按键查看 keyCode 与按键事件信息。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "キーコード確認",
+      "description": "任意のキーを押すとキーコードとイベント情報を表示。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "키코드 확인",
+      "description": "아무 키나 누르면 키코드와 이벤트 정보를 확인합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Коды клавиш",
+      "description": "Нажмите любую клавишу, чтобы увидеть её код и данные события.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Keycode Tester - Identify Any Keyboard Key Online",
+        "description": "Free online keycode tester. Press any key to instantly see its event.key, event.code, keyCode and location. Perfect for developers. Runs in your browser."
+      },
+      "title": "Keycode Tester",
+      "description": "Press any key on your keyboard and instantly see its key, code, keyCode and location. A handy reference for web developers.",
+      "category": "Life Tools",
+      "keywords": [
+        "keycode",
+        "key code tester",
+        "event key",
+        "javascript keycode",
+        "keyboard event",
+        "key press test"
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference between key and code?",
+          "answer": "key is the character produced (e.g. \"a\" or \"A\"), while code is the physical key location (e.g. \"KeyA\"), independent of layout."
+        },
+        {
+          "question": "Do I need to install anything?",
+          "answer": "No. Everything runs in your browser and no data is sent anywhere."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Typing Speed Test",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "Character Counter",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "Reaction Time Test",
+          "href": "/tools/reaction-time"
+        }
+      ],
+      "labels": {
+        "key": "Key",
+        "code": "Code",
+        "location": "Location",
+        "pressAny": "Press any key…"
+      },
+      "buttons": {}
+    },
+    "zh": {
+      "metadata": {
+        "title": "按键码查询 - 在线识别键盘按键",
+        "description": "免费在线按键码查询工具，按下任意按键即可查看 event.key、event.code、keyCode 与位置信息，方便开发者调试。全程在浏览器本地完成。"
+      },
+      "title": "按键码查询",
+      "description": "按下键盘上的任意按键，即可查看它的 key、code、keyCode 与位置信息，是 Web 开发者的常用参考工具。",
+      "category": "生活工具",
+      "keywords": [
+        "按键码",
+        "keycode",
+        "按键测试",
+        "键盘事件",
+        "按键值查询",
+        "javascript按键"
+      ],
+      "faqs": [
+        {
+          "question": "key 和 code 有什么区别？",
+          "answer": "key 是产生的字符（如 \"a\" 或 \"A\"），code 是物理按键位置（如 \"KeyA\"），与输入法布局无关。"
+        },
+        {
+          "question": "需要安装任何东西吗？",
+          "answer": "不需要。所有功能都在浏览器本地运行，不会上传任何数据。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "打字速度测试",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "字数统计",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "反应速度测试",
+          "href": "/tools/reaction-time"
+        }
+      ],
+      "labels": {
+        "key": "按键",
+        "code": "代码",
+        "location": "位置",
+        "pressAny": "请按下任意按键…"
+      },
+      "buttons": {}
+    },
+    "ja": {
+      "metadata": {
+        "title": "キーコード確認 - キーボードのキーを識別",
+        "description": "任意のキーを押すと event.key・event.code・keyCode・位置を即表示する無料ツール。開発者向け。ブラウザ内で完結。"
+      },
+      "title": "キーコード確認",
+      "description": "キーボードの任意のキーを押すと、key、code、keyCode、位置が即座に表示されます。",
+      "category": "生活ツール",
+      "keywords": [
+        "キーコード",
+        "keycode",
+        "キー確認",
+        "キーボードイベント",
+        "javascriptキー",
+        "キー押下テスト"
+      ],
+      "faqs": [
+        {
+          "question": "key と code の違いは？",
+          "answer": "key は生成される文字（例 \"a\"）、code は物理キーの位置（例 \"KeyA\"）でレイアウトに依存しません。"
+        },
+        {
+          "question": "何かインストールは必要ですか？",
+          "answer": "いいえ。ブラウザ内で完結し、データはどこにも送信されません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "タイピング速度テスト",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "文字数カウント",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "反応速度テスト",
+          "href": "/tools/reaction-time"
+        }
+      ],
+      "labels": {
+        "key": "キー",
+        "code": "コード",
+        "location": "位置",
+        "pressAny": "任意のキーを押してください…"
+      },
+      "buttons": {}
+    },
+    "ko": {
+      "metadata": {
+        "title": "키코드 확인 - 키보드 키 식별 온라인",
+        "description": "아무 키나 누르면 event.key, event.code, keyCode, 위치를 즉시 표시하는 무료 도구입니다. 개발자에게 유용하며 브라우저에서 완료됩니다."
+      },
+      "title": "키코드 확인",
+      "description": "키보드의 아무 키나 누르면 key, code, keyCode, 위치 정보가 즉시 표시됩니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "키코드",
+        "keycode",
+        "키 테스트",
+        "키보드 이벤트",
+        "자바스크립트 키코드",
+        "키 입력 확인"
+      ],
+      "faqs": [
+        {
+          "question": "key와 code의 차이는 무엇인가요?",
+          "answer": "key는 생성된 문자(예: \"a\")이고 code는 물리적 키 위치(예: \"KeyA\")로 레이아웃과 무관합니다."
+        },
+        {
+          "question": "설치할 것이 있나요?",
+          "answer": "없습니다. 브라우저에서만 실행되며 어떤 데이터도 전송되지 않습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "타이핑 속도 테스트",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "글자 수 세기",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "반응 속도 테스트",
+          "href": "/tools/reaction-time"
+        }
+      ],
+      "labels": {
+        "key": "키",
+        "code": "코드",
+        "location": "위치",
+        "pressAny": "아무 키나 누르세요…"
+      },
+      "buttons": {}
+    },
+    "ru": {
+      "metadata": {
+        "title": "Коды клавиш - определить клавишу онлайн",
+        "description": "Бесплатный онлайн-тест клавиш. Нажмите любую клавишу и мгновенно увидите event.key, event.code, keyCode и location. Для разработчиков. Всё в браузере."
+      },
+      "title": "Коды клавиш",
+      "description": "Нажмите любую клавишу и сразу увидите её key, code, keyCode и location. Удобный справочник для веб-разработчиков.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "коды клавиш",
+        "keycode",
+        "тест клавиш",
+        "событие клавиатуры",
+        "javascript keycode",
+        "нажатие клавиши"
+      ],
+      "faqs": [
+        {
+          "question": "Чем key отличается от code?",
+          "answer": "key — это символ (например «a» или «A»), а code — физическое расположение клавиши (например «KeyA»), не зависящее от раскладки."
+        },
+        {
+          "question": "Нужно ли что-то устанавливать?",
+          "answer": "Нет. Всё работает в браузере, данные никуда не отправляются."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Тест скорости печати",
+          "href": "/tools/typing-speed-test"
+        },
+        {
+          "name": "Счётчик символов",
+          "href": "/tools/character-counter"
+        },
+        {
+          "name": "Тест реакции",
+          "href": "/tools/reaction-time"
+        }
+      ],
+      "labels": {
+        "key": "Клавиша",
+        "code": "Код",
+        "location": "Расположение",
+        "pressAny": "Нажмите любую клавишу…"
+      },
+      "buttons": {}
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "slug": "text-logo",
+  "icon": "🔤",
+  "home": {
+    "en": {
+      "name": "Text Logo Maker",
+      "description": "Create a simple text logo in seconds. Pick text, color, font size and background.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "文字 Logo 生成器",
+      "description": "几秒生成简约文字 Logo，可自定义文字、颜色、字号与背景。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "テキストロゴ作成",
+      "description": "テキスト・色・フォントサイズ・背景を選んで数秒でシンプルなロゴを生成。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "텍스트 로고 메이커",
+      "description": "텍스트·색상·글꼴 크기·배경을 골라 몇 초 만에 간단한 로고를 만듭니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Генератор текстового логотипа",
+      "description": "Создайте простой текстовый логотип за секунды: текст, цвет, размер и фон.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Text Logo Maker – Free Simple Logo Creator",
+        "description": "Create a simple text logo online in seconds. Customize text, color, font size and background, then download as PNG. Free, no signup."
+      },
+      "title": "Text Logo Maker",
+      "description": "Create a simple text logo in seconds. Enter your text, pick a color, font size and background — then download it as a transparent or solid PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "text logo maker",
+        "text logo generator",
+        "logo from text",
+        "make a logo online",
+        "simple logo creator",
+        "typography logo",
+        "text based logo",
+        "wordmark generator"
+      ],
+      "faqs": [
+        {
+          "question": "How do I create a text logo?",
+          "answer": "Type your text, adjust the font size and colors, choose a background (or transparent), then download the PNG."
+        },
+        {
+          "question": "Can I make the background transparent?",
+          "answer": "Yes, enable the transparent background option and download a PNG with no background."
+        },
+        {
+          "question": "What is the maximum font size?",
+          "answer": "Font size can go up to 400 px for crisp, high-resolution logos."
+        },
+        {
+          "question": "Is this tool free?",
+          "answer": "Yes, completely free — and everything runs in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Color Text Image",
+          "href": "/tools/color-text-image"
+        },
+        {
+          "name": "Image Watermark",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG Image Generator",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "Text",
+        "fontSize": "Font size",
+        "color": "Text color",
+        "bgColor": "Background color",
+        "transparentBg": "Transparent background"
+      },
+      "buttons": {
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "文字 Logo 生成器 – 免费简约 Logo 制作",
+        "description": "在线几秒生成简约文字 Logo，可自定义文字、颜色、字号与背景，并下载为 PNG。免费、无需注册。"
+      },
+      "title": "文字 Logo 生成器",
+      "description": "几秒生成简约文字 Logo。输入文字，选择颜色、字号与背景，即可下载透明或纯色背景的 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "文字logo生成器",
+        "文字logo制作",
+        "文字生成logo",
+        "在线制作logo",
+        "简约logo制作",
+        "字体logo",
+        "文字标志",
+        "字标生成器"
+      ],
+      "faqs": [
+        {
+          "question": "如何制作文字 Logo？",
+          "answer": "输入文字，调整字号与颜色，选择背景（或透明），然后下载 PNG 即可。"
+        },
+        {
+          "question": "背景可以设为透明吗？",
+          "answer": "可以，开启透明背景选项后即可下载无背景的 PNG。"
+        },
+        {
+          "question": "最大字号是多少？",
+          "answer": "字号最高支持 400 像素，可生成清晰的高分辨率 Logo。"
+        },
+        {
+          "question": "这个工具免费吗？",
+          "answer": "完全免费，所有处理都在浏览器本地完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "彩色文字图片",
+          "href": "/tools/color-text-image"
+        },
+        {
+          "name": "图片水印",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG 图片生成器",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "文字",
+        "fontSize": "字号",
+        "color": "文字颜色",
+        "bgColor": "背景颜色",
+        "transparentBg": "透明背景"
+      },
+      "buttons": {
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "テキストロゴ作成 – 無料のシンプルロゴ作成",
+        "description": "テキスト・色・フォントサイズ・背景を選んで数秒でロゴを作成し PNG でダウンロード。無料・登録不要。"
+      },
+      "title": "テキストロゴ作成",
+      "description": "数秒でシンプルなテキストロゴを作成。テキスト・色・フォントサイズ・背景を選び、透明または単色背景の PNG をダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "テキストロゴ作成",
+        "テキストロゴ生成",
+        "文字からロゴ",
+        "オンラインロゴ作成",
+        "シンプルロゴ作成",
+        "タイポグラフィロゴ",
+        "テキストベースのロゴ",
+        "ワードマーク生成"
+      ],
+      "faqs": [
+        {
+          "question": "テキストロゴを作るには？",
+          "answer": "テキストを入力し、フォントサイズと色、背景（または透明）を選んで PNG をダウンロードします。"
+        },
+        {
+          "question": "背景を透明にできますか？",
+          "answer": "はい。「透明背景」オプションを有効にすると背景なしの PNG を出力します。"
+        },
+        {
+          "question": "最大フォントサイズは？",
+          "answer": "最大400pxまで対応し、鮮明な高解像度ロゴを作成できます。"
+        },
+        {
+          "question": "このツールは無料ですか？",
+          "answer": "はい、完全無料です。すべてブラウザ内で処理されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "カラーテキスト画像",
+          "href": "/tools/color-text-image"
+        },
+        {
+          "name": "画像透かし",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG画像生成",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "テキスト",
+        "fontSize": "フォントサイズ",
+        "color": "文字色",
+        "bgColor": "背景色",
+        "transparentBg": "透明背景"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "텍스트 로고 메이커 – 무료 심플 로고 제작",
+        "description": "텍스트·색상·글꼴 크기·배경을 골라 몇 초 만에 로고를 만들고 PNG로 다운로드하세요. 무료, 회원가입 불필요."
+      },
+      "title": "텍스트 로고 메이커",
+      "description": "몇 초 만에 간단한 텍스트 로고를 만듭니다. 텍스트·색상·글꼴 크기·배경을 선택하고 투명 또는 단색 배경 PNG로 다운로드하세요.",
+      "category": "이미지 도구",
+      "keywords": [
+        "텍스트 로고 메이커",
+        "텍스트 로고 생성",
+        "문자로 로고 만들기",
+        "온라인 로고 제작",
+        "심플 로고 만들기",
+        "타이포그래피 로고",
+        "텍스트 기반 로고",
+        "워드마크 생성기"
+      ],
+      "faqs": [
+        {
+          "question": "텍스트 로고를 어떻게 만드나요?",
+          "answer": "텍스트를 입력하고 글꼴 크기·색상·배경(또는 투명)을 선택한 뒤 PNG로 다운로드하세요."
+        },
+        {
+          "question": "배경을 투명하게 할 수 있나요?",
+          "answer": "네, 투명 배경 옵션을 켜면 배경 없는 PNG를 다운로드할 수 있습니다."
+        },
+        {
+          "question": "최대 글꼴 크기는?",
+          "answer": "최대 400px까지 지원하여 선명한 고해상도 로고를 만들 수 있습니다."
+        },
+        {
+          "question": "이 도구는 무료인가요?",
+          "answer": "네, 완전 무료이며 모든 처리가 브라우저에서 이루어집니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "컬러 텍스트 이미지",
+          "href": "/tools/color-text-image"
+        },
+        {
+          "name": "이미지 워터마크",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG 이미지 생성기",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "텍스트",
+        "fontSize": "글꼴 크기",
+        "color": "텍스트 색상",
+        "bgColor": "배경 색상",
+        "transparentBg": "투명 배경"
+      },
+      "buttons": {
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Генератор текстового логотипа – бесплатно",
+        "description": "Создайте простой текстовый логотип онлайн за секунды. Текст, цвет, размер и фон, скачивание в PNG. Бесплатно, без регистрации."
+      },
+      "title": "Генератор текстового логотипа",
+      "description": "Создайте простой текстовый логотип за секунды: текст, цвет, размер шрифта и фон. Скачайте результат как PNG с прозрачным или однотонным фоном.",
+      "category": "Изображения",
+      "keywords": [
+        "генератор текстового логотипа",
+        "логотип из текста",
+        "создать логотип онлайн",
+        "текстовый логотип",
+        "простой логотип",
+        "типографический логотип",
+        "создать лого из букв",
+        "генератор логотипа"
+      ],
+      "faqs": [
+        {
+          "question": "Как создать текстовый логотип?",
+          "answer": "Введите текст, настройте размер шрифта и цвета, выберите фон (или прозрачность) и скачайте PNG."
+        },
+        {
+          "question": "Можно ли сделать фон прозрачным?",
+          "answer": "Да, включите опцию «Прозрачный фон» и получите PNG без фона."
+        },
+        {
+          "question": "Какой максимальный размер шрифта?",
+          "answer": "До 400 px — достаточно для чёткого логотипа высокого разрешения."
+        },
+        {
+          "question": "Этот инструмент бесплатен?",
+          "answer": "Да, полностью бесплатен — всё выполняется в вашем браузере."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Цветное текстовое изображение",
+          "href": "/tools/color-text-image"
+        },
+        {
+          "name": "Водяной знак",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "Генератор OG-изображений",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "Текст",
+        "fontSize": "Размер шрифта",
+        "color": "Цвет текста",
+        "bgColor": "Цвет фона",
+        "transparentBg": "Прозрачный фон"
+      },
+      "buttons": {
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

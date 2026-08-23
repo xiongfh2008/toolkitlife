@@ -1,0 +1,323 @@
+{
+  "slug": "audio-merge",
+  "icon": "🎚️",
+  "home": {
+    "en": {
+      "name": "Audio Merge",
+      "description": "Combine multiple audio files into one track in your chosen order. Export as MP3 or WAV.",
+      "category": "Audio Tools"
+    },
+    "zh": {
+      "name": "音频合并",
+      "description": "将多段音频按顺序合并成一首，导出为 MP3 或 WAV。",
+      "category": "音频工具"
+    },
+    "ja": {
+      "name": "音声結合",
+      "description": "複数の音声を好きな順番で1つに結合し、MP3 または WAV で書き出します。",
+      "category": "音声ツール"
+    },
+    "ko": {
+      "name": "오디오 합치기",
+      "description": "여러 오디오 파일을 원하는 순서로 하나로 합치고 MP3 또는 WAV로 내보냅니다.",
+      "category": "오디오 도구"
+    },
+    "ru": {
+      "name": "Объединение аудио",
+      "description": "Соедините несколько аудиофайлов в один трек в нужном порядке. Экспорт в MP3 или WAV.",
+      "category": "Аудиоинструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Audio Merger - Combine Audio Files Online Free",
+        "description": "Free online audio merger. Combine MP3, WAV, OGG and other audio files into a single track in any order. Export as MP3 or WAV. Private — all in your browser."
+      },
+      "title": "Audio Merge",
+      "description": "Upload multiple audio files, arrange them in the order you want, and merge them into a single MP3 or WAV track. Processing happens locally in your browser.",
+      "category": "Audio Tools",
+      "keywords": [
+        "merge audio",
+        "combine mp3",
+        "join audio files",
+        "audio merger",
+        "merge songs",
+        "combine audio online"
+      ],
+      "faqs": [
+        {
+          "question": "Can I merge files with different formats?",
+          "answer": "Yes. MP3, WAV, OGG, M4A and other formats can be mixed together — each segment is normalized before joining and exported as MP3 or WAV."
+        },
+        {
+          "question": "How is the output order decided?",
+          "answer": "The files are merged in the order shown in the list. Use the up and down arrows to rearrange them before merging."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Audio Cutter",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "Video Joiner",
+          "href": "/tools/video-joiner"
+        }
+      ],
+      "upload": {
+        "drop": "Drop audio files here (multiple allowed)",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "count": "Files to merge: {count}",
+        "outputFormat": "Output format",
+        "resultSize": "File size"
+      },
+      "buttons": {
+        "merge": "Merge Audio",
+        "download": "Download",
+        "reset": "Reset"
+      },
+      "errors": {
+        "failed": "Merging failed. Some files may be unsupported or corrupted."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "音频合并 - 在线免费合并音频文件",
+        "description": "免费在线音频合并工具。将 MP3、WAV、OGG 等音频文件按任意顺序合并成一首，导出 MP3 或 WAV。隐私安全，全程在浏览器中处理。"
+      },
+      "title": "音频合并",
+      "description": "上传多段音频，按想要的顺序排列，然后合并成一首 MP3 或 WAV。所有处理都在浏览器本地完成。",
+      "category": "音频工具",
+      "keywords": [
+        "音频合并",
+        "合并mp3",
+        "音频拼接",
+        "音乐合并",
+        "多段音频合并",
+        "在线合并音频"
+      ],
+      "faqs": [
+        {
+          "question": "可以合并不同格式的文件吗？",
+          "answer": "可以。MP3、WAV、OGG、M4A 等格式可以混用——合并前每段都会统一参数，最终导出为 MP3 或 WAV。"
+        },
+        {
+          "question": "输出顺序如何决定？",
+          "answer": "文件按列表中的顺序依次合并。合并前可以用上下箭头调整顺序。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "音频剪切",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "视频合并",
+          "href": "/tools/video-joiner"
+        }
+      ],
+      "upload": {
+        "drop": "将音频文件拖到此处（支持多个）",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "count": "待合并文件：{count} 个",
+        "outputFormat": "输出格式",
+        "resultSize": "文件大小"
+      },
+      "buttons": {
+        "merge": "合并音频",
+        "download": "下载",
+        "reset": "重置"
+      },
+      "errors": {
+        "failed": "合并失败，部分文件可能不受支持或已损坏。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "音声結合 - オンライン無料オーディオ結合",
+        "description": "MP3・WAV・OGG などの音声を好きな順番で1つに結合できる無料ツール。MP3 または WAV で書き出し。すべてブラウザ内で完結しプライベート。"
+      },
+      "title": "音声結合",
+      "description": "複数の音声をアップロードし、並べたい順に整えて1つの MP3 または WAV トラックに結合します。処理はブラウザ内で行われます。",
+      "category": "音声ツール",
+      "keywords": [
+        "音声結合",
+        "mp3結合",
+        "音声をくっつける",
+        "オーディオ結合",
+        "曲を結合",
+        "オンライン音声結合"
+      ],
+      "faqs": [
+        {
+          "question": "異なる形式のファイルを結合できますか？",
+          "answer": "はい。MP3、WAV、OGG、M4A など形式が混在していても、各セグメントを正規化してから結合し、MP3 または WAV で書き出します。"
+        },
+        {
+          "question": "出力の順番はどう決まりますか？",
+          "answer": "リストに表示されている順に結合されます。結合前にお使いの上下ボタンで並べ替えてください。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "音声カッター",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "音声変換",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "動画結合",
+          "href": "/tools/video-joiner"
+        }
+      ],
+      "upload": {
+        "drop": "音声ファイルをドロップ（複数可）",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "count": "結合するファイル：{count} 件",
+        "outputFormat": "出力形式",
+        "resultSize": "ファイルサイズ"
+      },
+      "buttons": {
+        "merge": "結合する",
+        "download": "ダウンロード",
+        "reset": "リセット"
+      },
+      "errors": {
+        "failed": "結合に失敗しました。一部のファイルが非対応または破損している可能性があります。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "오디오 합치기 - 온라인 무료 오디오 병합",
+        "description": "MP3, WAV, OGG 등 오디오 파일을 원하는 순서로 하나로 합치는 무료 온라인 도구입니다. MP3 또는 WAV로 내보내며 모든 처리는 브라우저에서 완료됩니다."
+      },
+      "title": "오디오 합치기",
+      "description": "여러 오디오 파일을 업로드하고 원하는 순서로 정렬한 뒤 하나의 MP3 또는 WAV 트랙으로 합칩니다. 처리는 브라우저에서 로컬로 진행됩니다.",
+      "category": "오디오 도구",
+      "keywords": [
+        "오디오 합치기",
+        "mp3 합치기",
+        "오디오 병합",
+        "노래 합치기",
+        "여러 오디오 결합",
+        "온라인 오디오 병합"
+      ],
+      "faqs": [
+        {
+          "question": "다른 형식의 파일을 합칠 수 있나요?",
+          "answer": "네. MP3, WAV, OGG, M4A 등 형식이 섞여도 각 구간을 정규화한 뒤 결합하고 MP3 또는 WAV로 내보냅니다."
+        },
+        {
+          "question": "출력 순서는 어떻게 정해지나요?",
+          "answer": "목록에 표시된 순서대로 병합됩니다. 병합 전에 위/아래 화살표로 순서를 바꿀 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "오디오 자르기",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "오디오 변환기",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "동영상 합치기",
+          "href": "/tools/video-joiner"
+        }
+      ],
+      "upload": {
+        "drop": "오디오 파일을 여기에 놓으세요 (여러 개 가능)",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "count": "병합할 파일: {count}개",
+        "outputFormat": "출력 형식",
+        "resultSize": "파일 크기"
+      },
+      "buttons": {
+        "merge": "오디오 합치기",
+        "download": "다운로드",
+        "reset": "초기화"
+      },
+      "errors": {
+        "failed": "병합에 실패했습니다. 일부 파일이 지원되지 않거나 손상되었을 수 있습니다."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Объединение аудио - бесплатно соединить аудиофайлы онлайн",
+        "description": "Бесплатный онлайн-объединитель аудио. Соединяйте MP3, WAV, OGG и другие файлы в один трек в любом порядке. Экспорт в MP3 или WAV. Приватно — всё в браузере."
+      },
+      "title": "Объединение аудио",
+      "description": "Загрузите несколько аудиофайлов, расположите их в нужном порядке и объедините в один трек MP3 или WAV. Обработка выполняется локально в браузере.",
+      "category": "Аудиоинструменты",
+      "keywords": [
+        "объединить аудио",
+        "склеить mp3",
+        "соединить аудиофайлы",
+        "объединение музыки",
+        "склейка треков",
+        "соединить песни онлайн"
+      ],
+      "faqs": [
+        {
+          "question": "Можно ли объединять файлы разных форматов?",
+          "answer": "Да. MP3, WAV, OGG, M4A и другие можно смешивать — каждый сегмент нормализуется перед склейкой и экспортируется в MP3 или WAV."
+        },
+        {
+          "question": "Как определяется порядок вывода?",
+          "answer": "Файлы склеиваются в том порядке, в котором показаны в списке. Используйте стрелки вверх/вниз, чтобы изменить порядок."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Обрезка аудио",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "Конвертер аудио",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "Соединение видео",
+          "href": "/tools/video-joiner"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите аудиофайлы сюда (можно несколько)",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "count": "Файлов для объединения: {count}",
+        "outputFormat": "Формат вывода",
+        "resultSize": "Размер файла"
+      },
+      "buttons": {
+        "merge": "Объединить",
+        "download": "Скачать",
+        "reset": "Сбросить"
+      },
+      "errors": {
+        "failed": "Не удалось объединить. Возможно, некоторые файлы не поддерживаются или повреждены."
+      }
+    }
+  }
+}

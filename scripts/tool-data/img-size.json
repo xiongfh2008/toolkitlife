@@ -1,0 +1,308 @@
+{
+  "slug": "img-size",
+  "icon": "📐",
+  "home": {
+    "en": {
+      "name": "Force Image Resize",
+      "description": "Resize an image to exact width and height, with optional stretching and quality control.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "强制改图片尺寸",
+      "description": "将图片调整为精确宽高，支持强制拉伸与画质控制。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像サイズ強制変更",
+      "description": "画像を指定の幅・高さに強制リサイズ。引き伸ばしと画質調整にも対応。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 크기 강제 변경",
+      "description": "이미지를 정확한 너비·높이로 강제 리사이즈하고 늘리기·화질도 조절하세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Принудительное изменение размера",
+      "description": "Измените размер изображения точно под ширину и высоту с растяжением и контролем качества.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Force Image Resize - Free Online Tool",
+        "description": "Free online tool to resize an image to exact dimensions, with optional stretching. Adjust quality and export as PNG, JPG or WebP. Runs in your browser."
+      },
+      "title": "Force Image Resize",
+      "description": "Resize an image to an exact width and height. Keep the aspect ratio or stretch freely, tune the output quality and save as PNG, JPG or WebP.",
+      "category": "Image Tools",
+      "keywords": [
+        "force resize image",
+        "resize image exact size",
+        "stretch image",
+        "change image dimensions",
+        "resize to exact width height",
+        "image aspect ratio"
+      ],
+      "faqs": [
+        {
+          "question": "What is the difference from a normal resizer?",
+          "answer": "A normal resizer keeps proportions. Here you can uncheck 'Keep aspect ratio' and force any width and height, stretching the image if needed."
+        },
+        {
+          "question": "Which output formats are supported?",
+          "answer": "PNG (lossless), JPG and WebP. For JPG and WebP you can adjust the quality slider."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Image File Size",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Upload an image to resize",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "Width",
+        "height": "Height",
+        "keepAspect": "Keep aspect ratio",
+        "quality": "Quality"
+      },
+      "buttons": {
+        "newImage": "New image",
+        "download": "Download"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "强制改图片尺寸 - 免费在线工具",
+        "description": "免费的在线图片尺寸修改工具：精确指定宽高、支持强制拉伸，可调整画质并导出为 PNG、JPG 或 WebP，全部在浏览器中完成。"
+      },
+      "title": "强制改图片尺寸",
+      "description": "将图片调整为精确宽高。保持纵横比或自由拉伸，调整输出画质，保存为 PNG、JPG 或 WebP。",
+      "category": "图片工具",
+      "keywords": [
+        "强制改尺寸",
+        "图片精确缩放",
+        "图片拉伸",
+        "修改图片尺寸",
+        "指定宽高",
+        "图片比例调整"
+      ],
+      "faqs": [
+        {
+          "question": "与普通缩放有什么区别？",
+          "answer": "普通缩放保持比例。这里可以取消「保持纵横比」，强制指定任意宽高，必要时拉伸图片。"
+        },
+        {
+          "question": "支持哪些输出格式？",
+          "answer": "PNG（无损）、JPG 与 WebP。JPG 和 WebP 可调整画质。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片缩放",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "图片体积控制",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "图片格式转换",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "上传要调整尺寸的图片",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "宽度",
+        "height": "高度",
+        "keepAspect": "保持纵横比",
+        "quality": "画质"
+      },
+      "buttons": {
+        "newImage": "更换图片",
+        "download": "下载"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像サイズ強制変更 - 無料オンラインツール",
+        "description": "画像を指定の幅・高さに強制リサイズできる無料ツール。伸縮・画質調整に対応し、PNG・JPG・WebP で保存。ブラウザ内で完結。"
+      },
+      "title": "画像サイズ強制変更",
+      "description": "画像を指定の幅・高さにリサイズ。アスペクト比を保つか自由に伸ばすかを選び、画質を調整して PNG・JPG・WebP で保存。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像サイズ変更",
+        "強制リサイズ",
+        "画像の引き伸ばし",
+        "幅高さ指定",
+        "アスペクト比変更",
+        "画像リサイズ"
+      ],
+      "faqs": [
+        {
+          "question": "通常のリサイズとの違いは？",
+          "answer": "通常は比率を維持しますが、ここでは「比率を維持」を外して任意の幅・高さに強制でき、必要なら引き伸ばせます。"
+        },
+        {
+          "question": "対応している出力形式は？",
+          "answer": "PNG（可逆圧縮）、JPG、WebP。JPG と WebP は画質を調整できます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像リサイズ",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "画像ファイルサイズ",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "画像形式変換",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "リサイズする画像をアップロード",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "幅",
+        "height": "高さ",
+        "keepAspect": "アスペクト比を維持",
+        "quality": "画質"
+      },
+      "buttons": {
+        "newImage": "画像を変更",
+        "download": "ダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 크기 강제 변경 - 무료 온라인 도구",
+        "description": "이미지를 정확한 너비·높이로 강제 리사이즈하는 무료 온라인 도구입니다. 늘리기·화질 조절을 지원하고 PNG·JPG·WebP로 저장합니다."
+      },
+      "title": "이미지 크기 강제 변경",
+      "description": "이미지를 정확한 너비·높이로 리사이즈하세요. 비율 유지 또는 자유 늘리기를 선택하고 화질을 조절해 PNG·JPG·WebP로 저장합니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 강제 리사이즈",
+        "이미지 크기 변경",
+        "이미지 늘리기",
+        "너비 높이 지정",
+        "비율 변경",
+        "이미지 크기 지정"
+      ],
+      "faqs": [
+        {
+          "question": "일반 리사이즈와 다른 점은?",
+          "answer": "일반 리사이즈는 비율을 유지하지만, 여기서는 '비율 유지'를 해제하고 원하는 너비·높이로 강제 지정해 늘릴 수 있습니다."
+        },
+        {
+          "question": "어떤 출력 형식을 지원하나요?",
+          "answer": "PNG(무손실), JPG, WebP를 지원하며 JPG와 WebP는 화질을 조절할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 크기 조정",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "이미지 파일 크기",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "이미지 형식 변환",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "크기를 변경할 이미지 업로드",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "너비",
+        "height": "높이",
+        "keepAspect": "비율 유지",
+        "quality": "화질"
+      },
+      "buttons": {
+        "newImage": "이미지 변경",
+        "download": "다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Принудительное изменение размера - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-инструмент для изменения размера изображения точно под указанные ширину и высоту, с растяжением и контролем качества. Экспорт PNG, JPG, WebP."
+      },
+      "title": "Принудительное изменение размера",
+      "description": "Измените размер изображения точно под ширину и высоту. Сохраняйте пропорции или растягивайте свободно, настраивайте качество и сохраняйте в PNG, JPG или WebP.",
+      "category": "Изображения",
+      "keywords": [
+        "принудительный размер",
+        "изменить размер точно",
+        "растянуть изображение",
+        "изменить размер изображения",
+        "точные ширина высота",
+        "точный размер"
+      ],
+      "faqs": [
+        {
+          "question": "Чем это отличается от обычного ресайзера?",
+          "answer": "Обычный ресайзер сохраняет пропорции. Здесь можно снять галочку «Сохранять пропорции» и задать любую ширину и высоту, растянув изображение."
+        },
+        {
+          "question": "Какие форматы вывода поддерживаются?",
+          "answer": "PNG (без потерь), JPG и WebP. Для JPG и WebP доступна настройка качества."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Изменение размера",
+          "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Размер файла изображения",
+          "href": "/tools/image-file-size"
+        },
+        {
+          "name": "Конвертер форматов",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Загрузите изображение для изменения размера",
+        "formats": "JPG · PNG · WebP"
+      },
+      "labels": {
+        "width": "Ширина",
+        "height": "Высота",
+        "keepAspect": "Сохранять пропорции",
+        "quality": "Качество"
+      },
+      "buttons": {
+        "newImage": "Новое изображение",
+        "download": "Скачать"
+      }
+    }
+  }
+}

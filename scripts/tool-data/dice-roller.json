@@ -1,0 +1,278 @@
+{
+  "slug": "dice-roller",
+  "icon": "🎲",
+  "home": {
+    "en": {
+      "name": "Dice Roller",
+      "description": "Roll 1-10 dice and see the total instantly.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "掷骰子",
+      "description": "一次性掷 1-10 个骰子，立即显示总和。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "サイコロ",
+      "description": "1〜10個のサイコロを振り、合計を即座に表示。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "주사위",
+      "description": "주사위 1-10개를 굴려 합계를 즉시 확인합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Кубики",
+      "description": "Бросьте 1-10 кубиков и мгновенно узнайте сумму.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Dice Roller - Roll 1-10 Dice Online",
+        "description": "Free online dice roller. Roll between 1 and 10 dice with realistic faces and an instant total. Runs entirely in your browser."
+      },
+      "title": "Dice Roller",
+      "description": "Choose how many dice to roll (1 to 10), then roll them to see each face and the total. Handy for board games and tabletop RPGs.",
+      "category": "Life Tools",
+      "keywords": [
+        "dice roller",
+        "roll dice",
+        "d20",
+        "dice online",
+        "board game dice",
+        "dice simulator"
+      ],
+      "faqs": [
+        {
+          "question": "How many dice can I roll at once?",
+          "answer": "Between 1 and 10 dice per roll, and you can roll as many times as you want."
+        },
+        {
+          "question": "Are the rolls random?",
+          "answer": "Yes — each die uses a secure random number generator, so every face is equally likely."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Coin Flip",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Random Number Generator",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "Random Picker",
+          "href": "/tools/random-picker"
+        }
+      ],
+      "labels": {
+        "total": "Total",
+        "diceCount": "Number of dice"
+      },
+      "buttons": {
+        "roll": "Roll Dice",
+        "reset": "Reset"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "掷骰子 - 在线掷 1-10 个骰子",
+        "description": "免费在线掷骰子工具，支持 1-10 个骰子，真实骰面并即时计算总和。全程在浏览器本地完成。"
+      },
+      "title": "掷骰子",
+      "description": "选择要掷的骰子数量（1-10 个），即可查看每个骰面与总和，适合桌游和跑团使用。",
+      "category": "生活工具",
+      "keywords": [
+        "掷骰子",
+        "骰子",
+        "在线骰子",
+        "骰子模拟",
+        "桌面游戏骰子",
+        "投骰子"
+      ],
+      "faqs": [
+        {
+          "question": "一次能掷多少个骰子？",
+          "answer": "每次可掷 1 到 10 个，且不限次数。"
+        },
+        {
+          "question": "结果是随机的吗？",
+          "answer": "是。每个骰子使用安全随机数生成器，每个骰面概率均等。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "抛硬币",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "随机数生成",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "随机抽签",
+          "href": "/tools/random-picker"
+        }
+      ],
+      "labels": {
+        "total": "总和",
+        "diceCount": "骰子数量"
+      },
+      "buttons": {
+        "roll": "掷骰子",
+        "reset": "重置"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "サイコロ - オンラインで1〜10個を振る",
+        "description": "1〜10個のサイコロを振れる無料ツール。リアルな出目と合計を即表示。ブラウザ内で完結します。"
+      },
+      "title": "サイコロ",
+      "description": "振るサイコロの数（1〜10個）を選ぶだけで、各出目と合計を確認できます。ボードゲームやTRPGに便利。",
+      "category": "生活ツール",
+      "keywords": [
+        "サイコロ",
+        "サイコロを振る",
+        "オンラインサイコロ",
+        "ダイス",
+        "ボードゲーム",
+        "ダイスロール"
+      ],
+      "faqs": [
+        {
+          "question": "一度に何個振れますか？",
+          "answer": "1〜10個まで振れ、何度でも繰り返せます。"
+        },
+        {
+          "question": "結果はランダムですか？",
+          "answer": "はい。安全な乱数生成で各出目が等確率です。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "コイントス",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "乱数生成",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "ランダム抽選",
+          "href": "/tools/random-picker"
+        }
+      ],
+      "labels": {
+        "total": "合計",
+        "diceCount": "サイコロの数"
+      },
+      "buttons": {
+        "roll": "振る",
+        "reset": "リセット"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "주사위 - 온라인 1-10개 굴리기",
+        "description": "주사위 1-10개를 굴릴 수 있는 무료 도구입니다. 실제 주사위 면과 합계를 즉시 확인하며 브라우저에서 완료됩니다."
+      },
+      "title": "주사위",
+      "description": "굴릴 주사위 수(1-10개)를 선택하면 각 면과 합계를 확인할 수 있습니다. 보드게임과 TRPG에 유용합니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "주사위",
+        "주사위 굴리기",
+        "온라인 주사위",
+        "다이스",
+        "보드게임 주사위",
+        "주사위 시뮬레이터"
+      ],
+      "faqs": [
+        {
+          "question": "한 번에 몇 개까지 굴릴 수 있나요?",
+          "answer": "1개부터 10개까지이며 횟수 제한은 없습니다."
+        },
+        {
+          "question": "결과는 무작위인가요?",
+          "answer": "네. 각 주사위는 안전한 난수 생성기를 사용해 모든 면이 동일한 확률입니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "동전 던지기",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "난수 생성",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "랜덤 뽑기",
+          "href": "/tools/random-picker"
+        }
+      ],
+      "labels": {
+        "total": "합계",
+        "diceCount": "주사위 개수"
+      },
+      "buttons": {
+        "roll": "굴리기",
+        "reset": "초기화"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Кубики - бросить 1-10 кубиков онлайн",
+        "description": "Бесплатный онлайн-бросок кубиков. Бросайте от 1 до 10 кубиков с реалистичными гранями и мгновенной суммой. Всё в браузере."
+      },
+      "title": "Кубики",
+      "description": "Выберите количество кубиков (от 1 до 10) и бросьте их, чтобы увидеть каждую грань и сумму. Удобно для настольных игр.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "бросить кубик",
+        "кубики онлайн",
+        "кости",
+        "d20",
+        "настольные игры",
+        "симулятор кубиков"
+      ],
+      "faqs": [
+        {
+          "question": "Сколько кубиков можно бросить за раз?",
+          "answer": "От 1 до 10 за бросок, а самих бросков может быть сколько угодно."
+        },
+        {
+          "question": "Бросок случайный?",
+          "answer": "Да — каждая кость использует защищённый генератор случайных чисел, все грани равновероятны."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Монетка",
+          "href": "/tools/coin-flip"
+        },
+        {
+          "name": "Генератор чисел",
+          "href": "/tools/random-number-generator"
+        },
+        {
+          "name": "Случайный выбор",
+          "href": "/tools/random-picker"
+        }
+      ],
+      "labels": {
+        "total": "Сумма",
+        "diceCount": "Количество кубиков"
+      },
+      "buttons": {
+        "roll": "Бросить",
+        "reset": "Сбросить"
+      }
+    }
+  }
+}

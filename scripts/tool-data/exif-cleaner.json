@@ -1,0 +1,363 @@
+{
+  "slug": "exif-cleaner",
+  "icon": "🧹",
+  "home": {
+    "en": {
+      "name": "EXIF Cleaner",
+      "description": "Re-encode an image to strip EXIF, GPS and device metadata for privacy.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "EXIF 清理器",
+      "description": "重新编码图片，清除 EXIF、GPS 与设备元数据，保护隐私。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "EXIF クリーナー",
+      "description": "画像を再エンコードして EXIF・GPS・デバイス情報を削除しプライバシーを保護。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "EXIF 클리너",
+      "description": "이미지를 다시 인코딩해 EXIF·GPS·기기 메타데이터를 제거해 개인정보를 보호합니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Очиститель EXIF",
+      "description": "Перекодируйте изображение, чтобы удалить EXIF, GPS и данные устройства.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "EXIF Cleaner – Remove Photo Metadata",
+        "description": "Strip EXIF, GPS and device metadata from your photos online. Re-encode to PNG to remove all metadata. Free and private, runs in your browser."
+      },
+      "title": "EXIF Cleaner",
+      "description": "Re-encode an image to strip EXIF, GPS and device metadata. Compare the before and after file size, then download a clean PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "exif cleaner",
+        "remove exif",
+        "strip metadata",
+        "remove gps data",
+        "delete exif data",
+        "photo metadata remover",
+        "remove location from photo",
+        "exif remover online"
+      ],
+      "faqs": [
+        {
+          "question": "What is EXIF data?",
+          "answer": "EXIF is metadata embedded in photos — camera model, lens, date, GPS coordinates and more. It can reveal where and how a photo was taken."
+        },
+        {
+          "question": "How does this tool remove it?",
+          "answer": "It decodes the image and re-encodes it as a fresh PNG, which drops all original metadata chunks."
+        },
+        {
+          "question": "Will the image quality change?",
+          "answer": "The pixels are preserved; only the metadata is removed."
+        },
+        {
+          "question": "Is my photo uploaded?",
+          "answer": "No. Everything runs locally in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "EXIF Viewer",
+          "href": "/tools/exif-viewer"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image File Size",
+          "href": "/tools/image-file-size"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here or click to upload",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "Download clean PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "processing": "Processing…",
+        "before": "Before",
+        "after": "After",
+        "original": "Original",
+        "result": "Cleaned"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "EXIF 清理器 – 移除照片元数据",
+        "description": "在线清除照片中的 EXIF、GPS 与设备信息。重新编码为 PNG 以移除全部元数据。免费且私密，在浏览器本地运行。"
+      },
+      "title": "EXIF 清理器",
+      "description": "重新编码图片以清除 EXIF、GPS 与设备元数据。对比前后文件大小，下载干净版 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "exif清理",
+        "去除exif",
+        "清除元数据",
+        "移除gps信息",
+        "删除exif数据",
+        "照片元数据清理",
+        "去除照片定位",
+        "在线exif清理器"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 EXIF 数据？",
+          "answer": "EXIF 是照片中嵌入的元数据，如相机型号、镜头、日期、GPS 坐标等，可能暴露照片的拍摄地点与方式。"
+        },
+        {
+          "question": "这个工具如何清除？",
+          "answer": "它会解码图片并重新编码为全新 PNG，从而丢弃所有原始元数据块。"
+        },
+        {
+          "question": "图片质量会改变吗？",
+          "answer": "像素保持不变，仅移除元数据。"
+        },
+        {
+          "question": "照片会被上传吗？",
+          "answer": "不会，所有处理都在浏览器本地完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "EXIF 查看器",
+          "href": "/tools/exif-viewer"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片文件大小",
+          "href": "/tools/image-file-size"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处或点击上传",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "下载干净 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "processing": "处理中…",
+        "before": "清理前",
+        "after": "清理后",
+        "original": "原图",
+        "result": "已清理"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "EXIF クリーナー – 写真のメタデータを削除",
+        "description": "写真から EXIF・GPS・デバイス情報をオンラインで削除。PNG に再エンコードして全メタデータを除去。無料・ブラウザ内で完結。"
+      },
+      "title": "EXIF クリーナー",
+      "description": "画像を再エンコードして EXIF・GPS・デバイスメタデータを削除。前後のファイルサイズを比較し、クリーンな PNG をダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "exif削除",
+        "exifクリーナー",
+        "メタデータ削除",
+        "gps情報を削除",
+        "exifデータ削除",
+        "写真メタデータ削除",
+        "位置情報を削除",
+        "オンラインexif削除"
+      ],
+      "faqs": [
+        {
+          "question": "EXIF データとは？",
+          "answer": "EXIF は写真に埋め込まれたメタデータで、カメラ・レンズ・日時・GPS 座標などが含まれ、撮影場所や方法が分かることがあります。"
+        },
+        {
+          "question": "このツールはどう削除しますか？",
+          "answer": "画像をデコードして新しい PNG として再エンコードするため、元のメタデータチャンクがすべて削除されます。"
+        },
+        {
+          "question": "画質は変わりますか？",
+          "answer": "ピクセルはそのままに、メタデータだけが削除されます。"
+        },
+        {
+          "question": "写真はアップロードされますか？",
+          "answer": "いいえ。すべてブラウザ内で処理されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "EXIF ビューアー",
+          "href": "/tools/exif-viewer"
+        },
+        {
+          "name": "画像圧縮",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "画像ファイルサイズ",
+          "href": "/tools/image-file-size"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップまたはクリックしてアップロード",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "クリーンな PNG をダウンロード",
+        "newImage": "新しい画像"
+      },
+      "labels": {
+        "processing": "処理中…",
+        "before": "削除前",
+        "after": "削除後",
+        "original": "元画像",
+        "result": "クリーン"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "EXIF 클리너 – 사진 메타데이터 제거",
+        "description": "사진에서 EXIF·GPS·기기 정보를 온라인으로 제거합니다. PNG로 다시 인코딩해 모든 메타데이터를 삭제. 무료·브라우저 내 처리."
+      },
+      "title": "EXIF 클리너",
+      "description": "이미지를 다시 인코딩해 EXIF·GPS·기기 메타데이터를 제거합니다. 전후 파일 크기를 비교하고 깨끗한 PNG를 다운로드하세요.",
+      "category": "이미지 도구",
+      "keywords": [
+        "exif 제거",
+        "exif 클리너",
+        "메타데이터 제거",
+        "gps 정보 제거",
+        "exif 데이터 삭제",
+        "사진 메타데이터 제거",
+        "위치 정보 제거",
+        "온라인 exif 제거"
+      ],
+      "faqs": [
+        {
+          "question": "EXIF 데이터란 무엇인가요?",
+          "answer": "EXIF는 사진에 포함된 메타데이터로, 카메라·렌즈·날짜·GPS 좌표 등이 들어 있어 촬영 장소와 방식을 드러낼 수 있습니다."
+        },
+        {
+          "question": "이 도구는 어떻게 제거하나요?",
+          "answer": "이미지를 디코딩한 뒤 새 PNG로 다시 인코딩해 원본 메타데이터 청크를 모두 제거합니다."
+        },
+        {
+          "question": "화질이 바뀌나요?",
+          "answer": "픽셀은 그대로 유지되고 메타데이터만 제거됩니다."
+        },
+        {
+          "question": "사진이 업로드되나요?",
+          "answer": "아니요. 모든 처리가 브라우저에서 이루어집니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "EXIF 뷰어",
+          "href": "/tools/exif-viewer"
+        },
+        {
+          "name": "이미지 압축",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "이미지 파일 크기",
+          "href": "/tools/image-file-size"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 끌어다 놓거나 클릭하여 업로드",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "깨끗한 PNG 다운로드",
+        "newImage": "새 이미지"
+      },
+      "labels": {
+        "processing": "처리 중…",
+        "before": "제거 전",
+        "after": "제거 후",
+        "original": "원본",
+        "result": "정리됨"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Очиститель EXIF – удаление метаданных фото",
+        "description": "Удалите EXIF, GPS и данные устройства из фотографий онлайн. Перекодирование в PNG убирает все метаданные. Бесплатно и приватно."
+      },
+      "title": "Очиститель EXIF",
+      "description": "Перекодируйте изображение, чтобы удалить EXIF, GPS и данные устройства. Сравните размер до и после и скачайте чистый PNG.",
+      "category": "Изображения",
+      "keywords": [
+        "очиститель exif",
+        "удалить exif",
+        "удалить метаданные",
+        "удалить gps данные",
+        "удалить exif данные",
+        "очистка метаданных фото",
+        "убрать геоданные",
+        "exif удалить онлайн"
+      ],
+      "faqs": [
+        {
+          "question": "Что такое EXIF?",
+          "answer": "EXIF — метаданные, встроенные в фото: модель камеры, объектив, дата, координаты GPS и т.д. Они могут раскрыть, где и как сделано фото."
+        },
+        {
+          "question": "Как инструмент удаляет их?",
+          "answer": "Он декодирует изображение и заново кодирует его в PNG, отбрасывая все исходные метаданные."
+        },
+        {
+          "question": "Изменится ли качество?",
+          "answer": "Пиксели сохраняются — удаляются только метаданные."
+        },
+        {
+          "question": "Загружается ли фото куда-либо?",
+          "answer": "Нет. Всё выполняется локально в браузере."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Просмотр EXIF",
+          "href": "/tools/exif-viewer"
+        },
+        {
+          "name": "Сжатие изображений",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Размер файла изображения",
+          "href": "/tools/image-file-size"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображение сюда или нажмите, чтобы загрузить",
+        "formats": "JPG · PNG · WebP"
+      },
+      "buttons": {
+        "download": "Скачать чистый PNG",
+        "newImage": "Новое изображение"
+      },
+      "labels": {
+        "processing": "Обработка…",
+        "before": "До",
+        "after": "После",
+        "original": "Оригинал",
+        "result": "Очищено"
+      }
+    }
+  }
+}

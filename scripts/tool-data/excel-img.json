@@ -1,0 +1,313 @@
+{
+  "slug": "excel-img",
+  "icon": "📊",
+  "home": {
+    "en": {
+      "name": "Excel Image Extractor",
+      "description": "Extract all images embedded in an Excel workbook and download them.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "Excel 图片提取",
+      "description": "提取 Excel 工作簿中嵌入的全部图片并一键下载。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "Excel 画像抽出",
+      "description": "Excel ブックに埋め込まれた画像をすべて抽出してダウンロード。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "엑셀 이미지 추출",
+      "description": "Excel 통합 문서에 포함된 모든 이미지를 추출해 다운로드하세요.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Извлечение картинок из Excel",
+      "description": "Извлеките все изображения из книги Excel и скачайте их.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Excel Image Extractor - Free Online Tool",
+        "description": "Free online tool to extract all embedded images from an .xlsx file. Files stay in your browser — nothing is uploaded."
+      },
+      "title": "Excel Image Extractor",
+      "description": "Pull every image embedded inside an .xlsx workbook — charts, logos, product photos — and download them individually or all at once as a ZIP.",
+      "category": "Image Tools",
+      "keywords": [
+        "extract images from excel",
+        "excel image extractor",
+        "xlsx images",
+        "get images from spreadsheet",
+        "unzip xlsx images"
+      ],
+      "faqs": [
+        {
+          "question": "Where are images stored inside an Excel file?",
+          "answer": "An .xlsx file is a ZIP archive. Embedded images live in the xl/media folder, which this tool reads directly."
+        },
+        {
+          "question": "Are my files uploaded anywhere?",
+          "answer": "No. Everything is parsed locally in your browser using JSZip."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "PowerPoint Image Extractor",
+          "href": "/tools/ppt-img"
+        },
+        {
+          "name": "Image Compressor",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Image Format Converter",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an Excel workbook here",
+        "formats": "XLSX · XLSM"
+      },
+      "labels": {
+        "processing": "Extracting images…",
+        "count": "{count} images found"
+      },
+      "buttons": {
+        "download": "Download",
+        "downloadAll": "Download all (ZIP)"
+      },
+      "errors": {
+        "empty": "No images found in this workbook.",
+        "invalid": "Could not read this file. Make sure it is a valid .xlsx workbook."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "Excel 图片提取工具 - 免费在线工具",
+        "description": "免费在线提取 .xlsx 文件中所有嵌入图片的工具。文件仅在浏览器中处理，不会上传。"
+      },
+      "title": "Excel 图片提取工具",
+      "description": "提取 .xlsx 工作簿中嵌入的全部图片——图表、Logo、产品图等，可逐个下载或一键打包为 ZIP。",
+      "category": "图片工具",
+      "keywords": [
+        "excel 提取图片",
+        "excel 图片提取器",
+        "xlsx 图片",
+        "从表格提取图片",
+        "excel 图片导出"
+      ],
+      "faqs": [
+        {
+          "question": "Excel 文件中的图片存在哪里？",
+          "answer": ".xlsx 本质是一个 ZIP 压缩包，嵌入的图片位于 xl/media 目录，本工具直接读取该目录。"
+        },
+        {
+          "question": "我的文件会被上传吗？",
+          "answer": "不会。所有解析都在浏览器本地通过 JSZip 完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "PPT 图片提取",
+          "href": "/tools/ppt-img"
+        },
+        {
+          "name": "图片压缩",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "图片格式转换",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "将 Excel 工作簿拖到此处",
+        "formats": "XLSX · XLSM"
+      },
+      "labels": {
+        "processing": "正在提取图片…",
+        "count": "找到 {count} 张图片"
+      },
+      "buttons": {
+        "download": "下载",
+        "downloadAll": "全部下载（ZIP）"
+      },
+      "errors": {
+        "empty": "此工作簿中未找到图片。",
+        "invalid": "无法读取该文件，请确认是有效的 .xlsx 工作簿。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "Excel 画像抽出ツール - 無料オンラインツール",
+        "description": ".xlsx ファイルに埋め込まれた画像をすべて抽出する無料ツール。ファイルはブラウザ内だけで処理され、アップロードされません。"
+      },
+      "title": "Excel 画像抽出ツール",
+      "description": ".xlsx ブックに埋め込まれたすべての画像（グラフ、ロゴ、商品写真など）を抽出し、個別または ZIP 一括でダウンロードできます。",
+      "category": "画像ツール",
+      "keywords": [
+        "excel 画像抽出",
+        "xlsx 画像",
+        "スプレッドシート 画像",
+        "エクセル 画像取り出し",
+        "excel 画像 ダウンロード"
+      ],
+      "faqs": [
+        {
+          "question": "Excel 内の画像はどこに保存されていますか？",
+          "answer": ".xlsx は ZIP アーカイブで、埋め込まれた画像は xl/media フォルダーにあります。このツールはそこを直接読み取ります。"
+        },
+        {
+          "question": "ファイルはアップロードされますか？",
+          "answer": "いいえ。JSZip によりブラウザ内でローカルに解析されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "PowerPoint 画像抽出",
+          "href": "/tools/ppt-img"
+        },
+        {
+          "name": "画像圧縮",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "画像形式変換",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Excel ブックをドロップ",
+        "formats": "XLSX · XLSM"
+      },
+      "labels": {
+        "processing": "画像を抽出中…",
+        "count": "{count} 枚の画像が見つかりました"
+      },
+      "buttons": {
+        "download": "ダウンロード",
+        "downloadAll": "すべてダウンロード（ZIP）"
+      },
+      "errors": {
+        "empty": "このブックには画像がありません。",
+        "invalid": "ファイルを読み取れません。有効な .xlsx ブックか確認してください。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "엑셀 이미지 추출기 - 무료 온라인 도구",
+        "description": ".xlsx 파일에 포함된 모든 이미지를 추출하는 무료 온라인 도구입니다. 파일은 브라우저에서만 처리되며 업로드되지 않습니다."
+      },
+      "title": "엑셀 이미지 추출기",
+      "description": ".xlsx 통합 문서에 포함된 모든 이미지(차트, 로고, 제품 사진 등)를 추출하고 개별 다운로드 또는 ZIP 일괄 다운로드할 수 있습니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "엑셀 이미지 추출",
+        "xlsx 이미지",
+        "스프레드시트 이미지",
+        "엑셀 사진 빼기",
+        "엑셀 이미지 다운로드"
+      ],
+      "faqs": [
+        {
+          "question": "Excel 파일의 이미지는 어디에 있나요?",
+          "answer": ".xlsx는 ZIP 아카이브이며, 포함된 이미지는 xl/media 폴더에 있습니다. 이 도구가 해당 폴더를 직접 읽습니다."
+        },
+        {
+          "question": "파일이 업로드되나요?",
+          "answer": "아니요. JSZip을 사용해 브라우저에서 로컬로만 파싱합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "PPT 이미지 추출",
+          "href": "/tools/ppt-img"
+        },
+        {
+          "name": "이미지 압축",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "이미지 형식 변환",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Excel 통합 문서를 여기에 놓으세요",
+        "formats": "XLSX · XLSM"
+      },
+      "labels": {
+        "processing": "이미지 추출 중…",
+        "count": "이미지 {count}개 발견"
+      },
+      "buttons": {
+        "download": "다운로드",
+        "downloadAll": "전체 다운로드 (ZIP)"
+      },
+      "errors": {
+        "empty": "이 통합 문서에 이미지가 없습니다.",
+        "invalid": "파일을 읽을 수 없습니다. 유효한 .xlsx 통합 문서인지 확인하세요."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Извлечение картинок из Excel - бесплатный онлайн-инструмент",
+        "description": "Бесплатный онлайн-инструмент для извлечения всех встроенных изображений из файла .xlsx. Файлы не покидают браузер."
+      },
+      "title": "Извлечение картинок из Excel",
+      "description": "Извлеките все изображения, встроенные в книгу .xlsx — диаграммы, логотипы, фото товаров — и скачайте их по одному или пакетом в ZIP.",
+      "category": "Изображения",
+      "keywords": [
+        "извлечь картинки из excel",
+        "картинки из xlsx",
+        "изображения из таблицы",
+        "эксель изображения",
+        "достать картинки excel"
+      ],
+      "faqs": [
+        {
+          "question": "Где хранятся изображения в файле Excel?",
+          "answer": "Файл .xlsx — это ZIP-архив. Встроенные изображения лежат в папке xl/media, которую инструмент читает напрямую."
+        },
+        {
+          "question": "Загружаются ли мои файлы куда-либо?",
+          "answer": "Нет. Всё разбирается локально в браузере через JSZip."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Картинки из PowerPoint",
+          "href": "/tools/ppt-img"
+        },
+        {
+          "name": "Сжатие изображений",
+          "href": "/tools/image-compressor"
+        },
+        {
+          "name": "Конвертер форматов",
+          "href": "/tools/image-format-converter"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите книгу Excel сюда",
+        "formats": "XLSX · XLSM"
+      },
+      "labels": {
+        "processing": "Извлечение изображений…",
+        "count": "Найдено изображений: {count}"
+      },
+      "buttons": {
+        "download": "Скачать",
+        "downloadAll": "Скачать всё (ZIP)"
+      },
+      "errors": {
+        "empty": "В этой книге нет изображений.",
+        "invalid": "Не удалось прочитать файл. Убедитесь, что это корректная книга .xlsx."
+      }
+    }
+  }
+}

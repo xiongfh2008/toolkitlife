@@ -20,6 +20,8 @@ export default function LocaleSwitcher() {
   const currentLocale = (params.locale as string) || routing.defaultLocale;
 
   const handleChange = (locale: string) => {
+    // 记住用户选择：后续访问无语言前缀的 URL 时优先使用该语言
+    document.cookie = `NEXT_LOCALE=${locale}; path=/; max-age=${60 * 60 * 24 * 365}`;
     const href = getPathname({ locale, href: pathname });
     window.location.href = href;
   };

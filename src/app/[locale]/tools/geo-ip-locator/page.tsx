@@ -41,14 +41,11 @@ export default function GeoIpLocatorPage() {
     setError("");
     setData(null);
     try {
-      const url = value ? `https://ipwho.is/${encodeURIComponent(value)}` : "https://ipwho.is/";
-      const res = await fetch(url);
+      const res = await fetch(
+        value ? `/api/geo-ip?ip=${encodeURIComponent(value)}` : "/api/geo-ip"
+      );
       if (!res.ok) throw new Error(String(res.status));
       const json = (await res.json()) as GeoInfo;
-      if (json.success === false) {
-        setError(t("messages.errorNotFound"));
-        return;
-      }
       setData(json);
     } catch {
       setError(t("messages.errorGeneric"));

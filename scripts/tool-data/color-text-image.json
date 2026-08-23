@@ -1,0 +1,338 @@
+{
+  "slug": "color-text-image",
+  "icon": "🌈",
+  "home": {
+    "en": {
+      "name": "Color Text Image",
+      "description": "Generate a colorful text image with custom text, colors, font size and background.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "彩色文字图片",
+      "description": "生成彩色文字图片，可自定义文字、颜色、字号与背景。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "カラーテキスト画像",
+      "description": "テキスト・色・フォントサイズ・背景を自由に設定してカラフルな文字画像を生成。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "컬러 텍스트 이미지",
+      "description": "텍스트·색상·글꼴 크기·배경을 자유롭게 설정해 컬러 텍스트 이미지를 생성합니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Цветное текстовое изображение",
+      "description": "Создайте яркое изображение с текстом: свой текст, цвета, размер шрифта и фон.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Color Text Image Generator – Text with Custom Colors",
+        "description": "Generate a colorful text image online with custom text, colors, font size and background. Download as PNG. Free and private."
+      },
+      "title": "Color Text Image",
+      "description": "Generate a colorful text image in seconds. Customize the text, text color, background color and font size, then download the PNG.",
+      "category": "Image Tools",
+      "keywords": [
+        "color text image",
+        "text image generator",
+        "text to image",
+        "colored text picture",
+        "text with color background",
+        "quote image generator",
+        "text graphic",
+        "typography image"
+      ],
+      "faqs": [
+        {
+          "question": "How do I create a text image?",
+          "answer": "Type your text, pick the text and background colors and the font size, then download the PNG."
+        },
+        {
+          "question": "Can the background be transparent?",
+          "answer": "Yes, enable transparent background to get a PNG with no background."
+        },
+        {
+          "question": "What is this useful for?",
+          "answer": "Making quote cards, social media graphics, headers and simple typography art."
+        },
+        {
+          "question": "Is my text sent anywhere?",
+          "answer": "No — everything is rendered locally in your browser."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Text Logo Maker",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "Image Watermark",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG Image Generator",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "Text",
+        "fontSize": "Font size",
+        "textColor": "Text color",
+        "bgColor": "Background color",
+        "transparentBg": "Transparent background"
+      },
+      "buttons": {
+        "download": "Download PNG"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "彩色文字图片生成器 – 自定义颜色文字图片",
+        "description": "在线生成彩色文字图片，可自定义文字、颜色、字号与背景，并下载为 PNG。免费且私密。"
+      },
+      "title": "彩色文字图片",
+      "description": "几秒生成彩色文字图片。自定义文字、文字颜色、背景颜色与字号，即可下载 PNG。",
+      "category": "图片工具",
+      "keywords": [
+        "彩色文字图片",
+        "文字图片生成器",
+        "文字转图片",
+        "彩色文字",
+        "带背景色文字",
+        "语录图片生成",
+        "文字海报",
+        "排版文字图片"
+      ],
+      "faqs": [
+        {
+          "question": "如何生成文字图片？",
+          "answer": "输入文字，选择文字与背景颜色以及字号，然后下载 PNG。"
+        },
+        {
+          "question": "背景可以透明吗？",
+          "answer": "可以，开启透明背景后即可得到无背景的 PNG。"
+        },
+        {
+          "question": "这个工具适合做什么？",
+          "answer": "适合制作语录卡片、社交媒体配图、标题图与简约文字排版。"
+        },
+        {
+          "question": "我的文字会被发送吗？",
+          "answer": "不会，所有内容都在浏览器本地渲染。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "文字 Logo 生成器",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "图片水印",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG 图片生成器",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "文字",
+        "fontSize": "字号",
+        "textColor": "文字颜色",
+        "bgColor": "背景颜色",
+        "transparentBg": "透明背景"
+      },
+      "buttons": {
+        "download": "下载 PNG"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "カラーテキスト画像生成 – 色を自由に設定",
+        "description": "テキスト・色・フォントサイズ・背景を自由に設定してカラフルな文字画像を生成し PNG でダウンロード。無料・プライベート。"
+      },
+      "title": "カラーテキスト画像",
+      "description": "数秒でカラフルな文字画像を生成。テキスト・文字色・背景色・フォントサイズをカスタマイズして PNG をダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "カラーテキスト画像",
+        "文字画像生成",
+        "テキスト画像",
+        "色付き文字",
+        "背景色付き文字",
+        "名言画像生成",
+        "文字グラフィック",
+        "タイポグラフィ画像"
+      ],
+      "faqs": [
+        {
+          "question": "文字画像を作るには？",
+          "answer": "テキストを入力し、文字色・背景色・フォントサイズを選んで PNG をダウンロードします。"
+        },
+        {
+          "question": "背景を透明にできますか？",
+          "answer": "はい。「透明背景」を有効にすると背景なしの PNG を出力します。"
+        },
+        {
+          "question": "何に使えますか？",
+          "answer": "名言カード、SNS 用グラフィック、ヘッダー画像、シンプルなタイポグラフィ作品などに便利です。"
+        },
+        {
+          "question": "テキストは送信されますか？",
+          "answer": "いいえ。すべてブラウザ内で描画されます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "テキストロゴ作成",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "画像透かし",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG画像生成",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "テキスト",
+        "fontSize": "フォントサイズ",
+        "textColor": "文字色",
+        "bgColor": "背景色",
+        "transparentBg": "透明背景"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "컬러 텍스트 이미지 생성기 – 색상 자유 설정",
+        "description": "텍스트·색상·글꼴 크기·배경을 자유롭게 설정해 컬러 텍스트 이미지를 만들고 PNG로 다운로드하세요. 무료·개인정보 보호."
+      },
+      "title": "컬러 텍스트 이미지",
+      "description": "몇 초 만에 컬러 텍스트 이미지를 생성합니다. 텍스트·텍스트 색상·배경 색상·글꼴 크기를 설정하고 PNG를 다운로드하세요.",
+      "category": "이미지 도구",
+      "keywords": [
+        "컬러 텍스트 이미지",
+        "텍스트 이미지 생성",
+        "문자 이미지",
+        "컬러 문자",
+        "배경색 있는 문자",
+        "문구 이미지 생성기",
+        "텍스트 그래픽",
+        "타이포그래피 이미지"
+      ],
+      "faqs": [
+        {
+          "question": "텍스트 이미지를 어떻게 만드나요?",
+          "answer": "텍스트를 입력하고 텍스트·배경 색상과 글꼴 크기를 고른 뒤 PNG를 다운로드하세요."
+        },
+        {
+          "question": "배경을 투명하게 할 수 있나요?",
+          "answer": "네, 투명 배경을 켜면 배경 없는 PNG를 얻을 수 있습니다."
+        },
+        {
+          "question": "어디에 유용한가요?",
+          "answer": "문구 카드, SNS 그래픽, 헤더 이미지, 심플 타이포그래피에 좋습니다."
+        },
+        {
+          "question": "텍스트가 전송되나요?",
+          "answer": "아니요. 모든 것이 브라우저에서 렌더링됩니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "텍스트 로고 메이커",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "이미지 워터마크",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "OG 이미지 생성기",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "텍스트",
+        "fontSize": "글꼴 크기",
+        "textColor": "텍스트 색상",
+        "bgColor": "배경 색상",
+        "transparentBg": "투명 배경"
+      },
+      "buttons": {
+        "download": "PNG 다운로드"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Генератор цветного текстового изображения",
+        "description": "Создайте яркое изображение с текстом: свой текст, цвета, размер шрифта и фон. Скачивание в PNG. Бесплатно и приватно."
+      },
+      "title": "Цветное текстовое изображение",
+      "description": "Создайте яркое текстовое изображение за секунды: текст, цвет текста, цвет фона и размер шрифта. Скачайте PNG.",
+      "category": "Изображения",
+      "keywords": [
+        "цветной текст изображение",
+        "генератор текстовых изображений",
+        "текст в изображение",
+        "цветной текст",
+        "текст с цветным фоном",
+        "генератор цитат",
+        "текстовая графика",
+        "типографическое изображение"
+      ],
+      "faqs": [
+        {
+          "question": "Как создать текстовое изображение?",
+          "answer": "Введите текст, выберите цвета текста и фона и размер шрифта, затем скачайте PNG."
+        },
+        {
+          "question": "Можно ли сделать фон прозрачным?",
+          "answer": "Да, включите прозрачный фон — получите PNG без фона."
+        },
+        {
+          "question": "Где это пригодится?",
+          "answer": "Для карточек с цитатами, графики для соцсетей, заголовков и простой типографики."
+        },
+        {
+          "question": "Отправляется ли мой текст куда-либо?",
+          "answer": "Нет — всё отрисовывается локально в браузере."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор текстового логотипа",
+          "href": "/tools/text-logo"
+        },
+        {
+          "name": "Водяной знак",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "Генератор OG-изображений",
+          "href": "/tools/og-image-generator"
+        }
+      ],
+      "labels": {
+        "text": "Текст",
+        "fontSize": "Размер шрифта",
+        "textColor": "Цвет текста",
+        "bgColor": "Цвет фона",
+        "transparentBg": "Прозрачный фон"
+      },
+      "buttons": {
+        "download": "Скачать PNG"
+      }
+    }
+  }
+}

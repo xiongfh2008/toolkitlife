@@ -1,0 +1,298 @@
+{
+  "slug": "image-coord-marker",
+  "icon": "📍",
+  "home": {
+    "en": {
+      "name": "Image Coordinate Marker",
+      "description": "Click on an image to add numbered coordinate markers, then download the result.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "图片坐标标记",
+      "description": "点击图片添加带编号的坐标标记，并可下载标记后的图片。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "画像座標マーカー",
+      "description": "画像をクリックして番号付きの座標マーカーを追加し、結果をダウンロード。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "이미지 좌표 마커",
+      "description": "이미지를 클릭해 번호가 매겨진 좌표 마커를 추가하고 결과를 다운로드합니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Маркер координат изображения",
+      "description": "Кликайте по изображению, добавляйте нумерованные маркеры координат и скачивайте результат.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Image Coordinate Marker - Annotate Points Online",
+        "description": "Click on an image to add numbered coordinate markers, then download the result. Free, runs in your browser."
+      },
+      "title": "Image Coordinate Marker",
+      "description": "Click anywhere on an image to drop numbered coordinate markers showing exact pixel positions, then download the annotated result.",
+      "category": "Image Tools",
+      "keywords": [
+        "image coordinate marker",
+        "add coordinates to image",
+        "numbered markers on image",
+        "mark image points",
+        "coordinate annotation",
+        "point marker tool"
+      ],
+      "faqs": [
+        {
+          "question": "How do I add a marker?",
+          "answer": "Upload an image and simply click on the canvas — a numbered red dot appears at the click position with its pixel coordinates."
+        },
+        {
+          "question": "Can I remove markers?",
+          "answer": "Yes, the Clear button removes all markers at once. Use New image to start over with a different image."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Watermark",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "Image Caption Generator",
+          "href": "/tools/image-caption"
+        },
+        {
+          "name": "Date Watermark",
+          "href": "/tools/image-date-watermark"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an image here",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "clear": "Clear markers",
+        "newImage": "New image"
+      },
+      "labels": {
+        "hint": "Click on the image to add a marker"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "图片坐标标记 - 在线标注图片坐标点",
+        "description": "点击图片添加带编号的坐标标记，并可下载标记后的图片。免费，浏览器内运行。"
+      },
+      "title": "图片坐标标记",
+      "description": "点击图片任意位置即可添加带编号的坐标标记，显示精确像素坐标，并可下载标注后的图片。",
+      "category": "图片工具",
+      "keywords": [
+        "图片坐标标记",
+        "图片添加坐标",
+        "图片编号标记",
+        "标记图片位置",
+        "坐标标注",
+        "图片标记点"
+      ],
+      "faqs": [
+        {
+          "question": "如何添加标记？",
+          "answer": "上传图片后直接在画布上点击即可——点击处会出现带编号的红点，并显示其像素坐标。"
+        },
+        {
+          "question": "可以删除标记吗？",
+          "answer": "可以。点击“清除标记”可一键移除全部标记；点击“新图片”可换一张图重新开始。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加水印工具",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "图片描述生成",
+          "href": "/tools/image-caption"
+        },
+        {
+          "name": "图片日期水印",
+          "href": "/tools/image-date-watermark"
+        }
+      ],
+      "upload": {
+        "drop": "将图片拖到此处",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "clear": "清除标记",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "hint": "点击图片添加标记"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "画像座標マーカー - オンラインで座標をマーク",
+        "description": "画像をクリックして番号付きの座標マーカーを追加し、結果をダウンロード。無料・ブラウザ内で完結。"
+      },
+      "title": "画像座標マーカー",
+      "description": "画像上の任意の場所をクリックして、正確なピクセル座標を示す番号付きマーカーを追加し、注釈付き画像をダウンロード。",
+      "category": "画像ツール",
+      "keywords": [
+        "画像座標マーカー",
+        "画像に座標を追加",
+        "番号付きマーカー",
+        "画像の位置をマーク",
+        "座標注釈",
+        "ポイントマーカー"
+      ],
+      "faqs": [
+        {
+          "question": "マーカーはどうやって追加しますか？",
+          "answer": "画像をアップロードしてキャンバス上をクリックするだけです——クリック位置に番号付きの赤い点とピクセル座標が表示されます。"
+        },
+        {
+          "question": "マーカーを削除できますか？",
+          "answer": "はい。「マーカーをクリア」で全て一度に削除でき、「新しい画像」で別の画像からやり直せます。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像に透かし追加",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "画像キャプション生成",
+          "href": "/tools/image-caption"
+        },
+        {
+          "name": "日付ウォーターマーク",
+          "href": "/tools/image-date-watermark"
+        }
+      ],
+      "upload": {
+        "drop": "画像をドロップ",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード",
+        "clear": "マーカーをクリア",
+        "newImage": "新しい画像"
+      },
+      "labels": {
+        "hint": "画像をクリックしてマーカーを追加"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "이미지 좌표 마커 - 온라인 좌표 표시 도구",
+        "description": "이미지를 클릭해 번호가 매겨진 좌표 마커를 추가하고 결과를 다운로드합니다. 무료, 브라우저에서 실행."
+      },
+      "title": "이미지 좌표 마커",
+      "description": "이미지의 원하는 위치를 클릭해 정확한 픽셀 좌표가 표시된 번호 마커를 추가하고, 주석이 달린 결과를 다운로드하세요.",
+      "category": "이미지 도구",
+      "keywords": [
+        "이미지 좌표 마커",
+        "이미지 좌표 추가",
+        "번호 마커",
+        "이미지 위치 표시",
+        "좌표 주석",
+        "포인트 마커"
+      ],
+      "faqs": [
+        {
+          "question": "마커는 어떻게 추가하나요?",
+          "answer": "이미지를 업로드하고 캔버스를 클릭하기만 하면 됩니다 — 클릭한 위치에 번호가 붙은 빨간 점과 픽셀 좌표가 표시됩니다."
+        },
+        {
+          "question": "마커를 삭제할 수 있나요?",
+          "answer": "네. '마커 지우기' 버튼으로 한 번에 모두 제거할 수 있고, '새 이미지'로 다른 이미지에서 다시 시작할 수 있습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 워터마크 추가",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "이미지 설명 생성",
+          "href": "/tools/image-caption"
+        },
+        {
+          "name": "날짜 워터마크",
+          "href": "/tools/image-date-watermark"
+        }
+      ],
+      "upload": {
+        "drop": "이미지를 여기에 놓으세요",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "PNG 다운로드",
+        "clear": "마커 지우기",
+        "newImage": "새 이미지"
+      },
+      "labels": {
+        "hint": "이미지를 클릭하여 마커 추가"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Маркер координат - аннотация точек онлайн",
+        "description": "Кликайте по изображению, добавляйте нумерованные маркеры координат и скачивайте результат. Бесплатно, работает в браузере."
+      },
+      "title": "Маркер координат изображения",
+      "description": "Кликайте по любому месту изображения, чтобы добавить нумерованные маркеры с точными пиксельными координатами, затем скачайте результат.",
+      "category": "Изображения",
+      "keywords": [
+        "маркер координат",
+        "добавить координаты на изображение",
+        "нумерованные маркеры",
+        "отметить точки на изображении",
+        "аннотация координат",
+        "маркеры точек"
+      ],
+      "faqs": [
+        {
+          "question": "Как добавить маркер?",
+          "answer": "Загрузите изображение и просто кликните по холсту — в точке клика появится нумерованная красная точка с координатами в пикселях."
+        },
+        {
+          "question": "Можно ли удалить маркеры?",
+          "answer": "Да. Кнопка «Очистить» убирает все маркеры разом, а «Новое изображение» позволяет начать с другой картинкой."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Водяной знак на изображения",
+          "href": "/tools/image-watermark"
+        },
+        {
+          "name": "Генератор подписей к изображениям",
+          "href": "/tools/image-caption"
+        },
+        {
+          "name": "Водяной знак с датой",
+          "href": "/tools/image-date-watermark"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите изображение сюда",
+        "formats": "PNG · JPG · WebP"
+      },
+      "buttons": {
+        "download": "Скачать PNG",
+        "clear": "Очистить маркеры",
+        "newImage": "Новое изображение"
+      },
+      "labels": {
+        "hint": "Кликните по изображению, чтобы добавить маркер"
+      }
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "slug": "audio-player",
+  "icon": "🎧",
+  "home": {
+    "en": {
+      "name": "Audio Player",
+      "description": "View the waveform of any audio file and listen to it right in your browser.",
+      "category": "Audio Tools"
+    },
+    "zh": {
+      "name": "音频播放",
+      "description": "在浏览器中查看任意音频文件的波形图并直接试听播放。",
+      "category": "音频工具"
+    },
+    "ja": {
+      "name": "音声プレイヤー",
+      "description": "音声ファイルの波形を表示し、ブラウザですぐに試聴できます。",
+      "category": "音声ツール"
+    },
+    "ko": {
+      "name": "오디오 플레이어",
+      "description": "오디오 파일의 파형을 확인하고 브라우저에서 바로 들어보세요.",
+      "category": "오디오 도구"
+    },
+    "ru": {
+      "name": "Аудио плеер",
+      "description": "Просматривайте волновую форму любого аудиофайла и слушайте его прямо в браузере.",
+      "category": "Аудиоинструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Audio Player - Waveform Viewer & Player Online",
+        "description": "Free online audio player with waveform visualization. Upload an audio file, view its waveform, duration, sample rate and channels, and play it instantly."
+      },
+      "title": "Audio Player",
+      "description": "Upload an audio file to see its waveform, duration, sample rate and channel count — then play it right in the browser. Everything stays local.",
+      "category": "Audio Tools",
+      "keywords": [
+        "audio player",
+        "audio waveform",
+        "waveform viewer",
+        "play audio online",
+        "audio visualizer",
+        "mp3 player"
+      ],
+      "faqs": [
+        {
+          "question": "How do I listen to an audio file here?",
+          "answer": "Just drop or select an audio file. Its waveform is drawn automatically and you can hit play — no upload, no signup."
+        },
+        {
+          "question": "Which audio formats are supported?",
+          "answer": "Everything your browser can decode: MP3, WAV, OGG, M4A, FLAC and more. The file stays on your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Audio Cutter",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "Audio Converter",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "Video Transcript",
+          "href": "/tools/video-transcript"
+        }
+      ],
+      "upload": {
+        "drop": "Drop an audio file here",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "duration": "Duration",
+        "sampleRate": "Sample rate",
+        "channels": "Channels"
+      },
+      "buttons": {
+        "play": "Play",
+        "pause": "Pause"
+      },
+      "errors": {
+        "decode": "Could not read this audio file. It may be corrupted or unsupported."
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "音频播放器 - 在线波形查看与试听",
+        "description": "免费在线音频播放器，带波形可视化。上传音频文件即可查看波形、时长、采样率与声道，并即时播放。"
+      },
+      "title": "音频播放",
+      "description": "上传音频文件，查看波形、时长、采样率和声道数，然后直接在浏览器中试听。所有数据都留在本地。",
+      "category": "音频工具",
+      "keywords": [
+        "音频播放",
+        "音频波形",
+        "波形查看",
+        "在线播放音频",
+        "音频可视化",
+        "mp3播放器"
+      ],
+      "faqs": [
+        {
+          "question": "如何在这里试听音频？",
+          "answer": "拖入或选择音频文件即可。波形会自动绘制，点击播放按钮即可试听——无需上传、无需注册。"
+        },
+        {
+          "question": "支持哪些音频格式？",
+          "answer": "支持浏览器能解码的所有格式：MP3、WAV、OGG、M4A、FLAC 等。文件不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "音频剪切",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "音频转换",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "视频转文字",
+          "href": "/tools/video-transcript"
+        }
+      ],
+      "upload": {
+        "drop": "将音频文件拖到此处",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "duration": "时长",
+        "sampleRate": "采样率",
+        "channels": "声道"
+      },
+      "buttons": {
+        "play": "播放",
+        "pause": "暂停"
+      },
+      "errors": {
+        "decode": "无法读取该音频文件，可能已损坏或不支持。"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "音声プレイヤー - 波形表示・試聴オンラインツール",
+        "description": "波形可視化付きの無料オンライン音声プレイヤー。音声ファイルをアップロードして、波形・長さ・サンプルレート・チャンネルを確認し即再生できます。"
+      },
+      "title": "音声プレイヤー",
+      "description": "音声ファイルをアップロードすると、波形・長さ・サンプルレート・チャンネル数を表示し、ブラウザですぐに試聴できます。データは端末内に留まります。",
+      "category": "音声ツール",
+      "keywords": [
+        "音声プレイヤー",
+        "音声波形",
+        "波形表示",
+        "オンライン再生",
+        "音声ビジュアライザー",
+        "mp3プレイヤー"
+      ],
+      "faqs": [
+        {
+          "question": "どうやって音声を試聴しますか？",
+          "answer": "音声ファイルをドロップまたは選択するだけ。波形が自動で描画され、再生ボタンを押せば試聴できます。アップロード不要・登録不要です。"
+        },
+        {
+          "question": "対応している音声形式は？",
+          "answer": "ブラウザがデコードできる形式なら対応 — MP3、WAV、OGG、M4A、FLAC など。ファイルは端末の外に出ません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "音声カッター",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "音声変換",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "動画文字起こし",
+          "href": "/tools/video-transcript"
+        }
+      ],
+      "upload": {
+        "drop": "音声ファイルをドロップ",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "duration": "長さ",
+        "sampleRate": "サンプルレート",
+        "channels": "チャンネル"
+      },
+      "buttons": {
+        "play": "再生",
+        "pause": "一時停止"
+      },
+      "errors": {
+        "decode": "この音声ファイルを読み込めませんでした。破損しているか非対応の可能性があります。"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "오디오 플레이어 - 온라인 파형 보기 및 재생",
+        "description": "파형 시각화가 포함된 무료 온라인 오디오 플레이어입니다. 오디오 파일을 업로드해 파형, 길이, 샘플레이트, 채널을 확인하고 바로 재생하세요."
+      },
+      "title": "오디오 플레이어",
+      "description": "오디오 파일을 업로드하면 파형, 길이, 샘플레이트, 채널 수를 확인하고 브라우저에서 바로 재생할 수 있습니다. 모든 데이터는 로컬에 유지됩니다.",
+      "category": "오디오 도구",
+      "keywords": [
+        "오디오 플레이어",
+        "오디오 파형",
+        "파형 보기",
+        "온라인 오디오 재생",
+        "오디오 시각화",
+        "mp3 플레이어"
+      ],
+      "faqs": [
+        {
+          "question": "여기서 오디오를 어떻게 들어보나요?",
+          "answer": "오디오 파일을 드래그하거나 선택하기만 하면 파형이 자동으로 그려지고 재생 버튼으로 바로 들을 수 있습니다. 업로드나 가입이 필요 없습니다."
+        },
+        {
+          "question": "어떤 오디오 형식을 지원하나요?",
+          "answer": "브라우저가 디코딩할 수 있는 모든 형식 — MP3, WAV, OGG, M4A, FLAC 등. 파일은 기기를 떠나지 않습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "오디오 자르기",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "오디오 변환기",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "동영상 텍스트 변환",
+          "href": "/tools/video-transcript"
+        }
+      ],
+      "upload": {
+        "drop": "오디오 파일을 여기에 놓으세요",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "duration": "길이",
+        "sampleRate": "샘플레이트",
+        "channels": "채널"
+      },
+      "buttons": {
+        "play": "재생",
+        "pause": "일시정지"
+      },
+      "errors": {
+        "decode": "이 오디오 파일을 읽을 수 없습니다. 손상되었거나 지원되지 않을 수 있습니다."
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Аудио плеер - просмотр волновой формы онлайн",
+        "description": "Бесплатный онлайн-аудиоплеер с визуализацией волновой формы. Загрузите файл, посмотрите форму, длительность, частоту и каналы и слушайте мгновенно."
+      },
+      "title": "Аудио плеер",
+      "description": "Загрузите аудиофайл, чтобы увидеть его волновую форму, длительность, частоту дискретизации и число каналов — и слушайте прямо в браузере. Всё остаётся локально.",
+      "category": "Аудиоинструменты",
+      "keywords": [
+        "аудио плеер",
+        "волновая форма",
+        "просмотр волн",
+        "слушать аудио онлайн",
+        "визуализатор звука",
+        "mp3 плеер"
+      ],
+      "faqs": [
+        {
+          "question": "Как послушать аудио здесь?",
+          "answer": "Перетащите или выберите файл. Волновая форма построится автоматически, нажмите play — без загрузки на сервер и регистрации."
+        },
+        {
+          "question": "Какие форматы поддерживаются?",
+          "answer": "Всё, что декодирует ваш браузер: MP3, WAV, OGG, M4A, FLAC и другие. Файл остаётся на вашем устройстве."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Обрезка аудио",
+          "href": "/tools/audio-cutter"
+        },
+        {
+          "name": "Конвертер аудио",
+          "href": "/tools/audio-converter"
+        },
+        {
+          "name": "Транскрипция видео",
+          "href": "/tools/video-transcript"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите аудиофайл сюда",
+        "formats": "MP3 · WAV · OGG · M4A · FLAC"
+      },
+      "labels": {
+        "duration": "Длительность",
+        "sampleRate": "Частота",
+        "channels": "Каналы"
+      },
+      "buttons": {
+        "play": "Играть",
+        "pause": "Пауза"
+      },
+      "errors": {
+        "decode": "Не удалось прочитать аудиофайл. Возможно, он повреждён или не поддерживается."
+      }
+    }
+  }
+}

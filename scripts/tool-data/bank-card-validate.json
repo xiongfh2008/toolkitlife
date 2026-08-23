@@ -1,0 +1,283 @@
+{
+  "slug": "bank-card-validate",
+  "icon": "💳",
+  "home": {
+    "en": {
+      "name": "Card Number Check",
+      "description": "Validate a bank card number with the Luhn algorithm.",
+      "category": "Life Tools"
+    },
+    "zh": {
+      "name": "银行卡校验",
+      "description": "使用 Luhn 算法校验银行卡号。",
+      "category": "生活工具"
+    },
+    "ja": {
+      "name": "カード番号チェック",
+      "description": "Luhnアルゴリズムでカード番号を検証します。",
+      "category": "生活ツール"
+    },
+    "ko": {
+      "name": "카드 번호 검증",
+      "description": "Luhn 알고리즘으로 카드 번호를 검증합니다.",
+      "category": "생활 도구"
+    },
+    "ru": {
+      "name": "Проверка номера карты",
+      "description": "Проверьте номер банковской карты алгоритмом Луна.",
+      "category": "Повседневные инструменты"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Card Number Check - Validate with Luhn Online",
+        "description": "Free online bank card number validator using the Luhn algorithm. Check whether a card number passes the checksum. Runs in your browser."
+      },
+      "title": "Card Number Check",
+      "description": "Enter a card number to check whether it passes the Luhn checksum — the same check used by payment networks to catch typos.",
+      "category": "Life Tools",
+      "keywords": [
+        "card number check",
+        "luhn algorithm",
+        "validate card number",
+        "credit card check",
+        "card validator",
+        "luhn check"
+      ],
+      "faqs": [
+        {
+          "question": "What is the Luhn algorithm?",
+          "answer": "A simple checksum formula used by payment cards to catch mistyped digits. It validates the number's structure, not whether the card exists."
+        },
+        {
+          "question": "Is my card number stored?",
+          "answer": "No. Everything is processed locally in your browser; nothing is sent or saved."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Random Password Generator",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "Hash Generator",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "placeholder": "Enter card number (spaces allowed)",
+        "valid": "This number passes the Luhn check",
+        "invalid": "This number fails the Luhn check",
+        "luhnNote": "Luhn only verifies the checksum — it does not confirm the card exists."
+      },
+      "buttons": {
+        "validate": "Validate"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "银行卡校验 - Luhn 算法在线校验",
+        "description": "免费在线银行卡号校验工具，使用 Luhn 算法检测卡号是否符合校验规则。全程在浏览器本地完成。"
+      },
+      "title": "银行卡校验",
+      "description": "输入卡号，检测它是否通过 Luhn 校验和——这是支付网络用于发现输入错误的方法。",
+      "category": "生活工具",
+      "keywords": [
+        "银行卡校验",
+        "luhn算法",
+        "卡号校验",
+        "信用卡校验",
+        "银行卡验证",
+        "luhn校验"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 Luhn 算法？",
+          "answer": "支付卡用于发现数字输入错误的简单校验和公式。它只验证号码结构，不验证卡是否存在。"
+        },
+        {
+          "question": "卡号会被保存吗？",
+          "answer": "不会。所有处理都在浏览器本地完成，不会发送或保存任何数据。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "随机密码",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "哈希生成",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "二维码生成",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "placeholder": "输入银行卡号（可含空格）",
+        "valid": "该号码通过 Luhn 校验",
+        "invalid": "该号码未通过 Luhn 校验",
+        "luhnNote": "Luhn 只校验校验和，不能确认卡真实存在。"
+      },
+      "buttons": {
+        "validate": "校验"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "カード番号チェック - Luhnでオンライン検証",
+        "description": "Luhnアルゴリズムでカード番号のチェックサムを検証する無料ツール。ブラウザ内で完結。"
+      },
+      "title": "カード番号チェック",
+      "description": "カード番号を入力してLuhnチェックサムを通過するか確認します。入力ミスを見つける決済ネットワークと同じ方法です。",
+      "category": "生活ツール",
+      "keywords": [
+        "カード番号チェック",
+        "luhnアルゴリズム",
+        "カード検証",
+        "クレジットカードチェック",
+        "luhnチェック",
+        "番号検証"
+      ],
+      "faqs": [
+        {
+          "question": "Luhnアルゴリズムとは？",
+          "answer": "誤入力を見つけるための簡易チェックサム方式です。番号の構造を検証するだけで、カードの存在は確認しません。"
+        },
+        {
+          "question": "番号は保存されますか？",
+          "answer": "いいえ。すべてブラウザ内で処理され、送信・保存はされません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "ランダムパスワード",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "ハッシュ生成",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "QRコード生成",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "placeholder": "カード番号を入力（スペース可）",
+        "valid": "この番号はLuhnチェックを通過します",
+        "invalid": "この番号はLuhnチェックを通過しません",
+        "luhnNote": "Luhnはチェックサムのみ検証し、カードの存在は確認しません。"
+      },
+      "buttons": {
+        "validate": "検証"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "카드 번호 검증 - Luhn 알고리즘 온라인",
+        "description": "Luhn 알고리즘으로 카드 번호 체크섬을 검증하는 무료 도구입니다. 브라우저에서 완료됩니다."
+      },
+      "title": "카드 번호 검증",
+      "description": "카드 번호를 입력해 Luhn 체크섬을 통과하는지 확인합니다. 오타를 찾는 결제망과 동일한 방식입니다.",
+      "category": "생활 도구",
+      "keywords": [
+        "카드 번호 검증",
+        "luhn 알고리즘",
+        "카드 검증",
+        "신용카드 확인",
+        "luhn 체크",
+        "번호 검증"
+      ],
+      "faqs": [
+        {
+          "question": "Luhn 알고리즘이란 무엇인가요?",
+          "answer": "오타를 찾기 위한 간단한 체크섬 공식입니다. 번호의 구조만 검증하며 카드 존재 여부는 확인하지 않습니다."
+        },
+        {
+          "question": "카드 번호가 저장되나요?",
+          "answer": "아니요. 모든 처리는 브라우저에서 로컬로 진행되며 전송되거나 저장되지 않습니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "랜덤 비밀번호",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "해시 생성",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "QR 코드 생성",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "placeholder": "카드 번호 입력 (공백 허용)",
+        "valid": "이 번호는 Luhn 검증을 통과합니다",
+        "invalid": "이 번호는 Luhn 검증을 통과하지 못합니다",
+        "luhnNote": "Luhn은 체크섬만 검증하며 카드 존재 여부는 확인하지 않습니다."
+      },
+      "buttons": {
+        "validate": "검증"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Проверка номера карты - Luhn онлайн",
+        "description": "Бесплатный онлайн-валидатор номера карты по алгоритму Луна. Проверьте, проходит ли номер контрольную сумму. Всё в браузере."
+      },
+      "title": "Проверка номера карты",
+      "description": "Введите номер карты и проверьте, проходит ли он контрольную сумму Луна — ту же проверку, что используют платёжные сети.",
+      "category": "Повседневные инструменты",
+      "keywords": [
+        "проверка номера карты",
+        "алгоритм луна",
+        "валидация карты",
+        "проверка карты",
+        "luhn",
+        "контрольная сумма карты"
+      ],
+      "faqs": [
+        {
+          "question": "Что такое алгоритм Луна?",
+          "answer": "Простая контрольная сумма, которой платёжные карты ловят опечатки. Она проверяет структуру номера, а не существование карты."
+        },
+        {
+          "question": "Номер карты сохраняется?",
+          "answer": "Нет. Всё обрабатывается локально в браузере; ничего не отправляется и не сохраняется."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Генератор паролей",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "Генератор хэша",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Генератор QR",
+          "href": "/tools/qr-code-generator"
+        }
+      ],
+      "labels": {
+        "placeholder": "Введите номер карты (можно с пробелами)",
+        "valid": "Номер проходит проверку Луна",
+        "invalid": "Номер не проходит проверку Луна",
+        "luhnNote": "Лун проверяет только контрольную сумму — существование карты он не подтверждает."
+      },
+      "buttons": {
+        "validate": "Проверить"
+      }
+    }
+  }
+}

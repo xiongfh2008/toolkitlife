@@ -1,0 +1,298 @@
+{
+  "slug": "image-alpha-invert",
+  "icon": "◐",
+  "home": {
+    "en": {
+      "name": "Alpha Invert",
+      "description": "Invert the transparency of a PNG image — swap transparent and visible areas.",
+      "category": "Image Tools"
+    },
+    "zh": {
+      "name": "透明度反转",
+      "description": "反转 PNG 图片的透明度——透明与可见区域互换。",
+      "category": "图片工具"
+    },
+    "ja": {
+      "name": "アルファ反転",
+      "description": "PNG 画像の透明度を反転——透明部分と表示部分を入れ替えます。",
+      "category": "画像ツール"
+    },
+    "ko": {
+      "name": "알파 반전",
+      "description": "PNG 이미지의 투명도를 반전합니다 — 투명 영역과 보이는 영역을 바꿉니다.",
+      "category": "이미지 도구"
+    },
+    "ru": {
+      "name": "Инверсия прозрачности",
+      "description": "Инвертируйте прозрачность PNG: прозрачные и видимые области меняются местами.",
+      "category": "Изображения"
+    }
+  },
+  "tools": {
+    "en": {
+      "metadata": {
+        "title": "Alpha Invert - Flip Image Transparency Online",
+        "description": "Invert the alpha channel of a PNG image: transparent areas become visible and visible areas become transparent. Free, runs in your browser."
+      },
+      "title": "Alpha Invert",
+      "description": "Flip the transparency of a PNG image in one click — swap the transparent and visible areas. Great for masks, stickers and PNG editing.",
+      "category": "Image Tools",
+      "keywords": [
+        "alpha invert",
+        "invert transparency",
+        "flip alpha channel",
+        "png transparency",
+        "invert alpha",
+        "transparent to opaque"
+      ],
+      "faqs": [
+        {
+          "question": "What does alpha invert do?",
+          "answer": "It flips the alpha channel: fully transparent pixels become opaque and opaque pixels become transparent, keeping colors the same."
+        },
+        {
+          "question": "Does it work on JPG files?",
+          "answer": "JPG has no alpha channel, so this tool is for PNG (and WebP) images with transparency."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Background",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "Image Clear",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a PNG image here",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "Download PNG",
+        "newImage": "New image"
+      },
+      "labels": {
+        "original": "Original",
+        "result": "Inverted"
+      }
+    },
+    "zh": {
+      "metadata": {
+        "title": "透明度反转 - 在线翻转图片透明通道",
+        "description": "反转 PNG 图片的 Alpha 通道：透明区域变为可见，可见区域变为透明。免费，浏览器内运行。"
+      },
+      "title": "透明度反转",
+      "description": "一键翻转 PNG 图片的透明度——透明与可见区域互换。适合蒙版、贴纸与 PNG 编辑。",
+      "category": "图片工具",
+      "keywords": [
+        "透明度反转",
+        "反转alpha通道",
+        "透明翻转",
+        "png透明度",
+        "透明变不透明",
+        "反转透明区域"
+      ],
+      "faqs": [
+        {
+          "question": "透明度反转是什么？",
+          "answer": "它翻转 Alpha 通道：完全透明的像素变为不透明，不透明的变为透明，颜色保持不变。"
+        },
+        {
+          "question": "支持 JPG 吗？",
+          "answer": "JPG 没有 Alpha 通道，因此本工具仅适用于带透明的 PNG（及 WebP）图片。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片加背景",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "纯色图片",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "图像内容清除",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "将 PNG 图片拖到此处",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "下载 PNG",
+        "newImage": "新图片"
+      },
+      "labels": {
+        "original": "原图",
+        "result": "反转后"
+      }
+    },
+    "ja": {
+      "metadata": {
+        "title": "アルファ反転 - オンラインで画像の透明を反転",
+        "description": "PNG 画像のアルファチャンネルを反転：透明部分が表示され、表示部分が透明になります。無料・ブラウザ内で完結。"
+      },
+      "title": "アルファ反転",
+      "description": "PNG 画像の透明度をワンクリックで反転——透明と表示領域を入れ替えます。マスク・ステッカー・PNG 編集に最適。",
+      "category": "画像ツール",
+      "keywords": [
+        "アルファ反転",
+        "透明度反転",
+        "アルファチャンネル",
+        "png 透明度",
+        "透明を反転",
+        "透明領域を反転"
+      ],
+      "faqs": [
+        {
+          "question": "アルファ反転とは？",
+          "answer": "アルファチャンネルを反転し、完全に透明なピクセルが不透明に、不透明なピクセルが透明になります。色は変わりません。"
+        },
+        {
+          "question": "JPG にも使えますか？",
+          "answer": "JPG にはアルファチャンネルがないため、透明度のある PNG（や WebP）画像向けです。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像背景追加",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "単色画像生成",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "画像内容クリア",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "PNG 画像をドロップ",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "PNG をダウンロード",
+        "newImage": "新しい画像"
+      },
+      "labels": {
+        "original": "元画像",
+        "result": "反転後"
+      }
+    },
+    "ko": {
+      "metadata": {
+        "title": "알파 반전 - 온라인 투명도 반전 도구",
+        "description": "PNG 이미지의 알파 채널을 반전합니다: 투명 영역이 표시되고 표시 영역이 투명해집니다. 무료, 브라우저에서 실행."
+      },
+      "title": "알파 반전",
+      "description": "PNG 이미지의 투명도를 한 번의 클릭으로 반전합니다 — 투명 영역과 표시 영역을 바꿉니다. 마스크·스티커·PNG 편집에 유용.",
+      "category": "이미지 도구",
+      "keywords": [
+        "알파 반전",
+        "투명도 반전",
+        "알파 채널",
+        "png 투명도",
+        "투명 반전",
+        "투명 영역 반전"
+      ],
+      "faqs": [
+        {
+          "question": "알파 반전은 무엇인가요?",
+          "answer": "알파 채널을 뒤집어 완전히 투명한 픽셀은 불투명하게, 불투명한 픽셀은 투명하게 만듭니다. 색상은 유지됩니다."
+        },
+        {
+          "question": "JPG에서도 되나요?",
+          "answer": "JPG에는 알파 채널이 없어 투명도가 있는 PNG(및 WebP) 이미지에 적합합니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 배경 추가",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "단색 이미지",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "이미지 내용 지우기",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "PNG 이미지를 여기에 놓으세요",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "PNG 다운로드",
+        "newImage": "새 이미지"
+      },
+      "labels": {
+        "original": "원본",
+        "result": "반전 후"
+      }
+    },
+    "ru": {
+      "metadata": {
+        "title": "Инверсия прозрачности - онлайн-инструмент",
+        "description": "Инвертируйте альфа-канал PNG: прозрачные области становятся видимыми, видимые — прозрачными. Бесплатно, работает в браузере."
+      },
+      "title": "Инверсия прозрачности",
+      "description": "Переверните прозрачность PNG в один клик — прозрачные и видимые области меняются местами. Идеально для масок, стикеров и редактирования PNG.",
+      "category": "Изображения",
+      "keywords": [
+        "инверсия прозрачности",
+        "инверсия альфа",
+        "альфа-канал png",
+        "прозрачность png",
+        "перевернуть прозрачность",
+        "инвертировать прозрачность"
+      ],
+      "faqs": [
+        {
+          "question": "Что делает инверсия прозрачности?",
+          "answer": "Переворачивает альфа-канал: полностью прозрачные пиксели становятся непрозрачными и наоборот, сохраняя цвета."
+        },
+        {
+          "question": "Работает ли с JPG?",
+          "answer": "У JPG нет альфа-канала, поэтому инструмент предназначен для PNG (и WebP) с прозрачностью."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Фон для изображения",
+          "href": "/tools/image-background"
+        },
+        {
+          "name": "Однотонное изображение",
+          "href": "/tools/solid-color-image"
+        },
+        {
+          "name": "Очистка содержимого",
+          "href": "/tools/image-clear"
+        }
+      ],
+      "upload": {
+        "drop": "Перетащите PNG сюда",
+        "formats": "PNG · WebP"
+      },
+      "buttons": {
+        "download": "Скачать PNG",
+        "newImage": "Новое изображение"
+      },
+      "labels": {
+        "original": "Оригинал",
+        "result": "Инвертировано"
+      }
+    }
+  }
+}

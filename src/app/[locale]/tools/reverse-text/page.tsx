@@ -2,13 +2,16 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import ToolLayout from "@/components/ToolLayout";
+import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 import CopyButton from "@/components/CopyButton";
 
 type Mode = "chars" | "words" | "lines";
 
 export default function ReverseTextPage() {
   const t = useTranslations("tools.reverse-text");
+  const faqs = t.raw("faqs") as FAQ[];
+  const relatedTools = t.raw("relatedTools") as RelatedTool[];
+  const keywords = t.raw("keywords") as string[];
   const [mode, setMode] = useState<Mode>("chars");
   const [input, setInput] = useState("");
 
@@ -29,6 +32,9 @@ export default function ReverseTextPage() {
       description={t("metadata.description")}
       category={t("metadata.category")}
       slug="reverse-text"
+      faqs={faqs}
+      relatedTools={relatedTools}
+      keywords={keywords}
     >
       <div className="space-y-4">
         {/* Mode toggle */}
