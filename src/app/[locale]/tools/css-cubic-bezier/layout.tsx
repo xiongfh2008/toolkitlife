@@ -12,7 +12,15 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.css-cubic-bezier.metadata" });
   return {
     title: t("title"),
-    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    openGraph: {
+
+      url: `https://www.toolkitlife.com/${locale}/tools/css-cubic-bezier`,
+
+      siteName: "ToolkitLife",
+
+      images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],
+
+    },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
@@ -23,6 +31,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/css-cubic-bezier`,
         ko: `https://www.toolkitlife.com/ko/tools/css-cubic-bezier`,
         ru: `https://www.toolkitlife.com/ru/tools/css-cubic-bezier`,
+        "x-default": `https://www.toolkitlife.com/en/tools/css-cubic-bezier`,
       },
     },
   };

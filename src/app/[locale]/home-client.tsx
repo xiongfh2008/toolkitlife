@@ -65,7 +65,12 @@ export default function HomePage() {
     return map;
   }, [tools]);
 
-  const [search, setSearch] = useState("");
+  // Initialize from ?q= so the WebSite SearchAction target actually returns
+  // results (and search URLs are shareable/bookmarkable).
+  const [search, setSearch] = useState<string>(() => {
+    if (typeof window === "undefined") return "";
+    return new URLSearchParams(window.location.search).get("q") ?? "";
+  });
   const [favorites, setFavorites] = useState<string[]>([]);
   const [recent, setRecent] = useState<string[]>([]);
   const [searchHistory, setSearchHistory] = useState<string[]>([]);
@@ -221,8 +226,10 @@ export default function HomePage() {
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
       {/* Hero */}
       <div className="mb-14 text-center">
-        {/* SEO title — logo removed from the visible homepage body */}
-        <h1 className="sr-only">{t("title")}</h1>
+        {/* SEO title — kept as a visible heading for crawlers and users */}
+        <h1 className="mb-3 font-display text-4xl font-semibold text-zinc-100 sm:text-5xl">
+          {t("title")}
+        </h1>
         <p className="mx-auto max-w-lg text-lg text-zinc-400 leading-relaxed">
           {t("subtitle")}
           <br />

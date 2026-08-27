@@ -42,8 +42,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
 
     for (const slug of blogSlugs) {
+      const meta = blogPostsMeta.find((p) => p.slug === slug);
       entries.push({
         url: `${prefix}/blog/${slug}`,
+        lastModified: meta?.dateModified,
         changeFrequency: "monthly",
         priority: 0.6,
       });

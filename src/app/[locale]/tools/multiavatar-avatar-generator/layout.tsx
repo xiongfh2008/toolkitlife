@@ -16,6 +16,8 @@ export async function generateMetadata({
   return {
     title: t("title"),
     openGraph: {
+      url: `https://www.toolkitlife.com/${locale}/tools/multiavatar-avatar-generator`,
+      siteName: "ToolkitLife",
       images: [
         {
           url: ogImageUrl({ title: t("title"), type: "tool" }),
@@ -38,6 +40,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/multiavatar-avatar-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/multiavatar-avatar-generator`,
         ru: `https://www.toolkitlife.com/ru/tools/multiavatar-avatar-generator`,
+        "x-default": `https://www.toolkitlife.com/en/tools/multiavatar-avatar-generator`,
       },
     },
   };

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "ToolkitLife - Free Online Tools & Calculators | No Signup Required",
-    "description": "136+ free browser-based tools and calculators for developers, designers, finance, health, and more. No signup, no data stored.",
+    "description": "370+ free browser-based tools and calculators for developers, designers, finance, health, and more. No signup, no data stored.",
     "keywords": [
       "free online tools",
       "developer tools",
@@ -17,9 +17,9 @@
       "good morning images"
     ],
     "ogTitle": "ToolkitLife - Free Online Tools & Calculators",
-    "ogDescription": "136+ free browser-based tools and calculators. No signup, no data stored.",
+    "ogDescription": "370+ free browser-based tools and calculators. No signup, no data stored.",
     "twitterTitle": "ToolkitLife - Free Online Tools & Calculators",
-    "twitterDescription": "136+ free browser-based tools and calculators. No signup required."
+    "twitterDescription": "370+ free browser-based tools and calculators. No signup required."
   },
   "nav": {
     "home": "ToolkitLife",
@@ -2321,7 +2321,7 @@
     "clearHistory": "Clear",
     "searchHistory": "Recent Searches",
     "emptyFavorites": "No favorites yet — click the star on any tool to save it here.",
-    "heroBadge": "299 free online tools & calculators",
+    "heroBadge": "370+ free online tools & calculators",
     "showMore": "Show more"
   },
   "privacy": {

@@ -12,7 +12,15 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.text-repeater.metadata" });
   return {
     title: t("title"),
-    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    openGraph: {
+
+      url: `https://www.toolkitlife.com/${locale}/tools/text-repeater`,
+
+      siteName: "ToolkitLife",
+
+      images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],
+
+    },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
@@ -23,6 +31,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/text-repeater`,
         ko: `https://www.toolkitlife.com/ko/tools/text-repeater`,
         ru: `https://www.toolkitlife.com/ru/tools/text-repeater`,
+        "x-default": `https://www.toolkitlife.com/en/tools/text-repeater`,
       },
     },
   };

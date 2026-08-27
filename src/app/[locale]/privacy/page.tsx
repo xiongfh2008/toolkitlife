@@ -20,6 +20,7 @@ export async function generateMetadata({
         ja: "https://www.toolkitlife.com/ja/privacy",
         ko: "https://www.toolkitlife.com/ko/privacy",
         ru: "https://www.toolkitlife.com/ru/privacy",
+        "x-default": `https://www.toolkitlife.com/en/privacy`,
       },
     },
   };

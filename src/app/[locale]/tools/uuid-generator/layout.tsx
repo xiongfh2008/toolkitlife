@@ -12,7 +12,15 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.uuid-generator.metadata" });
   return {
     title: t("title"),
-    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    openGraph: {
+
+      url: `https://www.toolkitlife.com/${locale}/tools/uuid-generator`,
+
+      siteName: "ToolkitLife",
+
+      images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],
+
+    },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
@@ -23,6 +31,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/uuid-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/uuid-generator`,
         ru: `https://www.toolkitlife.com/ru/tools/uuid-generator`,
+        "x-default": `https://www.toolkitlife.com/en/tools/uuid-generator`,
       },
     },
   };

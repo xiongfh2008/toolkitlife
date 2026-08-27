@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import Script from "next/script";
 import { SCENE_OF_SLUG } from "@/data/scene-of-slug";
 
 const FAVORITES_KEY = "tp:favorites";
@@ -116,6 +115,7 @@ export default function ToolLayout({
 }: ToolLayoutProps) {
   const t = useTranslations("toolLayout");
   const toolT = useTranslations(`tools.${slug}`);
+  const locale = useLocale();
 
   // Fall back to translation data when a page doesn't pass these explicitly.
   const effectiveGuide =
@@ -178,7 +178,7 @@ export default function ToolLayout({
       return next;
     });
   };
-  const url = `https://www.toolkitlife.com/tools/${slug}`;
+  const url = `https://www.toolkitlife.com/${locale}/tools/${slug}`;
 
   // SoftwareApplication schema
   const appSchema = {
@@ -206,33 +206,34 @@ export default function ToolLayout({
       }
     : null;
 
-  // BreadcrumbList schema
+  // BreadcrumbList schema — URLs must match the actual (locale-prefixed) pages
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: "https://www.toolkitlife.com" },
-      { "@type": "ListItem", position: 2, name: category, item: `https://www.toolkitlife.com/#${category.toLowerCase()}` },
+      { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://www.toolkitlife.com/${locale}` },
+      { "@type": "ListItem", position: 2, name: category, item: `https://www.toolkitlife.com/${locale}/#scene=${SCENE_OF_SLUG[slug] ?? "all"}` },
       { "@type": "ListItem", position: 3, name: title, item: url },
     ],
   };
 
   return (
     <>
-      {/* Structured data */}
-      <Script
+      {/* Structured data — plain <script> so JSON-LD is server-rendered in the
+          initial HTML instead of only being injected after hydration. */}
+      <script
         id={`schema-app-${slug}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(appSchema) }}
       />
       {faqSchema && (
-        <Script
+        <script
           id={`schema-faq-${slug}`}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
-      <Script
+      <script
         id={`schema-breadcrumb-${slug}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

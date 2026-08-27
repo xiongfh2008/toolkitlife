@@ -12,7 +12,11 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.image-date-watermark.metadata" });
   return {
     title: t("title"),
-    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    openGraph: {
+      url: `https://www.toolkitlife.com/${locale}/tools/image-date-watermark`,
+      siteName: "ToolkitLife",
+      images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],
+    },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
@@ -23,6 +27,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/image-date-watermark`,
         ko: `https://www.toolkitlife.com/ko/tools/image-date-watermark`,
         ru: `https://www.toolkitlife.com/ru/tools/image-date-watermark`,
+        "x-default": `https://www.toolkitlife.com/en/tools/image-date-watermark`,
       },
     },
   };

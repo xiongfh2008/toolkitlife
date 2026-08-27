@@ -12,7 +12,15 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.lorem-ipsum-generator.metadata" });
   return {
     title: t("title"),
-    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    openGraph: {
+
+      url: `https://www.toolkitlife.com/${locale}/tools/lorem-ipsum-generator`,
+
+      siteName: "ToolkitLife",
+
+      images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],
+
+    },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
@@ -23,6 +31,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/lorem-ipsum-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/lorem-ipsum-generator`,
         ru: `https://www.toolkitlife.com/ru/tools/lorem-ipsum-generator`,
+        "x-default": `https://www.toolkitlife.com/en/tools/lorem-ipsum-generator`,
       },
     },
   };

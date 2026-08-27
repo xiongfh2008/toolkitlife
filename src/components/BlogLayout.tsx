@@ -1,8 +1,7 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import Script from "next/script";
 
 interface BlogPost {
   title: string;
@@ -46,7 +45,8 @@ interface BlogLayoutProps {
 
 export default function BlogLayout({ post, children }: BlogLayoutProps) {
   const t = useTranslations("blogLayout");
-  const url = `https://www.toolkitlife.com/blog/${post.slug}`;
+  const locale = useLocale();
+  const url = `https://www.toolkitlife.com/${locale}/blog/${post.slug}`;
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -56,7 +56,7 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
     url,
     datePublished: post.datePublished,
     dateModified: post.dateModified,
-    author: { "@type": "Person", name: post.author, url: "https://www.toolkitlife.com/blog" },
+    author: { "@type": "Person", name: post.author, url: `https://www.toolkitlife.com/${locale}/blog` },
     publisher: { "@type": "Organization", name: "ToolkitLife", logo: { "@type": "ImageObject", url: "https://www.toolkitlife.com/icon.svg" } },
     mainEntityOfPage: url,
     keywords: post.tags.join(", "),
@@ -76,13 +76,15 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
 
   return (
     <>
-      <Script
+      {/* Structured data — plain <script> so JSON-LD is server-rendered in the
+          initial HTML instead of only being injected after hydration. */}
+      <script
         id={`schema-article-${post.slug}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       {faqSchema && (
-        <Script
+        <script
           id={`schema-faq-${post.slug}`}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

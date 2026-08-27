@@ -5,409 +5,409 @@
 ## Tools
 
 ### Marketing Tools
-- [What Is My Browser](https://toolkitlife.com/tools/what-is-my-browser): Detect your browser, OS and IP address.
-- [GEO IP Locator](https://toolkitlife.com/tools/geo-ip-locator): Find the geographic location of any IP address.
-- [Redirect Checker](https://toolkitlife.com/tools/redirect-checker): Check URL redirects and final destination.
-- [Is It Down](https://toolkitlife.com/tools/is-it-down): Check if a website is down or reachable.
-- [Domain Age Checker](https://toolkitlife.com/tools/domain-age): Find out how old any domain is.
-- [Domain Hosting Checker](https://toolkitlife.com/tools/domain-hosting): Find out where any domain is hosted.
-- [XML Sitemap Generator](https://toolkitlife.com/tools/xml-sitemap): Generate an XML sitemap for your website instantly.
-- [Adsense Calculator](https://toolkitlife.com/tools/adsense-calculator): Estimate your Google AdSense earnings.
-- [URL Opener](https://toolkitlife.com/tools/url-opener): Open multiple URLs at once in new tabs.
-- [Mobile Friendly Test](https://toolkitlife.com/tools/mobile-friendly-test): Check if your website is mobile-friendly.
-- [Keyword Density Checker](https://toolkitlife.com/tools/keyword-density): Analyze keyword frequency and density in your content.
-- [Meta Tags Analyzer](https://toolkitlife.com/tools/meta-tags-analyzer): Analyze existing meta tags of any URL.
-- [Long Tail Keyword Tool](https://toolkitlife.com/tools/long-tail-keywords): Generate long-tail keyword suggestions for your topic.
-- [Keyword Position Checker](https://toolkitlife.com/tools/keyword-position): Check where your keywords rank in search engines.
-- [ChatGPT Ads Calculator](https://toolkitlife.com/tools/chatgpt-ads-calculator): Estimate your ChatGPT ad performance and compare ROI against Google, Meta, and TikTok. See impressions, clicks, conversions, and ROAS side-by-side.
+- [What Is My Browser](https://www.toolkitlife.com/en/tools/what-is-my-browser): Detect your browser, OS and IP address.
+- [GEO IP Locator](https://www.toolkitlife.com/en/tools/geo-ip-locator): Find the geographic location of any IP address.
+- [Redirect Checker](https://www.toolkitlife.com/en/tools/redirect-checker): Check URL redirects and final destination.
+- [Is It Down](https://www.toolkitlife.com/en/tools/is-it-down): Check if a website is down or reachable.
+- [Domain Age Checker](https://www.toolkitlife.com/en/tools/domain-age): Find out how old any domain is.
+- [Domain Hosting Checker](https://www.toolkitlife.com/en/tools/domain-hosting): Find out where any domain is hosted.
+- [XML Sitemap Generator](https://www.toolkitlife.com/en/tools/xml-sitemap): Generate an XML sitemap for your website instantly.
+- [Adsense Calculator](https://www.toolkitlife.com/en/tools/adsense-calculator): Estimate your Google AdSense earnings.
+- [URL Opener](https://www.toolkitlife.com/en/tools/url-opener): Open multiple URLs at once in new tabs.
+- [Mobile Friendly Test](https://www.toolkitlife.com/en/tools/mobile-friendly-test): Check if your website is mobile-friendly.
+- [Keyword Density Checker](https://www.toolkitlife.com/en/tools/keyword-density): Analyze keyword frequency and density in your content.
+- [Meta Tags Analyzer](https://www.toolkitlife.com/en/tools/meta-tags-analyzer): Analyze existing meta tags of any URL.
+- [Long Tail Keyword Tool](https://www.toolkitlife.com/en/tools/long-tail-keywords): Generate long-tail keyword suggestions for your topic.
+- [Keyword Position Checker](https://www.toolkitlife.com/en/tools/keyword-position): Check where your keywords rank in search engines.
+- [ChatGPT Ads Calculator](https://www.toolkitlife.com/en/tools/chatgpt-ads-calculator): Estimate your ChatGPT ad performance and compare ROI against Google, Meta, and TikTok. See impressions, clicks, conversions, and ROAS side-by-side.
 
 ### Developer Tools
-- [HTML Viewer](https://toolkitlife.com/tools/html-viewer): View and preview HTML code in real time.
-- [Claude Code Text Formatter](https://toolkitlife.com/tools/claude-code-text-formatter): Clean up messy terminal & Claude Code output. Strip ANSI codes, line numbers, and control characters.
-- [JSON Formatter](https://toolkitlife.com/tools/json-formatter): Prettify, minify, and validate JSON with syntax highlighting
-- [Base64 Encoder](https://toolkitlife.com/tools/base64-encoder): Encode and decode text and files to and from Base64
-- [UUID Generator](https://toolkitlife.com/tools/uuid-generator): Generate random UUID v4 identifiers, single or in bulk
-- [Regex Tester](https://toolkitlife.com/tools/regex-tester): Test regular expressions with live highlighting and match info
-- [Diff Checker](https://toolkitlife.com/tools/diff-checker): Compare two blocks of text and see differences highlighted. Free online diff tool.
-- [Glassmorphism Generator](https://toolkitlife.com/tools/glassmorphism-generator): Create frosted glass CSS effects with a live visual editor. Adjust blur, transparency, borders.
-- [CSS Clip Path Generator](https://toolkitlife.com/tools/css-clip-path): Create CSS clip-path shapes visually with preset shapes and custom polygons.
-- [CSS Loader Generator](https://toolkitlife.com/tools/css-loader-generator): Generate pure CSS loading spinners and animations. Customize and copy HTML + CSS.
-- [HTML Minifier](https://toolkitlife.com/tools/html-minifier): Minify HTML code by removing whitespace and comments. Free and instant.
-- [CSS Minifier](https://toolkitlife.com/tools/css-minifier): Minify CSS code by removing whitespace and comments. Free and instant.
-- [JS Minifier](https://toolkitlife.com/tools/js-minifier): Minify JavaScript code by removing whitespace and comments. Free and instant.
-- [Unix Timestamp Converter](https://toolkitlife.com/tools/timestamp-converter): Convert Unix timestamps to dates and vice versa. Live current timestamp display.
-- [Hash Generator](https://toolkitlife.com/tools/hash-generator): Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes. Uses native Web Crypto API.
-- [JWT Decoder](https://toolkitlife.com/tools/jwt-decoder): Decode JSON Web Tokens. View header, payload, and expiration status instantly.
-- [URL Encoder / Decoder](https://toolkitlife.com/tools/url-encoder): Encode and decode URLs and query parameters. Supports component and full URI modes.
-- [Cron Expression Generator](https://toolkitlife.com/tools/cron-generator): Build cron expressions with presets, plain-English descriptions, and next run times.
-- [Image to Base64](https://toolkitlife.com/tools/image-to-base64): Convert images to Base64 for embedding in HTML, CSS, or JSON. Instant and private.
-- [HTML Entity Encoder](https://toolkitlife.com/tools/html-entity-encoder): Encode and decode HTML entities. Convert special characters to HTML entities and back.
-- [Chmod Calculator](https://toolkitlife.com/tools/chmod-calculator): Calculate Unix file permissions visually. Convert between octal and symbolic notation.
-- [Meta Tag Generator](https://toolkitlife.com/tools/meta-tag-generator): Generate SEO meta tags, Open Graph, and Twitter Cards. Preview Google and social appearance.
-- [Robots.txt Generator](https://toolkitlife.com/tools/robots-txt-generator): Generate robots.txt files. Control search engine and AI bot access with a visual builder.
-- [Neumorphism Generator](https://toolkitlife.com/tools/neumorphism-generator): Create soft UI / neumorphic CSS effects. Flat, concave, convex, and pressed shapes.
-- [JSON to CSV Converter](https://toolkitlife.com/tools/json-to-csv): Convert between JSON and CSV formats. Bidirectional with download support.
-- [CSS Text Shadow Generator](https://toolkitlife.com/tools/css-text-shadow): Create CSS text-shadow effects. Multiple layers, neon glow, 3D, fire presets.
-- [CSS Flexbox Generator](https://toolkitlife.com/tools/css-flexbox): Build CSS Flexbox layouts visually. Direction, alignment, wrapping, gap with live preview.
-- [CSS Grid Generator](https://toolkitlife.com/tools/css-grid): Build CSS Grid layouts visually. Customize columns, rows, gaps, and alignment.
-- [URL Slug Generator](https://toolkitlife.com/tools/url-slug-generator): Convert text to URL-friendly slugs. Handles accented characters, bulk conversion.
-- [Open Graph Preview](https://toolkitlife.com/tools/og-preview): Preview how your page looks on Google, Facebook, Twitter, Slack, and Discord.
-- [CSS Border Radius Generator](https://toolkitlife.com/tools/css-border-radius): Create fancy shapes with 8-value border-radius. Organic blobs, leaves, and asymmetric corners.
-- [HTML Table Generator](https://toolkitlife.com/tools/html-table-generator): Create tables with a spreadsheet editor. Export as HTML, Markdown, or CSV.
-- [CSS Cubic Bezier Generator](https://toolkitlife.com/tools/css-cubic-bezier): Create custom animation easing curves. Drag control points, preview animations.
-- [CSS Background Pattern](https://toolkitlife.com/tools/css-background-pattern): Generate pure CSS background patterns — dots, grids, stripes, checkerboards, and more.
-- [JSON Validator](https://toolkitlife.com/tools/json-validator): Validate JSON syntax with error messages and line numbers. Prettify and minify.
-- [Binary Converter](https://toolkitlife.com/tools/binary-converter): Convert between decimal, binary, octal, and hexadecimal instantly.
-- [Whois Lookup](https://toolkitlife.com/tools/whois-lookup): Check a domain's registrar, registration and expiry dates, and DNS servers in real time via RDAP.
-- [IP Address Lookup](https://toolkitlife.com/tools/ip-lookup): Find the owner, CIDR block and country of any IP address, and detect your own public IP.
-- [CSS Transform Generator](https://toolkitlife.com/tools/css-transform-generator): Build CSS transforms visually. Translate, rotate, scale, and skew.
-- [Base64 to Image](https://toolkitlife.com/tools/base64-to-image): Convert Base64 strings into images with instant preview and download. Free and private.
-- [PX to REM Converter](https://toolkitlife.com/tools/px-to-rem): Convert pixels to rem and back with a custom base font size
+- [HTML Viewer](https://www.toolkitlife.com/en/tools/html-viewer): View and preview HTML code in real time.
+- [Claude Code Text Formatter](https://www.toolkitlife.com/en/tools/claude-code-text-formatter): Clean up messy terminal & Claude Code output. Strip ANSI codes, line numbers, and control characters.
+- [JSON Formatter](https://www.toolkitlife.com/en/tools/json-formatter): Prettify, minify, and validate JSON with syntax highlighting
+- [Base64 Encoder](https://www.toolkitlife.com/en/tools/base64-encoder): Encode and decode text and files to and from Base64
+- [UUID Generator](https://www.toolkitlife.com/en/tools/uuid-generator): Generate random UUID v4 identifiers, single or in bulk
+- [Regex Tester](https://www.toolkitlife.com/en/tools/regex-tester): Test regular expressions with live highlighting and match info
+- [Diff Checker](https://www.toolkitlife.com/en/tools/diff-checker): Compare two blocks of text and see differences highlighted. Free online diff tool.
+- [Glassmorphism Generator](https://www.toolkitlife.com/en/tools/glassmorphism-generator): Create frosted glass CSS effects with a live visual editor. Adjust blur, transparency, borders.
+- [CSS Clip Path Generator](https://www.toolkitlife.com/en/tools/css-clip-path): Create CSS clip-path shapes visually with preset shapes and custom polygons.
+- [CSS Loader Generator](https://www.toolkitlife.com/en/tools/css-loader-generator): Generate pure CSS loading spinners and animations. Customize and copy HTML + CSS.
+- [HTML Minifier](https://www.toolkitlife.com/en/tools/html-minifier): Minify HTML code by removing whitespace and comments. Free and instant.
+- [CSS Minifier](https://www.toolkitlife.com/en/tools/css-minifier): Minify CSS code by removing whitespace and comments. Free and instant.
+- [JS Minifier](https://www.toolkitlife.com/en/tools/js-minifier): Minify JavaScript code by removing whitespace and comments. Free and instant.
+- [Unix Timestamp Converter](https://www.toolkitlife.com/en/tools/timestamp-converter): Convert Unix timestamps to dates and vice versa. Live current timestamp display.
+- [Hash Generator](https://www.toolkitlife.com/en/tools/hash-generator): Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes. Uses native Web Crypto API.
+- [JWT Decoder](https://www.toolkitlife.com/en/tools/jwt-decoder): Decode JSON Web Tokens. View header, payload, and expiration status instantly.
+- [URL Encoder / Decoder](https://www.toolkitlife.com/en/tools/url-encoder): Encode and decode URLs and query parameters. Supports component and full URI modes.
+- [Cron Expression Generator](https://www.toolkitlife.com/en/tools/cron-generator): Build cron expressions with presets, plain-English descriptions, and next run times.
+- [Image to Base64](https://www.toolkitlife.com/en/tools/image-to-base64): Convert images to Base64 for embedding in HTML, CSS, or JSON. Instant and private.
+- [HTML Entity Encoder](https://www.toolkitlife.com/en/tools/html-entity-encoder): Encode and decode HTML entities. Convert special characters to HTML entities and back.
+- [Chmod Calculator](https://www.toolkitlife.com/en/tools/chmod-calculator): Calculate Unix file permissions visually. Convert between octal and symbolic notation.
+- [Meta Tag Generator](https://www.toolkitlife.com/en/tools/meta-tag-generator): Generate SEO meta tags, Open Graph, and Twitter Cards. Preview Google and social appearance.
+- [Robots.txt Generator](https://www.toolkitlife.com/en/tools/robots-txt-generator): Generate robots.txt files. Control search engine and AI bot access with a visual builder.
+- [Neumorphism Generator](https://www.toolkitlife.com/en/tools/neumorphism-generator): Create soft UI / neumorphic CSS effects. Flat, concave, convex, and pressed shapes.
+- [JSON to CSV Converter](https://www.toolkitlife.com/en/tools/json-to-csv): Convert between JSON and CSV formats. Bidirectional with download support.
+- [CSS Text Shadow Generator](https://www.toolkitlife.com/en/tools/css-text-shadow): Create CSS text-shadow effects. Multiple layers, neon glow, 3D, fire presets.
+- [CSS Flexbox Generator](https://www.toolkitlife.com/en/tools/css-flexbox): Build CSS Flexbox layouts visually. Direction, alignment, wrapping, gap with live preview.
+- [CSS Grid Generator](https://www.toolkitlife.com/en/tools/css-grid): Build CSS Grid layouts visually. Customize columns, rows, gaps, and alignment.
+- [URL Slug Generator](https://www.toolkitlife.com/en/tools/url-slug-generator): Convert text to URL-friendly slugs. Handles accented characters, bulk conversion.
+- [Open Graph Preview](https://www.toolkitlife.com/en/tools/og-preview): Preview how your page looks on Google, Facebook, Twitter, Slack, and Discord.
+- [CSS Border Radius Generator](https://www.toolkitlife.com/en/tools/css-border-radius): Create fancy shapes with 8-value border-radius. Organic blobs, leaves, and asymmetric corners.
+- [HTML Table Generator](https://www.toolkitlife.com/en/tools/html-table-generator): Create tables with a spreadsheet editor. Export as HTML, Markdown, or CSV.
+- [CSS Cubic Bezier Generator](https://www.toolkitlife.com/en/tools/css-cubic-bezier): Create custom animation easing curves. Drag control points, preview animations.
+- [CSS Background Pattern](https://www.toolkitlife.com/en/tools/css-background-pattern): Generate pure CSS background patterns — dots, grids, stripes, checkerboards, and more.
+- [JSON Validator](https://www.toolkitlife.com/en/tools/json-validator): Validate JSON syntax with error messages and line numbers. Prettify and minify.
+- [Binary Converter](https://www.toolkitlife.com/en/tools/binary-converter): Convert between decimal, binary, octal, and hexadecimal instantly.
+- [Whois Lookup](https://www.toolkitlife.com/en/tools/whois-lookup): Check a domain's registrar, registration and expiry dates, and DNS servers in real time via RDAP.
+- [IP Address Lookup](https://www.toolkitlife.com/en/tools/ip-lookup): Find the owner, CIDR block and country of any IP address, and detect your own public IP.
+- [CSS Transform Generator](https://www.toolkitlife.com/en/tools/css-transform-generator): Build CSS transforms visually. Translate, rotate, scale, and skew.
+- [Base64 to Image](https://www.toolkitlife.com/en/tools/base64-to-image): Convert Base64 strings into images with instant preview and download. Free and private.
+- [PX to REM Converter](https://www.toolkitlife.com/en/tools/px-to-rem): Convert pixels to rem and back with a custom base font size
 
 ### Design Tools
-- [Video Watermark Remover](https://toolkitlife.com/tools/video-watermark-remover): Remove watermarks from videos of any length. No time limits, no upload, free forever.
-- [Photo Watermark Remover](https://toolkitlife.com/tools/photo-watermark-remover): Remove watermarks from photos for free. No signup, no limits, 100% private.
-- [Face Detector](https://toolkitlife.com/tools/face-detector): Detect faces in photos automatically with bounding boxes and confidence scores. Runs entirely in your browser.
-- [Color Palette Generator](https://toolkitlife.com/tools/color-palette-generator): Create beautiful random color palettes with lock and export
-- [CSS Gradient Generator](https://toolkitlife.com/tools/css-gradient-generator): Build linear, radial, and conic CSS gradients visually
-- [Box Shadow Generator](https://toolkitlife.com/tools/box-shadow-generator): Design CSS box shadows with a live visual editor
-- [Image Color Picker](https://toolkitlife.com/tools/image-color-picker): Upload an image and pick any color with an eyedropper
-- [Aspect Ratio Calculator](https://toolkitlife.com/tools/aspect-ratio-calculator): Calculate and visualize aspect ratios with presets
-- [Image Compressor](https://toolkitlife.com/tools/image-compressor): Compress images by up to 90% with adjustable quality. No upload, runs in your browser.
-- [Image Resizer](https://toolkitlife.com/tools/image-resizer): Resize images with social media presets for Instagram, YouTube, Facebook, and more.
-- [Image Format Converter](https://toolkitlife.com/tools/convert): Convert between 20+ image formats: JPG, PNG, WebP, SVG, HEIC, GIF, BMP, TIFF, ICO. Free and instant.
-- [Background Remover](https://toolkitlife.com/tools/background-remover): Remove image backgrounds instantly with AI. 100% free, no upload, runs in your browser.
-- [Favicon Generator](https://toolkitlife.com/tools/favicon-generator): Generate favicons from text, emoji, or image. All standard sizes for browsers and PWA.
-- [Color Contrast Checker](https://toolkitlife.com/tools/color-contrast-checker): Check WCAG color contrast ratios. Verify AA and AAA accessibility compliance.
-- [SVG Blob Generator](https://toolkitlife.com/tools/svg-blob-generator): Generate organic SVG blob shapes with custom gradient colors. Free and instant.
-- [SVG Wave Generator](https://toolkitlife.com/tools/svg-wave-generator): Generate layered SVG wave section dividers with custom colors and complexity.
-- [Color Shades Generator](https://toolkitlife.com/tools/color-shades-generator): Generate Tailwind-style color palettes with 11 shades from any color.
-- [Image Crop Tool](https://toolkitlife.com/tools/image-crop): Crop images to any aspect ratio. Presets for Instagram, YouTube, Facebook, Twitter, LinkedIn.
-- [Placeholder Image Generator](https://toolkitlife.com/tools/placeholder-image): Generate custom placeholder images for web mockups. Any size, color, and text.
-- [EXIF Data Viewer](https://toolkitlife.com/tools/exif-viewer): View photo metadata — camera settings, date, GPS location, device info. Private.
-- [Noise Texture Generator](https://toolkitlife.com/tools/noise-generator): Generate seamless noise and grain textures for backgrounds. Download PNG or copy CSS.
-- [Color Converter](https://toolkitlife.com/tools/color-converter): Convert colors between HEX, RGB, HSL, HSV, and CMYK instantly.
-- [Image Filter Effects](https://toolkitlife.com/tools/image-filters): Apply Instagram-style filters — vintage, sepia, noir, and 13 more. Free and private.
-- [Pixel Art Converter](https://toolkitlife.com/tools/pixel-art): Convert images to pixel art with adjustable pixel size and color palette.
-- [Color Mixer](https://toolkitlife.com/tools/color-mixer): Mix two colors together at any ratio and generate smooth color gradients.
-- [Image Upscaler](https://toolkitlife.com/tools/image-upscaler): Upscale and enlarge images for free. 2x and 4x scaling with multiple algorithms. No upload, no signup — runs entirely in your browser.
-- [Meme Generator](https://toolkitlife.com/tools/meme-generator): Create memes with custom text, fonts, and colors. No watermark, no signup, runs in your browser.
-- [Screen Color Picker](https://toolkitlife.com/tools/screen-color-picker): Pick any color from your screen with one click. No image upload needed — sample colors from anywhere on your display.
-- [Multiavatar Avatar Generator](https://toolkitlife.com/tools/multiavatar-avatar-generator): Generate a unique multicultural avatar from any text. 12+ billion combinations — perfect for profile pictures, gaming logos, and identicons.
-- [Video to GIF Converter](https://toolkitlife.com/tools/video-to-gif): Convert any video to an animated GIF. Trim, resize, and adjust frame rate. No upload, runs in your browser.
-- [Image to GIF Maker](https://toolkitlife.com/tools/image-to-gif): Turn images into an animated GIF. Add multiple photos, set frame delay and size, and reorder frames. No upload, runs in your browser.
-- [GIF to Images Splitter](https://toolkitlife.com/tools/gif-to-images): Extract all frames from a GIF as individual images. Export each frame as PNG, WEBP, or JPEG, or download all frames as a ZIP. No upload, runs in your browser.
-- [Video Watermark](https://toolkitlife.com/tools/video-watermark): Add text or image watermarks to videos free, directly in your browser.
-- [Image Watermark](https://toolkitlife.com/tools/image-watermark): Add text or image watermarks to single or multiple images with full control.
-- [Image to 3D Relief](https://toolkitlife.com/tools/image-to-relief): Turn any photo into a 3D relief — preview it and export GLB or STL. Free & private.
-- [Image to Printmaking](https://toolkitlife.com/tools/image-to-printmaking): Turn any photo into a black & white printmaking effect. Adjustable threshold, instant preview. Free & private.
-- [Emboss Effect](https://toolkitlife.com/tools/image-emboss): Turn any photo into a stone-carved emboss effect. Adjustable strength, instant preview. Free & private.
-- [ID Photo Generator](https://toolkitlife.com/tools/id-photo-generator): Create passport & visa photos in one click — choose size & background, adjust framing. Free & private.
-- [Background Replace](https://toolkitlife.com/tools/background-replace): Remove a photo's background and replace it with a solid color, gradient, another image, or blur. Free & private.
-- [Face Blur](https://toolkitlife.com/tools/face-blur): Automatically blur faces in photos to protect privacy. Detect and blur faces with adjustable strength.
-- [Face Crop](https://toolkitlife.com/tools/face-crop): Automatically crop every face from a photo as a square image. Adjustable padding, batch download.
-- [Image Caption Generator](https://toolkitlife.com/tools/image-caption): Generate a natural-language description of any image with an AI model that runs in your browser.
-- [Image Classifier](https://toolkitlife.com/tools/image-classify): Identify what's in any photo with an AI model. See the top 5 predicted categories and confidence scores.
-- [NSFW Detection](https://toolkitlife.com/tools/nsfw-detection): Check if an image contains not-safe-for-work content with an AI model that runs in your browser.
-- [Photo Colorize](https://toolkitlife.com/tools/photo-colorize): Bring old black & white photos to life with AI colorization. Runs entirely in your browser.
-- [Image Denoise](https://toolkitlife.com/tools/image-denoise): Automatically remove noise and grain from photos for a cleaner, sharper image.
-- [Image Deblur](https://toolkitlife.com/tools/image-deblur): Sharpen blurry photos and restore crisp detail. Adjustable strength and iterations.
-- [Unsharp Mask](https://toolkitlife.com/tools/unsharp-mask): The classic sharpening algorithm that enhances edge detail to make photos look crisper.
-- [White Balance](https://toolkitlife.com/tools/white-balance): Automatically correct color casts in photos so whites return to pure white and colors look natural.
-- [Auto Contrast](https://toolkitlife.com/tools/auto-contrast): Optimize photo contrast and dynamic range in one click for more depth and clarity.
-- [Histogram Equalization](https://toolkitlife.com/tools/histogram-equalize): Redistribute pixel brightness to boost contrast and bring out detail in shadows and highlights.
-- [HDR Tone Mapping](https://toolkitlife.com/tools/hdr-tone-mapping): Apply HDR tone mapping to reveal highlight and shadow detail in high-contrast scenes.
-- [Dehaze](https://toolkitlife.com/tools/dehaze): Remove fog and haze from photos to restore clear, crisp landscapes.
-- [Rotate & Flip](https://toolkitlife.com/tools/image-rotate-flip): Rotate, flip horizontally, or mirror your image vertically with one click.
-- [Negative/Invert](https://toolkitlife.com/tools/image-negative): Invert image colors to create a film negative effect.
-- [Pixelate/Mosaic](https://toolkitlife.com/tools/image-pixelate): Pixelate your image for a mosaic or retro 8-bit style.
-- [Oil Paint](https://toolkitlife.com/tools/image-oil-paint): Turn photos into oil paintings with realistic brushstrokes.
-- [Edge Detection](https://toolkitlife.com/tools/image-edge-detect): Extract outlines from your image to create a line-art effect.
-- [Rounded Corners](https://toolkitlife.com/tools/image-rounded-corners): Add rounded corners to your image and export a transparent-background PNG.
-- [Add Border](https://toolkitlife.com/tools/image-border): Add colorful borders to your photos for framing or social sharing.
-- [Drop Shadow](https://toolkitlife.com/tools/image-shadow): Add a soft shadow to your image for a more three-dimensional look.
-- [Image Histogram](https://toolkitlife.com/tools/image-histogram): View the RGB channel and brightness distribution of your image.
-- [Color Extractor](https://toolkitlife.com/tools/image-palette): Automatically extract the dominant colors from an image to build a color palette.
-- [Image Perceptual Hash](https://toolkitlife.com/tools/image-phash): Compute the perceptual hash (pHash) of an image for similarity comparison.
-- [Image Compare](https://toolkitlife.com/tools/image-compare): Compare two images and generate a visualization of their differences.
-- [Duplicate Image Finder](https://toolkitlife.com/tools/duplicate-finder): Batch detect duplicate or similar images.
-- [RGB Channel Split](https://toolkitlife.com/tools/rgb-channel-split): Split an image into red, green, and blue color channels.
-- [Web Image Optimizer](https://toolkitlife.com/tools/image-web-optimizer): Compress images in bulk and convert them to web-friendly formats.
-- [Batch Rename](https://toolkitlife.com/tools/batch-rename): Batch rename any type of files with rule chains and download them as a ZIP.
-- [Image to ASCII Art](https://toolkitlife.com/tools/image-to-ascii): Convert an image into ASCII character art.
-- [CSS Sprite Generator](https://toolkitlife.com/tools/css-sprite-generator): Combine multiple images into a sprite sheet and generate CSS.
-- [OG Image Generator](https://toolkitlife.com/tools/og-image-generator): Create 1200×630 OG images for social sharing.
-- [Blob ↔ DataURL Converter](https://toolkitlife.com/tools/blob-dataurl): Get the Blob URL and Base64 DataURL of an image.
-- [Image Similarity](https://toolkitlife.com/tools/image-similarity): Calculate the similarity, MSE, and PSNR of two images.
-- [Image Stitcher](https://toolkitlife.com/tools/image-stitcher): Stitch multiple images into one long image with vertical or horizontal layouts and alignment options.
-- [Color Text Image](https://toolkitlife.com/tools/color-text-image): Generate a colorful text image with custom text, colors, font size and background.
-- [Email Image Generator](https://toolkitlife.com/tools/email-image): Turn an email address into an image to protect it from spam crawlers.
-- [Excel Image Extractor](https://toolkitlife.com/tools/excel-img): Extract all images embedded in an Excel workbook and download them.
-- [EXIF Cleaner](https://toolkitlife.com/tools/exif-cleaner): Re-encode an image to strip EXIF, GPS and device metadata for privacy.
-- [GIF Frame Editor](https://toolkitlife.com/tools/gif-edit): Edit GIF animations frame by frame: reorder, delete, duplicate and change speed.
-- [HEIC to JPG/PNG](https://toolkitlife.com/tools/heic): Convert HEIC/HEIF photos to JPG or PNG right in your browser.
-- [Multi-size Icon Generator](https://toolkitlife.com/tools/icon-size-generator): Generate icons in 16 to 512 px sizes from one image for apps, favicons and Chrome extensions.
-- [Alpha Invert](https://toolkitlife.com/tools/image-alpha-invert): Invert the transparency of a PNG image — swap transparent and visible areas.
-- [Auto Trim Image](https://toolkitlife.com/tools/image-auto-trim): Automatically trim transparent edges or solid-color borders from an image.
-- [Image Background](https://toolkitlife.com/tools/image-background): Add a solid background color to transparent PNG images in one click. Great for dark-mode adapters.
-- [Image Content Clear](https://toolkitlife.com/tools/image-clear): Clear all image content and replace it with a solid color or full transparency.
-- [Color Replace](https://toolkitlife.com/tools/image-color-replace): Replace one color in an image with another, or make it transparent. Pick colors with an eyedropper.
-- [Image Coordinate Marker](https://toolkitlife.com/tools/image-coord-marker): Click on an image to add numbered coordinate markers, then download the result.
-- [Date Watermark](https://toolkitlife.com/tools/image-date-watermark): Add a date watermark to photos in batches — pick the format, position and style.
-- [Image DPI Changer](https://toolkitlife.com/tools/image-dpi): Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) for print without changing pixels.
-- [Image File Size](https://toolkitlife.com/tools/image-file-size): Recompress an image to reach a target file size in KB, without changing dimensions.
-- [Image Format Converter](https://toolkitlife.com/tools/image-format-converter): Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser.
-- [Image Margin](https://toolkitlife.com/tools/image-margin): Add transparent or colored margin around an image. Perfect for framing and padding.
-- [Region Mask](https://toolkitlife.com/tools/image-region-mask): Drag to select areas and apply mosaic or blur to hide sensitive parts of an image.
-- [Image Slicer](https://toolkitlife.com/tools/image-slice): Split an image into equal pieces horizontally or vertically. Download each slice as PNG.
-- [Image Tiler](https://toolkitlife.com/tools/img-padding): Tile a small image across a large canvas to create a seamless wallpaper or pattern.
-- [Force Image Resize](https://toolkitlife.com/tools/img-size): Resize an image to exact width and height, with optional stretching and quality control.
-- [PowerPoint Image Extractor](https://toolkitlife.com/tools/ppt-img): Extract all images embedded in a PowerPoint file and download them.
-- [Batch QR Code Generator](https://toolkitlife.com/tools/qrcode-batch): Generate QR codes for a whole list of texts or URLs at once and download them as a zip.
-- [Screenshot Beautifier](https://toolkitlife.com/tools/screenshot-beautify): Add a background, padding, rounded corners, border and shadow to screenshots.
-- [Screenshot Markup](https://toolkitlife.com/tools/screenshot-markup): Annotate screenshots with rectangles, circles, arrows, lines and text.
-- [Solid Color Image](https://toolkitlife.com/tools/solid-color-image): Generate a solid-color background image with any color and size in seconds.
-- [SVG Path Preview](https://toolkitlife.com/tools/svg-path): Paste an SVG path and preview its shape instantly. Tune stroke, fill and width.
-- [SVG Preview](https://toolkitlife.com/tools/svg-preview): Paste SVG code and preview it rendered instantly in the browser.
-- [SVG to Image](https://toolkitlife.com/tools/svg-to-image): Convert SVG code to PNG, JPG or WebP with preview, and get the Base64 data URL.
-- [Text Logo Maker](https://toolkitlife.com/tools/text-logo): Create a simple text logo in seconds. Pick text, color, font size and background.
-- [Website Icon Fetcher](https://toolkitlife.com/tools/web-icon): Fetch and download the favicon of any website instantly by entering its domain.
-- [WiFi QR Code](https://toolkitlife.com/tools/wifi-qrcode): Generate a QR code that shares your WiFi password. Scan to connect instantly.
+- [Video Watermark Remover](https://www.toolkitlife.com/en/tools/video-watermark-remover): Remove watermarks from videos of any length. No time limits, no upload, free forever.
+- [Photo Watermark Remover](https://www.toolkitlife.com/en/tools/photo-watermark-remover): Remove watermarks from photos for free. No signup, no limits, 100% private.
+- [Face Detector](https://www.toolkitlife.com/en/tools/face-detector): Detect faces in photos automatically with bounding boxes and confidence scores. Runs entirely in your browser.
+- [Color Palette Generator](https://www.toolkitlife.com/en/tools/color-palette-generator): Create beautiful random color palettes with lock and export
+- [CSS Gradient Generator](https://www.toolkitlife.com/en/tools/css-gradient-generator): Build linear, radial, and conic CSS gradients visually
+- [Box Shadow Generator](https://www.toolkitlife.com/en/tools/box-shadow-generator): Design CSS box shadows with a live visual editor
+- [Image Color Picker](https://www.toolkitlife.com/en/tools/image-color-picker): Upload an image and pick any color with an eyedropper
+- [Aspect Ratio Calculator](https://www.toolkitlife.com/en/tools/aspect-ratio-calculator): Calculate and visualize aspect ratios with presets
+- [Image Compressor](https://www.toolkitlife.com/en/tools/image-compressor): Compress images by up to 90% with adjustable quality. No upload, runs in your browser.
+- [Image Resizer](https://www.toolkitlife.com/en/tools/image-resizer): Resize images with social media presets for Instagram, YouTube, Facebook, and more.
+- [Image Format Converter](https://www.toolkitlife.com/en/tools/convert): Convert between 20+ image formats: JPG, PNG, WebP, SVG, HEIC, GIF, BMP, TIFF, ICO. Free and instant.
+- [Background Remover](https://www.toolkitlife.com/en/tools/background-remover): Remove image backgrounds instantly with AI. 100% free, no upload, runs in your browser.
+- [Favicon Generator](https://www.toolkitlife.com/en/tools/favicon-generator): Generate favicons from text, emoji, or image. All standard sizes for browsers and PWA.
+- [Color Contrast Checker](https://www.toolkitlife.com/en/tools/color-contrast-checker): Check WCAG color contrast ratios. Verify AA and AAA accessibility compliance.
+- [SVG Blob Generator](https://www.toolkitlife.com/en/tools/svg-blob-generator): Generate organic SVG blob shapes with custom gradient colors. Free and instant.
+- [SVG Wave Generator](https://www.toolkitlife.com/en/tools/svg-wave-generator): Generate layered SVG wave section dividers with custom colors and complexity.
+- [Color Shades Generator](https://www.toolkitlife.com/en/tools/color-shades-generator): Generate Tailwind-style color palettes with 11 shades from any color.
+- [Image Crop Tool](https://www.toolkitlife.com/en/tools/image-crop): Crop images to any aspect ratio. Presets for Instagram, YouTube, Facebook, Twitter, LinkedIn.
+- [Placeholder Image Generator](https://www.toolkitlife.com/en/tools/placeholder-image): Generate custom placeholder images for web mockups. Any size, color, and text.
+- [EXIF Data Viewer](https://www.toolkitlife.com/en/tools/exif-viewer): View photo metadata — camera settings, date, GPS location, device info. Private.
+- [Noise Texture Generator](https://www.toolkitlife.com/en/tools/noise-generator): Generate seamless noise and grain textures for backgrounds. Download PNG or copy CSS.
+- [Color Converter](https://www.toolkitlife.com/en/tools/color-converter): Convert colors between HEX, RGB, HSL, HSV, and CMYK instantly.
+- [Image Filter Effects](https://www.toolkitlife.com/en/tools/image-filters): Apply Instagram-style filters — vintage, sepia, noir, and 13 more. Free and private.
+- [Pixel Art Converter](https://www.toolkitlife.com/en/tools/pixel-art): Convert images to pixel art with adjustable pixel size and color palette.
+- [Color Mixer](https://www.toolkitlife.com/en/tools/color-mixer): Mix two colors together at any ratio and generate smooth color gradients.
+- [Image Upscaler](https://www.toolkitlife.com/en/tools/image-upscaler): Upscale and enlarge images for free. 2x and 4x scaling with multiple algorithms. No upload, no signup — runs entirely in your browser.
+- [Meme Generator](https://www.toolkitlife.com/en/tools/meme-generator): Create memes with custom text, fonts, and colors. No watermark, no signup, runs in your browser.
+- [Screen Color Picker](https://www.toolkitlife.com/en/tools/screen-color-picker): Pick any color from your screen with one click. No image upload needed — sample colors from anywhere on your display.
+- [Multiavatar Avatar Generator](https://www.toolkitlife.com/en/tools/multiavatar-avatar-generator): Generate a unique multicultural avatar from any text. 12+ billion combinations — perfect for profile pictures, gaming logos, and identicons.
+- [Video to GIF Converter](https://www.toolkitlife.com/en/tools/video-to-gif): Convert any video to an animated GIF. Trim, resize, and adjust frame rate. No upload, runs in your browser.
+- [Image to GIF Maker](https://www.toolkitlife.com/en/tools/image-to-gif): Turn images into an animated GIF. Add multiple photos, set frame delay and size, and reorder frames. No upload, runs in your browser.
+- [GIF to Images Splitter](https://www.toolkitlife.com/en/tools/gif-to-images): Extract all frames from a GIF as individual images. Export each frame as PNG, WEBP, or JPEG, or download all frames as a ZIP. No upload, runs in your browser.
+- [Video Watermark](https://www.toolkitlife.com/en/tools/video-watermark): Add text or image watermarks to videos free, directly in your browser.
+- [Image Watermark](https://www.toolkitlife.com/en/tools/image-watermark): Add text or image watermarks to single or multiple images with full control.
+- [Image to 3D Relief](https://www.toolkitlife.com/en/tools/image-to-relief): Turn any photo into a 3D relief — preview it and export GLB or STL. Free & private.
+- [Image to Printmaking](https://www.toolkitlife.com/en/tools/image-to-printmaking): Turn any photo into a black & white printmaking effect. Adjustable threshold, instant preview. Free & private.
+- [Emboss Effect](https://www.toolkitlife.com/en/tools/image-emboss): Turn any photo into a stone-carved emboss effect. Adjustable strength, instant preview. Free & private.
+- [ID Photo Generator](https://www.toolkitlife.com/en/tools/id-photo-generator): Create passport & visa photos in one click — choose size & background, adjust framing. Free & private.
+- [Background Replace](https://www.toolkitlife.com/en/tools/background-replace): Remove a photo's background and replace it with a solid color, gradient, another image, or blur. Free & private.
+- [Face Blur](https://www.toolkitlife.com/en/tools/face-blur): Automatically blur faces in photos to protect privacy. Detect and blur faces with adjustable strength.
+- [Face Crop](https://www.toolkitlife.com/en/tools/face-crop): Automatically crop every face from a photo as a square image. Adjustable padding, batch download.
+- [Image Caption Generator](https://www.toolkitlife.com/en/tools/image-caption): Generate a natural-language description of any image with an AI model that runs in your browser.
+- [Image Classifier](https://www.toolkitlife.com/en/tools/image-classify): Identify what's in any photo with an AI model. See the top 5 predicted categories and confidence scores.
+- [NSFW Detection](https://www.toolkitlife.com/en/tools/nsfw-detection): Check if an image contains not-safe-for-work content with an AI model that runs in your browser.
+- [Photo Colorize](https://www.toolkitlife.com/en/tools/photo-colorize): Bring old black & white photos to life with AI colorization. Runs entirely in your browser.
+- [Image Denoise](https://www.toolkitlife.com/en/tools/image-denoise): Automatically remove noise and grain from photos for a cleaner, sharper image.
+- [Image Deblur](https://www.toolkitlife.com/en/tools/image-deblur): Sharpen blurry photos and restore crisp detail. Adjustable strength and iterations.
+- [Unsharp Mask](https://www.toolkitlife.com/en/tools/unsharp-mask): The classic sharpening algorithm that enhances edge detail to make photos look crisper.
+- [White Balance](https://www.toolkitlife.com/en/tools/white-balance): Automatically correct color casts in photos so whites return to pure white and colors look natural.
+- [Auto Contrast](https://www.toolkitlife.com/en/tools/auto-contrast): Optimize photo contrast and dynamic range in one click for more depth and clarity.
+- [Histogram Equalization](https://www.toolkitlife.com/en/tools/histogram-equalize): Redistribute pixel brightness to boost contrast and bring out detail in shadows and highlights.
+- [HDR Tone Mapping](https://www.toolkitlife.com/en/tools/hdr-tone-mapping): Apply HDR tone mapping to reveal highlight and shadow detail in high-contrast scenes.
+- [Dehaze](https://www.toolkitlife.com/en/tools/dehaze): Remove fog and haze from photos to restore clear, crisp landscapes.
+- [Rotate & Flip](https://www.toolkitlife.com/en/tools/image-rotate-flip): Rotate, flip horizontally, or mirror your image vertically with one click.
+- [Negative/Invert](https://www.toolkitlife.com/en/tools/image-negative): Invert image colors to create a film negative effect.
+- [Pixelate/Mosaic](https://www.toolkitlife.com/en/tools/image-pixelate): Pixelate your image for a mosaic or retro 8-bit style.
+- [Oil Paint](https://www.toolkitlife.com/en/tools/image-oil-paint): Turn photos into oil paintings with realistic brushstrokes.
+- [Edge Detection](https://www.toolkitlife.com/en/tools/image-edge-detect): Extract outlines from your image to create a line-art effect.
+- [Rounded Corners](https://www.toolkitlife.com/en/tools/image-rounded-corners): Add rounded corners to your image and export a transparent-background PNG.
+- [Add Border](https://www.toolkitlife.com/en/tools/image-border): Add colorful borders to your photos for framing or social sharing.
+- [Drop Shadow](https://www.toolkitlife.com/en/tools/image-shadow): Add a soft shadow to your image for a more three-dimensional look.
+- [Image Histogram](https://www.toolkitlife.com/en/tools/image-histogram): View the RGB channel and brightness distribution of your image.
+- [Color Extractor](https://www.toolkitlife.com/en/tools/image-palette): Automatically extract the dominant colors from an image to build a color palette.
+- [Image Perceptual Hash](https://www.toolkitlife.com/en/tools/image-phash): Compute the perceptual hash (pHash) of an image for similarity comparison.
+- [Image Compare](https://www.toolkitlife.com/en/tools/image-compare): Compare two images and generate a visualization of their differences.
+- [Duplicate Image Finder](https://www.toolkitlife.com/en/tools/duplicate-finder): Batch detect duplicate or similar images.
+- [RGB Channel Split](https://www.toolkitlife.com/en/tools/rgb-channel-split): Split an image into red, green, and blue color channels.
+- [Web Image Optimizer](https://www.toolkitlife.com/en/tools/image-web-optimizer): Compress images in bulk and convert them to web-friendly formats.
+- [Batch Rename](https://www.toolkitlife.com/en/tools/batch-rename): Batch rename any type of files with rule chains and download them as a ZIP.
+- [Image to ASCII Art](https://www.toolkitlife.com/en/tools/image-to-ascii): Convert an image into ASCII character art.
+- [CSS Sprite Generator](https://www.toolkitlife.com/en/tools/css-sprite-generator): Combine multiple images into a sprite sheet and generate CSS.
+- [OG Image Generator](https://www.toolkitlife.com/en/tools/og-image-generator): Create 1200×630 OG images for social sharing.
+- [Blob ↔ DataURL Converter](https://www.toolkitlife.com/en/tools/blob-dataurl): Get the Blob URL and Base64 DataURL of an image.
+- [Image Similarity](https://www.toolkitlife.com/en/tools/image-similarity): Calculate the similarity, MSE, and PSNR of two images.
+- [Image Stitcher](https://www.toolkitlife.com/en/tools/image-stitcher): Stitch multiple images into one long image with vertical or horizontal layouts and alignment options.
+- [Color Text Image](https://www.toolkitlife.com/en/tools/color-text-image): Generate a colorful text image with custom text, colors, font size and background.
+- [Email Image Generator](https://www.toolkitlife.com/en/tools/email-image): Turn an email address into an image to protect it from spam crawlers.
+- [Excel Image Extractor](https://www.toolkitlife.com/en/tools/excel-img): Extract all images embedded in an Excel workbook and download them.
+- [EXIF Cleaner](https://www.toolkitlife.com/en/tools/exif-cleaner): Re-encode an image to strip EXIF, GPS and device metadata for privacy.
+- [GIF Frame Editor](https://www.toolkitlife.com/en/tools/gif-edit): Edit GIF animations frame by frame: reorder, delete, duplicate and change speed.
+- [HEIC to JPG/PNG](https://www.toolkitlife.com/en/tools/heic): Convert HEIC/HEIF photos to JPG or PNG right in your browser.
+- [Multi-size Icon Generator](https://www.toolkitlife.com/en/tools/icon-size-generator): Generate icons in 16 to 512 px sizes from one image for apps, favicons and Chrome extensions.
+- [Alpha Invert](https://www.toolkitlife.com/en/tools/image-alpha-invert): Invert the transparency of a PNG image — swap transparent and visible areas.
+- [Auto Trim Image](https://www.toolkitlife.com/en/tools/image-auto-trim): Automatically trim transparent edges or solid-color borders from an image.
+- [Image Background](https://www.toolkitlife.com/en/tools/image-background): Add a solid background color to transparent PNG images in one click. Great for dark-mode adapters.
+- [Image Content Clear](https://www.toolkitlife.com/en/tools/image-clear): Clear all image content and replace it with a solid color or full transparency.
+- [Color Replace](https://www.toolkitlife.com/en/tools/image-color-replace): Replace one color in an image with another, or make it transparent. Pick colors with an eyedropper.
+- [Image Coordinate Marker](https://www.toolkitlife.com/en/tools/image-coord-marker): Click on an image to add numbered coordinate markers, then download the result.
+- [Date Watermark](https://www.toolkitlife.com/en/tools/image-date-watermark): Add a date watermark to photos in batches — pick the format, position and style.
+- [Image DPI Changer](https://www.toolkitlife.com/en/tools/image-dpi): Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) for print without changing pixels.
+- [Image File Size](https://www.toolkitlife.com/en/tools/image-file-size): Recompress an image to reach a target file size in KB, without changing dimensions.
+- [Image Format Converter](https://www.toolkitlife.com/en/tools/image-format-converter): Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser.
+- [Image Margin](https://www.toolkitlife.com/en/tools/image-margin): Add transparent or colored margin around an image. Perfect for framing and padding.
+- [Region Mask](https://www.toolkitlife.com/en/tools/image-region-mask): Drag to select areas and apply mosaic or blur to hide sensitive parts of an image.
+- [Image Slicer](https://www.toolkitlife.com/en/tools/image-slice): Split an image into equal pieces horizontally or vertically. Download each slice as PNG.
+- [Image Tiler](https://www.toolkitlife.com/en/tools/img-padding): Tile a small image across a large canvas to create a seamless wallpaper or pattern.
+- [Force Image Resize](https://www.toolkitlife.com/en/tools/img-size): Resize an image to exact width and height, with optional stretching and quality control.
+- [PowerPoint Image Extractor](https://www.toolkitlife.com/en/tools/ppt-img): Extract all images embedded in a PowerPoint file and download them.
+- [Batch QR Code Generator](https://www.toolkitlife.com/en/tools/qrcode-batch): Generate QR codes for a whole list of texts or URLs at once and download them as a zip.
+- [Screenshot Beautifier](https://www.toolkitlife.com/en/tools/screenshot-beautify): Add a background, padding, rounded corners, border and shadow to screenshots.
+- [Screenshot Markup](https://www.toolkitlife.com/en/tools/screenshot-markup): Annotate screenshots with rectangles, circles, arrows, lines and text.
+- [Solid Color Image](https://www.toolkitlife.com/en/tools/solid-color-image): Generate a solid-color background image with any color and size in seconds.
+- [SVG Path Preview](https://www.toolkitlife.com/en/tools/svg-path): Paste an SVG path and preview its shape instantly. Tune stroke, fill and width.
+- [SVG Preview](https://www.toolkitlife.com/en/tools/svg-preview): Paste SVG code and preview it rendered instantly in the browser.
+- [SVG to Image](https://www.toolkitlife.com/en/tools/svg-to-image): Convert SVG code to PNG, JPG or WebP with preview, and get the Base64 data URL.
+- [Text Logo Maker](https://www.toolkitlife.com/en/tools/text-logo): Create a simple text logo in seconds. Pick text, color, font size and background.
+- [Website Icon Fetcher](https://www.toolkitlife.com/en/tools/web-icon): Fetch and download the favicon of any website instantly by entering its domain.
+- [WiFi QR Code](https://www.toolkitlife.com/en/tools/wifi-qrcode): Generate a QR code that shares your WiFi password. Scan to connect instantly.
 
 ### Utility Tools
-- [QR Code Generator](https://toolkitlife.com/tools/qr-code-generator): Generate customizable QR codes from any text or URL
-- [QR Code Reader](https://toolkitlife.com/tools/qr-code-reader): Decode QR codes from images and screenshots. Extract URLs, text, WiFi credentials, and more. No upload, runs in your browser.
-- [QR File Transfer](https://toolkitlife.com/tools/qr-file-transfer): Send files between devices through animated QR codes — no network, no upload. Camera-to-screen optical transfer.
-- [Password Generator](https://toolkitlife.com/tools/password-generator): Generate strong, secure passwords with customizable options
-- [Unit Converter](https://toolkitlife.com/tools/unit-converter): Convert between length, weight, temperature, data, and time units
-- [Barcode Generator](https://toolkitlife.com/tools/barcode-generator): Generate Code 128 barcodes from any text. Download as PNG. Free and instant.
-- [Invoice Generator](https://toolkitlife.com/tools/invoice-generator): Create professional invoices for free. No signup, no watermark. Print or save as PDF.
-- [URL Shortener](https://toolkitlife.com/tools/url-shortener): Shorten long links instantly with is.gd or TinyURL. Optional custom alias.
-- [Percentage Calculator](https://toolkitlife.com/tools/percentage-calculator): Calculate percentages — find percent of a number, percentage change, increase, and decrease.
-- [Age Calculator](https://toolkitlife.com/tools/age-calculator): Calculate exact age in years, months, days, hours. Zodiac sign and next birthday countdown.
-- [GPA Calculator](https://toolkitlife.com/tools/gpa-calculator): Calculate semester and cumulative GPA. Add courses with grades and credits.
-- [Grade Calculator](https://toolkitlife.com/tools/grade-calculator): Calculate your class grade with weighted or points-based grading.
-- [Random Number Generator](https://toolkitlife.com/tools/random-number-generator): Generate random numbers within a range. Single or bulk, with or without duplicates.
-- [Countdown Timer](https://toolkitlife.com/tools/countdown-timer): Free online countdown timer with presets. Set hours, minutes, seconds.
-- [Stopwatch](https://toolkitlife.com/tools/stopwatch): Online stopwatch with lap times. Accurate to centiseconds.
-- [Scientific Calculator](https://toolkitlife.com/tools/scientific-calculator): Free scientific calculator with trig, logs, powers, memory, and deg/rad modes.
-- [Fraction Calculator](https://toolkitlife.com/tools/fraction-calculator): Add, subtract, multiply, divide fractions. Simplify and convert decimals.
-- [Merge PDF](https://toolkitlife.com/tools/merge-pdf): Combine multiple PDF files into one. Reorder pages and download instantly in your browser.
-- [Compress PDF](https://toolkitlife.com/tools/compress-pdf): Reduce PDF file size by lowering image quality. Runs locally, no upload required.
-- [Split PDF](https://toolkitlife.com/tools/split-pdf): Extract specific pages from a PDF by page ranges. Fast, private, browser-based.
-- [JPG to PDF](https://toolkitlife.com/tools/jpg-to-pdf-converter): Convert JPG images to a single PDF file. One image per page, no server upload.
-- [PNG to PDF](https://toolkitlife.com/tools/png-to-pdf-converter): Convert PNG images to a single PDF file. Combine multiple PNGs into one PDF.
-- [Typing Speed Test](https://toolkitlife.com/tools/typing-speed-test): Test your typing speed with WPM, CPM, and accuracy. 60-second countdown with sample text.
-- [Dog Age Calculator](https://toolkitlife.com/tools/dog-age-calculator): Convert dog age to human age by breed size with a complete comparison chart.
-- [Digital Signature Creator](https://toolkitlife.com/tools/digital-signature): Create a digital signature by drawing, typing, or uploading. Download as PNG or SVG. Free, no signup, 100% private.
-- [Resume Builder](https://toolkitlife.com/tools/resume-builder): Build a professional resume for free. Choose a template, fill in your details, and download as PDF. No signup required.
-- [Screen Recorder](https://toolkitlife.com/tools/screen-recorder): Record your screen, webcam, or both with audio. No upload, no watermark, runs entirely in your browser.
-- [Text to Speech](https://toolkitlife.com/tools/text-to-speech): Convert text to natural speech using your browser's built-in voices. Multiple languages, adjustable speed and pitch. Free and private.
-- [Video Compressor](https://toolkitlife.com/tools/video-compressor): Compress video files for free. Reduce MP4, WebM, and MOV file size with adjustable quality. No upload, no signup — runs entirely in your browser.
-- [Screen Capture](https://toolkitlife.com/tools/scroll-capture): Capture any area of your screen, annotate it, and download as PNG. One click, no URL needed, nothing uploaded.
-- [Audio Converter](https://toolkitlife.com/tools/audio-converter): Convert audio between MP3, WAV, FLAC, OGG, M4A, OPUS, and AIFF. Adjust bitrate, runs in your browser.
-- [Video Converter](https://toolkitlife.com/tools/video-converter): Convert video between MP4, WebM, AVI, MOV, and GIF. Adjust quality and resolution. No upload.
-- [Emoji Picker](https://toolkitlife.com/tools/emoji-picker): Browse, search and copy free Unicode emoji on any device.
-- [Address Generator](https://toolkitlife.com/tools/address-generator): Generate realistic random addresses for 20+ countries worldwide.
-- [Currency Converter](https://toolkitlife.com/tools/currency-converter): Convert between 40+ currencies with live exchange rates. Free & private.
-- [PDF to Long Image](https://toolkitlife.com/tools/pdf-long-image): Combine all pages of a PDF into one vertical long image for easy reading and sharing.
-- [PDF to JPG](https://toolkitlife.com/tools/pdf-to-jpg): Convert every page of a PDF document to JPG images and download them as a ZIP.
-- [PDF to PNG](https://toolkitlife.com/tools/pdf-to-png): Convert every page of a PDF document to PNG images and download them as a ZIP.
-- [DOCX to JPG](https://toolkitlife.com/tools/docx-to-jpg): Convert every page of a Word document to JPG images and download them as a ZIP.
-- [DOCX to PNG](https://toolkitlife.com/tools/docx-to-png): Convert every page of a Word document to PNG images and download them as a ZIP.
-- [Password Strength Checker](https://toolkitlife.com/tools/password-strength): Test password strength with an instant score and tips
+- [QR Code Generator](https://www.toolkitlife.com/en/tools/qr-code-generator): Generate customizable QR codes from any text or URL
+- [QR Code Reader](https://www.toolkitlife.com/en/tools/qr-code-reader): Decode QR codes from images and screenshots. Extract URLs, text, WiFi credentials, and more. No upload, runs in your browser.
+- [QR File Transfer](https://www.toolkitlife.com/en/tools/qr-file-transfer): Send files between devices through animated QR codes — no network, no upload. Camera-to-screen optical transfer.
+- [Password Generator](https://www.toolkitlife.com/en/tools/password-generator): Generate strong, secure passwords with customizable options
+- [Unit Converter](https://www.toolkitlife.com/en/tools/unit-converter): Convert between length, weight, temperature, data, and time units
+- [Barcode Generator](https://www.toolkitlife.com/en/tools/barcode-generator): Generate Code 128 barcodes from any text. Download as PNG. Free and instant.
+- [Invoice Generator](https://www.toolkitlife.com/en/tools/invoice-generator): Create professional invoices for free. No signup, no watermark. Print or save as PDF.
+- [URL Shortener](https://www.toolkitlife.com/en/tools/url-shortener): Shorten long links instantly with is.gd or TinyURL. Optional custom alias.
+- [Percentage Calculator](https://www.toolkitlife.com/en/tools/percentage-calculator): Calculate percentages — find percent of a number, percentage change, increase, and decrease.
+- [Age Calculator](https://www.toolkitlife.com/en/tools/age-calculator): Calculate exact age in years, months, days, hours. Zodiac sign and next birthday countdown.
+- [GPA Calculator](https://www.toolkitlife.com/en/tools/gpa-calculator): Calculate semester and cumulative GPA. Add courses with grades and credits.
+- [Grade Calculator](https://www.toolkitlife.com/en/tools/grade-calculator): Calculate your class grade with weighted or points-based grading.
+- [Random Number Generator](https://www.toolkitlife.com/en/tools/random-number-generator): Generate random numbers within a range. Single or bulk, with or without duplicates.
+- [Countdown Timer](https://www.toolkitlife.com/en/tools/countdown-timer): Free online countdown timer with presets. Set hours, minutes, seconds.
+- [Stopwatch](https://www.toolkitlife.com/en/tools/stopwatch): Online stopwatch with lap times. Accurate to centiseconds.
+- [Scientific Calculator](https://www.toolkitlife.com/en/tools/scientific-calculator): Free scientific calculator with trig, logs, powers, memory, and deg/rad modes.
+- [Fraction Calculator](https://www.toolkitlife.com/en/tools/fraction-calculator): Add, subtract, multiply, divide fractions. Simplify and convert decimals.
+- [Merge PDF](https://www.toolkitlife.com/en/tools/merge-pdf): Combine multiple PDF files into one. Reorder pages and download instantly in your browser.
+- [Compress PDF](https://www.toolkitlife.com/en/tools/compress-pdf): Reduce PDF file size by lowering image quality. Runs locally, no upload required.
+- [Split PDF](https://www.toolkitlife.com/en/tools/split-pdf): Extract specific pages from a PDF by page ranges. Fast, private, browser-based.
+- [JPG to PDF](https://www.toolkitlife.com/en/tools/jpg-to-pdf-converter): Convert JPG images to a single PDF file. One image per page, no server upload.
+- [PNG to PDF](https://www.toolkitlife.com/en/tools/png-to-pdf-converter): Convert PNG images to a single PDF file. Combine multiple PNGs into one PDF.
+- [Typing Speed Test](https://www.toolkitlife.com/en/tools/typing-speed-test): Test your typing speed with WPM, CPM, and accuracy. 60-second countdown with sample text.
+- [Dog Age Calculator](https://www.toolkitlife.com/en/tools/dog-age-calculator): Convert dog age to human age by breed size with a complete comparison chart.
+- [Digital Signature Creator](https://www.toolkitlife.com/en/tools/digital-signature): Create a digital signature by drawing, typing, or uploading. Download as PNG or SVG. Free, no signup, 100% private.
+- [Resume Builder](https://www.toolkitlife.com/en/tools/resume-builder): Build a professional resume for free. Choose a template, fill in your details, and download as PDF. No signup required.
+- [Screen Recorder](https://www.toolkitlife.com/en/tools/screen-recorder): Record your screen, webcam, or both with audio. No upload, no watermark, runs entirely in your browser.
+- [Text to Speech](https://www.toolkitlife.com/en/tools/text-to-speech): Convert text to natural speech using your browser's built-in voices. Multiple languages, adjustable speed and pitch. Free and private.
+- [Video Compressor](https://www.toolkitlife.com/en/tools/video-compressor): Compress video files for free. Reduce MP4, WebM, and MOV file size with adjustable quality. No upload, no signup — runs entirely in your browser.
+- [Screen Capture](https://www.toolkitlife.com/en/tools/scroll-capture): Capture any area of your screen, annotate it, and download as PNG. One click, no URL needed, nothing uploaded.
+- [Audio Converter](https://www.toolkitlife.com/en/tools/audio-converter): Convert audio between MP3, WAV, FLAC, OGG, M4A, OPUS, and AIFF. Adjust bitrate, runs in your browser.
+- [Video Converter](https://www.toolkitlife.com/en/tools/video-converter): Convert video between MP4, WebM, AVI, MOV, and GIF. Adjust quality and resolution. No upload.
+- [Emoji Picker](https://www.toolkitlife.com/en/tools/emoji-picker): Browse, search and copy free Unicode emoji on any device.
+- [Address Generator](https://www.toolkitlife.com/en/tools/address-generator): Generate realistic random addresses for 20+ countries worldwide.
+- [Currency Converter](https://www.toolkitlife.com/en/tools/currency-converter): Convert between 40+ currencies with live exchange rates. Free & private.
+- [PDF to Long Image](https://www.toolkitlife.com/en/tools/pdf-long-image): Combine all pages of a PDF into one vertical long image for easy reading and sharing.
+- [PDF to JPG](https://www.toolkitlife.com/en/tools/pdf-to-jpg): Convert every page of a PDF document to JPG images and download them as a ZIP.
+- [PDF to PNG](https://www.toolkitlife.com/en/tools/pdf-to-png): Convert every page of a PDF document to PNG images and download them as a ZIP.
+- [DOCX to JPG](https://www.toolkitlife.com/en/tools/docx-to-jpg): Convert every page of a Word document to JPG images and download them as a ZIP.
+- [DOCX to PNG](https://www.toolkitlife.com/en/tools/docx-to-png): Convert every page of a Word document to PNG images and download them as a ZIP.
+- [Password Strength Checker](https://www.toolkitlife.com/en/tools/password-strength): Test password strength with an instant score and tips
 
 ### Text Tools
-- [Lorem Ipsum Generator](https://toolkitlife.com/tools/lorem-ipsum-generator): Generate placeholder text in paragraphs, sentences, or words
-- [Word Counter](https://toolkitlife.com/tools/word-counter): Count words, characters, sentences, and analyze text
-- [Markdown Preview](https://toolkitlife.com/tools/markdown-preview): Write and preview Markdown with a live split-pane editor
-- [Fancy Text Generator](https://toolkitlife.com/tools/fancy-text-generator): Convert text into stylish Unicode fonts for Instagram, TikTok, and Twitter bios
-- [Text Case Converter](https://toolkitlife.com/tools/text-case-converter): Convert text between UPPERCASE, lowercase, camelCase, snake_case, and more.
-- [Bionic Reading Converter](https://toolkitlife.com/tools/bionic-reading): Convert text to Bionic Reading format. Bold word beginnings for faster, focused reading.
-- [Character Counter](https://toolkitlife.com/tools/character-counter): Count characters, words, sentences, paragraphs. Social media limits and reading time.
-- [Text Repeater](https://toolkitlife.com/tools/text-repeater): Repeat any text multiple times with custom separators.
-- [Morse Code Translator](https://toolkitlife.com/tools/morse-code): Translate text to Morse code and back instantly
-- [Reverse Text Generator](https://toolkitlife.com/tools/reverse-text): Reverse characters, words or lines instantly
+- [Lorem Ipsum Generator](https://www.toolkitlife.com/en/tools/lorem-ipsum-generator): Generate placeholder text in paragraphs, sentences, or words
+- [Word Counter](https://www.toolkitlife.com/en/tools/word-counter): Count words, characters, sentences, and analyze text
+- [Markdown Preview](https://www.toolkitlife.com/en/tools/markdown-preview): Write and preview Markdown with a live split-pane editor
+- [Fancy Text Generator](https://www.toolkitlife.com/en/tools/fancy-text-generator): Convert text into stylish Unicode fonts for Instagram, TikTok, and Twitter bios
+- [Text Case Converter](https://www.toolkitlife.com/en/tools/text-case-converter): Convert text between UPPERCASE, lowercase, camelCase, snake_case, and more.
+- [Bionic Reading Converter](https://www.toolkitlife.com/en/tools/bionic-reading): Convert text to Bionic Reading format. Bold word beginnings for faster, focused reading.
+- [Character Counter](https://www.toolkitlife.com/en/tools/character-counter): Count characters, words, sentences, paragraphs. Social media limits and reading time.
+- [Text Repeater](https://www.toolkitlife.com/en/tools/text-repeater): Repeat any text multiple times with custom separators.
+- [Morse Code Translator](https://www.toolkitlife.com/en/tools/morse-code): Translate text to Morse code and back instantly
+- [Reverse Text Generator](https://www.toolkitlife.com/en/tools/reverse-text): Reverse characters, words or lines instantly
 
 ### Productivity Tools
-- [Document Compare](https://toolkitlife.com/tools/doc-compare): Compare two Word, PDF or text documents and see line-by-line differences. Free online document diff tool.
-- [Image to Text (OCR)](https://toolkitlife.com/tools/image-to-text): Extract text from images for free using OCR. Upload a screenshot, photo, or scanned document and get editable text instantly.
-- [PDF to Word Converter](https://toolkitlife.com/tools/pdf-to-word): Convert PDF to Word for free. Extract text and download as an editable .doc file. No upload, runs in your browser.
-- [Document Converter](https://toolkitlife.com/tools/document-converter): Convert documents between Markdown, HTML, Word, EPUB, LaTeX, and more. Powered by Pandoc, runs in your browser.
+- [Document Compare](https://www.toolkitlife.com/en/tools/doc-compare): Compare two Word, PDF or text documents and see line-by-line differences. Free online document diff tool.
+- [Image to Text (OCR)](https://www.toolkitlife.com/en/tools/image-to-text): Extract text from images for free using OCR. Upload a screenshot, photo, or scanned document and get editable text instantly.
+- [PDF to Word Converter](https://www.toolkitlife.com/en/tools/pdf-to-word): Convert PDF to Word for free. Extract text and download as an editable .doc file. No upload, runs in your browser.
+- [Document Converter](https://www.toolkitlife.com/en/tools/document-converter): Convert documents between Markdown, HTML, Word, EPUB, LaTeX, and more. Powered by Pandoc, runs in your browser.
 
 ### Finance Tools
-- [Mortgage Calculator](https://toolkitlife.com/tools/mortgage-calculator): Calculate monthly mortgage payments with taxes, insurance, PMI, and amortization schedule.
-- [Compound Interest Calculator](https://toolkitlife.com/tools/compound-interest-calculator): See how your money grows with compound interest and regular contributions over time.
-- [Loan Calculator](https://toolkitlife.com/tools/loan-calculator): Calculate monthly payments, total interest, and see a full payment schedule for any loan.
-- [Tip Calculator](https://toolkitlife.com/tools/tip-calculator): Calculate tip amount and split the bill between friends with preset and custom percentages.
-- [Salary Calculator](https://toolkitlife.com/tools/salary-calculator): Convert between annual salary and hourly wage with tax estimates and pay breakdown.
-- [Auto Loan Calculator](https://toolkitlife.com/tools/auto-loan-calculator): Calculate car payments with down payment, trade-in, sales tax, and term comparison.
-- [Retirement Calculator](https://toolkitlife.com/tools/retirement-calculator): Project retirement savings growth with contributions, inflation, and withdrawal income.
-- [Savings Calculator](https://toolkitlife.com/tools/savings-calculator): Calculate savings growth over time with regular deposits and compound interest.
-- [Investment Calculator](https://toolkitlife.com/tools/investment-calculator): Project investment growth with regular contributions. See nominal and inflation-adjusted returns.
-- [Profit Margin Calculator](https://toolkitlife.com/tools/profit-margin-calculator): Calculate profit margin, markup, and profit from cost and revenue. Three calculation modes.
-- [Discount Calculator](https://toolkitlife.com/tools/discount-calculator): Calculate sale price after discount. Supports double discounts, tax, and shows total savings.
-- [Sales Tax Calculator](https://toolkitlife.com/tools/sales-tax-calculator): Calculate sales tax on any purchase. Add tax or extract tax from total. State rate presets.
-- [ROI Calculator](https://toolkitlife.com/tools/roi-calculator): Calculate return on investment and annualized return from initial and final values.
-- [Payment Calculator](https://toolkitlife.com/tools/payment-calculator): Calculate monthly loan payments for any amount, rate, and term. Rate comparison table.
-- [Paycheck Calculator](https://toolkitlife.com/tools/paycheck-calculator): Estimate take-home pay per paycheck. Federal tax, FICA, state tax, 401k deductions.
-- [Interest Calculator](https://toolkitlife.com/tools/interest-calculator): Calculate simple and compound interest. Year-by-year breakdown and APY comparison.
-- [Inflation Calculator](https://toolkitlife.com/tools/inflation-calculator): See how inflation affects purchasing power over time. Future and past value modes.
-- [401(k) Calculator](https://toolkitlife.com/tools/401k-calculator): Project 401k growth with employer match, contributions, and investment returns.
-- [Amortization Calculator](https://toolkitlife.com/tools/amortization-calculator): Generate full amortization schedule with principal/interest breakdown. See extra payment savings.
-- [Income Tax Calculator](https://toolkitlife.com/tools/income-tax-calculator): Estimate federal income tax with 2026 brackets. Marginal and effective rate breakdown.
-- [Tax Calculator](https://toolkitlife.com/tools/tax-calculator): Calculate your total tax burden — federal, FICA, and state. See effective rate, bracket breakdown, and take-home pay.
-- [OBBBA Tax Savings Calculator](https://toolkitlife.com/tools/obbba-tax-calculator): Calculate your savings under the One Big Beautiful Bill Act — no tax on tips, overtime, senior deduction, and auto loan interest.
-- [Debt Payoff Calculator](https://toolkitlife.com/tools/debt-payoff-calculator): Calculate how long to pay off debt and total interest. Compare extra payment scenarios.
-- [Hourly to Salary Calculator](https://toolkitlife.com/tools/hourly-to-salary-calculator): Convert hourly wage to annual salary and vice versa. Accounts for vacation time.
-- [Budget Calculator](https://toolkitlife.com/tools/budget-calculator): Plan your monthly budget with expense categories. Compare with the 50/30/20 rule.
-- [Simple Interest Calculator](https://toolkitlife.com/tools/simple-interest-calculator): Calculate simple interest with formula breakdown. Compare with compound interest.
-- [Net Worth Calculator](https://toolkitlife.com/tools/net-worth-calculator): Calculate net worth by adding assets and subtracting liabilities. Debt-to-asset ratio.
-- [Stock Profit Calculator](https://toolkitlife.com/tools/stock-profit-calculator): Calculate stock trading profit, ROI, and break-even price with commission fees.
-- [Credit Card Payoff Calculator](https://toolkitlife.com/tools/credit-card-payoff-calculator): Calculate credit card payoff time and interest. Compare monthly payment scenarios.
-- [Down Payment Calculator](https://toolkitlife.com/tools/down-payment-calculator): Calculate down payment and see impact on mortgage, monthly payment, and PMI.
-- [Dividend Calculator](https://toolkitlife.com/tools/dividend-calculator): Calculate dividend income and project growth with reinvestment and contributions.
-- [FIRE Calculator](https://toolkitlife.com/tools/fire-calculator): Calculate your Financial Independence number and years to early retirement.
-- [VAT Calculator](https://toolkitlife.com/tools/vat-calculator): Calculate Value Added Tax. Add or extract VAT with country rate presets.
-- [Break Even Calculator](https://toolkitlife.com/tools/break-even-calculator): Find your break-even point — units to sell to cover fixed and variable costs.
-- [Mortgage Affordability Calculator](https://toolkitlife.com/tools/mortgage-affordability-calculator): Find how much house you can afford based on income and debts. 28/36 DTI rule.
-- [APR Calculator](https://toolkitlife.com/tools/apr-calculator): Calculate the true APR of a loan including fees. Compare APR vs stated interest rate.
-- [Student Loan Calculator](https://toolkitlife.com/tools/student-loan-calculator): Calculate student loan payments and total interest. See extra payment impact.
-- [Capital Gains Tax Calculator](https://toolkitlife.com/tools/capital-gains-tax-calculator): Calculate capital gains tax on investments. Short-term vs long-term rates.
-- [Refinance Calculator](https://toolkitlife.com/tools/refinance-calculator): Compare current vs refinanced mortgage. Break-even point and total savings.
-- [Markup Calculator](https://toolkitlife.com/tools/markup-calculator): Calculate markup, margin, and selling price. Batch mode for multiple products.
-- [CD Calculator](https://toolkitlife.com/tools/cd-calculator): Calculate CD interest and maturity value. CD ladder strategy and early withdrawal penalties.
-- [Car Lease Calculator](https://toolkitlife.com/tools/car-lease-calculator): Calculate monthly lease payments, money factor to APR, and lease vs buy comparison.
-- [Commission Calculator](https://toolkitlife.com/tools/commission-calculator): Calculate commission income and after-tax net pay based on sales amount, commission rate, and fixed fees.
-- [Depreciation Calculator](https://toolkitlife.com/tools/depreciation-calculator): Calculate asset depreciation and book value using straight-line and double declining balance methods.
-- [Lease Calculator](https://toolkitlife.com/tools/lease-calculator): Calculate monthly lease payments, interest costs, and total cost for equipment or vehicle leases.
-- [Overtime Calculator](https://toolkitlife.com/tools/overtime-calculator): Calculate regular pay and overtime pay with 1.5x and 2x overtime rates.
-- [Present Value Calculator](https://toolkitlife.com/tools/present-value-calculator): Calculate present value and discount factor from future value, discount rate, and compounding frequency.
-- [Rent vs Buy Calculator](https://toolkitlife.com/tools/rent-vs-buy-calculator): Compare the long-term cost of renting vs buying a home, including break-even year and net worth difference.
-- [Future Value Calculator](https://toolkitlife.com/tools/future-value-calculator): Calculate future value of investments with contributions and compounding.
-- [Annuity Calculator](https://toolkitlife.com/tools/annuity-calculator): Calculate annuity growth and payout. Fixed vs variable comparison.
-- [EMI Calculator](https://toolkitlife.com/tools/emi-calculator): Calculate equated monthly installments. Prepayment impact and loan comparison.
-- [Debt-to-Income Calculator](https://toolkitlife.com/tools/debt-to-income-calculator): Calculate your DTI ratio. See loan qualification and lender guidelines.
-- [Income Percentile Calculator](https://toolkitlife.com/tools/income-percentile-calculator): Estimate your income percentile by country based on a log-normal model.
-- [Net Worth Percentile Calculator](https://toolkitlife.com/tools/net-worth-percentile-calculator): Estimate your net worth percentile by country based on a log-normal model.
-- [Life Insurance Calculator](https://toolkitlife.com/tools/life-insurance-calculator): Estimate recommended life insurance coverage using income replacement method.
-- [Home Affordability Calculator](https://toolkitlife.com/tools/home-affordability-calculator): Calculate maximum home price based on income, debts, and DTI limits.
-- [Business Loan Calculator](https://toolkitlife.com/tools/business-loan-calculator): Calculate monthly payments, total interest, and cost of a business loan.
-- [Credit Score Simulator](https://toolkitlife.com/tools/credit-score-simulator): Simulate how common credit actions affect your credit score.
-- [Self-Employment Tax Calculator](https://toolkitlife.com/tools/self-employment-tax-calculator): Estimate self-employment tax and deductible portion.
-- [Car Loan Interest Deduction Calculator](https://toolkitlife.com/tools/car-loan-interest-deduction-calculator): Estimate tax savings from deductible car loan interest for business use.
-- [Student Loan Tax Bomb Calculator](https://toolkitlife.com/tools/student-loan-tax-bomb-calculator): Estimate income tax due on forgiven student loan amounts.
-- [Trump Account Calculator](https://toolkitlife.com/tools/trump-account-calculator): Project growth of a hypothetical retirement account with contributions and employer match.
-- [Mortgage Payoff Calculator](https://toolkitlife.com/tools/mortgage-payoff-calculator): See how extra monthly payments shorten your mortgage term and save interest.
-- [SAVE vs REPAYE Calculator](https://toolkitlife.com/tools/save-vs-rap-calculator): Compare federal SAVE and REPAYE income-driven student loan repayment plans.
+- [Mortgage Calculator](https://www.toolkitlife.com/en/tools/mortgage-calculator): Calculate monthly mortgage payments with taxes, insurance, PMI, and amortization schedule.
+- [Compound Interest Calculator](https://www.toolkitlife.com/en/tools/compound-interest-calculator): See how your money grows with compound interest and regular contributions over time.
+- [Loan Calculator](https://www.toolkitlife.com/en/tools/loan-calculator): Calculate monthly payments, total interest, and see a full payment schedule for any loan.
+- [Tip Calculator](https://www.toolkitlife.com/en/tools/tip-calculator): Calculate tip amount and split the bill between friends with preset and custom percentages.
+- [Salary Calculator](https://www.toolkitlife.com/en/tools/salary-calculator): Convert between annual salary and hourly wage with tax estimates and pay breakdown.
+- [Auto Loan Calculator](https://www.toolkitlife.com/en/tools/auto-loan-calculator): Calculate car payments with down payment, trade-in, sales tax, and term comparison.
+- [Retirement Calculator](https://www.toolkitlife.com/en/tools/retirement-calculator): Project retirement savings growth with contributions, inflation, and withdrawal income.
+- [Savings Calculator](https://www.toolkitlife.com/en/tools/savings-calculator): Calculate savings growth over time with regular deposits and compound interest.
+- [Investment Calculator](https://www.toolkitlife.com/en/tools/investment-calculator): Project investment growth with regular contributions. See nominal and inflation-adjusted returns.
+- [Profit Margin Calculator](https://www.toolkitlife.com/en/tools/profit-margin-calculator): Calculate profit margin, markup, and profit from cost and revenue. Three calculation modes.
+- [Discount Calculator](https://www.toolkitlife.com/en/tools/discount-calculator): Calculate sale price after discount. Supports double discounts, tax, and shows total savings.
+- [Sales Tax Calculator](https://www.toolkitlife.com/en/tools/sales-tax-calculator): Calculate sales tax on any purchase. Add tax or extract tax from total. State rate presets.
+- [ROI Calculator](https://www.toolkitlife.com/en/tools/roi-calculator): Calculate return on investment and annualized return from initial and final values.
+- [Payment Calculator](https://www.toolkitlife.com/en/tools/payment-calculator): Calculate monthly loan payments for any amount, rate, and term. Rate comparison table.
+- [Paycheck Calculator](https://www.toolkitlife.com/en/tools/paycheck-calculator): Estimate take-home pay per paycheck. Federal tax, FICA, state tax, 401k deductions.
+- [Interest Calculator](https://www.toolkitlife.com/en/tools/interest-calculator): Calculate simple and compound interest. Year-by-year breakdown and APY comparison.
+- [Inflation Calculator](https://www.toolkitlife.com/en/tools/inflation-calculator): See how inflation affects purchasing power over time. Future and past value modes.
+- [401(k) Calculator](https://www.toolkitlife.com/en/tools/401k-calculator): Project 401k growth with employer match, contributions, and investment returns.
+- [Amortization Calculator](https://www.toolkitlife.com/en/tools/amortization-calculator): Generate full amortization schedule with principal/interest breakdown. See extra payment savings.
+- [Income Tax Calculator](https://www.toolkitlife.com/en/tools/income-tax-calculator): Estimate federal income tax with 2026 brackets. Marginal and effective rate breakdown.
+- [Tax Calculator](https://www.toolkitlife.com/en/tools/tax-calculator): Calculate your total tax burden — federal, FICA, and state. See effective rate, bracket breakdown, and take-home pay.
+- [OBBBA Tax Savings Calculator](https://www.toolkitlife.com/en/tools/obbba-tax-calculator): Calculate your savings under the One Big Beautiful Bill Act — no tax on tips, overtime, senior deduction, and auto loan interest.
+- [Debt Payoff Calculator](https://www.toolkitlife.com/en/tools/debt-payoff-calculator): Calculate how long to pay off debt and total interest. Compare extra payment scenarios.
+- [Hourly to Salary Calculator](https://www.toolkitlife.com/en/tools/hourly-to-salary-calculator): Convert hourly wage to annual salary and vice versa. Accounts for vacation time.
+- [Budget Calculator](https://www.toolkitlife.com/en/tools/budget-calculator): Plan your monthly budget with expense categories. Compare with the 50/30/20 rule.
+- [Simple Interest Calculator](https://www.toolkitlife.com/en/tools/simple-interest-calculator): Calculate simple interest with formula breakdown. Compare with compound interest.
+- [Net Worth Calculator](https://www.toolkitlife.com/en/tools/net-worth-calculator): Calculate net worth by adding assets and subtracting liabilities. Debt-to-asset ratio.
+- [Stock Profit Calculator](https://www.toolkitlife.com/en/tools/stock-profit-calculator): Calculate stock trading profit, ROI, and break-even price with commission fees.
+- [Credit Card Payoff Calculator](https://www.toolkitlife.com/en/tools/credit-card-payoff-calculator): Calculate credit card payoff time and interest. Compare monthly payment scenarios.
+- [Down Payment Calculator](https://www.toolkitlife.com/en/tools/down-payment-calculator): Calculate down payment and see impact on mortgage, monthly payment, and PMI.
+- [Dividend Calculator](https://www.toolkitlife.com/en/tools/dividend-calculator): Calculate dividend income and project growth with reinvestment and contributions.
+- [FIRE Calculator](https://www.toolkitlife.com/en/tools/fire-calculator): Calculate your Financial Independence number and years to early retirement.
+- [VAT Calculator](https://www.toolkitlife.com/en/tools/vat-calculator): Calculate Value Added Tax. Add or extract VAT with country rate presets.
+- [Break Even Calculator](https://www.toolkitlife.com/en/tools/break-even-calculator): Find your break-even point — units to sell to cover fixed and variable costs.
+- [Mortgage Affordability Calculator](https://www.toolkitlife.com/en/tools/mortgage-affordability-calculator): Find how much house you can afford based on income and debts. 28/36 DTI rule.
+- [APR Calculator](https://www.toolkitlife.com/en/tools/apr-calculator): Calculate the true APR of a loan including fees. Compare APR vs stated interest rate.
+- [Student Loan Calculator](https://www.toolkitlife.com/en/tools/student-loan-calculator): Calculate student loan payments and total interest. See extra payment impact.
+- [Capital Gains Tax Calculator](https://www.toolkitlife.com/en/tools/capital-gains-tax-calculator): Calculate capital gains tax on investments. Short-term vs long-term rates.
+- [Refinance Calculator](https://www.toolkitlife.com/en/tools/refinance-calculator): Compare current vs refinanced mortgage. Break-even point and total savings.
+- [Markup Calculator](https://www.toolkitlife.com/en/tools/markup-calculator): Calculate markup, margin, and selling price. Batch mode for multiple products.
+- [CD Calculator](https://www.toolkitlife.com/en/tools/cd-calculator): Calculate CD interest and maturity value. CD ladder strategy and early withdrawal penalties.
+- [Car Lease Calculator](https://www.toolkitlife.com/en/tools/car-lease-calculator): Calculate monthly lease payments, money factor to APR, and lease vs buy comparison.
+- [Commission Calculator](https://www.toolkitlife.com/en/tools/commission-calculator): Calculate commission income and after-tax net pay based on sales amount, commission rate, and fixed fees.
+- [Depreciation Calculator](https://www.toolkitlife.com/en/tools/depreciation-calculator): Calculate asset depreciation and book value using straight-line and double declining balance methods.
+- [Lease Calculator](https://www.toolkitlife.com/en/tools/lease-calculator): Calculate monthly lease payments, interest costs, and total cost for equipment or vehicle leases.
+- [Overtime Calculator](https://www.toolkitlife.com/en/tools/overtime-calculator): Calculate regular pay and overtime pay with 1.5x and 2x overtime rates.
+- [Present Value Calculator](https://www.toolkitlife.com/en/tools/present-value-calculator): Calculate present value and discount factor from future value, discount rate, and compounding frequency.
+- [Rent vs Buy Calculator](https://www.toolkitlife.com/en/tools/rent-vs-buy-calculator): Compare the long-term cost of renting vs buying a home, including break-even year and net worth difference.
+- [Future Value Calculator](https://www.toolkitlife.com/en/tools/future-value-calculator): Calculate future value of investments with contributions and compounding.
+- [Annuity Calculator](https://www.toolkitlife.com/en/tools/annuity-calculator): Calculate annuity growth and payout. Fixed vs variable comparison.
+- [EMI Calculator](https://www.toolkitlife.com/en/tools/emi-calculator): Calculate equated monthly installments. Prepayment impact and loan comparison.
+- [Debt-to-Income Calculator](https://www.toolkitlife.com/en/tools/debt-to-income-calculator): Calculate your DTI ratio. See loan qualification and lender guidelines.
+- [Income Percentile Calculator](https://www.toolkitlife.com/en/tools/income-percentile-calculator): Estimate your income percentile by country based on a log-normal model.
+- [Net Worth Percentile Calculator](https://www.toolkitlife.com/en/tools/net-worth-percentile-calculator): Estimate your net worth percentile by country based on a log-normal model.
+- [Life Insurance Calculator](https://www.toolkitlife.com/en/tools/life-insurance-calculator): Estimate recommended life insurance coverage using income replacement method.
+- [Home Affordability Calculator](https://www.toolkitlife.com/en/tools/home-affordability-calculator): Calculate maximum home price based on income, debts, and DTI limits.
+- [Business Loan Calculator](https://www.toolkitlife.com/en/tools/business-loan-calculator): Calculate monthly payments, total interest, and cost of a business loan.
+- [Credit Score Simulator](https://www.toolkitlife.com/en/tools/credit-score-simulator): Simulate how common credit actions affect your credit score.
+- [Self-Employment Tax Calculator](https://www.toolkitlife.com/en/tools/self-employment-tax-calculator): Estimate self-employment tax and deductible portion.
+- [Car Loan Interest Deduction Calculator](https://www.toolkitlife.com/en/tools/car-loan-interest-deduction-calculator): Estimate tax savings from deductible car loan interest for business use.
+- [Student Loan Tax Bomb Calculator](https://www.toolkitlife.com/en/tools/student-loan-tax-bomb-calculator): Estimate income tax due on forgiven student loan amounts.
+- [Trump Account Calculator](https://www.toolkitlife.com/en/tools/trump-account-calculator): Project growth of a hypothetical retirement account with contributions and employer match.
+- [Mortgage Payoff Calculator](https://www.toolkitlife.com/en/tools/mortgage-payoff-calculator): See how extra monthly payments shorten your mortgage term and save interest.
+- [SAVE vs REPAYE Calculator](https://www.toolkitlife.com/en/tools/save-vs-rap-calculator): Compare federal SAVE and REPAYE income-driven student loan repayment plans.
 
 ### Health Tools
-- [BMI Calculator](https://toolkitlife.com/tools/bmi-calculator): Calculate your Body Mass Index with imperial or metric units. See BMI category and healthy weight ranges.
-- [Calorie Calculator](https://toolkitlife.com/tools/calorie-calculator): Calculate daily calorie needs based on age, sex, height, weight, and activity level.
-- [Calorie Burn Calculator](https://toolkitlife.com/tools/calorie-burn-calculator): Estimate calories burned for various activities based on duration and weight.
-- [TDEE Calculator](https://toolkitlife.com/tools/tdee-calculator): Calculate Total Daily Energy Expenditure with multiple formulas and macro split suggestions.
-- [Body Fat Calculator](https://toolkitlife.com/tools/body-fat-calculator): Estimate body fat percentage using the US Navy method with waist, neck, and hip measurements.
-- [Macro Calculator](https://toolkitlife.com/tools/macro-calculator): Calculate daily protein, carb, and fat targets based on your goals. Multiple diet splits available.
-- [1RM Calculator](https://toolkitlife.com/tools/1rm-calculator): Estimate your one-rep max with Epley, Brzycki, Lombardi, and more formulas.
-- [Keto Calculator](https://toolkitlife.com/tools/keto-calculator): Calculate keto macros (carbs, protein, fat) from daily calories.
-- [Ovulation Calculator](https://toolkitlife.com/tools/ovulation-calculator): Predict ovulation, fertile window, and next period from your cycle.
-- [Weight Loss Calculator](https://toolkitlife.com/tools/weight-loss-calculator): Estimate time to reach your goal weight from daily calorie deficit.
-- [Period Calculator](https://toolkitlife.com/tools/period-calculator): Predict next period, ovulation, fertile window, and safer days.
-- [Blood Alcohol Calculator](https://toolkitlife.com/tools/blood-alcohol-calculator): Estimate BAC from drinks, weight, gender, and elapsed time.
-- [Walking Calorie Calculator](https://toolkitlife.com/tools/walking-calorie-calculator): Estimate calories burned walking by weight, distance or steps, and speed.
-- [Medicaid Work Requirement Calculator](https://toolkitlife.com/tools/medicaid-work-requirement-calculator): Check if you are subject to the new Medicaid work requirements under the OBBBA, whether you qualify for an exemption, and how many hours you need. Free, private, no signup.
-- [Pregnancy Due Date Calculator](https://toolkitlife.com/tools/pregnancy-calculator): Estimate your due date from last period. Trimester tracking and milestones.
-- [Pace Calculator](https://toolkitlife.com/tools/pace-calculator): Calculate running pace, finish time, or distance with race presets.
-- [BMR Calculator](https://toolkitlife.com/tools/bmr-calculator): Calculate basal metabolic rate with three formulas and activity multipliers.
-- [Waist-to-Hip Ratio Calculator](https://toolkitlife.com/tools/waist-to-hip-ratio-calculator): Assess health risk with WHO waist-to-hip ratio guidelines.
-- [Water Intake Calculator](https://toolkitlife.com/tools/water-intake-calculator): Calculate daily water intake based on weight, activity, and climate.
-- [Calorie Deficit Calculator](https://toolkitlife.com/tools/calorie-deficit-calculator): Calculate how many calories to eat for weight loss based on your TDEE.
-- [Protein Calculator](https://toolkitlife.com/tools/protein-calculator): Calculate daily protein needs based on weight, goal, and activity level.
-- [Ideal Weight Calculator](https://toolkitlife.com/tools/ideal-weight-calculator): Find your ideal body weight using four scientific formulas.
-- [Sleep Calculator](https://toolkitlife.com/tools/sleep-calculator): Calculate ideal bedtimes and wake times based on 90-minute sleep cycles.
-- [Heart Rate Zone Calculator](https://toolkitlife.com/tools/heart-rate-zone-calculator): Calculate your five heart rate training zones. Uses Karvonen or percentage-of-max methods.
+- [BMI Calculator](https://www.toolkitlife.com/en/tools/bmi-calculator): Calculate your Body Mass Index with imperial or metric units. See BMI category and healthy weight ranges.
+- [Calorie Calculator](https://www.toolkitlife.com/en/tools/calorie-calculator): Calculate daily calorie needs based on age, sex, height, weight, and activity level.
+- [Calorie Burn Calculator](https://www.toolkitlife.com/en/tools/calorie-burn-calculator): Estimate calories burned for various activities based on duration and weight.
+- [TDEE Calculator](https://www.toolkitlife.com/en/tools/tdee-calculator): Calculate Total Daily Energy Expenditure with multiple formulas and macro split suggestions.
+- [Body Fat Calculator](https://www.toolkitlife.com/en/tools/body-fat-calculator): Estimate body fat percentage using the US Navy method with waist, neck, and hip measurements.
+- [Macro Calculator](https://www.toolkitlife.com/en/tools/macro-calculator): Calculate daily protein, carb, and fat targets based on your goals. Multiple diet splits available.
+- [1RM Calculator](https://www.toolkitlife.com/en/tools/1rm-calculator): Estimate your one-rep max with Epley, Brzycki, Lombardi, and more formulas.
+- [Keto Calculator](https://www.toolkitlife.com/en/tools/keto-calculator): Calculate keto macros (carbs, protein, fat) from daily calories.
+- [Ovulation Calculator](https://www.toolkitlife.com/en/tools/ovulation-calculator): Predict ovulation, fertile window, and next period from your cycle.
+- [Weight Loss Calculator](https://www.toolkitlife.com/en/tools/weight-loss-calculator): Estimate time to reach your goal weight from daily calorie deficit.
+- [Period Calculator](https://www.toolkitlife.com/en/tools/period-calculator): Predict next period, ovulation, fertile window, and safer days.
+- [Blood Alcohol Calculator](https://www.toolkitlife.com/en/tools/blood-alcohol-calculator): Estimate BAC from drinks, weight, gender, and elapsed time.
+- [Walking Calorie Calculator](https://www.toolkitlife.com/en/tools/walking-calorie-calculator): Estimate calories burned walking by weight, distance or steps, and speed.
+- [Medicaid Work Requirement Calculator](https://www.toolkitlife.com/en/tools/medicaid-work-requirement-calculator): Check if you are subject to the new Medicaid work requirements under the OBBBA, whether you qualify for an exemption, and how many hours you need. Free, private, no signup.
+- [Pregnancy Due Date Calculator](https://www.toolkitlife.com/en/tools/pregnancy-calculator): Estimate your due date from last period. Trimester tracking and milestones.
+- [Pace Calculator](https://www.toolkitlife.com/en/tools/pace-calculator): Calculate running pace, finish time, or distance with race presets.
+- [BMR Calculator](https://www.toolkitlife.com/en/tools/bmr-calculator): Calculate basal metabolic rate with three formulas and activity multipliers.
+- [Waist-to-Hip Ratio Calculator](https://www.toolkitlife.com/en/tools/waist-to-hip-ratio-calculator): Assess health risk with WHO waist-to-hip ratio guidelines.
+- [Water Intake Calculator](https://www.toolkitlife.com/en/tools/water-intake-calculator): Calculate daily water intake based on weight, activity, and climate.
+- [Calorie Deficit Calculator](https://www.toolkitlife.com/en/tools/calorie-deficit-calculator): Calculate how many calories to eat for weight loss based on your TDEE.
+- [Protein Calculator](https://www.toolkitlife.com/en/tools/protein-calculator): Calculate daily protein needs based on weight, goal, and activity level.
+- [Ideal Weight Calculator](https://www.toolkitlife.com/en/tools/ideal-weight-calculator): Find your ideal body weight using four scientific formulas.
+- [Sleep Calculator](https://www.toolkitlife.com/en/tools/sleep-calculator): Calculate ideal bedtimes and wake times based on 90-minute sleep cycles.
+- [Heart Rate Zone Calculator](https://www.toolkitlife.com/en/tools/heart-rate-zone-calculator): Calculate your five heart rate training zones. Uses Karvonen or percentage-of-max methods.
 
 ### Home & Energy Tools
-- [Electricity Cost Calculator](https://toolkitlife.com/tools/electricity-cost-calculator): Calculate how much your appliances cost to run. See your monthly electric bill breakdown by appliance and category.
-- [Square Footage Calculator](https://toolkitlife.com/tools/square-footage-calculator): Calculate square footage for any shape. Supports rectangles, circles, triangles, trapezoids, and L-shapes. Add multiple rooms, convert between units, and estimate project costs.
-- [Concrete Calculator](https://toolkitlife.com/tools/concrete-calculator): Calculate how much concrete you need for slabs, columns, walls, and stairs. Get cubic yards, bags needed, waste factors, and cost estimates for any project.
-- [Paint Calculator](https://toolkitlife.com/tools/paint-calculator): Calculate exactly how much paint you need for your project. Enter room dimensions or wall area, subtract doors and windows, and get accurate gallon estimates with cost breakdowns.
-- [Tile Calculator](https://toolkitlife.com/tools/tile-calculator): Calculate how many tiles you need for your floor, wall, or backsplash project. Includes grout spacing, waste percentage, layout patterns, cost estimates, and a visual pattern preview.
+- [Electricity Cost Calculator](https://www.toolkitlife.com/en/tools/electricity-cost-calculator): Calculate how much your appliances cost to run. See your monthly electric bill breakdown by appliance and category.
+- [Square Footage Calculator](https://www.toolkitlife.com/en/tools/square-footage-calculator): Calculate square footage for any shape. Supports rectangles, circles, triangles, trapezoids, and L-shapes. Add multiple rooms, convert between units, and estimate project costs.
+- [Concrete Calculator](https://www.toolkitlife.com/en/tools/concrete-calculator): Calculate how much concrete you need for slabs, columns, walls, and stairs. Get cubic yards, bags needed, waste factors, and cost estimates for any project.
+- [Paint Calculator](https://www.toolkitlife.com/en/tools/paint-calculator): Calculate exactly how much paint you need for your project. Enter room dimensions or wall area, subtract doors and windows, and get accurate gallon estimates with cost breakdowns.
+- [Tile Calculator](https://www.toolkitlife.com/en/tools/tile-calculator): Calculate how many tiles you need for your floor, wall, or backsplash project. Includes grout spacing, waste percentage, layout patterns, cost estimates, and a visual pattern preview.
 
 ### Math Tools
-- [Number Base Converter](https://toolkitlife.com/tools/number-base-converter): Convert numbers between binary, octal, decimal, hexadecimal, and base 36 instantly.
-- [Square Root Calculator](https://toolkitlife.com/tools/square-root-calculator): Calculate square roots of real and negative numbers, including complex results.
-- [Mean Median Mode Calculator](https://toolkitlife.com/tools/mean-median-mode-calculator): Calculate mean, median, and mode from a list of numbers. Also shows count and sum.
-- [Standard Deviation Calculator](https://toolkitlife.com/tools/standard-deviation-calculator): Calculate standard deviation and variance for sample or population data sets.
-- [Ohm's Law Calculator](https://toolkitlife.com/tools/ohms-law-calculator): Calculate voltage, current, resistance, and power using any two known values.
+- [Number Base Converter](https://www.toolkitlife.com/en/tools/number-base-converter): Convert numbers between binary, octal, decimal, hexadecimal, and base 36 instantly.
+- [Square Root Calculator](https://www.toolkitlife.com/en/tools/square-root-calculator): Calculate square roots of real and negative numbers, including complex results.
+- [Mean Median Mode Calculator](https://www.toolkitlife.com/en/tools/mean-median-mode-calculator): Calculate mean, median, and mode from a list of numbers. Also shows count and sum.
+- [Standard Deviation Calculator](https://www.toolkitlife.com/en/tools/standard-deviation-calculator): Calculate standard deviation and variance for sample or population data sets.
+- [Ohm's Law Calculator](https://www.toolkitlife.com/en/tools/ohms-law-calculator): Calculate voltage, current, resistance, and power using any two known values.
 
 ### Legal Tools
-- [Child Support Calculator](https://toolkitlife.com/tools/child-support-calculator): Estimate child support payments for all 50 states and DC. Uses your state's calculation model — percentage of income, income shares, or state-specific formulas — with custody split and income adjustments.
-- [Alimony Calculator](https://toolkitlife.com/tools/alimony-calculator): Estimate alimony (spousal support) payments for all 50 states. Uses your state's formula, advisory guidelines, or AAML estimates for discretion states. Includes duration estimates based on marriage length.
-- [Personal Injury Settlement Calculator](https://toolkitlife.com/tools/personal-injury-calculator): Estimate your personal injury settlement value using the insurance industry multiplier method. Factors in injury severity, medical bills, lost wages, your state's negligence rules, and insurance policy limits.
-- [Workers' Compensation Calculator](https://toolkitlife.com/tools/workers-comp-calculator): Estimate your workers' comp benefits for all 50 states. Uses your state's TTD wage replacement rate, maximum and minimum weekly benefits, waiting periods, and retroactive rules.
-- [DUI Cost Calculator](https://toolkitlife.com/tools/dui-cost-calculator): Estimate the total cost of a DUI/DUI in all 50 states. Includes fines, insurance increases, IID costs, attorney fees, license suspension, and jail time for first and second offenses.
-- [Bankruptcy Means Test Calculator](https://toolkitlife.com/tools/bankruptcy-means-test): Take the Chapter 7 bankruptcy means test. Compare your income to your state's median, calculate disposable income with IRS-standard deductions, and determine if you qualify for Chapter 7 or need to file Chapter 13.
-- [Small Claims Court Calculator](https://toolkitlife.com/tools/small-claims-court-calculator): Check if your case fits in small claims court for all 50 states. Dollar limits, filing fees, statute of limitations, attorney rules, and appeal procedures by state.
-- [VA Disability Calculator](https://toolkitlife.com/tools/va-disability-calculator): Calculate your VA combined disability rating and estimated monthly compensation. Uses the official VA combined rating formula ('VA math') with 2026 compensation rates and dependent allowances.
-- [Social Security Calculator](https://toolkitlife.com/tools/social-security-calculator): Estimate your Social Security retirement benefits. Uses the official PIA formula with 2026 bend points, claiming age adjustments, spousal benefits, and delayed retirement credits.
-- [Medicare Cost Calculator](https://toolkitlife.com/tools/medicare-cost-calculator): Estimate your 2026 Medicare costs including Part A, Part B, Part D premiums, IRMAA surcharges based on income, deductibles, and Medigap supplement costs.
+- [Child Support Calculator](https://www.toolkitlife.com/en/tools/child-support-calculator): Estimate child support payments for all 50 states and DC. Uses your state's calculation model — percentage of income, income shares, or state-specific formulas — with custody split and income adjustments.
+- [Alimony Calculator](https://www.toolkitlife.com/en/tools/alimony-calculator): Estimate alimony (spousal support) payments for all 50 states. Uses your state's formula, advisory guidelines, or AAML estimates for discretion states. Includes duration estimates based on marriage length.
+- [Personal Injury Settlement Calculator](https://www.toolkitlife.com/en/tools/personal-injury-calculator): Estimate your personal injury settlement value using the insurance industry multiplier method. Factors in injury severity, medical bills, lost wages, your state's negligence rules, and insurance policy limits.
+- [Workers' Compensation Calculator](https://www.toolkitlife.com/en/tools/workers-comp-calculator): Estimate your workers' comp benefits for all 50 states. Uses your state's TTD wage replacement rate, maximum and minimum weekly benefits, waiting periods, and retroactive rules.
+- [DUI Cost Calculator](https://www.toolkitlife.com/en/tools/dui-cost-calculator): Estimate the total cost of a DUI/DUI in all 50 states. Includes fines, insurance increases, IID costs, attorney fees, license suspension, and jail time for first and second offenses.
+- [Bankruptcy Means Test Calculator](https://www.toolkitlife.com/en/tools/bankruptcy-means-test): Take the Chapter 7 bankruptcy means test. Compare your income to your state's median, calculate disposable income with IRS-standard deductions, and determine if you qualify for Chapter 7 or need to file Chapter 13.
+- [Small Claims Court Calculator](https://www.toolkitlife.com/en/tools/small-claims-court-calculator): Check if your case fits in small claims court for all 50 states. Dollar limits, filing fees, statute of limitations, attorney rules, and appeal procedures by state.
+- [VA Disability Calculator](https://www.toolkitlife.com/en/tools/va-disability-calculator): Calculate your VA combined disability rating and estimated monthly compensation. Uses the official VA combined rating formula ('VA math') with 2026 compensation rates and dependent allowances.
+- [Social Security Calculator](https://www.toolkitlife.com/en/tools/social-security-calculator): Estimate your Social Security retirement benefits. Uses the official PIA formula with 2026 bend points, claiming age adjustments, spousal benefits, and delayed retirement credits.
+- [Medicare Cost Calculator](https://www.toolkitlife.com/en/tools/medicare-cost-calculator): Estimate your 2026 Medicare costs including Part A, Part B, Part D premiums, IRMAA surcharges based on income, deductibles, and Medigap supplement costs.
 
 ### Media Tools
-- [Video Transcript](https://toolkitlife.com/tools/video-transcript): Paste a YouTube or Bilibili link and extract a timestamped transcript instantly.
-- [Slideshow Video Maker](https://toolkitlife.com/tools/slideshow-maker): Turn photos into MP4 slideshow videos with background music. Free & private.
+- [Video Transcript](https://www.toolkitlife.com/en/tools/video-transcript): Paste a YouTube or Bilibili link and extract a timestamped transcript instantly.
+- [Slideshow Video Maker](https://www.toolkitlife.com/en/tools/slideshow-maker): Turn photos into MP4 slideshow videos with background music. Free & private.
 
 ### Video Tools
-- [Video Trimmer](https://toolkitlife.com/tools/video-trimmer): Trim video clips online — lossless fast cut or precise re-encode. Free & private.
-- [Video Joiner](https://toolkitlife.com/tools/video-joiner): Merge multiple videos into one in order. Free & private.
-- [Video Speed Changer](https://toolkitlife.com/tools/video-speed-changer): Change video playback speed (0.25x–4x) online. Free & private.
-- [Subtitle Burner](https://toolkitlife.com/tools/video-subtitle-burner): Burn SRT/ASS/VTT subtitles into your video. Free & private.
-- [Video Frame Extractor](https://toolkitlife.com/tools/video-frame-extractor): Extract frames from a video at set intervals and download them as a ZIP.
-- [Animated WebP](https://toolkitlife.com/tools/animated-webp): Convert a video into an animated WebP image.
-- [APNG Maker](https://toolkitlife.com/tools/apng-maker): Convert a video into an animated APNG image.
-- [Video Thumbnail](https://toolkitlife.com/tools/video-thumbnail): Generate a thumbnail grid (contact sheet) from a video, with optional timestamps.
-- [Video to Images](https://toolkitlife.com/tools/video-to-images): Extract frames from videos at set intervals and save as multiple image formats; supports 20+ formats including MKV and AVI.
+- [Video Trimmer](https://www.toolkitlife.com/en/tools/video-trimmer): Trim video clips online — lossless fast cut or precise re-encode. Free & private.
+- [Video Joiner](https://www.toolkitlife.com/en/tools/video-joiner): Merge multiple videos into one in order. Free & private.
+- [Video Speed Changer](https://www.toolkitlife.com/en/tools/video-speed-changer): Change video playback speed (0.25x–4x) online. Free & private.
+- [Subtitle Burner](https://www.toolkitlife.com/en/tools/video-subtitle-burner): Burn SRT/ASS/VTT subtitles into your video. Free & private.
+- [Video Frame Extractor](https://www.toolkitlife.com/en/tools/video-frame-extractor): Extract frames from a video at set intervals and download them as a ZIP.
+- [Animated WebP](https://www.toolkitlife.com/en/tools/animated-webp): Convert a video into an animated WebP image.
+- [APNG Maker](https://www.toolkitlife.com/en/tools/apng-maker): Convert a video into an animated APNG image.
+- [Video Thumbnail](https://www.toolkitlife.com/en/tools/video-thumbnail): Generate a thumbnail grid (contact sheet) from a video, with optional timestamps.
+- [Video to Images](https://www.toolkitlife.com/en/tools/video-to-images): Extract frames from videos at set intervals and save as multiple image formats; supports 20+ formats including MKV and AVI.
 
-### Audio Tools Tools
-- [Audio Cutter](https://toolkitlife.com/tools/audio-cutter): Cut and trim MP3/WAV audio online with a visual waveform. Export as MP3 or WAV.
-- [Audio Merge](https://toolkitlife.com/tools/audio-merge): Combine multiple audio files into one track in your chosen order. Export as MP3 or WAV.
-- [Audio Player](https://toolkitlife.com/tools/audio-player): View the waveform of any audio file and listen to it right in your browser.
-- [Frequency Tone Generator](https://toolkitlife.com/tools/hz): Generate sine, square, sawtooth or triangle tones at any frequency. Download as WAV.
-- [White Noise Generator](https://toolkitlife.com/tools/white-noise): Generate white, pink or brown noise for sleep and focus. Download as WAV.
+### Audio Tools
+- [Audio Cutter](https://www.toolkitlife.com/en/tools/audio-cutter): Cut and trim MP3/WAV audio online with a visual waveform. Export as MP3 or WAV.
+- [Audio Merge](https://www.toolkitlife.com/en/tools/audio-merge): Combine multiple audio files into one track in your chosen order. Export as MP3 or WAV.
+- [Audio Player](https://www.toolkitlife.com/en/tools/audio-player): View the waveform of any audio file and listen to it right in your browser.
+- [Frequency Tone Generator](https://www.toolkitlife.com/en/tools/hz): Generate sine, square, sawtooth or triangle tones at any frequency. Download as WAV.
+- [White Noise Generator](https://www.toolkitlife.com/en/tools/white-noise): Generate white, pink or brown noise for sleep and focus. Download as WAV.
 
-### Life Tools Tools
-- [Alarm Clock](https://toolkitlife.com/tools/alarm): Set an alarm at a specific time or in N minutes.
-- [Magic Answer Book](https://toolkitlife.com/tools/answer-book): Ask a question and get a random answer.
-- [Card Number Check](https://toolkitlife.com/tools/bank-card-validate): Validate a bank card number with the Luhn algorithm.
-- [Blood Type Inheritance](https://toolkitlife.com/tools/blood-type): Predict possible blood types of children from parents.
-- [Year Calendar](https://toolkitlife.com/tools/calendar): Generate a full-year calendar as an image.
-- [Click Speed Test](https://toolkitlife.com/tools/click-speed): Test how many clicks you can make in 10 seconds.
-- [Coin Flip](https://toolkitlife.com/tools/coin-flip): Flip a virtual coin with heads/tails statistics.
-- [Color Blindness Test](https://toolkitlife.com/tools/color-blindness-test): Self-test with Ishihara-style color plates.
-- [Date Calculator](https://toolkitlife.com/tools/date-calculator): Calculate the difference between dates or add days.
-- [Day of Week](https://toolkitlife.com/tools/day-of-week): Find which weekday any date falls on.
-- [Day of Year](https://toolkitlife.com/tools/day-of-year): Find which day of the year a date is.
-- [Dice Roller](https://toolkitlife.com/tools/dice-roller): Roll 1-10 dice and see the total instantly.
-- [Expiration Date](https://toolkitlife.com/tools/expiration): Calculate expiry date from production date and shelf life.
-- [Random Group Generator](https://toolkitlife.com/tools/group-randomizer): Split a list of names into random groups by count or size.
-- [Hearing Test](https://toolkitlife.com/tools/hearing-test): Find the highest frequency your ears can hear.
-- [Height Predictor](https://toolkitlife.com/tools/height-predict): Predict a child's height from the parents' heights.
-- [Keycode Tester](https://toolkitlife.com/tools/keycode): Press any key to see its key code and event info.
-- [Monte Carlo Pi](https://toolkitlife.com/tools/monte-carlo-pi): Estimate pi by throwing random points on a circle.
-- [Online Clock](https://toolkitlife.com/tools/online-clock): Full-screen clock with Unix timestamp and ISO time.
-- [Pi Digits](https://toolkitlife.com/tools/pi-digits): Generate and search millions of pi digits.
-- [Random Picker](https://toolkitlife.com/tools/random-picker): Draw one or more names at random from a list.
-- [Reaction Time Test](https://toolkitlife.com/tools/reaction-time): Measure how fast you can react.
-- [Schulte Grid](https://toolkitlife.com/tools/schulte-grid): Train attention by tapping numbers 1-N in order.
-- [Text Reader](https://toolkitlife.com/tools/text-reader): Paste text and read it in a large comfortable layout.
-- [Text to Image](https://toolkitlife.com/tools/text-to-image): Render multi-line text into a PNG image.
-- [VCF Generator](https://toolkitlife.com/tools/vcf-generator): Turn a name+phone list into a contacts VCF file.
-- [Web Shortcut Maker](https://toolkitlife.com/tools/web-shortcut): Generate a .url shortcut file for any website.
-- [World Clock](https://toolkitlife.com/tools/world-clock): Current time in 16 cities around the world.
-- [ZIP Viewer](https://toolkitlife.com/tools/zip-viewer): List files inside a ZIP archive without extracting.
+### Life Tools
+- [Alarm Clock](https://www.toolkitlife.com/en/tools/alarm): Set an alarm at a specific time or in N minutes.
+- [Magic Answer Book](https://www.toolkitlife.com/en/tools/answer-book): Ask a question and get a random answer.
+- [Card Number Check](https://www.toolkitlife.com/en/tools/bank-card-validate): Validate a bank card number with the Luhn algorithm.
+- [Blood Type Inheritance](https://www.toolkitlife.com/en/tools/blood-type): Predict possible blood types of children from parents.
+- [Year Calendar](https://www.toolkitlife.com/en/tools/calendar): Generate a full-year calendar as an image.
+- [Click Speed Test](https://www.toolkitlife.com/en/tools/click-speed): Test how many clicks you can make in 10 seconds.
+- [Coin Flip](https://www.toolkitlife.com/en/tools/coin-flip): Flip a virtual coin with heads/tails statistics.
+- [Color Blindness Test](https://www.toolkitlife.com/en/tools/color-blindness-test): Self-test with Ishihara-style color plates.
+- [Date Calculator](https://www.toolkitlife.com/en/tools/date-calculator): Calculate the difference between dates or add days.
+- [Day of Week](https://www.toolkitlife.com/en/tools/day-of-week): Find which weekday any date falls on.
+- [Day of Year](https://www.toolkitlife.com/en/tools/day-of-year): Find which day of the year a date is.
+- [Dice Roller](https://www.toolkitlife.com/en/tools/dice-roller): Roll 1-10 dice and see the total instantly.
+- [Expiration Date](https://www.toolkitlife.com/en/tools/expiration): Calculate expiry date from production date and shelf life.
+- [Random Group Generator](https://www.toolkitlife.com/en/tools/group-randomizer): Split a list of names into random groups by count or size.
+- [Hearing Test](https://www.toolkitlife.com/en/tools/hearing-test): Find the highest frequency your ears can hear.
+- [Height Predictor](https://www.toolkitlife.com/en/tools/height-predict): Predict a child's height from the parents' heights.
+- [Keycode Tester](https://www.toolkitlife.com/en/tools/keycode): Press any key to see its key code and event info.
+- [Monte Carlo Pi](https://www.toolkitlife.com/en/tools/monte-carlo-pi): Estimate pi by throwing random points on a circle.
+- [Online Clock](https://www.toolkitlife.com/en/tools/online-clock): Full-screen clock with Unix timestamp and ISO time.
+- [Pi Digits](https://www.toolkitlife.com/en/tools/pi-digits): Generate and search millions of pi digits.
+- [Random Picker](https://www.toolkitlife.com/en/tools/random-picker): Draw one or more names at random from a list.
+- [Reaction Time Test](https://www.toolkitlife.com/en/tools/reaction-time): Measure how fast you can react.
+- [Schulte Grid](https://www.toolkitlife.com/en/tools/schulte-grid): Train attention by tapping numbers 1-N in order.
+- [Text Reader](https://www.toolkitlife.com/en/tools/text-reader): Paste text and read it in a large comfortable layout.
+- [Text to Image](https://www.toolkitlife.com/en/tools/text-to-image): Render multi-line text into a PNG image.
+- [VCF Generator](https://www.toolkitlife.com/en/tools/vcf-generator): Turn a name+phone list into a contacts VCF file.
+- [Web Shortcut Maker](https://www.toolkitlife.com/en/tools/web-shortcut): Generate a .url shortcut file for any website.
+- [World Clock](https://www.toolkitlife.com/en/tools/world-clock): Current time in 16 cities around the world.
+- [ZIP Viewer](https://www.toolkitlife.com/en/tools/zip-viewer): List files inside a ZIP archive without extracting.
 
 ## Privacy
 All tools run entirely in the browser using JavaScript and WebAssembly. No files, text, images, or videos are ever uploaded to a server. No user data is collected or stored.
 
 ## Contact
-Website: https://toolkitlife.com
+Website: https://www.toolkitlife.com

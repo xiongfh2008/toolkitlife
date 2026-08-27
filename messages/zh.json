@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "ToolkitLife - 免费开发者与设计工具 | 无需注册",
-    "description": "17 款免费浏览器工具，面向开发者和设计师。二维码、去水印、JSON 格式化、密码生成、调色板等。无需注册，不存储数据。",
+    "description": "370+ 款免费浏览器工具和计算器，覆盖开发、设计、财务、健康等领域。无需注册，不存储数据。",
     "keywords": [
       "免费在线工具",
       "开发者工具",
@@ -17,9 +17,9 @@
       "good morning images"
     ],
     "ogTitle": "ToolkitLife - 免费开发者与设计工具",
-    "ogDescription": "17 款免费浏览器工具。无需注册，不存储数据。全部本地运行。",
+    "ogDescription": "370+ 款免费浏览器工具和计算器。无需注册，不存储数据。全部本地运行。",
     "twitterTitle": "ToolkitLife - 免费开发者与设计工具",
-    "twitterDescription": "17 款免费浏览器工具。无需注册。"
+    "twitterDescription": "370+ 款免费浏览器工具和计算器。无需注册。"
   },
   "nav": {
     "home": "ToolkitLife",
@@ -2321,7 +2321,7 @@
     "clearHistory": "清除",
     "searchHistory": "搜索历史",
     "emptyFavorites": "还没有收藏——点击任意工具上的星标即可收藏到这里。",
-    "heroBadge": "299 个免费在线工具与计算器",
+    "heroBadge": "370+ 个免费在线工具与计算器",
     "showMore": "显示更多"
   },
   "privacy": {

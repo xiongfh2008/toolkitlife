@@ -12,7 +12,11 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.icon-size-generator.metadata" });
   return {
     title: t("title"),
-    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    openGraph: {
+      url: `https://www.toolkitlife.com/${locale}/tools/icon-size-generator`,
+      siteName: "ToolkitLife",
+      images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],
+    },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
@@ -23,6 +27,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/icon-size-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/icon-size-generator`,
         ru: `https://www.toolkitlife.com/ru/tools/icon-size-generator`,
+        "x-default": `https://www.toolkitlife.com/en/tools/icon-size-generator`,
       },
     },
   };

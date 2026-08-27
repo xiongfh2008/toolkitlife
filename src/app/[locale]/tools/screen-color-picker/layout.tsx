@@ -16,6 +16,8 @@ export async function generateMetadata({
   return {
     title: t("title"),
     openGraph: {
+      url: `https://www.toolkitlife.com/${locale}/tools/screen-color-picker`,
+      siteName: "ToolkitLife",
       images: [
         {
           url: ogImageUrl({ title: t("title"), type: "tool" }),
@@ -38,6 +40,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/screen-color-picker`,
         ko: `https://www.toolkitlife.com/ko/tools/screen-color-picker`,
         ru: `https://www.toolkitlife.com/ru/tools/screen-color-picker`,
+        "x-default": `https://www.toolkitlife.com/en/tools/screen-color-picker`,
       },
     },
   };

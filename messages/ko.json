@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "ToolkitLife - 무료 개발자 및 디자인 도구 | 회원가입 불필요",
-    "description": "개발자와 디자이너를 위한 17개의 무료 브라우저 기반 도구. QR 코드, 워터마크 제거, JSON 포맷터, 비밀번호 생성, 색상 팔레트 등. 회원가입 없음, 데이터 저장 없음.",
+    "description": "개발자, 디자이너, 금융, 건강 등을 위한 370개 이상의 무료 브라우저 기반 도구 및 계산기. QR 코드, 워터마크 제거, JSON 포맷터 등. 회원가입 없음, 데이터 저장 없음.",
     "keywords": [
       "무료 온라인 도구",
       "개발자 도구",
@@ -17,9 +17,9 @@
       "good morning images"
     ],
     "ogTitle": "ToolkitLife - 무료 개발자 및 디자인 도구",
-    "ogDescription": "17개의 무료 브라우저 기반 도구. 회원가입 없음, 데이터 저장 없음. 모두 로컬에서 실행.",
+    "ogDescription": "370개 이상의 무료 브라우저 기반 도구 및 계산기. 회원가입 없음, 데이터 저장 없음. 모두 로컬에서 실행.",
     "twitterTitle": "ToolkitLife - 무료 개발자 및 디자인 도구",
-    "twitterDescription": "17개의 무료 브라우저 기반 도구. 회원가입 불필요."
+    "twitterDescription": "370개 이상의 무료 브라우저 기반 도구 및 계산기. 회원가입 불필요."
   },
   "nav": {
     "home": "ToolkitLife",
@@ -2321,7 +2321,7 @@
     "clearHistory": "지우기",
     "searchHistory": "최근 검색어",
     "emptyFavorites": "아직 즐겨찾기가 없습니다. 도구의 별표를 클릭해 저장하세요.",
-    "heroBadge": "299가지 무료 온라인 도구·계산기",
+    "heroBadge": "370개 이상의 무료 온라인 도구·계산기",
     "showMore": "더 보기"
   },
   "privacy": {

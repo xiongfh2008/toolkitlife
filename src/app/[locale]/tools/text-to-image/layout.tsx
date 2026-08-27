@@ -12,7 +12,11 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.text-to-image.metadata" });
   return {
     title: t("title"),
-    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    openGraph: {
+      url: `https://www.toolkitlife.com/${locale}/tools/text-to-image`,
+      siteName: "ToolkitLife",
+      images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],
+    },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
@@ -23,6 +27,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/text-to-image`,
         ko: `https://www.toolkitlife.com/ko/tools/text-to-image`,
         ru: `https://www.toolkitlife.com/ru/tools/text-to-image`,
+        "x-default": `https://www.toolkitlife.com/en/tools/text-to-image`,
       },
     },
   };

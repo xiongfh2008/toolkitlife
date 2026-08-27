@@ -67,6 +67,7 @@ export async function generateMetadata({
         ja: "https://www.toolkitlife.com/ja",
         ko: "https://www.toolkitlife.com/ko",
         ru: "https://www.toolkitlife.com/ru",
+        "x-default": `https://www.toolkitlife.com/en`,
       },
     },
   };
@@ -104,6 +105,12 @@ export default async function LocaleLayout({
       {/* Apply saved/system theme before paint to avoid a flash of the wrong theme. */}
       <Script id="theme-init" strategy="beforeInteractive">
         {`(function(){try{var s=localStorage.getItem("toolkitlife-theme");var d=s?s==="dark":window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(d)document.documentElement.classList.add("dark");}catch(e){}})();`}
+      </Script>
+
+      {/* Fix <html lang> before paint — the root layout is locale-agnostic and
+          can only emit a static lang="en". */}
+      <Script id="lang-init" strategy="beforeInteractive">
+        {`document.documentElement.lang="${locale}";`}
       </Script>
 
       {/* Yandex.Metrika counter */}
@@ -162,7 +169,7 @@ export default async function LocaleLayout({
             description: siteT("description"),
             potentialAction: {
               "@type": "SearchAction",
-              target: "https://www.toolkitlife.com/?q={search_term_string}",
+              target: `https://www.toolkitlife.com/${locale}/?q={search_term_string}`,
               "query-input": "required name=search_term_string",
             },
           }),

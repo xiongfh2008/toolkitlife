@@ -12,7 +12,11 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.random-picker.metadata" });
   return {
     title: t("title"),
-    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    openGraph: {
+      url: `https://www.toolkitlife.com/${locale}/tools/random-picker`,
+      siteName: "ToolkitLife",
+      images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],
+    },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
@@ -23,6 +27,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/random-picker`,
         ko: `https://www.toolkitlife.com/ko/tools/random-picker`,
         ru: `https://www.toolkitlife.com/ru/tools/random-picker`,
+        "x-default": `https://www.toolkitlife.com/en/tools/random-picker`,
       },
     },
   };

@@ -12,7 +12,11 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "tools.coin-flip.metadata" });
   return {
     title: t("title"),
-    openGraph: { images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }] },
+    openGraph: {
+      url: `https://www.toolkitlife.com/${locale}/tools/coin-flip`,
+      siteName: "ToolkitLife",
+      images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],
+    },
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
@@ -23,6 +27,7 @@ export async function generateMetadata({
         ja: `https://www.toolkitlife.com/ja/tools/coin-flip`,
         ko: `https://www.toolkitlife.com/ko/tools/coin-flip`,
         ru: `https://www.toolkitlife.com/ru/tools/coin-flip`,
+        "x-default": `https://www.toolkitlife.com/en/tools/coin-flip`,
       },
     },
   };
