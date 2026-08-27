@@ -127,10 +127,19 @@ export default async function LocaleLayout({
         `}
       </Script>
       <noscript>
+        {/* Yandex pixel — noscript fallback can't use next/image (needs JS), so
+            keep a plain img with explicit size + lazy/low-priority so it never
+            competes for the LCP image slot. */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="https://mc.yandex.ru/watch/111875924"
-          style={{ position: "absolute", left: -9999 }}
           alt=""
+          width={1}
+          height={1}
+          style={{ position: "absolute", left: -9999 }}
+          loading="lazy"
+          fetchPriority="low"
+          decoding="async"
         />
       </noscript>
       {/* /Yandex.Metrika counter */}
@@ -156,22 +165,48 @@ export default async function LocaleLayout({
         `}
       </Script>
 
-      {/* Organization schema */}
-      <Script
-        id="schema-org"
+      {/* Microsoft Clarity — session replays & heatmaps */}
+      <Script id="clarity-init" strategy="afterInteractive">
+        {`
+          (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "y8zr3ckhi9");
+        `}
+      </Script>
+
+      {/* WebSite + Organization schema — plain <script> so crawlers see it in SSR HTML */}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "WebSite",
-            name: "ToolkitLife",
-            url: "https://www.toolkitlife.com",
-            description: siteT("description"),
-            potentialAction: {
-              "@type": "SearchAction",
-              target: `https://www.toolkitlife.com/${locale}/?q={search_term_string}`,
-              "query-input": "required name=search_term_string",
-            },
+            "@graph": [
+              {
+                "@type": "WebSite",
+                name: "ToolkitLife",
+                url: "https://www.toolkitlife.com",
+                description: siteT("description"),
+                inLanguage: locale,
+                potentialAction: {
+                  "@type": "SearchAction",
+                  target: `https://www.toolkitlife.com/${locale}/?q={search_term_string}`,
+                  "query-input": "required name=search_term_string",
+                },
+              },
+              {
+                "@type": "Organization",
+                name: "ToolkitLife",
+                url: "https://www.toolkitlife.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.toolkitlife.com/icon.svg",
+                  width: 64,
+                  height: 64,
+                },
+              },
+            ],
           }),
         }}
       />

@@ -1,6 +1,6 @@
 # ToolkitLife
 
-**[toolkitlife.com](https://toolkitlife.com)** — 190+ free online tools that run entirely in your browser. No signup, no upload, no data stored.
+**[toolkitlife.com](https://toolkitlife.com)** — 370+ free online tools that run entirely in your browser. No signup, no upload, no data stored.
 
 ## Tools
 

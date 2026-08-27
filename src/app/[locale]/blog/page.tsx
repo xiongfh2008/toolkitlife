@@ -44,8 +44,40 @@ export default async function BlogIndex({
   const t = await getTranslations({ locale, namespace: "blogIndex" });
   const pt = await getTranslations({ locale, namespace: "blogPosts" });
 
+  const sortedPosts = [...blogPostsMeta].sort((a, b) =>
+    b.datePublished.localeCompare(a.datePublished)
+  );
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+      {/* Blog + CollectionPage schema — plain <script> so it's in the SSR HTML */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Blog",
+            name: t("title"),
+            description: t("description"),
+            url: `https://www.toolkitlife.com/${locale}/blog`,
+            inLanguage: locale,
+            isPartOf: {
+              "@type": "WebSite",
+              name: "ToolkitLife",
+              url: "https://www.toolkitlife.com",
+            },
+            blogPost: sortedPosts.map((post) => ({
+              "@type": "BlogPosting",
+              headline: pt(`${post.slug}.title`),
+              description: pt(`${post.slug}.description`),
+              url: `https://www.toolkitlife.com/${locale}/blog/${post.slug}`,
+              datePublished: post.datePublished,
+              dateModified: post.dateModified,
+              author: { "@type": "Person", name: post.author },
+            })),
+          }),
+        }}
+      />
       <nav className="mb-8 text-sm text-zinc-500">
         <Link href="/" className="hover:text-blue-500 transition-colors">{t("breadcrumbHome")}</Link>
         <span className="mx-2 text-zinc-600">/</span>
@@ -56,9 +88,7 @@ export default async function BlogIndex({
       <p className="mb-10 text-zinc-400">{t("description")}</p>
 
       <div className="space-y-6">
-        {[...blogPostsMeta]
-          .sort((a, b) => b.datePublished.localeCompare(a.datePublished))
-          .map((post) => (
+        {sortedPosts.map((post) => (
             <article
               key={post.slug}
               className="group rounded-xl border border-zinc-800 bg-zinc-900 p-6 transition-colors hover:border-zinc-700"
