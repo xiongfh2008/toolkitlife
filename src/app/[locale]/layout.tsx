@@ -4,13 +4,32 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
+import { DM_Sans, Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { ogImageUrl } from "@/lib/og";
 import "../globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import HtmlLang from "@/components/HtmlLang";
 import GtagTracker from "@/components/GtagTracker";
+
+const body = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-body",
+  display: "swap",
+});
+
+const heading = Instrument_Serif({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-heading",
+  display: "swap",
+});
+
+const code = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-code",
+  display: "swap",
+});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -97,20 +116,20 @@ export default async function LocaleLayout({
     nav: messages.nav,
     footer: messages.footer,
     localeSwitcher: messages.localeSwitcher,
+    notFound: messages.notFound,
   };
   const siteT = await getTranslations({ locale, namespace: "metadata" });
 
   return (
-    <NextIntlClientProvider messages={publicMessages} locale={locale}>
+    <html
+      lang={locale}
+      className={`${body.variable} ${heading.variable} ${code.variable}`}
+    >
+      <body className="flex min-h-screen flex-col bg-zinc-950 text-zinc-100 antialiased">
+        <NextIntlClientProvider messages={publicMessages} locale={locale}>
       {/* Apply saved/system theme before paint to avoid a flash of the wrong theme. */}
       <Script id="theme-init" strategy="beforeInteractive">
         {`(function(){try{var s=localStorage.getItem("toolkitlife-theme");var d=s?s==="dark":window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(d)document.documentElement.classList.add("dark");}catch(e){}})();`}
-      </Script>
-
-      {/* Fix <html lang> before paint — the root layout is locale-agnostic and
-          can only emit a static lang="en". */}
-      <Script id="lang-init" strategy="beforeInteractive">
-        {`document.documentElement.lang="${locale}";`}
       </Script>
 
       {/* Yandex.Metrika counter */}
@@ -143,7 +162,6 @@ export default async function LocaleLayout({
         />
       </noscript>
       {/* /Yandex.Metrika counter */}
-      <HtmlLang locale={locale} />
       <Nav />
       <main className="flex-1">{children}</main>
       <Footer />
@@ -210,6 +228,8 @@ export default async function LocaleLayout({
           }),
         }}
       />
-    </NextIntlClientProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

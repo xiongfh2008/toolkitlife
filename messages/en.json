@@ -34,6 +34,11 @@
     "blog": "Blog",
     "copyright": "Free tools, no signup, no data stored."
   },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  },
   "toolLayout": {
     "breadcrumbHome": "Home",
     "faqTitle": "Frequently Asked Questions",
@@ -1561,6 +1566,12 @@
         "category": "Utilities",
         "icon": "💱"
       },
+      "ai-image-detector": {
+        "name": "AI Image Detector",
+        "description": "Check if an image was AI-generated — C2PA, generator signatures, metadata & frequency analysis.",
+        "category": "Image Tools",
+        "icon": "🤖"
+      },
       "image-to-relief": {
         "name": "Image to 3D Relief",
         "description": "Turn any photo into a 3D relief — preview it and export GLB or STL. Free & private.",
@@ -2453,6 +2464,160 @@
     }
   },
   "tools": {
+    "ai-image-detector": {
+      "metadata": {
+        "title": "AI Image Detector - Check If an Image Is AI Generated",
+        "description": "Detect AI-generated images in your browser. Checks C2PA credentials, AI generator signatures (Midjourney, Stable Diffusion, DALL-E, SynthID), metadata, and frequency anomalies. 100% local — images never leave your device."
+      },
+      "title": "AI Image Detector",
+      "description": "Check if an image was AI-generated — C2PA credentials, generator signatures, metadata, and frequency analysis. Everything runs locally in your browser; images are never uploaded.",
+      "category": "Image Tools",
+      "keywords": [
+        "ai image detector",
+        "check if image is ai",
+        "ai generated image detector",
+        "detect ai images",
+        "midjourney detector",
+        "stable diffusion detector",
+        "c2pa check",
+        "synthid detector",
+        "fake image detector",
+        "ai photo detector"
+      ],
+      "faqs": [
+        {
+          "question": "How does the AI image detector work?",
+          "answer": "It runs four checks in your browser: C2PA / Content Credentials verification (the strongest signal), AI generator signatures in metadata (Midjourney, Stable Diffusion, DALL-E, SynthID, etc.), structured metadata, and byte-level frequency anomalies that synthetic images often leave behind."
+        },
+        {
+          "question": "Are my images uploaded to a server?",
+          "answer": "No. Every check runs entirely in your browser. The image never leaves your device — there is no upload and no server-side processing."
+        },
+        {
+          "question": "Can the detector prove an image is AI-generated?",
+          "answer": "Not with certainty. Detection is probabilistic. C2PA credentials that state an AI source are strong evidence, but metadata can be stripped and frequency analysis is a heuristic. Treat the verdict as one signal, not proof."
+        },
+        {
+          "question": "What image formats are supported?",
+          "answer": "JPEG, PNG, and WebP. These are the formats that carry the metadata and byte-level signatures the detector looks for."
+        },
+        {
+          "question": "Why does my AI-generated image show no signals?",
+          "answer": "Many generators strip metadata, and some AI images are statistically very close to natural ones. If no signal is found, the tool reports \"No AI-generation signal found\" — that is an absence of evidence, not evidence of absence."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Image Upscaler",
+          "href": "/tools/image-upscaler"
+        },
+        {
+          "name": "Multiavatar Avatar Generator",
+          "href": "/tools/multiavatar-avatar-generator"
+        }
+      ],
+      "guide": {
+        "heading": "How to use:",
+        "steps": [
+          "Drop or select a JPEG, PNG, or WebP image. It is analyzed entirely on your device.",
+          "Click \"Analyze Image\". The tool checks C2PA credentials, AI generator signatures, metadata, and pixel frequency.",
+          "Read the verdict and evidence cards. C2PA verification is the strongest signal; frequency analysis is heuristic."
+        ]
+      },
+      "ui": {
+        "drop": "Drop an image here",
+        "browse": "Click to choose an image",
+        "hint": "JPEG · PNG · WebP — processed locally, never uploaded",
+        "analyze": "Analyze Image",
+        "change": "Change Image",
+        "analyzing": "Analyzing",
+        "stage": {
+          "read": "Reading file",
+          "identify": "Identifying image",
+          "provenance": "Checking source credentials",
+          "resize": "Resizing",
+          "features": "Extracting features",
+          "score": "Scoring",
+          "viz": "Rendering",
+          "complete": "Complete"
+        },
+        "file": "File",
+        "size": "Size",
+        "dimensions": "Dimensions",
+        "sha256": "SHA-256",
+        "verdict": "Verdict",
+        "evidence": "Evidence",
+        "frequency": "Frequency Analysis",
+        "frequencyScore": "Anomaly Score",
+        "confidence": "Confidence",
+        "positive": "Pos / Neg signals",
+        "disclaimer": "Disclaimer: Detection is probabilistic, not proof. A clean result does not guarantee an image is human-made, and a flagged result is one signal among several. C2PA credentials are the strongest evidence."
+      },
+      "verdict": {
+        "provenance": "AI source credential found",
+        "pixel": "Pixel characteristics suspicious",
+        "uncertain": "Uncertain — weak signals only",
+        "edit": "Editing traces found (not AI)",
+        "none": "No AI-generation signal found",
+        "pending": "Analyzing…",
+        "unsuitable": "Image not suitable for frequency analysis"
+      },
+      "badges": {
+        "clean": "Clean",
+        "c2pa": {
+          "aiVerified": "AI source verified",
+          "invalid": "Invalid credential",
+          "verified": "Verified (non-AI source)",
+          "structure": "C2PA structure found",
+          "bytes": "C2PA byte hints found",
+          "notfound": "No C2PA found"
+        },
+        "metadata": {
+          "hit": "Metadata names an AI tool",
+          "present": "Metadata present, no AI match",
+          "empty": "No readable metadata"
+        },
+        "watermark": {
+          "suspicious": "Possible invisible watermark",
+          "clean": "No watermark anomaly"
+        },
+        "marker": {
+          "hit": "Generator signature found",
+          "clean": "No generator signature"
+        }
+      },
+      "descs": {
+        "c2pa": {
+          "aiVerified": "The C2PA / Content Credentials manifest confirms this image was produced by an AI model.",
+          "invalid": "A C2PA manifest exists but fails validation — it may have been tampered with.",
+          "verified": "A valid C2PA manifest confirms a non-AI digital source (camera capture or manual creation).",
+          "structure": "C2PA/JUMBF structures are present; validation could not fully confirm the source.",
+          "bytes": "Byte-level hints of C2PA markers were found without a complete manifest.",
+          "notfound": "No C2PA / Content Credentials markers were found in the file."
+        },
+        "metadata": {
+          "hit": "Image metadata directly records an AI generation tool or marker.",
+          "present": "Metadata fields were extracted but none match AI-generation markers.",
+          "empty": "The image carries almost no metadata (possibly stripped)."
+        },
+        "watermark": {
+          "suspicious": "Byte distribution deviates from natural images — possible invisible watermark.",
+          "clean": "Byte distribution looks natural; no watermark anomaly detected."
+        }
+      },
+      "marker": {
+        "hit": "Found {brand} markers",
+        "clean": "No {brand} markers found"
+      },
+      "detections": {
+        "confidence": {
+          "strong": "Strong",
+          "medium": "Medium",
+          "weak": "Weak",
+          "info": "Info"
+        }
+      }
+    },
     "what-is-my-browser": {
       "metadata": {
         "title": "What Is My Browser",
@@ -27883,6 +28048,7 @@
       },
       "progress": {
         "title": "Joining videos",
+        "merging": "Merging videos — this may take a while for large files.",
         "keepOpen": "Processing happens entirely in your browser. Keep this tab open."
       },
       "errors": {
@@ -37491,6 +37657,10 @@
     "how-to-convert-video-to-gif": {
       "title": "How to Convert Video to GIF for Free (2026 Guide)",
       "description": "Learn how to turn video clips into animated GIFs. Covering trimming, dimensions, frame rate, optimization, and free in-browser tools."
+    },
+    "how-to-create-cartoon-avatar": {
+      "title": "How to Create a Unique Cartoon Avatar (2026 Guide)",
+      "description": "Learn how to generate a unique multicultural cartoon avatar from any text. Covering how Multiavatar works, use cases, and how to download SVG or PNG — free, no signup."
     },
     "how-to-create-digital-signature": {
       "title": "How to Create a Digital Signature for Free (2026 Guide)",

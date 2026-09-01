@@ -34,6 +34,11 @@
     "blog": "博客",
     "copyright": "免费工具，无需注册，不存储数据。"
   },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "抱歉，您访问的页面不存在或已被移动。",
+    "backHome": "返回首页"
+  },
   "toolLayout": {
     "breadcrumbHome": "首页",
     "faqTitle": "常见问题",
@@ -1561,6 +1566,12 @@
         "category": "实用工具",
         "icon": "💱"
       },
+      "ai-image-detector": {
+        "name": "AI 图片检测器",
+        "description": "检测图片是否由 AI 生成——C2PA 凭证、生成器签名、元数据与频域分析。",
+        "category": "图像工具",
+        "icon": "🤖"
+      },
       "image-to-relief": {
         "name": "图片转 3D 浮雕",
         "description": "将图片转换为 3D 浮雕，支持在线预览并导出 GLB/STL，免费使用。",
@@ -2453,6 +2464,159 @@
     }
   },
   "tools": {
+    "ai-image-detector": {
+      "metadata": {
+        "title": "AI 图片检测器 - 检测图片是否由 AI 生成",
+        "description": "在浏览器中检测 AI 生成的图片。检查 C2PA 凭证、AI 生成器签名（Midjourney、Stable Diffusion、DALL-E、SynthID）、元数据和频域异常。100% 本地运行——图片不会离开你的设备。"
+      },
+      "title": "AI 图片检测器",
+      "description": "检测图片是否由 AI 生成——C2PA 凭证、生成器签名、元数据和频域分析。一切都在浏览器本地完成，图片不会被上传。",
+      "category": "图像工具",
+      "keywords": [
+        "ai 图片检测",
+        "检测图片是否ai生成",
+        "ai 生成图片检测器",
+        "midjourney 检测",
+        "stable diffusion 检测",
+        "c2pa 检测",
+        "synthid 检测",
+        "假图片检测",
+        "ai 照片检测"
+      ],
+      "faqs": [
+        {
+          "question": "AI 图片检测器是如何工作的？",
+          "answer": "它在浏览器中执行四项检查：C2PA / Content Credentials 凭证验证（最强信号）、元数据中的 AI 生成器签名（Midjourney、Stable Diffusion、DALL-E、SynthID 等）、结构化元数据，以及合成图片常留下的字节级频域异常。"
+        },
+        {
+          "question": "我的图片会上传到服务器吗？",
+          "answer": "不会。所有检查都在你的浏览器中完成，图片永远不会离开你的设备——没有上传，也没有服务端处理。"
+        },
+        {
+          "question": "检测器能证明图片是 AI 生成的吗？",
+          "answer": "不能百分百确定。检测是概率性的。声明 AI 来源的 C2PA 凭证是强证据，但元数据可以被剥离，频域分析只是启发式判断。请把结论当作一个信号，而不是证据。"
+        },
+        {
+          "question": "支持哪些图片格式？",
+          "answer": "JPEG、PNG 和 WebP。这些格式能携带检测器所需的元数据和字节级签名。"
+        },
+        {
+          "question": "为什么我的 AI 图片没有检测到任何信号？",
+          "answer": "许多生成器会剥离元数据，有些 AI 图片在统计上非常接近自然图片。如果没有发现信号，工具会报告\"未发现 AI 生成信号\"——这只能说明没有证据，不能证明没有 AI 生成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "图片放大",
+          "href": "/tools/image-upscaler"
+        },
+        {
+          "name": "Multiavatar 头像生成器",
+          "href": "/tools/multiavatar-avatar-generator"
+        }
+      ],
+      "guide": {
+        "heading": "使用方法：",
+        "steps": [
+          "拖入或选择一张 JPEG、PNG 或 WebP 图片。它会在你的设备上完成全部分析。",
+          "点击\"开始检测\"。工具会检查 C2PA 凭证、AI 生成器签名、元数据和像素频域。",
+          "阅读结论与证据卡片。C2PA 验证是最强信号，频域分析是启发式判断。"
+        ]
+      },
+      "ui": {
+        "drop": "将图片拖到此处",
+        "browse": "点击选择图片",
+        "hint": "JPEG · PNG · WebP —— 本地处理，绝不上传",
+        "analyze": "开始检测",
+        "change": "更换图片",
+        "analyzing": "正在分析",
+        "stage": {
+          "read": "读取文件",
+          "identify": "识别图片",
+          "provenance": "检查来源凭证",
+          "resize": "缩放图像",
+          "features": "提取特征",
+          "score": "评分",
+          "viz": "生成图表",
+          "complete": "完成"
+        },
+        "file": "文件",
+        "size": "大小",
+        "dimensions": "尺寸",
+        "sha256": "SHA-256",
+        "verdict": "检测结论",
+        "evidence": "证据明细",
+        "frequency": "频域分析",
+        "frequencyScore": "异常得分",
+        "confidence": "置信度",
+        "positive": "正 / 负信号",
+        "disclaimer": "免责声明：检测结果属于概率性判断，并非定论。未检出并不能保证图片由人拍摄，检出也只是多个信号之一。C2PA 凭证是最强的证据。"
+      },
+      "verdict": {
+        "provenance": "发现 AI 来源凭证",
+        "pixel": "像素特征可疑",
+        "uncertain": "结果不确定——仅有弱信号",
+        "edit": "发现编辑痕迹（非 AI）",
+        "none": "未发现 AI 生成信号",
+        "pending": "分析中…",
+        "unsuitable": "图片不适合频域分析"
+      },
+      "badges": {
+        "clean": "未命中",
+        "c2pa": {
+          "aiVerified": "已确认 AI 来源",
+          "invalid": "凭证无效",
+          "verified": "已验证（非 AI 来源）",
+          "structure": "发现 C2PA 结构",
+          "bytes": "发现 C2PA 字节线索",
+          "notfound": "未发现 C2PA"
+        },
+        "metadata": {
+          "hit": "元数据提到 AI 工具",
+          "present": "存在元数据，未命中 AI",
+          "empty": "无可读元数据"
+        },
+        "watermark": {
+          "suspicious": "疑似隐形水印",
+          "clean": "无水印异常"
+        },
+        "marker": {
+          "hit": "检测到生成器签名",
+          "clean": "未检测到生成器签名"
+        }
+      },
+      "descs": {
+        "c2pa": {
+          "aiVerified": "C2PA / Content Credentials 清单确认该图片由 AI 模型生成。",
+          "invalid": "存在 C2PA 清单但验证失败——可能被篡改。",
+          "verified": "有效的 C2PA 清单确认该图片来自非 AI 数字来源（相机拍摄或人工创作）。",
+          "structure": "存在 C2PA/JUMBF 结构，但无法完全确认来源。",
+          "bytes": "发现 C2PA 标记的字节级线索，但无完整清单。",
+          "notfound": "文件中未发现 C2PA / Content Credentials 标记。"
+        },
+        "metadata": {
+          "hit": "图片元数据直接记录了 AI 生成工具或标记。",
+          "present": "提取到元数据字段，但没有命中 AI 生成标记。",
+          "empty": "图片几乎不含元数据（可能被剥离）。"
+        },
+        "watermark": {
+          "suspicious": "字节分布偏离自然图像——可能存在隐形水印。",
+          "clean": "字节分布符合自然图像，未检测到水印异常。"
+        }
+      },
+      "marker": {
+        "hit": "发现 {brand} 相关标记",
+        "clean": "未发现 {brand} 相关标记"
+      },
+      "detections": {
+        "confidence": {
+          "strong": "强",
+          "medium": "中",
+          "weak": "弱",
+          "info": "信息"
+        }
+      }
+    },
     "what-is-my-browser": {
       "metadata": {
         "title": "浏览器信息检测",
@@ -27902,6 +28066,7 @@
       },
       "progress": {
         "title": "正在合并视频",
+        "merging": "正在合并视频，文件较大时可能需要一些时间。",
         "keepOpen": "处理完全在您的浏览器中进行，请保持页面打开。"
       },
       "errors": {
@@ -37522,6 +37687,10 @@
     "how-to-convert-video-to-gif": {
       "title": "如何免费将视频转换为GIF（2026指南）",
       "description": "学习如何将视频片段转换为动画GIF。涵盖裁剪、尺寸、帧率、优化以及免费浏览器工具。"
+    },
+    "how-to-create-cartoon-avatar": {
+      "title": "如何创建独一无二的卡通头像（2026 指南）",
+      "description": "学习如何从任意文字生成独特的多元文化卡通头像。涵盖 Multiavatar 的工作原理、使用场景以及如何下载 SVG 或 PNG——免费、无需注册。"
     },
     "how-to-create-digital-signature": {
       "title": "如何免费创建数字签名（2026指南）",

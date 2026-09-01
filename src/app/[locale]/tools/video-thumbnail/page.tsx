@@ -27,6 +27,9 @@ export default function VideoThumbnailPage() {
     if (!file.type.startsWith("video/")) return;
     if (resultUrlRef.current) URL.revokeObjectURL(resultUrlRef.current);
     resultUrlRef.current = "";
+    // Clear any previous thumbnail canvas so no stale content lingers.
+    const canvas = canvasRef.current;
+    if (canvas) canvas.width = canvas.width;
     setVideoName(file.name.replace(/\.[^.]+$/, ""));
     setVideoSrc(URL.createObjectURL(file));
     setReady(false);
@@ -131,7 +134,6 @@ export default function VideoThumbnailPage() {
       keywords={keywords}
     >
       <div className="max-w-4xl space-y-4">
-        <canvas ref={canvasRef} className="hidden" />
         {!videoSrc ? (
           <div
             onDrop={(e) => {
@@ -249,11 +251,9 @@ export default function VideoThumbnailPage() {
 
             {error && <p className="text-sm text-red-500">{error}</p>}
 
-            {ready && (
-              <div className="overflow-auto rounded-lg border border-zinc-800 bg-zinc-950 p-4">
-                <canvas ref={canvasRef} className="w-full" />
-              </div>
-            )}
+            <div className={ready ? "overflow-auto rounded-lg border border-zinc-800 bg-zinc-950 p-4" : "hidden"}>
+              <canvas ref={canvasRef} className="w-full" />
+            </div>
           </div>
         )}
       </div>

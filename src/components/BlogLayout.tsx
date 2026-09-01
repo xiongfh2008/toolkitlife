@@ -110,7 +110,7 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
               </span>
               <span>·</span>
               <time dateTime={post.datePublished}>
-                {new Date(post.datePublished).toLocaleDateString(undefined, {
+                {new Date(post.datePublished).toLocaleDateString(locale, {
                   year: "numeric",
                   month: "long",
                   day: "numeric",

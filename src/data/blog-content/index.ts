@@ -4,6 +4,7 @@ import { content as howToBuildAResume } from "./how-to-build-a-resume";
 import { content as howToConvertPdfToWord } from "./how-to-convert-pdf-to-word";
 import { content as howToConvertTextToSpeech } from "./how-to-convert-text-to-speech";
 import { content as howToConvertVideoToGif } from "./how-to-convert-video-to-gif";
+import { content as howToCreateCartoonAvatar } from "./how-to-create-cartoon-avatar";
 import { content as howToCreateDigitalSignature } from "./how-to-create-digital-signature";
 import { content as howToExtractTextFromImages } from "./how-to-extract-text-from-images";
 import { content as howToMakeMemes } from "./how-to-make-memes";
@@ -32,6 +33,7 @@ export const blogContent: Record<string, BlogContent> = {
   "how-to-convert-pdf-to-word": howToConvertPdfToWord,
   "how-to-convert-text-to-speech": howToConvertTextToSpeech,
   "how-to-convert-video-to-gif": howToConvertVideoToGif,
+  "how-to-create-cartoon-avatar": howToCreateCartoonAvatar,
   "how-to-create-digital-signature": howToCreateDigitalSignature,
   "how-to-extract-text-from-images": howToExtractTextFromImages,
   "how-to-make-memes": howToMakeMemes,

@@ -31,6 +31,7 @@ export default function VideoJoinerPage() {
   const [step, setStep] = useState<Step>("upload");
   const [videos, setVideos] = useState<Vid[]>([]);
   const [progress, setProgress] = useState(0);
+  const [phase, setPhase] = useState<"load" | "merge">("load");
   const [resultUrl, setResultUrl] = useState("");
   const [resultSize, setResultSize] = useState(0);
   const [error, setError] = useState("");
@@ -53,6 +54,12 @@ export default function VideoJoinerPage() {
 
   const handleFiles = (files: FileList | File[]) => {
     for (const f of Array.from(files)) loadFile(f);
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files?.length) handleFiles(e.target.files);
+    // Reset so selecting the same file again still fires the change event.
+    e.target.value = "";
   };
 
   const handleDrop = (e: React.DragEvent) => {
@@ -93,6 +100,7 @@ export default function VideoJoinerPage() {
     if (videos.length < 2) return;
     setStep("processing");
     setProgress(0);
+    setPhase("load");
     setError("");
     try {
       const { fetchFile } = await import("@ffmpeg/util");
@@ -102,14 +110,18 @@ export default function VideoJoinerPage() {
       for (let i = 0; i < videos.length; i++) {
         await ffmpeg.writeFile(`${i}.mp4`, await fetchFile(videos[i].url));
       }
+      // No per-step progress callback from ffmpeg.exec, so switch to an
+      // indeterminate "merging" indicator while the actual merge runs.
+      setPhase("merge");
 
       let succeeded = false;
       // Attempt 1 — concat demuxer with stream copy (fast, lossless when the
-      // inputs share the same codec/parameters).
+      // inputs share the same codec/parameters). ffmpeg.exec() resolves with
+      // the return code (0 = success) instead of rejecting on failure.
       try {
         const list = videos.map((_, i) => `file '${i}.mp4'`).join("\n");
         await ffmpeg.writeFile("list.txt", new TextEncoder().encode(list));
-        await ffmpeg.exec([
+        const ret = await ffmpeg.exec([
           "-f",
           "concat",
           "-safe",
@@ -123,7 +135,7 @@ export default function VideoJoinerPage() {
           "-y",
           "output.mp4",
         ]);
-        succeeded = true;
+        succeeded = ret === 0;
       } catch {
         succeeded = false;
       }
@@ -136,7 +148,7 @@ export default function VideoJoinerPage() {
         const labels = videos
           .map((_, i) => `[${i}:v][${i}:a]`)
           .join("");
-        await ffmpeg.exec([
+        const ret = await ffmpeg.exec([
           ...inputs,
           "-filter_complex",
           `${labels}concat=n=${n}:v=1:a=1[v][a]`,
@@ -159,6 +171,7 @@ export default function VideoJoinerPage() {
           "-y",
           "output.mp4",
         ]);
+        if (ret !== 0) throw new Error(t("errors.failed"));
       }
 
       const blob = await readFFmpegOutput(ffmpeg, "output.mp4", "video/mp4");
@@ -198,6 +211,14 @@ export default function VideoJoinerPage() {
       keywords={keywords}
     >
       <div className="space-y-5">
+        <input
+          ref={inputRef}
+          type="file"
+          accept="video/*"
+          multiple
+          className="hidden"
+          onChange={handleInputChange}
+        />
         {error && (
           <div className="rounded-lg border border-red-800 bg-red-900/30 p-3 text-sm text-red-300">
             {error}
@@ -214,14 +235,6 @@ export default function VideoJoinerPage() {
             <div className="mb-4 text-4xl">🎬</div>
             <p className="font-medium text-zinc-300">{t("labels.dropPrompt")}</p>
             <p className="mt-1 text-sm text-zinc-500">{t("labels.dropHint")}</p>
-            <input
-              ref={inputRef}
-              type="file"
-              accept="video/*"
-              multiple
-              className="hidden"
-              onChange={(e) => e.target.files && handleFiles(e.target.files)}
-            />
           </div>
         )}
 
@@ -235,14 +248,6 @@ export default function VideoJoinerPage() {
                 className="cursor-pointer rounded-xl border-2 border-dashed border-zinc-600 p-12 text-center transition-colors hover:border-zinc-500"
               >
                 <p className="text-sm text-zinc-400">{t("labels.dropPrompt")}</p>
-                <input
-                  ref={inputRef}
-                  type="file"
-                  accept="video/*"
-                  multiple
-                  className="hidden"
-                  onChange={(e) => e.target.files && handleFiles(e.target.files)}
-                />
               </div>
             ) : (
               <div className="space-y-2">
@@ -317,16 +322,22 @@ export default function VideoJoinerPage() {
 
         {step === "processing" && (
           <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-10 text-center">
-            <div className="mb-4 text-5xl">⚙️</div>
+            <div className="mb-4 text-5xl">{phase === "merge" ? "🔀" : "⚙️"}</div>
             <h3 className="mb-2 text-xl font-semibold text-zinc-100">
-              {t("progress.title")}
+              {phase === "merge" ? t("progress.merging") : t("progress.title")}
             </h3>
             <div className="mx-auto max-w-md">
               <div className="h-3 overflow-hidden rounded-full bg-zinc-800">
-                <div
-                  className="h-full rounded-full bg-blue-600 transition-all duration-300"
-                  style={{ width: `${progress}%` }}
-                />
+                {phase === "merge" ? (
+                  <div className="relative h-full w-full overflow-hidden rounded-full bg-blue-600/20">
+                    <div className="absolute inset-y-0 w-1/3 animate-indeterminate rounded-full bg-blue-600" />
+                  </div>
+                ) : (
+                  <div
+                    className="h-full rounded-full bg-blue-600 transition-all duration-300"
+                    style={{ width: `${progress}%` }}
+                  />
+                )}
               </div>
             </div>
             <p className="mt-4 text-xs text-zinc-500">{t("progress.keepOpen")}</p>

@@ -1,5 +1,5 @@
 import createMiddleware from "next-intl/middleware";
-import { NextRequest } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { routing } from "./i18n/routing";
 
 // IP 所属国家码（ISO 3166-1 alpha-2）→ 站点语言。
@@ -33,6 +33,8 @@ export default function proxy(request: NextRequest) {
   // URL 已带语言前缀 → 直接交给 next-intl 处理（无需 IP 检测）
   const hasLocalePrefix = LOCALE_PREFIX_RE.test(pathname);
 
+  let response: NextResponse;
+
   // 用户手动选择过语言（NEXT_LOCALE cookie）→ 优先于 IP 检测
   if (!hasLocalePrefix && !request.cookies.get("NEXT_LOCALE")?.value) {
     const country = getCountry(request);
@@ -43,12 +45,23 @@ export default function proxy(request: NextRequest) {
       // 以该语言为目标重定向到 /{locale}{pathname}
       const nextRequest = new NextRequest(request);
       nextRequest.cookies.set("NEXT_LOCALE", locale);
-      return handleI18nRouting(nextRequest);
+      response = handleI18nRouting(nextRequest);
+    } else {
+      // 无国家头（本地开发 / 无边缘头平台）：交给 next-intl 按浏览器语言兜底
+      response = handleI18nRouting(request);
     }
-    // 无国家头（本地开发 / 无边缘头平台）：交给 next-intl 按浏览器语言兜底
+  } else {
+    response = handleI18nRouting(request);
   }
 
-  return handleI18nRouting(request);
+  // 带 locale 前缀的响应注入 x-locale，供根 not-found（静态渲染拿不到
+  // usePathname）按语言渲染 404 文案。
+  const localeMatch = pathname.match(LOCALE_PREFIX_RE);
+  if (localeMatch) {
+    response.headers.set("x-locale", localeMatch[1]);
+  }
+
+  return response;
 }
 
 export const config = {

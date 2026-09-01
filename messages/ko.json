@@ -34,6 +34,11 @@
     "blog": "블로그",
     "copyright": "무료 도구, 회원가입 없음, 데이터 저장 없음."
   },
+  "notFound": {
+    "title": "페이지를 찾을 수 없습니다",
+    "description": "찾으시는 페이지가 존재하지 않거나 이동되었을 수 있습니다.",
+    "backHome": "홈으로 돌아가기"
+  },
   "toolLayout": {
     "breadcrumbHome": "홈",
     "faqTitle": "자주 묻는 질문",
@@ -1561,6 +1566,12 @@
         "category": "유틸리티",
         "icon": "💱"
       },
+      "ai-image-detector": {
+        "name": "AI 이미지 감지기",
+        "description": "이미지가 AI 생성인지 확인 — C2PA, 생성기 서명, 메타데이터, 주파수 분석.",
+        "category": "이미지 도구",
+        "icon": "🤖"
+      },
       "image-to-relief": {
         "name": "이미지 3D 릴리프",
         "description": "이미지를 3D 릴리프로 변환하고 GLB/STL로 내보내는 무료 도구.",
@@ -2453,6 +2464,159 @@
     }
   },
   "tools": {
+    "ai-image-detector": {
+      "metadata": {
+        "title": "AI 이미지 감지기 - 이미지가 AI 생성인지 확인",
+        "description": "브라우저에서 AI 생성 이미지를 감지합니다. C2PA 인증 정보, AI 생성기 서명(Midjourney, Stable Diffusion, DALL-E, SynthID), 메타데이터, 주파수 이상을 확인합니다. 100% 로컬 처리 — 이미지가 기기를 떠나지 않습니다."
+      },
+      "title": "AI 이미지 감지기",
+      "description": "이미지가 AI 생성인지 확인 — C2PA 인증 정보, 생성기 서명, 메타데이터, 주파수 분석. 모든 검사가 브라우저에서 로컬로 실행되며 이미지가 업로드되지 않습니다.",
+      "category": "이미지 도구",
+      "keywords": [
+        "ai 이미지 감지",
+        "이미지 ai 생성 확인",
+        "ai 생성 이미지 감지기",
+        "midjourney 감지",
+        "stable diffusion 감지",
+        "c2pa 확인",
+        "synthid 감지",
+        "가짜 이미지 감지",
+        "ai 사진 감지"
+      ],
+      "faqs": [
+        {
+          "question": "AI 이미지 감지기는 어떻게 작동하나요?",
+          "answer": "브라우저에서 네 가지 검사를 실행합니다: C2PA / Content Credentials 검증(가장 강력한 신호), 메타데이터의 AI 생성기 서명(Midjourney, Stable Diffusion, DALL-E, SynthID 등), 구조화 메타데이터, 그리고 합성 이미지가 남기기 쉬운 바이트 수준의 주파수 이상입니다."
+        },
+        {
+          "question": "내 이미지가 서버에 업로드되나요?",
+          "answer": "아니요. 모든 검사는 브라우저에서 완전히 실행됩니다. 이미지는 기기를 떠나지 않습니다 — 업로드나 서버 측 처리가 없습니다."
+        },
+        {
+          "question": "감지기가 이미지가 AI 생성임을 증명할 수 있나요?",
+          "answer": "확실하게는 아닙니다. 감지는 확률적입니다. AI 출처를 명시한 C2PA 인증 정보는 강력한 근거이지만, 메타데이터는 제거될 수 있고 주파수 분석은 휴리스틱입니다. 판정을 하나의 신호로 취급하세요."
+        },
+        {
+          "question": "지원되는 이미지 형식은?",
+          "answer": "JPEG, PNG, WebP입니다. 감지기가 찾는 메타데이터와 바이트 수준 서명을 담는 형식입니다."
+        },
+        {
+          "question": "AI 생성 이미지인데 신호가 검출되지 않는 이유는?",
+          "answer": "많은 생성기가 메타데이터를 제거하고, 일부 AI 이미지는 통계적으로 자연 이미지와 매우 가깝습니다. 신호가 없으면 'AI 생성 신호 없음'으로 보고됩니다 — 증거가 없다는 것이지, 생성이 아니라는 증거는 아닙니다."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "이미지 업스케일러",
+          "href": "/tools/image-upscaler"
+        },
+        {
+          "name": "Multiavatar 아바타 생성기",
+          "href": "/tools/multiavatar-avatar-generator"
+        }
+      ],
+      "guide": {
+        "heading": "사용 방법:",
+        "steps": [
+          "JPEG, PNG, WebP 이미지를 드롭하거나 선택하세요. 전적으로 기기에서 분석됩니다.",
+          "'이미지 분석'을 클릭하세요. C2PA 인증 정보, AI 생성기 서명, 메타데이터, 픽셀 주파수를 확인합니다.",
+          "판정과 증거 카드를 확인하세요. C2PA 검증이 가장 강력한 신호이며, 주파수 분석은 휴리스틱입니다."
+        ]
+      },
+      "ui": {
+        "drop": "여기에 이미지 놓기",
+        "browse": "클릭하여 이미지 선택",
+        "hint": "JPEG · PNG · WebP — 로컬 처리, 업로드 없음",
+        "analyze": "이미지 분석",
+        "change": "이미지 변경",
+        "analyzing": "분석 중",
+        "stage": {
+          "read": "파일 읽는 중",
+          "identify": "이미지 식별 중",
+          "provenance": "출처 인증 정보 확인 중",
+          "resize": "크기 조정 중",
+          "features": "특징 추출 중",
+          "score": "점수 산정 중",
+          "viz": "렌더링 중",
+          "complete": "완료"
+        },
+        "file": "파일",
+        "size": "크기",
+        "dimensions": "치수",
+        "sha256": "SHA-256",
+        "verdict": "판정",
+        "evidence": "증거",
+        "frequency": "주파수 분석",
+        "frequencyScore": "이상 점수",
+        "confidence": "신뢰도",
+        "positive": "긍정/부정 신호",
+        "disclaimer": "면책: 감지는 확률적이며 증명이 아닙니다. 깨끗한 결과가 인간 제작을 보장하지 않으며, 플래그된 결과는 여러 신호 중 하나입니다. C2PA 인증 정보가 가장 강력한 근거입니다."
+      },
+      "verdict": {
+        "provenance": "AI 출처 인증 정보 발견",
+        "pixel": "픽셀 특성 의심",
+        "uncertain": "불확실 — 약한 신호만",
+        "edit": "편집 흔적 발견(AI 아님)",
+        "none": "AI 생성 신호 없음",
+        "pending": "분석 중…",
+        "unsuitable": "주파수 분석에 부적합한 이미지"
+      },
+      "badges": {
+        "clean": "깨끗함",
+        "c2pa": {
+          "aiVerified": "AI 출처 확인됨",
+          "invalid": "잘못된 인증 정보",
+          "verified": "검증됨(비AI 출처)",
+          "structure": "C2PA 구조 발견",
+          "bytes": "C2PA 바이트 힌트 발견",
+          "notfound": "C2PA 없음"
+        },
+        "metadata": {
+          "hit": "메타데이터가 AI 도구 지목",
+          "present": "메타데이터 존재, AI 일치 없음",
+          "empty": "읽을 수 있는 메타데이터 없음"
+        },
+        "watermark": {
+          "suspicious": "보이지 않는 워터마크 가능성",
+          "clean": "워터마크 이상 없음"
+        },
+        "marker": {
+          "hit": "생성기 서명 발견",
+          "clean": "생성기 서명 없음"
+        }
+      },
+      "descs": {
+        "c2pa": {
+          "aiVerified": "C2PA / Content Credentials 매니페스트가 이 이미지가 AI 모델로 생성되었음을 확인합니다.",
+          "invalid": "C2PA 매니페스트가 존재하지만 검증에 실패 — 변조되었을 수 있습니다.",
+          "verified": "유효한 C2PA 매니페스트가 비AI 디지털 출처(카메라 촬영 또는 수동 제작)를 확인합니다.",
+          "structure": "C2PA/JUMBF 구조는 존재하지만 검증으로 출처를 완전히 확인하지 못했습니다.",
+          "bytes": "전체 매니페스트 없이 C2PA 마커의 바이트 수준 힌트가 발견되었습니다.",
+          "notfound": "파일에서 C2PA / Content Credentials 마커를 찾지 못했습니다."
+        },
+        "metadata": {
+          "hit": "이미지 메타데이터가 AI 생성 도구나 마커를 직접 기록합니다.",
+          "present": "메타데이터 필드를 추출했지만 AI 생성 마커와 일치하는 항목이 없습니다.",
+          "empty": "이미지에 메타데이터가 거의 없습니다(제거되었을 가능성)."
+        },
+        "watermark": {
+          "suspicious": "바이트 분포가 자연 이미지와 다릅니다 — 보이지 않는 워터마크 가능성.",
+          "clean": "바이트 분포가 자연스럽고 워터마크 이상이 감지되지 않았습니다."
+        }
+      },
+      "marker": {
+        "hit": "{brand} 마커 발견",
+        "clean": "{brand} 마커 없음"
+      },
+      "detections": {
+        "confidence": {
+          "strong": "강함",
+          "medium": "중간",
+          "weak": "약함",
+          "info": "정보"
+        }
+      }
+    },
     "what-is-my-browser": {
       "metadata": {
         "title": "브라우저 정보 확인",
@@ -28123,6 +28287,7 @@
       },
       "progress": {
         "title": "영상 병합 중",
+        "merging": "영상을 병합하는 중입니다. 큰 파일은 시간이 걸릴 수 있습니다.",
         "keepOpen": "처리는 전적으로 브라우저에서 진행됩니다. 탭을 열어 두세요."
       },
       "errors": {
@@ -37733,6 +37898,10 @@
     "how-to-convert-video-to-gif": {
       "title": "동영상을 GIF로 무료 변환하는 법(2026 가이드)",
       "description": "동영상 클립을 애니메이션 GIF로 변환하는 방법을 알아보세요. 트리밍, 크기, 프레임 속도, 최적화, 무료인 브라우저 기반 도구를 다룹니다."
+    },
+    "how-to-create-cartoon-avatar": {
+      "title": "나만의 독특한 카툰 아바타 만들기 (2026 가이드)",
+      "description": "임의의 텍스트에서 고유한 다문화 카툰 아바타를 생성하는 방법을 알아보세요. Multiavatar 작동 원리, 활용 사례, SVG·PNG 다운로드 방법까지——무료, 가입 불필요."
     },
     "how-to-create-digital-signature": {
       "title": "디지털 서명을 무료 만드는 법(2026 가이드)",

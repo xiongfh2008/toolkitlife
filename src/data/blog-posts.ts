@@ -59,6 +59,17 @@ export const blogPostsMeta: BlogPostMeta[] = [
     ],
   },
   {
+    slug: "how-to-create-cartoon-avatar",
+    author: "ToolkitLife Team",
+    datePublished: "2026-08-27",
+    dateModified: "2026-08-27",
+    tags: ["Avatar", "Design", "Profile Picture", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Remove Background from Image", href: "/blog/how-to-remove-background-from-image" },
+      { title: "How to Upscale Images", href: "/blog/how-to-upscale-images" },
+    ],
+  },
+  {
     slug: "how-to-create-digital-signature",
     author: "ToolkitLife Team",
     datePublished: "2026-03-07",

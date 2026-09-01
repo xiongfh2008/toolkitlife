@@ -206,6 +206,23 @@ export default function ToolLayout({
       }
     : null;
 
+  // HowTo schema — derived from the guide's step list ("howTo" block) so AI
+  // assistants can cite step-by-step instructions directly from the tool page
+  const rawGuide = toolT.has("guide")
+    ? (toolT.raw("guide") as { howTo?: { items?: string[] } })
+    : undefined;
+  const howToSteps = rawGuide?.howTo?.items ?? [];
+  const howToSchema = howToSteps.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name: title,
+        description,
+        inLanguage: locale,
+        step: howToSteps.map((s) => ({ "@type": "HowToStep", text: s })),
+      }
+    : null;
+
   // BreadcrumbList schema — URLs must match the actual (locale-prefixed) pages
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -231,6 +248,13 @@ export default function ToolLayout({
           id={`schema-faq-${slug}`}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      {howToSchema && (
+        <script
+          id={`schema-howto-${slug}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
         />
       )}
       <script

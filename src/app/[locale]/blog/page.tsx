@@ -23,6 +23,9 @@ export async function generateMetadata({
         ru: "https://www.toolkitlife.com/ru/blog",
         "x-default": `https://www.toolkitlife.com/en/blog`,
       },
+      types: {
+        "application/rss+xml": "https://www.toolkitlife.com/feed.xml",
+      },
     },
   };
 }

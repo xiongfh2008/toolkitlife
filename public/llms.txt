@@ -1,6 +1,6 @@
 # ToolkitLife — Free Online Tools & Calculators
 
-> ToolkitLife is a collection of 372 free, browser-based tools and calculators. No signup required. No data stored. All processing happens locally in the user's browser.
+> ToolkitLife is a collection of 373 free, browser-based tools and calculators. No signup required. No data stored. All processing happens locally in the user's browser.
 
 ## Tools
 
@@ -85,6 +85,7 @@
 - [Image Crop Tool](https://www.toolkitlife.com/en/tools/image-crop): Crop images to any aspect ratio. Presets for Instagram, YouTube, Facebook, Twitter, LinkedIn.
 - [Placeholder Image Generator](https://www.toolkitlife.com/en/tools/placeholder-image): Generate custom placeholder images for web mockups. Any size, color, and text.
 - [EXIF Data Viewer](https://www.toolkitlife.com/en/tools/exif-viewer): View photo metadata — camera settings, date, GPS location, device info. Private.
+- [AI Image Detector](https://www.toolkitlife.com/en/tools/ai-image-detector): Check if an image was AI-generated. Verifies C2PA / Content Credentials, AI generator signatures (Midjourney, Stable Diffusion, DALL-E, SynthID), metadata, and frequency anomalies. 100% local — no upload.
 - [Noise Texture Generator](https://www.toolkitlife.com/en/tools/noise-generator): Generate seamless noise and grain textures for backgrounds. Download PNG or copy CSS.
 - [Color Converter](https://www.toolkitlife.com/en/tools/color-converter): Convert colors between HEX, RGB, HSL, HSV, and CMYK instantly.
 - [Image Filter Effects](https://www.toolkitlife.com/en/tools/image-filters): Apply Instagram-style filters — vintage, sepia, noir, and 13 more. Free and private.

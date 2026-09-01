@@ -34,6 +34,11 @@
     "blog": "ブログ",
     "copyright": "無料ツール、会員登録不要、データ保存なし。"
   },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しないか、移動された可能性があります。",
+    "backHome": "ホームに戻る"
+  },
   "toolLayout": {
     "breadcrumbHome": "ホーム",
     "faqTitle": "よくある質問",
@@ -1561,6 +1566,12 @@
         "category": "ユーティリティ",
         "icon": "💱"
       },
+      "ai-image-detector": {
+        "name": "AI画像検出器",
+        "description": "画像がAI生成かチェック — C2PA、生成ツール署名、メタデータ、周波数解析。",
+        "category": "画像ツール",
+        "icon": "🤖"
+      },
       "image-to-relief": {
         "name": "画像を3Dレリーフ化",
         "description": "画像から3Dレリーフを生成。プレビュー後、GLB/STLで書き出し可能な無料ツール。",
@@ -2453,6 +2464,159 @@
     }
   },
   "tools": {
+    "ai-image-detector": {
+      "metadata": {
+        "title": "AI画像検出器 - 画像がAI生成かどうかをチェック",
+        "description": "ブラウザ上でAI生成画像を検出。C2PA認証情報、AI生成ツールの署名（Midjourney、Stable Diffusion、DALL-E、SynthID）、メタデータ、周波数異常をチェック。100%ローカル処理 — 画像がデバイスから送信されることはありません。"
+      },
+      "title": "AI画像検出器",
+      "description": "画像がAI生成かをチェック — C2PA認証情報、生成ツールの署名、メタデータ、周波数解析。すべてブラウザ内でローカルに実行され、画像がアップロードされることはありません。",
+      "category": "画像ツール",
+      "keywords": [
+        "ai画像検出",
+        "画像がai生成かチェック",
+        "ai生成画像検出器",
+        "midjourney検出",
+        "stable diffusion検出",
+        "c2paチェック",
+        "synthid検出",
+        "偽画像検出",
+        "ai写真検出"
+      ],
+      "faqs": [
+        {
+          "question": "AI画像検出器はどのように動作しますか？",
+          "answer": "ブラウザ内で4つのチェックを実行します：C2PA / Content Credentialsの検証（最も強い信号）、メタデータ内のAI生成ツール署名（Midjourney、Stable Diffusion、DALL-E、SynthIDなど）、構造化メタデータ、そして合成画像が残しがちなバイトレベルの周波数異常です。"
+        },
+        {
+          "question": "画像はサーバーにアップロードされますか？",
+          "answer": "いいえ。すべてのチェックはブラウザ内で完結します。画像がデバイスから送信されることはありません — アップロードもサーバー側処理もありません。"
+        },
+        {
+          "question": "検出器は画像がAI生成であることを証明できますか？",
+          "answer": "確実には証明できません。検出は確率的です。AIソースを示すC2PA認証情報は強い根拠ですが、メタデータは削除され得ますし、周波数解析はヒューリスティックです。判定は1つの手がかりとして扱ってください。"
+        },
+        {
+          "question": "対応している画像形式は？",
+          "answer": "JPEG、PNG、WebPです。これらは検出対象のメタデータやバイトレベルの署名を含む形式です。"
+        },
+        {
+          "question": "AI生成画像なのにシグナルが検出されないのはなぜ？",
+          "answer": "多くの生成ツールはメタデータを除去しますし、一部のAI画像は統計的に自然画像とほぼ変わりません。シグナルがなければ「AI生成シグナルなし」と報告されます — それは証拠がないことであり、非生成の証明ではありません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "画像拡大ツール",
+          "href": "/tools/image-upscaler"
+        },
+        {
+          "name": "Multiavatarアバター生成",
+          "href": "/tools/multiavatar-avatar-generator"
+        }
+      ],
+      "guide": {
+        "heading": "使い方：",
+        "steps": [
+          "JPEG、PNG、WebP画像をドロップまたは選択します。すべて端末上で解析されます。",
+          "「画像を解析」をクリックします。C2PA認証情報、AI生成ツール署名、メタデータ、ピクセル周波数をチェックします。",
+          "判定とエビデンスカードを確認します。C2PA検証が最も強いシグナルで、周波数解析はヒューリスティックです。"
+        ]
+      },
+      "ui": {
+        "drop": "ここに画像をドロップ",
+        "browse": "クリックして画像を選択",
+        "hint": "JPEG · PNG · WebP — ローカル処理、アップロードなし",
+        "analyze": "画像を解析",
+        "change": "画像を変更",
+        "analyzing": "解析中",
+        "stage": {
+          "read": "ファイルを読み込み中",
+          "identify": "画像を識別中",
+          "provenance": "ソース認証情報を確認中",
+          "resize": "リサイズ中",
+          "features": "特徴を抽出中",
+          "score": "スコアリング中",
+          "viz": "レンダリング中",
+          "complete": "完了"
+        },
+        "file": "ファイル",
+        "size": "サイズ",
+        "dimensions": "寸法",
+        "sha256": "SHA-256",
+        "verdict": "判定",
+        "evidence": "エビデンス",
+        "frequency": "周波数解析",
+        "frequencyScore": "異常スコア",
+        "confidence": "信頼度",
+        "positive": "ポジ/ネガシグナル",
+        "disclaimer": "免責事項：検出は確率的であり、証明ではありません。クリーンな結果は画像が人間製であることを保証せず、フラグ付きの結果は複数のシグナルの1つです。C2PA認証情報が最も強い根拠です。"
+      },
+      "verdict": {
+        "provenance": "AIソースの認証情報を検出",
+        "pixel": "ピクセル特性に不審点あり",
+        "uncertain": "不明確 — 弱いシグナルのみ",
+        "edit": "編集痕跡を検出（AIではない）",
+        "none": "AI生成シグナルなし",
+        "pending": "解析中…",
+        "unsuitable": "画像が周波数解析に不適切"
+      },
+      "badges": {
+        "clean": "クリーン",
+        "c2pa": {
+          "aiVerified": "AIソースを検証",
+          "invalid": "無効な認証情報",
+          "verified": "検証済み（非AIソース）",
+          "structure": "C2PA構造を検出",
+          "bytes": "C2PAバイトヒントを検出",
+          "notfound": "C2PAなし"
+        },
+        "metadata": {
+          "hit": "メタデータがAIツールを示す",
+          "present": "メタデータあり、AI一致なし",
+          "empty": "読み取り可能なメタデータなし"
+        },
+        "watermark": {
+          "suspicious": "不可視ウォーターマークの可能性",
+          "clean": "ウォーターマーク異常なし"
+        },
+        "marker": {
+          "hit": "生成ツールの署名を検出",
+          "clean": "生成ツールの署名なし"
+        }
+      },
+      "descs": {
+        "c2pa": {
+          "aiVerified": "C2PA / Content Credentialsマニフェストが、この画像がAIモデルによって生成されたことを確認しています。",
+          "invalid": "C2PAマニフェストは存在しますが検証に失敗 — 改ざんされた可能性があります。",
+          "verified": "有効なC2PAマニフェストが非AIのデジタルソース（カメラ撮影または手動作成）を確認しています。",
+          "structure": "C2PA/JUMBF構造は存在しますが、検証ではソースを完全には確認できませんでした。",
+          "bytes": "完全なマニフェストなしでC2PAマーカーのバイトレベルのヒントを検出しました。",
+          "notfound": "ファイル内にC2PA / Content Credentialsマーカーは見つかりませんでした。"
+        },
+        "metadata": {
+          "hit": "画像メタデータがAI生成ツールまたはマーカーを直接記録しています。",
+          "present": "メタデータフィールドは抽出されましたが、AI生成マーカーに一致するものはありませんでした。",
+          "empty": "画像はほとんどメタデータを持ちません（削除された可能性）。"
+        },
+        "watermark": {
+          "suspicious": "バイト分布が自然画像と異なります — 不可視ウォーターマークの可能性。",
+          "clean": "バイト分布は自然で、ウォーターマーク異常は検出されませんでした。"
+        }
+      },
+      "marker": {
+        "hit": "{brand}のマーカーを検出",
+        "clean": "{brand}のマーカーなし"
+      },
+      "detections": {
+        "confidence": {
+          "strong": "強い",
+          "medium": "中程度",
+          "weak": "弱い",
+          "info": "情報"
+        }
+      }
+    },
     "what-is-my-browser": {
       "metadata": {
         "title": "ブラウザ情報検出",
@@ -28124,6 +28288,7 @@
       },
       "progress": {
         "title": "動画を結合中",
+        "merging": "動画を結合しています。ファイルが大きい場合は時間がかかることがあります。",
         "keepOpen": "処理はすべてブラウザ内で行われます。タブを開いたままにしてください。"
       },
       "errors": {
@@ -37736,6 +37901,10 @@
     "how-to-convert-video-to-gif": {
       "title": "動画をGIFに無料変換する方法（2026ガイド）",
       "description": "動画クリップをアニメーションGIFに変換する方法を学びます。トリミング、サイズ、フレームレート、最適化、無料のブラウザツールを解説します。"
+    },
+    "how-to-create-cartoon-avatar": {
+      "title": "ユニークなカートゥーンアバターの作り方（2026 ガイド）",
+      "description": "任意のテキストからユニークな多文化カートゥーンアバターを生成する方法を解説。Multiavatar の仕組み、活用例、SVG・PNG のダウンロード方法まで——無料・登録不要。"
     },
     "how-to-create-digital-signature": {
       "title": "デジタル署名を無料で作成する方法（2026ガイド）",
