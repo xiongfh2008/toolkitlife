@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { DM_Sans, Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { ogImageUrl } from "@/lib/og";
+import { ogLocaleMap, ogLocales } from "@/lib/og-locale";
 import "../globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -126,6 +127,15 @@ export default async function LocaleLayout({
       className={`${body.variable} ${heading.variable} ${code.variable}`}
     >
       <body className="flex min-h-screen flex-col bg-zinc-950 text-zinc-100 antialiased">
+        {/* og:locale + alternates — plain <meta> so they are hoisted into <head>
+            for every page under this layout (Next.js renders meta/link declared
+            in a layout into the document head). */}
+        <meta property="og:locale" content={ogLocaleMap[locale] ?? "en_US"} />
+        {ogLocales
+          .filter((l) => l !== (ogLocaleMap[locale] ?? "en_US"))
+          .map((l) => (
+            <meta key={l} property="og:locale:alternate" content={l} />
+          ))}
         <NextIntlClientProvider messages={publicMessages} locale={locale}>
       {/* Apply saved/system theme before paint to avoid a flash of the wrong theme. */}
       <Script id="theme-init" strategy="beforeInteractive">

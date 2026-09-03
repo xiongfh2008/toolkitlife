@@ -1572,6 +1572,12 @@
         "category": "Image Tools",
         "icon": "🤖"
       },
+      "ai-object-eraser": {
+        "name": "AI Object Eraser",
+        "description": "Remove unwanted objects, people & text from photos with AI. Click an object to select it, then erase it — 100% private.",
+        "category": "Image Tools",
+        "icon": "🪄"
+      },
       "image-to-relief": {
         "name": "Image to 3D Relief",
         "description": "Turn any photo into a 3D relief — preview it and export GLB or STL. Free & private.",
@@ -2615,6 +2621,134 @@
           "medium": "Medium",
           "weak": "Weak",
           "info": "Info"
+        }
+      }
+    },
+    "ai-object-eraser": {
+      "metadata": {
+        "title": "AI Object Eraser - Remove Unwanted Objects from Photos Online",
+        "description": "Remove unwanted objects, people, or text from photos with AI in your browser. Click to select, erase in seconds. Free, no upload, 100% private."
+      },
+      "title": "AI Object Eraser",
+      "description": "Remove unwanted objects, people, or text from a photo with a few clicks. AI selects the object you click on, then regenerates the area so it disappears cleanly. Everything runs locally in your browser.",
+      "category": "Image Tools",
+      "keywords": [
+        "ai object eraser",
+        "remove object from photo",
+        "erase object from image",
+        "remove unwanted objects from photos",
+        "remove people from photo",
+        "remove text from image",
+        "delete object from picture",
+        "object removal tool",
+        "clean up photos online",
+        "magic eraser online"
+      ],
+      "faqs": [
+        {
+          "question": "How does the AI object eraser work?",
+          "answer": "Two AI models run inside your browser. First, a Segment Anything model finds the exact pixels of the object you click on. Then an inpainting model regenerates that area using the surrounding colors and textures, so the object disappears cleanly."
+        },
+        {
+          "question": "Is my photo uploaded to a server?",
+          "answer": "No. Every AI model and all image processing run entirely in your browser with WebAssembly. Your photo never leaves your device and nothing is stored."
+        },
+        {
+          "question": "What can I remove from a photo?",
+          "answer": "Anything you can click on: people, animals, cars, watermarks, text, cables, reflections, and other unwanted objects. Objects with a clear boundary and fairly uniform surroundings produce the cleanest result."
+        },
+        {
+          "question": "Is this tool free?",
+          "answer": "Yes — free with no signup, no watermarks, and no usage limits. The first run downloads the AI models (about 120 MB), which are then cached in your browser for future use."
+        },
+        {
+          "question": "Why does the first use take longer?",
+          "answer": "The first time, the AI models are downloaded and the image encoder takes a few seconds to prepare your photo. After that, selecting and erasing take only seconds."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Background Remover",
+          "href": "/tools/background-remover"
+        },
+        {
+          "name": "Background Replace",
+          "href": "/tools/background-replace"
+        },
+        {
+          "name": "Face Blur",
+          "href": "/tools/face-blur"
+        },
+        {
+          "name": "Image Upscaler",
+          "href": "/tools/image-upscaler"
+        }
+      ],
+      "upload": {
+        "drop": "Drop a photo or click to upload",
+        "formats": "PNG, JPG, WEBP — longest edge up to 4096px"
+      },
+      "labels": {
+        "fgPoint": "Object",
+        "bgPoint": "Background",
+        "shiftHint": "Shift + click = background",
+        "original": "Original",
+        "result": "Result"
+      },
+      "status": {
+        "downloading": "Downloading AI model… {pct}%",
+        "encoding": "Analyzing image…",
+        "erasing": "Erasing object… {pct}%",
+        "erasingPrep": "Preparing the AI inpainting model…",
+        "decoding": "Segmenting object…",
+        "pendingAnalyze": "Ready — click “Analyze image” to load the AI model",
+        "segmentStart": "Click on the object you want to remove",
+        "segmentHint": "Keep clicking to refine — the magenta overlay is what will be erased",
+        "analyzed": "AI model ready"
+      },
+      "buttons": {
+        "analyze": "Analyze image",
+        "newImage": "New image",
+        "clearPoints": "Clear points",
+        "erase": "Erase Object",
+        "download": "Download"
+      },
+      "errors": {
+        "read": "Sorry, this image could not be read. Try another file.",
+        "analyze": "The AI model failed to load. Please check your connection and try again.",
+        "decode": "Could not segment that point. Click on the object again.",
+        "erase": "Erasing failed. Try a different selection or a smaller area.",
+        "noPoints": "First click on the object you want to remove."
+      },
+      "modelNote": "The first run downloads an AI model (~118 MB, one-time, cached in your browser) and analyzes your photo locally. Nothing is uploaded.",
+      "guide": {
+        "whatIs": {
+          "title": "What Is the AI Object Eraser?",
+          "body": [
+            "The AI Object Eraser removes unwanted objects, people, text, or watermarks from a photo. Click the object you want gone, and two AI models — a Segment Anything segmentation model and an MI-GAN inpainting model — select it precisely and regenerate the area behind it.",
+            "Both models run entirely in your browser using WebAssembly, so the tool is free, unlimited, and private: your photos never leave your device."
+          ]
+        },
+        "howTo": {
+          "title": "How to Erase an Object from a Photo",
+          "intro": "Follow these steps:",
+          "items": [
+            "Upload or drop a photo onto the page.",
+            "Click “Analyze image”. On the first run the AI models are downloaded and cached — this happens only once.",
+            "Click on the object you want to remove. Each click adds to the selection (green dots).",
+            "If the selection includes background you want to keep, hold Shift and click it (red dot) to exclude it.",
+            "Keep adding points until the magenta overlay covers the whole object, then click “Erase Object”.",
+            "Wait a few seconds, compare the before and after, and download the result as a PNG."
+          ]
+        },
+        "tips": {
+          "title": "Tips for the Best Results",
+          "items": [
+            "Objects with clean edges surrounded by fairly uniform background erase most convincingly.",
+            "Click on the center of the object first — that gives the AI the clearest signal about what to select.",
+            "For very large objects, erase in two passes: remove one part, then click the remaining part on the fresh result.",
+            "In complex scenes, hold Shift and click background areas that get wrongly selected to keep them intact."
+          ]
         }
       }
     },
@@ -37616,6 +37750,8 @@
   "blogLayout": {
     "breadcrumbHome": "Home",
     "breadcrumbBlog": "Blog",
+    "byAuthor": "By {author}",
+    "updated": "Updated",
     "faqTitle": "FAQ",
     "relatedToolsTitle": "Related Tools",
     "relatedArticlesTitle": "Related Articles",
@@ -37660,7 +37796,7 @@
     },
     "how-to-create-cartoon-avatar": {
       "title": "How to Create a Unique Cartoon Avatar (2026 Guide)",
-      "description": "Learn how to generate a unique multicultural cartoon avatar from any text. Covering how Multiavatar works, use cases, and how to download SVG or PNG — free, no signup."
+      "description": "Learn how to generate a unique multicultural cartoon avatar from any text. How Multiavatar works, use cases, and SVG or PNG download — free, no signup."
     },
     "how-to-create-digital-signature": {
       "title": "How to Create a Digital Signature for Free (2026 Guide)",
@@ -37680,7 +37816,7 @@
     },
     "how-to-remove-background-from-image": {
       "title": "How to Remove Background from an Image (2026 Guide)",
-      "description": "Learn how to remove image backgrounds for free with AI and color-based tools. Step-by-step guide covering clean edges, common use cases, and in-browser processing."
+      "description": "Learn how to remove image backgrounds for free with AI and color-based tools. Step-by-step guide for clean edges, common use cases, and in-browser processing."
     },
     "how-to-upscale-images": {
       "title": "How to Upscale Images Without Losing Quality (2026 Guide)",

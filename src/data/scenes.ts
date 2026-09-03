@@ -52,6 +52,7 @@ const BASE_SCENES: HomeScene[] = [
       "svg-blob-generator",
       "svg-wave-generator",
       "aspect-ratio-calculator",
+      "ai-object-eraser",
       "image-to-relief",
       "id-photo-generator",
       "background-replace",

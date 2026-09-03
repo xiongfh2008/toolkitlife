@@ -16,6 +16,7 @@ export async function generateMetadata({
   return {
     title: t("title"),
     openGraph: {
+      type: "website",
       url: `https://www.toolkitlife.com/${locale}/tools/multiavatar-avatar-generator`,
       siteName: "ToolkitLife",
       images: [

@@ -14,6 +14,7 @@ export async function generateMetadata({
     title: t("title"),
     openGraph: {
 
+      type: "website",
       url: `https://www.toolkitlife.com/${locale}/tools/student-loan-tax-bomb-calculator`,
 
       siteName: "ToolkitLife",

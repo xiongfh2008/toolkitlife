@@ -106,7 +106,7 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
             <p className="mb-4 text-zinc-400">{post.description}</p>
             <div className="flex flex-wrap items-center gap-3 text-sm text-zinc-500">
               <span className="font-medium text-zinc-300">
-                By {post.author}
+                {t("byAuthor", { author: post.author })}
               </span>
               <span>·</span>
               <time dateTime={post.datePublished}>
@@ -120,9 +120,9 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
                 <>
                   <span>·</span>
                   <span>
-                    Updated{" "}
+                    {t("updated")}{" "}
                     <time dateTime={post.dateModified}>
-                      {new Date(post.dateModified).toLocaleDateString(undefined, {
+                      {new Date(post.dateModified).toLocaleDateString(locale, {
                         year: "numeric",
                         month: "long",
                         day: "numeric",

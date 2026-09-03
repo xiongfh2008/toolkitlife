@@ -13,6 +13,7 @@ export async function generateMetadata({
   return {
     title: t("title"),
     openGraph: {
+      type: "website",
       url: `https://www.toolkitlife.com/${locale}/tools/day-of-year`,
       siteName: "ToolkitLife",
       images: [{ url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") }],

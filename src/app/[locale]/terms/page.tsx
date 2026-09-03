@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
+import { ogImageUrl } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -9,11 +10,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "terms.metadata" });
+  const url = `https://www.toolkitlife.com/${locale}/terms`;
+  const ogImage = ogImageUrl({ title: t("title"), type: "home" });
   return {
     title: t("title"),
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/terms`,
+      canonical: url,
       languages: {
         en: "https://www.toolkitlife.com/en/terms",
         zh: "https://www.toolkitlife.com/zh/terms",
@@ -22,6 +25,20 @@ export async function generateMetadata({
         ru: "https://www.toolkitlife.com/ru/terms",
         "x-default": `https://www.toolkitlife.com/en/terms`,
       },
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url,
+      siteName: "ToolkitLife",
+      type: "website",
+      images: [{ url: ogImage, width: 1200, height: 630, alt: t("title") }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      images: [ogImage],
     },
   };
 }

@@ -15,7 +15,11 @@ const ORT_CDN_LIST = [
   `https://cdn.jsdelivr.net/npm/onnxruntime-web@${ORT_VERSION}/dist/`,
   `https://unpkg.com/onnxruntime-web@${ORT_VERSION}/dist/`,
 ]
-const MODEL_URL = 'https://huggingface.co/lxfater/inpaint-web/resolve/main/migan.onnx'
+// hf-mirror.com is a fallback for regions where huggingface.co is unreachable.
+const MODEL_URLS = [
+  'https://huggingface.co/lxfater/inpaint-web/resolve/main/migan.onnx',
+  'https://hf-mirror.com/lxfater/inpaint-web/resolve/main/migan.onnx',
+]
 const MODEL_SIZE = 512
 const DB_NAME = 'toolkitlife-models'
 const DB_VERSION = 1
@@ -133,38 +137,51 @@ async function loadModelBytes(
     // ignore cache errors, re-download
   }
 
-  const res = await fetch(MODEL_URL)
-  if (!res.ok) throw new Error(`Could not download AI model (HTTP ${res.status})`)
-  const total = parseInt(res.headers.get('content-length') || '0', 10)
+  let lastError: unknown = null
+  for (const url of MODEL_URLS) {
+    try {
+      const res = await fetch(url)
+      if (!res.ok) throw new Error(`Could not download AI model (HTTP ${res.status})`)
+      const total = parseInt(res.headers.get('content-length') || '0', 10)
 
-  if (!res.body) {
-    const buf = await res.arrayBuffer()
-    return new Uint8Array(buf)
-  }
+      if (!res.body) {
+        const buf = await res.arrayBuffer()
+        try {
+          await idbSet(MODEL_KEY, buf.slice(0))
+        } catch {
+          // cache write is best-effort
+        }
+        return new Uint8Array(buf)
+      }
 
-  const reader = res.body.getReader()
-  const chunks: Uint8Array[] = []
-  let done = 0
-  while (true) {
-    const { value, done: finished } = await reader.read()
-    if (finished) break
-    chunks.push(value)
-    done += value.byteLength
-    onProgress(done, total)
+      const reader = res.body.getReader()
+      const chunks: Uint8Array[] = []
+      let done = 0
+      while (true) {
+        const { value, done: finished } = await reader.read()
+        if (finished) break
+        chunks.push(value)
+        done += value.byteLength
+        onProgress(done, total)
+      }
+      const out = new Uint8Array(done)
+      let offset = 0
+      for (const c of chunks) {
+        out.set(c, offset)
+        offset += c.byteLength
+      }
+      try {
+        await idbSet(MODEL_KEY, out.buffer.slice(0))
+      } catch {
+        // cache write is best-effort
+      }
+      return out
+    } catch (e) {
+      lastError = e
+      console.warn('[migan] model download failed, trying next source:', url, e)
+    }
   }
-  const out = new Uint8Array(done)
-  let offset = 0
-  for (const c of chunks) {
-    out.set(c, offset)
-    offset += c.byteLength
-  }
-
-  try {
-    await idbSet(MODEL_KEY, out.buffer.slice(0))
-  } catch {
-    // cache write is best-effort
-  }
-  return out
+  throw new Error(`Could not download AI model: ${String(lastError)}`)
 }
 
 // ─────────────────────────── Session ───────────────────────────

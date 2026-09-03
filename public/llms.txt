@@ -86,6 +86,7 @@
 - [Placeholder Image Generator](https://www.toolkitlife.com/en/tools/placeholder-image): Generate custom placeholder images for web mockups. Any size, color, and text.
 - [EXIF Data Viewer](https://www.toolkitlife.com/en/tools/exif-viewer): View photo metadata — camera settings, date, GPS location, device info. Private.
 - [AI Image Detector](https://www.toolkitlife.com/en/tools/ai-image-detector): Check if an image was AI-generated. Verifies C2PA / Content Credentials, AI generator signatures (Midjourney, Stable Diffusion, DALL-E, SynthID), metadata, and frequency anomalies. 100% local — no upload.
+- [AI Object Eraser](https://www.toolkitlife.com/en/tools/ai-object-eraser): Remove unwanted objects, people, or text from photos with AI. Click an object to select it, then erase it in seconds. Runs entirely in your browser — no upload, 100% private.
 - [Noise Texture Generator](https://www.toolkitlife.com/en/tools/noise-generator): Generate seamless noise and grain textures for backgrounds. Download PNG or copy CSS.
 - [Color Converter](https://www.toolkitlife.com/en/tools/color-converter): Convert colors between HEX, RGB, HSL, HSV, and CMYK instantly.
 - [Image Filter Effects](https://www.toolkitlife.com/en/tools/image-filters): Apply Instagram-style filters — vintage, sepia, noir, and 13 more. Free and private.

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SAM-HQ 浏览器集成 Spike · 交互式分割性能验证</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 14px/1.6 system-ui, "Segoe UI", sans-serif; max-width: 980px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  h2 { font-size: 15px; margin: 18px 0 8px; }
+  .muted { color: #888; font-size: 12px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 10px 0; }
+  button { padding: 6px 14px; border-radius: 8px; border: 1px solid #8884; background: #0000000a; cursor: pointer; }
+  button:disabled { opacity: .4; cursor: not-allowed; }
+  select, input[type=file] { padding: 4px; }
+  #status { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12px; background: #8882; }
+  #status.ok { background: #2e7d3222; color: #2e7d32; }
+  #status.err { background: #c6282822; color: #c62828; }
+  #stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+  #stats div { border: 1px solid #8884; border-radius: 8px; padding: 6px 10px; }
+  #stats b { font-size: 16px; display: block; }
+  #stage { position: relative; width: fit-content; max-width: 100%; margin: 12px 0; border: 1px solid #8884; border-radius: 8px; overflow: hidden; display: none; }
+  #stage canvas { display: block; max-width: 100%; height: auto; }
+  #stage canvas.overlay { position: absolute; inset: 0; }
+  #log { white-space: pre-wrap; font: 12px/1.5 ui-monospace, Consolas, monospace; background: #0000000d; border-radius: 8px; padding: 10px; max-height: 220px; overflow: auto; }
+  .kbd { border: 1px solid #8886; border-radius: 4px; padding: 0 5px; font-size: 12px; }
+</style>
+</head>
+<body>
+  <h1>SAM-HQ 浏览器集成 Spike —— 交互式分割性能验证</h1>
+  <p class="muted">
+    验证目标：① 双段管线（大 encoder 一次 / 小 decoder 每次点选）在浏览器内是否可用；
+    ② 编码耗时、点选延迟、内存占用是否可接受。模型默认使用 <b>SAM ViT-B int8</b>（≈108MB encoder + ≈8.7MB decoder，架构/输入规格与 HQ-SAM vit-b 一致）。
+  </p>
+  <p class="muted">已知差异：本 spike 预处理器采用“整图拉伸到 1024×1024”（与 Meta ONNX 官方 demo 一致）；正式集成如需保真，应改为“最长边 1024 + 右侧/底部补零”并同步裁剪 mask。</p>
+
+  <h2>① 模型与图像</h2>
+  <div class="row">
+    <input type="file" id="file" accept="image/*" />
+    <label>EP：<select id="ep">
+      <option value="wasm">wasm（默认，兼容性最好）</option>
+      <option value="webgpu">webgpu（实验性，仅 Chromium）</option>
+    </select></label>
+    <button id="loadModels">加载模型（首次需下载 ≈117MB，此后走 IndexedDB 缓存）</button>
+    <button id="encode" disabled>编码图像（encoder 一次性）</button>
+    <button id="clear" disabled>清空点选/mask</button>
+    <span id="status">idle</span>
+  </div>
+  <div id="stats"></div>
+
+  <h2>② 交互验证</h2>
+  <p class="muted">
+    在图上<strong>单击</strong>添加前景点（绿），<strong>Shift+单击</strong>添加背景点（红），松开后自动跑 decoder；
+    再次单击会叠加提示重新分割。勾选精化可测量“初分割 + 一次迭代精化”两段延迟。
+  </p>
+  <div class="row">
+    <label><input type="checkbox" id="refine" checked /> 迭代精化（第二轮 decoder，提升边缘质量）</label>
+    <span class="muted">阈值：<input type="range" id="thresh" min="0" max="100" value="50" style="vertical-align:middle" /> <span id="threshVal">0.5</span></span>
+  </div>
+  <div id="stage"><canvas id="imgCanvas"></canvas><canvas id="overlay" class="overlay"></canvas></div>
+
+  <h2>日志</h2>
+  <div id="log">— 上传一张人像 / 物体照片，点“加载模型”开始 ——</div>
+
+<script src="sam.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -47,6 +47,8 @@ next-env.d.ts
 /debug-page.html
 /fix_ko.py
 /migan_orig.onnx
+*.onnx
+spike-sam-hq/models/
 /temp_pw.html
 /test-assets/
 /test-migan-node.mjs

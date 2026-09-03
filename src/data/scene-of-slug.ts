@@ -9,6 +9,7 @@ export const SCENE_OF_SLUG: Record<string, string> = {
   "address-generator": "utility",
   "adsense-calculator": "marketing",
   "age-calculator": "calculator",
+  "ai-object-eraser": "image",
   "alarm": "life",
   "alimony-calculator": "calculator",
   "amortization-calculator": "calculator",

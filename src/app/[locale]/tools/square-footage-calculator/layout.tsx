@@ -14,6 +14,7 @@ export async function generateMetadata({
     title: t("title"),
     openGraph: {
 
+      type: "website",
       url: `https://www.toolkitlife.com/${locale}/tools/square-footage-calculator`,
 
       siteName: "ToolkitLife",
