@@ -59,11 +59,13 @@ export default function ImageEdgeDetectPage() {
       const w = Math.round(img.naturalWidth * scale);
       const h = Math.round(img.naturalHeight * scale);
       const canvas = canvasRef.current;
-      if (!canvas) return;
+      const ctx = canvas?.getContext("2d");
+      if (!canvas || !ctx) {
+        setProcessing(false);
+        return;
+      }
       canvas.width = w;
       canvas.height = h;
-      const ctx = canvas.getContext("2d");
-      if (!ctx) return;
       ctx.drawImage(img, 0, 0, w, h);
       const src = ctx.getImageData(0, 0, w, h);
       ctx.putImageData(edgeDetect(src, threshold), 0, 0);
@@ -163,43 +165,34 @@ export default function ImageEdgeDetectPage() {
 
             {error && <p className="text-sm text-red-500">{error}</p>}
 
-            {!result && (
+            <div className="grid gap-4 sm:grid-cols-2">
               <div className="overflow-auto rounded-lg border border-zinc-800 bg-zinc-950 p-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={img.src}
                   alt="Original"
-                  className="max-w-full rounded border border-zinc-800"
+                  className="w-full rounded border border-zinc-800"
                 />
               </div>
-            )}
+              {/* canvas stays mounted so canvasRef is valid on first detect */}
+              <div
+                className={`overflow-hidden rounded-lg border border-zinc-800 ${result ? "" : "hidden"}`}
+              >
+                <canvas ref={canvasRef} className="w-full" />
+              </div>
+            </div>
 
             {result && (
-              <div className="space-y-2">
-                <div className="flex items-center justify-between">
-                  <p className="text-sm font-medium text-zinc-300">
-                    {t("labels.original")} / {t("labels.result")}
-                  </p>
-                  <button
-                    onClick={handleDownload}
-                    className={`${btn} bg-blue-600 text-white hover:bg-blue-500`}
-                  >
-                    {t("buttons.download")}
-                  </button>
-                </div>
-                <div className="grid gap-4 sm:grid-cols-2">
-                  <div>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={img.src}
-                      alt="Original"
-                      className="w-full rounded-lg border border-zinc-800"
-                    />
-                  </div>
-                  <div className="overflow-hidden rounded-lg border border-zinc-800">
-                    <canvas ref={canvasRef} className="w-full" />
-                  </div>
-                </div>
+              <div className="flex items-center justify-between">
+                <p className="text-sm font-medium text-zinc-300">
+                  {t("labels.original")} / {t("labels.result")}
+                </p>
+                <button
+                  onClick={handleDownload}
+                  className={`${btn} bg-blue-600 text-white hover:bg-blue-500`}
+                >
+                  {t("buttons.download")}
+                </button>
               </div>
             )}
           </div>

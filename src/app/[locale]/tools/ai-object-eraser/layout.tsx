@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ogImageUrl } from "@/lib/og";
 import ToolMessages from "@/components/ToolMessages";
 
 const SLUG = "ai-object-eraser";
+
+export function generateStaticParams() {
+  return [{ slug: "ai-object-eraser" }];
+}
 
 export async function generateMetadata({
   params,
@@ -11,6 +15,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: `tools.${SLUG}` });
   const url = `https://www.toolkitlife.com/${locale}/tools/${SLUG}`;
   return {
@@ -56,6 +61,7 @@ export default async function Layout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <ToolMessages slug={SLUG} locale={locale}>
       {children}

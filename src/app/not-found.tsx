@@ -1,9 +1,13 @@
-import Link from "next/link";
-import { headers } from "next/headers";
+"use client";
 
-// Root 404 — renders for any unmatched URL. The locale is injected as the
-// "x-locale" response header by the i18n proxy (the statically-rendered
-// not-found page has no usePathname access), which makes this page dynamic.
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+
+// Root 404 — statically rendered. The locale is derived client-side from the
+// URL path (locale-prefixed misses like /zh/unknown) with a navigator-language
+// fallback, so no dynamic APIs (headers()) are needed — using those here would
+// force every route in the app to render dynamically.
 const COPY: Record<string, { title: string; desc: string; back: string }> = {
   en: {
     title: "Page Not Found",
@@ -22,7 +26,7 @@ const COPY: Record<string, { title: string; desc: string; back: string }> = {
   },
   ko: {
     title: "페이지를 찾을 수 없습니다",
-    desc: "찾으시는 페이지가 존재하지 않거나 이동되었을 수 있습니다.",
+    desc: "찾으시는 페이지가 존재하지 않거나 이동된 페이지일 수 있습니다.",
     back: "홈으로 돌아가기",
   },
   ru: {
@@ -32,10 +36,27 @@ const COPY: Record<string, { title: string; desc: string; back: string }> = {
   },
 };
 
-export default async function NotFound() {
-  const h = await headers();
-  const locale = (h.get("x-locale") ?? "en") as keyof typeof COPY;
-  const c = COPY[locale] ?? COPY.en;
+type Locale = keyof typeof COPY;
+
+function pickLocale(pathname: string | null): Locale {
+  const seg = pathname?.split("/")[1];
+  if (seg && seg in COPY) return seg as Locale;
+  if (typeof navigator !== "undefined") {
+    const nav = navigator.language?.slice(0, 2);
+    if (nav && nav in COPY) return nav as Locale;
+  }
+  return "en";
+}
+
+export default function NotFound() {
+  const pathname = usePathname();
+  // Server render defaults to "en" so the static HTML matches SSR output; the
+  // locale refines on the client right after hydration.
+  const [locale, setLocale] = useState<Locale>("en");
+  useEffect(() => {
+    setLocale(pickLocale(pathname));
+  }, [pathname]);
+  const c = COPY[locale];
 
   return (
     <div className="mx-auto flex min-h-[60vh] max-w-2xl flex-col items-center justify-center px-4 text-center">

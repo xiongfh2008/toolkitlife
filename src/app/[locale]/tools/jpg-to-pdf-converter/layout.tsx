@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ogImageUrl } from "@/lib/og";
 import ToolMessages from "@/components/ToolMessages";
+
+
+export function generateStaticParams() {
+  return [{ slug: "jpg-to-pdf-converter" }];
+}
 
 export async function generateMetadata({
   params,
@@ -9,6 +14,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "tools.jpg-to-pdf-converter.metadata" });
 
   return {
@@ -47,6 +53,7 @@ export default async function Layout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <ToolMessages slug="jpg-to-pdf-converter" locale={locale}>
       {children}

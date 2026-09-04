@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ogImageUrl } from "@/lib/og";
 import ToolMessages from "@/components/ToolMessages";
+
+
+export function generateStaticParams() {
+  return [{ slug: "is-it-down" }];
+}
 
 export async function generateMetadata({
   params,
@@ -9,6 +14,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "tools.is-it-down.metadata" });
   return {
     title: t("title"),
@@ -46,6 +52,7 @@ export default async function Layout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <ToolMessages slug="is-it-down" locale={locale}>
       {children}

@@ -17,6 +17,29 @@ const MAX_DISP = 1024; // display canvas (also the SAM encode input space)
 const MASK_FLOOR = 0.12; // probability below this is never selected
 const MASK_FULL = 0.4; // probability at which the erase mask is fully opaque
 
+/** Grow the white mask region by a few px (GPU blur + re-threshold). SAM cuts
+ * the mask exactly at its estimated boundary, so the object's anti-aliased
+ * edge pixels fall just outside it — without dilation they survive inpainting
+ * as a faint halo. */
+function dilateMask(mask: ImageData, r: number): ImageData {
+  const src = document.createElement("canvas");
+  src.width = mask.width;
+  src.height = mask.height;
+  src.getContext("2d")!.putImageData(mask, 0, 0);
+  const dst = document.createElement("canvas");
+  dst.width = mask.width;
+  dst.height = mask.height;
+  const dctx = dst.getContext("2d")!;
+  dctx.filter = `blur(${r}px)`;
+  dctx.drawImage(src, 0, 0);
+  const out = dctx.getImageData(0, 0, mask.width, mask.height);
+  for (let i = 3; i < out.data.length; i += 4) {
+    const a = out.data[i];
+    out.data[i] = a >= 48 ? 255 : Math.min(255, a * 4);
+  }
+  return out;
+}
+
 type Busy = null | "analyze" | "decode" | "erase";
 
 export default function AiObjectEraserPage() {
@@ -287,26 +310,46 @@ export default function AiObjectEraserPage() {
       const { w: dw, h: dh } = disp;
       const cw = work.width;
       const ch = work.height;
-      // upsample the display-space probability mask to working resolution
+      if (!encRef.current) throw new Error("not analyzed");
+      // decode the mask at full working resolution straight from the encoder
+      // embedding (bilinear-smooth edges) instead of nearest-neighbour
+      // upsampling the display-space mask
+      const { mask: prob } = await decodeMask(
+        encRef.current,
+        points.map((p) => ({
+          x: (p.x * cw) / dw,
+          y: (p.y * ch) / dh,
+          label: p.label,
+        })),
+        cw,
+        ch,
+        true
+      );
+      // probability map → white RGBA mask (already full resolution)
       const mask = new ImageData(cw, ch);
-      const alpha = mask.data;
-      for (let y = 0; y < ch; y++) {
-        const sy = Math.min(dh - 1, Math.floor((y * dh) / ch));
-        for (let x = 0; x < cw; x++) {
-          const sx = Math.min(dw - 1, Math.floor((x * dw) / cw));
-          const v = lastMask[sy * dw + sx];
-          const a =
+      {
+        const a = mask.data;
+        for (let i = 0; i < cw * ch; i++) {
+          const v = prob[i];
+          const j = i * 4;
+          a[j] = 255;
+          a[j + 1] = 255;
+          a[j + 2] = 255;
+          a[j + 3] =
             v < MASK_FLOOR
               ? 0
-              : Math.min(255, ((v - MASK_FLOOR) / (MASK_FULL - MASK_FLOOR)) * 255);
-          const i = (y * cw + x) * 4;
-          alpha[i] = 255;
-          alpha[i + 1] = 255;
-          alpha[i + 2] = 255;
-          alpha[i + 3] = Math.round(a);
+              : Math.min(
+                  255,
+                  Math.round(((v - MASK_FLOOR) / (MASK_FULL - MASK_FLOOR)) * 255)
+                );
         }
       }
-      const out = await inpaintWithMigan(work, mask, (stage, p) => {
+      // grow the mask a few px so it covers anti-aliased boundary pixels
+      const dilated = dilateMask(
+        mask,
+        Math.max(2, Math.round(Math.min(cw, ch) / 300))
+      );
+      const out = await inpaintWithMigan(work, dilated, (stage, p) => {
         setPct(stage === "model" ? Math.round(p * 30) : Math.round(30 + p * 70));
       });
       setWork(out);
