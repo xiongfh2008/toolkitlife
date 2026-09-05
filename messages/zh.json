@@ -2041,7 +2041,7 @@
         "icon": "⚖️"
       },
       "image-format-converter": {
-        "name": "图片格式转换器",
+        "name": "批量图片格式转换器",
         "description": "批量将图片在 PNG、JPG 与 WebP 之间互转，完全在浏览器本地运行。",
         "category": "图片",
         "icon": "🔁"
@@ -35149,7 +35149,7 @@
     },
     "image-format-converter": {
       "metadata": {
-        "title": "图片格式转换器 - 在线PNG JPG WebP互转",
+        "title": "批量图片格式转换器 - 在线PNG JPG WebP互转",
         "description": "批量将图片在 PNG、JPG 与 WebP 之间互转，完全在浏览器本地运行。免费、隐私安全。"
       },
       "title": "图片格式转换器",

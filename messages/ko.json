@@ -2041,7 +2041,7 @@
         "icon": "⚖️"
       },
       "image-format-converter": {
-        "name": "이미지 형식 변환기",
+        "name": "일괄 이미지 형식 변환기",
         "description": "여러 이미지를 한 번에 PNG·JPG·WebP로 변환합니다. 브라우저에서 완전 처리.",
         "category": "이미지",
         "icon": "🔁"
@@ -35360,7 +35360,7 @@
     },
     "image-format-converter": {
       "metadata": {
-        "title": "이미지 형식 변환기 - PNG JPG WebP 온라인 변환",
+        "title": "일괄 이미지 형식 변환기 - PNG JPG WebP 온라인 변환",
         "description": "여러 이미지를 한 번에 PNG·JPG·WebP로 변환합니다. 브라우저에서 완전 처리. 무료·프라이버시 보호."
       },
       "title": "이미지 형식 변환기",

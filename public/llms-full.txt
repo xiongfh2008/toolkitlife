@@ -1645,7 +1645,7 @@ Description: Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) for print wi
 URL: https://www.toolkitlife.com/en/tools/image-file-size
 Description: Recompress an image to reach a target file size in KB, without changing dimensions.
 
-### Image Format Converter
+### Batch Image Converter
 
 URL: https://www.toolkitlife.com/en/tools/image-format-converter
 Description: Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser.

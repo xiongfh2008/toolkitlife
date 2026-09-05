@@ -2041,7 +2041,7 @@
         "icon": "⚖️"
       },
       "image-format-converter": {
-        "name": "画像フォーマット変換",
+        "name": "一括画像フォーマット変換",
         "description": "複数画像を一括で PNG・JPG・WebP に変換。すべてブラウザ内で完結。",
         "category": "画像",
         "icon": "🔁"
@@ -35363,7 +35363,7 @@
     },
     "image-format-converter": {
       "metadata": {
-        "title": "画像フォーマット変換 - PNG JPG WebP オンライン変換",
+        "title": "一括画像フォーマット変換 - PNG JPG WebP オンライン変換",
         "description": "複数画像を一括で PNG・JPG・WebP に変換。すべてブラウザ内で完結。無料・プライバシー保護。"
       },
       "title": "画像フォーマット変換",

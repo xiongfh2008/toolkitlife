@@ -2041,7 +2041,7 @@
         "icon": "⚖️"
       },
       "image-format-converter": {
-        "name": "Image Format Converter",
+        "name": "Batch Image Converter",
         "description": "Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser.",
         "category": "Image",
         "icon": "🔁"
@@ -35119,7 +35119,7 @@
     },
     "image-format-converter": {
       "metadata": {
-        "title": "Image Format Converter - PNG JPG WebP Online",
+        "title": "Batch Image Converter - PNG JPG WebP Online",
         "description": "Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser. Free, private."
       },
       "title": "Image Format Converter",
