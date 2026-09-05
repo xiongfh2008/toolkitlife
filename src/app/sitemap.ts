@@ -17,7 +17,7 @@ const tools = Object.keys(
 // resolve to an existing page, otherwise search engines index 404s.
 const blogSlugs = blogPostsMeta.map((p) => p.slug);
 
-const staticPaths = ["", "/privacy", "/terms"];
+const staticPaths = ["", "/about", "/privacy", "/terms"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.toolkitlife.com";

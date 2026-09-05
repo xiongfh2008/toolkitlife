@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import { ogImageUrl } from "@/lib/og";
+import { CONTACT_EMAIL } from "@/lib/contact";
 
 export async function generateMetadata({
   params,
@@ -94,7 +95,15 @@ export default async function TermsOfService({
         <p>{t("sections.changes.body")}</p>
 
         <h2>{t("sections.contact.title")}</h2>
-        <p>{t("sections.contact.body")}</p>
+        <p>
+          {t("sections.contact.body")}{" "}
+          <a
+            href={`mailto:${CONTACT_EMAIL}`}
+            className="text-blue-500 transition-colors hover:text-blue-400"
+          >
+            {CONTACT_EMAIL}
+          </a>
+        </p>
       </div>
     </div>
   );

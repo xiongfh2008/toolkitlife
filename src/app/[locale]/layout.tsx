@@ -130,6 +130,8 @@ export default async function LocaleLayout({
         {/* og:locale + alternates — plain <meta> so they are hoisted into <head>
             for every page under this layout (Next.js renders meta/link declared
             in a layout into the document head). */}
+        {/* llms.txt discovery — llmstxt.org: lets AI crawlers find the file */}
+        <link rel="llms.txt" href="https://www.toolkitlife.com/llms.txt" />
         <meta property="og:locale" content={ogLocaleMap[locale] ?? "en_US"} />
         {ogLocales
           .filter((l) => l !== (ogLocaleMap[locale] ?? "en_US"))

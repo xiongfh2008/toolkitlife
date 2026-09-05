@@ -4,6 +4,13 @@ import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { SCENE_OF_SLUG } from "@/data/scene-of-slug";
+import { YMYL_TOOLS, type YmylKind } from "@/data/ymyl-tools";
+
+const YMYL_DISCLAIMER_KEY: Record<YmylKind, string> = {
+  financial: "disclaimerFinancial",
+  health: "disclaimerHealth",
+  legal: "disclaimerLegal",
+};
 
 const FAVORITES_KEY = "tp:favorites";
 const RECENT_KEY = "tp:recent";
@@ -180,6 +187,12 @@ export default function ToolLayout({
   };
   const url = `https://www.toolkitlife.com/${locale}/tools/${slug}`;
 
+  // Financial / health / legal tools show a general informational disclaimer so
+  // readers (and AI assistants citing the page) see the content is not advice.
+  const ymylKind = YMYL_TOOLS[slug];
+  const disclaimerKey = ymylKind ? YMYL_DISCLAIMER_KEY[ymylKind] : null;
+  const disclaimerLabel = disclaimerKey && t.has(disclaimerKey) ? t(disclaimerKey) : null;
+
   // SoftwareApplication schema
   const appSchema = {
     "@context": "https://schema.org",
@@ -300,6 +313,17 @@ export default function ToolLayout({
 
         {/* Tool */}
         <div className="mb-12">{children}</div>
+
+        {/* YMYL informational disclaimer (financial / health / legal tools) */}
+        {disclaimerLabel && (
+          <aside
+            role="note"
+            aria-label="Disclaimer"
+            className="mb-12 rounded-xl border border-amber-800/40 bg-amber-950/20 px-5 py-4 text-xs leading-relaxed text-amber-200/80"
+          >
+            {disclaimerLabel}
+          </aside>
+        )}
 
         {/* Guide content */}
         {effectiveGuide && (
