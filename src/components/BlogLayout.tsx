@@ -2,6 +2,7 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { ogImageUrl } from "@/lib/og";
 
 interface BlogPost {
   title: string;
@@ -54,6 +55,7 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
     headline: post.title,
     description: post.description,
     url,
+    image: ogImageUrl({ title: post.title, type: "blog" }),
     datePublished: post.datePublished,
     dateModified: post.dateModified,
     author: { "@type": "Person", name: post.author, url: `https://www.toolkitlife.com/${locale}/blog` },

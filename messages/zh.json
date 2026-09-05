@@ -2343,7 +2343,7 @@
   },
   "privacy": {
     "metadata": {
-      "title": "隐私政策 - ToolkitLife",
+      "title": "隐私政策",
       "description": "ToolkitLife 的隐私政策。了解我们如何处理您的数据（剧透：我们不收集任何数据）。"
     },
     "breadcrumb": {
@@ -2415,7 +2415,7 @@
   },
   "terms": {
     "metadata": {
-      "title": "服务条款 - ToolkitLife",
+      "title": "服务条款",
       "description": "ToolkitLife 免费在线开发者与设计工具的服务条款。"
     },
     "breadcrumb": {
@@ -3479,8 +3479,8 @@
       ],
       "relatedTools": [
         {
-          "name": "营收计算器",
-          "href": "/tools/revenue-calculator"
+          "name": "ChatGPT 广告估算器",
+          "href": "/tools/chatgpt-ads-calculator"
         },
         {
           "name": "利润率计算器",
@@ -3672,8 +3672,8 @@
           "href": "/tools/html-entity-encoder"
         },
         {
-          "name": "HTML 转图片",
-          "href": "/tools/html-to-image"
+          "name": "HTML 表格生成器",
+          "href": "/tools/html-table-generator"
         }
       ],
       "guide": {
@@ -4283,8 +4283,8 @@
           "href": "/tools/image-crop"
         },
         {
-          "name": "视频编辑器",
-          "href": "/tools/video-editor"
+          "name": "视频裁剪工具",
+          "href": "/tools/video-trimmer"
         }
       ],
       "keywords": [
@@ -34492,8 +34492,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "WebP 转换",
-          "href": "/tools/image-to-webp"
+          "name": "动画WebP",
+          "href": "/tools/animated-webp"
         }
       ],
       "upload": {
@@ -37789,7 +37789,7 @@
   },
   "blogIndex": {
     "metadata": {
-      "title": "博客 - ToolkitLife",
+      "title": "博客",
       "description": "关于生产力、设计、视频和开发者工具的提示、指南和教程。"
     },
     "title": "博客",

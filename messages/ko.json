@@ -2343,7 +2343,7 @@
   },
   "privacy": {
     "metadata": {
-      "title": "개인정보 처리방침 - ToolkitLife",
+      "title": "개인정보 처리방침",
       "description": "ToolkitLife의 개인정보 처리방침입니다. 데이터를 어떻게 처리하는지 알아보세요(스포일러: 수집하지 않습니다)."
     },
     "breadcrumb": {
@@ -2415,7 +2415,7 @@
   },
   "terms": {
     "metadata": {
-      "title": "서비스 이용약관 - ToolkitLife",
+      "title": "서비스 이용약관",
       "description": "ToolkitLife 무료 온라인 개발자 및 디자인 도구의 서비스 이용약관."
     },
     "breadcrumb": {
@@ -3479,8 +3479,8 @@
       ],
       "relatedTools": [
         {
-          "name": "매출 계산기",
-          "href": "/tools/revenue-calculator"
+          "name": "ChatGPT 광고 추정기",
+          "href": "/tools/chatgpt-ads-calculator"
         },
         {
           "name": "이익률 계산기",
@@ -3672,8 +3672,8 @@
           "href": "/tools/html-entity-encoder"
         },
         {
-          "name": "HTML 이미지 변환",
-          "href": "/tools/html-to-image"
+          "name": "HTML 테이블 생성기",
+          "href": "/tools/html-table-generator"
         }
       ],
       "guide": {
@@ -4283,8 +4283,8 @@
           "href": "/tools/image-crop"
         },
         {
-          "name": "동영상 편집기",
-          "href": "/tools/video-editor"
+          "name": "영상 자르기",
+          "href": "/tools/video-trimmer"
         }
       ],
       "keywords": [
@@ -34703,8 +34703,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "WebP 변환",
-          "href": "/tools/image-to-webp"
+          "name": "애니메이션 WebP",
+          "href": "/tools/animated-webp"
         }
       ],
       "upload": {
@@ -38000,7 +38000,7 @@
   },
   "blogIndex": {
     "metadata": {
-      "title": "블로그 - ToolkitLife",
+      "title": "블로그",
       "description": "생산성, 디자인, 비디오, 개발자 도구에 관한 팁, 가이드 및 튜토리얼입니다."
     },
     "title": "블로그",

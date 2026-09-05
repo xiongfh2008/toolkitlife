@@ -2343,7 +2343,7 @@
   },
   "privacy": {
     "metadata": {
-      "title": "プライバシーポリシー - ToolkitLife",
+      "title": "プライバシーポリシー",
       "description": "ToolkitLife のプライバシーポリシー。お客様のデータをどのように扱うかをご確認ください（ネタバレ：一切収集しません）。"
     },
     "breadcrumb": {
@@ -2415,7 +2415,7 @@
   },
   "terms": {
     "metadata": {
-      "title": "利用規約 - ToolkitLife",
+      "title": "利用規約",
       "description": "ToolkitLife の無料オンライン開発者およびデザインツールの利用規約。"
     },
     "breadcrumb": {
@@ -3479,8 +3479,8 @@
       ],
       "relatedTools": [
         {
-          "name": "売上計算機",
-          "href": "/tools/revenue-calculator"
+          "name": "ChatGPT 広告計算機",
+          "href": "/tools/chatgpt-ads-calculator"
         },
         {
           "name": "利益率計算",
@@ -3672,8 +3672,8 @@
           "href": "/tools/html-entity-encoder"
         },
         {
-          "name": "HTML画像変換",
-          "href": "/tools/html-to-image"
+          "name": "HTMLテーブル生成ツール",
+          "href": "/tools/html-table-generator"
         }
       ],
       "guide": {
@@ -4283,8 +4283,8 @@
           "href": "/tools/image-crop"
         },
         {
-          "name": "動画エディタ",
-          "href": "/tools/video-editor"
+          "name": "動画トリマー",
+          "href": "/tools/video-trimmer"
         }
       ],
       "keywords": [
@@ -34706,8 +34706,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "WebP 変換",
-          "href": "/tools/image-to-webp"
+          "name": "アニメーションWebP",
+          "href": "/tools/animated-webp"
         }
       ],
       "upload": {
@@ -38003,7 +38003,7 @@
   },
   "blogIndex": {
     "metadata": {
-      "title": "ブログ - ToolkitLife",
+      "title": "ブログ",
       "description": "生産性、デザイン、動画、開発者ツールに関するヒント、ガイド、チュートリアル。"
     },
     "title": "ブログ",

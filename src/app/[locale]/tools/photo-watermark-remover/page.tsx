@@ -4,6 +4,28 @@ import { useState, useRef, useCallback, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import ToolLayout, { FAQ, RelatedTool } from '@/components/ToolLayout'
 
+/** Grow the white mask region by a few px (GPU blur + re-threshold). Watermarks
+ * have anti-aliased edges that extend slightly beyond the painted area —
+ * without dilation those pixels survive inpainting as a faint halo. */
+function dilateMask(mask: ImageData, r: number): ImageData {
+  const src = document.createElement('canvas')
+  src.width = mask.width
+  src.height = mask.height
+  src.getContext('2d')!.putImageData(mask, 0, 0)
+  const dst = document.createElement('canvas')
+  dst.width = mask.width
+  dst.height = mask.height
+  const dctx = dst.getContext('2d')!
+  dctx.filter = `blur(${r}px)`
+  dctx.drawImage(src, 0, 0)
+  const out = dctx.getImageData(0, 0, mask.width, mask.height)
+  for (let i = 3; i < out.data.length; i += 4) {
+    const a = out.data[i]
+    out.data[i] = a >= 48 ? 255 : Math.min(255, a * 4)
+  }
+  return out
+}
+
 export default function PhotoWatermarkRemover() {
   const t = useTranslations('tools.photo-watermark-remover')
 
@@ -229,7 +251,12 @@ export default function PhotoWatermarkRemover() {
     fctx.imageSmoothingEnabled = true
     fctx.imageSmoothingQuality = 'high'
     fctx.drawImage(maskCanvas, 0, 0, fullMaskCanvas.width, fullMaskCanvas.height)
-    const fullMaskData = fctx.getImageData(0, 0, fullData.width, fullData.height)
+    const rawFullMaskData = fctx.getImageData(0, 0, fullData.width, fullData.height)
+
+    // Grow the mask so it covers the watermark's anti-aliased boundary pixels
+    const dilatePx = Math.max(2, Math.round(Math.min(fullData.width, fullData.height) / 300))
+    const fullMaskData = dilateMask(rawFullMaskData, dilatePx)
+    addLog('info', `Mask dilated by ${dilatePx}px (full-res) to cover anti-aliased watermark edges`)
 
     setProgress(5)
 

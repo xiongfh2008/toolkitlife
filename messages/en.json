@@ -2343,7 +2343,7 @@
   },
   "privacy": {
     "metadata": {
-      "title": "Privacy Policy - ToolkitLife",
+      "title": "Privacy Policy",
       "description": "Privacy policy for ToolkitLife. Learn how we handle your data (spoiler: we don't collect any)."
     },
     "breadcrumb": {
@@ -2415,7 +2415,7 @@
   },
   "terms": {
     "metadata": {
-      "title": "Terms of Service - ToolkitLife",
+      "title": "Terms of Service",
       "description": "Terms of service for ToolkitLife free online developer and design tools."
     },
     "breadcrumb": {
@@ -2473,7 +2473,7 @@
     "ai-image-detector": {
       "metadata": {
         "title": "AI Image Detector - Check If an Image Is AI Generated",
-        "description": "Detect AI-generated images in your browser. Checks C2PA credentials, AI generator signatures (Midjourney, Stable Diffusion, DALL-E, SynthID), metadata, and frequency anomalies. 100% local — images never leave your device."
+        "description": "Detect AI-generated images in your browser. Checks C2PA credentials, generator signatures (Midjourney, DALL-E, SynthID), metadata & anomalies. 100% local."
       },
       "title": "AI Image Detector",
       "description": "Check if an image was AI-generated — C2PA credentials, generator signatures, metadata, and frequency analysis. Everything runs locally in your browser; images are never uploaded.",
@@ -2626,7 +2626,7 @@
     },
     "ai-object-eraser": {
       "metadata": {
-        "title": "AI Object Eraser - Remove Unwanted Objects from Photos Online",
+        "title": "AI Object Eraser - Remove Objects from Photos Online",
         "description": "Remove unwanted objects, people, or text from photos with AI in your browser. Click to select, erase in seconds. Free, no upload, 100% private."
       },
       "title": "AI Object Eraser",
@@ -3480,8 +3480,8 @@
       ],
       "relatedTools": [
         {
-          "name": "Revenue Calculator",
-          "href": "/tools/revenue-calculator"
+          "name": "ChatGPT Ads Calculator",
+          "href": "/tools/chatgpt-ads-calculator"
         },
         {
           "name": "Profit Margin Calculator",
@@ -3673,8 +3673,8 @@
           "href": "/tools/html-entity-encoder"
         },
         {
-          "name": "HTML to Image",
-          "href": "/tools/html-to-image"
+          "name": "HTML Table Generator",
+          "href": "/tools/html-table-generator"
         }
       ],
       "guide": {
@@ -6865,7 +6865,7 @@
     "qr-file-transfer": {
       "metadata": {
         "title": "QR File Transfer - Send Files Between Devices Offline",
-        "description": "Send files and text between two devices using animated QR codes. The sending screen displays a stream of codes your camera scans to rebuild the file — no network, no upload, fully offline.",
+        "description": "Send files and text between two devices via animated QR codes. One screen shows a stream of codes your camera scans to rebuild the file — no network, fully offline.",
         "category": "Utility"
       },
       "title": "QR File Transfer",
@@ -9535,7 +9535,7 @@
     "document-converter": {
       "metadata": {
         "title": "Document Converter - Free Online Tool",
-        "description": "Convert documents between Markdown, HTML, Word (DOCX), ODT, EPUB, LaTeX, reStructuredText, Org Mode, and AsciiDoc. Powered by Pandoc WebAssembly — runs in your browser, no upload."
+        "description": "Convert documents between Markdown, HTML, Word, ODT, EPUB, LaTeX, reStructuredText, Org Mode and AsciiDoc. Runs in your browser on Pandoc WebAssembly — no upload."
       },
       "title": "Document Converter",
       "description": "Convert documents between Markdown, HTML, Word (DOCX), ODT, EPUB, LaTeX, reStructuredText, Org Mode, and AsciiDoc. Powered by Pandoc — runs entirely in your browser, no upload.",
@@ -21597,7 +21597,7 @@
     "depreciation-calculator": {
       "metadata": {
         "title": "Depreciation Calculator",
-        "description": "Free online calculator to compute annual asset depreciation and year-by-year book value using straight-line and double declining balance methods, with a complete depreciation table.",
+        "description": "Free online calculator for annual asset depreciation and year-by-year book value using straight-line and double declining balance methods.",
         "category": "Finance",
         "icon": "📉"
       },
@@ -28619,7 +28619,7 @@
     "image-to-printmaking": {
       "metadata": {
         "title": "Image to Printmaking - Free Online Tool",
-        "description": "Free online tool to convert photos into black & white printmaking (woodcut) art. Adjustable threshold with instant preview. No uploads — all processing happens in your browser."
+        "description": "Free online tool to turn photos into black & white printmaking art with an adjustable threshold and instant preview. No uploads — all in your browser."
       },
       "title": "Image to Printmaking",
       "description": "Turn any photo into a black & white printmaking effect. A precise threshold removes grayscale transitions so only pure black and white remain — like a woodcut or screen print.",
@@ -28813,7 +28813,7 @@
     "id-photo-generator": {
       "metadata": {
         "title": "ID Photo Generator",
-        "description": "Turn your portrait photo into a passport or ID photo. Pick an official size, choose a background color, and fine-tune the framing with zoom and offset controls — then download a print-ready PNG. Everything runs locally in your browser.",
+        "description": "Turn a portrait photo into a passport or ID photo. Choose official size and background, fine-tune framing, download a print-ready PNG — 100% local.",
         "category": "Image Tools"
       },
       "keywords": [
@@ -29739,7 +29739,7 @@
     "image-deblur": {
       "metadata": {
         "title": "Image Deblur - Sharpen Blurry Photos Online",
-        "description": "Free online tool to sharpen blurry photos and restore crisp detail. Laplacian sharpening convolution with adjustable strength and iterations, processed entirely in your browser.",
+        "description": "Free online tool to sharpen blurry photos and restore crisp detail with adjustable Laplacian sharpening. Processed entirely in your browser.",
         "category": "Image Tools"
       },
       "title": "Image Deblur",
@@ -30828,7 +30828,7 @@
     "image-edge-detect": {
       "metadata": {
         "title": "Edge Detection - Extract Image Outlines Online",
-        "description": "Free online edge detection tool. The Sobel operator extracts object outlines into a black-and-white line drawing, with adjustable threshold, processed entirely in your browser.",
+        "description": "Free online edge detection tool. Sobel operator extracts object outlines into a line drawing with an adjustable threshold — all in your browser.",
         "category": "Image Tools"
       },
       "title": "Edge Detection",
@@ -31220,7 +31220,7 @@
     },
     "image-histogram": {
       "metadata": {
-        "title": "Image Histogram - View RGB & Brightness Distribution Online",
+        "title": "Image Histogram - View RGB & Brightness Online",
         "description": "Free online image histogram viewer: RGB channels and brightness distribution at a glance. Processed entirely in your browser.",
         "category": "Image Tools"
       },
@@ -31601,7 +31601,7 @@
     },
     "duplicate-finder": {
       "metadata": {
-        "title": "Duplicate Image Finder - Batch Detect Similar Images Online",
+        "title": "Duplicate Image Finder - Detect Similar Images Online",
         "description": "Free online tool to batch detect duplicate or similar images. Groups them automatically with perceptual hashing to help you clean up duplicates.",
         "category": "Image Tools"
       },
@@ -31893,7 +31893,7 @@
     "batch-rename": {
       "metadata": {
         "title": "Batch Rename - Rename Files Online",
-        "description": "Free online batch file renaming with rule chains: find & replace, regex, sequence numbering, case conversion and more. Preview new names in real time, then download everything as a ZIP.",
+        "description": "Free online batch file renaming with rule chains: find & replace, regex, sequence numbering, case conversion. Preview new names in real time and download as ZIP.",
         "category": "Image Tools"
       },
       "title": "Batch Rename",
@@ -32128,7 +32128,7 @@
     },
     "image-to-ascii": {
       "metadata": {
-        "title": "Image to ASCII Art - Convert Images to Character Art Online",
+        "title": "Image to ASCII Art Converter - Free Online",
         "description": "Free online tool to convert an image into ASCII character art with adjustable width and inversion. Copy or download the result as text.",
         "category": "Image Tools"
       },
@@ -32224,7 +32224,7 @@
     },
     "css-sprite-generator": {
       "metadata": {
-        "title": "CSS Sprite Generator - Combine Images into a Sprite Online",
+        "title": "CSS Sprite Generator - Merge Images into a Sprite",
         "description": "Free online tool to merge multiple images into a CSS sprite sheet with horizontal, vertical, and grid layouts. CSS code is generated automatically.",
         "category": "Image Tools"
       },
@@ -32324,7 +32324,7 @@
     },
     "og-image-generator": {
       "metadata": {
-        "title": "OG Image Generator - Create Social Sharing Cover Images Online",
+        "title": "OG Image Generator - Create Social Share Images Online",
         "description": "Free online generator for 1200×630 Open Graph images with custom titles, descriptions, colors, and backgrounds.",
         "category": "Image Tools"
       },
@@ -32517,7 +32517,7 @@
     },
     "image-similarity": {
       "metadata": {
-        "title": "Image Similarity - Calculate Image Similarity and PSNR Online",
+        "title": "Image Similarity - Compare Images & PSNR Online",
         "description": "Free online tool to calculate the similarity percentage, MSE, and PSNR of two images.",
         "category": "Image Tools"
       },
@@ -34462,8 +34462,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "WebP Converter",
-          "href": "/tools/image-to-webp"
+          "name": "Animated WebP",
+          "href": "/tools/animated-webp"
         }
       ],
       "upload": {
@@ -37759,7 +37759,7 @@
   },
   "blogIndex": {
     "metadata": {
-      "title": "Blog - ToolkitLife",
+      "title": "Blog",
       "description": "Tips, guides, and tutorials about productivity, design, video, and developer tools."
     },
     "title": "Blog",

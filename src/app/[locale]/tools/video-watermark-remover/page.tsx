@@ -217,7 +217,7 @@ export default function VideoWatermarkRemover() {
       filter = `split[a][b];[b]crop=${bw}:${bh}:${bx}:${by},gblur=sigma=40[blur];[a][blur]overlay=${bx}:${by}`
     }
 
-    await ffmpeg.exec(['-i', inputName, '-vf', filter, '-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '20', '-c:a', 'copy', '-y', 'output.mp4'])
+    await ffmpeg.exec(['-i', inputName, '-vf', filter, '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-y', 'output.mp4'])
 
     return await readOutputBlob(ffmpeg, inputName)
   }
@@ -241,10 +241,11 @@ export default function VideoWatermarkRemover() {
     })
     video.pause()
 
-    // Working canvas — cap the longest side at 1280 for speed
+    // Working canvas — cap the longest side at 1920 (keeps 1080p sources
+    // full-res; larger sources downscale so WASM encode stays feasible)
     const nw = nativeSize.width
     const nh = nativeSize.height
-    const scale = Math.min(1, 1280 / Math.max(nw, nh))
+    const scale = Math.min(1, 1920 / Math.max(nw, nh))
     const cw = Math.round(nw * scale)
     const ch = Math.round(nh * scale)
     const canvas = document.createElement('canvas')
@@ -254,13 +255,16 @@ export default function VideoWatermarkRemover() {
     ctx.drawImage(video, 0, 0, cw, ch)
     const frame = ctx.getImageData(0, 0, cw, ch)
 
-    // Build the mask from the drawn rectangle (scaled to the working canvas)
+    // Build the mask from the drawn rectangle (scaled to the working canvas),
+    // grown by a few px so it covers the watermark's anti-aliased boundary
+    // pixels just outside the selection (they would otherwise leave a halo)
+    const grow = Math.max(2, Math.round(Math.max(cw, ch) / 300))
     const sx = cw / displaySize.width
     const sy = ch / displaySize.height
-    const mx = Math.round(rect.x * sx)
-    const my = Math.round(rect.y * sy)
-    const mw = Math.round(rect.w * sx)
-    const mh = Math.round(rect.h * sy)
+    const mx = Math.max(0, Math.round(rect.x * sx) - grow)
+    const my = Math.max(0, Math.round(rect.y * sy) - grow)
+    const mw = Math.min(Math.round(rect.w * sx) + grow * 2, cw - mx)
+    const mh = Math.min(Math.round(rect.h * sy) + grow * 2, ch - my)
     const mask = new ImageData(cw, ch)
     for (let j = my; j < Math.min(my + mh, ch); j++) {
       for (let i = mx; i < Math.min(mx + mw, cw); i++) {
@@ -268,7 +272,8 @@ export default function VideoWatermarkRemover() {
       }
     }
 
-    // Run MI-GAN once to produce the inpainted patch
+    // Run MI-GAN once to produce the inpainted patch (feather scaled to the
+    // patch size so edges blend smoothly after compression)
     const { makeMiganPatch } = await import('@/lib/migan')
     setStatusMsg(t('status.aiLoadingModel'))
     const patch = await makeMiganPatch(frame, mask, (stage, pct) => {
@@ -279,7 +284,7 @@ export default function VideoWatermarkRemover() {
         setStatusMsg(t('status.aiInpainting'))
         setProgress(35 + Math.round(pct * 10))
       }
-    })
+    }, { featherRadius: Math.max(6, Math.min(24, Math.round(mw / 20))) })
 
     // Overlay the static patch across every frame with FFmpeg (audio preserved)
     const { fetchFile } = await import('@ffmpeg/util')
@@ -300,8 +305,9 @@ export default function VideoWatermarkRemover() {
       '-map', '[out]',
       '-map', '0:a?',
       '-c:v', 'libx264',
-      '-preset', 'ultrafast',
-      '-crf', '20',
+      '-preset', 'medium',
+      '-crf', '18',
+      '-pix_fmt', 'yuv420p',
       '-c:a', 'copy',
       '-y', 'output.mp4',
     ])
