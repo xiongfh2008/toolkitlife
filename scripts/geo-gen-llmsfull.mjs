@@ -17,12 +17,6 @@ for (const [slug, t] of Object.entries(home)) {
 }
 const total = Object.keys(home).length;
 
-// Some category values in home.tools already end with " Tools" while others do
-// not (data drift). Normalize for display: strip any trailing " Tools" and
-// re-append exactly once so headings stay clean ("Image Tools", not "Image
-// Tools Tools").
-const catHeading = (cat) => `${cat.trim().replace(/\s+Tools$/i, "")} Tools`;
-
 /* ------------------------------ llms-full.txt ------------------------------ */
 const full = [];
 full.push("# ToolkitLife — Free Online Tools & Calculators (Full)");
@@ -31,7 +25,7 @@ full.push(`> This file contains the full text of the ToolkitLife tool directory:
 full.push("");
 
 for (const [cat, tools] of grouped) {
-  full.push(`## ${catHeading(cat)}`);
+  full.push(`## ${cat} Tools`);
   full.push("");
   for (const t of tools) {
     full.push(`### ${t.name}`);

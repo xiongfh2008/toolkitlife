@@ -33,6 +33,7 @@
     "terms": "使用条款",
     "blog": "博客",
     "about": "关于我们",
+    "contact": "联系我们",
     "copyright": "免费工具，无需注册，不存储数据。"
   },
   "notFound": {
@@ -69,41 +70,72 @@
       "Productivity": "生产力",
       "Math": "数学"
     },
+    "why": {
+        "title": "为什么选择 ToolkitLife",
+        "intro": "ToolkitLife 收录 374 个免费在线工具与计算器，覆盖 16 个大类——从 PDF 转换、图片编辑到房贷、BMI 与个税计算。所有工具直接在浏览器中运行：无需安装，无需注册。",
+        "privacy": "文件隐私无忧：图片、视频和文档工具全部通过 <mdn>WebAssembly</mdn> 在本地浏览器中完成处理，数据不会离开你的设备。",
+        "i18n": "网站提供简体中文、英语、日语、韩语和俄语五种语言，每个工具页都附有使用指南和常见问题解答。"
+    },
+    "faq": {
+        "title": "常见问题",
+        "items": [
+            {
+                "question": "ToolkitLife 是免费的吗？",
+                "answer": "是的。全部 374 个工具完全免费，无需注册、没有订阅、不限使用次数。处理都在你的设备上完成，没有需要转嫁的服务器成本。"
+            },
+            {
+                "question": "我的文件会被上传到服务器吗？",
+                "answer": "不会。所有工具完全在浏览器内运行，基于 JavaScript 与 WebAssembly。文件、文字和图片均在本地处理，不会发送到任何服务器。"
+            },
+            {
+                "question": "需要注册账号吗？",
+                "answer": "不需要。网站没有账号系统，打开工具即可使用。收藏和最近使用只保存在你自己的浏览器里。"
+            },
+            {
+                "question": "支持哪些设备和浏览器？",
+                "answer": "桌面、平板、手机上的主流现代浏览器均可使用，包括 Chrome、Edge、Firefox 和 Safari。工具会自适应屏幕尺寸，无需安装任何软件。"
+            },
+            {
+                "question": "计算器结果可靠吗？",
+                "answer": "计算器采用标准公式进行估算，仅供参考。金融、健康和法律类工具均附有免责声明，不能替代专业人士的意见。"
+            }
+        ]
+    },
     "tools": {
       "what-is-my-browser": {
         "name": "浏览器信息检测",
         "description": "检测你的浏览器、操作系统和 IP 地址。",
-        "category": "Marketing",
+        "category": "营销",
         "icon": "🌐"
       },
       "geo-ip-locator": {
         "name": "GEO IP 定位",
         "description": "查找任意 IP 地址的地理位置。",
-        "category": "Marketing",
+        "category": "营销",
         "icon": "📍"
       },
       "redirect-checker": {
         "name": "重定向检测",
         "description": "检查网址重定向及最终目标。",
-        "category": "Marketing",
+        "category": "营销",
         "icon": "🔀"
       },
       "is-it-down": {
         "name": "网站宕机检测",
         "description": "检查网站是否宕机或可访问。",
-        "category": "Marketing",
+        "category": "营销",
         "icon": "🛡️"
       },
       "domain-age": {
         "name": "域名年龄查询",
         "description": "查询任意域名的注册年龄。",
-        "category": "Marketing",
+        "category": "营销",
         "icon": "⏳"
       },
       "domain-hosting": {
         "name": "域名托管检测",
         "description": "查询任意域名托管在何处。",
-        "category": "Marketing",
+        "category": "营销",
         "icon": "🏢"
       },
       "xml-sitemap": {
@@ -163,1405 +195,1405 @@
       "video-watermark-remover": {
         "name": "视频去水印工具",
         "description": "去除任意时长视频中的水印，无需上传，免费使用。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🎞️"
       },
       "photo-watermark-remover": {
         "name": "图片去水印工具",
         "description": "免费去除照片中的水印，无需注册，无限制，100% 私密。",
-        "category": "Design",
+        "category": "设计",
         "icon": "✂"
       },
       "claude-code-text-formatter": {
         "name": "Claude Code 文本格式化器",
         "description": "清理杂乱的终端与 Claude Code 输出，去除 ANSI 颜色码、行号与控制字符。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "\\>_"
       },
       "qr-code-generator": {
         "name": "二维码生成器",
         "description": "从任意文本或 URL 生成可自定义的二维码（QR Code），支持 PNG 下载",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "▣"
       },
       "qr-code-reader": {
         "name": "二维码识别器",
         "description": "从图片或截图中读取二维码内容，提取 URL、文本、WiFi 凭据等。无需上传，全部在浏览器中运行。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "📷"
       },
       "qr-file-transfer": {
         "name": "二维码文件传输",
         "description": "通过动态二维码在设备之间传输文件——无需网络，无需上传。摄像头对屏幕的光学传输。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "📤"
       },
       "face-detector": {
         "name": "人脸检测器",
         "description": "自动检测照片中的人脸并绘制边界框与置信度分数。AI 模型完全在浏览器中运行。",
-        "category": "Design",
+        "category": "设计",
         "icon": "😀"
       },
       "color-palette-generator": {
         "name": "调色板生成器",
         "description": "生成精美的随机配色方案，支持锁定颜色并导出。",
-        "category": "Design",
+        "category": "设计",
         "icon": "◐"
       },
       "css-gradient-generator": {
         "name": "CSS 渐变生成器",
         "description": "可视化构建线性、径向和圆锥 CSS 渐变。",
-        "category": "Design",
+        "category": "设计",
         "icon": "◈"
       },
       "box-shadow-generator": {
         "name": "CSS 阴影生成器",
         "description": "通过实时可视化编辑器设计 CSS 盒子阴影效果。",
-        "category": "Design",
+        "category": "设计",
         "icon": "◻"
       },
       "password-generator": {
         "name": "密码生成器",
         "description": "生成高强度安全密码，支持自定义长度与字符选项",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "⚿"
       },
       "json-formatter": {
         "name": "JSON 格式化工具",
         "description": "美化、压缩并验证 JSON，支持语法高亮。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "{}"
       },
       "base64-encoder": {
         "name": "Base64 编码/解码器",
         "description": "对文本和文件进行 Base64 编码与解码。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⧉"
       },
       "lorem-ipsum-generator": {
         "name": "Lorem Ipsum生成器",
         "description": "按段落、句子或单词生成占位文本",
-        "category": "Text",
+        "category": "文字",
         "icon": "¶"
       },
       "uuid-generator": {
         "name": "UUID 生成器",
         "description": "生成单个或批量的 UUID v4 标识符。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⬢"
       },
       "word-counter": {
         "name": "字数统计器",
         "description": "统计字数、字符、句子和分析文本",
-        "category": "Text",
+        "category": "文字",
         "icon": "≣"
       },
       "image-color-picker": {
         "name": "图片取色器",
         "description": "上传图片，使用吸管工具提取任意颜色。",
-        "category": "Design",
+        "category": "设计",
         "icon": "❀"
       },
       "aspect-ratio-calculator": {
         "name": "宽高比计算器",
         "description": "计算并可视化宽高比，提供常用预设尺寸。",
-        "category": "Design",
+        "category": "设计",
         "icon": "▭"
       },
       "unit-converter": {
         "name": "单位转换器",
         "description": "长度、重量、温度、数据、时间等单位互相转换",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "⇄"
       },
       "regex-tester": {
         "name": "正则表达式测试器",
         "description": "测试正则表达式，提供实时高亮与匹配信息。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": ".\\*"
       },
       "markdown-preview": {
         "name": "Markdown预览",
         "description": "使用实时分屏编辑器编写和预览Markdown",
-        "category": "Text",
+        "category": "文字",
         "icon": "ⓜ"
       },
       "fancy-text-generator": {
         "name": "花式字体生成器",
         "description": "将文本转换为时尚的Unicode字体，用于社交主页简介",
-        "category": "Text",
+        "category": "文字",
         "icon": "✨"
       },
       "image-compressor": {
         "name": "图片压缩工具",
         "description": "压缩图片最高可达 90%，质量可调。无需上传，浏览器本地处理。",
-        "category": "Design",
+        "category": "设计",
         "icon": "📦"
       },
       "image-resizer": {
         "name": "图片尺寸调整工具",
         "description": "调整图片尺寸，支持 Instagram、YouTube、Facebook 等社交媒体预设。",
-        "category": "Design",
+        "category": "设计",
         "icon": "📐"
       },
       "convert": {
         "name": "图片格式转换器",
         "description": "在 JPG、PNG、WebP、SVG、HEIC、GIF 等 20 多种图片格式间相互转换。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🔄"
       },
       "background-remover": {
         "name": "背景移除工具",
         "description": "使用 AI 即时去除图片背景，100%免费，无需上传，浏览器本地运行。",
-        "category": "Design",
+        "category": "设计",
         "icon": "✂️"
       },
       "doc-compare": {
         "name": "文档对比",
         "description": "对比两份 Word、PDF 或文本文档，逐行高亮差异。免费在线文档对比工具。",
-        "category": "Productivity",
+        "category": "效率",
         "icon": "📑"
       },
       "diff-checker": {
         "name": "文本差异对比工具",
         "description": "比较两段文本并高亮差异。免费的在线 diff 工具。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "↔"
       },
       "glassmorphism-generator": {
         "name": "玻璃拟态效果生成器",
         "description": "使用实时可视化编辑器创建毛玻璃 CSS 效果，可调整模糊、透明度与边框。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "◇"
       },
       "css-clip-path": {
         "name": "CSS 裁剪路径生成器",
         "description": "可视化创建 CSS clip-path 形状，支持预设与自定义多边形。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⬣"
       },
       "css-loader-generator": {
         "name": "CSS 加载动画生成器",
         "description": "生成纯 CSS 加载转圈与动画，自定义并复制 HTML + CSS。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⟳"
       },
       "html-minifier": {
         "name": "HTML 压缩工具",
         "description": "移除空白与注释以压缩 HTML 代码。免费且即时。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "<>"
       },
       "css-minifier": {
         "name": "CSS 压缩工具",
         "description": "移除空白与注释以压缩 CSS 代码。免费且即时。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "{}"
       },
       "js-minifier": {
         "name": "JS 压缩工具",
         "description": "移除空白与注释以压缩 JavaScript 代码。免费且即时。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "fn"
       },
       "favicon-generator": {
         "name": "网站图标生成器",
         "description": "从文字、表情符号或图片生成网站图标，支持浏览器和 PWA 的标准尺寸。",
-        "category": "Design",
+        "category": "设计",
         "icon": "⬢"
       },
       "color-contrast-checker": {
         "name": "色彩对比度检查器",
         "description": "检查 WCAG 色彩对比度比值，验证 AA 与 AAA 无障碍合规性。",
-        "category": "Design",
+        "category": "设计",
         "icon": "◑"
       },
       "text-case-converter": {
         "name": "文本大小写转换器",
         "description": "在大小写、camelCase、snake_case等格式间转换文本",
-        "category": "Text",
+        "category": "文字",
         "icon": "Aa"
       },
       "timestamp-converter": {
         "name": "Unix 时间戳转换器",
         "description": "在 Unix 时间戳与日期之间互转，实时显示当前时间戳。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⏰"
       },
       "hash-generator": {
         "name": "哈希生成器",
         "description": "生成 SHA-1、SHA-256、SHA-384、SHA-512 哈希值。使用原生 Web Crypto API。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "\\#"
       },
       "jwt-decoder": {
         "name": "JWT 解码器",
         "description": "解码 JSON Web Token，即时查看头部、载荷与过期状态。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⚿"
       },
       "url-encoder": {
         "name": "URL 编码/解码器",
         "description": "对 URL 与查询参数进行编码和解码，支持组件与完整 URI 模式。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "%"
       },
       "cron-generator": {
         "name": "Cron 表达式生成器",
         "description": "使用预设、自然语言说明和下次运行时间构建 cron 表达式。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⏱"
       },
       "svg-blob-generator": {
         "name": "SVG Blob 生成器",
         "description": "生成有机 SVG Blob 形状，支持自定义渐变色。免费且即时。",
-        "category": "Design",
+        "category": "设计",
         "icon": "●"
       },
       "svg-wave-generator": {
         "name": "SVG 波浪生成器",
         "description": "生成分层 SVG 波浪分割线，可自定义颜色与复杂度。",
-        "category": "Design",
+        "category": "设计",
         "icon": "∿"
       },
       "image-to-base64": {
         "name": "图片转 Base64",
         "description": "将图片转换为 Base64，便于嵌入 HTML、CSS 或 JSON。即时且私密。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⧉"
       },
       "image-to-text": {
         "name": "图片转文字 (OCR)",
         "description": "使用 OCR 从图片中免费提取文字。上传截图、照片或扫描文档，立即获得可编辑文本。",
-        "category": "Productivity",
+        "category": "效率",
         "icon": "📄"
       },
       "barcode-generator": {
         "name": "条形码生成器",
         "description": "从任意文本生成Code 128条形码，下载为PNG，免费即时",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "❘"
       },
       "html-entity-encoder": {
         "name": "HTML 实体编码器",
         "description": "对 HTML 实体进行编码与解码，特殊字符与实体相互转换。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "&"
       },
       "chmod-calculator": {
         "name": "Chmod 权限计算器",
         "description": "可视化计算 Unix 文件权限，在八进制与符号表示法之间转换。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⚿"
       },
       "color-shades-generator": {
         "name": "色阶生成器",
         "description": "从任意颜色生成 Tailwind 风格的 11 级色阶调色板。",
-        "category": "Design",
+        "category": "设计",
         "icon": "◐"
       },
       "image-crop": {
         "name": "图片裁剪工具",
         "description": "按任意比例裁剪图片，提供 Instagram、YouTube、Facebook 等平台预设。",
-        "category": "Design",
+        "category": "设计",
         "icon": "✂"
       },
       "meta-tag-generator": {
         "name": "Meta 标签生成器",
         "description": "生成 SEO meta 标签、Open Graph 和 Twitter Cards，预览搜索与社交展示效果。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "☰"
       },
       "robots-txt-generator": {
         "name": "Robots.txt 生成器",
         "description": "生成 robots.txt 文件，通过可视化构建器控制搜索引擎与 AI 爬虫访问。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "🤖"
       },
       "neumorphism-generator": {
         "name": "新拟态效果生成器",
         "description": "创建柔和 UI / 新拟态 CSS 效果，支持扁平、凹陷、凸起和按下形状。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "○"
       },
       "json-to-csv": {
         "name": "JSON 转 CSV 转换器",
         "description": "在 JSON 与 CSV 格式之间双向转换，支持下载。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⇄"
       },
       "placeholder-image": {
         "name": "占位图生成器",
         "description": "为网页原型生成自定义占位图，可设置尺寸、颜色和文字。",
-        "category": "Design",
+        "category": "设计",
         "icon": "□"
       },
       "css-text-shadow": {
         "name": "CSS 文字阴影生成器",
         "description": "创建 CSS 文字阴影效果，支持多层、霓虹、3D、火焰等预设。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "T̶"
       },
       "css-flexbox": {
         "name": "CSS Flexbox 生成器",
         "description": "可视化构建 Flexbox 布局，支持方向、对齐、换行、间距与实时预览。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⬜"
       },
       "css-grid": {
         "name": "CSS Grid 生成器",
         "description": "可视化构建 CSS Grid 布局，自定义列、行、间距与对齐方式。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "⬜"
       },
       "invoice-generator": {
         "name": "发票生成器",
         "description": "免费创建专业发票，无需注册、无水印，可打印或保存PDF",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "📋"
       },
       "url-slug-generator": {
         "name": "URL Slug Generator",
         "description": "Convert text to URL-friendly slugs. Handles accented characters, bulk conversion.",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "/"
       },
       "url-shortener": {
         "name": "URL 缩短器",
         "description": "一键将长链接缩短为短链，is.gd 与 TinyURL 双引擎自动切换，支持自定义短链。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🔗"
       },
       "exif-viewer": {
         "name": "EXIF 信息查看器",
         "description": "查看照片元数据，包括相机参数、拍摄日期、GPS 位置和设备信息，保护隐私。",
-        "category": "Design",
+        "category": "设计",
         "icon": "📷"
       },
       "noise-generator": {
         "name": "噪点纹理生成器",
         "description": "生成无缝噪点与颗粒纹理背景，可下载 PNG 或复制 CSS。",
-        "category": "Design",
+        "category": "设计",
         "icon": "░"
       },
       "og-preview": {
         "name": "Open Graph 预览",
         "description": "预览页面在 Google、Facebook、Twitter、Slack 和 Discord 中的展示效果。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "🔗"
       },
       "css-border-radius": {
         "name": "CSS 圆角生成器",
         "description": "使用 8 值 border-radius 创建创意形状，如有机 blob、叶子与不对称圆角。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "●"
       },
       "color-converter": {
         "name": "颜色转换器",
         "description": "在 HEX、RGB、HSL、HSV、CMYK 之间即时转换颜色值。",
-        "category": "Design",
+        "category": "设计",
         "icon": "◐"
       },
       "html-table-generator": {
         "name": "HTML 表格生成器",
         "description": "使用电子表格编辑器创建表格，导出为 HTML、Markdown 或 CSV。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "☷"
       },
       "css-cubic-bezier": {
         "name": "CSS 贝塞尔曲线生成器",
         "description": "创建自定义动画缓动曲线，拖拽控制点并预览动画效果。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "∿"
       },
       "bionic-reading": {
         "name": "仿生阅读转换器",
         "description": "将文本转换为仿生阅读格式，加粗词首以提升阅读速度",
-        "category": "Text",
+        "category": "文字",
         "icon": "B"
       },
       "css-background-pattern": {
         "name": "CSS 背景图案生成器",
         "description": "生成纯 CSS 背景图案，包括圆点、网格、条纹、棋盘格等。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "▓"
       },
       "image-filters": {
         "name": "图片滤镜工具",
         "description": "应用复古、怀旧、黑白等 Instagram 风格滤镜，共 15 余种，免费私密。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🎨"
       },
       "json-validator": {
         "name": "JSON 验证器",
         "description": "验证 JSON 语法，提供错误信息与行号，并支持美化与压缩。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "✓"
       },
       "pixel-art": {
         "name": "像素画转换器",
         "description": "将图片转换为像素画，可调整像素大小和调色板。",
-        "category": "Design",
+        "category": "设计",
         "icon": "👾"
       },
       "mortgage-calculator": {
         "name": "房贷计算器",
         "description": "计算月供、税费、保险、PMI 及摊销计划。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🏠"
       },
       "compound-interest-calculator": {
         "name": "复利计算器",
         "description": "查看资金如何随复利和定期投入增长。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📈"
       },
       "loan-calculator": {
         "name": "贷款计算器",
         "description": "计算月供、总利息并生成完整还款计划。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💳"
       },
       "percentage-calculator": {
         "name": "百分比计算器",
         "description": "计算数值百分比、增减幅度、百分比变化等",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "%"
       },
       "tip-calculator": {
         "name": "小费计算器",
         "description": "计算小费金额并按预设或自定义比例分摊账单。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💵"
       },
       "salary-calculator": {
         "name": "薪资计算器",
         "description": "在年薪与时薪之间转换，估算税费和收入明细。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💼"
       },
       "auto-loan-calculator": {
         "name": "汽车贷款计算器",
         "description": "计算车贷月供，含首付、置换、税费和期限对比。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🚗"
       },
       "retirement-calculator": {
         "name": "退休金计算器",
         "description": "预测退休金增长，含投入、通胀和支取收入。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🏖"
       },
       "savings-calculator": {
         "name": "储蓄计算器",
         "description": "计算定期存款与复利下的储蓄增长。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💰"
       },
       "investment-calculator": {
         "name": "投资计算器",
         "description": "预测投资收益，查看名义回报与通胀调整后回报。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📊"
       },
       "bmi-calculator": {
         "name": "BMI 计算器",
         "description": "用英制或公制单位计算身体质量指数，查看 BMI 分级与健康体重范围。",
-        "category": "Health",
+        "category": "健康",
         "icon": "⚖"
       },
       "calorie-calculator": {
         "name": "卡路里计算器",
         "description": "根据年龄、性别、身高、体重和活动量计算每日所需卡路里。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🍎"
       },
       "calorie-burn-calculator": {
         "name": "卡路里消耗计算器",
         "description": "根据活动时长和体重估算各项运动消耗的卡路里。",
-        "category": "Health",
+        "category": "健康",
         "icon": "⚡"
       },
       "tdee-calculator": {
         "name": "TDEE 计算器",
         "description": "用多种公式计算每日总能量消耗，并提供三大营养素分配建议。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🔥"
       },
       "body-fat-calculator": {
         "name": "体脂率计算器",
         "description": "使用美国海军法，根据腰围、颈围和臀围估算体脂率。",
-        "category": "Health",
+        "category": "健康",
         "icon": "📏"
       },
       "macro-calculator": {
         "name": "宏量营养素计算器",
         "description": "根据目标计算每日蛋白质、碳水和脂肪摄入量，支持多种饮食比例。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🥩"
       },
       "1rm-calculator": {
         "name": "1RM 计算器",
         "description": "使用 Epley、Brzycki、Lombardi 等公式估算一次性最大重量。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🏋"
       },
       "keto-calculator": {
         "name": "生酮饮食计算器",
         "description": "根据每日热量计算生酮宏量营养素（碳水、蛋白质、脂肪）。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🥑"
       },
       "ovulation-calculator": {
         "name": "排卵计算器",
         "description": "根据周期预测排卵日、受孕窗口和下次月经。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🥚"
       },
       "weight-loss-calculator": {
         "name": "减重计算器",
         "description": "根据每日热量缺口估算达到目标体重所需时间。",
-        "category": "Health",
+        "category": "健康",
         "icon": "📉"
       },
       "pdf-to-word": {
         "name": "PDF 转 Word",
         "description": "免费将 PDF 转换为 Word。提取文本并下载为可编辑的 .doc 文件。无需上传，在浏览器中运行。",
-        "category": "Productivity",
+        "category": "效率",
         "icon": "📝"
       },
       "period-calculator": {
         "name": "月经周期计算器",
         "description": "预测下次月经、排卵期、受孕窗口和安全期。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🩸"
       },
       "blood-alcohol-calculator": {
         "name": "血液酒精浓度计算器",
         "description": "根据饮酒量、体重、性别和时间估算 BAC。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🍷"
       },
       "walking-calorie-calculator": {
         "name": "步行卡路里计算器",
         "description": "根据体重、距离或步数、速度估算步行消耗卡路里。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🚶"
       },
       "profit-margin-calculator": {
         "name": "利润率计算器",
         "description": "根据成本与收入计算利润率、加价率和利润。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📊"
       },
       "discount-calculator": {
         "name": "折扣计算器",
         "description": "计算折扣后售价，支持双重折扣、税费和节省金额。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🏷"
       },
       "sales-tax-calculator": {
         "name": "销售税计算器",
         "description": "计算任意消费的销售税，支持加税或从总价中分离税费。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🧾"
       },
       "roi-calculator": {
         "name": "投资回报率计算器",
         "description": "计算投资回报率和年化收益。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📈"
       },
       "age-calculator": {
         "name": "年龄计算器",
         "description": "精确计算年龄的年月日小时，显示星座和下次生日倒计时",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🎂"
       },
       "payment-calculator": {
         "name": "还款计算器",
         "description": "计算任意金额、利率和期限的月还款额。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💳"
       },
       "paycheck-calculator": {
         "name": "工资单计算器",
         "description": "估算每次实发工资，含联邦税、FICA、州税和401k扣除。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💵"
       },
       "interest-calculator": {
         "name": "利息计算器",
         "description": "计算单利与复利，提供逐年明细和APY对比。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💰"
       },
       "inflation-calculator": {
         "name": "通胀计算器",
         "description": "查看通胀如何影响购买力，支持未来值与过去值模式。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "401k-calculator": {
         "name": "401k计算器",
         "description": "预测401k增长，含雇主配比、缴费和投资回报。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "amortization-calculator": {
         "name": "摊销计算器",
         "description": "生成完整摊销表，查看本金/利息明细和额外还款节省。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "income-tax-calculator": {
         "name": "所得税计算器",
         "description": "按2026年税率估算联邦所得税，含边际税率和实际税率。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "tax-calculator": {
         "name": "税务计算器",
         "description": "计算总税负，含联邦、FICA和州税，查看税率和实得收入。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "obbba-tax-calculator": {
         "name": "OBBBA节税计算器",
         "description": "根据One Big Beautiful Bill Act估算小费、加班等免税节省。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "electricity-cost-calculator": {
         "name": "电费计算器",
         "description": "计算家电运行成本，按电器和类别查看每月电费明细。",
-        "category": "Home & Energy",
+        "category": "家居与能源",
         "icon": ""
       },
       "square-footage-calculator": {
         "name": "面积计算器",
         "description": "计算矩形、圆形和三角形的面积，支持公英制切换。",
-        "category": "Home & Energy",
+        "category": "家居与能源",
         "icon": "⬜"
       },
       "concrete-calculator": {
         "name": "混凝土用量计算器",
         "description": "根据长、宽、深估算混凝土体积（立方码或立方米）及所需袋数。",
-        "category": "Home & Energy",
+        "category": "家居与能源",
         "icon": "🧱"
       },
       "paint-calculator": {
         "name": "油漆用量计算器",
         "description": "根据墙面面积、门窗面积、涂层数和覆盖率估算所需油漆量。",
-        "category": "Home & Energy",
+        "category": "家居与能源",
         "icon": "🎨"
       },
       "tile-calculator": {
         "name": "瓷砖用量计算器",
         "description": "根据区域面积、瓷砖尺寸和损耗率计算所需瓷砖数量。",
-        "category": "Home & Energy",
+        "category": "家居与能源",
         "icon": "🔲"
       },
       "medicaid-work-requirement-calculator": {
         "name": "Medicaid 工作要求计算器",
         "description": "检查是否需满足新的80小时工作要求、是否符合豁免条件及后续步骤。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "debt-payoff-calculator": {
         "name": "债务还清计算器",
         "description": "计算还清债务所需时间和总利息，对比额外还款方案。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "hourly-to-salary-calculator": {
         "name": "时薪年薪转换器",
         "description": "在时薪与年薪之间转换，并考虑假期时间。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "budget-calculator": {
         "name": "预算计算器",
         "description": "按支出类别规划月度预算，对比50/30/20法则。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "simple-interest-calculator": {
         "name": "单利计算器",
         "description": "计算单利并展示公式，可与复利对比。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "net-worth-calculator": {
         "name": "净资产计算器",
         "description": "计算净资产，统计资产与负债，含资产负债率。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "stock-profit-calculator": {
         "name": "股票收益计算器",
         "description": "计算股票交易利润、回报率和保本价，含手续费。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "credit-card-payoff-calculator": {
         "name": "信用卡还清计算器",
         "description": "计算信用卡还清时间和利息，对比月还款方案。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "down-payment-calculator": {
         "name": "首付计算器",
         "description": "计算首付金额及其对房贷、月供和PMI的影响。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "dividend-calculator": {
         "name": "股息计算器",
         "description": "计算股息收入，预测再投资和定期投入的增长。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "fire-calculator": {
         "name": "FIRE计算器",
         "description": "计算财务独立数字和提前退休所需年限。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "vat-calculator": {
         "name": "增值税计算器",
         "description": "计算增值税，支持加税或从总价中分离，含国家税率预设。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "break-even-calculator": {
         "name": "盈亏平衡计算器",
         "description": "计算盈亏平衡点，即覆盖固定和变动成本需销售的单位数。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "mortgage-affordability-calculator": {
         "name": "房贷可负担计算器",
         "description": "根据收入和债务计算可负担房价，遵循28/36偿债比规则。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "apr-calculator": {
         "name": "年化利率计算器",
         "description": "计算包含费用的真实贷款APR，对比APR与名义利率。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "student-loan-calculator": {
         "name": "学生贷款计算器",
         "description": "计算学生贷款月供和总利息，查看额外还款影响。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "capital-gains-tax-calculator": {
         "name": "资本利得税计算器",
         "description": "计算投资资本利得税，区分短期和长期税率。",
-        "category": "Finance",
+        "category": "金融",
         "icon": ""
       },
       "gpa-calculator": {
         "name": "GPA计算器",
         "description": "计算学期和累计GPA，添加课程成绩与学分",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": ""
       },
       "grade-calculator": {
         "name": "成绩计算器",
         "description": "按权重或分数制计算课程总成绩",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": ""
       },
       "random-number-generator": {
         "name": "随机数生成器",
         "description": "在指定范围内生成随机数，支持单个或批量、是否重复",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": ""
       },
       "countdown-timer": {
         "name": "倒计时器",
         "description": "免费在线倒计时，支持预设，可设置时分秒",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": ""
       },
       "stopwatch": {
         "name": "秒表",
         "description": "在线秒表，支持分段计时，精确到百分之一秒",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": ""
       },
       "scientific-calculator": {
         "name": "科学计算器",
         "description": "免费科学计算器，支持三角函数、对数、幂运算、记忆和角度模式",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": ""
       },
       "fraction-calculator": {
         "name": "分数计算器",
         "description": "分数加减乘除、约分以及与小数互转",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "½"
       },
       "character-counter": {
         "name": "字符计数器",
         "description": "统计字符、单词、句子和段落，支持社媒字数限制与阅读时长",
-        "category": "Text",
+        "category": "文字",
         "icon": ""
       },
       "text-repeater": {
         "name": "文本重复器",
         "description": "使用自定义分隔符将任意文本重复多次",
-        "category": "Text",
+        "category": "文字",
         "icon": ""
       },
       "binary-converter": {
         "name": "二进制转换器",
         "description": "在十进制、二进制、八进制与十六进制之间即时转换。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "01"
       },
       "whois-lookup": {
         "name": "域名 Whois 查询",
         "description": "查询域名的注册商、创建/到期时间与 DNS 服务器，基于 RDAP 实时获取。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "🌐"
       },
       "ip-lookup": {
         "name": "IP 地址查询",
         "description": "查询 IP 的归属组织、CIDR 网段与国家地区，并支持查看本机 IP。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "📡"
       },
       "color-mixer": {
         "name": "颜色混合器",
         "description": "按比例混合两种颜色，生成平滑的渐变色。",
-        "category": "Design",
+        "category": "设计",
         "icon": ""
       },
       "css-transform-generator": {
         "name": "CSS 变换生成器",
         "description": "可视化构建 CSS 变换，支持平移、旋转、缩放与倾斜。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": ""
       },
       "pregnancy-calculator": {
         "name": "预产期计算器",
         "description": "根据末次月经估算预产期，并提供孕周跟踪与重要里程碑。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "pace-calculator": {
         "name": "配速计算器",
         "description": "计算跑步配速、完赛时间或距离，提供常见比赛预设。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "bmr-calculator": {
         "name": "基础代谢率计算器",
         "description": "用三种公式与活动系数计算基础代谢率。",
-        "category": "Health",
+        "category": "健康",
         "icon": "♥"
       },
       "waist-to-hip-ratio-calculator": {
         "name": "腰臀比计算器",
         "description": "根据 WHO 腰臀比标准评估健康风险。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "water-intake-calculator": {
         "name": "饮水量计算器",
         "description": "根据体重、活动量和气候条件计算每日建议饮水量。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "calorie-deficit-calculator": {
         "name": "热量缺口计算器",
         "description": "根据 TDEE 计算减重期间每日应摄入的卡路里。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "protein-calculator": {
         "name": "蛋白质计算器",
         "description": "根据体重、目标和活动水平计算每日蛋白质需求量。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "ideal-weight-calculator": {
         "name": "理想体重计算器",
         "description": "使用四种科学公式计算理想体重范围。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "sleep-calculator": {
         "name": "睡眠计算器",
         "description": "根据90分钟睡眠周期计算最佳入睡和醒来时间。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "merge-pdf": {
         "name": "PDF 合并",
         "description": "将多个 PDF 文件按顺序合并成一个。在浏览器中完成，无需上传。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "📑"
       },
       "compress-pdf": {
         "name": "PDF 压缩",
         "description": "通过降低图片质量来减小 PDF 文件大小。本地运行，无需上传。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🗜️"
       },
       "split-pdf": {
         "name": "PDF 拆分",
         "description": "按页码范围提取 PDF 页面，生成新的 PDF。快速、私密、浏览器端完成。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "✂️"
       },
       "jpg-to-pdf-converter": {
         "name": "JPG 转 PDF",
         "description": "将一张或多张 JPG 图片合并成一个 PDF 文件。每页一张图，不上传服务器。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🖼️"
       },
       "png-to-pdf-converter": {
         "name": "PNG 转 PDF",
         "description": "将一张或多张 PNG 图片合并成一个 PDF 文件。在浏览器中完成。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🖼️"
       },
       "number-base-converter": {
         "name": "进制转换器",
         "description": "在二进制、八进制、十进制、十六进制和 36 进制之间即时转换数字。",
-        "category": "Math",
+        "category": "数学",
         "icon": "01"
       },
       "typing-speed-test": {
         "name": "打字速度测试",
         "description": "测试打字速度，显示 WPM、CPM 和准确率。60 秒倒计时，含示例文本。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "⌨"
       },
       "square-root-calculator": {
         "name": "平方根计算器",
         "description": "计算实数和负数的平方根，支持复数结果。",
-        "category": "Math",
+        "category": "数学",
         "icon": "√"
       },
       "mean-median-mode-calculator": {
         "name": "均值中位数众数计算器",
         "description": "根据数字列表计算均值、中位数和众数，同时显示个数和总和。",
-        "category": "Math",
+        "category": "数学",
         "icon": "∑"
       },
       "standard-deviation-calculator": {
         "name": "标准差计算器",
         "description": "计算样本或总体数据集的标准差和方差。",
-        "category": "Math",
+        "category": "数学",
         "icon": "σ"
       },
       "refinance-calculator": {
         "name": "再融资计算器",
         "description": "比较当前贷款与再融资方案，计算盈亏平衡点和总节省金额。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🏦"
       },
       "markup-calculator": {
         "name": "加价计算器",
         "description": "计算加价、利润率和售价，支持批量产品计算。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💲"
       },
       "cd-calculator": {
         "name": "定期存单计算器",
         "description": "计算定期存单利息和到期价值，支持复利频率和税收。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💰"
       },
       "car-lease-calculator": {
         "name": "汽车租赁计算器",
         "description": "计算每月租赁付款、货币因子和租赁总成本。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🚗"
       },
       "commission-calculator": {
         "name": "佣金计算器",
         "description": "根据销售额、佣金率和固定费用计算佣金收入与税后净得。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💵"
       },
       "depreciation-calculator": {
         "name": "折旧计算器",
         "description": "使用直线法和双倍余额递减法计算资产折旧与账面价值。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📉"
       },
       "lease-calculator": {
         "name": "租赁计算器",
         "description": "计算设备或车辆租赁的月付、利息成本与总费用。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🔑"
       },
       "overtime-calculator": {
         "name": "加班费计算器",
         "description": "计算常规工资与加班工资，支持 1.5 倍和 2 倍加班费率。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "⏰"
       },
       "present-value-calculator": {
         "name": "现值计算器",
         "description": "根据未来值、折现率和复利频率计算现值与折现因子。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "⏳"
       },
       "rent-vs-buy-calculator": {
         "name": "租购对比计算器",
         "description": "对比租房与买房的长期成本，计算盈亏平衡年份与净值差异。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🏠"
       },
       "dog-age-calculator": {
         "name": "狗狗年龄计算器",
         "description": "将狗龄换算为人类年龄，支持不同体型并附对照表。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🐕"
       },
       "future-value-calculator": {
         "name": "未来价值计算器",
         "description": "计算投资的未来价值，支持定期投入和复利频率。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📈"
       },
       "annuity-calculator": {
         "name": "年金计算器",
         "description": "计算年金的现值和未来价值，支持普通年金和期初年金。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💰"
       },
       "emi-calculator": {
         "name": "EMI 计算器",
         "description": "计算等额月供、总利息，并生成还款计划表。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💳"
       },
       "debt-to-income-calculator": {
         "name": "债务收入比计算器",
         "description": "计算 DTI 比率，评估贷款资格和信用状况。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📊"
       },
       "income-percentile-calculator": {
         "name": "收入百分位计算器",
         "description": "按国家估算您的收入百分位。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📉"
       },
       "net-worth-percentile-calculator": {
         "name": "净资产百分位计算器",
         "description": "按国家估算您的净资产百分位。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📊"
       },
       "life-insurance-calculator": {
         "name": "人寿保险计算器",
         "description": "使用收入替代法估算建议的人寿保险保额。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🛡"
       },
       "home-affordability-calculator": {
         "name": "购房承受能力计算器",
         "description": "根据收入、债务和 DTI 限制计算可负担的最高房价。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🏠"
       },
       "business-loan-calculator": {
         "name": "商业贷款计算器",
         "description": "计算商业贷款的月供、总利息和总成本。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💼"
       },
       "credit-score-simulator": {
         "name": "信用分模拟器",
         "description": "模拟常见信用行为对信用分的影响。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📱"
       },
       "self-employment-tax-calculator": {
         "name": "自雇税计算器",
         "description": "估算自雇税金额和可抵扣部分。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "📝"
       },
       "car-loan-interest-deduction-calculator": {
         "name": "车贷利息抵扣计算器",
         "description": "估算商业用途车贷利息的税收节省。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🚘"
       },
       "student-loan-tax-bomb-calculator": {
         "name": "学生贷款税单炸弹计算器",
         "description": "估算学生贷款免除金额对应的所得税。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "💣"
       },
       "trump-account-calculator": {
         "name": "特朗普账户计算器",
         "description": "估算假设退休账户在供款和雇主匹配下的增长。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🇺🇸"
       },
       "mortgage-payoff-calculator": {
         "name": "房贷提前还清计算器",
         "description": "计算额外月供能缩短多少还款期限并节省多少利息。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🏡"
       },
       "child-support-calculator": {
         "name": "子女抚养费计算器",
         "description": "根据父母收入、监护时间和子女数量估算每月子女抚养费。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "👶"
       },
       "alimony-calculator": {
         "name": "赡养费计算器",
         "description": "根据收入差距和婚姻存续时间估算配偶赡养费。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "💔"
       },
       "personal-injury-calculator": {
         "name": "人身伤害赔偿计算器",
         "description": "根据医疗费、误工费和精神痛苦倍数估算人身伤害赔偿金额。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "🏥"
       },
       "workers-comp-calculator": {
         "name": "工伤赔偿计算器",
         "description": "根据周薪和伤残等级估算工伤赔偿金额。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "🦺"
       },
       "dui-cost-calculator": {
         "name": "酒驾成本计算器",
         "description": "估算酒驾总成本，包括罚款、律师费和保险费上涨。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "🍺"
       },
       "bankruptcy-means-test": {
         "name": "破产偿债能力测试",
         "description": "通过比较家庭收入与州收入中位数来判断第七章破产资格。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "📉"
       },
       "small-claims-court-calculator": {
         "name": "小额诉讼法院费用计算器",
         "description": "根据索赔金额估算小额诉讼法院的立案费和服务费。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "⚖️"
       },
       "va-disability-calculator": {
         "name": "退伍军人残疾赔偿计算器",
         "description": "估算综合残疾评级和每月退伍军人的残疾赔偿金（含受抚养人）。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "🎖️"
       },
       "social-security-calculator": {
         "name": "社会保障福利估算器",
         "description": "根据平均指数化月收入和申领年龄估算社会保障退休福利。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "🛡️"
       },
       "medicare-cost-calculator": {
         "name": "医疗保险费用估算器",
         "description": "估算年度医疗保险费用，包括保费、IRMAA附加费和自付费用。",
-        "category": "Legal",
+        "category": "法律",
         "icon": "💊"
       },
       "chatgpt-ads-calculator": {
         "name": "ChatGPT 广告估算器",
         "description": "估算 ChatGPT 广告活动的展示量、点击量和总支出。",
-        "category": "Marketing",
+        "category": "营销",
         "icon": "🤖"
       },
       "save-vs-rap-calculator": {
         "name": "SAVE 与 REPAYE 计算器",
         "description": "比较美国联邦 SAVE 和 REPAYE 两种按收入还款的学生贷款计划。",
-        "category": "Finance",
+        "category": "金融",
         "icon": "🎓"
       },
       "ohms-law-calculator": {
         "name": "欧姆定律计算器",
         "description": "根据电压、电流、电阻、功率中任意两个值，计算其余两个。",
-        "category": "Math",
+        "category": "数学",
         "icon": "Ω"
       },
       "digital-signature": {
         "name": "电子签名制作工具",
         "description": "通过手写、输入文字或上传图片创建电子签名。下载为 PNG 或 SVG。免费、无需注册、100% 私密。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "✍"
       },
       "heart-rate-zone-calculator": {
         "name": "心率区间计算器",
         "description": "计算您的五个心率训练区间。使用 Karvonen 或最大心率百分比方法。",
-        "category": "Health",
+        "category": "健康",
         "icon": "♥"
       },
       "image-upscaler": {
         "name": "图片放大器",
         "description": "免费放大和增强图片。支持 2 倍和 4 倍缩放及多种算法。无需上传、无需注册——完全在浏览器中运行。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🔍"
       },
       "meme-generator": {
         "name": "表情包生成器",
         "description": "使用自定义文字、字体和颜色制作表情包。无水印、无需注册，全部在浏览器中运行。",
-        "category": "Design",
+        "category": "设计",
         "icon": "😂"
       },
       "resume-builder": {
         "name": "简历生成器",
         "description": "免费制作专业简历。多种模板、实时预览、PDF 下载。无需注册，不保存数据——全部在浏览器中运行。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "📄"
       },
       "screen-recorder": {
         "name": "屏幕录制工具",
         "description": "录制您的屏幕、摄像头或浏览器标签页，并支持音频。无水印、无需上传、无时长限制。在浏览器中运行。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🎥"
       },
       "text-to-speech": {
         "name": "文字转语音",
         "description": "在浏览器中将文字转换为自然语音。支持多种语言和声音，可调整语速和音调。免费且私密。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🔊"
       },
       "screen-color-picker": {
         "name": "屏幕取色器",
         "description": "一键拾取屏幕任意位置的颜色，无需上传图片。可复制 Hex、RGB、HSL 颜色编码。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🎨"
       },
       "multiavatar-avatar-generator": {
         "name": "Multiavatar 头像生成器",
         "description": "根据任意文字生成独特的多元文化头像。120 亿+ 组合——适合头像、游戏 Logo 和身份标识图。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🧑‍🎨"
       },
       "video-compressor": {
         "name": "视频压缩器",
         "description": "免费压缩视频文件。以可调节的质量减小 MP4、WebM 和 MOV 的文件大小。无需上传、无需注册——全部在浏览器中运行。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🗜"
       },
       "scroll-capture": {
         "name": "屏幕截图",
         "description": "一键截取屏幕任意区域，支持标注涂鸦，下载 PNG。无需填网址、无需上传，全程在浏览器中完成。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "📸"
       },
       "video-to-gif": {
         "name": "视频转 GIF 转换器",
         "description": "将任意视频转换为动画 GIF。可裁剪、调整尺寸和帧率。无需上传，全部在浏览器中运行。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🎞"
       },
       "image-to-gif": {
         "name": "图片转 GIF 制作器",
         "description": "将多张图片合成为动画 GIF。可添加多张照片、设置帧延迟和尺寸、调整帧顺序。无需上传，全部在浏览器中运行。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🖼"
       },
       "gif-to-images": {
         "name": "GIF 拆帧工具",
         "description": "提取 GIF 中的所有帧为独立图片。可将每帧导出为 PNG、WEBP 或 JPEG，或一次性打包下载为 ZIP。无需上传，全部在浏览器中运行。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🎞"
       },
       "base64-to-image": {
         "name": "Base64 转图片",
         "description": "将 Base64 字符串转换为图片，支持实时预览与下载。免费、私密。",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "🖼"
       },
       "audio-converter": {
         "name": "音频转换器",
         "description": "在 MP3、WAV、FLAC、OGG、M4A、OPUS、AIFF 之间转换音频，可调整比特率，在浏览器中运行。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🎵"
       },
       "video-converter": {
         "name": "视频转换器",
         "description": "在 MP4、WebM、AVI、MOV、GIF 之间转换视频，可调整质量与分辨率，无需上传。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🎬"
       },
       "document-converter": {
         "name": "文档转换器",
         "description": "在 Markdown、HTML、Word、EPUB、LaTeX 等格式之间转换文档，由 Pandoc 驱动，在浏览器中运行。",
-        "category": "Productivity",
+        "category": "效率",
         "icon": "📄"
       },
       "video-watermark": {
         "name": "视频加水印工具",
         "description": "免费在线给视频添加文字或图片水印，浏览器本地处理，无需上传。",
-        "category": "Design",
+        "category": "设计",
         "icon": "💧"
       },
       "image-watermark": {
         "name": "图片加水印工具",
         "description": "给单张或批量图片添加文字/图片水印，位置、大小、透明度、平铺均可控制。",
-        "category": "Design",
+        "category": "设计",
         "icon": "🖼️"
       },
       "emoji-picker": {
         "name": "Emoji 表情工具",
         "description": "浏览、搜索并复制免费的开源 Unicode 表情，任何设备都能用。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "😊"
       },
       "video-transcript": {
         "name": "视频文案提取",
         "description": "粘贴 YouTube 或 B站视频链接，一键提取带时间戳的完整文案。",
-        "category": "Media",
+        "category": "媒体",
         "icon": "🎬"
       },
       "address-generator": {
         "name": "全球地址生成器",
         "description": "生成全球 20+ 国家/地区的随机真实感地址，支持批量生成与导出。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🌍"
       },
       "slideshow-maker": {
         "name": "幻灯片视频生成器",
         "description": "把多张图片和背景音乐合成为 MP4 幻灯片视频。免费、浏览器本地处理。",
-        "category": "Media",
+        "category": "媒体",
         "icon": "🎞️"
       },
       "video-trimmer": {
         "name": "视频裁剪工具",
         "description": "快速剪切视频片段，无损或精确重编码，免费在线使用。",
-        "category": "视频工具",
+        "category": "视频",
         "icon": "✂️"
       },
       "video-joiner": {
         "name": "视频合并工具",
         "description": "将多个视频按顺序无缝合并为一个视频，免费在线使用。",
-        "category": "视频工具",
+        "category": "视频",
         "icon": "🎬"
       },
       "video-speed-changer": {
         "name": "视频变速工具",
         "description": "在线调整视频播放速度（0.25x–4x），保留音调不变，免费使用。",
-        "category": "视频工具",
+        "category": "视频",
         "icon": "⏩"
       },
       "video-subtitle-burner": {
         "name": "字幕烧录工具",
         "description": "将 SRT/ASS 字幕烧录到视频画面，支持自定义字体，免费在线使用。",
-        "category": "视频工具",
+        "category": "视频",
         "icon": "💬"
       },
       "currency-converter": {
@@ -1573,745 +1605,745 @@
       "ai-image-detector": {
         "name": "AI 图片检测器",
         "description": "检测图片是否由 AI 生成——C2PA 凭证、生成器签名、元数据与频域分析。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🤖"
       },
       "ai-object-eraser": {
         "name": "AI消除笔",
         "description": "用 AI 消除笔去除照片中的路人、杂物或文字——点击选中，一键消除。100% 本地处理，无需上传。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🪄"
       },
       "image-to-relief": {
         "name": "图片转 3D 浮雕",
         "description": "将图片转换为 3D 浮雕，支持在线预览并导出 GLB/STL，免费使用。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🧊"
       },
       "image-to-printmaking": {
         "name": "黑白版画制作",
         "description": "一键将照片转换为黑白版画风格，阈值可调，实时预览。免费且私密。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🖨️"
       },
       "image-emboss": {
         "name": "图片浮雕效果",
         "description": "一键将照片转换为石雕质感的浮雕效果，强度可调，实时预览。免费且私密。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🗿"
       },
       "id-photo-generator": {
         "name": "证件照制作",
         "description": "在线制作护照、签证证件照：选择规格与背景色，一键换底并微调构图，免费使用。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "📷"
       },
       "background-replace": {
         "name": "替换背景",
         "description": "移除照片背景并替换为纯色、渐变、另一张图片或模糊效果。免费且隐私安全。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🖼️"
       },
       "face-blur": {
         "name": "面部模糊",
         "description": "自动检测并模糊照片中的人脸以保护隐私，模糊强度可调。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🙈"
       },
       "face-crop": {
         "name": "人脸裁剪",
         "description": "自动将照片中的每个人脸裁剪为方形图片。可调留白，支持批量下载。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "📷"
       },
       "image-caption": {
         "name": "图片描述生成",
         "description": "使用浏览器内运行的 AI 模型为任意图片生成自然语言描述。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "💬"
       },
       "image-classify": {
         "name": "图片分类",
         "description": "使用 AI 模型识别照片中的内容，展示 Top 5 预测类别与置信度。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🏷️"
       },
       "nsfw-detection": {
         "name": "NSFW 内容检测",
         "description": "使用浏览器内运行的 AI 模型检测图片是否含有不适宜工作场所的内容。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🛡️"
       },
       "photo-colorize": {
         "name": "黑白照片上色",
         "description": "用 AI 为老旧黑白照片赋予真实色彩。完全在浏览器中运行。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🎨"
       },
       "image-denoise": {
         "name": "图片降噪",
         "description": "自动去除照片中的噪点和颗粒，让图像更干净清晰。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "❄️"
       },
       "image-deblur": {
         "name": "去模糊",
         "description": "锐化模糊的照片，恢复清晰细节。可调强度与迭代次数。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "📸"
       },
       "unsharp-mask": {
         "name": "反锐化掩模",
         "description": "经典的锐化算法，增强边缘细节，让照片看起来更清晰。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🔍"
       },
       "white-balance": {
         "name": "白平衡",
         "description": "自动校正照片色偏，让白色恢复纯白，色彩更自然。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "⚖️"
       },
       "auto-contrast": {
         "name": "自动对比度",
         "description": "一键优化照片对比度与动态范围，让图像更有层次。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🎚️"
       },
       "histogram-equalize": {
         "name": "直方图均衡化",
         "description": "重新分布像素亮度提升对比度，让暗部与亮部细节更明显。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "📊"
       },
       "hdr-tone-mapping": {
         "name": "HDR 色调映射",
         "description": "应用 HDR 色调映射算法，重现高动态范围场景的明暗细节。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🌅"
       },
       "dehaze": {
         "name": "去雾/除雾",
         "description": "去除照片中的雾气与灰霾，还原清晰通透的风景。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🌫️"
       },
       "image-rotate-flip": {
         "name": "旋转和翻转",
         "description": "旋转图片、水平翻转、垂直镜像，一键调整图片方向。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🔄"
       },
       "image-negative": {
         "name": "负片/反转",
         "description": "将图片颜色反转，模拟胶片负片效果。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🎞️"
       },
       "image-pixelate": {
         "name": "马赛克/像素化",
         "description": "将图片像素化，制作马赛克或 8-bit 复古像素风格。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🟩"
       },
       "image-oil-paint": {
         "name": "油画效果",
         "description": "将照片转换为油画风格，模拟笔触质感。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🖌️"
       },
       "image-edge-detect": {
         "name": "边缘检测",
         "description": "提取图片中的物体轮廓线条，生成线稿效果。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🔲"
       },
       "image-rounded-corners": {
         "name": "圆角",
         "description": "为图片添加圆角，输出透明背景 PNG 图片。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🔘"
       },
       "image-border": {
         "name": "添加边框",
         "description": "为图片添加彩色边框，适合照片装裱或社交分享。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🖼️"
       },
       "image-shadow": {
         "name": "投影",
         "description": "为图片添加柔和投影，让图片更有立体感。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🌑"
       },
       "image-histogram": {
         "name": "图片直方图",
         "description": "查看图片的 RGB 通道与亮度分布。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "📊"
       },
       "image-palette": {
         "name": "颜色提取",
         "description": "从图片中自动提取主要颜色生成色板。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🎨"
       },
       "image-phash": {
         "name": "图片感知哈希",
         "description": "计算图片感知哈希（pHash），用于相似度比对。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🧬"
       },
       "image-compare": {
         "name": "图片对比",
         "description": "对比两张图片的差异并生成差异可视化。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "⚖️"
       },
       "duplicate-finder": {
         "name": "查找重复图片",
         "description": "批量检测重复或相似的图片。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "👯"
       },
       "rgb-channel-split": {
         "name": "RGB通道分离",
         "description": "将图片分离为红、绿、蓝三个颜色通道。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🔴"
       },
       "image-web-optimizer": {
         "name": "网页图片优化",
         "description": "批量压缩图片并转换为 Web 友好格式。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🚀"
       },
       "batch-rename": {
         "name": "批量重命名",
         "description": "按规则链批量重命名任意类型文件，并打包下载。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "📝"
       },
       "image-to-ascii": {
         "name": "图片转ASCII艺术",
         "description": "将图片转换为 ASCII 字符艺术。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🔤"
       },
       "css-sprite-generator": {
         "name": "CSS精灵图生成器",
         "description": "将多张图片合成为精灵图并生成 CSS。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🧩"
       },
       "og-image-generator": {
         "name": "OG图片生成器",
         "description": "生成用于社交分享的 1200×630 OG 图片。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🖼️"
       },
       "blob-dataurl": {
         "name": "Blob ↔ DataURL 互转",
         "description": "获取图片的 Blob URL 与 Base64 DataURL。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🔗"
       },
       "image-similarity": {
         "name": "图片相似度",
         "description": "计算两张图片的相似度、MSE 与 PSNR。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "📊"
       },
       "video-frame-extractor": {
         "name": "视频帧提取",
         "description": "按时间间隔从视频中提取帧，可打包为 ZIP 下载。",
-        "category": "视频工具",
+        "category": "视频",
         "icon": "🎞️"
       },
       "animated-webp": {
         "name": "动画WebP",
         "description": "将视频转换为动画 WebP 图片。",
-        "category": "视频工具",
+        "category": "视频",
         "icon": "🖼️"
       },
       "apng-maker": {
         "name": "APNG制作",
         "description": "将视频转换为动画 APNG 图片。",
-        "category": "视频工具",
+        "category": "视频",
         "icon": "✨"
       },
       "video-thumbnail": {
         "name": "视频缩略图",
         "description": "从视频生成缩略图网格（联系表），可显示时间戳。",
-        "category": "视频工具",
+        "category": "视频",
         "icon": "🖼️"
       },
       "video-to-images": {
         "name": "视频抽帧转图片",
         "description": "从视频按时间间隔提取帧并保存为多种图片格式，支持 MKV、AVI 等 20+ 格式。",
-        "category": "视频工具",
+        "category": "视频",
         "icon": "🎞️"
       },
       "pdf-long-image": {
         "name": "PDF转长图",
         "description": "将 PDF 的所有页面合并为一张纵向长图，便于整篇阅读与分享。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "📜"
       },
       "image-stitcher": {
         "name": "图片拼接",
         "description": "将多张图片按顺序拼接为一张长图，支持纵向、横向与对齐方式。",
-        "category": "图像工具",
+        "category": "图片",
         "icon": "🧩"
       },
       "pdf-to-jpg": {
         "name": "PDF转JPG",
         "description": "将 PDF 文档的每一页转换为 JPG 图片，可打包为 ZIP 下载。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🖼️"
       },
       "pdf-to-png": {
         "name": "PDF转PNG",
         "description": "将 PDF 文档的每一页转换为 PNG 图片，可打包为 ZIP 下载。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🖼️"
       },
       "docx-to-jpg": {
         "name": "DOCX转JPG",
         "description": "将 Word 文档的每一页转换为 JPG 图片，可打包为 ZIP 下载。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "📄"
       },
       "docx-to-png": {
         "name": "DOCX转PNG",
         "description": "将 Word 文档的每一页转换为 PNG 图片，可打包为 ZIP 下载。",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "📄"
       },
       "morse-code": {
         "name": "摩尔斯电码翻译器",
         "description": "将文本与摩尔斯电码即时互转",
-        "category": "Text",
+        "category": "文字",
         "icon": "📡"
       },
       "reverse-text": {
         "name": "文本反转生成器",
         "description": "即时反转字符、单词或行序",
-        "category": "Text",
+        "category": "文字",
         "icon": "↔"
       },
       "px-to-rem": {
         "name": "PX 转 REM 换算器",
         "description": "像素与 rem 互转，支持自定义基准字号",
-        "category": "Developer",
+        "category": "开发者",
         "icon": "Rem"
       },
       "password-strength": {
         "name": "密码强度检测器",
         "description": "即时检测密码强度并给出评分与建议",
-        "category": "Utility",
+        "category": "实用工具",
         "icon": "🔒"
       },
       "color-text-image": {
         "name": "彩色文字图片",
         "description": "生成彩色文字图片，可自定义文字、颜色、字号与背景。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🌈"
       },
       "email-image": {
         "name": "邮箱图片生成器",
         "description": "将邮箱地址转为图片，防止被垃圾邮件爬虫抓取。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "✉️"
       },
       "excel-img": {
         "name": "Excel 图片提取",
         "description": "提取 Excel 工作簿中嵌入的全部图片并一键下载。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📊"
       },
       "exif-cleaner": {
         "name": "EXIF 清理器",
         "description": "重新编码图片，清除 EXIF、GPS 与设备元数据，保护隐私。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🧹"
       },
       "gif-edit": {
         "name": "GIF 帧编辑器",
         "description": "逐帧编辑 GIF 动图：排序、删除、复制帧并调整播放速度。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🎞️"
       },
       "heic": {
         "name": "HEIC 转 JPG/PNG",
         "description": "在浏览器中直接将 HEIC/HEIF 照片转换为 JPG 或 PNG。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📱"
       },
       "icon-size-generator": {
         "name": "多尺寸图标生成器",
         "description": "从一张图片生成 16 至 512 像素的图标，适用于应用、favicon 与 Chrome 扩展。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📱"
       },
       "image-alpha-invert": {
         "name": "透明度反转",
         "description": "反转 PNG 图片的透明度——透明与可见区域互换。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "◐"
       },
       "image-auto-trim": {
         "name": "图片自动裁剪",
         "description": "自动去除图片四周的透明边缘或纯色边框。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "✂️"
       },
       "image-background": {
         "name": "图片加背景",
         "description": "一键为透明 PNG 图片添加纯色背景，适配微信暗黑模式等场景。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🎨"
       },
       "image-clear": {
         "name": "图像内容清除",
         "description": "清除图像全部内容，替换为纯色或完全透明。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🧽"
       },
       "image-color-replace": {
         "name": "颜色替换",
         "description": "将图片中的一种颜色替换为另一种颜色，或设为透明，支持吸管取色。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🔄"
       },
       "image-coord-marker": {
         "name": "图片坐标标记",
         "description": "点击图片添加带编号的坐标标记，并可下载标记后的图片。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📍"
       },
       "image-date-watermark": {
         "name": "图片日期水印",
         "description": "批量为图片添加日期水印，可自定义格式、位置与样式。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📅"
       },
       "image-dpi": {
         "name": "图片 DPI 修改",
         "description": "重写 PNG 图片的 DPI 元数据（如 300 DPI）用于打印，不改变像素。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📏"
       },
       "image-file-size": {
         "name": "图片文件大小调整",
         "description": "重新压缩图片以达到目标 KB 大小，尺寸保持不变。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "⚖️"
       },
       "image-format-converter": {
         "name": "图片格式转换器",
         "description": "批量将图片在 PNG、JPG 与 WebP 之间互转，完全在浏览器本地运行。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🔁"
       },
       "image-margin": {
         "name": "图片加边距",
         "description": "为图片四周添加透明或彩色边距，适合做相框与留白效果。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🖼️"
       },
       "image-region-mask": {
         "name": "区域马赛克/模糊",
         "description": "拖拽选中区域并应用马赛克或模糊，隐藏图片中的敏感内容。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🎭"
       },
       "image-slice": {
         "name": "图片切割器",
         "description": "将图片沿水平或垂直方向均等切割为多张小图，可逐个下载 PNG。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🔪"
       },
       "img-padding": {
         "name": "图片平铺",
         "description": "将小图片平铺填充生成大图，制作无缝壁纸或图案。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🧱"
       },
       "img-size": {
         "name": "强制改图片尺寸",
         "description": "将图片调整为精确宽高，支持强制拉伸与画质控制。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📐"
       },
       "ppt-img": {
         "name": "PPT 图片提取",
         "description": "提取 PowerPoint 演示文稿中嵌入的全部图片并一键下载。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📽️"
       },
       "qrcode-batch": {
         "name": "批量二维码生成器",
         "description": "一次为整批文本或网址生成二维码，并可打包下载为 zip。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🗂️"
       },
       "screenshot-beautify": {
         "name": "截图美化",
         "description": "为截图添加背景色、内边距、圆角、边框与阴影效果。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🖼️"
       },
       "screenshot-markup": {
         "name": "截图标注",
         "description": "在截图上添加矩形、圆形、箭头、直线与文字标注。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "✏️"
       },
       "solid-color-image": {
         "name": "纯色图片生成器",
         "description": "几秒生成任意颜色、任意尺寸的纯色背景图片。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🟦"
       },
       "svg-path": {
         "name": "SVG 路径预览",
         "description": "粘贴 SVG 路径并即时预览形状，可调整描边、填充与粗细。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📐"
       },
       "svg-preview": {
         "name": "SVG 预览",
         "description": "粘贴 SVG 代码，在浏览器中即时预览渲染效果。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🔍"
       },
       "svg-to-image": {
         "name": "SVG 转图片",
         "description": "将 SVG 代码转换为 PNG、JPG 或 WebP，支持预览并获取 Base64 编码。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🧩"
       },
       "text-logo": {
         "name": "文字 Logo 生成器",
         "description": "几秒生成简约文字 Logo，可自定义文字、颜色、字号与背景。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🔤"
       },
       "web-icon": {
         "name": "网站图标获取",
         "description": "输入域名，一键获取并下载任意网站的 favicon 图标。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "🌐"
       },
       "wifi-qrcode": {
         "name": "WiFi 二维码",
         "description": "生成分享 WiFi 密码的二维码，扫码即可连接网络。",
-        "category": "图片工具",
+        "category": "图片",
         "icon": "📶"
       },
       "audio-cutter": {
         "name": "音频剪切",
         "description": "在线剪切 MP3/WAV 音频，可视化波形选区，导出 MP3 或 WAV。",
-        "category": "音频工具",
+        "category": "音频",
         "icon": "✂️"
       },
       "audio-merge": {
         "name": "音频合并",
         "description": "将多段音频按顺序合并成一首，导出为 MP3 或 WAV。",
-        "category": "音频工具",
+        "category": "音频",
         "icon": "🎚️"
       },
       "audio-player": {
         "name": "音频播放",
         "description": "在浏览器中查看任意音频文件的波形图并直接试听播放。",
-        "category": "音频工具",
+        "category": "音频",
         "icon": "🎧"
       },
       "hz": {
         "name": "频率音频生成",
         "description": "生成任意频率的正弦波、方波、锯齿波或三角波音频，可下载 WAV。",
-        "category": "音频工具",
+        "category": "音频",
         "icon": "🔊"
       },
       "white-noise": {
         "name": "白噪音生成器",
         "description": "生成白噪音、粉红噪音或棕噪音助眠专注，可下载 WAV 文件。",
-        "category": "音频工具",
+        "category": "音频",
         "icon": "🌫️"
       },
       "alarm": {
         "name": "闹钟",
         "description": "在指定时间或 N 分钟后设置闹钟提醒。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "⏰"
       },
       "answer-book": {
         "name": "答案之书",
         "description": "心中默念问题，翻开书得到随机答案。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🔮"
       },
       "bank-card-validate": {
         "name": "银行卡校验",
         "description": "使用 Luhn 算法校验银行卡号。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "💳"
       },
       "blood-type": {
         "name": "血型遗传",
         "description": "根据父母血型预测子女可能的血型。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🩸"
       },
       "calendar": {
         "name": "全年日历",
         "description": "生成全年日历图片，可下载打印。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🗓️"
       },
       "click-speed": {
         "name": "点击速度测试",
         "description": "测试你在 10 秒内能点击多少次。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🖱️"
       },
       "coin-flip": {
         "name": "抛硬币",
         "description": "虚拟抛硬币，记录正反面统计结果。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🪙"
       },
       "color-blindness-test": {
         "name": "色盲测试",
         "description": "通过石原式色觉测试图进行自测。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "👁️"
       },
       "date-calculator": {
         "name": "日期计算器",
         "description": "计算日期差或推算加天后的日期。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🧮"
       },
       "day-of-week": {
         "name": "星期查询",
         "description": "查询任意日期是星期几。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "📆"
       },
       "day-of-year": {
         "name": "第几天",
         "description": "查询某个日期是当年的第几天。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "📅"
       },
       "dice-roller": {
         "name": "掷骰子",
         "description": "一次性掷 1-10 个骰子，立即显示总和。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🎲"
       },
       "expiration": {
         "name": "保质期计算",
         "description": "根据生产日期与保质期计算过期日期。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🏷️"
       },
       "group-randomizer": {
         "name": "名单随机分组",
         "description": "将名单随机分成若干小组，支持按组数或每组人数分组。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "👥"
       },
       "hearing-test": {
         "name": "听力测试",
         "description": "测试你的耳朵能听到的最高频率。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "👂"
       },
       "height-predict": {
         "name": "身高预测",
         "description": "根据父母身高预测孩子身高。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "📏"
       },
       "keycode": {
         "name": "按键码查询",
         "description": "按下任意按键查看 keyCode 与按键事件信息。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "⌨️"
       },
       "monte-carlo-pi": {
         "name": "蒙特卡洛圆周率",
         "description": "通过向圆形随机撒点估算圆周率。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "📐"
       },
       "online-clock": {
         "name": "在线时钟",
         "description": "大屏时钟，显示 Unix 时间戳与 ISO 时间。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🕐"
       },
       "pi-digits": {
         "name": "圆周率查询",
         "description": "生成并搜索圆周率百万位数字。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🥧"
       },
       "random-picker": {
         "name": "随机抽签",
         "description": "从名单中随机抽取一个或多个名字。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🎯"
       },
       "reaction-time": {
         "name": "反应速度测试",
         "description": "测试你的反应速度有多快。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "⚡"
       },
       "schulte-grid": {
         "name": "舒尔特方格",
         "description": "按顺序点击 1-N 数字，训练注意力。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🔢"
       },
       "text-reader": {
         "name": "文本阅读",
         "description": "粘贴文本，以大字舒适排版阅读。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "📖"
       },
       "text-to-image": {
         "name": "文字转图片",
         "description": "将多行文字渲染为 PNG 图片。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🖼️"
       },
       "vcf-generator": {
         "name": "通讯录生成",
         "description": "将姓名+手机号列表生成通讯录 VCF 文件。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "📇"
       },
       "web-shortcut": {
         "name": "网址快捷方式",
         "description": "为任意网址生成 .url 快捷方式文件。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🔗"
       },
       "world-clock": {
         "name": "世界时钟",
         "description": "查看全球 16 个城市的当前时间。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🌍"
       },
       "zip-viewer": {
         "name": "ZIP 文件查看",
         "description": "不解压即可查看 ZIP 包内文件列表。",
-        "category": "生活工具",
+        "category": "生活",
         "icon": "🗜️"
       }
     },
@@ -2518,7 +2550,7 @@
       },
       "title": "AI 图片检测器",
       "description": "检测图片是否由 AI 生成——C2PA 凭证、生成器签名、元数据和频域分析。一切都在浏览器本地完成，图片不会被上传。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "ai 图片检测",
         "检测图片是否ai生成",
@@ -2671,7 +2703,7 @@
       },
       "title": "AI消除笔",
       "description": "点击照片中想移除的路人、杂物或文字，AI 消除笔会自动精准选中并修复该区域，让物体干净地消失。全部在浏览器本地运行。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "ai消除笔",
         "消除笔在线使用",
@@ -4283,7 +4315,7 @@
       "metadata": {
         "title": "视频去水印工具",
         "description": "去除任意时长视频中的水印，无需上传，免费使用。",
-        "category": "Design"
+        "category": "设计"
       },
       "title": "视频去水印工具",
       "description": "免费去除任意视频中的水印。支持智能移除和模糊模式。无需上传，无需注册，全部在浏览器中运行。",
@@ -4441,7 +4473,7 @@
       "metadata": {
         "title": "图片去水印工具",
         "description": "免费去除照片中的水印，无需注册，无限制，100% 私密。",
-        "category": "Design"
+        "category": "设计"
       },
       "title": "图片去水印工具",
       "description": "免费去除照片中的水印。无需注册，无限制。您的图片不会离开浏览器——所有处理都在本地完成。",
@@ -4580,7 +4612,7 @@
       "metadata": {
         "title": "二维码生成器",
         "description": "从任意文本或 URL 生成可自定义的二维码，支持 PNG 下载",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "二维码生成器",
       "description": "从任意文本或 URL 生成可自定义的二维码。可调整大小、颜色和纠错级别。",
@@ -4743,7 +4775,7 @@
       },
       "title": "二维码识别器",
       "description": "从图片或截图中读取二维码内容，提取 URL、文本、WiFi 凭据等。无需上传，全部在浏览器中运行。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "二维码识别",
         "二维码扫描",
@@ -4835,11 +4867,11 @@
       "metadata": {
         "title": "二维码文件传输 - 离线在设备间传输文件",
         "description": "使用动态二维码在两个设备之间传输文件和文本。发送端屏幕显示一串动态二维码，接收端摄像头扫描并本地重建文件——无需网络、无需上传、完全离线。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "二维码文件传输",
       "description": "通过一串动态二维码在设备间传输文件和文本。一个屏幕发出二维码流，另一个设备的摄像头扫描并本地重建文件——无需网络、无服务器、不进行任何上传。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "二维码文件传输",
         "二维码传文件",
@@ -4997,7 +5029,7 @@
       },
       "title": "人脸检测器",
       "description": "自动检测照片中的人脸并绘制边界框与置信度分数。AI 模型完全在浏览器中运行。",
-      "category": "Design",
+      "category": "设计",
       "keywords": [
         "人脸检测",
         "识别照片中的人脸",
@@ -5096,7 +5128,7 @@
       "metadata": {
         "title": "调色板生成器",
         "description": "生成精美的随机配色方案，支持锁定颜色并导出。",
-        "category": "Design"
+        "category": "设计"
       },
       "title": "调色板生成器",
       "description": "生成精美的 5 色调色板。锁定喜欢的颜色，按空格键重新生成。",
@@ -5224,7 +5256,7 @@
       "metadata": {
         "title": "CSS 渐变生成器",
         "description": "可视化构建线性、径向和圆锥 CSS 渐变。",
-        "category": "Design"
+        "category": "设计"
       },
       "title": "CSS 渐变生成器",
       "description": "使用可视化编辑器构建线性、径向和圆锥 CSS 渐变。",
@@ -5351,7 +5383,7 @@
       "metadata": {
         "title": "CSS 阴影生成器",
         "description": "通过实时可视化编辑器设计 CSS 盒子阴影效果。",
-        "category": "Design"
+        "category": "设计"
       },
       "title": "盒阴影生成器",
       "description": "使用实时可视化编辑器设计 CSS 盒阴影。添加多个阴影，调整偏移、模糊和扩展。",
@@ -5906,7 +5938,7 @@
       },
       "title": "图片转 GIF 制作器",
       "description": "将多张图片合成为动画 GIF。可添加多张照片、设置帧延迟和尺寸、调整帧顺序。无需上传，全部在浏览器中运行。",
-      "category": "Design",
+      "category": "设计",
       "keywords": [
         "图片转gif",
         "gif制作",
@@ -6014,7 +6046,7 @@
       },
       "title": "GIF 拆帧工具",
       "description": "提取 GIF 中的所有帧为独立图片。可将每帧导出为 PNG、WEBP 或 JPEG，或一次性打包下载为 ZIP。无需上传，全部在浏览器中运行。",
-      "category": "Design",
+      "category": "设计",
       "keywords": [
         "gif拆帧",
         "gif转图片",
@@ -6747,7 +6779,7 @@
       "metadata": {
         "title": "正则表达式测试器",
         "description": "使用实时匹配测试和调试正则表达式",
-        "category": "Developer",
+        "category": "开发者",
         "keywords": [
           "正则测试",
           "正则表达式测试",
@@ -6893,7 +6925,7 @@
       "metadata": {
         "title": "Markdown 预览",
         "description": "编写 Markdown 并实时预览渲染的 HTML",
-        "category": "Developer",
+        "category": "开发者",
         "keywords": [
           "markdown 预览",
           "markdown 编辑器",
@@ -7433,7 +7465,7 @@
       "metadata": {
         "title": "电子签名制作工具 - 免费在线工具",
         "description": "通过手写、输入文字或上传图片创建电子签名。下载为 PNG 或 SVG。免费、无需注册、100% 私密。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "电子签名制作工具",
       "description": "通过手写、输入文字或上传图片创建电子签名。下载为 PNG 或 SVG。免费、无需注册、100% 私密。",
@@ -7655,7 +7687,7 @@
       "metadata": {
         "title": "JSON 格式化工具",
         "description": "美化、压缩和验证 JSON，带语法高亮",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "json 格式化",
@@ -7790,7 +7822,7 @@
       "metadata": {
         "title": "Base64 编码器",
         "description": "将文本和文件编码和解码为 Base64",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "base64 编码器",
@@ -7917,7 +7949,7 @@
       "metadata": {
         "title": "Base64 转图片转换器",
         "description": "将 Base64 字符串一键转换为图片。粘贴 Base64 数据即可实时预览，并可下载为 PNG、JPEG、GIF、WebP 或 SVG。免费且私密。",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "base64转图片",
@@ -8148,7 +8180,7 @@
       "metadata": {
         "title": "UUID 生成器",
         "description": "批量或逐个生成 UUID（v4、v7）",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "uuid 生成器",
@@ -8394,7 +8426,7 @@
       "metadata": {
         "title": "图片颜色选择器",
         "description": "从上传的图片中拾取颜色",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "图片取色器",
@@ -8512,7 +8544,7 @@
       "metadata": {
         "title": "宽高比计算器",
         "description": "计算图片和视频的宽高比",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "宽高比计算器",
@@ -8736,7 +8768,7 @@
       "metadata": {
         "title": "Claude Code 文本格式化器",
         "description": "清理杂乱的终端与 Claude Code 输出，去除 ANSI 颜色码、行号与控制字符。",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "claude code 格式化",
@@ -8965,7 +8997,7 @@
       "metadata": {
         "title": "图片压缩工具",
         "description": "压缩图片，最高可达 90%，可调节质量",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "图像压缩器",
@@ -9106,7 +9138,7 @@
       "metadata": {
         "title": "图片调整大小工具",
         "description": "使用社交媒体预设调整图片大小",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "图像尺寸调整",
@@ -9225,7 +9257,7 @@
       "metadata": {
         "title": "图片格式转换器",
         "description": "在 20+ 种图片格式之间转换：JPG、PNG、WebP、SVG、HEIC、GIF、BMP、TIFF、ICO",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "文件格式转换",
@@ -9360,7 +9392,7 @@
       },
       "title": "音频转换器",
       "description": "在 MP3、WAV、FLAC、OGG、M4A、OPUS、AIFF 之间转换音频文件，可调整比特率与质量。完全在你的浏览器中运行——无需上传、无需注册。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "音频转换器",
         "在线转换音频",
@@ -9474,7 +9506,7 @@
       },
       "title": "视频转换器",
       "description": "在 MP4、WebM、AVI、MOV、GIF 之间转换视频文件，可调整质量与分辨率后下载。完全在你的浏览器中运行——无需上传、无需注册。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "视频转换器",
         "在线转换视频",
@@ -9594,7 +9626,7 @@
       },
       "title": "文档转换器",
       "description": "在 Markdown、HTML、Word（DOCX）、ODT、EPUB、LaTeX、reStructuredText、Org Mode、AsciiDoc 之间转换文档。由 Pandoc 驱动——完全在你的浏览器中运行，无需上传。",
-      "category": "Productivity",
+      "category": "效率",
       "keywords": [
         "文档转换器",
         "docx 转 markdown",
@@ -9687,7 +9719,7 @@
       "metadata": {
         "title": "背景移除工具",
         "description": "使用 AI 即时移除图片背景，100% 免费，无需上传，在浏览器中运行。",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "背景移除器",
@@ -9821,11 +9853,11 @@
       "metadata": {
         "title": "文档对比（Word/PDF）",
         "description": "在浏览器中对比两份 Word、PDF 或文本文档，逐行高亮差异。",
-        "category": "Productivity"
+        "category": "效率"
       },
       "title": "文档对比",
       "description": "上传两份文档（Word .docx、PDF 或纯文本），立即高亮显示新增、删除与未变行。所有处理均在浏览器本地完成，文档不会上传到任何服务器。",
-      "category": "Productivity",
+      "category": "效率",
       "labels": {
         "fileA": "文档 A（原版）",
         "fileB": "文档 B（修改版）",
@@ -9936,7 +9968,7 @@
       "metadata": {
         "title": "文本差异对比工具",
         "description": "比较两段文本并高亮显示差异，免费在线差异对比工具。",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "差异检查器",
@@ -10026,7 +10058,7 @@
       "metadata": {
         "title": "玻璃拟态效果生成器",
         "description": "使用实时可视化编辑器创建毛玻璃 CSS 效果，调整模糊、透明度、边框。",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "玻璃态生成器",
@@ -10120,7 +10152,7 @@
       "metadata": {
         "title": "CSS Clip Path 生成器",
         "description": "使用预设形状和自定义多边形可视化创建 CSS clip-path 形状。",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "CSS clip-path 生成器",
@@ -10220,7 +10252,7 @@
       "metadata": {
         "title": "CSS 加载动画生成器",
         "description": "生成纯 CSS 加载旋转器和动画，自定义并复制 HTML + CSS。",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "CSS 加载器生成器",
@@ -10318,7 +10350,7 @@
       "metadata": {
         "title": "HTML 压缩工具",
         "description": "压缩 HTML 以减小文件大小",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "html 压缩器",
@@ -10418,7 +10450,7 @@
       "metadata": {
         "title": "CSS 压缩工具",
         "description": "压缩 CSS 以减小文件大小",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "css 压缩器",
@@ -10518,7 +10550,7 @@
       "metadata": {
         "title": "JavaScript 压缩工具",
         "description": "压缩 JavaScript 以减小文件大小",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "js 压缩器",
@@ -10618,7 +10650,7 @@
       "metadata": {
         "title": "Favicon 生成器",
         "description": "从图片生成多种尺寸的 favicon",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "favicon 生成器",
@@ -10720,7 +10752,7 @@
       "metadata": {
         "title": "颜色对比度检查器",
         "description": "检查颜色对比度是否符合 WCAG 无障碍标准",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "颜色对比度检查器",
@@ -10814,7 +10846,7 @@
       "metadata": {
         "title": "文本大小写转换器",
         "description": "在不同大小写之间转换文本：大写、小写、标题、句子",
-        "category": "Text"
+        "category": "文字"
       },
       "keywords": [
         "文本大小写转换",
@@ -10908,7 +10940,7 @@
       "metadata": {
         "title": "时间戳转换器",
         "description": "在 Unix 时间戳和人类可读日期之间转换",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "时间戳转换器",
@@ -11020,7 +11052,7 @@
       "metadata": {
         "title": "哈希生成器",
         "description": "从文本生成 MD5、SHA-1、SHA-256 等哈希值",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "哈希生成器",
@@ -11121,7 +11153,7 @@
       "metadata": {
         "title": "JWT 解码器",
         "description": "解码和检查 JSON Web Token（JWT），支持签名验证",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "jwt 解码器",
@@ -11223,7 +11255,7 @@
       "metadata": {
         "title": "URL 编码器",
         "description": "编码或解码 URL 和查询字符串参数",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "url 编码器",
@@ -11327,7 +11359,7 @@
       "metadata": {
         "title": "Cron 表达式生成器",
         "description": "可视化 Cron 表达式生成器，带人类可读输出",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "cron 生成器",
@@ -11430,7 +11462,7 @@
       "metadata": {
         "title": "SVG Blob 形状生成器",
         "description": "生成有机 SVG blob 形状",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "SVG blob 生成器",
@@ -11523,7 +11555,7 @@
       "metadata": {
         "title": "SVG 波浪生成器",
         "description": "生成用于背景和分隔线的 SVG 波浪图案",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "SVG 波浪生成器",
@@ -11622,7 +11654,7 @@
       "metadata": {
         "title": "图片转 Base64",
         "description": "将图片转换为 Base64 数据 URL",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "图像转 Base64",
@@ -11718,7 +11750,7 @@
       "metadata": {
         "title": "条形码生成器",
         "description": "生成各种格式的条形码",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "条形码生成器",
@@ -11811,7 +11843,7 @@
       "metadata": {
         "title": "HTML 实体编码器",
         "description": "编码和解码文本中的 HTML 实体",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "html 实体编码器",
@@ -11910,7 +11942,7 @@
       "metadata": {
         "title": "Chmod 权限计算器",
         "description": "使用 chmod 可视化计算 Unix 文件权限",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "chmod 计算器",
@@ -12005,7 +12037,7 @@
       "metadata": {
         "title": "颜色色阶生成器",
         "description": "生成任意颜色的色阶和色调",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "颜色阴影生成器",
@@ -12093,7 +12125,7 @@
       "metadata": {
         "title": "图片裁剪工具",
         "description": "将图片裁剪到特定尺寸和宽高比",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "图像裁剪",
@@ -12191,7 +12223,7 @@
       "metadata": {
         "title": "Meta 标签生成器",
         "description": "生成用于 SEO 和社交媒体的 HTML meta 标签",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "meta 标签生成器",
@@ -12294,7 +12326,7 @@
       "metadata": {
         "title": "Robots.txt 生成器",
         "description": "为您的网站生成 robots.txt 文件",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "robots.txt 生成器",
@@ -12391,7 +12423,7 @@
       "metadata": {
         "title": "新拟态效果生成器",
         "description": "使用可视化编辑器创建新拟态 CSS 效果",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "新拟态生成器",
@@ -12490,7 +12522,7 @@
       "metadata": {
         "title": "JSON 转 CSV",
         "description": "将 JSON 数组转换为 CSV 格式",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "json 转 csv",
@@ -12587,7 +12619,7 @@
       "metadata": {
         "title": "占位图生成器",
         "description": "生成自定义尺寸和颜色的占位图",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "占位图像生成器",
@@ -12680,7 +12712,7 @@
       "metadata": {
         "title": "CSS 文字阴影生成器",
         "description": "可视化生成 CSS text-shadow 效果",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "CSS 文本阴影生成器",
@@ -12771,7 +12803,7 @@
       "metadata": {
         "title": "CSS Flexbox 生成器",
         "description": "可视化 CSS Flexbox 生成器，带实时预览",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "CSS Flexbox 生成器",
@@ -12863,7 +12895,7 @@
       "metadata": {
         "title": "CSS Grid 生成器",
         "description": "可视化 CSS Grid 生成器，带实时预览",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "CSS Grid 生成器",
@@ -13144,7 +13176,7 @@
       "metadata": {
         "title": "URL Slug 生成器",
         "description": "从文本生成 URL 友好的 slug",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "url slug 生成器",
@@ -13237,7 +13269,7 @@
       "metadata": {
         "title": "EXIF 查看器",
         "description": "查看图片的 EXIF 元数据",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "exif 查看器",
@@ -13422,7 +13454,7 @@
       "metadata": {
         "title": "OG 预览工具",
         "description": "预览 Open Graph 和 Twitter Card meta 标签",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "og 预览",
@@ -13523,7 +13555,7 @@
       "metadata": {
         "title": "CSS 圆角生成器",
         "description": "可视化生成 CSS border-radius 值",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "CSS 圆角生成器",
@@ -13613,7 +13645,7 @@
       "metadata": {
         "title": "颜色转换器",
         "description": "在 HEX、RGB、HSL 等格式之间转换颜色",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "颜色转换器",
@@ -13700,7 +13732,7 @@
       "metadata": {
         "title": "HTML 表格生成器",
         "description": "使用类似电子表格的编辑器可视化生成 HTML 表格",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "HTML 表格生成器",
@@ -13791,7 +13823,7 @@
       "metadata": {
         "title": "CSS 贝塞尔曲线生成器",
         "description": "可视化 CSS cubic-bezier 缓动函数生成器",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "CSS 贝塞尔曲线生成器",
@@ -13962,7 +13994,7 @@
       "metadata": {
         "title": "CSS 背景图案生成器",
         "description": "生成 CSS 背景图案",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "CSS 背景图案生成器",
@@ -14056,7 +14088,7 @@
       "metadata": {
         "title": "图片滤镜工具",
         "description": "对图片应用 CSS 滤镜并预览结果",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "图像滤镜",
@@ -14156,7 +14188,7 @@
       "metadata": {
         "title": "JSON 验证器",
         "description": "验证 JSON 语法并提供详细错误报告",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "json 验证器",
@@ -14257,7 +14289,7 @@
       "metadata": {
         "title": "像素画编辑器",
         "description": "使用基于网格的编辑器创建像素画",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "像素艺术生成器",
@@ -20071,7 +20103,7 @@
       "metadata": {
         "title": "域名 Whois 查询",
         "description": "免费查询域名的注册商、创建/到期时间、状态与 DNS 服务器",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "whois 查询",
@@ -20179,7 +20211,7 @@
       "metadata": {
         "title": "IP 地址查询",
         "description": "查询 IP 地址的归属组织、CIDR 网段、国家与网络类型，支持查看本机 IP",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "ip 查询",
@@ -20281,7 +20313,7 @@
       "metadata": {
         "title": "二进制转换器",
         "description": "在文本和二进制之间转换",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "二进制转换器",
@@ -20384,7 +20416,7 @@
       "metadata": {
         "title": "颜色混合器",
         "description": "将两种或更多颜色混合在一起",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "颜色混合器",
@@ -20474,7 +20506,7 @@
       "metadata": {
         "title": "CSS Transform 生成器",
         "description": "可视化生成 CSS transform 属性",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "CSS 变换生成器",
@@ -21358,11 +21390,11 @@
       "metadata": {
         "title": "PDF 合并 - 免费在线工具",
         "description": "免费在线合并多个 PDF 文件。在浏览器中调整顺序并合并 PDF，无需上传，无需注册。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "PDF 合并",
       "description": "免费在线合并多个 PDF 文件。在浏览器中调整顺序并合并 PDF，无需上传，无需注册。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "pdf 合并",
         "合并 pdf",
@@ -21434,11 +21466,11 @@
       "metadata": {
         "title": "PDF 压缩 - 免费在线工具",
         "description": "免费在线压缩 PDF 文件大小。通过降低图片质量在浏览器中压缩 PDF，无需上传，无需注册。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "PDF 压缩",
       "description": "免费在线压缩 PDF 文件大小。通过降低图片质量在浏览器中压缩 PDF，无需上传，无需注册。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "pdf 压缩",
         "压缩 pdf",
@@ -21520,11 +21552,11 @@
       "metadata": {
         "title": "PDF 拆分 - 免费在线工具",
         "description": "免费在线从 PDF 中提取指定页面。输入页码范围后在浏览器中下载新 PDF，无需上传，无需注册。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "PDF 拆分",
       "description": "免费在线从 PDF 中提取指定页面。输入页码范围后在浏览器中下载新 PDF，无需上传，无需注册。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "pdf 拆分",
         "拆分 pdf",
@@ -21616,11 +21648,11 @@
       "metadata": {
         "title": "JPG 转 PDF - 免费在线工具",
         "description": "免费在线将 JPG 图片转换为 PDF。在浏览器中将多张 JPG 合并为一个 PDF，无需上传，无需注册。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "JPG 转 PDF",
       "description": "免费在线将 JPG 图片转换为 PDF。在浏览器中将多张 JPG 合并为一个 PDF，无需上传，无需注册。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "jpg 转 pdf",
         "jpeg 转 pdf",
@@ -21692,11 +21724,11 @@
       "metadata": {
         "title": "PNG 转 PDF - 免费在线工具",
         "description": "免费在线将 PNG 图片转换为 PDF。在浏览器中将多张 PNG 合并为一个 PDF，无需上传，无需注册。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "PNG 转 PDF",
       "description": "免费在线将 PNG 图片转换为 PDF。在浏览器中将多张 PNG 合并为一个 PDF，无需上传，无需注册。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "png 转 pdf",
         "图片转 pdf",
@@ -21856,7 +21888,7 @@
       "metadata": {
         "title": "均值中位数众数计算器",
         "description": "根据数字列表计算均值、中位数和众数，同时显示个数和总和。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "平均值中位数众数计算器",
@@ -21942,7 +21974,7 @@
       "metadata": {
         "title": "进制转换器",
         "description": "在二进制、八进制、十进制、十六进制和 36 进制之间即时转换数字。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "进制转换器",
@@ -22021,7 +22053,7 @@
       "metadata": {
         "title": "平方根计算器",
         "description": "计算实数和负数的平方根，支持复数结果。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "平方根计算器",
@@ -22103,7 +22135,7 @@
       "metadata": {
         "title": "标准差计算器",
         "description": "计算样本或总体数据集的标准差和方差。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "标准差计算器",
@@ -22194,7 +22226,7 @@
       "metadata": {
         "title": "打字速度测试",
         "description": "测试打字速度，显示 WPM、CPM 和准确率。60 秒倒计时，含示例文本。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "keywords": [
         "打字速度测试",
@@ -27182,7 +27214,7 @@
       "metadata": {
         "title": "SAVE 与 REPAYE 计算器",
         "description": "比较美国联邦 SAVE 和 REPAYE 两种按收入还款的学生贷款计划。",
-        "category": "Finance"
+        "category": "金融"
       },
       "keywords": [
         "免费在线工具",
@@ -27289,7 +27321,7 @@
       "metadata": {
         "title": "欧姆定律计算器",
         "description": "根据电压、电流、电阻、功率中任意两个值，计算其余两个。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "免费在线工具",
@@ -27401,7 +27433,7 @@
       "metadata": {
         "title": "视频加水印工具",
         "description": "免费在线给视频添加文字或图片水印，浏览器本地用 FFmpeg 处理，无需上传。",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "视频加水印",
@@ -27522,7 +27554,7 @@
       "metadata": {
         "title": "图片加水印工具",
         "description": "给单张或批量图片添加文字/图片水印，位置、大小、透明度、平铺均可自由控制。",
-        "category": "Design"
+        "category": "设计"
       },
       "keywords": [
         "图片加水印",
@@ -27636,7 +27668,7 @@
       "metadata": {
         "title": "Emoji 表情工具",
         "description": "浏览、搜索并复制免费的开源 Unicode 表情，无需安装、无需注册，任何设备都能用。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "keywords": [
         "emoji表情",
@@ -28055,7 +28087,7 @@
       },
       "title": "视频裁剪工具",
       "description": "上传视频，拖拽选择起止时间，快速无损剪切或精确重编码输出 MP4 片段。所有处理都在浏览器本地完成，视频不会上传。",
-      "category": "视频工具",
+      "category": "视频",
       "keywords": [
         "视频裁剪",
         "视频剪切",
@@ -28156,7 +28188,7 @@
       },
       "title": "视频合并工具",
       "description": "上传多个视频，拖动调整顺序，一键合并为一个 MP4 视频。编码一致的视频可无损快速合并，所有处理在浏览器本地完成。",
-      "category": "视频工具",
+      "category": "视频",
       "keywords": [
         "视频合并",
         "视频拼接",
@@ -28256,7 +28288,7 @@
       },
       "title": "视频变速工具",
       "description": "上传视频，选择或拖动速度（0.25x–4x），一键生成变速视频。音频通过 atempo 处理，音调保持不变。所有处理在浏览器本地完成。",
-      "category": "视频工具",
+      "category": "视频",
       "keywords": [
         "视频变速",
         "视频加速",
@@ -28348,7 +28380,7 @@
       },
       "title": "字幕烧录工具",
       "description": "上传视频和字幕文件（SRT/ASS/VTT），一键把字幕烧录到画面中，可选用自定义字体。所有处理在浏览器本地完成，视频不会上传。",
-      "category": "视频工具",
+      "category": "视频",
       "keywords": [
         "字幕烧录",
         "字幕嵌入",
@@ -28588,7 +28620,7 @@
       },
       "title": "图片转 3D 浮雕",
       "description": "根据图片明暗生成 3D 浮雕模型，支持 3D 交互预览，并导出 GLB 或 STL 文件，全程在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "图片转3d",
         "3d浮雕",
@@ -28686,7 +28718,7 @@
       },
       "title": "图片转黑白版画",
       "description": "一键将彩色照片转换为黑白版画风格。通过精准的阈值算法去除灰度过渡，只保留纯黑与纯白，模拟木刻版画、丝网版画或老式印刷品效果。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "黑白版画",
         "图片转版画",
@@ -28783,7 +28815,7 @@
       },
       "title": "图片浮雕效果",
       "description": "一键将照片转换为浮雕效果。通过像素差值算法精准提取图片的边缘和轮廓，赋予其逼真的石雕或金属压花质感。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "浮雕",
         "浮雕效果",
@@ -28877,7 +28909,7 @@
       "metadata": {
         "title": "证件照制作",
         "description": "将人像照片一键制作成护照、签证证件照：选择国际标准规格与背景颜色，用缩放和偏移微调构图，下载可打印的高清 PNG。所有处理都在浏览器本地完成。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "keywords": [
         "证件照",
@@ -28985,11 +29017,11 @@
       "metadata": {
         "title": "替换背景 - 免费在线工具",
         "description": "移除照片背景并替换为纯色、渐变、自定义图片或原图模糊效果。AI 驱动，完全在浏览器中运行。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "替换背景",
       "description": "移除任意照片的背景，替换为纯色、渐变、自定义图片或原图模糊效果。AI 抠图与所有渲染都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "替换背景",
         "换背景",
@@ -29099,11 +29131,11 @@
       "metadata": {
         "title": "面部模糊 - 在线人脸打码保护隐私",
         "description": "自动检测并模糊照片中的人脸以保护隐私。模糊强度可调，完全在浏览器中运行。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "面部模糊",
       "description": "自动检测照片中的所有人脸并进行模糊处理，强度可调。在公开发布图片前进行隐私保护的最佳选择。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "人脸模糊",
         "面部打码",
@@ -29200,11 +29232,11 @@
       "metadata": {
         "title": "人脸裁剪 - 从照片自动裁剪人脸",
         "description": "自动检测人脸并将每个人脸裁剪为方形图片，留白可调。支持单个或 ZIP 打包下载。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "人脸裁剪",
       "description": "自动检测照片中的每张人脸并裁剪为干净的方形图片。调整人脸周围留白，可单个下载或一次性打包为 ZIP。完全在浏览器中运行。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "人脸裁剪",
         "自动裁剪人脸",
@@ -29302,11 +29334,11 @@
       "metadata": {
         "title": "图片描述生成 - AI 图片描述工具",
         "description": "使用浏览器内运行的 AI 视觉模型自动为任意图片生成自然语言描述。免费且隐私安全。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "图片描述生成",
       "description": "上传任意图片，使用 AI 视觉语言模型在浏览器内生成自然语言描述。适用于无障碍、替代文本和整理照片库。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "图片描述",
         "图片描述生成",
@@ -29400,11 +29432,11 @@
       "metadata": {
         "title": "图片分类 - AI 识别照片中的物体",
         "description": "上传任意照片，查看 Top 5 预测类别（ImageNet）与置信度分数。完全在浏览器中运行。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "图片分类",
       "description": "使用基于 1000 个 ImageNet 类别训练的 MobileNetV2 模型识别照片中的内容。查看 Top 5 预测与置信度——所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "图片分类",
         "图像识别",
@@ -29499,11 +29531,11 @@
       "metadata": {
         "title": "NSFW 内容检测 - AI 内容安全检查工具",
         "description": "使用完全在浏览器内运行的神经网络自动检测图片中的不适宜工作场所内容。免费且隐私安全。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "NSFW 内容检测",
       "description": "使用 NSFWJS 神经网络检查任意图片是否含不适宜工作场所的内容。查看每个类别（中性、色情、动漫、性感、插画）的概率与明确结论。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "NSFW 检测",
         "成人内容检测",
@@ -29608,11 +29640,11 @@
       "metadata": {
         "title": "黑白照片上色 - AI 黑白照片上色工具",
         "description": "使用浏览器内运行的 AI 模型自动为黑白照片添加真实色彩。免费且隐私安全。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "黑白照片上色",
       "description": "用真实的 AI 上色让老旧黑白照片重现生机。上传灰度照片并下载上色版本——所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "黑白照片上色",
         "照片上色",
@@ -29708,11 +29740,11 @@
       "metadata": {
         "title": "图片降噪 - 在线去除照片噪点",
         "description": "免费在线去除照片噪点和颗粒。中值滤波算法，支持强度调节，完全在浏览器中处理，隐私安全。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "图片降噪",
       "description": "自动去除照片中的噪点、颗粒与压缩伪影，让图像更干净清晰。使用中值滤波算法，在降噪的同时较好地保留边缘细节。所有处理都在浏览器本地完成，图片不会上传。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "图片降噪",
         "照片降噪",
@@ -29811,11 +29843,11 @@
       "metadata": {
         "title": "去模糊 - 在线锐化模糊照片",
         "description": "免费在线锐化模糊照片，恢复清晰细节。拉普拉斯锐化卷积，支持强度与迭代次数调节，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "去模糊",
       "description": "锐化模糊或失焦的照片，恢复细节与轮廓。工具采用拉普拉斯锐化卷积并支持多次迭代，让轻度模糊的照片重新清晰起来。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "去模糊",
         "照片锐化",
@@ -29910,11 +29942,11 @@
       "metadata": {
         "title": "反锐化掩模 - 在线图片锐化工具",
         "description": "免费在线反锐化掩模（Unsharp Mask）锐化工具。经典摄影锐化算法，可调数量与半径，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "反锐化掩模",
       "description": "应用经典的摄影锐化算法——反锐化掩模（Unsharp Mask）。通过从原图中减去模糊版本得到细节掩模，再叠加回图像，精确控制锐化数量与半径。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "反锐化掩模",
         "锐化",
@@ -30012,11 +30044,11 @@
       "metadata": {
         "title": "白平衡 - 在线校正照片色偏",
         "description": "免费在线白平衡校正工具。灰度世界算法自动消除色偏，让白色恢复纯白，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "白平衡",
       "description": "自动校正照片的色偏，让白色恢复纯白、色彩回归自然。工具使用灰度世界算法分析全图色彩并自动计算校正增益，无需手动选择灰点。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "白平衡",
         "色偏校正",
@@ -30109,11 +30141,11 @@
       "metadata": {
         "title": "自动对比度 - 在线优化照片层次",
         "description": "免费在线自动对比度工具。直方图拉伸自动优化明暗分布，可调裁剪比例，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "自动对比度",
       "description": "一键优化照片的对比度与动态范围。工具分析图像的直方图，自动拉伸明暗分布，并支持裁剪极端像素避免过曝与死黑。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "自动对比度",
         "对比度调整",
@@ -30210,11 +30242,11 @@
       "metadata": {
         "title": "直方图均衡化 - 在线提升图像对比度",
         "description": "免费在线直方图均衡化工具。重新分布像素亮度，让暗部与亮部细节更明显，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "直方图均衡化",
       "description": "应用直方图均衡化算法重新分布图像像素的亮度分布，在亮度域拉伸对比度，让暗部与亮部的细节都更明显。可调强度，完全在浏览器本地处理。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "直方图均衡化",
         "直方图均衡",
@@ -30307,11 +30339,11 @@
       "metadata": {
         "title": "HDR 色调映射 - 在线重现高动态范围",
         "description": "免费在线 HDR 色调映射工具。Reinhard 算法重现明暗细节，可调曝光与强度，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "HDR 色调映射",
       "description": "应用 HDR 色调映射算法（Reinhard 算子），压缩高动态范围场景的明暗差异，让亮部不过曝、暗部有细节。可调曝光与强度，完全在浏览器本地处理。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "HDR",
         "色调映射",
@@ -30405,11 +30437,11 @@
       "metadata": {
         "title": "去雾 - 在线去除照片雾霾",
         "description": "免费在线去雾/除雾工具。暗通道先验算法去除雾气与灰霾，还原清晰通透的风景，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "去雾/除雾",
       "description": "去除照片中的雾气、灰霾与雾霾导致的低对比度，还原清晰通透的画面。工具基于暗通道先验算法估计并补偿大气散射。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "去雾",
         "除雾",
@@ -30504,11 +30536,11 @@
       "metadata": {
         "title": "旋转和翻转 - 在线旋转翻转图片",
         "description": "免费在线旋转、水平翻转、垂直镜像图片。任意角度旋转，支持 90° 快捷旋转，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "旋转和翻转",
       "description": "在线旋转、水平翻转或垂直镜像图片。支持任意角度（滑块精细调节）和 90° 快捷旋转，随时切换水平/垂直翻转。所有处理都在浏览器本地完成，图片不会上传。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "旋转图片",
         "翻转图片",
@@ -30607,11 +30639,11 @@
       "metadata": {
         "title": "负片/反转 - 在线反转图片颜色",
         "description": "免费在线将图片颜色反转，模拟胶片负片效果。一键生成，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "负片/反转",
       "description": "将图片的每个像素颜色取反（255 减去原值），模拟胶片负片的视觉效果。黑白照片会呈现 X 光片质感，彩色照片产生有趣的互补色效果。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "负片",
         "反转",
@@ -30704,11 +30736,11 @@
       "metadata": {
         "title": "马赛克/像素化 - 在线像素化图片",
         "description": "免费在线将图片像素化，制作马赛克或 8-bit 复古像素风格。块大小可调，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "马赛克/像素化",
       "description": "将图片按色块平均处理成马赛克或复古像素风格。调整块大小即可控制像素化程度——小方块适合复古 8-bit 效果，大色块适合隐私遮挡。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "马赛克",
         "像素化",
@@ -30802,11 +30834,11 @@
       "metadata": {
         "title": "油画效果 - 在线将照片转油画",
         "description": "免费在线将照片转换为油画风格。模拟笔触质感，半径与色阶可调，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "油画效果",
       "description": "将照片转换为油画风格。算法在每个像素邻域内统计出现频率最高的量化颜色，模拟画家的笔触涂抹效果。可调节笔触半径与颜色量化级别，完全在浏览器本地处理。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "油画",
         "油画效果",
@@ -30900,11 +30932,11 @@
       "metadata": {
         "title": "边缘检测 - 在线提取图片轮廓线稿",
         "description": "免费在线边缘检测工具。Sobel 算子提取物体轮廓，生成黑白线稿，阈值可调，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "边缘检测",
       "description": "使用 Sobel 算子检测图片中的边缘，提取物体轮廓线条，生成黑白线稿效果。阈值可调以控制线条密度。所有处理都在浏览器本地完成，图片不会上传。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "边缘检测",
         "线稿",
@@ -30998,11 +31030,11 @@
       "metadata": {
         "title": "圆角 - 在线给图片加圆角",
         "description": "免费在线为图片添加圆角，输出透明背景 PNG。圆角半径可调，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "圆角",
       "description": "为图片四个角添加圆角，输出带透明背景的 PNG 图片，方便用于网页、应用图标或设计素材。圆角半径可自由调节。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "圆角",
         "图片圆角",
@@ -31095,11 +31127,11 @@
       "metadata": {
         "title": "添加边框 - 在线给图片加边框",
         "description": "免费在线为图片添加彩色边框。宽度与颜色可调，支持自定义颜色，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "添加边框",
       "description": "为图片四周添加彩色边框，宽度 2-200px 可调，内置 10 种常用颜色并支持自定义取色。适合照片装裱、证件照或社交分享。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "添加边框",
         "图片边框",
@@ -31194,11 +31226,11 @@
       "metadata": {
         "title": "投影 - 在线为图片添加投影",
         "description": "免费在线为图片添加柔和投影效果。模糊、偏移可调，完全在浏览器中处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "投影",
       "description": "为图片添加柔和的下落阴影，让图片看起来更有立体感。模糊程度与水平和垂直偏移均可调节。所有处理都在浏览器本地完成，图片不会上传。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "投影",
         "图片投影",
@@ -31293,11 +31325,11 @@
       "metadata": {
         "title": "图片直方图 - 在线查看图片 RGB 与亮度分布",
         "description": "免费在线查看图片直方图：RGB 三通道与亮度分布一目了然。纯浏览器本地处理。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "图片直方图",
       "description": "查看图片的 RGB 通道与亮度直方图，了解图片的曝光与色彩分布。所有分析都在浏览器本地完成，图片不会上传。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "图片直方图",
         "直方图",
@@ -31386,11 +31418,11 @@
       "metadata": {
         "title": "颜色提取 - 从图片中提取主色调色板",
         "description": "免费在线从图片中自动提取主要颜色，生成和谐色板。数量可调，点击即可复制色值。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "颜色提取",
       "description": "自动分析图片中的主要颜色，生成主色调色板。可选择 4-16 种颜色数量，点击色块即可复制 HEX 色值。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "颜色提取",
         "调色板",
@@ -31481,11 +31513,11 @@
       "metadata": {
         "title": "图片感知哈希 - 在线计算 pHash 哈希值",
         "description": "免费在线计算图片感知哈希（pHash），64 位哈希值可用于相似图片比对与去重。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "图片感知哈希（pHash）",
       "description": "计算图片的感知哈希（pHash）。感知哈希将图片内容压缩为 64 位指纹，相似的图片会得到相近的哈希值，常用于相似图片检测与去重。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "感知哈希",
         "phash",
@@ -31577,11 +31609,11 @@
       "metadata": {
         "title": "图片对比 - 在线对比两张图片的差异",
         "description": "免费在线对比两张图片的差异：差异百分比一目了然，并可生成红色高亮差异可视化图。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "图片对比",
       "description": "上传两张图片，逐像素对比并计算差异比例，同时生成红色高亮差异图，帮你快速定位两张图片的差别所在。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "图片对比",
         "图片差异",
@@ -31674,11 +31706,11 @@
       "metadata": {
         "title": "查找重复图片 - 在线批量检测相似图片",
         "description": "免费在线批量检测重复或相似的图片，基于感知哈希自动分组，帮你清理重复文件。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "查找重复图片",
       "description": "一次上传多张图片，工具会计算每张图片的感知哈希并自动找出重复或高度相似的图片分组，方便你清理磁盘空间。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "查找重复图片",
         "重复图片检测",
@@ -31770,11 +31802,11 @@
       "metadata": {
         "title": "RGB通道分离 - 在线分离图片红绿蓝通道",
         "description": "免费在线将图片分离为红、绿、蓝三个颜色通道，逐通道查看与下载。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "RGB通道分离",
       "description": "将图片分离为红、绿、蓝三个独立颜色通道并排显示。每个通道仅保留对应颜色的亮度信息，适合学习色彩原理或制作通道素材。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "RGB通道分离",
         "颜色通道",
@@ -31867,11 +31899,11 @@
       "metadata": {
         "title": "网页图片优化 - 在线批量压缩图片",
         "description": "免费在线批量压缩图片并转换为 WebP、JPEG、PNG 格式，减小体积、提升网页加载速度。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "网页图片优化",
       "description": "批量压缩图片并转换为 Web 友好格式（WebP、JPEG、PNG），支持调整最大宽度与压缩质量，显著减小图片体积。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "网页图片优化",
         "图片压缩",
@@ -31965,11 +31997,11 @@
       "metadata": {
         "title": "批量重命名 - 在线批量重命名文件",
         "description": "免费在线批量重命名文件，支持查找替换、正则、序号编号、大小写转换等规则链，实时预览后打包为 ZIP 下载。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "批量重命名",
       "description": "按可配置的规则批量重命名任意类型的文件。将查找替换、正则、序号编号、大小写转换、插入和清理等规则组合成规则链，实时预览每个新文件名，再打包为 ZIP 下载或复制重命名列表。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "批量重命名",
         "文件重命名",
@@ -32201,11 +32233,11 @@
       "metadata": {
         "title": "图片转ASCII艺术 - 在线图片转字符画",
         "description": "免费在线将图片转换为 ASCII 字符艺术，支持宽度与反色设置，可复制或下载为文本。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "图片转ASCII艺术",
       "description": "将图片转换为由字符组成的 ASCII 艺术，可调整输出宽度与反色模式，支持复制到剪贴板或下载为文本文件。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "图片转ASCII",
         "字符画",
@@ -32297,11 +32329,11 @@
       "metadata": {
         "title": "CSS精灵图生成器 - 在线合并图片为精灵图",
         "description": "免费在线将多张图片合并为 CSS 精灵图，支持水平、垂直与网格布局，自动生成 CSS 代码。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "CSS精灵图生成器",
       "description": "将多张图片合并为一张精灵图（Sprite），自动生成对应 CSS 背景定位代码，支持水平、垂直与网格三种布局。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "CSS精灵图",
         "精灵图生成器",
@@ -32397,11 +32429,11 @@
       "metadata": {
         "title": "OG图片生成器 - 在线制作社交分享封面图",
         "description": "免费在线生成 1200×630 的 Open Graph 分享图片，支持自定义标题、描述、颜色与背景。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "OG图片生成器",
       "description": "为社交媒体与网页链接分享制作 1200×630 的 Open Graph 图片，支持自定义标题、描述、站点名、配色与背景图片。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "OG图片",
         "Open Graph图片",
@@ -32500,11 +32532,11 @@
       "metadata": {
         "title": "Blob ↔ DataURL 互转 - 在线图片格式转换",
         "description": "免费在线获取图片的 Blob URL 与 Base64 DataURL，一键复制，便于嵌入或调试。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "Blob ↔ DataURL 互转",
       "description": "上传图片后同时生成 Blob URL 与 Base64 DataURL，一键复制任意一种，方便在代码中嵌入或调试图片资源。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "Blob URL",
         "DataURL",
@@ -32590,11 +32622,11 @@
       "metadata": {
         "title": "图片相似度 - 在线计算图片相似度与PSNR",
         "description": "免费在线计算两张图片的相似度百分比、MSE 均方误差与 PSNR 峰值信噪比。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "图片相似度",
       "description": "上传两张图片，计算像素级相似度百分比、均方误差（MSE）与峰值信噪比（PSNR），可调节容差阈值。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "图片相似度",
         "图片对比",
@@ -32686,11 +32718,11 @@
       "metadata": {
         "title": "视频帧提取 - 在线提取视频帧",
         "description": "免费在线按时间间隔从视频中提取帧，可保存为 PNG/JPEG 或打包为 ZIP 下载。",
-        "category": "视频工具"
+        "category": "视频"
       },
       "title": "视频帧提取",
       "description": "按时间间隔从视频中提取静态帧，以网格预览后逐张下载或打包为 ZIP。所有处理都在浏览器本地完成。",
-      "category": "视频工具",
+      "category": "视频",
       "keywords": [
         "视频帧提取",
         "提取视频帧",
@@ -32785,11 +32817,11 @@
       "metadata": {
         "title": "动画WebP - 在线视频转动画WebP",
         "description": "免费在线将视频转换为动画 WebP 图片，支持调整帧率、质量与宽度，支持无损压缩。",
-        "category": "视频工具"
+        "category": "视频"
       },
       "title": "动画WebP",
       "description": "将视频转换为动画 WebP 图片。支持调整帧率、画质与输出宽度，可开启无损压缩。动画 WebP 比 GIF 体积更小、画质更好。",
-      "category": "视频工具",
+      "category": "视频",
       "keywords": [
         "动画WebP",
         "webp动图",
@@ -32891,11 +32923,11 @@
       "metadata": {
         "title": "APNG制作 - 在线视频转APNG动图",
         "description": "免费在线将视频转换为动画 APNG 图片，支持调整帧率与宽度，无损画质。",
-        "category": "视频工具"
+        "category": "视频"
       },
       "title": "APNG制作",
       "description": "将视频转换为动画 APNG 图片。APNG 基于 PNG 无损格式，支持透明背景与无限循环，适合需要无损画质的场景。",
-      "category": "视频工具",
+      "category": "视频",
       "keywords": [
         "APNG",
         "apng制作",
@@ -32996,11 +33028,11 @@
       "metadata": {
         "title": "视频缩略图 - 在线生成视频缩略图网格",
         "description": "免费在线从视频生成缩略图网格（联系表），支持自定义行列数、缩略图宽度与时间戳。",
-        "category": "视频工具"
+        "category": "视频"
       },
       "title": "视频缩略图",
       "description": "从视频自动截取多帧，生成一张缩略图网格（联系表），可自定义行列数、缩略图宽度，并可标注每帧的时间戳。",
-      "category": "视频工具",
+      "category": "视频",
       "keywords": [
         "视频缩略图",
         "视频截图",
@@ -33093,11 +33125,11 @@
       "metadata": {
         "title": "视频抽帧转图片 - 在线视频帧提取转换器",
         "description": "免费在线从视频按时间间隔提取帧并转换为 PNG/JPEG/WebP 等多种图片格式，支持 MKV、AVI、FLV 等 20+ 视频格式。",
-        "category": "视频工具"
+        "category": "视频"
       },
       "title": "视频抽帧转图片",
       "description": "从视频按固定时间间隔提取帧，并转换为 PNG、JPEG、WebP、BMP、TIFF 等图片格式。基于 FFmpeg WebAssembly，支持 MKV、AVI、FLV、TS 等 20+ 视频容器格式，全部在浏览器本地完成。",
-      "category": "视频工具",
+      "category": "视频",
       "keywords": [
         "视频抽帧",
         "视频转图片",
@@ -33207,11 +33239,11 @@
       "metadata": {
         "title": "PDF转长图 - 在线PDF合并为一张长图",
         "description": "免费在线将 PDF 的所有页面按顺序合并为一张纵向长图，支持选择清晰度与输出格式，无需上传。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "PDF转长图",
       "description": "将 PDF 的所有页面按顺序合并为一张纵向长图，便于整篇连续阅读与分享。支持选择清晰度（1x-3x）与 PNG/JPEG 输出，所有处理都在浏览器本地完成。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "PDF转长图",
         "PDF合并长图",
@@ -33316,11 +33348,11 @@
       "metadata": {
         "title": "图片拼接 - 在线多图拼接长图",
         "description": "免费在线将多张图片按顺序拼接为长图，支持纵向、横向拼接与居中对齐、拉伸对齐，无需上传。",
-        "category": "图像工具"
+        "category": "图片"
       },
       "title": "图片拼接",
       "description": "将多张图片按顺序拼接成一张长图，支持纵向、横向两种方向，居中对齐或拉伸对齐，可选择背景色与输出格式。所有处理都在浏览器本地完成。",
-      "category": "图像工具",
+      "category": "图片",
       "keywords": [
         "图片拼接",
         "图片合并长图",
@@ -33436,11 +33468,11 @@
       "metadata": {
         "title": "PDF转JPG - 在线将PDF每页转成JPG",
         "description": "免费在线将 PDF 文档的每一页转换为 JPG 图片，可选择清晰度，支持逐张下载或打包为 ZIP。无需上传。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "PDF转JPG",
       "description": "将 PDF 文档的每一页转换为 JPG 图片。支持调节清晰度（1x-3x），所有转换都在浏览器本地完成，文件不会上传到服务器。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "PDF转JPG",
         "PDF转图片",
@@ -33538,11 +33570,11 @@
       "metadata": {
         "title": "PDF转PNG - 在线将PDF每页转成PNG",
         "description": "免费在线将 PDF 文档的每一页转换为 PNG 图片，可选择清晰度，支持逐张下载或打包为 ZIP。无需上传。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "PDF转PNG",
       "description": "将 PDF 文档的每一页转换为 PNG 图片。支持调节清晰度（1x-3x），所有转换都在浏览器本地完成，文件不会上传到服务器。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "PDF转PNG",
         "PDF转图片",
@@ -33640,11 +33672,11 @@
       "metadata": {
         "title": "DOCX转JPG - 在线将Word每页转成JPG",
         "description": "免费在线将 Word 文档的每一页转换为 JPG 图片，可选择清晰度，支持逐张下载或打包为 ZIP。无需上传。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "DOCX转JPG",
       "description": "将 Word（DOCX）文档的每一页转换为 JPG 图片。支持调节清晰度（1x-3x），在浏览器本地渲染，文件不会上传到服务器。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "DOCX转JPG",
         "Word转JPG",
@@ -33742,11 +33774,11 @@
       "metadata": {
         "title": "DOCX转PNG - 在线将Word每页转成PNG",
         "description": "免费在线将 Word 文档的每一页转换为 PNG 图片，可选择清晰度，支持逐张下载或打包为 ZIP。无需上传。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "title": "DOCX转PNG",
       "description": "将 Word（DOCX）文档的每一页转换为 PNG 图片。支持调节清晰度（1x-3x），在浏览器本地渲染，文件不会上传到服务器。",
-      "category": "Utility",
+      "category": "实用工具",
       "keywords": [
         "DOCX转PNG",
         "Word转PNG",
@@ -33844,7 +33876,7 @@
       "metadata": {
         "title": "摩尔斯电码翻译器",
         "description": "将文本与摩尔斯电码互转，即时、免费、在浏览器本地运行。",
-        "category": "Text"
+        "category": "文字"
       },
       "keywords": [
         "摩尔斯电码翻译",
@@ -33937,7 +33969,7 @@
       "metadata": {
         "title": "文本反转生成器",
         "description": "即时反转任意文本——可反转字符、单词或行序。免费且私密。",
-        "category": "Text"
+        "category": "文字"
       },
       "keywords": [
         "文本反转",
@@ -34022,7 +34054,7 @@
       "metadata": {
         "title": "PX 转 REM 换算器",
         "description": "在像素（px）与 rem 之间换算，支持自定义根字号。免费的 CSS 单位转换工具。",
-        "category": "Developer"
+        "category": "开发者"
       },
       "keywords": [
         "px转rem",
@@ -34104,7 +34136,7 @@
       "metadata": {
         "title": "密码强度检测器",
         "description": "即时检测密码强度，给出评分、检查清单与改进建议。所有分析都在浏览器本地完成。",
-        "category": "Utility"
+        "category": "实用工具"
       },
       "keywords": [
         "密码强度",
@@ -34201,7 +34233,7 @@
       },
       "title": "彩色文字图片",
       "description": "几秒生成彩色文字图片。自定义文字、文字颜色、背景颜色与字号，即可下载 PNG。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "彩色文字图片",
         "文字图片生成器",
@@ -34262,7 +34294,7 @@
       },
       "title": "邮箱图片生成器",
       "description": "将邮箱地址转为图片，让垃圾邮件爬虫无法读取。可自定义字号与颜色，然后下载 PNG。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "邮箱图片",
         "邮箱转图片",
@@ -34317,7 +34349,7 @@
       },
       "title": "Excel 图片提取工具",
       "description": "提取 .xlsx 工作簿中嵌入的全部图片——图表、Logo、产品图等，可逐个下载或一键打包为 ZIP。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "excel 提取图片",
         "excel 图片提取器",
@@ -34373,7 +34405,7 @@
       },
       "title": "EXIF 清理器",
       "description": "重新编码图片以清除 EXIF、GPS 与设备元数据。对比前后文件大小，下载干净版 PNG。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "exif清理",
         "去除exif",
@@ -34439,7 +34471,7 @@
       },
       "title": "GIF 帧编辑器",
       "description": "逐帧拆分任意 GIF。排序、删除或复制帧，设置统一延迟，预览动画并下载编辑后的 GIF。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "gif编辑器",
         "gif帧编辑",
@@ -34504,7 +34536,7 @@
       },
       "title": "HEIC 转 JPG/PNG",
       "description": "将 iPhone 和 Android 的 HEIC/HEIF 照片转换为 JPG 或 PNG。所有处理都在浏览器本地完成——无需上传，除所选格式外无画质损失。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "heic 转 jpg",
         "heic 转 png",
@@ -34560,7 +34592,7 @@
       },
       "title": "多尺寸图标生成器",
       "description": "从一张图片生成 16 至 512 像素的图标。勾选所需尺寸即可逐个下载 PNG。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "图标生成器",
         "图标尺寸生成",
@@ -34622,7 +34654,7 @@
       },
       "title": "透明度反转",
       "description": "一键翻转 PNG 图片的透明度——透明与可见区域互换。适合蒙版、贴纸与 PNG 编辑。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "透明度反转",
         "反转alpha通道",
@@ -34675,7 +34707,7 @@
       },
       "title": "图片自动裁剪",
       "description": "一键去除图片四周的透明或纯色边缘，适合清理 PNG、截图和 Logo。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "图片自动裁剪",
         "去除透明边缘",
@@ -34732,7 +34764,7 @@
       },
       "title": "图片加背景",
       "description": "一键为透明 PNG 添加纯色背景，适配微信暗黑模式、贴纸或彩色卡片分享等场景。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "png加背景",
         "图片背景颜色",
@@ -34786,7 +34818,7 @@
       },
       "title": "图像内容清除工具",
       "description": "清除图片中的所有内容，用纯色或完全透明填充画布，并保持原始尺寸。适合制作占位图与蒙版。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "清除图像",
         "空白图片",
@@ -34839,7 +34871,7 @@
       },
       "title": "颜色替换",
       "description": "将图片中的一种颜色替换为另一种颜色，或设为透明。点击结果图可取色，再调整容差即可。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "图片颜色替换",
         "替换图片颜色",
@@ -34898,7 +34930,7 @@
       },
       "title": "图片坐标标记",
       "description": "点击图片任意位置即可添加带编号的坐标标记，显示精确像素坐标，并可下载标注后的图片。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "图片坐标标记",
         "图片添加坐标",
@@ -34951,7 +34983,7 @@
       },
       "title": "图片日期水印",
       "description": "一次为照片添加日期水印。选择日期格式、位置、字号与颜色，处理后打包下载为 zip。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "日期水印",
         "图片加日期",
@@ -35013,7 +35045,7 @@
       },
       "title": "图片 DPI 修改",
       "description": "重写 PNG 图片的 DPI 元数据（如 300 DPI），让打印软件按正确尺寸输出——像素保持不变。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "修改图片dpi",
         "png dpi修改",
@@ -35066,7 +35098,7 @@
       },
       "title": "图片文件大小调整",
       "description": "设置目标 KB 大小，工具会重新压缩图片使其尽可能接近目标——尺寸始终保持不变。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "图片文件大小调整",
         "压缩图片到指定大小",
@@ -35122,7 +35154,7 @@
       },
       "title": "图片格式转换器",
       "description": "一次将单张或多张图片在 PNG、JPG 与 WebP 之间互转，可调整 JPG 和 WebP 的质量，然后下载结果。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "图片格式转换",
         "png转jpg",
@@ -35177,7 +35209,7 @@
       },
       "title": "图片加边距",
       "description": "为图片四周添加透明或彩色边距，适合相框、留白与社交媒体排版。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "图片加边距",
         "图片加留白",
@@ -35233,7 +35265,7 @@
       },
       "title": "区域马赛克/模糊",
       "description": "拖拽选中图片任意区域，应用马赛克或模糊，隐藏人脸、车牌、文字等敏感细节。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "区域马赛克",
         "图片局部模糊",
@@ -35290,7 +35322,7 @@
       },
       "title": "图片切割器",
       "description": "将图片沿水平或垂直方向均等切割。可选 2–12 份并逐个下载 PNG。所有处理都在浏览器本地完成。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "图片切割",
         "切割图片",
@@ -35356,7 +35388,7 @@
       },
       "title": "图片平铺工具",
       "description": "将小图片平铺填充生成大图。设置输出宽高，图片将重复铺满整个区域，适合制作图案与壁纸。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "图片平铺",
         "图片填充",
@@ -35410,7 +35442,7 @@
       },
       "title": "强制改图片尺寸",
       "description": "将图片调整为精确宽高。保持纵横比或自由拉伸，调整输出画质，保存为 PNG、JPG 或 WebP。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "强制改尺寸",
         "图片精确缩放",
@@ -35465,7 +35497,7 @@
       },
       "title": "PPT 图片提取工具",
       "description": "提取 .pptx 演示文稿中嵌入的全部图片——照片、剪贴画、幻灯片背景等，可逐个下载或一键打包为 ZIP。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "ppt 提取图片",
         "pptx 图片提取器",
@@ -35521,7 +35553,7 @@
       },
       "title": "批量二维码生成器",
       "description": "一次为整批内容生成二维码。每行粘贴一条文本或网址，调整尺寸后即可逐个下载或打包为 zip。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "批量二维码",
         "多个二维码",
@@ -35577,7 +35609,7 @@
       },
       "title": "截图美化工具",
       "description": "将普通截图变成精致的展示图。添加背景色、内边距、圆角、边框与阴影，实时预览。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "截图美化",
         "截图加背景",
@@ -35634,7 +35666,7 @@
       },
       "title": "截图标注工具",
       "description": "几秒钟完成截图标注。绘制矩形、圆形、箭头、直线与文字，可调整颜色与描边粗细，下载最终结果。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "截图标注",
         "图片标注",
@@ -35696,7 +35728,7 @@
       },
       "title": "纯色图片生成器",
       "description": "几秒钟生成任意颜色、任意尺寸的纯色背景图片——适合占位图、缩略图和测试用图。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "纯色图片",
         "纯色背景生成",
@@ -35745,7 +35777,7 @@
       },
       "title": "SVG 路径预览",
       "description": "粘贴 SVG 路径（d 属性）并即时预览形状，可调整描边颜色、填充与粗细，并下载为 SVG。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "svg路径",
         "svg路径预览",
@@ -35796,7 +35828,7 @@
       },
       "title": "SVG 预览",
       "description": "粘贴任意 SVG 代码并预览渲染效果，实时编辑并下载为 .svg 文件。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "svg预览",
         "svg渲染",
@@ -35847,7 +35879,7 @@
       },
       "title": "SVG 转图片",
       "description": "粘贴 SVG 代码即可即时转换为 PNG、JPG 或 WebP。可调整缩放与质量，预览结果并复制 Base64 数据地址。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "svg转png",
         "svg转jpg",
@@ -35914,7 +35946,7 @@
       },
       "title": "文字 Logo 生成器",
       "description": "几秒生成简约文字 Logo。输入文字，选择颜色、字号与背景，即可下载透明或纯色背景的 PNG。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "文字logo生成器",
         "文字logo制作",
@@ -35975,7 +36007,7 @@
       },
       "title": "网站图标获取工具",
       "description": "几秒钟获取任意网站的 favicon。输入域名，预览图标并下载用于自己的项目。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "网站图标",
         "favicon下载",
@@ -36027,7 +36059,7 @@
       },
       "title": "WiFi 二维码生成器",
       "description": "将你的 WiFi 网络生成二维码。输入网络名称、密码和加密方式，朋友扫码即可连接。",
-      "category": "图片工具",
+      "category": "图片",
       "keywords": [
         "wifi二维码",
         "wifi二维码生成",
@@ -36083,7 +36115,7 @@
       },
       "title": "音频剪切",
       "description": "上传音频文件，在波形上拖动选择要保留的片段，即可导出为 MP3 或 WAV。所有处理都在浏览器本地完成。",
-      "category": "音频工具",
+      "category": "音频",
       "keywords": [
         "音频剪切",
         "mp3剪切",
@@ -36144,7 +36176,7 @@
       },
       "title": "音频合并",
       "description": "上传多段音频，按想要的顺序排列，然后合并成一首 MP3 或 WAV。所有处理都在浏览器本地完成。",
-      "category": "音频工具",
+      "category": "音频",
       "keywords": [
         "音频合并",
         "合并mp3",
@@ -36202,7 +36234,7 @@
       },
       "title": "音频播放",
       "description": "上传音频文件，查看波形、时长、采样率和声道数，然后直接在浏览器中试听。所有数据都留在本地。",
-      "category": "音频工具",
+      "category": "音频",
       "keywords": [
         "音频播放",
         "音频波形",
@@ -36259,7 +36291,7 @@
       },
       "title": "频率音频生成器",
       "description": "在 20 Hz 至 20 kHz 之间生成任意频率的纯音。选择波形、频率、时长和音量，试听效果后即可下载 WAV 文件。",
-      "category": "音频工具",
+      "category": "音频",
       "keywords": [
         "音频发生器",
         "正弦波生成",
@@ -36320,7 +36352,7 @@
       },
       "title": "白噪音生成器",
       "description": "在浏览器中直接生成白噪音、粉红噪音或棕噪音。选择噪音类型、时长和音量，试听后即可下载为 WAV 文件。",
-      "category": "音频工具",
+      "category": "音频",
       "keywords": [
         "白噪音生成器",
         "粉红噪音",
@@ -36379,7 +36411,7 @@
       },
       "title": "闹钟",
       "description": "设置一个在指定时间或 N 分钟后响铃的闹钟，时间到时会播放提示音提醒你。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "闹钟",
         "在线闹钟",
@@ -36431,7 +36463,7 @@
       },
       "title": "答案之书",
       "description": "在脑海中默念一个是否类问题，点击书页即可获得随机答案。一种有趣的做决定方式。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "答案之书",
         "随机答案",
@@ -36477,7 +36509,7 @@
       },
       "title": "银行卡校验",
       "description": "输入卡号，检测它是否通过 Luhn 校验和——这是支付网络用于发现输入错误的方法。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "银行卡校验",
         "luhn算法",
@@ -36527,7 +36559,7 @@
       },
       "title": "血型遗传",
       "description": "选择父亲与母亲的 ABO 血型，立即查看子女可能的血型以及不可能出现的血型。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "血型遗传",
         "子女血型",
@@ -36575,7 +36607,7 @@
       },
       "title": "全年日历",
       "description": "选择年份，将全年 12 个月绘制在同一张画布上。周末高亮显示，可下载为 PNG 图片。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "全年日历",
         "日历生成器",
@@ -36621,7 +36653,7 @@
       },
       "title": "点击速度测试",
       "description": "10 秒挑战：以最快速度点击，测出每秒点击数（CPS）。本次会话会记录你的最佳成绩。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "点击速度测试",
         "cps测试",
@@ -36672,7 +36704,7 @@
       },
       "title": "抛硬币",
       "description": "一键抛掷虚拟硬币，计数器会记录正反面次数，方便观察分布情况。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "抛硬币",
         "掷硬币",
@@ -36725,7 +36757,7 @@
       },
       "title": "色盲测试",
       "description": "数字隐藏在石原式色觉测试图中。尝试读出每个数字并核对答案，仅作快速自测。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "色盲测试",
         "石原测试",
@@ -36776,7 +36808,7 @@
       },
       "title": "日期计算器",
       "description": "两种实用模式：计算两个日期之间相差的天数、周数和月数；或为指定日期加上（减去）若干天。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "日期计算器",
         "日期差",
@@ -36829,7 +36861,7 @@
       },
       "title": "星期查询",
       "description": "选择任意日期，即可查看它是星期几——无论是今天、过去的生日，还是未来的节日。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "星期查询",
         "星期几",
@@ -36876,7 +36908,7 @@
       },
       "title": "第几天",
       "description": "选择日期，查看它是当年的第几天、该年总天数以及还剩多少天。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "第几天",
         "年度日序",
@@ -36925,7 +36957,7 @@
       },
       "title": "掷骰子",
       "description": "选择要掷的骰子数量（1-10 个），即可查看每个骰面与总和，适合桌游和跑团使用。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "掷骰子",
         "骰子",
@@ -36974,7 +37006,7 @@
       },
       "title": "保质期计算",
       "description": "输入生产日期与保质期天数，立即得到过期日期以及距离过期还剩多少天。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "保质期计算",
         "过期日期",
@@ -37026,7 +37058,7 @@
       },
       "title": "听力测试",
       "description": "播放 125Hz 到 16kHz 共 9 个频率的纯音，标记能听到的频率，找出你的耳朵可听到的最高频率。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "听力测试",
         "频率测试",
@@ -37075,7 +37107,7 @@
       },
       "title": "身高预测",
       "description": "输入父亲与母亲的身高以及孩子性别，使用常见预测公式估算孩子的成年身高。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "身高预测",
         "孩子身高",
@@ -37128,7 +37160,7 @@
       },
       "title": "按键码查询",
       "description": "按下键盘上的任意按键，即可查看它的 key、code、keyCode 与位置信息，是 Web 开发者的常用参考工具。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "按键码",
         "keycode",
@@ -37176,7 +37208,7 @@
       },
       "title": "蒙特卡洛圆周率",
       "description": "向正方形随机撒点，统计落在四分之一圆内的比例。该比例趋近 π/4，由此估算圆周率 π。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "蒙特卡洛圆周率",
         "估算圆周率",
@@ -37226,7 +37258,7 @@
       },
       "title": "在线时钟",
       "description": "实时时钟显示精确到秒的当前时间，以及 Unix 时间戳和 ISO 8601 时间，方便开发者与时间参照。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "在线时钟",
         "当前时间",
@@ -37272,7 +37304,7 @@
       },
       "title": "圆周率查询",
       "description": "使用 spigot 算法在浏览器中生成 10 到 10 万位圆周率，并可在结果中搜索任意数字序列。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "圆周率",
         "圆周率查询",
@@ -37324,7 +37356,7 @@
       },
       "title": "随机抽签",
       "description": "粘贴名单并选择抽取数量，即可随机抽取中奖者。适合课堂点名、抽奖和幸运抽选。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "随机抽签",
         "随机点名",
@@ -37374,7 +37406,7 @@
       },
       "title": "反应速度测试",
       "description": "经典反应测试：等屏幕变绿后立即点击。系统会记录最近 10 次结果并计算最佳与平均时间。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "反应速度测试",
         "反应力测试",
@@ -37425,7 +37457,7 @@
       },
       "title": "舒尔特方格",
       "description": "经典的注意力训练方格：1-N 的数字被打乱排列，按升序尽快点击即可。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "舒尔特方格",
         "注意力训练",
@@ -37475,7 +37507,7 @@
       },
       "title": "文本阅读",
       "description": "粘贴任意文本，切换到阅读模式：干净的排版，可调节字号与行距，阅读更舒适。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "文本阅读",
         "大字阅读",
@@ -37526,7 +37558,7 @@
       },
       "title": "文字转图片",
       "description": "输入或粘贴多行文字，渲染为 PNG 图片。可调整字号、文字颜色、背景色与内边距，最后下载结果。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "文字转图片",
         "文字转png",
@@ -37579,7 +37611,7 @@
       },
       "title": "通讯录生成",
       "description": "粘贴姓名与手机号列表（每行一个），下载 .vcf 文件即可直接导入手机通讯录。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "vcf生成",
         "通讯录生成",
@@ -37628,7 +37660,7 @@
       },
       "title": "网址快捷方式",
       "description": "输入网址（可选名称与图标），生成 Windows 的 .url 网络快捷方式文件。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "网址快捷方式",
         "url快捷方式",
@@ -37679,7 +37711,7 @@
       },
       "title": "世界时钟",
       "description": "一眼查看全球 16 个主要城市的当前当地时间，每秒自动刷新。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "世界时钟",
         "时区",
@@ -37722,7 +37754,7 @@
       },
       "title": "ZIP 文件查看",
       "description": "上传 ZIP 压缩包，立即列出包内所有文件及大小，无需解压，也不会向服务器上传任何内容。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "zip查看",
         "查看压缩包",
@@ -37771,7 +37803,7 @@
       },
       "title": "名单随机分组",
       "description": "粘贴一份名单，选择按组数还是按每组人数分组，即可一键随机分组成小组。",
-      "category": "生活工具",
+      "category": "生活",
       "keywords": [
         "随机分组",
         "名单分组",

@@ -630,6 +630,11 @@ Description: Browse, search and copy free Unicode emoji on any device.
 URL: https://www.toolkitlife.com/en/tools/address-generator
 Description: Generate realistic random addresses for 20+ countries worldwide.
 
+### Currency Converter
+
+URL: https://www.toolkitlife.com/en/tools/currency-converter
+Description: Convert between 40+ currencies with live exchange rates. Free & private.
+
 ### PDF to Long Image
 
 URL: https://www.toolkitlife.com/en/tools/pdf-long-image
@@ -1342,13 +1347,6 @@ Description: Generate a thumbnail grid (contact sheet) from a video, with option
 
 URL: https://www.toolkitlife.com/en/tools/video-to-images
 Description: Extract frames from videos at set intervals and save as multiple image formats; supports 20+ formats including MKV and AVI.
-
-## Utilities Tools
-
-### Currency Converter
-
-URL: https://www.toolkitlife.com/en/tools/currency-converter
-Description: Convert between 40+ currencies with live exchange rates. Free & private.
 
 ## Image Tools
 

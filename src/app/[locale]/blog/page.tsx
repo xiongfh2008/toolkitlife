@@ -70,31 +70,42 @@ export default async function BlogIndex({
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
-      {/* Blog + CollectionPage schema — plain <script> so it's in the SSR HTML */}
+      {/* Blog + BreadcrumbList schema — plain <script> so it's in the SSR HTML */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Blog",
-            name: t("title"),
-            description: t("description"),
-            url: `https://www.toolkitlife.com/${locale}/blog`,
-            inLanguage: locale,
-            isPartOf: {
-              "@type": "WebSite",
-              name: "ToolkitLife",
-              url: "https://www.toolkitlife.com",
-            },
-            blogPost: sortedPosts.map((post) => ({
-              "@type": "BlogPosting",
-              headline: pt(`${post.slug}.title`),
-              description: pt(`${post.slug}.description`),
-              url: `https://www.toolkitlife.com/${locale}/blog/${post.slug}`,
-              datePublished: post.datePublished,
-              dateModified: post.dateModified,
-              author: { "@type": "Person", name: post.author },
-            })),
+            "@graph": [
+              {
+                "@type": "Blog",
+                name: t("title"),
+                description: t("description"),
+                url: `https://www.toolkitlife.com/${locale}/blog`,
+                inLanguage: locale,
+                isPartOf: {
+                  "@type": "WebSite",
+                  name: "ToolkitLife",
+                  url: "https://www.toolkitlife.com",
+                },
+                blogPost: sortedPosts.map((post) => ({
+                  "@type": "BlogPosting",
+                  headline: pt(`${post.slug}.title`),
+                  description: pt(`${post.slug}.description`),
+                  url: `https://www.toolkitlife.com/${locale}/blog/${post.slug}`,
+                  datePublished: post.datePublished,
+                  dateModified: post.dateModified,
+                  author: { "@type": "Person", name: post.author },
+                })),
+              },
+              {
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://www.toolkitlife.com/${locale}` },
+                  { "@type": "ListItem", position: 2, name: t("title"), item: `https://www.toolkitlife.com/${locale}/blog` },
+                ],
+              },
+            ],
           }),
         }}
       />

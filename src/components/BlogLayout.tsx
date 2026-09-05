@@ -76,6 +76,16 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
       }
     : null;
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://www.toolkitlife.com/${locale}` },
+      { "@type": "ListItem", position: 2, name: t("breadcrumbBlog"), item: `https://www.toolkitlife.com/${locale}/blog` },
+      { "@type": "ListItem", position: 3, name: post.title, item: url },
+    ],
+  };
+
   return (
     <>
       {/* Structured data — plain <script> so JSON-LD is server-rendered in the
@@ -92,6 +102,11 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      <script
+        id={`schema-breadcrumb-${post.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
       <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
         <nav className="mb-8 text-sm text-zinc-500">

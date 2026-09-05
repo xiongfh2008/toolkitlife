@@ -6,12 +6,12 @@
 
 ToolkitLife is a free, privacy-first online toolbox. Every tool runs entirely in the user's browser with JavaScript and WebAssembly - files are never uploaded, there is no account system, and all tool pages are statically pre-rendered HTML that search and AI crawlers can read directly.
 
-The 374 tools are organized into 17 categories:
+The 374 tools are organized into 16 categories:
 
 - Marketing Tools (15)
 - Developer Tools (41)
 - Design Tools (34)
-- Utility Tools (40)
+- Utility Tools (41)
 - Text Tools (10)
 - Productivity Tools (4)
 - Finance Tools (64)
@@ -20,11 +20,10 @@ The 374 tools are organized into 17 categories:
 - Math Tools (5)
 - Legal Tools (10)
 - Media Tools (2)
-- Video Tools Tools (9)
-- Utilities Tools (1)
-- Image Tools Tools (76)
-- Audio Tools Tools (5)
-- Life Tools Tools (29)
+- Video Tools (9)
+- Image Tools (76)
+- Audio Tools (5)
+- Life Tools (29)
 
 Financial, health and legal calculators provide estimates for general information only and include a disclaimer - they are not professional advice.
 

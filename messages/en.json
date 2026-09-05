@@ -33,6 +33,7 @@
     "terms": "Terms",
     "blog": "Blog",
     "about": "About",
+    "contact": "Contact",
     "copyright": "Free tools, no signup, no data stored."
   },
   "notFound": {
@@ -68,6 +69,37 @@
       "Marketing": "Marketing",
       "Productivity": "Productivity",
       "Math": "Math"
+    },
+    "why": {
+        "title": "Why ToolkitLife",
+        "intro": "ToolkitLife is a collection of 374 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
+        "privacy": "Your files stay private: image, video and document tools process everything locally with <mdn>WebAssembly</mdn> — your data never leaves your device.",
+        "i18n": "The site is available in English, Chinese, Japanese, Korean and Russian, and every tool page includes a step-by-step guide plus answers to common questions."
+    },
+    "faq": {
+        "title": "Frequently asked questions",
+        "items": [
+            {
+                "question": "Is ToolkitLife free?",
+                "answer": "Yes. All 374 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
+            },
+            {
+                "question": "Are my files uploaded to a server?",
+                "answer": "No. Every tool runs entirely in your browser using JavaScript and WebAssembly. Files, text and images are processed locally and never sent to any server."
+            },
+            {
+                "question": "Do I need to create an account?",
+                "answer": "No. There is no account system — open a tool and use it. Favorites and recently used tools are stored only in your own browser."
+            },
+            {
+                "question": "Which devices and browsers are supported?",
+                "answer": "Any modern browser on desktop, tablet or phone — Chrome, Edge, Firefox and Safari. Tools adapt to your screen size, and nothing needs to be installed."
+            },
+            {
+                "question": "Are the calculators reliable?",
+                "answer": "They apply standard formulas and provide estimates for general information only. Financial, health and legal tools include a disclaimer and are not a substitute for professional advice."
+            }
+        ]
     },
     "tools": {
       "what-is-my-browser": {
@@ -1543,313 +1575,313 @@
       "video-trimmer": {
         "name": "Video Trimmer",
         "description": "Trim video clips online — lossless fast cut or precise re-encode. Free & private.",
-        "category": "Video Tools",
+        "category": "Video",
         "icon": "✂️"
       },
       "video-joiner": {
         "name": "Video Joiner",
         "description": "Merge multiple videos into one in order. Free & private.",
-        "category": "Video Tools",
+        "category": "Video",
         "icon": "🎬"
       },
       "video-speed-changer": {
         "name": "Video Speed Changer",
         "description": "Change video playback speed (0.25x–4x) online. Free & private.",
-        "category": "Video Tools",
+        "category": "Video",
         "icon": "⏩"
       },
       "video-subtitle-burner": {
         "name": "Subtitle Burner",
         "description": "Burn SRT/ASS/VTT subtitles into your video. Free & private.",
-        "category": "Video Tools",
+        "category": "Video",
         "icon": "💬"
       },
       "currency-converter": {
         "name": "Currency Converter",
         "description": "Convert between 40+ currencies with live exchange rates. Free & private.",
-        "category": "Utilities",
+        "category": "Utility",
         "icon": "💱"
       },
       "ai-image-detector": {
         "name": "AI Image Detector",
         "description": "Check if an image was AI-generated — C2PA, generator signatures, metadata & frequency analysis.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🤖"
       },
       "ai-object-eraser": {
         "name": "AI Object Eraser",
         "description": "Remove unwanted objects, people & text from photos with AI. Click an object to select it, then erase it — 100% private.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🪄"
       },
       "image-to-relief": {
         "name": "Image to 3D Relief",
         "description": "Turn any photo into a 3D relief — preview it and export GLB or STL. Free & private.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🧊"
       },
       "image-to-printmaking": {
         "name": "Image to Printmaking",
         "description": "Turn any photo into a black & white printmaking effect. Adjustable threshold, instant preview. Free & private.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🖨️"
       },
       "image-emboss": {
         "name": "Emboss Effect",
         "description": "Turn any photo into a stone-carved emboss effect. Adjustable strength, instant preview. Free & private.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🗿"
       },
       "id-photo-generator": {
         "name": "ID Photo Generator",
         "description": "Create passport & visa photos in one click — choose size & background, adjust framing. Free & private.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📷"
       },
       "background-replace": {
         "name": "Background Replace",
         "description": "Remove a photo's background and replace it with a solid color, gradient, another image, or blur. Free & private.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🖼️"
       },
       "face-blur": {
         "name": "Face Blur",
         "description": "Automatically blur faces in photos to protect privacy. Detect and blur faces with adjustable strength.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🙈"
       },
       "face-crop": {
         "name": "Face Crop",
         "description": "Automatically crop every face from a photo as a square image. Adjustable padding, batch download.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📷"
       },
       "image-caption": {
         "name": "Image Caption Generator",
         "description": "Generate a natural-language description of any image with an AI model that runs in your browser.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "💬"
       },
       "image-classify": {
         "name": "Image Classifier",
         "description": "Identify what's in any photo with an AI model. See the top 5 predicted categories and confidence scores.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🏷️"
       },
       "nsfw-detection": {
         "name": "NSFW Detection",
         "description": "Check if an image contains not-safe-for-work content with an AI model that runs in your browser.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🛡️"
       },
       "photo-colorize": {
         "name": "Photo Colorize",
         "description": "Bring old black & white photos to life with AI colorization. Runs entirely in your browser.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🎨"
       },
       "image-denoise": {
         "name": "Image Denoise",
         "description": "Automatically remove noise and grain from photos for a cleaner, sharper image.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "❄️"
       },
       "image-deblur": {
         "name": "Image Deblur",
         "description": "Sharpen blurry photos and restore crisp detail. Adjustable strength and iterations.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📸"
       },
       "unsharp-mask": {
         "name": "Unsharp Mask",
         "description": "The classic sharpening algorithm that enhances edge detail to make photos look crisper.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔍"
       },
       "white-balance": {
         "name": "White Balance",
         "description": "Automatically correct color casts in photos so whites return to pure white and colors look natural.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "⚖️"
       },
       "auto-contrast": {
         "name": "Auto Contrast",
         "description": "Optimize photo contrast and dynamic range in one click for more depth and clarity.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🎚️"
       },
       "histogram-equalize": {
         "name": "Histogram Equalization",
         "description": "Redistribute pixel brightness to boost contrast and bring out detail in shadows and highlights.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📊"
       },
       "hdr-tone-mapping": {
         "name": "HDR Tone Mapping",
         "description": "Apply HDR tone mapping to reveal highlight and shadow detail in high-contrast scenes.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🌅"
       },
       "dehaze": {
         "name": "Dehaze",
         "description": "Remove fog and haze from photos to restore clear, crisp landscapes.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🌫️"
       },
       "image-rotate-flip": {
         "name": "Rotate & Flip",
         "description": "Rotate, flip horizontally, or mirror your image vertically with one click.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔄"
       },
       "image-negative": {
         "name": "Negative/Invert",
         "description": "Invert image colors to create a film negative effect.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🎞️"
       },
       "image-pixelate": {
         "name": "Pixelate/Mosaic",
         "description": "Pixelate your image for a mosaic or retro 8-bit style.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🟩"
       },
       "image-oil-paint": {
         "name": "Oil Paint",
         "description": "Turn photos into oil paintings with realistic brushstrokes.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🖌️"
       },
       "image-edge-detect": {
         "name": "Edge Detection",
         "description": "Extract outlines from your image to create a line-art effect.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔲"
       },
       "image-rounded-corners": {
         "name": "Rounded Corners",
         "description": "Add rounded corners to your image and export a transparent-background PNG.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔘"
       },
       "image-border": {
         "name": "Add Border",
         "description": "Add colorful borders to your photos for framing or social sharing.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🖼️"
       },
       "image-shadow": {
         "name": "Drop Shadow",
         "description": "Add a soft shadow to your image for a more three-dimensional look.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🌑"
       },
       "image-histogram": {
         "name": "Image Histogram",
         "description": "View the RGB channel and brightness distribution of your image.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📊"
       },
       "image-palette": {
         "name": "Color Extractor",
         "description": "Automatically extract the dominant colors from an image to build a color palette.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🎨"
       },
       "image-phash": {
         "name": "Image Perceptual Hash",
         "description": "Compute the perceptual hash (pHash) of an image for similarity comparison.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🧬"
       },
       "image-compare": {
         "name": "Image Compare",
         "description": "Compare two images and generate a visualization of their differences.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "⚖️"
       },
       "duplicate-finder": {
         "name": "Duplicate Image Finder",
         "description": "Batch detect duplicate or similar images.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "👯"
       },
       "rgb-channel-split": {
         "name": "RGB Channel Split",
         "description": "Split an image into red, green, and blue color channels.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔴"
       },
       "image-web-optimizer": {
         "name": "Web Image Optimizer",
         "description": "Compress images in bulk and convert them to web-friendly formats.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🚀"
       },
       "batch-rename": {
         "name": "Batch Rename",
         "description": "Batch rename any type of files with rule chains and download them as a ZIP.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📝"
       },
       "image-to-ascii": {
         "name": "Image to ASCII Art",
         "description": "Convert an image into ASCII character art.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔤"
       },
       "css-sprite-generator": {
         "name": "CSS Sprite Generator",
         "description": "Combine multiple images into a sprite sheet and generate CSS.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🧩"
       },
       "og-image-generator": {
         "name": "OG Image Generator",
         "description": "Create 1200×630 OG images for social sharing.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🖼️"
       },
       "blob-dataurl": {
         "name": "Blob ↔ DataURL Converter",
         "description": "Get the Blob URL and Base64 DataURL of an image.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔗"
       },
       "image-similarity": {
         "name": "Image Similarity",
         "description": "Calculate the similarity, MSE, and PSNR of two images.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📊"
       },
       "video-frame-extractor": {
         "name": "Video Frame Extractor",
         "description": "Extract frames from a video at set intervals and download them as a ZIP.",
-        "category": "Video Tools",
+        "category": "Video",
         "icon": "🎞️"
       },
       "animated-webp": {
         "name": "Animated WebP",
         "description": "Convert a video into an animated WebP image.",
-        "category": "Video Tools",
+        "category": "Video",
         "icon": "🖼️"
       },
       "apng-maker": {
         "name": "APNG Maker",
         "description": "Convert a video into an animated APNG image.",
-        "category": "Video Tools",
+        "category": "Video",
         "icon": "✨"
       },
       "video-thumbnail": {
         "name": "Video Thumbnail",
         "description": "Generate a thumbnail grid (contact sheet) from a video, with optional timestamps.",
-        "category": "Video Tools",
+        "category": "Video",
         "icon": "🖼️"
       },
       "video-to-images": {
         "name": "Video to Images",
         "description": "Extract frames from videos at set intervals and save as multiple image formats; supports 20+ formats including MKV and AVI.",
-        "category": "Video Tools",
+        "category": "Video",
         "icon": "🎞️"
       },
       "pdf-long-image": {
@@ -1861,7 +1893,7 @@
       "image-stitcher": {
         "name": "Image Stitcher",
         "description": "Stitch multiple images into one long image with vertical or horizontal layouts and alignment options.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🧩"
       },
       "pdf-to-jpg": {
@@ -1915,403 +1947,403 @@
       "color-text-image": {
         "name": "Color Text Image",
         "description": "Generate a colorful text image with custom text, colors, font size and background.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🌈"
       },
       "email-image": {
         "name": "Email Image Generator",
         "description": "Turn an email address into an image to protect it from spam crawlers.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "✉️"
       },
       "excel-img": {
         "name": "Excel Image Extractor",
         "description": "Extract all images embedded in an Excel workbook and download them.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📊"
       },
       "exif-cleaner": {
         "name": "EXIF Cleaner",
         "description": "Re-encode an image to strip EXIF, GPS and device metadata for privacy.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🧹"
       },
       "gif-edit": {
         "name": "GIF Frame Editor",
         "description": "Edit GIF animations frame by frame: reorder, delete, duplicate and change speed.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🎞️"
       },
       "heic": {
         "name": "HEIC to JPG/PNG",
         "description": "Convert HEIC/HEIF photos to JPG or PNG right in your browser.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📱"
       },
       "icon-size-generator": {
         "name": "Multi-size Icon Generator",
         "description": "Generate icons in 16 to 512 px sizes from one image for apps, favicons and Chrome extensions.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📱"
       },
       "image-alpha-invert": {
         "name": "Alpha Invert",
         "description": "Invert the transparency of a PNG image — swap transparent and visible areas.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "◐"
       },
       "image-auto-trim": {
         "name": "Auto Trim Image",
         "description": "Automatically trim transparent edges or solid-color borders from an image.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "✂️"
       },
       "image-background": {
         "name": "Image Background",
         "description": "Add a solid background color to transparent PNG images in one click. Great for dark-mode adapters.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🎨"
       },
       "image-clear": {
         "name": "Image Content Clear",
         "description": "Clear all image content and replace it with a solid color or full transparency.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🧽"
       },
       "image-color-replace": {
         "name": "Color Replace",
         "description": "Replace one color in an image with another, or make it transparent. Pick colors with an eyedropper.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔄"
       },
       "image-coord-marker": {
         "name": "Image Coordinate Marker",
         "description": "Click on an image to add numbered coordinate markers, then download the result.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📍"
       },
       "image-date-watermark": {
         "name": "Date Watermark",
         "description": "Add a date watermark to photos in batches — pick the format, position and style.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📅"
       },
       "image-dpi": {
         "name": "Image DPI Changer",
         "description": "Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) for print without changing pixels.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📏"
       },
       "image-file-size": {
         "name": "Image File Size",
         "description": "Recompress an image to reach a target file size in KB, without changing dimensions.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "⚖️"
       },
       "image-format-converter": {
         "name": "Image Format Converter",
         "description": "Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔁"
       },
       "image-margin": {
         "name": "Image Margin",
         "description": "Add transparent or colored margin around an image. Perfect for framing and padding.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🖼️"
       },
       "image-region-mask": {
         "name": "Region Mask",
         "description": "Drag to select areas and apply mosaic or blur to hide sensitive parts of an image.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🎭"
       },
       "image-slice": {
         "name": "Image Slicer",
         "description": "Split an image into equal pieces horizontally or vertically. Download each slice as PNG.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔪"
       },
       "img-padding": {
         "name": "Image Tiler",
         "description": "Tile a small image across a large canvas to create a seamless wallpaper or pattern.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🧱"
       },
       "img-size": {
         "name": "Force Image Resize",
         "description": "Resize an image to exact width and height, with optional stretching and quality control.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📐"
       },
       "ppt-img": {
         "name": "PowerPoint Image Extractor",
         "description": "Extract all images embedded in a PowerPoint file and download them.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📽️"
       },
       "qrcode-batch": {
         "name": "Batch QR Code Generator",
         "description": "Generate QR codes for a whole list of texts or URLs at once and download them as a zip.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🗂️"
       },
       "screenshot-beautify": {
         "name": "Screenshot Beautifier",
         "description": "Add a background, padding, rounded corners, border and shadow to screenshots.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🖼️"
       },
       "screenshot-markup": {
         "name": "Screenshot Markup",
         "description": "Annotate screenshots with rectangles, circles, arrows, lines and text.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "✏️"
       },
       "solid-color-image": {
         "name": "Solid Color Image",
         "description": "Generate a solid-color background image with any color and size in seconds.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🟦"
       },
       "svg-path": {
         "name": "SVG Path Preview",
         "description": "Paste an SVG path and preview its shape instantly. Tune stroke, fill and width.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📐"
       },
       "svg-preview": {
         "name": "SVG Preview",
         "description": "Paste SVG code and preview it rendered instantly in the browser.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔍"
       },
       "svg-to-image": {
         "name": "SVG to Image",
         "description": "Convert SVG code to PNG, JPG or WebP with preview, and get the Base64 data URL.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🧩"
       },
       "text-logo": {
         "name": "Text Logo Maker",
         "description": "Create a simple text logo in seconds. Pick text, color, font size and background.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🔤"
       },
       "web-icon": {
         "name": "Website Icon Fetcher",
         "description": "Fetch and download the favicon of any website instantly by entering its domain.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "🌐"
       },
       "wifi-qrcode": {
         "name": "WiFi QR Code",
         "description": "Generate a QR code that shares your WiFi password. Scan to connect instantly.",
-        "category": "Image Tools",
+        "category": "Image",
         "icon": "📶"
       },
       "audio-cutter": {
         "name": "Audio Cutter",
         "description": "Cut and trim MP3/WAV audio online with a visual waveform. Export as MP3 or WAV.",
-        "category": "Audio Tools",
+        "category": "Audio",
         "icon": "✂️"
       },
       "audio-merge": {
         "name": "Audio Merge",
         "description": "Combine multiple audio files into one track in your chosen order. Export as MP3 or WAV.",
-        "category": "Audio Tools",
+        "category": "Audio",
         "icon": "🎚️"
       },
       "audio-player": {
         "name": "Audio Player",
         "description": "View the waveform of any audio file and listen to it right in your browser.",
-        "category": "Audio Tools",
+        "category": "Audio",
         "icon": "🎧"
       },
       "hz": {
         "name": "Frequency Tone Generator",
         "description": "Generate sine, square, sawtooth or triangle tones at any frequency. Download as WAV.",
-        "category": "Audio Tools",
+        "category": "Audio",
         "icon": "🔊"
       },
       "white-noise": {
         "name": "White Noise Generator",
         "description": "Generate white, pink or brown noise for sleep and focus. Download as WAV.",
-        "category": "Audio Tools",
+        "category": "Audio",
         "icon": "🌫️"
       },
       "alarm": {
         "name": "Alarm Clock",
         "description": "Set an alarm at a specific time or in N minutes.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "⏰"
       },
       "answer-book": {
         "name": "Magic Answer Book",
         "description": "Ask a question and get a random answer.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🔮"
       },
       "bank-card-validate": {
         "name": "Card Number Check",
         "description": "Validate a bank card number with the Luhn algorithm.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "💳"
       },
       "blood-type": {
         "name": "Blood Type Inheritance",
         "description": "Predict possible blood types of children from parents.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🩸"
       },
       "calendar": {
         "name": "Year Calendar",
         "description": "Generate a full-year calendar as an image.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🗓️"
       },
       "click-speed": {
         "name": "Click Speed Test",
         "description": "Test how many clicks you can make in 10 seconds.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🖱️"
       },
       "coin-flip": {
         "name": "Coin Flip",
         "description": "Flip a virtual coin with heads/tails statistics.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🪙"
       },
       "color-blindness-test": {
         "name": "Color Blindness Test",
         "description": "Self-test with Ishihara-style color plates.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "👁️"
       },
       "date-calculator": {
         "name": "Date Calculator",
         "description": "Calculate the difference between dates or add days.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🧮"
       },
       "day-of-week": {
         "name": "Day of Week",
         "description": "Find which weekday any date falls on.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "📆"
       },
       "day-of-year": {
         "name": "Day of Year",
         "description": "Find which day of the year a date is.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "📅"
       },
       "dice-roller": {
         "name": "Dice Roller",
         "description": "Roll 1-10 dice and see the total instantly.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🎲"
       },
       "expiration": {
         "name": "Expiration Date",
         "description": "Calculate expiry date from production date and shelf life.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🏷️"
       },
       "group-randomizer": {
         "name": "Random Group Generator",
         "description": "Split a list of names into random groups by count or size.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "👥"
       },
       "hearing-test": {
         "name": "Hearing Test",
         "description": "Find the highest frequency your ears can hear.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "👂"
       },
       "height-predict": {
         "name": "Height Predictor",
         "description": "Predict a child's height from the parents' heights.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "📏"
       },
       "keycode": {
         "name": "Keycode Tester",
         "description": "Press any key to see its key code and event info.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "⌨️"
       },
       "monte-carlo-pi": {
         "name": "Monte Carlo Pi",
         "description": "Estimate pi by throwing random points on a circle.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "📐"
       },
       "online-clock": {
         "name": "Online Clock",
         "description": "Full-screen clock with Unix timestamp and ISO time.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🕐"
       },
       "pi-digits": {
         "name": "Pi Digits",
         "description": "Generate and search millions of pi digits.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🥧"
       },
       "random-picker": {
         "name": "Random Picker",
         "description": "Draw one or more names at random from a list.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🎯"
       },
       "reaction-time": {
         "name": "Reaction Time Test",
         "description": "Measure how fast you can react.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "⚡"
       },
       "schulte-grid": {
         "name": "Schulte Grid",
         "description": "Train attention by tapping numbers 1-N in order.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🔢"
       },
       "text-reader": {
         "name": "Text Reader",
         "description": "Paste text and read it in a large comfortable layout.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "📖"
       },
       "text-to-image": {
         "name": "Text to Image",
         "description": "Render multi-line text into a PNG image.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🖼️"
       },
       "vcf-generator": {
         "name": "VCF Generator",
         "description": "Turn a name+phone list into a contacts VCF file.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "📇"
       },
       "web-shortcut": {
         "name": "Web Shortcut Maker",
         "description": "Generate a .url shortcut file for any website.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🔗"
       },
       "world-clock": {
         "name": "World Clock",
         "description": "Current time in 16 cities around the world.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🌍"
       },
       "zip-viewer": {
         "name": "ZIP Viewer",
         "description": "List files inside a ZIP archive without extracting.",
-        "category": "Life Tools",
+        "category": "Life",
         "icon": "🗜️"
       }
     },
@@ -2518,7 +2550,7 @@
       },
       "title": "AI Image Detector",
       "description": "Check if an image was AI-generated — C2PA credentials, generator signatures, metadata, and frequency analysis. Everything runs locally in your browser; images are never uploaded.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "ai image detector",
         "check if image is ai",
@@ -2672,7 +2704,7 @@
       },
       "title": "AI Object Eraser",
       "description": "Remove unwanted objects, people, or text from a photo with a few clicks. AI selects the object you click on, then regenerates the area so it disappears cleanly. Everything runs locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "ai object eraser",
         "remove object from photo",
@@ -14053,7 +14085,7 @@
       "metadata": {
         "title": "Invoice Generator",
         "description": "Create professional invoices for free, no signup, no watermark, print or save as PDF",
-        "category": "Utilities"
+        "category": "Utility"
       },
       "keywords": [
         "invoice generator",
@@ -14647,7 +14679,7 @@
       "metadata": {
         "title": "Percentage Calculator",
         "description": "Calculate percentages of numbers, increases/decreases, percentage change, and more",
-        "category": "Utilities"
+        "category": "Utility"
       },
       "keywords": [
         "free online tool",
@@ -15207,7 +15239,7 @@
       },
       "title": "URL Shortener",
       "description": "Shorten long URLs instantly for free and create short links you can share anywhere, with optional custom short links. Powered by is.gd with automatic TinyURL fallback.",
-      "category": "Utilities",
+      "category": "Utility",
       "keywords": [
         "url shortener",
         "shorten links",
@@ -27823,7 +27855,7 @@
       },
       "title": "Address Generator",
       "description": "Powered by the open-source Faker library, generate realistic random addresses for 20+ countries — street, city, state and ZIP. Perfect for test data, forms and demos.",
-      "category": "Utilities",
+      "category": "Utility",
       "keywords": [
         "address generator",
         "random address",
@@ -28040,7 +28072,7 @@
       },
       "title": "Video Trimmer",
       "description": "Upload a video, drag to choose the start and end times, and cut out the clip you want — fast lossless trim or precise re-encode. Everything runs locally in your browser.",
-      "category": "Video Tools",
+      "category": "Video",
       "keywords": [
         "video trimmer",
         "cut video",
@@ -28140,7 +28172,7 @@
       },
       "title": "Video Joiner",
       "description": "Upload multiple videos, reorder them with the up/down buttons, and merge them into one MP4 in one click. Matching videos join losslessly; all processing happens locally.",
-      "category": "Video Tools",
+      "category": "Video",
       "keywords": [
         "video joiner",
         "merge video",
@@ -28238,7 +28270,7 @@
       },
       "title": "Video Speed Changer",
       "description": "Upload a video, pick or drag a speed (0.25x–4x), and generate a speed-changed video in one click. Audio is processed with atempo so the pitch stays the same. Everything runs locally.",
-      "category": "Video Tools",
+      "category": "Video",
       "keywords": [
         "video speed changer",
         "speed up video",
@@ -28329,7 +28361,7 @@
       },
       "title": "Subtitle Burner",
       "description": "Upload a video and a subtitle file (SRT/ASS/VTT) to burn the subtitles directly into the picture. A custom font is optional. Everything runs locally — nothing is uploaded.",
-      "category": "Video Tools",
+      "category": "Video",
       "keywords": [
         "subtitle burner",
         "burn subtitles",
@@ -28432,7 +28464,7 @@
       },
       "title": "Currency Converter",
       "description": "Convert between 40+ world currencies with live exchange rates. Everything happens right in your browser — no signup, no data sent to us.",
-      "category": "Utilities",
+      "category": "Utility",
       "keywords": [
         "currency converter",
         "exchange rate",
@@ -28566,7 +28598,7 @@
       },
       "title": "Image to 3D Relief",
       "description": "Turn any photo into a 3D relief based on its brightness. Preview the result in full 3D and export as GLB or STL — all in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image to 3d",
         "3d relief",
@@ -28664,7 +28696,7 @@
       },
       "title": "Image to Printmaking",
       "description": "Turn any photo into a black & white printmaking effect. A precise threshold removes grayscale transitions so only pure black and white remain — like a woodcut or screen print.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "printmaking",
         "image to printmaking",
@@ -28761,7 +28793,7 @@
       },
       "title": "Image Emboss",
       "description": "Turn any photo into an embossed relief with a pixel-difference algorithm that extracts edges and contours — like stone carving or metal stamping.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "emboss",
         "emboss effect",
@@ -28855,7 +28887,7 @@
       "metadata": {
         "title": "ID Photo Generator",
         "description": "Turn a portrait photo into a passport or ID photo. Choose official size and background, fine-tune framing, download a print-ready PNG — 100% local.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "keywords": [
         "id photo",
@@ -28961,11 +28993,11 @@
       "metadata": {
         "title": "Background Replace - Free Online Tool",
         "description": "Remove a photo's background and replace it with a solid color, gradient, a custom image, or a blurred version of the original. AI powered, runs entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Background Replace",
       "description": "Remove the background of any photo and replace it with a solid color, gradient, a custom image, or a blurred version of the original. The AI cutout and all rendering happen locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "background replace",
         "replace photo background",
@@ -29074,11 +29106,11 @@
       "metadata": {
         "title": "Face Blur - Blur Faces in Photos for Privacy",
         "description": "Automatically detect and blur faces in photos to protect privacy. Adjustable blur strength, runs entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Face Blur",
       "description": "Automatically detect all faces in a photo and blur them with adjustable strength. Perfect for privacy protection before sharing images publicly. Everything runs locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "face blur",
         "blur faces in photo",
@@ -29174,11 +29206,11 @@
       "metadata": {
         "title": "Face Crop - Auto Crop Faces from Photos",
         "description": "Automatically detect faces and crop each one into a square image with adjustable padding. Download individually or as a ZIP.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Face Crop",
       "description": "Detect every face in a photo automatically and crop each one into a clean square image. Adjust the padding around the face and download crops individually or all at once as a ZIP. Runs entirely in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "face crop",
         "crop faces from photo",
@@ -29275,11 +29307,11 @@
       "metadata": {
         "title": "Image Caption Generator - AI Image Description",
         "description": "Automatically generate a natural-language caption for any image using an AI vision model running in your browser. Free and private.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image Caption Generator",
       "description": "Upload any image and get a natural-language description generated by an AI vision-language model, entirely in your browser. Useful for accessibility, alt text, and organizing photo libraries.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image caption generator",
         "ai image description",
@@ -29372,11 +29404,11 @@
       "metadata": {
         "title": "Image Classifier - Identify Objects in Photos with AI",
         "description": "Upload any photo and see the top 5 predicted categories (ImageNet) with confidence scores. Runs entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image Classifier",
       "description": "Identify what's in any photo using a MobileNetV2 model trained on 1000 ImageNet categories. See the top 5 predictions with confidence scores — all processed locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image classifier",
         "image recognition",
@@ -29470,11 +29502,11 @@
       "metadata": {
         "title": "NSFW Detection - AI Content Safety Checker",
         "description": "Automatically detect not-safe-for-work content in images using a neural network that runs entirely in your browser. Free and private.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "NSFW Detection",
       "description": "Check any image for not-safe-for-work content using the NSFWJS neural network. See the probability for each class (Neutral, Porn, Hentai, Sexy, Drawing) and a clear verdict. Everything runs locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "nsfw detection",
         "nsfw detector",
@@ -29579,11 +29611,11 @@
       "metadata": {
         "title": "Photo Colorize - Colorize Black & White Photos with AI",
         "description": "Automatically add realistic colors to black and white photos using an AI model that runs in your browser. Free and private.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Photo Colorize",
       "description": "Bring old black-and-white photos to life with realistic AI colorization. Upload a grayscale photo and download the colorized version — all processed locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "photo colorize",
         "colorize black and white photos",
@@ -29678,11 +29710,11 @@
       "metadata": {
         "title": "Image Denoise - Remove Noise from Photos Online",
         "description": "Free online tool to remove noise and grain from photos. Median filter algorithm with adjustable strength, processed entirely in your browser — private and secure.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image Denoise",
       "description": "Automatically remove noise, grain, and compression artifacts from photos for a cleaner, sharper image. Uses a median filter algorithm that preserves edge detail well while denoising. All processing happens locally in your browser — your photos are never uploaded.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image denoise",
         "photo denoise",
@@ -29781,11 +29813,11 @@
       "metadata": {
         "title": "Image Deblur - Sharpen Blurry Photos Online",
         "description": "Free online tool to sharpen blurry photos and restore crisp detail with adjustable Laplacian sharpening. Processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image Deblur",
       "description": "Sharpen blurry or out-of-focus photos and restore detail and outlines. The tool uses Laplacian sharpening convolution with multiple iterations to make mildly blurred photos crisp again. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image deblur",
         "sharpen photo",
@@ -29880,11 +29912,11 @@
       "metadata": {
         "title": "Unsharp Mask - Online Image Sharpening Tool",
         "description": "Free online Unsharp Mask sharpening tool. The classic photography sharpening algorithm with adjustable amount and radius, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Unsharp Mask",
       "description": "Apply the classic photography sharpening algorithm — Unsharp Mask. It subtracts a blurred version from the original to get a detail mask, then blends it back in, giving precise control over sharpening amount and radius. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "unsharp mask",
         "sharpen image",
@@ -29982,11 +30014,11 @@
       "metadata": {
         "title": "White Balance - Fix Photo Color Cast Online",
         "description": "Free online white balance correction tool. The gray-world algorithm automatically removes color casts and restores pure whites, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "White Balance",
       "description": "Automatically correct color casts in your photos so whites return to pure white and colors look natural. The tool uses the gray-world algorithm to analyze the whole image and compute correction gains automatically — no need to pick a gray point by hand. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "white balance",
         "color cast correction",
@@ -30079,11 +30111,11 @@
       "metadata": {
         "title": "Auto Contrast - Optimize Photo Depth Online",
         "description": "Free online auto contrast tool. Histogram stretching automatically optimizes the light and dark distribution with an adjustable clip ratio, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Auto Contrast",
       "description": "Optimize your photo's contrast and dynamic range in one click. The tool analyzes the image histogram, automatically stretches the light and dark distribution, and lets you clip extreme pixels to avoid blown-out highlights and crushed shadows. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "auto contrast",
         "contrast adjustment",
@@ -30180,11 +30212,11 @@
       "metadata": {
         "title": "Histogram Equalization - Boost Image Contrast Online",
         "description": "Free online histogram equalization tool. Redistributes pixel brightness to bring out detail in shadows and highlights, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Histogram Equalization",
       "description": "Apply the histogram equalization algorithm to redistribute the brightness distribution of the image's pixels, stretching contrast in the luminance domain so that detail in both shadows and highlights becomes more visible. Adjustable strength, processed entirely locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "histogram equalization",
         "histogram equalize",
@@ -30277,11 +30309,11 @@
       "metadata": {
         "title": "HDR Tone Mapping - Reveal High Dynamic Range Online",
         "description": "Free online HDR tone mapping tool. The Reinhard operator reveals highlight and shadow detail with adjustable exposure and strength, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "HDR Tone Mapping",
       "description": "Apply the HDR tone mapping algorithm (Reinhard operator) to compress the light and dark differences of high-dynamic-range scenes, keeping highlights from blowing out and shadows full of detail. Adjustable exposure and strength, processed entirely locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "HDR",
         "tone mapping",
@@ -30375,11 +30407,11 @@
       "metadata": {
         "title": "Dehaze - Remove Fog and Haze from Photos Online",
         "description": "Free online dehazing tool. The dark channel prior algorithm removes fog and haze to restore clear, crisp landscapes, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Dehaze",
       "description": "Remove fog, haze, and the low contrast they cause in your photos, restoring a clear and crisp scene. The tool uses the dark channel prior algorithm to estimate and compensate for atmospheric scattering. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "dehaze",
         "remove fog",
@@ -30474,11 +30506,11 @@
       "metadata": {
         "title": "Rotate & Flip - Rotate and Flip Images Online",
         "description": "Free online tool to rotate, flip horizontally, and mirror images vertically. Rotate at any angle with 90° quick buttons, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Rotate & Flip",
       "description": "Rotate, flip horizontally, or mirror your image vertically online. Rotate at any angle with a fine-tuned slider or use the 90° quick buttons, and toggle horizontal/vertical flip anytime. All processing happens locally in your browser — your image is never uploaded.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "rotate image",
         "flip image",
@@ -30577,11 +30609,11 @@
       "metadata": {
         "title": "Negative/Invert - Invert Image Colors Online",
         "description": "Free online tool to invert image colors for a film negative effect. One click, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Negative/Invert",
       "description": "Invert every pixel color in your image (255 minus the original value) for a film negative look. Black-and-white photos take on an X-ray quality, while color photos produce interesting complementary-color effects. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "negative",
         "invert image",
@@ -30674,11 +30706,11 @@
       "metadata": {
         "title": "Pixelate/Mosaic - Pixelate Images Online",
         "description": "Free online tool to pixelate images for a mosaic or retro 8-bit look. Adjustable block size, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Pixelate/Mosaic",
       "description": "Average each region of your image into color blocks for a mosaic or retro pixel look. Adjust the block size to control the effect — small blocks give a retro 8-bit style, while large blocks are great for covering private details. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "pixelate image",
         "mosaic",
@@ -30772,11 +30804,11 @@
       "metadata": {
         "title": "Oil Paint - Turn Photos into Oil Paintings Online",
         "description": "Free online tool to turn photos into oil paintings. Adjustable brush radius and color levels, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Oil Paint",
       "description": "Turn your photos into oil paintings. The algorithm counts the most frequent quantized color in each pixel neighborhood and paints with it, mimicking a painter's brushstrokes. Adjust the brush radius and color quantization level — all processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "oil painting",
         "oil paint effect",
@@ -30870,11 +30902,11 @@
       "metadata": {
         "title": "Edge Detection - Extract Image Outlines Online",
         "description": "Free online edge detection tool. Sobel operator extracts object outlines into a line drawing with an adjustable threshold — all in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Edge Detection",
       "description": "Detect edges in your image with the Sobel operator to extract object outlines and create a black-and-white line-art effect. Adjust the threshold to control line density. All processing happens locally in your browser — your image is never uploaded.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "edge detection",
         "line art",
@@ -30968,11 +31000,11 @@
       "metadata": {
         "title": "Rounded Corners - Add Rounded Corners to Images Online",
         "description": "Free online tool to add rounded corners to images and export a transparent-background PNG. Adjustable corner radius, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Rounded Corners",
       "description": "Round the four corners of your image and export a PNG with a transparent background — perfect for websites, app icons, or design assets. The corner radius is fully adjustable. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "rounded corners",
         "round image corners",
@@ -31065,11 +31097,11 @@
       "metadata": {
         "title": "Add Border - Add Borders to Images Online",
         "description": "Free online tool to add colorful borders to images. Adjustable width and color, with custom color support, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Add Border",
       "description": "Add a colorful border around your image with an adjustable width of 2–200px, 10 built-in colors, and a custom color picker. Great for framing photos, ID pictures, or social sharing. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "add border to image",
         "image border",
@@ -31164,11 +31196,11 @@
       "metadata": {
         "title": "Drop Shadow - Add Shadows to Images Online",
         "description": "Free online tool to add a soft drop shadow to images. Adjustable blur and offsets, processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Drop Shadow",
       "description": "Add a soft drop shadow to your image so it looks more three-dimensional. The blur amount and horizontal/vertical offsets are all adjustable. All processing happens locally in your browser — your image is never uploaded.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "drop shadow",
         "image shadow",
@@ -31263,11 +31295,11 @@
       "metadata": {
         "title": "Image Histogram - View RGB & Brightness Online",
         "description": "Free online image histogram viewer: RGB channels and brightness distribution at a glance. Processed entirely in your browser.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image Histogram",
       "description": "View the RGB channel and brightness histogram of your image to understand its exposure and color distribution. All analysis happens locally in your browser — your image is never uploaded.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image histogram",
         "histogram",
@@ -31356,11 +31388,11 @@
       "metadata": {
         "title": "Color Extractor - Extract a Palette from Your Image",
         "description": "Free online color extractor that automatically pulls the dominant colors from an image into a harmonious palette. Adjustable count, click to copy hex values.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Color Extractor",
       "description": "Automatically analyze the dominant colors in an image and generate a color palette. Choose between 4-16 colors and click any swatch to copy its HEX value. Everything runs locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "color extractor",
         "color palette",
@@ -31451,11 +31483,11 @@
       "metadata": {
         "title": "Image Perceptual Hash - Compute pHash Online",
         "description": "Free online tool to compute the perceptual hash (pHash) of an image. The 64-bit hash is ideal for similar-image comparison and deduplication.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image Perceptual Hash (pHash)",
       "description": "Compute the perceptual hash (pHash) of an image. pHash compresses image content into a 64-bit fingerprint, and similar images produce similar hashes — ideal for duplicate detection and similarity comparison.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "perceptual hash",
         "phash",
@@ -31547,11 +31579,11 @@
       "metadata": {
         "title": "Image Compare - Compare Two Images Online",
         "description": "Free online tool to compare two images: see the difference percentage at a glance and generate a red-highlighted difference map.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image Compare",
       "description": "Upload two images, compare them pixel by pixel, and get a difference ratio plus a red-highlighted difference map — a quick way to pinpoint exactly what changed.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image compare",
         "compare images",
@@ -31644,11 +31676,11 @@
       "metadata": {
         "title": "Duplicate Image Finder - Detect Similar Images Online",
         "description": "Free online tool to batch detect duplicate or similar images. Groups them automatically with perceptual hashing to help you clean up duplicates.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Duplicate Image Finder",
       "description": "Upload multiple images at once. Each image gets a perceptual hash, and duplicates or highly similar images are grouped automatically — perfect for reclaiming disk space.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "duplicate image finder",
         "find duplicate images",
@@ -31740,11 +31772,11 @@
       "metadata": {
         "title": "RGB Channel Split - Separate Image Channels Online",
         "description": "Free online tool to split an image into red, green, and blue channels. View and download each channel separately.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "RGB Channel Split",
       "description": "Split an image into three independent red, green, and blue channels shown side by side. Each channel keeps only the brightness of its own color — great for learning color theory or creating channel assets.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "rgb channel split",
         "split rgb channels",
@@ -31837,11 +31869,11 @@
       "metadata": {
         "title": "Web Image Optimizer - Compress Images Online",
         "description": "Free online batch image compression with WebP, JPEG, and PNG conversion to reduce file size and speed up your web pages.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Web Image Optimizer",
       "description": "Compress images in bulk and convert them to web-friendly formats (WebP, JPEG, PNG), with adjustable maximum width and compression quality to significantly reduce file size. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "web image optimizer",
         "image compression",
@@ -31935,11 +31967,11 @@
       "metadata": {
         "title": "Batch Rename - Rename Files Online",
         "description": "Free online batch file renaming with rule chains: find & replace, regex, sequence numbering, case conversion. Preview new names in real time and download as ZIP.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Batch Rename",
       "description": "Batch rename any type of files with configurable rules. Combine find & replace, regex, sequence numbering, case conversion, insert and cleanup rules into a chain, preview every new name in real time, then download the renamed files as a ZIP or copy the renaming list.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "batch rename",
         "rename files",
@@ -32171,11 +32203,11 @@
       "metadata": {
         "title": "Image to ASCII Art Converter - Free Online",
         "description": "Free online tool to convert an image into ASCII character art with adjustable width and inversion. Copy or download the result as text.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image to ASCII Art",
       "description": "Convert an image into ASCII art made of characters, with an adjustable output width and an invert mode. Copy the result to your clipboard or download it as a text file.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image to ascii",
         "character art",
@@ -32267,11 +32299,11 @@
       "metadata": {
         "title": "CSS Sprite Generator - Merge Images into a Sprite",
         "description": "Free online tool to merge multiple images into a CSS sprite sheet with horizontal, vertical, and grid layouts. CSS code is generated automatically.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "CSS Sprite Generator",
       "description": "Combine multiple images into a single sprite sheet and automatically generate the matching CSS background-position code. Supports horizontal, vertical, and grid layouts.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "css sprite generator",
         "sprite sheet generator",
@@ -32367,11 +32399,11 @@
       "metadata": {
         "title": "OG Image Generator - Create Social Share Images Online",
         "description": "Free online generator for 1200×630 Open Graph images with custom titles, descriptions, colors, and backgrounds.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "OG Image Generator",
       "description": "Create 1200×630 Open Graph images for social media and link sharing, with customizable title, description, site name, colors, and background image.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "og image generator",
         "open graph image",
@@ -32470,11 +32502,11 @@
       "metadata": {
         "title": "Blob ↔ DataURL Converter - Image Format Conversion",
         "description": "Free online tool to get an image's Blob URL and Base64 DataURL with one-click copy, perfect for embedding or debugging.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Blob ↔ DataURL Converter",
       "description": "Upload an image to get both its Blob URL and Base64 DataURL at once. Copy either one with a single click for embedding or debugging image resources in your code.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "blob url",
         "dataurl",
@@ -32560,11 +32592,11 @@
       "metadata": {
         "title": "Image Similarity - Compare Images & PSNR Online",
         "description": "Free online tool to calculate the similarity percentage, MSE, and PSNR of two images.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image Similarity",
       "description": "Upload two images to calculate pixel-level similarity, mean squared error (MSE), and peak signal-to-noise ratio (PSNR), with an adjustable tolerance threshold.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image similarity",
         "image comparison",
@@ -32656,11 +32688,11 @@
       "metadata": {
         "title": "Video Frame Extractor - Extract Video Frames Online",
         "description": "Free online tool to extract frames from a video at set intervals, save them as PNG/JPEG, or download them all as a ZIP.",
-        "category": "Video Tools"
+        "category": "Video"
       },
       "title": "Video Frame Extractor",
       "description": "Extract still frames from a video at set intervals, preview them in a grid, and download them individually or as a ZIP. All processing happens locally in your browser.",
-      "category": "Video Tools",
+      "category": "Video",
       "keywords": [
         "video frame extractor",
         "extract frames from video",
@@ -32755,11 +32787,11 @@
       "metadata": {
         "title": "Animated WebP - Convert Video to Animated WebP Online",
         "description": "Free online tool to convert a video into an animated WebP image, with adjustable frame rate, quality, and width, plus lossless compression.",
-        "category": "Video Tools"
+        "category": "Video"
       },
       "title": "Animated WebP",
       "description": "Convert a video into an animated WebP image. Adjust the frame rate, quality, and output width, and enable lossless compression. Animated WebP is smaller and sharper than GIF.",
-      "category": "Video Tools",
+      "category": "Video",
       "keywords": [
         "animated webp",
         "webp animation",
@@ -32861,11 +32893,11 @@
       "metadata": {
         "title": "APNG Maker - Convert Video to APNG Online",
         "description": "Free online tool to convert a video into an animated APNG image, with adjustable frame rate and width and lossless quality.",
-        "category": "Video Tools"
+        "category": "Video"
       },
       "title": "APNG Maker",
       "description": "Convert a video into an animated APNG image. APNG is based on the lossless PNG format, supports transparency and infinite looping, and suits scenarios that need lossless quality.",
-      "category": "Video Tools",
+      "category": "Video",
       "keywords": [
         "apng",
         "apng maker",
@@ -32966,11 +32998,11 @@
       "metadata": {
         "title": "Video Thumbnail - Generate a Video Thumbnail Grid Online",
         "description": "Free online tool to generate a thumbnail grid (contact sheet) from a video, with customizable rows, columns, thumbnail width, and timestamps.",
-        "category": "Video Tools"
+        "category": "Video"
       },
       "title": "Video Thumbnail",
       "description": "Automatically capture multiple frames from a video and combine them into a single thumbnail grid (contact sheet), with customizable rows, columns, thumbnail width, and optional per-frame timestamps.",
-      "category": "Video Tools",
+      "category": "Video",
       "keywords": [
         "video thumbnail",
         "video screenshot",
@@ -33063,11 +33095,11 @@
       "metadata": {
         "title": "Video to Images - Online Video Frame Extractor",
         "description": "Free online tool to extract frames from videos at set intervals and convert them to PNG/JPEG/WebP and more, supporting 20+ video formats like MKV, AVI, and FLV.",
-        "category": "Video Tools"
+        "category": "Video"
       },
       "title": "Video to Images",
       "description": "Extract frames from a video at fixed time intervals and save them as PNG, JPEG, WebP, BMP, or TIFF. Powered by FFmpeg WebAssembly, it supports 20+ video container formats including MKV, AVI, FLV, and TS, all processed locally in your browser.",
-      "category": "Video Tools",
+      "category": "Video",
       "keywords": [
         "video frame extraction",
         "video to images",
@@ -33286,11 +33318,11 @@
       "metadata": {
         "title": "Image Stitcher - Stitch Multiple Images Online",
         "description": "Free online tool to stitch multiple images into a long image, with vertical or horizontal layouts and center or stretch alignment. No upload required.",
-        "category": "Image Tools"
+        "category": "Image"
       },
       "title": "Image Stitcher",
       "description": "Stitch multiple images into one long image with vertical or horizontal direction, center or stretch alignment, and selectable background color and output format. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image stitcher",
         "stitch images",
@@ -34171,7 +34203,7 @@
       },
       "title": "Color Text Image",
       "description": "Generate a colorful text image in seconds. Customize the text, text color, background color and font size, then download the PNG.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "color text image",
         "text image generator",
@@ -34232,7 +34264,7 @@
       },
       "title": "Email Image Generator",
       "description": "Turn an email address into an image so spam crawlers can't read it. Customize the font size and color, then download the PNG.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "email image",
         "email to image",
@@ -34287,7 +34319,7 @@
       },
       "title": "Excel Image Extractor",
       "description": "Pull every image embedded inside an .xlsx workbook — charts, logos, product photos — and download them individually or all at once as a ZIP.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "extract images from excel",
         "excel image extractor",
@@ -34343,7 +34375,7 @@
       },
       "title": "EXIF Cleaner",
       "description": "Re-encode an image to strip EXIF, GPS and device metadata. Compare the before and after file size, then download a clean PNG.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "exif cleaner",
         "remove exif",
@@ -34409,7 +34441,7 @@
       },
       "title": "GIF Frame Editor",
       "description": "Take any GIF apart frame by frame. Reorder, delete or duplicate frames, set a global delay, preview the animation and download the edited GIF.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "gif editor",
         "edit gif frames",
@@ -34474,7 +34506,7 @@
       },
       "title": "HEIC to JPG/PNG",
       "description": "Convert iPhone and Android HEIC/HEIF photos to JPG or PNG. Everything runs locally in your browser — no upload, no quality loss beyond the chosen format.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "heic to jpg",
         "heic to png",
@@ -34530,7 +34562,7 @@
       },
       "title": "Multi-size Icon Generator",
       "description": "Generate icons in 16 to 512 px sizes from a single image. Tick the sizes you need and download each one as a PNG.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "icon generator",
         "icon size generator",
@@ -34592,7 +34624,7 @@
       },
       "title": "Alpha Invert",
       "description": "Flip the transparency of a PNG image in one click — swap the transparent and visible areas. Great for masks, stickers and PNG editing.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "alpha invert",
         "invert transparency",
@@ -34645,7 +34677,7 @@
       },
       "title": "Auto Trim Image",
       "description": "Remove transparent or solid-colored edges from an image in one click. Perfect for cleaning up PNGs, screenshots and logos.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "auto trim image",
         "trim transparent edges",
@@ -34702,7 +34734,7 @@
       },
       "title": "Image Background",
       "description": "Give a transparent PNG a solid background color in one click. Great for dark-mode adapters, stickers and sharing on colored cards.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "add background to png",
         "png background color",
@@ -34756,7 +34788,7 @@
       },
       "title": "Image Content Clear",
       "description": "Erase everything in an image and fill the canvas with a solid color or full transparency — keeping the original size. Great for placeholders and masks.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "clear image",
         "blank image",
@@ -34809,7 +34841,7 @@
       },
       "title": "Color Replace",
       "description": "Replace one color in an image with another, or make it transparent. Click the result to pick the source color, then tune the tolerance.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "replace color in image",
         "change image color",
@@ -34868,7 +34900,7 @@
       },
       "title": "Image Coordinate Marker",
       "description": "Click anywhere on an image to drop numbered coordinate markers showing exact pixel positions, then download the annotated result.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image coordinate marker",
         "add coordinates to image",
@@ -34921,7 +34953,7 @@
       },
       "title": "Date Watermark",
       "description": "Add a date watermark to your photos in one go. Pick a date format, position, font size and color, then download all processed images as a zip.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "date watermark",
         "add date to photo",
@@ -34983,7 +35015,7 @@
       },
       "title": "Image DPI Changer",
       "description": "Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) so print software sizes it correctly — the pixels stay untouched.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "change image dpi",
         "png dpi changer",
@@ -35036,7 +35068,7 @@
       },
       "title": "Image File Size",
       "description": "Set a target size in KB and the tool recompresses your image to get as close as possible — dimensions never change.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image file size reducer",
         "compress image to size",
@@ -35092,7 +35124,7 @@
       },
       "title": "Image Format Converter",
       "description": "Convert one or many images between PNG, JPG and WebP at once. Adjust quality for JPG and WebP, then download the results.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image format converter",
         "convert png to jpg",
@@ -35147,7 +35179,7 @@
       },
       "title": "Image Margin",
       "description": "Add transparent or colored margin around an image for framing, padding and social-ready layouts.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image margin",
         "add margin to image",
@@ -35203,7 +35235,7 @@
       },
       "title": "Region Mask",
       "description": "Drag over any part of an image to apply mosaic or blur and hide sensitive details like faces, plates or text.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image region mask",
         "mosaic blur tool",
@@ -35260,7 +35292,7 @@
       },
       "title": "Image Slicer",
       "description": "Split an image into equal pieces horizontally or vertically. Choose 2–12 slices and download each piece as a PNG. All processing happens locally in your browser.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image slicer",
         "split image",
@@ -35326,7 +35358,7 @@
       },
       "title": "Image Tiler",
       "description": "Tile a small image across a large canvas. Set the output width and height, and the image repeats to fill the area — perfect for patterns and wallpapers.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "image tiler",
         "tile image",
@@ -35380,7 +35412,7 @@
       },
       "title": "Force Image Resize",
       "description": "Resize an image to an exact width and height. Keep the aspect ratio or stretch freely, tune the output quality and save as PNG, JPG or WebP.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "force resize image",
         "resize image exact size",
@@ -35435,7 +35467,7 @@
       },
       "title": "PowerPoint Image Extractor",
       "description": "Grab every image embedded inside a .pptx presentation — photos, clip art, slide backgrounds — and download them individually or all at once as a ZIP.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "extract images from powerpoint",
         "pptx image extractor",
@@ -35491,7 +35523,7 @@
       },
       "title": "Batch QR Code Generator",
       "description": "Generate QR codes for an entire list at once. Paste one item per line, adjust the size, and download every code individually or as a zip archive.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "batch qr code",
         "multiple qr codes",
@@ -35547,7 +35579,7 @@
       },
       "title": "Screenshot Beautifier",
       "description": "Turn a plain screenshot into a polished product image. Add a background color, padding, rounded corners, border and shadow with instant preview.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "screenshot beautifier",
         "beautify screenshot",
@@ -35604,7 +35636,7 @@
       },
       "title": "Screenshot Markup",
       "description": "Annotate a screenshot in seconds. Draw rectangles, circles, arrows, lines and text with adjustable color and stroke width, then download the result.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "screenshot markup",
         "annotate screenshot",
@@ -35666,7 +35698,7 @@
       },
       "title": "Solid Color Image",
       "description": "Create a plain solid-color background image with any color and size in seconds — perfect for placeholders, thumbnails and tests.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "solid color image",
         "solid color background generator",
@@ -35715,7 +35747,7 @@
       },
       "title": "SVG Path Preview",
       "description": "Paste an SVG path (the d attribute) and preview its shape instantly. Tune stroke color, fill and stroke width, then download as SVG.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "svg path",
         "svg path preview",
@@ -35766,7 +35798,7 @@
       },
       "title": "SVG Preview",
       "description": "Paste any SVG code and preview how it renders. Edit the markup live and download the result as an .svg file.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "svg preview",
         "svg renderer",
@@ -35817,7 +35849,7 @@
       },
       "title": "SVG to Image",
       "description": "Paste SVG code and convert it to PNG, JPG or WebP instantly. Adjust scale and quality, preview the result and copy the Base64 data URL.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "svg to png",
         "svg to jpg",
@@ -35884,7 +35916,7 @@
       },
       "title": "Text Logo Maker",
       "description": "Create a simple text logo in seconds. Enter your text, pick a color, font size and background — then download it as a transparent or solid PNG.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "text logo maker",
         "text logo generator",
@@ -35945,7 +35977,7 @@
       },
       "title": "Website Icon Fetcher",
       "description": "Get the favicon of any website in seconds. Enter a domain, preview the icon and download it for use in your own projects.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "website icon",
         "favicon download",
@@ -35997,7 +36029,7 @@
       },
       "title": "WiFi QR Code Generator",
       "description": "Turn your WiFi network into a QR code. Enter the network name, password and security type — friends scan the code and connect instantly.",
-      "category": "Image Tools",
+      "category": "Image",
       "keywords": [
         "wifi qr code",
         "wifi qr generator",
@@ -36053,7 +36085,7 @@
       },
       "title": "Audio Cutter",
       "description": "Upload an audio file, drag on the waveform to choose the part you want to keep, and export it as MP3 or WAV. All processing happens locally in your browser.",
-      "category": "Audio Tools",
+      "category": "Audio",
       "keywords": [
         "audio cutter",
         "cut mp3",
@@ -36114,7 +36146,7 @@
       },
       "title": "Audio Merge",
       "description": "Upload multiple audio files, arrange them in the order you want, and merge them into a single MP3 or WAV track. Processing happens locally in your browser.",
-      "category": "Audio Tools",
+      "category": "Audio",
       "keywords": [
         "merge audio",
         "combine mp3",
@@ -36172,7 +36204,7 @@
       },
       "title": "Audio Player",
       "description": "Upload an audio file to see its waveform, duration, sample rate and channel count — then play it right in the browser. Everything stays local.",
-      "category": "Audio Tools",
+      "category": "Audio",
       "keywords": [
         "audio player",
         "audio waveform",
@@ -36229,7 +36261,7 @@
       },
       "title": "Frequency Tone Generator",
       "description": "Generate a pure test tone at any frequency between 20 Hz and 20 kHz. Pick the waveform, frequency, duration and volume, preview it, then download the WAV file.",
-      "category": "Audio Tools",
+      "category": "Audio",
       "keywords": [
         "tone generator",
         "sine wave generator",
@@ -36290,7 +36322,7 @@
       },
       "title": "White Noise Generator",
       "description": "Generate white, pink or brown noise right in your browser. Pick the noise color, duration and volume, preview it, and download the result as a WAV file.",
-      "category": "Audio Tools",
+      "category": "Audio",
       "keywords": [
         "white noise generator",
         "pink noise",
@@ -36349,7 +36381,7 @@
       },
       "title": "Alarm Clock",
       "description": "Set an alarm to ring at a chosen time, or a number of minutes from now. When the time comes, a tone sounds to wake you up.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "alarm clock",
         "online alarm",
@@ -36401,7 +36433,7 @@
       },
       "title": "Magic Answer Book",
       "description": "Hold a yes/no question in your mind, tap the book and let it reveal an answer at random. A fun way to break indecision.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "answer book",
         "magic 8 ball",
@@ -36447,7 +36479,7 @@
       },
       "title": "Card Number Check",
       "description": "Enter a card number to check whether it passes the Luhn checksum — the same check used by payment networks to catch typos.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "card number check",
         "luhn algorithm",
@@ -36497,7 +36529,7 @@
       },
       "title": "Blood Type Inheritance",
       "description": "Select the father's and mother's ABO blood types to instantly see which blood types their child can have — and which are impossible.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "blood type inheritance",
         "child blood type",
@@ -36545,7 +36577,7 @@
       },
       "title": "Year Calendar",
       "description": "Pick a year and render all 12 months on a single canvas. Weekends are highlighted, and you can download the calendar as a PNG image.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "year calendar",
         "calendar generator",
@@ -36591,7 +36623,7 @@
       },
       "title": "Click Speed Test",
       "description": "A 10-second challenge: click as fast as you can and measure your clicks per second (CPS). Your best score is saved during the session.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "click speed test",
         "cps test",
@@ -36642,7 +36674,7 @@
       },
       "title": "Coin Flip",
       "description": "Flip a virtual coin with a single click. The counter keeps track of heads and tails so you can see the distribution over time.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "coin flip",
         "flip a coin",
@@ -36695,7 +36727,7 @@
       },
       "title": "Color Blindness Test",
       "description": "Numbers are hidden inside Ishihara-style color plates. Try to read each number, then check whether your answer is correct. A quick self-screening only.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "color blindness test",
         "ishihara test",
@@ -36746,7 +36778,7 @@
       },
       "title": "Date Calculator",
       "description": "Two handy modes: calculate the difference between two dates in days, weeks and months, or add (or subtract) a number of days to a given date.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "date calculator",
         "days between dates",
@@ -36799,7 +36831,7 @@
       },
       "title": "Day of Week",
       "description": "Pick any date and find out which day of the week it falls on — today, a past birthday, or a future holiday.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "day of week",
         "what day is it",
@@ -36846,7 +36878,7 @@
       },
       "title": "Day of Year",
       "description": "Pick a date and see its day number of the year, the total days in that year, and how many days remain.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "day of year",
         "day number",
@@ -36895,7 +36927,7 @@
       },
       "title": "Dice Roller",
       "description": "Choose how many dice to roll (1 to 10), then roll them to see each face and the total. Handy for board games and tabletop RPGs.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "dice roller",
         "roll dice",
@@ -36944,7 +36976,7 @@
       },
       "title": "Expiration Date",
       "description": "Enter the production date and shelf life in days to instantly get the expiry date and how much time is left until it expires.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "expiration date",
         "expiry calculator",
@@ -36996,7 +37028,7 @@
       },
       "title": "Hearing Test",
       "description": "Play pure tones across 9 frequencies from 125 Hz to 16 kHz. Mark which ones you hear to find the highest audible frequency for your ears.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "hearing test",
         "frequency test",
@@ -37045,7 +37077,7 @@
       },
       "title": "Height Predictor",
       "description": "Enter the father's and mother's heights and the child's gender to estimate the child's adult height using a common prediction formula.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "height predictor",
         "child height",
@@ -37098,7 +37130,7 @@
       },
       "title": "Keycode Tester",
       "description": "Press any key on your keyboard and instantly see its key, code, keyCode and location. A handy reference for web developers.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "keycode",
         "key code tester",
@@ -37146,7 +37178,7 @@
       },
       "title": "Monte Carlo Pi",
       "description": "Drop random points into a square and count how many fall inside the quarter circle. The ratio approximates π/4, so the estimate converges to π.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "monte carlo pi",
         "estimate pi",
@@ -37196,7 +37228,7 @@
       },
       "title": "Online Clock",
       "description": "A live clock with the current time in seconds, plus the Unix timestamp and ISO 8601 time for developers and time references.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "online clock",
         "current time",
@@ -37242,7 +37274,7 @@
       },
       "title": "Pi Digits",
       "description": "Generate anywhere from 10 to 100,000 digits of π right in your browser using a spigot algorithm, then search for any digit sequence inside the result.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "pi digits",
         "pi search",
@@ -37294,7 +37326,7 @@
       },
       "title": "Random Picker",
       "description": "Paste a list of names, choose how many to draw, and pick the winners at random. Great for class calls, raffles and lucky draws.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "random picker",
         "pick a name",
@@ -37344,7 +37376,7 @@
       },
       "title": "Reaction Time Test",
       "description": "A classic reaction test: wait for the green screen and click immediately. The last 10 results are recorded with your best and average times.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "reaction time test",
         "reflex test",
@@ -37395,7 +37427,7 @@
       },
       "title": "Schulte Grid",
       "description": "A classic attention-training grid. Numbers from 1 to N are shuffled in the grid — tap them in ascending order as fast as you can.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "schulte grid",
         "attention training",
@@ -37445,7 +37477,7 @@
       },
       "title": "Text Reader",
       "description": "Paste any text and switch to reading mode: a clean layout with adjustable font size and line height for comfortable reading.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "text reader",
         "large text reading",
@@ -37496,7 +37528,7 @@
       },
       "title": "Text to Image",
       "description": "Type or paste multi-line text and render it into a PNG image. Adjust font size, text color, background color and padding, then download the result.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "text to image",
         "text to png",
@@ -37549,7 +37581,7 @@
       },
       "title": "VCF Generator",
       "description": "Paste a list of names and phone numbers, one per line, and download a .vcf file that imports directly into your phone's contacts app.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "vcf generator",
         "vcard generator",
@@ -37598,7 +37630,7 @@
       },
       "title": "Web Shortcut Maker",
       "description": "Enter a website URL (and optionally a name and icon) to generate a .url internet shortcut file for Windows.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "web shortcut",
         "url shortcut",
@@ -37649,7 +37681,7 @@
       },
       "title": "World Clock",
       "description": "See the current local time in 16 major cities across the globe at a glance, updated every second.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "world clock",
         "time zones",
@@ -37692,7 +37724,7 @@
       },
       "title": "ZIP Viewer",
       "description": "Upload a ZIP archive to instantly list every file inside, with sizes, without extracting or uploading anything to a server.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "zip viewer",
         "list zip contents",
@@ -37741,7 +37773,7 @@
       },
       "title": "Random Group Generator",
       "description": "Paste a list of names, choose whether to group by the number of groups or by people per group, and split everyone into random teams instantly.",
-      "category": "Life Tools",
+      "category": "Life",
       "keywords": [
         "random group generator",
         "random team splitter",

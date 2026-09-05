@@ -33,6 +33,7 @@
     "terms": "利用規約",
     "blog": "ブログ",
     "about": "サイトについて",
+    "contact": "お問い合わせ",
     "copyright": "無料ツール、会員登録不要、データ保存なし。"
   },
   "notFound": {
@@ -69,41 +70,72 @@
       "Productivity": "生産性",
       "Math": "数学"
     },
+    "why": {
+        "title": "ToolkitLife の特長",
+        "intro": "ToolkitLife は PDF 変換、画像編集から住宅ローン・BMI・税金の計算まで、16 カテゴリ・374 個の無料オンラインツールを収録しています。すべてブラウザで直接動作し、インストールも登録も不要です。",
+        "privacy": "ファイルのプライバシーも安心：<mdn>WebAssembly</mdn> により、画像・動画・ドキュメントの処理はすべてブラウザ内で完結し、データは端末の外に出ません。",
+        "i18n": "サイトは日本語・英語・中国語・韓国語・ロシア語の 5 言語に対応し、各ツールページには使い方ガイドと FAQ を掲載しています。"
+    },
+    "faq": {
+        "title": "よくある質問",
+        "items": [
+            {
+                "question": "ToolkitLife は無料ですか？",
+                "answer": "はい。374 個のツールはすべて完全無料で、登録不要・サブスクリプションなし・利用回数の制限もありません。処理は端末内で行われるため、サーバー費用が発生しません。"
+            },
+            {
+                "question": "ファイルはサーバーにアップロードされますか？",
+                "answer": "いいえ。すべてのツールは JavaScript と WebAssembly だけでブラウザ内で動作します。ファイル・テキスト・画像はローカルで処理され、サーバーには一切送信されません。"
+            },
+            {
+                "question": "アカウント登録は必要ですか？",
+                "answer": "不要です。アカウントシステムはなく、ツールを開けばすぐ使えます。お気に入りや履歴はお使いのブラウザ内にのみ保存されます。"
+            },
+            {
+                "question": "対応する端末とブラウザは？",
+                "answer": "Chrome・Edge・Firefox・Safari など、デスクトップ・タブレット・スマートフォンの最新ブラウザに対応しています。画面サイズに自動調整され、インストールは不要です。"
+            },
+            {
+                "question": "計算結果は信頼できますか？",
+                "answer": "標準的な数式による試算で、一般的な情報の提供を目的としています。金融・健康・法律のツールには免責事項があり、専門家の助言に代わるものではありません。"
+            }
+        ]
+    },
     "tools": {
       "what-is-my-browser": {
         "name": "ブラウザ情報検出",
         "description": "ブラウザ・OS・IPアドレスを検出。",
-        "category": "Marketing",
+        "category": "マーケティング",
         "icon": "🌐"
       },
       "geo-ip-locator": {
         "name": "GEO IPロケーター",
         "description": "任意のIPアドレスの位置情報を検索。",
-        "category": "Marketing",
+        "category": "マーケティング",
         "icon": "📍"
       },
       "redirect-checker": {
         "name": "リダイレクトチェッカー",
         "description": "URLのリダイレクトと最終宛先を確認。",
-        "category": "Marketing",
+        "category": "マーケティング",
         "icon": "🔀"
       },
       "is-it-down": {
         "name": "サイト稼働チェック",
         "description": "Webサイトがダウンしているか確認。",
-        "category": "Marketing",
+        "category": "マーケティング",
         "icon": "🛡️"
       },
       "domain-age": {
         "name": "ドメイン年齢チェッカー",
         "description": "ドメインの年齢を確認。",
-        "category": "Marketing",
+        "category": "マーケティング",
         "icon": "⏳"
       },
       "domain-hosting": {
         "name": "ドメインホスティング検出",
         "description": "ドメインがどこにホストされているか確認。",
-        "category": "Marketing",
+        "category": "マーケティング",
         "icon": "🏢"
       },
       "xml-sitemap": {
@@ -163,2155 +195,2155 @@
       "video-watermark-remover": {
         "name": "動画ウォーターマーク除去ツール",
         "description": "任意の長さの動画からウォーターマークを除去。アップロード不要、無料。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🎞️"
       },
       "photo-watermark-remover": {
         "name": "画像ウォーターマーク除去ツール",
         "description": "写真からウォーターマークを無料で除去。登録不要、制限なし、プライベート。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "✂"
       },
       "claude-code-text-formatter": {
         "name": "Claude Code テキストフォーマッタ",
         "description": "ターミナルとClaude Codeの出力を整理。ANSIコード、行番号、制御文字を除去。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "\\>_"
       },
       "qr-code-generator": {
         "name": "QRコード生成ツール",
         "description": "任意のテキストやURLからカスタマイズ可能なQRコードを生成",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "▣"
       },
       "qr-code-reader": {
         "name": "QRコード読み取り",
         "description": "画像やスクリーンショットからQRコードを読み取り、URL・テキスト・WiFi認証情報などを抽出。アップロード不要、ブラウザで完結。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "📷"
       },
       "qr-file-transfer": {
         "name": "QRコードファイル転送",
         "description": "アニメーションQRコードでデバイス間のファイル転送——ネットワーク不要、アップロード不要。カメラと画面による光学転送。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "📤"
       },
       "face-detector": {
         "name": "顔検出ツール",
         "description": "写真内の顔を自動検出し、バウンディングボックスと信頼度スコアで表示。AIモデルはブラウザ内で完全動作。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "😀"
       },
       "color-palette-generator": {
         "name": "カラーパレット生成ツール",
         "description": "美しいランダムなカラーパレットを作成。ロック・エクスポート対応。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "◐"
       },
       "css-gradient-generator": {
         "name": "CSSグラデーション生成ツール",
         "description": "線形・径向・円錐のCSSグラデーションを視覚的に作成。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "◈"
       },
       "box-shadow-generator": {
         "name": "CSSボックスシャドウ生成ツール",
         "description": "ライブプレビュー付きエディタでCSSボックスシャドウをデザイン。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "◻"
       },
       "password-generator": {
         "name": "パスワード生成ツール",
         "description": "強力で安全なパスワードをカスタム設定で生成",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "⚿"
       },
       "json-formatter": {
         "name": "JSON整形ツール",
         "description": "JSONを整形・圧縮・検証。シンタックスハイライト対応。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "{}"
       },
       "base64-encoder": {
         "name": "Base64エンコーダー/デコーダー",
         "description": "テキストとファイルをBase64に変換・復号。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⧉"
       },
       "lorem-ipsum-generator": {
         "name": "Lorem Ipsum生成ツール",
         "description": "段落、文、単語単位でダミーテキストを生成",
-        "category": "Text",
+        "category": "テキスト",
         "icon": "¶"
       },
       "uuid-generator": {
         "name": "UUID生成ツール",
         "description": "UUID v4を1件または一括で生成。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⬢"
       },
       "word-counter": {
         "name": "文字数カウントツール",
         "description": "単語数、文字数、文数をカウントしテキストを分析",
-        "category": "Text",
+        "category": "テキスト",
         "icon": "≣"
       },
       "image-color-picker": {
         "name": "画像カラーピッカー",
         "description": "画像をアップロードし、スポイトで任意の色を抽出。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "❀"
       },
       "aspect-ratio-calculator": {
         "name": "アスペクト比計算ツール",
         "description": "アスペクト比を計算・可視化。よく使うプリセット付き。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "▭"
       },
       "unit-converter": {
         "name": "単位換算ツール",
         "description": "長さ、重さ、温度、データ、時間などの単位を相互変換",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "⇄"
       },
       "regex-tester": {
         "name": "正規表現テスター",
         "description": "正規表現をテスト。リアルタイムハイライトとマッチ情報。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": ".\\*"
       },
       "markdown-preview": {
         "name": "Markdownプレビュー",
         "description": "ライブ分割画面エディタでMarkdownを記述・プレビュー",
-        "category": "Text",
+        "category": "テキスト",
         "icon": "ⓜ"
       },
       "fancy-text-generator": {
         "name": "おしゃれ文字生成ツール",
         "description": "テキストをスタイリッシュなUnicodeフォントに変換",
-        "category": "Text",
+        "category": "テキスト",
         "icon": "✨"
       },
       "image-compressor": {
         "name": "画像圧縮ツール",
         "description": "最大90%まで画像を圧縮。品質調整可能、アップロード不要。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "📦"
       },
       "image-resizer": {
         "name": "画像リサイズツール",
         "description": "Instagram、YouTube、FacebookなどのSNSプリセットで画像サイズを変更。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "📐"
       },
       "convert": {
         "name": "画像形式変換ツール",
         "description": "JPG、PNG、WebP、SVG、HEIC、GIFなど20以上の画像形式を相互変換。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🔄"
       },
       "background-remover": {
         "name": "背景除去ツール",
         "description": "AIで画像の背景を即座に除去。完全無料、アップロード不要、ブラウザ内処理。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "✂️"
       },
       "doc-compare": {
         "name": "ドキュメント比較",
         "description": "Word・PDF・テキスト文書を2つ比較し、行ごとの差分をハイライト表示。無料のオンライン文書比較ツール。",
-        "category": "Productivity",
+        "category": "生産性",
         "icon": "📑"
       },
       "diff-checker": {
         "name": "差分チェッカー",
         "description": "2つのテキストを比較し、違いをハイライト表示。無料のオンラインツール。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "↔"
       },
       "glassmorphism-generator": {
         "name": "ガラスモーフィズム生成ツール",
         "description": "ライブエディタで曇りガラスのようなCSS効果を作成。ぼかし、透明度、枠線を調整。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "◇"
       },
       "css-clip-path": {
         "name": "CSSクリップパス生成ツール",
         "description": "プリセットとカスタム多角形でclip-path形状を視覚的に作成。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⬣"
       },
       "css-loader-generator": {
         "name": "CSSローダー生成ツール",
         "description": "純CSSのローディングスピナーとアニメーションを生成。HTML+CSSをカスタマイズしてコピー。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⟳"
       },
       "html-minifier": {
         "name": "HTML圧縮ツール",
         "description": "空白とコメントを削除してHTMLを圧縮。無料で即時。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "<>"
       },
       "css-minifier": {
         "name": "CSS圧縮ツール",
         "description": "空白とコメントを削除してCSSを圧縮。無料で即時。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "{}"
       },
       "js-minifier": {
         "name": "JS圧縮ツール",
         "description": "空白とコメントを削除してJavaScriptを圧縮。無料で即時。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "fn"
       },
       "favicon-generator": {
         "name": "ファビコン生成ツール",
         "description": "テキスト、絵文字、画像からファビコンを生成。ブラウザとPWAの標準サイズ対応。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "⬢"
       },
       "color-contrast-checker": {
         "name": "カラーコントラストチェッカー",
         "description": "WCAGのカラーコントラスト比を確認。AA・AAAのアクセシビリティ適合を検証。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "◑"
       },
       "text-case-converter": {
         "name": "テキストケース変換ツール",
         "description": "大文字、小文字、camelCase、snake_caseなどに変換",
-        "category": "Text",
+        "category": "テキスト",
         "icon": "Aa"
       },
       "timestamp-converter": {
         "name": "Unixタイムスタンプ変換ツール",
         "description": "Unixタイムスタンプと日付を相互変換。現在のタイムスタンプをリアルタイム表示。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⏰"
       },
       "hash-generator": {
         "name": "ハッシュ生成ツール",
         "description": "SHA-1、SHA-256、SHA-384、SHA-512ハッシュを生成。Web Crypto APIを使用。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "\\#"
       },
       "jwt-decoder": {
         "name": "JWTデコーダー",
         "description": "JSON Web Tokenをデコード。ヘッダー、ペイロード、有効期限を即座に確認。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⚿"
       },
       "url-encoder": {
         "name": "URLエンコーダー/デコーダー",
         "description": "URLとクエリパラメータを変換・復号。コンポーネントと完全URIモードに対応。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "%"
       },
       "cron-generator": {
         "name": "Cron式生成ツール",
         "description": "プリセットと分かりやすい説明、次回実行時刻付きでCron式を作成。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⏱"
       },
       "svg-blob-generator": {
         "name": "SVG Blob生成ツール",
         "description": "有機的なSVG Blob形状を生成。カスタムグラデーションカラーに対応。無料・即時。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "●"
       },
       "svg-wave-generator": {
         "name": "SVG ウェーブ生成ツール",
         "description": "重ねたSVGウェーブ区切りを生成。色や複雑さをカスタマイズ可能。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "∿"
       },
       "image-to-base64": {
         "name": "画像Base64変換ツール",
         "description": "画像をBase64に変換。HTML、CSS、JSONへの埋め込みに。即時・非公開。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⧉"
       },
       "image-to-text": {
         "name": "画像からテキスト (OCR)",
         "description": "OCRで画像からテキストを無料抽出。スクリーンショット、写真、スキャン文書をアップロードして、すぐに編集可能なテキストを取得。",
-        "category": "Productivity",
+        "category": "生産性",
         "icon": "📄"
       },
       "barcode-generator": {
         "name": "バーコード生成ツール",
         "description": "任意のテキストからCode 128バーコードを生成。PNGダウンロード可能",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "❘"
       },
       "html-entity-encoder": {
         "name": "HTMLエンティティエンコーダー",
         "description": "HTMLエンティティを変換・復号。特殊文字とエンティティを相互変換。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "&"
       },
       "chmod-calculator": {
         "name": "Chmod計算ツール",
         "description": "Unixファイル権限を視覚的に計算。8進数とシンボル表記を相互変換。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⚿"
       },
       "color-shades-generator": {
         "name": "カラーシェード生成ツール",
         "description": "任意の色からTailwind風の11段階シェードパレットを生成。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "◐"
       },
       "image-crop": {
         "name": "画像切り抜きツール",
         "description": "任意の比率で画像を切り抜き。Instagram、YouTube、Facebookなどのプリセット付き。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "✂"
       },
       "meta-tag-generator": {
         "name": "メタタグ生成ツール",
         "description": "SEO、OGP、Twitterカード用メタタグを生成。検索・SNS表示をプレビュー。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "☰"
       },
       "robots-txt-generator": {
         "name": "Robots.txt生成ツール",
         "description": "robots.txtを生成。ビジュアルビルダーで検索エンジンとAIボットのアクセスを制御。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "🤖"
       },
       "neumorphism-generator": {
         "name": "ニューモーフィズム生成ツール",
         "description": "ソフトUI/ニューモーフィックなCSS効果を作成。フラット、凹、凸、押し込み形状。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "○"
       },
       "json-to-csv": {
         "name": "JSON⇔CSV変換ツール",
         "description": "JSONとCSVを双方向に変換。ダウンロードに対応。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⇄"
       },
       "placeholder-image": {
         "name": "プレースホルダー画像生成ツール",
         "description": "Webモックアップ用のカスタムプレースホルダー画像を生成。サイズ・色・テキスト自由。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "□"
       },
       "css-text-shadow": {
         "name": "CSSテキストシャドウ生成ツール",
         "description": "CSSテキストシャドウ効果を作成。多層、ネオン、3D、炎などのプリセット。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "T̶"
       },
       "css-flexbox": {
         "name": "CSS Flexbox生成ツール",
         "description": "Flexboxレイアウトを視覚的に構築。方向、配置、折り返し、間隔をライブプレビュー。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⬜"
       },
       "css-grid": {
         "name": "CSS Grid生成ツール",
         "description": "CSS Gridレイアウトを視覚的に構築。列、行、間隔、配置をカスタマイズ。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "⬜"
       },
       "invoice-generator": {
         "name": "請求書生成ツール",
         "description": "プロ品質の請求書を無料で作成。登録不要、透かしなし、PDF保存可能",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "📋"
       },
       "url-slug-generator": {
         "name": "URLスラグ生成ツール",
         "description": "テキストをURL friendlyなスラグに変換。アクセント文字と一括変換に対応。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "/"
       },
       "url-shortener": {
         "name": "URL 短縮ツール",
         "description": "長いリンクを is.gd または TinyURL で即座に短縮。カスタム短縮コードも選択可能。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🔗"
       },
       "exif-viewer": {
         "name": "EXIFビューアー",
         "description": "写真のメタデータ（カメラ設定、日時、GPS位置、デバイス情報）を確認。プライベート。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "📷"
       },
       "noise-generator": {
         "name": "ノイズテクスチャ生成ツール",
         "description": "シームレスなノイズやグレインの背景テクスチャを生成。PNGダウンロードまたはCSSコピー。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "░"
       },
       "og-preview": {
         "name": "Open Graphプレビュー",
         "description": "Google、Facebook、Twitter、Slack、Discordでのページ見え方をプレビュー。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "🔗"
       },
       "css-border-radius": {
         "name": "CSS角丸生成ツール",
         "description": "8値のborder-radiusで有機的な形や葉形、非対称な角を作成。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "●"
       },
       "color-converter": {
         "name": "カラー変換ツール",
         "description": "HEX、RGB、HSL、HSV、CMYKの色値を即座に相互変換。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "◐"
       },
       "html-table-generator": {
         "name": "HTMLテーブル生成ツール",
         "description": "スプレッドシートエディタでテーブルを作成。HTML、Markdown、CSVにエクスポート。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "☷"
       },
       "css-cubic-bezier": {
         "name": "CSS三次ベジェ生成ツール",
         "description": "カスタムアニメーションイージング曲線を作成。制御点をドラッグしてプレビュー。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "∿"
       },
       "bionic-reading": {
         "name": "バイオニックリーディング変換",
         "description": "テキストをバイオニックリーディング形式に変換",
-        "category": "Text",
+        "category": "テキスト",
         "icon": "B"
       },
       "css-background-pattern": {
         "name": "CSS背景パターン生成ツール",
         "description": "純CSSの背景パターンを生成。ドット、グリッド、ストライプ、チェッカーなど。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "▓"
       },
       "image-filters": {
         "name": "画像フィルターエフェクト",
         "description": "ビンテージ、セピア、ノワールなどInstagram風フィルターを適用。15種以上、無料・プライベート。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🎨"
       },
       "json-validator": {
         "name": "JSON検証ツール",
         "description": "JSON構文を検証。エラーメッセージと行番号付き。整形と圧縮も可能。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "✓"
       },
       "pixel-art": {
         "name": "ドット絵変換ツール",
         "description": "画像をドット絵に変換。ピクセルサイズとカラーパレットを調整可能。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "👾"
       },
       "mortgage-calculator": {
         "name": "住宅ローン計算ツール",
         "description": "税金、保険、PMI、償還表込みの毎月返済額を計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🏠"
       },
       "compound-interest-calculator": {
         "name": "複利計算ツール",
         "description": "複利と定期積立で資産がどう増えるかシミュレーション。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📈"
       },
       "loan-calculator": {
         "name": "ローン計算ツール",
         "description": "毎月返済額、総利息、返済スケジュールを計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💳"
       },
       "percentage-calculator": {
         "name": "パーセント計算ツール",
         "description": "数値の割合、増減率、変化率を簡単に計算",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "%"
       },
       "tip-calculator": {
         "name": "チップ計算ツール",
         "description": "チップ額を計算し、割り勘をプリセット・カスタム比率で。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💵"
       },
       "salary-calculator": {
         "name": "給与計算ツール",
         "description": "年収と時給を変換し、税額見積もりと給与内訳を表示。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💼"
       },
       "auto-loan-calculator": {
         "name": "自動車ローン計算ツール",
         "description": "頭金、下取り、消費税、期間比較込みの車両支払額を計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🚗"
       },
       "retirement-calculator": {
         "name": "退職金計算ツール",
         "description": "掛金、インフレ、支取収入を考慮した老後資産をシミュレーション。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🏖"
       },
       "savings-calculator": {
         "name": "貯蓄計算ツール",
         "description": "定期預金と複利で資産がどう増えるか計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💰"
       },
       "investment-calculator": {
         "name": "投資計算ツール",
         "description": "定期積立での投資成長を予測。名目リターンと実質リターンを比較。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📊"
       },
       "bmi-calculator": {
         "name": "BMI計算ツール",
         "description": "ヤード・ポンド法またはメートル法でBMIを計算し、BMI区分と適正体重範囲を確認。",
-        "category": "Health",
+        "category": "健康",
         "icon": "⚖"
       },
       "calorie-calculator": {
         "name": "カロリー計算ツール",
         "description": "年齢、性別、身長、体重、活動量から1日の必要カロリーを計算。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🍎"
       },
       "calorie-burn-calculator": {
         "name": "消費カロリー計算ツール",
         "description": "活動時間と体重から、各種運動の消費カロリーを概算。",
-        "category": "Health",
+        "category": "健康",
         "icon": "⚡"
       },
       "tdee-calculator": {
         "name": "TDEE計算ツール",
         "description": "複数の計算式で1日の総消費カロリーを求め、マクロ配分も提案。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🔥"
       },
       "body-fat-calculator": {
         "name": "体脂肪率計算ツール",
         "description": "米海軍法を使用し、ウエスト・首・ヒップのサイズから体脂肪率を推定。",
-        "category": "Health",
+        "category": "健康",
         "icon": "📏"
       },
       "macro-calculator": {
         "name": "マクロ栄養素計算ツール",
         "description": "目標に応じて1日のタンパク質・糖質・脂質を計算。複数の配分パターン対応。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🥩"
       },
       "1rm-calculator": {
         "name": "1RM計算ツール",
         "description": "Epley、Brzycki、Lombardi などの公式を使ってワンレップマックスを推定。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🏋"
       },
       "keto-calculator": {
         "name": "ケトジェニック計算ツール",
         "description": "1日のカロリーからケトマクロ（糖質・タンパク質・脂質）を計算。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🥑"
       },
       "ovulation-calculator": {
         "name": "排卵日計算ツール",
         "description": "周期から排卵日、妊活期間、次回生理を予測。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🥚"
       },
       "weight-loss-calculator": {
         "name": "減量計算ツール",
         "description": "1日のカロリー差から目標体重までの所要日数を推定。",
-        "category": "Health",
+        "category": "健康",
         "icon": "📉"
       },
       "pdf-to-word": {
         "name": "PDF を Word に変換",
         "description": "PDF を Word に無料で変換。テキストを抽出して編集可能な .doc ファイルをダウンロード。アップロード不要でブラウザ内で実行。",
-        "category": "Productivity",
+        "category": "生産性",
         "icon": "📝"
       },
       "period-calculator": {
         "name": "生理周期計算ツール",
         "description": "次回生理、排卵日、妊活期間、安全日を予測。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🩸"
       },
       "blood-alcohol-calculator": {
         "name": "血液アルコール濃度計算ツール",
         "description": "飲酒量、体重、性別、時間からBACを推定。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🍷"
       },
       "walking-calorie-calculator": {
         "name": "歩行消費カロリー計算ツール",
         "description": "体重、距離または歩数、速度から歩行で消費するカロリーを推定。",
-        "category": "Health",
+        "category": "健康",
         "icon": "🚶"
       },
       "profit-margin-calculator": {
         "name": "利益率計算ツール",
         "description": "原価と売上から利益率、マークアップ、利益を3モードで計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📊"
       },
       "discount-calculator": {
         "name": "割引計算ツール",
         "description": "割引後の販売価格を計算。二重割引、税、総節約額に対応。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🏷"
       },
       "sales-tax-calculator": {
         "name": "消費税計算ツール",
         "description": "購入時の消費税を計算。税込み・税抜きの両方と州税率プリセット。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🧾"
       },
       "roi-calculator": {
         "name": "ROI計算ツール",
         "description": "投資利益率と年率換算リターンを計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📈"
       },
       "age-calculator": {
         "name": "年齢計算ツール",
         "description": "正確な年齢を年月日時間で計算。星座と次の誕生日までのカウントダウン",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🎂"
       },
       "payment-calculator": {
         "name": "支払い計算ツール",
         "description": "金額、利率、期間から毎月のローン返済額を計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💳"
       },
       "paycheck-calculator": {
         "name": "給与明細計算ツール",
         "description": "1回あたりの手取りを試算。連邦税、FICA、州税、401k控除込み。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💵"
       },
       "interest-calculator": {
         "name": "利息計算ツール",
         "description": "単利と複利を計算。年次内訳とAPY比較を表示。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💰"
       },
       "inflation-calculator": {
         "name": "インフレ計算ツール",
         "description": "インフレが購買力に与える影響を確認。未来価値・過去価値モード。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "401k-calculator": {
         "name": "401k計算ツール",
         "description": "雇用主マッチング、掛金、投資リターンで401k成長を予測。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "amortization-calculator": {
         "name": "償還表計算ツール",
         "description": "元金・利息内訳の償還表を作成。追加返済の節約額も確認。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "income-tax-calculator": {
         "name": "所得税計算ツール",
         "description": "2026年税率で連邦所得税を試算。限界税率と実効税率を内訳表示。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "tax-calculator": {
         "name": "税金計算ツール",
         "description": "連邦税、FICA、州税の総負担を計算。実効税率、税率区分、手取りを表示。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "obbba-tax-calculator": {
         "name": "OBBBA節税計算ツール",
         "description": "One Big Beautiful Bill Actによる節税額を計算。チップ、残業、高齢者控除、自動車ローン金利免税。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "electricity-cost-calculator": {
         "name": "電気代計算ツール",
         "description": "家電の稼働コストを計算し、家電や用途別に月々の電気代を内訳表示。",
-        "category": "Home & Energy",
+        "category": "ホームとエネルギー",
         "icon": ""
       },
       "square-footage-calculator": {
         "name": "面積計算ツール",
         "description": "長方形、円、三角形の面積を計算。ヤード・ポンド法とメートル法を切り替え可能。",
-        "category": "Home & Energy",
+        "category": "ホームとエネルギー",
         "icon": "⬜"
       },
       "concrete-calculator": {
         "name": "コンクリート用量計算ツール",
         "description": "長さ・幅・深さから体積（立方ヤードまたは立方メートル）と必要な袋数を算出。",
-        "category": "Home & Energy",
+        "category": "ホームとエネルギー",
         "icon": "🧱"
       },
       "paint-calculator": {
         "name": "塗料用量計算ツール",
         "description": "壁面積、開口部面積、塗装回数、塗布量から必要な塗料量を見積もります。",
-        "category": "Home & Energy",
+        "category": "ホームとエネルギー",
         "icon": "🎨"
       },
       "tile-calculator": {
         "name": "タイル枚数計算ツール",
         "description": "面積、タイルサイズ、ロス率から必要なタイル枚数を計算します。",
-        "category": "Home & Energy",
+        "category": "ホームとエネルギー",
         "icon": "🔲"
       },
       "medicaid-work-requirement-calculator": {
         "name": "メディケイド就労要件計算ツール",
         "description": "新しい80時間就労要件の有無、免除条件、次のステップを確認。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "debt-payoff-calculator": {
         "name": "借金返済計算ツール",
         "description": "借金完済にかかる期間と総利息を計算。追加返済シナリオを比較。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "hourly-to-salary-calculator": {
         "name": "時給年収変換ツール",
         "description": "時給と年収を相互変換。休暇日数も考慮。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "budget-calculator": {
         "name": "予算計算ツール",
         "description": "支出カテゴリ別に月次予算を作成。50/30/20ルールと比較。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "simple-interest-calculator": {
         "name": "単利計算ツール",
         "description": "単利を計算し、式の内訳を表示。複利との比較も可能。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "net-worth-calculator": {
         "name": "純資産計算ツール",
         "description": "資産と負債を集計し純資産を計算。負債対資産比率も表示。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "stock-profit-calculator": {
         "name": "株式損益計算ツール",
         "description": "手数料込みで株式損益、ROI、損益分岐価格を計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "credit-card-payoff-calculator": {
         "name": "カード返済計算ツール",
         "description": "クレジットカードの完済期間と利息を計算。月々の返済額を比較。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "down-payment-calculator": {
         "name": "頭金計算ツール",
         "description": "頭金額を計算し、住宅ローン、月々返済、PMIへの影響を確認。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "dividend-calculator": {
         "name": "配当計算ツール",
         "description": "配当収入を計算し、再投資と積立による成長をシミュレーション。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "fire-calculator": {
         "name": "FIRE計算ツール",
         "description": "ファイナンシャルインデペンデンスナンバーと早期リタイアまでの年数を計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "vat-calculator": {
         "name": "VAT計算ツール",
         "description": "付加価値税を計算。税込み・税抜きに対応し、国別税率プリセット付き。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "break-even-calculator": {
         "name": "損益分岐点計算ツール",
         "description": "固定費と変動費を回収するために必要な販売個数を計算。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "mortgage-affordability-calculator": {
         "name": "住宅ローン借入可能額計算ツール",
         "description": "年収と負債から購入可能な家の価格を算出。28/36 DTIルール。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "apr-calculator": {
         "name": "APR計算ツール",
         "description": "諸経費を含む実質年率APRを計算。APRと公称金利を比較。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "student-loan-calculator": {
         "name": "学生ローン計算ツール",
         "description": "学生ローンの毎月返済額と総利息を計算。追加返済の影響も確認。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "capital-gains-tax-calculator": {
         "name": "譲渡益税計算ツール",
         "description": "投資の譲渡益税を計算。短期・長期税率を比較。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": ""
       },
       "gpa-calculator": {
         "name": "GPA計算ツール",
         "description": "学期GPAと累積GPAを計算。成績と単位を入力",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": ""
       },
       "grade-calculator": {
         "name": "成績計算ツール",
         "description": "加重平均または得点制で科目の成績を計算",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": ""
       },
       "random-number-generator": {
         "name": "乱数生成ツール",
         "description": "指定範囲内で乱数を生成。単発・一括、重複の有無を選択",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": ""
       },
       "countdown-timer": {
         "name": "カウントダウンタイマー",
         "description": "無料のオンラインカウントダウン。時分秒を設定、プリセット付き",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": ""
       },
       "stopwatch": {
         "name": "ストップウォッチ",
         "description": "オンラインストップウォッチ。ラップタイム付き、1/100秒単位",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": ""
       },
       "scientific-calculator": {
         "name": "関数電卓",
         "description": "三角関数、対数、累乗、メモリ、度/ラジアンモード対応の無料電卓",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": ""
       },
       "fraction-calculator": {
         "name": "分数電卓",
         "description": "分数の足し算、引き算、掛け算、割り算、約分、小数変換",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "½"
       },
       "character-counter": {
         "name": "文字数カウンター",
         "description": "文字数、単語数、文、段落をカウント。SNS文字制限と読了時間",
-        "category": "Text",
+        "category": "テキスト",
         "icon": ""
       },
       "text-repeater": {
         "name": "テキストリピーター",
         "description": "任意のテキストをカスタム区切り文字で複数回繰り返し",
-        "category": "Text",
+        "category": "テキスト",
         "icon": ""
       },
       "binary-converter": {
         "name": "バイナリ変換ツール",
         "description": "10進数、2進数、8進数、16進数を即座に相互変換。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "01"
       },
       "whois-lookup": {
         "name": "ドメイン Whois 検索",
         "description": "ドメインの登録事業者・登録/有効期限・DNS サーバーを RDAP でリアルタイムに確認。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "🌐"
       },
       "ip-lookup": {
         "name": "IP アドレス検索",
         "description": "任意の IP の所属組織・CIDR ブロック・国を検索し、自分のグローバル IP も確認できます。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "📡"
       },
       "color-mixer": {
         "name": "カラーミキサー",
         "description": "2色を任意の比率で混ぜ、滑らかなグラデーションを生成。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": ""
       },
       "css-transform-generator": {
         "name": "CSSトランスフォーム生成ツール",
         "description": "CSS transformを視覚的に作成。移動、回転、拡大縮小、傾斜を調整。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": ""
       },
       "pregnancy-calculator": {
         "name": "出産予定日計算ツール",
         "description": "最終月経から出産予定日を推定。妊娠期間の追跡とマイルストーン付き。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "pace-calculator": {
         "name": "ペース計算ツール",
         "description": "ランニングのペース、完走時間、距離を計算。レースプリセット対応。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "bmr-calculator": {
         "name": "基礎代謝量計算ツール",
         "description": "3つの計算式と活動レベルから基礎代謝量を計算。",
-        "category": "Health",
+        "category": "健康",
         "icon": "♥"
       },
       "waist-to-hip-ratio-calculator": {
         "name": "ウエストヒップ比計算ツール",
         "description": "WHOのウエストヒップ比基準で健康リスクを評価。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "water-intake-calculator": {
         "name": "水分摂取量計算ツール",
         "description": "体重、運動量、気候から1日の推奨水分摂取量を計算。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "calorie-deficit-calculator": {
         "name": "カロリー赤字計算ツール",
         "description": "TDEEから減量に必要な1日の摂取カロリーを計算。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "protein-calculator": {
         "name": "タンパク質計算ツール",
         "description": "体重、目標、活動レベルから1日のタンパク質必要量を計算。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "ideal-weight-calculator": {
         "name": "適正体重計算ツール",
         "description": "4つの科学的な計算式で適正体重を求めます。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "sleep-calculator": {
         "name": "睡眠計算ツール",
         "description": "90分の睡眠サイクルに基づき、最適な就寝時刻と起床時刻を計算。",
-        "category": "Health",
+        "category": "健康",
         "icon": ""
       },
       "merge-pdf": {
         "name": "PDF 結合",
         "description": "複数の PDF ファイルを順番に結合します。ブラウザ内で完結し、アップロード不要。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "📑"
       },
       "compress-pdf": {
         "name": "PDF 圧縮",
         "description": "画像品質を下げて PDF ファイルサイズを小さくします。ローカル実行、アップロード不要。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🗜️"
       },
       "split-pdf": {
         "name": "PDF 分割",
         "description": "ページ範囲を指定して PDF ページを抽出し、新しい PDF を作成。高速、プライベート、ブラウザベース。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "✂️"
       },
       "jpg-to-pdf-converter": {
         "name": "JPG を PDF に変換",
         "description": "1 枚または複数の JPG 画像を 1 つの PDF に結合。1 ページに 1 枚ずつ、サーバーへアップロードしません。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🖼️"
       },
       "png-to-pdf-converter": {
         "name": "PNG を PDF に変換",
         "description": "1 枚または複数の PNG 画像を 1 つの PDF に結合。ブラウザ内で完結。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🖼️"
       },
       "number-base-converter": {
         "name": "進数変換ツール",
         "description": "2進数、8進数、10進数、16進数、36進数の間で即座に数値を変換。",
-        "category": "Math",
+        "category": "数学",
         "icon": "01"
       },
       "typing-speed-test": {
         "name": "タイピング速度テスト",
         "description": "WPM、CPM、正確率を測定するタイピング速度テスト。60 秒カウントダウンとサンプルテキスト付き。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "⌨"
       },
       "square-root-calculator": {
         "name": "平方根計算ツール",
         "description": "実数と負の数の平方根を計算。複素数の結果にも対応。",
-        "category": "Math",
+        "category": "数学",
         "icon": "√"
       },
       "mean-median-mode-calculator": {
         "name": "平均値・中央値・最頻値計算ツール",
         "description": "数値リストから平均値、中央値、最頻値を計算。個数と合計も表示。",
-        "category": "Math",
+        "category": "数学",
         "icon": "∑"
       },
       "standard-deviation-calculator": {
         "name": "標準偏差計算ツール",
         "description": "標本または母集団のデータセットに対して標準偏差と分散を計算。",
-        "category": "Math",
+        "category": "数学",
         "icon": "σ"
       },
       "refinance-calculator": {
         "name": "借り換え計算機",
         "description": "現在の住宅ローンと借り換え後を比較し、損益分岐点と総節約額を算出します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🏦"
       },
       "markup-calculator": {
         "name": "マークアップ計算機",
         "description": "マークアップ、利益率、販売価格を計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💲"
       },
       "cd-calculator": {
         "name": "定期預金計算機",
         "description": "定期預金の利息と満期価値、税引後価値を計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💰"
       },
       "car-lease-calculator": {
         "name": "カーリース計算機",
         "description": "月額リース料、マネーファクター、リース総コストを計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🚗"
       },
       "commission-calculator": {
         "name": "コミッション計算機",
         "description": "売上、コミッション率、固定手数料からコミッション収入と税引後の手取りを計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💵"
       },
       "depreciation-calculator": {
         "name": "減価償却計算機",
         "description": "定額法と倍額定率法で資産の減価償却費と簿価を計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📉"
       },
       "lease-calculator": {
         "name": "リース計算機",
         "description": "設備や車両のリースの月額料金、利息コスト、総費用を計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🔑"
       },
       "overtime-calculator": {
         "name": "残業代計算機",
         "description": "基本給と残業代を計算し、1.5倍・2倍の残業割増率に対応します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "⏰"
       },
       "present-value-calculator": {
         "name": "現在価値計算機",
         "description": "将来価値、割引率、複利頻度から現在価値と割引係数を計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "⏳"
       },
       "rent-vs-buy-calculator": {
         "name": "賃貸vs購入計算機",
         "description": "賃貸と購入の長期的なコストを比較し、損益分岐年数と純資産の差を計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🏠"
       },
       "dog-age-calculator": {
         "name": "犬の年齢計算機",
         "description": "犬の年齢を人間の年齢に換算し、体型別の対応表も提供します。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🐕"
       },
       "future-value-calculator": {
         "name": "将来価値計算機",
         "description": "積立と複利を考慮して投資の将来価値を計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📈"
       },
       "annuity-calculator": {
         "name": "年金計算機",
         "description": "年金の現在価値と将来価値を計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💰"
       },
       "emi-calculator": {
         "name": "EMI 計算機",
         "description": "元利均等返済額、総利息、返済スケジュールを計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💳"
       },
       "debt-to-income-calculator": {
         "name": "返済負担率計算機",
         "description": "返済負担率（DTI）を計算し、ローン審査基準を確認します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📊"
       },
       "income-percentile-calculator": {
         "name": "所得パーセンタイル計算機",
         "description": "国別に所得パーセンタイルを推定します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📉"
       },
       "net-worth-percentile-calculator": {
         "name": "純資産パーセンタイル計算機",
         "description": "国別に純資産パーセンタイルを推定します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📊"
       },
       "life-insurance-calculator": {
         "name": "生命保険計算機",
         "description": "所得代替法を使って推奨生命保険金額を見積もります。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🛡"
       },
       "home-affordability-calculator": {
         "name": "住宅購入余力計算機",
         "description": "所得、債務、DTI 制限から購入可能な住宅価格を計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🏠"
       },
       "business-loan-calculator": {
         "name": "事業ローン計算機",
         "description": "事業ローンの月額返済、総利息、総コストを計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💼"
       },
       "credit-score-simulator": {
         "name": "信用スコアシミュレーター",
         "description": "信用行動が信用スコアに与える影響をシミュレートします。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📱"
       },
       "self-employment-tax-calculator": {
         "name": "自営業税計算機",
         "description": "自営業税と控除可能部分を推定します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "📝"
       },
       "car-loan-interest-deduction-calculator": {
         "name": "車両ローン利息控除計算機",
         "description": "事業用車両ローン利息の税額控除効果を推定します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🚘"
       },
       "student-loan-tax-bomb-calculator": {
         "name": "学生ローン税金爆弾計算機",
         "description": "免除された学生ローンに対する所得税を推定します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "💣"
       },
       "trump-account-calculator": {
         "name": "トランプ口座計算機",
         "description": "拠出と雇主マッチングを考慮した仮定上の退職金口座の成長を試算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🇺🇸"
       },
       "mortgage-payoff-calculator": {
         "name": "住宅ローン繰り上げ返済計算機",
         "description": "追加月払いが返済期間をどれだけ短縮し、利息を節約するかを計算します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🏡"
       },
       "child-support-calculator": {
         "name": "児童養育費計算機",
         "description": "親の収入、監護時間、子供の人数から月額の児童養育費を推定します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "👶"
       },
       "alimony-calculator": {
         "name": "配偶者扶養料計算機",
         "description": "収入格差と結婚期間から配偶者扶養料を推定します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "💔"
       },
       "personal-injury-calculator": {
         "name": "人身傷害賠償計算機",
         "description": "医療費、賃金損失、痛苦の倍率から人身傷害の賠償額を推定します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "🏥"
       },
       "workers-comp-calculator": {
         "name": "労災補償計算機",
         "description": "週給と障害等級から労災給付金を推定します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "🦺"
       },
       "dui-cost-calculator": {
         "name": "飲酒運転費用計算機",
         "description": "罰金、弁護士費用、保険料値上がりなどを含む飲酒運転の総費用を推定します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "🍺"
       },
       "bankruptcy-means-test": {
         "name": "破産手段テスト",
         "description": "世帯収入と州の中央値を比較して、チャプター7破産の適格性を確認します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "📉"
       },
       "small-claims-court-calculator": {
         "name": "少額訴訟費用計算機",
         "description": "請求金額に基づいて少額訴訟の手数料と送達費用を推定します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "⚖️"
       },
       "va-disability-calculator": {
         "name": "VA障害給付計算機",
         "description": "複数の障害等級を組み合わせ、扶養家族を含む月額VA給付金を推定します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "🎖️"
       },
       "social-security-calculator": {
         "name": "社会保障給付計算機",
         "description": "平均指数化月額収入と受給年齢から社会保障の退職給付を推定します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "🛡️"
       },
       "medicare-cost-calculator": {
         "name": "メディケア費用計算機",
         "description": "保険料、IRMAA追加料金、自己負担費用を含む年間メディケア費用を推定します。",
-        "category": "Legal",
+        "category": "リーガル",
         "icon": "💊"
       },
       "chatgpt-ads-calculator": {
         "name": "ChatGPT 広告計算機",
         "description": "ChatGPT 広告キャンペーンのインプレッション、クリック数、総支出を推定します。",
-        "category": "Marketing",
+        "category": "マーケティング",
         "icon": "🤖"
       },
       "save-vs-rap-calculator": {
         "name": "SAVE vs REPAYE 計算機",
         "description": "米国の連邦学生ローン返済プラン SAVE と REPAYE を比較します。",
-        "category": "Finance",
+        "category": "ファイナンス",
         "icon": "🎓"
       },
       "ohms-law-calculator": {
         "name": "オームの法則計算機",
         "description": "電圧、電流、抵抗、電力のうち 2 つから残りを計算します。",
-        "category": "Math",
+        "category": "数学",
         "icon": "Ω"
       },
       "digital-signature": {
         "name": "電子サインメーカー",
         "description": "手書き、文字入力、またはアップロードで電子署名を作成。PNG または SVG でダウンロード。無料、会員登録不要、100% プライベート。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "✍"
       },
       "heart-rate-zone-calculator": {
         "name": "心拍ゾーン計算ツール",
         "description": "最大心拍数に基づいて目標心拍数ゾーンを計算します。脂肪燃焼、有酸素、無酸素ゾーンを表示します。",
-        "category": "Health",
+        "category": "健康",
         "icon": "♥"
       },
       "image-upscaler": {
         "name": "画像拡大ツール",
         "description": "無料で画像を拡大。2 倍および 4 倍スケーリング、複数のアルゴリズム。アップロード不要、登録不要——完全にブラウザで動作。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🔍"
       },
       "meme-generator": {
         "name": "ミームジェネレーター",
         "description": "カスタムテキスト、フォント、カラーでミームを作成。ウォーターマークなし、登録不要、ブラウザで完結。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "😂"
       },
       "resume-builder": {
         "name": "履歴書作成",
         "description": "無料でプロフェッショナルな履歴書を作成。複数のテンプレート、ライブプレビュー、PDFダウンロード。登録不要、データ保存なし——ブラウザで完結。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "📄"
       },
       "screen-recorder": {
         "name": "画面録画ツール",
         "description": "画面、ウェブカメラ、ブラウザタブを音声付きで録画。ウォーターマークなし、アップロードなし、時間制限なし。ブラウザ内で動作。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🎥"
       },
       "text-to-speech": {
         "name": "テキスト読み上げ",
         "description": "ブラウザでテキストを自然な音声に変換。複数の言語と音声、調整可能な速度と音調。無料でプライベート。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🔊"
       },
       "screen-color-picker": {
         "name": "画面カラーピッカー",
         "description": "画像をアップロードせずに、画面上の任意の位置からワンクリックで色を取得。HEX・RGB・HSLをコピーできます。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🎨"
       },
       "multiavatar-avatar-generator": {
         "name": "Multiavatarアバター生成",
         "description": "任意のテキストから多文化的なユニークなアバターを生成。120億以上の組み合わせ——プロフィール写真やゲームロゴ、identiconに最適。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🧑‍🎨"
       },
       "video-compressor": {
         "name": "動画圧縮",
         "description": "動画ファイルを無料で圧縮。MP4、WebM、MOVのファイルサイズを画質調整で削減。アップロード不要、登録不要——ブラウザで完結。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🗜"
       },
       "scroll-capture": {
         "name": "スクリーンショット",
         "description": "画面の任意の領域をワンクリックでキャプチャし、注釈を付けてPNGで保存。URL入力もアップロードも不要。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "📸"
       },
       "video-to-gif": {
         "name": "動画からGIF変換",
         "description": "あらゆる動画をアニメーションGIFに変換。トリミング、サイズ変更、フレームレート調整が可能。アップロード不要、ブラウザで完結。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🎞"
       },
       "image-to-gif": {
         "name": "画像からGIF作成",
         "description": "複数の画像をアニメーションGIFに変換。画像を追加してフレーム間隔とサイズを設定し、並び順を調整できます。アップロード不要、ブラウザで完結。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🖼"
       },
       "gif-to-images": {
         "name": "GIFフレーム分割",
         "description": "GIFのすべてのフレームを個別の画像として抽出。各フレームをPNG・WEBP・JPEGで書き出すか、ZIPで一括ダウンロード。アップロード不要、ブラウザで完結。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🎞"
       },
       "base64-to-image": {
         "name": "Base64 画像変換",
         "description": "Base64 文字列を画像に変換し、即時プレビューとダウンロードに対応。無料でプライベート。",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "🖼"
       },
       "audio-converter": {
         "name": "オーディオ変換ツール",
         "description": "MP3、WAV、FLAC、OGG、M4A、OPUS、AIFF 間でオーディオを変換。ビットレート調整も可能、ブラウザ内で完結。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🎵"
       },
       "video-converter": {
         "name": "動画変換ツール",
         "description": "MP4、WebM、AVI、MOV、GIF 間で動画を変換。画質と解像度を調整、アップロード不要。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🎬"
       },
       "document-converter": {
         "name": "文書変換ツール",
         "description": "Markdown、HTML、Word、EPUB、LaTeX などの形式間で文書を変換。Pandoc 搭載、ブラウザ内で実行。",
-        "category": "Productivity",
+        "category": "生産性",
         "icon": "📄"
       },
       "video-watermark": {
         "name": "動画に透かし追加",
         "description": "動画にテキストまたは画像の透かしを追加できる無料ツール。ブラウザ内で完結し、アップロード不要。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "💧"
       },
       "image-watermark": {
         "name": "画像に透かし追加",
         "description": "1枚または複数の画像にテキスト/画像の透かしを追加。位置・大きさ・透明度・タイリングを自由に設定。",
-        "category": "Design",
+        "category": "デザイン",
         "icon": "🖼️"
       },
       "emoji-picker": {
         "name": "絵文字ピッカー",
         "description": "無料のオープンソース Unicode 絵文字を閲覧・検索・コピー。どの端末でも利用可能。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "😊"
       },
       "video-transcript": {
         "name": "動画テキスト抽出",
         "description": "YouTube や Bilibili のリンクを貼り付けるだけで、タイムスタンプ付きの全文を抽出。",
-        "category": "Media",
+        "category": "メディア",
         "icon": "🎬"
       },
       "address-generator": {
         "name": "住所生成",
         "description": "世界 20 以上の国・地域のランダムな住所を生成。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🌍"
       },
       "slideshow-maker": {
         "name": "スライドショー動画メーカー",
         "description": "複数の画像とBGMからMP4スライドショー動画を作成。無料・ブラウザ内で処理。",
-        "category": "Media",
+        "category": "メディア",
         "icon": "🎞️"
       },
       "video-trimmer": {
         "name": "動画トリマー",
         "description": "動画の不要な部分をカット。無劣化の高速カットまたは高精度リエンコードに対応。",
-        "category": "動画ツール",
+        "category": "動画",
         "icon": "✂️"
       },
       "video-joiner": {
         "name": "動画結合ツール",
         "description": "複数の動画を順番に1つに結合。無料・ブラウザ内で処理。",
-        "category": "動画ツール",
+        "category": "動画",
         "icon": "🎬"
       },
       "video-speed-changer": {
         "name": "動画速度変更",
         "description": "動画の再生速度をオンラインで変更（0.25倍〜4倍）。音程はそのまま。",
-        "category": "動画ツール",
+        "category": "動画",
         "icon": "⏩"
       },
       "video-subtitle-burner": {
         "name": "字幕焼き込み",
         "description": "SRT/ASS字幕を動画に焼き込む無料ツール。カスタムフォントも対応。",
-        "category": "動画ツール",
+        "category": "動画",
         "icon": "💬"
       },
       "currency-converter": {
         "name": "通貨換算",
         "description": "40以上の通貨をリアルタイム為替レートで換算。オフライン対応の無料ツール。",
-        "category": "ユーティリティ",
+        "category": "便利ツール",
         "icon": "💱"
       },
       "ai-image-detector": {
         "name": "AI画像検出器",
         "description": "画像がAI生成かチェック — C2PA、生成ツール署名、メタデータ、周波数解析。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🤖"
       },
       "ai-object-eraser": {
         "name": "AIオブジェクト消しゴム",
         "description": "写真から不要な人・物・文字を AI で消せるオブジェクト消しゴム。クリックで選択し、数秒で消去。ブラウザ内で完結、100% プライベート。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🪄"
       },
       "image-to-relief": {
         "name": "画像を3Dレリーフ化",
         "description": "画像から3Dレリーフを生成。プレビュー後、GLB/STLで書き出し可能な無料ツール。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🧊"
       },
       "image-to-printmaking": {
         "name": "白黒版画風変換",
         "description": "写真をワンクリックで白黒版画風に変換。しきい値調整とリアルタイムプレビュー対応。無料・プライベート。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🖨️"
       },
       "image-emboss": {
         "name": "エンボス効果",
         "description": "写真をワンクリックで彫刻風のエンボス効果に変換。強度調整とリアルタイムプレビュー対応。無料・プライベート。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🗿"
       },
       "id-photo-generator": {
         "name": "証明写真作成",
         "description": "パスポート・ビザ用証明写真を簡単作成。サイズと背景色を選び、構図を調整する無料ツール。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📷"
       },
       "background-replace": {
         "name": "背景置換",
         "description": "写真の背景を削除し、単色・グラデーション・別の画像・ぼかしに置き換えます。無料＆プライバシー保護。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🖼️"
       },
       "face-blur": {
         "name": "顔モザイク",
         "description": "写真の顔を自動検出してぼかし、プライバシーを保護します。ぼかし強度を調整可能。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🙈"
       },
       "face-crop": {
         "name": "顔トリミング",
         "description": "写真の顔を自動検出し、それぞれ正方形に切り抜きます。余白調整・一括ダウンロード対応。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📷"
       },
       "image-caption": {
         "name": "画像キャプション生成",
         "description": "ブラウザ内で動作するAIモデルで、あらゆる画像の自然な説明文を生成します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "💬"
       },
       "image-classify": {
         "name": "画像分類",
         "description": "AIモデルで写真の内容を識別。Top 5 の予測カテゴリと信頼度を表示します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🏷️"
       },
       "nsfw-detection": {
         "name": "NSFW判定",
         "description": "ブラウザ内で動作するAIモデルで、画像が職場に不適切な内容かどうかを判定します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🛡️"
       },
       "photo-colorize": {
         "name": "白黒写真の彩色",
         "description": "AIで古い白黒写真にリアルな色を付けます。ブラウザ内で完結します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🎨"
       },
       "image-denoise": {
         "name": "画像ノイズ除去",
         "description": "写真のノイズや粒子を自動で除去し、よりクリーンでクリアな画像に仕上げます。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "❄️"
       },
       "image-deblur": {
         "name": "ぼけ補正",
         "description": "ぼやけた写真をシャープにし、細部をくっきりと復元します。強度と反復回数を調整可能。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📸"
       },
       "unsharp-mask": {
         "name": "アンシャープマスク",
         "description": "定番のシャープ化アルゴリズムでエッジのディテールを強調し、写真をよりクリアにします。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔍"
       },
       "white-balance": {
         "name": "ホワイトバランス",
         "description": "写真の色かぶりを自動補正し、白を純白に、自然な色合いに整えます。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "⚖️"
       },
       "auto-contrast": {
         "name": "自動コントラスト",
         "description": "ワンクリックで写真のコントラストとダイナミックレンジを最適化し、立体感を引き出します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🎚️"
       },
       "histogram-equalize": {
         "name": "ヒストグラム均等化",
         "description": "ピクセルの明るさを再配分してコントラストを高め、暗部と明部のディテールを際立たせます。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📊"
       },
       "hdr-tone-mapping": {
         "name": "HDRトーンマッピング",
         "description": "HDRトーンマッピングアルゴリズムを適用し、高ダイナミックレンジの明暗ディテールを再現します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🌅"
       },
       "dehaze": {
         "name": "霞取り/ヘイズ除去",
         "description": "写真から霧やもやを取り除き、クリアで透き通った風景をよみがえらせます。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🌫️"
       },
       "image-rotate-flip": {
         "name": "回転・反転",
         "description": "画像を回転、水平反転、上下反転して、ワンクリックで向きを調整します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔄"
       },
       "image-negative": {
         "name": "ネガ/色反転",
         "description": "画像の色を反転させて、フィルムネガ風の効果を再現します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🎞️"
       },
       "image-pixelate": {
         "name": "モザイク/ピクセル化",
         "description": "画像をピクセル化して、モザイクや8ビット風のレトロなドット絵に変換します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🟩"
       },
       "image-oil-paint": {
         "name": "油絵風",
         "description": "写真を油絵風のタッチに変換し、筆の質感を再現します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🖌️"
       },
       "image-edge-detect": {
         "name": "エッジ検出",
         "description": "画像内の物体の輪郭線を抽出して、線画風の効果を生成します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔲"
       },
       "image-rounded-corners": {
         "name": "角丸",
         "description": "画像に角丸を追加し、透明背景のPNG画像を出力します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔘"
       },
       "image-border": {
         "name": "枠線追加",
         "description": "画像にカラフルな枠線を追加。写真の飾り付けやSNSでの共有に最適です。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🖼️"
       },
       "image-shadow": {
         "name": "ドロップシャドウ",
         "description": "画像に柔らかな影を追加して、立体感のある見た目に仕上げます。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🌑"
       },
       "image-histogram": {
         "name": "画像ヒストグラム",
         "description": "画像のRGBチャンネルと明るさの分布を確認します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📊"
       },
       "image-palette": {
         "name": "カラーパレット抽出",
         "description": "画像から主要な色を自動抽出してパレットを生成します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🎨"
       },
       "image-phash": {
         "name": "画像知覚ハッシュ",
         "description": "画像の知覚ハッシュ（pHash）を計算して類似度比較に使用します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🧬"
       },
       "image-compare": {
         "name": "画像比較",
         "description": "2枚の画像の差分を比較し、差異を可視化します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "⚖️"
       },
       "duplicate-finder": {
         "name": "重複画像検索",
         "description": "重複または類似した画像をまとめて検出します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "👯"
       },
       "rgb-channel-split": {
         "name": "RGBチャンネル分離",
         "description": "画像を赤・緑・青の3つの色チャンネルに分離します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔴"
       },
       "image-web-optimizer": {
         "name": "Web画像最適化",
         "description": "画像を一括圧縮してWebに適した形式に変換します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🚀"
       },
       "batch-rename": {
         "name": "一括リネーム",
         "description": "ルールチェーンで任意のファイルを一括リネームし、ZIPでダウンロードできます。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📝"
       },
       "image-to-ascii": {
         "name": "画像をASCIIアート化",
         "description": "画像をASCII文字アートに変換します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔤"
       },
       "css-sprite-generator": {
         "name": "CSSスプライト生成",
         "description": "複数の画像をスプライトに合成し、CSSを生成します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🧩"
       },
       "og-image-generator": {
         "name": "OG画像ジェネレーター",
         "description": "SNS共有用の1200×630 OG画像を生成します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🖼️"
       },
       "blob-dataurl": {
         "name": "Blob ↔ DataURL 変換",
         "description": "画像のBlob URLとBase64 DataURLを取得します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔗"
       },
       "image-similarity": {
         "name": "画像類似度",
         "description": "2枚の画像の類似度、MSE、PSNRを計算します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📊"
       },
       "video-frame-extractor": {
         "name": "動画フレーム抽出",
         "description": "動画から一定間隔でフレームを抽出し、ZIPでまとめてダウンロードできます。",
-        "category": "動画ツール",
+        "category": "動画",
         "icon": "🎞️"
       },
       "animated-webp": {
         "name": "アニメーションWebP",
         "description": "動画をアニメーションWebP画像に変換します。",
-        "category": "動画ツール",
+        "category": "動画",
         "icon": "🖼️"
       },
       "apng-maker": {
         "name": "APNG作成",
         "description": "動画をアニメーションAPNG画像に変換します。",
-        "category": "動画ツール",
+        "category": "動画",
         "icon": "✨"
       },
       "video-thumbnail": {
         "name": "動画サムネイル",
         "description": "動画からサムネイルグリッド（コンタクトシート）を生成し、タイムスタンプを表示できます。",
-        "category": "動画ツール",
+        "category": "動画",
         "icon": "🖼️"
       },
       "video-to-images": {
         "name": "動画フレーム抽出",
         "description": "動画から一定間隔でフレームを抽出し、複数の画像形式で保存。MKV、AVI など20以上の形式に対応。",
-        "category": "動画ツール",
+        "category": "動画",
         "icon": "🎞️"
       },
       "pdf-long-image": {
         "name": "PDFを長い画像に変換",
         "description": "PDF の全ページを縦に連結して1枚の長い画像にまとめ、読みやすく共有しやすくします。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "📜"
       },
       "image-stitcher": {
         "name": "画像の連結",
         "description": "複数の画像を縦または横に連結して1枚の長い画像にします。配置の調整にも対応。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🧩"
       },
       "pdf-to-jpg": {
         "name": "PDFをJPGに変換",
         "description": "PDF 文書の各ページを JPG 画像に変換し、ZIP でまとめてダウンロードできます。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🖼️"
       },
       "pdf-to-png": {
         "name": "PDFをPNGに変換",
         "description": "PDF 文書の各ページを PNG 画像に変換し、ZIP でまとめてダウンロードできます。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🖼️"
       },
       "docx-to-jpg": {
         "name": "DOCXをJPGに変換",
         "description": "Word 文書の各ページを JPG 画像に変換し、ZIP でまとめてダウンロードできます。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "📄"
       },
       "docx-to-png": {
         "name": "DOCXをPNGに変換",
         "description": "Word 文書の各ページを PNG 画像に変換し、ZIP でまとめてダウンロードできます。",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "📄"
       },
       "morse-code": {
         "name": "モールス信号翻訳ツール",
         "description": "テキストとモールス信号を即時相互変換",
-        "category": "Text",
+        "category": "テキスト",
         "icon": "📡"
       },
       "reverse-text": {
         "name": "テキスト反転ツール",
         "description": "文字・単語・行を即座に反転",
-        "category": "Text",
+        "category": "テキスト",
         "icon": "↔"
       },
       "px-to-rem": {
         "name": "PX⇔REM 変換ツール",
         "description": "px と rem を相互変換、基準サイズもカスタム可",
-        "category": "Developer",
+        "category": "開発者",
         "icon": "Rem"
       },
       "password-strength": {
         "name": "パスワード強度チェッカー",
         "description": "パスワードの強度を即時スコアで判定",
-        "category": "Utility",
+        "category": "便利ツール",
         "icon": "🔒"
       },
       "color-text-image": {
         "name": "カラーテキスト画像",
         "description": "テキスト・色・フォントサイズ・背景を自由に設定してカラフルな文字画像を生成。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🌈"
       },
       "email-image": {
         "name": "メール画像生成",
         "description": "メールアドレスを画像化してスパムクローラーから保護します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "✉️"
       },
       "excel-img": {
         "name": "Excel 画像抽出",
         "description": "Excel ブックに埋め込まれた画像をすべて抽出してダウンロード。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📊"
       },
       "exif-cleaner": {
         "name": "EXIF クリーナー",
         "description": "画像を再エンコードして EXIF・GPS・デバイス情報を削除しプライバシーを保護。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🧹"
       },
       "gif-edit": {
         "name": "GIF フレーム編集",
         "description": "GIF アニメーションをフレーム単位で編集：並べ替え・削除・複製・速度調整。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🎞️"
       },
       "heic": {
         "name": "HEIC→JPG/PNG 変換",
         "description": "HEIC/HEIF 写真をブラウザ内で JPG や PNG に変換します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📱"
       },
       "icon-size-generator": {
         "name": "マルチサイズアイコン生成",
         "description": "1枚の画像から16〜512pxのアイコンを生成。アプリ・favicon・拡張機能に最適。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📱"
       },
       "image-alpha-invert": {
         "name": "アルファ反転",
         "description": "PNG 画像の透明度を反転——透明部分と表示部分を入れ替えます。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "◐"
       },
       "image-auto-trim": {
         "name": "画像自動トリミング",
         "description": "画像の透明な縁や単色の枠を自動で切り取ります。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "✂️"
       },
       "image-background": {
         "name": "画像背景追加",
         "description": "透明 PNG にワンクリックで単色背景を追加。ダークモード対応に最適。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🎨"
       },
       "image-clear": {
         "name": "画像内容クリア",
         "description": "画像の内容をすべて消去し、単色または完全透明に置き換え。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🧽"
       },
       "image-color-replace": {
         "name": "色の置き換え",
         "description": "画像内の色を別の色に置換、または透明に。スポイトで色を選択可能。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔄"
       },
       "image-coord-marker": {
         "name": "画像座標マーカー",
         "description": "画像をクリックして番号付きの座標マーカーを追加し、結果をダウンロード。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📍"
       },
       "image-date-watermark": {
         "name": "日付ウォーターマーク",
         "description": "写真に日付ウォーターマークを一括追加。形式・位置・スタイルをカスタマイズ。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📅"
       },
       "image-dpi": {
         "name": "画像 DPI 変更",
         "description": "PNG 画像の DPI メタデータを変更（例：300 DPI）。印刷用・ピクセルは不変。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📏"
       },
       "image-file-size": {
         "name": "画像ファイルサイズ調整",
         "description": "サイズを変えずに目標の KB に合うよう画像を再圧縮します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "⚖️"
       },
       "image-format-converter": {
         "name": "画像フォーマット変換",
         "description": "複数画像を一括で PNG・JPG・WebP に変換。すべてブラウザ内で完結。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔁"
       },
       "image-margin": {
         "name": "画像マージン追加",
         "description": "画像の周囲に透明またはカラーの余白を追加。フレームや余白調整に最適。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🖼️"
       },
       "image-region-mask": {
         "name": "領域マスク",
         "description": "領域をドラッグ選択し、モザイクやぼかしで画像のプライバシー部分を隠します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🎭"
       },
       "image-slice": {
         "name": "画像スライスツール",
         "description": "画像を水平・垂直方向に等分し、各スライスを PNG でダウンロード。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔪"
       },
       "img-padding": {
         "name": "画像タイル敷き詰め",
         "description": "小さな画像を大きなキャンバスに敷き詰めて、シームレスな壁紙やパターンを作成。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🧱"
       },
       "img-size": {
         "name": "画像サイズ強制変更",
         "description": "画像を指定の幅・高さに強制リサイズ。引き伸ばしと画質調整にも対応。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📐"
       },
       "ppt-img": {
         "name": "PowerPoint 画像抽出",
         "description": "PowerPoint ファイルに埋め込まれた画像をすべて抽出してダウンロード。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📽️"
       },
       "qrcode-batch": {
         "name": "一括QRコード生成",
         "description": "テキストやURLのリストを一括で QRコード化し、zip でダウンロード。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🗂️"
       },
       "screenshot-beautify": {
         "name": "スクリーンショット美化",
         "description": "スクリーンショットに背景・余白・角丸・枠線・影を追加。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🖼️"
       },
       "screenshot-markup": {
         "name": "スクリーンショット注釈",
         "description": "スクリーンショットに矩形・円・矢印・直線・テキストを追加。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "✏️"
       },
       "solid-color-image": {
         "name": "単色画像生成",
         "description": "任意の色・サイズの単色背景画像を数秒で生成します。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🟦"
       },
       "svg-path": {
         "name": "SVG パスプレビュー",
         "description": "SVG パスを貼り付けて形状を即プレビュー。線・塗り・太さを調整可能。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📐"
       },
       "svg-preview": {
         "name": "SVG プレビュー",
         "description": "SVG コードを貼り付けて、ブラウザで即座にレンダリングを確認。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔍"
       },
       "svg-to-image": {
         "name": "SVG 画像変換",
         "description": "SVG コードを PNG・JPG・WebP に変換。プレビューと Base64 出力に対応。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🧩"
       },
       "text-logo": {
         "name": "テキストロゴ作成",
         "description": "テキスト・色・フォントサイズ・背景を選んで数秒でシンプルなロゴを生成。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🔤"
       },
       "web-icon": {
         "name": "サイトアイコン取得",
         "description": "ドメインを入力するだけで、任意サイトのファビコンを取得・ダウンロード。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "🌐"
       },
       "wifi-qrcode": {
         "name": "WiFi QRコード",
         "description": "WiFi パスワードを共有する QRコードを生成。スキャンして即接続。",
-        "category": "画像ツール",
+        "category": "画像",
         "icon": "📶"
       },
       "audio-cutter": {
         "name": "音声カッター",
         "description": "波形を見ながら MP3/WAV 音声をカット。MP3 または WAV で書き出し。",
-        "category": "音声ツール",
+        "category": "音声",
         "icon": "✂️"
       },
       "audio-merge": {
         "name": "音声結合",
         "description": "複数の音声を好きな順番で1つに結合し、MP3 または WAV で書き出します。",
-        "category": "音声ツール",
+        "category": "音声",
         "icon": "🎚️"
       },
       "audio-player": {
         "name": "音声プレイヤー",
         "description": "音声ファイルの波形を表示し、ブラウザですぐに試聴できます。",
-        "category": "音声ツール",
+        "category": "音声",
         "icon": "🎧"
       },
       "hz": {
         "name": "周波数トーン生成",
         "description": "任意の周波数でサイン波・方形波・のこぎり波・三角波を生成し、WAV で書き出します。",
-        "category": "音声ツール",
+        "category": "音声",
         "icon": "🔊"
       },
       "white-noise": {
         "name": "ホワイトノイズ生成",
         "description": "睡眠や集中に役立つホワイト・ピンク・ブラウンノイズを生成し、WAV で書き出します。",
-        "category": "音声ツール",
+        "category": "音声",
         "icon": "🌫️"
       },
       "alarm": {
         "name": "目覚まし",
         "description": "指定時刻またはN分後にアラームを設定。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "⏰"
       },
       "answer-book": {
         "name": "答えの本",
         "description": "質問を心に浮かべて本を開くとランダムな答えが。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🔮"
       },
       "bank-card-validate": {
         "name": "カード番号チェック",
         "description": "Luhnアルゴリズムでカード番号を検証します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "💳"
       },
       "blood-type": {
         "name": "血液型遺伝",
         "description": "両親の血液型から子の血液型を予測します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🩸"
       },
       "calendar": {
         "name": "年間カレンダー",
         "description": "1年分のカレンダー画像を生成します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🗓️"
       },
       "click-speed": {
         "name": "クリックスピードテスト",
         "description": "10秒間で何回クリックできるかテスト。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🖱️"
       },
       "coin-flip": {
         "name": "コイントス",
         "description": "仮想コインを投げて表裏の統計を記録します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🪙"
       },
       "color-blindness-test": {
         "name": "色覚テスト",
         "description": "石原式カラープレートで自己チェック。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "👁️"
       },
       "date-calculator": {
         "name": "日付計算",
         "description": "日付の差や加算日数を計算します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🧮"
       },
       "day-of-week": {
         "name": "曜日計算",
         "description": "任意の日付が何曜日かを調べます。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "📆"
       },
       "day-of-year": {
         "name": "年間通算日",
         "description": "その日付が1年のうち何日目かを調べます。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "📅"
       },
       "dice-roller": {
         "name": "サイコロ",
         "description": "1〜10個のサイコロを振り、合計を即座に表示。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🎲"
       },
       "expiration": {
         "name": "賞味期限計算",
         "description": "製造日と賞味期間から期限を計算します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🏷️"
       },
       "group-randomizer": {
         "name": "ランダムグループ分け",
         "description": "名前リストをグループ数または人数でランダムに分けます。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "👥"
       },
       "hearing-test": {
         "name": "聴力テスト",
         "description": "聞こえる最高周波数を調べます。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "👂"
       },
       "height-predict": {
         "name": "身長予測",
         "description": "両親の身長から子の身長を予測します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "📏"
       },
       "keycode": {
         "name": "キーコード確認",
         "description": "任意のキーを押すとキーコードとイベント情報を表示。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "⌨️"
       },
       "monte-carlo-pi": {
         "name": "モンテカルロ円周率",
         "description": "円にランダムに点を打って円周率を推定します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "📐"
       },
       "online-clock": {
         "name": "オンライン時計",
         "description": "UnixタイムスタンプとISO時刻を表示する時計。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🕐"
       },
       "pi-digits": {
         "name": "円周率検索",
         "description": "円周率の桁を生成・検索します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🥧"
       },
       "random-picker": {
         "name": "ランダム抽選",
         "description": "リストから名前をランダムに1つ以上抽選します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🎯"
       },
       "reaction-time": {
         "name": "反応速度テスト",
         "description": "あなたの反応速度を測定します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "⚡"
       },
       "schulte-grid": {
         "name": "シュルテ方格",
         "description": "1〜Nを順番にタップして注意力を鍛えます。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🔢"
       },
       "text-reader": {
         "name": "テキストリーダー",
         "description": "テキストを貼り付けて快適な大文字で読みます。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "📖"
       },
       "text-to-image": {
         "name": "テキストを画像に",
         "description": "複数行のテキストをPNG画像に変換します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🖼️"
       },
       "vcf-generator": {
         "name": "VCF生成",
         "description": "名前と電話番号のリストから連絡先VCFを生成。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "📇"
       },
       "web-shortcut": {
         "name": "ウェブショートカット",
         "description": "任意のURLから .url ショートカットを生成します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🔗"
       },
       "world-clock": {
         "name": "ワールドクロック",
         "description": "世界16都市の現在時刻を表示します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🌍"
       },
       "zip-viewer": {
         "name": "ZIPビューア",
         "description": "解凍せずにZIP内のファイル一覧を表示します。",
-        "category": "生活ツール",
+        "category": "生活",
         "icon": "🗜️"
       }
     },
@@ -2518,7 +2550,7 @@
       },
       "title": "AI画像検出器",
       "description": "画像がAI生成かをチェック — C2PA認証情報、生成ツールの署名、メタデータ、周波数解析。すべてブラウザ内でローカルに実行され、画像がアップロードされることはありません。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "ai画像検出",
         "画像がai生成かチェック",
@@ -2671,7 +2703,7 @@
       },
       "title": "AIオブジェクト消しゴム",
       "description": "写真の中から消したい人・物・文字をクリックで選択。AI が対象を正確に選び、その領域を周囲になじむよう再生成して、きれいに消し去ります。すべてブラウザ内で処理されます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "AIオブジェクト消しゴム",
         "オブジェクト消しゴム",
@@ -4283,7 +4315,7 @@
       "metadata": {
         "title": "動画ウォーターマーク除去ツール",
         "description": "任意の長さの動画からウォーターマークを除去。アップロード不要、無料。",
-        "category": "Design"
+        "category": "デザイン"
       },
       "title": "動画ウォーターマーク除去",
       "description": "動画のウォーターマークを無料で除去。スマート除去とぼかしモード。アップロード不要、会員登録不要、すべてブラウザで実行。",
@@ -4441,7 +4473,7 @@
       "metadata": {
         "title": "画像ウォーターマーク除去ツール",
         "description": "写真からウォーターマークを無料で除去。登録不要、制限なし、プライベート。",
-        "category": "Design"
+        "category": "デザイン"
       },
       "title": "画像ウォーターマーク除去",
       "description": "写真のウォーターマークを完全に無料で除去。会員登録不要、制限なし。画像がブラウザから外部に出ることはなく、すべてローカルで処理されます。",
@@ -4580,11 +4612,11 @@
       "metadata": {
         "title": "QRコード生成ツール",
         "description": "任意のテキストやURLからカスタマイズ可能なQRコードを生成",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "QRコード生成",
       "description": "任意のテキストやURLからカスタマイズ可能なQRコードを生成。サイズ、色、誤り訂正レベルを調整。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "faqs": [
         {
           "question": "QRコードを生成するには？",
@@ -4743,7 +4775,7 @@
       },
       "title": "QRコード読み取り",
       "description": "画像やスクリーンショットからQRコードを読み取り、URL・テキスト・WiFi認証情報などを抽出。アップロード不要、ブラウザで完結。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "QRコード読み取り",
         "QRスキャナー",
@@ -4835,11 +4867,11 @@
       "metadata": {
         "title": "QRコードファイル転送 - オフラインでデバイス間ファイル転送",
         "description": "アニメーションQRコードで2台のデバイス間のファイル・テキスト転送。送信側の画面に表示されたQRコードの連続をカメラでスキャンしてファイルを再構築——ネットワーク不要、アップロード不要、完全オフライン。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "QRコードファイル転送",
       "description": "アニメーションQRコードの連続でデバイス間のファイル・テキスト転送。一方の画面がQRコードを映し、もう一方のデバイスのカメラがスキャンしてローカルでファイルを再構築——ネットワーク不要、サーバー不要、アップロードも一切なし。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "QRコードファイル転送",
         "QRコードでファイル転送",
@@ -4997,7 +5029,7 @@
       },
       "title": "顔検出ツール",
       "description": "写真内の顔を自動検出し、バウンディングボックスと信頼度スコアで表示。AIモデルはブラウザ内で完全動作。",
-      "category": "Design",
+      "category": "デザイン",
       "keywords": [
         "顔検出",
         "写真の顔を検出",
@@ -5096,7 +5128,7 @@
       "metadata": {
         "title": "カラーパレット生成ツール",
         "description": "美しいランダムなカラーパレットを作成。ロック・エクスポート対応。",
-        "category": "Design"
+        "category": "デザイン"
       },
       "title": "カラーパレット生成",
       "description": "美しい5色のカラーパレットを生成。気に入った色をロックし、スペースキーで再生成。",
@@ -5224,7 +5256,7 @@
       "metadata": {
         "title": "CSSグラデーション生成ツール",
         "description": "線形・径向・円錐のCSSグラデーションを視覚的に作成。",
-        "category": "Design"
+        "category": "デザイン"
       },
       "title": "CSSグラデーション生成",
       "description": "ビジュアルエディタで線形、放射状、円錐のCSSグラデーションを作成。",
@@ -5351,7 +5383,7 @@
       "metadata": {
         "title": "CSSボックスシャドウ生成ツール",
         "description": "ライブプレビュー付きエディタでCSSボックスシャドウをデザイン。",
-        "category": "Design"
+        "category": "デザイン"
       },
       "title": "ボックスシャドウ生成",
       "description": "ライブビジュアルエディタでCSSボックスシャドウをデザイン。複数のシャドウを追加し、オフセット、ぼかし、広がりを調整。",
@@ -5468,11 +5500,11 @@
       "metadata": {
         "title": "パスワード生成ツール",
         "description": "強力で安全なパスワードをカスタム設定で生成",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "title": "パスワード生成",
       "description": "長さ、文字タイプ、一括生成などのカスタマイズ可能なオプションで、強力で安全なパスワードを生成。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "faqs": [
         {
           "question": "強力なパスワードを生成するには？",
@@ -5604,7 +5636,7 @@
       },
       "title": "テキスト読み上げ",
       "description": "ブラウザでテキストを自然な音声に変換。複数の言語と音声、調整可能な速度と音調。無料でプライベート。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "keywords": [
         "テキスト読み上げ",
         "TTS",
@@ -5696,7 +5728,7 @@
       },
       "title": "スクリーンショット",
       "description": "画面の任意の領域をワンクリックでキャプチャし、注釈を付けてPNGで保存。URL入力もアップロードも不要、ブラウザ内で完結。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "keywords": [
         "スクリーンショット",
         "画面キャプチャ",
@@ -5906,7 +5938,7 @@
       },
       "title": "画像からGIF作成",
       "description": "複数の画像をアニメーションGIFに変換。画像を追加してフレーム間隔とサイズを設定し、並び順を調整できます。アップロード不要、ブラウザで完結。",
-      "category": "Design",
+      "category": "デザイン",
       "keywords": [
         "画像からGIF",
         "GIF作成",
@@ -6014,7 +6046,7 @@
       },
       "title": "GIFフレーム分割",
       "description": "GIFのすべてのフレームを個別の画像として抽出。各フレームをPNG・WEBP・JPEGで書き出すか、ZIPで一括ダウンロード。アップロード不要、ブラウザで完結。",
-      "category": "Design",
+      "category": "デザイン",
       "keywords": [
         "GIFから画像",
         "GIF分割",
@@ -6359,7 +6391,7 @@
       },
       "title": "履歴書作成",
       "description": "無料でプロフェッショナルな履歴書を作成。複数のテンプレート、ライブプレビュー、PDFダウンロード。登録不要、データ保存なし——ブラウザで完結。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "keywords": [
         "履歴書作成",
         "無料履歴書メーカー",
@@ -6596,7 +6628,7 @@
       "metadata": {
         "title": "単位換算ツール",
         "description": "長さ、重さ、温度、データ、時間などの単位を相互変換",
-        "category": "ユーティリティ",
+        "category": "便利ツール",
         "keywords": [
           "単位変換",
           "長さ変換",
@@ -6747,7 +6779,7 @@
       "metadata": {
         "title": "正規表現テスター",
         "description": "リアルタイムマッチングで正規表現をテスト・デバッグ",
-        "category": "Developer",
+        "category": "開発者",
         "keywords": [
           "正規表現テスター",
           "正規表現チェッカー",
@@ -6893,7 +6925,7 @@
       "metadata": {
         "title": "Markdownプレビュー",
         "description": "Markdownを書いて、レンダリングされたHTMLをリアルタイムでプレビュー",
-        "category": "Developer",
+        "category": "開発者",
         "keywords": [
           "markdown プレビュー",
           "markdown エディター",
@@ -7433,11 +7465,11 @@
       "metadata": {
         "title": "電子サインメーカー - 無料オンラインツール",
         "description": "手書き、文字入力、またはアップロードで電子署名を作成。PNG または SVG でダウンロード。無料、会員登録不要、100% プライベート。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "電子サインメーカー",
       "description": "手書き、文字入力、またはアップロードで電子署名を作成。PNG または SVG でダウンロード。無料、会員登録不要、100% プライベート。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "keywords": [
         "電子署名",
         "e サイン",
@@ -7655,7 +7687,7 @@
       "metadata": {
         "title": "JSONフォーマッタ",
         "description": "JSONの整形、圧縮、検証をシンタックスハイライト付きで実行",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "json 整形",
@@ -7790,7 +7822,7 @@
       "metadata": {
         "title": "Base64エンコーダー",
         "description": "テキストとファイルをBase64でエンコード・デコード",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "base64 エンコーダー",
@@ -7917,7 +7949,7 @@
       "metadata": {
         "title": "Base64 から画像へ変換ツール",
         "description": "Base64 文字列を画像に変換します。Base64 データを貼り付けるだけでプレビューされ、PNG・JPEG・GIF・WebP・SVG としてダウンロード可能。無料でプライベート。",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "base64 画像変換",
@@ -8148,7 +8180,7 @@
       "metadata": {
         "title": "UUID生成ツール",
         "description": "UUID（v4、v7）を一括または個別に生成",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "uuid 生成",
@@ -8394,7 +8426,7 @@
       "metadata": {
         "title": "画像カラーピッカー",
         "description": "アップロードした画像から色を抽出",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "画像 カラーピッカー",
@@ -8512,7 +8544,7 @@
       "metadata": {
         "title": "アスペクト比計算ツール",
         "description": "画像と動画のアスペクト比を計算",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "アスペクト比 計算",
@@ -8628,7 +8660,7 @@
       },
       "title": "画面録画ツール",
       "description": "画面、ウェブカメラ、ブラウザタブを音声付きで録画。ウォーターマークなし、アップロードなし、時間制限なし。ブラウザ内で動作。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "keywords": [
         "画面録画",
         "オンライン画面録画",
@@ -8736,7 +8768,7 @@
       "metadata": {
         "title": "Claude Code テキストフォーマッタ",
         "description": "ターミナルとClaude Codeの出力を整理。ANSIコード、行番号、制御文字を除去。",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "Claude Code テキストフォーマッタ",
@@ -8963,7 +8995,7 @@
       "metadata": {
         "title": "画像圧縮ツール",
         "description": "画質調整可能、最大90%まで画像を圧縮",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "画像圧縮",
@@ -9104,7 +9136,7 @@
       "metadata": {
         "title": "画像リサイズツール",
         "description": "SNSプリセットで画像サイズを調整",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "画像サイズ調整",
@@ -9223,7 +9255,7 @@
       "metadata": {
         "title": "画像フォーマット変換ツール",
         "description": "20以上の画像形式間を変換：JPG、PNG、WebP、SVG、HEIC、GIF、BMP、TIFF、ICO",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "ファイル形式変換",
@@ -9358,7 +9390,7 @@
       },
       "title": "オーディオ変換ツール",
       "description": "MP3、WAV、FLAC、OGG、M4A、OPUS、AIFF 間でオーディオを変換し、ビットレートと品質を調整。完全にブラウザ内で実行——アップロード不要、登録不要。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "オーディオ変換",
         "オンライン音声変換",
@@ -9472,7 +9504,7 @@
       },
       "title": "動画変換ツール",
       "description": "MP4、WebM、AVI、MOV、GIF 間で動画を変換し、画質と解像度を調整してダウンロード。完全にブラウザ内で実行——アップロード不要、登録不要。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "動画変換",
         "オンライン動画変換",
@@ -9592,7 +9624,7 @@
       },
       "title": "文書変換ツール",
       "description": "Markdown、HTML、Word（DOCX）、ODT、EPUB、LaTeX、reStructuredText、Org Mode、AsciiDoc 間で文書を変換。Pandoc 搭載——完全にブラウザ内で実行、アップロード不要。",
-      "category": "Productivity",
+      "category": "生産性",
       "keywords": [
         "文書変換",
         "docx markdown 変換",
@@ -9685,7 +9717,7 @@
       "metadata": {
         "title": "背景除去ツール",
         "description": "AIで画像背景を即座に除去。100%無料、アップロード不要、ブラウザで動作。",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "背景削除",
@@ -9819,11 +9851,11 @@
       "metadata": {
         "title": "ドキュメント比較（Word/PDF）",
         "description": "Word・PDF・テキスト文書を2つ比較し、ブラウザ上で行ごとの差分をハイライト表示。",
-        "category": "Productivity"
+        "category": "生産性"
       },
       "title": "ドキュメント比較",
       "description": "2つの文書（Word .docx、PDF、またはテキスト）をアップロードし、追加・削除・変更なしの行をすぐにハイライト表示します。すべてブラウザ内でローカル処理され、サーバーにアップロードされることはありません。",
-      "category": "Productivity",
+      "category": "生産性",
       "labels": {
         "fileA": "文書 A（原本）",
         "fileB": "文書 B（変更版）",
@@ -9934,7 +9966,7 @@
       "metadata": {
         "title": "テキスト差分比較ツール",
         "description": "2つのテキストブロックを比較し、差異をハイライト表示。無料オンライン差分ツール。",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "差分チェッカー",
@@ -10024,7 +10056,7 @@
       "metadata": {
         "title": "ガラスモーフィズム生成ツール",
         "description": "ライブビジュアルエディタでフロストガラスCSSエフェクトを作成。ぼかし、透明度、枠線を調整。",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "グラスモーフィズム生成",
@@ -10118,7 +10150,7 @@
       "metadata": {
         "title": "CSSクリップパス生成ツール",
         "description": "プリセット形状とカスタムポリゴンでCSS clip-pathシェイプを視覚的に作成。",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "CSS clip-path生成",
@@ -10218,7 +10250,7 @@
       "metadata": {
         "title": "CSSローダー生成ツール",
         "description": "純粋CSSローディングスピナーとアニメーションを生成。カスタマイズしてHTML+CSSをコピー。",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "CSSローダー生成",
@@ -10316,7 +10348,7 @@
       "metadata": {
         "title": "HTML圧縮ツール",
         "description": "HTMLを圧縮してファイルサイズを削減",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "HTML圧縮ツール",
@@ -10421,7 +10453,7 @@
       "metadata": {
         "title": "CSS圧縮ツール",
         "description": "CSSを圧縮してファイルサイズを削減",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "CSS圧縮ツール",
@@ -10526,7 +10558,7 @@
       "metadata": {
         "title": "JavaScript圧縮ツール",
         "description": "JavaScriptを圧縮してファイルサイズを削減",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "JavaScript圧縮ツール",
@@ -10631,7 +10663,7 @@
       "metadata": {
         "title": "ファビコン生成ツール",
         "description": "画像から複数のサイズのファビコンを生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "favicon生成",
@@ -10733,7 +10765,7 @@
       "metadata": {
         "title": "カラーコントラストチェッカー",
         "description": "WCAGアクセシビリティ準拠のためのカラーコントラスト比をチェック",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "カラーコントラストチェッカー",
@@ -10827,7 +10859,7 @@
       "metadata": {
         "title": "テキストケース変換ツール",
         "description": "テキストを様々なケース間で変換：大文字、小文字、タイトル、センテンス",
-        "category": "Text"
+        "category": "テキスト"
       },
       "keywords": [
         "テキスト大文字小文字変換",
@@ -10921,7 +10953,7 @@
       "metadata": {
         "title": "タイムスタンプ変換ツール",
         "description": "Unixタイムスタンプと人間が読める日付を相互に変換",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "タイムスタンプ変換ツール",
@@ -11042,7 +11074,7 @@
       "metadata": {
         "title": "ハッシュ生成ツール",
         "description": "テキストからMD5、SHA-1、SHA-256などのハッシュを生成",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "ハッシュ生成ツール",
@@ -11148,7 +11180,7 @@
       "metadata": {
         "title": "JWTデコーダー",
         "description": "JSON Web Token（JWT）をデコード・検査、署名検証対応",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "JWTデコーダー",
@@ -11255,7 +11287,7 @@
       "metadata": {
         "title": "URLエンコーダー",
         "description": "URLとクエリ文字列パラメータをエンコード・デコード",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "URLエンコーダー",
@@ -11368,7 +11400,7 @@
       "metadata": {
         "title": "Cron式生成ツール",
         "description": "人間が読める出力付きのビジュアルCron式ジェネレーター",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "Cron式生成ツール",
@@ -11480,7 +11512,7 @@
       "metadata": {
         "title": "SVGブロブ生成ツール",
         "description": "オーガニックなSVGブロブシェイプを生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "SVGブロブ生成",
@@ -11573,7 +11605,7 @@
       "metadata": {
         "title": "SVGウェーブ生成ツール",
         "description": "背景や区切り線用のSVGウェーブパターンを生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "SVGウェーブ生成",
@@ -11672,7 +11704,7 @@
       "metadata": {
         "title": "画像からBase64変換",
         "description": "画像をBase64データURLに変換",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "画像Base64変換",
@@ -11768,7 +11800,7 @@
       "metadata": {
         "title": "バーコード生成ツール",
         "description": "様々な形式のバーコードを生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "バーコード生成",
@@ -11861,7 +11893,7 @@
       "metadata": {
         "title": "HTMLエンティティエンコーダー",
         "description": "テキスト内のHTMLエンティティをエンコード・デコード",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "HTMLエンティティエンコーダー",
@@ -11969,7 +12001,7 @@
       "metadata": {
         "title": "Chmod権限計算ツール",
         "description": "chmodでUnixファイル権限をビジュアルに計算",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "Chmod権限計算ツール",
@@ -12073,7 +12105,7 @@
       "metadata": {
         "title": "カラーシェード生成ツール",
         "description": "任意の色のシェードとティントを生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "カラーシェード生成",
@@ -12161,7 +12193,7 @@
       "metadata": {
         "title": "画像クロップツール",
         "description": "特定の寸法とアスペクト比で画像をクロップ",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "画像クロップ",
@@ -12259,7 +12291,7 @@
       "metadata": {
         "title": "メタタグ生成ツール",
         "description": "SEOとソーシャルメディア用のHTMLメタタグを生成",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "メタタグ生成ツール",
@@ -12371,7 +12403,7 @@
       "metadata": {
         "title": "Robots.txt生成ツール",
         "description": "ウェブサイト用のrobots.txtファイルを生成",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "Robots.txt生成ツール",
@@ -12477,7 +12509,7 @@
       "metadata": {
         "title": "ニューモーフィズム生成ツール",
         "description": "ビジュアルエディタでニューモーフィズムCSSエフェクトを作成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "ニューモーフィズム生成",
@@ -12576,7 +12608,7 @@
       "metadata": {
         "title": "JSONからCSV変換",
         "description": "JSON配列をCSV形式に変換",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "JSONからCSV変換",
@@ -12682,7 +12714,7 @@
       "metadata": {
         "title": "プレースホルダー画像生成ツール",
         "description": "カスタム寸法と色のプレースホルダー画像を生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "プレースホルダー画像生成",
@@ -12775,7 +12807,7 @@
       "metadata": {
         "title": "CSSテキストシャドウ生成ツール",
         "description": "CSS text-shadowエフェクトを視覚的に生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "CSSテキストシャドウ生成",
@@ -12866,7 +12898,7 @@
       "metadata": {
         "title": "CSS Flexbox生成ツール",
         "description": "ライブプレビュー付きビジュアルCSS Flexboxジェネレーター",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "CSS Flexbox生成",
@@ -12958,7 +12990,7 @@
       "metadata": {
         "title": "CSS Grid生成ツール",
         "description": "ライブプレビュー付きビジュアルCSS Gridジェネレーター",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "CSS Grid生成",
@@ -13048,7 +13080,7 @@
       "metadata": {
         "title": "請求書生成ツール",
         "description": "プロ品質の請求書を無料で作成。登録不要、透かしなし、PDF保存可能",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "請求書生成",
@@ -13150,7 +13182,7 @@
       },
       "title": "URL 短縮ツール",
       "description": "長い URL を無料ですぐに短縮。どこでも共有できる短いリンクを作成し、任意のカスタム短縮コードも指定できます。is.gd を主に使用し、TinyURL に自動フォールバック。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "keywords": [
         "url 短縮",
         "リンク短縮",
@@ -13239,7 +13271,7 @@
       "metadata": {
         "title": "URLスラッグ生成ツール",
         "description": "テキストからURLフレンドリーなスラッグを生成",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "URLスラッグ生成ツール",
@@ -13341,7 +13373,7 @@
       "metadata": {
         "title": "EXIFビューアー",
         "description": "画像のEXIFメタデータを表示",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "EXIFビューアー",
@@ -13535,7 +13567,7 @@
       "metadata": {
         "title": "OGプレビューツール",
         "description": "Open GraphとTwitter Cardメタタグをプレビュー",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "OGプレビューツール",
@@ -13645,7 +13677,7 @@
       "metadata": {
         "title": "CSS角丸生成ツール",
         "description": "CSS border-radius値を視覚的に生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "CSS角丸生成",
@@ -13735,7 +13767,7 @@
       "metadata": {
         "title": "カラーコンバーター",
         "description": "HEX、RGB、HSLなどの形式間で色を変換",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "カラー変換",
@@ -13822,7 +13854,7 @@
       "metadata": {
         "title": "HTMLテーブル生成ツール",
         "description": "スプレッドシート風エディタでHTMLテーブルを視覚的に生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "HTMLテーブル生成",
@@ -13913,7 +13945,7 @@
       "metadata": {
         "title": "CSSベジェ曲線生成ツール",
         "description": "ビジュアルCSS cubic-bezierイージング関数ジェネレーター",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "CSSベジェ曲線生成",
@@ -14084,7 +14116,7 @@
       "metadata": {
         "title": "CSS背景パターン生成ツール",
         "description": "CSS背景パターンを生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "CSS背景パターン生成",
@@ -14178,7 +14210,7 @@
       "metadata": {
         "title": "画像フィルターツール",
         "description": "画像にCSSフィルターを適用して結果をプレビュー",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "画像フィルター",
@@ -14278,7 +14310,7 @@
       "metadata": {
         "title": "JSONバリデーター",
         "description": "詳細なエラーレポートでJSON構文を検証",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "JSONバリデーター",
@@ -14388,7 +14420,7 @@
       "metadata": {
         "title": "ピクセルアートエディター",
         "description": "グリッドベースのエディタでピクセルアートを作成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "ピクセルアート生成",
@@ -14786,7 +14818,7 @@
       "metadata": {
         "title": "パーセント計算ツール",
         "description": "数値の割合、増減率、変化率を簡単に計算",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "無料オンラインツール",
@@ -16292,7 +16324,7 @@
       "metadata": {
         "title": "年齢計算ツール",
         "description": "正確な年齢を年月日時間で計算。星座と次の誕生日までのカウントダウン",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "無料オンラインツール",
@@ -19455,7 +19487,7 @@
       "metadata": {
         "title": "GPA計算ツール",
         "description": "学期GPAと累積GPAを計算。成績と単位を入力。",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "無料オンラインツール",
@@ -19547,7 +19579,7 @@
       "metadata": {
         "title": "成績計算ツール",
         "description": "加重平均または得点制で科目の成績を計算",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "無料オンラインツール",
@@ -19646,7 +19678,7 @@
       "metadata": {
         "title": "乱数生成ツール",
         "description": "指定範囲内で乱数を生成。単発・一括、重複の有無を選択",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "乱数生成",
@@ -19724,7 +19756,7 @@
       "metadata": {
         "title": "カウントダウンタイマー",
         "description": "無料のオンラインカウントダウン。時分秒を設定、プリセット付き。",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "カウントダウンタイマー",
@@ -19800,7 +19832,7 @@
       "metadata": {
         "title": "ストップウォッチ",
         "description": "オンラインストップウォッチ。ラップタイム付き、1/100秒単位。",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "ストップウォッチ",
@@ -19873,7 +19905,7 @@
       "metadata": {
         "title": "関数電卓",
         "description": "三角関数、対数、累乗、メモリ、度/ラジアンモード対応の無料電卓。",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "関数電卓",
@@ -19973,7 +20005,7 @@
       "metadata": {
         "title": "分数電卓",
         "description": "分数の足し算、引き算、掛け算、割り算、約分、小数変換",
-        "category": "ユーティリティ"
+        "category": "便利ツール"
       },
       "keywords": [
         "分数電卓",
@@ -20210,7 +20242,7 @@
       "metadata": {
         "title": "ドメイン Whois 検索",
         "description": "ドメインの登録事業者・登録/有効期限・ステータス・DNS サーバーを無料で確認",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "whois 検索",
@@ -20318,7 +20350,7 @@
       "metadata": {
         "title": "IP アドレス検索",
         "description": "IP アドレスの所属組織・CIDR ブロック・国・ネットワーク種別を検索（自分の IP の確認も対応）",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "ip 検索",
@@ -20420,7 +20452,7 @@
       "metadata": {
         "title": "バイナリ変換ツール",
         "description": "テキストとバイナリを相互に変換",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "バイナリ変換ツール",
@@ -20532,7 +20564,7 @@
       "metadata": {
         "title": "カラーミキサー",
         "description": "2つ以上の色を混ぜ合わせる",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "カラーミキサー",
@@ -20622,7 +20654,7 @@
       "metadata": {
         "title": "CSS Transform生成ツール",
         "description": "CSS transformプロパティを視覚的に生成",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "CSSトランスフォーム生成",
@@ -21546,11 +21578,11 @@
       "metadata": {
         "title": "PDF 結合 - 無料オンラインツール",
         "description": "複数の PDF ファイルを無料でオンライン結合。ブラウザ内で順序を調整して結合できます。アップロードや登録は不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "PDF 結合",
       "description": "複数の PDF ファイルを無料でオンライン結合。ブラウザ内で順序を調整して結合できます。アップロードや登録は不要。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "pdf 結合",
         "pdf マージ",
@@ -21622,11 +21654,11 @@
       "metadata": {
         "title": "PDF 圧縮 - 無料オンラインツール",
         "description": "PDF ファイルサイズを無料でオンライン圧縮。画像品質を下げてブラウザ内で圧縮します。アップロードや登録は不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "PDF 圧縮",
       "description": "PDF ファイルサイズを無料でオンライン圧縮。画像品質を下げてブラウザ内で圧縮します。アップロードや登録は不要。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "pdf 圧縮",
         "pdf サイズ 縮小",
@@ -21708,11 +21740,11 @@
       "metadata": {
         "title": "PDF 分割 - 無料オンラインツール",
         "description": "PDF から指定したページを無料で抽出。ページ範囲を入力してブラウザ内で新しい PDF をダウンロード。アップロードや登録は不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "PDF 分割",
       "description": "PDF から指定したページを無料で抽出。ページ範囲を入力してブラウザ内で新しい PDF をダウンロード。アップロードや登録は不要。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "pdf 分割",
         "pdf ページ 抽出",
@@ -21804,11 +21836,11 @@
       "metadata": {
         "title": "JPG を PDF に変換 - 無料オンラインツール",
         "description": "JPG 画像を無料で PDF に変換。ブラウザ内で複数の JPG を 1 つの PDF に結合。アップロードや登録は不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "JPG を PDF に変換",
       "description": "JPG 画像を無料で PDF に変換。ブラウザ内で複数の JPG を 1 つの PDF に結合。アップロードや登録は不要。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "jpg pdf 変換",
         "jpeg pdf 変換",
@@ -21880,11 +21912,11 @@
       "metadata": {
         "title": "PNG を PDF に変換 - 無料オンラインツール",
         "description": "PNG 画像を無料で PDF に変換。ブラウザ内で複数の PNG を 1 つの PDF に結合。アップロードや登録は不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "PNG を PDF に変換",
       "description": "PNG 画像を無料で PDF に変換。ブラウザ内で複数の PNG を 1 つの PDF に結合。アップロードや登録は不要。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "png pdf 変換",
         "画像 pdf 変換",
@@ -22048,7 +22080,7 @@
       "metadata": {
         "title": "平均値・中央値・最頻値計算ツール",
         "description": "数値リストから平均値、中央値、最頻値を計算。個数と合計も表示。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "平均中央値最頻値計算ツール",
@@ -22138,7 +22170,7 @@
       "metadata": {
         "title": "進数変換ツール",
         "description": "2進数、8進数、10進数、16進数、36進数の間で即座に数値を変換。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "数値基底変換ツール",
@@ -22229,7 +22261,7 @@
       "metadata": {
         "title": "平方根計算ツール",
         "description": "実数と負の数の平方根を計算。複素数の結果にも対応。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "平方根計算ツール",
@@ -22315,7 +22347,7 @@
       "metadata": {
         "title": "標準偏差計算ツール",
         "description": "標本または母集団のデータセットに対して標準偏差と分散を計算。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "標準偏差計算ツール",
@@ -22410,7 +22442,7 @@
       "metadata": {
         "title": "タイピング速度テスト",
         "description": "WPM、CPM、正確率を測定するタイピング速度テスト。60 秒カウントダウンとサンプルテキスト付き。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "keywords": [
         "タイピング速度テスト",
@@ -24420,7 +24452,7 @@
       "metadata": {
         "title": "犬の年齢計算機 - 犬の年齢を人間の年齢に換算",
         "description": "科学的な計算式に基づき犬の年齢を人間の年齢に無料でオンライン換算。小型・中型・大型犬の体型差に対応し、完全な対応表付き。",
-        "category": "ユーティリティ",
+        "category": "便利ツール",
         "icon": "🐕"
       },
       "keywords": [
@@ -27406,7 +27438,7 @@
       "metadata": {
         "title": "SAVE vs REPAYE 計算機",
         "description": "米国の連邦学生ローン返済プラン SAVE と REPAYE を比較します。",
-        "category": "Finance"
+        "category": "ファイナンス"
       },
       "keywords": [
         "無料オンラインツール",
@@ -27513,7 +27545,7 @@
       "metadata": {
         "title": "オームの法則計算機",
         "description": "電圧、電流、抵抗、電力のうち 2 つから残りを計算します。",
-        "category": "Math"
+        "category": "数学"
       },
       "keywords": [
         "無料オンラインツール",
@@ -27625,7 +27657,7 @@
       "metadata": {
         "title": "動画に透かし追加ツール",
         "description": "動画にテキストまたは画像の透かしを追加できる無料ツール。ブラウザ内の FFmpeg で処理し、アップロード不要。",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "動画透かし",
@@ -27746,7 +27778,7 @@
       "metadata": {
         "title": "画像に透かし追加ツール",
         "description": "1枚または複数の画像にテキスト/画像の透かしを追加。位置・サイズ・不透明度・タイリングを完全に制御。",
-        "category": "Design"
+        "category": "デザイン"
       },
       "keywords": [
         "画像透かし",
@@ -27860,7 +27892,7 @@
       "metadata": {
         "title": "絵文字ピッカー",
         "description": "無料のオープンソース Unicode 絵文字を閲覧・検索・コピー。インストール不要・登録不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "keywords": [
         "絵文字",
@@ -28062,7 +28094,7 @@
       },
       "title": "住所生成",
       "description": "オープンソースの Faker ライブラリを使用し、米国・英国・中国・日本・韓国など 20 以上の国・地域のリアルな住所を生成。テストデータやフォーム入力に最適です。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "keywords": [
         "住所生成",
         "ランダム住所",
@@ -28279,7 +28311,7 @@
       },
       "title": "動画トリマー",
       "description": "動画をアップロードし、開始・終了時間をドラッグで選択。無劣化の高速カットか高精度リエンコードでMP4を出力します。処理はすべてブラウザ内で行われ、アップロードはされません。",
-      "category": "動画ツール",
+      "category": "動画",
       "keywords": [
         "動画カット",
         "動画トリミング",
@@ -28379,7 +28411,7 @@
       },
       "title": "動画結合ツール",
       "description": "複数の動画をアップロードし、上下ボタンで順番を調整して1つのMP4に結合します。仕様が一致する動画は無劣化で結合。すべてブラウザ内で処理されます。",
-      "category": "動画ツール",
+      "category": "動画",
       "keywords": [
         "動画結合",
         "動画連結",
@@ -28478,7 +28510,7 @@
       },
       "title": "動画速度変更",
       "description": "動画をアップロードし、速度（0.25倍〜4倍）を選んでワンクリックで変更。オーディオはatempoフィルタで処理され、音程が維持されます。すべてブラウザ内で処理されます。",
-      "category": "動画ツール",
+      "category": "動画",
       "keywords": [
         "動画速度変更",
         "動画を加速",
@@ -28570,7 +28602,7 @@
       },
       "title": "字幕焼き込み",
       "description": "動画と字幕ファイル（SRT/ASS/VTT）をアップロードして、字幕を画面に直接焼き込みます。カスタムフォントも選択可能。すべてブラウザ内で処理され、アップロードはされません。",
-      "category": "動画ツール",
+      "category": "動画",
       "keywords": [
         "字幕焼き込み",
         "字幕を埋め込む",
@@ -28674,7 +28706,7 @@
       },
       "title": "通貨換算ツール",
       "description": "世界の主要40以上の通貨をリアルタイム為替レートで換算。ブラウザ内で完結し、オフライン時は内蔵レートに自動フォールバック。",
-      "category": "ユーティリティ",
+      "category": "便利ツール",
       "keywords": [
         "為替レート",
         "通貨換算",
@@ -28808,7 +28840,7 @@
       },
       "title": "画像を3Dレリーフ化",
       "description": "画像の明暗を高さに変換して3Dレリーフを生成。3Dプレビューで確認し、GLBまたはSTLとして書き出せます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像を3d化",
         "3dレリーフ",
@@ -28906,7 +28938,7 @@
       },
       "title": "画像を白黒版画風に変換",
       "description": "カラー写真をワンクリックで白黒版画風に変換。精度の高いしきい値アルゴリズムが中間階調を除去し、純粋な黒と白だけを残して木版画・シルクスクリーン・活版印刷のような見た目に仕上げます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "版画",
         "白黒版画",
@@ -29003,7 +29035,7 @@
       },
       "title": "画像エンボス",
       "description": "画素差分アルゴリズムで写真のエッジと輪郭を抽出し、ワンクリックで石彫や金属スタンプのような立体的なエンボス効果に仕上げます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "エンボス",
         "エンボス効果",
@@ -29097,7 +29129,7 @@
       "metadata": {
         "title": "証明写真作成",
         "description": "肖像写真からパスポートや証明写真を作成。公式サイズと背景色を選び、ズームとオフセットで構図を微調整して、印刷可能なPNGをダウンロード。すべてブラウザ内で完結。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "keywords": [
         "証明写真",
@@ -29203,11 +29235,11 @@
       "metadata": {
         "title": "背景置換 - 無料オンラインツール",
         "description": "写真の背景を削除し、単色・グラデーション・カスタム画像・ぼかしに置き換えます。AI駆動、完全にブラウザ内で動作。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "背景置換",
       "description": "写真の背景を削除し、単色・グラデーション・カスタム画像・元画像のぼかしに置き換えます。AIカットアウトとすべてのレンダリングはブラウザ内で完結。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "背景置換",
         "背景変更",
@@ -29316,11 +29348,11 @@
       "metadata": {
         "title": "顔モザイク - 写真の顔をぼかしてプライバシー保護",
         "description": "写真の顔を自動検出してぼかし、プライバシーを保護。ぼかし強度調整可能、完全にブラウザ内で動作。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "顔モザイク",
       "description": "写真内のすべての顔を自動検出し、強度を調整しながらぼかします。画像を公開する前のプライバシー保護に最適。すべてブラウザ内で完結。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "顔モザイク",
         "顔ぼかし",
@@ -29416,11 +29448,11 @@
       "metadata": {
         "title": "顔トリミング - 写真から顔を自動切り抜き",
         "description": "顔を自動検出し、余白調整付きで正方形に切り抜きます。個別またはZIPでダウンロード可能。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "顔トリミング",
       "description": "写真内のすべての顔を自動検出し、きれいな正方形画像に切り抜きます。顔の周りの余白を調整し、個別またはZIPで一括ダウンロード。ブラウザ内で完結。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "顔トリミング",
         "顔の切り抜き",
@@ -29517,11 +29549,11 @@
       "metadata": {
         "title": "画像キャプション生成 - AI画像説明ツール",
         "description": "ブラウザ内で動作するAIビジョンモデルで、あらゆる画像の自然な説明文を自動生成。無料＆プライバシー保護。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "画像キャプション生成",
       "description": "任意の画像をアップロードし、AIビジョン言語モデルがブラウザ内で自然な説明文を生成。アクセシビリティ、altテキスト、写真ライブラリの整理に便利。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像キャプション生成",
         "AI画像説明",
@@ -29614,11 +29646,11 @@
       "metadata": {
         "title": "画像分類 - AIで写真の物体を識別",
         "description": "写真をアップロードし、Top 5 の予測カテゴリ（ImageNet）と信頼度を確認。完全にブラウザ内で動作。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "画像分類",
       "description": "1000のImageNetカテゴリで訓練されたMobileNetV2モデルで写真の内容を識別。Top 5 の予測と信頼度を確認——すべてブラウザ内で処理。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像分類",
         "画像認識",
@@ -29712,11 +29744,11 @@
       "metadata": {
         "title": "NSFW判定 - AIコンテンツ安全チェッカー",
         "description": "ブラウザ内で完全に動作するニューラルネットワークで、画像内の職場に不適切なコンテンツを自動検出。無料＆プライバシー保護。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "NSFW判定",
       "description": "NSFWJSニューラルネットワークで画像が職場に不適切な内容かどうかをチェック。各クラス（Neutral・Porn・Hentai・Sexy・Drawing）の確率と明確な判定を確認。すべてブラウザ内で完結。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "NSFW判定",
         "NSFW検出",
@@ -29821,11 +29853,11 @@
       "metadata": {
         "title": "白黒写真の彩色 - AI白黒写真カラー化ツール",
         "description": "ブラウザ内で動作するAIモデルで、白黒写真にリアルな色を自動付与。無料＆プライバシー保護。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "白黒写真の彩色",
       "description": "リアルなAI彩色で古い白黒写真に命を吹き込みます。グレースケール写真をアップロードしてカラー版をダウンロード——すべてブラウザ内で処理。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "白黒写真の彩色",
         "写真のカラー化",
@@ -29920,11 +29952,11 @@
       "metadata": {
         "title": "画像ノイズ除去 - オンラインで写真のノイズを除去",
         "description": "写真のノイズや粒子を無料でオンライン除去。メディアンフィルタ方式、強度調整対応、完全ブラウザ内処理でプライバシーも安全。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "画像ノイズ除去",
       "description": "写真のノイズ、粒子、圧縮アーティファクトを自動で除去し、よりクリーンでクリアな画像に仕上げます。メディアンフィルタ方式を採用し、ノイズ除去しながらエッジのディテールを良好に保持します。すべての処理はブラウザ内で完結し、画像がアップロードされることはありません。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像ノイズ除去",
         "写真のノイズ除去",
@@ -30023,11 +30055,11 @@
       "metadata": {
         "title": "ぼけ補正 - ぼやけた写真をオンラインでシャープに",
         "description": "ぼやけた写真を無料でオンラインシャープ化し、クリアなディテールを復元。ラプラシアンシャープニング、強度と反復回数を調整可能、完全ブラウザ内処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "ぼけ補正",
       "description": "ぼやけた・ピンボケの写真をシャープにしてディテールと輪郭を復元します。ラプラシアンシャープニングを採用し、複数回の反復処理にも対応。軽度のぼけなら写真を再びクリアにできます。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "ぼけ補正",
         "写真のシャープ化",
@@ -30122,11 +30154,11 @@
       "metadata": {
         "title": "アンシャープマスク - オンライン画像シャープ化ツール",
         "description": "無料のオンライン・アンシャープマスク（Unsharp Mask）シャープ化ツール。定番の写真シャープ化アルゴリズムで、量と半径を調整可能。完全ブラウザ内処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "アンシャープマスク",
       "description": "定番の写真シャープ化アルゴリズム「アンシャープマスク（Unsharp Mask）」を適用します。元画像からぼかし版を差し引いてディテールマスクを作り、それを元画像に重ね合わせることで、シャープ化の量と半径を正確に制御できます。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "アンシャープマスク",
         "シャープ化",
@@ -30224,11 +30256,11 @@
       "metadata": {
         "title": "ホワイトバランス - オンラインで写真の色かぶりを補正",
         "description": "無料のオンライン・ホワイトバランス補正ツール。グレーワールドアルゴリズムで色かぶりを自動解消し、白を純白に。完全ブラウザ内処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "ホワイトバランス",
       "description": "写真の色かぶりを自動補正し、白を純白に、色合いを自然に整えます。グレーワールドアルゴリズムで画像全体の色を分析して補正ゲインを自動計算するため、グレーポイントの手動指定は不要です。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "ホワイトバランス",
         "色かぶり補正",
@@ -30321,11 +30353,11 @@
       "metadata": {
         "title": "自動コントラスト - オンラインで写真の階調を最適化",
         "description": "無料のオンライン自動コントラストツール。ヒストグラムストレッチで明暗分布を自動最適化し、クリップ比率も調整可能。完全ブラウザ内処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "自動コントラスト",
       "description": "ワンクリックで写真のコントラストとダイナミックレンジを最適化します。画像のヒストグラムを分析して明暗分布を自動的にストレッチし、極端なピクセルのクリップにも対応して白飛びや黒つぶれを防ぎます。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "自動コントラスト",
         "コントラスト調整",
@@ -30422,11 +30454,11 @@
       "metadata": {
         "title": "ヒストグラム均等化 - オンラインで画像のコントラストを向上",
         "description": "無料のオンライン・ヒストグラム均等化ツール。ピクセルの輝度を再配分して暗部と明部のディテールを強調。完全ブラウザ内処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "ヒストグラム均等化",
       "description": "ヒストグラム均等化アルゴリズムで画像のピクセル輝度分布を再配分し、輝度域でコントラストを伸張して暗部と明部のディテールをどちらも際立たせます。強度調整可能、完全ブラウザ内処理。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "ヒストグラム均等化",
         "ヒストグラム平坦化",
@@ -30519,11 +30551,11 @@
       "metadata": {
         "title": "HDRトーンマッピング - オンラインで高ダイナミックレンジを再現",
         "description": "無料のオンラインHDRトーンマッピングツール。Reinhardアルゴリズムで明暗のディテールを再現し、露出と強度を調整可能。完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "HDRトーンマッピング",
       "description": "HDRトーンマッピングアルゴリズム（Reinhardオペレータ）を適用し、高ダイナミックレンジのシーンの明暗差を圧縮して、明部は白飛びせず、暗部はディテールを保ちます。露出と強度を調整可能で、完全にブラウザ内で処理します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "HDR",
         "トーンマッピング",
@@ -30617,11 +30649,11 @@
       "metadata": {
         "title": "霞取り - オンラインで写真の霧を除去",
         "description": "無料のオンライン霞取り/ヘイズ除去ツール。ダークチャネル事前確率アルゴリズムで霧やもやを除去し、クリアで透き通った風景を復元。完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "霞取り/ヘイズ除去",
       "description": "写真の霧、もや、ヘイズによる低コントラストを取り除き、クリアで透き通った画面を復元します。ダークチャネル事前確率アルゴリズムに基づき、大気散乱を推定・補正します。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "霞取り",
         "ヘイズ除去",
@@ -30716,11 +30748,11 @@
       "metadata": {
         "title": "回転・反転 - オンラインで画像を回転・反転",
         "description": "無料のオンライン画像回転・反転ツール。任意の角度で回転、水平反転、上下反転に対応。90°クイック回転も可能、完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "回転・反転",
       "description": "画像をオンラインで回転、水平反転、上下反転できます。任意の角度（スライダーで微調整）と90°クイック回転に対応し、水平/垂直反転もいつでも切り替え可能。すべての処理はブラウザ内で完結し、画像がアップロードされることはありません。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像を回転",
         "画像を反転",
@@ -30819,11 +30851,11 @@
       "metadata": {
         "title": "ネガ/色反転 - オンラインで画像の色を反転",
         "description": "無料のオンライン画像色反転ツール。フィルムネガ風の効果をワンクリックで生成、完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "ネガ/色反転",
       "description": "画像の各ピクセルの色を反転（255から元の値を引く）して、フィルムネガ風の見た目を再現します。白黒写真はX線写真のような質感に、カラー写真は面白い補色効果を生み出します。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "ネガ",
         "色反転",
@@ -30917,11 +30949,11 @@
       "metadata": {
         "title": "モザイク/ピクセル化 - オンラインで画像をピクセル化",
         "description": "無料のオンライン画像ピクセル化ツール。モザイクや8ビット風のレトロピクセルアートを作成。ブロックサイズ調整可能、完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "モザイク/ピクセル化",
       "description": "画像を色ブロックの平均で処理して、モザイクやレトロなピクセル風に変換します。ブロックサイズを調整すればピクセル化の程度をコントロールできます。小さいブロックは8ビット風のレトロ効果に、大きいブロックはプライバシー保護に最適です。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "モザイク",
         "ピクセル化",
@@ -31016,11 +31048,11 @@
       "metadata": {
         "title": "油絵風 - オンラインで写真を油絵に変換",
         "description": "無料のオンライン写真油絵風変換ツール。筆の質感を再現し、半径と色調レベルを調整可能、完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "油絵風",
       "description": "写真を油絵風に変換します。各ピクセルの周囲で最も頻度の高い量子化色を統計し、画家の筆のタッチを再現します。筆の半径と色の量子化レベルを調整でき、完全にブラウザ内で処理されます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "油絵",
         "油絵風",
@@ -31114,11 +31146,11 @@
       "metadata": {
         "title": "エッジ検出 - オンラインで画像の輪郭線画を抽出",
         "description": "無料のオンラインエッジ検出ツール。Sobelオペレータで物体の輪郭を抽出し、白黒の線画を生成。しきい値調整可能、完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "エッジ検出",
       "description": "Sobelオペレータで画像内のエッジを検出し、物体の輪郭線を抽出して白黒の線画風効果を生成します。しきい値を調整して線の密度をコントロールできます。すべての処理はブラウザ内で完結し、画像がアップロードされることはありません。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "エッジ検出",
         "線画",
@@ -31212,11 +31244,11 @@
       "metadata": {
         "title": "角丸 - オンラインで画像に角丸を追加",
         "description": "無料のオンライン画像角丸ツール。透明背景のPNGを出力。角丸の半径を調整可能、完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "角丸",
       "description": "画像の四隅に角丸を追加し、透明背景のPNG画像を出力します。Webページ、アプリアイコン、デザイン素材に便利です。角丸の半径は自由に調整できます。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "角丸",
         "画像の角丸",
@@ -31309,11 +31341,11 @@
       "metadata": {
         "title": "枠線追加 - オンラインで画像に枠線を追加",
         "description": "無料のオンライン画像枠線ツール。カラフルな枠線を追加。幅と色を調整でき、カスタム色にも対応、完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "枠線追加",
       "description": "画像の周囲にカラフルな枠線を追加します。幅は2〜200pxで調整でき、よく使う10色のプリセットとカスタムカラーに対応。写真の飾り付け、証明写真、SNSでの共有に適しています。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "枠線追加",
         "画像の枠線",
@@ -31408,11 +31440,11 @@
       "metadata": {
         "title": "ドロップシャドウ - オンラインで画像に影を追加",
         "description": "無料のオンライン画像ドロップシャドウツール。柔らかな影の効果を追加。ぼかしとオフセットを調整可能、完全にブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "ドロップシャドウ",
       "description": "画像に柔らかなドロップシャドウを追加して、立体感のある見た目に仕上げます。ぼかしの程度と水平・垂直オフセットを調整できます。すべての処理はブラウザ内で完結し、画像がアップロードされることはありません。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "ドロップシャドウ",
         "画像の影",
@@ -31507,11 +31539,11 @@
       "metadata": {
         "title": "画像ヒストグラム - オンラインで画像のRGBと明るさ分布を確認",
         "description": "無料でオンライン画像ヒストグラムを表示：RGB 3チャンネルと明るさの分布が一目でわかります。すべてブラウザ内で処理。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "画像ヒストグラム",
       "description": "画像のRGBチャンネルと明るさのヒストグラムを確認し、露出と色の分布を把握します。すべての解析はブラウザ内で完結し、画像がアップロードされることはありません。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像ヒストグラム",
         "ヒストグラム",
@@ -31600,11 +31632,11 @@
       "metadata": {
         "title": "カラーパレット抽出 - 画像から主色のパレットを抽出",
         "description": "無料でオンライン画像から主要な色を自動抽出し、調和の取れたパレットを生成。色数を調整でき、クリックで色コードをコピー。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "カラーパレット抽出",
       "description": "画像内の主要な色を自動解析し、主色のパレットを生成します。4〜16色から数を選択でき、色ブロックをクリックするとHEXカラーコードをコピーできます。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "カラーパレット抽出",
         "パレット",
@@ -31695,11 +31727,11 @@
       "metadata": {
         "title": "画像知覚ハッシュ - オンラインでpHashハッシュ値を計算",
         "description": "無料でオンライン画像の知覚ハッシュ（pHash）を計算。64ビットのハッシュ値で類似画像の比較や重複チェックに使用できます。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "画像知覚ハッシュ（pHash）",
       "description": "画像の知覚ハッシュ（pHash）を計算します。知覚ハッシュは画像の内容を64ビットのフィンガープリントに圧縮し、類似した画像は近いハッシュ値になります。類似画像の検出や重複チェックに使用できます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "知覚ハッシュ",
         "phash",
@@ -31791,11 +31823,11 @@
       "metadata": {
         "title": "画像比較 - オンラインで2枚の画像の差分を比較",
         "description": "無料でオンライン画像の差分を比較：差分率が一目でわかり、赤くハイライトした差分可視化画像も生成できます。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "画像比較",
       "description": "2枚の画像をアップロードし、ピクセル単位で比較して差分率を計算します。赤くハイライトした差分画像も生成し、2枚の画像の違いを素早く特定できます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像比較",
         "画像差分",
@@ -31888,11 +31920,11 @@
       "metadata": {
         "title": "重複画像検索 - オンラインで類似画像を一括検出",
         "description": "無料でオンラインの重複または類似画像を一括検出。知覚ハッシュに基づいて自動グループ化し、重複ファイルの整理に役立ちます。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "重複画像検索",
       "description": "複数の画像を一度にアップロードすると、各画像の知覚ハッシュを計算して重複または高度に類似した画像を自動的にグループ化します。ディスク容量の整理に便利です。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "重複画像検索",
         "重複画像検出",
@@ -31984,11 +32016,11 @@
       "metadata": {
         "title": "RGBチャンネル分離 - オンラインで画像を赤・緑・青に分離",
         "description": "無料でオンライン画像を赤・緑・青の3つの色チャンネルに分離し、チャンネルごとに表示・ダウンロードできます。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "RGBチャンネル分離",
       "description": "画像を赤・緑・青の3つの独立した色チャンネルに分離して並べて表示します。各チャンネルには対応する色の明るさ情報のみが残ります。色彩の原理を学ぶ際やチャンネル素材の作成に適しています。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "RGBチャンネル分離",
         "色チャンネル",
@@ -32081,11 +32113,11 @@
       "metadata": {
         "title": "Web画像最適化 - オンラインで画像を一括圧縮",
         "description": "無料でオンライン画像を一括圧縮し、WebP・JPEG・PNG形式に変換。ファイルサイズを削減してWebページの読み込みを高速化します。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "Web画像最適化",
       "description": "画像を一括圧縮してWeb向けの形式（WebP、JPEG、PNG）に変換します。最大幅と圧縮品質を調整でき、画像サイズを大幅に削減できます。すべての処理はブラウザ内で完結します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "Web画像最適化",
         "画像圧縮",
@@ -32179,11 +32211,11 @@
       "metadata": {
         "title": "一括リネーム - オンラインでファイルを一括リネーム",
         "description": "無料でオンラインのファイルを一括リネーム。検索・置換、正規表現、連番、大文字/小文字変換などのルールチェーンに対応し、リアルタイムでプレビュー後にZIPでダウンロードできます。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "一括リネーム",
       "description": "設定したルールで任意のファイルを一括リネーム。検索・置換、正規表現、連番、大文字/小文字変換、挿入、削除などのルールをチェーンで組み合わせ、新ファイル名をリアルタイムでプレビューしてからZIPでダウンロード、またはリネームリストをコピーできます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "一括リネーム",
         "ファイルリネーム",
@@ -32415,11 +32447,11 @@
       "metadata": {
         "title": "画像をASCIIアート化 - オンラインで画像を文字絵に変換",
         "description": "無料でオンライン画像をASCII文字アートに変換。幅と反転設定に対応し、コピーまたはテキストとしてダウンロードできます。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "画像をASCIIアート化",
       "description": "画像を文字で構成されたASCIIアートに変換します。出力幅と反転モードを調整でき、クリップボードへのコピーまたはテキストファイルとしてのダウンロードに対応しています。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像をASCII化",
         "文字絵",
@@ -32511,11 +32543,11 @@
       "metadata": {
         "title": "CSSスプライト生成 - オンラインで画像をスプライトに合成",
         "description": "無料でオンライン画像をCSSスプライトに合成。水平・垂直・グリッドの3つのレイアウトに対応し、CSSコードを自動生成します。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "CSSスプライト生成",
       "description": "複数の画像を1枚のスプライト画像に合成し、対応するCSS背景位置コードを自動生成します。水平・垂直・グリッドの3つのレイアウトに対応しています。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "CSSスプライト",
         "スプライト生成",
@@ -32611,11 +32643,11 @@
       "metadata": {
         "title": "OG画像ジェネレーター - オンラインでSNS共有用カバー画像を作成",
         "description": "無料でオンライン1200×630のOpen Graph共有画像を生成。タイトル・説明・色・背景をカスタマイズできます。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "OG画像ジェネレーター",
       "description": "ソーシャルメディアやWebリンク共有用に1200×630のOpen Graph画像を作成します。タイトル・説明・サイト名・配色・背景画像をカスタマイズできます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "OG画像",
         "Open Graph画像",
@@ -32714,11 +32746,11 @@
       "metadata": {
         "title": "Blob ↔ DataURL 変換 - オンライン画像形式変換",
         "description": "無料でオンライン画像のBlob URLとBase64 DataURLを取得し、ワンクリックでコピー。埋め込みやデバッグに便利です。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "Blob ↔ DataURL 変換",
       "description": "画像をアップロードするとBlob URLとBase64 DataURLを同時に生成し、どちらでもワンクリックでコピーできます。コードへの埋め込みや画像リソースのデバッグに便利です。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "Blob URL",
         "DataURL",
@@ -32804,11 +32836,11 @@
       "metadata": {
         "title": "画像類似度 - オンラインで画像類似度とPSNRを計算",
         "description": "無料でオンライン2枚の画像の類似度パーセント、MSE（平均二乗誤差）、PSNR（ピーク信号対雑音比）を計算します。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "画像類似度",
       "description": "2枚の画像をアップロードして、ピクセル単位の類似度パーセント、平均二乗誤差（MSE）、ピーク信号対雑音比（PSNR）を計算します。許容差のしきい値も調整できます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像類似度",
         "画像比較",
@@ -32900,11 +32932,11 @@
       "metadata": {
         "title": "動画フレーム抽出 - オンラインで動画からフレームを抽出",
         "description": "無料でオンライン動画から一定間隔でフレームを抽出し、PNG/JPEGで保存またはZIPにまとめてダウンロードできます。",
-        "category": "動画ツール"
+        "category": "動画"
       },
       "title": "動画フレーム抽出",
       "description": "動画から一定間隔で静止フレームを抽出し、グリッドでプレビューしてから1枚ずつダウンロードまたはZIPにまとめてダウンロードできます。すべての処理はブラウザ内でローカルに完結します。",
-      "category": "動画ツール",
+      "category": "動画",
       "keywords": [
         "動画フレーム抽出",
         "フレーム抽出",
@@ -32999,11 +33031,11 @@
       "metadata": {
         "title": "アニメーションWebP - オンラインで動画をアニメーションWebPに変換",
         "description": "無料でオンライン動画をアニメーションWebP画像に変換。フレームレート、品質、幅を調整でき、可逆圧縮にも対応しています。",
-        "category": "動画ツール"
+        "category": "動画"
       },
       "title": "アニメーションWebP",
       "description": "動画をアニメーションWebP画像に変換します。フレームレート、画質、出力幅を調整でき、可逆圧縮も利用できます。アニメーションWebPはGIFよりファイルサイズが小さく画質も優れています。",
-      "category": "動画ツール",
+      "category": "動画",
       "keywords": [
         "アニメーションWebP",
         "WebPアニメーション",
@@ -33105,11 +33137,11 @@
       "metadata": {
         "title": "APNG作成 - オンラインで動画をAPNGアニメーションに変換",
         "description": "無料でオンライン動画をアニメーションAPNG画像に変換。フレームレートと幅を調整でき、可逆圧縮で高画質です。",
-        "category": "動画ツール"
+        "category": "動画"
       },
       "title": "APNG作成",
       "description": "動画をアニメーションAPNG画像に変換します。APNGはPNGベースの可逆圧縮形式で、透明背景と無限ループに対応しており、高画質が必要な場面に適しています。",
-      "category": "動画ツール",
+      "category": "動画",
       "keywords": [
         "APNG",
         "APNG作成",
@@ -33210,11 +33242,11 @@
       "metadata": {
         "title": "動画サムネイル - オンラインで動画サムネイルグリッドを生成",
         "description": "無料でオンライン動画からサムネイルグリッド（コンタクトシート）を生成。行数・列数、サムネイル幅、タイムスタンプをカスタマイズできます。",
-        "category": "動画ツール"
+        "category": "動画"
       },
       "title": "動画サムネイル",
       "description": "動画から複数のフレームを自動で切り出し、サムネイルグリッド（コンタクトシート）を1枚の画像として生成します。行数・列数、サムネイル幅をカスタマイズでき、各フレームのタイムスタンプも表示できます。",
-      "category": "動画ツール",
+      "category": "動画",
       "keywords": [
         "動画サムネイル",
         "動画スクリーンショット",
@@ -33307,11 +33339,11 @@
       "metadata": {
         "title": "動画フレーム抽出 - オンライン動画フレーム変換",
         "description": "動画から一定間隔でフレームを抽出し、PNG/JPEG/WebP などの画像形式に変換できる無料オンラインツール。MKV、AVI、FLV など20以上の動画形式に対応。",
-        "category": "動画ツール"
+        "category": "動画"
       },
       "title": "動画フレーム抽出",
       "description": "動画から一定の時間間隔でフレームを抽出し、PNG、JPEG、WebP、BMP、TIFF などの画像形式で保存します。FFmpeg WebAssembly ベースで MKV、AVI、FLV、TS など20以上の動画コンテナ形式に対応し、すべてブラウザ内で処理します。",
-      "category": "動画ツール",
+      "category": "動画",
       "keywords": [
         "動画フレーム抽出",
         "動画から画像",
@@ -33421,11 +33453,11 @@
       "metadata": {
         "title": "PDFを長い画像に変換 - オンラインPDF画像結合",
         "description": "PDF の全ページを縦に連結して1枚の長い画像にする無料オンラインツール。解像度と出力形式を選択可能。アップロード不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "PDFを長い画像に変換",
       "description": "PDF の全ページを順番に縦へ連結し、1枚の長い画像にまとめます。読みやすく共有しやすくなります。解像度（1x-3x）と PNG/JPEG 出力を選択でき、すべてブラウザ内で処理します。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "PDF 長い画像",
         "PDF を1枚の画像に",
@@ -33530,11 +33562,11 @@
       "metadata": {
         "title": "画像の連結 - オンライン画像結合ツール",
         "description": "複数の画像を縦または横に連結して長い画像にする無料オンラインツール。中央揃え・伸縮などの配置調整に対応。アップロード不要。",
-        "category": "画像ツール"
+        "category": "画像"
       },
       "title": "画像の連結",
       "description": "複数の画像を順番に連結して1枚の長い画像にします。縦・横の方向、中央揃え・伸縮の配置、背景色と出力形式を選択できます。すべてブラウザ内でローカル処理されます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像連結",
         "画像を結合",
@@ -33650,11 +33682,11 @@
       "metadata": {
         "title": "PDFをJPGに変換 - オンラインでPDFの各ページをJPG画像に変換",
         "description": "無料でオンライン上のPDF文書の各ページをJPG画像に変換。画質を選択でき、1枚ずつダウンロードまたはZIPにまとめてダウンロード可能。アップロード不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "PDFをJPGに変換",
       "description": "PDF文書の各ページをJPG画像に変換します。画質（1x〜3x）を調整でき、変換はすべてブラウザ内でローカルに完結するため、ファイルがサーバーにアップロードされることはありません。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "PDFをJPGに変換",
         "PDFを画像に変換",
@@ -33752,11 +33784,11 @@
       "metadata": {
         "title": "PDFをPNGに変換 - オンラインでPDFの各ページをPNG画像に変換",
         "description": "無料でオンライン上のPDF文書の各ページをPNG画像に変換。画質を選択でき、1枚ずつダウンロードまたはZIPにまとめてダウンロード可能。アップロード不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "PDFをPNGに変換",
       "description": "PDF文書の各ページをPNG画像に変換します。画質（1x〜3x）を調整でき、変換はすべてブラウザ内でローカルに完結するため、ファイルがサーバーにアップロードされることはありません。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "PDFをPNGに変換",
         "PDFを画像に変換",
@@ -33854,11 +33886,11 @@
       "metadata": {
         "title": "DOCXをJPGに変換 - オンラインでWordの各ページをJPG画像に変換",
         "description": "無料でオンライン上のWord文書の各ページをJPG画像に変換。画質を選択でき、1枚ずつダウンロードまたはZIPにまとめてダウンロード可能。アップロード不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "DOCXをJPGに変換",
       "description": "Word（DOCX）文書の各ページをJPG画像に変換します。画質（1x〜3x）を調整でき、ブラウザ内でローカルにレンダリングするため、ファイルがサーバーにアップロードされることはありません。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "DOCXをJPGに変換",
         "WordをJPGに変換",
@@ -33956,11 +33988,11 @@
       "metadata": {
         "title": "DOCXをPNGに変換 - オンラインでWordの各ページをPNG画像に変換",
         "description": "無料でオンライン上のWord文書の各ページをPNG画像に変換。画質を選択でき、1枚ずつダウンロードまたはZIPにまとめてダウンロード可能。アップロード不要。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "title": "DOCXをPNGに変換",
       "description": "Word（DOCX）文書の各ページをPNG画像に変換します。画質（1x〜3x）を調整でき、ブラウザ内でローカルにレンダリングするため、ファイルがサーバーにアップロードされることはありません。",
-      "category": "Utility",
+      "category": "便利ツール",
       "keywords": [
         "DOCXをPNGに変換",
         "WordをPNGに変換",
@@ -34058,7 +34090,7 @@
       "metadata": {
         "title": "モールス信号翻訳ツール",
         "description": "テキストとモールス信号を相互変換。即時・無料・ブラウザ内で完結。",
-        "category": "Text"
+        "category": "テキスト"
       },
       "keywords": [
         "モールス信号変換",
@@ -34151,7 +34183,7 @@
       "metadata": {
         "title": "テキスト反転ツール",
         "description": "文字・単語・行の順序を即座に反転できる無料ツール。プライバシー保護。",
-        "category": "Text"
+        "category": "テキスト"
       },
       "keywords": [
         "テキスト反転",
@@ -34236,7 +34268,7 @@
       "metadata": {
         "title": "PX⇔REM 変換ツール",
         "description": "ピクセル（px）と rem を相互変換。ルートフォントサイズもカスタム可能な無料の CSS 単位変換ツール。",
-        "category": "Developer"
+        "category": "開発者"
       },
       "keywords": [
         "pxをremに変換",
@@ -34318,7 +34350,7 @@
       "metadata": {
         "title": "パスワード強度チェッカー",
         "description": "パスワードの強度を即時に判定。スコア・チェックリスト・改善のヒントを表示します。すべてブラウザ内で処理。",
-        "category": "Utility"
+        "category": "便利ツール"
       },
       "keywords": [
         "パスワード強度",
@@ -34415,7 +34447,7 @@
       },
       "title": "カラーテキスト画像",
       "description": "数秒でカラフルな文字画像を生成。テキスト・文字色・背景色・フォントサイズをカスタマイズして PNG をダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "カラーテキスト画像",
         "文字画像生成",
@@ -34476,7 +34508,7 @@
       },
       "title": "メール画像生成",
       "description": "メールアドレスを画像化してスパムクローラーに読み取られないようにします。フォントサイズと色を調整して PNG をダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "メール画像",
         "メールを画像に",
@@ -34531,7 +34563,7 @@
       },
       "title": "Excel 画像抽出ツール",
       "description": ".xlsx ブックに埋め込まれたすべての画像（グラフ、ロゴ、商品写真など）を抽出し、個別または ZIP 一括でダウンロードできます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "excel 画像抽出",
         "xlsx 画像",
@@ -34587,7 +34619,7 @@
       },
       "title": "EXIF クリーナー",
       "description": "画像を再エンコードして EXIF・GPS・デバイスメタデータを削除。前後のファイルサイズを比較し、クリーンな PNG をダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "exif削除",
         "exifクリーナー",
@@ -34653,7 +34685,7 @@
       },
       "title": "GIF フレーム編集",
       "description": "任意の GIF をフレーム単位で分解。並べ替え・削除・複製、統一遅延の設定、プレビュー、編集後の GIF をダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "gif編集",
         "gifフレーム編集",
@@ -34718,7 +34750,7 @@
       },
       "title": "HEIC→JPG/PNG 変換",
       "description": "iPhone や Android の HEIC/HEIF 写真を JPG または PNG に変換します。すべてブラウザ内で処理されるため、アップロードは一切ありません。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "heic jpg 変換",
         "heic png 変換",
@@ -34774,7 +34806,7 @@
       },
       "title": "マルチサイズアイコン生成",
       "description": "1枚の画像から 16〜512px のアイコンを生成。必要なサイズにチェックを入れて各 PNG をダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "アイコン生成",
         "アイコンサイズ生成",
@@ -34836,7 +34868,7 @@
       },
       "title": "アルファ反転",
       "description": "PNG 画像の透明度をワンクリックで反転——透明と表示領域を入れ替えます。マスク・ステッカー・PNG 編集に最適。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "アルファ反転",
         "透明度反転",
@@ -34889,7 +34921,7 @@
       },
       "title": "画像自動トリミング",
       "description": "画像の透明または単色の縁をワンクリックで削除。PNG・スクリーンショット・ロゴの整理に最適。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像自動トリミング",
         "透明部分を削除",
@@ -34946,7 +34978,7 @@
       },
       "title": "画像背景追加",
       "description": "透明 PNG にワンクリックで単色背景を追加。ダークモード対応・ステッカー・カラフルなカード共有に最適。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "pngに背景を追加",
         "画像の背景色変更",
@@ -35000,7 +35032,7 @@
       },
       "title": "画像内容クリア",
       "description": "画像の内容をすべて消去し、キャンバスを単色または完全透明で埋めます。元のサイズはそのまま。プレースホルダーやマスクに最適。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像クリア",
         "空白画像",
@@ -35053,7 +35085,7 @@
       },
       "title": "色の置き換え",
       "description": "画像内の色を別の色に置換、または透明にします。結果画像をクリックして元の色を取得し、許容値を調整。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像の色を置換",
         "色の置き換え",
@@ -35112,7 +35144,7 @@
       },
       "title": "画像座標マーカー",
       "description": "画像上の任意の場所をクリックして、正確なピクセル座標を示す番号付きマーカーを追加し、注釈付き画像をダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像座標マーカー",
         "画像に座標を追加",
@@ -35165,7 +35197,7 @@
       },
       "title": "日付ウォーターマーク",
       "description": "写真に日付ウォーターマークを一度に追加。日付形式・位置・フォントサイズ・色を選び、処理後 zip でダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "日付ウォーターマーク",
         "写真に日付",
@@ -35227,7 +35259,7 @@
       },
       "title": "画像 DPI 変更",
       "description": "PNG 画像の DPI メタデータを変更（例：300 DPI）し、印刷ソフトが正しいサイズで出力できるようにします——ピクセルはそのまま。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像 dpi 変更",
         "png dpi 変更",
@@ -35280,7 +35312,7 @@
       },
       "title": "画像ファイルサイズ調整",
       "description": "目標の KB サイズを設定すると、画像を再圧縮してできるだけ近づけます——サイズは変わりません。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像ファイルサイズ調整",
         "指定サイズに圧縮",
@@ -35336,7 +35368,7 @@
       },
       "title": "画像フォーマット変換",
       "description": "1枚または複数の画像を一度に PNG・JPG・WebP へ変換。JPG と WebP の品質を調整して結果をダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像フォーマット変換",
         "pngをjpgに変換",
@@ -35391,7 +35423,7 @@
       },
       "title": "画像マージン追加",
       "description": "画像の周囲に透明またはカラーの余白を追加。フレーム・余白・SNS 向けレイアウトに最適。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像マージン追加",
         "画像に余白を追加",
@@ -35447,7 +35479,7 @@
       },
       "title": "領域マスク",
       "description": "画像の任意の部分をドラッグ選択し、モザイクやぼかしで顔・ナンバープレート・文字などの情報を隠します。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "領域マスク",
         "画像の部分モザイク",
@@ -35504,7 +35536,7 @@
       },
       "title": "画像スライスツール",
       "description": "画像を水平・垂直方向に等分します。2〜12枚を選んで各スライスを PNG でダウンロード。すべてブラウザ内で処理。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像スライス",
         "画像分割",
@@ -35570,7 +35602,7 @@
       },
       "title": "画像タイル敷き詰め",
       "description": "小さな画像を大きなキャンバスに敷き詰めます。出力サイズを指定すると画像が繰り返し敷き詰められ、パターンや壁紙に最適。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像タイル",
         "画像敷き詰め",
@@ -35624,7 +35656,7 @@
       },
       "title": "画像サイズ強制変更",
       "description": "画像を指定の幅・高さにリサイズ。アスペクト比を保つか自由に伸ばすかを選び、画質を調整して PNG・JPG・WebP で保存。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "画像サイズ変更",
         "強制リサイズ",
@@ -35679,7 +35711,7 @@
       },
       "title": "PowerPoint 画像抽出ツール",
       "description": ".pptx プレゼンテーションに埋め込まれたすべての画像（写真、クリップアート、スライド背景など）を抽出し、個別または ZIP 一括でダウンロードできます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "ppt 画像抽出",
         "pptx 画像",
@@ -35735,7 +35767,7 @@
       },
       "title": "一括QRコード生成",
       "description": "リスト全体の QRコードを一度に生成。1行に1件貼り付け、サイズを調整して、個別または zip でダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "一括qrコード",
         "複数qrコード",
@@ -35791,7 +35823,7 @@
       },
       "title": "スクリーンショット美化",
       "description": "素のスクリーンショットを洗練された画像に。背景色・余白・角丸・枠線・影をライブプレビューで調整。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "スクショ美化",
         "スクリーンショット装飾",
@@ -35848,7 +35880,7 @@
       },
       "title": "スクリーンショット注釈",
       "description": "スクリーンショットに数秒で注釈を追加。矩形・円・矢印・直線・テキストを描き、色と線幅を調整してダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "スクショ注釈",
         "スクショに矢印",
@@ -35910,7 +35942,7 @@
       },
       "title": "単色画像生成",
       "description": "任意の色・サイズの単色背景画像を数秒で作成——プレースホルダーやサムネイル、テスト用に最適。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "単色画像",
         "単色背景生成",
@@ -35959,7 +35991,7 @@
       },
       "title": "SVG パスプレビュー",
       "description": "SVG パス（d 属性）を貼り付けて形状を即プレビュー。線の色・塗り・太さを調整して SVG としてダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "svgパス",
         "svgパスプレビュー",
@@ -36010,7 +36042,7 @@
       },
       "title": "SVG プレビュー",
       "description": "任意の SVG コードを貼り付けてレンダリング結果をプレビュー。ライブ編集して .svg ファイルとしてダウンロードできます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "svgプレビュー",
         "svg表示",
@@ -36061,7 +36093,7 @@
       },
       "title": "SVG 画像変換",
       "description": "SVG コードを貼り付けるだけで PNG・JPG・WebP に即時変換。スケールと品質を調整し、プレビューと Base64 を取得できます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "svgをpngに",
         "svgをjpgに",
@@ -36128,7 +36160,7 @@
       },
       "title": "テキストロゴ作成",
       "description": "数秒でシンプルなテキストロゴを作成。テキスト・色・フォントサイズ・背景を選び、透明または単色背景の PNG をダウンロード。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "テキストロゴ作成",
         "テキストロゴ生成",
@@ -36189,7 +36221,7 @@
       },
       "title": "サイトアイコン取得",
       "description": "数秒で任意サイトのファビコンを取得。ドメインを入力してアイコンを確認し、自分のプロジェクトに使えます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "サイトアイコン",
         "ファビコン取得",
@@ -36241,7 +36273,7 @@
       },
       "title": "WiFi QRコード生成",
       "description": "WiFi ネットワークを QRコードに変換。ネットワーク名・パスワード・セキュリティ方式を入力すると、スキャンして即接続できます。",
-      "category": "画像ツール",
+      "category": "画像",
       "keywords": [
         "wifi qrコード",
         "wifi qr生成",
@@ -36297,7 +36329,7 @@
       },
       "title": "音声カッター",
       "description": "音声ファイルをアップロードし、波形上で残したい部分を選ぶだけで MP3 または WAV で書き出せます。すべてブラウザ内で完結します。",
-      "category": "音声ツール",
+      "category": "音声",
       "keywords": [
         "音声カット",
         "mp3カット",
@@ -36358,7 +36390,7 @@
       },
       "title": "音声結合",
       "description": "複数の音声をアップロードし、並べたい順に整えて1つの MP3 または WAV トラックに結合します。処理はブラウザ内で行われます。",
-      "category": "音声ツール",
+      "category": "音声",
       "keywords": [
         "音声結合",
         "mp3結合",
@@ -36416,7 +36448,7 @@
       },
       "title": "音声プレイヤー",
       "description": "音声ファイルをアップロードすると、波形・長さ・サンプルレート・チャンネル数を表示し、ブラウザですぐに試聴できます。データは端末内に留まります。",
-      "category": "音声ツール",
+      "category": "音声",
       "keywords": [
         "音声プレイヤー",
         "音声波形",
@@ -36473,7 +36505,7 @@
       },
       "title": "周波数トーン生成器",
       "description": "20 Hz から 20 kHz の間で任意の周波数の純音を生成。波形・周波数・長さ・音量を選び、試聴してから WAV ファイルをダウンロードできます。",
-      "category": "音声ツール",
+      "category": "音声",
       "keywords": [
         "トーン生成",
         "サイン波生成",
@@ -36534,7 +36566,7 @@
       },
       "title": "ホワイトノイズ生成器",
       "description": "ブラウザ上でホワイト・ピンク・ブラウンノイズを生成。ノイズの種類・長さ・音量を選び、試聴してから WAV ファイルとして書き出せます。",
-      "category": "音声ツール",
+      "category": "音声",
       "keywords": [
         "ホワイトノイズ生成",
         "ピンクノイズ",
@@ -36593,7 +36625,7 @@
       },
       "title": "目覚まし",
       "description": "指定時刻または今からN分後に鳴るアラームを設定。時間になると音でお知らせします。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "目覚まし",
         "オンラインアラーム",
@@ -36645,7 +36677,7 @@
       },
       "title": "答えの本",
       "description": "心の中でイエス/ノー質問を思い浮かべ、本をタップして答えをランダムに表示します。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "答えの本",
         "マジック8ボール",
@@ -36691,7 +36723,7 @@
       },
       "title": "カード番号チェック",
       "description": "カード番号を入力してLuhnチェックサムを通過するか確認します。入力ミスを見つける決済ネットワークと同じ方法です。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "カード番号チェック",
         "luhnアルゴリズム",
@@ -36741,7 +36773,7 @@
       },
       "title": "血液型遺伝",
       "description": "父親と母親のABO血液型を選ぶと、子にあり得る血液型とあり得ない血液型がすぐにわかります。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "血液型遺伝",
         "子の血液型",
@@ -36789,7 +36821,7 @@
       },
       "title": "年間カレンダー",
       "description": "年を選ぶと12ヶ月すべてを1枚のキャンバスに描画します。週末を強調表示し、PNG画像としてダウンロードできます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "年間カレンダー",
         "カレンダー生成",
@@ -36835,7 +36867,7 @@
       },
       "title": "クリックスピードテスト",
       "description": "10秒のチャレンジ。できるだけ速くクリックして毎秒クリック数（CPS）を測定します。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "クリックスピードテスト",
         "cpsテスト",
@@ -36886,7 +36918,7 @@
       },
       "title": "コイントス",
       "description": "クリックひとつで仮想コインを投げ、表と裏の回数を記録して分布を確認できます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "コイントス",
         "コインを投げる",
@@ -36939,7 +36971,7 @@
       },
       "title": "色覚テスト",
       "description": "石原式カラープレートに数字が隠れています。数字を読み取り、正解かどうかを確認する簡易自己テストです。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "色覚テスト",
         "色盲テスト",
@@ -36990,7 +37022,7 @@
       },
       "title": "日付計算",
       "description": "2つのモード：日付間の差を日・週・月で計算するか、指定日付に日数を加算（減算）します。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "日付計算",
         "日数計算",
@@ -37043,7 +37075,7 @@
       },
       "title": "曜日計算",
       "description": "任意の日付が何曜日かを確認できます。今日、過去の誕生日、未来の祝日にも対応。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "曜日計算",
         "何曜日",
@@ -37090,7 +37122,7 @@
       },
       "title": "年間通算日",
       "description": "日付を選ぶと、その年の通算日数、その年の総日数、残り日数がわかります。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "年間通算日",
         "日数",
@@ -37139,7 +37171,7 @@
       },
       "title": "サイコロ",
       "description": "振るサイコロの数（1〜10個）を選ぶだけで、各出目と合計を確認できます。ボードゲームやTRPGに便利。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "サイコロ",
         "サイコロを振る",
@@ -37188,7 +37220,7 @@
       },
       "title": "賞味期限計算",
       "description": "製造日と賞味期間を日数で入力すると、期限日と期限までの残り日数を即座に計算します。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "賞味期限",
         "消費期限計算",
@@ -37240,7 +37272,7 @@
       },
       "title": "聴力テスト",
       "description": "125Hz〜16kHzの9つの周波数の純音を再生し、聞こえたものを記録して可聴上限を調べます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "聴力テスト",
         "周波数テスト",
@@ -37289,7 +37321,7 @@
       },
       "title": "身長予測",
       "description": "父親と母親の身長、子の性別を入力すると、一般的な予測式で成人時の身長を推定します。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "身長予測",
         "子供の身長",
@@ -37342,7 +37374,7 @@
       },
       "title": "キーコード確認",
       "description": "キーボードの任意のキーを押すと、key、code、keyCode、位置が即座に表示されます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "キーコード",
         "keycode",
@@ -37390,7 +37422,7 @@
       },
       "title": "モンテカルロ円周率",
       "description": "正方形にランダムに点を打ち、四分円の内側に入った割合を数えます。この割合はπ/4に近づくため、πを推定できます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "モンテカルロ法",
         "円周率",
@@ -37440,7 +37472,7 @@
       },
       "title": "オンライン時計",
       "description": "秒まで正確な現在時刻と、Unixタイムスタンプ、ISO 8601時刻を表示するリアルタイム時計です。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "オンライン時計",
         "現在時刻",
@@ -37486,7 +37518,7 @@
       },
       "title": "円周率検索",
       "description": "spigot アルゴリズムでブラウザ内に10〜10万桁の円周率を生成し、結果の中から任意の数字列を検索できます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "円周率",
         "円周率検索",
@@ -37538,7 +37570,7 @@
       },
       "title": "ランダム抽選",
       "description": "名前リストを貼り付け、抽選数を選ぶだけで当選者をランダムに決定できます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "ランダム抽選",
         "抽選ツール",
@@ -37588,7 +37620,7 @@
       },
       "title": "反応速度テスト",
       "description": "定番の反応テスト。緑に変わった瞬間にクリック。直近10回の結果と最高・平均タイムを記録します。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "反応速度テスト",
         "反射神経テスト",
@@ -37639,7 +37671,7 @@
       },
       "title": "シュルテ方格",
       "description": "定番の注意力トレーニング。1〜Nが並べられた数字を昇順にできるだけ速くタップします。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "シュルテ方格",
         "注意力トレーニング",
@@ -37689,7 +37721,7 @@
       },
       "title": "テキストリーダー",
       "description": "任意のテキストを貼り付けて読み取りモードへ。文字サイズと行間を調整できる快適なレイアウトです。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "テキストリーダー",
         "大文字リーディング",
@@ -37740,7 +37772,7 @@
       },
       "title": "テキストを画像に",
       "description": "複数行のテキストを入力してPNG画像に変換。文字サイズ、文字色、背景色、余白を調整してダウンロードできます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "テキストを画像",
         "テキストからpng",
@@ -37793,7 +37825,7 @@
       },
       "title": "VCF生成",
       "description": "名前と電話番号のリスト（1行1件）を貼り付けると、スマホの連絡先アプリに直接取り込める .vcf ファイルをダウンロードできます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "vcf生成",
         "vcard生成",
@@ -37842,7 +37874,7 @@
       },
       "title": "ウェブショートカット",
       "description": "URL（任意で名前とアイコン）を入力して、Windows用の .url ネットショートカットファイルを生成します。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "ウェブショートカット",
         "urlショートカット",
@@ -37893,7 +37925,7 @@
       },
       "title": "ワールドクロック",
       "description": "世界16の主要都市の現在時刻をひと目で確認できます。毎秒自動更新。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "ワールドクロック",
         "時差",
@@ -37936,7 +37968,7 @@
       },
       "title": "ZIPビューア",
       "description": "ZIPファイルをアップロードすると、解凍せずに内部の全ファイルとサイズを即座に一覧表示します。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "zipビューア",
         "zip内容一覧",
@@ -37985,7 +38017,7 @@
       },
       "title": "ランダムグループ分け",
       "description": "名前リストを貼り付け、グループ数か人数のどちらで分けるかを選ぶだけで、ランダムにチーム分けできます。",
-      "category": "生活ツール",
+      "category": "生活",
       "keywords": [
         "グループ分け",
         "ランダムグループ",

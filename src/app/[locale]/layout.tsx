@@ -8,10 +8,17 @@ import { DM_Sans, Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { ogImageUrl } from "@/lib/og";
 import { ogLocaleMap, ogLocales } from "@/lib/og-locale";
+import { blogPostsMeta } from "@/data/blog-posts";
 import "../globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import GtagTracker from "@/components/GtagTracker";
+
+// Freshness signal for the WebSite schema: the latest blog post update date.
+const SITE_LAST_UPDATED = blogPostsMeta.reduce(
+  (max, p) => (p.dateModified > max ? p.dateModified : max),
+  blogPostsMeta[0]?.dateModified ?? "2026-01-01"
+);
 
 const body = DM_Sans({
   subsets: ["latin"],
@@ -219,6 +226,7 @@ export default async function LocaleLayout({
                 url: "https://www.toolkitlife.com",
                 description: siteT("description"),
                 inLanguage: locale,
+                dateModified: SITE_LAST_UPDATED,
                 potentialAction: {
                   "@type": "SearchAction",
                   target: `https://www.toolkitlife.com/${locale}/?q={search_term_string}`,
@@ -234,6 +242,12 @@ export default async function LocaleLayout({
                   url: "https://www.toolkitlife.com/icon.svg",
                   width: 64,
                   height: 64,
+                },
+                contactPoint: {
+                  "@type": "ContactPoint",
+                  contactType: "customer support",
+                  email: "support@mindsenta.com",
+                  url: `https://www.toolkitlife.com/${locale}/about`,
                 },
               },
             ],

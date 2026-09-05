@@ -60,6 +60,20 @@ export default async function AboutPage({
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+      {/* BreadcrumbList — plain <script> so it's in the SSR HTML */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: t("breadcrumb.home"), item: `https://www.toolkitlife.com/${locale}` },
+              { "@type": "ListItem", position: 2, name: t("breadcrumb.current"), item: `https://www.toolkitlife.com/${locale}/about` },
+            ],
+          }),
+        }}
+      />
       <nav className="mb-8 text-sm text-zinc-500">
         <Link href="/" className="hover:text-blue-500 transition-colors">{t("breadcrumb.home")}</Link>
         <span className="mx-2 text-zinc-600">/</span>
@@ -80,7 +94,7 @@ export default async function AboutPage({
         ))}
       </div>
 
-      <section className="mt-12">
+      <section id="contact" className="mt-12 scroll-mt-24">
         <h2 className="mb-3 font-display text-2xl text-zinc-100">{t("contact.title")}</h2>
         <p className="text-zinc-300">
           {t("contact.body")}{" "}

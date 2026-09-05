@@ -54,6 +54,20 @@ export default async function TermsOfService({
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+      {/* BreadcrumbList — plain <script> so it's in the SSR HTML */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: t("breadcrumb.home"), item: `https://www.toolkitlife.com/${locale}` },
+              { "@type": "ListItem", position: 2, name: t("breadcrumb.current"), item: `https://www.toolkitlife.com/${locale}/terms` },
+            ],
+          }),
+        }}
+      />
       <nav className="mb-8 text-sm text-zinc-500">
         <Link href="/" className="hover:text-blue-500 transition-colors">{t("breadcrumb.home")}</Link>
         <span className="mx-2 text-zinc-600">/</span>

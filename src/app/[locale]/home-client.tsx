@@ -564,9 +564,9 @@ function SceneSection({
         <div className="space-y-6">
           {visibleGroups.map((g) => (
             <div key={g.title}>
-              <h3 className="mb-2.5 text-sm font-medium text-zinc-500">
+              <h2 className="mb-2.5 text-sm font-medium text-zinc-500">
                 {g.title}
-              </h3>
+              </h2>
               <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
                 {g.tools.map(renderTool)}
               </div>
@@ -608,9 +608,9 @@ function ToolChip({
             {tool.name}
           </span>
         </span>
-        <span className="text-xs leading-relaxed text-zinc-500 line-clamp-2">
+        <p className="text-xs leading-relaxed text-zinc-500 line-clamp-2">
           {tool.description}
-        </span>
+        </p>
       </Link>
       <button
         onClick={onToggleFavorite}
