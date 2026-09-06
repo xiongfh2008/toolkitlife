@@ -52,7 +52,7 @@
   },
   "home": {
     "title": "ToolkitLife",
-    "subtitle": "Free online tools & calculators, right in your browser.",
+    "subtitle": "Your browser is your toolbox.",
     "noSignup": "No signup. No data stored.",
     "searchPlaceholder": "Search by keyword, e.g. PDF, QR code, image compressor...",
     "noResults": "No tools found. Try a different search or category.",
@@ -37874,6 +37874,10 @@
     "how-to-create-digital-signature": {
       "title": "How to Create a Digital Signature for Free (2026 Guide)",
       "description": "Learn how to create digital signatures for documents, PDFs, and contracts. Covering draw, type, upload, and free tools with no registration."
+    },
+        "how-to-create-a-strong-password": {
+      "title": "How to Create a Strong Password (2026 Guide)",
+      "description": "Learn what makes a password strong, why length beats complexity, and how password managers and passkeys protect your accounts. Free browser tools included."
     },
     "how-to-extract-text-from-images": {
       "title": "How to Extract Text from Images: An OCR Guide (2026)",

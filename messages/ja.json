@@ -52,7 +52,7 @@
   },
   "home": {
     "title": "ToolkitLife",
-    "subtitle": "ブラウザですぐに使える無料のオンラインツールと計算機。",
+    "subtitle": "あなたのブラウザが、そのままツールボックスに。",
     "noSignup": "会員登録不要。データ保存なし。",
     "searchPlaceholder": "キーワードでツールを検索（例：QRコード、PDF、圧縮…）",
     "noResults": "ツールが見つかりません。別の検索語またはカテゴリをお試しください。",
@@ -38118,6 +38118,10 @@
     "how-to-create-digital-signature": {
       "title": "デジタル署名を無料で作成する方法（2026ガイド）",
       "description": "文書、PDF、契約書用のデジタル署名を作成する方法を学びます。手書き、入力、アップロード、登録不要の無料ツールを解説します。"
+    },
+        "how-to-create-a-strong-password": {
+      "title": "強力なパスワードの作り方（2026年版ガイド）",
+      "description": "強力なパスワードの条件、長さが複雑さに勝つ理由、パスワードマネージャーとパスキーでアカウントを守る方法を解説。無料ツール付き。"
     },
     "how-to-extract-text-from-images": {
       "title": "画像からテキストを抽出する方法：OCRガイド（2026）",

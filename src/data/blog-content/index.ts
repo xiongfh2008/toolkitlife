@@ -6,6 +6,7 @@ import { content as howToConvertTextToSpeech } from "./how-to-convert-text-to-sp
 import { content as howToConvertVideoToGif } from "./how-to-convert-video-to-gif";
 import { content as howToCreateCartoonAvatar } from "./how-to-create-cartoon-avatar";
 import { content as howToCreateDigitalSignature } from "./how-to-create-digital-signature";
+import { content as howToCreateStrongPassword } from "./how-to-create-a-strong-password";
 import { content as howToExtractTextFromImages } from "./how-to-extract-text-from-images";
 import { content as howToMakeMemes } from "./how-to-make-memes";
 import { content as howToRecordYourScreen } from "./how-to-record-your-screen";
@@ -35,6 +36,7 @@ export const blogContent: Record<string, BlogContent> = {
   "how-to-convert-video-to-gif": howToConvertVideoToGif,
   "how-to-create-cartoon-avatar": howToCreateCartoonAvatar,
   "how-to-create-digital-signature": howToCreateDigitalSignature,
+  "how-to-create-a-strong-password": howToCreateStrongPassword,
   "how-to-extract-text-from-images": howToExtractTextFromImages,
   "how-to-make-memes": howToMakeMemes,
   "how-to-record-your-screen": howToRecordYourScreen,

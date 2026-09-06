@@ -52,7 +52,7 @@
   },
   "home": {
     "title": "ToolkitLife",
-    "subtitle": "브라우저에서 바로 사용하는 무료 온라인 도구 및 계산기.",
+    "subtitle": "당신의 브라우저가 곧 도구 상자입니다.",
     "noSignup": "회원가입 없음. 데이터 저장 없음.",
     "searchPlaceholder": "키워드로 원하는 도구를 검색하세요（예: QR코드, PDF, 압축…）",
     "noResults": "도구를 찾을 수 없습니다. 다른 검색어나 카테고리를 시도해 보세요.",
@@ -38115,6 +38115,10 @@
     "how-to-create-digital-signature": {
       "title": "디지털 서명을 무료 만드는 법(2026 가이드)",
       "description": "문서, PDF, 계약서용 디지털 서명을 만드는 방법을 알아보세요. 그리기, 입력, 업로드, 가입 없이 사용하는 무료인 도구를 다룹니다."
+    },
+        "how-to-create-a-strong-password": {
+      "title": "강력한 비밀번호 만들기 (2026 가이드)",
+      "description": "강력한 비밀번호의 조건, 길이가 복잡성보다 중요한 이유, 비밀번호 관리자와 패스키로 계정을 지키는 방법을 소개합니다. 무료 도구 포함."
     },
     "how-to-extract-text-from-images": {
       "title": "이미지에서 텍스트 추출하기: OCR 가이드(2026)",

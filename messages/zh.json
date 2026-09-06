@@ -52,7 +52,7 @@
   },
   "home": {
     "title": "ToolkitLife",
-    "subtitle": "免费的在线工具和计算器，直接在浏览器中使用。",
+    "subtitle": "你的浏览器，就是你的工具箱。",
     "noSignup": "无需注册。不存储数据。",
     "searchPlaceholder": "输入关键字搜索你想要的工具，例如：二维码、PDF、压缩…",
     "noResults": "未找到工具。请尝试其他搜索词或分类。",
@@ -37904,6 +37904,10 @@
     "how-to-create-digital-signature": {
       "title": "如何免费创建数字签名（2026指南）",
       "description": "学习如何为文档、PDF和合同创建数字签名。涵盖手绘、输入、上传以及无需注册的免费工具。"
+    },
+        "how-to-create-a-strong-password": {
+      "title": "如何创建强密码：2026 安全指南",
+      "description": "了解什么样的密码才算强密码、为什么长度比复杂度更重要，以及密码管理器和通行密钥如何保护账户安全。附免费浏览器工具。"
     },
     "how-to-extract-text-from-images": {
       "title": "如何从图片中提取文字：OCR指南（2026）",

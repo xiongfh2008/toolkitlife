@@ -70,13 +70,23 @@ export const blogPostsMeta: BlogPostMeta[] = [
     ],
   },
   {
+    slug: "how-to-create-a-strong-password",
+    author: "ToolkitLife Team",
+    datePublished: "2026-09-05",
+    dateModified: "2026-09-05",
+    tags: ["Password", "Security", "Privacy", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Create a Digital Signature", href: "/blog/how-to-create-digital-signature" },
+    ],
+  },
+  {
     slug: "how-to-create-digital-signature",
     author: "ToolkitLife Team",
     datePublished: "2026-03-07",
     dateModified: "2026-03-07",
     tags: ["Signature", "Business", "PDF", "Productivity"],
     relatedArticles: [
-      { title: "How to Convert PDF to Word", href: "/blog/how-to-convert-pdf-to-word" },
+      { title: "How to Create a Strong Password", href: "/blog/how-to-create-a-strong-password" },
     ],
   },
   {
