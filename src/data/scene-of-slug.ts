@@ -124,6 +124,7 @@ export const SCENE_OF_SLUG: Record<string, string> = {
   "face-detector": "image",
   "fancy-text-generator": "text",
   "favicon-generator": "image",
+  "file-transfer": "utility",
   "fire-calculator": "calculator",
   "fraction-calculator": "calculator",
   "future-value-calculator": "calculator",

@@ -11,6 +11,7 @@ export const SEARCH_ALIASES: Record<string, string[]> = {
   "image-compressor": ["压缩", "图片压缩", "压缩图片"],
   "convert": ["图片格式", "格式转换", "图片转换"],
   "password-generator": ["密码", "随机密码"],
+  "file-transfer": ["传文件", "互传", "文件互传", "手机传电脑", "文件传输", "airdrop", "快传"],
   "text-to-speech": ["文字转语音", "朗读", "tts"],
   "video-to-gif": ["视频转gif", "动图"],
   "image-to-gif": ["图片转gif", "图片制作gif", "多图合成gif", "gif制作", "动图制作"],

@@ -405,6 +405,7 @@ const BASE_SCENES: HomeScene[] = [
       "address-generator",
       "unit-converter",
       "currency-converter",
+      "file-transfer",
       "dog-age-calculator",
     ],
   },

@@ -480,6 +480,11 @@ Description: Send files between devices through animated QR codes — no network
 URL: https://www.toolkitlife.com/en/tools/password-generator
 Description: Generate strong, secure passwords with customizable options
 
+### File Transfer
+
+URL: https://www.toolkitlife.com/en/tools/file-transfer
+Description: Send files directly between your devices over an encrypted P2P connection. No upload, no signup.
+
 ### Unit Converter
 
 URL: https://www.toolkitlife.com/en/tools/unit-converter

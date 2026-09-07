@@ -72,7 +72,7 @@
     },
     "why": {
         "title": "Why ToolkitLife",
-        "intro": "ToolkitLife is a collection of 374 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
+        "intro": "ToolkitLife is a collection of 375 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
         "privacy": "Your files stay private: image, video and document tools process everything locally with <mdn>WebAssembly</mdn> — your data never leaves your device.",
         "i18n": "The site is available in English, Chinese, Japanese, Korean and Russian, and every tool page includes a step-by-step guide plus answers to common questions."
     },
@@ -81,7 +81,7 @@
         "items": [
             {
                 "question": "Is ToolkitLife free?",
-                "answer": "Yes. All 374 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
+                "answer": "Yes. All 375 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
             },
             {
                 "question": "Are my files uploaded to a server?",
@@ -257,6 +257,12 @@
         "description": "Generate strong, secure passwords with customizable options",
         "category": "Utility",
         "icon": "⚿"
+      },
+      "file-transfer": {
+        "name": "File Transfer",
+        "description": "Send files directly between your devices over an encrypted P2P connection. No upload, no signup.",
+        "category": "Utility",
+        "icon": "📤"
       },
       "json-formatter": {
         "name": "JSON Formatter",
@@ -36076,6 +36082,114 @@
       },
       "buttons": {
         "download": "Download PNG"
+      }
+    },
+    "file-transfer": {
+      "metadata": {
+        "title": "File Transfer - Send Files Between Devices Free | P2P",
+        "description": "Free online P2P file transfer. Send photos, videos and documents directly between phone, tablet and computer. No upload, no signup — files never touch a server."
+      },
+      "title": "File Transfer",
+      "description": "Send files directly between your devices over an encrypted peer-to-peer connection — phone to laptop, tablet to PC. No upload, no signup, no file size limits.",
+      "category": "Utility",
+      "keywords": [
+        "file transfer",
+        "p2p file transfer",
+        "send files between devices",
+        "airdrop alternative",
+        "file sharing online",
+        "transfer files without upload"
+      ],
+      "faqs": [
+        {
+          "question": "Are my files uploaded to a server?",
+          "answer": "No. Files are transferred directly from one device to the other over an encrypted WebRTC connection. Only tiny connection-setup messages pass through public relays — your file data never touches any server."
+        },
+        {
+          "question": "Do both devices need to be on the same network?",
+          "answer": "No. The transfer works anywhere both devices are online, even on different networks. When both are on the same Wi-Fi, transfers are usually faster because the data stays on your local network."
+        },
+        {
+          "question": "What is the maximum file size?",
+          "answer": "There is no built-in limit. Files are held in the browser's memory during transfer, so very large files (several GB) depend on the receiving device's available memory. For best results, keep single transfers under 2 GB."
+        },
+        {
+          "question": "Is the transfer secure?",
+          "answer": "Yes. The connection is end-to-end encrypted (DTLS), and only someone who knows your 6-character room code can join. The code is generated randomly on your device."
+        },
+        {
+          "question": "Which devices are supported?",
+          "answer": "Any modern browser works — Chrome, Edge, Firefox and Safari on desktop, Android and iOS. No app installation needed; the other device just scans the QR code or opens the link."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "QR Code Generator",
+          "href": "/tools/qr-code-generator"
+        },
+        {
+          "name": "QR Code Reader",
+          "href": "/tools/qr-code-reader"
+        },
+        {
+          "name": "WiFi QR Code",
+          "href": "/tools/wifi-qrcode"
+        }
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "What is this tool?",
+          "body": [
+            "File Transfer lets you move files between your own devices — for example from your phone to your laptop — without cables, cloud storage or instant messengers. Both devices open this page, connect with a short room code, and files travel directly between them.",
+            "The transfer uses WebRTC, the same technology behind video calls, so data is end-to-end encrypted and goes straight from device to device. Nothing is stored, and there are no accounts or size limits."
+          ]
+        },
+        "howTo": {
+          "title": "How to transfer files",
+          "intro": "You need both devices online at the same time, each with this page open.",
+          "items": [
+            "On the sending device, click Create a room — you get a 6-character code and a QR code.",
+            "On the receiving device, scan the QR code with the camera, open the shared link, or type the code into Join a room.",
+            "Wait until the page shows that a device is connected.",
+            "Drag files into the drop area or click to choose them — the transfer starts automatically and the file downloads on the other device."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "Keep both tabs open until every transfer shows as complete.",
+            "On the same Wi-Fi network, transfers are fastest and never use mobile data.",
+            "If the connection drops, create a new room and continue with the remaining files."
+          ]
+        }
+      },
+      "labels": {
+        "createTitle": "Send from this device",
+        "createDesc": "Create a room and get a code plus QR code to open on the other device.",
+        "createRoom": "Create a room",
+        "joinTitle": "Receive on this device",
+        "joinDesc": "Enter the 6-character code shown on the other device.",
+        "joinPlaceholder": "6-character code",
+        "joinRoom": "Join",
+        "roomCode": "Room code",
+        "leaveRoom": "Leave room",
+        "copyLink": "Copy link",
+        "copied": "Copied!",
+        "dropHere": "Drop files here or click to choose",
+        "selectFiles": "Photos, videos, documents — any file type",
+        "privacyNote": "Files are sent directly between devices over an end-to-end encrypted connection. This website has no file server — nothing you transfer is uploaded or stored."
+      },
+      "peerStatus": {
+        "waiting": "Waiting for the other device…",
+        "connected": "{count, plural, =1 {1 device connected — ready to transfer} other {# devices connected — ready to transfer}}"
+      },
+      "transfer": {
+        "done": "Done",
+        "failed": "Failed",
+        "save": "Save"
+      },
+      "errors": {
+        "joinFailed": "Could not join the room. Check the code and try again."
       }
     },
     "audio-cutter": {
