@@ -4420,7 +4420,11 @@
         "indent": "Отступ",
         "inputPlaceholder": "Вставьте JSON сюда... напр. '{'\"key\": \"value\"'}'",
         "outputPlaceholder": "Отформатированный результат появится здесь...",
-        "errorFallback": "Некорректный JSON"
+        "errorFallback": "Некорректный JSON",
+        "collapse": "Свернуть",
+        "expand": "Развернуть",
+        "fullscreen": "Полноэкранный просмотр",
+        "exitFullscreen": "Выйти из полного экрана"
       },
       "buttons": {
         "format": "Форматировать",

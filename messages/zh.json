@@ -7717,7 +7717,11 @@
         "indent": "缩进",
         "inputPlaceholder": "在此粘贴 JSON... 例如 '{'\"key\": \"value\"'}'",
         "outputPlaceholder": "格式化后的输出将显示在此处...",
-        "errorFallback": "无效的 JSON"
+        "errorFallback": "无效的 JSON",
+        "collapse": "折叠",
+        "expand": "展开",
+        "fullscreen": "全屏查看",
+        "exitFullscreen": "退出全屏"
       },
       "buttons": {
         "format": "格式化",

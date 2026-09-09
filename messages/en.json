@@ -4340,7 +4340,11 @@
         "indent": "Indent",
         "inputPlaceholder": "Paste JSON here... e.g. '{'\"key\": \"value\"'}'",
         "outputPlaceholder": "Formatted output will appear here...",
-        "errorFallback": "Invalid JSON"
+        "errorFallback": "Invalid JSON",
+        "collapse": "Collapse",
+        "expand": "Expand",
+        "fullscreen": "View fullscreen",
+        "exitFullscreen": "Exit fullscreen"
       },
       "buttons": {
         "format": "Format",

@@ -7711,7 +7711,11 @@
         "indent": "インデント",
         "inputPlaceholder": "JSON をここに貼り付け... 例: '{'\"key\": \"value\"'}'",
         "outputPlaceholder": "整形された出力がここに表示されます...",
-        "errorFallback": "無効な JSON"
+        "errorFallback": "無効な JSON",
+        "collapse": "折りたたむ",
+        "expand": "展開",
+        "fullscreen": "全画面表示",
+        "exitFullscreen": "全画面を終了"
       },
       "buttons": {
         "format": "整形",

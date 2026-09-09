@@ -7711,7 +7711,11 @@
         "indent": "들여쓰기",
         "inputPlaceholder": "JSON을 여기에 붙여넣으세요... 예: '{'\"key\": \"value\"'}'",
         "outputPlaceholder": "포맷된 출력이 여기에 표시됩니다...",
-        "errorFallback": "잘못된 JSON"
+        "errorFallback": "잘못된 JSON",
+        "collapse": "접기",
+        "expand": "펼치기",
+        "fullscreen": "전체 화면 보기",
+        "exitFullscreen": "전체 화면 종료"
       },
       "buttons": {
         "format": "포맷",
