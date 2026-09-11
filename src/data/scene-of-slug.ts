@@ -299,6 +299,7 @@ export const SCENE_OF_SLUG: Record<string, string> = {
   "schulte-grid": "life",
   "scientific-calculator": "calculator",
   "screen-color-picker": "image",
+  "screen-color-test": "utility",
   "screen-recorder": "media",
   "screenshot-beautify": "image",
   "screenshot-markup": "image",

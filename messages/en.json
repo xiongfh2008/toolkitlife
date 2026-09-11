@@ -72,7 +72,7 @@
     },
     "why": {
         "title": "Why ToolkitLife",
-        "intro": "ToolkitLife is a collection of 375 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
+        "intro": "ToolkitLife is a collection of 376 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
         "privacy": "Your files stay private: image, video and document tools process everything locally with <mdn>WebAssembly</mdn> — your data never leaves your device.",
         "i18n": "The site is available in English, Chinese, Japanese, Korean and Russian, and every tool page includes a step-by-step guide plus answers to common questions."
     },
@@ -81,7 +81,7 @@
         "items": [
             {
                 "question": "Is ToolkitLife free?",
-                "answer": "Yes. All 375 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
+                "answer": "Yes. All 376 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
             },
             {
                 "question": "Are my files uploaded to a server?",
@@ -1469,6 +1469,12 @@
         "description": "Record your screen, webcam, or both with audio. No upload, no watermark, runs entirely in your browser.",
         "category": "Utility",
         "icon": "🎥"
+      },
+      "screen-color-test": {
+        "name": "Screen Color Test",
+        "description": "Fill your screen with pure test colors to find dead pixels, stuck pixels and backlight bleed. Fullscreen, no install.",
+        "category": "Utility",
+        "icon": "🖥️"
       },
       "text-to-speech": {
         "name": "Text to Speech",
@@ -5291,6 +5297,101 @@
           }
         ]
       }
+    },
+"screen-color-test": {
+      "metadata": {
+        "title": "Screen Color Test - Check Dead Pixels & Backlight Bleed",
+        "description": "Free online screen test. Fill your display with solid colors to find dead pixels, stuck pixels and backlight bleed. Fullscreen, no install, runs in your browser."
+      },
+      "title": "Screen Color Test",
+      "description": "Fill the entire screen with pure test colors to find dead pixels, stuck sub-pixels and backlight bleed on your monitor, laptop or phone. Fullscreen mode, keyboard controls, no installation.",
+      "category": "Utility",
+      "keywords": [
+        "dead pixel test",
+        "screen test",
+        "backlight bleed test",
+        "stuck pixel test",
+        "monitor test",
+        "screen color test",
+        "display test"
+      ],
+      "colors": {
+        "black": "Black",
+        "white": "White",
+        "red": "Red",
+        "green": "Green",
+        "blue": "Blue",
+        "cyan": "Cyan",
+        "magenta": "Magenta",
+        "yellow": "Yellow",
+        "gradient": "Grayscale gradient"
+      },
+      "labels": {
+        "pickTitle": "Pick a test color",
+        "pickDesc": "Click a color to start the fullscreen test. Each color reveals different defects — use all of them for a complete check.",
+        "startTest": "Start fullscreen test",
+        "overlayAria": "Test screen — click to change color",
+        "hint": "Click / Space: next color · ← →: switch · Esc: exit"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "What is the Screen Color Test?",
+          "body": [
+            "Screen Color Test fills your entire display with pure, uniform colors so you can inspect the panel for hardware defects: dead pixels, stuck sub-pixels and backlight bleed. It works on any monitor, laptop, tablet or phone — nothing is installed and nothing is recorded.",
+            "Each color plays a different role. Pure black in a dark room exposes backlight leaking along the edges. Pure white makes dark, never-lit pixels stand out. The red, green and blue primaries light up one sub-pixel group at a time, which is how you spot pixels that are stuck in a single color. The grayscale gradient reveals banding and uneven brightness across the panel."
+          ]
+        },
+        "howTo": {
+          "title": "How to test your screen",
+          "items": [
+            "Set brightness to 100% and turn off night mode, dark overlay or any color filter.",
+            "Click a test color above — the whole screen fills edge to edge.",
+            "Sweep your eyes slowly across the panel, especially the edges and corners: any dot that differs from the background is a dead or stuck pixel.",
+            "Switch to pure black in a dark room and check the borders for bright, cloudy patches — that is backlight bleed.",
+            "Click, press Space or use the arrow keys to cycle colors; press Esc to exit."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "Run the test in a dark room — ambient light hides faint backlight bleed.",
+            "Check every color before concluding: a stuck pixel only shows on some colors, and it can even look like a defect in an image that is actually fine.",
+            "One or two stuck pixels are covered by many manufacturers' dead-pixel policies — count them and check your warranty terms before requesting a replacement."
+          ]
+        }
+      },
+      "faqs": [
+        {
+          "question": "What is a dead pixel and how do I find one?",
+          "answer": "A dead pixel is a pixel that stays black because its transistor no longer powers it. Fill the screen with white (and the other colors) and look for a dot that never lights up. A stuck pixel behaves the opposite way — it stays lit in one color, which the red, green and blue tests expose."
+        },
+        {
+          "question": "How do I check for backlight bleed?",
+          "answer": "Set brightness to 100%, turn off the lights, and fill the screen with pure black. Look at the edges and corners: bright, cloudy patches mean the backlight is leaking through the panel. A small amount is normal on most LCD laptops; it only matters if it is visible in everyday use."
+        },
+        {
+          "question": "Can a dead pixel be fixed?",
+          "answer": "Usually not. Dead pixels are a hardware defect, and many manufacturers replace the panel under their dead-pixel policy if there are enough of them. Rapidly flashing colors sometimes revives stuck pixels, but results are not guaranteed."
+        },
+        {
+          "question": "Does the test work on phones and tablets?",
+          "answer": "Yes. Tap a color to start, tap the screen to cycle colors. On iPhones the browser cannot hide its address bar, so rotate to fullscreen video or use the Add to Home Screen PWA for a distraction-free check."
+        }
+      ],
+      "related": [
+        {
+          "name": "Color Extractor",
+          "href": "/tools/image-palette"
+        },
+        {
+          "name": "Screen Recorder",
+          "href": "/tools/screen-recorder"
+        },
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        }
+      ]
     },
     "screen-recorder": {
       "metadata": {

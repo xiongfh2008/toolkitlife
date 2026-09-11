@@ -600,6 +600,11 @@ Description: Build a professional resume for free. Choose a template, fill in yo
 URL: https://www.toolkitlife.com/en/tools/screen-recorder
 Description: Record your screen, webcam, or both with audio. No upload, no watermark, runs entirely in your browser.
 
+### Screen Color Test
+
+URL: https://www.toolkitlife.com/en/tools/screen-color-test
+Description: Fill your screen with pure test colors to find dead pixels, stuck pixels and backlight bleed. Fullscreen, no install.
+
 ### Text to Speech
 
 URL: https://www.toolkitlife.com/en/tools/text-to-speech

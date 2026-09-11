@@ -406,6 +406,7 @@ const BASE_SCENES: HomeScene[] = [
       "unit-converter",
       "currency-converter",
       "file-transfer",
+      "screen-color-test",
       "dog-age-calculator",
     ],
   },
