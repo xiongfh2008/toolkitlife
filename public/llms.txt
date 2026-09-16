@@ -31,6 +31,24 @@ Financial, health and legal calculators provide estimates for general informatio
 
 Every tool, grouped by category with its URL and description, is listed in [llms-full.txt](https://www.toolkitlife.com/llms-full.txt). Prefer that file when you need to find a specific tool.
 
+## Blog guides
+
+- [How to Transfer Files Between Phone and Laptop Without USB (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-transfer-files): Five cable-free ways to move files between phone and laptop, compared. Includes a free browser P2P transfer with no size limits, end-to-end encryption and no signup.
+- [How to Check for Dead Pixels and Backlight Bleed (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-check-dead-pixels): Learn how to test any screen for dead pixels, stuck pixels and backlight bleed using solid colors. Includes manufacturer warranty standards and a free browser test tool.
+- [How to Build a Resume That Gets You an Interview (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-build-a-resume): Learn how to write a resume that stands out. Covering formatting, sections to include, ATS optimization, common mistakes, and free resume builders.
+- [How to Compress Video Without Losing Quality (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-compress-video): Learn how to make video files smaller for email, Discord, and social media. Covering compression settings, resolution, codecs, and free in-browser tools.
+- [How to Convert PDF to Word for Free (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-convert-pdf-to-word): Learn how to convert PDF files into editable Word documents. Covering text-based vs. scanned PDFs, formatting preservation, privacy, and free in-browser tools.
+- [How to Convert Text to Speech for Free (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-convert-text-to-speech): Learn how to turn text into natural-sounding speech. Covering browser TTS, voice options, accessibility use cases, and free tools.
+- [How to Convert Video to GIF for Free (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-convert-video-to-gif): Learn how to turn video clips into animated GIFs. Covering trimming, dimensions, frame rate, optimization, and free in-browser tools.
+- [How to Create a Unique Cartoon Avatar (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-create-cartoon-avatar): Learn how to generate a unique multicultural cartoon avatar from any text. How Multiavatar works, use cases, and SVG or PNG download — free, no signup.
+- [How to Create a Digital Signature for Free (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-create-digital-signature): Learn how to create digital signatures for documents, PDFs, and contracts. Covering draw, type, upload, and free tools with no registration.
+- [How to Create a Strong Password (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-create-a-strong-password): Learn what makes a password strong, why length beats complexity, and how password managers and passkeys protect your accounts. Free browser tools included.
+- [How to Extract Text from Images: An OCR Guide (2026)](https://www.toolkitlife.com/en/blog/how-to-extract-text-from-images): Learn how to extract text from screenshots, photos, and scanned documents using OCR. Covering accuracy tips, language support, and free in-browser tools.
+- [How to Make Memes: Free Meme Generator Guide (2026)](https://www.toolkitlife.com/en/blog/how-to-make-memes): Learn how to make memes with custom text and images. Covering meme formats, text placement, fonts, and free in-browser meme generators.
+- [How to Record Your Screen for Free (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-record-your-screen): Learn how to record your screen on any device. Covering in-browser recording, system audio capture, webcam overlay, and free tools without watermarks.
+- [How to Remove Background from an Image (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-remove-background-from-image): Learn how to remove image backgrounds for free with AI and color-based tools. Step-by-step guide for clean edges, common use cases, and in-browser processing.
+- [How to Upscale Images Without Losing Quality (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-upscale-images): Learn how to enlarge and enhance images for print, web, and social media. Covering upscaling methods, when to use each, and free in-browser tools.
+
 ## Also on this site
 
 - [Blog](https://www.toolkitlife.com/en/blog) - practical tool guides and articles

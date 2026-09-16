@@ -110,6 +110,16 @@ export const blogPostsMeta: BlogPostMeta[] = [
     ],
   },
   {
+    slug: "how-to-check-dead-pixels",
+    author: "ToolkitLife Team",
+    datePublished: "2026-09-11",
+    dateModified: "2026-09-11",
+    tags: ["Display", "Dead Pixels", "Backlight Bleed", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Record Your Screen", href: "/blog/how-to-record-your-screen" },
+    ],
+  },
+  {
     slug: "how-to-record-your-screen",
     author: "ToolkitLife Team",
     datePublished: "2026-03-07",
@@ -138,6 +148,16 @@ export const blogPostsMeta: BlogPostMeta[] = [
     tags: ["Image", "Design", "Upscaling", "Photo Editing"],
     relatedArticles: [
       { title: "How to Make Memes", href: "/blog/how-to-make-memes" },
+    ],
+  },
+  {
+    slug: "how-to-transfer-files",
+    author: "ToolkitLife Team",
+    datePublished: "2026-09-17",
+    dateModified: "2026-09-17",
+    tags: ["File Transfer", "Productivity", "Privacy", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Check for Dead Pixels and Backlight Bleed", href: "/blog/how-to-check-dead-pixels" },
     ],
   },
 ];

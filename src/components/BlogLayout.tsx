@@ -12,6 +12,7 @@ interface BlogPost {
   datePublished: string;
   dateModified: string;
   tags: string[];
+  image?: string; // site-relative path to the hero image; falls back to the generated OG title card
   faqs?: { question: string; answer: string }[];
   relatedTools?: { name: string; href: string }[];
   relatedArticles?: { title: string; href: string }[];
@@ -55,7 +56,7 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
     headline: post.title,
     description: post.description,
     url,
-    image: ogImageUrl({ title: post.title, type: "blog" }),
+    image: post.image ? `https://www.toolkitlife.com${post.image}` : ogImageUrl({ title: post.title, type: "blog" }),
     datePublished: post.datePublished,
     dateModified: post.dateModified,
     author: { "@type": "Person", name: post.author, url: `https://www.toolkitlife.com/${locale}/blog` },

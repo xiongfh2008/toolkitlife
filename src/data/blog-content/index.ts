@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { content as howToCompressVideo } from "./how-to-compress-video";
 import { content as howToBuildAResume } from "./how-to-build-a-resume";
+import { content as howToCheckDeadPixels } from "./how-to-check-dead-pixels";
 import { content as howToConvertPdfToWord } from "./how-to-convert-pdf-to-word";
 import { content as howToConvertTextToSpeech } from "./how-to-convert-text-to-speech";
 import { content as howToConvertVideoToGif } from "./how-to-convert-video-to-gif";
@@ -11,6 +12,7 @@ import { content as howToExtractTextFromImages } from "./how-to-extract-text-fro
 import { content as howToMakeMemes } from "./how-to-make-memes";
 import { content as howToRecordYourScreen } from "./how-to-record-your-screen";
 import { content as howToRemoveBackgroundFromImage } from "./how-to-remove-background-from-image";
+import { content as howToTransferFiles } from "./how-to-transfer-files";
 import { content as howToUpscaleImages } from "./how-to-upscale-images";
 
 export type LocaleKey = "en" | "zh" | "ja" | "ko";
@@ -31,6 +33,7 @@ export interface BlogContent {
 export const blogContent: Record<string, BlogContent> = {
   "how-to-compress-video": howToCompressVideo,
   "how-to-build-a-resume": howToBuildAResume,
+  "how-to-check-dead-pixels": howToCheckDeadPixels,
   "how-to-convert-pdf-to-word": howToConvertPdfToWord,
   "how-to-convert-text-to-speech": howToConvertTextToSpeech,
   "how-to-convert-video-to-gif": howToConvertVideoToGif,
@@ -41,5 +44,6 @@ export const blogContent: Record<string, BlogContent> = {
   "how-to-make-memes": howToMakeMemes,
   "how-to-record-your-screen": howToRecordYourScreen,
   "how-to-remove-background-from-image": howToRemoveBackgroundFromImage,
+  "how-to-transfer-files": howToTransferFiles,
   "how-to-upscale-images": howToUpscaleImages,
 };

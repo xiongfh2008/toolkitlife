@@ -7,6 +7,7 @@ import fs from "fs";
 
 const en = JSON.parse(fs.readFileSync("messages/en.json", "utf8"));
 const home = en.home.tools;
+const blogPosts = Object.entries(en.blogPosts ?? {}); // newest first (new posts are prepended)
 
 // Group by the same category labels used in llms.txt, in home.tools order.
 const grouped = new Map();
@@ -32,6 +33,18 @@ for (const [cat, tools] of grouped) {
     full.push("");
     full.push(`URL: https://www.toolkitlife.com/en/tools/${t.slug}`);
     full.push(`Description: ${t.description}`);
+    full.push("");
+  }
+}
+
+full.push("## Blog Guides");
+full.push("");
+if (blogPosts.length) {
+  for (const [slug, p] of blogPosts) {
+    full.push(`### ${p.title}`);
+    full.push("");
+    full.push(`URL: https://www.toolkitlife.com/en/blog/${slug}`);
+    full.push(`Description: ${p.description}`);
     full.push("");
   }
 }
@@ -73,6 +86,14 @@ slim.push("## Complete directory");
 slim.push("");
 slim.push("Every tool, grouped by category with its URL and description, is listed in [llms-full.txt](https://www.toolkitlife.com/llms-full.txt). Prefer that file when you need to find a specific tool.");
 slim.push("");
+if (blogPosts.length) {
+  slim.push("## Blog guides");
+  slim.push("");
+  for (const [slug, p] of blogPosts) {
+    slim.push(`- [${p.title}](https://www.toolkitlife.com/en/blog/${slug}): ${p.description}`);
+  }
+  slim.push("");
+}
 slim.push("## Also on this site");
 slim.push("");
 slim.push("- [Blog](https://www.toolkitlife.com/en/blog) - practical tool guides and articles");
