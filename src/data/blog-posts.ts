@@ -160,6 +160,17 @@ export const blogPostsMeta: BlogPostMeta[] = [
       { title: "How to Check for Dead Pixels and Backlight Bleed", href: "/blog/how-to-check-dead-pixels" },
     ],
   },
+  {
+    slug: "how-to-compress-images",
+    author: "ToolkitLife Team",
+    datePublished: "2026-09-24",
+    dateModified: "2026-09-24",
+    tags: ["Images", "Compression", "Web Performance", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Compress Video Without Losing Quality", href: "/blog/how-to-compress-video" },
+      { title: "How to Upscale Images", href: "/blog/how-to-upscale-images" },
+    ],
+  },
 ];
 
 export function getPostMeta(slug: string): BlogPostMeta {

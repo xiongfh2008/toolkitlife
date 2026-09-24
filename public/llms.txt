@@ -33,6 +33,7 @@ Every tool, grouped by category with its URL and description, is listed in [llms
 
 ## Blog guides
 
+- [How to Compress Images Without Losing Quality (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-compress-images): Cut image file size by 70-90% with the right format and quality settings. Covers JPEG, PNG, WebP and AVIF, exact-size targets like 100 KB, and a free browser compressor.
 - [How to Transfer Files Between Phone and Laptop Without USB (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-transfer-files): Five cable-free ways to move files between phone and laptop, compared. Includes a free browser P2P transfer with no size limits, end-to-end encryption and no signup.
 - [How to Check for Dead Pixels and Backlight Bleed (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-check-dead-pixels): Learn how to test any screen for dead pixels, stuck pixels and backlight bleed using solid colors. Includes manufacturer warranty standards and a free browser test tool.
 - [How to Build a Resume That Gets You an Interview (2026 Guide)](https://www.toolkitlife.com/en/blog/how-to-build-a-resume): Learn how to write a resume that stands out. Covering formatting, sections to include, ATS optimization, common mistakes, and free resume builders.

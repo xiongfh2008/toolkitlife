@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { content as howToCompressVideo } from "./how-to-compress-video";
+import { content as howToCompressImages } from "./how-to-compress-images";
 import { content as howToBuildAResume } from "./how-to-build-a-resume";
 import { content as howToCheckDeadPixels } from "./how-to-check-dead-pixels";
 import { content as howToConvertPdfToWord } from "./how-to-convert-pdf-to-word";
@@ -32,6 +33,7 @@ export interface BlogContent {
 
 export const blogContent: Record<string, BlogContent> = {
   "how-to-compress-video": howToCompressVideo,
+  "how-to-compress-images": howToCompressImages,
   "how-to-build-a-resume": howToBuildAResume,
   "how-to-check-dead-pixels": howToCheckDeadPixels,
   "how-to-convert-pdf-to-word": howToConvertPdfToWord,

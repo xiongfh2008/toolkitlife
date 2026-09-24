@@ -38102,6 +38102,10 @@
     "selectLanguage": "选择语言"
   },
   "blogPosts": {
+    "how-to-compress-images": {
+      "title": "如何压缩图片而不明显损失画质（2026指南）",
+      "description": "用对格式与质量参数，图片体积最多可减 70-90%。讲解 JPEG、PNG、WebP、AVIF 的取舍与 100KB 精确压缩，附免费在线压缩工具。"
+    },
     "how-to-transfer-files": {
       "title": "手机与笔记本之间免数据线传文件的5种方法（2026指南）",
       "description": "对比五种无线传文件方式，并介绍免费的浏览器点对点直传：无大小限制、端到端加密、无需注册。"

@@ -38066,6 +38066,10 @@
     "selectLanguage": "Select language"
   },
   "blogPosts": {
+    "how-to-compress-images": {
+      "title": "How to Compress Images Without Losing Quality (2026 Guide)",
+      "description": "Cut image file size by 70-90% with the right format and quality settings. Covers JPEG, PNG, WebP and AVIF, exact-size targets like 100 KB, and a free browser compressor."
+    },
     "how-to-transfer-files": {
       "title": "How to Transfer Files Between Phone and Laptop Without USB (2026 Guide)",
       "description": "Five cable-free ways to move files between phone and laptop, compared. Includes a free browser P2P transfer with no size limits, end-to-end encryption and no signup."
