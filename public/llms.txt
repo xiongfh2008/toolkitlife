@@ -1,12 +1,12 @@
 # ToolkitLife — Free Online Tools & Calculators
 
-> ToolkitLife is a collection of 376 free, browser-based tools and calculators. No signup required. No data stored. All processing happens locally in the user's browser. Localized in English, 简体中文, 日本語, 한국어 and Русский.
+> ToolkitLife is a collection of 379 free, browser-based tools and calculators. No signup required. No data stored. All processing happens locally in the user's browser. Localized in English, 简体中文, 日本語, 한국어 and Русский.
 
 ## What is ToolkitLife
 
 ToolkitLife is a free, privacy-first online toolbox. Every tool runs entirely in the user's browser with JavaScript and WebAssembly - files are never uploaded, there is no account system, and all tool pages are statically pre-rendered HTML that search and AI crawlers can read directly.
 
-The 376 tools are organized into 16 categories:
+The 379 tools are organized into 16 categories:
 
 - Marketing Tools (15)
 - Developer Tools (41)
@@ -14,7 +14,7 @@ The 376 tools are organized into 16 categories:
 - Utility Tools (43)
 - Text Tools (10)
 - Productivity Tools (4)
-- Finance Tools (64)
+- Finance Tools (67)
 - Health Tools (24)
 - Home & Energy Tools (5)
 - Math Tools (5)

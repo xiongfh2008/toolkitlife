@@ -307,6 +307,9 @@ const BASE_SCENES: HomeScene[] = [
           "self-employment-tax-calculator",
           "student-loan-tax-bomb-calculator",
           "trump-account-calculator",
+          "aba-routing-number-validator",
+          "swift-bic-checker",
+          "iban-validator",
         ],
       },
       {

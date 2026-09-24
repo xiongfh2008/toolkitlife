@@ -72,7 +72,7 @@
     },
     "why": {
         "title": "Why ToolkitLife",
-        "intro": "ToolkitLife is a collection of 376 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
+        "intro": "ToolkitLife is a collection of 379 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
         "privacy": "Your files stay private: image, video and document tools process everything locally with <mdn>WebAssembly</mdn> — your data never leaves your device.",
         "i18n": "The site is available in English, Chinese, Japanese, Korean and Russian, and every tool page includes a step-by-step guide plus answers to common questions."
     },
@@ -81,7 +81,7 @@
         "items": [
             {
                 "question": "Is ToolkitLife free?",
-                "answer": "Yes. All 376 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
+                "answer": "Yes. All 379 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
             },
             {
                 "question": "Are my files uploaded to a server?",
@@ -1469,6 +1469,24 @@
         "description": "Record your screen, webcam, or both with audio. No upload, no watermark, runs entirely in your browser.",
         "category": "Utility",
         "icon": "🎥"
+      },
+      "aba-routing-number-validator": {
+        "name": "ABA Routing Number Validator",
+        "description": "Validate a US bank ABA routing number and decode its Federal Reserve district.",
+        "category": "Finance",
+        "icon": "🏦"
+      },
+      "swift-bic-checker": {
+        "name": "SWIFT/BIC Code Checker",
+        "description": "Check any SWIFT/BIC code and look up the bank, city and country behind it.",
+        "category": "Finance",
+        "icon": "🌐"
+      },
+      "iban-validator": {
+        "name": "IBAN Validator",
+        "description": "Validate an International Bank Account Number for 90+ countries.",
+        "category": "Finance",
+        "icon": "💶"
       },
       "screen-color-test": {
         "name": "Screen Color Test",
@@ -5297,6 +5315,294 @@
           }
         ]
       }
+    },
+    "aba-routing-number-validator": {
+      "metadata": {
+        "title": "ABA Routing Number Validator - Check US Bank Routing Numbers",
+        "description": "Free ABA routing number validator. Check the 9-digit checksum and decode the Federal Reserve district and institution type. Runs entirely in your browser."
+      },
+      "title": "ABA Routing Number Validator",
+      "description": "Check a US bank routing number's checksum and decode where it comes from.",
+      "category": "Finance",
+      "keywords": [
+        "aba routing number",
+        "routing number check",
+        "routing number validator",
+        "bank routing number lookup",
+        "aba number",
+        "fedwire routing number"
+      ],
+      "labels": {
+        "inputTitle": "Enter a 9-digit routing number",
+        "placeholder": "e.g. 021000021",
+        "hint": "9 digits. Spaces and hyphens are OK — they are ignored.",
+        "empty": "Enter a routing number to validate it.",
+        "incomplete": "{n}/9 digits — keep typing.",
+        "valid": "Valid ABA routing number",
+        "invalid": "Invalid routing number",
+        "checksum": "Checksum (mod 10)",
+        "pass": "Pass",
+        "fail": "Fail",
+        "district": "Federal Reserve district",
+        "districtValue": "District {n} — {name}",
+        "districtNone": "Not district-based",
+        "type": "Institution type",
+        "type_gov": "U.S. government agency",
+        "type_tcc": "Traveler's checks / money orders",
+        "type_fed": "Federal Reserve bank",
+        "type_thrift": "Thrift (savings) institution",
+        "type_fedmember": "Fedwire participant (commercial bank)"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "What is an ABA routing number?",
+          "body": [
+            "An ABA routing number — also called a routing transit number (RTN) — is the nine-digit code that identifies a US bank or credit union in ACH transfers, Fedwire payments and direct deposits. It is assigned by the American Bankers Association and tells the payment network exactly which institution to route the money to.",
+            "You can find your routing number on the bottom-left of a paper check (the first group of nine digits), in your bank's mobile app, or on its website. Large banks often use several routing numbers depending on the state where you opened the account and the type of payment."
+          ]
+        },
+        "howTo": {
+          "title": "How to validate a routing number",
+          "items": [
+            "Type or paste the 9-digit routing number into the field above.",
+            "The tool instantly runs the 3-7-1 weighted checksum (mod 10) that every valid routing number must satisfy.",
+            "The first two digits are decoded to show the Federal Reserve district and the institution type behind the number.",
+            "A green result means the checksum is valid and the prefix is recognized; a red result means the number cannot exist.",
+            "Use the verified number in ACH, wire and direct-deposit forms as usual."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "Routing numbers are public information — checking one is completely safe.",
+            "Large banks can have dozens of routing numbers, split by state or account type, so make sure the number belongs to the state of your account.",
+            "Some banks use different routing numbers for wire transfers than for ACH and direct deposit — check which one the form asks for."
+          ]
+        }
+      },
+      "faqs": [
+        {
+          "question": "What is an ABA routing number?",
+          "answer": "It is the nine-digit code that identifies a US bank or credit union when money moves through ACH, Fedwire or a direct deposit. It was introduced by the American Bankers Association in 1910 and is printed on every US check."
+        },
+        {
+          "question": "How does the 3-7-1 checksum work?",
+          "answer": "The first, fourth and seventh digits are multiplied by 3, the second, fifth and eighth by 7, and the third and sixth by 1. Adding these products and taking the result modulo 10 must give 0 — the last digit of the routing number makes that true. This catches nearly every typo."
+        },
+        {
+          "question": "Where do I find my routing number?",
+          "answer": "Look at the bottom-left corner of a paper check — the nine-digit group between the symbols is the routing number. You can also find it in your banking app, on your bank's website, or on your account statements."
+        },
+        {
+          "question": "Can two banks share the same routing number?",
+          "answer": "No. Every routing number points to exactly one institution. However, one bank can hold many routing numbers — large banks assign different numbers per state, and often separate ones for wires, ACH and paper checks."
+        }
+      ],
+      "related": [
+        {
+          "name": "SWIFT/BIC Code Checker"
+        },
+        {
+          "name": "IBAN Validator"
+        },
+        {
+          "name": "ABA Routing Number Validator"
+        }
+      ]
+    },
+    "swift-bic-checker": {
+      "metadata": {
+        "title": "SWIFT/BIC Code Checker - Validate & Look Up Bank Codes",
+        "description": "Validate any SWIFT/BIC code and look up the bank, city and country behind it. Includes a bundled database of 51,000+ codes. Runs entirely in your browser."
+      },
+      "title": "SWIFT/BIC Code Checker",
+      "description": "Validate a SWIFT/BIC code, read its segments and look up the bank.",
+      "category": "Finance",
+      "keywords": [
+        "swift code",
+        "bic code",
+        "swift code lookup",
+        "swift code search",
+        "bank swift code",
+        "bic checker"
+      ],
+      "labels": {
+        "inputTitle": "Enter a SWIFT/BIC code",
+        "placeholder": "e.g. DEUTDEFFXXX",
+        "hint": "8 or 11 characters. Spaces and hyphens are OK.",
+        "empty": "Enter a SWIFT/BIC code to check it.",
+        "tooShort": "A BIC is 8 or 11 characters long.",
+        "valid": "Valid BIC format",
+        "invalid": "Invalid BIC format",
+        "bankCode": "Bank code (4)",
+        "countryCode": "Country (2)",
+        "unknownCountry": "Not an ISO country code",
+        "locationCode": "Location (2)",
+        "loc_test": "Test/training BIC",
+        "loc_passive": "Passive participant",
+        "loc_reverse": "Reverse billing",
+        "branchCode": "Branch (3)",
+        "primaryOffice": "Not supplied (primary office)",
+        "lookupTitle": "Database lookup",
+        "lookupLoading": "Searching the bank database…",
+        "lookupUnavailable": "The bank database could not be loaded — format checks still work.",
+        "lookupNone": "No record in the bundled database — this does not mean the code is invalid.",
+        "lookupPrimaryNote": "Matched the primary office (BIC8).",
+        "lookupDisclaimer": "Community database, may be outdated. Always confirm the BIC with the recipient before sending money."
+      },
+      "guide": {
+        "whatIs": {
+          "title": "What is a SWIFT/BIC code?",
+          "body": [
+            "A SWIFT code — formally a BIC, defined by ISO 9362 — is the international identifier a bank needs to receive cross-border wires. It is 8 or 11 characters long: four letters identifying the bank, two letters for the country, two alphanumeric characters for the city, and an optional three-character branch code.",
+            "When you send an international transfer, the SWIFT network uses this code to reach the right bank in the right country. Codes ending in XXX (or with no branch part at all) refer to the bank's primary office. SWIFT and BIC are two names for exactly the same thing."
+          ]
+        },
+        "howTo": {
+          "title": "How to check a SWIFT/BIC code",
+          "items": [
+            "Type or paste the 8- or 11-character code into the field above.",
+            "The tool checks the structure and verifies that positions 5-6 are a real ISO country code.",
+            "Each segment is displayed with its meaning: bank code, country, location and branch.",
+            "The character in position 8 flags test and training BICs that never carry real payments.",
+            "If the code is in the bundled database of 51,000+ banks, you will see the bank's name, city and country."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "DEUTDEFF and DEUTDEFFXXX are the same thing — both point to the primary office.",
+            "Banks merge and codes change, so confirm the BIC with the recipient before wiring money.",
+            "A SWIFT code identifies the bank only — it never contains an account number."
+          ]
+        }
+      },
+      "faqs": [
+        {
+          "question": "Is a SWIFT code the same as a BIC?",
+          "answer": "Yes. SWIFT code and BIC (Bank Identifier Code) are two names for the same identifier defined by ISO 9362. Banks usually say SWIFT code, while the standard and regulatory documents say BIC."
+        },
+        {
+          "question": "How do I find my bank's SWIFT code?",
+          "answer": "Check your bank's website — most publish their BIC on the contact or international transfers page. It is also printed on account statements and usually shown in the banking app. You can also paste the code here to confirm which bank it belongs to."
+        },
+        {
+          "question": "What does XXX at the end mean?",
+          "answer": "XXX is the branch code for the bank's primary office. An 8-character code without a branch part and the same code with XXX added are identical — both refer to the head office."
+        },
+        {
+          "question": "Is it safe to share a SWIFT code?",
+          "answer": "Yes. A BIC is public routing information, like a postal address for a bank. It identifies the institution only and contains no account details, so sharing it carries no risk."
+        }
+      ],
+      "related": [
+        {
+          "name": "SWIFT/BIC Code Checker"
+        },
+        {
+          "name": "IBAN Validator"
+        },
+        {
+          "name": "ABA Routing Number Validator"
+        }
+      ]
+    },
+    "iban-validator": {
+      "metadata": {
+        "title": "IBAN Validator - Check International Bank Account Numbers",
+        "description": "Free IBAN validator for 90+ countries. Check the mod-97 checksum, country structure and SEPA status, with friendly formatting. Runs entirely in your browser."
+      },
+      "title": "IBAN Validator",
+      "description": "Validate an IBAN, see its structure and SEPA status.",
+      "category": "Finance",
+      "keywords": [
+        "iban",
+        "iban validator",
+        "validate iban",
+        "iban check",
+        "iban number",
+        "sepa iban"
+      ],
+      "labels": {
+        "inputTitle": "Enter an IBAN",
+        "placeholder": "e.g. DE89370400440532013000",
+        "hint": "Up to 34 characters. Spaces and hyphens are OK.",
+        "empty": "Enter an IBAN to validate it.",
+        "valid": "Valid IBAN",
+        "invalid": "Invalid IBAN",
+        "errors": {
+          "noIban": "No IBAN provided.",
+          "noCountry": "The country prefix is not an IBAN country.",
+          "wrongLength": "The length does not match this country's IBAN specification.",
+          "wrongFormat": "The account section does not match this country's format.",
+          "checksumNotNumber": "The check digits are not numeric.",
+          "wrongChecksum": "The mod-97 checksum failed — likely a typo.",
+          "wrongAccountChecksum": "The national account checksum failed.",
+          "qrNotAllowed": "This is a Swiss QR-IBAN, used only on Swiss invoices."
+        },
+        "formatted": "Friendly format",
+        "country": "Country",
+        "sepa": "SEPA",
+        "sepaYes": "SEPA country",
+        "sepaNo": "Not in SEPA",
+        "bban": "BBAN (national account part)"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "What is an IBAN?",
+          "body": [
+            "An IBAN (International Bank Account Number, ISO 13616) is a standardized way of writing a bank account for cross-border payments. It starts with a two-letter country code and two check digits, followed by the national account number — up to 34 characters in total.",
+            "The check digits are computed with the mod-97 algorithm, which catches most typing errors before the money leaves your account. Around 90 countries use IBANs today — most of Europe plus parts of the Middle East, Africa and the Caribbean. The US, Canada and Australia do not."
+          ]
+        },
+        "howTo": {
+          "title": "How to validate an IBAN",
+          "items": [
+            "Type or paste the IBAN into the field above — spaces and hyphens are fine.",
+            "The tool checks that the country issues IBANs and that the length matches that country's specification.",
+            "It runs the mod-97 checksum to detect typos in the digits.",
+            "The account section is compared against the country's national format, and some countries get an extra national checksum test.",
+            "If it is valid, you will see the friendly grouped format, the country and whether it is a SEPA account."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "The check digits catch typos, but they do not prove the account actually exists — only the paying bank can confirm that.",
+            "An IBAN identifies an account, while a SWIFT/BIC code identifies a bank — international transfers usually need both.",
+            "IBANs are officially printed in groups of four characters; the tool shows this friendly format automatically."
+          ]
+        }
+      },
+      "faqs": [
+        {
+          "question": "Which countries use IBAN?",
+          "answer": "About 90 countries, mainly in Europe — all EU and EEA states, the UK, Switzerland — plus the Middle East, parts of Africa, the Caribbean and a few others. The US, Canada and Australia do not use IBAN; transfers there rely on routing numbers or BSB/branch codes."
+        },
+        {
+          "question": "What do the check digits do?",
+          "answer": "Positions 3-4 of an IBAN are two digits computed from the rest of the number with the mod-97 algorithm. If a character is mistyped or digits are swapped, the recomputed checksum almost never matches, so the error is caught before the transfer is sent."
+        },
+        {
+          "question": "Is it safe to share my IBAN?",
+          "answer": "Yes. Your IBAN is what people need in order to pay you — it is designed to be shared, like a postal address for money. Only give it to people who are sending you money, and remember that it does not by itself authorize any debit in most countries."
+        },
+        {
+          "question": "What is the difference between an IBAN and a SWIFT code?",
+          "answer": "They answer different questions. The IBAN identifies the individual account the money should arrive in, while the SWIFT/BIC code identifies the bank that will receive it. An international transfer form typically asks for both."
+        }
+      ],
+      "related": [
+        {
+          "name": "SWIFT/BIC Code Checker"
+        },
+        {
+          "name": "IBAN Validator"
+        },
+        {
+          "name": "ABA Routing Number Validator"
+        }
+      ]
     },
 "screen-color-test": {
       "metadata": {

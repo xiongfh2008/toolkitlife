@@ -1,12 +1,12 @@
 # ToolkitLife
 
 [![Website](https://img.shields.io/badge/website-toolkitlife.com-blue)](https://www.toolkitlife.com)
-[![Tools](https://img.shields.io/badge/tools-376-green)](https://www.toolkitlife.com)
+[![Tools](https://img.shields.io/badge/tools-379-green)](https://www.toolkitlife.com)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
-**[ToolkitLife](https://www.toolkitlife.com)** is a collection of **376 free online tools and calculators** across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators.
+**[ToolkitLife](https://www.toolkitlife.com)** is a collection of **379 free online tools and calculators** across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators.
 
 Every tool runs **entirely in your browser**. Nothing is uploaded, nothing is stored.
 
@@ -19,7 +19,7 @@ Every tool runs **entirely in your browser**. Nothing is uploaded, nothing is st
 - **100% client-side** — files are processed on your device, never on a server
 - **No signup** — open a tool and use it, no account or email required
 - **No limits** — no daily quotas, paywalls or watermarks
-- **376 tools, 16 categories** — one site instead of 50 bookmarked utilities
+- **379 tools, 16 categories** — one site instead of 50 bookmarked utilities
 - **Works everywhere** — desktop and mobile browsers, no installation
 
 ## Tool Categories
@@ -43,7 +43,7 @@ Every tool runs **entirely in your browser**. Nothing is uploaded, nothing is st
 | [Productivity](https://www.toolkitlife.com/en) | 4 | [PDF to Word](https://www.toolkitlife.com/en/tools/pdf-to-word), [Doc Compare](https://www.toolkitlife.com/en/tools/doc-compare) |
 | [Media](https://www.toolkitlife.com/en) | 2 | [Video Transcript](https://www.toolkitlife.com/en/tools/video-transcript), [Slideshow Maker](https://www.toolkitlife.com/en/tools/slideshow-maker) |
 
-👉 Browse all 376 tools at **[toolkitlife.com](https://www.toolkitlife.com)**
+👉 Browse all 379 tools at **[toolkitlife.com](https://www.toolkitlife.com)**
 
 ## Tech Stack
 

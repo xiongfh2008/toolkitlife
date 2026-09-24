@@ -1071,6 +1071,21 @@ Description: See how extra monthly payments shorten your mortgage term and save 
 URL: https://www.toolkitlife.com/en/tools/save-vs-rap-calculator
 Description: Compare federal SAVE and REPAYE income-driven student loan repayment plans.
 
+### ABA Routing Number Validator
+
+URL: https://www.toolkitlife.com/en/tools/aba-routing-number-validator
+Description: Validate a US bank ABA routing number and decode its Federal Reserve district.
+
+### SWIFT/BIC Code Checker
+
+URL: https://www.toolkitlife.com/en/tools/swift-bic-checker
+Description: Check any SWIFT/BIC code and look up the bank, city and country behind it.
+
+### IBAN Validator
+
+URL: https://www.toolkitlife.com/en/tools/iban-validator
+Description: Validate an International Bank Account Number for 90+ countries.
+
 ## Health Tools
 
 ### BMI Calculator

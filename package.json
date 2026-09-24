@@ -28,6 +28,7 @@
     "ffocr": "^0.1.13",
     "heic2any": "^0.0.4",
     "html-to-image": "^1.11.13",
+    "ibantools": "^4.5.4",
     "js-web-screen-shot": "^2.0.2",
     "jsqr": "^1.4.0",
     "jszip": "^3.10.1",
