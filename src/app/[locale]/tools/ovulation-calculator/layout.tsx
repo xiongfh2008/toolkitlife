@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/ovulation-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/ovulation-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/ovulation-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/ovulation-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/ovulation-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/ovulation-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/ovulation-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/ovulation-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/ovulation-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/income-tax-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/income-tax-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/income-tax-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/income-tax-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/income-tax-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/income-tax-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/income-tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/income-tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/income-tax-calculator`,

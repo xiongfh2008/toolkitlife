@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/gpa-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/gpa-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/gpa-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/gpa-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/gpa-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/gpa-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/gpa-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/gpa-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/gpa-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/overtime-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/overtime-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/overtime-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/overtime-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/overtime-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/overtime-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/overtime-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/overtime-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/overtime-calculator`,

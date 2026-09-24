@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/json-formatter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/json-formatter`,
+        es: `https://www.toolkitlife.com/es/tools/json-formatter`,
+        de: `https://www.toolkitlife.com/de/tools/json-formatter`,
+        fr: `https://www.toolkitlife.com/fr/tools/json-formatter`,
+        pt: `https://www.toolkitlife.com/pt/tools/json-formatter`,
         zh: `https://www.toolkitlife.com/zh/tools/json-formatter`,
         ja: `https://www.toolkitlife.com/ja/tools/json-formatter`,
         ko: `https://www.toolkitlife.com/ko/tools/json-formatter`,

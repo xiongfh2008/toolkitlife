@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-compressor`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-compressor`,
+        es: `https://www.toolkitlife.com/es/tools/video-compressor`,
+        de: `https://www.toolkitlife.com/de/tools/video-compressor`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-compressor`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-compressor`,
         zh: `https://www.toolkitlife.com/zh/tools/video-compressor`,
         ja: `https://www.toolkitlife.com/ja/tools/video-compressor`,
         ko: `https://www.toolkitlife.com/ko/tools/video-compressor`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/typing-speed-test`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/typing-speed-test`,
+        es: `https://www.toolkitlife.com/es/tools/typing-speed-test`,
+        de: `https://www.toolkitlife.com/de/tools/typing-speed-test`,
+        fr: `https://www.toolkitlife.com/fr/tools/typing-speed-test`,
+        pt: `https://www.toolkitlife.com/pt/tools/typing-speed-test`,
         zh: `https://www.toolkitlife.com/zh/tools/typing-speed-test`,
         ja: `https://www.toolkitlife.com/ja/tools/typing-speed-test`,
         ko: `https://www.toolkitlife.com/ko/tools/typing-speed-test`,

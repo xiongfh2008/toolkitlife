@@ -35,6 +35,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/compress-pdf`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/compress-pdf`,
+        es: `https://www.toolkitlife.com/es/tools/compress-pdf`,
+        de: `https://www.toolkitlife.com/de/tools/compress-pdf`,
+        fr: `https://www.toolkitlife.com/fr/tools/compress-pdf`,
+        pt: `https://www.toolkitlife.com/pt/tools/compress-pdf`,
         zh: `https://www.toolkitlife.com/zh/tools/compress-pdf`,
         ja: `https://www.toolkitlife.com/ja/tools/compress-pdf`,
         ko: `https://www.toolkitlife.com/ko/tools/compress-pdf`,

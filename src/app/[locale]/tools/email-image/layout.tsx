@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/email-image`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/email-image`,
+        es: `https://www.toolkitlife.com/es/tools/email-image`,
+        de: `https://www.toolkitlife.com/de/tools/email-image`,
+        fr: `https://www.toolkitlife.com/fr/tools/email-image`,
+        pt: `https://www.toolkitlife.com/pt/tools/email-image`,
         zh: `https://www.toolkitlife.com/zh/tools/email-image`,
         ja: `https://www.toolkitlife.com/ja/tools/email-image`,
         ko: `https://www.toolkitlife.com/ko/tools/email-image`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-transcript`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-transcript`,
+        es: `https://www.toolkitlife.com/es/tools/video-transcript`,
+        de: `https://www.toolkitlife.com/de/tools/video-transcript`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-transcript`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-transcript`,
         zh: `https://www.toolkitlife.com/zh/tools/video-transcript`,
         ja: `https://www.toolkitlife.com/ja/tools/video-transcript`,
         ko: `https://www.toolkitlife.com/ko/tools/video-transcript`,

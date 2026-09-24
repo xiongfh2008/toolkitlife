@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/cron-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/cron-generator`,
+        es: `https://www.toolkitlife.com/es/tools/cron-generator`,
+        de: `https://www.toolkitlife.com/de/tools/cron-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/cron-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/cron-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/cron-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/cron-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/cron-generator`,

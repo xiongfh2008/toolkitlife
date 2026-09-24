@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-background`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-background`,
+        es: `https://www.toolkitlife.com/es/tools/image-background`,
+        de: `https://www.toolkitlife.com/de/tools/image-background`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-background`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-background`,
         zh: `https://www.toolkitlife.com/zh/tools/image-background`,
         ja: `https://www.toolkitlife.com/ja/tools/image-background`,
         ko: `https://www.toolkitlife.com/ko/tools/image-background`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/aspect-ratio-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/aspect-ratio-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/aspect-ratio-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/aspect-ratio-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/aspect-ratio-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/aspect-ratio-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/aspect-ratio-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/aspect-ratio-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/aspect-ratio-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/photo-watermark-remover`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/photo-watermark-remover`,
+        es: `https://www.toolkitlife.com/es/tools/photo-watermark-remover`,
+        de: `https://www.toolkitlife.com/de/tools/photo-watermark-remover`,
+        fr: `https://www.toolkitlife.com/fr/tools/photo-watermark-remover`,
+        pt: `https://www.toolkitlife.com/pt/tools/photo-watermark-remover`,
         zh: `https://www.toolkitlife.com/zh/tools/photo-watermark-remover`,
         ja: `https://www.toolkitlife.com/ja/tools/photo-watermark-remover`,
         ko: `https://www.toolkitlife.com/ko/tools/photo-watermark-remover`,

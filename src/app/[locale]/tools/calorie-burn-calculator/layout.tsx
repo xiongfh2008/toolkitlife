@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/calorie-burn-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/calorie-burn-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/calorie-burn-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/calorie-burn-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/calorie-burn-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/calorie-burn-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/calorie-burn-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/calorie-burn-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/calorie-burn-calculator`,

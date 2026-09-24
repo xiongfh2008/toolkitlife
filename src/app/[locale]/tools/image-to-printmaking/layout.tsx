@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-to-printmaking`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-to-printmaking`,
+        es: `https://www.toolkitlife.com/es/tools/image-to-printmaking`,
+        de: `https://www.toolkitlife.com/de/tools/image-to-printmaking`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-to-printmaking`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-to-printmaking`,
         zh: `https://www.toolkitlife.com/zh/tools/image-to-printmaking`,
         ja: `https://www.toolkitlife.com/ja/tools/image-to-printmaking`,
         ko: `https://www.toolkitlife.com/ko/tools/image-to-printmaking`,

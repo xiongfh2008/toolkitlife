@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/background-replace`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/background-replace`,
+        es: `https://www.toolkitlife.com/es/tools/background-replace`,
+        de: `https://www.toolkitlife.com/de/tools/background-replace`,
+        fr: `https://www.toolkitlife.com/fr/tools/background-replace`,
+        pt: `https://www.toolkitlife.com/pt/tools/background-replace`,
         zh: `https://www.toolkitlife.com/zh/tools/background-replace`,
         ja: `https://www.toolkitlife.com/ja/tools/background-replace`,
         ko: `https://www.toolkitlife.com/ko/tools/background-replace`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/keyword-density`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/keyword-density`,
+        es: `https://www.toolkitlife.com/es/tools/keyword-density`,
+        de: `https://www.toolkitlife.com/de/tools/keyword-density`,
+        fr: `https://www.toolkitlife.com/fr/tools/keyword-density`,
+        pt: `https://www.toolkitlife.com/pt/tools/keyword-density`,
         zh: `https://www.toolkitlife.com/zh/tools/keyword-density`,
         ja: `https://www.toolkitlife.com/ja/tools/keyword-density`,
         ko: `https://www.toolkitlife.com/ko/tools/keyword-density`,

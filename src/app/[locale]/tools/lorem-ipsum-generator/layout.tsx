@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/lorem-ipsum-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/lorem-ipsum-generator`,
+        es: `https://www.toolkitlife.com/es/tools/lorem-ipsum-generator`,
+        de: `https://www.toolkitlife.com/de/tools/lorem-ipsum-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/lorem-ipsum-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/lorem-ipsum-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/lorem-ipsum-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/lorem-ipsum-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/lorem-ipsum-generator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/debt-payoff-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/debt-payoff-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/debt-payoff-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/debt-payoff-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/debt-payoff-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/debt-payoff-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/debt-payoff-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/debt-payoff-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/debt-payoff-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/chmod-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/chmod-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/chmod-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/chmod-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/chmod-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/chmod-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/chmod-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/chmod-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/chmod-calculator`,

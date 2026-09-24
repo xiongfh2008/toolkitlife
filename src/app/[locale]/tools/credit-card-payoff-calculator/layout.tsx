@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/credit-card-payoff-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/credit-card-payoff-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/credit-card-payoff-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/credit-card-payoff-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/credit-card-payoff-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/credit-card-payoff-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/credit-card-payoff-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/credit-card-payoff-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/credit-card-payoff-calculator`,

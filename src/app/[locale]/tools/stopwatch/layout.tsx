@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/stopwatch`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/stopwatch`,
+        es: `https://www.toolkitlife.com/es/tools/stopwatch`,
+        de: `https://www.toolkitlife.com/de/tools/stopwatch`,
+        fr: `https://www.toolkitlife.com/fr/tools/stopwatch`,
+        pt: `https://www.toolkitlife.com/pt/tools/stopwatch`,
         zh: `https://www.toolkitlife.com/zh/tools/stopwatch`,
         ja: `https://www.toolkitlife.com/ja/tools/stopwatch`,
         ko: `https://www.toolkitlife.com/ko/tools/stopwatch`,

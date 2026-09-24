@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/group-randomizer`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/group-randomizer`,
+        es: `https://www.toolkitlife.com/es/tools/group-randomizer`,
+        de: `https://www.toolkitlife.com/de/tools/group-randomizer`,
+        fr: `https://www.toolkitlife.com/fr/tools/group-randomizer`,
+        pt: `https://www.toolkitlife.com/pt/tools/group-randomizer`,
         zh: `https://www.toolkitlife.com/zh/tools/group-randomizer`,
         ja: `https://www.toolkitlife.com/ja/tools/group-randomizer`,
         ko: `https://www.toolkitlife.com/ko/tools/group-randomizer`,

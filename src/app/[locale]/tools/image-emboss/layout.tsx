@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-emboss`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-emboss`,
+        es: `https://www.toolkitlife.com/es/tools/image-emboss`,
+        de: `https://www.toolkitlife.com/de/tools/image-emboss`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-emboss`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-emboss`,
         zh: `https://www.toolkitlife.com/zh/tools/image-emboss`,
         ja: `https://www.toolkitlife.com/ja/tools/image-emboss`,
         ko: `https://www.toolkitlife.com/ko/tools/image-emboss`,

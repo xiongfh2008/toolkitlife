@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/gif-edit`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/gif-edit`,
+        es: `https://www.toolkitlife.com/es/tools/gif-edit`,
+        de: `https://www.toolkitlife.com/de/tools/gif-edit`,
+        fr: `https://www.toolkitlife.com/fr/tools/gif-edit`,
+        pt: `https://www.toolkitlife.com/pt/tools/gif-edit`,
         zh: `https://www.toolkitlife.com/zh/tools/gif-edit`,
         ja: `https://www.toolkitlife.com/ja/tools/gif-edit`,
         ko: `https://www.toolkitlife.com/ko/tools/gif-edit`,

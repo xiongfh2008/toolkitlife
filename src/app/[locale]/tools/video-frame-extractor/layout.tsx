@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-frame-extractor`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-frame-extractor`,
+        es: `https://www.toolkitlife.com/es/tools/video-frame-extractor`,
+        de: `https://www.toolkitlife.com/de/tools/video-frame-extractor`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-frame-extractor`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-frame-extractor`,
         zh: `https://www.toolkitlife.com/zh/tools/video-frame-extractor`,
         ja: `https://www.toolkitlife.com/ja/tools/video-frame-extractor`,
         ko: `https://www.toolkitlife.com/ko/tools/video-frame-extractor`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-speed-changer`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-speed-changer`,
+        es: `https://www.toolkitlife.com/es/tools/video-speed-changer`,
+        de: `https://www.toolkitlife.com/de/tools/video-speed-changer`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-speed-changer`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-speed-changer`,
         zh: `https://www.toolkitlife.com/zh/tools/video-speed-changer`,
         ja: `https://www.toolkitlife.com/ja/tools/video-speed-changer`,
         ko: `https://www.toolkitlife.com/ko/tools/video-speed-changer`,

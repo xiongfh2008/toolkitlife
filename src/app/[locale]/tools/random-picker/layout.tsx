@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/random-picker`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/random-picker`,
+        es: `https://www.toolkitlife.com/es/tools/random-picker`,
+        de: `https://www.toolkitlife.com/de/tools/random-picker`,
+        fr: `https://www.toolkitlife.com/fr/tools/random-picker`,
+        pt: `https://www.toolkitlife.com/pt/tools/random-picker`,
         zh: `https://www.toolkitlife.com/zh/tools/random-picker`,
         ja: `https://www.toolkitlife.com/ja/tools/random-picker`,
         ko: `https://www.toolkitlife.com/ko/tools/random-picker`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/unsharp-mask`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/unsharp-mask`,
+        es: `https://www.toolkitlife.com/es/tools/unsharp-mask`,
+        de: `https://www.toolkitlife.com/de/tools/unsharp-mask`,
+        fr: `https://www.toolkitlife.com/fr/tools/unsharp-mask`,
+        pt: `https://www.toolkitlife.com/pt/tools/unsharp-mask`,
         zh: `https://www.toolkitlife.com/zh/tools/unsharp-mask`,
         ja: `https://www.toolkitlife.com/ja/tools/unsharp-mask`,
         ko: `https://www.toolkitlife.com/ko/tools/unsharp-mask`,

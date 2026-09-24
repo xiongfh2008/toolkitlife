@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/domain-age`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/domain-age`,
+        es: `https://www.toolkitlife.com/es/tools/domain-age`,
+        de: `https://www.toolkitlife.com/de/tools/domain-age`,
+        fr: `https://www.toolkitlife.com/fr/tools/domain-age`,
+        pt: `https://www.toolkitlife.com/pt/tools/domain-age`,
         zh: `https://www.toolkitlife.com/zh/tools/domain-age`,
         ja: `https://www.toolkitlife.com/ja/tools/domain-age`,
         ko: `https://www.toolkitlife.com/ko/tools/domain-age`,

@@ -32,6 +32,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/iban-validator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/iban-validator`,
+        es: `https://www.toolkitlife.com/es/tools/iban-validator`,
+        de: `https://www.toolkitlife.com/de/tools/iban-validator`,
+        fr: `https://www.toolkitlife.com/fr/tools/iban-validator`,
+        pt: `https://www.toolkitlife.com/pt/tools/iban-validator`,
         zh: `https://www.toolkitlife.com/zh/tools/iban-validator`,
         ja: `https://www.toolkitlife.com/ja/tools/iban-validator`,
         ko: `https://www.toolkitlife.com/ko/tools/iban-validator`,

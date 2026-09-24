@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/css-clip-path`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-clip-path`,
+        es: `https://www.toolkitlife.com/es/tools/css-clip-path`,
+        de: `https://www.toolkitlife.com/de/tools/css-clip-path`,
+        fr: `https://www.toolkitlife.com/fr/tools/css-clip-path`,
+        pt: `https://www.toolkitlife.com/pt/tools/css-clip-path`,
         zh: `https://www.toolkitlife.com/zh/tools/css-clip-path`,
         ja: `https://www.toolkitlife.com/ja/tools/css-clip-path`,
         ko: `https://www.toolkitlife.com/ko/tools/css-clip-path`,

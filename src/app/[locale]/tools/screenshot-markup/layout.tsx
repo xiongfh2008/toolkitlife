@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/screenshot-markup`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/screenshot-markup`,
+        es: `https://www.toolkitlife.com/es/tools/screenshot-markup`,
+        de: `https://www.toolkitlife.com/de/tools/screenshot-markup`,
+        fr: `https://www.toolkitlife.com/fr/tools/screenshot-markup`,
+        pt: `https://www.toolkitlife.com/pt/tools/screenshot-markup`,
         zh: `https://www.toolkitlife.com/zh/tools/screenshot-markup`,
         ja: `https://www.toolkitlife.com/ja/tools/screenshot-markup`,
         ko: `https://www.toolkitlife.com/ko/tools/screenshot-markup`,

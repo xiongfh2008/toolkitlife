@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-joiner`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-joiner`,
+        es: `https://www.toolkitlife.com/es/tools/video-joiner`,
+        de: `https://www.toolkitlife.com/de/tools/video-joiner`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-joiner`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-joiner`,
         zh: `https://www.toolkitlife.com/zh/tools/video-joiner`,
         ja: `https://www.toolkitlife.com/ja/tools/video-joiner`,
         ko: `https://www.toolkitlife.com/ko/tools/video-joiner`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/tip-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/tip-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/tip-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/tip-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/tip-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/tip-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/tip-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/tip-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/tip-calculator`,

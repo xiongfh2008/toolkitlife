@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/text-repeater`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/text-repeater`,
+        es: `https://www.toolkitlife.com/es/tools/text-repeater`,
+        de: `https://www.toolkitlife.com/de/tools/text-repeater`,
+        fr: `https://www.toolkitlife.com/fr/tools/text-repeater`,
+        pt: `https://www.toolkitlife.com/pt/tools/text-repeater`,
         zh: `https://www.toolkitlife.com/zh/tools/text-repeater`,
         ja: `https://www.toolkitlife.com/ja/tools/text-repeater`,
         ko: `https://www.toolkitlife.com/ko/tools/text-repeater`,

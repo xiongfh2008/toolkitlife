@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/markup-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/markup-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/markup-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/markup-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/markup-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/markup-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/markup-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/markup-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/markup-calculator`,

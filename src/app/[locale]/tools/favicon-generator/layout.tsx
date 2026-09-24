@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/favicon-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/favicon-generator`,
+        es: `https://www.toolkitlife.com/es/tools/favicon-generator`,
+        de: `https://www.toolkitlife.com/de/tools/favicon-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/favicon-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/favicon-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/favicon-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/favicon-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/favicon-generator`,

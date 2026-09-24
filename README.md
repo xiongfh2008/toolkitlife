@@ -12,7 +12,7 @@ Every tool runs **entirely in your browser**. Nothing is uploaded, nothing is st
 
 > 🔒 **Privacy-first:** your files never leave your device — processing happens locally via Canvas, WebAssembly and modern Web APIs. No signup, no accounts, no limits, no tracking.
 
-**Available in 5 languages:** [English](https://www.toolkitlife.com/en) · [中文](https://www.toolkitlife.com/zh) · [日本語](https://www.toolkitlife.com/ja) · [한국어](https://www.toolkitlife.com/ko) · [Русский](https://www.toolkitlife.com/ru)
+**Available in 9 languages:** [English](https://www.toolkitlife.com/en) · [中文](https://www.toolkitlife.com/zh) · [日本語](https://www.toolkitlife.com/ja) · [한국어](https://www.toolkitlife.com/ko) · [Русский](https://www.toolkitlife.com/ru) · [Español](https://www.toolkitlife.com/es) · [Deutsch](https://www.toolkitlife.com/de) · [Français](https://www.toolkitlife.com/fr) · [Português](https://www.toolkitlife.com/pt)
 
 ## Why ToolkitLife?
 
@@ -73,7 +73,7 @@ Ideas for new tools are welcome! Open an [issue](https://github.com/xiongfh2008/
 
 1. Fork the repository
 2. Add your tool under `src/app/[locale]/tools/{slug}/`
-3. Add UI strings to `messages/*.json` (5 locales)
+3. Add UI strings to `messages/*.json` (9 locales)
 4. Run `npm run lint && npx tsc --noEmit` and open a PR
 
 ## License

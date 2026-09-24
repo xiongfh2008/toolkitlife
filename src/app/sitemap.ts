@@ -2,8 +2,10 @@ import fs from "fs";
 import path from "path";
 import type { MetadataRoute } from "next";
 import { blogPostsMeta } from "@/data/blog-posts";
+import { routing } from "@/i18n/routing";
 
-const locales = ["en", "zh", "ja", "ko", "ru"] as const;
+// Keep in sync with the site's locale list (single source of truth: routing).
+const locales = [...routing.locales];
 
 // Every tool slug, derived from the en message file so newly added tools are
 // included automatically instead of being maintained by hand here.

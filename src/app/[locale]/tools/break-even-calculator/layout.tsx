@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/break-even-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/break-even-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/break-even-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/break-even-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/break-even-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/break-even-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/break-even-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/break-even-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/break-even-calculator`,

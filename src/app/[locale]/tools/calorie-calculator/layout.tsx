@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/calorie-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/calorie-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/calorie-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/calorie-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/calorie-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/calorie-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/calorie-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/calorie-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/calorie-calculator`,

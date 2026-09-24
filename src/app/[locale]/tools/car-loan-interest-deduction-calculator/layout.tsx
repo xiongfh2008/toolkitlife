@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/car-loan-interest-deduction-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/car-loan-interest-deduction-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/car-loan-interest-deduction-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/car-loan-interest-deduction-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/car-loan-interest-deduction-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/car-loan-interest-deduction-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/car-loan-interest-deduction-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/car-loan-interest-deduction-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/car-loan-interest-deduction-calculator`,

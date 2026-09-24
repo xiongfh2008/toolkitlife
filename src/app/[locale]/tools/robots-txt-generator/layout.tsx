@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/robots-txt-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/robots-txt-generator`,
+        es: `https://www.toolkitlife.com/es/tools/robots-txt-generator`,
+        de: `https://www.toolkitlife.com/de/tools/robots-txt-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/robots-txt-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/robots-txt-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/robots-txt-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/robots-txt-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/robots-txt-generator`,

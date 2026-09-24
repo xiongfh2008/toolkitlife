@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/jwt-decoder`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/jwt-decoder`,
+        es: `https://www.toolkitlife.com/es/tools/jwt-decoder`,
+        de: `https://www.toolkitlife.com/de/tools/jwt-decoder`,
+        fr: `https://www.toolkitlife.com/fr/tools/jwt-decoder`,
+        pt: `https://www.toolkitlife.com/pt/tools/jwt-decoder`,
         zh: `https://www.toolkitlife.com/zh/tools/jwt-decoder`,
         ja: `https://www.toolkitlife.com/ja/tools/jwt-decoder`,
         ko: `https://www.toolkitlife.com/ko/tools/jwt-decoder`,

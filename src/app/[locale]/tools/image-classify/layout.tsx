@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-classify`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-classify`,
+        es: `https://www.toolkitlife.com/es/tools/image-classify`,
+        de: `https://www.toolkitlife.com/de/tools/image-classify`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-classify`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-classify`,
         zh: `https://www.toolkitlife.com/zh/tools/image-classify`,
         ja: `https://www.toolkitlife.com/ja/tools/image-classify`,
         ko: `https://www.toolkitlife.com/ko/tools/image-classify`,

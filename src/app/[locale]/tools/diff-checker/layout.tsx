@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/diff-checker`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/diff-checker`,
+        es: `https://www.toolkitlife.com/es/tools/diff-checker`,
+        de: `https://www.toolkitlife.com/de/tools/diff-checker`,
+        fr: `https://www.toolkitlife.com/fr/tools/diff-checker`,
+        pt: `https://www.toolkitlife.com/pt/tools/diff-checker`,
         zh: `https://www.toolkitlife.com/zh/tools/diff-checker`,
         ja: `https://www.toolkitlife.com/ja/tools/diff-checker`,
         ko: `https://www.toolkitlife.com/ko/tools/diff-checker`,

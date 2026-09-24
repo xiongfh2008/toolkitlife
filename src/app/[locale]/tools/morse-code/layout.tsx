@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/morse-code`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/morse-code`,
+        es: `https://www.toolkitlife.com/es/tools/morse-code`,
+        de: `https://www.toolkitlife.com/de/tools/morse-code`,
+        fr: `https://www.toolkitlife.com/fr/tools/morse-code`,
+        pt: `https://www.toolkitlife.com/pt/tools/morse-code`,
         zh: `https://www.toolkitlife.com/zh/tools/morse-code`,
         ja: `https://www.toolkitlife.com/ja/tools/morse-code`,
         ko: `https://www.toolkitlife.com/ko/tools/morse-code`,

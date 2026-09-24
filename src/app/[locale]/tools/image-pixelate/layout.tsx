@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-pixelate`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-pixelate`,
+        es: `https://www.toolkitlife.com/es/tools/image-pixelate`,
+        de: `https://www.toolkitlife.com/de/tools/image-pixelate`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-pixelate`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-pixelate`,
         zh: `https://www.toolkitlife.com/zh/tools/image-pixelate`,
         ja: `https://www.toolkitlife.com/ja/tools/image-pixelate`,
         ko: `https://www.toolkitlife.com/ko/tools/image-pixelate`,

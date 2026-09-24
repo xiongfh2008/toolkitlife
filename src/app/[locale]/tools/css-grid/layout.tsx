@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/css-grid`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-grid`,
+        es: `https://www.toolkitlife.com/es/tools/css-grid`,
+        de: `https://www.toolkitlife.com/de/tools/css-grid`,
+        fr: `https://www.toolkitlife.com/fr/tools/css-grid`,
+        pt: `https://www.toolkitlife.com/pt/tools/css-grid`,
         zh: `https://www.toolkitlife.com/zh/tools/css-grid`,
         ja: `https://www.toolkitlife.com/ja/tools/css-grid`,
         ko: `https://www.toolkitlife.com/ko/tools/css-grid`,

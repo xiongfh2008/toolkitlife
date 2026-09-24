@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/base64-encoder`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/base64-encoder`,
+        es: `https://www.toolkitlife.com/es/tools/base64-encoder`,
+        de: `https://www.toolkitlife.com/de/tools/base64-encoder`,
+        fr: `https://www.toolkitlife.com/fr/tools/base64-encoder`,
+        pt: `https://www.toolkitlife.com/pt/tools/base64-encoder`,
         zh: `https://www.toolkitlife.com/zh/tools/base64-encoder`,
         ja: `https://www.toolkitlife.com/ja/tools/base64-encoder`,
         ko: `https://www.toolkitlife.com/ko/tools/base64-encoder`,

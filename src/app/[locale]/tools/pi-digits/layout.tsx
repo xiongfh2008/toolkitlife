@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/pi-digits`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/pi-digits`,
+        es: `https://www.toolkitlife.com/es/tools/pi-digits`,
+        de: `https://www.toolkitlife.com/de/tools/pi-digits`,
+        fr: `https://www.toolkitlife.com/fr/tools/pi-digits`,
+        pt: `https://www.toolkitlife.com/pt/tools/pi-digits`,
         zh: `https://www.toolkitlife.com/zh/tools/pi-digits`,
         ja: `https://www.toolkitlife.com/ja/tools/pi-digits`,
         ko: `https://www.toolkitlife.com/ko/tools/pi-digits`,

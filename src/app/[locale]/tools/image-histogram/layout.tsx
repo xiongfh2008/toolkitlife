@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-histogram`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-histogram`,
+        es: `https://www.toolkitlife.com/es/tools/image-histogram`,
+        de: `https://www.toolkitlife.com/de/tools/image-histogram`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-histogram`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-histogram`,
         zh: `https://www.toolkitlife.com/zh/tools/image-histogram`,
         ja: `https://www.toolkitlife.com/ja/tools/image-histogram`,
         ko: `https://www.toolkitlife.com/ko/tools/image-histogram`,

@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/svg-to-image`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/svg-to-image`,
+        es: `https://www.toolkitlife.com/es/tools/svg-to-image`,
+        de: `https://www.toolkitlife.com/de/tools/svg-to-image`,
+        fr: `https://www.toolkitlife.com/fr/tools/svg-to-image`,
+        pt: `https://www.toolkitlife.com/pt/tools/svg-to-image`,
         zh: `https://www.toolkitlife.com/zh/tools/svg-to-image`,
         ja: `https://www.toolkitlife.com/ja/tools/svg-to-image`,
         ko: `https://www.toolkitlife.com/ko/tools/svg-to-image`,

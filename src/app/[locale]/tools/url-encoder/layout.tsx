@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/url-encoder`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/url-encoder`,
+        es: `https://www.toolkitlife.com/es/tools/url-encoder`,
+        de: `https://www.toolkitlife.com/de/tools/url-encoder`,
+        fr: `https://www.toolkitlife.com/fr/tools/url-encoder`,
+        pt: `https://www.toolkitlife.com/pt/tools/url-encoder`,
         zh: `https://www.toolkitlife.com/zh/tools/url-encoder`,
         ja: `https://www.toolkitlife.com/ja/tools/url-encoder`,
         ko: `https://www.toolkitlife.com/ko/tools/url-encoder`,

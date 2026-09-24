@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-thumbnail`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-thumbnail`,
+        es: `https://www.toolkitlife.com/es/tools/video-thumbnail`,
+        de: `https://www.toolkitlife.com/de/tools/video-thumbnail`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-thumbnail`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-thumbnail`,
         zh: `https://www.toolkitlife.com/zh/tools/video-thumbnail`,
         ja: `https://www.toolkitlife.com/ja/tools/video-thumbnail`,
         ko: `https://www.toolkitlife.com/ko/tools/video-thumbnail`,

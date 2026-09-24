@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/body-fat-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/body-fat-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/body-fat-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/body-fat-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/body-fat-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/body-fat-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/body-fat-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/body-fat-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/body-fat-calculator`,

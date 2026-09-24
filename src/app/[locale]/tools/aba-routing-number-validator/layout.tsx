@@ -32,6 +32,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/aba-routing-number-validator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/aba-routing-number-validator`,
+        es: `https://www.toolkitlife.com/es/tools/aba-routing-number-validator`,
+        de: `https://www.toolkitlife.com/de/tools/aba-routing-number-validator`,
+        fr: `https://www.toolkitlife.com/fr/tools/aba-routing-number-validator`,
+        pt: `https://www.toolkitlife.com/pt/tools/aba-routing-number-validator`,
         zh: `https://www.toolkitlife.com/zh/tools/aba-routing-number-validator`,
         ja: `https://www.toolkitlife.com/ja/tools/aba-routing-number-validator`,
         ko: `https://www.toolkitlife.com/ko/tools/aba-routing-number-validator`,

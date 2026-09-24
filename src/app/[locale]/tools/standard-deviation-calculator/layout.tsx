@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/standard-deviation-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/standard-deviation-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/standard-deviation-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/standard-deviation-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/standard-deviation-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/standard-deviation-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/standard-deviation-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/standard-deviation-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/standard-deviation-calculator`,

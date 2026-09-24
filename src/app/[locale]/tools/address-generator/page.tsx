@@ -3,11 +3,12 @@
 import { useCallback, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import ToolLayout from "@/components/ToolLayout";
+import { CITY_ANCHORS } from "@/data/address-cities";
 
 interface AddressData {
   street: string;
   city: string;
-  state: string;
+  region: string;
   zip: string;
   country: string;
   latitude: string;
@@ -84,7 +85,8 @@ function buildFull(a: AddressData, includeCoords: boolean): string {
   const coords = includeCoords
     ? ` (${a.latitude}, ${a.longitude})`
     : "";
-  return `${a.street}, ${a.city}, ${a.state}, ${a.zip}, ${a.country}${coords}`;
+  const region = a.region ? `${a.region}, ` : "";
+  return `${a.street}, ${a.city}, ${region}${a.zip}, ${a.country}${coords}`;
 }
 
 export default function AddressGeneratorPage() {
@@ -112,16 +114,21 @@ export default function AddressGeneratorPage() {
         fakerCache[locale] = mod.default ?? mod.faker;
       }
       const faker = fakerCache[locale];
+      const anchors = CITY_ANCHORS[locale] ?? [];
       const rows: AddressData[] = [];
       for (let i = 0; i < count; i++) {
+        // 城市锚点保证 城市/州省/邮编/坐标 内部一致；街道名仍由 faker 虚构
+        const anchor = anchors[Math.floor(Math.random() * anchors.length)];
+        const zip = anchor.zips[Math.floor(Math.random() * anchor.zips.length)];
+        const jitter = () => (Math.random() - 0.5) * 0.1;
         const row: AddressData = {
           street: faker.location.streetAddress(),
-          city: faker.location.city(),
-          state: faker.location.state?.() ?? "",
-          zip: faker.location.zipCode(),
-          country: COUNTRIES.find((c) => c.locale === locale)?.name ?? faker.location.country(),
-          latitude: faker.location.latitude(),
-          longitude: faker.location.longitude(),
+          city: anchor.city,
+          region: anchor.region,
+          zip,
+          country: COUNTRIES.find((c) => c.locale === locale)?.name ?? "",
+          latitude: (anchor.lat + jitter()).toFixed(4),
+          longitude: (anchor.lng + jitter()).toFixed(4),
           full: "",
         };
         row.full = buildFull(row, includeCoords);
@@ -171,10 +178,10 @@ export default function AddressGeneratorPage() {
       let filename = `addresses.${type}`;
       if (type === "csv") {
         content =
-          "street,city,state,zip,country,latitude,longitude\n" +
+          "street,city,region,zip,country,latitude,longitude\n" +
           addresses
             .map((a) =>
-              [a.street, a.city, a.state, a.zip, a.country, a.latitude, a.longitude]
+              [a.street, a.city, a.region, a.zip, a.country, a.latitude, a.longitude]
                 .map((v) => `"${String(v).replace(/"/g, '""')}"`)
                 .join(",")
             )
@@ -297,6 +304,7 @@ export default function AddressGeneratorPage() {
                   <p className="text-sm text-zinc-200 leading-relaxed">{a.full}</p>
                   <div className="flex flex-wrap gap-x-4 gap-y-0.5 text-xs text-zinc-500">
                     <span>{t("labels.city")}: {a.city}</span>
+                    <span>{t("labels.region")}: {a.region}</span>
                     <span>{t("labels.zip")}: {a.zip}</span>
                     {includeCoords && (
                       <span>

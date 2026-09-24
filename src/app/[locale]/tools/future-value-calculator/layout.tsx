@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/future-value-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/future-value-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/future-value-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/future-value-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/future-value-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/future-value-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/future-value-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/future-value-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/future-value-calculator`,

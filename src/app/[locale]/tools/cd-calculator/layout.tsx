@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/cd-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/cd-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/cd-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/cd-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/cd-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/cd-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/cd-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/cd-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/cd-calculator`,

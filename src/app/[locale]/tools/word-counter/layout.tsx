@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/word-counter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/word-counter`,
+        es: `https://www.toolkitlife.com/es/tools/word-counter`,
+        de: `https://www.toolkitlife.com/de/tools/word-counter`,
+        fr: `https://www.toolkitlife.com/fr/tools/word-counter`,
+        pt: `https://www.toolkitlife.com/pt/tools/word-counter`,
         zh: `https://www.toolkitlife.com/zh/tools/word-counter`,
         ja: `https://www.toolkitlife.com/ja/tools/word-counter`,
         ko: `https://www.toolkitlife.com/ko/tools/word-counter`,

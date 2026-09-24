@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/web-icon`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/web-icon`,
+        es: `https://www.toolkitlife.com/es/tools/web-icon`,
+        de: `https://www.toolkitlife.com/de/tools/web-icon`,
+        fr: `https://www.toolkitlife.com/fr/tools/web-icon`,
+        pt: `https://www.toolkitlife.com/pt/tools/web-icon`,
         zh: `https://www.toolkitlife.com/zh/tools/web-icon`,
         ja: `https://www.toolkitlife.com/ja/tools/web-icon`,
         ko: `https://www.toolkitlife.com/ko/tools/web-icon`,

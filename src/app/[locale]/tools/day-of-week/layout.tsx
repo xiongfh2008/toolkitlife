@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/day-of-week`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/day-of-week`,
+        es: `https://www.toolkitlife.com/es/tools/day-of-week`,
+        de: `https://www.toolkitlife.com/de/tools/day-of-week`,
+        fr: `https://www.toolkitlife.com/fr/tools/day-of-week`,
+        pt: `https://www.toolkitlife.com/pt/tools/day-of-week`,
         zh: `https://www.toolkitlife.com/zh/tools/day-of-week`,
         ja: `https://www.toolkitlife.com/ja/tools/day-of-week`,
         ko: `https://www.toolkitlife.com/ko/tools/day-of-week`,

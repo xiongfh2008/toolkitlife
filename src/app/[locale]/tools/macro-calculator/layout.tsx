@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/macro-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/macro-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/macro-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/macro-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/macro-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/macro-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/macro-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/macro-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/macro-calculator`,

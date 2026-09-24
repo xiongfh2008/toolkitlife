@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/loan-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/loan-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/loan-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/loan-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/loan-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/loan-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/loan-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/loan-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/loan-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/number-base-converter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/number-base-converter`,
+        es: `https://www.toolkitlife.com/es/tools/number-base-converter`,
+        de: `https://www.toolkitlife.com/de/tools/number-base-converter`,
+        fr: `https://www.toolkitlife.com/fr/tools/number-base-converter`,
+        pt: `https://www.toolkitlife.com/pt/tools/number-base-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/number-base-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/number-base-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/number-base-converter`,

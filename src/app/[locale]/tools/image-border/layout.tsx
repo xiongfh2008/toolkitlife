@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-border`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-border`,
+        es: `https://www.toolkitlife.com/es/tools/image-border`,
+        de: `https://www.toolkitlife.com/de/tools/image-border`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-border`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-border`,
         zh: `https://www.toolkitlife.com/zh/tools/image-border`,
         ja: `https://www.toolkitlife.com/ja/tools/image-border`,
         ko: `https://www.toolkitlife.com/ko/tools/image-border`,

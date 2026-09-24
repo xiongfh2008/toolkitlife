@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/child-support-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/child-support-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/child-support-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/child-support-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/child-support-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/child-support-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/child-support-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/child-support-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/child-support-calculator`,

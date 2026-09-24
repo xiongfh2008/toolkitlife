@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/keycode`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/keycode`,
+        es: `https://www.toolkitlife.com/es/tools/keycode`,
+        de: `https://www.toolkitlife.com/de/tools/keycode`,
+        fr: `https://www.toolkitlife.com/fr/tools/keycode`,
+        pt: `https://www.toolkitlife.com/pt/tools/keycode`,
         zh: `https://www.toolkitlife.com/zh/tools/keycode`,
         ja: `https://www.toolkitlife.com/ja/tools/keycode`,
         ko: `https://www.toolkitlife.com/ko/tools/keycode`,

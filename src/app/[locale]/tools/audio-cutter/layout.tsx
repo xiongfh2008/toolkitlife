@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/audio-cutter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/audio-cutter`,
+        es: `https://www.toolkitlife.com/es/tools/audio-cutter`,
+        de: `https://www.toolkitlife.com/de/tools/audio-cutter`,
+        fr: `https://www.toolkitlife.com/fr/tools/audio-cutter`,
+        pt: `https://www.toolkitlife.com/pt/tools/audio-cutter`,
         zh: `https://www.toolkitlife.com/zh/tools/audio-cutter`,
         ja: `https://www.toolkitlife.com/ja/tools/audio-cutter`,
         ko: `https://www.toolkitlife.com/ko/tools/audio-cutter`,

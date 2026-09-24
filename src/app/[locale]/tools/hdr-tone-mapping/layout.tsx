@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/hdr-tone-mapping`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/hdr-tone-mapping`,
+        es: `https://www.toolkitlife.com/es/tools/hdr-tone-mapping`,
+        de: `https://www.toolkitlife.com/de/tools/hdr-tone-mapping`,
+        fr: `https://www.toolkitlife.com/fr/tools/hdr-tone-mapping`,
+        pt: `https://www.toolkitlife.com/pt/tools/hdr-tone-mapping`,
         zh: `https://www.toolkitlife.com/zh/tools/hdr-tone-mapping`,
         ja: `https://www.toolkitlife.com/ja/tools/hdr-tone-mapping`,
         ko: `https://www.toolkitlife.com/ko/tools/hdr-tone-mapping`,

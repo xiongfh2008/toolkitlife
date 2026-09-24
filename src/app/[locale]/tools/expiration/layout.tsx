@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/expiration`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/expiration`,
+        es: `https://www.toolkitlife.com/es/tools/expiration`,
+        de: `https://www.toolkitlife.com/de/tools/expiration`,
+        fr: `https://www.toolkitlife.com/fr/tools/expiration`,
+        pt: `https://www.toolkitlife.com/pt/tools/expiration`,
         zh: `https://www.toolkitlife.com/zh/tools/expiration`,
         ja: `https://www.toolkitlife.com/ja/tools/expiration`,
         ko: `https://www.toolkitlife.com/ko/tools/expiration`,

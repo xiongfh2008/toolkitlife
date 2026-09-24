@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/present-value-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/present-value-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/present-value-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/present-value-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/present-value-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/present-value-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/present-value-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/present-value-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/present-value-calculator`,

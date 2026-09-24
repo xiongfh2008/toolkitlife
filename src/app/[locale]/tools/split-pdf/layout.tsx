@@ -35,6 +35,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/split-pdf`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/split-pdf`,
+        es: `https://www.toolkitlife.com/es/tools/split-pdf`,
+        de: `https://www.toolkitlife.com/de/tools/split-pdf`,
+        fr: `https://www.toolkitlife.com/fr/tools/split-pdf`,
+        pt: `https://www.toolkitlife.com/pt/tools/split-pdf`,
         zh: `https://www.toolkitlife.com/zh/tools/split-pdf`,
         ja: `https://www.toolkitlife.com/ja/tools/split-pdf`,
         ko: `https://www.toolkitlife.com/ko/tools/split-pdf`,

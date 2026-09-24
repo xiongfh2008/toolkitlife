@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-subtitle-burner`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-subtitle-burner`,
+        es: `https://www.toolkitlife.com/es/tools/video-subtitle-burner`,
+        de: `https://www.toolkitlife.com/de/tools/video-subtitle-burner`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-subtitle-burner`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-subtitle-burner`,
         zh: `https://www.toolkitlife.com/zh/tools/video-subtitle-burner`,
         ja: `https://www.toolkitlife.com/ja/tools/video-subtitle-burner`,
         ko: `https://www.toolkitlife.com/ko/tools/video-subtitle-burner`,

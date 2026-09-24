@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/color-blindness-test`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/color-blindness-test`,
+        es: `https://www.toolkitlife.com/es/tools/color-blindness-test`,
+        de: `https://www.toolkitlife.com/de/tools/color-blindness-test`,
+        fr: `https://www.toolkitlife.com/fr/tools/color-blindness-test`,
+        pt: `https://www.toolkitlife.com/pt/tools/color-blindness-test`,
         zh: `https://www.toolkitlife.com/zh/tools/color-blindness-test`,
         ja: `https://www.toolkitlife.com/ja/tools/color-blindness-test`,
         ko: `https://www.toolkitlife.com/ko/tools/color-blindness-test`,

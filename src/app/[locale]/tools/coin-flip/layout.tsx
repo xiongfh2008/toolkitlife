@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/coin-flip`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/coin-flip`,
+        es: `https://www.toolkitlife.com/es/tools/coin-flip`,
+        de: `https://www.toolkitlife.com/de/tools/coin-flip`,
+        fr: `https://www.toolkitlife.com/fr/tools/coin-flip`,
+        pt: `https://www.toolkitlife.com/pt/tools/coin-flip`,
         zh: `https://www.toolkitlife.com/zh/tools/coin-flip`,
         ja: `https://www.toolkitlife.com/ja/tools/coin-flip`,
         ko: `https://www.toolkitlife.com/ko/tools/coin-flip`,

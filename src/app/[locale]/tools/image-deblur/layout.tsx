@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-deblur`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-deblur`,
+        es: `https://www.toolkitlife.com/es/tools/image-deblur`,
+        de: `https://www.toolkitlife.com/de/tools/image-deblur`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-deblur`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-deblur`,
         zh: `https://www.toolkitlife.com/zh/tools/image-deblur`,
         ja: `https://www.toolkitlife.com/ja/tools/image-deblur`,
         ko: `https://www.toolkitlife.com/ko/tools/image-deblur`,

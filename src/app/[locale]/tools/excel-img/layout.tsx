@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/excel-img`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/excel-img`,
+        es: `https://www.toolkitlife.com/es/tools/excel-img`,
+        de: `https://www.toolkitlife.com/de/tools/excel-img`,
+        fr: `https://www.toolkitlife.com/fr/tools/excel-img`,
+        pt: `https://www.toolkitlife.com/pt/tools/excel-img`,
         zh: `https://www.toolkitlife.com/zh/tools/excel-img`,
         ja: `https://www.toolkitlife.com/ja/tools/excel-img`,
         ko: `https://www.toolkitlife.com/ko/tools/excel-img`,

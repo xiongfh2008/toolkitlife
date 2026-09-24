@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/bionic-reading`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/bionic-reading`,
+        es: `https://www.toolkitlife.com/es/tools/bionic-reading`,
+        de: `https://www.toolkitlife.com/de/tools/bionic-reading`,
+        fr: `https://www.toolkitlife.com/fr/tools/bionic-reading`,
+        pt: `https://www.toolkitlife.com/pt/tools/bionic-reading`,
         zh: `https://www.toolkitlife.com/zh/tools/bionic-reading`,
         ja: `https://www.toolkitlife.com/ja/tools/bionic-reading`,
         ko: `https://www.toolkitlife.com/ko/tools/bionic-reading`,

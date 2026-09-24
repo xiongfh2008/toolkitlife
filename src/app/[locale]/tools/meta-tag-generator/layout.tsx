@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/meta-tag-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/meta-tag-generator`,
+        es: `https://www.toolkitlife.com/es/tools/meta-tag-generator`,
+        de: `https://www.toolkitlife.com/de/tools/meta-tag-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/meta-tag-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/meta-tag-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/meta-tag-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/meta-tag-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/meta-tag-generator`,

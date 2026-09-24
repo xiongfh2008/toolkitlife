@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-to-ascii`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-to-ascii`,
+        es: `https://www.toolkitlife.com/es/tools/image-to-ascii`,
+        de: `https://www.toolkitlife.com/de/tools/image-to-ascii`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-to-ascii`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-to-ascii`,
         zh: `https://www.toolkitlife.com/zh/tools/image-to-ascii`,
         ja: `https://www.toolkitlife.com/ja/tools/image-to-ascii`,
         ko: `https://www.toolkitlife.com/ko/tools/image-to-ascii`,

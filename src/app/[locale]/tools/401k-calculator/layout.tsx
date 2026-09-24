@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/401k-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/401k-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/401k-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/401k-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/401k-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/401k-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/401k-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/401k-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/401k-calculator`,

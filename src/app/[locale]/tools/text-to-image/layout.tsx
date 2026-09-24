@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/text-to-image`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/text-to-image`,
+        es: `https://www.toolkitlife.com/es/tools/text-to-image`,
+        de: `https://www.toolkitlife.com/de/tools/text-to-image`,
+        fr: `https://www.toolkitlife.com/fr/tools/text-to-image`,
+        pt: `https://www.toolkitlife.com/pt/tools/text-to-image`,
         zh: `https://www.toolkitlife.com/zh/tools/text-to-image`,
         ja: `https://www.toolkitlife.com/ja/tools/text-to-image`,
         ko: `https://www.toolkitlife.com/ko/tools/text-to-image`,

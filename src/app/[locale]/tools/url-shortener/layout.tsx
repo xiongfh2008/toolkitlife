@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/url-shortener`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/url-shortener`,
+        es: `https://www.toolkitlife.com/es/tools/url-shortener`,
+        de: `https://www.toolkitlife.com/de/tools/url-shortener`,
+        fr: `https://www.toolkitlife.com/fr/tools/url-shortener`,
+        pt: `https://www.toolkitlife.com/pt/tools/url-shortener`,
         zh: `https://www.toolkitlife.com/zh/tools/url-shortener`,
         ja: `https://www.toolkitlife.com/ja/tools/url-shortener`,
         ko: `https://www.toolkitlife.com/ko/tools/url-shortener`,

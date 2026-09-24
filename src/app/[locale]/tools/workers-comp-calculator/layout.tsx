@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/workers-comp-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/workers-comp-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/workers-comp-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/workers-comp-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/workers-comp-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/workers-comp-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/workers-comp-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/workers-comp-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/workers-comp-calculator`,

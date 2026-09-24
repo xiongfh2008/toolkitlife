@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/domain-hosting`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/domain-hosting`,
+        es: `https://www.toolkitlife.com/es/tools/domain-hosting`,
+        de: `https://www.toolkitlife.com/de/tools/domain-hosting`,
+        fr: `https://www.toolkitlife.com/fr/tools/domain-hosting`,
+        pt: `https://www.toolkitlife.com/pt/tools/domain-hosting`,
         zh: `https://www.toolkitlife.com/zh/tools/domain-hosting`,
         ja: `https://www.toolkitlife.com/ja/tools/domain-hosting`,
         ko: `https://www.toolkitlife.com/ko/tools/domain-hosting`,

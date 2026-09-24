@@ -35,6 +35,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/digital-signature`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/digital-signature`,
+        es: `https://www.toolkitlife.com/es/tools/digital-signature`,
+        de: `https://www.toolkitlife.com/de/tools/digital-signature`,
+        fr: `https://www.toolkitlife.com/fr/tools/digital-signature`,
+        pt: `https://www.toolkitlife.com/pt/tools/digital-signature`,
         zh: `https://www.toolkitlife.com/zh/tools/digital-signature`,
         ja: `https://www.toolkitlife.com/ja/tools/digital-signature`,
         ko: `https://www.toolkitlife.com/ko/tools/digital-signature`,

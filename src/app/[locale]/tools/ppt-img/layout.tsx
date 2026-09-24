@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/ppt-img`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/ppt-img`,
+        es: `https://www.toolkitlife.com/es/tools/ppt-img`,
+        de: `https://www.toolkitlife.com/de/tools/ppt-img`,
+        fr: `https://www.toolkitlife.com/fr/tools/ppt-img`,
+        pt: `https://www.toolkitlife.com/pt/tools/ppt-img`,
         zh: `https://www.toolkitlife.com/zh/tools/ppt-img`,
         ja: `https://www.toolkitlife.com/ja/tools/ppt-img`,
         ko: `https://www.toolkitlife.com/ko/tools/ppt-img`,

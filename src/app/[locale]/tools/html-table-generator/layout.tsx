@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/html-table-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/html-table-generator`,
+        es: `https://www.toolkitlife.com/es/tools/html-table-generator`,
+        de: `https://www.toolkitlife.com/de/tools/html-table-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/html-table-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/html-table-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/html-table-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/html-table-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/html-table-generator`,

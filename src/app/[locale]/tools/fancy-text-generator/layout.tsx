@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/fancy-text-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/fancy-text-generator`,
+        es: `https://www.toolkitlife.com/es/tools/fancy-text-generator`,
+        de: `https://www.toolkitlife.com/de/tools/fancy-text-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/fancy-text-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/fancy-text-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/fancy-text-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/fancy-text-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/fancy-text-generator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/white-balance`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/white-balance`,
+        es: `https://www.toolkitlife.com/es/tools/white-balance`,
+        de: `https://www.toolkitlife.com/de/tools/white-balance`,
+        fr: `https://www.toolkitlife.com/fr/tools/white-balance`,
+        pt: `https://www.toolkitlife.com/pt/tools/white-balance`,
         zh: `https://www.toolkitlife.com/zh/tools/white-balance`,
         ja: `https://www.toolkitlife.com/ja/tools/white-balance`,
         ko: `https://www.toolkitlife.com/ko/tools/white-balance`,

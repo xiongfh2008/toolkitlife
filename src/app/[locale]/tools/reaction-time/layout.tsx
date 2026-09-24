@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/reaction-time`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/reaction-time`,
+        es: `https://www.toolkitlife.com/es/tools/reaction-time`,
+        de: `https://www.toolkitlife.com/de/tools/reaction-time`,
+        fr: `https://www.toolkitlife.com/fr/tools/reaction-time`,
+        pt: `https://www.toolkitlife.com/pt/tools/reaction-time`,
         zh: `https://www.toolkitlife.com/zh/tools/reaction-time`,
         ja: `https://www.toolkitlife.com/ja/tools/reaction-time`,
         ko: `https://www.toolkitlife.com/ko/tools/reaction-time`,

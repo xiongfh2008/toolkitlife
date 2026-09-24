@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/css-sprite-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-sprite-generator`,
+        es: `https://www.toolkitlife.com/es/tools/css-sprite-generator`,
+        de: `https://www.toolkitlife.com/de/tools/css-sprite-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/css-sprite-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/css-sprite-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/css-sprite-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/css-sprite-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/css-sprite-generator`,

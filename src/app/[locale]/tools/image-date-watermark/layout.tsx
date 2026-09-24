@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-date-watermark`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-date-watermark`,
+        es: `https://www.toolkitlife.com/es/tools/image-date-watermark`,
+        de: `https://www.toolkitlife.com/de/tools/image-date-watermark`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-date-watermark`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-date-watermark`,
         zh: `https://www.toolkitlife.com/zh/tools/image-date-watermark`,
         ja: `https://www.toolkitlife.com/ja/tools/image-date-watermark`,
         ko: `https://www.toolkitlife.com/ko/tools/image-date-watermark`,

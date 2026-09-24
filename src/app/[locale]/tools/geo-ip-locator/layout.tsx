@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/geo-ip-locator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/geo-ip-locator`,
+        es: `https://www.toolkitlife.com/es/tools/geo-ip-locator`,
+        de: `https://www.toolkitlife.com/de/tools/geo-ip-locator`,
+        fr: `https://www.toolkitlife.com/fr/tools/geo-ip-locator`,
+        pt: `https://www.toolkitlife.com/pt/tools/geo-ip-locator`,
         zh: `https://www.toolkitlife.com/zh/tools/geo-ip-locator`,
         ja: `https://www.toolkitlife.com/ja/tools/geo-ip-locator`,
         ko: `https://www.toolkitlife.com/ko/tools/geo-ip-locator`,

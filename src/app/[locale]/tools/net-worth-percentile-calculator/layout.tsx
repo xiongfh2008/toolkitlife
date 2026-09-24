@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/net-worth-percentile-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/net-worth-percentile-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/net-worth-percentile-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/net-worth-percentile-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/net-worth-percentile-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/net-worth-percentile-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/net-worth-percentile-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/net-worth-percentile-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/net-worth-percentile-calculator`,

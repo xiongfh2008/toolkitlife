@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/solid-color-image`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/solid-color-image`,
+        es: `https://www.toolkitlife.com/es/tools/solid-color-image`,
+        de: `https://www.toolkitlife.com/de/tools/solid-color-image`,
+        fr: `https://www.toolkitlife.com/fr/tools/solid-color-image`,
+        pt: `https://www.toolkitlife.com/pt/tools/solid-color-image`,
         zh: `https://www.toolkitlife.com/zh/tools/solid-color-image`,
         ja: `https://www.toolkitlife.com/ja/tools/solid-color-image`,
         ko: `https://www.toolkitlife.com/ko/tools/solid-color-image`,

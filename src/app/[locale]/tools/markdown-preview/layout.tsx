@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/markdown-preview`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/markdown-preview`,
+        es: `https://www.toolkitlife.com/es/tools/markdown-preview`,
+        de: `https://www.toolkitlife.com/de/tools/markdown-preview`,
+        fr: `https://www.toolkitlife.com/fr/tools/markdown-preview`,
+        pt: `https://www.toolkitlife.com/pt/tools/markdown-preview`,
         zh: `https://www.toolkitlife.com/zh/tools/markdown-preview`,
         ja: `https://www.toolkitlife.com/ja/tools/markdown-preview`,
         ko: `https://www.toolkitlife.com/ko/tools/markdown-preview`,

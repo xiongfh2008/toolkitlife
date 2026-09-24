@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/css-cubic-bezier`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-cubic-bezier`,
+        es: `https://www.toolkitlife.com/es/tools/css-cubic-bezier`,
+        de: `https://www.toolkitlife.com/de/tools/css-cubic-bezier`,
+        fr: `https://www.toolkitlife.com/fr/tools/css-cubic-bezier`,
+        pt: `https://www.toolkitlife.com/pt/tools/css-cubic-bezier`,
         zh: `https://www.toolkitlife.com/zh/tools/css-cubic-bezier`,
         ja: `https://www.toolkitlife.com/ja/tools/css-cubic-bezier`,
         ko: `https://www.toolkitlife.com/ko/tools/css-cubic-bezier`,

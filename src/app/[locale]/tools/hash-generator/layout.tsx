@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/hash-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/hash-generator`,
+        es: `https://www.toolkitlife.com/es/tools/hash-generator`,
+        de: `https://www.toolkitlife.com/de/tools/hash-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/hash-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/hash-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/hash-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/hash-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/hash-generator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/whois-lookup`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/whois-lookup`,
+        es: `https://www.toolkitlife.com/es/tools/whois-lookup`,
+        de: `https://www.toolkitlife.com/de/tools/whois-lookup`,
+        fr: `https://www.toolkitlife.com/fr/tools/whois-lookup`,
+        pt: `https://www.toolkitlife.com/pt/tools/whois-lookup`,
         zh: `https://www.toolkitlife.com/zh/tools/whois-lookup`,
         ja: `https://www.toolkitlife.com/ja/tools/whois-lookup`,
         ko: `https://www.toolkitlife.com/ko/tools/whois-lookup`,

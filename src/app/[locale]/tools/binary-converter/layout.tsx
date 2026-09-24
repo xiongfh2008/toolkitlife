@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/binary-converter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/binary-converter`,
+        es: `https://www.toolkitlife.com/es/tools/binary-converter`,
+        de: `https://www.toolkitlife.com/de/tools/binary-converter`,
+        fr: `https://www.toolkitlife.com/fr/tools/binary-converter`,
+        pt: `https://www.toolkitlife.com/pt/tools/binary-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/binary-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/binary-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/binary-converter`,

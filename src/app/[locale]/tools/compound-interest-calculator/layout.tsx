@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/compound-interest-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/compound-interest-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/compound-interest-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/compound-interest-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/compound-interest-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/compound-interest-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/compound-interest-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/compound-interest-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/compound-interest-calculator`,

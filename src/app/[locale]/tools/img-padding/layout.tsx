@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/img-padding`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/img-padding`,
+        es: `https://www.toolkitlife.com/es/tools/img-padding`,
+        de: `https://www.toolkitlife.com/de/tools/img-padding`,
+        fr: `https://www.toolkitlife.com/fr/tools/img-padding`,
+        pt: `https://www.toolkitlife.com/pt/tools/img-padding`,
         zh: `https://www.toolkitlife.com/zh/tools/img-padding`,
         ja: `https://www.toolkitlife.com/ja/tools/img-padding`,
         ko: `https://www.toolkitlife.com/ko/tools/img-padding`,

@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/calendar`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/calendar`,
+        es: `https://www.toolkitlife.com/es/tools/calendar`,
+        de: `https://www.toolkitlife.com/de/tools/calendar`,
+        fr: `https://www.toolkitlife.com/fr/tools/calendar`,
+        pt: `https://www.toolkitlife.com/pt/tools/calendar`,
         zh: `https://www.toolkitlife.com/zh/tools/calendar`,
         ja: `https://www.toolkitlife.com/ja/tools/calendar`,
         ko: `https://www.toolkitlife.com/ko/tools/calendar`,

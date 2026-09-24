@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/personal-injury-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/personal-injury-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/personal-injury-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/personal-injury-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/personal-injury-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/personal-injury-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/personal-injury-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/personal-injury-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/personal-injury-calculator`,

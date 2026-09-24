@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/keyword-position`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/keyword-position`,
+        es: `https://www.toolkitlife.com/es/tools/keyword-position`,
+        de: `https://www.toolkitlife.com/de/tools/keyword-position`,
+        fr: `https://www.toolkitlife.com/fr/tools/keyword-position`,
+        pt: `https://www.toolkitlife.com/pt/tools/keyword-position`,
         zh: `https://www.toolkitlife.com/zh/tools/keyword-position`,
         ja: `https://www.toolkitlife.com/ja/tools/keyword-position`,
         ko: `https://www.toolkitlife.com/ko/tools/keyword-position`,

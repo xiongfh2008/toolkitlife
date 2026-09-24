@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/invoice-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/invoice-generator`,
+        es: `https://www.toolkitlife.com/es/tools/invoice-generator`,
+        de: `https://www.toolkitlife.com/de/tools/invoice-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/invoice-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/invoice-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/invoice-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/invoice-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/invoice-generator`,

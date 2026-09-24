@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-slice`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-slice`,
+        es: `https://www.toolkitlife.com/es/tools/image-slice`,
+        de: `https://www.toolkitlife.com/de/tools/image-slice`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-slice`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-slice`,
         zh: `https://www.toolkitlife.com/zh/tools/image-slice`,
         ja: `https://www.toolkitlife.com/ja/tools/image-slice`,
         ko: `https://www.toolkitlife.com/ko/tools/image-slice`,

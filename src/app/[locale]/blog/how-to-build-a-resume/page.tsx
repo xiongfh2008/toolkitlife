@@ -39,6 +39,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: url,
       languages: {
         en: `https://www.toolkitlife.com/en/blog/${post.slug}`,
+        es: `https://www.toolkitlife.com/es/blog/${post.slug}`,
+        de: `https://www.toolkitlife.com/de/blog/${post.slug}`,
+        fr: `https://www.toolkitlife.com/fr/blog/${post.slug}`,
+        pt: `https://www.toolkitlife.com/pt/blog/${post.slug}`,
         zh: `https://www.toolkitlife.com/zh/blog/${post.slug}`,
         ja: `https://www.toolkitlife.com/ja/blog/${post.slug}`,
         ko: `https://www.toolkitlife.com/ko/blog/${post.slug}`,

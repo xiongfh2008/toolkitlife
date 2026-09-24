@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/audio-merge`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/audio-merge`,
+        es: `https://www.toolkitlife.com/es/tools/audio-merge`,
+        de: `https://www.toolkitlife.com/de/tools/audio-merge`,
+        fr: `https://www.toolkitlife.com/fr/tools/audio-merge`,
+        pt: `https://www.toolkitlife.com/pt/tools/audio-merge`,
         zh: `https://www.toolkitlife.com/zh/tools/audio-merge`,
         ja: `https://www.toolkitlife.com/ja/tools/audio-merge`,
         ko: `https://www.toolkitlife.com/ko/tools/audio-merge`,

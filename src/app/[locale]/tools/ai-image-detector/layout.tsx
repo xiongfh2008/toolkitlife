@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/ai-image-detector`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/ai-image-detector`,
+        es: `https://www.toolkitlife.com/es/tools/ai-image-detector`,
+        de: `https://www.toolkitlife.com/de/tools/ai-image-detector`,
+        fr: `https://www.toolkitlife.com/fr/tools/ai-image-detector`,
+        pt: `https://www.toolkitlife.com/pt/tools/ai-image-detector`,
         zh: `https://www.toolkitlife.com/zh/tools/ai-image-detector`,
         ja: `https://www.toolkitlife.com/ja/tools/ai-image-detector`,
         ko: `https://www.toolkitlife.com/ko/tools/ai-image-detector`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/mortgage-affordability-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/mortgage-affordability-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/mortgage-affordability-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/mortgage-affordability-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/mortgage-affordability-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/mortgage-affordability-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/mortgage-affordability-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/mortgage-affordability-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/mortgage-affordability-calculator`,

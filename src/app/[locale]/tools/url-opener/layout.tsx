@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/url-opener`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/url-opener`,
+        es: `https://www.toolkitlife.com/es/tools/url-opener`,
+        de: `https://www.toolkitlife.com/de/tools/url-opener`,
+        fr: `https://www.toolkitlife.com/fr/tools/url-opener`,
+        pt: `https://www.toolkitlife.com/pt/tools/url-opener`,
         zh: `https://www.toolkitlife.com/zh/tools/url-opener`,
         ja: `https://www.toolkitlife.com/ja/tools/url-opener`,
         ko: `https://www.toolkitlife.com/ko/tools/url-opener`,

@@ -11,6 +11,10 @@ const labels: Record<string, string> = {
   ja: "日本語",
   ko: "한국어",
   ru: "Русский",
+  es: "Español",
+  de: "Deutsch",
+  fr: "Français",
+  pt: "Português",
 };
 
 export default function LocaleSwitcher() {

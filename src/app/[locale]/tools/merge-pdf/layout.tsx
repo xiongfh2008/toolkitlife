@@ -35,6 +35,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/merge-pdf`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/merge-pdf`,
+        es: `https://www.toolkitlife.com/es/tools/merge-pdf`,
+        de: `https://www.toolkitlife.com/de/tools/merge-pdf`,
+        fr: `https://www.toolkitlife.com/fr/tools/merge-pdf`,
+        pt: `https://www.toolkitlife.com/pt/tools/merge-pdf`,
         zh: `https://www.toolkitlife.com/zh/tools/merge-pdf`,
         ja: `https://www.toolkitlife.com/ja/tools/merge-pdf`,
         ko: `https://www.toolkitlife.com/ko/tools/merge-pdf`,

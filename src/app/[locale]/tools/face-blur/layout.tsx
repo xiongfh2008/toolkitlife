@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/face-blur`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/face-blur`,
+        es: `https://www.toolkitlife.com/es/tools/face-blur`,
+        de: `https://www.toolkitlife.com/de/tools/face-blur`,
+        fr: `https://www.toolkitlife.com/fr/tools/face-blur`,
+        pt: `https://www.toolkitlife.com/pt/tools/face-blur`,
         zh: `https://www.toolkitlife.com/zh/tools/face-blur`,
         ja: `https://www.toolkitlife.com/ja/tools/face-blur`,
         ko: `https://www.toolkitlife.com/ko/tools/face-blur`,

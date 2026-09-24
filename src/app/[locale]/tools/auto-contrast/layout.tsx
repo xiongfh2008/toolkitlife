@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/auto-contrast`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/auto-contrast`,
+        es: `https://www.toolkitlife.com/es/tools/auto-contrast`,
+        de: `https://www.toolkitlife.com/de/tools/auto-contrast`,
+        fr: `https://www.toolkitlife.com/fr/tools/auto-contrast`,
+        pt: `https://www.toolkitlife.com/pt/tools/auto-contrast`,
         zh: `https://www.toolkitlife.com/zh/tools/auto-contrast`,
         ja: `https://www.toolkitlife.com/ja/tools/auto-contrast`,
         ko: `https://www.toolkitlife.com/ko/tools/auto-contrast`,

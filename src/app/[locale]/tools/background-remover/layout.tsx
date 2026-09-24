@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/background-remover`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/background-remover`,
+        es: `https://www.toolkitlife.com/es/tools/background-remover`,
+        de: `https://www.toolkitlife.com/de/tools/background-remover`,
+        fr: `https://www.toolkitlife.com/fr/tools/background-remover`,
+        pt: `https://www.toolkitlife.com/pt/tools/background-remover`,
         zh: `https://www.toolkitlife.com/zh/tools/background-remover`,
         ja: `https://www.toolkitlife.com/ja/tools/background-remover`,
         ko: `https://www.toolkitlife.com/ko/tools/background-remover`,

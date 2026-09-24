@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/medicare-cost-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/medicare-cost-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/medicare-cost-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/medicare-cost-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/medicare-cost-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/medicare-cost-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/medicare-cost-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/medicare-cost-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/medicare-cost-calculator`,

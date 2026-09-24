@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/weight-loss-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/weight-loss-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/weight-loss-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/weight-loss-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/weight-loss-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/weight-loss-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/weight-loss-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/weight-loss-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/weight-loss-calculator`,

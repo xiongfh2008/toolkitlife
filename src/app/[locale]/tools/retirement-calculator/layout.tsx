@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/retirement-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/retirement-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/retirement-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/retirement-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/retirement-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/retirement-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/retirement-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/retirement-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/retirement-calculator`,

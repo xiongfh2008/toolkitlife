@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/profit-margin-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/profit-margin-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/profit-margin-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/profit-margin-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/profit-margin-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/profit-margin-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/profit-margin-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/profit-margin-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/profit-margin-calculator`,

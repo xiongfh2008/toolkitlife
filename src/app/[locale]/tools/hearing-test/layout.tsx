@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/hearing-test`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/hearing-test`,
+        es: `https://www.toolkitlife.com/es/tools/hearing-test`,
+        de: `https://www.toolkitlife.com/de/tools/hearing-test`,
+        fr: `https://www.toolkitlife.com/fr/tools/hearing-test`,
+        pt: `https://www.toolkitlife.com/pt/tools/hearing-test`,
         zh: `https://www.toolkitlife.com/zh/tools/hearing-test`,
         ja: `https://www.toolkitlife.com/ja/tools/hearing-test`,
         ko: `https://www.toolkitlife.com/ko/tools/hearing-test`,

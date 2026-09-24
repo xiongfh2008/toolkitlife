@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/svg-path`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/svg-path`,
+        es: `https://www.toolkitlife.com/es/tools/svg-path`,
+        de: `https://www.toolkitlife.com/de/tools/svg-path`,
+        fr: `https://www.toolkitlife.com/fr/tools/svg-path`,
+        pt: `https://www.toolkitlife.com/pt/tools/svg-path`,
         zh: `https://www.toolkitlife.com/zh/tools/svg-path`,
         ja: `https://www.toolkitlife.com/ja/tools/svg-path`,
         ko: `https://www.toolkitlife.com/ko/tools/svg-path`,

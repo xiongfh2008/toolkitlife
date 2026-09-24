@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/base64-to-image`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/base64-to-image`,
+        es: `https://www.toolkitlife.com/es/tools/base64-to-image`,
+        de: `https://www.toolkitlife.com/de/tools/base64-to-image`,
+        fr: `https://www.toolkitlife.com/fr/tools/base64-to-image`,
+        pt: `https://www.toolkitlife.com/pt/tools/base64-to-image`,
         zh: `https://www.toolkitlife.com/zh/tools/base64-to-image`,
         ja: `https://www.toolkitlife.com/ja/tools/base64-to-image`,
         ko: `https://www.toolkitlife.com/ko/tools/base64-to-image`,

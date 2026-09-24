@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/mortgage-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/mortgage-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/mortgage-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/mortgage-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/mortgage-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/mortgage-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/mortgage-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/mortgage-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/mortgage-calculator`,

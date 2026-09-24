@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/character-counter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/character-counter`,
+        es: `https://www.toolkitlife.com/es/tools/character-counter`,
+        de: `https://www.toolkitlife.com/de/tools/character-counter`,
+        fr: `https://www.toolkitlife.com/fr/tools/character-counter`,
+        pt: `https://www.toolkitlife.com/pt/tools/character-counter`,
         zh: `https://www.toolkitlife.com/zh/tools/character-counter`,
         ja: `https://www.toolkitlife.com/ja/tools/character-counter`,
         ko: `https://www.toolkitlife.com/ko/tools/character-counter`,

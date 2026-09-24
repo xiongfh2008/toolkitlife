@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/fire-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/fire-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/fire-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/fire-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/fire-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/fire-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/fire-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/fire-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/fire-calculator`,

@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-color-replace`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-color-replace`,
+        es: `https://www.toolkitlife.com/es/tools/image-color-replace`,
+        de: `https://www.toolkitlife.com/de/tools/image-color-replace`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-color-replace`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-color-replace`,
         zh: `https://www.toolkitlife.com/zh/tools/image-color-replace`,
         ja: `https://www.toolkitlife.com/ja/tools/image-color-replace`,
         ko: `https://www.toolkitlife.com/ko/tools/image-color-replace`,

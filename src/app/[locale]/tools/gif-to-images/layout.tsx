@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/gif-to-images`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/gif-to-images`,
+        es: `https://www.toolkitlife.com/es/tools/gif-to-images`,
+        de: `https://www.toolkitlife.com/de/tools/gif-to-images`,
+        fr: `https://www.toolkitlife.com/fr/tools/gif-to-images`,
+        pt: `https://www.toolkitlife.com/pt/tools/gif-to-images`,
         zh: `https://www.toolkitlife.com/zh/tools/gif-to-images`,
         ja: `https://www.toolkitlife.com/ja/tools/gif-to-images`,
         ko: `https://www.toolkitlife.com/ko/tools/gif-to-images`,

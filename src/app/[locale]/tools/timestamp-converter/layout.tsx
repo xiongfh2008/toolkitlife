@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/timestamp-converter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/timestamp-converter`,
+        es: `https://www.toolkitlife.com/es/tools/timestamp-converter`,
+        de: `https://www.toolkitlife.com/de/tools/timestamp-converter`,
+        fr: `https://www.toolkitlife.com/fr/tools/timestamp-converter`,
+        pt: `https://www.toolkitlife.com/pt/tools/timestamp-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/timestamp-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/timestamp-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/timestamp-converter`,

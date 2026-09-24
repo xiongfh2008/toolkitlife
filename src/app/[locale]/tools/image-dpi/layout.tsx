@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-dpi`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-dpi`,
+        es: `https://www.toolkitlife.com/es/tools/image-dpi`,
+        de: `https://www.toolkitlife.com/de/tools/image-dpi`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-dpi`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-dpi`,
         zh: `https://www.toolkitlife.com/zh/tools/image-dpi`,
         ja: `https://www.toolkitlife.com/ja/tools/image-dpi`,
         ko: `https://www.toolkitlife.com/ko/tools/image-dpi`,

@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/dice-roller`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/dice-roller`,
+        es: `https://www.toolkitlife.com/es/tools/dice-roller`,
+        de: `https://www.toolkitlife.com/de/tools/dice-roller`,
+        fr: `https://www.toolkitlife.com/fr/tools/dice-roller`,
+        pt: `https://www.toolkitlife.com/pt/tools/dice-roller`,
         zh: `https://www.toolkitlife.com/zh/tools/dice-roller`,
         ja: `https://www.toolkitlife.com/ja/tools/dice-roller`,
         ko: `https://www.toolkitlife.com/ko/tools/dice-roller`,

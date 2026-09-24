@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/hourly-to-salary-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/hourly-to-salary-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/hourly-to-salary-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/hourly-to-salary-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/hourly-to-salary-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/hourly-to-salary-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/hourly-to-salary-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/hourly-to-salary-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/hourly-to-salary-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/home-affordability-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/home-affordability-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/home-affordability-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/home-affordability-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/home-affordability-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/home-affordability-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/home-affordability-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/home-affordability-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/home-affordability-calculator`,

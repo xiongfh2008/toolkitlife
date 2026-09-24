@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/small-claims-court-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/small-claims-court-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/small-claims-court-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/small-claims-court-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/small-claims-court-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/small-claims-court-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/small-claims-court-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/small-claims-court-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/small-claims-court-calculator`,

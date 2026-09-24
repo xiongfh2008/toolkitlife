@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/roi-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/roi-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/roi-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/roi-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/roi-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/roi-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/roi-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/roi-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/roi-calculator`,

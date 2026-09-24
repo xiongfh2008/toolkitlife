@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/investment-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/investment-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/investment-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/investment-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/investment-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/investment-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/investment-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/investment-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/investment-calculator`,

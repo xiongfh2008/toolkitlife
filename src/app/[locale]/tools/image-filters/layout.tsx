@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-filters`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-filters`,
+        es: `https://www.toolkitlife.com/es/tools/image-filters`,
+        de: `https://www.toolkitlife.com/de/tools/image-filters`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-filters`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-filters`,
         zh: `https://www.toolkitlife.com/zh/tools/image-filters`,
         ja: `https://www.toolkitlife.com/ja/tools/image-filters`,
         ko: `https://www.toolkitlife.com/ko/tools/image-filters`,

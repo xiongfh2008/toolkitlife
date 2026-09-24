@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/color-palette-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/color-palette-generator`,
+        es: `https://www.toolkitlife.com/es/tools/color-palette-generator`,
+        de: `https://www.toolkitlife.com/de/tools/color-palette-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/color-palette-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/color-palette-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/color-palette-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/color-palette-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/color-palette-generator`,

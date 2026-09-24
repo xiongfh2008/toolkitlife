@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/bankruptcy-means-test`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/bankruptcy-means-test`,
+        es: `https://www.toolkitlife.com/es/tools/bankruptcy-means-test`,
+        de: `https://www.toolkitlife.com/de/tools/bankruptcy-means-test`,
+        fr: `https://www.toolkitlife.com/fr/tools/bankruptcy-means-test`,
+        pt: `https://www.toolkitlife.com/pt/tools/bankruptcy-means-test`,
         zh: `https://www.toolkitlife.com/zh/tools/bankruptcy-means-test`,
         ja: `https://www.toolkitlife.com/ja/tools/bankruptcy-means-test`,
         ko: `https://www.toolkitlife.com/ko/tools/bankruptcy-means-test`,

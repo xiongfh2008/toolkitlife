@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-margin`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-margin`,
+        es: `https://www.toolkitlife.com/es/tools/image-margin`,
+        de: `https://www.toolkitlife.com/de/tools/image-margin`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-margin`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-margin`,
         zh: `https://www.toolkitlife.com/zh/tools/image-margin`,
         ja: `https://www.toolkitlife.com/ja/tools/image-margin`,
         ko: `https://www.toolkitlife.com/ko/tools/image-margin`,

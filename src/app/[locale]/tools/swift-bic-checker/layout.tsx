@@ -32,6 +32,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/swift-bic-checker`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/swift-bic-checker`,
+        es: `https://www.toolkitlife.com/es/tools/swift-bic-checker`,
+        de: `https://www.toolkitlife.com/de/tools/swift-bic-checker`,
+        fr: `https://www.toolkitlife.com/fr/tools/swift-bic-checker`,
+        pt: `https://www.toolkitlife.com/pt/tools/swift-bic-checker`,
         zh: `https://www.toolkitlife.com/zh/tools/swift-bic-checker`,
         ja: `https://www.toolkitlife.com/ja/tools/swift-bic-checker`,
         ko: `https://www.toolkitlife.com/ko/tools/swift-bic-checker`,

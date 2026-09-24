@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/pixel-art`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/pixel-art`,
+        es: `https://www.toolkitlife.com/es/tools/pixel-art`,
+        de: `https://www.toolkitlife.com/de/tools/pixel-art`,
+        fr: `https://www.toolkitlife.com/fr/tools/pixel-art`,
+        pt: `https://www.toolkitlife.com/pt/tools/pixel-art`,
         zh: `https://www.toolkitlife.com/zh/tools/pixel-art`,
         ja: `https://www.toolkitlife.com/ja/tools/pixel-art`,
         ko: `https://www.toolkitlife.com/ko/tools/pixel-art`,

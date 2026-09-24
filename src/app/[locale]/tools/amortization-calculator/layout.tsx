@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/amortization-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/amortization-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/amortization-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/amortization-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/amortization-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/amortization-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/amortization-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/amortization-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/amortization-calculator`,

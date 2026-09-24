@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/mobile-friendly-test`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/mobile-friendly-test`,
+        es: `https://www.toolkitlife.com/es/tools/mobile-friendly-test`,
+        de: `https://www.toolkitlife.com/de/tools/mobile-friendly-test`,
+        fr: `https://www.toolkitlife.com/fr/tools/mobile-friendly-test`,
+        pt: `https://www.toolkitlife.com/pt/tools/mobile-friendly-test`,
         zh: `https://www.toolkitlife.com/zh/tools/mobile-friendly-test`,
         ja: `https://www.toolkitlife.com/ja/tools/mobile-friendly-test`,
         ko: `https://www.toolkitlife.com/ko/tools/mobile-friendly-test`,

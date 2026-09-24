@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/medicaid-work-requirement-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/medicaid-work-requirement-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/medicaid-work-requirement-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/medicaid-work-requirement-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/medicaid-work-requirement-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/medicaid-work-requirement-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/medicaid-work-requirement-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/medicaid-work-requirement-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/medicaid-work-requirement-calculator`,

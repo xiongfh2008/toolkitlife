@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/heic`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/heic`,
+        es: `https://www.toolkitlife.com/es/tools/heic`,
+        de: `https://www.toolkitlife.com/de/tools/heic`,
+        fr: `https://www.toolkitlife.com/fr/tools/heic`,
+        pt: `https://www.toolkitlife.com/pt/tools/heic`,
         zh: `https://www.toolkitlife.com/zh/tools/heic`,
         ja: `https://www.toolkitlife.com/ja/tools/heic`,
         ko: `https://www.toolkitlife.com/ko/tools/heic`,

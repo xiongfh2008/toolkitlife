@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/vat-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/vat-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/vat-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/vat-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/vat-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/vat-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/vat-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/vat-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/vat-calculator`,

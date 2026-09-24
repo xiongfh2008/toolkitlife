@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/sales-tax-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/sales-tax-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/sales-tax-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/sales-tax-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/sales-tax-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/sales-tax-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/sales-tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/sales-tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/sales-tax-calculator`,

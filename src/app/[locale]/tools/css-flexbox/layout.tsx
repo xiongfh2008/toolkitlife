@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/css-flexbox`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-flexbox`,
+        es: `https://www.toolkitlife.com/es/tools/css-flexbox`,
+        de: `https://www.toolkitlife.com/de/tools/css-flexbox`,
+        fr: `https://www.toolkitlife.com/fr/tools/css-flexbox`,
+        pt: `https://www.toolkitlife.com/pt/tools/css-flexbox`,
         zh: `https://www.toolkitlife.com/zh/tools/css-flexbox`,
         ja: `https://www.toolkitlife.com/ja/tools/css-flexbox`,
         ko: `https://www.toolkitlife.com/ko/tools/css-flexbox`,

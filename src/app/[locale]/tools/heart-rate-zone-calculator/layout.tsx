@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/heart-rate-zone-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/heart-rate-zone-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/heart-rate-zone-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/heart-rate-zone-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/heart-rate-zone-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/heart-rate-zone-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/heart-rate-zone-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/heart-rate-zone-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/heart-rate-zone-calculator`,

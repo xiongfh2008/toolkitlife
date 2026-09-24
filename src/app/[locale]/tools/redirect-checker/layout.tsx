@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/redirect-checker`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/redirect-checker`,
+        es: `https://www.toolkitlife.com/es/tools/redirect-checker`,
+        de: `https://www.toolkitlife.com/de/tools/redirect-checker`,
+        fr: `https://www.toolkitlife.com/fr/tools/redirect-checker`,
+        pt: `https://www.toolkitlife.com/pt/tools/redirect-checker`,
         zh: `https://www.toolkitlife.com/zh/tools/redirect-checker`,
         ja: `https://www.toolkitlife.com/ja/tools/redirect-checker`,
         ko: `https://www.toolkitlife.com/ko/tools/redirect-checker`,

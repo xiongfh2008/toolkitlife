@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-oil-paint`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-oil-paint`,
+        es: `https://www.toolkitlife.com/es/tools/image-oil-paint`,
+        de: `https://www.toolkitlife.com/de/tools/image-oil-paint`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-oil-paint`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-oil-paint`,
         zh: `https://www.toolkitlife.com/zh/tools/image-oil-paint`,
         ja: `https://www.toolkitlife.com/ja/tools/image-oil-paint`,
         ko: `https://www.toolkitlife.com/ko/tools/image-oil-paint`,

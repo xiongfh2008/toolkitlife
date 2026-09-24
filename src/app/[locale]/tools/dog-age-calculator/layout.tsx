@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/dog-age-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/dog-age-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/dog-age-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/dog-age-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/dog-age-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/dog-age-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/dog-age-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/dog-age-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/dog-age-calculator`,

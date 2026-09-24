@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/pdf-to-jpg`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/pdf-to-jpg`,
+        es: `https://www.toolkitlife.com/es/tools/pdf-to-jpg`,
+        de: `https://www.toolkitlife.com/de/tools/pdf-to-jpg`,
+        fr: `https://www.toolkitlife.com/fr/tools/pdf-to-jpg`,
+        pt: `https://www.toolkitlife.com/pt/tools/pdf-to-jpg`,
         zh: `https://www.toolkitlife.com/zh/tools/pdf-to-jpg`,
         ja: `https://www.toolkitlife.com/ja/tools/pdf-to-jpg`,
         ko: `https://www.toolkitlife.com/ko/tools/pdf-to-jpg`,

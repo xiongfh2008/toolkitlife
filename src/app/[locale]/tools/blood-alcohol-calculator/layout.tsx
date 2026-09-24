@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/blood-alcohol-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/blood-alcohol-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/blood-alcohol-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/blood-alcohol-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/blood-alcohol-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/blood-alcohol-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/blood-alcohol-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/blood-alcohol-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/blood-alcohol-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-rounded-corners`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-rounded-corners`,
+        es: `https://www.toolkitlife.com/es/tools/image-rounded-corners`,
+        de: `https://www.toolkitlife.com/de/tools/image-rounded-corners`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-rounded-corners`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-rounded-corners`,
         zh: `https://www.toolkitlife.com/zh/tools/image-rounded-corners`,
         ja: `https://www.toolkitlife.com/ja/tools/image-rounded-corners`,
         ko: `https://www.toolkitlife.com/ko/tools/image-rounded-corners`,

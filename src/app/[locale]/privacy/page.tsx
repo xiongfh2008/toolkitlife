@@ -20,6 +20,10 @@ export async function generateMetadata({
       canonical: url,
       languages: {
         en: "https://www.toolkitlife.com/en/privacy",
+        es: "https://www.toolkitlife.com/es/privacy",
+        de: "https://www.toolkitlife.com/de/privacy",
+        fr: "https://www.toolkitlife.com/fr/privacy",
+        pt: "https://www.toolkitlife.com/pt/privacy",
         zh: "https://www.toolkitlife.com/zh/privacy",
         ja: "https://www.toolkitlife.com/ja/privacy",
         ko: "https://www.toolkitlife.com/ko/privacy",

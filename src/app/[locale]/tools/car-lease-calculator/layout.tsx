@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/car-lease-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/car-lease-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/car-lease-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/car-lease-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/car-lease-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/car-lease-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/car-lease-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/car-lease-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/car-lease-calculator`,

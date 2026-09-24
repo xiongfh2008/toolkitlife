@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/screen-recorder`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/screen-recorder`,
+        es: `https://www.toolkitlife.com/es/tools/screen-recorder`,
+        de: `https://www.toolkitlife.com/de/tools/screen-recorder`,
+        fr: `https://www.toolkitlife.com/fr/tools/screen-recorder`,
+        pt: `https://www.toolkitlife.com/pt/tools/screen-recorder`,
         zh: `https://www.toolkitlife.com/zh/tools/screen-recorder`,
         ja: `https://www.toolkitlife.com/ja/tools/screen-recorder`,
         ko: `https://www.toolkitlife.com/ko/tools/screen-recorder`,

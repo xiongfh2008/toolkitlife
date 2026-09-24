@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/is-it-down`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/is-it-down`,
+        es: `https://www.toolkitlife.com/es/tools/is-it-down`,
+        de: `https://www.toolkitlife.com/de/tools/is-it-down`,
+        fr: `https://www.toolkitlife.com/fr/tools/is-it-down`,
+        pt: `https://www.toolkitlife.com/pt/tools/is-it-down`,
         zh: `https://www.toolkitlife.com/zh/tools/is-it-down`,
         ja: `https://www.toolkitlife.com/ja/tools/is-it-down`,
         ko: `https://www.toolkitlife.com/ko/tools/is-it-down`,

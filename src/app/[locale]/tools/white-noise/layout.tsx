@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/white-noise`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/white-noise`,
+        es: `https://www.toolkitlife.com/es/tools/white-noise`,
+        de: `https://www.toolkitlife.com/de/tools/white-noise`,
+        fr: `https://www.toolkitlife.com/fr/tools/white-noise`,
+        pt: `https://www.toolkitlife.com/pt/tools/white-noise`,
         zh: `https://www.toolkitlife.com/zh/tools/white-noise`,
         ja: `https://www.toolkitlife.com/ja/tools/white-noise`,
         ko: `https://www.toolkitlife.com/ko/tools/white-noise`,

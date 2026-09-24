@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/life-insurance-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/life-insurance-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/life-insurance-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/life-insurance-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/life-insurance-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/life-insurance-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/life-insurance-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/life-insurance-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/life-insurance-calculator`,

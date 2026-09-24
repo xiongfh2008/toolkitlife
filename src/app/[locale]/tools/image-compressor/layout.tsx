@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-compressor`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-compressor`,
+        es: `https://www.toolkitlife.com/es/tools/image-compressor`,
+        de: `https://www.toolkitlife.com/de/tools/image-compressor`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-compressor`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-compressor`,
         zh: `https://www.toolkitlife.com/zh/tools/image-compressor`,
         ja: `https://www.toolkitlife.com/ja/tools/image-compressor`,
         ko: `https://www.toolkitlife.com/ko/tools/image-compressor`,

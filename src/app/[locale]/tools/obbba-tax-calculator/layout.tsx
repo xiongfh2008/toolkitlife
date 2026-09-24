@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/obbba-tax-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/obbba-tax-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/obbba-tax-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/obbba-tax-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/obbba-tax-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/obbba-tax-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/obbba-tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/obbba-tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/obbba-tax-calculator`,

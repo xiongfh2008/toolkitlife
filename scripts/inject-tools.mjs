@@ -11,7 +11,7 @@ import path from "path";
  *
  * Idempotent: existing keys are never overwritten. Ends with a parity check.
  */
-const LOCALES = ["en", "zh", "ja", "ko", "ru"];
+const LOCALES = ["en", "zh", "ja", "ko", "ru", "es", "de", "fr", "pt"];
 const messagesDir = path.join(process.cwd(), "messages");
 const dataDir = path.join(process.cwd(), "scripts", "tool-data");
 

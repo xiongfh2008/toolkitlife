@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/bmi-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/bmi-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/bmi-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/bmi-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/bmi-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/bmi-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/bmi-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/bmi-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/bmi-calculator`,

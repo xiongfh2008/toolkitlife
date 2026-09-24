@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/alimony-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/alimony-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/alimony-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/alimony-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/alimony-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/alimony-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/alimony-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/alimony-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/alimony-calculator`,

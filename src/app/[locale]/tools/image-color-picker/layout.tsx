@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-color-picker`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-color-picker`,
+        es: `https://www.toolkitlife.com/es/tools/image-color-picker`,
+        de: `https://www.toolkitlife.com/de/tools/image-color-picker`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-color-picker`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-color-picker`,
         zh: `https://www.toolkitlife.com/zh/tools/image-color-picker`,
         ja: `https://www.toolkitlife.com/ja/tools/image-color-picker`,
         ko: `https://www.toolkitlife.com/ko/tools/image-color-picker`,

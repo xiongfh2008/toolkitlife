@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/color-text-image`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/color-text-image`,
+        es: `https://www.toolkitlife.com/es/tools/color-text-image`,
+        de: `https://www.toolkitlife.com/de/tools/color-text-image`,
+        fr: `https://www.toolkitlife.com/fr/tools/color-text-image`,
+        pt: `https://www.toolkitlife.com/pt/tools/color-text-image`,
         zh: `https://www.toolkitlife.com/zh/tools/color-text-image`,
         ja: `https://www.toolkitlife.com/ja/tools/color-text-image`,
         ko: `https://www.toolkitlife.com/ko/tools/color-text-image`,

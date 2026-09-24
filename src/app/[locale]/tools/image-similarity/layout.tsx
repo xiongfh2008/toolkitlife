@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-similarity`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-similarity`,
+        es: `https://www.toolkitlife.com/es/tools/image-similarity`,
+        de: `https://www.toolkitlife.com/de/tools/image-similarity`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-similarity`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-similarity`,
         zh: `https://www.toolkitlife.com/zh/tools/image-similarity`,
         ja: `https://www.toolkitlife.com/ja/tools/image-similarity`,
         ko: `https://www.toolkitlife.com/ko/tools/image-similarity`,

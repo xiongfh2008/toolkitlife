@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/json-to-csv`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/json-to-csv`,
+        es: `https://www.toolkitlife.com/es/tools/json-to-csv`,
+        de: `https://www.toolkitlife.com/de/tools/json-to-csv`,
+        fr: `https://www.toolkitlife.com/fr/tools/json-to-csv`,
+        pt: `https://www.toolkitlife.com/pt/tools/json-to-csv`,
         zh: `https://www.toolkitlife.com/zh/tools/json-to-csv`,
         ja: `https://www.toolkitlife.com/ja/tools/json-to-csv`,
         ko: `https://www.toolkitlife.com/ko/tools/json-to-csv`,

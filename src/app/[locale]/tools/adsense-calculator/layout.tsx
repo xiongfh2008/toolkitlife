@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/adsense-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/adsense-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/adsense-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/adsense-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/adsense-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/adsense-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/adsense-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/adsense-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/adsense-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/ideal-weight-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/ideal-weight-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/ideal-weight-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/ideal-weight-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/ideal-weight-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/ideal-weight-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/ideal-weight-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/ideal-weight-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/ideal-weight-calculator`,

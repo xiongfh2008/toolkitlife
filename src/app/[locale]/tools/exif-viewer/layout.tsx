@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/exif-viewer`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/exif-viewer`,
+        es: `https://www.toolkitlife.com/es/tools/exif-viewer`,
+        de: `https://www.toolkitlife.com/de/tools/exif-viewer`,
+        fr: `https://www.toolkitlife.com/fr/tools/exif-viewer`,
+        pt: `https://www.toolkitlife.com/pt/tools/exif-viewer`,
         zh: `https://www.toolkitlife.com/zh/tools/exif-viewer`,
         ja: `https://www.toolkitlife.com/ja/tools/exif-viewer`,
         ko: `https://www.toolkitlife.com/ko/tools/exif-viewer`,

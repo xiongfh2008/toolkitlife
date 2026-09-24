@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/px-to-rem`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/px-to-rem`,
+        es: `https://www.toolkitlife.com/es/tools/px-to-rem`,
+        de: `https://www.toolkitlife.com/de/tools/px-to-rem`,
+        fr: `https://www.toolkitlife.com/fr/tools/px-to-rem`,
+        pt: `https://www.toolkitlife.com/pt/tools/px-to-rem`,
         zh: `https://www.toolkitlife.com/zh/tools/px-to-rem`,
         ja: `https://www.toolkitlife.com/ja/tools/px-to-rem`,
         ko: `https://www.toolkitlife.com/ko/tools/px-to-rem`,

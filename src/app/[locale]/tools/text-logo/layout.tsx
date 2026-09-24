@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/text-logo`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/text-logo`,
+        es: `https://www.toolkitlife.com/es/tools/text-logo`,
+        de: `https://www.toolkitlife.com/de/tools/text-logo`,
+        fr: `https://www.toolkitlife.com/fr/tools/text-logo`,
+        pt: `https://www.toolkitlife.com/pt/tools/text-logo`,
         zh: `https://www.toolkitlife.com/zh/tools/text-logo`,
         ja: `https://www.toolkitlife.com/ja/tools/text-logo`,
         ko: `https://www.toolkitlife.com/ko/tools/text-logo`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/convert`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/convert`,
+        es: `https://www.toolkitlife.com/es/tools/convert`,
+        de: `https://www.toolkitlife.com/de/tools/convert`,
+        fr: `https://www.toolkitlife.com/fr/tools/convert`,
+        pt: `https://www.toolkitlife.com/pt/tools/convert`,
         zh: `https://www.toolkitlife.com/zh/tools/convert`,
         ja: `https://www.toolkitlife.com/ja/tools/convert`,
         ko: `https://www.toolkitlife.com/ko/tools/convert`,

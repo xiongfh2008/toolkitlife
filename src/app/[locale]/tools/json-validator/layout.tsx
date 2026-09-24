@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/json-validator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/json-validator`,
+        es: `https://www.toolkitlife.com/es/tools/json-validator`,
+        de: `https://www.toolkitlife.com/de/tools/json-validator`,
+        fr: `https://www.toolkitlife.com/fr/tools/json-validator`,
+        pt: `https://www.toolkitlife.com/pt/tools/json-validator`,
         zh: `https://www.toolkitlife.com/zh/tools/json-validator`,
         ja: `https://www.toolkitlife.com/ja/tools/json-validator`,
         ko: `https://www.toolkitlife.com/ko/tools/json-validator`,

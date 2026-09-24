@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/claude-code-text-formatter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/claude-code-text-formatter`,
+        es: `https://www.toolkitlife.com/es/tools/claude-code-text-formatter`,
+        de: `https://www.toolkitlife.com/de/tools/claude-code-text-formatter`,
+        fr: `https://www.toolkitlife.com/fr/tools/claude-code-text-formatter`,
+        pt: `https://www.toolkitlife.com/pt/tools/claude-code-text-formatter`,
         zh: `https://www.toolkitlife.com/zh/tools/claude-code-text-formatter`,
         ja: `https://www.toolkitlife.com/ja/tools/claude-code-text-formatter`,
         ko: `https://www.toolkitlife.com/ko/tools/claude-code-text-formatter`,

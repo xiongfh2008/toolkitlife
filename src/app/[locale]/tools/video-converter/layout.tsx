@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-converter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-converter`,
+        es: `https://www.toolkitlife.com/es/tools/video-converter`,
+        de: `https://www.toolkitlife.com/de/tools/video-converter`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-converter`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/video-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/video-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/video-converter`,

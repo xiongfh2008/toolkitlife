@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/alarm`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/alarm`,
+        es: `https://www.toolkitlife.com/es/tools/alarm`,
+        de: `https://www.toolkitlife.com/de/tools/alarm`,
+        fr: `https://www.toolkitlife.com/fr/tools/alarm`,
+        pt: `https://www.toolkitlife.com/pt/tools/alarm`,
         zh: `https://www.toolkitlife.com/zh/tools/alarm`,
         ja: `https://www.toolkitlife.com/ja/tools/alarm`,
         ko: `https://www.toolkitlife.com/ko/tools/alarm`,

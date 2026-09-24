@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/exif-cleaner`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/exif-cleaner`,
+        es: `https://www.toolkitlife.com/es/tools/exif-cleaner`,
+        de: `https://www.toolkitlife.com/de/tools/exif-cleaner`,
+        fr: `https://www.toolkitlife.com/fr/tools/exif-cleaner`,
+        pt: `https://www.toolkitlife.com/pt/tools/exif-cleaner`,
         zh: `https://www.toolkitlife.com/zh/tools/exif-cleaner`,
         ja: `https://www.toolkitlife.com/ja/tools/exif-cleaner`,
         ko: `https://www.toolkitlife.com/ko/tools/exif-cleaner`,

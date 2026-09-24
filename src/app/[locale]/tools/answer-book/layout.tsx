@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/answer-book`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/answer-book`,
+        es: `https://www.toolkitlife.com/es/tools/answer-book`,
+        de: `https://www.toolkitlife.com/de/tools/answer-book`,
+        fr: `https://www.toolkitlife.com/fr/tools/answer-book`,
+        pt: `https://www.toolkitlife.com/pt/tools/answer-book`,
         zh: `https://www.toolkitlife.com/zh/tools/answer-book`,
         ja: `https://www.toolkitlife.com/ja/tools/answer-book`,
         ko: `https://www.toolkitlife.com/ko/tools/answer-book`,

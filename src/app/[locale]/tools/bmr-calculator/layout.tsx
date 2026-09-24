@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/bmr-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/bmr-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/bmr-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/bmr-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/bmr-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/bmr-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/bmr-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/bmr-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/bmr-calculator`,

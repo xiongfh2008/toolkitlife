@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/debt-to-income-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/debt-to-income-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/debt-to-income-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/debt-to-income-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/debt-to-income-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/debt-to-income-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/debt-to-income-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/debt-to-income-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/debt-to-income-calculator`,

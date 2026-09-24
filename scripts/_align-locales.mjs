@@ -17,7 +17,7 @@ import path from "path";
  *     everywhere so all locales share one shape.
  */
 
-const LOCALES = ["en", "zh", "ja", "ko", "ru"];
+const LOCALES = ["en", "zh", "ja", "ko", "ru", "es", "de", "fr", "pt"];
 const messagesDir = path.join(process.cwd(), "messages");
 
 // Keys to strip from ALL locales that have them (en-only cruft not referenced

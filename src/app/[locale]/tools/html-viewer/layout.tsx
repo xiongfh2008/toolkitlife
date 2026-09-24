@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/html-viewer`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/html-viewer`,
+        es: `https://www.toolkitlife.com/es/tools/html-viewer`,
+        de: `https://www.toolkitlife.com/de/tools/html-viewer`,
+        fr: `https://www.toolkitlife.com/fr/tools/html-viewer`,
+        pt: `https://www.toolkitlife.com/pt/tools/html-viewer`,
         zh: `https://www.toolkitlife.com/zh/tools/html-viewer`,
         ja: `https://www.toolkitlife.com/ja/tools/html-viewer`,
         ko: `https://www.toolkitlife.com/ko/tools/html-viewer`,

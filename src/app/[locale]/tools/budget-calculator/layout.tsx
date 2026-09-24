@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/budget-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/budget-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/budget-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/budget-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/budget-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/budget-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/budget-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/budget-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/budget-calculator`,

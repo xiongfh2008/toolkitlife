@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/uuid-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/uuid-generator`,
+        es: `https://www.toolkitlife.com/es/tools/uuid-generator`,
+        de: `https://www.toolkitlife.com/de/tools/uuid-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/uuid-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/uuid-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/uuid-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/uuid-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/uuid-generator`,

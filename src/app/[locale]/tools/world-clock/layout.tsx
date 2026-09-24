@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/world-clock`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/world-clock`,
+        es: `https://www.toolkitlife.com/es/tools/world-clock`,
+        de: `https://www.toolkitlife.com/de/tools/world-clock`,
+        fr: `https://www.toolkitlife.com/fr/tools/world-clock`,
+        pt: `https://www.toolkitlife.com/pt/tools/world-clock`,
         zh: `https://www.toolkitlife.com/zh/tools/world-clock`,
         ja: `https://www.toolkitlife.com/ja/tools/world-clock`,
         ko: `https://www.toolkitlife.com/ko/tools/world-clock`,

@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-region-mask`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-region-mask`,
+        es: `https://www.toolkitlife.com/es/tools/image-region-mask`,
+        de: `https://www.toolkitlife.com/de/tools/image-region-mask`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-region-mask`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-region-mask`,
         zh: `https://www.toolkitlife.com/zh/tools/image-region-mask`,
         ja: `https://www.toolkitlife.com/ja/tools/image-region-mask`,
         ko: `https://www.toolkitlife.com/ko/tools/image-region-mask`,

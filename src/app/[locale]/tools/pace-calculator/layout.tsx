@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/pace-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/pace-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/pace-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/pace-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/pace-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/pace-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/pace-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/pace-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/pace-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/period-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/period-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/period-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/period-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/period-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/period-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/period-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/period-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/period-calculator`,

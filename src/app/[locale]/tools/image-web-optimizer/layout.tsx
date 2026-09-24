@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-web-optimizer`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-web-optimizer`,
+        es: `https://www.toolkitlife.com/es/tools/image-web-optimizer`,
+        de: `https://www.toolkitlife.com/de/tools/image-web-optimizer`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-web-optimizer`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-web-optimizer`,
         zh: `https://www.toolkitlife.com/zh/tools/image-web-optimizer`,
         ja: `https://www.toolkitlife.com/ja/tools/image-web-optimizer`,
         ko: `https://www.toolkitlife.com/ko/tools/image-web-optimizer`,

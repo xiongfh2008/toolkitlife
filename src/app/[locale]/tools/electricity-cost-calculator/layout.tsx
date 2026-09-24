@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/electricity-cost-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/electricity-cost-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/electricity-cost-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/electricity-cost-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/electricity-cost-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/electricity-cost-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/electricity-cost-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/electricity-cost-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/electricity-cost-calculator`,

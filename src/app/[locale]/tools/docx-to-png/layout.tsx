@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/docx-to-png`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/docx-to-png`,
+        es: `https://www.toolkitlife.com/es/tools/docx-to-png`,
+        de: `https://www.toolkitlife.com/de/tools/docx-to-png`,
+        fr: `https://www.toolkitlife.com/fr/tools/docx-to-png`,
+        pt: `https://www.toolkitlife.com/pt/tools/docx-to-png`,
         zh: `https://www.toolkitlife.com/zh/tools/docx-to-png`,
         ja: `https://www.toolkitlife.com/ja/tools/docx-to-png`,
         ko: `https://www.toolkitlife.com/ko/tools/docx-to-png`,

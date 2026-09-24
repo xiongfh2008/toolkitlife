@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/paycheck-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/paycheck-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/paycheck-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/paycheck-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/paycheck-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/paycheck-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/paycheck-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/paycheck-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/paycheck-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/regex-tester`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/regex-tester`,
+        es: `https://www.toolkitlife.com/es/tools/regex-tester`,
+        de: `https://www.toolkitlife.com/de/tools/regex-tester`,
+        fr: `https://www.toolkitlife.com/fr/tools/regex-tester`,
+        pt: `https://www.toolkitlife.com/pt/tools/regex-tester`,
         zh: `https://www.toolkitlife.com/zh/tools/regex-tester`,
         ja: `https://www.toolkitlife.com/ja/tools/regex-tester`,
         ko: `https://www.toolkitlife.com/ko/tools/regex-tester`,

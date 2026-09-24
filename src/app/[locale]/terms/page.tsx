@@ -20,6 +20,10 @@ export async function generateMetadata({
       canonical: url,
       languages: {
         en: "https://www.toolkitlife.com/en/terms",
+        es: "https://www.toolkitlife.com/es/terms",
+        de: "https://www.toolkitlife.com/de/terms",
+        fr: "https://www.toolkitlife.com/fr/terms",
+        pt: "https://www.toolkitlife.com/pt/terms",
         zh: "https://www.toolkitlife.com/zh/terms",
         ja: "https://www.toolkitlife.com/ja/terms",
         ko: "https://www.toolkitlife.com/ko/terms",

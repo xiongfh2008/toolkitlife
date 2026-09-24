@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/noise-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/noise-generator`,
+        es: `https://www.toolkitlife.com/es/tools/noise-generator`,
+        de: `https://www.toolkitlife.com/de/tools/noise-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/noise-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/noise-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/noise-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/noise-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/noise-generator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/protein-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/protein-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/protein-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/protein-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/protein-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/protein-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/protein-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/protein-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/protein-calculator`,

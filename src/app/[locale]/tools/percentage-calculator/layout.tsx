@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/percentage-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/percentage-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/percentage-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/percentage-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/percentage-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/percentage-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/percentage-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/percentage-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/percentage-calculator`,

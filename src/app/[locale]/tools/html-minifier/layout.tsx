@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/html-minifier`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/html-minifier`,
+        es: `https://www.toolkitlife.com/es/tools/html-minifier`,
+        de: `https://www.toolkitlife.com/de/tools/html-minifier`,
+        fr: `https://www.toolkitlife.com/fr/tools/html-minifier`,
+        pt: `https://www.toolkitlife.com/pt/tools/html-minifier`,
         zh: `https://www.toolkitlife.com/zh/tools/html-minifier`,
         ja: `https://www.toolkitlife.com/ja/tools/html-minifier`,
         ko: `https://www.toolkitlife.com/ko/tools/html-minifier`,

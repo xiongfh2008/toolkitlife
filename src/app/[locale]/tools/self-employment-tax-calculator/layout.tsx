@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/self-employment-tax-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/self-employment-tax-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/self-employment-tax-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/self-employment-tax-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/self-employment-tax-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/self-employment-tax-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/self-employment-tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/self-employment-tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/self-employment-tax-calculator`,

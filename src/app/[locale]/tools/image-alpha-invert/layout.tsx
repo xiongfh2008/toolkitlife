@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-alpha-invert`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-alpha-invert`,
+        es: `https://www.toolkitlife.com/es/tools/image-alpha-invert`,
+        de: `https://www.toolkitlife.com/de/tools/image-alpha-invert`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-alpha-invert`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-alpha-invert`,
         zh: `https://www.toolkitlife.com/zh/tools/image-alpha-invert`,
         ja: `https://www.toolkitlife.com/ja/tools/image-alpha-invert`,
         ko: `https://www.toolkitlife.com/ko/tools/image-alpha-invert`,

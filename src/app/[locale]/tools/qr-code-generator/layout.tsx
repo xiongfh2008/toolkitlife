@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/qr-code-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/qr-code-generator`,
+        es: `https://www.toolkitlife.com/es/tools/qr-code-generator`,
+        de: `https://www.toolkitlife.com/de/tools/qr-code-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/qr-code-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/qr-code-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/qr-code-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/qr-code-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/qr-code-generator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/css-border-radius`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-border-radius`,
+        es: `https://www.toolkitlife.com/es/tools/css-border-radius`,
+        de: `https://www.toolkitlife.com/de/tools/css-border-radius`,
+        fr: `https://www.toolkitlife.com/fr/tools/css-border-radius`,
+        pt: `https://www.toolkitlife.com/pt/tools/css-border-radius`,
         zh: `https://www.toolkitlife.com/zh/tools/css-border-radius`,
         ja: `https://www.toolkitlife.com/ja/tools/css-border-radius`,
         ko: `https://www.toolkitlife.com/ko/tools/css-border-radius`,

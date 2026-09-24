@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/html-entity-encoder`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/html-entity-encoder`,
+        es: `https://www.toolkitlife.com/es/tools/html-entity-encoder`,
+        de: `https://www.toolkitlife.com/de/tools/html-entity-encoder`,
+        fr: `https://www.toolkitlife.com/fr/tools/html-entity-encoder`,
+        pt: `https://www.toolkitlife.com/pt/tools/html-entity-encoder`,
         zh: `https://www.toolkitlife.com/zh/tools/html-entity-encoder`,
         ja: `https://www.toolkitlife.com/ja/tools/html-entity-encoder`,
         ko: `https://www.toolkitlife.com/ko/tools/html-entity-encoder`,

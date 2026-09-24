@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-watermark`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-watermark`,
+        es: `https://www.toolkitlife.com/es/tools/image-watermark`,
+        de: `https://www.toolkitlife.com/de/tools/image-watermark`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-watermark`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-watermark`,
         zh: `https://www.toolkitlife.com/zh/tools/image-watermark`,
         ja: `https://www.toolkitlife.com/ja/tools/image-watermark`,
         ko: `https://www.toolkitlife.com/ko/tools/image-watermark`,

@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/online-clock`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/online-clock`,
+        es: `https://www.toolkitlife.com/es/tools/online-clock`,
+        de: `https://www.toolkitlife.com/de/tools/online-clock`,
+        fr: `https://www.toolkitlife.com/fr/tools/online-clock`,
+        pt: `https://www.toolkitlife.com/pt/tools/online-clock`,
         zh: `https://www.toolkitlife.com/zh/tools/online-clock`,
         ja: `https://www.toolkitlife.com/ja/tools/online-clock`,
         ko: `https://www.toolkitlife.com/ko/tools/online-clock`,

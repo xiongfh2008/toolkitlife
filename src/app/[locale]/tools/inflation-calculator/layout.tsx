@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/inflation-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/inflation-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/inflation-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/inflation-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/inflation-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/inflation-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/inflation-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/inflation-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/inflation-calculator`,

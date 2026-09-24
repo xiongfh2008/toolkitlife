@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/unit-converter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/unit-converter`,
+        es: `https://www.toolkitlife.com/es/tools/unit-converter`,
+        de: `https://www.toolkitlife.com/de/tools/unit-converter`,
+        fr: `https://www.toolkitlife.com/fr/tools/unit-converter`,
+        pt: `https://www.toolkitlife.com/pt/tools/unit-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/unit-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/unit-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/unit-converter`,

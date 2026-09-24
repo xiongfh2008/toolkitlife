@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/ip-lookup`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/ip-lookup`,
+        es: `https://www.toolkitlife.com/es/tools/ip-lookup`,
+        de: `https://www.toolkitlife.com/de/tools/ip-lookup`,
+        fr: `https://www.toolkitlife.com/fr/tools/ip-lookup`,
+        pt: `https://www.toolkitlife.com/pt/tools/ip-lookup`,
         zh: `https://www.toolkitlife.com/zh/tools/ip-lookup`,
         ja: `https://www.toolkitlife.com/ja/tools/ip-lookup`,
         ko: `https://www.toolkitlife.com/ko/tools/ip-lookup`,

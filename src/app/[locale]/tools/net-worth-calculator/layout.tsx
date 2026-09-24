@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/net-worth-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/net-worth-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/net-worth-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/net-worth-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/net-worth-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/net-worth-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/net-worth-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/net-worth-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/net-worth-calculator`,

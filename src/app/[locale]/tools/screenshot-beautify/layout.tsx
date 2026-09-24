@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/screenshot-beautify`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/screenshot-beautify`,
+        es: `https://www.toolkitlife.com/es/tools/screenshot-beautify`,
+        de: `https://www.toolkitlife.com/de/tools/screenshot-beautify`,
+        fr: `https://www.toolkitlife.com/fr/tools/screenshot-beautify`,
+        pt: `https://www.toolkitlife.com/pt/tools/screenshot-beautify`,
         zh: `https://www.toolkitlife.com/zh/tools/screenshot-beautify`,
         ja: `https://www.toolkitlife.com/ja/tools/screenshot-beautify`,
         ko: `https://www.toolkitlife.com/ko/tools/screenshot-beautify`,

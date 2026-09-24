@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/calorie-deficit-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/calorie-deficit-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/calorie-deficit-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/calorie-deficit-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/calorie-deficit-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/calorie-deficit-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/calorie-deficit-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/calorie-deficit-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/calorie-deficit-calculator`,

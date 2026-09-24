@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/barcode-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/barcode-generator`,
+        es: `https://www.toolkitlife.com/es/tools/barcode-generator`,
+        de: `https://www.toolkitlife.com/de/tools/barcode-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/barcode-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/barcode-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/barcode-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/barcode-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/barcode-generator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/down-payment-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/down-payment-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/down-payment-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/down-payment-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/down-payment-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/down-payment-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/down-payment-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/down-payment-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/down-payment-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/batch-rename`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/batch-rename`,
+        es: `https://www.toolkitlife.com/es/tools/batch-rename`,
+        de: `https://www.toolkitlife.com/de/tools/batch-rename`,
+        fr: `https://www.toolkitlife.com/fr/tools/batch-rename`,
+        pt: `https://www.toolkitlife.com/pt/tools/batch-rename`,
         zh: `https://www.toolkitlife.com/zh/tools/batch-rename`,
         ja: `https://www.toolkitlife.com/ja/tools/batch-rename`,
         ko: `https://www.toolkitlife.com/ko/tools/batch-rename`,

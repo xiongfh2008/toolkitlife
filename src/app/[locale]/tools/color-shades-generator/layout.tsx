@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/color-shades-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/color-shades-generator`,
+        es: `https://www.toolkitlife.com/es/tools/color-shades-generator`,
+        de: `https://www.toolkitlife.com/de/tools/color-shades-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/color-shades-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/color-shades-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/color-shades-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/color-shades-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/color-shades-generator`,

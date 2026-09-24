@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-shadow`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-shadow`,
+        es: `https://www.toolkitlife.com/es/tools/image-shadow`,
+        de: `https://www.toolkitlife.com/de/tools/image-shadow`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-shadow`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-shadow`,
         zh: `https://www.toolkitlife.com/zh/tools/image-shadow`,
         ja: `https://www.toolkitlife.com/ja/tools/image-shadow`,
         ko: `https://www.toolkitlife.com/ko/tools/image-shadow`,

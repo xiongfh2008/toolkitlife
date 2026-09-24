@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/date-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/date-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/date-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/date-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/date-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/date-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/date-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/date-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/date-calculator`,

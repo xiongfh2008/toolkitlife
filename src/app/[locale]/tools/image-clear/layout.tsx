@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-clear`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-clear`,
+        es: `https://www.toolkitlife.com/es/tools/image-clear`,
+        de: `https://www.toolkitlife.com/de/tools/image-clear`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-clear`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-clear`,
         zh: `https://www.toolkitlife.com/zh/tools/image-clear`,
         ja: `https://www.toolkitlife.com/ja/tools/image-clear`,
         ko: `https://www.toolkitlife.com/ko/tools/image-clear`,

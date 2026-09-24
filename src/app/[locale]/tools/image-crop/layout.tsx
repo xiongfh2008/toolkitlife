@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-crop`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-crop`,
+        es: `https://www.toolkitlife.com/es/tools/image-crop`,
+        de: `https://www.toolkitlife.com/de/tools/image-crop`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-crop`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-crop`,
         zh: `https://www.toolkitlife.com/zh/tools/image-crop`,
         ja: `https://www.toolkitlife.com/ja/tools/image-crop`,
         ko: `https://www.toolkitlife.com/ko/tools/image-crop`,

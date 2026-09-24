@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/height-predict`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/height-predict`,
+        es: `https://www.toolkitlife.com/es/tools/height-predict`,
+        de: `https://www.toolkitlife.com/de/tools/height-predict`,
+        fr: `https://www.toolkitlife.com/fr/tools/height-predict`,
+        pt: `https://www.toolkitlife.com/pt/tools/height-predict`,
         zh: `https://www.toolkitlife.com/zh/tools/height-predict`,
         ja: `https://www.toolkitlife.com/ja/tools/height-predict`,
         ko: `https://www.toolkitlife.com/ko/tools/height-predict`,

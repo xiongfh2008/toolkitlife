@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/web-shortcut`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/web-shortcut`,
+        es: `https://www.toolkitlife.com/es/tools/web-shortcut`,
+        de: `https://www.toolkitlife.com/de/tools/web-shortcut`,
+        fr: `https://www.toolkitlife.com/fr/tools/web-shortcut`,
+        pt: `https://www.toolkitlife.com/pt/tools/web-shortcut`,
         zh: `https://www.toolkitlife.com/zh/tools/web-shortcut`,
         ja: `https://www.toolkitlife.com/ja/tools/web-shortcut`,
         ko: `https://www.toolkitlife.com/ko/tools/web-shortcut`,

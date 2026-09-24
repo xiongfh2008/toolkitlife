@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-file-size`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-file-size`,
+        es: `https://www.toolkitlife.com/es/tools/image-file-size`,
+        de: `https://www.toolkitlife.com/de/tools/image-file-size`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-file-size`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-file-size`,
         zh: `https://www.toolkitlife.com/zh/tools/image-file-size`,
         ja: `https://www.toolkitlife.com/ja/tools/image-file-size`,
         ko: `https://www.toolkitlife.com/ko/tools/image-file-size`,

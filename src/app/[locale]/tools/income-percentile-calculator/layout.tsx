@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/income-percentile-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/income-percentile-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/income-percentile-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/income-percentile-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/income-percentile-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/income-percentile-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/income-percentile-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/income-percentile-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/income-percentile-calculator`,

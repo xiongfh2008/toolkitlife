@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/rgb-channel-split`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/rgb-channel-split`,
+        es: `https://www.toolkitlife.com/es/tools/rgb-channel-split`,
+        de: `https://www.toolkitlife.com/de/tools/rgb-channel-split`,
+        fr: `https://www.toolkitlife.com/fr/tools/rgb-channel-split`,
+        pt: `https://www.toolkitlife.com/pt/tools/rgb-channel-split`,
         zh: `https://www.toolkitlife.com/zh/tools/rgb-channel-split`,
         ja: `https://www.toolkitlife.com/ja/tools/rgb-channel-split`,
         ko: `https://www.toolkitlife.com/ko/tools/rgb-channel-split`,

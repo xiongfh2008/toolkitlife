@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-compare`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-compare`,
+        es: `https://www.toolkitlife.com/es/tools/image-compare`,
+        de: `https://www.toolkitlife.com/de/tools/image-compare`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-compare`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-compare`,
         zh: `https://www.toolkitlife.com/zh/tools/image-compare`,
         ja: `https://www.toolkitlife.com/ja/tools/image-compare`,
         ko: `https://www.toolkitlife.com/ko/tools/image-compare`,

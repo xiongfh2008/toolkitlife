@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/dehaze`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/dehaze`,
+        es: `https://www.toolkitlife.com/es/tools/dehaze`,
+        de: `https://www.toolkitlife.com/de/tools/dehaze`,
+        fr: `https://www.toolkitlife.com/fr/tools/dehaze`,
+        pt: `https://www.toolkitlife.com/pt/tools/dehaze`,
         zh: `https://www.toolkitlife.com/zh/tools/dehaze`,
         ja: `https://www.toolkitlife.com/ja/tools/dehaze`,
         ko: `https://www.toolkitlife.com/ko/tools/dehaze`,

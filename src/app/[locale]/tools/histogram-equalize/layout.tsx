@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/histogram-equalize`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/histogram-equalize`,
+        es: `https://www.toolkitlife.com/es/tools/histogram-equalize`,
+        de: `https://www.toolkitlife.com/de/tools/histogram-equalize`,
+        fr: `https://www.toolkitlife.com/fr/tools/histogram-equalize`,
+        pt: `https://www.toolkitlife.com/pt/tools/histogram-equalize`,
         zh: `https://www.toolkitlife.com/zh/tools/histogram-equalize`,
         ja: `https://www.toolkitlife.com/ja/tools/histogram-equalize`,
         ko: `https://www.toolkitlife.com/ko/tools/histogram-equalize`,

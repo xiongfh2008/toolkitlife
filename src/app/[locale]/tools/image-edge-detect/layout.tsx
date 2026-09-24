@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/image-edge-detect`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-edge-detect`,
+        es: `https://www.toolkitlife.com/es/tools/image-edge-detect`,
+        de: `https://www.toolkitlife.com/de/tools/image-edge-detect`,
+        fr: `https://www.toolkitlife.com/fr/tools/image-edge-detect`,
+        pt: `https://www.toolkitlife.com/pt/tools/image-edge-detect`,
         zh: `https://www.toolkitlife.com/zh/tools/image-edge-detect`,
         ja: `https://www.toolkitlife.com/ja/tools/image-edge-detect`,
         ko: `https://www.toolkitlife.com/ko/tools/image-edge-detect`,

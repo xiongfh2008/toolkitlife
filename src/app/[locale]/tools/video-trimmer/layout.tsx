@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-trimmer`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-trimmer`,
+        es: `https://www.toolkitlife.com/es/tools/video-trimmer`,
+        de: `https://www.toolkitlife.com/de/tools/video-trimmer`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-trimmer`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-trimmer`,
         zh: `https://www.toolkitlife.com/zh/tools/video-trimmer`,
         ja: `https://www.toolkitlife.com/ja/tools/video-trimmer`,
         ko: `https://www.toolkitlife.com/ko/tools/video-trimmer`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/grade-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/grade-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/grade-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/grade-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/grade-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/grade-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/grade-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/grade-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/grade-calculator`,

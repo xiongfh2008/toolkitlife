@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/walking-calorie-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/walking-calorie-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/walking-calorie-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/walking-calorie-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/walking-calorie-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/walking-calorie-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/walking-calorie-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/walking-calorie-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/walking-calorie-calculator`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/duplicate-finder`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/duplicate-finder`,
+        es: `https://www.toolkitlife.com/es/tools/duplicate-finder`,
+        de: `https://www.toolkitlife.com/de/tools/duplicate-finder`,
+        fr: `https://www.toolkitlife.com/fr/tools/duplicate-finder`,
+        pt: `https://www.toolkitlife.com/pt/tools/duplicate-finder`,
         zh: `https://www.toolkitlife.com/zh/tools/duplicate-finder`,
         ja: `https://www.toolkitlife.com/ja/tools/duplicate-finder`,
         ko: `https://www.toolkitlife.com/ko/tools/duplicate-finder`,

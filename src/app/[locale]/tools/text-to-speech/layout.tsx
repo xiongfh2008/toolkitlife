@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/text-to-speech`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/text-to-speech`,
+        es: `https://www.toolkitlife.com/es/tools/text-to-speech`,
+        de: `https://www.toolkitlife.com/de/tools/text-to-speech`,
+        fr: `https://www.toolkitlife.com/fr/tools/text-to-speech`,
+        pt: `https://www.toolkitlife.com/pt/tools/text-to-speech`,
         zh: `https://www.toolkitlife.com/zh/tools/text-to-speech`,
         ja: `https://www.toolkitlife.com/ja/tools/text-to-speech`,
         ko: `https://www.toolkitlife.com/ko/tools/text-to-speech`,

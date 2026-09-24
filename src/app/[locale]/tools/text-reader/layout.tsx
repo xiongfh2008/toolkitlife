@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/text-reader`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/text-reader`,
+        es: `https://www.toolkitlife.com/es/tools/text-reader`,
+        de: `https://www.toolkitlife.com/de/tools/text-reader`,
+        fr: `https://www.toolkitlife.com/fr/tools/text-reader`,
+        pt: `https://www.toolkitlife.com/pt/tools/text-reader`,
         zh: `https://www.toolkitlife.com/zh/tools/text-reader`,
         ja: `https://www.toolkitlife.com/ja/tools/text-reader`,
         ko: `https://www.toolkitlife.com/ko/tools/text-reader`,

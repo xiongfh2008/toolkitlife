@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/currency-converter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/currency-converter`,
+        es: `https://www.toolkitlife.com/es/tools/currency-converter`,
+        de: `https://www.toolkitlife.com/de/tools/currency-converter`,
+        fr: `https://www.toolkitlife.com/fr/tools/currency-converter`,
+        pt: `https://www.toolkitlife.com/pt/tools/currency-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/currency-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/currency-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/currency-converter`,

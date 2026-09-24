@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/text-case-converter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/text-case-converter`,
+        es: `https://www.toolkitlife.com/es/tools/text-case-converter`,
+        de: `https://www.toolkitlife.com/de/tools/text-case-converter`,
+        fr: `https://www.toolkitlife.com/fr/tools/text-case-converter`,
+        pt: `https://www.toolkitlife.com/pt/tools/text-case-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/text-case-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/text-case-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/text-case-converter`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/square-footage-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/square-footage-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/square-footage-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/square-footage-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/square-footage-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/square-footage-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/square-footage-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/square-footage-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/square-footage-calculator`,

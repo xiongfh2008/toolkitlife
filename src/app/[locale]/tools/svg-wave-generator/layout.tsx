@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/svg-wave-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/svg-wave-generator`,
+        es: `https://www.toolkitlife.com/es/tools/svg-wave-generator`,
+        de: `https://www.toolkitlife.com/de/tools/svg-wave-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/svg-wave-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/svg-wave-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/svg-wave-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/svg-wave-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/svg-wave-generator`,

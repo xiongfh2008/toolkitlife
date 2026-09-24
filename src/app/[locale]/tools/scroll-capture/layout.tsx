@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/scroll-capture`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/scroll-capture`,
+        es: `https://www.toolkitlife.com/es/tools/scroll-capture`,
+        de: `https://www.toolkitlife.com/de/tools/scroll-capture`,
+        fr: `https://www.toolkitlife.com/fr/tools/scroll-capture`,
+        pt: `https://www.toolkitlife.com/pt/tools/scroll-capture`,
         zh: `https://www.toolkitlife.com/zh/tools/scroll-capture`,
         ja: `https://www.toolkitlife.com/ja/tools/scroll-capture`,
         ko: `https://www.toolkitlife.com/ko/tools/scroll-capture`,

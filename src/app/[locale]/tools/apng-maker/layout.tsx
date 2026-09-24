@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/apng-maker`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/apng-maker`,
+        es: `https://www.toolkitlife.com/es/tools/apng-maker`,
+        de: `https://www.toolkitlife.com/de/tools/apng-maker`,
+        fr: `https://www.toolkitlife.com/fr/tools/apng-maker`,
+        pt: `https://www.toolkitlife.com/pt/tools/apng-maker`,
         zh: `https://www.toolkitlife.com/zh/tools/apng-maker`,
         ja: `https://www.toolkitlife.com/ja/tools/apng-maker`,
         ko: `https://www.toolkitlife.com/ko/tools/apng-maker`,

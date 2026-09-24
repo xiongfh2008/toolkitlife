@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/payment-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/payment-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/payment-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/payment-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/payment-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/payment-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/payment-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/payment-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/payment-calculator`,

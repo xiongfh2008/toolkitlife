@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/blood-type`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/blood-type`,
+        es: `https://www.toolkitlife.com/es/tools/blood-type`,
+        de: `https://www.toolkitlife.com/de/tools/blood-type`,
+        fr: `https://www.toolkitlife.com/fr/tools/blood-type`,
+        pt: `https://www.toolkitlife.com/pt/tools/blood-type`,
         zh: `https://www.toolkitlife.com/zh/tools/blood-type`,
         ja: `https://www.toolkitlife.com/ja/tools/blood-type`,
         ko: `https://www.toolkitlife.com/ko/tools/blood-type`,

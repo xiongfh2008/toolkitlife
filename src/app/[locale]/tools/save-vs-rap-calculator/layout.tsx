@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/save-vs-rap-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/save-vs-rap-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/save-vs-rap-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/save-vs-rap-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/save-vs-rap-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/save-vs-rap-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/save-vs-rap-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/save-vs-rap-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/save-vs-rap-calculator`,

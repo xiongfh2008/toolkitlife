@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/long-tail-keywords`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/long-tail-keywords`,
+        es: `https://www.toolkitlife.com/es/tools/long-tail-keywords`,
+        de: `https://www.toolkitlife.com/de/tools/long-tail-keywords`,
+        fr: `https://www.toolkitlife.com/fr/tools/long-tail-keywords`,
+        pt: `https://www.toolkitlife.com/pt/tools/long-tail-keywords`,
         zh: `https://www.toolkitlife.com/zh/tools/long-tail-keywords`,
         ja: `https://www.toolkitlife.com/ja/tools/long-tail-keywords`,
         ko: `https://www.toolkitlife.com/ko/tools/long-tail-keywords`,

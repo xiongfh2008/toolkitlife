@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/reverse-text`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/reverse-text`,
+        es: `https://www.toolkitlife.com/es/tools/reverse-text`,
+        de: `https://www.toolkitlife.com/de/tools/reverse-text`,
+        fr: `https://www.toolkitlife.com/fr/tools/reverse-text`,
+        pt: `https://www.toolkitlife.com/pt/tools/reverse-text`,
         zh: `https://www.toolkitlife.com/zh/tools/reverse-text`,
         ja: `https://www.toolkitlife.com/ja/tools/reverse-text`,
         ko: `https://www.toolkitlife.com/ko/tools/reverse-text`,

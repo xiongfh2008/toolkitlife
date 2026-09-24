@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/id-photo-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/id-photo-generator`,
+        es: `https://www.toolkitlife.com/es/tools/id-photo-generator`,
+        de: `https://www.toolkitlife.com/de/tools/id-photo-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/id-photo-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/id-photo-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/id-photo-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/id-photo-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/id-photo-generator`,

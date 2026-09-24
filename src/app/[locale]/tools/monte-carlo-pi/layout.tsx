@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/monte-carlo-pi`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/monte-carlo-pi`,
+        es: `https://www.toolkitlife.com/es/tools/monte-carlo-pi`,
+        de: `https://www.toolkitlife.com/de/tools/monte-carlo-pi`,
+        fr: `https://www.toolkitlife.com/fr/tools/monte-carlo-pi`,
+        pt: `https://www.toolkitlife.com/pt/tools/monte-carlo-pi`,
         zh: `https://www.toolkitlife.com/zh/tools/monte-carlo-pi`,
         ja: `https://www.toolkitlife.com/ja/tools/monte-carlo-pi`,
         ko: `https://www.toolkitlife.com/ko/tools/monte-carlo-pi`,

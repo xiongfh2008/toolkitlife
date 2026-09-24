@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/password-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/password-generator`,
+        es: `https://www.toolkitlife.com/es/tools/password-generator`,
+        de: `https://www.toolkitlife.com/de/tools/password-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/password-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/password-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/password-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/password-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/password-generator`,

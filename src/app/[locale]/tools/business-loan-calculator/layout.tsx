@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/business-loan-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/business-loan-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/business-loan-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/business-loan-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/business-loan-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/business-loan-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/business-loan-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/business-loan-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/business-loan-calculator`,

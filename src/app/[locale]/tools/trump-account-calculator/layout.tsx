@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/trump-account-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/trump-account-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/trump-account-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/trump-account-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/trump-account-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/trump-account-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/trump-account-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/trump-account-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/trump-account-calculator`,

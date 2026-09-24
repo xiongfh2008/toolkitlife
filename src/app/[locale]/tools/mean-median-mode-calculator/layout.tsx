@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/mean-median-mode-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/mean-median-mode-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/mean-median-mode-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/mean-median-mode-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/mean-median-mode-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/mean-median-mode-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/mean-median-mode-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/mean-median-mode-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/mean-median-mode-calculator`,

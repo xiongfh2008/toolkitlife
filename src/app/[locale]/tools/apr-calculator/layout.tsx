@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/apr-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/apr-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/apr-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/apr-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/apr-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/apr-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/apr-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/apr-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/apr-calculator`,

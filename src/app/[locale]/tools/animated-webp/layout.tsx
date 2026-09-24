@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/animated-webp`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/animated-webp`,
+        es: `https://www.toolkitlife.com/es/tools/animated-webp`,
+        de: `https://www.toolkitlife.com/de/tools/animated-webp`,
+        fr: `https://www.toolkitlife.com/fr/tools/animated-webp`,
+        pt: `https://www.toolkitlife.com/pt/tools/animated-webp`,
         zh: `https://www.toolkitlife.com/zh/tools/animated-webp`,
         ja: `https://www.toolkitlife.com/ja/tools/animated-webp`,
         ko: `https://www.toolkitlife.com/ko/tools/animated-webp`,

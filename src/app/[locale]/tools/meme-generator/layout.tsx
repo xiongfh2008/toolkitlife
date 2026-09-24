@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/meme-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/meme-generator`,
+        es: `https://www.toolkitlife.com/es/tools/meme-generator`,
+        de: `https://www.toolkitlife.com/de/tools/meme-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/meme-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/meme-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/meme-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/meme-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/meme-generator`,

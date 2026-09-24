@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/video-to-images`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-to-images`,
+        es: `https://www.toolkitlife.com/es/tools/video-to-images`,
+        de: `https://www.toolkitlife.com/de/tools/video-to-images`,
+        fr: `https://www.toolkitlife.com/fr/tools/video-to-images`,
+        pt: `https://www.toolkitlife.com/pt/tools/video-to-images`,
         zh: `https://www.toolkitlife.com/zh/tools/video-to-images`,
         ja: `https://www.toolkitlife.com/ja/tools/video-to-images`,
         ko: `https://www.toolkitlife.com/ko/tools/video-to-images`,

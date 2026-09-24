@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/bank-card-validate`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/bank-card-validate`,
+        es: `https://www.toolkitlife.com/es/tools/bank-card-validate`,
+        de: `https://www.toolkitlife.com/de/tools/bank-card-validate`,
+        fr: `https://www.toolkitlife.com/fr/tools/bank-card-validate`,
+        pt: `https://www.toolkitlife.com/pt/tools/bank-card-validate`,
         zh: `https://www.toolkitlife.com/zh/tools/bank-card-validate`,
         ja: `https://www.toolkitlife.com/ja/tools/bank-card-validate`,
         ko: `https://www.toolkitlife.com/ko/tools/bank-card-validate`,

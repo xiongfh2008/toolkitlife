@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/url-slug-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/url-slug-generator`,
+        es: `https://www.toolkitlife.com/es/tools/url-slug-generator`,
+        de: `https://www.toolkitlife.com/de/tools/url-slug-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/url-slug-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/url-slug-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/url-slug-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/url-slug-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/url-slug-generator`,

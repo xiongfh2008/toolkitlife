@@ -9,7 +9,7 @@ import path from "path";
  *
  * Idempotent: skips a slug per locale when it already exists.
  */
-const LOCALES = ["en", "zh", "ja", "ko", "ru"];
+const LOCALES = ["en", "zh", "ja", "ko", "ru", "es", "de", "fr", "pt"];
 
 // home.tools card per locale
 const HOME = {

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/photo-colorize`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/photo-colorize`,
+        es: `https://www.toolkitlife.com/es/tools/photo-colorize`,
+        de: `https://www.toolkitlife.com/de/tools/photo-colorize`,
+        fr: `https://www.toolkitlife.com/fr/tools/photo-colorize`,
+        pt: `https://www.toolkitlife.com/pt/tools/photo-colorize`,
         zh: `https://www.toolkitlife.com/zh/tools/photo-colorize`,
         ja: `https://www.toolkitlife.com/ja/tools/photo-colorize`,
         ko: `https://www.toolkitlife.com/ko/tools/photo-colorize`,

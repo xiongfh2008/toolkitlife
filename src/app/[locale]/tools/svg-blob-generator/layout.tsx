@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/svg-blob-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/svg-blob-generator`,
+        es: `https://www.toolkitlife.com/es/tools/svg-blob-generator`,
+        de: `https://www.toolkitlife.com/de/tools/svg-blob-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/svg-blob-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/svg-blob-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/svg-blob-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/svg-blob-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/svg-blob-generator`,

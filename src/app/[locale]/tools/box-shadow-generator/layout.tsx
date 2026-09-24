@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/box-shadow-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/box-shadow-generator`,
+        es: `https://www.toolkitlife.com/es/tools/box-shadow-generator`,
+        de: `https://www.toolkitlife.com/de/tools/box-shadow-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/box-shadow-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/box-shadow-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/box-shadow-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/box-shadow-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/box-shadow-generator`,

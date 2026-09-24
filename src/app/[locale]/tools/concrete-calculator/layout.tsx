@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/concrete-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/concrete-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/concrete-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/concrete-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/concrete-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/concrete-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/concrete-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/concrete-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/concrete-calculator`,

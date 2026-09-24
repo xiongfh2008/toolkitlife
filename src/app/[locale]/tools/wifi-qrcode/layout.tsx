@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/wifi-qrcode`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/wifi-qrcode`,
+        es: `https://www.toolkitlife.com/es/tools/wifi-qrcode`,
+        de: `https://www.toolkitlife.com/de/tools/wifi-qrcode`,
+        fr: `https://www.toolkitlife.com/fr/tools/wifi-qrcode`,
+        pt: `https://www.toolkitlife.com/pt/tools/wifi-qrcode`,
         zh: `https://www.toolkitlife.com/zh/tools/wifi-qrcode`,
         ja: `https://www.toolkitlife.com/ja/tools/wifi-qrcode`,
         ko: `https://www.toolkitlife.com/ko/tools/wifi-qrcode`,

@@ -43,6 +43,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/multiavatar-avatar-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/multiavatar-avatar-generator`,
+        es: `https://www.toolkitlife.com/es/tools/multiavatar-avatar-generator`,
+        de: `https://www.toolkitlife.com/de/tools/multiavatar-avatar-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/multiavatar-avatar-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/multiavatar-avatar-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/multiavatar-avatar-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/multiavatar-avatar-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/multiavatar-avatar-generator`,

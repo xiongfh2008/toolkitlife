@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/random-number-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/random-number-generator`,
+        es: `https://www.toolkitlife.com/es/tools/random-number-generator`,
+        de: `https://www.toolkitlife.com/de/tools/random-number-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/random-number-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/random-number-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/random-number-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/random-number-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/random-number-generator`,

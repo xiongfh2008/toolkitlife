@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/css-gradient-generator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-gradient-generator`,
+        es: `https://www.toolkitlife.com/es/tools/css-gradient-generator`,
+        de: `https://www.toolkitlife.com/de/tools/css-gradient-generator`,
+        fr: `https://www.toolkitlife.com/fr/tools/css-gradient-generator`,
+        pt: `https://www.toolkitlife.com/pt/tools/css-gradient-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/css-gradient-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/css-gradient-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/css-gradient-generator`,

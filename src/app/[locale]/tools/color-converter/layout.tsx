@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/color-converter`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/color-converter`,
+        es: `https://www.toolkitlife.com/es/tools/color-converter`,
+        de: `https://www.toolkitlife.com/de/tools/color-converter`,
+        fr: `https://www.toolkitlife.com/fr/tools/color-converter`,
+        pt: `https://www.toolkitlife.com/pt/tools/color-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/color-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/color-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/color-converter`,

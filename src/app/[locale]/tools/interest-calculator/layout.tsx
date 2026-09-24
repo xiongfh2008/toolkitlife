@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/interest-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/interest-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/interest-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/interest-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/interest-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/interest-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/interest-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/interest-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/interest-calculator`,

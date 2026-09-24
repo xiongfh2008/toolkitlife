@@ -30,6 +30,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/qrcode-batch`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/qrcode-batch`,
+        es: `https://www.toolkitlife.com/es/tools/qrcode-batch`,
+        de: `https://www.toolkitlife.com/de/tools/qrcode-batch`,
+        fr: `https://www.toolkitlife.com/fr/tools/qrcode-batch`,
+        pt: `https://www.toolkitlife.com/pt/tools/qrcode-batch`,
         zh: `https://www.toolkitlife.com/zh/tools/qrcode-batch`,
         ja: `https://www.toolkitlife.com/ja/tools/qrcode-batch`,
         ko: `https://www.toolkitlife.com/ko/tools/qrcode-batch`,

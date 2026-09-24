@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/emi-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/emi-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/emi-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/emi-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/emi-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/emi-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/emi-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/emi-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/emi-calculator`,

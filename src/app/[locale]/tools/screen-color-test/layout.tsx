@@ -31,6 +31,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/screen-color-test`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/screen-color-test`,
+        es: `https://www.toolkitlife.com/es/tools/screen-color-test`,
+        de: `https://www.toolkitlife.com/de/tools/screen-color-test`,
+        fr: `https://www.toolkitlife.com/fr/tools/screen-color-test`,
+        pt: `https://www.toolkitlife.com/pt/tools/screen-color-test`,
         zh: `https://www.toolkitlife.com/zh/tools/screen-color-test`,
         ja: `https://www.toolkitlife.com/ja/tools/screen-color-test`,
         ko: `https://www.toolkitlife.com/ko/tools/screen-color-test`,

@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/xml-sitemap`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/xml-sitemap`,
+        es: `https://www.toolkitlife.com/es/tools/xml-sitemap`,
+        de: `https://www.toolkitlife.com/de/tools/xml-sitemap`,
+        fr: `https://www.toolkitlife.com/fr/tools/xml-sitemap`,
+        pt: `https://www.toolkitlife.com/pt/tools/xml-sitemap`,
         zh: `https://www.toolkitlife.com/zh/tools/xml-sitemap`,
         ja: `https://www.toolkitlife.com/ja/tools/xml-sitemap`,
         ko: `https://www.toolkitlife.com/ko/tools/xml-sitemap`,

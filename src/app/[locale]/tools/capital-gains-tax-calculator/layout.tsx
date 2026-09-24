@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/capital-gains-tax-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/capital-gains-tax-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/capital-gains-tax-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/capital-gains-tax-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/capital-gains-tax-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/capital-gains-tax-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/capital-gains-tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/capital-gains-tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/capital-gains-tax-calculator`,

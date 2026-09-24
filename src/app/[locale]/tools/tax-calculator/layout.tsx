@@ -34,6 +34,10 @@ export async function generateMetadata({
       canonical: `https://www.toolkitlife.com/${locale}/tools/tax-calculator`,
       languages: {
         en: `https://www.toolkitlife.com/en/tools/tax-calculator`,
+        es: `https://www.toolkitlife.com/es/tools/tax-calculator`,
+        de: `https://www.toolkitlife.com/de/tools/tax-calculator`,
+        fr: `https://www.toolkitlife.com/fr/tools/tax-calculator`,
+        pt: `https://www.toolkitlife.com/pt/tools/tax-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/tax-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/tax-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/tax-calculator`,
