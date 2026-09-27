@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-to-relief`,
         es: `https://www.toolkitlife.com/es/tools/image-to-relief`,
-        de: `https://www.toolkitlife.com/de/tools/image-to-relief`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-to-relief`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-to-relief`,
         zh: `https://www.toolkitlife.com/zh/tools/image-to-relief`,
         ja: `https://www.toolkitlife.com/ja/tools/image-to-relief`,
         ko: `https://www.toolkitlife.com/ko/tools/image-to-relief`,

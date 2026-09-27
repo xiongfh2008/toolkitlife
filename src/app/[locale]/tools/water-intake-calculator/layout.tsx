@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/water-intake-calculator`,
         es: `https://www.toolkitlife.com/es/tools/water-intake-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/water-intake-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/water-intake-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/water-intake-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/water-intake-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/water-intake-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/water-intake-calculator`,

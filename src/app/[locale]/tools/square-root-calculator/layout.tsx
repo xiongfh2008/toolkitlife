@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/square-root-calculator`,
         es: `https://www.toolkitlife.com/es/tools/square-root-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/square-root-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/square-root-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/square-root-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/square-root-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/square-root-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/square-root-calculator`,

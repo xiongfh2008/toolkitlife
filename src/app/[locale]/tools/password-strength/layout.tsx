@@ -31,9 +31,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/password-strength`,
         es: `https://www.toolkitlife.com/es/tools/password-strength`,
-        de: `https://www.toolkitlife.com/de/tools/password-strength`,
-        fr: `https://www.toolkitlife.com/fr/tools/password-strength`,
-        pt: `https://www.toolkitlife.com/pt/tools/password-strength`,
         zh: `https://www.toolkitlife.com/zh/tools/password-strength`,
         ja: `https://www.toolkitlife.com/ja/tools/password-strength`,
         ko: `https://www.toolkitlife.com/ko/tools/password-strength`,

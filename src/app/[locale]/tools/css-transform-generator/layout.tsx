@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-transform-generator`,
         es: `https://www.toolkitlife.com/es/tools/css-transform-generator`,
-        de: `https://www.toolkitlife.com/de/tools/css-transform-generator`,
-        fr: `https://www.toolkitlife.com/fr/tools/css-transform-generator`,
-        pt: `https://www.toolkitlife.com/pt/tools/css-transform-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/css-transform-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/css-transform-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/css-transform-generator`,

@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/pdf-long-image`,
         es: `https://www.toolkitlife.com/es/tools/pdf-long-image`,
-        de: `https://www.toolkitlife.com/de/tools/pdf-long-image`,
-        fr: `https://www.toolkitlife.com/fr/tools/pdf-long-image`,
-        pt: `https://www.toolkitlife.com/pt/tools/pdf-long-image`,
         zh: `https://www.toolkitlife.com/zh/tools/pdf-long-image`,
         ja: `https://www.toolkitlife.com/ja/tools/pdf-long-image`,
         ko: `https://www.toolkitlife.com/ko/tools/pdf-long-image`,

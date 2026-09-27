@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-rotate-flip`,
         es: `https://www.toolkitlife.com/es/tools/image-rotate-flip`,
-        de: `https://www.toolkitlife.com/de/tools/image-rotate-flip`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-rotate-flip`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-rotate-flip`,
         zh: `https://www.toolkitlife.com/zh/tools/image-rotate-flip`,
         ja: `https://www.toolkitlife.com/ja/tools/image-rotate-flip`,
         ko: `https://www.toolkitlife.com/ko/tools/image-rotate-flip`,

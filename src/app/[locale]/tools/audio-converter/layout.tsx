@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/audio-converter`,
         es: `https://www.toolkitlife.com/es/tools/audio-converter`,
-        de: `https://www.toolkitlife.com/de/tools/audio-converter`,
-        fr: `https://www.toolkitlife.com/fr/tools/audio-converter`,
-        pt: `https://www.toolkitlife.com/pt/tools/audio-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/audio-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/audio-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/audio-converter`,

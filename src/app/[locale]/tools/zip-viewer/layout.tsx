@@ -31,9 +31,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/zip-viewer`,
         es: `https://www.toolkitlife.com/es/tools/zip-viewer`,
-        de: `https://www.toolkitlife.com/de/tools/zip-viewer`,
-        fr: `https://www.toolkitlife.com/fr/tools/zip-viewer`,
-        pt: `https://www.toolkitlife.com/pt/tools/zip-viewer`,
         zh: `https://www.toolkitlife.com/zh/tools/zip-viewer`,
         ja: `https://www.toolkitlife.com/ja/tools/zip-viewer`,
         ko: `https://www.toolkitlife.com/ko/tools/zip-viewer`,

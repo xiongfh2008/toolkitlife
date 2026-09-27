@@ -31,9 +31,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-format-converter`,
         es: `https://www.toolkitlife.com/es/tools/image-format-converter`,
-        de: `https://www.toolkitlife.com/de/tools/image-format-converter`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-format-converter`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-format-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/image-format-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/image-format-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/image-format-converter`,

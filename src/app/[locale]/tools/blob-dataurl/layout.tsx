@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/blob-dataurl`,
         es: `https://www.toolkitlife.com/es/tools/blob-dataurl`,
-        de: `https://www.toolkitlife.com/de/tools/blob-dataurl`,
-        fr: `https://www.toolkitlife.com/fr/tools/blob-dataurl`,
-        pt: `https://www.toolkitlife.com/pt/tools/blob-dataurl`,
         zh: `https://www.toolkitlife.com/zh/tools/blob-dataurl`,
         ja: `https://www.toolkitlife.com/ja/tools/blob-dataurl`,
         ko: `https://www.toolkitlife.com/ko/tools/blob-dataurl`,

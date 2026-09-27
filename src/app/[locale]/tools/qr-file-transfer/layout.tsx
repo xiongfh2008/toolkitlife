@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/qr-file-transfer`,
         es: `https://www.toolkitlife.com/es/tools/qr-file-transfer`,
-        de: `https://www.toolkitlife.com/de/tools/qr-file-transfer`,
-        fr: `https://www.toolkitlife.com/fr/tools/qr-file-transfer`,
-        pt: `https://www.toolkitlife.com/pt/tools/qr-file-transfer`,
         zh: `https://www.toolkitlife.com/zh/tools/qr-file-transfer`,
         ja: `https://www.toolkitlife.com/ja/tools/qr-file-transfer`,
         ko: `https://www.toolkitlife.com/ko/tools/qr-file-transfer`,

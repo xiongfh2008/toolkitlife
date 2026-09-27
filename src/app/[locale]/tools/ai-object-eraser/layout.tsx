@@ -44,9 +44,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/${SLUG}`,
         es: `https://www.toolkitlife.com/es/tools/${SLUG}`,
-        de: `https://www.toolkitlife.com/de/tools/${SLUG}`,
-        fr: `https://www.toolkitlife.com/fr/tools/${SLUG}`,
-        pt: `https://www.toolkitlife.com/pt/tools/${SLUG}`,
         zh: `https://www.toolkitlife.com/zh/tools/${SLUG}`,
         ja: `https://www.toolkitlife.com/ja/tools/${SLUG}`,
         ko: `https://www.toolkitlife.com/ko/tools/${SLUG}`,

@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/pregnancy-calculator`,
         es: `https://www.toolkitlife.com/es/tools/pregnancy-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/pregnancy-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/pregnancy-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/pregnancy-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/pregnancy-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/pregnancy-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/pregnancy-calculator`,

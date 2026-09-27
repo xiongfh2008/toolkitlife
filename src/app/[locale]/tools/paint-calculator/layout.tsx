@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/paint-calculator`,
         es: `https://www.toolkitlife.com/es/tools/paint-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/paint-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/paint-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/paint-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/paint-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/paint-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/paint-calculator`,

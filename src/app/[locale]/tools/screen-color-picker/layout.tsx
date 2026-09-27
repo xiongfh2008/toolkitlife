@@ -44,9 +44,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/screen-color-picker`,
         es: `https://www.toolkitlife.com/es/tools/screen-color-picker`,
-        de: `https://www.toolkitlife.com/de/tools/screen-color-picker`,
-        fr: `https://www.toolkitlife.com/fr/tools/screen-color-picker`,
-        pt: `https://www.toolkitlife.com/pt/tools/screen-color-picker`,
         zh: `https://www.toolkitlife.com/zh/tools/screen-color-picker`,
         ja: `https://www.toolkitlife.com/ja/tools/screen-color-picker`,
         ko: `https://www.toolkitlife.com/ko/tools/screen-color-picker`,

@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/waist-to-hip-ratio-calculator`,
         es: `https://www.toolkitlife.com/es/tools/waist-to-hip-ratio-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/waist-to-hip-ratio-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/waist-to-hip-ratio-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/waist-to-hip-ratio-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/waist-to-hip-ratio-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/waist-to-hip-ratio-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/waist-to-hip-ratio-calculator`,

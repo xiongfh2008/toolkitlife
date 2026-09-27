@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-denoise`,
         es: `https://www.toolkitlife.com/es/tools/image-denoise`,
-        de: `https://www.toolkitlife.com/de/tools/image-denoise`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-denoise`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-denoise`,
         zh: `https://www.toolkitlife.com/zh/tools/image-denoise`,
         ja: `https://www.toolkitlife.com/ja/tools/image-denoise`,
         ko: `https://www.toolkitlife.com/ko/tools/image-denoise`,

@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-text-shadow`,
         es: `https://www.toolkitlife.com/es/tools/css-text-shadow`,
-        de: `https://www.toolkitlife.com/de/tools/css-text-shadow`,
-        fr: `https://www.toolkitlife.com/fr/tools/css-text-shadow`,
-        pt: `https://www.toolkitlife.com/pt/tools/css-text-shadow`,
         zh: `https://www.toolkitlife.com/zh/tools/css-text-shadow`,
         ja: `https://www.toolkitlife.com/ja/tools/css-text-shadow`,
         ko: `https://www.toolkitlife.com/ko/tools/css-text-shadow`,

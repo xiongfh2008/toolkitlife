@@ -11,14 +11,13 @@ export const ogLocaleMap: Record<string, string> = {
   pt: "pt_BR",
 };
 
-export const ogLocales: string[] = [
+// og:locale:alternate values for published locales only — de/fr/pt serve
+// English fallback until translated, so they are not advertised yet.
+export const publishedOgLocales: string[] = [
   "en_US",
   "zh_CN",
   "ja_JP",
   "ko_KR",
   "ru_RU",
   "es_ES",
-  "de_DE",
-  "fr_FR",
-  "pt_BR",
 ];

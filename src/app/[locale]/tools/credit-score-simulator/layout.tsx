@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/credit-score-simulator`,
         es: `https://www.toolkitlife.com/es/tools/credit-score-simulator`,
-        de: `https://www.toolkitlife.com/de/tools/credit-score-simulator`,
-        fr: `https://www.toolkitlife.com/fr/tools/credit-score-simulator`,
-        pt: `https://www.toolkitlife.com/pt/tools/credit-score-simulator`,
         zh: `https://www.toolkitlife.com/zh/tools/credit-score-simulator`,
         ja: `https://www.toolkitlife.com/ja/tools/credit-score-simulator`,
         ko: `https://www.toolkitlife.com/ko/tools/credit-score-simulator`,

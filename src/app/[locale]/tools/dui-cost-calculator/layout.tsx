@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/dui-cost-calculator`,
         es: `https://www.toolkitlife.com/es/tools/dui-cost-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/dui-cost-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/dui-cost-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/dui-cost-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/dui-cost-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/dui-cost-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/dui-cost-calculator`,

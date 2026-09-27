@@ -36,9 +36,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/pdf-to-word`,
         es: `https://www.toolkitlife.com/es/tools/pdf-to-word`,
-        de: `https://www.toolkitlife.com/de/tools/pdf-to-word`,
-        fr: `https://www.toolkitlife.com/fr/tools/pdf-to-word`,
-        pt: `https://www.toolkitlife.com/pt/tools/pdf-to-word`,
         zh: `https://www.toolkitlife.com/zh/tools/pdf-to-word`,
         ja: `https://www.toolkitlife.com/ja/tools/pdf-to-word`,
         ko: `https://www.toolkitlife.com/ko/tools/pdf-to-word`,

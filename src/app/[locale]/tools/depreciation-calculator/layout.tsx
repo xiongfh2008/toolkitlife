@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/depreciation-calculator`,
         es: `https://www.toolkitlife.com/es/tools/depreciation-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/depreciation-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/depreciation-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/depreciation-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/depreciation-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/depreciation-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/depreciation-calculator`,

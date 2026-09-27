@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/stock-profit-calculator`,
         es: `https://www.toolkitlife.com/es/tools/stock-profit-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/stock-profit-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/stock-profit-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/stock-profit-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/stock-profit-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/stock-profit-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/stock-profit-calculator`,

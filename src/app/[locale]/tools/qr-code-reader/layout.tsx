@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/qr-code-reader`,
         es: `https://www.toolkitlife.com/es/tools/qr-code-reader`,
-        de: `https://www.toolkitlife.com/de/tools/qr-code-reader`,
-        fr: `https://www.toolkitlife.com/fr/tools/qr-code-reader`,
-        pt: `https://www.toolkitlife.com/pt/tools/qr-code-reader`,
         zh: `https://www.toolkitlife.com/zh/tools/qr-code-reader`,
         ja: `https://www.toolkitlife.com/ja/tools/qr-code-reader`,
         ko: `https://www.toolkitlife.com/ko/tools/qr-code-reader`,

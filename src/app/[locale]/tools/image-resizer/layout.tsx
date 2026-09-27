@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-resizer`,
         es: `https://www.toolkitlife.com/es/tools/image-resizer`,
-        de: `https://www.toolkitlife.com/de/tools/image-resizer`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-resizer`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-resizer`,
         zh: `https://www.toolkitlife.com/zh/tools/image-resizer`,
         ja: `https://www.toolkitlife.com/ja/tools/image-resizer`,
         ko: `https://www.toolkitlife.com/ko/tools/image-resizer`,

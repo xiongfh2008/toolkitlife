@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-palette`,
         es: `https://www.toolkitlife.com/es/tools/image-palette`,
-        de: `https://www.toolkitlife.com/de/tools/image-palette`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-palette`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-palette`,
         zh: `https://www.toolkitlife.com/zh/tools/image-palette`,
         ja: `https://www.toolkitlife.com/ja/tools/image-palette`,
         ko: `https://www.toolkitlife.com/ko/tools/image-palette`,

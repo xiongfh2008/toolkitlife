@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/rent-vs-buy-calculator`,
         es: `https://www.toolkitlife.com/es/tools/rent-vs-buy-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/rent-vs-buy-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/rent-vs-buy-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/rent-vs-buy-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/rent-vs-buy-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/rent-vs-buy-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/rent-vs-buy-calculator`,

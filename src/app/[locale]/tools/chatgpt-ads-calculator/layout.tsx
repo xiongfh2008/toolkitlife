@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/chatgpt-ads-calculator`,
         es: `https://www.toolkitlife.com/es/tools/chatgpt-ads-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/chatgpt-ads-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/chatgpt-ads-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/chatgpt-ads-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/chatgpt-ads-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/chatgpt-ads-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/chatgpt-ads-calculator`,

@@ -31,9 +31,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/click-speed`,
         es: `https://www.toolkitlife.com/es/tools/click-speed`,
-        de: `https://www.toolkitlife.com/de/tools/click-speed`,
-        fr: `https://www.toolkitlife.com/fr/tools/click-speed`,
-        pt: `https://www.toolkitlife.com/pt/tools/click-speed`,
         zh: `https://www.toolkitlife.com/zh/tools/click-speed`,
         ja: `https://www.toolkitlife.com/ja/tools/click-speed`,
         ko: `https://www.toolkitlife.com/ko/tools/click-speed`,

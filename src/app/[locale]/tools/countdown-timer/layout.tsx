@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/countdown-timer`,
         es: `https://www.toolkitlife.com/es/tools/countdown-timer`,
-        de: `https://www.toolkitlife.com/de/tools/countdown-timer`,
-        fr: `https://www.toolkitlife.com/fr/tools/countdown-timer`,
-        pt: `https://www.toolkitlife.com/pt/tools/countdown-timer`,
         zh: `https://www.toolkitlife.com/zh/tools/countdown-timer`,
         ja: `https://www.toolkitlife.com/ja/tools/countdown-timer`,
         ko: `https://www.toolkitlife.com/ko/tools/countdown-timer`,

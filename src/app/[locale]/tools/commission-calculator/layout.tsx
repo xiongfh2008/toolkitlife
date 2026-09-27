@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/commission-calculator`,
         es: `https://www.toolkitlife.com/es/tools/commission-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/commission-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/commission-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/commission-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/commission-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/commission-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/commission-calculator`,

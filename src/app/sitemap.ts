@@ -2,10 +2,11 @@ import fs from "fs";
 import path from "path";
 import type { MetadataRoute } from "next";
 import { blogPostsMeta } from "@/data/blog-posts";
-import { routing } from "@/i18n/routing";
+import { routing, publishedLocales } from "@/i18n/routing";
 
-// Keep in sync with the site's locale list (single source of truth: routing).
-const locales = [...routing.locales];
+// Only published locales belong in the sitemap; de/fr/pt routes serve English
+// fallback until their message files are translated.
+const locales = [...publishedLocales];
 
 // Every tool slug, derived from the en message file so newly added tools are
 // included automatically instead of being maintained by hand here.

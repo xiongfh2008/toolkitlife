@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/emoji-picker`,
         es: `https://www.toolkitlife.com/es/tools/emoji-picker`,
-        de: `https://www.toolkitlife.com/de/tools/emoji-picker`,
-        fr: `https://www.toolkitlife.com/fr/tools/emoji-picker`,
-        pt: `https://www.toolkitlife.com/pt/tools/emoji-picker`,
         zh: `https://www.toolkitlife.com/zh/tools/emoji-picker`,
         ja: `https://www.toolkitlife.com/ja/tools/emoji-picker`,
         ko: `https://www.toolkitlife.com/ko/tools/emoji-picker`,

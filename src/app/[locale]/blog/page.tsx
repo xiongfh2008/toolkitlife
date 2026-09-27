@@ -21,9 +21,6 @@ export async function generateMetadata({
       languages: {
         en: "https://www.toolkitlife.com/en/blog",
         es: "https://www.toolkitlife.com/es/blog",
-        de: "https://www.toolkitlife.com/de/blog",
-        fr: "https://www.toolkitlife.com/fr/blog",
-        pt: "https://www.toolkitlife.com/pt/blog",
         zh: "https://www.toolkitlife.com/zh/blog",
         ja: "https://www.toolkitlife.com/ja/blog",
         ko: "https://www.toolkitlife.com/ko/blog",

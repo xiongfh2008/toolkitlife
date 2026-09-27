@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/salary-calculator`,
         es: `https://www.toolkitlife.com/es/tools/salary-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/salary-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/salary-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/salary-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/salary-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/salary-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/salary-calculator`,

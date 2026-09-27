@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/refinance-calculator`,
         es: `https://www.toolkitlife.com/es/tools/refinance-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/refinance-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/refinance-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/refinance-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/refinance-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/refinance-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/refinance-calculator`,

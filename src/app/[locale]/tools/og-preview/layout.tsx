@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/og-preview`,
         es: `https://www.toolkitlife.com/es/tools/og-preview`,
-        de: `https://www.toolkitlife.com/de/tools/og-preview`,
-        fr: `https://www.toolkitlife.com/fr/tools/og-preview`,
-        pt: `https://www.toolkitlife.com/pt/tools/og-preview`,
         zh: `https://www.toolkitlife.com/zh/tools/og-preview`,
         ja: `https://www.toolkitlife.com/ja/tools/og-preview`,
         ko: `https://www.toolkitlife.com/ko/tools/og-preview`,

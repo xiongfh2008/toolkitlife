@@ -36,9 +36,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/jpg-to-pdf-converter`,
         es: `https://www.toolkitlife.com/es/tools/jpg-to-pdf-converter`,
-        de: `https://www.toolkitlife.com/de/tools/jpg-to-pdf-converter`,
-        fr: `https://www.toolkitlife.com/fr/tools/jpg-to-pdf-converter`,
-        pt: `https://www.toolkitlife.com/pt/tools/jpg-to-pdf-converter`,
         zh: `https://www.toolkitlife.com/zh/tools/jpg-to-pdf-converter`,
         ja: `https://www.toolkitlife.com/ja/tools/jpg-to-pdf-converter`,
         ko: `https://www.toolkitlife.com/ko/tools/jpg-to-pdf-converter`,

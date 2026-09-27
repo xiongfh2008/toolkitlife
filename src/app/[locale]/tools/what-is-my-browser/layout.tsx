@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/what-is-my-browser`,
         es: `https://www.toolkitlife.com/es/tools/what-is-my-browser`,
-        de: `https://www.toolkitlife.com/de/tools/what-is-my-browser`,
-        fr: `https://www.toolkitlife.com/fr/tools/what-is-my-browser`,
-        pt: `https://www.toolkitlife.com/pt/tools/what-is-my-browser`,
         zh: `https://www.toolkitlife.com/zh/tools/what-is-my-browser`,
         ja: `https://www.toolkitlife.com/ja/tools/what-is-my-browser`,
         ko: `https://www.toolkitlife.com/ko/tools/what-is-my-browser`,

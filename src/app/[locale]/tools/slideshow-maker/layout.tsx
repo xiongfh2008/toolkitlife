@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/slideshow-maker`,
         es: `https://www.toolkitlife.com/es/tools/slideshow-maker`,
-        de: `https://www.toolkitlife.com/de/tools/slideshow-maker`,
-        fr: `https://www.toolkitlife.com/fr/tools/slideshow-maker`,
-        pt: `https://www.toolkitlife.com/pt/tools/slideshow-maker`,
         zh: `https://www.toolkitlife.com/zh/tools/slideshow-maker`,
         ja: `https://www.toolkitlife.com/ja/tools/slideshow-maker`,
         ko: `https://www.toolkitlife.com/ko/tools/slideshow-maker`,

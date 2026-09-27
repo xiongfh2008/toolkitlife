@@ -3,7 +3,7 @@
 import { useParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { usePathname, getPathname } from "@/i18n/routing";
-import { routing } from "@/i18n/routing";
+import { routing, publishedLocales } from "@/i18n/routing";
 
 const labels: Record<string, string> = {
   en: "English",
@@ -38,7 +38,7 @@ export default function LocaleSwitcher() {
         className="appearance-none rounded-lg border border-zinc-700 bg-zinc-900 px-3 py-1.5 pr-8 text-sm text-zinc-300 outline-none focus:border-blue-500 cursor-pointer"
         aria-label={t("selectLanguage")}
       >
-        {routing.locales.map((locale) => (
+        {publishedLocales.map((locale) => (
           <option key={locale} value={locale}>
             {labels[locale]}
           </option>

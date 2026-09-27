@@ -36,9 +36,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-upscaler`,
         es: `https://www.toolkitlife.com/es/tools/image-upscaler`,
-        de: `https://www.toolkitlife.com/de/tools/image-upscaler`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-upscaler`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-upscaler`,
         zh: `https://www.toolkitlife.com/zh/tools/image-upscaler`,
         ja: `https://www.toolkitlife.com/ja/tools/image-upscaler`,
         ko: `https://www.toolkitlife.com/ko/tools/image-upscaler`,

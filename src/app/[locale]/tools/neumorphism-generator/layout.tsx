@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/neumorphism-generator`,
         es: `https://www.toolkitlife.com/es/tools/neumorphism-generator`,
-        de: `https://www.toolkitlife.com/de/tools/neumorphism-generator`,
-        fr: `https://www.toolkitlife.com/fr/tools/neumorphism-generator`,
-        pt: `https://www.toolkitlife.com/pt/tools/neumorphism-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/neumorphism-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/neumorphism-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/neumorphism-generator`,

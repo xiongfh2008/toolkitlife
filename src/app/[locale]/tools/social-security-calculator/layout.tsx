@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/social-security-calculator`,
         es: `https://www.toolkitlife.com/es/tools/social-security-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/social-security-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/social-security-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/social-security-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/social-security-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/social-security-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/social-security-calculator`,

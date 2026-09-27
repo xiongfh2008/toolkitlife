@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/nsfw-detection`,
         es: `https://www.toolkitlife.com/es/tools/nsfw-detection`,
-        de: `https://www.toolkitlife.com/de/tools/nsfw-detection`,
-        fr: `https://www.toolkitlife.com/fr/tools/nsfw-detection`,
-        pt: `https://www.toolkitlife.com/pt/tools/nsfw-detection`,
         zh: `https://www.toolkitlife.com/zh/tools/nsfw-detection`,
         ja: `https://www.toolkitlife.com/ja/tools/nsfw-detection`,
         ko: `https://www.toolkitlife.com/ko/tools/nsfw-detection`,

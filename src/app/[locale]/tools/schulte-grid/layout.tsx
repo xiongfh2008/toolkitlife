@@ -31,9 +31,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/schulte-grid`,
         es: `https://www.toolkitlife.com/es/tools/schulte-grid`,
-        de: `https://www.toolkitlife.com/de/tools/schulte-grid`,
-        fr: `https://www.toolkitlife.com/fr/tools/schulte-grid`,
-        pt: `https://www.toolkitlife.com/pt/tools/schulte-grid`,
         zh: `https://www.toolkitlife.com/zh/tools/schulte-grid`,
         ja: `https://www.toolkitlife.com/ja/tools/schulte-grid`,
         ko: `https://www.toolkitlife.com/ko/tools/schulte-grid`,

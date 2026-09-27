@@ -30,9 +30,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/file-transfer`,
         es: `https://www.toolkitlife.com/es/tools/file-transfer`,
-        de: `https://www.toolkitlife.com/de/tools/file-transfer`,
-        fr: `https://www.toolkitlife.com/fr/tools/file-transfer`,
-        pt: `https://www.toolkitlife.com/pt/tools/file-transfer`,
         zh: `https://www.toolkitlife.com/zh/tools/file-transfer`,
         ja: `https://www.toolkitlife.com/ja/tools/file-transfer`,
         ko: `https://www.toolkitlife.com/ko/tools/file-transfer`,

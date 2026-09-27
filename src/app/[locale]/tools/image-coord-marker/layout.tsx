@@ -31,9 +31,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-coord-marker`,
         es: `https://www.toolkitlife.com/es/tools/image-coord-marker`,
-        de: `https://www.toolkitlife.com/de/tools/image-coord-marker`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-coord-marker`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-coord-marker`,
         zh: `https://www.toolkitlife.com/zh/tools/image-coord-marker`,
         ja: `https://www.toolkitlife.com/ja/tools/image-coord-marker`,
         ko: `https://www.toolkitlife.com/ko/tools/image-coord-marker`,

@@ -31,9 +31,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/icon-size-generator`,
         es: `https://www.toolkitlife.com/es/tools/icon-size-generator`,
-        de: `https://www.toolkitlife.com/de/tools/icon-size-generator`,
-        fr: `https://www.toolkitlife.com/fr/tools/icon-size-generator`,
-        pt: `https://www.toolkitlife.com/pt/tools/icon-size-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/icon-size-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/icon-size-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/icon-size-generator`,

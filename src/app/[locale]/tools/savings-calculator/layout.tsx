@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/savings-calculator`,
         es: `https://www.toolkitlife.com/es/tools/savings-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/savings-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/savings-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/savings-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/savings-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/savings-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/savings-calculator`,

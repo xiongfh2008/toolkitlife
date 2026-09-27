@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-to-gif`,
         es: `https://www.toolkitlife.com/es/tools/video-to-gif`,
-        de: `https://www.toolkitlife.com/de/tools/video-to-gif`,
-        fr: `https://www.toolkitlife.com/fr/tools/video-to-gif`,
-        pt: `https://www.toolkitlife.com/pt/tools/video-to-gif`,
         zh: `https://www.toolkitlife.com/zh/tools/video-to-gif`,
         ja: `https://www.toolkitlife.com/ja/tools/video-to-gif`,
         ko: `https://www.toolkitlife.com/ko/tools/video-to-gif`,

@@ -31,9 +31,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/audio-player`,
         es: `https://www.toolkitlife.com/es/tools/audio-player`,
-        de: `https://www.toolkitlife.com/de/tools/audio-player`,
-        fr: `https://www.toolkitlife.com/fr/tools/audio-player`,
-        pt: `https://www.toolkitlife.com/pt/tools/audio-player`,
         zh: `https://www.toolkitlife.com/zh/tools/audio-player`,
         ja: `https://www.toolkitlife.com/ja/tools/audio-player`,
         ko: `https://www.toolkitlife.com/ko/tools/audio-player`,

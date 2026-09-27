@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { DM_Sans, Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { ogImageUrl } from "@/lib/og";
-import { ogLocaleMap, ogLocales } from "@/lib/og-locale";
+import { ogLocaleMap, publishedOgLocales } from "@/lib/og-locale";
 import { blogPostsMeta } from "@/data/blog-posts";
 import "../globals.css";
 import Nav from "@/components/Nav";
@@ -91,9 +91,6 @@ export async function generateMetadata({
       languages: {
         en: "https://www.toolkitlife.com/en",
         es: "https://www.toolkitlife.com/es",
-        de: "https://www.toolkitlife.com/de",
-        fr: "https://www.toolkitlife.com/fr",
-        pt: "https://www.toolkitlife.com/pt",
         zh: "https://www.toolkitlife.com/zh",
         ja: "https://www.toolkitlife.com/ja",
         ko: "https://www.toolkitlife.com/ko",
@@ -144,7 +141,7 @@ export default async function LocaleLayout({
         {/* llms.txt discovery — llmstxt.org: lets AI crawlers find the file */}
         <link rel="llms.txt" href="https://www.toolkitlife.com/llms.txt" />
         <meta property="og:locale" content={ogLocaleMap[locale] ?? "en_US"} />
-        {ogLocales
+        {publishedOgLocales
           .filter((l) => l !== (ogLocaleMap[locale] ?? "en_US"))
           .map((l) => (
             <meta key={l} property="og:locale:alternate" content={l} />

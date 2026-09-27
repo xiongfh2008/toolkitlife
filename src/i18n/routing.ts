@@ -7,5 +7,9 @@ export const routing = defineRouting({
   localePrefix: "always",
 });
 
+// Locales shown in the language switcher. de/fr/pt routes still work (English
+// fallback) but are hidden until their message files are translated.
+export const publishedLocales = ["en", "zh", "ja", "ko", "ru", "es"] as const;
+
 export const { Link, redirect, usePathname, useRouter, getPathname } =
   createNavigation(routing);

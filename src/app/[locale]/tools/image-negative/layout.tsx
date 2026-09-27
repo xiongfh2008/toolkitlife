@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-negative`,
         es: `https://www.toolkitlife.com/es/tools/image-negative`,
-        de: `https://www.toolkitlife.com/de/tools/image-negative`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-negative`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-negative`,
         zh: `https://www.toolkitlife.com/zh/tools/image-negative`,
         ja: `https://www.toolkitlife.com/ja/tools/image-negative`,
         ko: `https://www.toolkitlife.com/ko/tools/image-negative`,

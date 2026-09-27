@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-watermark-remover`,
         es: `https://www.toolkitlife.com/es/tools/video-watermark-remover`,
-        de: `https://www.toolkitlife.com/de/tools/video-watermark-remover`,
-        fr: `https://www.toolkitlife.com/fr/tools/video-watermark-remover`,
-        pt: `https://www.toolkitlife.com/pt/tools/video-watermark-remover`,
         zh: `https://www.toolkitlife.com/zh/tools/video-watermark-remover`,
         ja: `https://www.toolkitlife.com/ja/tools/video-watermark-remover`,
         ko: `https://www.toolkitlife.com/ko/tools/video-watermark-remover`,

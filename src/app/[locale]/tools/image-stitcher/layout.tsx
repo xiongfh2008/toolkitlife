@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-stitcher`,
         es: `https://www.toolkitlife.com/es/tools/image-stitcher`,
-        de: `https://www.toolkitlife.com/de/tools/image-stitcher`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-stitcher`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-stitcher`,
         zh: `https://www.toolkitlife.com/zh/tools/image-stitcher`,
         ja: `https://www.toolkitlife.com/ja/tools/image-stitcher`,
         ko: `https://www.toolkitlife.com/ko/tools/image-stitcher`,

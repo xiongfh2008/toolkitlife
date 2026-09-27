@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/mortgage-payoff-calculator`,
         es: `https://www.toolkitlife.com/es/tools/mortgage-payoff-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/mortgage-payoff-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/mortgage-payoff-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/mortgage-payoff-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/mortgage-payoff-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/mortgage-payoff-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/mortgage-payoff-calculator`,

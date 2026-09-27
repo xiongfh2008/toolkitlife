@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/video-watermark`,
         es: `https://www.toolkitlife.com/es/tools/video-watermark`,
-        de: `https://www.toolkitlife.com/de/tools/video-watermark`,
-        fr: `https://www.toolkitlife.com/fr/tools/video-watermark`,
-        pt: `https://www.toolkitlife.com/pt/tools/video-watermark`,
         zh: `https://www.toolkitlife.com/zh/tools/video-watermark`,
         ja: `https://www.toolkitlife.com/ja/tools/video-watermark`,
         ko: `https://www.toolkitlife.com/ko/tools/video-watermark`,

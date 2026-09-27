@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/placeholder-image`,
         es: `https://www.toolkitlife.com/es/tools/placeholder-image`,
-        de: `https://www.toolkitlife.com/de/tools/placeholder-image`,
-        fr: `https://www.toolkitlife.com/fr/tools/placeholder-image`,
-        pt: `https://www.toolkitlife.com/pt/tools/placeholder-image`,
         zh: `https://www.toolkitlife.com/zh/tools/placeholder-image`,
         ja: `https://www.toolkitlife.com/ja/tools/placeholder-image`,
         ko: `https://www.toolkitlife.com/ko/tools/placeholder-image`,

@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/scientific-calculator`,
         es: `https://www.toolkitlife.com/es/tools/scientific-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/scientific-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/scientific-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/scientific-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/scientific-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/scientific-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/scientific-calculator`,

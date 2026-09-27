@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/color-mixer`,
         es: `https://www.toolkitlife.com/es/tools/color-mixer`,
-        de: `https://www.toolkitlife.com/de/tools/color-mixer`,
-        fr: `https://www.toolkitlife.com/fr/tools/color-mixer`,
-        pt: `https://www.toolkitlife.com/pt/tools/color-mixer`,
         zh: `https://www.toolkitlife.com/zh/tools/color-mixer`,
         ja: `https://www.toolkitlife.com/ja/tools/color-mixer`,
         ko: `https://www.toolkitlife.com/ko/tools/color-mixer`,

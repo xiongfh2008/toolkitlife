@@ -30,6 +30,10 @@ lines.push("");
 lines.push(
   `> ToolkitLife is a collection of ${Object.keys(home).length} free, browser-based tools and calculators. No signup required. No data stored. All processing happens locally in the user's browser.`
 );
+// Keep in sync with publishedLocales in src/i18n/routing.ts.
+lines.push(
+  "Localized in English, 简体中文, 日本語, 한국어, Русский and Español."
+);
 lines.push("");
 lines.push("## Tools");
 lines.push("");

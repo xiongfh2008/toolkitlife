@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/sleep-calculator`,
         es: `https://www.toolkitlife.com/es/tools/sleep-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/sleep-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/sleep-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/sleep-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/sleep-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/sleep-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/sleep-calculator`,

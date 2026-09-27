@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/resume-builder`,
         es: `https://www.toolkitlife.com/es/tools/resume-builder`,
-        de: `https://www.toolkitlife.com/de/tools/resume-builder`,
-        fr: `https://www.toolkitlife.com/fr/tools/resume-builder`,
-        pt: `https://www.toolkitlife.com/pt/tools/resume-builder`,
         zh: `https://www.toolkitlife.com/zh/tools/resume-builder`,
         ja: `https://www.toolkitlife.com/ja/tools/resume-builder`,
         ko: `https://www.toolkitlife.com/ko/tools/resume-builder`,

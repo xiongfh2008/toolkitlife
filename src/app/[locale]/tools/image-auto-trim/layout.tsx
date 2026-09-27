@@ -31,9 +31,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/image-auto-trim`,
         es: `https://www.toolkitlife.com/es/tools/image-auto-trim`,
-        de: `https://www.toolkitlife.com/de/tools/image-auto-trim`,
-        fr: `https://www.toolkitlife.com/fr/tools/image-auto-trim`,
-        pt: `https://www.toolkitlife.com/pt/tools/image-auto-trim`,
         zh: `https://www.toolkitlife.com/zh/tools/image-auto-trim`,
         ja: `https://www.toolkitlife.com/ja/tools/image-auto-trim`,
         ko: `https://www.toolkitlife.com/ko/tools/image-auto-trim`,

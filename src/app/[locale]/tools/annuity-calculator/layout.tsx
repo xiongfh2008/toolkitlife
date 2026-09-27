@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/annuity-calculator`,
         es: `https://www.toolkitlife.com/es/tools/annuity-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/annuity-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/annuity-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/annuity-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/annuity-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/annuity-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/annuity-calculator`,

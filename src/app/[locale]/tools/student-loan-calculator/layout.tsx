@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/student-loan-calculator`,
         es: `https://www.toolkitlife.com/es/tools/student-loan-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/student-loan-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/student-loan-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/student-loan-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/student-loan-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/student-loan-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/student-loan-calculator`,

@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/face-detector`,
         es: `https://www.toolkitlife.com/es/tools/face-detector`,
-        de: `https://www.toolkitlife.com/de/tools/face-detector`,
-        fr: `https://www.toolkitlife.com/fr/tools/face-detector`,
-        pt: `https://www.toolkitlife.com/pt/tools/face-detector`,
         zh: `https://www.toolkitlife.com/zh/tools/face-detector`,
         ja: `https://www.toolkitlife.com/ja/tools/face-detector`,
         ko: `https://www.toolkitlife.com/ko/tools/face-detector`,

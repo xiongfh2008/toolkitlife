@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/va-disability-calculator`,
         es: `https://www.toolkitlife.com/es/tools/va-disability-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/va-disability-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/va-disability-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/va-disability-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/va-disability-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/va-disability-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/va-disability-calculator`,

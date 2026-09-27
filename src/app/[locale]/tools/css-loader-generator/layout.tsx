@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/css-loader-generator`,
         es: `https://www.toolkitlife.com/es/tools/css-loader-generator`,
-        de: `https://www.toolkitlife.com/de/tools/css-loader-generator`,
-        fr: `https://www.toolkitlife.com/fr/tools/css-loader-generator`,
-        pt: `https://www.toolkitlife.com/pt/tools/css-loader-generator`,
         zh: `https://www.toolkitlife.com/zh/tools/css-loader-generator`,
         ja: `https://www.toolkitlife.com/ja/tools/css-loader-generator`,
         ko: `https://www.toolkitlife.com/ko/tools/css-loader-generator`,

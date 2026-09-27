@@ -35,9 +35,6 @@ export async function generateMetadata({
       languages: {
         en: `https://www.toolkitlife.com/en/tools/dividend-calculator`,
         es: `https://www.toolkitlife.com/es/tools/dividend-calculator`,
-        de: `https://www.toolkitlife.com/de/tools/dividend-calculator`,
-        fr: `https://www.toolkitlife.com/fr/tools/dividend-calculator`,
-        pt: `https://www.toolkitlife.com/pt/tools/dividend-calculator`,
         zh: `https://www.toolkitlife.com/zh/tools/dividend-calculator`,
         ja: `https://www.toolkitlife.com/ja/tools/dividend-calculator`,
         ko: `https://www.toolkitlife.com/ko/tools/dividend-calculator`,
