@@ -2346,6 +2346,18 @@
                 "category": "Vida",
                 "icon": "📖"
             },
+            "wallpaper-generator": {
+            "name": "Generador de fondos",
+            "description": "Crea fondos de pantalla degradados o de aurora para cualquier pantalla.",
+            "category": "Diseño",
+            "icon": "🌌"
+            },
+            "live-wallpaper-generator": {
+            "name": "Generador de fondos animados",
+            "description": "Crea fondos de pantalla 3D animados en bucle perfecto y expórtalos como vídeo.",
+            "category": "Diseño",
+            "icon": "🎬"
+            },
             "text-to-image": {
                 "name": "Texto a imagen",
                 "description": "Convierte texto de varias líneas en una imagen PNG.",
@@ -38047,6 +38059,247 @@
                 "hide": "Volver al editor"
             }
         },
+        "wallpaper-generator": {
+        "metadata": {
+        "title": "Generador de fondos - Crea fondos degradados y de aurora online",
+        "description": "Generador de fondos de pantalla gratis. Fondos degradados y de aurora para escritorio, móvil y tablet en HD, 2K y 4K. Reproducible por semilla, funciona en tu navegador."
+        },
+        "title": "Generador de fondos",
+        "description": "Genera fondos de pantalla para tu escritorio o teléfono. Elige un estilo y una paleta, ajusta el tamaño y descarga un PNG a resolución completa. Todo se genera en tu navegador a partir de una semilla.",
+        "category": "Diseño",
+        "keywords": [
+        "generador de fondos",
+        "fondos de pantalla online",
+        "fondos degradados",
+        "fondo aurora",
+        "fondo 4k",
+        "crear fondo de pantalla"
+        ],
+        "faqs": [
+        {
+        "question": "¿Puedo usar los fondos generados gratis?",
+        "answer": "Sí. Cada fondo se genera en tu navegador desde cero, sin imágenes de archivo ni problemas de licencia. Úsalos donde quieras, incluidos proyectos comerciales."
+        },
+        {
+        "question": "¿Qué tamaños puedo exportar?",
+        "answer": "Ajustes para escritorio (1080p, 2K, 4K), móviles (1170×2532, 1080×2400, 1440×3200), tablet y un ancho y alto personalizados de hasta 7680px."
+        },
+        {
+        "question": "¿Para qué sirve la semilla?",
+        "answer": "La semilla controla la composición aleatoria. La misma semilla con los mismos ajustes produce siempre la misma imagen, así puedes reproducir o afinar un fondo que te guste. El botón de dado genera una semilla aleatoria nueva."
+        },
+        {
+        "question": "¿Se suben mis imágenes a algún servidor?",
+        "answer": "No. Todo el renderizado ocurre localmente en tu navegador con canvas: nada se sube ni se guarda en un servidor."
+        }
+        ],
+        "relatedTools": [
+        {
+        "name": "Generador de imágenes OG",
+        "href": "/tools/og-image-generator"
+        },
+        {
+        "name": "Generador de ondas SVG",
+        "href": "/tools/svg-wave-generator"
+        },
+        {
+        "name": "Imagen de color sólido",
+        "href": "/tools/solid-color-image"
+        }
+        ],
+        "guide": {
+        "whatIs": {
+        "title": "¿Qué es un generador de fondos?",
+        "body": [
+        "Un generador de fondos crea fondos originales para tu escritorio, teléfono o tablet sin necesidad de saber editar imágenes. En lugar de buscar fotos de archivo, eliges un estilo y una paleta y la herramienta genera una imagen única a partir de una semilla aleatoria.",
+        "Esta herramienta admite dos estilos: degradados mesh suaves formados por manchas de color difuminadas, y cintas de aurora con bandas de luz fluidas. Cada fondo se genera localmente en tu navegador y se exporta como PNG a resolución completa."
+        ]
+        },
+        "modes": {
+        "title": "Dos estilos",
+        "intro": "Cambia entre los dos generadores con los botones de estilo:",
+        "items": [
+        "Degradado mesh — manchas de color orgánicas fundidas en un degradado suave, similar a los fondos de los sistemas operativos modernos.",
+        "Aurora — cintas translúcidas superpuestas y resplandores que recuerdan a la aurora boreal."
+        ]
+        },
+        "howTo": {
+        "title": "Cómo crear un fondo",
+        "items": [
+        "Elige un estilo: degradado mesh o aurora.",
+        "Selecciona una paleta de colores o define hasta cuatro colores personalizados.",
+        "Pulsa el botón de dado para obtener una semilla aleatoria, o escribe una semilla para reproducir un fondo anterior.",
+        "Selecciona un tamaño para escritorio, móvil o tablet, o introduce un ancho y alto personalizados.",
+        "Activa el grano de película para una textura sutil y pulsa el botón de descarga para guardar el PNG a resolución completa."
+        ]
+        },
+        "tips": {
+        "title": "Consejos",
+        "items": [
+        "Las paletas oscuras y de bajo contraste hacen que los iconos se lean mejor en la pantalla de inicio.",
+        "Para móviles, elige un ajuste con la misma proporción de pantalla para que el fondo no se recorte.",
+        "Si te gusta una composición pero quieres otros colores, conserva la semilla y cambia solo la paleta."
+        ]
+        }
+        },
+        "labels": {
+        "style": "Estilo",
+        "mesh": "Degradado mesh",
+        "aurora": "Aurora",
+        "palette": "Paleta",
+        "custom": "Personalizado",
+        "customSize": "Tamaño personalizado",
+        "color": "Color",
+        "seed": "Semilla",
+        "randomize": "Semilla aleatoria",
+        "size": "Tamaño",
+        "desktop": "Escritorio",
+        "phone": "Móvil",
+        "tablet": "Tablet",
+        "grain": "Grano de película",
+        "width": "Ancho",
+        "height": "Alto"
+        },
+        "buttons": {
+        "download": "Descargar fondo"
+        }
+        },
+        "live-wallpaper-generator": {
+        "metadata": {
+        "title": "Generador de fondos animados - Crea vídeos de fondo 3D online",
+        "description": "Crea fondos de pantalla animados gratis. Genera fondos 3D en bucle perfecto (galaxia, olas, geometría, nebulosa, globo, túnel, aurora, luciérnagas, nieve, lluvia de código, rejilla retro, lluvia) en tu navegador y expórtalos como vídeo MP4 o WebM en 1080p/4K para PC y móvil. 100% en el navegador."
+        },
+        "title": "Generador de fondos animados",
+        "description": "Genera fondos de pantalla 3D animados en bucle perfecto en tu navegador: galaxias espirales, olas fluidas, geometría en rotación, nebulosas a la deriva, un planeta punteado, túneles de neón, auroras ondulantes, luciérnagas, una nevada tranquila, lluvia de código, una rejilla retro y una lluvia nocturna. Exporta vídeo MP4/WebM en cualquier tamaño y úsalo como fondo animado en Windows o Android. Todo se genera localmente con semilla reproducible.",
+        "category": "Diseño",
+        "keywords": [
+        "fondos animados",
+        "fondo de pantalla en movimiento",
+        "wallpaper animado",
+        "vídeo de fondo",
+        "fondo 3d",
+        "crear fondo animado"
+        ],
+        "faqs": [
+        {
+        "question": "¿El fondo exportado se repite sin cortes?",
+        "answer": "Sí. Cada escena usa giros y ciclos de onda enteros, así que el primer y el último fotograma coinciden y el vídeo se reproduce sin salto visible."
+        },
+        {
+        "question": "¿Se suben mis datos a algún servidor?",
+        "answer": "No. La escena 3D y la codificación del vídeo ocurren por completo en tu navegador con WebGL y WebCodecs; nada sale de tu dispositivo."
+        },
+        {
+        "question": "¿Cómo uso el vídeo como fondo animado en el escritorio o el móvil?",
+        "answer": "Exporta el MP4 o WebM y ábrelo con una app de motor de fondos: Lively Wallpaper (gratis y de código abierto) o Wallpaper Engine en Windows; en Android, apps de fondos animados que acepten vídeo. El botón de póster exporta un PNG estático igual."
+        },
+        {
+        "question": "¿MP4 o WebM?",
+        "answer": "Si tu navegador admite WebCodecs se genera MP4 (H.264), el formato más compatible, incluido 4K. Los navegadores antiguos graban WebM en tiempo real automáticamente. Ambos funcionan en apps de fondos."
+        },
+        {
+        "question": "¿Por qué exportar en 4K es más lento que en 1080p?",
+        "answer": "Cada fotograma se renderiza y codifica a resolución completa. Un fotograma 4K tiene cuatro veces los píxeles de 1080p, así que tarda más: elige 30 fps o un bucle más corto."
+        }
+        ],
+        "relatedTools": [
+        {
+        "name": "Generador de fondos",
+        "href": "/tools/wallpaper-generator"
+        },
+        {
+        "name": "Generador de ondas SVG",
+        "href": "/tools/svg-wave-generator"
+        },
+        {
+        "name": "Imagen de color sólido",
+        "href": "/tools/solid-color-image"
+        }
+        ],
+        "guide": {
+        "whatIs": {
+        "title": "¿Qué es un generador de fondos animados?",
+        "body": [
+        "Un generador de fondos animados crea fondos en vídeo en lugar de imágenes estáticas. La herramienta renderiza doce escenas 3D procedurales —una galaxia espiral, olas fluidas, geometría giratoria, nebulosas a la deriva, un planeta punteado, un túnel de anillos de neón, auroras ondulantes, luciérnagas, una nevada tranquila, lluvia de código, una rejilla retro y una lluvia nocturna— y las codifica en un vídeo MP4/WebM en bucle.",
+        "Cada escena se compone de giros y ciclos enteros, por lo que el primer y último fotograma son idénticos. La misma semilla siempre reconstruye la misma escena."
+        ]
+        },
+        "modes": {
+        "title": "Doce escenas animadas",
+        "intro": "Cambia de escena con los botones sobre el lienzo:",
+        "items": [
+        "Galaxia — galaxia de partículas espiral con anillos de rotación diferencial y brillo central suave.",
+        "Olas — campo de olas con colores de la paleta, horizonte con niebla y un balanceo suave de cámara.",
+        "Geometría — icosaedros y toros flotantes con sombreado metálico que giran despacio.",
+        "Nebulosa — nubes de gas a la deriva hechas de partículas suaves aditivas que pulsan con calma.",
+        "Globo — planeta punteado en esfera de Fibonacci con carcasa wireframe, resplandor atmosférico y un campo de estrellas en rotación inversa.",
+        "Túnel — anillos de neón que fluyen hacia la cámara, cada uno girando y pulsando suavemente, con un brillo intenso al fondo.",
+        "Aurora — cortinas de luz ondulantes sobre un cielo estrellado con gradientes aditivos.",
+        "Luciérnagas — partículas brillantes que derivan en trayectorias de Lissajous y pulsan suavemente en la oscuridad.",
+        "Nieve — una nevada tranquila de copos a la deriva que se repite sin costuras de arriba a abajo.",
+        "Lluvia de código — columnas de glifos brillantes que caen en cascada al estilo cyber clásico.",
+        "Rejilla retro — una rejilla neón retro que corre hacia un sol resplandeciente en el horizonte.",
+        "Lluvia — trazos inclinados de lluvia nocturna cayendo rápido entre la niebla."
+        ]
+        },
+        "howTo": {
+        "title": "Cómo crear un fondo animado",
+        "items": [
+        "Elige una escena: Galaxia, Olas, Geometría, Nebulosa, Globo, Túnel, Aurora, Luciérnagas, Nieve, Lluvia de código, Rejilla retro o Lluvia.",
+        "Elige una paleta o define hasta cuatro colores personalizados.",
+        "Lanza el dado para una semilla aleatoria o escribe una semilla para reproducir una escena.",
+        "Elige un tamaño para escritorio, móvil o tablet, la duración del bucle y los fps.",
+        "Pulsa exportar para renderizar el MP4 fotograma a fotograma y establécelo como fondo animado en una app de fondos. El botón de póster guarda un PNG estático."
+        ]
+        },
+        "tips": {
+        "title": "Consejos",
+        "items": [
+        "En la mayoría de GPU la exportación MP4 es más rápida que el tiempo real: un bucle de 10 s en 1080p tarda unos segundos.",
+        "Para móviles prefiere 30 fps y bucles de 5 s: ahorra batería.",
+        "Las paletas oscuras hacen legibles los iconos; en pantallas siempre encendidas usa colores de baja luminosidad.",
+        "Si el botón muestra WebM, tu navegador no tiene WebCodecs: Chrome, Edge o Safari 16.4+ generan MP4."
+        ]
+        }
+        },
+        "labels": {
+        "scene": "Escena",
+        "galaxy": "Galaxia",
+        "waves": "Olas",
+        "geometry": "Geometría",
+        "nebula": "Nebulosa",
+        "globe": "Globo",
+        "tunnel": "Túnel",
+        "aurora": "Aurora",
+        "fireflies": "Luciérnagas",
+        "snow": "Nieve",
+        "matrix": "Lluvia de código",
+        "grid": "Rejilla retro",
+        "rain": "Lluvia",
+        "palette": "Paleta",
+        "custom": "Personalizado",
+        "customSize": "Tamaño personalizado",
+        "color": "Color",
+        "seed": "Semilla",
+        "randomize": "Semilla aleatoria",
+        "size": "Tamaño",
+        "desktop": "Escritorio",
+        "phone": "Móvil",
+        "tablet": "Tablet",
+        "width": "Ancho",
+        "height": "Alto",
+        "duration": "Duración del bucle",
+        "seconds": "s",
+        "fps": "FPS",
+        "exporting": "Exportando",
+        "cancel": "Cancelar",
+        "oddHint": "H.264 (MP4) requiere ancho y alto pares: ajusta los tamaños personalizados a números pares."
+        },
+        "buttons": {
+        "exportVideo": "Exportar vídeo",
+        "poster": "Exportar póster"
+        }
+        },
         "text-to-image": {
             "metadata": {
                 "title": "Texto a imagen - Convierte texto en PNG en línea",
@@ -38376,6 +38629,10 @@
         "how-to-compress-images": {
             "title": "Cómo comprimir imágenes sin perder calidad (Guía 2026)",
             "description": "Reduce el tamaño de las imágenes en un 70-90% con el formato y la calidad adecuados. Cubre JPEG, PNG, WebP y AVIF, objetivos de tamaño exacto como 100 KB y un compresor gratuito en el navegador."
+        },
+        "how-to-make-a-live-wallpaper": {
+            "title": "Cómo hacer un fondo de pantalla animado en PC y móvil (gratis, guía 2026)",
+            "description": "Crea fondos de pantalla animados con bucle perfecto en tu navegador: 12 escenas 3D integradas, exportación MP4 4K, paletas y semillas. Además, cómo configurar un fondo animado en Windows, Android y iPhone."
         },
         "how-to-transfer-files": {
             "title": "Cómo transferir archivos entre el teléfono y el portátil sin USB (Guía 2026)",

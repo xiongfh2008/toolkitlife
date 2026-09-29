@@ -1,6 +1,6 @@
 # ToolkitLife — Free Online Tools & Calculators
 
-> ToolkitLife is a collection of 379 free, browser-based tools and calculators. No signup required. No data stored. All processing happens locally in the user's browser.
+> ToolkitLife is a collection of 381 free, browser-based tools and calculators. No signup required. No data stored. All processing happens locally in the user's browser.
 Localized in English, 简体中文, 日本語, 한국어, Русский and Español.
 
 ## Tools
@@ -100,6 +100,8 @@ Localized in English, 简体中文, 日本語, 한국어, Русский and Esp
 - [GIF to Images Splitter](https://toolkitlife.com/tools/gif-to-images): Extract all frames from a GIF as individual images. Export each frame as PNG, WEBP, or JPEG, or download all frames as a ZIP. No upload, runs in your browser.
 - [Video Watermark](https://toolkitlife.com/tools/video-watermark): Add text or image watermarks to videos free, directly in your browser.
 - [Image Watermark](https://toolkitlife.com/tools/image-watermark): Add text or image watermarks to single or multiple images with full control.
+- [Wallpaper Generator](https://toolkitlife.com/tools/wallpaper-generator): Generate mesh gradient or aurora wallpapers in any screen size.
+- [Live Wallpaper Generator](https://toolkitlife.com/tools/live-wallpaper-generator): Create seamless-loop 3D animated wallpapers and export them as video.
 
 ### Utility Tools
 - [QR Code Generator](https://toolkitlife.com/tools/qr-code-generator): Generate customizable QR codes from any text or URL

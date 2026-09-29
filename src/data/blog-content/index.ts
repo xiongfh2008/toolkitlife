@@ -11,6 +11,7 @@ import { content as howToCreateDigitalSignature } from "./how-to-create-digital-
 import { content as howToCreateStrongPassword } from "./how-to-create-a-strong-password";
 import { content as howToExtractTextFromImages } from "./how-to-extract-text-from-images";
 import { content as howToMakeMemes } from "./how-to-make-memes";
+import { content as howToMakeALiveWallpaper } from "./how-to-make-a-live-wallpaper";
 import { content as howToRecordYourScreen } from "./how-to-record-your-screen";
 import { content as howToRemoveBackgroundFromImage } from "./how-to-remove-background-from-image";
 import { content as howToTransferFiles } from "./how-to-transfer-files";
@@ -48,4 +49,5 @@ export const blogContent: Record<string, BlogContent> = {
   "how-to-remove-background-from-image": howToRemoveBackgroundFromImage,
   "how-to-transfer-files": howToTransferFiles,
   "how-to-upscale-images": howToUpscaleImages,
+  "how-to-make-a-live-wallpaper": howToMakeALiveWallpaper,
 };

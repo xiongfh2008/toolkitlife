@@ -171,6 +171,17 @@ export const blogPostsMeta: BlogPostMeta[] = [
       { title: "How to Upscale Images", href: "/blog/how-to-upscale-images" },
     ],
   },
+  {
+    slug: "how-to-make-a-live-wallpaper",
+    author: "ToolkitLife Team",
+    datePublished: "2026-09-30",
+    dateModified: "2026-09-30",
+    tags: ["Live Wallpaper", "Wallpaper", "Desktop Customization", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Compress Video Without Losing Quality", href: "/blog/how-to-compress-video" },
+      { title: "How to Check for Dead Pixels and Backlight Bleed", href: "/blog/how-to-check-dead-pixels" },
+    ],
+  },
 ];
 
 export function getPostMeta(slug: string): BlogPostMeta {

@@ -51,6 +51,8 @@ const BASE_SCENES: HomeScene[] = [
       "placeholder-image",
       "svg-blob-generator",
       "svg-wave-generator",
+      "wallpaper-generator",
+      "live-wallpaper-generator",
       "aspect-ratio-calculator",
       "ai-object-eraser",
       "image-to-relief",

@@ -2346,6 +2346,18 @@
         "category": "Life",
         "icon": "📖"
       },
+      "wallpaper-generator": {
+        "name": "Wallpaper Generator",
+        "description": "Generate mesh gradient or aurora wallpapers in any screen size.",
+        "category": "Design",
+        "icon": "🌌"
+      },
+      "live-wallpaper-generator": {
+        "name": "Live Wallpaper Generator",
+        "description": "Create seamless-loop 3D animated wallpapers and export them as video.",
+        "category": "Design",
+        "icon": "🎬"
+      },
       "text-to-image": {
         "name": "Text to Image",
         "description": "Render multi-line text into a PNG image.",
@@ -38047,6 +38059,247 @@
         "hide": "Back to Editor"
       }
     },
+    "wallpaper-generator": {
+      "metadata": {
+        "title": "Wallpaper Generator - Create Gradient & Aurora Wallpapers Online",
+        "description": "Free online wallpaper generator. Create mesh gradient and aurora style wallpapers for desktop, phone and tablet in HD, 2K and 4K. Reproducible via seed, runs in your browser."
+      },
+      "title": "Wallpaper Generator",
+      "description": "Generate beautiful wallpapers for your desktop or phone. Pick a style and palette, adjust the size, and download a full-resolution PNG — everything is rendered in your browser from a reproducible seed.",
+      "category": "Design",
+      "keywords": [
+        "wallpaper generator",
+        "gradient wallpaper maker",
+        "phone wallpaper generator",
+        "aesthetic wallpaper maker",
+        "4k wallpaper generator",
+        "background generator"
+      ],
+      "faqs": [
+        {
+          "question": "Are the generated wallpapers free to use?",
+          "answer": "Yes. Every wallpaper is rendered in your browser from scratch — no stock images and no licensing issues. Use them anywhere, including commercial projects."
+        },
+        {
+          "question": "What sizes can I export?",
+          "answer": "Presets for desktop (1080p, 1440p, 4K), phones (1170×2532, 1080×2400, 1440×3200), tablets, plus a custom width and height up to 7680px."
+        },
+        {
+          "question": "What is the seed for?",
+          "answer": "The seed drives the random layout. The same seed with the same settings always produces the same image, so you can reproduce or fine-tune a wallpaper you like. Use the dice button for a fresh random seed."
+        },
+        {
+          "question": "Do my images get uploaded anywhere?",
+          "answer": "No. All rendering happens locally in your browser with canvas — nothing is uploaded or stored on a server."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "OG Image Generator",
+          "href": "/tools/og-image-generator"
+        },
+        {
+          "name": "SVG Wave Generator",
+          "href": "/tools/svg-wave-generator"
+        },
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        }
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "What is a wallpaper generator?",
+          "body": [
+            "A wallpaper generator creates original backgrounds for your desktop, phone or tablet without any image editing skills. Instead of searching for stock photos, you pick a style and a color palette and the tool renders a unique image from a random seed.",
+            "This tool supports two styles: smooth mesh gradients made of softly blended color blobs, and aurora ribbons with flowing bands of light. Every wallpaper is rendered locally in your browser and exported as a full-resolution PNG."
+          ]
+        },
+        "modes": {
+          "title": "Two styles",
+          "intro": "Switch between the two generators with the style buttons:",
+          "items": [
+            "Mesh Gradient — organic color blobs blended into a smooth gradient, similar to modern operating system backgrounds.",
+            "Aurora — layered translucent ribbons and glows that resemble the northern lights."
+          ]
+        },
+        "howTo": {
+          "title": "How to create a wallpaper",
+          "items": [
+            "Pick a style: Mesh Gradient or Aurora.",
+            "Choose a color palette swatch or define up to four custom colors.",
+            "Press the dice button to roll a random seed, or type a seed to reproduce a previous wallpaper.",
+            "Select an output size preset for desktop, phone or tablet, or enter a custom width and height.",
+            "Toggle film grain for a subtle texture, then click the download button to save the PNG at full resolution."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "Dark palettes with low contrast make app icons easier to read on a home screen.",
+            "For phones, pick a preset with a matching aspect ratio so the wallpaper is not cropped.",
+            "If you find a layout you like but want different colors, keep the seed and only change the palette."
+          ]
+        }
+      },
+      "labels": {
+        "style": "Style",
+        "mesh": "Mesh Gradient",
+        "aurora": "Aurora",
+        "palette": "Palette",
+        "custom": "Custom",
+        "customSize": "Custom size",
+        "color": "Color",
+        "seed": "Seed",
+        "randomize": "Random seed",
+        "size": "Size",
+        "desktop": "Desktop",
+        "phone": "Phone",
+        "tablet": "Tablet",
+        "grain": "Film grain",
+        "width": "Width",
+        "height": "Height"
+      },
+      "buttons": {
+        "download": "Download Wallpaper"
+      }
+    },
+    "live-wallpaper-generator": {
+      "metadata": {
+        "title": "Live Wallpaper Generator - Create 3D Animated Wallpaper Videos Online",
+        "description": "Free live wallpaper maker. Generate seamless-loop 3D animated wallpapers (galaxy, waves, geometry, nebula, globe, tunnel, aurora, fireflies, snow, code rain, synth grid, rain) in your browser and export 1080p/4K MP4 or WebM video for PC and phone. 100% client-side, nothing is uploaded."
+      },
+      "title": "Live Wallpaper Generator",
+      "description": "Generate seamless-loop 3D animated wallpapers in your browser — spiral galaxies, flowing waves, rotating geometry, nebulae, a dotted globe, neon tunnels, waving auroras, wandering fireflies, a quiet snowfall, cascading code rain, a retro synth grid and a night rain shower. Export MP4/WebM video in any screen size and set it as a live wallpaper on Windows, macOS or Android. Everything runs locally from a reproducible seed.",
+      "category": "Design",
+      "keywords": [
+        "live wallpaper maker",
+        "animated wallpaper generator",
+        "3d wallpaper maker",
+        "dynamic wallpaper",
+        "loop wallpaper video",
+        "wallpaper video maker"
+      ],
+      "faqs": [
+        {
+          "question": "Does the exported wallpaper loop seamlessly?",
+          "answer": "Yes. Every scene is built from whole rotations and whole wave cycles per loop, so the first and last frames match and the video plays without a visible jump."
+        },
+        {
+          "question": "Are my data or images uploaded to a server?",
+          "answer": "No. The 3D scene is generated and the video is encoded entirely inside your browser using WebGL and WebCodecs — nothing ever leaves your device."
+        },
+        {
+          "question": "How do I set the video as a desktop or phone wallpaper?",
+          "answer": "Export the MP4 or WebM and open it with a wallpaper engine app: Lively Wallpaper (free, open source) or Wallpaper Engine on Windows; on Android use a live wallpaper app that accepts videos. The poster button exports a matching still PNG."
+        },
+        {
+          "question": "MP4 or WebM — which should I choose?",
+          "answer": "MP4 (H.264) is produced when your browser supports WebCodecs and is the most compatible choice, including 4K. Older browsers automatically fall back to realtime WebM recording. Both formats work with wallpaper apps."
+        },
+        {
+          "question": "Why is 4K export slower than 1080p?",
+          "answer": "Frames are rendered and encoded one at a time at full resolution. A 4K frame carries four times the pixels of 1080p, so encoding takes longer — pick 30 fps or a shorter loop for the fastest results."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Wallpaper Generator",
+          "href": "/tools/wallpaper-generator"
+        },
+        {
+          "name": "SVG Wave Generator",
+          "href": "/tools/svg-wave-generator"
+        },
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        }
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "What is a live wallpaper generator?",
+          "body": [
+            "A live wallpaper generator creates animated video backgrounds instead of static images. This tool renders twelve generative 3D scenes — a spiral galaxy, flowing waves, a rotating geometry field, drifting nebulae, a dotted planet, a neon ring tunnel, waving auroras, wandering fireflies, a quiet snowfall, cascading code rain, a retro synth grid and a night rain shower — and encodes them into a looping MP4 or WebM video you can set as your desktop or phone wallpaper.",
+            "Every scene is built from whole rotations and whole wave cycles, which makes the first and last frame identical: the video loops seamlessly. The same seed always rebuilds the same scene, so results are reproducible and shareable."
+          ]
+        },
+        "modes": {
+          "title": "Twelve animated scenes",
+          "intro": "Switch scenes with the buttons above the canvas:",
+          "items": [
+            "Galaxy — a spiral particle galaxy with differential ring rotation and a soft core glow.",
+            "Waves — a flowing wave field with palette-mapped colors, a fog horizon and a gentle camera sway.",
+            "Geometry — a floating grid of rotating icosahedrons and torus rings with metallic shading.",
+            "Nebula — drifting gas clouds made of soft additive particles that pulse gently in place.",
+            "Globe — a dotted fibonacci planet with a wireframe shell, atmosphere glow and a counter-rotating starfield.",
+            "Tunnel — neon rings streaming toward the camera with per-ring spin, a subtle pulse and a bright far-end glow.",
+            "Aurora — luminous curtains of light waving over a starry sky with additive color gradients.",
+            "Fireflies — glowing particles drifting on lissajous paths, gently pulsing in the dark.",
+            "Snow — a quiet snowfall of drifting flakes wrapping seamlessly from top to bottom.",
+            "Code Rain — cascading columns of glowing glyphs streaming down like in a cyber classic.",
+            "Synth Grid — a retro neon grid racing toward a glowing sun on the horizon.",
+            "Rain — slanted streaks of night rain falling fast through the fog."
+          ]
+        },
+        "howTo": {
+          "title": "How to create a live wallpaper",
+          "items": [
+            "Pick a scene: Galaxy, Waves, Geometry, Nebula, Globe, Tunnel, Aurora, Fireflies, Snow, Code Rain, Synth Grid or Rain.",
+            "Choose a color palette swatch or define up to four custom colors.",
+            "Roll a random seed with the dice button, or type a seed to reproduce a previous scene.",
+            "Select a size preset for desktop, phone or tablet, plus the loop duration and frame rate.",
+            "Click the export button to render the MP4 video frame by frame, then set it as your live wallpaper in a wallpaper engine app. Use the poster button for a matching still PNG."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "On most GPUs MP4 export is faster than realtime — a 10-second 1080p loop typically renders in a few seconds.",
+            "For battery-friendly phone wallpapers, prefer 30 fps and a 5-second loop.",
+            "Dark palettes make desktop icons easier to read; keep brightness low for always-on displays.",
+            "If the export button shows WebM, your browser lacks WebCodecs — Chrome, Edge or Safari 16.4+ will produce MP4."
+          ]
+        }
+      },
+      "labels": {
+        "scene": "Scene",
+        "galaxy": "Galaxy",
+        "waves": "Waves",
+        "geometry": "Geometry",
+        "nebula": "Nebula",
+        "globe": "Globe",
+        "tunnel": "Tunnel",
+        "aurora": "Aurora",
+        "fireflies": "Fireflies",
+        "snow": "Snow",
+        "matrix": "Code Rain",
+        "grid": "Synth Grid",
+        "rain": "Rain",
+        "palette": "Palette",
+        "custom": "Custom",
+        "customSize": "Custom size",
+        "color": "Color",
+        "seed": "Seed",
+        "randomize": "Random seed",
+        "size": "Size",
+        "desktop": "Desktop",
+        "phone": "Phone",
+        "tablet": "Tablet",
+        "width": "Width",
+        "height": "Height",
+        "duration": "Loop duration",
+        "seconds": "s",
+        "fps": "Frame rate",
+        "exporting": "Exporting",
+        "cancel": "Cancel",
+        "oddHint": "H.264 (MP4) requires even width and height — round custom sizes to even numbers for MP4 export."
+      },
+      "buttons": {
+        "exportVideo": "Export Video",
+        "poster": "Export Poster"
+      }
+    },
     "text-to-image": {
       "metadata": {
         "title": "Text to Image - Render Text as PNG Online",
@@ -38376,6 +38629,10 @@
     "how-to-compress-images": {
       "title": "How to Compress Images Without Losing Quality (2026 Guide)",
       "description": "Cut image file size by 70-90% with the right format and quality settings. Covers JPEG, PNG, WebP and AVIF, exact-size targets like 100 KB, and a free browser compressor."
+    },
+    "how-to-make-a-live-wallpaper": {
+      "title": "How to Make a Live Wallpaper on PC and Phone (Free, 2026 Guide)",
+      "description": "Create seamless-looping animated wallpapers in your browser: 12 built-in 3D scenes, 4K MP4 export, palettes and seeds. Plus how to set a live wallpaper on Windows, Android and iPhone."
     },
     "how-to-transfer-files": {
       "title": "How to Transfer Files Between Phone and Laptop Without USB (2026 Guide)",
