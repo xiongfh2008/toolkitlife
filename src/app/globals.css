@@ -39,9 +39,35 @@
   --color-green-500: #22C55E;
   --color-green-600: #16A34A;
 
-  /* Fresh reds */
-  --color-red-400: #F87171;
+  /* Fresh reds — light shades remapped dark so text-red-300/400 stay
+     readable on the light background (dark mode pins the original values) */
+  --color-red-300: #B91C1C;
+  --color-red-400: #DC2626;
   --color-red-500: #EF4444;
+
+  /* Same treatment for green / yellow / orange text shades */
+  --color-green-300: #166534;
+  --color-green-400: #15803D;
+  --color-yellow-300: #854D0E;
+  --color-yellow-400: #A16207;
+  --color-orange-300: #9A3412;
+  --color-orange-400: #C2410C;
+
+  /* And the remaining accent hues used as text (audit: no bg usage
+     except a 1.5px status dot in currency-converter) */
+  --color-emerald-300: #065F46;
+  --color-emerald-400: #047857;
+  --color-amber-200: #78350F;
+  --color-amber-300: #92400E;
+  --color-amber-400: #B45309;
+  --color-rose-400: #BE123C;
+  --color-purple-300: #7E22CE;
+  --color-violet-300: #6D28D9;
+  --color-violet-400: #7C3AED;
+  --color-cyan-400: #0E7490;
+  --color-teal-400: #0F766E;
+  --color-lime-400: #4D7C0F;
+  --color-pink-400: #BE185D;
 
   /* Fresh yellows */
   --color-yellow-500: #F59E0B;
@@ -96,6 +122,27 @@
   --color-green-500: #22C55E;
   --color-green-600: #22C55E;
   --color-green-700: #34D399;
+
+  /* Dark-mode pins for the shades that light mode remaps darker */
+  --color-red-300: #FCA5A5;
+  --color-green-300: #6EE7B7;
+  --color-yellow-300: #FCD34D;
+  --color-yellow-400: #FACC15;
+  --color-orange-300: #FDBA74;
+  --color-orange-400: #FB923C;
+  --color-emerald-300: #6EE7B7;
+  --color-emerald-400: #34D399;
+  --color-amber-200: #FDE68A;
+  --color-amber-300: #FCD34D;
+  --color-amber-400: #FBBF24;
+  --color-rose-400: #FB7185;
+  --color-purple-300: #D8B4FE;
+  --color-violet-300: #C4B5FD;
+  --color-violet-400: #A78BFA;
+  --color-cyan-400: #22D3EE;
+  --color-teal-400: #2DD4BF;
+  --color-lime-400: #A3E635;
+  --color-pink-400: #F472B6;
 
   --color-red-400: #F87171;
   --color-red-500: #EF4444;

@@ -53,7 +53,8 @@ export default function VideoTranscriptPage() {
         const code = data?.error;
         if (code === "invalid_url") setError(t("errors.invalidUrl"));
         else if (code === "unsupported_url") setError(t("errors.unsupported"));
-        else if (code === "bili_no_subtitle") setError(t("errors.noSubtitle"));
+        else if (code === "bili_no_subtitle" || code === "no_subtitle") setError(t("errors.noSubtitle"));
+        else if (code === "yt_bot_check") setError(t("errors.botCheck"));
         else if (code === "bili_view_failed") setError(t("errors.biliFailed"));
         else setError(t("errors.failed"));
         return;
@@ -159,7 +160,7 @@ export default function VideoTranscriptPage() {
           </div>
 
           {error && (
-            <div className="bg-red-900/30 border border-red-800 rounded-lg p-3 text-sm text-red-300">{error}</div>
+            <div className="bg-red-500/10 border border-red-500/40 rounded-lg p-3 text-sm font-medium text-red-600">{error}</div>
           )}
         </div>
 
