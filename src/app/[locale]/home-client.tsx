@@ -304,6 +304,21 @@ export default function HomePage() {
             );
           })}
         </div>
+        {/* External video downloader entry — opens in a new tab */}
+        <div className="mt-5 flex justify-center">
+          <a
+            href="https://vidsavey.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-zinc-700 bg-zinc-900 px-5 py-2.5 text-sm font-medium text-zinc-200 shadow-sm transition-colors hover:border-blue-500/50 hover:text-blue-600"
+          >
+            <span aria-hidden>📥</span>
+            {t("videoDownload")}
+            <span aria-hidden className="text-xs text-zinc-500">
+              ↗
+            </span>
+          </a>
+        </div>
       </div>
 
       {query ? (
