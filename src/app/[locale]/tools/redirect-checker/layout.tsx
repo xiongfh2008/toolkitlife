@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/redirect-checker`,
+      url: `https://toolkitlife.com/${locale}/tools/redirect-checker`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/redirect-checker`,
+      canonical: `https://toolkitlife.com/${locale}/tools/redirect-checker`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/redirect-checker`,
-        es: `https://www.toolkitlife.com/es/tools/redirect-checker`,
-        zh: `https://www.toolkitlife.com/zh/tools/redirect-checker`,
-        ja: `https://www.toolkitlife.com/ja/tools/redirect-checker`,
-        ko: `https://www.toolkitlife.com/ko/tools/redirect-checker`,
-        ru: `https://www.toolkitlife.com/ru/tools/redirect-checker`,
-        "x-default": `https://www.toolkitlife.com/en/tools/redirect-checker`,
+        en: `https://toolkitlife.com/en/tools/redirect-checker`,
+        es: `https://toolkitlife.com/es/tools/redirect-checker`,
+        zh: `https://toolkitlife.com/zh/tools/redirect-checker`,
+        ja: `https://toolkitlife.com/ja/tools/redirect-checker`,
+        ko: `https://toolkitlife.com/ko/tools/redirect-checker`,
+        ru: `https://toolkitlife.com/ru/tools/redirect-checker`,
+        "x-default": `https://toolkitlife.com/en/tools/redirect-checker`,
       },
     },
   };

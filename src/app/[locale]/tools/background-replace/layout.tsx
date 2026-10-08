@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/background-replace`,
+      url: `https://toolkitlife.com/${locale}/tools/background-replace`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/background-replace`,
+      canonical: `https://toolkitlife.com/${locale}/tools/background-replace`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/background-replace`,
-        es: `https://www.toolkitlife.com/es/tools/background-replace`,
-        zh: `https://www.toolkitlife.com/zh/tools/background-replace`,
-        ja: `https://www.toolkitlife.com/ja/tools/background-replace`,
-        ko: `https://www.toolkitlife.com/ko/tools/background-replace`,
-        ru: `https://www.toolkitlife.com/ru/tools/background-replace`,
-        "x-default": `https://www.toolkitlife.com/en/tools/background-replace`,
+        en: `https://toolkitlife.com/en/tools/background-replace`,
+        es: `https://toolkitlife.com/es/tools/background-replace`,
+        zh: `https://toolkitlife.com/zh/tools/background-replace`,
+        ja: `https://toolkitlife.com/ja/tools/background-replace`,
+        ko: `https://toolkitlife.com/ko/tools/background-replace`,
+        ru: `https://toolkitlife.com/ru/tools/background-replace`,
+        "x-default": `https://toolkitlife.com/en/tools/background-replace`,
       },
     },
   };

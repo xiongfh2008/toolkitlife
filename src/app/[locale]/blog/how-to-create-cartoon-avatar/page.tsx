@@ -29,7 +29,7 @@ const basePost = {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const post = await getTranslatedPost(locale, slug, basePost);
-  const url = `https://www.toolkitlife.com/${locale}/blog/${post.slug}`;
+  const url = `https://toolkitlife.com/${locale}/blog/${post.slug}`;
   const ogImage = ogImageUrl({ title: post.title, type: "blog" });
   return {
     title: post.title,
@@ -37,13 +37,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     alternates: {
       canonical: url,
       languages: {
-        en: `https://www.toolkitlife.com/en/blog/${post.slug}`,
-        es: `https://www.toolkitlife.com/es/blog/${post.slug}`,
-        zh: `https://www.toolkitlife.com/zh/blog/${post.slug}`,
-        ja: `https://www.toolkitlife.com/ja/blog/${post.slug}`,
-        ko: `https://www.toolkitlife.com/ko/blog/${post.slug}`,
-        ru: `https://www.toolkitlife.com/ru/blog/${post.slug}`,
-        "x-default": `https://www.toolkitlife.com/en/blog/${post.slug}`,
+        en: `https://toolkitlife.com/en/blog/${post.slug}`,
+        es: `https://toolkitlife.com/es/blog/${post.slug}`,
+        zh: `https://toolkitlife.com/zh/blog/${post.slug}`,
+        ja: `https://toolkitlife.com/ja/blog/${post.slug}`,
+        ko: `https://toolkitlife.com/ko/blog/${post.slug}`,
+        ru: `https://toolkitlife.com/ru/blog/${post.slug}`,
+        "x-default": `https://toolkitlife.com/en/blog/${post.slug}`,
       },
     },
     openGraph: { title: post.title, description: post.description, url, siteName: "ToolkitLife", type: "article", publishedTime: post.datePublished, modifiedTime: post.dateModified, tags: post.tags, images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }] },

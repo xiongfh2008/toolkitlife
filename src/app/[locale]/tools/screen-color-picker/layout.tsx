@@ -23,7 +23,7 @@ export async function generateMetadata({
     title: t("title"),
     openGraph: {
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/screen-color-picker`,
+      url: `https://toolkitlife.com/${locale}/tools/screen-color-picker`,
       siteName: "ToolkitLife",
       images: [
         {
@@ -40,15 +40,15 @@ export async function generateMetadata({
     },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/screen-color-picker`,
+      canonical: `https://toolkitlife.com/${locale}/tools/screen-color-picker`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/screen-color-picker`,
-        es: `https://www.toolkitlife.com/es/tools/screen-color-picker`,
-        zh: `https://www.toolkitlife.com/zh/tools/screen-color-picker`,
-        ja: `https://www.toolkitlife.com/ja/tools/screen-color-picker`,
-        ko: `https://www.toolkitlife.com/ko/tools/screen-color-picker`,
-        ru: `https://www.toolkitlife.com/ru/tools/screen-color-picker`,
-        "x-default": `https://www.toolkitlife.com/en/tools/screen-color-picker`,
+        en: `https://toolkitlife.com/en/tools/screen-color-picker`,
+        es: `https://toolkitlife.com/es/tools/screen-color-picker`,
+        zh: `https://toolkitlife.com/zh/tools/screen-color-picker`,
+        ja: `https://toolkitlife.com/ja/tools/screen-color-picker`,
+        ko: `https://toolkitlife.com/ko/tools/screen-color-picker`,
+        ru: `https://toolkitlife.com/ru/tools/screen-color-picker`,
+        "x-default": `https://toolkitlife.com/en/tools/screen-color-picker`,
       },
     },
   };

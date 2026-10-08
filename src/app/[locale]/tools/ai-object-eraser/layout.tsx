@@ -17,7 +17,7 @@ export async function generateMetadata({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: `tools.${SLUG}` });
-  const url = `https://www.toolkitlife.com/${locale}/tools/${SLUG}`;
+  const url = `https://toolkitlife.com/${locale}/tools/${SLUG}`;
   return {
     title: t("metadata.title"),
     keywords: t.raw("keywords") as string[],
@@ -42,13 +42,13 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/${SLUG}`,
-        es: `https://www.toolkitlife.com/es/tools/${SLUG}`,
-        zh: `https://www.toolkitlife.com/zh/tools/${SLUG}`,
-        ja: `https://www.toolkitlife.com/ja/tools/${SLUG}`,
-        ko: `https://www.toolkitlife.com/ko/tools/${SLUG}`,
-        ru: `https://www.toolkitlife.com/ru/tools/${SLUG}`,
-        "x-default": `https://www.toolkitlife.com/en/tools/${SLUG}`,
+        en: `https://toolkitlife.com/en/tools/${SLUG}`,
+        es: `https://toolkitlife.com/es/tools/${SLUG}`,
+        zh: `https://toolkitlife.com/zh/tools/${SLUG}`,
+        ja: `https://toolkitlife.com/ja/tools/${SLUG}`,
+        ko: `https://toolkitlife.com/ko/tools/${SLUG}`,
+        ru: `https://toolkitlife.com/ru/tools/${SLUG}`,
+        "x-default": `https://toolkitlife.com/en/tools/${SLUG}`,
       },
     },
   };

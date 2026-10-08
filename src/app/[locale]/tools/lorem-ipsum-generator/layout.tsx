@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/lorem-ipsum-generator`,
+      url: `https://toolkitlife.com/${locale}/tools/lorem-ipsum-generator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/lorem-ipsum-generator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/lorem-ipsum-generator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/lorem-ipsum-generator`,
-        es: `https://www.toolkitlife.com/es/tools/lorem-ipsum-generator`,
-        zh: `https://www.toolkitlife.com/zh/tools/lorem-ipsum-generator`,
-        ja: `https://www.toolkitlife.com/ja/tools/lorem-ipsum-generator`,
-        ko: `https://www.toolkitlife.com/ko/tools/lorem-ipsum-generator`,
-        ru: `https://www.toolkitlife.com/ru/tools/lorem-ipsum-generator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/lorem-ipsum-generator`,
+        en: `https://toolkitlife.com/en/tools/lorem-ipsum-generator`,
+        es: `https://toolkitlife.com/es/tools/lorem-ipsum-generator`,
+        zh: `https://toolkitlife.com/zh/tools/lorem-ipsum-generator`,
+        ja: `https://toolkitlife.com/ja/tools/lorem-ipsum-generator`,
+        ko: `https://toolkitlife.com/ko/tools/lorem-ipsum-generator`,
+        ru: `https://toolkitlife.com/ru/tools/lorem-ipsum-generator`,
+        "x-default": `https://toolkitlife.com/en/tools/lorem-ipsum-generator`,
       },
     },
   };

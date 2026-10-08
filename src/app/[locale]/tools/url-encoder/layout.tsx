@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/url-encoder`,
+      url: `https://toolkitlife.com/${locale}/tools/url-encoder`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/url-encoder`,
+      canonical: `https://toolkitlife.com/${locale}/tools/url-encoder`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/url-encoder`,
-        es: `https://www.toolkitlife.com/es/tools/url-encoder`,
-        zh: `https://www.toolkitlife.com/zh/tools/url-encoder`,
-        ja: `https://www.toolkitlife.com/ja/tools/url-encoder`,
-        ko: `https://www.toolkitlife.com/ko/tools/url-encoder`,
-        ru: `https://www.toolkitlife.com/ru/tools/url-encoder`,
-        "x-default": `https://www.toolkitlife.com/en/tools/url-encoder`,
+        en: `https://toolkitlife.com/en/tools/url-encoder`,
+        es: `https://toolkitlife.com/es/tools/url-encoder`,
+        zh: `https://toolkitlife.com/zh/tools/url-encoder`,
+        ja: `https://toolkitlife.com/ja/tools/url-encoder`,
+        ko: `https://toolkitlife.com/ko/tools/url-encoder`,
+        ru: `https://toolkitlife.com/ru/tools/url-encoder`,
+        "x-default": `https://toolkitlife.com/en/tools/url-encoder`,
       },
     },
   };

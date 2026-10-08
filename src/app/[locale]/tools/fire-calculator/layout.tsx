@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/fire-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/fire-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/fire-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/fire-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/fire-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/fire-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/fire-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/fire-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/fire-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/fire-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/fire-calculator`,
+        en: `https://toolkitlife.com/en/tools/fire-calculator`,
+        es: `https://toolkitlife.com/es/tools/fire-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/fire-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/fire-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/fire-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/fire-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/fire-calculator`,
       },
     },
   };

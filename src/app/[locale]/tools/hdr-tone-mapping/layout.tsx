@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/hdr-tone-mapping`,
+      url: `https://toolkitlife.com/${locale}/tools/hdr-tone-mapping`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/hdr-tone-mapping`,
+      canonical: `https://toolkitlife.com/${locale}/tools/hdr-tone-mapping`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/hdr-tone-mapping`,
-        es: `https://www.toolkitlife.com/es/tools/hdr-tone-mapping`,
-        zh: `https://www.toolkitlife.com/zh/tools/hdr-tone-mapping`,
-        ja: `https://www.toolkitlife.com/ja/tools/hdr-tone-mapping`,
-        ko: `https://www.toolkitlife.com/ko/tools/hdr-tone-mapping`,
-        ru: `https://www.toolkitlife.com/ru/tools/hdr-tone-mapping`,
-        "x-default": `https://www.toolkitlife.com/en/tools/hdr-tone-mapping`,
+        en: `https://toolkitlife.com/en/tools/hdr-tone-mapping`,
+        es: `https://toolkitlife.com/es/tools/hdr-tone-mapping`,
+        zh: `https://toolkitlife.com/zh/tools/hdr-tone-mapping`,
+        ja: `https://toolkitlife.com/ja/tools/hdr-tone-mapping`,
+        ko: `https://toolkitlife.com/ko/tools/hdr-tone-mapping`,
+        ru: `https://toolkitlife.com/ru/tools/hdr-tone-mapping`,
+        "x-default": `https://toolkitlife.com/en/tools/hdr-tone-mapping`,
       },
     },
   };

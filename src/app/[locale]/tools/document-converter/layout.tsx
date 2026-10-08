@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/document-converter`,
+      url: `https://toolkitlife.com/${locale}/tools/document-converter`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/document-converter`,
+      canonical: `https://toolkitlife.com/${locale}/tools/document-converter`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/document-converter`,
-        es: `https://www.toolkitlife.com/es/tools/document-converter`,
-        zh: `https://www.toolkitlife.com/zh/tools/document-converter`,
-        ja: `https://www.toolkitlife.com/ja/tools/document-converter`,
-        ko: `https://www.toolkitlife.com/ko/tools/document-converter`,
-        ru: `https://www.toolkitlife.com/ru/tools/document-converter`,
-        "x-default": `https://www.toolkitlife.com/en/tools/document-converter`,
+        en: `https://toolkitlife.com/en/tools/document-converter`,
+        es: `https://toolkitlife.com/es/tools/document-converter`,
+        zh: `https://toolkitlife.com/zh/tools/document-converter`,
+        ja: `https://toolkitlife.com/ja/tools/document-converter`,
+        ko: `https://toolkitlife.com/ko/tools/document-converter`,
+        ru: `https://toolkitlife.com/ru/tools/document-converter`,
+        "x-default": `https://toolkitlife.com/en/tools/document-converter`,
       },
     },
   };

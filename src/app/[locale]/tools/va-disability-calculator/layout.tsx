@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/va-disability-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/va-disability-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/va-disability-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/va-disability-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/va-disability-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/va-disability-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/va-disability-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/va-disability-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/va-disability-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/va-disability-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/va-disability-calculator`,
+        en: `https://toolkitlife.com/en/tools/va-disability-calculator`,
+        es: `https://toolkitlife.com/es/tools/va-disability-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/va-disability-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/va-disability-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/va-disability-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/va-disability-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/va-disability-calculator`,
       },
     },
   };

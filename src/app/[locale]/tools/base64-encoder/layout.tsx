@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/base64-encoder`,
+      url: `https://toolkitlife.com/${locale}/tools/base64-encoder`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/base64-encoder`,
+      canonical: `https://toolkitlife.com/${locale}/tools/base64-encoder`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/base64-encoder`,
-        es: `https://www.toolkitlife.com/es/tools/base64-encoder`,
-        zh: `https://www.toolkitlife.com/zh/tools/base64-encoder`,
-        ja: `https://www.toolkitlife.com/ja/tools/base64-encoder`,
-        ko: `https://www.toolkitlife.com/ko/tools/base64-encoder`,
-        ru: `https://www.toolkitlife.com/ru/tools/base64-encoder`,
-        "x-default": `https://www.toolkitlife.com/en/tools/base64-encoder`,
+        en: `https://toolkitlife.com/en/tools/base64-encoder`,
+        es: `https://toolkitlife.com/es/tools/base64-encoder`,
+        zh: `https://toolkitlife.com/zh/tools/base64-encoder`,
+        ja: `https://toolkitlife.com/ja/tools/base64-encoder`,
+        ko: `https://toolkitlife.com/ko/tools/base64-encoder`,
+        ru: `https://toolkitlife.com/ru/tools/base64-encoder`,
+        "x-default": `https://toolkitlife.com/en/tools/base64-encoder`,
       },
     },
   };

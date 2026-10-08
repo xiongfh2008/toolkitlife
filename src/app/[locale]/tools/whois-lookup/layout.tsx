@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/whois-lookup`,
+      url: `https://toolkitlife.com/${locale}/tools/whois-lookup`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/whois-lookup`,
+      canonical: `https://toolkitlife.com/${locale}/tools/whois-lookup`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/whois-lookup`,
-        es: `https://www.toolkitlife.com/es/tools/whois-lookup`,
-        zh: `https://www.toolkitlife.com/zh/tools/whois-lookup`,
-        ja: `https://www.toolkitlife.com/ja/tools/whois-lookup`,
-        ko: `https://www.toolkitlife.com/ko/tools/whois-lookup`,
-        ru: `https://www.toolkitlife.com/ru/tools/whois-lookup`,
-        "x-default": `https://www.toolkitlife.com/en/tools/whois-lookup`,
+        en: `https://toolkitlife.com/en/tools/whois-lookup`,
+        es: `https://toolkitlife.com/es/tools/whois-lookup`,
+        zh: `https://toolkitlife.com/zh/tools/whois-lookup`,
+        ja: `https://toolkitlife.com/ja/tools/whois-lookup`,
+        ko: `https://toolkitlife.com/ko/tools/whois-lookup`,
+        ru: `https://toolkitlife.com/ru/tools/whois-lookup`,
+        "x-default": `https://toolkitlife.com/en/tools/whois-lookup`,
       },
     },
   };

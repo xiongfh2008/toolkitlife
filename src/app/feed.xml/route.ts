@@ -15,7 +15,7 @@ export function GET() {
     .sort((a, b) => b.datePublished.localeCompare(a.datePublished))
     .map((post) => {
       const localized = posts[post.slug] ?? {};
-      const url = `https://www.toolkitlife.com/en/blog/${post.slug}`;
+      const url = `https://toolkitlife.com/en/blog/${post.slug}`;
       return `    <item>
       <title><![CDATA[${localized.title ?? post.slug}]]></title>
       <link>${url}</link>
@@ -30,11 +30,11 @@ export function GET() {
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ToolkitLife Blog</title>
-    <link>https://www.toolkitlife.com/en/blog</link>
+    <link>https://toolkitlife.com/en/blog</link>
     <description>Free online tools and how-to guides from ToolkitLife</description>
     <language>en</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-    <atom:link href="https://www.toolkitlife.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://toolkitlife.com/feed.xml" rel="self" type="application/rss+xml"/>
 ${items}
   </channel>
 </rss>`;

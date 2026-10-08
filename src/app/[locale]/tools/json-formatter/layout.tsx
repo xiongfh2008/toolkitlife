@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/json-formatter`,
+      url: `https://toolkitlife.com/${locale}/tools/json-formatter`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/json-formatter`,
+      canonical: `https://toolkitlife.com/${locale}/tools/json-formatter`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/json-formatter`,
-        es: `https://www.toolkitlife.com/es/tools/json-formatter`,
-        zh: `https://www.toolkitlife.com/zh/tools/json-formatter`,
-        ja: `https://www.toolkitlife.com/ja/tools/json-formatter`,
-        ko: `https://www.toolkitlife.com/ko/tools/json-formatter`,
-        ru: `https://www.toolkitlife.com/ru/tools/json-formatter`,
-        "x-default": `https://www.toolkitlife.com/en/tools/json-formatter`,
+        en: `https://toolkitlife.com/en/tools/json-formatter`,
+        es: `https://toolkitlife.com/es/tools/json-formatter`,
+        zh: `https://toolkitlife.com/zh/tools/json-formatter`,
+        ja: `https://toolkitlife.com/ja/tools/json-formatter`,
+        ko: `https://toolkitlife.com/ko/tools/json-formatter`,
+        ru: `https://toolkitlife.com/ru/tools/json-formatter`,
+        "x-default": `https://toolkitlife.com/en/tools/json-formatter`,
       },
     },
   };

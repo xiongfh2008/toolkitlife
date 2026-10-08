@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/capital-gains-tax-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/capital-gains-tax-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/capital-gains-tax-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/capital-gains-tax-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/capital-gains-tax-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/capital-gains-tax-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/capital-gains-tax-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/capital-gains-tax-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/capital-gains-tax-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/capital-gains-tax-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/capital-gains-tax-calculator`,
+        en: `https://toolkitlife.com/en/tools/capital-gains-tax-calculator`,
+        es: `https://toolkitlife.com/es/tools/capital-gains-tax-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/capital-gains-tax-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/capital-gains-tax-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/capital-gains-tax-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/capital-gains-tax-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/capital-gains-tax-calculator`,
       },
     },
   };

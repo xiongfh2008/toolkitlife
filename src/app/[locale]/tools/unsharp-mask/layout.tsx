@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/unsharp-mask`,
+      url: `https://toolkitlife.com/${locale}/tools/unsharp-mask`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/unsharp-mask`,
+      canonical: `https://toolkitlife.com/${locale}/tools/unsharp-mask`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/unsharp-mask`,
-        es: `https://www.toolkitlife.com/es/tools/unsharp-mask`,
-        zh: `https://www.toolkitlife.com/zh/tools/unsharp-mask`,
-        ja: `https://www.toolkitlife.com/ja/tools/unsharp-mask`,
-        ko: `https://www.toolkitlife.com/ko/tools/unsharp-mask`,
-        ru: `https://www.toolkitlife.com/ru/tools/unsharp-mask`,
-        "x-default": `https://www.toolkitlife.com/en/tools/unsharp-mask`,
+        en: `https://toolkitlife.com/en/tools/unsharp-mask`,
+        es: `https://toolkitlife.com/es/tools/unsharp-mask`,
+        zh: `https://toolkitlife.com/zh/tools/unsharp-mask`,
+        ja: `https://toolkitlife.com/ja/tools/unsharp-mask`,
+        ko: `https://toolkitlife.com/ko/tools/unsharp-mask`,
+        ru: `https://toolkitlife.com/ru/tools/unsharp-mask`,
+        "x-default": `https://toolkitlife.com/en/tools/unsharp-mask`,
       },
     },
   };

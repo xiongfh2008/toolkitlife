@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/face-blur`,
+      url: `https://toolkitlife.com/${locale}/tools/face-blur`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/face-blur`,
+      canonical: `https://toolkitlife.com/${locale}/tools/face-blur`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/face-blur`,
-        es: `https://www.toolkitlife.com/es/tools/face-blur`,
-        zh: `https://www.toolkitlife.com/zh/tools/face-blur`,
-        ja: `https://www.toolkitlife.com/ja/tools/face-blur`,
-        ko: `https://www.toolkitlife.com/ko/tools/face-blur`,
-        ru: `https://www.toolkitlife.com/ru/tools/face-blur`,
-        "x-default": `https://www.toolkitlife.com/en/tools/face-blur`,
+        en: `https://toolkitlife.com/en/tools/face-blur`,
+        es: `https://toolkitlife.com/es/tools/face-blur`,
+        zh: `https://toolkitlife.com/zh/tools/face-blur`,
+        ja: `https://toolkitlife.com/ja/tools/face-blur`,
+        ko: `https://toolkitlife.com/ko/tools/face-blur`,
+        ru: `https://toolkitlife.com/ru/tools/face-blur`,
+        "x-default": `https://toolkitlife.com/en/tools/face-blur`,
       },
     },
   };

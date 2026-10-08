@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/aspect-ratio-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/aspect-ratio-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/aspect-ratio-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/aspect-ratio-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/aspect-ratio-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/aspect-ratio-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/aspect-ratio-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/aspect-ratio-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/aspect-ratio-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/aspect-ratio-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/aspect-ratio-calculator`,
+        en: `https://toolkitlife.com/en/tools/aspect-ratio-calculator`,
+        es: `https://toolkitlife.com/es/tools/aspect-ratio-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/aspect-ratio-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/aspect-ratio-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/aspect-ratio-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/aspect-ratio-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/aspect-ratio-calculator`,
       },
     },
   };

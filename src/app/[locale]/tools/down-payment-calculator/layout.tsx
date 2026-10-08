@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/down-payment-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/down-payment-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/down-payment-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/down-payment-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/down-payment-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/down-payment-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/down-payment-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/down-payment-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/down-payment-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/down-payment-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/down-payment-calculator`,
+        en: `https://toolkitlife.com/en/tools/down-payment-calculator`,
+        es: `https://toolkitlife.com/es/tools/down-payment-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/down-payment-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/down-payment-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/down-payment-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/down-payment-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/down-payment-calculator`,
       },
     },
   };

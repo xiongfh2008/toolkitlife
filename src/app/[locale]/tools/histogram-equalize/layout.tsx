@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/histogram-equalize`,
+      url: `https://toolkitlife.com/${locale}/tools/histogram-equalize`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/histogram-equalize`,
+      canonical: `https://toolkitlife.com/${locale}/tools/histogram-equalize`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/histogram-equalize`,
-        es: `https://www.toolkitlife.com/es/tools/histogram-equalize`,
-        zh: `https://www.toolkitlife.com/zh/tools/histogram-equalize`,
-        ja: `https://www.toolkitlife.com/ja/tools/histogram-equalize`,
-        ko: `https://www.toolkitlife.com/ko/tools/histogram-equalize`,
-        ru: `https://www.toolkitlife.com/ru/tools/histogram-equalize`,
-        "x-default": `https://www.toolkitlife.com/en/tools/histogram-equalize`,
+        en: `https://toolkitlife.com/en/tools/histogram-equalize`,
+        es: `https://toolkitlife.com/es/tools/histogram-equalize`,
+        zh: `https://toolkitlife.com/zh/tools/histogram-equalize`,
+        ja: `https://toolkitlife.com/ja/tools/histogram-equalize`,
+        ko: `https://toolkitlife.com/ko/tools/histogram-equalize`,
+        ru: `https://toolkitlife.com/ru/tools/histogram-equalize`,
+        "x-default": `https://toolkitlife.com/en/tools/histogram-equalize`,
       },
     },
   };

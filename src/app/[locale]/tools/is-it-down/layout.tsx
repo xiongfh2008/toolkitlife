@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/is-it-down`,
+      url: `https://toolkitlife.com/${locale}/tools/is-it-down`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/is-it-down`,
+      canonical: `https://toolkitlife.com/${locale}/tools/is-it-down`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/is-it-down`,
-        es: `https://www.toolkitlife.com/es/tools/is-it-down`,
-        zh: `https://www.toolkitlife.com/zh/tools/is-it-down`,
-        ja: `https://www.toolkitlife.com/ja/tools/is-it-down`,
-        ko: `https://www.toolkitlife.com/ko/tools/is-it-down`,
-        ru: `https://www.toolkitlife.com/ru/tools/is-it-down`,
-        "x-default": `https://www.toolkitlife.com/en/tools/is-it-down`,
+        en: `https://toolkitlife.com/en/tools/is-it-down`,
+        es: `https://toolkitlife.com/es/tools/is-it-down`,
+        zh: `https://toolkitlife.com/zh/tools/is-it-down`,
+        ja: `https://toolkitlife.com/ja/tools/is-it-down`,
+        ko: `https://toolkitlife.com/ko/tools/is-it-down`,
+        ru: `https://toolkitlife.com/ru/tools/is-it-down`,
+        "x-default": `https://toolkitlife.com/en/tools/is-it-down`,
       },
     },
   };

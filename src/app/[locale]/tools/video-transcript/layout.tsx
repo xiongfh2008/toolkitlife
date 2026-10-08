@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/video-transcript`,
+      url: `https://toolkitlife.com/${locale}/tools/video-transcript`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/video-transcript`,
+      canonical: `https://toolkitlife.com/${locale}/tools/video-transcript`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/video-transcript`,
-        es: `https://www.toolkitlife.com/es/tools/video-transcript`,
-        zh: `https://www.toolkitlife.com/zh/tools/video-transcript`,
-        ja: `https://www.toolkitlife.com/ja/tools/video-transcript`,
-        ko: `https://www.toolkitlife.com/ko/tools/video-transcript`,
-        ru: `https://www.toolkitlife.com/ru/tools/video-transcript`,
-        "x-default": `https://www.toolkitlife.com/en/tools/video-transcript`,
+        en: `https://toolkitlife.com/en/tools/video-transcript`,
+        es: `https://toolkitlife.com/es/tools/video-transcript`,
+        zh: `https://toolkitlife.com/zh/tools/video-transcript`,
+        ja: `https://toolkitlife.com/ja/tools/video-transcript`,
+        ko: `https://toolkitlife.com/ko/tools/video-transcript`,
+        ru: `https://toolkitlife.com/ru/tools/video-transcript`,
+        "x-default": `https://toolkitlife.com/en/tools/video-transcript`,
       },
     },
   };

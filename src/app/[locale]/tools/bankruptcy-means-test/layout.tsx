@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/bankruptcy-means-test`,
+      url: `https://toolkitlife.com/${locale}/tools/bankruptcy-means-test`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/bankruptcy-means-test`,
+      canonical: `https://toolkitlife.com/${locale}/tools/bankruptcy-means-test`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/bankruptcy-means-test`,
-        es: `https://www.toolkitlife.com/es/tools/bankruptcy-means-test`,
-        zh: `https://www.toolkitlife.com/zh/tools/bankruptcy-means-test`,
-        ja: `https://www.toolkitlife.com/ja/tools/bankruptcy-means-test`,
-        ko: `https://www.toolkitlife.com/ko/tools/bankruptcy-means-test`,
-        ru: `https://www.toolkitlife.com/ru/tools/bankruptcy-means-test`,
-        "x-default": `https://www.toolkitlife.com/en/tools/bankruptcy-means-test`,
+        en: `https://toolkitlife.com/en/tools/bankruptcy-means-test`,
+        es: `https://toolkitlife.com/es/tools/bankruptcy-means-test`,
+        zh: `https://toolkitlife.com/zh/tools/bankruptcy-means-test`,
+        ja: `https://toolkitlife.com/ja/tools/bankruptcy-means-test`,
+        ko: `https://toolkitlife.com/ko/tools/bankruptcy-means-test`,
+        ru: `https://toolkitlife.com/ru/tools/bankruptcy-means-test`,
+        "x-default": `https://toolkitlife.com/en/tools/bankruptcy-means-test`,
       },
     },
   };

@@ -22,7 +22,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/pdf-to-word`,
+      url: `https://toolkitlife.com/${locale}/tools/pdf-to-word`,
 
       siteName: "ToolkitLife",
 
@@ -32,15 +32,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/pdf-to-word`,
+      canonical: `https://toolkitlife.com/${locale}/tools/pdf-to-word`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/pdf-to-word`,
-        es: `https://www.toolkitlife.com/es/tools/pdf-to-word`,
-        zh: `https://www.toolkitlife.com/zh/tools/pdf-to-word`,
-        ja: `https://www.toolkitlife.com/ja/tools/pdf-to-word`,
-        ko: `https://www.toolkitlife.com/ko/tools/pdf-to-word`,
-        ru: `https://www.toolkitlife.com/ru/tools/pdf-to-word`,
-        "x-default": `https://www.toolkitlife.com/en/tools/pdf-to-word`,
+        en: `https://toolkitlife.com/en/tools/pdf-to-word`,
+        es: `https://toolkitlife.com/es/tools/pdf-to-word`,
+        zh: `https://toolkitlife.com/zh/tools/pdf-to-word`,
+        ja: `https://toolkitlife.com/ja/tools/pdf-to-word`,
+        ko: `https://toolkitlife.com/ko/tools/pdf-to-word`,
+        ru: `https://toolkitlife.com/ru/tools/pdf-to-word`,
+        "x-default": `https://toolkitlife.com/en/tools/pdf-to-word`,
       },
     },
   };

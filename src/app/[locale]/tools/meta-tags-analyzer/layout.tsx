@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/meta-tags-analyzer`,
+      url: `https://toolkitlife.com/${locale}/tools/meta-tags-analyzer`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/meta-tags-analyzer`,
+      canonical: `https://toolkitlife.com/${locale}/tools/meta-tags-analyzer`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/meta-tags-analyzer`,
-        es: `https://www.toolkitlife.com/es/tools/meta-tags-analyzer`,
-        zh: `https://www.toolkitlife.com/zh/tools/meta-tags-analyzer`,
-        ja: `https://www.toolkitlife.com/ja/tools/meta-tags-analyzer`,
-        ko: `https://www.toolkitlife.com/ko/tools/meta-tags-analyzer`,
-        ru: `https://www.toolkitlife.com/ru/tools/meta-tags-analyzer`,
-        "x-default": `https://www.toolkitlife.com/en/tools/meta-tags-analyzer`,
+        en: `https://toolkitlife.com/en/tools/meta-tags-analyzer`,
+        es: `https://toolkitlife.com/es/tools/meta-tags-analyzer`,
+        zh: `https://toolkitlife.com/zh/tools/meta-tags-analyzer`,
+        ja: `https://toolkitlife.com/ja/tools/meta-tags-analyzer`,
+        ko: `https://toolkitlife.com/ko/tools/meta-tags-analyzer`,
+        ru: `https://toolkitlife.com/ru/tools/meta-tags-analyzer`,
+        "x-default": `https://toolkitlife.com/en/tools/meta-tags-analyzer`,
       },
     },
   };

@@ -22,7 +22,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/merge-pdf`,
+      url: `https://toolkitlife.com/${locale}/tools/merge-pdf`,
 
       siteName: "ToolkitLife",
 
@@ -32,15 +32,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/merge-pdf`,
+      canonical: `https://toolkitlife.com/${locale}/tools/merge-pdf`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/merge-pdf`,
-        es: `https://www.toolkitlife.com/es/tools/merge-pdf`,
-        zh: `https://www.toolkitlife.com/zh/tools/merge-pdf`,
-        ja: `https://www.toolkitlife.com/ja/tools/merge-pdf`,
-        ko: `https://www.toolkitlife.com/ko/tools/merge-pdf`,
-        ru: `https://www.toolkitlife.com/ru/tools/merge-pdf`,
-        "x-default": `https://www.toolkitlife.com/en/tools/merge-pdf`,
+        en: `https://toolkitlife.com/en/tools/merge-pdf`,
+        es: `https://toolkitlife.com/es/tools/merge-pdf`,
+        zh: `https://toolkitlife.com/zh/tools/merge-pdf`,
+        ja: `https://toolkitlife.com/ja/tools/merge-pdf`,
+        ko: `https://toolkitlife.com/ko/tools/merge-pdf`,
+        ru: `https://toolkitlife.com/ru/tools/merge-pdf`,
+        "x-default": `https://toolkitlife.com/en/tools/merge-pdf`,
       },
     },
   };

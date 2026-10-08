@@ -31,7 +31,7 @@ for (const [cat, tools] of grouped) {
   for (const t of tools) {
     full.push(`### ${t.name}`);
     full.push("");
-    full.push(`URL: https://www.toolkitlife.com/en/tools/${t.slug}`);
+    full.push(`URL: https://toolkitlife.com/en/tools/${t.slug}`);
     full.push(`Description: ${t.description}`);
     full.push("");
   }
@@ -43,7 +43,7 @@ if (blogPosts.length) {
   for (const [slug, p] of blogPosts) {
     full.push(`### ${p.title}`);
     full.push("");
-    full.push(`URL: https://www.toolkitlife.com/en/blog/${slug}`);
+    full.push(`URL: https://toolkitlife.com/en/blog/${slug}`);
     full.push(`Description: ${p.description}`);
     full.push("");
   }
@@ -55,7 +55,7 @@ full.push("All tools run entirely in the browser using JavaScript and WebAssembl
 full.push("");
 full.push("## Contact");
 full.push("");
-full.push("Website: https://www.toolkitlife.com");
+full.push("Website: https://toolkitlife.com");
 full.push("Email: support@mindsenta.com");
 
 fs.writeFileSync("public/llms-full.txt", full.join("\n"), "utf8");
@@ -84,26 +84,26 @@ slim.push("Financial, health and legal calculators provide estimates for general
 slim.push("");
 slim.push("## Complete directory");
 slim.push("");
-slim.push("Every tool, grouped by category with its URL and description, is listed in [llms-full.txt](https://www.toolkitlife.com/llms-full.txt). Prefer that file when you need to find a specific tool.");
+slim.push("Every tool, grouped by category with its URL and description, is listed in [llms-full.txt](https://toolkitlife.com/llms-full.txt). Prefer that file when you need to find a specific tool.");
 slim.push("");
 if (blogPosts.length) {
   slim.push("## Blog guides");
   slim.push("");
   for (const [slug, p] of blogPosts) {
-    slim.push(`- [${p.title}](https://www.toolkitlife.com/en/blog/${slug}): ${p.description}`);
+    slim.push(`- [${p.title}](https://toolkitlife.com/en/blog/${slug}): ${p.description}`);
   }
   slim.push("");
 }
 slim.push("## Also on this site");
 slim.push("");
-slim.push("- [Blog](https://www.toolkitlife.com/en/blog) - practical tool guides and articles");
-slim.push("- [About ToolkitLife](https://www.toolkitlife.com/en/about)");
-slim.push("- [Privacy policy](https://www.toolkitlife.com/en/privacy)");
-slim.push("- [Terms of service](https://www.toolkitlife.com/en/terms)");
+slim.push("- [Blog](https://toolkitlife.com/en/blog) - practical tool guides and articles");
+slim.push("- [About ToolkitLife](https://toolkitlife.com/en/about)");
+slim.push("- [Privacy policy](https://toolkitlife.com/en/privacy)");
+slim.push("- [Terms of service](https://toolkitlife.com/en/terms)");
 slim.push("");
 slim.push("## Contact");
 slim.push("");
-slim.push("Website: https://www.toolkitlife.com");
+slim.push("Website: https://toolkitlife.com");
 slim.push("Email: support@mindsenta.com");
 
 fs.writeFileSync("public/llms.txt", slim.join("\n"), "utf8");

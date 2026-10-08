@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/og-image-generator`,
+      url: `https://toolkitlife.com/${locale}/tools/og-image-generator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/og-image-generator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/og-image-generator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/og-image-generator`,
-        es: `https://www.toolkitlife.com/es/tools/og-image-generator`,
-        zh: `https://www.toolkitlife.com/zh/tools/og-image-generator`,
-        ja: `https://www.toolkitlife.com/ja/tools/og-image-generator`,
-        ko: `https://www.toolkitlife.com/ko/tools/og-image-generator`,
-        ru: `https://www.toolkitlife.com/ru/tools/og-image-generator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/og-image-generator`,
+        en: `https://toolkitlife.com/en/tools/og-image-generator`,
+        es: `https://toolkitlife.com/es/tools/og-image-generator`,
+        zh: `https://toolkitlife.com/zh/tools/og-image-generator`,
+        ja: `https://toolkitlife.com/ja/tools/og-image-generator`,
+        ko: `https://toolkitlife.com/ko/tools/og-image-generator`,
+        ru: `https://toolkitlife.com/ru/tools/og-image-generator`,
+        "x-default": `https://toolkitlife.com/en/tools/og-image-generator`,
       },
     },
   };

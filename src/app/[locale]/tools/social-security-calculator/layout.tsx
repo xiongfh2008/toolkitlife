@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/social-security-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/social-security-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/social-security-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/social-security-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/social-security-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/social-security-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/social-security-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/social-security-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/social-security-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/social-security-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/social-security-calculator`,
+        en: `https://toolkitlife.com/en/tools/social-security-calculator`,
+        es: `https://toolkitlife.com/es/tools/social-security-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/social-security-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/social-security-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/social-security-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/social-security-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/social-security-calculator`,
       },
     },
   };

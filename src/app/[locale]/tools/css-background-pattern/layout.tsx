@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/css-background-pattern`,
+      url: `https://toolkitlife.com/${locale}/tools/css-background-pattern`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/css-background-pattern`,
+      canonical: `https://toolkitlife.com/${locale}/tools/css-background-pattern`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/css-background-pattern`,
-        es: `https://www.toolkitlife.com/es/tools/css-background-pattern`,
-        zh: `https://www.toolkitlife.com/zh/tools/css-background-pattern`,
-        ja: `https://www.toolkitlife.com/ja/tools/css-background-pattern`,
-        ko: `https://www.toolkitlife.com/ko/tools/css-background-pattern`,
-        ru: `https://www.toolkitlife.com/ru/tools/css-background-pattern`,
-        "x-default": `https://www.toolkitlife.com/en/tools/css-background-pattern`,
+        en: `https://toolkitlife.com/en/tools/css-background-pattern`,
+        es: `https://toolkitlife.com/es/tools/css-background-pattern`,
+        zh: `https://toolkitlife.com/zh/tools/css-background-pattern`,
+        ja: `https://toolkitlife.com/ja/tools/css-background-pattern`,
+        ko: `https://toolkitlife.com/ko/tools/css-background-pattern`,
+        ru: `https://toolkitlife.com/ru/tools/css-background-pattern`,
+        "x-default": `https://toolkitlife.com/en/tools/css-background-pattern`,
       },
     },
   };

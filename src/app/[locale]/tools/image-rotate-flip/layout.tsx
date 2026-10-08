@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/image-rotate-flip`,
+      url: `https://toolkitlife.com/${locale}/tools/image-rotate-flip`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/image-rotate-flip`,
+      canonical: `https://toolkitlife.com/${locale}/tools/image-rotate-flip`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/image-rotate-flip`,
-        es: `https://www.toolkitlife.com/es/tools/image-rotate-flip`,
-        zh: `https://www.toolkitlife.com/zh/tools/image-rotate-flip`,
-        ja: `https://www.toolkitlife.com/ja/tools/image-rotate-flip`,
-        ko: `https://www.toolkitlife.com/ko/tools/image-rotate-flip`,
-        ru: `https://www.toolkitlife.com/ru/tools/image-rotate-flip`,
-        "x-default": `https://www.toolkitlife.com/en/tools/image-rotate-flip`,
+        en: `https://toolkitlife.com/en/tools/image-rotate-flip`,
+        es: `https://toolkitlife.com/es/tools/image-rotate-flip`,
+        zh: `https://toolkitlife.com/zh/tools/image-rotate-flip`,
+        ja: `https://toolkitlife.com/ja/tools/image-rotate-flip`,
+        ko: `https://toolkitlife.com/ko/tools/image-rotate-flip`,
+        ru: `https://toolkitlife.com/ru/tools/image-rotate-flip`,
+        "x-default": `https://toolkitlife.com/en/tools/image-rotate-flip`,
       },
     },
   };

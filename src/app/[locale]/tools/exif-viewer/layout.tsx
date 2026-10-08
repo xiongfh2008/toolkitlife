@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/exif-viewer`,
+      url: `https://toolkitlife.com/${locale}/tools/exif-viewer`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/exif-viewer`,
+      canonical: `https://toolkitlife.com/${locale}/tools/exif-viewer`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/exif-viewer`,
-        es: `https://www.toolkitlife.com/es/tools/exif-viewer`,
-        zh: `https://www.toolkitlife.com/zh/tools/exif-viewer`,
-        ja: `https://www.toolkitlife.com/ja/tools/exif-viewer`,
-        ko: `https://www.toolkitlife.com/ko/tools/exif-viewer`,
-        ru: `https://www.toolkitlife.com/ru/tools/exif-viewer`,
-        "x-default": `https://www.toolkitlife.com/en/tools/exif-viewer`,
+        en: `https://toolkitlife.com/en/tools/exif-viewer`,
+        es: `https://toolkitlife.com/es/tools/exif-viewer`,
+        zh: `https://toolkitlife.com/zh/tools/exif-viewer`,
+        ja: `https://toolkitlife.com/ja/tools/exif-viewer`,
+        ko: `https://toolkitlife.com/ko/tools/exif-viewer`,
+        ru: `https://toolkitlife.com/ru/tools/exif-viewer`,
+        "x-default": `https://toolkitlife.com/en/tools/exif-viewer`,
       },
     },
   };

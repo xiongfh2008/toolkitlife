@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/text-repeater`,
+      url: `https://toolkitlife.com/${locale}/tools/text-repeater`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/text-repeater`,
+      canonical: `https://toolkitlife.com/${locale}/tools/text-repeater`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/text-repeater`,
-        es: `https://www.toolkitlife.com/es/tools/text-repeater`,
-        zh: `https://www.toolkitlife.com/zh/tools/text-repeater`,
-        ja: `https://www.toolkitlife.com/ja/tools/text-repeater`,
-        ko: `https://www.toolkitlife.com/ko/tools/text-repeater`,
-        ru: `https://www.toolkitlife.com/ru/tools/text-repeater`,
-        "x-default": `https://www.toolkitlife.com/en/tools/text-repeater`,
+        en: `https://toolkitlife.com/en/tools/text-repeater`,
+        es: `https://toolkitlife.com/es/tools/text-repeater`,
+        zh: `https://toolkitlife.com/zh/tools/text-repeater`,
+        ja: `https://toolkitlife.com/ja/tools/text-repeater`,
+        ko: `https://toolkitlife.com/ko/tools/text-repeater`,
+        ru: `https://toolkitlife.com/ru/tools/text-repeater`,
+        "x-default": `https://toolkitlife.com/en/tools/text-repeater`,
       },
     },
   };

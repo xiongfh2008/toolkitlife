@@ -11,7 +11,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "blogIndex.metadata" });
-  const url = `https://www.toolkitlife.com/${locale}/blog`;
+  const url = `https://toolkitlife.com/${locale}/blog`;
   const ogImage = ogImageUrl({ title: t("title"), type: "blog" });
   return {
     title: t("title"),
@@ -19,16 +19,16 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: {
-        en: "https://www.toolkitlife.com/en/blog",
-        es: "https://www.toolkitlife.com/es/blog",
-        zh: "https://www.toolkitlife.com/zh/blog",
-        ja: "https://www.toolkitlife.com/ja/blog",
-        ko: "https://www.toolkitlife.com/ko/blog",
-        ru: "https://www.toolkitlife.com/ru/blog",
-        "x-default": `https://www.toolkitlife.com/en/blog`,
+        en: "https://toolkitlife.com/en/blog",
+        es: "https://toolkitlife.com/es/blog",
+        zh: "https://toolkitlife.com/zh/blog",
+        ja: "https://toolkitlife.com/ja/blog",
+        ko: "https://toolkitlife.com/ko/blog",
+        ru: "https://toolkitlife.com/ru/blog",
+        "x-default": `https://toolkitlife.com/en/blog`,
       },
       types: {
-        "application/rss+xml": "https://www.toolkitlife.com/feed.xml",
+        "application/rss+xml": "https://toolkitlife.com/feed.xml",
       },
     },
     openGraph: {
@@ -82,18 +82,18 @@ export default async function BlogIndex({
                 "@type": "Blog",
                 name: t("title"),
                 description: t("description"),
-                url: `https://www.toolkitlife.com/${locale}/blog`,
+                url: `https://toolkitlife.com/${locale}/blog`,
                 inLanguage: locale,
                 isPartOf: {
                   "@type": "WebSite",
                   name: "ToolkitLife",
-                  url: "https://www.toolkitlife.com",
+                  url: "https://toolkitlife.com",
                 },
                 blogPost: sortedPosts.map((post) => ({
                   "@type": "BlogPosting",
                   headline: pt(`${post.slug}.title`),
                   description: pt(`${post.slug}.description`),
-                  url: `https://www.toolkitlife.com/${locale}/blog/${post.slug}`,
+                  url: `https://toolkitlife.com/${locale}/blog/${post.slug}`,
                   datePublished: post.datePublished,
                   dateModified: post.dateModified,
                   author: { "@type": "Person", name: post.author },
@@ -102,8 +102,8 @@ export default async function BlogIndex({
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://www.toolkitlife.com/${locale}` },
-                  { "@type": "ListItem", position: 2, name: t("title"), item: `https://www.toolkitlife.com/${locale}/blog` },
+                  { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://toolkitlife.com/${locale}` },
+                  { "@type": "ListItem", position: 2, name: t("title"), item: `https://toolkitlife.com/${locale}/blog` },
                 ],
               },
             ],

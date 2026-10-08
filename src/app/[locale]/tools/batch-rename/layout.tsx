@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/batch-rename`,
+      url: `https://toolkitlife.com/${locale}/tools/batch-rename`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/batch-rename`,
+      canonical: `https://toolkitlife.com/${locale}/tools/batch-rename`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/batch-rename`,
-        es: `https://www.toolkitlife.com/es/tools/batch-rename`,
-        zh: `https://www.toolkitlife.com/zh/tools/batch-rename`,
-        ja: `https://www.toolkitlife.com/ja/tools/batch-rename`,
-        ko: `https://www.toolkitlife.com/ko/tools/batch-rename`,
-        ru: `https://www.toolkitlife.com/ru/tools/batch-rename`,
-        "x-default": `https://www.toolkitlife.com/en/tools/batch-rename`,
+        en: `https://toolkitlife.com/en/tools/batch-rename`,
+        es: `https://toolkitlife.com/es/tools/batch-rename`,
+        zh: `https://toolkitlife.com/zh/tools/batch-rename`,
+        ja: `https://toolkitlife.com/ja/tools/batch-rename`,
+        ko: `https://toolkitlife.com/ko/tools/batch-rename`,
+        ru: `https://toolkitlife.com/ru/tools/batch-rename`,
+        "x-default": `https://toolkitlife.com/en/tools/batch-rename`,
       },
     },
   };

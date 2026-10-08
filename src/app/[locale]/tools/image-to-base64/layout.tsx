@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/image-to-base64`,
+      url: `https://toolkitlife.com/${locale}/tools/image-to-base64`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/image-to-base64`,
+      canonical: `https://toolkitlife.com/${locale}/tools/image-to-base64`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/image-to-base64`,
-        es: `https://www.toolkitlife.com/es/tools/image-to-base64`,
-        zh: `https://www.toolkitlife.com/zh/tools/image-to-base64`,
-        ja: `https://www.toolkitlife.com/ja/tools/image-to-base64`,
-        ko: `https://www.toolkitlife.com/ko/tools/image-to-base64`,
-        ru: `https://www.toolkitlife.com/ru/tools/image-to-base64`,
-        "x-default": `https://www.toolkitlife.com/en/tools/image-to-base64`,
+        en: `https://toolkitlife.com/en/tools/image-to-base64`,
+        es: `https://toolkitlife.com/es/tools/image-to-base64`,
+        zh: `https://toolkitlife.com/zh/tools/image-to-base64`,
+        ja: `https://toolkitlife.com/ja/tools/image-to-base64`,
+        ko: `https://toolkitlife.com/ko/tools/image-to-base64`,
+        ru: `https://toolkitlife.com/ru/tools/image-to-base64`,
+        "x-default": `https://toolkitlife.com/en/tools/image-to-base64`,
       },
     },
   };

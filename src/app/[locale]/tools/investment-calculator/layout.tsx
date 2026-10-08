@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/investment-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/investment-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/investment-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/investment-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/investment-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/investment-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/investment-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/investment-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/investment-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/investment-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/investment-calculator`,
+        en: `https://toolkitlife.com/en/tools/investment-calculator`,
+        es: `https://toolkitlife.com/es/tools/investment-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/investment-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/investment-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/investment-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/investment-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/investment-calculator`,
       },
     },
   };

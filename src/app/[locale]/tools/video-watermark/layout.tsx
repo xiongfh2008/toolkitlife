@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/video-watermark`,
+      url: `https://toolkitlife.com/${locale}/tools/video-watermark`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/video-watermark`,
+      canonical: `https://toolkitlife.com/${locale}/tools/video-watermark`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/video-watermark`,
-        es: `https://www.toolkitlife.com/es/tools/video-watermark`,
-        zh: `https://www.toolkitlife.com/zh/tools/video-watermark`,
-        ja: `https://www.toolkitlife.com/ja/tools/video-watermark`,
-        ko: `https://www.toolkitlife.com/ko/tools/video-watermark`,
-        ru: `https://www.toolkitlife.com/ru/tools/video-watermark`,
-        "x-default": `https://www.toolkitlife.com/en/tools/video-watermark`,
+        en: `https://toolkitlife.com/en/tools/video-watermark`,
+        es: `https://toolkitlife.com/es/tools/video-watermark`,
+        zh: `https://toolkitlife.com/zh/tools/video-watermark`,
+        ja: `https://toolkitlife.com/ja/tools/video-watermark`,
+        ko: `https://toolkitlife.com/ko/tools/video-watermark`,
+        ru: `https://toolkitlife.com/ru/tools/video-watermark`,
+        "x-default": `https://toolkitlife.com/en/tools/video-watermark`,
       },
     },
   };

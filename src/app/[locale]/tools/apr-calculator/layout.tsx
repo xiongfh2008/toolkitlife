@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/apr-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/apr-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/apr-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/apr-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/apr-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/apr-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/apr-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/apr-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/apr-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/apr-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/apr-calculator`,
+        en: `https://toolkitlife.com/en/tools/apr-calculator`,
+        es: `https://toolkitlife.com/es/tools/apr-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/apr-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/apr-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/apr-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/apr-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/apr-calculator`,
       },
     },
   };

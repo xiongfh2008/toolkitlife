@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/character-counter`,
+      url: `https://toolkitlife.com/${locale}/tools/character-counter`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/character-counter`,
+      canonical: `https://toolkitlife.com/${locale}/tools/character-counter`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/character-counter`,
-        es: `https://www.toolkitlife.com/es/tools/character-counter`,
-        zh: `https://www.toolkitlife.com/zh/tools/character-counter`,
-        ja: `https://www.toolkitlife.com/ja/tools/character-counter`,
-        ko: `https://www.toolkitlife.com/ko/tools/character-counter`,
-        ru: `https://www.toolkitlife.com/ru/tools/character-counter`,
-        "x-default": `https://www.toolkitlife.com/en/tools/character-counter`,
+        en: `https://toolkitlife.com/en/tools/character-counter`,
+        es: `https://toolkitlife.com/es/tools/character-counter`,
+        zh: `https://toolkitlife.com/zh/tools/character-counter`,
+        ja: `https://toolkitlife.com/ja/tools/character-counter`,
+        ko: `https://toolkitlife.com/ko/tools/character-counter`,
+        ru: `https://toolkitlife.com/ru/tools/character-counter`,
+        "x-default": `https://toolkitlife.com/en/tools/character-counter`,
       },
     },
   };

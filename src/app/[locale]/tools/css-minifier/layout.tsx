@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/css-minifier`,
+      url: `https://toolkitlife.com/${locale}/tools/css-minifier`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/css-minifier`,
+      canonical: `https://toolkitlife.com/${locale}/tools/css-minifier`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/css-minifier`,
-        es: `https://www.toolkitlife.com/es/tools/css-minifier`,
-        zh: `https://www.toolkitlife.com/zh/tools/css-minifier`,
-        ja: `https://www.toolkitlife.com/ja/tools/css-minifier`,
-        ko: `https://www.toolkitlife.com/ko/tools/css-minifier`,
-        ru: `https://www.toolkitlife.com/ru/tools/css-minifier`,
-        "x-default": `https://www.toolkitlife.com/en/tools/css-minifier`,
+        en: `https://toolkitlife.com/en/tools/css-minifier`,
+        es: `https://toolkitlife.com/es/tools/css-minifier`,
+        zh: `https://toolkitlife.com/zh/tools/css-minifier`,
+        ja: `https://toolkitlife.com/ja/tools/css-minifier`,
+        ko: `https://toolkitlife.com/ko/tools/css-minifier`,
+        ru: `https://toolkitlife.com/ru/tools/css-minifier`,
+        "x-default": `https://toolkitlife.com/en/tools/css-minifier`,
       },
     },
   };

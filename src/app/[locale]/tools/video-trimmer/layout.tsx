@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/video-trimmer`,
+      url: `https://toolkitlife.com/${locale}/tools/video-trimmer`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/video-trimmer`,
+      canonical: `https://toolkitlife.com/${locale}/tools/video-trimmer`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/video-trimmer`,
-        es: `https://www.toolkitlife.com/es/tools/video-trimmer`,
-        zh: `https://www.toolkitlife.com/zh/tools/video-trimmer`,
-        ja: `https://www.toolkitlife.com/ja/tools/video-trimmer`,
-        ko: `https://www.toolkitlife.com/ko/tools/video-trimmer`,
-        ru: `https://www.toolkitlife.com/ru/tools/video-trimmer`,
-        "x-default": `https://www.toolkitlife.com/en/tools/video-trimmer`,
+        en: `https://toolkitlife.com/en/tools/video-trimmer`,
+        es: `https://toolkitlife.com/es/tools/video-trimmer`,
+        zh: `https://toolkitlife.com/zh/tools/video-trimmer`,
+        ja: `https://toolkitlife.com/ja/tools/video-trimmer`,
+        ko: `https://toolkitlife.com/ko/tools/video-trimmer`,
+        ru: `https://toolkitlife.com/ru/tools/video-trimmer`,
+        "x-default": `https://toolkitlife.com/en/tools/video-trimmer`,
       },
     },
   };

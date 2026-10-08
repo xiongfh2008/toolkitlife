@@ -23,7 +23,7 @@ export async function generateMetadata({
     title: t("title"),
     openGraph: {
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/multiavatar-avatar-generator`,
+      url: `https://toolkitlife.com/${locale}/tools/multiavatar-avatar-generator`,
       siteName: "ToolkitLife",
       images: [
         {
@@ -40,15 +40,15 @@ export async function generateMetadata({
     },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/multiavatar-avatar-generator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/multiavatar-avatar-generator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/multiavatar-avatar-generator`,
-        es: `https://www.toolkitlife.com/es/tools/multiavatar-avatar-generator`,
-        zh: `https://www.toolkitlife.com/zh/tools/multiavatar-avatar-generator`,
-        ja: `https://www.toolkitlife.com/ja/tools/multiavatar-avatar-generator`,
-        ko: `https://www.toolkitlife.com/ko/tools/multiavatar-avatar-generator`,
-        ru: `https://www.toolkitlife.com/ru/tools/multiavatar-avatar-generator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/multiavatar-avatar-generator`,
+        en: `https://toolkitlife.com/en/tools/multiavatar-avatar-generator`,
+        es: `https://toolkitlife.com/es/tools/multiavatar-avatar-generator`,
+        zh: `https://toolkitlife.com/zh/tools/multiavatar-avatar-generator`,
+        ja: `https://toolkitlife.com/ja/tools/multiavatar-avatar-generator`,
+        ko: `https://toolkitlife.com/ko/tools/multiavatar-avatar-generator`,
+        ru: `https://toolkitlife.com/ru/tools/multiavatar-avatar-generator`,
+        "x-default": `https://toolkitlife.com/en/tools/multiavatar-avatar-generator`,
       },
     },
   };

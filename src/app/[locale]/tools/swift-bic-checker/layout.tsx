@@ -19,7 +19,7 @@ export async function generateMetadata({
     title: t("metadata.title"),
     openGraph: {
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/swift-bic-checker`,
+      url: `https://toolkitlife.com/${locale}/tools/swift-bic-checker`,
       siteName: "ToolkitLife",
       images: [
         { url: ogImageUrl({ title: t("metadata.title"), type: "tool" }), width: 1200, height: 630, alt: t("metadata.title") },
@@ -29,15 +29,15 @@ export async function generateMetadata({
     description: t("metadata.description"),
     keywords: t.raw("keywords") as string[],
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/swift-bic-checker`,
+      canonical: `https://toolkitlife.com/${locale}/tools/swift-bic-checker`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/swift-bic-checker`,
-        es: `https://www.toolkitlife.com/es/tools/swift-bic-checker`,
-        zh: `https://www.toolkitlife.com/zh/tools/swift-bic-checker`,
-        ja: `https://www.toolkitlife.com/ja/tools/swift-bic-checker`,
-        ko: `https://www.toolkitlife.com/ko/tools/swift-bic-checker`,
-        ru: `https://www.toolkitlife.com/ru/tools/swift-bic-checker`,
-        "x-default": `https://www.toolkitlife.com/en/tools/swift-bic-checker`,
+        en: `https://toolkitlife.com/en/tools/swift-bic-checker`,
+        es: `https://toolkitlife.com/es/tools/swift-bic-checker`,
+        zh: `https://toolkitlife.com/zh/tools/swift-bic-checker`,
+        ja: `https://toolkitlife.com/ja/tools/swift-bic-checker`,
+        ko: `https://toolkitlife.com/ko/tools/swift-bic-checker`,
+        ru: `https://toolkitlife.com/ru/tools/swift-bic-checker`,
+        "x-default": `https://toolkitlife.com/en/tools/swift-bic-checker`,
       },
     },
   };

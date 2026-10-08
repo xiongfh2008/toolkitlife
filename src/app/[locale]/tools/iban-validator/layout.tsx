@@ -19,7 +19,7 @@ export async function generateMetadata({
     title: t("metadata.title"),
     openGraph: {
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/iban-validator`,
+      url: `https://toolkitlife.com/${locale}/tools/iban-validator`,
       siteName: "ToolkitLife",
       images: [
         { url: ogImageUrl({ title: t("metadata.title"), type: "tool" }), width: 1200, height: 630, alt: t("metadata.title") },
@@ -29,15 +29,15 @@ export async function generateMetadata({
     description: t("metadata.description"),
     keywords: t.raw("keywords") as string[],
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/iban-validator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/iban-validator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/iban-validator`,
-        es: `https://www.toolkitlife.com/es/tools/iban-validator`,
-        zh: `https://www.toolkitlife.com/zh/tools/iban-validator`,
-        ja: `https://www.toolkitlife.com/ja/tools/iban-validator`,
-        ko: `https://www.toolkitlife.com/ko/tools/iban-validator`,
-        ru: `https://www.toolkitlife.com/ru/tools/iban-validator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/iban-validator`,
+        en: `https://toolkitlife.com/en/tools/iban-validator`,
+        es: `https://toolkitlife.com/es/tools/iban-validator`,
+        zh: `https://toolkitlife.com/zh/tools/iban-validator`,
+        ja: `https://toolkitlife.com/ja/tools/iban-validator`,
+        ko: `https://toolkitlife.com/ko/tools/iban-validator`,
+        ru: `https://toolkitlife.com/ru/tools/iban-validator`,
+        "x-default": `https://toolkitlife.com/en/tools/iban-validator`,
       },
     },
   };

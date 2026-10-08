@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/paycheck-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/paycheck-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/paycheck-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/paycheck-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/paycheck-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/paycheck-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/paycheck-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/paycheck-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/paycheck-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/paycheck-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/paycheck-calculator`,
+        en: `https://toolkitlife.com/en/tools/paycheck-calculator`,
+        es: `https://toolkitlife.com/es/tools/paycheck-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/paycheck-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/paycheck-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/paycheck-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/paycheck-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/paycheck-calculator`,
       },
     },
   };

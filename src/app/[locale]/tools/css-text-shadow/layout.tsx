@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/css-text-shadow`,
+      url: `https://toolkitlife.com/${locale}/tools/css-text-shadow`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/css-text-shadow`,
+      canonical: `https://toolkitlife.com/${locale}/tools/css-text-shadow`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/css-text-shadow`,
-        es: `https://www.toolkitlife.com/es/tools/css-text-shadow`,
-        zh: `https://www.toolkitlife.com/zh/tools/css-text-shadow`,
-        ja: `https://www.toolkitlife.com/ja/tools/css-text-shadow`,
-        ko: `https://www.toolkitlife.com/ko/tools/css-text-shadow`,
-        ru: `https://www.toolkitlife.com/ru/tools/css-text-shadow`,
-        "x-default": `https://www.toolkitlife.com/en/tools/css-text-shadow`,
+        en: `https://toolkitlife.com/en/tools/css-text-shadow`,
+        es: `https://toolkitlife.com/es/tools/css-text-shadow`,
+        zh: `https://toolkitlife.com/zh/tools/css-text-shadow`,
+        ja: `https://toolkitlife.com/ja/tools/css-text-shadow`,
+        ko: `https://toolkitlife.com/ko/tools/css-text-shadow`,
+        ru: `https://toolkitlife.com/ru/tools/css-text-shadow`,
+        "x-default": `https://toolkitlife.com/en/tools/css-text-shadow`,
       },
     },
   };

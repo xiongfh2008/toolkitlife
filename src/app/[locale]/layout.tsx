@@ -51,11 +51,11 @@ export async function generateMetadata({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "metadata" });
-  const baseUrl = `https://www.toolkitlife.com/${locale}`;
+  const baseUrl = `https://toolkitlife.com/${locale}`;
   const ogImage = ogImageUrl({ type: "home" });
 
   return {
-    metadataBase: new URL("https://www.toolkitlife.com"),
+    metadataBase: new URL("https://toolkitlife.com"),
     title: {
       default: t("title"),
       template: "%s | ToolkitLife",
@@ -89,13 +89,13 @@ export async function generateMetadata({
     alternates: {
       canonical: baseUrl,
       languages: {
-        en: "https://www.toolkitlife.com/en",
-        es: "https://www.toolkitlife.com/es",
-        zh: "https://www.toolkitlife.com/zh",
-        ja: "https://www.toolkitlife.com/ja",
-        ko: "https://www.toolkitlife.com/ko",
-        ru: "https://www.toolkitlife.com/ru",
-        "x-default": `https://www.toolkitlife.com/en`,
+        en: "https://toolkitlife.com/en",
+        es: "https://toolkitlife.com/es",
+        zh: "https://toolkitlife.com/zh",
+        ja: "https://toolkitlife.com/ja",
+        ko: "https://toolkitlife.com/ko",
+        ru: "https://toolkitlife.com/ru",
+        "x-default": `https://toolkitlife.com/en`,
       },
     },
   };
@@ -139,7 +139,7 @@ export default async function LocaleLayout({
             for every page under this layout (Next.js renders meta/link declared
             in a layout into the document head). */}
         {/* llms.txt discovery — llmstxt.org: lets AI crawlers find the file */}
-        <link rel="llms.txt" href="https://www.toolkitlife.com/llms.txt" />
+        <link rel="llms.txt" href="https://toolkitlife.com/llms.txt" />
         <meta property="og:locale" content={ogLocaleMap[locale] ?? "en_US"} />
         {publishedOgLocales
           .filter((l) => l !== (ogLocaleMap[locale] ?? "en_US"))
@@ -224,23 +224,23 @@ export default async function LocaleLayout({
               {
                 "@type": "WebSite",
                 name: "ToolkitLife",
-                url: "https://www.toolkitlife.com",
+                url: "https://toolkitlife.com",
                 description: siteT("description"),
                 inLanguage: locale,
                 dateModified: SITE_LAST_UPDATED,
                 potentialAction: {
                   "@type": "SearchAction",
-                  target: `https://www.toolkitlife.com/${locale}/?q={search_term_string}`,
+                  target: `https://toolkitlife.com/${locale}/?q={search_term_string}`,
                   "query-input": "required name=search_term_string",
                 },
               },
               {
                 "@type": "Organization",
                 name: "ToolkitLife",
-                url: "https://www.toolkitlife.com",
+                url: "https://toolkitlife.com",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://www.toolkitlife.com/icon.svg",
+                  url: "https://toolkitlife.com/icon.svg",
                   width: 64,
                   height: 64,
                 },
@@ -248,7 +248,7 @@ export default async function LocaleLayout({
                   "@type": "ContactPoint",
                   contactType: "customer support",
                   email: "support@mindsenta.com",
-                  url: `https://www.toolkitlife.com/${locale}/about`,
+                  url: `https://toolkitlife.com/${locale}/about`,
                 },
               },
             ],

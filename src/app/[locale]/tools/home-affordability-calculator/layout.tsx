@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/home-affordability-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/home-affordability-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/home-affordability-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/home-affordability-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/home-affordability-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/home-affordability-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/home-affordability-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/home-affordability-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/home-affordability-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/home-affordability-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/home-affordability-calculator`,
+        en: `https://toolkitlife.com/en/tools/home-affordability-calculator`,
+        es: `https://toolkitlife.com/es/tools/home-affordability-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/home-affordability-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/home-affordability-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/home-affordability-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/home-affordability-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/home-affordability-calculator`,
       },
     },
   };

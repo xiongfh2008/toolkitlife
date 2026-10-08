@@ -19,6 +19,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: "/",
       },
     ],
-    sitemap: "https://www.toolkitlife.com/sitemap.xml",
+    sitemap: "https://toolkitlife.com/sitemap.xml",
   };
 }

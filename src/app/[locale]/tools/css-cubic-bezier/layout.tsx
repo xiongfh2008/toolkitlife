@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/css-cubic-bezier`,
+      url: `https://toolkitlife.com/${locale}/tools/css-cubic-bezier`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/css-cubic-bezier`,
+      canonical: `https://toolkitlife.com/${locale}/tools/css-cubic-bezier`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/css-cubic-bezier`,
-        es: `https://www.toolkitlife.com/es/tools/css-cubic-bezier`,
-        zh: `https://www.toolkitlife.com/zh/tools/css-cubic-bezier`,
-        ja: `https://www.toolkitlife.com/ja/tools/css-cubic-bezier`,
-        ko: `https://www.toolkitlife.com/ko/tools/css-cubic-bezier`,
-        ru: `https://www.toolkitlife.com/ru/tools/css-cubic-bezier`,
-        "x-default": `https://www.toolkitlife.com/en/tools/css-cubic-bezier`,
+        en: `https://toolkitlife.com/en/tools/css-cubic-bezier`,
+        es: `https://toolkitlife.com/es/tools/css-cubic-bezier`,
+        zh: `https://toolkitlife.com/zh/tools/css-cubic-bezier`,
+        ja: `https://toolkitlife.com/ja/tools/css-cubic-bezier`,
+        ko: `https://toolkitlife.com/ko/tools/css-cubic-bezier`,
+        ru: `https://toolkitlife.com/ru/tools/css-cubic-bezier`,
+        "x-default": `https://toolkitlife.com/en/tools/css-cubic-bezier`,
       },
     },
   };

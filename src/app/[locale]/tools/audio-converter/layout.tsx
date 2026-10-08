@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/audio-converter`,
+      url: `https://toolkitlife.com/${locale}/tools/audio-converter`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/audio-converter`,
+      canonical: `https://toolkitlife.com/${locale}/tools/audio-converter`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/audio-converter`,
-        es: `https://www.toolkitlife.com/es/tools/audio-converter`,
-        zh: `https://www.toolkitlife.com/zh/tools/audio-converter`,
-        ja: `https://www.toolkitlife.com/ja/tools/audio-converter`,
-        ko: `https://www.toolkitlife.com/ko/tools/audio-converter`,
-        ru: `https://www.toolkitlife.com/ru/tools/audio-converter`,
-        "x-default": `https://www.toolkitlife.com/en/tools/audio-converter`,
+        en: `https://toolkitlife.com/en/tools/audio-converter`,
+        es: `https://toolkitlife.com/es/tools/audio-converter`,
+        zh: `https://toolkitlife.com/zh/tools/audio-converter`,
+        ja: `https://toolkitlife.com/ja/tools/audio-converter`,
+        ko: `https://toolkitlife.com/ko/tools/audio-converter`,
+        ru: `https://toolkitlife.com/ru/tools/audio-converter`,
+        "x-default": `https://toolkitlife.com/en/tools/audio-converter`,
       },
     },
   };

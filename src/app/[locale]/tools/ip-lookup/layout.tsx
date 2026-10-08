@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/ip-lookup`,
+      url: `https://toolkitlife.com/${locale}/tools/ip-lookup`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/ip-lookup`,
+      canonical: `https://toolkitlife.com/${locale}/tools/ip-lookup`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/ip-lookup`,
-        es: `https://www.toolkitlife.com/es/tools/ip-lookup`,
-        zh: `https://www.toolkitlife.com/zh/tools/ip-lookup`,
-        ja: `https://www.toolkitlife.com/ja/tools/ip-lookup`,
-        ko: `https://www.toolkitlife.com/ko/tools/ip-lookup`,
-        ru: `https://www.toolkitlife.com/ru/tools/ip-lookup`,
-        "x-default": `https://www.toolkitlife.com/en/tools/ip-lookup`,
+        en: `https://toolkitlife.com/en/tools/ip-lookup`,
+        es: `https://toolkitlife.com/es/tools/ip-lookup`,
+        zh: `https://toolkitlife.com/zh/tools/ip-lookup`,
+        ja: `https://toolkitlife.com/ja/tools/ip-lookup`,
+        ko: `https://toolkitlife.com/ko/tools/ip-lookup`,
+        ru: `https://toolkitlife.com/ru/tools/ip-lookup`,
+        "x-default": `https://toolkitlife.com/en/tools/ip-lookup`,
       },
     },
   };

@@ -11,7 +11,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "privacy.metadata" });
-  const url = `https://www.toolkitlife.com/${locale}/privacy`;
+  const url = `https://toolkitlife.com/${locale}/privacy`;
   const ogImage = ogImageUrl({ title: t("title"), type: "home" });
   return {
     title: t("title"),
@@ -19,13 +19,13 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: {
-        en: "https://www.toolkitlife.com/en/privacy",
-        es: "https://www.toolkitlife.com/es/privacy",
-        zh: "https://www.toolkitlife.com/zh/privacy",
-        ja: "https://www.toolkitlife.com/ja/privacy",
-        ko: "https://www.toolkitlife.com/ko/privacy",
-        ru: "https://www.toolkitlife.com/ru/privacy",
-        "x-default": `https://www.toolkitlife.com/en/privacy`,
+        en: "https://toolkitlife.com/en/privacy",
+        es: "https://toolkitlife.com/es/privacy",
+        zh: "https://toolkitlife.com/zh/privacy",
+        ja: "https://toolkitlife.com/ja/privacy",
+        ko: "https://toolkitlife.com/ko/privacy",
+        ru: "https://toolkitlife.com/ru/privacy",
+        "x-default": `https://toolkitlife.com/en/privacy`,
       },
     },
     openGraph: {
@@ -63,8 +63,8 @@ export default async function PrivacyPolicy({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: t("breadcrumb.home"), item: `https://www.toolkitlife.com/${locale}` },
-              { "@type": "ListItem", position: 2, name: t("breadcrumb.current"), item: `https://www.toolkitlife.com/${locale}/privacy` },
+              { "@type": "ListItem", position: 1, name: t("breadcrumb.home"), item: `https://toolkitlife.com/${locale}` },
+              { "@type": "ListItem", position: 2, name: t("breadcrumb.current"), item: `https://toolkitlife.com/${locale}/privacy` },
             ],
           }),
         }}

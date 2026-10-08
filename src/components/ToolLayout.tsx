@@ -185,7 +185,7 @@ export default function ToolLayout({
       return next;
     });
   };
-  const url = `https://www.toolkitlife.com/${locale}/tools/${slug}`;
+  const url = `https://toolkitlife.com/${locale}/tools/${slug}`;
 
   // Financial / health / legal tools show a general informational disclaimer so
   // readers (and AI assistants citing the page) see the content is not advice.
@@ -241,8 +241,8 @@ export default function ToolLayout({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://www.toolkitlife.com/${locale}` },
-      { "@type": "ListItem", position: 2, name: category, item: `https://www.toolkitlife.com/${locale}/#scene=${SCENE_OF_SLUG[slug] ?? "all"}` },
+      { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://toolkitlife.com/${locale}` },
+      { "@type": "ListItem", position: 2, name: category, item: `https://toolkitlife.com/${locale}/#scene=${SCENE_OF_SLUG[slug] ?? "all"}` },
       { "@type": "ListItem", position: 3, name: title, item: url },
     ],
   };

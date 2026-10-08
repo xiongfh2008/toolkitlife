@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/inflation-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/inflation-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/inflation-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/inflation-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/inflation-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/inflation-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/inflation-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/inflation-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/inflation-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/inflation-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/inflation-calculator`,
+        en: `https://toolkitlife.com/en/tools/inflation-calculator`,
+        es: `https://toolkitlife.com/es/tools/inflation-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/inflation-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/inflation-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/inflation-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/inflation-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/inflation-calculator`,
       },
     },
   };

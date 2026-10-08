@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/password-generator`,
+      url: `https://toolkitlife.com/${locale}/tools/password-generator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/password-generator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/password-generator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/password-generator`,
-        es: `https://www.toolkitlife.com/es/tools/password-generator`,
-        zh: `https://www.toolkitlife.com/zh/tools/password-generator`,
-        ja: `https://www.toolkitlife.com/ja/tools/password-generator`,
-        ko: `https://www.toolkitlife.com/ko/tools/password-generator`,
-        ru: `https://www.toolkitlife.com/ru/tools/password-generator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/password-generator`,
+        en: `https://toolkitlife.com/en/tools/password-generator`,
+        es: `https://toolkitlife.com/es/tools/password-generator`,
+        zh: `https://toolkitlife.com/zh/tools/password-generator`,
+        ja: `https://toolkitlife.com/ja/tools/password-generator`,
+        ko: `https://toolkitlife.com/ko/tools/password-generator`,
+        ru: `https://toolkitlife.com/ru/tools/password-generator`,
+        "x-default": `https://toolkitlife.com/en/tools/password-generator`,
       },
     },
   };

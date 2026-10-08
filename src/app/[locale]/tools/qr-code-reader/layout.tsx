@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/qr-code-reader`,
+      url: `https://toolkitlife.com/${locale}/tools/qr-code-reader`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/qr-code-reader`,
+      canonical: `https://toolkitlife.com/${locale}/tools/qr-code-reader`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/qr-code-reader`,
-        es: `https://www.toolkitlife.com/es/tools/qr-code-reader`,
-        zh: `https://www.toolkitlife.com/zh/tools/qr-code-reader`,
-        ja: `https://www.toolkitlife.com/ja/tools/qr-code-reader`,
-        ko: `https://www.toolkitlife.com/ko/tools/qr-code-reader`,
-        ru: `https://www.toolkitlife.com/ru/tools/qr-code-reader`,
-        "x-default": `https://www.toolkitlife.com/en/tools/qr-code-reader`,
+        en: `https://toolkitlife.com/en/tools/qr-code-reader`,
+        es: `https://toolkitlife.com/es/tools/qr-code-reader`,
+        zh: `https://toolkitlife.com/zh/tools/qr-code-reader`,
+        ja: `https://toolkitlife.com/ja/tools/qr-code-reader`,
+        ko: `https://toolkitlife.com/ko/tools/qr-code-reader`,
+        ru: `https://toolkitlife.com/ru/tools/qr-code-reader`,
+        "x-default": `https://toolkitlife.com/en/tools/qr-code-reader`,
       },
     },
   };

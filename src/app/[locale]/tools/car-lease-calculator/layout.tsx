@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/car-lease-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/car-lease-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/car-lease-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/car-lease-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/car-lease-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/car-lease-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/car-lease-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/car-lease-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/car-lease-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/car-lease-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/car-lease-calculator`,
+        en: `https://toolkitlife.com/en/tools/car-lease-calculator`,
+        es: `https://toolkitlife.com/es/tools/car-lease-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/car-lease-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/car-lease-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/car-lease-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/car-lease-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/car-lease-calculator`,
       },
     },
   };

@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/student-loan-tax-bomb-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/student-loan-tax-bomb-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/student-loan-tax-bomb-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/student-loan-tax-bomb-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/student-loan-tax-bomb-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/student-loan-tax-bomb-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/student-loan-tax-bomb-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/student-loan-tax-bomb-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/student-loan-tax-bomb-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/student-loan-tax-bomb-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/student-loan-tax-bomb-calculator`,
+        en: `https://toolkitlife.com/en/tools/student-loan-tax-bomb-calculator`,
+        es: `https://toolkitlife.com/es/tools/student-loan-tax-bomb-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/student-loan-tax-bomb-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/student-loan-tax-bomb-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/student-loan-tax-bomb-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/student-loan-tax-bomb-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/student-loan-tax-bomb-calculator`,
       },
     },
   };

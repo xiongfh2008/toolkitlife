@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/url-opener`,
+      url: `https://toolkitlife.com/${locale}/tools/url-opener`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/url-opener`,
+      canonical: `https://toolkitlife.com/${locale}/tools/url-opener`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/url-opener`,
-        es: `https://www.toolkitlife.com/es/tools/url-opener`,
-        zh: `https://www.toolkitlife.com/zh/tools/url-opener`,
-        ja: `https://www.toolkitlife.com/ja/tools/url-opener`,
-        ko: `https://www.toolkitlife.com/ko/tools/url-opener`,
-        ru: `https://www.toolkitlife.com/ru/tools/url-opener`,
-        "x-default": `https://www.toolkitlife.com/en/tools/url-opener`,
+        en: `https://toolkitlife.com/en/tools/url-opener`,
+        es: `https://toolkitlife.com/es/tools/url-opener`,
+        zh: `https://toolkitlife.com/zh/tools/url-opener`,
+        ja: `https://toolkitlife.com/ja/tools/url-opener`,
+        ko: `https://toolkitlife.com/ko/tools/url-opener`,
+        ru: `https://toolkitlife.com/ru/tools/url-opener`,
+        "x-default": `https://toolkitlife.com/en/tools/url-opener`,
       },
     },
   };

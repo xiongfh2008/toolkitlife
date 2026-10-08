@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/svg-wave-generator`,
+      url: `https://toolkitlife.com/${locale}/tools/svg-wave-generator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/svg-wave-generator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/svg-wave-generator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/svg-wave-generator`,
-        es: `https://www.toolkitlife.com/es/tools/svg-wave-generator`,
-        zh: `https://www.toolkitlife.com/zh/tools/svg-wave-generator`,
-        ja: `https://www.toolkitlife.com/ja/tools/svg-wave-generator`,
-        ko: `https://www.toolkitlife.com/ko/tools/svg-wave-generator`,
-        ru: `https://www.toolkitlife.com/ru/tools/svg-wave-generator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/svg-wave-generator`,
+        en: `https://toolkitlife.com/en/tools/svg-wave-generator`,
+        es: `https://toolkitlife.com/es/tools/svg-wave-generator`,
+        zh: `https://toolkitlife.com/zh/tools/svg-wave-generator`,
+        ja: `https://toolkitlife.com/ja/tools/svg-wave-generator`,
+        ko: `https://toolkitlife.com/ko/tools/svg-wave-generator`,
+        ru: `https://toolkitlife.com/ru/tools/svg-wave-generator`,
+        "x-default": `https://toolkitlife.com/en/tools/svg-wave-generator`,
       },
     },
   };

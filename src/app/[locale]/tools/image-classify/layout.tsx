@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/image-classify`,
+      url: `https://toolkitlife.com/${locale}/tools/image-classify`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/image-classify`,
+      canonical: `https://toolkitlife.com/${locale}/tools/image-classify`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/image-classify`,
-        es: `https://www.toolkitlife.com/es/tools/image-classify`,
-        zh: `https://www.toolkitlife.com/zh/tools/image-classify`,
-        ja: `https://www.toolkitlife.com/ja/tools/image-classify`,
-        ko: `https://www.toolkitlife.com/ko/tools/image-classify`,
-        ru: `https://www.toolkitlife.com/ru/tools/image-classify`,
-        "x-default": `https://www.toolkitlife.com/en/tools/image-classify`,
+        en: `https://toolkitlife.com/en/tools/image-classify`,
+        es: `https://toolkitlife.com/es/tools/image-classify`,
+        zh: `https://toolkitlife.com/zh/tools/image-classify`,
+        ja: `https://toolkitlife.com/ja/tools/image-classify`,
+        ko: `https://toolkitlife.com/ko/tools/image-classify`,
+        ru: `https://toolkitlife.com/ru/tools/image-classify`,
+        "x-default": `https://toolkitlife.com/en/tools/image-classify`,
       },
     },
   };

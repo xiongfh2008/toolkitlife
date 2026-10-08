@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/keyword-density`,
+      url: `https://toolkitlife.com/${locale}/tools/keyword-density`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/keyword-density`,
+      canonical: `https://toolkitlife.com/${locale}/tools/keyword-density`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/keyword-density`,
-        es: `https://www.toolkitlife.com/es/tools/keyword-density`,
-        zh: `https://www.toolkitlife.com/zh/tools/keyword-density`,
-        ja: `https://www.toolkitlife.com/ja/tools/keyword-density`,
-        ko: `https://www.toolkitlife.com/ko/tools/keyword-density`,
-        ru: `https://www.toolkitlife.com/ru/tools/keyword-density`,
-        "x-default": `https://www.toolkitlife.com/en/tools/keyword-density`,
+        en: `https://toolkitlife.com/en/tools/keyword-density`,
+        es: `https://toolkitlife.com/es/tools/keyword-density`,
+        zh: `https://toolkitlife.com/zh/tools/keyword-density`,
+        ja: `https://toolkitlife.com/ja/tools/keyword-density`,
+        ko: `https://toolkitlife.com/ko/tools/keyword-density`,
+        ru: `https://toolkitlife.com/ru/tools/keyword-density`,
+        "x-default": `https://toolkitlife.com/en/tools/keyword-density`,
       },
     },
   };

@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/credit-score-simulator`,
+      url: `https://toolkitlife.com/${locale}/tools/credit-score-simulator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/credit-score-simulator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/credit-score-simulator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/credit-score-simulator`,
-        es: `https://www.toolkitlife.com/es/tools/credit-score-simulator`,
-        zh: `https://www.toolkitlife.com/zh/tools/credit-score-simulator`,
-        ja: `https://www.toolkitlife.com/ja/tools/credit-score-simulator`,
-        ko: `https://www.toolkitlife.com/ko/tools/credit-score-simulator`,
-        ru: `https://www.toolkitlife.com/ru/tools/credit-score-simulator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/credit-score-simulator`,
+        en: `https://toolkitlife.com/en/tools/credit-score-simulator`,
+        es: `https://toolkitlife.com/es/tools/credit-score-simulator`,
+        zh: `https://toolkitlife.com/zh/tools/credit-score-simulator`,
+        ja: `https://toolkitlife.com/ja/tools/credit-score-simulator`,
+        ko: `https://toolkitlife.com/ko/tools/credit-score-simulator`,
+        ru: `https://toolkitlife.com/ru/tools/credit-score-simulator`,
+        "x-default": `https://toolkitlife.com/en/tools/credit-score-simulator`,
       },
     },
   };

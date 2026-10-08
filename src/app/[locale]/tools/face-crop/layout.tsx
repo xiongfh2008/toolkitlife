@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/face-crop`,
+      url: `https://toolkitlife.com/${locale}/tools/face-crop`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/face-crop`,
+      canonical: `https://toolkitlife.com/${locale}/tools/face-crop`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/face-crop`,
-        es: `https://www.toolkitlife.com/es/tools/face-crop`,
-        zh: `https://www.toolkitlife.com/zh/tools/face-crop`,
-        ja: `https://www.toolkitlife.com/ja/tools/face-crop`,
-        ko: `https://www.toolkitlife.com/ko/tools/face-crop`,
-        ru: `https://www.toolkitlife.com/ru/tools/face-crop`,
-        "x-default": `https://www.toolkitlife.com/en/tools/face-crop`,
+        en: `https://toolkitlife.com/en/tools/face-crop`,
+        es: `https://toolkitlife.com/es/tools/face-crop`,
+        zh: `https://toolkitlife.com/zh/tools/face-crop`,
+        ja: `https://toolkitlife.com/ja/tools/face-crop`,
+        ko: `https://toolkitlife.com/ko/tools/face-crop`,
+        ru: `https://toolkitlife.com/ru/tools/face-crop`,
+        "x-default": `https://toolkitlife.com/en/tools/face-crop`,
       },
     },
   };

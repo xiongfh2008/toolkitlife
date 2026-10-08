@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/emoji-picker`,
+      url: `https://toolkitlife.com/${locale}/tools/emoji-picker`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/emoji-picker`,
+      canonical: `https://toolkitlife.com/${locale}/tools/emoji-picker`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/emoji-picker`,
-        es: `https://www.toolkitlife.com/es/tools/emoji-picker`,
-        zh: `https://www.toolkitlife.com/zh/tools/emoji-picker`,
-        ja: `https://www.toolkitlife.com/ja/tools/emoji-picker`,
-        ko: `https://www.toolkitlife.com/ko/tools/emoji-picker`,
-        ru: `https://www.toolkitlife.com/ru/tools/emoji-picker`,
-        "x-default": `https://www.toolkitlife.com/en/tools/emoji-picker`,
+        en: `https://toolkitlife.com/en/tools/emoji-picker`,
+        es: `https://toolkitlife.com/es/tools/emoji-picker`,
+        zh: `https://toolkitlife.com/zh/tools/emoji-picker`,
+        ja: `https://toolkitlife.com/ja/tools/emoji-picker`,
+        ko: `https://toolkitlife.com/ko/tools/emoji-picker`,
+        ru: `https://toolkitlife.com/ru/tools/emoji-picker`,
+        "x-default": `https://toolkitlife.com/en/tools/emoji-picker`,
       },
     },
   };

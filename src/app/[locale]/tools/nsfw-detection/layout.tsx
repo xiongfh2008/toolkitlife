@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/nsfw-detection`,
+      url: `https://toolkitlife.com/${locale}/tools/nsfw-detection`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/nsfw-detection`,
+      canonical: `https://toolkitlife.com/${locale}/tools/nsfw-detection`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/nsfw-detection`,
-        es: `https://www.toolkitlife.com/es/tools/nsfw-detection`,
-        zh: `https://www.toolkitlife.com/zh/tools/nsfw-detection`,
-        ja: `https://www.toolkitlife.com/ja/tools/nsfw-detection`,
-        ko: `https://www.toolkitlife.com/ko/tools/nsfw-detection`,
-        ru: `https://www.toolkitlife.com/ru/tools/nsfw-detection`,
-        "x-default": `https://www.toolkitlife.com/en/tools/nsfw-detection`,
+        en: `https://toolkitlife.com/en/tools/nsfw-detection`,
+        es: `https://toolkitlife.com/es/tools/nsfw-detection`,
+        zh: `https://toolkitlife.com/zh/tools/nsfw-detection`,
+        ja: `https://toolkitlife.com/ja/tools/nsfw-detection`,
+        ko: `https://toolkitlife.com/ko/tools/nsfw-detection`,
+        ru: `https://toolkitlife.com/ru/tools/nsfw-detection`,
+        "x-default": `https://toolkitlife.com/en/tools/nsfw-detection`,
       },
     },
   };

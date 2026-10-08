@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/box-shadow-generator`,
+      url: `https://toolkitlife.com/${locale}/tools/box-shadow-generator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/box-shadow-generator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/box-shadow-generator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/box-shadow-generator`,
-        es: `https://www.toolkitlife.com/es/tools/box-shadow-generator`,
-        zh: `https://www.toolkitlife.com/zh/tools/box-shadow-generator`,
-        ja: `https://www.toolkitlife.com/ja/tools/box-shadow-generator`,
-        ko: `https://www.toolkitlife.com/ko/tools/box-shadow-generator`,
-        ru: `https://www.toolkitlife.com/ru/tools/box-shadow-generator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/box-shadow-generator`,
+        en: `https://toolkitlife.com/en/tools/box-shadow-generator`,
+        es: `https://toolkitlife.com/es/tools/box-shadow-generator`,
+        zh: `https://toolkitlife.com/zh/tools/box-shadow-generator`,
+        ja: `https://toolkitlife.com/ja/tools/box-shadow-generator`,
+        ko: `https://toolkitlife.com/ko/tools/box-shadow-generator`,
+        ru: `https://toolkitlife.com/ru/tools/box-shadow-generator`,
+        "x-default": `https://toolkitlife.com/en/tools/box-shadow-generator`,
       },
     },
   };

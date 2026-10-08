@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/xml-sitemap`,
+      url: `https://toolkitlife.com/${locale}/tools/xml-sitemap`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/xml-sitemap`,
+      canonical: `https://toolkitlife.com/${locale}/tools/xml-sitemap`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/xml-sitemap`,
-        es: `https://www.toolkitlife.com/es/tools/xml-sitemap`,
-        zh: `https://www.toolkitlife.com/zh/tools/xml-sitemap`,
-        ja: `https://www.toolkitlife.com/ja/tools/xml-sitemap`,
-        ko: `https://www.toolkitlife.com/ko/tools/xml-sitemap`,
-        ru: `https://www.toolkitlife.com/ru/tools/xml-sitemap`,
-        "x-default": `https://www.toolkitlife.com/en/tools/xml-sitemap`,
+        en: `https://toolkitlife.com/en/tools/xml-sitemap`,
+        es: `https://toolkitlife.com/es/tools/xml-sitemap`,
+        zh: `https://toolkitlife.com/zh/tools/xml-sitemap`,
+        ja: `https://toolkitlife.com/ja/tools/xml-sitemap`,
+        ko: `https://toolkitlife.com/ko/tools/xml-sitemap`,
+        ru: `https://toolkitlife.com/ru/tools/xml-sitemap`,
+        "x-default": `https://toolkitlife.com/en/tools/xml-sitemap`,
       },
     },
   };

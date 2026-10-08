@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/hash-generator`,
+      url: `https://toolkitlife.com/${locale}/tools/hash-generator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/hash-generator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/hash-generator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/hash-generator`,
-        es: `https://www.toolkitlife.com/es/tools/hash-generator`,
-        zh: `https://www.toolkitlife.com/zh/tools/hash-generator`,
-        ja: `https://www.toolkitlife.com/ja/tools/hash-generator`,
-        ko: `https://www.toolkitlife.com/ko/tools/hash-generator`,
-        ru: `https://www.toolkitlife.com/ru/tools/hash-generator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/hash-generator`,
+        en: `https://toolkitlife.com/en/tools/hash-generator`,
+        es: `https://toolkitlife.com/es/tools/hash-generator`,
+        zh: `https://toolkitlife.com/zh/tools/hash-generator`,
+        ja: `https://toolkitlife.com/ja/tools/hash-generator`,
+        ko: `https://toolkitlife.com/ko/tools/hash-generator`,
+        ru: `https://toolkitlife.com/ru/tools/hash-generator`,
+        "x-default": `https://toolkitlife.com/en/tools/hash-generator`,
       },
     },
   };

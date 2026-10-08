@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/binary-converter`,
+      url: `https://toolkitlife.com/${locale}/tools/binary-converter`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/binary-converter`,
+      canonical: `https://toolkitlife.com/${locale}/tools/binary-converter`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/binary-converter`,
-        es: `https://www.toolkitlife.com/es/tools/binary-converter`,
-        zh: `https://www.toolkitlife.com/zh/tools/binary-converter`,
-        ja: `https://www.toolkitlife.com/ja/tools/binary-converter`,
-        ko: `https://www.toolkitlife.com/ko/tools/binary-converter`,
-        ru: `https://www.toolkitlife.com/ru/tools/binary-converter`,
-        "x-default": `https://www.toolkitlife.com/en/tools/binary-converter`,
+        en: `https://toolkitlife.com/en/tools/binary-converter`,
+        es: `https://toolkitlife.com/es/tools/binary-converter`,
+        zh: `https://toolkitlife.com/zh/tools/binary-converter`,
+        ja: `https://toolkitlife.com/ja/tools/binary-converter`,
+        ko: `https://toolkitlife.com/ko/tools/binary-converter`,
+        ru: `https://toolkitlife.com/ru/tools/binary-converter`,
+        "x-default": `https://toolkitlife.com/en/tools/binary-converter`,
       },
     },
   };

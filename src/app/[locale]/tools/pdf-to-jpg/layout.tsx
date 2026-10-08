@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/pdf-to-jpg`,
+      url: `https://toolkitlife.com/${locale}/tools/pdf-to-jpg`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/pdf-to-jpg`,
+      canonical: `https://toolkitlife.com/${locale}/tools/pdf-to-jpg`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/pdf-to-jpg`,
-        es: `https://www.toolkitlife.com/es/tools/pdf-to-jpg`,
-        zh: `https://www.toolkitlife.com/zh/tools/pdf-to-jpg`,
-        ja: `https://www.toolkitlife.com/ja/tools/pdf-to-jpg`,
-        ko: `https://www.toolkitlife.com/ko/tools/pdf-to-jpg`,
-        ru: `https://www.toolkitlife.com/ru/tools/pdf-to-jpg`,
-        "x-default": `https://www.toolkitlife.com/en/tools/pdf-to-jpg`,
+        en: `https://toolkitlife.com/en/tools/pdf-to-jpg`,
+        es: `https://toolkitlife.com/es/tools/pdf-to-jpg`,
+        zh: `https://toolkitlife.com/zh/tools/pdf-to-jpg`,
+        ja: `https://toolkitlife.com/ja/tools/pdf-to-jpg`,
+        ko: `https://toolkitlife.com/ko/tools/pdf-to-jpg`,
+        ru: `https://toolkitlife.com/ru/tools/pdf-to-jpg`,
+        "x-default": `https://toolkitlife.com/en/tools/pdf-to-jpg`,
       },
     },
   };

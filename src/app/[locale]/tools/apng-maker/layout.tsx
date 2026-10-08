@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/apng-maker`,
+      url: `https://toolkitlife.com/${locale}/tools/apng-maker`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/apng-maker`,
+      canonical: `https://toolkitlife.com/${locale}/tools/apng-maker`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/apng-maker`,
-        es: `https://www.toolkitlife.com/es/tools/apng-maker`,
-        zh: `https://www.toolkitlife.com/zh/tools/apng-maker`,
-        ja: `https://www.toolkitlife.com/ja/tools/apng-maker`,
-        ko: `https://www.toolkitlife.com/ko/tools/apng-maker`,
-        ru: `https://www.toolkitlife.com/ru/tools/apng-maker`,
-        "x-default": `https://www.toolkitlife.com/en/tools/apng-maker`,
+        en: `https://toolkitlife.com/en/tools/apng-maker`,
+        es: `https://toolkitlife.com/es/tools/apng-maker`,
+        zh: `https://toolkitlife.com/zh/tools/apng-maker`,
+        ja: `https://toolkitlife.com/ja/tools/apng-maker`,
+        ko: `https://toolkitlife.com/ko/tools/apng-maker`,
+        ru: `https://toolkitlife.com/ru/tools/apng-maker`,
+        "x-default": `https://toolkitlife.com/en/tools/apng-maker`,
       },
     },
   };

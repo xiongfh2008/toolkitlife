@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/stopwatch`,
+      url: `https://toolkitlife.com/${locale}/tools/stopwatch`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/stopwatch`,
+      canonical: `https://toolkitlife.com/${locale}/tools/stopwatch`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/stopwatch`,
-        es: `https://www.toolkitlife.com/es/tools/stopwatch`,
-        zh: `https://www.toolkitlife.com/zh/tools/stopwatch`,
-        ja: `https://www.toolkitlife.com/ja/tools/stopwatch`,
-        ko: `https://www.toolkitlife.com/ko/tools/stopwatch`,
-        ru: `https://www.toolkitlife.com/ru/tools/stopwatch`,
-        "x-default": `https://www.toolkitlife.com/en/tools/stopwatch`,
+        en: `https://toolkitlife.com/en/tools/stopwatch`,
+        es: `https://toolkitlife.com/es/tools/stopwatch`,
+        zh: `https://toolkitlife.com/zh/tools/stopwatch`,
+        ja: `https://toolkitlife.com/ja/tools/stopwatch`,
+        ko: `https://toolkitlife.com/ko/tools/stopwatch`,
+        ru: `https://toolkitlife.com/ru/tools/stopwatch`,
+        "x-default": `https://toolkitlife.com/en/tools/stopwatch`,
       },
     },
   };

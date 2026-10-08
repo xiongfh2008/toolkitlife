@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/dog-age-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/dog-age-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/dog-age-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/dog-age-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/dog-age-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/dog-age-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/dog-age-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/dog-age-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/dog-age-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/dog-age-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/dog-age-calculator`,
+        en: `https://toolkitlife.com/en/tools/dog-age-calculator`,
+        es: `https://toolkitlife.com/es/tools/dog-age-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/dog-age-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/dog-age-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/dog-age-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/dog-age-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/dog-age-calculator`,
       },
     },
   };

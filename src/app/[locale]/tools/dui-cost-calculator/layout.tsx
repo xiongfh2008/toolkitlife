@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/dui-cost-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/dui-cost-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/dui-cost-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/dui-cost-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/dui-cost-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/dui-cost-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/dui-cost-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/dui-cost-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/dui-cost-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/dui-cost-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/dui-cost-calculator`,
+        en: `https://toolkitlife.com/en/tools/dui-cost-calculator`,
+        es: `https://toolkitlife.com/es/tools/dui-cost-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/dui-cost-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/dui-cost-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/dui-cost-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/dui-cost-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/dui-cost-calculator`,
       },
     },
   };

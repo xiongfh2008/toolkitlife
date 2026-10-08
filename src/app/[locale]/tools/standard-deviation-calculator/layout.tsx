@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/standard-deviation-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/standard-deviation-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/standard-deviation-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/standard-deviation-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/standard-deviation-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/standard-deviation-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/standard-deviation-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/standard-deviation-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/standard-deviation-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/standard-deviation-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/standard-deviation-calculator`,
+        en: `https://toolkitlife.com/en/tools/standard-deviation-calculator`,
+        es: `https://toolkitlife.com/es/tools/standard-deviation-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/standard-deviation-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/standard-deviation-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/standard-deviation-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/standard-deviation-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/standard-deviation-calculator`,
       },
     },
   };

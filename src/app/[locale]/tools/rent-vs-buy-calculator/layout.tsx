@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/rent-vs-buy-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/rent-vs-buy-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/rent-vs-buy-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/rent-vs-buy-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/rent-vs-buy-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/rent-vs-buy-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/rent-vs-buy-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/rent-vs-buy-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/rent-vs-buy-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/rent-vs-buy-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/rent-vs-buy-calculator`,
+        en: `https://toolkitlife.com/en/tools/rent-vs-buy-calculator`,
+        es: `https://toolkitlife.com/es/tools/rent-vs-buy-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/rent-vs-buy-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/rent-vs-buy-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/rent-vs-buy-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/rent-vs-buy-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/rent-vs-buy-calculator`,
       },
     },
   };

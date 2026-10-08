@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/1rm-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/1rm-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/1rm-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/1rm-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/1rm-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/1rm-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/1rm-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/1rm-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/1rm-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/1rm-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/1rm-calculator`,
+        en: `https://toolkitlife.com/en/tools/1rm-calculator`,
+        es: `https://toolkitlife.com/es/tools/1rm-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/1rm-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/1rm-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/1rm-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/1rm-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/1rm-calculator`,
       },
     },
   };

@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/qr-file-transfer`,
+      url: `https://toolkitlife.com/${locale}/tools/qr-file-transfer`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/qr-file-transfer`,
+      canonical: `https://toolkitlife.com/${locale}/tools/qr-file-transfer`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/qr-file-transfer`,
-        es: `https://www.toolkitlife.com/es/tools/qr-file-transfer`,
-        zh: `https://www.toolkitlife.com/zh/tools/qr-file-transfer`,
-        ja: `https://www.toolkitlife.com/ja/tools/qr-file-transfer`,
-        ko: `https://www.toolkitlife.com/ko/tools/qr-file-transfer`,
-        ru: `https://www.toolkitlife.com/ru/tools/qr-file-transfer`,
-        "x-default": `https://www.toolkitlife.com/en/tools/qr-file-transfer`,
+        en: `https://toolkitlife.com/en/tools/qr-file-transfer`,
+        es: `https://toolkitlife.com/es/tools/qr-file-transfer`,
+        zh: `https://toolkitlife.com/zh/tools/qr-file-transfer`,
+        ja: `https://toolkitlife.com/ja/tools/qr-file-transfer`,
+        ko: `https://toolkitlife.com/ko/tools/qr-file-transfer`,
+        ru: `https://toolkitlife.com/ru/tools/qr-file-transfer`,
+        "x-default": `https://toolkitlife.com/en/tools/qr-file-transfer`,
       },
     },
   };

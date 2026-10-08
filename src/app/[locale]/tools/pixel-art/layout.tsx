@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/pixel-art`,
+      url: `https://toolkitlife.com/${locale}/tools/pixel-art`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/pixel-art`,
+      canonical: `https://toolkitlife.com/${locale}/tools/pixel-art`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/pixel-art`,
-        es: `https://www.toolkitlife.com/es/tools/pixel-art`,
-        zh: `https://www.toolkitlife.com/zh/tools/pixel-art`,
-        ja: `https://www.toolkitlife.com/ja/tools/pixel-art`,
-        ko: `https://www.toolkitlife.com/ko/tools/pixel-art`,
-        ru: `https://www.toolkitlife.com/ru/tools/pixel-art`,
-        "x-default": `https://www.toolkitlife.com/en/tools/pixel-art`,
+        en: `https://toolkitlife.com/en/tools/pixel-art`,
+        es: `https://toolkitlife.com/es/tools/pixel-art`,
+        zh: `https://toolkitlife.com/zh/tools/pixel-art`,
+        ja: `https://toolkitlife.com/ja/tools/pixel-art`,
+        ko: `https://toolkitlife.com/ko/tools/pixel-art`,
+        ru: `https://toolkitlife.com/ru/tools/pixel-art`,
+        "x-default": `https://toolkitlife.com/en/tools/pixel-art`,
       },
     },
   };

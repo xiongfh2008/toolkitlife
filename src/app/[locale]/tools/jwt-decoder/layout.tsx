@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/jwt-decoder`,
+      url: `https://toolkitlife.com/${locale}/tools/jwt-decoder`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/jwt-decoder`,
+      canonical: `https://toolkitlife.com/${locale}/tools/jwt-decoder`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/jwt-decoder`,
-        es: `https://www.toolkitlife.com/es/tools/jwt-decoder`,
-        zh: `https://www.toolkitlife.com/zh/tools/jwt-decoder`,
-        ja: `https://www.toolkitlife.com/ja/tools/jwt-decoder`,
-        ko: `https://www.toolkitlife.com/ko/tools/jwt-decoder`,
-        ru: `https://www.toolkitlife.com/ru/tools/jwt-decoder`,
-        "x-default": `https://www.toolkitlife.com/en/tools/jwt-decoder`,
+        en: `https://toolkitlife.com/en/tools/jwt-decoder`,
+        es: `https://toolkitlife.com/es/tools/jwt-decoder`,
+        zh: `https://toolkitlife.com/zh/tools/jwt-decoder`,
+        ja: `https://toolkitlife.com/ja/tools/jwt-decoder`,
+        ko: `https://toolkitlife.com/ko/tools/jwt-decoder`,
+        ru: `https://toolkitlife.com/ru/tools/jwt-decoder`,
+        "x-default": `https://toolkitlife.com/en/tools/jwt-decoder`,
       },
     },
   };

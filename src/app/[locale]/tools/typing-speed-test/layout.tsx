@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/typing-speed-test`,
+      url: `https://toolkitlife.com/${locale}/tools/typing-speed-test`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/typing-speed-test`,
+      canonical: `https://toolkitlife.com/${locale}/tools/typing-speed-test`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/typing-speed-test`,
-        es: `https://www.toolkitlife.com/es/tools/typing-speed-test`,
-        zh: `https://www.toolkitlife.com/zh/tools/typing-speed-test`,
-        ja: `https://www.toolkitlife.com/ja/tools/typing-speed-test`,
-        ko: `https://www.toolkitlife.com/ko/tools/typing-speed-test`,
-        ru: `https://www.toolkitlife.com/ru/tools/typing-speed-test`,
-        "x-default": `https://www.toolkitlife.com/en/tools/typing-speed-test`,
+        en: `https://toolkitlife.com/en/tools/typing-speed-test`,
+        es: `https://toolkitlife.com/es/tools/typing-speed-test`,
+        zh: `https://toolkitlife.com/zh/tools/typing-speed-test`,
+        ja: `https://toolkitlife.com/ja/tools/typing-speed-test`,
+        ko: `https://toolkitlife.com/ko/tools/typing-speed-test`,
+        ru: `https://toolkitlife.com/ru/tools/typing-speed-test`,
+        "x-default": `https://toolkitlife.com/en/tools/typing-speed-test`,
       },
     },
   };

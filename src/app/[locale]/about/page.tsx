@@ -16,7 +16,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "about.metadata" });
-  const url = `https://www.toolkitlife.com/${locale}/about`;
+  const url = `https://toolkitlife.com/${locale}/about`;
   const ogImage = ogImageUrl({ title: t("title"), type: "home" });
   return {
     title: t("title"),
@@ -24,13 +24,13 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: {
-        en: "https://www.toolkitlife.com/en/about",
-        es: "https://www.toolkitlife.com/es/about",
-        zh: "https://www.toolkitlife.com/zh/about",
-        ja: "https://www.toolkitlife.com/ja/about",
-        ko: "https://www.toolkitlife.com/ko/about",
-        ru: "https://www.toolkitlife.com/ru/about",
-        "x-default": `https://www.toolkitlife.com/en/about`,
+        en: "https://toolkitlife.com/en/about",
+        es: "https://toolkitlife.com/es/about",
+        zh: "https://toolkitlife.com/zh/about",
+        ja: "https://toolkitlife.com/ja/about",
+        ko: "https://toolkitlife.com/ko/about",
+        ru: "https://toolkitlife.com/ru/about",
+        "x-default": `https://toolkitlife.com/en/about`,
       },
     },
     openGraph: {
@@ -69,8 +69,8 @@ export default async function AboutPage({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: t("breadcrumb.home"), item: `https://www.toolkitlife.com/${locale}` },
-              { "@type": "ListItem", position: 2, name: t("breadcrumb.current"), item: `https://www.toolkitlife.com/${locale}/about` },
+              { "@type": "ListItem", position: 1, name: t("breadcrumb.home"), item: `https://toolkitlife.com/${locale}` },
+              { "@type": "ListItem", position: 2, name: t("breadcrumb.current"), item: `https://toolkitlife.com/${locale}/about` },
             ],
           }),
         }}

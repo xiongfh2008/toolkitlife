@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/resume-builder`,
+      url: `https://toolkitlife.com/${locale}/tools/resume-builder`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/resume-builder`,
+      canonical: `https://toolkitlife.com/${locale}/tools/resume-builder`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/resume-builder`,
-        es: `https://www.toolkitlife.com/es/tools/resume-builder`,
-        zh: `https://www.toolkitlife.com/zh/tools/resume-builder`,
-        ja: `https://www.toolkitlife.com/ja/tools/resume-builder`,
-        ko: `https://www.toolkitlife.com/ko/tools/resume-builder`,
-        ru: `https://www.toolkitlife.com/ru/tools/resume-builder`,
-        "x-default": `https://www.toolkitlife.com/en/tools/resume-builder`,
+        en: `https://toolkitlife.com/en/tools/resume-builder`,
+        es: `https://toolkitlife.com/es/tools/resume-builder`,
+        zh: `https://toolkitlife.com/zh/tools/resume-builder`,
+        ja: `https://toolkitlife.com/ja/tools/resume-builder`,
+        ko: `https://toolkitlife.com/ko/tools/resume-builder`,
+        ru: `https://toolkitlife.com/ru/tools/resume-builder`,
+        "x-default": `https://toolkitlife.com/en/tools/resume-builder`,
       },
     },
   };

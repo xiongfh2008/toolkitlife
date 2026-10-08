@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/image-deblur`,
+      url: `https://toolkitlife.com/${locale}/tools/image-deblur`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/image-deblur`,
+      canonical: `https://toolkitlife.com/${locale}/tools/image-deblur`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/image-deblur`,
-        es: `https://www.toolkitlife.com/es/tools/image-deblur`,
-        zh: `https://www.toolkitlife.com/zh/tools/image-deblur`,
-        ja: `https://www.toolkitlife.com/ja/tools/image-deblur`,
-        ko: `https://www.toolkitlife.com/ko/tools/image-deblur`,
-        ru: `https://www.toolkitlife.com/ru/tools/image-deblur`,
-        "x-default": `https://www.toolkitlife.com/en/tools/image-deblur`,
+        en: `https://toolkitlife.com/en/tools/image-deblur`,
+        es: `https://toolkitlife.com/es/tools/image-deblur`,
+        zh: `https://toolkitlife.com/zh/tools/image-deblur`,
+        ja: `https://toolkitlife.com/ja/tools/image-deblur`,
+        ko: `https://toolkitlife.com/ko/tools/image-deblur`,
+        ru: `https://toolkitlife.com/ru/tools/image-deblur`,
+        "x-default": `https://toolkitlife.com/en/tools/image-deblur`,
       },
     },
   };

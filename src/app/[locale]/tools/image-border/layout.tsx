@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/image-border`,
+      url: `https://toolkitlife.com/${locale}/tools/image-border`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/image-border`,
+      canonical: `https://toolkitlife.com/${locale}/tools/image-border`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/image-border`,
-        es: `https://www.toolkitlife.com/es/tools/image-border`,
-        zh: `https://www.toolkitlife.com/zh/tools/image-border`,
-        ja: `https://www.toolkitlife.com/ja/tools/image-border`,
-        ko: `https://www.toolkitlife.com/ko/tools/image-border`,
-        ru: `https://www.toolkitlife.com/ru/tools/image-border`,
-        "x-default": `https://www.toolkitlife.com/en/tools/image-border`,
+        en: `https://toolkitlife.com/en/tools/image-border`,
+        es: `https://toolkitlife.com/es/tools/image-border`,
+        zh: `https://toolkitlife.com/zh/tools/image-border`,
+        ja: `https://toolkitlife.com/ja/tools/image-border`,
+        ko: `https://toolkitlife.com/ko/tools/image-border`,
+        ru: `https://toolkitlife.com/ru/tools/image-border`,
+        "x-default": `https://toolkitlife.com/en/tools/image-border`,
       },
     },
   };

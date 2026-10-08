@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/regex-tester`,
+      url: `https://toolkitlife.com/${locale}/tools/regex-tester`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/regex-tester`,
+      canonical: `https://toolkitlife.com/${locale}/tools/regex-tester`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/regex-tester`,
-        es: `https://www.toolkitlife.com/es/tools/regex-tester`,
-        zh: `https://www.toolkitlife.com/zh/tools/regex-tester`,
-        ja: `https://www.toolkitlife.com/ja/tools/regex-tester`,
-        ko: `https://www.toolkitlife.com/ko/tools/regex-tester`,
-        ru: `https://www.toolkitlife.com/ru/tools/regex-tester`,
-        "x-default": `https://www.toolkitlife.com/en/tools/regex-tester`,
+        en: `https://toolkitlife.com/en/tools/regex-tester`,
+        es: `https://toolkitlife.com/es/tools/regex-tester`,
+        zh: `https://toolkitlife.com/zh/tools/regex-tester`,
+        ja: `https://toolkitlife.com/ja/tools/regex-tester`,
+        ko: `https://toolkitlife.com/ko/tools/regex-tester`,
+        ru: `https://toolkitlife.com/ru/tools/regex-tester`,
+        "x-default": `https://toolkitlife.com/en/tools/regex-tester`,
       },
     },
   };

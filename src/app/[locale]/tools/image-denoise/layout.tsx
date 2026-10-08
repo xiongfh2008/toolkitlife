@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/image-denoise`,
+      url: `https://toolkitlife.com/${locale}/tools/image-denoise`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/image-denoise`,
+      canonical: `https://toolkitlife.com/${locale}/tools/image-denoise`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/image-denoise`,
-        es: `https://www.toolkitlife.com/es/tools/image-denoise`,
-        zh: `https://www.toolkitlife.com/zh/tools/image-denoise`,
-        ja: `https://www.toolkitlife.com/ja/tools/image-denoise`,
-        ko: `https://www.toolkitlife.com/ko/tools/image-denoise`,
-        ru: `https://www.toolkitlife.com/ru/tools/image-denoise`,
-        "x-default": `https://www.toolkitlife.com/en/tools/image-denoise`,
+        en: `https://toolkitlife.com/en/tools/image-denoise`,
+        es: `https://toolkitlife.com/es/tools/image-denoise`,
+        zh: `https://toolkitlife.com/zh/tools/image-denoise`,
+        ja: `https://toolkitlife.com/ja/tools/image-denoise`,
+        ko: `https://toolkitlife.com/ko/tools/image-denoise`,
+        ru: `https://toolkitlife.com/ru/tools/image-denoise`,
+        "x-default": `https://toolkitlife.com/en/tools/image-denoise`,
       },
     },
   };

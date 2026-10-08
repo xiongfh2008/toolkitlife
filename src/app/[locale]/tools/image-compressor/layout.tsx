@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/image-compressor`,
+      url: `https://toolkitlife.com/${locale}/tools/image-compressor`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/image-compressor`,
+      canonical: `https://toolkitlife.com/${locale}/tools/image-compressor`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/image-compressor`,
-        es: `https://www.toolkitlife.com/es/tools/image-compressor`,
-        zh: `https://www.toolkitlife.com/zh/tools/image-compressor`,
-        ja: `https://www.toolkitlife.com/ja/tools/image-compressor`,
-        ko: `https://www.toolkitlife.com/ko/tools/image-compressor`,
-        ru: `https://www.toolkitlife.com/ru/tools/image-compressor`,
-        "x-default": `https://www.toolkitlife.com/en/tools/image-compressor`,
+        en: `https://toolkitlife.com/en/tools/image-compressor`,
+        es: `https://toolkitlife.com/es/tools/image-compressor`,
+        zh: `https://toolkitlife.com/zh/tools/image-compressor`,
+        ja: `https://toolkitlife.com/ja/tools/image-compressor`,
+        ko: `https://toolkitlife.com/ko/tools/image-compressor`,
+        ru: `https://toolkitlife.com/ru/tools/image-compressor`,
+        "x-default": `https://toolkitlife.com/en/tools/image-compressor`,
       },
     },
   };

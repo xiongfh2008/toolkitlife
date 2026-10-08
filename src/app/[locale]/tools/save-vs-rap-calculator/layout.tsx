@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/save-vs-rap-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/save-vs-rap-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/save-vs-rap-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/save-vs-rap-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/save-vs-rap-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/save-vs-rap-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/save-vs-rap-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/save-vs-rap-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/save-vs-rap-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/save-vs-rap-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/save-vs-rap-calculator`,
+        en: `https://toolkitlife.com/en/tools/save-vs-rap-calculator`,
+        es: `https://toolkitlife.com/es/tools/save-vs-rap-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/save-vs-rap-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/save-vs-rap-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/save-vs-rap-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/save-vs-rap-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/save-vs-rap-calculator`,
       },
     },
   };

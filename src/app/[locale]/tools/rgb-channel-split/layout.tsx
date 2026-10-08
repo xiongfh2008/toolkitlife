@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/rgb-channel-split`,
+      url: `https://toolkitlife.com/${locale}/tools/rgb-channel-split`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/rgb-channel-split`,
+      canonical: `https://toolkitlife.com/${locale}/tools/rgb-channel-split`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/rgb-channel-split`,
-        es: `https://www.toolkitlife.com/es/tools/rgb-channel-split`,
-        zh: `https://www.toolkitlife.com/zh/tools/rgb-channel-split`,
-        ja: `https://www.toolkitlife.com/ja/tools/rgb-channel-split`,
-        ko: `https://www.toolkitlife.com/ko/tools/rgb-channel-split`,
-        ru: `https://www.toolkitlife.com/ru/tools/rgb-channel-split`,
-        "x-default": `https://www.toolkitlife.com/en/tools/rgb-channel-split`,
+        en: `https://toolkitlife.com/en/tools/rgb-channel-split`,
+        es: `https://toolkitlife.com/es/tools/rgb-channel-split`,
+        zh: `https://toolkitlife.com/zh/tools/rgb-channel-split`,
+        ja: `https://toolkitlife.com/ja/tools/rgb-channel-split`,
+        ko: `https://toolkitlife.com/ko/tools/rgb-channel-split`,
+        ru: `https://toolkitlife.com/ru/tools/rgb-channel-split`,
+        "x-default": `https://toolkitlife.com/en/tools/rgb-channel-split`,
       },
     },
   };

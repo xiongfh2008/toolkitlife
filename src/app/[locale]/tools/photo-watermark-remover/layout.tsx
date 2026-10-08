@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/photo-watermark-remover`,
+      url: `https://toolkitlife.com/${locale}/tools/photo-watermark-remover`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/photo-watermark-remover`,
+      canonical: `https://toolkitlife.com/${locale}/tools/photo-watermark-remover`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/photo-watermark-remover`,
-        es: `https://www.toolkitlife.com/es/tools/photo-watermark-remover`,
-        zh: `https://www.toolkitlife.com/zh/tools/photo-watermark-remover`,
-        ja: `https://www.toolkitlife.com/ja/tools/photo-watermark-remover`,
-        ko: `https://www.toolkitlife.com/ko/tools/photo-watermark-remover`,
-        ru: `https://www.toolkitlife.com/ru/tools/photo-watermark-remover`,
-        "x-default": `https://www.toolkitlife.com/en/tools/photo-watermark-remover`,
+        en: `https://toolkitlife.com/en/tools/photo-watermark-remover`,
+        es: `https://toolkitlife.com/es/tools/photo-watermark-remover`,
+        zh: `https://toolkitlife.com/zh/tools/photo-watermark-remover`,
+        ja: `https://toolkitlife.com/ja/tools/photo-watermark-remover`,
+        ko: `https://toolkitlife.com/ko/tools/photo-watermark-remover`,
+        ru: `https://toolkitlife.com/ru/tools/photo-watermark-remover`,
+        "x-default": `https://toolkitlife.com/en/tools/photo-watermark-remover`,
       },
     },
   };

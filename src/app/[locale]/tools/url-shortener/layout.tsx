@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/url-shortener`,
+      url: `https://toolkitlife.com/${locale}/tools/url-shortener`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/url-shortener`,
+      canonical: `https://toolkitlife.com/${locale}/tools/url-shortener`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/url-shortener`,
-        es: `https://www.toolkitlife.com/es/tools/url-shortener`,
-        zh: `https://www.toolkitlife.com/zh/tools/url-shortener`,
-        ja: `https://www.toolkitlife.com/ja/tools/url-shortener`,
-        ko: `https://www.toolkitlife.com/ko/tools/url-shortener`,
-        ru: `https://www.toolkitlife.com/ru/tools/url-shortener`,
-        "x-default": `https://www.toolkitlife.com/en/tools/url-shortener`,
+        en: `https://toolkitlife.com/en/tools/url-shortener`,
+        es: `https://toolkitlife.com/es/tools/url-shortener`,
+        zh: `https://toolkitlife.com/zh/tools/url-shortener`,
+        ja: `https://toolkitlife.com/ja/tools/url-shortener`,
+        ko: `https://toolkitlife.com/ko/tools/url-shortener`,
+        ru: `https://toolkitlife.com/ru/tools/url-shortener`,
+        "x-default": `https://toolkitlife.com/en/tools/url-shortener`,
       },
     },
   };

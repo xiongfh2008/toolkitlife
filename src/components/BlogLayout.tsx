@@ -48,7 +48,7 @@ interface BlogLayoutProps {
 export default function BlogLayout({ post, children }: BlogLayoutProps) {
   const t = useTranslations("blogLayout");
   const locale = useLocale();
-  const url = `https://www.toolkitlife.com/${locale}/blog/${post.slug}`;
+  const url = `https://toolkitlife.com/${locale}/blog/${post.slug}`;
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -56,11 +56,11 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
     headline: post.title,
     description: post.description,
     url,
-    image: post.image ? `https://www.toolkitlife.com${post.image}` : ogImageUrl({ title: post.title, type: "blog" }),
+    image: post.image ? `https://toolkitlife.com${post.image}` : ogImageUrl({ title: post.title, type: "blog" }),
     datePublished: post.datePublished,
     dateModified: post.dateModified,
-    author: { "@type": "Person", name: post.author, url: `https://www.toolkitlife.com/${locale}/blog` },
-    publisher: { "@type": "Organization", name: "ToolkitLife", logo: { "@type": "ImageObject", url: "https://www.toolkitlife.com/icon.svg" } },
+    author: { "@type": "Person", name: post.author, url: `https://toolkitlife.com/${locale}/blog` },
+    publisher: { "@type": "Organization", name: "ToolkitLife", logo: { "@type": "ImageObject", url: "https://toolkitlife.com/icon.svg" } },
     mainEntityOfPage: url,
     keywords: post.tags.join(", "),
   };
@@ -81,8 +81,8 @@ export default function BlogLayout({ post, children }: BlogLayoutProps) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://www.toolkitlife.com/${locale}` },
-      { "@type": "ListItem", position: 2, name: t("breadcrumbBlog"), item: `https://www.toolkitlife.com/${locale}/blog` },
+      { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://toolkitlife.com/${locale}` },
+      { "@type": "ListItem", position: 2, name: t("breadcrumbBlog"), item: `https://toolkitlife.com/${locale}/blog` },
       { "@type": "ListItem", position: 3, name: post.title, item: url },
     ],
   };

@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/blob-dataurl`,
+      url: `https://toolkitlife.com/${locale}/tools/blob-dataurl`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/blob-dataurl`,
+      canonical: `https://toolkitlife.com/${locale}/tools/blob-dataurl`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/blob-dataurl`,
-        es: `https://www.toolkitlife.com/es/tools/blob-dataurl`,
-        zh: `https://www.toolkitlife.com/zh/tools/blob-dataurl`,
-        ja: `https://www.toolkitlife.com/ja/tools/blob-dataurl`,
-        ko: `https://www.toolkitlife.com/ko/tools/blob-dataurl`,
-        ru: `https://www.toolkitlife.com/ru/tools/blob-dataurl`,
-        "x-default": `https://www.toolkitlife.com/en/tools/blob-dataurl`,
+        en: `https://toolkitlife.com/en/tools/blob-dataurl`,
+        es: `https://toolkitlife.com/es/tools/blob-dataurl`,
+        zh: `https://toolkitlife.com/zh/tools/blob-dataurl`,
+        ja: `https://toolkitlife.com/ja/tools/blob-dataurl`,
+        ko: `https://toolkitlife.com/ko/tools/blob-dataurl`,
+        ru: `https://toolkitlife.com/ru/tools/blob-dataurl`,
+        "x-default": `https://toolkitlife.com/en/tools/blob-dataurl`,
       },
     },
   };

@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/bionic-reading`,
+      url: `https://toolkitlife.com/${locale}/tools/bionic-reading`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/bionic-reading`,
+      canonical: `https://toolkitlife.com/${locale}/tools/bionic-reading`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/bionic-reading`,
-        es: `https://www.toolkitlife.com/es/tools/bionic-reading`,
-        zh: `https://www.toolkitlife.com/zh/tools/bionic-reading`,
-        ja: `https://www.toolkitlife.com/ja/tools/bionic-reading`,
-        ko: `https://www.toolkitlife.com/ko/tools/bionic-reading`,
-        ru: `https://www.toolkitlife.com/ru/tools/bionic-reading`,
-        "x-default": `https://www.toolkitlife.com/en/tools/bionic-reading`,
+        en: `https://toolkitlife.com/en/tools/bionic-reading`,
+        es: `https://toolkitlife.com/es/tools/bionic-reading`,
+        zh: `https://toolkitlife.com/zh/tools/bionic-reading`,
+        ja: `https://toolkitlife.com/ja/tools/bionic-reading`,
+        ko: `https://toolkitlife.com/ko/tools/bionic-reading`,
+        ru: `https://toolkitlife.com/ru/tools/bionic-reading`,
+        "x-default": `https://toolkitlife.com/en/tools/bionic-reading`,
       },
     },
   };

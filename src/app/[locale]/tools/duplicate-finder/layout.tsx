@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/duplicate-finder`,
+      url: `https://toolkitlife.com/${locale}/tools/duplicate-finder`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/duplicate-finder`,
+      canonical: `https://toolkitlife.com/${locale}/tools/duplicate-finder`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/duplicate-finder`,
-        es: `https://www.toolkitlife.com/es/tools/duplicate-finder`,
-        zh: `https://www.toolkitlife.com/zh/tools/duplicate-finder`,
-        ja: `https://www.toolkitlife.com/ja/tools/duplicate-finder`,
-        ko: `https://www.toolkitlife.com/ko/tools/duplicate-finder`,
-        ru: `https://www.toolkitlife.com/ru/tools/duplicate-finder`,
-        "x-default": `https://www.toolkitlife.com/en/tools/duplicate-finder`,
+        en: `https://toolkitlife.com/en/tools/duplicate-finder`,
+        es: `https://toolkitlife.com/es/tools/duplicate-finder`,
+        zh: `https://toolkitlife.com/zh/tools/duplicate-finder`,
+        ja: `https://toolkitlife.com/ja/tools/duplicate-finder`,
+        ko: `https://toolkitlife.com/ko/tools/duplicate-finder`,
+        ru: `https://toolkitlife.com/ru/tools/duplicate-finder`,
+        "x-default": `https://toolkitlife.com/en/tools/duplicate-finder`,
       },
     },
   };

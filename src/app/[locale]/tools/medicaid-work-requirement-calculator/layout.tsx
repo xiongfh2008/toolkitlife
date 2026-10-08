@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/medicaid-work-requirement-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/medicaid-work-requirement-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/medicaid-work-requirement-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/medicaid-work-requirement-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/medicaid-work-requirement-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/medicaid-work-requirement-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/medicaid-work-requirement-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/medicaid-work-requirement-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/medicaid-work-requirement-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/medicaid-work-requirement-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/medicaid-work-requirement-calculator`,
+        en: `https://toolkitlife.com/en/tools/medicaid-work-requirement-calculator`,
+        es: `https://toolkitlife.com/es/tools/medicaid-work-requirement-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/medicaid-work-requirement-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/medicaid-work-requirement-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/medicaid-work-requirement-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/medicaid-work-requirement-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/medicaid-work-requirement-calculator`,
       },
     },
   };

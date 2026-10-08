@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/weight-loss-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/weight-loss-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/weight-loss-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/weight-loss-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/weight-loss-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/weight-loss-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/weight-loss-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/weight-loss-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/weight-loss-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/weight-loss-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/weight-loss-calculator`,
+        en: `https://toolkitlife.com/en/tools/weight-loss-calculator`,
+        es: `https://toolkitlife.com/es/tools/weight-loss-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/weight-loss-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/weight-loss-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/weight-loss-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/weight-loss-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/weight-loss-calculator`,
       },
     },
   };

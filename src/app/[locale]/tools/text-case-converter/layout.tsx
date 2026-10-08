@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/text-case-converter`,
+      url: `https://toolkitlife.com/${locale}/tools/text-case-converter`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/text-case-converter`,
+      canonical: `https://toolkitlife.com/${locale}/tools/text-case-converter`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/text-case-converter`,
-        es: `https://www.toolkitlife.com/es/tools/text-case-converter`,
-        zh: `https://www.toolkitlife.com/zh/tools/text-case-converter`,
-        ja: `https://www.toolkitlife.com/ja/tools/text-case-converter`,
-        ko: `https://www.toolkitlife.com/ko/tools/text-case-converter`,
-        ru: `https://www.toolkitlife.com/ru/tools/text-case-converter`,
-        "x-default": `https://www.toolkitlife.com/en/tools/text-case-converter`,
+        en: `https://toolkitlife.com/en/tools/text-case-converter`,
+        es: `https://toolkitlife.com/es/tools/text-case-converter`,
+        zh: `https://toolkitlife.com/zh/tools/text-case-converter`,
+        ja: `https://toolkitlife.com/ja/tools/text-case-converter`,
+        ko: `https://toolkitlife.com/ko/tools/text-case-converter`,
+        ru: `https://toolkitlife.com/ru/tools/text-case-converter`,
+        "x-default": `https://toolkitlife.com/en/tools/text-case-converter`,
       },
     },
   };

@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/protein-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/protein-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/protein-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/protein-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/protein-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/protein-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/protein-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/protein-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/protein-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/protein-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/protein-calculator`,
+        en: `https://toolkitlife.com/en/tools/protein-calculator`,
+        es: `https://toolkitlife.com/es/tools/protein-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/protein-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/protein-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/protein-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/protein-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/protein-calculator`,
       },
     },
   };

@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/cd-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/cd-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/cd-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/cd-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/cd-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/cd-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/cd-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/cd-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/cd-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/cd-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/cd-calculator`,
+        en: `https://toolkitlife.com/en/tools/cd-calculator`,
+        es: `https://toolkitlife.com/es/tools/cd-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/cd-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/cd-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/cd-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/cd-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/cd-calculator`,
       },
     },
   };

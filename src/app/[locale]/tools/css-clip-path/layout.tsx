@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/css-clip-path`,
+      url: `https://toolkitlife.com/${locale}/tools/css-clip-path`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/css-clip-path`,
+      canonical: `https://toolkitlife.com/${locale}/tools/css-clip-path`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/css-clip-path`,
-        es: `https://www.toolkitlife.com/es/tools/css-clip-path`,
-        zh: `https://www.toolkitlife.com/zh/tools/css-clip-path`,
-        ja: `https://www.toolkitlife.com/ja/tools/css-clip-path`,
-        ko: `https://www.toolkitlife.com/ko/tools/css-clip-path`,
-        ru: `https://www.toolkitlife.com/ru/tools/css-clip-path`,
-        "x-default": `https://www.toolkitlife.com/en/tools/css-clip-path`,
+        en: `https://toolkitlife.com/en/tools/css-clip-path`,
+        es: `https://toolkitlife.com/es/tools/css-clip-path`,
+        zh: `https://toolkitlife.com/zh/tools/css-clip-path`,
+        ja: `https://toolkitlife.com/ja/tools/css-clip-path`,
+        ko: `https://toolkitlife.com/ko/tools/css-clip-path`,
+        ru: `https://toolkitlife.com/ru/tools/css-clip-path`,
+        "x-default": `https://toolkitlife.com/en/tools/css-clip-path`,
       },
     },
   };

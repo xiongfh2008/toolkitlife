@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/workers-comp-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/workers-comp-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/workers-comp-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/workers-comp-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/workers-comp-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/workers-comp-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/workers-comp-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/workers-comp-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/workers-comp-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/workers-comp-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/workers-comp-calculator`,
+        en: `https://toolkitlife.com/en/tools/workers-comp-calculator`,
+        es: `https://toolkitlife.com/es/tools/workers-comp-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/workers-comp-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/workers-comp-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/workers-comp-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/workers-comp-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/workers-comp-calculator`,
       },
     },
   };

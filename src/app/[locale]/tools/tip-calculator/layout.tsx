@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/tip-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/tip-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/tip-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/tip-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/tip-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/tip-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/tip-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/tip-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/tip-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/tip-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/tip-calculator`,
+        en: `https://toolkitlife.com/en/tools/tip-calculator`,
+        es: `https://toolkitlife.com/es/tools/tip-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/tip-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/tip-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/tip-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/tip-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/tip-calculator`,
       },
     },
   };

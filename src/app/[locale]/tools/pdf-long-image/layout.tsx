@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/pdf-long-image`,
+      url: `https://toolkitlife.com/${locale}/tools/pdf-long-image`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/pdf-long-image`,
+      canonical: `https://toolkitlife.com/${locale}/tools/pdf-long-image`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/pdf-long-image`,
-        es: `https://www.toolkitlife.com/es/tools/pdf-long-image`,
-        zh: `https://www.toolkitlife.com/zh/tools/pdf-long-image`,
-        ja: `https://www.toolkitlife.com/ja/tools/pdf-long-image`,
-        ko: `https://www.toolkitlife.com/ko/tools/pdf-long-image`,
-        ru: `https://www.toolkitlife.com/ru/tools/pdf-long-image`,
-        "x-default": `https://www.toolkitlife.com/en/tools/pdf-long-image`,
+        en: `https://toolkitlife.com/en/tools/pdf-long-image`,
+        es: `https://toolkitlife.com/es/tools/pdf-long-image`,
+        zh: `https://toolkitlife.com/zh/tools/pdf-long-image`,
+        ja: `https://toolkitlife.com/ja/tools/pdf-long-image`,
+        ko: `https://toolkitlife.com/ko/tools/pdf-long-image`,
+        ru: `https://toolkitlife.com/ru/tools/pdf-long-image`,
+        "x-default": `https://toolkitlife.com/en/tools/pdf-long-image`,
       },
     },
   };

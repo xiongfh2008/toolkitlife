@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/json-to-csv`,
+      url: `https://toolkitlife.com/${locale}/tools/json-to-csv`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/json-to-csv`,
+      canonical: `https://toolkitlife.com/${locale}/tools/json-to-csv`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/json-to-csv`,
-        es: `https://www.toolkitlife.com/es/tools/json-to-csv`,
-        zh: `https://www.toolkitlife.com/zh/tools/json-to-csv`,
-        ja: `https://www.toolkitlife.com/ja/tools/json-to-csv`,
-        ko: `https://www.toolkitlife.com/ko/tools/json-to-csv`,
-        ru: `https://www.toolkitlife.com/ru/tools/json-to-csv`,
-        "x-default": `https://www.toolkitlife.com/en/tools/json-to-csv`,
+        en: `https://toolkitlife.com/en/tools/json-to-csv`,
+        es: `https://toolkitlife.com/es/tools/json-to-csv`,
+        zh: `https://toolkitlife.com/zh/tools/json-to-csv`,
+        ja: `https://toolkitlife.com/ja/tools/json-to-csv`,
+        ko: `https://toolkitlife.com/ko/tools/json-to-csv`,
+        ru: `https://toolkitlife.com/ru/tools/json-to-csv`,
+        "x-default": `https://toolkitlife.com/en/tools/json-to-csv`,
       },
     },
   };

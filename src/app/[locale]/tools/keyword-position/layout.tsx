@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/keyword-position`,
+      url: `https://toolkitlife.com/${locale}/tools/keyword-position`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/keyword-position`,
+      canonical: `https://toolkitlife.com/${locale}/tools/keyword-position`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/keyword-position`,
-        es: `https://www.toolkitlife.com/es/tools/keyword-position`,
-        zh: `https://www.toolkitlife.com/zh/tools/keyword-position`,
-        ja: `https://www.toolkitlife.com/ja/tools/keyword-position`,
-        ko: `https://www.toolkitlife.com/ko/tools/keyword-position`,
-        ru: `https://www.toolkitlife.com/ru/tools/keyword-position`,
-        "x-default": `https://www.toolkitlife.com/en/tools/keyword-position`,
+        en: `https://toolkitlife.com/en/tools/keyword-position`,
+        es: `https://toolkitlife.com/es/tools/keyword-position`,
+        zh: `https://toolkitlife.com/zh/tools/keyword-position`,
+        ja: `https://toolkitlife.com/ja/tools/keyword-position`,
+        ko: `https://toolkitlife.com/ko/tools/keyword-position`,
+        ru: `https://toolkitlife.com/ru/tools/keyword-position`,
+        "x-default": `https://toolkitlife.com/en/tools/keyword-position`,
       },
     },
   };

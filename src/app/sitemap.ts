@@ -20,10 +20,28 @@ const tools = Object.keys(
 // resolve to an existing page, otherwise search engines index 404s.
 const blogSlugs = blogPostsMeta.map((p) => p.slug);
 
+// Old tool slugs that 308-redirect to their canonical replacements (see the
+// slug-alignment redirects in next.config.ts). Redirecting URLs must not be
+// listed in the sitemap. Keep in sync with next.config.ts.
+const REDIRECTED_TOOL_SLUGS = new Set([
+  "image-format-converter",
+  "unix-timestamp-converter",
+  "url-encoder-decoder",
+  "cron-expression-generator",
+  "exif-data-viewer",
+  "noise-texture-generator",
+  "open-graph-preview",
+  "image-filter-effects",
+  "obbba-tax-savings-calculator",
+  "pregnancy-due-date-calculator",
+  "image-to-text-ocr",
+  "digital-signature-creator",
+]);
+
 const staticPaths = ["", "/about", "/privacy", "/terms"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://www.toolkitlife.com";
+  const base = "https://toolkitlife.com";
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -55,6 +73,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     for (const slug of tools) {
+      if (REDIRECTED_TOOL_SLUGS.has(slug)) continue;
       entries.push({
         url: `${prefix}/tools/${slug}`,
         changeFrequency: "monthly",

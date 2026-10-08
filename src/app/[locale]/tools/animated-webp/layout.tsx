@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/animated-webp`,
+      url: `https://toolkitlife.com/${locale}/tools/animated-webp`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/animated-webp`,
+      canonical: `https://toolkitlife.com/${locale}/tools/animated-webp`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/animated-webp`,
-        es: `https://www.toolkitlife.com/es/tools/animated-webp`,
-        zh: `https://www.toolkitlife.com/zh/tools/animated-webp`,
-        ja: `https://www.toolkitlife.com/ja/tools/animated-webp`,
-        ko: `https://www.toolkitlife.com/ko/tools/animated-webp`,
-        ru: `https://www.toolkitlife.com/ru/tools/animated-webp`,
-        "x-default": `https://www.toolkitlife.com/en/tools/animated-webp`,
+        en: `https://toolkitlife.com/en/tools/animated-webp`,
+        es: `https://toolkitlife.com/es/tools/animated-webp`,
+        zh: `https://toolkitlife.com/zh/tools/animated-webp`,
+        ja: `https://toolkitlife.com/ja/tools/animated-webp`,
+        ko: `https://toolkitlife.com/ko/tools/animated-webp`,
+        ru: `https://toolkitlife.com/ru/tools/animated-webp`,
+        "x-default": `https://toolkitlife.com/en/tools/animated-webp`,
       },
     },
   };

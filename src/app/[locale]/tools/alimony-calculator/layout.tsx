@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/alimony-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/alimony-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/alimony-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/alimony-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/alimony-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/alimony-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/alimony-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/alimony-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/alimony-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/alimony-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/alimony-calculator`,
+        en: `https://toolkitlife.com/en/tools/alimony-calculator`,
+        es: `https://toolkitlife.com/es/tools/alimony-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/alimony-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/alimony-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/alimony-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/alimony-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/alimony-calculator`,
       },
     },
   };

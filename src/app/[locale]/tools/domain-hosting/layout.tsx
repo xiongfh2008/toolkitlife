@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/domain-hosting`,
+      url: `https://toolkitlife.com/${locale}/tools/domain-hosting`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/domain-hosting`,
+      canonical: `https://toolkitlife.com/${locale}/tools/domain-hosting`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/domain-hosting`,
-        es: `https://www.toolkitlife.com/es/tools/domain-hosting`,
-        zh: `https://www.toolkitlife.com/zh/tools/domain-hosting`,
-        ja: `https://www.toolkitlife.com/ja/tools/domain-hosting`,
-        ko: `https://www.toolkitlife.com/ko/tools/domain-hosting`,
-        ru: `https://www.toolkitlife.com/ru/tools/domain-hosting`,
-        "x-default": `https://www.toolkitlife.com/en/tools/domain-hosting`,
+        en: `https://toolkitlife.com/en/tools/domain-hosting`,
+        es: `https://toolkitlife.com/es/tools/domain-hosting`,
+        zh: `https://toolkitlife.com/zh/tools/domain-hosting`,
+        ja: `https://toolkitlife.com/ja/tools/domain-hosting`,
+        ko: `https://toolkitlife.com/ko/tools/domain-hosting`,
+        ru: `https://toolkitlife.com/ru/tools/domain-hosting`,
+        "x-default": `https://toolkitlife.com/en/tools/domain-hosting`,
       },
     },
   };

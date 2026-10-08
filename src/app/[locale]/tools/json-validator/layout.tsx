@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/json-validator`,
+      url: `https://toolkitlife.com/${locale}/tools/json-validator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/json-validator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/json-validator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/json-validator`,
-        es: `https://www.toolkitlife.com/es/tools/json-validator`,
-        zh: `https://www.toolkitlife.com/zh/tools/json-validator`,
-        ja: `https://www.toolkitlife.com/ja/tools/json-validator`,
-        ko: `https://www.toolkitlife.com/ko/tools/json-validator`,
-        ru: `https://www.toolkitlife.com/ru/tools/json-validator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/json-validator`,
+        en: `https://toolkitlife.com/en/tools/json-validator`,
+        es: `https://toolkitlife.com/es/tools/json-validator`,
+        zh: `https://toolkitlife.com/zh/tools/json-validator`,
+        ja: `https://toolkitlife.com/ja/tools/json-validator`,
+        ko: `https://toolkitlife.com/ko/tools/json-validator`,
+        ru: `https://toolkitlife.com/ru/tools/json-validator`,
+        "x-default": `https://toolkitlife.com/en/tools/json-validator`,
       },
     },
   };

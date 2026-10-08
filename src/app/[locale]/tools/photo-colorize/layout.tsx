@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/photo-colorize`,
+      url: `https://toolkitlife.com/${locale}/tools/photo-colorize`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/photo-colorize`,
+      canonical: `https://toolkitlife.com/${locale}/tools/photo-colorize`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/photo-colorize`,
-        es: `https://www.toolkitlife.com/es/tools/photo-colorize`,
-        zh: `https://www.toolkitlife.com/zh/tools/photo-colorize`,
-        ja: `https://www.toolkitlife.com/ja/tools/photo-colorize`,
-        ko: `https://www.toolkitlife.com/ko/tools/photo-colorize`,
-        ru: `https://www.toolkitlife.com/ru/tools/photo-colorize`,
-        "x-default": `https://www.toolkitlife.com/en/tools/photo-colorize`,
+        en: `https://toolkitlife.com/en/tools/photo-colorize`,
+        es: `https://toolkitlife.com/es/tools/photo-colorize`,
+        zh: `https://toolkitlife.com/zh/tools/photo-colorize`,
+        ja: `https://toolkitlife.com/ja/tools/photo-colorize`,
+        ko: `https://toolkitlife.com/ko/tools/photo-colorize`,
+        ru: `https://toolkitlife.com/ru/tools/photo-colorize`,
+        "x-default": `https://toolkitlife.com/en/tools/photo-colorize`,
       },
     },
   };

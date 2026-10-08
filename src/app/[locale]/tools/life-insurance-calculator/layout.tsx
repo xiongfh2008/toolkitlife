@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
 
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/life-insurance-calculator`,
+      url: `https://toolkitlife.com/${locale}/tools/life-insurance-calculator`,
 
       siteName: "ToolkitLife",
 
@@ -31,15 +31,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/life-insurance-calculator`,
+      canonical: `https://toolkitlife.com/${locale}/tools/life-insurance-calculator`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/life-insurance-calculator`,
-        es: `https://www.toolkitlife.com/es/tools/life-insurance-calculator`,
-        zh: `https://www.toolkitlife.com/zh/tools/life-insurance-calculator`,
-        ja: `https://www.toolkitlife.com/ja/tools/life-insurance-calculator`,
-        ko: `https://www.toolkitlife.com/ko/tools/life-insurance-calculator`,
-        ru: `https://www.toolkitlife.com/ru/tools/life-insurance-calculator`,
-        "x-default": `https://www.toolkitlife.com/en/tools/life-insurance-calculator`,
+        en: `https://toolkitlife.com/en/tools/life-insurance-calculator`,
+        es: `https://toolkitlife.com/es/tools/life-insurance-calculator`,
+        zh: `https://toolkitlife.com/zh/tools/life-insurance-calculator`,
+        ja: `https://toolkitlife.com/ja/tools/life-insurance-calculator`,
+        ko: `https://toolkitlife.com/ko/tools/life-insurance-calculator`,
+        ru: `https://toolkitlife.com/ru/tools/life-insurance-calculator`,
+        "x-default": `https://toolkitlife.com/en/tools/life-insurance-calculator`,
       },
     },
   };

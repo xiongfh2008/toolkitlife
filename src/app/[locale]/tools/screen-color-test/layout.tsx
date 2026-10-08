@@ -19,7 +19,7 @@ export async function generateMetadata({
     title: t("title"),
     openGraph: {
       type: "website",
-      url: `https://www.toolkitlife.com/${locale}/tools/screen-color-test`,
+      url: `https://toolkitlife.com/${locale}/tools/screen-color-test`,
       siteName: "ToolkitLife",
       images: [
         { url: ogImageUrl({ title: t("title"), type: "tool" }), width: 1200, height: 630, alt: t("title") },
@@ -28,15 +28,15 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image", images: [ogImageUrl({ title: t("title"), type: "tool" })] },
     description: t("description"),
     alternates: {
-      canonical: `https://www.toolkitlife.com/${locale}/tools/screen-color-test`,
+      canonical: `https://toolkitlife.com/${locale}/tools/screen-color-test`,
       languages: {
-        en: `https://www.toolkitlife.com/en/tools/screen-color-test`,
-        es: `https://www.toolkitlife.com/es/tools/screen-color-test`,
-        zh: `https://www.toolkitlife.com/zh/tools/screen-color-test`,
-        ja: `https://www.toolkitlife.com/ja/tools/screen-color-test`,
-        ko: `https://www.toolkitlife.com/ko/tools/screen-color-test`,
-        ru: `https://www.toolkitlife.com/ru/tools/screen-color-test`,
-        "x-default": `https://www.toolkitlife.com/en/tools/screen-color-test`,
+        en: `https://toolkitlife.com/en/tools/screen-color-test`,
+        es: `https://toolkitlife.com/es/tools/screen-color-test`,
+        zh: `https://toolkitlife.com/zh/tools/screen-color-test`,
+        ja: `https://toolkitlife.com/ja/tools/screen-color-test`,
+        ko: `https://toolkitlife.com/ko/tools/screen-color-test`,
+        ru: `https://toolkitlife.com/ru/tools/screen-color-test`,
+        "x-default": `https://toolkitlife.com/en/tools/screen-color-test`,
       },
     },
   };
