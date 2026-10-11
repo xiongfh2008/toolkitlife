@@ -2459,6 +2459,12 @@
         "description": "Gere structs Rust prontos para serde a partir de JSON com Option<T> para campos nulos e renomeação automática para camelCase.",
         "category": "Developer",
         "icon": "🦀"
+      },
+      "ico-converter": {
+        "name": "ICO Converter",
+        "description": "Convert images into multi-size ICO icons and extract ICO frames back to PNG images.",
+        "category": "Design",
+        "icon": "⊞"
       }
     },
     "scenes": {
@@ -11362,6 +11368,10 @@
         {
           "name": "Image Resizer",
           "href": "/tools/image-resizer"
+        },
+        {
+          "name": "ICO Converter",
+          "href": "/tools/ico-converter"
         }
       ],
       "labels": {
@@ -35107,6 +35117,10 @@
         {
           "name": "Image DPI Changer",
           "href": "/tools/image-dpi"
+        },
+        {
+          "name": "ICO Converter",
+          "href": "/tools/ico-converter"
         }
       ],
       "upload": {
@@ -39921,6 +39935,135 @@
         "copy": "Copiar",
         "copied": "Copiado!"
       }
+    },
+    "ico-converter": {
+      "metadata": {
+        "title": "ICO Converter",
+        "description": "Convert PNG, JPG, WebP or GIF images into multi-size ICO icons, and extract ICO frames back to PNG images. Every frame is independently resampled; runs entirely in your browser.",
+        "category": "Design"
+      },
+      "keywords": [
+        "ico converter",
+        "png to ico",
+        "ico icon generator",
+        "favicon.ico generator",
+        "multi-size ico",
+        "ico to png",
+        "extract ico frames",
+        "windows icon converter",
+        "create ico file online",
+        "ico file maker"
+      ],
+      "tabs": {
+        "toIco": "Image → ICO",
+        "toImages": "ICO → Images"
+      },
+      "labels": {
+        "upload": "Choose images (PNG / JPG / WebP / GIF / BMP, multiple allowed)",
+        "pasteHint": "You can also paste with Ctrl + V",
+        "dropHint": "Drop images here or click to select",
+        "dropHintIco": "Drop an ICO file here or click to select",
+        "sizes": "Icon sizes",
+        "presetWebsite": "Website favicon",
+        "presetWindows": "Windows full set",
+        "sizeHint": "Each checked size becomes an independent frame in the ICO. Small sizes serve taskbars and browser tabs, 256 serves large icon views.",
+        "scale": "Scaling",
+        "scaleFit": "Fit — keep ratio, transparent padding (recommended)",
+        "scaleFill": "Fill — keep ratio, center crop",
+        "background": "Padding color (fit mode)",
+        "bgTransparent": "Transparent (recommended)",
+        "bgWhite": "White",
+        "bgBlack": "Black",
+        "encoding": "Frame encoding",
+        "encAuto": "Auto — 256 as PNG, rest BMP (best compatibility)",
+        "encPng": "All PNG — smallest (Vista+)",
+        "encBmp": "All BMP — legacy programs",
+        "result": "Conversion result",
+        "uploadIco": "Choose an ICO file",
+        "extractHint": "Multi-size ICO files are expanded frame by frame; 32bpp, 24bpp and palette formats are supported.",
+        "frames": "Extracted {count} frames",
+        "working": "Working…"
+      },
+      "buttons": {
+        "downloadIco": "Download ICO",
+        "downloadAll": "Download all",
+        "downloadPng": "PNG",
+        "downloadAllFrames": "Download all frames",
+        "repackIco": "Repack as ICO (original size)",
+        "clear": "Clear"
+      },
+      "errors": {
+        "noSize": "Select at least one icon size.",
+        "invalidImage": "Please select a valid image file.",
+        "invalidIco": "This file is not a valid ICO file.",
+        "convertFailed": "Conversion failed. Please try another file."
+      },
+      "guide": {
+        "intro": {
+          "title": "What is an ICO Converter?",
+          "paragraphs": [
+            "An ICO Converter turns ordinary images into multi-size ICO files for Windows and browsers, and can also restore ICO frames back into PNG images. An ICO is essentially \"one file holding many pictures\": small frames serve taskbars and browser tabs, while the 256×256 frame serves large icon views.",
+            "All conversion happens locally in your browser — images are never uploaded to any server."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to Convert an Image to ICO",
+            "paragraphs": [
+              "Pick a PNG, JPG, WebP or GIF image, check the sizes you need (16/32/48 for a website favicon, the full 16–256 set for Windows) and generate. Every size is independently resampled at its target dimensions instead of being scaled down as a whole, so even tiny icons stay crisp.",
+              "Rename the exported file to favicon.ico and place it in your site root — browsers and Windows will recognize it automatically."
+            ]
+          },
+          {
+            "title": "Scaling and Encoding Options",
+            "paragraphs": [
+              "For non-square images choose \"Fit\" (keeps the ratio, transparent padding) or \"Fill\" (keeps the ratio, center crop). The encoding option controls how each frame is stored: in Auto mode the 256×256 frame is PNG and the rest are BMP for the best compatibility. If an old program refuses PNG frames, switch to \"All BMP\"."
+            ]
+          },
+          {
+            "title": "How to Extract Images from an ICO",
+            "paragraphs": [
+              "After uploading an .ico file, every frame is listed with its original size and encoding and can be downloaded as a PNG. \"Repack as ICO\" reassembles the extracted frames into a single ICO at their original sizes — for example, to turn PNG frames into BMP frames that legacy programs can read."
+            ]
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What is an ICO file?",
+          "answer": "ICO is the icon container format used by Windows and browsers: one file stores several sizes of the same icon. Windows picks the best-fitting frame automatically for each context, so each frame should be generated by independent resampling at its target size."
+        },
+        {
+          "question": "Which sizes should favicon.ico contain?",
+          "answer": "For a website favicon, 16, 32 and 48 are recommended. If the icon will also be used as a Windows desktop icon, choose the full 16–256 set."
+        },
+        {
+          "question": "What is the difference between PNG frames and BMP frames?",
+          "answer": "PNG frames are smaller and support transparency, working on Windows Vista and later. BMP frames are compatible with the oldest programs but weigh more. When unsure, pick \"Auto\": 256×256 as PNG, the rest as BMP."
+        },
+        {
+          "question": "What if my image is not square?",
+          "answer": "\"Fit\" keeps the ratio and leaves transparent padding, while \"Fill\" keeps the ratio and crops toward the center. Square images give the best results."
+        },
+        {
+          "question": "Are my images uploaded anywhere?",
+          "answer": "No. Parsing, scaling and encoding all happen inside your browser and work offline — images never leave your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon Generator",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Icon Size Generator",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "Image Resizer",
+          "href": "/tools/image-resizer"
+        }
+      ]
     }
   },
   "blogLayout": {

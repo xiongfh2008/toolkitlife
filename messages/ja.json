@@ -2459,6 +2459,12 @@
         "description": "JSON から serde 対応の Rust 構造体を生成。null 許容フィールドは Option<T>、camelCase リネームを自動化。",
         "category": "Developer",
         "icon": "🦀"
+      },
+      "ico-converter": {
+        "name": "ICO アイコン変換",
+        "description": "画像をマルチサイズ ICO に変換し、ICO のフレームを PNG として抽出します。",
+        "category": "Design",
+        "icon": "⊞"
       }
     },
     "scenes": {
@@ -11210,6 +11216,10 @@
         {
           "name": "画像リサイズ",
           "href": "/tools/image-resizer"
+        },
+        {
+          "name": "ICO アイコン変換",
+          "href": "/tools/ico-converter"
         }
       ],
       "labels": {
@@ -35350,6 +35360,10 @@
         {
           "name": "画像 DPI 変更",
           "href": "/tools/image-dpi"
+        },
+        {
+          "name": "ICO アイコン変換",
+          "href": "/tools/ico-converter"
         }
       ],
       "upload": {
@@ -40164,6 +40178,135 @@
         "copy": "コピー",
         "copied": "コピーしました！"
       }
+    },
+    "ico-converter": {
+      "metadata": {
+        "title": "ICO アイコン変換",
+        "description": "PNG・JPG・WebP・GIF 画像をマルチサイズの ICO アイコンに変換し、ICO の各フレームを PNG として抽出もできます。各フレームは独立して再サンプリングされ、すべてブラウザ内で処理されます。",
+        "category": "Design"
+      },
+      "keywords": [
+        "ico 変換",
+        "png ico 変換",
+        "ico アイコン 作成",
+        "favicon.ico 生成",
+        "マルチサイズ ico",
+        "ico 抽出",
+        "ico フレーム 書き出し",
+        "windows アイコン 変換",
+        "ico 作成 無料",
+        "ico ファイル 作る"
+      ],
+      "tabs": {
+        "toIco": "画像 → ICO",
+        "toImages": "ICO → 画像"
+      },
+      "labels": {
+        "upload": "画像を選択（PNG / JPG / WebP / GIF / BMP、複数可）",
+        "pasteHint": "Ctrl + V で貼り付けも可能",
+        "dropHint": "画像をここにドラッグ＆ドロップ、またはクリックして選択",
+        "dropHintIco": "ICO ファイルをここにドラッグ＆ドロップ、またはクリックして選択",
+        "sizes": "アイコンサイズ",
+        "presetWebsite": "サイトの favicon",
+        "presetWindows": "Windows フルセット",
+        "sizeHint": "チェックした各サイズが ICO 内の独立したフレームになります。小サイズはタスクバーとタブに、256 は大きなアイコン表示に使われます。",
+        "scale": "スケーリング",
+        "scaleFit": "フィット——比率維持、余白は透過（推奨）",
+        "scaleFill": "埋める——比率維持、中央でトリミング",
+        "background": "余白の色（フィット時）",
+        "bgTransparent": "透過（推奨）",
+        "bgWhite": "白",
+        "bgBlack": "黒",
+        "encoding": "フレーム方式",
+        "encAuto": "自動——256 は PNG、他は BMP（互換性最良）",
+        "encPng": "すべて PNG——最小サイズ（Vista 以降）",
+        "encBmp": "すべて BMP——旧アプリ対応",
+        "result": "変換結果",
+        "uploadIco": "ICO ファイルを選択",
+        "extractHint": "マルチサイズ ICO はフレームごとに展開されます。32bpp・24bpp・パレット形式に対応。",
+        "frames": "{count} フレームを抽出しました",
+        "working": "処理中…"
+      },
+      "buttons": {
+        "downloadIco": "ICO をダウンロード",
+        "downloadAll": "すべてダウンロード",
+        "downloadPng": "PNG",
+        "downloadAllFrames": "全フレームをダウンロード",
+        "repackIco": "ICO として再パック（元サイズ）",
+        "clear": "クリア"
+      },
+      "errors": {
+        "noSize": "少なくとも 1 つのサイズを選択してください。",
+        "invalidImage": "有効な画像ファイルを選択してください。",
+        "invalidIco": "有効な ICO ファイルではありません。",
+        "convertFailed": "変換に失敗しました。別のファイルでお試しください。"
+      },
+      "guide": {
+        "intro": {
+          "title": "ICO アイコン変換ツールとは？",
+          "paragraphs": [
+            "ICO アイコン変換ツールは、通常の画像を Windows やブラウザで使えるマルチサイズ ICO ファイルに変換したり、ICO をフレームごと PNG に復元したりできる無料ツールです。ICO は実質「1 つのファイルに複数の画像を収納」する形式で、小サイズはタスクバーとタブに、256×256 は大きなアイコン表示に使われます。",
+            "すべての処理はブラウザ内で完結し、画像はどのサーバーにもアップロードされません。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "画像を ICO に変換する方法",
+            "paragraphs": [
+              "PNG・JPG・WebP・GIF 画像を選び、必要なサイズにチェック（サイトの favicon は 16/32/48、Windows 用は 16–256 のフルセット）して生成します。各サイズは目標サイズに合わせて独立して再サンプリングされるため、小さいアイコンも鮮明です。",
+              "書き出したファイルを favicon.ico にリネームしてサイトのルートに置けば、ブラウザと Windows が認識します。"
+            ]
+          },
+          {
+            "title": "スケーリングとエンコードの選択肢",
+            "paragraphs": [
+              "正方形以外の画像は「フィット」（比率維持・余白透過）か「埋める」（比率維持・中央トリミング）を選べます。エンコード方式は各フレームの保存形式を決めます。自動モードは 256×256 を PNG、他を BMP にします。旧アプリが PNG フレームを認識しない場合は「すべて BMP」に変更してください。"
+            ]
+          },
+          {
+            "title": "ICO から画像を取り出す方法",
+            "paragraphs": [
+              ".ico ファイルをアップロードすると、各フレームに元のサイズとエンコード情報が付き、PNG として個別にダウンロードできます。「ICO として再パック」は抽出したフレームを元サイズのまま 1 つの ICO に戻します。PNG フレームを旧アプリ対応の BMP フレームへ変換する場合に便利です。"
+            ]
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "ICO ファイルとは？",
+          "answer": "ICO は Windows とブラウザが使うアイコンコンテナ形式で、1 つのファイルに同じアイコンの複数サイズを収納できます。Windows は表示場面に応じて最適なフレームを自動選択するため、各フレームは目標サイズで独立に再サンプリングするのが理想です。"
+        },
+        {
+          "question": "favicon.ico に含めるべきサイズは？",
+          "answer": "サイトの favicon には 16・32・48 の 3 サイズを推奨します。Windows のデスクトップアイコンとしても使うなら 16–256 のフルセットを選んでください。"
+        },
+        {
+          "question": "PNG フレームと BMP フレームの違いは？",
+          "answer": "PNG フレームは小型で透過をサポートし、Windows Vista 以降で使えます。BMP フレームは最も古いソフトにも互換がありますが容量が大きくなります。迷う場合は「自動」を選びましょう。"
+        },
+        {
+          "question": "正方形以外の画像はどう処理されますか？",
+          "answer": "「フィット」は比率を保ち余白を透過、「埋める」は比率を保ち中央をトリミングします。正方形の画像が最もきれいに仕上がります。"
+        },
+        {
+          "question": "画像はアップロードされますか？",
+          "answer": "いいえ。解析・スケーリング・エンコードはすべてブラウザ内で行われ、オフラインでも動作します。画像が端末の外に出ることはありません。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon ジェネレーター",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "アイコンサイズジェネレーター",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "画像リサイズ",
+          "href": "/tools/image-resizer"
+        }
+      ]
     }
   },
   "blogLayout": {

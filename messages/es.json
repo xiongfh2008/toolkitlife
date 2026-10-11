@@ -2459,6 +2459,12 @@
         "description": "Genera structs Rust listos para serde a partir de JSON con Option<T> para campos nullables y renombrado automático a camelCase.",
         "category": "Developer",
         "icon": "🦀"
+      },
+      "ico-converter": {
+        "name": "Convertidor de ICO",
+        "description": "Convierte imágenes en iconos ICO de varios tamaños y extrae los fotogramas de un ICO a PNG.",
+        "category": "Design",
+        "icon": "⊞"
       }
     },
     "scenes": {
@@ -11362,6 +11368,10 @@
         {
           "name": "Redimensionador de imágenes",
           "href": "/tools/image-resizer"
+        },
+        {
+          "name": "Convertidor de ICO",
+          "href": "/tools/ico-converter"
         }
       ],
       "labels": {
@@ -35107,6 +35117,10 @@
         {
           "name": "Cambiador de DPI de imagen",
           "href": "/tools/image-dpi"
+        },
+        {
+          "name": "Convertidor de ICO",
+          "href": "/tools/ico-converter"
         }
       ],
       "upload": {
@@ -39921,6 +39935,135 @@
         "copy": "Copiar",
         "copied": "¡Copiado!"
       }
+    },
+    "ico-converter": {
+      "metadata": {
+        "title": "Convertidor de ICO",
+        "description": "Convierte imágenes PNG, JPG, WebP o GIF en iconos ICO de varios tamaños y extrae los fotogramas de un ICO de vuelta a PNG. Cada fotograma se remuestrea de forma independiente; todo funciona en tu navegador.",
+        "category": "Design"
+      },
+      "keywords": [
+        "convertidor ico",
+        "png a ico",
+        "crear icono ico",
+        "generador favicon.ico",
+        "ico varios tamaños",
+        "ico a png",
+        "extraer fotogramas ico",
+        "convertidor iconos windows",
+        "crear ico online",
+        "archivo ico online"
+      ],
+      "tabs": {
+        "toIco": "Imagen → ICO",
+        "toImages": "ICO → Imágenes"
+      },
+      "labels": {
+        "upload": "Elige imágenes (PNG / JPG / WebP / GIF / BMP, varias permitidas)",
+        "pasteHint": "También puedes pegar con Ctrl + V",
+        "dropHint": "Arrastra imágenes aquí o haz clic para seleccionar",
+        "dropHintIco": "Arrastra un archivo ICO aquí o haz clic para seleccionar",
+        "sizes": "Tamaños de icono",
+        "presetWebsite": "Favicon para web",
+        "presetWindows": "Set completo de Windows",
+        "sizeHint": "Cada tamaño marcado se convierte en un fotograma independiente del ICO. Los tamaños pequeños sirven para la barra de tareas y las pestañas; 256, para vistas de iconos grandes.",
+        "scale": "Escalado",
+        "scaleFit": "Ajustar — mantiene proporciones, relleno transparente (recomendado)",
+        "scaleFill": "Rellenar — mantiene proporciones, recorte centrado",
+        "background": "Color de relleno (modo ajustar)",
+        "bgTransparent": "Transparente (recomendado)",
+        "bgWhite": "Blanco",
+        "bgBlack": "Negro",
+        "encoding": "Codificación de fotogramas",
+        "encAuto": "Auto — 256 en PNG, resto en BMP (mejor compatibilidad)",
+        "encPng": "Todo PNG — menor tamaño (Vista+)",
+        "encBmp": "Todo BMP — programas antiguos",
+        "result": "Resultado",
+        "uploadIco": "Elige un archivo ICO",
+        "extractHint": "Los ICO de varios tamaños se despliegan fotograma a fotograma; se admiten formatos de 32 bpp, 24 bpp y paleta.",
+        "frames": "{count} fotogramas extraídos",
+        "working": "Procesando…"
+      },
+      "buttons": {
+        "downloadIco": "Descargar ICO",
+        "downloadAll": "Descargar todo",
+        "downloadPng": "PNG",
+        "downloadAllFrames": "Descargar todos los fotogramas",
+        "repackIco": "Reempaquetar como ICO (tamaño original)",
+        "clear": "Limpiar"
+      },
+      "errors": {
+        "noSize": "Selecciona al menos un tamaño de icono.",
+        "invalidImage": "Selecciona un archivo de imagen válido.",
+        "invalidIco": "Este archivo no es un ICO válido.",
+        "convertFailed": "La conversión falló. Prueba con otro archivo."
+      },
+      "guide": {
+        "intro": {
+          "title": "¿Qué es un convertidor de ICO?",
+          "paragraphs": [
+            "Un convertidor de ICO transforma imágenes normales en archivos ICO de varios tamaños para Windows y navegadores, y también recupera los fotogramas de un ICO como PNG. Un ICO es esencialmente «un archivo con varias imágenes»: los tamaños pequeños se usan en la barra de tareas y las pestañas, y el de 256×256 en vistas de iconos grandes.",
+            "Todas las conversiones se realizan localmente en el navegador; las imágenes no se suben a ningún servidor."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Cómo convertir una imagen a ICO",
+            "paragraphs": [
+              "Elige una imagen PNG, JPG, WebP o GIF, marca los tamaños necesarios (16/32/48 para favicon web; el set completo de 16 a 256 para Windows) y genera. Cada tamaño se remuestrea de forma independiente, así que los iconos pequeños quedan nítidos.",
+              "Renombra el resultado a favicon.ico y colócalo en la raíz del sitio: los navegadores y Windows lo reconocerán."
+            ]
+          },
+          {
+            "title": "Opciones de escalado y codificación",
+            "paragraphs": [
+              "Para imágenes no cuadradas puedes elegir «Ajustar» (proporciones, relleno transparente) o «Rellenar» (proporciones, recorte centrado). La codificación define el formato de cada fotograma: en modo automático, 256×256 va en PNG y el resto en BMP. Si un programa antiguo no acepta fotogramas PNG, usa «Todo BMP»."
+            ]
+          },
+          {
+            "title": "Cómo extraer imágenes de un ICO",
+            "paragraphs": [
+              "Al subir un .ico, cada fotograma se muestra con su tamaño y codificación originales y se puede descargar como PNG. «Reempaquetar como ICO» vuelve a reunir los fotogramas en un único archivo con sus tamaños originales: útil, por ejemplo, para convertir fotogramas PNG en BMP que los programas antiguos sí reconocen."
+            ]
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "¿Qué es un archivo ICO?",
+          "answer": "ICO es el formato contenedor de iconos de Windows y los navegadores: un solo archivo guarda varios tamaños del mismo icono. Windows elige automáticamente el fotograma adecuado según el contexto, por lo que conviene generar cada tamaño con remuestreo independiente."
+        },
+        {
+          "question": "¿Qué tamaños debe incluir favicon.ico?",
+          "answer": "Para el favicon de una web se recomiendan 16, 32 y 48; si también lo usarás como icono de Windows, marca el set completo de 16 a 256."
+        },
+        {
+          "question": "¿En qué se diferencian los fotogramas PNG y BMP?",
+          "answer": "Los PNG pesan menos y admiten transparencia; funcionan desde Windows Vista. Los BMP son compatibles con los programas más antiguos pero ocupan más. Ante la duda, elige «Auto»."
+        },
+        {
+          "question": "¿Qué hago si la imagen no es cuadrada?",
+          "answer": "«Ajustar» mantiene las proporciones y deja el relleno transparente; «Rellenar» mantiene las proporciones y recorta al centro. Las imágenes cuadradas dan el mejor resultado."
+        },
+        {
+          "question": "¿Se suben las imágenes a algún servidor?",
+          "answer": "No. El análisis, el escalado y la codificación ocurren en tu navegador y funcionan incluso sin conexión; las imágenes nunca salen de tu equipo."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Generador de favicons",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "Generador de tamaños de icono",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "Redimensionar imágenes",
+          "href": "/tools/image-resizer"
+        }
+      ]
     }
   },
   "blogLayout": {

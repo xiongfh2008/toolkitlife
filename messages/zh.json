@@ -2459,6 +2459,12 @@
         "description": "从 JSON 生成 serde 就绪的 Rust 结构体，可空字段 Option<T> 与自动 camelCase 重命名。",
         "category": "Developer",
         "icon": "🦀"
+      },
+      "ico-converter": {
+        "name": "ICO 图标转换",
+        "description": "把图片转换为多尺寸 ICO 图标，也能把 ICO 逐帧提取回 PNG。",
+        "category": "Design",
+        "icon": "⊞"
       }
     },
     "scenes": {
@@ -11198,6 +11204,10 @@
         {
           "name": "图像调整大小",
           "href": "/tools/image-resizer"
+        },
+        {
+          "name": "ICO 图标转换",
+          "href": "/tools/ico-converter"
         }
       ],
       "labels": {
@@ -35137,6 +35147,10 @@
         {
           "name": "图片 DPI 修改",
           "href": "/tools/image-dpi"
+        },
+        {
+          "name": "ICO 图标转换",
+          "href": "/tools/ico-converter"
         }
       ],
       "upload": {
@@ -39951,6 +39965,135 @@
         "copy": "复制",
         "copied": "已复制！"
       }
+    },
+    "ico-converter": {
+      "metadata": {
+        "title": "ICO 图标转换",
+        "description": "把 PNG、JPG、WebP 或 GIF 图片转换为多尺寸 ICO 图标，也可把 ICO 逐帧提取回 PNG。每帧独立重采样，完全在浏览器内运行。",
+        "category": "Design"
+      },
+      "keywords": [
+        "ico图标转换",
+        "png转ico",
+        "ico图标生成",
+        "favicon.ico生成",
+        "多尺寸ico",
+        "ico转png",
+        "提取ico帧",
+        "windows图标转换",
+        "在线制作ico",
+        "ico文件生成器"
+      ],
+      "tabs": {
+        "toIco": "图片 → ICO",
+        "toImages": "ICO → 图片"
+      },
+      "labels": {
+        "upload": "选择图片（PNG / JPG / WebP / GIF / BMP，可多选）",
+        "pasteHint": "也可以直接 Ctrl + V 粘贴",
+        "dropHint": "拖拽图片到此处，或点击选择",
+        "dropHintIco": "拖拽 ICO 文件到此处，或点击选择",
+        "sizes": "图标尺寸",
+        "presetWebsite": "网站 favicon",
+        "presetWindows": "Windows 全尺寸",
+        "sizeHint": "每个勾选的尺寸都会成为 ICO 里独立的一帧，小尺寸给任务栏和浏览器标签，256 给大图标视图。",
+        "scale": "缩放方式",
+        "scaleFit": "适应——保持比例，空白处透明（推荐）",
+        "scaleFill": "填充——保持比例，居中裁剪",
+        "background": "空白处填充（适应模式）",
+        "bgTransparent": "透明（推荐）",
+        "bgWhite": "白色",
+        "bgBlack": "黑色",
+        "encoding": "帧编码",
+        "encAuto": "自动——256 用 PNG，其余 BMP（兼容性最好）",
+        "encPng": "全部 PNG——体积最小（Vista 及以上）",
+        "encBmp": "全部 BMP——兼容老程序",
+        "result": "转换结果",
+        "uploadIco": "选择 ICO 文件",
+        "extractHint": "多尺寸 ICO 会逐帧展开，支持 32bpp、24bpp 和调色板格式。",
+        "frames": "已提取 {count} 帧",
+        "working": "处理中…"
+      },
+      "buttons": {
+        "downloadIco": "下载 ICO",
+        "downloadAll": "下载全部",
+        "downloadPng": "PNG",
+        "downloadAllFrames": "下载全部帧",
+        "repackIco": "打包为 ICO（原尺寸）",
+        "clear": "清空"
+      },
+      "errors": {
+        "noSize": "请至少选择一个图标尺寸。",
+        "invalidImage": "请选择有效的图片文件。",
+        "invalidIco": "这不是有效的 ICO 文件。",
+        "convertFailed": "转换失败，请换一个文件重试。"
+      },
+      "guide": {
+        "intro": {
+          "title": "什么是 ICO 图标转换工具？",
+          "paragraphs": [
+            "ICO 图标转换工具可以把普通图片转换为 Windows 和浏览器使用的多尺寸 ICO 文件，也能把 ICO 文件逐帧还原成 PNG 图片。ICO 本质上是“一个文件装多张图”：小尺寸帧用于任务栏和浏览器标签页，256×256 帧用于大图标视图。",
+            "所有转换都在浏览器中本地完成，图片不会上传到任何服务器。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何把图片转换成 ICO",
+            "paragraphs": [
+              "选择一张 PNG、JPG、WebP 或 GIF 图片，勾选需要的尺寸（网站 favicon 推荐 16/32/48，Windows 全套为 16–256），然后点击生成。每个尺寸都会按目标大小独立重采样，而不是整体缩小，小图标因此依然清晰。",
+              "导出的文件改名成 favicon.ico 放到网站根目录即可被浏览器和 Windows 识别。"
+            ]
+          },
+          {
+            "title": "缩放与编码选项",
+            "paragraphs": [
+              "非方图可以选择“适应”（保持比例、空白处透明）或“填充”（保持比例、居中裁剪）。编码方式决定每一帧的存储格式：自动模式 256×256 用 PNG、其余用 BMP，兼容性最好；老程序不认 PNG 帧时可改为“全部 BMP”。"
+            ]
+          },
+          {
+            "title": "如何从 ICO 提取图片",
+            "paragraphs": [
+              "上传 .ico 文件后，每一帧都会附上原始尺寸和编码信息，可单独下载为 PNG。“打包为 ICO”能把提取出的帧按原尺寸重新装回一个 ICO 文件，例如把 PNG 帧转成老程序也能识别的 BMP 帧。"
+            ]
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "什么是 ICO 文件？",
+          "answer": "ICO 是 Windows 和浏览器使用的图标容器格式，一个文件内可包含多个尺寸的同一图标。Windows 会按显示场景自动挑选最合适的一帧，因此每一帧都应按目标尺寸独立重采样生成。"
+        },
+        {
+          "question": "favicon.ico 应该包含哪些尺寸？",
+          "answer": "网站 favicon 推荐 16、32、48 三个尺寸；如果还想作为 Windows 桌面图标使用，选择包含 16–256 的全尺寸集合。"
+        },
+        {
+          "question": "PNG 帧和 BMP 帧有什么区别？",
+          "answer": "PNG 帧体积更小且支持透明，Windows Vista 及以上都支持；BMP 帧兼容最老的程序但体积偏大。不确定时选“自动”：256×256 用 PNG，其余用 BMP。"
+        },
+        {
+          "question": "我的图片不是正方形怎么办？",
+          "answer": "选择“适应”会保持比例并在空白处留透明边，“填充”会保持比例并居中裁剪。正方形图片效果最好。"
+        },
+        {
+          "question": "图片会被上传吗？",
+          "answer": "不会。全部解析、缩放和编码都在你的浏览器里完成，断网也能用，图片不会离开你的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Favicon 生成器",
+          "href": "/tools/favicon-generator"
+        },
+        {
+          "name": "图标尺寸生成器",
+          "href": "/tools/icon-size-generator"
+        },
+        {
+          "name": "图片缩放",
+          "href": "/tools/image-resizer"
+        }
+      ]
     }
   },
   "blogLayout": {
