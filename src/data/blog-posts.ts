@@ -182,6 +182,16 @@ export const blogPostsMeta: BlogPostMeta[] = [
       { title: "How to Check for Dead Pixels and Backlight Bleed", href: "/blog/how-to-check-dead-pixels" },
     ],
   },
+  {
+    slug: "json-to-code",
+    author: "ToolkitLife Team",
+    datePublished: "2026-10-11",
+    dateModified: "2026-10-11",
+    tags: ["JSON", "TypeScript", "Developer Tools", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Create a Strong Password", href: "/blog/how-to-create-a-strong-password" },
+    ],
+  },
 ];
 
 export function getPostMeta(slug: string): BlogPostMeta {

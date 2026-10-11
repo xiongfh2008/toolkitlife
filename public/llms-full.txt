@@ -286,6 +286,41 @@ Description: Convert Base64 strings into images with instant preview and downloa
 URL: https://toolkitlife.com/en/tools/px-to-rem
 Description: Convert pixels to rem and back with a custom base font size
 
+### JSON to TypeScript
+
+URL: https://toolkitlife.com/en/tools/json-to-typescript
+Description: Convert JSON samples into TypeScript interfaces with nested named types, optional and nullable fields.
+
+### JSON to Go
+
+URL: https://toolkitlife.com/en/tools/json-to-go
+Description: Generate Go structs with json tags from JSON, including nested structs, pointer fields, and custom package names.
+
+### JSON to Java
+
+URL: https://toolkitlife.com/en/tools/json-to-java
+Description: Turn JSON into Java POJO classes with private fields, getters and setters, and Jackson annotations for special keys.
+
+### JSON to Python
+
+URL: https://toolkitlife.com/en/tools/json-to-python
+Description: Convert JSON into Python dataclasses with type hints, Optional and List annotations, and PEP 8 naming.
+
+### JSON to Kotlin
+
+URL: https://toolkitlife.com/en/tools/json-to-kotlin
+Description: Generate Kotlin data classes from JSON with nullable types, nested classes, and val properties.
+
+### JSON to C#
+
+URL: https://toolkitlife.com/en/tools/json-to-csharp
+Description: Convert JSON into C# classes with get/set properties, nullable annotations, and JsonProperty attributes.
+
+### JSON to Rust
+
+URL: https://toolkitlife.com/en/tools/json-to-rust
+Description: Generate serde-ready Rust structs from JSON with Option<T> for nullable fields and automatic camelCase renaming.
+
 ## Design Tools
 
 ### Video Watermark Remover
@@ -1938,6 +1973,33 @@ Description: Current time in 16 cities around the world.
 
 URL: https://toolkitlife.com/en/tools/zip-viewer
 Description: List files inside a ZIP archive without extracting.
+
+## Security Tools
+
+### JWT Generator
+
+URL: https://toolkitlife.com/en/tools/jwt-generator
+Description: Create and sign JSON Web Tokens (HS256/384/512) with custom headers, payloads, and expiry.
+
+### AES Encryption
+
+URL: https://toolkitlife.com/en/tools/aes-encryption
+Description: Encrypt and decrypt text with AES-256 (GCM/CBC) entirely in your browser.
+
+### HMAC Generator
+
+URL: https://toolkitlife.com/en/tools/hmac-generator
+Description: Compute HMAC signatures with SHA family hash functions.
+
+### RSA Key Generator
+
+URL: https://toolkitlife.com/en/tools/rsa-key-generator
+Description: Generate RSA-OAEP key pairs and export public and private PEM files.
+
+### PEM JWK Converter
+
+URL: https://toolkitlife.com/en/tools/pem-jwk-converter
+Description: Convert keys between PEM and JWK formats for RSA and EC keys.
 
 ## Blog Guides
 

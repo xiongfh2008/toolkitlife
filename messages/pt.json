@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "ToolkitLife - Free Online Tools & Calculators | No Signup Required",
-    "description": "370+ free browser-based tools and calculators for developers, designers, finance, health, and more. No signup, no data stored.",
+    "description": "390+ free browser-based tools and calculators for developers, designers, finance, health, and more. No signup, no data stored.",
     "keywords": [
       "free online tools",
       "developer tools",
@@ -17,9 +17,9 @@
       "good morning images"
     ],
     "ogTitle": "ToolkitLife - Free Online Tools & Calculators",
-    "ogDescription": "370+ free browser-based tools and calculators. No signup, no data stored.",
+    "ogDescription": "390+ free browser-based tools and calculators. No signup, no data stored.",
     "twitterTitle": "ToolkitLife - Free Online Tools & Calculators",
-    "twitterDescription": "370+ free browser-based tools and calculators. No signup required."
+    "twitterDescription": "390+ free browser-based tools and calculators. No signup required."
   },
   "nav": {
     "home": "ToolkitLife",
@@ -71,35 +71,35 @@
       "Math": "Math"
     },
     "why": {
-        "title": "Why ToolkitLife",
-        "intro": "ToolkitLife is a collection of 379 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
-        "privacy": "Your files stay private: image, video and document tools process everything locally with <mdn>WebAssembly</mdn> — your data never leaves your device.",
-        "i18n": "The site is available in English, Chinese, Japanese, Korean and Russian, and every tool page includes a step-by-step guide plus answers to common questions."
+      "title": "Why ToolkitLife",
+      "intro": "ToolkitLife is a collection of 379 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
+      "privacy": "Your files stay private: image, video and document tools process everything locally with <mdn>WebAssembly</mdn> — your data never leaves your device.",
+      "i18n": "The site is available in English, Chinese, Japanese, Korean and Russian, and every tool page includes a step-by-step guide plus answers to common questions."
     },
     "faq": {
-        "title": "Frequently asked questions",
-        "items": [
-            {
-                "question": "Is ToolkitLife free?",
-                "answer": "Yes. All 379 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
-            },
-            {
-                "question": "Are my files uploaded to a server?",
-                "answer": "No. Every tool runs entirely in your browser using JavaScript and WebAssembly. Files, text and images are processed locally and never sent to any server."
-            },
-            {
-                "question": "Do I need to create an account?",
-                "answer": "No. There is no account system — open a tool and use it. Favorites and recently used tools are stored only in your own browser."
-            },
-            {
-                "question": "Which devices and browsers are supported?",
-                "answer": "Any modern browser on desktop, tablet or phone — Chrome, Edge, Firefox and Safari. Tools adapt to your screen size, and nothing needs to be installed."
-            },
-            {
-                "question": "Are the calculators reliable?",
-                "answer": "They apply standard formulas and provide estimates for general information only. Financial, health and legal tools include a disclaimer and are not a substitute for professional advice."
-            }
-        ]
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Is ToolkitLife free?",
+          "answer": "Yes. All 379 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
+        },
+        {
+          "question": "Are my files uploaded to a server?",
+          "answer": "No. Every tool runs entirely in your browser using JavaScript and WebAssembly. Files, text and images are processed locally and never sent to any server."
+        },
+        {
+          "question": "Do I need to create an account?",
+          "answer": "No. There is no account system — open a tool and use it. Favorites and recently used tools are stored only in your own browser."
+        },
+        {
+          "question": "Which devices and browsers are supported?",
+          "answer": "Any modern browser on desktop, tablet or phone — Chrome, Edge, Firefox and Safari. Tools adapt to your screen size, and nothing needs to be installed."
+        },
+        {
+          "question": "Are the calculators reliable?",
+          "answer": "They apply standard formulas and provide estimates for general information only. Financial, health and legal tools include a disclaimer and are not a substitute for professional advice."
+        }
+      ]
     },
     "tools": {
       "what-is-my-browser": {
@@ -2347,16 +2347,16 @@
         "icon": "📖"
       },
       "wallpaper-generator": {
-      "name": "Wallpaper Generator",
-      "description": "Generate mesh gradient or aurora wallpapers in any screen size.",
-      "category": "Design",
-      "icon": "🌌"
+        "name": "Wallpaper Generator",
+        "description": "Generate mesh gradient or aurora wallpapers in any screen size.",
+        "category": "Design",
+        "icon": "🌌"
       },
       "live-wallpaper-generator": {
-      "name": "Live Wallpaper Generator",
-      "description": "Create seamless-loop 3D animated wallpapers and export them as video.",
-      "category": "Design",
-      "icon": "🎬"
+        "name": "Live Wallpaper Generator",
+        "description": "Create seamless-loop 3D animated wallpapers and export them as video.",
+        "category": "Design",
+        "icon": "🎬"
       },
       "text-to-image": {
         "name": "Text to Image",
@@ -2387,6 +2387,78 @@
         "description": "List files inside a ZIP archive without extracting.",
         "category": "Life",
         "icon": "🗜️"
+      },
+      "jwt-generator": {
+        "name": "Gerador de JWT",
+        "description": "Crie e assine JSON Web Tokens (HS256/384/512) com cabeçalho, payload e validade personalizados.",
+        "category": "Security",
+        "icon": "🔑"
+      },
+      "aes-encryption": {
+        "name": "Criptografia AES",
+        "description": "Criptografe e descriptografe texto com AES-256 (GCM/CBC) direto no seu navegador.",
+        "category": "Security",
+        "icon": "🔒"
+      },
+      "hmac-generator": {
+        "name": "Gerador de HMAC",
+        "description": "Calcula assinaturas HMAC com funções hash da família SHA.",
+        "category": "Security",
+        "icon": "🔏"
+      },
+      "rsa-key-generator": {
+        "name": "Gerador de chaves RSA",
+        "description": "Gera pares de chaves RSA-OAEP e exporta as chaves pública e privada em PEM.",
+        "category": "Security",
+        "icon": "🔑"
+      },
+      "pem-jwk-converter": {
+        "name": "Conversor PEM JWK",
+        "description": "Converte chaves RSA e EC entre os formatos PEM e JWK.",
+        "category": "Security",
+        "icon": "🔄"
+      },
+      "json-to-typescript": {
+        "name": "JSON para TypeScript",
+        "description": "Converta amostras JSON em interfaces TypeScript com tipos nomeados aninhados e campos opcionais e anuláveis.",
+        "category": "Developer",
+        "icon": "🟦"
+      },
+      "json-to-go": {
+        "name": "JSON para Go",
+        "description": "Gere structs Go com tags json a partir de JSON, incluindo structs aninhados, campos ponteiro e nomes de pacote personalizados.",
+        "category": "Developer",
+        "icon": "🐹"
+      },
+      "json-to-java": {
+        "name": "JSON para Java POJO",
+        "description": "Transforme JSON em classes POJO Java com campos privados, getters e setters, e anotações Jackson para chaves especiais.",
+        "category": "Developer",
+        "icon": "☕"
+      },
+      "json-to-python": {
+        "name": "JSON para Python",
+        "description": "Converta JSON em dataclasses Python com anotações de tipo, Optional e List, e nomenclatura PEP 8.",
+        "category": "Developer",
+        "icon": "🐍"
+      },
+      "json-to-kotlin": {
+        "name": "JSON para Kotlin",
+        "description": "Gere data classes Kotlin a partir de JSON com tipos anuláveis, classes aninhadas e propriedades val.",
+        "category": "Developer",
+        "icon": "🟪"
+      },
+      "json-to-csharp": {
+        "name": "JSON para C#",
+        "description": "Converta JSON em classes C# com propriedades get/set, anotações nulas e atributos JsonProperty.",
+        "category": "Developer",
+        "icon": "🟩"
+      },
+      "json-to-rust": {
+        "name": "JSON para Rust",
+        "description": "Gere structs Rust prontos para serde a partir de JSON com Option<T> para campos nulos e renomeação automática para camelCase.",
+        "category": "Developer",
+        "icon": "🦀"
       }
     },
     "scenes": {
@@ -2417,7 +2489,7 @@
     "clearHistory": "Clear",
     "searchHistory": "Recent Searches",
     "emptyFavorites": "No favorites yet — click the star on any tool to save it here.",
-    "heroBadge": "370+ free online tools & calculators",
+    "heroBadge": "390+ free online tools & calculators",
     "showMore": "Show more"
   },
   "about": {
@@ -5617,7 +5689,7 @@
         }
       ]
     },
-"screen-color-test": {
+    "screen-color-test": {
       "metadata": {
         "title": "Screen Color Test - Check Dead Pixels & Backlight Bleed",
         "description": "Free online screen test. Fill your display with solid colors to find dead pixels, stuck pixels and backlight bleed. Fullscreen, no install, runs in your browser."
@@ -38062,245 +38134,245 @@
       }
     },
     "wallpaper-generator": {
-    "metadata": {
-    "title": "Wallpaper Generator - Create Gradient & Aurora Wallpapers Online",
-    "description": "Free online wallpaper generator. Create mesh gradient and aurora style wallpapers for desktop, phone and tablet in HD, 2K and 4K. Reproducible via seed, runs in your browser."
-    },
-    "title": "Wallpaper Generator",
-    "description": "Generate beautiful wallpapers for your desktop or phone. Pick a style and palette, adjust the size, and download a full-resolution PNG — everything is rendered in your browser from a reproducible seed.",
-    "category": "Design",
-    "keywords": [
-    "wallpaper generator",
-    "gradient wallpaper maker",
-    "phone wallpaper generator",
-    "aesthetic wallpaper maker",
-    "4k wallpaper generator",
-    "background generator"
-    ],
-    "faqs": [
-    {
-    "question": "Are the generated wallpapers free to use?",
-    "answer": "Yes. Every wallpaper is rendered in your browser from scratch — no stock images and no licensing issues. Use them anywhere, including commercial projects."
-    },
-    {
-    "question": "What sizes can I export?",
-    "answer": "Presets for desktop (1080p, 1440p, 4K), phones (1170×2532, 1080×2400, 1440×3200), tablets, plus a custom width and height up to 7680px."
-    },
-    {
-    "question": "What is the seed for?",
-    "answer": "The seed drives the random layout. The same seed with the same settings always produces the same image, so you can reproduce or fine-tune a wallpaper you like. Use the dice button for a fresh random seed."
-    },
-    {
-    "question": "Do my images get uploaded anywhere?",
-    "answer": "No. All rendering happens locally in your browser with canvas — nothing is uploaded or stored on a server."
-    }
-    ],
-    "relatedTools": [
-    {
-    "name": "OG Image Generator",
-    "href": "/tools/og-image-generator"
-    },
-    {
-    "name": "SVG Wave Generator",
-    "href": "/tools/svg-wave-generator"
-    },
-    {
-    "name": "Solid Color Image",
-    "href": "/tools/solid-color-image"
-    }
-    ],
-    "guide": {
-    "whatIs": {
-    "title": "What is a wallpaper generator?",
-    "body": [
-    "A wallpaper generator creates original backgrounds for your desktop, phone or tablet without any image editing skills. Instead of searching for stock photos, you pick a style and a color palette and the tool renders a unique image from a random seed.",
-    "This tool supports two styles: smooth mesh gradients made of softly blended color blobs, and aurora ribbons with flowing bands of light. Every wallpaper is rendered locally in your browser and exported as a full-resolution PNG."
-    ]
-    },
-    "modes": {
-    "title": "Two styles",
-    "intro": "Switch between the two generators with the style buttons:",
-    "items": [
-    "Mesh Gradient — organic color blobs blended into a smooth gradient, similar to modern operating system backgrounds.",
-    "Aurora — layered translucent ribbons and glows that resemble the northern lights."
-    ]
-    },
-    "howTo": {
-    "title": "How to create a wallpaper",
-    "items": [
-    "Pick a style: Mesh Gradient or Aurora.",
-    "Choose a color palette swatch or define up to four custom colors.",
-    "Press the dice button to roll a random seed, or type a seed to reproduce a previous wallpaper.",
-    "Select an output size preset for desktop, phone or tablet, or enter a custom width and height.",
-    "Toggle film grain for a subtle texture, then click the download button to save the PNG at full resolution."
-    ]
-    },
-    "tips": {
-    "title": "Tips",
-    "items": [
-    "Dark palettes with low contrast make app icons easier to read on a home screen.",
-    "For phones, pick a preset with a matching aspect ratio so the wallpaper is not cropped.",
-    "If you find a layout you like but want different colors, keep the seed and only change the palette."
-    ]
-    }
-    },
-    "labels": {
-    "style": "Style",
-    "mesh": "Mesh Gradient",
-    "aurora": "Aurora",
-    "palette": "Palette",
-    "custom": "Custom",
-    "customSize": "Custom size",
-    "color": "Color",
-    "seed": "Seed",
-    "randomize": "Random seed",
-    "size": "Size",
-    "desktop": "Desktop",
-    "phone": "Phone",
-    "tablet": "Tablet",
-    "grain": "Film grain",
-    "width": "Width",
-    "height": "Height"
-    },
-    "buttons": {
-    "download": "Download Wallpaper"
-    }
+      "metadata": {
+        "title": "Wallpaper Generator - Create Gradient & Aurora Wallpapers Online",
+        "description": "Free online wallpaper generator. Create mesh gradient and aurora style wallpapers for desktop, phone and tablet in HD, 2K and 4K. Reproducible via seed, runs in your browser."
+      },
+      "title": "Wallpaper Generator",
+      "description": "Generate beautiful wallpapers for your desktop or phone. Pick a style and palette, adjust the size, and download a full-resolution PNG — everything is rendered in your browser from a reproducible seed.",
+      "category": "Design",
+      "keywords": [
+        "wallpaper generator",
+        "gradient wallpaper maker",
+        "phone wallpaper generator",
+        "aesthetic wallpaper maker",
+        "4k wallpaper generator",
+        "background generator"
+      ],
+      "faqs": [
+        {
+          "question": "Are the generated wallpapers free to use?",
+          "answer": "Yes. Every wallpaper is rendered in your browser from scratch — no stock images and no licensing issues. Use them anywhere, including commercial projects."
+        },
+        {
+          "question": "What sizes can I export?",
+          "answer": "Presets for desktop (1080p, 1440p, 4K), phones (1170×2532, 1080×2400, 1440×3200), tablets, plus a custom width and height up to 7680px."
+        },
+        {
+          "question": "What is the seed for?",
+          "answer": "The seed drives the random layout. The same seed with the same settings always produces the same image, so you can reproduce or fine-tune a wallpaper you like. Use the dice button for a fresh random seed."
+        },
+        {
+          "question": "Do my images get uploaded anywhere?",
+          "answer": "No. All rendering happens locally in your browser with canvas — nothing is uploaded or stored on a server."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "OG Image Generator",
+          "href": "/tools/og-image-generator"
+        },
+        {
+          "name": "SVG Wave Generator",
+          "href": "/tools/svg-wave-generator"
+        },
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        }
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "What is a wallpaper generator?",
+          "body": [
+            "A wallpaper generator creates original backgrounds for your desktop, phone or tablet without any image editing skills. Instead of searching for stock photos, you pick a style and a color palette and the tool renders a unique image from a random seed.",
+            "This tool supports two styles: smooth mesh gradients made of softly blended color blobs, and aurora ribbons with flowing bands of light. Every wallpaper is rendered locally in your browser and exported as a full-resolution PNG."
+          ]
+        },
+        "modes": {
+          "title": "Two styles",
+          "intro": "Switch between the two generators with the style buttons:",
+          "items": [
+            "Mesh Gradient — organic color blobs blended into a smooth gradient, similar to modern operating system backgrounds.",
+            "Aurora — layered translucent ribbons and glows that resemble the northern lights."
+          ]
+        },
+        "howTo": {
+          "title": "How to create a wallpaper",
+          "items": [
+            "Pick a style: Mesh Gradient or Aurora.",
+            "Choose a color palette swatch or define up to four custom colors.",
+            "Press the dice button to roll a random seed, or type a seed to reproduce a previous wallpaper.",
+            "Select an output size preset for desktop, phone or tablet, or enter a custom width and height.",
+            "Toggle film grain for a subtle texture, then click the download button to save the PNG at full resolution."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "Dark palettes with low contrast make app icons easier to read on a home screen.",
+            "For phones, pick a preset with a matching aspect ratio so the wallpaper is not cropped.",
+            "If you find a layout you like but want different colors, keep the seed and only change the palette."
+          ]
+        }
+      },
+      "labels": {
+        "style": "Style",
+        "mesh": "Mesh Gradient",
+        "aurora": "Aurora",
+        "palette": "Palette",
+        "custom": "Custom",
+        "customSize": "Custom size",
+        "color": "Color",
+        "seed": "Seed",
+        "randomize": "Random seed",
+        "size": "Size",
+        "desktop": "Desktop",
+        "phone": "Phone",
+        "tablet": "Tablet",
+        "grain": "Film grain",
+        "width": "Width",
+        "height": "Height"
+      },
+      "buttons": {
+        "download": "Download Wallpaper"
+      }
     },
     "live-wallpaper-generator": {
-    "metadata": {
-    "title": "Live Wallpaper Generator - Create 3D Animated Wallpaper Videos Online",
-    "description": "Free live wallpaper maker. Generate seamless-loop 3D animated wallpapers (galaxy, waves, geometry, nebula, globe, tunnel, aurora, fireflies, snow, code rain, synth grid, rain) in your browser and export 1080p/4K MP4 or WebM video for PC and phone. 100% client-side, nothing is uploaded."
-    },
-    "title": "Live Wallpaper Generator",
-    "description": "Generate seamless-loop 3D animated wallpapers in your browser — spiral galaxies, flowing waves, rotating geometry, nebulae, a dotted globe, neon tunnels, waving auroras, wandering fireflies, a quiet snowfall, cascading code rain, a retro synth grid and a night rain shower. Export MP4/WebM video in any screen size and set it as a live wallpaper on Windows, macOS or Android. Everything runs locally from a reproducible seed.",
-    "category": "Design",
-    "keywords": [
-    "live wallpaper maker",
-    "animated wallpaper generator",
-    "3d wallpaper maker",
-    "dynamic wallpaper",
-    "loop wallpaper video",
-    "wallpaper video maker"
-    ],
-    "faqs": [
-    {
-    "question": "Does the exported wallpaper loop seamlessly?",
-    "answer": "Yes. Every scene is built from whole rotations and whole wave cycles per loop, so the first and last frames match and the video plays without a visible jump."
-    },
-    {
-    "question": "Are my data or images uploaded to a server?",
-    "answer": "No. The 3D scene is generated and the video is encoded entirely inside your browser using WebGL and WebCodecs — nothing ever leaves your device."
-    },
-    {
-    "question": "How do I set the video as a desktop or phone wallpaper?",
-    "answer": "Export the MP4 or WebM and open it with a wallpaper engine app: Lively Wallpaper (free, open source) or Wallpaper Engine on Windows; on Android use a live wallpaper app that accepts videos. The poster button exports a matching still PNG."
-    },
-    {
-    "question": "MP4 or WebM — which should I choose?",
-    "answer": "MP4 (H.264) is produced when your browser supports WebCodecs and is the most compatible choice, including 4K. Older browsers automatically fall back to realtime WebM recording. Both formats work with wallpaper apps."
-    },
-    {
-    "question": "Why is 4K export slower than 1080p?",
-    "answer": "Frames are rendered and encoded one at a time at full resolution. A 4K frame carries four times the pixels of 1080p, so encoding takes longer — pick 30 fps or a shorter loop for the fastest results."
-    }
-    ],
-    "relatedTools": [
-    {
-    "name": "Wallpaper Generator",
-    "href": "/tools/wallpaper-generator"
-    },
-    {
-    "name": "SVG Wave Generator",
-    "href": "/tools/svg-wave-generator"
-    },
-    {
-    "name": "Solid Color Image",
-    "href": "/tools/solid-color-image"
-    }
-    ],
-    "guide": {
-    "whatIs": {
-    "title": "What is a live wallpaper generator?",
-    "body": [
-    "A live wallpaper generator creates animated video backgrounds instead of static images. This tool renders twelve generative 3D scenes — a spiral galaxy, flowing waves, a rotating geometry field, drifting nebulae, a dotted planet, a neon ring tunnel, waving auroras, wandering fireflies, a quiet snowfall, cascading code rain, a retro synth grid and a night rain shower — and encodes them into a looping MP4 or WebM video you can set as your desktop or phone wallpaper.",
-    "Every scene is built from whole rotations and whole wave cycles, which makes the first and last frame identical: the video loops seamlessly. The same seed always rebuilds the same scene, so results are reproducible and shareable."
-    ]
-    },
-    "modes": {
-    "title": "Twelve animated scenes",
-    "intro": "Switch scenes with the buttons above the canvas:",
-    "items": [
-    "Galaxy — a spiral particle galaxy with differential ring rotation and a soft core glow.",
-    "Waves — a flowing wave field with palette-mapped colors, a fog horizon and a gentle camera sway.",
-    "Geometry — a floating grid of rotating icosahedrons and torus rings with metallic shading.",
-    "Nebula — drifting gas clouds made of soft additive particles that pulse gently in place.",
-    "Globe — a dotted fibonacci planet with a wireframe shell, atmosphere glow and a counter-rotating starfield.",
-    "Tunnel — neon rings streaming toward the camera with per-ring spin, a subtle pulse and a bright far-end glow.",
-    "Aurora — luminous curtains of light waving over a starry sky with additive color gradients.",
-    "Fireflies — glowing particles drifting on lissajous paths, gently pulsing in the dark.",
-    "Snow — a quiet snowfall of drifting flakes wrapping seamlessly from top to bottom.",
-    "Code Rain — cascading columns of glowing glyphs streaming down like in a cyber classic.",
-    "Synth Grid — a retro neon grid racing toward a glowing sun on the horizon.",
-    "Rain — slanted streaks of night rain falling fast through the fog."
-    ]
-    },
-    "howTo": {
-    "title": "How to create a live wallpaper",
-    "items": [
-    "Pick a scene: Galaxy, Waves, Geometry, Nebula, Globe, Tunnel, Aurora, Fireflies, Snow, Code Rain, Synth Grid or Rain.",
-    "Choose a color palette swatch or define up to four custom colors.",
-    "Roll a random seed with the dice button, or type a seed to reproduce a previous scene.",
-    "Select a size preset for desktop, phone or tablet, plus the loop duration and frame rate.",
-    "Click the export button to render the MP4 video frame by frame, then set it as your live wallpaper in a wallpaper engine app. Use the poster button for a matching still PNG."
-    ]
-    },
-    "tips": {
-    "title": "Tips",
-    "items": [
-    "On most GPUs MP4 export is faster than realtime — a 10-second 1080p loop typically renders in a few seconds.",
-    "For battery-friendly phone wallpapers, prefer 30 fps and a 5-second loop.",
-    "Dark palettes make desktop icons easier to read; keep brightness low for always-on displays.",
-    "If the export button shows WebM, your browser lacks WebCodecs — Chrome, Edge or Safari 16.4+ will produce MP4."
-    ]
-    }
-    },
-    "labels": {
-    "scene": "Scene",
-    "galaxy": "Galaxy",
-    "waves": "Waves",
-    "geometry": "Geometry",
-    "nebula": "Nebula",
-    "globe": "Globe",
-    "tunnel": "Tunnel",
-    "aurora": "Aurora",
-    "fireflies": "Fireflies",
-    "snow": "Snow",
-    "matrix": "Code Rain",
-    "grid": "Synth Grid",
-    "rain": "Rain",
-    "palette": "Palette",
-    "custom": "Custom",
-    "customSize": "Custom size",
-    "color": "Color",
-    "seed": "Seed",
-    "randomize": "Random seed",
-    "size": "Size",
-    "desktop": "Desktop",
-    "phone": "Phone",
-    "tablet": "Tablet",
-    "width": "Width",
-    "height": "Height",
-    "duration": "Loop duration",
-    "seconds": "s",
-    "fps": "Frame rate",
-    "exporting": "Exporting",
-    "cancel": "Cancel",
-    "oddHint": "H.264 (MP4) requires even width and height — round custom sizes to even numbers for MP4 export."
-    },
-    "buttons": {
-    "exportVideo": "Export Video",
-    "poster": "Export Poster"
-    }
+      "metadata": {
+        "title": "Live Wallpaper Generator - Create 3D Animated Wallpaper Videos Online",
+        "description": "Free live wallpaper maker. Generate seamless-loop 3D animated wallpapers (galaxy, waves, geometry, nebula, globe, tunnel, aurora, fireflies, snow, code rain, synth grid, rain) in your browser and export 1080p/4K MP4 or WebM video for PC and phone. 100% client-side, nothing is uploaded."
+      },
+      "title": "Live Wallpaper Generator",
+      "description": "Generate seamless-loop 3D animated wallpapers in your browser — spiral galaxies, flowing waves, rotating geometry, nebulae, a dotted globe, neon tunnels, waving auroras, wandering fireflies, a quiet snowfall, cascading code rain, a retro synth grid and a night rain shower. Export MP4/WebM video in any screen size and set it as a live wallpaper on Windows, macOS or Android. Everything runs locally from a reproducible seed.",
+      "category": "Design",
+      "keywords": [
+        "live wallpaper maker",
+        "animated wallpaper generator",
+        "3d wallpaper maker",
+        "dynamic wallpaper",
+        "loop wallpaper video",
+        "wallpaper video maker"
+      ],
+      "faqs": [
+        {
+          "question": "Does the exported wallpaper loop seamlessly?",
+          "answer": "Yes. Every scene is built from whole rotations and whole wave cycles per loop, so the first and last frames match and the video plays without a visible jump."
+        },
+        {
+          "question": "Are my data or images uploaded to a server?",
+          "answer": "No. The 3D scene is generated and the video is encoded entirely inside your browser using WebGL and WebCodecs — nothing ever leaves your device."
+        },
+        {
+          "question": "How do I set the video as a desktop or phone wallpaper?",
+          "answer": "Export the MP4 or WebM and open it with a wallpaper engine app: Lively Wallpaper (free, open source) or Wallpaper Engine on Windows; on Android use a live wallpaper app that accepts videos. The poster button exports a matching still PNG."
+        },
+        {
+          "question": "MP4 or WebM — which should I choose?",
+          "answer": "MP4 (H.264) is produced when your browser supports WebCodecs and is the most compatible choice, including 4K. Older browsers automatically fall back to realtime WebM recording. Both formats work with wallpaper apps."
+        },
+        {
+          "question": "Why is 4K export slower than 1080p?",
+          "answer": "Frames are rendered and encoded one at a time at full resolution. A 4K frame carries four times the pixels of 1080p, so encoding takes longer — pick 30 fps or a shorter loop for the fastest results."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Wallpaper Generator",
+          "href": "/tools/wallpaper-generator"
+        },
+        {
+          "name": "SVG Wave Generator",
+          "href": "/tools/svg-wave-generator"
+        },
+        {
+          "name": "Solid Color Image",
+          "href": "/tools/solid-color-image"
+        }
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "What is a live wallpaper generator?",
+          "body": [
+            "A live wallpaper generator creates animated video backgrounds instead of static images. This tool renders twelve generative 3D scenes — a spiral galaxy, flowing waves, a rotating geometry field, drifting nebulae, a dotted planet, a neon ring tunnel, waving auroras, wandering fireflies, a quiet snowfall, cascading code rain, a retro synth grid and a night rain shower — and encodes them into a looping MP4 or WebM video you can set as your desktop or phone wallpaper.",
+            "Every scene is built from whole rotations and whole wave cycles, which makes the first and last frame identical: the video loops seamlessly. The same seed always rebuilds the same scene, so results are reproducible and shareable."
+          ]
+        },
+        "modes": {
+          "title": "Twelve animated scenes",
+          "intro": "Switch scenes with the buttons above the canvas:",
+          "items": [
+            "Galaxy — a spiral particle galaxy with differential ring rotation and a soft core glow.",
+            "Waves — a flowing wave field with palette-mapped colors, a fog horizon and a gentle camera sway.",
+            "Geometry — a floating grid of rotating icosahedrons and torus rings with metallic shading.",
+            "Nebula — drifting gas clouds made of soft additive particles that pulse gently in place.",
+            "Globe — a dotted fibonacci planet with a wireframe shell, atmosphere glow and a counter-rotating starfield.",
+            "Tunnel — neon rings streaming toward the camera with per-ring spin, a subtle pulse and a bright far-end glow.",
+            "Aurora — luminous curtains of light waving over a starry sky with additive color gradients.",
+            "Fireflies — glowing particles drifting on lissajous paths, gently pulsing in the dark.",
+            "Snow — a quiet snowfall of drifting flakes wrapping seamlessly from top to bottom.",
+            "Code Rain — cascading columns of glowing glyphs streaming down like in a cyber classic.",
+            "Synth Grid — a retro neon grid racing toward a glowing sun on the horizon.",
+            "Rain — slanted streaks of night rain falling fast through the fog."
+          ]
+        },
+        "howTo": {
+          "title": "How to create a live wallpaper",
+          "items": [
+            "Pick a scene: Galaxy, Waves, Geometry, Nebula, Globe, Tunnel, Aurora, Fireflies, Snow, Code Rain, Synth Grid or Rain.",
+            "Choose a color palette swatch or define up to four custom colors.",
+            "Roll a random seed with the dice button, or type a seed to reproduce a previous scene.",
+            "Select a size preset for desktop, phone or tablet, plus the loop duration and frame rate.",
+            "Click the export button to render the MP4 video frame by frame, then set it as your live wallpaper in a wallpaper engine app. Use the poster button for a matching still PNG."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "On most GPUs MP4 export is faster than realtime — a 10-second 1080p loop typically renders in a few seconds.",
+            "For battery-friendly phone wallpapers, prefer 30 fps and a 5-second loop.",
+            "Dark palettes make desktop icons easier to read; keep brightness low for always-on displays.",
+            "If the export button shows WebM, your browser lacks WebCodecs — Chrome, Edge or Safari 16.4+ will produce MP4."
+          ]
+        }
+      },
+      "labels": {
+        "scene": "Scene",
+        "galaxy": "Galaxy",
+        "waves": "Waves",
+        "geometry": "Geometry",
+        "nebula": "Nebula",
+        "globe": "Globe",
+        "tunnel": "Tunnel",
+        "aurora": "Aurora",
+        "fireflies": "Fireflies",
+        "snow": "Snow",
+        "matrix": "Code Rain",
+        "grid": "Synth Grid",
+        "rain": "Rain",
+        "palette": "Palette",
+        "custom": "Custom",
+        "customSize": "Custom size",
+        "color": "Color",
+        "seed": "Seed",
+        "randomize": "Random seed",
+        "size": "Size",
+        "desktop": "Desktop",
+        "phone": "Phone",
+        "tablet": "Tablet",
+        "width": "Width",
+        "height": "Height",
+        "duration": "Loop duration",
+        "seconds": "s",
+        "fps": "Frame rate",
+        "exporting": "Exporting",
+        "cancel": "Cancel",
+        "oddHint": "H.264 (MP4) requires even width and height — round custom sizes to even numbers for MP4 export."
+      },
+      "buttons": {
+        "exportVideo": "Export Video",
+        "poster": "Export Poster"
+      }
     },
     "text-to-image": {
       "metadata": {
@@ -38599,6 +38671,1256 @@
       "buttons": {
         "group": "Random Group"
       }
+    },
+    "jwt-generator": {
+      "metadata": {
+        "title": "Gerador de JWT",
+        "description": "Crie JSON Web Tokens assinados (HS256, HS384, HS512) com cabeçalho, payload e validade personalizados. A assinatura é feita inteiramente no seu navegador.",
+        "category": "Security"
+      },
+      "keywords": [
+        "gerador de JWT",
+        "criar JWT online",
+        "JSON Web Token",
+        "assinar JWT",
+        "HS256",
+        "gerador de token",
+        "JWT builder",
+        "token de autenticação",
+        "assinatura HMAC",
+        "ferramenta JWT grátis"
+      ],
+      "faqs": [
+        {
+          "question": "O que é um JSON Web Token (JWT)?",
+          "answer": "Um JWT é um formato compacto e seguro para URL que transporta claims entre duas partes. Ele é composto por um cabeçalho, um payload e uma assinatura HMAC que comprova que o token foi criado com um segredo compartilhado."
+        },
+        {
+          "question": "Onde meu segredo é usado?",
+          "answer": "Seu segredo nunca sai do navegador. A assinatura HMAC é calculada localmente com a Web Crypto API, e nem o token, nem o payload, nem o segredo são enviados a nenhum servidor."
+        },
+        {
+          "question": "Quais algoritmos são aceitos?",
+          "answer": "HS256, HS384 e HS512: assinaturas HMAC baseadas em SHA-256, SHA-384 e SHA-512, respectivamente. São os algoritmos JWT simétricos mais amplamente suportados."
+        },
+        {
+          "question": "Como funciona a opção de validade?",
+          "answer": "Ao escolher uma validade, a ferramenta adiciona automaticamente o claim exp (tempo de expiração) ao seu payload, calculado a partir do momento da geração. Com 'sem validade', você mesmo controla iat e exp."
+        },
+        {
+          "question": "Posso usar o token gerado em produção?",
+          "answer": "Pode: a estrutura e a assinatura seguem o padrão JWT. Apenas use um segredo longo e aleatório e nunca o exponha em código do lado do cliente. Para assinaturas assimétricas (RS256), é preciso um sistema dedicado de gerenciamento de chaves."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Decodificador de JWT",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Codificador Base64",
+          "href": "/tools/base64-encoder"
+        },
+        {
+          "name": "Gerador de Hashes",
+          "href": "/tools/hash-generator"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "Como gerar um JWT",
+          "paragraphs": [
+            "Um JSON Web Token permite comprovar que um payload foi criado por quem possui um segredo compartilhado. Ele tem três partes — cabeçalho, payload e assinatura — unidas por pontos e codificadas em base64url.",
+            "Esta ferramenta monta e assina o token inteiramente no seu navegador com a Web Crypto API. Seu segredo e seu payload nunca saem da página."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Edite o cabeçalho e o payload",
+            "paragraphs": [
+              "O cabeçalho declara o algoritmo e o tipo de token. O payload contém seus claims: iss, sub, iat, exp ou campos personalizados. Ambos precisam ser JSON válido."
+            ]
+          },
+          {
+            "title": "Escolha algoritmo e validade",
+            "paragraphs": [
+              "HS256 para máxima compatibilidade; HS384/HS512 para resumos mais longos. A validade adiciona automaticamente o claim exp: de 15 minutos a 30 dias, ou nenhuma se você definir as datas."
+            ]
+          },
+          {
+            "title": "Defina um segredo forte",
+            "paragraphs": [
+              "O segredo HMAC protege o token, então use uma string longa e aleatória: o botão 'Segredo aleatório' gera um valor criptograficamente seguro de 32 bytes."
+            ]
+          },
+          {
+            "title": "Gere e verifique",
+            "paragraphs": [
+              "Clique em Gerar para criar o token assinado, copie com um clique e confira a tabela decodificada abaixo para ver exatamente o que foi assinado. Tudo acontece localmente no seu navegador."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "header": "Cabeçalho",
+        "payload": "Payload",
+        "algorithm": "Algoritmo",
+        "expiry": "Validade",
+        "expiryNone": "Sem validade",
+        "expiry15m": "15 minutos",
+        "expiry1h": "1 hora",
+        "expiry8h": "8 horas",
+        "expiry1d": "1 dia",
+        "expiry7d": "7 dias",
+        "expiry30d": "30 dias",
+        "secret": "Segredo",
+        "secretPlaceholder": "Digite seu segredo HMAC",
+        "randomSecret": "Segredo aleatório",
+        "generate": "Gerar token",
+        "token": "Token assinado",
+        "copy": "Copiar",
+        "copied": "Copiado!",
+        "decoded": "Pré-visualização decodificada",
+        "privacy": "A assinatura acontece localmente no seu navegador. Seu segredo e o token nunca são enviados nem armazenados."
+      },
+      "errors": {
+        "invalidHeader": "O cabeçalho não é um JSON válido.",
+        "invalidPayload": "O payload não é um JSON válido.",
+        "missingSecret": "Digite um segredo para assinar o token."
+      }
+    },
+    "aes-encryption": {
+      "metadata": {
+        "title": "Criptografia AES",
+        "description": "Criptografe e descriptografe texto com AES-256 (GCM ou CBC) direto no seu navegador. Baseado em senha com derivação de chave PBKDF2 — nada é enviado para a internet.",
+        "category": "Security"
+      },
+      "keywords": [
+        "criptografia AES",
+        "criptografar AES online",
+        "descriptografar AES online",
+        "ferramenta AES 256",
+        "criptografar texto online",
+        "criptografia por senha",
+        "AES GCM",
+        "AES CBC",
+        "criptografia no navegador",
+        "criptografia de texto grátis"
+      ],
+      "faqs": [
+        {
+          "question": "Essa criptografia é segura?",
+          "answer": "Sim. Ela usa AES-256 pela Web Crypto API nativa do navegador, com uma chave de 256 bits derivada da sua senha por PBKDF2 (150.000 rodadas de SHA-256). O AES-GCM também autentica os dados, então qualquer adulteração é detectada automaticamente."
+        },
+        {
+          "question": "Minha senha ou meu texto são enviados para algum servidor?",
+          "answer": "Não. A criptografia e a descriptografia rodam inteiramente no seu navegador. Sua senha, o texto em claro e o texto cifrado nunca saem da página — nenhum servidor participa."
+        },
+        {
+          "question": "Qual a diferença entre AES-GCM e AES-CBC?",
+          "answer": "O AES-GCM é um modo autenticado: ele detecta se o texto cifrado foi alterado e é recomendado para novas criptografias. O AES-CBC existe para compatibilidade com sistemas antigos, mas por si só não verifica a integridade."
+        },
+        {
+          "question": "Para que serve o salt?",
+          "answer": "O salt garante que a mesma senha gere uma chave diferente para cada mensagem. Deixe-o vazio para um salt aleatório (recomendado) ou digite um texto fixo se precisar de saída reproduzível. O salt é embutido automaticamente no bloco cifrado."
+        },
+        {
+          "question": "Por que não consigo descriptografar meus dados?",
+          "answer": "A descriptografia quase sempre falha porque a senha está errada — a mensagem 'senha incorreta' significa que a chave derivada não correspondeu. A entrada deve ser o bloco base64 completo produzido por esta ferramenta, pois o salt e o IV são embutidos junto com o texto cifrado."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Gerador de Hashes",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Verificador de Força de Senhas",
+          "href": "/tools/password-strength"
+        },
+        {
+          "name": "Codificador Base64",
+          "href": "/tools/base64-encoder"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "Como criptografar e descriptografar texto com AES",
+          "paragraphs": [
+            "O AES (Advanced Encryption Standard) é o algoritmo mundialmente confiável para proteger dados sensíveis. Esta ferramenta oferece AES-256 com uma chave derivada da sua senha por PBKDF2 — 150.000 rodadas de SHA-256.",
+            "Tudo roda localmente no seu navegador pela Web Crypto API. Sua senha e seus dados nunca saem da página, e nada é armazenado ou transmitido."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Escolha o modo e o algoritmo",
+            "paragraphs": [
+              "Use a aba Criptografar para proteger texto e Descriptografar para recuperá-lo. Na criptografia, escolha AES-GCM (autenticado, recomendado) ou AES-CBC (compatibilidade legado); na descriptografia, o algoritmo é detectado automaticamente."
+            ]
+          },
+          {
+            "title": "Digite uma senha forte",
+            "paragraphs": [
+              "Sua senha é a única coisa que pode desbloquear os dados, então torne-a longa e única. A chave é derivada com PBKDF2 e um salt, o que desacelera muito as tentativas de força bruta."
+            ]
+          },
+          {
+            "title": "Entenda o salt e o IV",
+            "paragraphs": [
+              "Um salt aleatório e um IV aleatório são gerados a cada criptografia e embutidos no bloco de saída. Depois de criptografar, você pode conferir os valores em base64 abaixo do resultado."
+            ]
+          },
+          {
+            "title": "Compartilhe com segurança",
+            "paragraphs": [
+              "Copie o bloco base64 completo e compartilhe-o junto com o algoritmo — quem recebe só precisa da senha e desta ferramenta. Sem a senha, os dados são ilegíveis para qualquer um, inclusive para nós: nada é enviado para a internet."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "encryptTab": "Criptografar",
+        "decryptTab": "Descriptografar",
+        "algorithm": "Algoritmo",
+        "password": "Senha",
+        "passwordPlaceholder": "Digite a senha de criptografia",
+        "salt": "Salt (opcional)",
+        "saltPlaceholder": "Deixe vazio para um salt aleatório",
+        "plaintext": "Texto em claro",
+        "plaintextPlaceholder": "Digite o texto para criptografar…",
+        "ciphertext": "Texto cifrado",
+        "ciphertextPlaceholder": "Cole o bloco base64 para descriptografar…",
+        "encryptButton": "Criptografar",
+        "decryptButton": "Descriptografar",
+        "outputEncrypt": "Resultado criptografado (base64)",
+        "outputDecrypt": "Resultado descriptografado",
+        "saltUsed": "Salt usado",
+        "ivUsed": "IV usado",
+        "copy": "Copiar",
+        "copied": "Copiado!",
+        "privacy": "A criptografia acontece localmente no seu navegador. Nada é enviado, registrado ou armazenado."
+      },
+      "errors": {
+        "requiredPassword": "Digite uma senha.",
+        "requiredText": "Digite o texto a ser processado.",
+        "invalidData": "Isto não parece ser um dado criptografado por esta ferramenta.",
+        "wrongPassword": "Senha incorreta ou dados corrompidos."
+      }
+    },
+    "hmac-generator": {
+      "metadata": {
+        "title": "Gerador de HMAC",
+        "description": "Calcule assinaturas HMAC com SHA-1, SHA-256, SHA-384 ou SHA-512. Chaves em texto, hexadecimal ou Base64, saída em hex e Base64, tudo no seu navegador.",
+        "category": "Security"
+      },
+      "keywords": [
+        "gerador HMAC",
+        "assinatura HMAC",
+        "HMAC SHA256",
+        "HMAC online",
+        "calcular HMAC",
+        "HMAC hash",
+        "HMAC Base64",
+        "HMAC hexadecimal",
+        "assinatura de API",
+        "SHA-512 HMAC"
+      ],
+      "faqs": [
+        {
+          "question": "O que é uma assinatura HMAC?",
+          "answer": "HMAC (código de autenticação de mensagem baseado em hash) combina uma chave secreta com uma função hash para provar que uma mensagem é autêntica e não foi alterada. É muito usado para assinar requisições de API e verificar webhooks."
+        },
+        {
+          "question": "Quais algoritmos hash são suportados?",
+          "answer": "SHA-1, SHA-256, SHA-384 e SHA-512, todos calculados com a API Web Crypto nativa do navegador."
+        },
+        {
+          "question": "Quais formatos de chave posso usar?",
+          "answer": "Texto, hexadecimal ou Base64. Ao integrar com um servidor, certifique-se de que a codificação da chave corresponde à que a outra parte espera."
+        },
+        {
+          "question": "Meus dados estão seguros?",
+          "answer": "Sim. Tudo é executado localmente no seu navegador — a mensagem e a chave nunca são enviadas ou armazenadas em nenhum servidor."
+        },
+        {
+          "question": "Por que meu HMAC não coincide com o do servidor?",
+          "answer": "As causas mais comuns são um formato de chave diferente (texto, hex ou Base64) ou um algoritmo hash diferente do usado pela outra parte. Verifique ambos."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Gerador de hash",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Decodificador JWT",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Codificador Base64",
+          "href": "/tools/base64-encoder"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um gerador de HMAC?",
+          "paragraphs": [
+            "Um gerador de HMAC calcula um código de autenticação de mensagem baseado em hash: uma assinatura que vincula sua mensagem a uma chave secreta. Quem compartilha a chave pode verificar que a mensagem é autêntica e não foi alterada.",
+            "HMAC está em todo lugar — assinatura de requisições de API, verificação de webhooks, validação de JWT. Esta ferramenta calcula HMAC com SHA-1, SHA-256, SHA-384 ou SHA-512 usando a API Web Crypto nativa do navegador, então sua mensagem e chave nunca saem do seu dispositivo."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como gerar uma assinatura HMAC",
+            "paragraphs": [
+              "Digite a mensagem e a chave secreta, escolha o formato da chave e o algoritmo hash e clique em Gerar.",
+              "A assinatura é exibida em hexadecimal e Base64 — use a que sua API ou serviço esperar e copie com um clique."
+            ]
+          },
+          {
+            "title": "Escolhendo o formato da chave",
+            "paragraphs": [
+              "Chaves de texto são codificadas como bytes UTF-8. Chaves hex e Base64 são decodificadas para bytes brutos primeiro, então uma chave salva em outra codificação também produz a assinatura correta."
+            ]
+          },
+          {
+            "title": "Escolhendo o algoritmo hash",
+            "paragraphs": [
+              "SHA-256 é o padrão mais comum hoje. SHA-384 e SHA-512 oferecem uma margem de segurança maior, enquanto o SHA-1 fica apenas para sistemas legados."
+            ]
+          },
+          {
+            "title": "Casos de uso comuns",
+            "paragraphs": [
+              "Use esta ferramenta para verificar assinaturas de API, depurar payloads de webhooks ou confrontar uma implementação de HMAC com uma mensagem e chave conhecidas."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "message": "Mensagem",
+        "messagePlaceholder": "Digite a mensagem a ser assinada…",
+        "key": "Chave secreta",
+        "keyPlaceholder": "Digite sua chave secreta",
+        "keyFormat": "Formato da chave",
+        "formatText": "Texto",
+        "formatHex": "Hexadecimal",
+        "formatBase64": "Base64",
+        "algorithm": "Algoritmo",
+        "hexOutput": "Saída hexadecimal",
+        "base64Output": "Saída Base64",
+        "outputPlaceholder": "A assinatura aparecerá aqui",
+        "privacy": "Todos os cálculos são executados localmente no seu navegador. Sua mensagem e chave nunca saem do seu dispositivo.",
+        "emptyMessage": "Digite uma mensagem para assinar.",
+        "emptyKey": "Digite uma chave secreta.",
+        "invalidHex": "Chave hexadecimal inválida: use apenas 0-9 e a-f, com número par de dígitos.",
+        "invalidBase64": "Chave Base64 inválida.",
+        "error": "Não foi possível calcular a assinatura. Verifique os dados inseridos."
+      },
+      "buttons": {
+        "generate": "Gerar"
+      }
+    },
+    "rsa-key-generator": {
+      "metadata": {
+        "title": "Gerador de chaves RSA",
+        "description": "Gere pares de chaves RSA-OAEP (SHA-256) de 2048, 3072 ou 4096 bits e exporte em PEM: pública (SPKI) e privada (PKCS#8), tudo no seu navegador.",
+        "category": "Security"
+      },
+      "keywords": [
+        "gerador de chaves RSA",
+        "criar par de chaves RSA",
+        "RSA 2048",
+        "RSA 4096",
+        "chaves RSA-OAEP",
+        "chave pública e privada",
+        "gerador PEM",
+        "chaves RSA online",
+        "chave JWT RS256",
+        "RSA SHA-256"
+      ],
+      "faqs": [
+        {
+          "question": "Como as chaves RSA são geradas?",
+          "answer": "Com a API Web Crypto nativa do navegador (crypto.subtle.generateKey) usando RSA-OAEP com SHA-256. As chaves são geradas localmente no seu dispositivo."
+        },
+        {
+          "question": "Qual tamanho de chave devo escolher?",
+          "answer": "2048 bits é suficiente para a maioria dos usos. 3072 e 4096 bits oferecem uma margem de segurança maior, ao custo de uma geração visivelmente mais lenta."
+        },
+        {
+          "question": "Em que formato as chaves são exportadas?",
+          "answer": "A chave pública é exportada como PEM SPKI (BEGIN PUBLIC KEY) e a privada como PEM PKCS#8 (BEGIN PRIVATE KEY) — ambos formatos padrão."
+        },
+        {
+          "question": "Posso usar essas chaves para SSH?",
+          "answer": "São chaves RSA padrão para criptografia ou assinatura. O OpenSSH usa seu próprio formato de chave, então seria necessário convertê-las antes."
+        },
+        {
+          "question": "A chave privada é armazenada em algum lugar?",
+          "answer": "Não. As chaves existem apenas no seu navegador — copie ou baixe-as antes de fechar a página, pois não será possível recuperá-las depois."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Gerador de senhas",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "Decodificador JWT",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Gerador de hash",
+          "href": "/tools/hash-generator"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um gerador de chaves RSA?",
+          "paragraphs": [
+            "Um gerador de chaves RSA cria um par correspondente: uma chave pública que você pode compartilhar livremente e uma chave privada que você mantém em segredo. Esta ferramenta usa o algoritmo RSA-OAEP com SHA-256.",
+            "A geração de chaves acontece inteiramente no seu navegador por meio da API Web Crypto — nenhum material de chave é transmitido ou armazenado em um servidor."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como gerar um par de chaves RSA",
+            "paragraphs": [
+              "Escolha o tamanho da chave (2048, 3072 ou 4096 bits) e clique em Gerar. Chaves maiores levam visivelmente mais tempo para serem geradas.",
+              "A chave pública aparece à esquerda no formato SPKI PEM e a privada à direita no formato PKCS#8 PEM. Copie-as ou baixe-as como arquivos .pem."
+            ]
+          },
+          {
+            "title": "Escolhendo o tamanho da chave",
+            "paragraphs": [
+              "2048 bits é o padrão atual e é suficiente para a maioria dos usos. 3072 e 4096 bits oferecem uma margem de segurança maior, ao custo de geração mais lenta e chaves maiores."
+            ]
+          },
+          {
+            "title": "Protegendo sua chave privada",
+            "paragraphs": [
+              "Qualquer pessoa que obtiver a chave privada pode descriptografar dados destinados a você ou assinar em seu nome. Guarde-a offline, nunca a envie a um repositório e não a compartilhe. Como a geração acontece no seu navegador, a chave nunca passa por um servidor."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "keySize": "Tamanho da chave",
+        "algorithm": "Algoritmo",
+        "algorithmValue": "RSA-OAEP (SHA-256)",
+        "warning4096": "Gerar chaves de 4096 bits pode demorar um pouco; aguarde, por favor.",
+        "metaSize": "Tamanho da chave",
+        "bits": "bits",
+        "metaAlgorithm": "Algoritmo",
+        "metaCreated": "Gerada em",
+        "publicKey": "Chave pública (SPKI PEM)",
+        "privateKey": "Chave privada (PKCS#8 PEM)",
+        "outputPlaceholder": "A chave gerada aparecerá aqui",
+        "securityNote": "Guarde sua chave privada com cuidado: qualquer pessoa que a obtiver poderá descriptografar seus dados ou se passar por você. Mantenha-a offline e nunca a compartilhe.",
+        "privacy": "A geração de chaves acontece inteiramente no seu navegador. As chaves nunca são enviadas ou armazenadas em servidores.",
+        "error": "Falha ao gerar as chaves. Tente novamente."
+      },
+      "buttons": {
+        "generate": "Gerar",
+        "generating": "Gerando…",
+        "download": "Baixar .pem"
+      }
+    },
+    "pem-jwk-converter": {
+      "metadata": {
+        "title": "Conversor PEM JWK",
+        "description": "Converta chaves entre os formatos PEM e JWK. Compatível com chaves RSA e EC (SPKI, PKCS#8, PKCS#1, SEC1), tudo no seu navegador.",
+        "category": "Security"
+      },
+      "keywords": [
+        "PEM para JWK",
+        "JWK para PEM",
+        "conversor PEM JWK",
+        "chave pública RSA em JWK",
+        "chave EC em JWK",
+        "JWK chave privada",
+        "SPKI para JWK",
+        "PKCS8 para JWK",
+        "converter chave online",
+        "JWK para JWT"
+      ],
+      "faqs": [
+        {
+          "question": "O que é JWK?",
+          "answer": "JWK (JSON Web Key, RFC 7517) é uma estrutura JSON padronizada que representa chaves criptográficas. É o formato de chave nativo dos ecossistemas JOSE, JWT e OAuth."
+        },
+        {
+          "question": "Quais tipos de PEM são compatíveis?",
+          "answer": "PUBLIC KEY (SPKI), RSA PUBLIC KEY (PKCS#1), PRIVATE KEY (PKCS#8) e EC PRIVATE KEY (SEC1). Os contêineres antigos PKCS#1 e SEC1 são reembrulhados automaticamente."
+        },
+        {
+          "question": "Quais tipos de chave são compatíveis?",
+          "answer": "Chaves RSA e de curva elíptica em P-256, P-384 e P-521. Outros tipos, como Ed25519, não são compatíveis com este caminho de conversão."
+        },
+        {
+          "question": "Onde a conversão acontece?",
+          "answer": "Inteiramente no seu navegador por meio da API Web Crypto. As chaves nunca saem do seu dispositivo e nunca são enviadas para lugar algum."
+        },
+        {
+          "question": "Por que a conversão falha?",
+          "answer": "As causas mais comuns são uma curva ou um tipo de chave não compatível, ou um JWK sem membros obrigatórios como kty, n/e ou o parâmetro da curva."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Decodificador JWT",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Gerador de hash",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Codificador Base64",
+          "href": "/tools/base64-encoder"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um conversor PEM JWK?",
+          "paragraphs": [
+            "PEM é o formato de chave Base64 clássico com cabeçalhos BEGIN/END usado pelo OpenSSL e pela maioria das ferramentas de certificados, enquanto JWK (JSON Web Key, RFC 7517) é a representação JSON dos ecossistemas JOSE, JWT e OAuth. Um conversor permite que a mesma chave funcione nos dois mundos.",
+            "Esta ferramenta importa chaves SPKI e PKCS#8 — e reembrulha automaticamente os formatos antigos PKCS#1 e SEC1 —, exporta o JWK correspondente ou converte um JWK de volta para um PEM padrão. Tudo é executado localmente no seu navegador."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como converter PEM em JWK",
+            "paragraphs": [
+              "Cole sua chave PEM na aba PEM → JWK e clique em Converter. O JWK é exibido como JSON formatado à direita, pronto para copiar.",
+              "Chaves públicas são exportadas com os membros públicos do JWK (n/e para RSA, x/y para EC); chaves privadas incluem também d e os demais membros privados."
+            ]
+          },
+          {
+            "title": "Como converter JWK em PEM",
+            "paragraphs": [
+              "Mude para a aba JWK → PEM e cole o JSON do JWK. A ferramenta lê o kty para detectar RSA ou EC e verifica o membro d para distinguir chaves privadas.",
+              "O resultado é um PEM padrão: PUBLIC KEY (SPKI) para chaves públicas e PRIVATE KEY (PKCS#8) para chaves privadas."
+            ]
+          },
+          {
+            "title": "Painel de informações da chave",
+            "paragraphs": [
+              "Após cada conversão, o painel mostra o tipo de chave, o algoritmo, o tamanho em bits e se a chave é pública ou privada — útil para uma verificação rápida."
+            ]
+          },
+          {
+            "title": "Formatos compatíveis",
+            "paragraphs": [
+              "Os rótulos PEM PUBLIC KEY, RSA PUBLIC KEY, PRIVATE KEY e EC PRIVATE KEY são aceitos; chaves RSA e EC em P-256, P-384 e P-521 são compatíveis. Ed25519 e outros tipos não são."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "tabPemToJwk": "PEM → JWK",
+        "tabJwkToPem": "JWK → PEM",
+        "pemInput": "Chave PEM",
+        "pemInputPlaceholder": "Cole uma chave PEM, ex.: -----BEGIN PUBLIC KEY----- …",
+        "jwkOutput": "Saída JWK",
+        "jwkInput": "Chave JWK (JSON)",
+        "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+        "pemOutput": "Saída PEM",
+        "outputPlaceholder": "O resultado aparecerá aqui",
+        "keyInfo": "Informações da chave",
+        "infoKty": "Tipo de chave",
+        "infoAlg": "Algoritmo",
+        "infoSize": "Tamanho",
+        "bits": "bits",
+        "infoUsage": "Uso",
+        "public": "Chave pública",
+        "private": "Chave privada",
+        "privacy": "Todas as conversões são executadas localmente no seu navegador. As chaves nunca saem do seu dispositivo.",
+        "emptyPem": "Cole uma chave PEM.",
+        "invalidPem": "Não foi possível analisar a chave PEM. Verifique os cabeçalhos BEGIN/END e o corpo Base64.",
+        "errorPem": "Chave não compatível. Apenas chaves RSA e EC (P-256/P-384/P-521) podem ser convertidas.",
+        "emptyJwk": "Cole um JWK.",
+        "invalidJson": "A entrada não é um JSON válido.",
+        "unsupportedKty": "Tipo de chave (kty) não compatível. Apenas RSA e EC são compatíveis.",
+        "unsupportedCurve": "Curva não compatível. Apenas P-256, P-384 e P-521 são compatíveis.",
+        "errorJwk": "Não foi possível importar o JWK. Verifique se todos os membros obrigatórios estão presentes e corretos."
+      },
+      "buttons": {
+        "convert": "Converter"
+      }
+    },
+    "json-to-typescript": {
+      "metadata": {
+        "title": "JSON para TypeScript",
+        "description": "Converta objetos e arrays JSON em interfaces TypeScript online. Tipos nomeados aninhados, campos opcionais e anuláveis, saída instantânea.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json para typescript",
+        "json to ts",
+        "json para interface",
+        "gerador de interfaces typescript",
+        "converter json para typescript",
+        "typescript a partir de json",
+        "tipos typescript de json",
+        "json para ts",
+        "json para interface online",
+        "converter json para typescript grátis"
+      ],
+      "faqs": [
+        {
+          "question": "Como converter JSON em interfaces TypeScript?",
+          "answer": "Cole um objeto ou array JSON na caixa de entrada. As interfaces são geradas instantaneamente: objetos aninhados viram interfaces nomeadas, arrays são mesclados em um único tipo de elemento e você copia tudo com um clique."
+        },
+        {
+          "question": "Como objetos e arrays aninhados são tratados?",
+          "answer": "Cada objeto aninhado se torna sua própria interface exportada, nomeada a partir da sua chave — por exemplo, items dentro de Root vira RootItem. Arrays de objetos são mesclados mantendo as propriedades compartilhadas, e propriedades ausentes em alguns elementos são marcadas como opcionais."
+        },
+        {
+          "question": "O que acontece com valores ausentes ou nulos?",
+          "answer": "Uma propriedade ausente em alguns elementos do array recebe o modificador opcional (?), e nulos explícitos adicionam | null ao tipo — as interfaces refletem exatamente o que a API pode retornar."
+        },
+        {
+          "question": "Meu JSON é enviado a um servidor?",
+          "answer": "Não. Toda a conversão roda localmente no seu navegador — nada é enviado, armazenado ou registrado."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Formatador JSON",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON para CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON para YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um conversor de JSON para TypeScript?",
+          "paragraphs": [
+            "Um conversor de JSON para TypeScript transforma uma amostra de JSON em interfaces prontas para uso. Cole uma resposta real de API e obtenha modelos tipados na hora — ótimo para clientes de API, mocks e arquivos de configuração. Tudo roda no seu navegador."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como gerar TypeScript a partir de JSON",
+            "paragraphs": [
+              "Cole seu JSON, defina opcionalmente o nome da interface raiz e o código aparece ao vivo à direita. Clique em Copiar e leve as interfaces para o seu projeto."
+            ]
+          },
+          {
+            "title": "Como os tipos são inferidos",
+            "paragraphs": [
+              "Strings viram string, números viram number, booleanos viram boolean. Objetos aninhados viram interfaces nomeadas, arrays de objetos são mesclados em uma interface de elemento, e arrays com primitivos mistos viram uniões como string | number."
+            ]
+          },
+          {
+            "title": "Opcional, anulável e nomenclatura",
+            "paragraphs": [
+              "Propriedades ausentes em alguns elementos do array são emitidas como opcionais (prop?), nulos explícitos adicionam | null, e o nome raiz digitado é reutilizado em todos os nomes aninhados, ex. ApiResponseItem."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "Entrada JSON",
+        "inputPlaceholder": "Cole seu JSON aqui…",
+        "output": "Interfaces TypeScript",
+        "outputPlaceholder": "O código gerado aparecerá aqui…",
+        "rootName": "Nome do tipo raiz",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Nome do pacote",
+        "loadExample": "Carregar exemplo",
+        "clear": "Limpar",
+        "errorInvalidJson": "JSON inválido",
+        "privacy": "Tudo é executado localmente no seu navegador. Seu JSON nunca é enviado nem armazenado."
+      },
+      "buttons": {
+        "copy": "Copiar",
+        "copied": "Copiado!"
+      }
+    },
+    "json-to-go": {
+      "metadata": {
+        "title": "JSON para Go",
+        "description": "Converta JSON em structs Go online com tags json. Structs aninhados, ponteiros para campos anuláveis e opção de nome de pacote.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json para go",
+        "json para struct go",
+        "golang json para struct",
+        "converter json para golang",
+        "gerador de structs go",
+        "json para struct online",
+        "struct golang de json",
+        "json para structs go grátis",
+        "converter json em código go",
+        "json marshal go"
+      ],
+      "faqs": [
+        {
+          "question": "Como converter JSON em struct Go?",
+          "answer": "Cole seu JSON e a ferramenta gera instantaneamente structs Go com tags json:\"...\" para cada campo. Objetos aninhados viram structs separados, e você copia o arquivo inteiro com um clique."
+        },
+        {
+          "question": "Quais tipos Go são gerados?",
+          "answer": "Strings viram string, inteiros viram int, decimais viram float64, booleanos viram bool, arrays viram slices, e formas desconhecidas ou mistas viram interface{}. Campos que podem ser nulos ou ausentes viram ponteiros como *string para que o encoding/json os trate corretamente."
+        },
+        {
+          "question": "Por que os campos têm tags json?",
+          "answer": "Cada campo mantém sua chave JSON original na tag do struct, então o marshalling funciona mesmo quando o nome do campo Go é exportado em PascalCase. Propriedades ausentes em alguns elementos do array também recebem ,omitempty."
+        },
+        {
+          "question": "Meus dados são enviados?",
+          "answer": "Não. A conversão roda inteiramente no seu navegador; seu JSON e o código gerado nunca saem do seu dispositivo."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Formatador JSON",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON para CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON para YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um conversor de JSON para Go?",
+          "paragraphs": [
+            "Um conversor de JSON para Go gera definições de structs a partir de uma amostra JSON, incluindo tags json corretas, structs aninhados e tipos slice. É a forma mais rápida de escrever modelos tipados para APIs REST e webhooks — e roda inteiramente no seu navegador."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como gerar structs Go a partir de JSON",
+            "paragraphs": [
+              "Cole um objeto ou array JSON, ajuste o nome do pacote se necessário e copie os structs gerados para o seu projeto. O pacote padrão é main."
+            ]
+          },
+          {
+            "title": "Mapeamento de tipos",
+            "paragraphs": [
+              "int é usado para inteiros e float64 para decimais. Objetos aninhados viram structs próprios nomeados pela chave, arrays viram slices, e arrays vazios ou mistos caem em []interface{}."
+            ]
+          },
+          {
+            "title": "Ponteiros, omitempty e nomes",
+            "paragraphs": [
+              "Campos nulos ou ausentes em alguns elementos viram ponteiros com ,omitempty na tag. Os nomes dos tipos são versões PascalCase das chaves com sufixos numéricos em colisões, e você pode renomear a raiz quando quiser."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "Entrada JSON",
+        "inputPlaceholder": "Cole seu JSON aqui…",
+        "output": "Structs Go",
+        "outputPlaceholder": "O código gerado aparecerá aqui…",
+        "rootName": "Nome do tipo raiz",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Nome do pacote",
+        "loadExample": "Carregar exemplo",
+        "clear": "Limpar",
+        "errorInvalidJson": "JSON inválido",
+        "privacy": "Tudo é executado localmente no seu navegador. Seu JSON nunca é enviado nem armazenado."
+      },
+      "buttons": {
+        "copy": "Copiar",
+        "copied": "Copiado!"
+      }
+    },
+    "json-to-java": {
+      "metadata": {
+        "title": "JSON para Java",
+        "description": "Converta JSON em classes POJO Java online. Campos privados com getters e setters, anotações Jackson para chaves não triviais.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json para java",
+        "json para pojo",
+        "classe java de json",
+        "gerador de pojo",
+        "json para classe java online",
+        "gerar pojo de json",
+        "json para java bean",
+        "conversor pojo",
+        "json para dto java",
+        "jackson pojo gerador"
+      ],
+      "faqs": [
+        {
+          "question": "Como gerar classes Java a partir de JSON?",
+          "answer": "Cole seu JSON e cada objeto se torna uma classe Java com campos privados e getters/setters públicos. Objetos aninhados viram classes próprias e arrays viram List<T>."
+        },
+        {
+          "question": "Quais tipos são usados?",
+          "answer": "Inteiros são mapeados para Integer, decimais para Double, booleanos para Boolean e strings para String. Wrappers são usados quando um campo pode estar ausente ou ser nulo, para que nulos sejam desserializados com segurança."
+        },
+        {
+          "question": "Por que alguns campos têm @JsonProperty?",
+          "answer": "Chaves que não são identificadores Java válidos ou que não correspondem um a um a um campo camelCase (ex. user_name) recebem uma anotação Jackson @JsonProperty para que a desserialização continue funcionando sem alterações."
+        },
+        {
+          "question": "Meu JSON fica armazenado?",
+          "answer": "Não. Tudo é gerado localmente no seu navegador e nada é enviado ou registrado."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Formatador JSON",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON para CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON para YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um conversor de JSON para Java?",
+          "paragraphs": [
+            "Um conversor de JSON para Java transforma amostras JSON em classes POJO: campos privados, getters e setters, e anotações Jackson onde as chaves exigem. Perfeito para DTOs, modelos de API e fixtures de teste. Todo o processamento acontece no seu navegador."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como gerar POJOs a partir de JSON",
+            "paragraphs": [
+              "Cole um objeto JSON, renomeie a classe raiz se quiser e copie as classes geradas. Objetos aninhados são emitidos como classes separadas no mesmo arquivo."
+            ]
+          },
+          {
+            "title": "Campos, getters e setters",
+            "paragraphs": [
+              "Cada propriedade se torna um campo privado com getter e setter públicos seguindo as convenções padrão de beans, então as classes funcionam com Jackson, Gson e a maioria dos ORMs sem ajustes."
+            ]
+          },
+          {
+            "title": "Arrays, aninhamento e nulos",
+            "paragraphs": [
+              "Arrays JSON viram List<T> e objetos aninhados viram classes nomeadas pela chave, ex. address dentro de Root vira RootAddress. Campos que podem ser nulos ou ausentes usam wrappers (Integer, Double, Boolean) em vez de primitivos."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "Entrada JSON",
+        "inputPlaceholder": "Cole seu JSON aqui…",
+        "output": "Classes Java",
+        "outputPlaceholder": "O código gerado aparecerá aqui…",
+        "rootName": "Nome do tipo raiz",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Nome do pacote",
+        "loadExample": "Carregar exemplo",
+        "clear": "Limpar",
+        "errorInvalidJson": "JSON inválido",
+        "privacy": "Tudo é executado localmente no seu navegador. Seu JSON nunca é enviado nem armazenado."
+      },
+      "buttons": {
+        "copy": "Copiar",
+        "copied": "Copiado!"
+      }
+    },
+    "json-to-python": {
+      "metadata": {
+        "title": "JSON para Python",
+        "description": "Converta JSON em dataclasses Python online. Dataclasses aninhadas, type hints Optional e List, nomes PEP 8.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json para python",
+        "json para dataclass",
+        "dataclass python de json",
+        "json para classe python",
+        "gerador de dataclass",
+        "json para código python",
+        "modelos python de json",
+        "converter json em dataclasses",
+        "json para python tipado",
+        "dataclass online"
+      ],
+      "faqs": [
+        {
+          "question": "Como converter JSON em dataclasses Python?",
+          "answer": "Cole seu JSON e cada objeto se torna uma @dataclass com campos tipados. Objetos aninhados viram dataclasses próprias e arrays viram List[T]."
+        },
+        {
+          "question": "Como os nomes de campo são tratados?",
+          "answer": "As chaves são convertidas para snake_case no estilo PEP 8, ex. firstName vira first_name. Palavras reservadas de Python recebem um underscore final."
+        },
+        {
+          "question": "E os campos ausentes ou nulos?",
+          "answer": "Campos ausentes em alguns elementos do array ou nulos na amostra são tipados como Optional[T] com padrão None, correspondendo ao que os dados podem realmente conter."
+        },
+        {
+          "question": "Meus dados são enviados?",
+          "answer": "Não. A conversão acontece inteiramente no seu navegador — seu JSON nunca sai do seu dispositivo."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Formatador JSON",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON para CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON para YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um conversor de JSON para Python?",
+          "paragraphs": [
+            "Um conversor de JSON para Python gera dataclasses com type hints completos a partir de uma amostra JSON. Em vez de dicts com formas pouco claras, você obtém modelos tipados e autodocumentados para APIs, scripts e testes — gerados localmente no seu navegador."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como gerar dataclasses a partir de JSON",
+            "paragraphs": [
+              "Cole um objeto ou array JSON e as dataclasses aparecem instantaneamente. Campos com valores padrão ficam depois dos obrigatórios, como as dataclasses exigem."
+            ]
+          },
+          {
+            "title": "Type hints",
+            "paragraphs": [
+              "str, int, float, bool e List[T] são inferidos da amostra. Objetos aninhados viram dataclasses próprias, e formas desconhecidas caem em Any."
+            ]
+          },
+          {
+            "title": "Campos opcionais e uso",
+            "paragraphs": [
+              "Tudo o que pode faltar ou ser nulo vira Optional[T] = None. A saída importa apenas de dataclasses e typing — sem dependências de terceiros — e dataclasses.asdict() converte os modelos de volta para JSON."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "Entrada JSON",
+        "inputPlaceholder": "Cole seu JSON aqui…",
+        "output": "Dataclasses Python",
+        "outputPlaceholder": "O código gerado aparecerá aqui…",
+        "rootName": "Nome do tipo raiz",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Nome do pacote",
+        "loadExample": "Carregar exemplo",
+        "clear": "Limpar",
+        "errorInvalidJson": "JSON inválido",
+        "privacy": "Tudo é executado localmente no seu navegador. Seu JSON nunca é enviado nem armazenado."
+      },
+      "buttons": {
+        "copy": "Copiar",
+        "copied": "Copiado!"
+      }
+    },
+    "json-to-kotlin": {
+      "metadata": {
+        "title": "JSON para Kotlin",
+        "description": "Converta JSON em data classes Kotlin online. Nulabilidade com ?, data classes aninhadas, propriedades val.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json para kotlin",
+        "json para data class",
+        "data class kotlin de json",
+        "json para kotlin conversor",
+        "gerador de data class kotlin",
+        "gerar kotlin de json",
+        "json para kotlin online",
+        "modelos kotlin de json",
+        "converter json em data classes kotlin",
+        "json para kt"
+      ],
+      "faqs": [
+        {
+          "question": "Como converter JSON em data classes Kotlin?",
+          "answer": "Cole seu JSON e cada objeto se torna uma data class Kotlin com propriedades val. Objetos aninhados viram data classes próprias e arrays viram List<T>."
+        },
+        {
+          "question": "Como a nulabilidade é tratada?",
+          "answer": "Campos que podem estar ausentes ou nulos são tipados como T? com padrão null, ex. val nickname: String? = null, seguindo os idiomas seguros de Kotlin."
+        },
+        {
+          "question": "Com quais serializadores a saída funciona?",
+          "answer": "As data classes geradas funcionam com kotlinx.serialization, Moshi e Gson. Quando uma chave não corresponde a um nome de propriedade válido, uma anotação Jackson @JsonProperty mantém o mapeamento explícito."
+        },
+        {
+          "question": "Meu JSON é enviado?",
+          "answer": "Não. Tudo roda localmente no seu navegador e nada é armazenado."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Formatador JSON",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON para CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON para YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um conversor de JSON para Kotlin?",
+          "paragraphs": [
+            "Um conversor de JSON para Kotlin gera data classes idiomáticas a partir de amostras JSON: propriedades val imutáveis, tipos anuláveis com padrões e classes aninhadas nomeadas pelas chaves. Ótimo para modelos de API Android e JVM."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como gerar data classes",
+            "paragraphs": [
+              "Cole um objeto JSON, renomeie a classe raiz se quiser e copie o resultado. Todas as classes são emitidas juntas para você colá-las em um único arquivo."
+            ]
+          },
+          {
+            "title": "Tipos e nulabilidade",
+            "paragraphs": [
+              "String, Int, Double e Boolean são inferidos da amostra; coleções viram List<T>. Tudo que é opcional ou nulo se torna T? = null."
+            ]
+          },
+          {
+            "title": "Aninhamento e nomes",
+            "paragraphs": [
+              "Objetos aninhados viram data classes próprias com nomes derivados do pai, ex. address dentro de Root vira RootAddress — colisões recebem sufixos numéricos. Chaves que diferem do nome da propriedade além da caixa recebem uma anotação explícita."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "Entrada JSON",
+        "inputPlaceholder": "Cole seu JSON aqui…",
+        "output": "Data classes Kotlin",
+        "outputPlaceholder": "O código gerado aparecerá aqui…",
+        "rootName": "Nome do tipo raiz",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Nome do pacote",
+        "loadExample": "Carregar exemplo",
+        "clear": "Limpar",
+        "errorInvalidJson": "JSON inválido",
+        "privacy": "Tudo é executado localmente no seu navegador. Seu JSON nunca é enviado nem armazenado."
+      },
+      "buttons": {
+        "copy": "Copiar",
+        "copied": "Copiado!"
+      }
+    },
+    "json-to-csharp": {
+      "metadata": {
+        "title": "JSON para C#",
+        "description": "Converta JSON em classes C# online. POCOs fortemente tipados com propriedades, anotações nulas e atributos JsonProperty gerados instantaneamente.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json para c#",
+        "json to csharp",
+        "json para classe c#",
+        "gerador de classe c# a partir de json",
+        "json para poco",
+        "converter json em c#",
+        "json para c# online",
+        "gerar modelo c# de json",
+        "json para objeto c#",
+        "conversor json c#"
+      ],
+      "faqs": [
+        {
+          "question": "Como converter JSON em uma classe C#?",
+          "answer": "Cole um objeto ou array JSON na caixa de entrada. As classes C# são geradas instantaneamente: cada objeto aninhado vira uma classe pública com propriedades get/set, e você copia tudo com um clique."
+        },
+        {
+          "question": "Como os tipos JSON são mapeados para C#?",
+          "answer": "Strings viram string, inteiros viram int, decimais viram double, booleanos viram bool, arrays viram List<T> e mapas com chaves de texto viram Dictionary<string, T>. Objetos aninhados viram classes separadas: address dentro de Root vira RootAddress."
+        },
+        {
+          "question": "Quando o [JsonProperty] é adicionado?",
+          "answer": "Somente quando a chave JSON difere do nome da propriedade C# além da capitalização — por exemplo, user_id vira UserId com [JsonProperty(\"user_id\")]. A diretiva using Newtonsoft.Json; é adicionada automaticamente quando necessária."
+        },
+        {
+          "question": "Meu JSON é enviado para um servidor?",
+          "answer": "Não. Toda a conversão é executada localmente no seu navegador — nada é enviado, armazenado ou registrado."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Formatador JSON",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON para CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON para YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um conversor de JSON para C#?",
+          "paragraphs": [
+            "Um conversor de JSON para C# transforma uma amostra JSON bruta em classes C# prontas para uso (POCOs). Cole uma resposta de API e obtenha modelos fortemente tipados para colocar direto em um projeto .NET. Tudo roda no seu navegador."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como gerar classes C# a partir de JSON",
+            "paragraphs": [
+              "Cole seu JSON e as classes aparecem em tempo real. Clique em Copiar e adicione à sua solução — a saída compila sem ajustes para estruturas comuns."
+            ]
+          },
+          {
+            "title": "Mapeamento de tipos",
+            "paragraphs": [
+              "Inteiros viram int, decimais viram double, e valores nulos ou ausentes viram tipos anuláveis como int?. Arrays viram List<T> e objetos com chaves mistas viram Dictionary<string, T>."
+            ]
+          },
+          {
+            "title": "Nomenclatura e atributos",
+            "paragraphs": [
+              "As chaves são convertidas para PascalCase segundo a convenção C#. Quando a chave original difere além da capitalização, um [JsonProperty] mantém a desserialização correta, e campos ausentes ou nulos usam anotações anuláveis."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "Entrada JSON",
+        "inputPlaceholder": "Cole seu JSON aqui…",
+        "output": "Classes C#",
+        "outputPlaceholder": "O código gerado aparecerá aqui…",
+        "rootName": "Nome do tipo raiz",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Nome do pacote",
+        "loadExample": "Carregar exemplo",
+        "clear": "Limpar",
+        "errorInvalidJson": "JSON inválido",
+        "privacy": "Tudo é executado localmente no seu navegador. Seu JSON nunca é enviado nem armazenado."
+      },
+      "buttons": {
+        "copy": "Copiar",
+        "copied": "Copiado!"
+      }
+    },
+    "json-to-rust": {
+      "metadata": {
+        "title": "JSON para Rust",
+        "description": "Converta JSON em structs Rust online. Structs prontos para serde com #[derive(Serialize, Deserialize)], Option<T> para campos nulos e renomeação automática para camelCase.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json para rust",
+        "json para struct rust",
+        "gerador de struct serde rust",
+        "json para serde",
+        "converter json em rust",
+        "rust struct de json",
+        "json para rust online",
+        "gerar structs rust",
+        "serde json struct",
+        "modelo json rust"
+      ],
+      "faqs": [
+        {
+          "question": "Como converter JSON em structs Rust?",
+          "answer": "Cole um objeto ou array JSON na caixa de entrada. Os structs prontos para serde são gerados instantaneamente: cada objeto aninhado vira seu próprio pub struct, e tudo é copiável com um clique."
+        },
+        {
+          "question": "Como os tipos JSON são mapeados para Rust?",
+          "answer": "Strings viram String, inteiros viram i64, decimais viram f64, booleanos viram bool, arrays viram Vec<T>, mapas com chaves de texto viram HashMap<String, T> e formas desconhecidas ou mistas viram serde_json::Value. Objetos aninhados viram structs separados nomeados pela sua chave."
+        },
+        {
+          "question": "O que faz #[serde(rename_all = \"camelCase\")]?",
+          "answer": "Ela diz ao serde para aceitar e emitir chaves camelCase enquanto os campos do struct permanecem em snake_case segundo a convenção Rust. Quando apenas alguns campos precisam ser renomeados, usa-se #[serde(rename = \"...\")] por campo, e valores ausentes ou nulos viram Option<T>."
+        },
+        {
+          "question": "Meu JSON é enviado para um servidor?",
+          "answer": "Não. Toda a conversão é executada localmente no seu navegador — nada é enviado, armazenado ou registrado."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Formatador JSON",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON para CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON para YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "O que é um conversor de JSON para Rust?",
+          "paragraphs": [
+            "Um conversor de JSON para Rust transforma uma amostra JSON bruta em structs Rust anotados com serde. Cole uma carga de API e obtenha tipos para colocar direto em um projeto Rust junto ao serde_json. Tudo roda no seu navegador."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Como gerar structs Rust a partir de JSON",
+            "paragraphs": [
+              "Cole seu JSON e os structs aparecem em tempo real. Clique em Copiar e adicione ao seu projeto — os derives de serde e serde_json necessários já estão incluídos no código."
+            ]
+          },
+          {
+            "title": "Mapeamento de tipos",
+            "paragraphs": [
+              "Inteiros viram i64, decimais viram f64, arrays viram Vec<T> e objetos com chaves que não são identificadores viram HashMap<String, T>. Valores de forma desconhecida ou mista viram serde_json::Value, então nada quebra em tempo de execução."
+            ]
+          },
+          {
+            "title": "Nomenclatura e atributos serde",
+            "paragraphs": [
+              "Os campos são nomeados em snake_case segundo o estilo Rust. Quando todas as chaves já são camelCase, é emitido um único #[serde(rename_all = \"camelCase\")]; caso contrário, campos individuais recebem #[serde(rename)]. Campos opcionais e nulos usam Option<T>."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "Entrada JSON",
+        "inputPlaceholder": "Cole seu JSON aqui…",
+        "output": "Structs Rust",
+        "outputPlaceholder": "O código gerado aparecerá aqui…",
+        "rootName": "Nome do tipo raiz",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Nome do pacote",
+        "loadExample": "Carregar exemplo",
+        "clear": "Limpar",
+        "errorInvalidJson": "JSON inválido",
+        "privacy": "Tudo é executado localmente no seu navegador. Seu JSON nunca é enviado nem armazenado."
+      },
+      "buttons": {
+        "copy": "Copiar",
+        "copied": "Copiado!"
+      }
     }
   },
   "blogLayout": {
@@ -38672,7 +39994,7 @@
       "title": "How to Create a Digital Signature for Free (2026 Guide)",
       "description": "Learn how to create digital signatures for documents, PDFs, and contracts. Covering draw, type, upload, and free tools with no registration."
     },
-        "how-to-create-a-strong-password": {
+    "how-to-create-a-strong-password": {
       "title": "How to Create a Strong Password (2026 Guide)",
       "description": "Learn what makes a password strong, why length beats complexity, and how password managers and passkeys protect your accounts. Free browser tools included."
     },
@@ -38695,6 +40017,10 @@
     "how-to-upscale-images": {
       "title": "How to Upscale Images Without Losing Quality (2026 Guide)",
       "description": "Learn how to enlarge and enhance images for print, web, and social media. Covering upscaling methods, when to use each, and free in-browser tools."
+    },
+    "json-to-code": {
+      "title": "How to Convert JSON to TypeScript, Go, Java & More (Free, 2026 Guide)",
+      "description": "Turn any JSON sample into TypeScript interfaces, Go structs, Java POJOs, Python dataclasses, Kotlin data classes, C# classes or Rust serde structs — free in your browser, nothing uploaded. Plus how the converters handle nested objects, mixed-shape arrays, and optional vs. nullable fields."
     }
   }
 }

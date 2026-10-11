@@ -1,0 +1,2934 @@
+{
+  "tools": {
+    "password-generator": {
+      "en": {
+        "metadata": {
+          "title": "Password Generator",
+          "description": "Create strong, random passwords with custom length and character sets. Runs entirely in your browser — nothing is ever sent to a server.",
+          "category": "Security"
+        },
+        "keywords": [
+          "password generator",
+          "strong password",
+          "random password generator",
+          "secure password creator",
+          "generate password online",
+          "password maker",
+          "free password generator",
+          "random string generator",
+          "password strength",
+          "safe password"
+        ],
+        "faqs": [
+          {
+            "question": "How strong is a generated password?",
+            "answer": "Strength depends on length and character variety. A 16-character password using upper and lower case letters, digits, and symbols has roughly 100 bits of entropy, which is effectively impossible to brute-force. The tool shows the estimated entropy as you adjust the settings."
+          },
+          {
+            "question": "Are the passwords generated on a server?",
+            "answer": "No. Every password is generated locally in your browser using the Web Crypto API. Nothing you see here is transmitted, logged, or stored anywhere."
+          },
+          {
+            "question": "What does 'exclude ambiguous characters' do?",
+            "answer": "It removes look-alike characters such as I, l, 1, O, 0 and o from the character pool, so passwords are easier to read aloud or type correctly by hand."
+          },
+          {
+            "question": "How long should my password be?",
+            "answer": "At least 12 characters for everyday accounts and 16 or more for anything sensitive such as email, banking, or password managers. Longer is always safer, and this tool supports up to 128 characters."
+          },
+          {
+            "question": "Why does the password change when I change a setting?",
+            "answer": "The generator refreshes automatically whenever you adjust the length or character sets, so you always see a password that matches your current options."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Password Strength Checker", "href": "/tools/password-strength" },
+          { "name": "Hash Generator", "href": "/tools/hash-generator" },
+          { "name": "UUID Generator", "href": "/tools/uuid-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "How to generate a secure password",
+            "paragraphs": [
+              "Weak and reused passwords remain the leading cause of account takeovers. A password generator removes the guesswork by creating random strings that no human would pick and no dictionary attack can predict.",
+              "This tool uses your browser's built-in cryptographic random number generator (crypto.getRandomValues) with rejection sampling to avoid bias, so every character is drawn from a truly uniform pool. All processing happens locally — your password never leaves the page."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Choose the length",
+              "paragraphs": [
+                "Use the slider or type a number between 4 and 128. Twelve characters is a sensible minimum for most accounts; sixteen or more is recommended for email, banking, and anything you truly care about."
+              ]
+            },
+            {
+              "title": "Pick your character sets",
+              "paragraphs": [
+                "Enable uppercase, lowercase, digits, and symbols for the strongest result. If a website restricts which characters are allowed, turn off the sets it rejects until the pool fits its rules."
+              ]
+            },
+            {
+              "title": "Avoid look-alike characters",
+              "paragraphs": [
+                "Check 'exclude ambiguous characters' when you might need to read or type the password manually. It removes I, l, 1, O, 0 and o so similar-looking characters can't be confused."
+              ]
+            },
+            {
+              "title": "Generate, copy, and store safely",
+              "paragraphs": [
+                "Click Generate, then use the Copy button to place the password on your clipboard. Save it in a password manager rather than a plain text file — and remember this page never sends anything to a server."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "length": "Length",
+          "uppercase": "Uppercase (A-Z)",
+          "lowercase": "Lowercase (a-z)",
+          "digits": "Digits (0-9)",
+          "symbols": "Symbols (!@#$…)",
+          "excludeAmbiguous": "Exclude ambiguous characters",
+          "charset": "Character pool",
+          "entropy": "Entropy",
+          "bits": "bits",
+          "placeholder": "Your password will appear here",
+          "copy": "Copy",
+          "copied": "Copied!",
+          "generate": "Generate password",
+          "privacy": "All generation happens locally in your browser. Your password is never sent or stored.",
+          "weak": "Weak",
+          "fair": "Fair",
+          "strong": "Strong",
+          "veryStrong": "Very strong"
+        },
+        "errors": {
+          "noCharacterSet": "Please enable at least one character set."
+        }
+      },
+      "zh": {
+        "metadata": {
+          "title": "密码生成器",
+          "description": "自定义长度与字符集，生成高强度随机密码。全部在浏览器本地完成，数据不会发送到任何服务器。",
+          "category": "Security"
+        },
+        "keywords": [
+          "密码生成器",
+          "强密码",
+          "随机密码生成",
+          "安全密码",
+          "在线生成密码",
+          "密码强度",
+          "随机字符串生成",
+          "免费密码生成器",
+          "高安全性密码",
+          "密码工具"
+        ],
+        "faqs": [
+          {
+            "question": "生成的密码有多强？",
+            "answer": "强度取决于长度和字符种类。使用大小写字母、数字和符号的 16 位密码约有 100 比特熵，实际上无法被暴力破解。调整设置时工具会实时显示估算的熵值。"
+          },
+          {
+            "question": "密码是在服务器上生成的吗？",
+            "answer": "不是。每个密码都使用浏览器内置的 Web Crypto API 在本地生成，不会传输、记录或存储在任何地方。"
+          },
+          {
+            "question": "“排除易混淆字符”有什么作用？",
+            "answer": "它会从字符池中移除 I、l、1、O、0、o 等外形相似的字符，让密码更容易口头转述或手工输入。"
+          },
+          {
+            "question": "密码应该设多长？",
+            "answer": "日常账户至少 12 位，邮箱、网银、密码管理器等敏感账户建议 16 位以上。越长越安全，本工具最多支持 128 位。"
+          },
+          {
+            "question": "为什么我一改设置密码就变了？",
+            "answer": "生成器会在你调整长度或字符集时自动刷新，确保显示的密码始终符合当前选项。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "密码强度检测", "href": "/tools/password-strength" },
+          { "name": "哈希生成器", "href": "/tools/hash-generator" },
+          { "name": "UUID 生成器", "href": "/tools/uuid-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "如何生成安全密码",
+            "paragraphs": [
+              "弱密码和重复使用密码仍是账户被盗的主要原因。密码生成器通过生成人类想不到、字典攻击也猜不出的随机字符串，彻底消除这个隐患。",
+              "本工具使用浏览器内置的加密安全随机数（crypto.getRandomValues），并通过拒绝采样消除偏差，保证每个字符都来自完全均匀的字符池。所有处理都在本地完成——密码绝不会离开当前页面。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "选择长度",
+              "paragraphs": [
+                "拖动滑块或输入 4–128 之间的数字。大多数账户至少 12 位；邮箱、网银等重要账户建议 16 位以上。"
+              ]
+            },
+            {
+              "title": "挑选字符集",
+              "paragraphs": [
+                "同时启用大写字母、小写字母、数字和符号可获得最强效果。如果网站限制可用字符，关闭对应字符集即可。"
+              ]
+            },
+            {
+              "title": "排除易混淆字符",
+              "paragraphs": [
+                "如果需要口头转述或手工输入密码，勾选“排除易混淆字符”，它会移除 I、l、1、O、0 和 o，避免看错。"
+              ]
+            },
+            {
+              "title": "生成、复制并妥善保存",
+              "paragraphs": [
+                "点击生成，再使用复制按钮把密码放入剪贴板。请保存到密码管理器，而不是纯文本文件——本页面永远不会向服务器发送任何数据。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "length": "长度",
+          "uppercase": "大写字母 (A-Z)",
+          "lowercase": "小写字母 (a-z)",
+          "digits": "数字 (0-9)",
+          "symbols": "符号 (!@#$…)",
+          "excludeAmbiguous": "排除易混淆字符",
+          "charset": "字符池",
+          "entropy": "熵",
+          "bits": "位",
+          "placeholder": "生成的密码将显示在这里",
+          "copy": "复制",
+          "copied": "已复制！",
+          "generate": "生成密码",
+          "privacy": "所有生成均在浏览器本地完成，密码不会被发送或存储。",
+          "weak": "弱",
+          "fair": "一般",
+          "strong": "强",
+          "veryStrong": "极强"
+        },
+        "errors": {
+          "noCharacterSet": "请至少启用一个字符集。"
+        }
+      },
+      "ja": {
+        "metadata": {
+          "title": "パスワードジェネレーター",
+          "description": "長さと文字種をカスタマイズして、強力なランダムパスワードを生成。処理はすべてブラウザ内で完結し、データがサーバーに送信されることはありません。",
+          "category": "Security"
+        },
+        "keywords": [
+          "パスワード生成",
+          "パスワードジェネレーター",
+          "安全なパスワード",
+          "ランダムパスワード",
+          "強力なパスワード作成",
+          "パスワード作成ツール",
+          "オンライン パスワード生成",
+          "無料 パスワード生成",
+          "パスワード強度",
+          "ランダム文字列生成"
+        ],
+        "faqs": [
+          {
+            "question": "生成されるパスワードの強度は？",
+            "answer": "強度は長さと文字種の組み合わせで決まります。英大文字・小文字・数字・記号を使った16文字のパスワードは約100ビットのエントロピーを持ち、総当たり攻撃は事実上不可能です。設定を変更すると推定エントロピーがリアルタイムで表示されます。"
+          },
+          {
+            "question": "パスワードはサーバーで生成されますか？",
+            "answer": "いいえ。すべてのパスワードはブラウザ内の Web Crypto API を使ってローカルで生成されます。送信・記録・保存は一切行われません。"
+          },
+          {
+            "question": "「紛らわしい文字を除外」とは？",
+            "answer": "I、l、1、O、0、o のように見分けにくい文字を文字プールから除外します。声で読み上げたり手入力したりするときの間違いを防げます。"
+          },
+          {
+            "question": "パスワードは何文字にすべき？",
+            "answer": "日常的なアカウントなら12文字以上、メールや銀行、パスワードマネージャーなど重要なアカウントには16文字以上を推奨します。長いほど安全で、本ツールは最大128文字まで対応します。"
+          },
+          {
+            "question": "設定を変えるとパスワードが変わるのはなぜ？",
+            "answer": "長さや文字種を変更するたびに自動的に再生成され、常に現在の設定に合ったパスワードが表示されるようになっています。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "パスワード強度チェック", "href": "/tools/password-strength" },
+          { "name": "ハッシュジェネレーター", "href": "/tools/hash-generator" },
+          { "name": "UUIDジェネレーター", "href": "/tools/uuid-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "安全なパスワードの生成方法",
+            "paragraphs": [
+              "脆弱なパスワードや使い回しは、アカウント乗っ取りの最大の原因です。パスワードジェネレーターを使えば、人間が思いつかず辞書攻撃でも予測できないランダムな文字列を作成できます。",
+              "本ツールはブラウザ組み込みの暗号学的乱数（crypto.getRandomValues）と棄却サンプリングを使用し、すべての文字が偏りのない文字プールから選ばれます。処理はすべてローカルで行われ、パスワードがページの外に出ることはありません。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "長さを選ぶ",
+              "paragraphs": [
+                "スライダーを動かすか、4〜128の数値を入力します。ほとんどのアカウントで12文字以上、メールや銀行など重要なアカウントでは16文字以上を推奨します。"
+              ]
+            },
+            {
+              "title": "文字種を選ぶ",
+              "paragraphs": [
+                "英大文字・小文字・数字・記号をすべて有効にすると最も強力になります。サイトが使用できる文字を制限している場合は、その文字種をオフにしてください。"
+              ]
+            },
+            {
+              "title": "紛らわしい文字を除外する",
+              "paragraphs": [
+                "パスワードを目で読んだり手入力したりする可能性がある場合はチェックを入れます。I、l、1、O、0、o が除外され、見間違いを防げます。"
+              ]
+            },
+            {
+              "title": "生成して安全に保管",
+              "paragraphs": [
+                "「生成」ボタンを押し、「コピー」でクリップボードに貼り付けます。保存先はテキストファイルではなくパスワードマネージャーを。このページがサーバーにデータを送ることは決してありません。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "length": "長さ",
+          "uppercase": "英大文字 (A-Z)",
+          "lowercase": "英小文字 (a-z)",
+          "digits": "数字 (0-9)",
+          "symbols": "記号 (!@#$…)",
+          "excludeAmbiguous": "紛らわしい文字を除外",
+          "charset": "文字プール",
+          "entropy": "エントロピー",
+          "bits": "ビット",
+          "placeholder": "生成されたパスワードがここに表示されます",
+          "copy": "コピー",
+          "copied": "コピーしました！",
+          "generate": "パスワードを生成",
+          "privacy": "生成処理はすべてブラウザ内で完結します。パスワードの送信・保存は一切ありません。",
+          "weak": "弱い",
+          "fair": "普通",
+          "strong": "強い",
+          "veryStrong": "非常に強い"
+        },
+        "errors": {
+          "noCharacterSet": "文字種を1つ以上有効にしてください。"
+        }
+      },
+      "ko": {
+        "metadata": {
+          "title": "비밀번호 생성기",
+          "description": "길이와 문자 종류를 직접 설정해 강력한 무작위 비밀번호를 만드세요. 모든 처리는 브라우저에서 로컬로 이루어지며 서버로 전송되지 않습니다.",
+          "category": "Security"
+        },
+        "keywords": [
+          "비밀번호 생성기",
+          "강력한 비밀번호",
+          "랜덤 비밀번호",
+          "안전한 비밀번호 만들기",
+          "비밀번호 생성 사이트",
+          "무작위 문자열 생성",
+          "비밀번호 강도",
+          "무료 비밀번호 생성기",
+          "보안 비밀번호",
+          "비밀번호 도구"
+        ],
+        "faqs": [
+          {
+            "question": "생성된 비밀번호는 얼마나 안전한가요?",
+            "answer": "강도는 길이와 문자 종류에 따라 결정됩니다. 대소문자, 숫자, 기호를 사용한 16자 비밀번호는 약 100비트의 엔트로피를 가지며 사실상 무차별 대입이 불가능합니다. 설정을 바꾸면 예상 엔트로피가 실시간으로 표시됩니다."
+          },
+          {
+            "question": "비밀번호가 서버에서 생성되나요?",
+            "answer": "아니요. 모든 비밀번호는 브라우저의 Web Crypto API로 로컬에서 생성되며, 전송·기록·저장되지 않습니다."
+          },
+          {
+            "question": "'혼동하기 쉬운 문자 제외'는 무엇인가요?",
+            "answer": "I, l, 1, O, 0, o처럼 생김새가 비슷한 문자를 문자 풀에서 제외합니다. 비밀번호를 읽거나 손으로 입력할 때 실수를 줄여 줍니다."
+          },
+          {
+            "question": "비밀번호는 몇 자가 적당한가요?",
+            "answer": "일반 계정은 최소 12자, 이메일·은행·비밀번호 관리자 같은 중요한 계정은 16자 이상을 권장합니다. 길수록 안전하며 이 도구는 최대 128자까지 지원합니다."
+          },
+          {
+            "question": "설정을 바꾸면 비밀번호가 바뀌는 이유는?",
+            "answer": "길이나 문자 종류를 변경할 때마다 자동으로 다시 생성되어 항상 현재 설정에 맞는 비밀번호가 표시됩니다."
+          }
+        ],
+        "relatedTools": [
+          { "name": "비밀번호 강도 검사", "href": "/tools/password-strength" },
+          { "name": "해시 생성기", "href": "/tools/hash-generator" },
+          { "name": "UUID 생성기", "href": "/tools/uuid-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "안전한 비밀번호 생성 방법",
+            "paragraphs": [
+              "약한 비밀번호와 재사용은 여전히 계정 탈취의 주요 원인입니다. 비밀번호 생성기는 사람이 생각해 내기 어렵고 사전 공격으로도 예측할 수 없는 무작위 문자열을 만들어 이 문제를 해결합니다.",
+              "이 도구는 브라우저 내장 암호학 난수 생성기(crypto.getRandomValues)와 거부 샘플링을 사용해 모든 문자가 편향 없는 문자 풀에서 선택되도록 합니다. 모든 처리는 로컬에서 이루어지며 비밀번호는 페이지 밖으로 나가지 않습니다."
+            ]
+          },
+          "sections": [
+            {
+              "title": "길이 선택",
+              "paragraphs": [
+                "슬라이더를 움직이거나 4~128 사이 숫자를 입력하세요. 대부분의 계정은 12자 이상, 이메일·은행 등 중요한 계정은 16자 이상을 권장합니다."
+              ]
+            },
+            {
+              "title": "문자 종류 선택",
+              "paragraphs": [
+                "대문자, 소문자, 숫자, 기호를 모두 켜면 가장 강력합니다. 사이트가 사용 가능한 문자를 제한한다면 해당 문자 종류를 끄세요."
+              ]
+            },
+            {
+              "title": "혼동하기 쉬운 문자 제외",
+              "paragraphs": [
+                "비밀번호를 직접 읽거나 입력할 일이 있다면 체크하세요. I, l, 1, O, 0, o가 제외되어 헷갈림을 막아 줍니다."
+              ]
+            },
+            {
+              "title": "생성 후 안전하게 보관",
+              "paragraphs": [
+                "생성 버튼을 누르고 복사 버튼으로 클립보드에 옮기세요. 일반 텍스트 파일이 아닌 비밀번호 관리자에 저장하고, 이 페이지는 서버로 아무것도 보내지 않는다는 점을 기억하세요."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "length": "길이",
+          "uppercase": "대문자 (A-Z)",
+          "lowercase": "소문자 (a-z)",
+          "digits": "숫자 (0-9)",
+          "symbols": "기호 (!@#$…)",
+          "excludeAmbiguous": "혼동하기 쉬운 문자 제외",
+          "charset": "문자 풀",
+          "entropy": "엔트로피",
+          "bits": "비트",
+          "placeholder": "생성된 비밀번호가 여기에 표시됩니다",
+          "copy": "복사",
+          "copied": "복사됨!",
+          "generate": "비밀번호 생성",
+          "privacy": "모든 생성 작업은 브라우저에서 로컬로 처리되며 비밀번호는 전송·저장되지 않습니다.",
+          "weak": "약함",
+          "fair": "보통",
+          "strong": "강함",
+          "veryStrong": "매우 강함"
+        },
+        "errors": {
+          "noCharacterSet": "문자 종류를 하나 이상 선택하세요."
+        }
+      },
+      "ru": {
+        "metadata": {
+          "title": "Генератор паролей",
+          "description": "Создавайте надёжные случайные пароли с настраиваемой длиной и набором символов. Всё работает локально в браузере — данные никуда не отправляются.",
+          "category": "Security"
+        },
+        "keywords": [
+          "генератор паролей",
+          "надёжный пароль",
+          "случайный пароль",
+          "создать пароль онлайн",
+          "безопасный пароль",
+          "генератор случайных паролей",
+          "сложный пароль",
+          "бесплатный генератор паролей",
+          "стойкость пароля",
+          "случайная строка"
+        ],
+        "faqs": [
+          {
+            "question": "Насколько надёжен сгенерированный пароль?",
+            "answer": "Надёжность зависит от длины и разнообразия символов. Пароль из 16 символов с заглавными и строчными буквами, цифрами и спецсимволами имеет около 100 бит энтропии — перебор такого пароля практически невозможен. Инструмент показывает оценку энтропии при изменении настроек."
+          },
+          {
+            "question": "Пароли генерируются на сервере?",
+            "answer": "Нет. Каждый пароль создаётся локально в вашем браузере с помощью Web Crypto API. Ничего не передаётся, не записывается и не сохраняется."
+          },
+          {
+            "question": "Что делает опция «исключить похожие символы»?",
+            "answer": "Она убирает из набора визуально похожие символы — I, l, 1, O, 0, o, — чтобы пароль было проще прочитать вслух или ввести вручную без ошибок."
+          },
+          {
+            "question": "Какой длины должен быть пароль?",
+            "answer": "Для обычных аккаунтов — не менее 12 символов, для почты, банков и менеджеров паролей — 16 и больше. Чем длиннее, тем лучше; инструмент поддерживает до 128 символов."
+          },
+          {
+            "question": "Почему пароль меняется при смене настроек?",
+            "answer": "Генератор автоматически обновляет пароль при каждом изменении длины или набора символов, чтобы вы всегда видели пароль, соответствующий текущим настройкам."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Проверка надёжности пароля", "href": "/tools/password-strength" },
+          { "name": "Генератор хешей", "href": "/tools/hash-generator" },
+          { "name": "Генератор UUID", "href": "/tools/uuid-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Как создать надёжный пароль",
+            "paragraphs": [
+              "Слабые и повторно используемые пароли остаются главной причиной взлома аккаунтов. Генератор паролей решает проблему, создавая случайные строки, которые человек не придумает, а словарная атака не предскажет.",
+              "Инструмент использует встроенный криптографический генератор случайных чисел браузера (crypto.getRandomValues) с выборкой с отклонением, чтобы каждый символ выбирался из равномерного пула. Все вычисления выполняются локально — пароль никогда не покидает страницу."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Выберите длину",
+              "paragraphs": [
+                "Передвиньте ползунок или введите число от 4 до 128. Для большинства аккаунтов разумный минимум — 12 символов; для почты и банковских сервисов рекомендуется 16 и более."
+              ]
+            },
+            {
+              "title": "Выберите наборы символов",
+              "paragraphs": [
+                "Включите заглавные и строчные буквы, цифры и спецсимволы для максимальной стойкости. Если сайт ограничивает допустимые символы, просто отключите лишние наборы."
+              ]
+            },
+            {
+              "title": "Исключите похожие символы",
+              "paragraphs": [
+                "Отметьте «исключить похожие символы», если планируете читать или вводить пароль вручную. Будут убраны I, l, 1, O, 0 и o — их легко перепутать."
+              ]
+            },
+            {
+              "title": "Сгенерируйте и сохраните",
+              "paragraphs": [
+                "Нажмите «Сгенерировать» и скопируйте пароль в буфер обмена. Храните его в менеджере паролей, а не в текстовом файле — и помните: эта страница ничего не отправляет на сервер."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "length": "Длина",
+          "uppercase": "Заглавные (A-Z)",
+          "lowercase": "Строчные (a-z)",
+          "digits": "Цифры (0-9)",
+          "symbols": "Символы (!@#$…)",
+          "excludeAmbiguous": "Исключить похожие символы",
+          "charset": "Набор символов",
+          "entropy": "Энтропия",
+          "bits": "бит",
+          "placeholder": "Здесь появится ваш пароль",
+          "copy": "Копировать",
+          "copied": "Скопировано!",
+          "generate": "Сгенерировать пароль",
+          "privacy": "Генерация выполняется локально в браузере. Пароль не отправляется и не сохраняется.",
+          "weak": "Слабый",
+          "fair": "Средний",
+          "strong": "Надёжный",
+          "veryStrong": "Очень надёжный"
+        },
+        "errors": {
+          "noCharacterSet": "Включите хотя бы один набор символов."
+        }
+      },
+      "es": {
+        "metadata": {
+          "title": "Generador de Contraseñas",
+          "description": "Crea contraseñas aleatorias y seguras con la longitud y los caracteres que elijas. Todo se procesa en tu navegador: nada se envía a ningún servidor.",
+          "category": "Security"
+        },
+        "keywords": [
+          "generador de contraseñas",
+          "contraseña segura",
+          "contraseña aleatoria",
+          "crear contraseña",
+          "generar contraseña online",
+          "contraseñas fuertes",
+          "generador de claves",
+          "contraseña aleatoria segura",
+          "generador de contraseñas gratis",
+          "cadena aleatoria"
+        ],
+        "faqs": [
+          {
+            "question": "¿Cómo de segura es una contraseña generada?",
+            "answer": "Depende de la longitud y la variedad de caracteres. Una contraseña de 16 caracteres con mayúsculas, minúsculas, dígitos y símbolos tiene unos 100 bits de entropía, lo que hace inviable un ataque de fuerza bruta. La herramienta muestra la entropía estimada al ajustar las opciones."
+          },
+          {
+            "question": "¿Las contraseñas se generan en un servidor?",
+            "answer": "No. Cada contraseña se genera localmente en tu navegador con la Web Crypto API. No se transmite, no se registra y no se guarda nada."
+          },
+          {
+            "question": "¿Qué hace «excluir caracteres ambiguos»?",
+            "answer": "Elimina del conjunto los caracteres de aspecto similar como I, l, 1, O, 0 y o, para que la contraseña sea más fácil de leer en voz alta o de teclear a mano."
+          },
+          {
+            "question": "¿Qué longitud debería tener mi contraseña?",
+            "answer": "Al menos 12 caracteres para cuentas cotidianas y 16 o más para las importantes, como el correo, la banca o el gestor de contraseñas. Cuanto más larga, mejor; esta herramienta admite hasta 128 caracteres."
+          },
+          {
+            "question": "¿Por qué cambia la contraseña al modificar una opción?",
+            "answer": "El generador se actualiza automáticamente cada vez que cambias la longitud o los conjuntos de caracteres, para que siempre veas una contraseña acorde con tus ajustes actuales."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Comprobador de Fortaleza de Contraseñas", "href": "/tools/password-strength" },
+          { "name": "Generador de Hashes", "href": "/tools/hash-generator" },
+          { "name": "Generador de UUID", "href": "/tools/uuid-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Cómo generar una contraseña segura",
+            "paragraphs": [
+              "Las contraseñas débiles o reutilizadas siguen siendo la causa principal del robo de cuentas. Un generador de contraseñas elimina las conjeturas creando cadenas aleatorias que ninguna persona elegiría ni ningún ataque de diccionario puede predecir.",
+              "Esta herramienta usa el generador criptográfico del navegador (crypto.getRandomValues) con muestreo por rechazo, de modo que cada carácter se extrae de un conjunto uniforme. Todo el procesamiento es local: tu contraseña nunca sale de la página."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Elige la longitud",
+              "paragraphs": [
+                "Usa el deslizador o escribe un número entre 4 y 128. Doce caracteres es un mínimo razonable para la mayoría de cuentas; dieciséis o más se recomienda para correo, banca y datos sensibles."
+              ]
+            },
+            {
+              "title": "Selecciona los conjuntos de caracteres",
+              "paragraphs": [
+                "Activa mayúsculas, minúsculas, dígitos y símbolos para el resultado más robusto. Si un sitio restringe los caracteres permitidos, desactiva los conjuntos que rechace."
+              ]
+            },
+            {
+              "title": "Evita caracteres ambiguos",
+              "paragraphs": [
+                "Marca «excluir caracteres ambiguos» si vas a leer o teclear la contraseña a mano. Se eliminan I, l, 1, O, 0 y o para evitar confusiones."
+              ]
+            },
+            {
+              "title": "Genera, copia y guarda bien",
+              "paragraphs": [
+                "Pulsa Generar y usa el botón Copiar para llevar la contraseña al portapapeles. Guárdala en un gestor de contraseñas, no en un archivo de texto, y recuerda: esta página nunca envía nada a un servidor."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "length": "Longitud",
+          "uppercase": "Mayúsculas (A-Z)",
+          "lowercase": "Minúsculas (a-z)",
+          "digits": "Dígitos (0-9)",
+          "symbols": "Símbolos (!@#$…)",
+          "excludeAmbiguous": "Excluir caracteres ambiguos",
+          "charset": "Conjunto de caracteres",
+          "entropy": "Entropía",
+          "bits": "bits",
+          "placeholder": "Tu contraseña aparecerá aquí",
+          "copy": "Copiar",
+          "copied": "¡Copiado!",
+          "generate": "Generar contraseña",
+          "privacy": "Todo se genera localmente en tu navegador. La contraseña nunca se envía ni se guarda.",
+          "weak": "Débil",
+          "fair": "Aceptable",
+          "strong": "Fuerte",
+          "veryStrong": "Muy fuerte"
+        },
+        "errors": {
+          "noCharacterSet": "Activa al menos un conjunto de caracteres."
+        }
+      },
+      "de": {
+        "metadata": {
+          "title": "Passwort-Generator",
+          "description": "Erstelle starke, zufällige Passwörter mit individueller Länge und Zeichenauswahl. Alles läuft lokal in deinem Browser – es wird nichts an einen Server gesendet.",
+          "category": "Security"
+        },
+        "keywords": [
+          "Passwort Generator",
+          "sicheres Passwort",
+          "zufälliges Passwort",
+          "Passwort erstellen",
+          "starkes Passwort generieren",
+          "Passwort online erstellen",
+          "Passwort Generator kostenlos",
+          "sichere Passwörter",
+          "Zufallszeichenkette",
+          "Passwort Stärke"
+        ],
+        "faqs": [
+          {
+            "question": "Wie sicher ist ein generiertes Passwort?",
+            "answer": "Die Sicherheit hängt von Länge und Zeichenvielfalt ab. Ein 16-stelliges Passwort mit Groß- und Kleinbuchstaben, Ziffern und Symbolen hat etwa 100 Bit Entropie und ist praktisch nicht per Brute-Force knackbar. Beim Anpassen der Einstellungen zeigt das Tool die geschätzte Entropie an."
+          },
+          {
+            "question": "Werden die Passwörter auf einem Server erzeugt?",
+            "answer": "Nein. Jedes Passwort wird lokal in deinem Browser mit der Web Crypto API erzeugt. Nichts wird übertragen, protokolliert oder gespeichert."
+          },
+          {
+            "question": "Was bewirkt „Mehrdeutige Zeichen ausschließen“?",
+            "answer": "Es entfernt leicht verwechselbare Zeichen wie I, l, 1, O, 0 und o aus dem Zeichenvorrat, damit sich Passwörter leichter vorlesen oder von Hand eintippen lassen."
+          },
+          {
+            "question": "Wie lang sollte mein Passwort sein?",
+            "answer": "Mindestens 12 Zeichen für alltägliche Konten, 16 oder mehr für E-Mail, Banking und Passwort-Manager. Länger ist immer sicherer; dieses Tool unterstützt bis zu 128 Zeichen."
+          },
+          {
+            "question": "Warum ändert sich das Passwort, wenn ich eine Einstellung ändere?",
+            "answer": "Der Generator aktualisiert sich automatisch bei jeder Änderung von Länge oder Zeichensätzen, damit das Passwort immer zu deinen aktuellen Optionen passt."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Passwort-Stärke-Prüfung", "href": "/tools/password-strength" },
+          { "name": "Hash-Generator", "href": "/tools/hash-generator" },
+          { "name": "UUID-Generator", "href": "/tools/uuid-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "So erstellst du ein sicheres Passwort",
+            "paragraphs": [
+              "Schwache und wiederverwendete Passwörter sind nach wie vor die Hauptursache für gehackte Konten. Ein Passwort-Generator nimmt das Rätselraten heraus und erzeugt zufällige Zeichenketten, die weder ein Mensch wählen noch ein Wörterbuchangriff erraten würde.",
+              "Dieses Tool nutzt den kryptografischen Zufallsgenerator des Browsers (crypto.getRandomValues) mit rejection sampling, damit jedes Zeichen aus einem gleichmäßig verteilten Vorrat stammt. Die gesamte Verarbeitung erfolgt lokal – dein Passwort verlässt die Seite nie."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Länge wählen",
+              "paragraphs": [
+                "Nutze den Schieberegler oder gib eine Zahl zwischen 4 und 128 ein. Zwölf Zeichen sind ein sinnvolles Minimum für die meisten Konten; für E-Mail, Banking und Co. werden 16 oder mehr empfohlen."
+              ]
+            },
+            {
+              "title": "Zeichensätze auswählen",
+              "paragraphs": [
+                "Aktiviere Groß- und Kleinbuchstaben, Ziffern und Symbole für das stärkste Ergebnis. Wenn eine Website bestimmte Zeichen nicht erlaubt, deaktiviere einfach die entsprechenden Sätze."
+              ]
+            },
+            {
+              "title": "Verwechselbare Zeichen vermeiden",
+              "paragraphs": [
+                "Setze einen Haken bei „Mehrdeutige Zeichen ausschließen“, wenn du das Passwort ablesen oder von Hand eintippen willst. I, l, 1, O, 0 und o werden entfernt, damit nichts verwechselt wird."
+              ]
+            },
+            {
+              "title": "Generieren, kopieren, sicher aufbewahren",
+              "paragraphs": [
+                "Klicke auf „Passwort generieren“ und kopiere es mit der Schaltfläche „Kopieren“ in die Zwischenablage. Bewahre es in einem Passwort-Manager auf – und denke daran: Diese Seite sendet nie etwas an einen Server."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "length": "Länge",
+          "uppercase": "Großbuchstaben (A-Z)",
+          "lowercase": "Kleinbuchstaben (a-z)",
+          "digits": "Ziffern (0-9)",
+          "symbols": "Symbole (!@#$…)",
+          "excludeAmbiguous": "Mehrdeutige Zeichen ausschließen",
+          "charset": "Zeichenvorrat",
+          "entropy": "Entropie",
+          "bits": "Bit",
+          "placeholder": "Dein Passwort erscheint hier",
+          "copy": "Kopieren",
+          "copied": "Kopiert!",
+          "generate": "Passwort generieren",
+          "privacy": "Die Generierung läuft vollständig lokal in deinem Browser. Dein Passwort wird nie gesendet oder gespeichert.",
+          "weak": "Schwach",
+          "fair": "Mäßig",
+          "strong": "Stark",
+          "veryStrong": "Sehr stark"
+        },
+        "errors": {
+          "noCharacterSet": "Aktiviere mindestens einen Zeichensatz."
+        }
+      },
+      "fr": {
+        "metadata": {
+          "title": "Générateur de Mots de Passe",
+          "description": "Créez des mots de passe aléatoires et robustes avec la longueur et les jeux de caractères de votre choix. Tout est traité dans votre navigateur, sans aucun envoi vers un serveur.",
+          "category": "Security"
+        },
+        "keywords": [
+          "générateur de mot de passe",
+          "mot de passe sécurisé",
+          "mot de passe aléatoire",
+          "créer un mot de passe",
+          "générer mot de passe en ligne",
+          "mot de passe fort",
+          "générateur de mots de passe gratuit",
+          "chaîne aléatoire",
+          "robustesse mot de passe",
+          "mot de passe aléatoire sécurisé"
+        ],
+        "faqs": [
+          {
+            "question": "Quelle est la robustesse d'un mot de passe généré ?",
+            "answer": "Elle dépend de la longueur et de la variété des caractères. Un mot de passe de 16 caractères mêlant majuscules, minuscules, chiffres et symboles offre environ 100 bits d'entropie, ce qui rend la force brute impossible en pratique. L'outil affiche l'entropie estimée à mesure que vous ajustez les réglages."
+          },
+          {
+            "question": "Les mots de passe sont-ils générés sur un serveur ?",
+            "answer": "Non. Chaque mot de passe est généré localement dans votre navigateur grâce à la Web Crypto API. Rien n'est transmis, journalisé ni stocké."
+          },
+          {
+            "question": "À quoi sert « exclure les caractères ambigus » ?",
+            "answer": "Elle retire du jeu de caractères les symboles qui se ressemblent, comme I, l, 1, O, 0 et o, afin que le mot de passe soit plus facile à épeler à voix haute ou à saisir à la main."
+          },
+          {
+            "question": "Quelle longueur pour mon mot de passe ?",
+            "answer": "Au moins 12 caractères pour les comptes courants et 16 ou plus pour tout ce qui est sensible : e-mail, banque, gestionnaire de mots de passe. Plus c'est long, mieux c'est ; l'outil accepte jusqu'à 128 caractères."
+          },
+          {
+            "question": "Pourquoi le mot de passe change-t-il quand je modifie un réglage ?",
+            "answer": "Le générateur s'actualise automatiquement à chaque changement de longueur ou de jeux de caractères, pour que le mot de passe corresponde toujours à vos options."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Vérificateur de Robustesse des Mots de Passe", "href": "/tools/password-strength" },
+          { "name": "Générateur de Hachages", "href": "/tools/hash-generator" },
+          { "name": "Générateur d'UUID", "href": "/tools/uuid-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Comment générer un mot de passe sécurisé",
+            "paragraphs": [
+              "Les mots de passe faibles ou réutilisés restent la première cause de piratage de comptes. Un générateur de mots de passe supprime toute hésitation en créant des chaînes aléatoires qu'aucun humain ne choisirait et qu'aucune attaque par dictionnaire ne peut prédire.",
+              "Cet outil s'appuie sur le générateur aléatoire cryptographique du navigateur (crypto.getRandomValues) avec échantillonnage par rejet, afin que chaque caractère provienne d'un jeu parfaitement uniforme. Tout le traitement est local : votre mot de passe ne quitte jamais la page."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Choisissez la longueur",
+              "paragraphs": [
+                "Utilisez le curseur ou saisissez un nombre entre 4 et 128. Douze caractères constituent un minimum raisonnable pour la plupart des comptes ; seize ou plus sont recommandés pour l'e-mail, la banque et les données sensibles."
+              ]
+            },
+            {
+              "title": "Sélectionnez les jeux de caractères",
+              "paragraphs": [
+                "Activez majuscules, minuscules, chiffres et symboles pour un résultat optimal. Si un site restreint les caractères autorisés, désactivez simplement les jeux concernés."
+              ]
+            },
+            {
+              "title": "Évitez les caractères ambigus",
+              "paragraphs": [
+                "Cochez « exclure les caractères ambigus » si vous devez lire ou taper le mot de passe à la main. Les caractères I, l, 1, O, 0 et o sont retirés pour éviter toute confusion."
+              ]
+            },
+            {
+              "title": "Générez, copiez, conservez",
+              "paragraphs": [
+                "Cliquez sur Générer puis utilisez le bouton Copier pour placer le mot de passe dans le presse-papiers. Conservez-le dans un gestionnaire de mots de passe plutôt que dans un fichier texte — et rappelez-vous : cette page n'envoie jamais rien à un serveur."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "length": "Longueur",
+          "uppercase": "Majuscules (A-Z)",
+          "lowercase": "Minuscules (a-z)",
+          "digits": "Chiffres (0-9)",
+          "symbols": "Symboles (!@#$…)",
+          "excludeAmbiguous": "Exclure les caractères ambigus",
+          "charset": "Jeu de caractères",
+          "entropy": "Entropie",
+          "bits": "bits",
+          "placeholder": "Votre mot de passe apparaîtra ici",
+          "copy": "Copier",
+          "copied": "Copié !",
+          "generate": "Générer le mot de passe",
+          "privacy": "La génération s'effectue entièrement en local dans votre navigateur. Votre mot de passe n'est jamais envoyé ni stocké.",
+          "weak": "Faible",
+          "fair": "Moyen",
+          "strong": "Fort",
+          "veryStrong": "Très fort"
+        },
+        "errors": {
+          "noCharacterSet": "Activez au moins un jeu de caractères."
+        }
+      },
+      "pt": {
+        "metadata": {
+          "title": "Gerador de Senhas",
+          "description": "Crie senhas aleatórias e seguras com o comprimento e os conjuntos de caracteres que você escolher. Tudo é processado no seu navegador — nada é enviado a servidores.",
+          "category": "Security"
+        },
+        "keywords": [
+          "gerador de senhas",
+          "senha forte",
+          "senha aleatória",
+          "criar senha segura",
+          "gerar senha online",
+          "gerador de senha forte",
+          "senha aleatória segura",
+          "gerador de senhas grátis",
+          "sequência aleatória",
+          "força da senha"
+        ],
+        "faqs": [
+          {
+            "question": "Quão segura é uma senha gerada?",
+            "answer": "A segurança depende do comprimento e da variedade de caracteres. Uma senha de 16 caracteres com letras maiúsculas, minúsculas, dígitos e símbolos tem cerca de 100 bits de entropia — na prática, impossível de quebrar por força bruta. A ferramenta mostra a entropia estimada conforme você ajusta as opções."
+          },
+          {
+            "question": "As senhas são geradas em um servidor?",
+            "answer": "Não. Cada senha é gerada localmente no seu navegador com a Web Crypto API. Nada é transmitido, registrado ou armazenado."
+          },
+          {
+            "question": "O que faz a opção «excluir caracteres ambíguos»?",
+            "answer": "Ela remove do conjunto os caracteres de aparência parecida, como I, l, 1, O, 0 e o, para que a senha seja mais fácil de ler em voz alta ou digitar à mão."
+          },
+          {
+            "question": "De quanto deve ser o comprimento da minha senha?",
+            "answer": "Pelo menos 12 caracteres para contas do dia a dia e 16 ou mais para as mais sensíveis, como e-mail, banco e gerenciador de senhas. Quanto mais longa, melhor; a ferramenta aceita até 128 caracteres."
+          },
+          {
+            "question": "Por que a senha muda quando eu altero uma opção?",
+            "answer": "O gerador é atualizado automaticamente sempre que você muda o comprimento ou os conjuntos de caracteres, para que a senha corresponda sempre às suas configurações atuais."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Verificador de Força de Senhas", "href": "/tools/password-strength" },
+          { "name": "Gerador de Hashes", "href": "/tools/hash-generator" },
+          { "name": "Gerador de UUID", "href": "/tools/uuid-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Como gerar uma senha segura",
+            "paragraphs": [
+              "Senhas fracas ou reutilizadas continuam sendo a principal causa de contas invadidas. Um gerador de senhas elimina o achismo criando sequências aleatórias que nenhuma pessoa escolheria e que nenhum ataque de dicionário consegue prever.",
+              "Esta ferramenta usa o gerador de números aleatórios criptográfico do navegador (crypto.getRandomValues) com amostragem por rejeição, de modo que cada caractere venha de um conjunto perfeitamente uniforme. Todo o processamento é local: sua senha nunca sai da página."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Escolha o comprimento",
+              "paragraphs": [
+                "Use o controle deslizante ou digite um número entre 4 e 128. Doze caracteres são um mínimo razoável para a maioria das contas; dezesseis ou mais são recomendados para e-mail, banco e dados sensíveis."
+              ]
+            },
+            {
+              "title": "Selecione os conjuntos de caracteres",
+              "paragraphs": [
+                "Ative maiúsculas, minúsculas, dígitos e símbolos para o resultado mais forte. Se um site restringe os caracteres permitidos, desative os conjuntos rejeitados."
+              ]
+            },
+            {
+              "title": "Evite caracteres ambíguos",
+              "paragraphs": [
+                "Marque «excluir caracteres ambíguos» se precisar ler ou digitar a senha manualmente. Os caracteres I, l, 1, O, 0 e o são removidos para evitar confusão."
+              ]
+            },
+            {
+              "title": "Gere, copie e guarde com segurança",
+              "paragraphs": [
+                "Clique em Gerar e use o botão Copiar para levar a senha à área de transferência. Guarde-a em um gerenciador de senhas, não em um arquivo de texto — e lembre-se: esta página nunca envia nada a um servidor."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "length": "Comprimento",
+          "uppercase": "Maiúsculas (A-Z)",
+          "lowercase": "Minúsculas (a-z)",
+          "digits": "Dígitos (0-9)",
+          "symbols": "Símbolos (!@#$…)",
+          "excludeAmbiguous": "Excluir caracteres ambíguos",
+          "charset": "Conjunto de caracteres",
+          "entropy": "Entropia",
+          "bits": "bits",
+          "placeholder": "Sua senha aparecerá aqui",
+          "copy": "Copiar",
+          "copied": "Copiado!",
+          "generate": "Gerar senha",
+          "privacy": "Toda a geração acontece localmente no seu navegador. A senha nunca é enviada nem armazenada.",
+          "weak": "Fraca",
+          "fair": "Razoável",
+          "strong": "Forte",
+          "veryStrong": "Muito forte"
+        },
+        "errors": {
+          "noCharacterSet": "Ative pelo menos um conjunto de caracteres."
+        }
+      }
+    },
+    "jwt-generator": {
+      "en": {
+        "metadata": {
+          "title": "JWT Generator",
+          "description": "Create signed JSON Web Tokens (HS256, HS384, HS512) with custom headers, payloads, and expiry times. Signing happens entirely in your browser.",
+          "category": "Security"
+        },
+        "keywords": [
+          "jwt generator",
+          "json web token generator",
+          "create jwt online",
+          "hs256 token generator",
+          "jwt sign tool",
+          "generate jwt token",
+          "jwt builder",
+          "jwt creator online",
+          "hmac token generator",
+          "free jwt tool"
+        ],
+        "faqs": [
+          {
+            "question": "What is a JSON Web Token (JWT)?",
+            "answer": "A JWT is a compact, URL-safe format for carrying claims between two parties. It consists of a header, a payload, and an HMAC signature that proves the token was created with a shared secret."
+          },
+          {
+            "question": "Where is my secret used?",
+            "answer": "Your secret never leaves your browser. The HMAC signature is computed locally with the Web Crypto API, and nothing — token, payload, or secret — is sent to any server."
+          },
+          {
+            "question": "Which algorithms are supported?",
+            "answer": "HS256, HS384, and HS512 — HMAC signatures based on SHA-256, SHA-384, and SHA-512 respectively. These are the most widely supported symmetric JWT algorithms."
+          },
+          {
+            "question": "How does the expiry option work?",
+            "answer": "When you pick an expiry, the tool automatically adds an exp (expiration time) claim to your payload, calculated from the moment you generate the token. Choose 'no expiry' to manage iat and exp yourself."
+          },
+          {
+            "question": "Can I use the generated token in production?",
+            "answer": "You can — the structure and signature follow the JWT standard. Just make sure to use a long, random secret and never expose it in client-side code. For asymmetric signing (RS256), use a dedicated key-management setup."
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT Decoder", "href": "/tools/jwt-decoder" },
+          { "name": "Base64 Encoder", "href": "/tools/base64-encoder" },
+          { "name": "Hash Generator", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "How to generate a JWT",
+            "paragraphs": [
+              "A JSON Web Token lets you prove that a payload was created by someone holding a shared secret. It has three parts — header, payload, and signature — joined by dots and base64url-encoded.",
+              "This tool builds and signs the token entirely in your browser using the Web Crypto API. Your secret and payload never leave the page."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Edit the header and payload",
+              "paragraphs": [
+                "The header declares the algorithm and token type. The payload holds your claims — iss, sub, iat, exp, or anything custom. Both must be valid JSON or the token can't be built."
+              ]
+            },
+            {
+              "title": "Choose algorithm and expiry",
+              "paragraphs": [
+                "Pick HS256 for broad compatibility, or HS384/HS512 for longer digests. The expiry option adds an exp claim automatically: 15 minutes up to 30 days, or none if you set dates yourself."
+              ]
+            },
+            {
+              "title": "Set a strong secret",
+              "paragraphs": [
+                "The HMAC secret is what protects the token, so use a long random string — the Random secret button generates a cryptographically secure 32-byte value for you."
+              ]
+            },
+            {
+              "title": "Generate and decode",
+              "paragraphs": [
+                "Click Generate to create the signed token, copy it with one click, and check the decoded table below to verify exactly what was signed. Everything happens locally in your browser."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "header": "Header",
+          "payload": "Payload",
+          "algorithm": "Algorithm",
+          "expiry": "Expiry",
+          "expiryNone": "No expiry",
+          "expiry15m": "15 minutes",
+          "expiry1h": "1 hour",
+          "expiry8h": "8 hours",
+          "expiry1d": "1 day",
+          "expiry7d": "7 days",
+          "expiry30d": "30 days",
+          "secret": "Secret",
+          "secretPlaceholder": "Enter your HMAC secret",
+          "randomSecret": "Random secret",
+          "generate": "Generate token",
+          "token": "Signed token",
+          "copy": "Copy",
+          "copied": "Copied!",
+          "decoded": "Decoded preview",
+          "privacy": "Signing happens locally in your browser. Your secret and token are never sent or stored."
+        },
+        "errors": {
+          "invalidHeader": "Header is not valid JSON.",
+          "invalidPayload": "Payload is not valid JSON.",
+          "missingSecret": "Please enter a secret to sign the token."
+        }
+      },
+      "zh": {
+        "metadata": {
+          "title": "JWT 生成器",
+          "description": "在线生成带签名的 JSON Web Token（HS256/HS384/HS512），可自定义头部、载荷和过期时间。签名完全在浏览器本地完成。",
+          "category": "Security"
+        },
+        "keywords": [
+          "JWT 生成器",
+          "JWT 在线生成",
+          "JSON Web Token",
+          "HS256 签名",
+          "JWT 工具",
+          "生成 token",
+          "JWT 创建",
+          "HMAC 签名",
+          "JWT 构造器",
+          "令牌生成工具"
+        ],
+        "faqs": [
+          {
+            "question": "什么是 JSON Web Token（JWT）？",
+            "answer": "JWT 是一种紧凑的 URL 安全格式，用于在两方之间传递声明。它由头部、载荷和 HMAC 签名组成，签名可以证明该 token 由持有共享密钥的一方创建。"
+          },
+          {
+            "question": "我的密钥会被用在哪里？",
+            "answer": "密钥绝不会离开你的浏览器。HMAC 签名通过 Web Crypto API 在本地计算，token、载荷和密钥都不会发送到任何服务器。"
+          },
+          {
+            "question": "支持哪些算法？",
+            "answer": "支持 HS256、HS384 和 HS512，即分别基于 SHA-256、SHA-384 和 SHA-512 的 HMAC 签名，也是兼容性最好的对称 JWT 算法。"
+          },
+          {
+            "question": "过期时间选项是怎么工作的？",
+            "answer": "选择过期时间后，工具会自动在载荷中添加 exp（过期时间）声明，从生成 token 的那一刻起计算。选择“不过期”则可自行管理 iat 和 exp。"
+          },
+          {
+            "question": "生成的 token 能用于生产环境吗？",
+            "answer": "可以——结构和签名都符合 JWT 标准。请务必使用足够长的随机密钥，且绝不能出现在前端代码里。如需非对称签名（RS256），请使用专门的密钥管理方案。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT 解码器", "href": "/tools/jwt-decoder" },
+          { "name": "Base64 编解码", "href": "/tools/base64-encoder" },
+          { "name": "哈希生成器", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "如何生成 JWT",
+            "paragraphs": [
+              "JSON Web Token 可以证明某个载荷由持有共享密钥的一方创建。它由三部分组成——头部、载荷和签名——用点号连接并进行 base64url 编码。",
+              "本工具完全在浏览器中使用 Web Crypto API 构建并签名 token，你的密钥和载荷绝不会离开当前页面。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "编辑头部和载荷",
+              "paragraphs": [
+                "头部声明算法和 token 类型；载荷存放你的声明——iss、sub、iat、exp 或自定义字段。两者都必须是合法的 JSON，否则无法生成 token。"
+              ]
+            },
+            {
+              "title": "选择算法和过期时间",
+              "paragraphs": [
+                "HS256 兼容性最广，HS384/HS512 摘要更长。过期时间会自动添加 exp 声明：从 15 分钟到 30 天，也可以选“不过期”自行设置。"
+              ]
+            },
+            {
+              "title": "设置高强度密钥",
+              "paragraphs": [
+                "HMAC 密钥是 token 安全的关键，请使用足够长的随机字符串——“随机密钥”按钮会为你生成加密安全的 32 字节值。"
+              ]
+            },
+            {
+              "title": "生成并解码",
+              "paragraphs": [
+                "点击生成得到签名后的 token，一键复制，并通过下方的解码表格核对签名的内容。所有步骤都在浏览器本地完成。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "header": "头部（Header）",
+          "payload": "载荷（Payload）",
+          "algorithm": "算法",
+          "expiry": "过期时间",
+          "expiryNone": "不过期",
+          "expiry15m": "15 分钟",
+          "expiry1h": "1 小时",
+          "expiry8h": "8 小时",
+          "expiry1d": "1 天",
+          "expiry7d": "7 天",
+          "expiry30d": "30 天",
+          "secret": "密钥",
+          "secretPlaceholder": "输入你的 HMAC 密钥",
+          "randomSecret": "随机密钥",
+          "generate": "生成 Token",
+          "token": "已签名 Token",
+          "copy": "复制",
+          "copied": "已复制！",
+          "decoded": "解码预览",
+          "privacy": "签名在浏览器本地完成，密钥和 token 不会被发送或存储。"
+        },
+        "errors": {
+          "invalidHeader": "头部不是有效的 JSON。",
+          "invalidPayload": "载荷不是有效的 JSON。",
+          "missingSecret": "请输入密钥后再生成签名。"
+        }
+      },
+      "ja": {
+        "metadata": {
+          "title": "JWT 生成ツール",
+          "description": "HS256・HS384・HS512 で署名済みの JSON Web Token を、ヘッダー・ペイロード・有効期限を自由に設定して生成。署名はすべてブラウザ内で完結します。",
+          "category": "Security"
+        },
+        "keywords": [
+          "JWT 生成",
+          "JWT ジェネレーター",
+          "JSON Web Token 作成",
+          "JWT オンライン",
+          "HS256 署名",
+          "トークン生成ツール",
+          "JWT ビルダー",
+          "JWT 作成ツール",
+          "HMAC トークン",
+          "無料 JWT ツール"
+        ],
+        "faqs": [
+          {
+            "question": "JSON Web Token（JWT）とは？",
+            "answer": "JWT は、2者間でクレームをやり取りするためのコンパクトな URL セーフな形式です。ヘッダー・ペイロード・HMAC 署名で構成され、署名によって共有シークレットを知る者が作成したトークンであると証明できます。"
+          },
+          {
+            "question": "シークレットはどこで使われますか？",
+            "answer": "シークレットがブラウザの外に出ることはありません。HMAC 署名は Web Crypto API でローカルに計算され、トークン・ペイロード・シークレットのいずれもサーバーには送信されません。"
+          },
+          {
+            "question": "対応アルゴリズムは？",
+            "answer": "HS256・HS384・HS512 の3種類です。それぞれ SHA-256・SHA-384・SHA-512 ベースの HMAC 署名で、対称鍵方式の JWT アルゴリズムとして最も広くサポートされています。"
+          },
+          {
+            "question": "有効期限オプションの仕組みは？",
+            "answer": "有効期限を選ぶと、生成した時点から計算した exp（有効期限）クレームがペイロードに自動追加されます。「無効」を選べば iat と exp を自分で管理できます。"
+          },
+          {
+            "question": "生成したトークンを本番環境で使えますか？",
+            "answer": "使えます。構造と署名は JWT 標準に準拠しています。ただし長くてランダムなシークレットを使い、クライアント側コードに露出させないでください。非対称署名（RS256）には専用の鍵管理が必要です。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT デコーダー", "href": "/tools/jwt-decoder" },
+          { "name": "Base64 エンコーダー", "href": "/tools/base64-encoder" },
+          { "name": "ハッシュジェネレーター", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "JWT の生成方法",
+            "paragraphs": [
+              "JSON Web Token を使うと、ペイロードが共有シークレットの保持者によって作られたことを証明できます。ヘッダー・ペイロード・署名の3部分をドットでつなぎ、base64url でエンコードしたものです。",
+              "このツールは Web Crypto API を使い、トークンの構築と署名をすべてブラウザ内で行います。シークレットもペイロードもページの外に出ません。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "ヘッダーとペイロードを編集",
+              "paragraphs": [
+                "ヘッダーにはアルゴリズムとトークンタイプを宣言します。ペイロードには iss・sub・iat・exp などのクレームを記載します。どちらも有効な JSON である必要があります。"
+              ]
+            },
+            {
+              "title": "アルゴリズムと有効期限を選択",
+              "paragraphs": [
+                "互換性を重視するなら HS256、より長いダイジェストが必要なら HS384/HS512 を。有効期限を指定すると exp クレームが自動追加されます（15分〜30日、または手動設定）。"
+              ]
+            },
+            {
+              "title": "強力なシークレットを設定",
+              "paragraphs": [
+                "HMAC シークレットがトークンの安全性を左右します。長いランダム文字列を使いましょう。「ランダム生成」ボタンは暗号学的に安全な 32 バイト値を生成します。"
+              ]
+            },
+            {
+              "title": "生成して確認",
+              "paragraphs": [
+                "「生成」ボタンで署名済みトークンを作成し、ワンクリックでコピー。下のデコード表で署名対象を確認できます。すべてブラウザ内で完結します。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "header": "ヘッダー",
+          "payload": "ペイロード",
+          "algorithm": "アルゴリズム",
+          "expiry": "有効期限",
+          "expiryNone": "無効",
+          "expiry15m": "15分",
+          "expiry1h": "1時間",
+          "expiry8h": "8時間",
+          "expiry1d": "1日",
+          "expiry7d": "7日",
+          "expiry30d": "30日",
+          "secret": "シークレット",
+          "secretPlaceholder": "HMAC シークレットを入力",
+          "randomSecret": "ランダム生成",
+          "generate": "トークンを生成",
+          "token": "署名済みトークン",
+          "copy": "コピー",
+          "copied": "コピーしました！",
+          "decoded": "デコード結果",
+          "privacy": "署名はブラウザ内で完結します。シークレットとトークンの送信・保存は一切ありません。"
+        },
+        "errors": {
+          "invalidHeader": "ヘッダーが有効な JSON ではありません。",
+          "invalidPayload": "ペイロードが有効な JSON ではありません。",
+          "missingSecret": "署名にはシークレットが必要です。"
+        }
+      },
+      "ko": {
+        "metadata": {
+          "title": "JWT 생성기",
+          "description": "HS256·HS384·HS512로 서명된 JSON Web Token을 헤더·페이로드·만료 시간을 직접 설정해 생성하세요. 서명은 모두 브라우저에서 이루어집니다.",
+          "category": "Security"
+        },
+        "keywords": [
+          "JWT 생성기",
+          "JWT 온라인 생성",
+          "JSON Web Token",
+          "HS256 서명",
+          "JWT 도구",
+          "토큰 생성",
+          "JWT 만들기",
+          "HMAC 서명",
+          "JWT 빌더",
+          "무료 JWT 도구"
+        ],
+        "faqs": [
+          {
+            "question": "JSON Web Token(JWT)이 무엇인가요?",
+            "answer": "JWT는 두 당사자 간에 클레임을 전달하기 위한 컴팩트한 URL 안전 형식입니다. 헤더, 페이로드, HMAC 서명으로 구성되며, 서명을 통해 공유 시크릿을 가진 쪽이 만든 토큰임을 증명합니다."
+          },
+          {
+            "question": "시크릿은 어디에 사용되나요?",
+            "answer": "시크릿은 절대 브라우저 밖으로 나가지 않습니다. HMAC 서명은 Web Crypto API로 로컬에서 계산되며, 토큰·페이로드·시크릿 모두 서버로 전송되지 않습니다."
+          },
+          {
+            "question": "어떤 알고리즘을 지원하나요?",
+            "answer": "HS256, HS384, HS512를 지원합니다. 각각 SHA-256, SHA-384, SHA-512 기반의 HMAC 서명으로, 가장 널리 지원되는 대칭키 JWT 알고리즘입니다."
+          },
+          {
+            "question": "만료 옵션은 어떻게 작동하나요?",
+            "answer": "만료를 선택하면 생성 시점부터 계산된 exp(만료 시간) 클레임이 페이로드에 자동 추가됩니다. '만료 없음'을 선택하면 iat와 exp를 직접 관리할 수 있습니다."
+          },
+          {
+            "question": "생성된 토큰을 프로덕션에서 써도 되나요?",
+            "answer": "가능합니다. 구조와 서명은 JWT 표준을 따릅니다. 다만 충분히 긴 무작위 시크릿을 사용하고 클라이언트 코드에 노출하지 마세요. 비대칭 서명(RS256)에는 전용 키 관리가 필요합니다."
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT 디코더", "href": "/tools/jwt-decoder" },
+          { "name": "Base64 인코더", "href": "/tools/base64-encoder" },
+          { "name": "해시 생성기", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "JWT 생성 방법",
+            "paragraphs": [
+              "JSON Web Token은 페이로드가 공유 시크릿을 가진 쪽에서 만들어졌음을 증명합니다. 헤더, 페이로드, 서명 세 부분을 점으로 연결하고 base64url로 인코딩한 형태입니다.",
+              "이 도구는 Web Crypto API를 사용해 토큰 생성과 서명을 모두 브라우저에서 처리합니다. 시크릿과 페이로드는 페이지 밖으로 나가지 않습니다."
+            ]
+          },
+          "sections": [
+            {
+              "title": "헤더와 페이로드 편집",
+              "paragraphs": [
+                "헤더에는 알고리즘과 토큰 타입을 선언합니다. 페이로드에는 iss, sub, iat, exp 등의 클레임을 담습니다. 둘 다 유효한 JSON이어야 토큰을 만들 수 있습니다."
+              ]
+            },
+            {
+              "title": "알고리즘과 만료 선택",
+              "paragraphs": [
+                "호환성이 중요하면 HS256, 더 긴 다이제스트가 필요하면 HS384/HS512를 고르세요. 만료를 지정하면 exp 클레임이 자동으로 추가됩니다(15분~30일 또는 직접 설정)."
+              ]
+            },
+            {
+              "title": "강력한 시크릿 설정",
+              "paragraphs": [
+                "HMAC 시크릿이 토큰 보안의 핵심입니다. 긴 무작위 문자열을 사용하세요. '랜덤 시크릿' 버튼이 암호학적으로 안전한 32바이트 값을 만들어 줍니다."
+              ]
+            },
+            {
+              "title": "생성 후 확인",
+              "paragraphs": [
+                "생성 버튼을 눌러 서명된 토큰을 만들고 한 번에 복사하세요. 아래 디코딩 표에서 서명된 내용을 그대로 확인할 수 있습니다. 모든 과정은 브라우저 내에서 이루어집니다."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "header": "헤더",
+          "payload": "페이로드",
+          "algorithm": "알고리즘",
+          "expiry": "만료",
+          "expiryNone": "만료 없음",
+          "expiry15m": "15분",
+          "expiry1h": "1시간",
+          "expiry8h": "8시간",
+          "expiry1d": "1일",
+          "expiry7d": "7일",
+          "expiry30d": "30일",
+          "secret": "시크릿",
+          "secretPlaceholder": "HMAC 시크릿을 입력하세요",
+          "randomSecret": "랜덤 시크릿",
+          "generate": "토큰 생성",
+          "token": "서명된 토큰",
+          "copy": "복사",
+          "copied": "복사됨!",
+          "decoded": "디코딩 미리보기",
+          "privacy": "서명은 브라우저에서 로컬로 처리됩니다. 시크릿과 토큰은 전송·저장되지 않습니다."
+        },
+        "errors": {
+          "invalidHeader": "헤더가 유효한 JSON이 아닙니다.",
+          "invalidPayload": "페이로드가 유효한 JSON이 아닙니다.",
+          "missingSecret": "서명을 위해 시크릿을 입력하세요."
+        }
+      },
+      "ru": {
+        "metadata": {
+          "title": "Генератор JWT",
+          "description": "Создавайте подписанные JSON Web Tokens (HS256, HS384, HS512) со своими заголовками, полезной нагрузкой и сроком действия. Подпись выполняется полностью в браузере.",
+          "category": "Security"
+        },
+        "keywords": [
+          "генератор JWT",
+          "JSON Web Token онлайн",
+          "создать JWT",
+          "HS256 подпись",
+          "JWT инструмент",
+          "генерация токена",
+          "JWT конструктор",
+          "HMAC подпись",
+          "создание JWT онлайн",
+          "бесплатный генератор JWT"
+        ],
+        "faqs": [
+          {
+            "question": "Что такое JSON Web Token (JWT)?",
+            "answer": "JWT — это компактный URL-безопасный формат для передачи утверждений между двумя сторонами. Он состоит из заголовка, полезной нагрузки и подписи HMAC, которая подтверждает, что токен создан обладателем общего секрета."
+          },
+          {
+            "question": "Где используется мой секрет?",
+            "answer": "Секрет никогда не покидает ваш браузер. Подпись HMAC вычисляется локально через Web Crypto API, и сам токен, и нагрузка, и секрет не отправляются ни на один сервер."
+          },
+          {
+            "question": "Какие алгоритмы поддерживаются?",
+            "answer": "HS256, HS384 и HS512 — подписи HMAC на основе SHA-256, SHA-384 и SHA-512 соответственно. Это самые распространённые симметричные алгоритмы JWT."
+          },
+          {
+            "question": "Как работает опция срока действия?",
+            "answer": "При выборе срока в нагрузку автоматически добавляется утверждение exp (время истечения), рассчитанное с момента генерации токена. Вариант «без срока» позволяет задать iat и exp самостоятельно."
+          },
+          {
+            "question": "Можно ли использовать токен в продакшене?",
+            "answer": "Да — структура и подпись соответствуют стандарту JWT. Только используйте длинный случайный секрет и никогда не раскрывайте его в клиентском коде. Для асимметричных подписей (RS256) нужно отдельное управление ключами."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Декодер JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Кодировщик Base64", "href": "/tools/base64-encoder" },
+          { "name": "Генератор хешей", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Как создать JWT",
+            "paragraphs": [
+              "JSON Web Token позволяет подтвердить, что нагрузка создана владельцем общего секрета. Он состоит из трёх частей — заголовка, нагрузки и подписи — соединённых точками и закодированных в base64url.",
+              "Этот инструмент собирает и подписывает токен полностью в браузере через Web Crypto API. Секрет и нагрузка никогда не покидают страницу."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Отредактируйте заголовок и нагрузку",
+              "paragraphs": [
+                "В заголовке указываются алгоритм и тип токена. Нагрузка содержит утверждения — iss, sub, iat, exp или любые свои. Обе части должны быть корректным JSON, иначе токен не собрать."
+              ]
+            },
+            {
+              "title": "Выберите алгоритм и срок",
+              "paragraphs": [
+                "HS256 — максимальная совместимость, HS384/HS512 — более длинные дайджесты. Срок действия автоматически добавляет утверждение exp: от 15 минут до 30 дней или «без срока»."
+              ]
+            },
+            {
+              "title": "Задайте надёжный секрет",
+              "paragraphs": [
+                "Секрет HMAC защищает токен, поэтому используйте длинную случайную строку — кнопка «Случайный секрет» генерирует криптографически стойкое 32-байтовое значение."
+              ]
+            },
+            {
+              "title": "Создайте и проверьте",
+              "paragraphs": [
+                "Нажмите «Создать токен», чтобы получить подписанный токен, скопируйте его одним щелчком и сверьтесь с таблицей ниже. Всё выполняется локально в браузере."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "header": "Заголовок",
+          "payload": "Полезная нагрузка",
+          "algorithm": "Алгоритм",
+          "expiry": "Срок действия",
+          "expiryNone": "Без срока",
+          "expiry15m": "15 минут",
+          "expiry1h": "1 час",
+          "expiry8h": "8 часов",
+          "expiry1d": "1 день",
+          "expiry7d": "7 дней",
+          "expiry30d": "30 дней",
+          "secret": "Секрет",
+          "secretPlaceholder": "Введите ваш HMAC-секрет",
+          "randomSecret": "Случайный секрет",
+          "generate": "Создать токен",
+          "token": "Подписанный токен",
+          "copy": "Копировать",
+          "copied": "Скопировано!",
+          "decoded": "Расшифрованный просмотр",
+          "privacy": "Подпись выполняется локально в браузере. Секрет и токен не отправляются и не сохраняются."
+        },
+        "errors": {
+          "invalidHeader": "Заголовок не является корректным JSON.",
+          "invalidPayload": "Полезная нагрузка не является корректным JSON.",
+          "missingSecret": "Введите секрет для подписи токена."
+        }
+      },
+      "es": {
+        "metadata": {
+          "title": "Generador de JWT",
+          "description": "Crea JSON Web Tokens firmados (HS256, HS384, HS512) con cabecera, carga útil y caducidad personalizadas. La firma se realiza por completo en tu navegador.",
+          "category": "Security"
+        },
+        "keywords": [
+          "generador de JWT",
+          "crear JWT online",
+          "JSON Web Token",
+          "firmar JWT",
+          "HS256",
+          "generador de tokens",
+          "JWT builder",
+          "token de acceso",
+          "firma HMAC",
+          "herramienta JWT gratuita"
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué es un JSON Web Token (JWT)?",
+            "answer": "Un JWT es un formato compacto y seguro para URL que transporta afirmaciones entre dos partes. Consta de una cabecera, una carga útil y una firma HMAC que demuestra que el token fue creado con un secreto compartido."
+          },
+          {
+            "question": "¿Dónde se usa mi secreto?",
+            "answer": "Tu secreto nunca sale del navegador. La firma HMAC se calcula localmente con la Web Crypto API, y ni el token, ni la carga útil, ni el secreto se envían a ningún servidor."
+          },
+          {
+            "question": "¿Qué algoritmos admite?",
+            "answer": "HS256, HS384 y HS512: firmas HMAC basadas en SHA-256, SHA-384 y SHA-512 respectivamente. Son los algoritmos simétricos de JWT más compatibles."
+          },
+          {
+            "question": "¿Cómo funciona la opción de caducidad?",
+            "answer": "Al elegir una caducidad, la herramienta añade automáticamente la afirmación exp (tiempo de expiración) a tu carga útil, calculada desde el momento de generar el token. Con 'sin caducidad' puedes gestionar iat y exp tú mismo."
+          },
+          {
+            "question": "¿Puedo usar el token generado en producción?",
+            "answer": "Sí: la estructura y la firma siguen el estándar JWT. Eso sí, usa un secreto largo y aleatorio, y nunca lo expongas en código del cliente. Para firmas asimétricas (RS256) necesitas una gestión de claves específica."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Decodificador de JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Codificador Base64", "href": "/tools/base64-encoder" },
+          { "name": "Generador de Hashes", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Cómo generar un JWT",
+            "paragraphs": [
+              "Un JSON Web Token permite demostrar que una carga útil fue creada por quien posee un secreto compartido. Tiene tres partes —cabecera, carga útil y firma— unidas por puntos y codificadas en base64url.",
+              "Esta herramienta construye y firma el token íntegramente en tu navegador con la Web Crypto API. Tu secreto y tu carga útil nunca salen de la página."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Edita la cabecera y la carga útil",
+              "paragraphs": [
+                "La cabecera declara el algoritmo y el tipo de token. La carga útil contiene tus afirmaciones: iss, sub, iat, exp o las personalizadas que necesites. Ambas deben ser JSON válido."
+              ]
+            },
+            {
+              "title": "Elige algoritmo y caducidad",
+              "paragraphs": [
+                "HS256 ofrece la máxima compatibilidad; HS384/HS512 generan resúmenes más largos. La caducidad añade automáticamente la afirmación exp: de 15 minutos a 30 días, o ninguna si prefieres fijar las fechas tú."
+              ]
+            },
+            {
+              "title": "Define un secreto robusto",
+              "paragraphs": [
+                "El secreto HMAC protege el token, así que usa una cadena larga y aleatoria: el botón 'Secreto aleatorio' genera un valor criptográficamente seguro de 32 bytes."
+              ]
+            },
+            {
+              "title": "Genera y verifica",
+              "paragraphs": [
+                "Pulsa Generar para crear el token firmado, cópialo con un clic y revisa la tabla decodificada para confirmar exactamente qué se firmó. Todo ocurre localmente en tu navegador."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "header": "Cabecera",
+          "payload": "Carga útil",
+          "algorithm": "Algoritmo",
+          "expiry": "Caducidad",
+          "expiryNone": "Sin caducidad",
+          "expiry15m": "15 minutos",
+          "expiry1h": "1 hora",
+          "expiry8h": "8 horas",
+          "expiry1d": "1 día",
+          "expiry7d": "7 días",
+          "expiry30d": "30 días",
+          "secret": "Secreto",
+          "secretPlaceholder": "Introduce tu secreto HMAC",
+          "randomSecret": "Secreto aleatorio",
+          "generate": "Generar token",
+          "token": "Token firmado",
+          "copy": "Copiar",
+          "copied": "¡Copiado!",
+          "decoded": "Vista decodificada",
+          "privacy": "La firma ocurre localmente en tu navegador. Tu secreto y el token nunca se envían ni se guardan."
+        },
+        "errors": {
+          "invalidHeader": "La cabecera no es JSON válido.",
+          "invalidPayload": "La carga útil no es JSON válido.",
+          "missingSecret": "Introduce un secreto para firmar el token."
+        }
+      },
+      "de": {
+        "metadata": {
+          "title": "JWT-Generator",
+          "description": "Erstelle signierte JSON Web Tokens (HS256, HS384, HS512) mit eigenen Headern, Payloads und Ablaufzeiten. Die Signierung läuft vollständig in deinem Browser.",
+          "category": "Security"
+        },
+        "keywords": [
+          "JWT Generator",
+          "JSON Web Token erstellen",
+          "JWT online erstellen",
+          "HS256 Token",
+          "JWT signieren",
+          "Token Generator",
+          "JWT Builder",
+          "HMAC Signatur",
+          "JWT Tool",
+          "kostenloser JWT Generator"
+        ],
+        "faqs": [
+          {
+            "question": "Was ist ein JSON Web Token (JWT)?",
+            "answer": "Ein JWT ist ein kompaktes, URL-sicheres Format, um Claims zwischen zwei Parteien zu übertragen. Es besteht aus Header, Payload und einer HMAC-Signatur, die belegt, dass der Token mit einem gemeinsamen Secret erstellt wurde."
+          },
+          {
+            "question": "Wo wird mein Secret verwendet?",
+            "answer": "Dein Secret verlässt niemals den Browser. Die HMAC-Signatur wird lokal mit der Web Crypto API berechnet – weder Token, noch Payload oder Secret werden an einen Server gesendet."
+          },
+          {
+            "question": "Welche Algorithmen werden unterstützt?",
+            "answer": "HS256, HS384 und HS512 – HMAC-Signaturen auf Basis von SHA-256, SHA-384 bzw. SHA-512. Das sind die am weitesten verbreiteten symmetrischen JWT-Algorithmen."
+          },
+          {
+            "question": "Wie funktioniert die Ablaufzeit-Option?",
+            "answer": "Bei Auswahl einer Ablaufzeit fügt das Tool automatisch den exp-Claim (Ablaufzeitpunkt) in deinen Payload ein, berechnet ab dem Moment der Generierung. Mit „Keine Ablaufzeit“ steuerst du iat und exp selbst."
+          },
+          {
+            "question": "Kann ich den generierten Token in Produktion verwenden?",
+            "answer": "Ja – Struktur und Signatur folgen dem JWT-Standard. Verwende nur ein langes, zufälliges Secret und lege es niemals im Client-Code offen. Für asymmetrische Signaturen (RS256) brauchst du ein dediziertes Key-Management."
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT-Decoder", "href": "/tools/jwt-decoder" },
+          { "name": "Base64-Encoder", "href": "/tools/base64-encoder" },
+          { "name": "Hash-Generator", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "So erstellst du einen JWT",
+            "paragraphs": [
+              "Ein JSON Web Token belegt, dass ein Payload vom Inhaber eines gemeinsamen Secrets erstellt wurde. Er besteht aus drei Teilen – Header, Payload und Signatur – die durch Punkte getrennt und base64url-kodiert sind.",
+              "Dieses Tool erstellt und signiert den Token vollständig im Browser mit der Web Crypto API. Dein Secret und Payload verlassen die Seite nie."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Header und Payload bearbeiten",
+              "paragraphs": [
+                "Der Header deklariert Algorithmus und Tokentyp. Der Payload enthält deine Claims – iss, sub, iat, exp oder eigene Felder. Beides muss gültiges JSON sein, sonst lässt sich kein Token bauen."
+              ]
+            },
+            {
+              "title": "Algorithmus und Ablaufzeit wählen",
+              "paragraphs": [
+                "HS256 für maximale Kompatibilität, HS384/HS512 für längere Digests. Die Ablaufzeit fügt automatisch den exp-Claim ein: 15 Minuten bis 30 Tage, oder keine, wenn du die Zeitpunkte selbst setzt."
+              ]
+            },
+            {
+              "title": "Starkes Secret festlegen",
+              "paragraphs": [
+                "Das HMAC-Secret schützt den Token – verwende eine lange Zufallszeichenkette. Der Button „Zufalls-Secret“ erzeugt einen kryptografisch sicheren 32-Byte-Wert."
+              ]
+            },
+            {
+              "title": "Generieren und prüfen",
+              "paragraphs": [
+                "Klicke auf „Token generieren“, kopiere ihn mit einem Klick und prüfe in der dekodierten Tabelle unten, was genau signiert wurde. Alles geschieht lokal in deinem Browser."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "header": "Header",
+          "payload": "Payload",
+          "algorithm": "Algorithmus",
+          "expiry": "Ablaufzeit",
+          "expiryNone": "Keine Ablaufzeit",
+          "expiry15m": "15 Minuten",
+          "expiry1h": "1 Stunde",
+          "expiry8h": "8 Stunden",
+          "expiry1d": "1 Tag",
+          "expiry7d": "7 Tage",
+          "expiry30d": "30 Tage",
+          "secret": "Secret",
+          "secretPlaceholder": "Dein HMAC-Secret eingeben",
+          "randomSecret": "Zufalls-Secret",
+          "generate": "Token generieren",
+          "token": "Signierter Token",
+          "copy": "Kopieren",
+          "copied": "Kopiert!",
+          "decoded": "Dekodierte Vorschau",
+          "privacy": "Die Signierung läuft lokal in deinem Browser. Secret und Token werden nie gesendet oder gespeichert."
+        },
+        "errors": {
+          "invalidHeader": "Der Header ist kein gültiges JSON.",
+          "invalidPayload": "Der Payload ist kein gültiges JSON.",
+          "missingSecret": "Gib ein Secret ein, um den Token zu signieren."
+        }
+      },
+      "fr": {
+        "metadata": {
+          "title": "Générateur de JWT",
+          "description": "Créez des JSON Web Tokens signés (HS256, HS384, HS512) avec en-tête, charge utile et expiration personnalisées. La signature s'effectue entièrement dans votre navigateur.",
+          "category": "Security"
+        },
+        "keywords": [
+          "générateur JWT",
+          "créer un JWT en ligne",
+          "JSON Web Token",
+          "signer un JWT",
+          "HS256",
+          "générateur de token",
+          "JWT builder",
+          "jeton d'authentification",
+          "signature HMAC",
+          "outil JWT gratuit"
+        ],
+        "faqs": [
+          {
+            "question": "Qu'est-ce qu'un JSON Web Token (JWT) ?",
+            "answer": "Un JWT est un format compact et compatible URL qui transporte des revendications entre deux parties. Il se compose d'un en-tête, d'une charge utile et d'une signature HMAC qui prouve que le token a été créé avec un secret partagé."
+          },
+          {
+            "question": "Où mon secret est-il utilisé ?",
+            "answer": "Votre secret ne quitte jamais votre navigateur. La signature HMAC est calculée localement avec la Web Crypto API, et ni le token, ni la charge utile, ni le secret ne sont envoyés à un serveur."
+          },
+          {
+            "question": "Quels algorithmes sont pris en charge ?",
+            "answer": "HS256, HS384 et HS512 : des signatures HMAC basées respectivement sur SHA-256, SHA-384 et SHA-512. Ce sont les algorithmes JWT symétriques les plus répandus."
+          },
+          {
+            "question": "Comment fonctionne l'option d'expiration ?",
+            "answer": "Lorsque vous choisissez une expiration, l'outil ajoute automatiquement la revendication exp (date d'expiration) à votre charge utile, calculée à partir du moment de génération. Avec « sans expiration », vous gérez iat et exp vous-même."
+          },
+          {
+            "question": "Puis-je utiliser le token généré en production ?",
+            "answer": "Oui : la structure et la signature respectent la norme JWT. Utilisez simplement un secret long et aléatoire, et ne l'exposez jamais dans du code côté client. Pour les signatures asymétriques (RS256), prévoyez une gestion de clés dédiée."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Décodeur JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Encodeur Base64", "href": "/tools/base64-encoder" },
+          { "name": "Générateur de Hachages", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Comment générer un JWT",
+            "paragraphs": [
+              "Un JSON Web Token permet de prouver qu'une charge utile a été créée par le détenteur d'un secret partagé. Il réunit trois parties — en-tête, charge utile et signature — reliées par des points et encodées en base64url.",
+              "Cet outil construit et signe le token entièrement dans votre navigateur grâce à la Web Crypto API. Votre secret et votre charge utile ne quittent jamais la page."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Modifiez l'en-tête et la charge utile",
+              "paragraphs": [
+                "L'en-tête déclare l'algorithme et le type de token. La charge utile contient vos revendications : iss, sub, iat, exp ou des champs personnalisés. Les deux doivent être du JSON valide."
+              ]
+            },
+            {
+              "title": "Choisissez l'algorithme et l'expiration",
+              "paragraphs": [
+                "HS256 pour la compatibilité maximale, HS384/HS512 pour des empreintes plus longues. L'expiration ajoute automatiquement la revendication exp : de 15 minutes à 30 jours, ou aucune si vous fixez les dates vous-même."
+              ]
+            },
+            {
+              "title": "Définissez un secret solide",
+              "paragraphs": [
+                "Le secret HMAC protège le token : utilisez une longue chaîne aléatoire. Le bouton « Secret aléatoire » génère une valeur cryptographiquement sûre de 32 octets."
+              ]
+            },
+            {
+              "title": "Générez et vérifiez",
+              "paragraphs": [
+                "Cliquez sur Générer pour créer le token signé, copiez-le en un clic et consultez le tableau décodé ci-dessous pour vérifier exactement ce qui a été signé. Tout se passe localement dans votre navigateur."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "header": "En-tête",
+          "payload": "Charge utile",
+          "algorithm": "Algorithme",
+          "expiry": "Expiration",
+          "expiryNone": "Sans expiration",
+          "expiry15m": "15 minutes",
+          "expiry1h": "1 heure",
+          "expiry8h": "8 heures",
+          "expiry1d": "1 jour",
+          "expiry7d": "7 jours",
+          "expiry30d": "30 jours",
+          "secret": "Secret",
+          "secretPlaceholder": "Saisissez votre secret HMAC",
+          "randomSecret": "Secret aléatoire",
+          "generate": "Générer le token",
+          "token": "Token signé",
+          "copy": "Copier",
+          "copied": "Copié !",
+          "decoded": "Aperçu décodé",
+          "privacy": "La signature s'effectue localement dans votre navigateur. Votre secret et le token ne sont jamais envoyés ni stockés."
+        },
+        "errors": {
+          "invalidHeader": "L'en-tête n'est pas un JSON valide.",
+          "invalidPayload": "La charge utile n'est pas un JSON valide.",
+          "missingSecret": "Saisissez un secret pour signer le token."
+        }
+      },
+      "pt": {
+        "metadata": {
+          "title": "Gerador de JWT",
+          "description": "Crie JSON Web Tokens assinados (HS256, HS384, HS512) com cabeçalho, payload e validade personalizados. A assinatura é feita inteiramente no seu navegador.",
+          "category": "Security"
+        },
+        "keywords": [
+          "gerador de JWT",
+          "criar JWT online",
+          "JSON Web Token",
+          "assinar JWT",
+          "HS256",
+          "gerador de token",
+          "JWT builder",
+          "token de autenticação",
+          "assinatura HMAC",
+          "ferramenta JWT grátis"
+        ],
+        "faqs": [
+          {
+            "question": "O que é um JSON Web Token (JWT)?",
+            "answer": "Um JWT é um formato compacto e seguro para URL que transporta claims entre duas partes. Ele é composto por um cabeçalho, um payload e uma assinatura HMAC que comprova que o token foi criado com um segredo compartilhado."
+          },
+          {
+            "question": "Onde meu segredo é usado?",
+            "answer": "Seu segredo nunca sai do navegador. A assinatura HMAC é calculada localmente com a Web Crypto API, e nem o token, nem o payload, nem o segredo são enviados a nenhum servidor."
+          },
+          {
+            "question": "Quais algoritmos são aceitos?",
+            "answer": "HS256, HS384 e HS512: assinaturas HMAC baseadas em SHA-256, SHA-384 e SHA-512, respectivamente. São os algoritmos JWT simétricos mais amplamente suportados."
+          },
+          {
+            "question": "Como funciona a opção de validade?",
+            "answer": "Ao escolher uma validade, a ferramenta adiciona automaticamente o claim exp (tempo de expiração) ao seu payload, calculado a partir do momento da geração. Com 'sem validade', você mesmo controla iat e exp."
+          },
+          {
+            "question": "Posso usar o token gerado em produção?",
+            "answer": "Pode: a estrutura e a assinatura seguem o padrão JWT. Apenas use um segredo longo e aleatório e nunca o exponha em código do lado do cliente. Para assinaturas assimétricas (RS256), é preciso um sistema dedicado de gerenciamento de chaves."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Decodificador de JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Codificador Base64", "href": "/tools/base64-encoder" },
+          { "name": "Gerador de Hashes", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Como gerar um JWT",
+            "paragraphs": [
+              "Um JSON Web Token permite comprovar que um payload foi criado por quem possui um segredo compartilhado. Ele tem três partes — cabeçalho, payload e assinatura — unidas por pontos e codificadas em base64url.",
+              "Esta ferramenta monta e assina o token inteiramente no seu navegador com a Web Crypto API. Seu segredo e seu payload nunca saem da página."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Edite o cabeçalho e o payload",
+              "paragraphs": [
+                "O cabeçalho declara o algoritmo e o tipo de token. O payload contém seus claims: iss, sub, iat, exp ou campos personalizados. Ambos precisam ser JSON válido."
+              ]
+            },
+            {
+              "title": "Escolha algoritmo e validade",
+              "paragraphs": [
+                "HS256 para máxima compatibilidade; HS384/HS512 para resumos mais longos. A validade adiciona automaticamente o claim exp: de 15 minutos a 30 dias, ou nenhuma se você definir as datas."
+              ]
+            },
+            {
+              "title": "Defina um segredo forte",
+              "paragraphs": [
+                "O segredo HMAC protege o token, então use uma string longa e aleatória: o botão 'Segredo aleatório' gera um valor criptograficamente seguro de 32 bytes."
+              ]
+            },
+            {
+              "title": "Gere e verifique",
+              "paragraphs": [
+                "Clique em Gerar para criar o token assinado, copie com um clique e confira a tabela decodificada abaixo para ver exatamente o que foi assinado. Tudo acontece localmente no seu navegador."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "header": "Cabeçalho",
+          "payload": "Payload",
+          "algorithm": "Algoritmo",
+          "expiry": "Validade",
+          "expiryNone": "Sem validade",
+          "expiry15m": "15 minutos",
+          "expiry1h": "1 hora",
+          "expiry8h": "8 horas",
+          "expiry1d": "1 dia",
+          "expiry7d": "7 dias",
+          "expiry30d": "30 dias",
+          "secret": "Segredo",
+          "secretPlaceholder": "Digite seu segredo HMAC",
+          "randomSecret": "Segredo aleatório",
+          "generate": "Gerar token",
+          "token": "Token assinado",
+          "copy": "Copiar",
+          "copied": "Copiado!",
+          "decoded": "Pré-visualização decodificada",
+          "privacy": "A assinatura acontece localmente no seu navegador. Seu segredo e o token nunca são enviados nem armazenados."
+        },
+        "errors": {
+          "invalidHeader": "O cabeçalho não é um JSON válido.",
+          "invalidPayload": "O payload não é um JSON válido.",
+          "missingSecret": "Digite um segredo para assinar o token."
+        }
+      }
+    },
+    "aes-encryption": {
+      "en": {
+        "metadata": {
+          "title": "AES Encryption",
+          "description": "Encrypt and decrypt text with AES-256 (GCM or CBC) right in your browser. Password-based with PBKDF2 key derivation — nothing is uploaded anywhere.",
+          "category": "Security"
+        },
+        "keywords": [
+          "aes encryption",
+          "aes encrypt online",
+          "aes decrypt online",
+          "aes 256 encryption tool",
+          "encrypt text online",
+          "password encryption",
+          "aes gcm",
+          "aes cbc",
+          "browser encryption tool",
+          "free text encryption"
+        ],
+        "faqs": [
+          {
+            "question": "Is this encryption secure?",
+            "answer": "Yes. It uses AES-256 through the browser's native Web Crypto API, with a 256-bit key derived from your password via PBKDF2 (150,000 rounds of SHA-256). AES-GCM also authenticates the data, so tampering is detected automatically."
+          },
+          {
+            "question": "Is my password or text uploaded anywhere?",
+            "answer": "No. Encryption and decryption run entirely in your browser. Your password, plaintext, and ciphertext never leave the page — no server is involved at all."
+          },
+          {
+            "question": "What is the difference between AES-GCM and AES-CBC?",
+            "answer": "AES-GCM is an authenticated mode: it detects whether the ciphertext was modified and is recommended for new encryptions. AES-CBC is offered for compatibility with older systems but does not verify integrity on its own."
+          },
+          {
+            "question": "What is the salt for?",
+            "answer": "The salt ensures the same password produces a different key for every message. Leave it empty for a random salt (recommended), or enter a fixed text if you need reproducible output. The salt is packed into the encrypted blob automatically."
+          },
+          {
+            "question": "Why can't I decrypt my data?",
+            "answer": "Decryption almost always fails because the password is wrong — the 'wrong password' message means the derived key didn't match. The input must be the complete base64 blob this tool produced, since it bundles the salt and IV together with the ciphertext."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Hash Generator", "href": "/tools/hash-generator" },
+          { "name": "Password Strength Checker", "href": "/tools/password-strength" },
+          { "name": "Base64 Encoder", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "How to encrypt and decrypt text with AES",
+            "paragraphs": [
+              "AES (Advanced Encryption Standard) is the algorithm trusted worldwide for protecting sensitive data. This tool gives you AES-256 with a key derived from your password using PBKDF2 — 150,000 rounds of SHA-256.",
+              "Everything runs locally in your browser through the Web Crypto API. Your password and your data never leave the page, and nothing is stored or transmitted."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Pick a mode and algorithm",
+              "paragraphs": [
+                "Use the Encrypt tab to protect text and Decrypt to recover it. For encryption, choose AES-GCM (authenticated, recommended) or AES-CBC (legacy compatibility); decryption detects the algorithm automatically."
+              ]
+            },
+            {
+              "title": "Enter a strong password",
+              "paragraphs": [
+                "Your password is the only thing that can unlock the data, so make it long and unique. The key is derived with PBKDF2 and a salt, which slows down brute-force attempts dramatically."
+              ]
+            },
+            {
+              "title": "Understand salt and IV",
+              "paragraphs": [
+                "A random salt and a random IV are generated for every encryption and packed into the output blob. After encrypting, you can inspect their base64 values below the result."
+              ]
+            },
+            {
+              "title": "Share safely",
+              "paragraphs": [
+                "Copy the full base64 blob and share it together with the algorithm — the recipient just needs the password and this tool. Without the password the data is unreadable, even to us: nothing is ever uploaded."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "encryptTab": "Encrypt",
+          "decryptTab": "Decrypt",
+          "algorithm": "Algorithm",
+          "password": "Password",
+          "passwordPlaceholder": "Enter encryption password",
+          "salt": "Salt (optional)",
+          "saltPlaceholder": "Leave empty for a random salt",
+          "plaintext": "Plaintext",
+          "plaintextPlaceholder": "Type the text to encrypt…",
+          "ciphertext": "Ciphertext",
+          "ciphertextPlaceholder": "Paste the base64 blob to decrypt…",
+          "encryptButton": "Encrypt",
+          "decryptButton": "Decrypt",
+          "outputEncrypt": "Encrypted result (base64)",
+          "outputDecrypt": "Decrypted result",
+          "saltUsed": "Salt used",
+          "ivUsed": "IV used",
+          "copy": "Copy",
+          "copied": "Copied!",
+          "privacy": "Encryption runs locally in your browser. Nothing is uploaded, logged, or stored."
+        },
+        "errors": {
+          "requiredPassword": "Please enter a password.",
+          "requiredText": "Please enter the text to process.",
+          "invalidData": "This doesn't look like data encrypted by this tool.",
+          "wrongPassword": "Wrong password or corrupted data."
+        }
+      },
+      "zh": {
+        "metadata": {
+          "title": "AES 加密解密",
+          "description": "在浏览器本地使用 AES-256（GCM 或 CBC）加密解密文本。基于密码并结合 PBKDF2 派生密钥——任何数据都不会上传。",
+          "category": "Security"
+        },
+        "keywords": [
+          "AES 加密",
+          "AES 解密",
+          "AES 在线加密",
+          "AES 256 加密工具",
+          "文本加密",
+          "密码加密",
+          "AES GCM",
+          "AES CBC",
+          "浏览器加密工具",
+          "免费文本加密"
+        ],
+        "faqs": [
+          {
+            "question": "这种加密安全吗？",
+            "answer": "安全。它通过浏览器原生的 Web Crypto API 使用 AES-256，并使用 PBKDF2（15 万轮 SHA-256）从密码派生 256 位密钥。AES-GCM 还会对数据做认证，密文一旦被篡改就能自动发现。"
+          },
+          {
+            "question": "我的密码或文本会被上传吗？",
+            "answer": "不会。加密和解密完全在浏览器中运行。密码、明文和密文都不会离开当前页面——全程不涉及任何服务器。"
+          },
+          {
+            "question": "AES-GCM 和 AES-CBC 有什么区别？",
+            "answer": "AES-GCM 是认证加密模式：能检测密文是否被篡改，推荐用于新加密。AES-CBC 主要为了兼容旧系统，本身不校验完整性。"
+          },
+          {
+            "question": "盐值（salt）是做什么的？",
+            "answer": "盐值保证同一密码为每条消息派生出不同的密钥。留空即可使用随机盐（推荐）；如果需要可复现的输出，可以填入固定文本。盐值会自动打包进加密结果中。"
+          },
+          {
+            "question": "为什么我的数据解不开？",
+            "answer": "解密失败几乎都是密码不对——“密码错误”提示说明派生的密钥不匹配。输入必须是本工具生成的完整 base64 密文，因为盐值和 IV 与密文打包在一起。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "哈希生成器", "href": "/tools/hash-generator" },
+          { "name": "密码强度检测", "href": "/tools/password-strength" },
+          { "name": "Base64 编解码", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "如何用 AES 加密解密文本",
+            "paragraphs": [
+              "AES（高级加密标准）是全球广泛信任的敏感数据保护算法。本工具提供 AES-256，并使用 PBKDF2（15 万轮 SHA-256）从你的密码派生密钥。",
+              "所有步骤都通过 Web Crypto API 在浏览器本地完成。密码和数据绝不会离开页面，也不会被存储或传输。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "选择模式和算法",
+              "paragraphs": [
+                "用“加密”标签页保护文本，用“解密”标签页还原。加密时可选 AES-GCM（认证加密，推荐）或 AES-CBC（兼容旧系统）；解密时会自动识别算法。"
+              ]
+            },
+            {
+              "title": "输入高强度密码",
+              "paragraphs": [
+                "密码是解锁数据的唯一钥匙，请务必使用足够长且唯一的密码。密钥通过 PBKDF2 和盐值派生，能大幅拖慢暴力破解。"
+              ]
+            },
+            {
+              "title": "了解盐值和 IV",
+              "paragraphs": [
+                "每次加密都会生成随机盐值和随机 IV，并打包进输出结果。加密完成后，你可以在结果下方查看它们的 base64 值。"
+              ]
+            },
+            {
+              "title": "安全分享",
+              "paragraphs": [
+                "复制完整的 base64 密文连同算法一起分享——对方只需要密码和本工具即可解密。没有密码，数据对任何人（包括我们）都不可读：一切都不会上传。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "encryptTab": "加密",
+          "decryptTab": "解密",
+          "algorithm": "算法",
+          "password": "密码",
+          "passwordPlaceholder": "输入加密密码",
+          "salt": "盐值（可选）",
+          "saltPlaceholder": "留空则使用随机盐",
+          "plaintext": "明文",
+          "plaintextPlaceholder": "输入要加密的文本…",
+          "ciphertext": "密文",
+          "ciphertextPlaceholder": "粘贴要解密的 base64 密文…",
+          "encryptButton": "加密",
+          "decryptButton": "解密",
+          "outputEncrypt": "加密结果（base64）",
+          "outputDecrypt": "解密结果",
+          "saltUsed": "使用的盐值",
+          "ivUsed": "使用的 IV",
+          "copy": "复制",
+          "copied": "已复制！",
+          "privacy": "加密在浏览器本地完成，不会上传、记录或存储任何数据。"
+        },
+        "errors": {
+          "requiredPassword": "请输入密码。",
+          "requiredText": "请输入要处理的文本。",
+          "invalidData": "这看起来不是本工具加密的数据。",
+          "wrongPassword": "密码错误或数据已损坏。"
+        }
+      },
+      "ja": {
+        "metadata": {
+          "title": "AES 暗号化・復号ツール",
+          "description": "AES-256（GCM/CBC）でテキストをブラウザ内で暗号化・復号化。パスワードベースで PBKDF2 により鍵を導出し、データは一切アップロードされません。",
+          "category": "Security"
+        },
+        "keywords": [
+          "AES 暗号化",
+          "AES 復号化",
+          "AES オンライン",
+          "AES 256 暗号化ツール",
+          "テキスト暗号化",
+          "パスワード暗号化",
+          "AES GCM",
+          "AES CBC",
+          "ブラウザ暗号化ツール",
+          "無料 暗号化ツール"
+        ],
+        "faqs": [
+          {
+            "question": "この暗号化は安全ですか？",
+            "answer": "はい。ブラウザのネイティブな Web Crypto API で AES-256 を使用し、PBKDF2（SHA-256 を 15 万回）でパスワードから 256 ビットの鍵を導出します。AES-GCM はデータを認証するため、改ざんも自動的に検出されます。"
+          },
+          {
+            "question": "パスワードやテキストはアップロードされますか？",
+            "answer": "いいえ。暗号化も復号化もすべてブラウザ内で完結します。パスワード・平文・暗号文がページの外に出ることはなく、サーバーは一切関与しません。"
+          },
+          {
+            "question": "AES-GCM と AES-CBC の違いは？",
+            "answer": "AES-GCM は認証付きモードで、暗号文の改ざんを検出できます。新規の暗号化にはこちらを推奨します。AES-CBC は旧システムとの互換性用で、単独では完全性を検証しません。"
+          },
+          {
+            "question": "ソルトは何のため？",
+            "answer": "同じパスワードでもメッセージごとに異なる鍵が導出されるようにする仕組みです。空欄のままでランダムソルト（推奨）、再現性が必要な場合は固定テキストを入力できます。ソルトは暗号文ブロックに自動的に格納されます。"
+          },
+          {
+            "question": "データが復号できないのはなぜ？",
+            "answer": "復号の失敗はほとんどがパスワードの誤りです。「パスワードが違います」の表示は導出された鍵が一致しなかったことを意味します。入力は本ツールが生成した完全な base64 ブロックである必要があります。ソルトと IV が暗号文と一緒に格納されているためです。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "ハッシュジェネレーター", "href": "/tools/hash-generator" },
+          { "name": "パスワード強度チェック", "href": "/tools/password-strength" },
+          { "name": "Base64 エンコーダー", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "AES でテキストを暗号化・復号する方法",
+            "paragraphs": [
+              "AES（Advanced Encryption Standard）は世界中で信頼されるデータ保護アルゴリズムです。本ツールは PBKDF2（SHA-256 を 15 万回）でパスワードから鍵を導出する AES-256 を提供します。",
+              "すべての処理は Web Crypto API によりブラウザ内で完結します。パスワードもデータもページの外に出ることはなく、保存も送信もされません。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "モードとアルゴリズムを選択",
+              "paragraphs": [
+                "テキストを保護するには「暗号化」タブ、元に戻すには「復号化」タブを使います。暗号化では AES-GCM（認証付き・推奨）か AES-CBC（レガシー互換）を選べます。復号化ではアルゴリズムを自動判別します。"
+              ]
+            },
+            {
+              "title": "強力なパスワードを入力",
+              "paragraphs": [
+                "パスワードはデータを解く唯一の手がかりです。長くて一意なものを選びましょう。鍵は PBKDF2 とソルトで導出され、総当たり攻撃を大幅に遅らせます。"
+              ]
+            },
+            {
+              "title": "ソルトと IV を理解する",
+              "paragraphs": [
+                "暗号化のたびにランダムなソルトと IV が生成され、出力ブロックに格納されます。暗号化後、結果の下でそれらの base64 値を確認できます。"
+              ]
+            },
+            {
+              "title": "安全に共有する",
+              "paragraphs": [
+                "base64 ブロック全体をコピーし、アルゴリズムと一緒に共有します。受け取り側に必要なのはパスワードとこのツールだけです。パスワードがなければデータは誰にも（私たちにも）読めません。アップロードは一切ありません。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "encryptTab": "暗号化",
+          "decryptTab": "復号化",
+          "algorithm": "アルゴリズム",
+          "password": "パスワード",
+          "passwordPlaceholder": "暗号化パスワードを入力",
+          "salt": "ソルト（任意）",
+          "saltPlaceholder": "空欄でランダムソルト",
+          "plaintext": "平文",
+          "plaintextPlaceholder": "暗号化するテキストを入力…",
+          "ciphertext": "暗号文",
+          "ciphertextPlaceholder": "復号する base64 ブロックを貼り付け…",
+          "encryptButton": "暗号化する",
+          "decryptButton": "復号化する",
+          "outputEncrypt": "暗号化結果（base64）",
+          "outputDecrypt": "復号化結果",
+          "saltUsed": "使用したソルト",
+          "ivUsed": "使用した IV",
+          "copy": "コピー",
+          "copied": "コピーしました！",
+          "privacy": "暗号化はブラウザ内で完結します。アップロード・記録・保存は一切ありません。"
+        },
+        "errors": {
+          "requiredPassword": "パスワードを入力してください。",
+          "requiredText": "処理するテキストを入力してください。",
+          "invalidData": "このデータは本ツールで暗号化されたものではないようです。",
+          "wrongPassword": "パスワードが違うか、データが破損しています。"
+        }
+      },
+      "ko": {
+        "metadata": {
+          "title": "AES 암호화·복호화",
+          "description": "브라우저에서 바로 AES-256(GCM/CBC)으로 텍스트를 암호화하고 복호화하세요. 비밀번호 기반 PBKDF2 키 유도 — 어떤 데이터도 업로드되지 않습니다.",
+          "category": "Security"
+        },
+        "keywords": [
+          "AES 암호화",
+          "AES 복호화",
+          "AES 온라인 암호화",
+          "AES 256 암호화 도구",
+          "텍스트 암호화",
+          "비밀번호 암호화",
+          "AES GCM",
+          "AES CBC",
+          "브라우저 암호화 도구",
+          "무료 텍스트 암호화"
+        ],
+        "faqs": [
+          {
+            "question": "이 암호화는 안전한가요?",
+            "answer": "네. 브라우저의 네이티브 Web Crypto API로 AES-256을 사용하며, PBKDF2(SHA-256 150,000회)로 비밀번호에서 256비트 키를 유도합니다. AES-GCM은 데이터 인증도 수행해 변조를 자동으로 감지합니다."
+          },
+          {
+            "question": "비밀번호나 텍스트가 업로드되나요?",
+            "answer": "아니요. 암호화와 복호화는 전부 브라우저에서 실행됩니다. 비밀번호, 평문, 암호문은 페이지를 떠나지 않으며 서버는 전혀 관여하지 않습니다."
+          },
+          {
+            "question": "AES-GCM과 AES-CBC의 차이는?",
+            "answer": "AES-GCM은 인증 모드로 암호문 변조 여부를 감지하며 새로운 암호화에 권장됩니다. AES-CBC는 구형 시스템과의 호환성을 위해 제공되며 자체적으로 무결성을 검증하지 않습니다."
+          },
+          {
+            "question": "솔트(salt)는 왜 필요한가요?",
+            "answer": "같은 비밀번호라도 메시지마다 다른 키가 유도되도록 합니다. 비워 두면 무작위 솔트를 사용하고(권장), 재현 가능한 결과가 필요하면 고정 텍스트를 입력하세요. 솔트는 암호문 블록에 자동으로 포함됩니다."
+          },
+          {
+            "question": "데이터를 복호화할 수 없는 이유는?",
+            "answer": "복호화 실패는 거의 대부분 비밀번호가 틀렸기 때문입니다. '비밀번호 오류' 메시지는 유도된 키가 일치하지 않았다는 뜻입니다. 입력은 이 도구가 만든 완전한 base64 블록이어야 하며, 솔트와 IV가 암호문과 함께 들어 있습니다."
+          }
+        ],
+        "relatedTools": [
+          { "name": "해시 생성기", "href": "/tools/hash-generator" },
+          { "name": "비밀번호 강도 검사", "href": "/tools/password-strength" },
+          { "name": "Base64 인코더", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "AES로 텍스트를 암호화·복호화하는 방법",
+            "paragraphs": [
+              "AES(고급 암호화 표준)는 전 세계에서 신뢰받는 데이터 보호 알고리즘입니다. 이 도구는 PBKDF2(SHA-256 150,000회)로 비밀번호에서 키를 유도하는 AES-256을 제공합니다.",
+              "모든 과정은 Web Crypto API를 통해 브라우저에서 로컬로 실행됩니다. 비밀번호와 데이터는 페이지 밖으로 나가지 않으며 저장·전송되지 않습니다."
+            ]
+          },
+          "sections": [
+            {
+              "title": "모드와 알고리즘 선택",
+              "paragraphs": [
+                "텍스트를 보호하려면 '암호화' 탭, 되돌리려면 '복호화' 탭을 사용하세요. 암호화에서는 AES-GCM(인증 포함, 권장) 또는 AES-CBC(구형 호환)를 고를 수 있고, 복호화에서는 알고리즘을 자동으로 인식합니다."
+              ]
+            },
+            {
+              "title": "강력한 비밀번호 입력",
+              "paragraphs": [
+                "비밀번호는 데이터를 여는 유일한 수단이므로 길고 고유하게 만드세요. 키는 PBKDF2와 솔트로 유도되어 무차별 대입 시도를 크게 늦춥니다."
+              ]
+            },
+            {
+              "title": "솔트와 IV 이해하기",
+              "paragraphs": [
+                "매 암호화마다 무작위 솔트와 IV가 생성되어 출력 블록에 담깁니다. 암호화 후 결과 아래에서 그 base64 값을 확인할 수 있습니다."
+              ]
+            },
+            {
+              "title": "안전하게 공유하기",
+              "paragraphs": [
+                "전체 base64 블록을 복사해 알고리즘 정보와 함께 공유하세요. 받는 사람에게는 비밀번호와 이 도구만 있으면 됩니다. 비밀번호가 없으면 우리를 포함해 누구도 데이터를 읽을 수 없습니다. 아무것도 업로드되지 않습니다."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "encryptTab": "암호화",
+          "decryptTab": "복호화",
+          "algorithm": "알고리즘",
+          "password": "비밀번호",
+          "passwordPlaceholder": "암호화 비밀번호 입력",
+          "salt": "솔트 (선택)",
+          "saltPlaceholder": "비워 두면 무작위 솔트 사용",
+          "plaintext": "평문",
+          "plaintextPlaceholder": "암호화할 텍스트를 입력하세요…",
+          "ciphertext": "암호문",
+          "ciphertextPlaceholder": "복호화할 base64 블록을 붙여넣으세요…",
+          "encryptButton": "암호화",
+          "decryptButton": "복호화",
+          "outputEncrypt": "암호화 결과 (base64)",
+          "outputDecrypt": "복호화 결과",
+          "saltUsed": "사용된 솔트",
+          "ivUsed": "사용된 IV",
+          "copy": "복사",
+          "copied": "복사됨!",
+          "privacy": "암호화는 브라우저에서 로컬로 실행됩니다. 업로드·기록·저장되는 것은 없습니다."
+        },
+        "errors": {
+          "requiredPassword": "비밀번호를 입력하세요.",
+          "requiredText": "처리할 텍스트를 입력하세요.",
+          "invalidData": "이 도구로 암호화된 데이터가 아닌 것 같습니다.",
+          "wrongPassword": "비밀번호가 틀렸거나 데이터가 손상되었습니다."
+        }
+      },
+      "ru": {
+        "metadata": {
+          "title": "Шифрование AES",
+          "description": "Шифруйте и расшифровывайте текст с помощью AES-256 (GCM или CBC) прямо в браузере. На основе пароля с выведением ключа PBKDF2 — ничего не загружается в сеть.",
+          "category": "Security"
+        },
+        "keywords": [
+          "шифрование AES",
+          "AES шифрование онлайн",
+          "AES расшифровка онлайн",
+          "AES 256 инструмент",
+          "шифрование текста онлайн",
+          "шифрование паролем",
+          "AES GCM",
+          "AES CBC",
+          "шифрование в браузере",
+          "бесплатное шифрование текста"
+        ],
+        "faqs": [
+          {
+            "question": "Насколько надёжно это шифрование?",
+            "answer": "Очень надёжно. Используется AES-256 через нативный Web Crypto API браузера, а 256-битный ключ выводится из пароля с помощью PBKDF2 (150 000 раундов SHA-256). AES-GCM дополнительно аутентифицирует данные, поэтому подмена обнаруживается автоматически."
+          },
+          {
+            "question": "Мой пароль или текст загружаются куда-либо?",
+            "answer": "Нет. Шифрование и расшифровка выполняются полностью в вашем браузере. Пароль, открытый и зашифрованный текст никогда не покидают страницу — сервер не участвует вовсе."
+          },
+          {
+            "question": "В чём разница между AES-GCM и AES-CBC?",
+            "answer": "AES-GCM — режим с аутентификацией: он определяет, был ли изменён шифртекст, и рекомендуется для нового шифрования. AES-CBC предлагается для совместимости со старыми системами и сам по себе целостность не проверяет."
+          },
+          {
+            "question": "Зачем нужна соль?",
+            "answer": "Соль гарантирует, что один и тот же пароль даёт разный ключ для каждого сообщения. Оставьте поле пустым для случайной соли (рекомендуется) или введите фиксированный текст, если нужен воспроизводимый результат. Соль автоматически упаковывается в зашифрованный блок."
+          },
+          {
+            "question": "Почему мои данные не расшифровываются?",
+            "answer": "Расшифровка почти всегда не удаётся из-за неверного пароля — сообщение «неверный пароль» означает, что выведенный ключ не совпал. На входе должен быть полный base64-блок, созданный этим инструментом, поскольку соль и IV упакованы вместе с шифртекстом."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Генератор хешей", "href": "/tools/hash-generator" },
+          { "name": "Проверка надёжности пароля", "href": "/tools/password-strength" },
+          { "name": "Кодировщик Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Как зашифровать и расшифровать текст с помощью AES",
+            "paragraphs": [
+              "AES (Advanced Encryption Standard) — алгоритм, которому доверяют во всём мире для защиты конфиденциальных данных. Этот инструмент предоставляет AES-256 с ключом, выведенным из пароля через PBKDF2 — 150 000 раундов SHA-256.",
+              "Всё работает локально в браузере через Web Crypto API. Ваш пароль и данные никогда не покидают страницу, ничего не сохраняется и не передаётся."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Выберите режим и алгоритм",
+              "paragraphs": [
+                "Вкладка «Шифровать» защищает текст, «Расшифровать» — восстанавливает его. Для шифрования доступны AES-GCM (с аутентификацией, рекомендуется) и AES-CBC (совместимость с legacy); при расшифровке алгоритм определяется автоматически."
+              ]
+            },
+            {
+              "title": "Введите надёжный пароль",
+              "paragraphs": [
+                "Пароль — единственное, что может открыть данные, поэтому он должен быть длинным и уникальным. Ключ выводится через PBKDF2 с солью, что резко замедляет перебор."
+              ]
+            },
+            {
+              "title": "Что такое соль и IV",
+              "paragraphs": [
+                "Для каждого шифрования создаются случайные соль и IV, которые упаковываются в результирующий блок. После шифрования их значения в base64 можно посмотреть под результатом."
+              ]
+            },
+            {
+              "title": "Как безопасно поделиться",
+              "paragraphs": [
+                "Скопируйте весь base64-блок и передайте вместе с информацией об алгоритме — получателю понадобятся только пароль и этот инструмент. Без пароля данные не прочитает никто, включая нас: ничего не загружается в сеть."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "encryptTab": "Шифровать",
+          "decryptTab": "Расшифровать",
+          "algorithm": "Алгоритм",
+          "password": "Пароль",
+          "passwordPlaceholder": "Введите пароль шифрования",
+          "salt": "Соль (необязательно)",
+          "saltPlaceholder": "Оставьте пустым для случайной соли",
+          "plaintext": "Открытый текст",
+          "plaintextPlaceholder": "Введите текст для шифрования…",
+          "ciphertext": "Шифртекст",
+          "ciphertextPlaceholder": "Вставьте base64-блок для расшифровки…",
+          "encryptButton": "Зашифровать",
+          "decryptButton": "Расшифровать",
+          "outputEncrypt": "Результат шифрования (base64)",
+          "outputDecrypt": "Результат расшифровки",
+          "saltUsed": "Использованная соль",
+          "ivUsed": "Использованный IV",
+          "copy": "Копировать",
+          "copied": "Скопировано!",
+          "privacy": "Шифрование выполняется локально в браузере. Ничего не загружается, не записывается и не сохраняется."
+        },
+        "errors": {
+          "requiredPassword": "Введите пароль.",
+          "requiredText": "Введите текст для обработки.",
+          "invalidData": "Похоже, эти данные зашифрованы не этим инструментом.",
+          "wrongPassword": "Неверный пароль или повреждённые данные."
+        }
+      },
+      "es": {
+        "metadata": {
+          "title": "Cifrado AES",
+          "description": "Cifra y descifra texto con AES-256 (GCM o CBC) directamente en tu navegador. Basado en contraseña con derivación de clave PBKDF2 — no se sube nada a ningún sitio.",
+          "category": "Security"
+        },
+        "keywords": [
+          "cifrado AES",
+          "cifrar AES online",
+          "descifrar AES online",
+          "herramienta AES 256",
+          "cifrar texto online",
+          "cifrado con contraseña",
+          "AES GCM",
+          "AES CBC",
+          "cifrado en el navegador",
+          "cifrado de texto gratis"
+        ],
+        "faqs": [
+          {
+            "question": "¿Es seguro este cifrado?",
+            "answer": "Sí. Usa AES-256 mediante la Web Crypto API nativa del navegador, con una clave de 256 bits derivada de tu contraseña por PBKDF2 (150.000 rondas de SHA-256). AES-GCM además autentica los datos, por lo que la manipulación se detecta automáticamente."
+          },
+          {
+            "question": "¿Se sube mi contraseña o mi texto a algún sitio?",
+            "answer": "No. El cifrado y el descifrado se ejecutan por completo en tu navegador. Tu contraseña, el texto en claro y el cifrado nunca salen de la página: ningún servidor interviene."
+          },
+          {
+            "question": "¿Qué diferencia hay entre AES-GCM y AES-CBC?",
+            "answer": "AES-GCM es un modo autenticado: detecta si el texto cifrado fue modificado y se recomienda para nuevos cifrados. AES-CBC se ofrece por compatibilidad con sistemas antiguos, pero por sí solo no verifica la integridad."
+          },
+          {
+            "question": "¿Para qué sirve la sal?",
+            "answer": "La sal garantiza que la misma contraseña derive una clave distinta para cada mensaje. Déjala vacía para una sal aleatoria (recomendado) o escribe un texto fijo si necesitas un resultado reproducible. La sal se empaqueta automáticamente en el bloque cifrado."
+          },
+          {
+            "question": "¿Por qué no puedo descifrar mis datos?",
+            "answer": "El descifrado casi siempre falla porque la contraseña es incorrecta: el mensaje de 'contraseña incorrecta' significa que la clave derivada no coincidió. La entrada debe ser el bloque base64 completo que produjo esta herramienta, ya que agrupa la sal y el IV junto con el texto cifrado."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Generador de Hashes", "href": "/tools/hash-generator" },
+          { "name": "Comprobador de Fortaleza de Contraseñas", "href": "/tools/password-strength" },
+          { "name": "Codificador Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Cómo cifrar y descifrar texto con AES",
+            "paragraphs": [
+              "AES (Advanced Encryption Standard) es el algoritmo de referencia mundial para proteger datos sensibles. Esta herramienta te ofrece AES-256 con una clave derivada de tu contraseña mediante PBKDF2: 150.000 rondas de SHA-256.",
+              "Todo se ejecuta localmente en tu navegador a través de la Web Crypto API. Tu contraseña y tus datos nunca salen de la página, y no se guarda ni se transmite nada."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Elige modo y algoritmo",
+              "paragraphs": [
+                "Usa la pestaña Cifrar para proteger texto y Descifrar para recuperarlo. Para cifrar, elige AES-GCM (autenticado, recomendado) o AES-CBC (compatibilidad legacy); al descifrar, el algoritmo se detecta automáticamente."
+              ]
+            },
+            {
+              "title": "Introduce una contraseña fuerte",
+              "paragraphs": [
+                "Tu contraseña es lo único que puede desbloquear los datos, así que hazla larga y única. La clave se deriva con PBKDF2 y una sal, lo que frena drásticamente los intentos de fuerza bruta."
+              ]
+            },
+            {
+              "title": "Entiende la sal y el IV",
+              "paragraphs": [
+                "Se generan una sal aleatoria y un IV aleatorio en cada cifrado y se empaquetan en el bloque de salida. Tras cifrar, puedes ver sus valores en base64 bajo el resultado."
+              ]
+            },
+            {
+              "title": "Comparte con seguridad",
+              "paragraphs": [
+                "Copia el bloque base64 completo y compártelo junto con el algoritmo: el destinatario solo necesita la contraseña y esta herramienta. Sin la contraseña, los datos son ilegibles incluso para nosotros: nunca se sube nada."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "encryptTab": "Cifrar",
+          "decryptTab": "Descifrar",
+          "algorithm": "Algoritmo",
+          "password": "Contraseña",
+          "passwordPlaceholder": "Introduce la contraseña de cifrado",
+          "salt": "Sal (opcional)",
+          "saltPlaceholder": "Déjalo vacío para una sal aleatoria",
+          "plaintext": "Texto en claro",
+          "plaintextPlaceholder": "Escribe el texto a cifrar…",
+          "ciphertext": "Texto cifrado",
+          "ciphertextPlaceholder": "Pega el bloque base64 a descifrar…",
+          "encryptButton": "Cifrar",
+          "decryptButton": "Descifrar",
+          "outputEncrypt": "Resultado cifrado (base64)",
+          "outputDecrypt": "Resultado descifrado",
+          "saltUsed": "Sal utilizada",
+          "ivUsed": "IV utilizado",
+          "copy": "Copiar",
+          "copied": "¡Copiado!",
+          "privacy": "El cifrado se ejecuta localmente en tu navegador. No se sube, registra ni almacena nada."
+        },
+        "errors": {
+          "requiredPassword": "Introduce una contraseña.",
+          "requiredText": "Introduce el texto a procesar.",
+          "invalidData": "Esto no parece haber sido cifrado con esta herramienta.",
+          "wrongPassword": "Contraseña incorrecta o datos corruptos."
+        }
+      },
+      "de": {
+        "metadata": {
+          "title": "AES-Verschlüsselung",
+          "description": "Verschlüssele und entschlüssele Texte mit AES-256 (GCM oder CBC) direkt im Browser. Passwortbasiert mit PBKDF2-Schlüsselableitung – nichts wird hochgeladen.",
+          "category": "Security"
+        },
+        "keywords": [
+          "AES Verschlüsselung",
+          "AES online verschlüsseln",
+          "AES online entschlüsseln",
+          "AES 256 Tool",
+          "Text verschlüsseln online",
+          "Passwort Verschlüsselung",
+          "AES GCM",
+          "AES CBC",
+          "Browser Verschlüsselung",
+          "kostenlose Textverschlüsselung"
+        ],
+        "faqs": [
+          {
+            "question": "Ist diese Verschlüsselung sicher?",
+            "answer": "Ja. Sie nutzt AES-256 über die native Web Crypto API des Browsers, mit einem 256-Bit-Schlüssel, der per PBKDF2 (150.000 Runden SHA-256) aus deinem Passwort abgeleitet wird. AES-GCM authentifiziert die Daten zusätzlich, sodass Manipulationen automatisch erkannt werden."
+          },
+          {
+            "question": "Wird mein Passwort oder Text hochgeladen?",
+            "answer": "Nein. Ver- und Entschlüsselung laufen vollständig in deinem Browser. Passwort, Klartext und Geheimtext verlassen die Seite nie – ein Server ist überhaupt nicht beteiligt."
+          },
+          {
+            "question": "Was ist der Unterschied zwischen AES-GCM und AES-CBC?",
+            "answer": "AES-GCM ist ein authentifizierter Modus: Er erkennt, ob der Geheimtext verändert wurde, und wird für neue Verschlüsselungen empfohlen. AES-CBC dient der Kompatibilität mit älteren Systemen, prüft aber selbst keine Integrität."
+          },
+          {
+            "question": "Wozu dient das Salt?",
+            "answer": "Das Salt sorgt dafür, dass dasselbe Passwort für jede Nachricht einen anderen Schlüssel ergibt. Lass es leer für ein zufälliges Salt (empfohlen) oder gib einen festen Text ein, wenn du reproduzierbare Ergebnisse brauchst. Das Salt wird automatisch in den verschlüsselten Block gepackt."
+          },
+          {
+            "question": "Warum kann ich meine Daten nicht entschlüsseln?",
+            "answer": "Die Entschlüsselung schlägt fast immer fehl, weil das Passwort falsch ist – die Meldung „Falsches Passwort“ bedeutet, dass der abgeleitete Schlüssel nicht passte. Die Eingabe muss der vollständige Base64-Block dieses Tools sein, da Salt und IV zusammen mit dem Geheimtext verpackt sind."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Hash-Generator", "href": "/tools/hash-generator" },
+          { "name": "Passwort-Stärke-Prüfung", "href": "/tools/password-strength" },
+          { "name": "Base64-Encoder", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "So verschlüsselst und entschlüsselst du Text mit AES",
+            "paragraphs": [
+              "AES (Advanced Encryption Standard) ist der weltweit vertraute Standard zum Schutz sensibler Daten. Dieses Tool bietet dir AES-256 mit einem per PBKDF2 aus deinem Passwort abgeleiteten Schlüssel – 150.000 Runden SHA-256.",
+              "Alles läuft lokal in deinem Browser über die Web Crypto API. Dein Passwort und deine Daten verlassen die Seite nie, und nichts wird gespeichert oder übertragen."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Modus und Algorithmus wählen",
+              "paragraphs": [
+                "Nutze den Tab „Verschlüsseln“ zum Schützen von Text und „Entschlüsseln“ zum Wiederherstellen. Zum Verschlüsseln wählst du AES-GCM (authentifiziert, empfohlen) oder AES-CBC (Legacy-Kompatibilität); beim Entschlüsseln wird der Algorithmus automatisch erkannt."
+              ]
+            },
+            {
+              "title": "Starkes Passwort eingeben",
+              "paragraphs": [
+                "Dein Passwort ist der einzige Schlüssel zu den Daten – mach es also lang und einzigartig. Der Schlüssel wird mit PBKDF2 und einem Salt abgeleitet, was Brute-Force-Versuche drastisch verlangsamt."
+              ]
+            },
+            {
+              "title": "Salt und IV verstehen",
+              "paragraphs": [
+                "Bei jeder Verschlüsselung werden ein zufälliges Salt und ein zufälliger IV erzeugt und in den Ausgabeblock gepackt. Nach dem Verschlüsseln kannst du ihre Base64-Werte unter dem Ergebnis einsehen."
+              ]
+            },
+            {
+              "title": "Sicher teilen",
+              "paragraphs": [
+                "Kopiere den vollständigen Base64-Block und teile ihn zusammen mit dem Algorithmus – der Empfänger braucht nur das Passwort und dieses Tool. Ohne das Passwort sind die Daten für niemanden lesbar, auch nicht für uns: Es wird nichts hochgeladen."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "encryptTab": "Verschlüsseln",
+          "decryptTab": "Entschlüsseln",
+          "algorithm": "Algorithmus",
+          "password": "Passwort",
+          "passwordPlaceholder": "Verschlüsselungs-Passwort eingeben",
+          "salt": "Salt (optional)",
+          "saltPlaceholder": "Leer lassen für zufälliges Salt",
+          "plaintext": "Klartext",
+          "plaintextPlaceholder": "Zu verschlüsselnden Text eingeben…",
+          "ciphertext": "Geheimtext",
+          "ciphertextPlaceholder": "Base64-Block zum Entschlüsseln einfügen…",
+          "encryptButton": "Verschlüsseln",
+          "decryptButton": "Entschlüsseln",
+          "outputEncrypt": "Verschlüsseltes Ergebnis (base64)",
+          "outputDecrypt": "Entschlüsseltes Ergebnis",
+          "saltUsed": "Verwendetes Salt",
+          "ivUsed": "Verwendeter IV",
+          "copy": "Kopieren",
+          "copied": "Kopiert!",
+          "privacy": "Die Verschlüsselung läuft lokal in deinem Browser. Nichts wird hochgeladen, protokolliert oder gespeichert."
+        },
+        "errors": {
+          "requiredPassword": "Bitte gib ein Passwort ein.",
+          "requiredText": "Bitte gib den zu verarbeitenden Text ein.",
+          "invalidData": "Das sieht nicht nach mit diesem Tool verschlüsselten Daten aus.",
+          "wrongPassword": "Falsches Passwort oder beschädigte Daten."
+        }
+      },
+      "fr": {
+        "metadata": {
+          "title": "Chiffrement AES",
+          "description": "Chiffrez et déchiffrez du texte en AES-256 (GCM ou CBC) directement dans votre navigateur. Basé sur un mot de passe avec dérivation de clé PBKDF2 — rien n'est envoyé en ligne.",
+          "category": "Security"
+        },
+        "keywords": [
+          "chiffrement AES",
+          "chiffrer AES en ligne",
+          "déchiffrer AES en ligne",
+          "outil AES 256",
+          "chiffrer du texte en ligne",
+          "chiffrement par mot de passe",
+          "AES GCM",
+          "AES CBC",
+          "chiffrement navigateur",
+          "chiffrement de texte gratuit"
+        ],
+        "faqs": [
+          {
+            "question": "Ce chiffrement est-il sûr ?",
+            "answer": "Oui. Il utilise AES-256 via la Web Crypto API native du navigateur, avec une clé de 256 bits dérivée de votre mot de passe par PBKDF2 (150 000 tours de SHA-256). AES-GCM authentifie en outre les données : toute falsification est détectée automatiquement."
+          },
+          {
+            "question": "Mon mot de passe ou mon texte sont-ils envoyés quelque part ?",
+            "answer": "Non. Le chiffrement et le déchiffrement s'exécutent entièrement dans votre navigateur. Votre mot de passe, le texte en clair et le texte chiffré ne quittent jamais la page — aucun serveur n'intervient."
+          },
+          {
+            "question": "Quelle différence entre AES-GCM et AES-CBC ?",
+            "answer": "AES-GCM est un mode authentifié : il détecte si le texte chiffré a été modifié et est recommandé pour tout nouveau chiffrement. AES-CBC est proposé pour la compatibilité avec les anciens systèmes, mais ne vérifie pas l'intégrité par lui-même."
+          },
+          {
+            "question": "À quoi sert le sel ?",
+            "answer": "Le sel garantit que le même mot de passe produit une clé différente pour chaque message. Laissez-le vide pour un sel aléatoire (recommandé) ou saisissez un texte fixe si vous avez besoin d'un résultat reproductible. Le sel est automatiquement empaqueté dans le bloc chiffré."
+          },
+          {
+            "question": "Pourquoi ne puis-je pas déchiffrer mes données ?",
+            "answer": "Le déchiffrement échoue presque toujours parce que le mot de passe est erroné : le message « mot de passe incorrect » signifie que la clé dérivée ne correspondait pas. L'entrée doit être le bloc base64 complet produit par cet outil, car le sel et l'IV sont empaquetés avec le texte chiffré."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Générateur de Hachages", "href": "/tools/hash-generator" },
+          { "name": "Vérificateur de Robustesse des Mots de Passe", "href": "/tools/password-strength" },
+          { "name": "Encodeur Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Comment chiffrer et déchiffrer du texte avec AES",
+            "paragraphs": [
+              "AES (Advanced Encryption Standard) est l'algorithme de référence mondial pour protéger les données sensibles. Cet outil vous offre AES-256 avec une clé dérivée de votre mot de passe via PBKDF2 : 150 000 tours de SHA-256.",
+              "Tout s'exécute localement dans votre navigateur via la Web Crypto API. Votre mot de passe et vos données ne quittent jamais la page, et rien n'est stocké ni transmis."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Choisissez le mode et l'algorithme",
+              "paragraphs": [
+                "Utilisez l'onglet Chiffrer pour protéger du texte et Déchiffrer pour le récupérer. Pour le chiffrement, choisissez AES-GCM (authentifié, recommandé) ou AES-CBC (compatibilité ancienne génération) ; le déchiffrement détecte l'algorithme automatiquement."
+              ]
+            },
+            {
+              "title": "Saisissez un mot de passe solide",
+              "paragraphs": [
+                "Votre mot de passe est la seule clé d'accès aux données : il doit donc être long et unique. La clé est dérivée avec PBKDF2 et un sel, ce qui ralentit considérablement les attaques par force brute."
+              ]
+            },
+            {
+              "title": "Comprendre le sel et l'IV",
+              "paragraphs": [
+                "Un sel aléatoire et un IV aléatoire sont générés à chaque chiffrement et empaquetés dans le bloc de sortie. Après chiffrement, vous pouvez consulter leurs valeurs en base64 sous le résultat."
+              ]
+            },
+            {
+              "title": "Partagez en toute sécurité",
+              "paragraphs": [
+                "Copiez le bloc base64 complet et partagez-le avec l'algorithme : le destinataire n'a besoin que du mot de passe et de cet outil. Sans le mot de passe, personne ne peut lire les données, pas même nous : rien n'est jamais envoyé en ligne."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "encryptTab": "Chiffrer",
+          "decryptTab": "Déchiffrer",
+          "algorithm": "Algorithme",
+          "password": "Mot de passe",
+          "passwordPlaceholder": "Saisissez le mot de passe de chiffrement",
+          "salt": "Sel (facultatif)",
+          "saltPlaceholder": "Laissez vide pour un sel aléatoire",
+          "plaintext": "Texte en clair",
+          "plaintextPlaceholder": "Saisissez le texte à chiffrer…",
+          "ciphertext": "Texte chiffré",
+          "ciphertextPlaceholder": "Collez le bloc base64 à déchiffrer…",
+          "encryptButton": "Chiffrer",
+          "decryptButton": "Déchiffrer",
+          "outputEncrypt": "Résultat chiffré (base64)",
+          "outputDecrypt": "Résultat déchiffré",
+          "saltUsed": "Sel utilisé",
+          "ivUsed": "IV utilisé",
+          "copy": "Copier",
+          "copied": "Copié !",
+          "privacy": "Le chiffrement s'effectue localement dans votre navigateur. Rien n'est envoyé, journalisé ni stocké."
+        },
+        "errors": {
+          "requiredPassword": "Veuillez saisir un mot de passe.",
+          "requiredText": "Veuillez saisir le texte à traiter.",
+          "invalidData": "Cela ne semble pas avoir été chiffré avec cet outil.",
+          "wrongPassword": "Mot de passe incorrect ou données corrompues."
+        }
+      },
+      "pt": {
+        "metadata": {
+          "title": "Criptografia AES",
+          "description": "Criptografe e descriptografe texto com AES-256 (GCM ou CBC) direto no seu navegador. Baseado em senha com derivação de chave PBKDF2 — nada é enviado para a internet.",
+          "category": "Security"
+        },
+        "keywords": [
+          "criptografia AES",
+          "criptografar AES online",
+          "descriptografar AES online",
+          "ferramenta AES 256",
+          "criptografar texto online",
+          "criptografia por senha",
+          "AES GCM",
+          "AES CBC",
+          "criptografia no navegador",
+          "criptografia de texto grátis"
+        ],
+        "faqs": [
+          {
+            "question": "Essa criptografia é segura?",
+            "answer": "Sim. Ela usa AES-256 pela Web Crypto API nativa do navegador, com uma chave de 256 bits derivada da sua senha por PBKDF2 (150.000 rodadas de SHA-256). O AES-GCM também autentica os dados, então qualquer adulteração é detectada automaticamente."
+          },
+          {
+            "question": "Minha senha ou meu texto são enviados para algum servidor?",
+            "answer": "Não. A criptografia e a descriptografia rodam inteiramente no seu navegador. Sua senha, o texto em claro e o texto cifrado nunca saem da página — nenhum servidor participa."
+          },
+          {
+            "question": "Qual a diferença entre AES-GCM e AES-CBC?",
+            "answer": "O AES-GCM é um modo autenticado: ele detecta se o texto cifrado foi alterado e é recomendado para novas criptografias. O AES-CBC existe para compatibilidade com sistemas antigos, mas por si só não verifica a integridade."
+          },
+          {
+            "question": "Para que serve o salt?",
+            "answer": "O salt garante que a mesma senha gere uma chave diferente para cada mensagem. Deixe-o vazio para um salt aleatório (recomendado) ou digite um texto fixo se precisar de saída reproduzível. O salt é embutido automaticamente no bloco cifrado."
+          },
+          {
+            "question": "Por que não consigo descriptografar meus dados?",
+            "answer": "A descriptografia quase sempre falha porque a senha está errada — a mensagem 'senha incorreta' significa que a chave derivada não correspondeu. A entrada deve ser o bloco base64 completo produzido por esta ferramenta, pois o salt e o IV são embutidos junto com o texto cifrado."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Gerador de Hashes", "href": "/tools/hash-generator" },
+          { "name": "Verificador de Força de Senhas", "href": "/tools/password-strength" },
+          { "name": "Codificador Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Como criptografar e descriptografar texto com AES",
+            "paragraphs": [
+              "O AES (Advanced Encryption Standard) é o algoritmo mundialmente confiável para proteger dados sensíveis. Esta ferramenta oferece AES-256 com uma chave derivada da sua senha por PBKDF2 — 150.000 rodadas de SHA-256.",
+              "Tudo roda localmente no seu navegador pela Web Crypto API. Sua senha e seus dados nunca saem da página, e nada é armazenado ou transmitido."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Escolha o modo e o algoritmo",
+              "paragraphs": [
+                "Use a aba Criptografar para proteger texto e Descriptografar para recuperá-lo. Na criptografia, escolha AES-GCM (autenticado, recomendado) ou AES-CBC (compatibilidade legado); na descriptografia, o algoritmo é detectado automaticamente."
+              ]
+            },
+            {
+              "title": "Digite uma senha forte",
+              "paragraphs": [
+                "Sua senha é a única coisa que pode desbloquear os dados, então torne-a longa e única. A chave é derivada com PBKDF2 e um salt, o que desacelera muito as tentativas de força bruta."
+              ]
+            },
+            {
+              "title": "Entenda o salt e o IV",
+              "paragraphs": [
+                "Um salt aleatório e um IV aleatório são gerados a cada criptografia e embutidos no bloco de saída. Depois de criptografar, você pode conferir os valores em base64 abaixo do resultado."
+              ]
+            },
+            {
+              "title": "Compartilhe com segurança",
+              "paragraphs": [
+                "Copie o bloco base64 completo e compartilhe-o junto com o algoritmo — quem recebe só precisa da senha e desta ferramenta. Sem a senha, os dados são ilegíveis para qualquer um, inclusive para nós: nada é enviado para a internet."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "encryptTab": "Criptografar",
+          "decryptTab": "Descriptografar",
+          "algorithm": "Algoritmo",
+          "password": "Senha",
+          "passwordPlaceholder": "Digite a senha de criptografia",
+          "salt": "Salt (opcional)",
+          "saltPlaceholder": "Deixe vazio para um salt aleatório",
+          "plaintext": "Texto em claro",
+          "plaintextPlaceholder": "Digite o texto para criptografar…",
+          "ciphertext": "Texto cifrado",
+          "ciphertextPlaceholder": "Cole o bloco base64 para descriptografar…",
+          "encryptButton": "Criptografar",
+          "decryptButton": "Descriptografar",
+          "outputEncrypt": "Resultado criptografado (base64)",
+          "outputDecrypt": "Resultado descriptografado",
+          "saltUsed": "Salt usado",
+          "ivUsed": "IV usado",
+          "copy": "Copiar",
+          "copied": "Copiado!",
+          "privacy": "A criptografia acontece localmente no seu navegador. Nada é enviado, registrado ou armazenado."
+        },
+        "errors": {
+          "requiredPassword": "Digite uma senha.",
+          "requiredText": "Digite o texto a ser processado.",
+          "invalidData": "Isto não parece ser um dado criptografado por esta ferramenta.",
+          "wrongPassword": "Senha incorreta ou dados corrompidos."
+        }
+      }
+    }
+  },
+  "homeTools": {
+    "password-generator": {
+      "en": { "name": "Password Generator", "description": "Generate secure random passwords with custom length and character sets.", "category": "Security", "icon": "🔐" },
+      "zh": { "name": "密码生成器", "description": "自定义长度和字符集，生成安全随机密码。", "category": "Security", "icon": "🔐" },
+      "ja": { "name": "パスワードジェネレーター", "description": "長さと文字種を指定して安全なランダムパスワードを生成。", "category": "Security", "icon": "🔐" },
+      "ko": { "name": "비밀번호 생성기", "description": "길이와 문자 종류를 지정해 안전한 무작위 비밀번호를 생성합니다.", "category": "Security", "icon": "🔐" },
+      "ru": { "name": "Генератор паролей", "description": "Создание надёжных случайных паролей с настраиваемой длиной и набором символов.", "category": "Security", "icon": "🔐" },
+      "es": { "name": "Generador de Contraseñas", "description": "Genera contraseñas aleatorias seguras con la longitud y los caracteres que elijas.", "category": "Security", "icon": "🔐" },
+      "de": { "name": "Passwort-Generator", "description": "Sichere Zufallspasswörter mit individueller Länge und Zeichenauswahl erstellen.", "category": "Security", "icon": "🔐" },
+      "fr": { "name": "Générateur de Mots de Passe", "description": "Générez des mots de passe aléatoires sécurisés avec la longueur et les caractères de votre choix.", "category": "Security", "icon": "🔐" },
+      "pt": { "name": "Gerador de Senhas", "description": "Gere senhas aleatórias seguras com o comprimento e os caracteres que você escolher.", "category": "Security", "icon": "🔐" }
+    },
+    "jwt-generator": {
+      "en": { "name": "JWT Generator", "description": "Create and sign JSON Web Tokens (HS256/384/512) with custom headers, payloads, and expiry.", "category": "Security", "icon": "🔑" },
+      "zh": { "name": "JWT 生成器", "description": "自定义头部、载荷和过期时间，生成并签名 JSON Web Token（HS256/384/512）。", "category": "Security", "icon": "🔑" },
+      "ja": { "name": "JWT 生成ツール", "description": "ヘッダー・ペイロード・有効期限を設定して JSON Web Token（HS256/384/512）を生成・署名。", "category": "Security", "icon": "🔑" },
+      "ko": { "name": "JWT 생성기", "description": "헤더·페이로드·만료를 설정해 JSON Web Token(HS256/384/512)을 생성하고 서명합니다.", "category": "Security", "icon": "🔑" },
+      "ru": { "name": "Генератор JWT", "description": "Создание и подпись JSON Web Tokens (HS256/384/512) со своими заголовками, нагрузкой и сроком действия.", "category": "Security", "icon": "🔑" },
+      "es": { "name": "Generador de JWT", "description": "Crea y firma JSON Web Tokens (HS256/384/512) con cabecera, carga útil y caducidad personalizadas.", "category": "Security", "icon": "🔑" },
+      "de": { "name": "JWT-Generator", "description": "JSON Web Tokens (HS256/384/512) mit eigenen Headern, Payloads und Ablaufzeit erstellen und signieren.", "category": "Security", "icon": "🔑" },
+      "fr": { "name": "Générateur de JWT", "description": "Créez et signez des JSON Web Tokens (HS256/384/512) avec en-tête, charge utile et expiration personnalisées.", "category": "Security", "icon": "🔑" },
+      "pt": { "name": "Gerador de JWT", "description": "Crie e assine JSON Web Tokens (HS256/384/512) com cabeçalho, payload e validade personalizados.", "category": "Security", "icon": "🔑" }
+    },
+    "aes-encryption": {
+      "en": { "name": "AES Encryption", "description": "Encrypt and decrypt text with AES-256 (GCM/CBC) entirely in your browser.", "category": "Security", "icon": "🔒" },
+      "zh": { "name": "AES 加密解密", "description": "在浏览器本地使用 AES-256（GCM/CBC）加密和解密文本。", "category": "Security", "icon": "🔒" },
+      "ja": { "name": "AES 暗号化・復号ツール", "description": "AES-256（GCM/CBC）でテキストをブラウザ内で暗号化・復号化。", "category": "Security", "icon": "🔒" },
+      "ko": { "name": "AES 암호화·복호화", "description": "브라우저에서 AES-256(GCM/CBC)으로 텍스트를 암호화하고 복호화합니다.", "category": "Security", "icon": "🔒" },
+      "ru": { "name": "Шифрование AES", "description": "Шифруйте и расшифровывайте текст с помощью AES-256 (GCM/CBC) прямо в браузере.", "category": "Security", "icon": "🔒" },
+      "es": { "name": "Cifrado AES", "description": "Cifra y descifra texto con AES-256 (GCM/CBC) directamente en tu navegador.", "category": "Security", "icon": "🔒" },
+      "de": { "name": "AES-Verschlüsselung", "description": "Texte mit AES-256 (GCM/CBC) direkt im Browser ver- und entschlüsseln.", "category": "Security", "icon": "🔒" },
+      "fr": { "name": "Chiffrement AES", "description": "Chiffrez et déchiffrez du texte en AES-256 (GCM/CBC) directement dans votre navigateur.", "category": "Security", "icon": "🔒" },
+      "pt": { "name": "Criptografia AES", "description": "Criptografe e descriptografe texto com AES-256 (GCM/CBC) direto no seu navegador.", "category": "Security", "icon": "🔒" }
+    }
+  }
+}

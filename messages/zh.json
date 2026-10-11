@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "ToolkitLife - 免费开发者与设计工具 | 无需注册",
-    "description": "370+ 款免费浏览器工具和计算器，覆盖开发、设计、财务、健康等领域。无需注册，不存储数据。",
+    "description": "390+ 款免费浏览器工具和计算器，覆盖开发、设计、财务、健康等领域。无需注册，不存储数据。",
     "keywords": [
       "免费在线工具",
       "开发者工具",
@@ -17,9 +17,9 @@
       "good morning images"
     ],
     "ogTitle": "ToolkitLife - 免费开发者与设计工具",
-    "ogDescription": "370+ 款免费浏览器工具和计算器。无需注册，不存储数据。全部本地运行。",
+    "ogDescription": "390+ 款免费浏览器工具和计算器。无需注册，不存储数据。全部本地运行。",
     "twitterTitle": "ToolkitLife - 免费开发者与设计工具",
-    "twitterDescription": "370+ 款免费浏览器工具和计算器。无需注册。"
+    "twitterDescription": "390+ 款免费浏览器工具和计算器。无需注册。"
   },
   "nav": {
     "home": "ToolkitLife",
@@ -71,35 +71,35 @@
       "Math": "数学"
     },
     "why": {
-        "title": "为什么选择 ToolkitLife",
-        "intro": "ToolkitLife 收录 379 个免费在线工具与计算器，覆盖 16 个大类——从 PDF 转换、图片编辑到房贷、BMI 与个税计算。所有工具直接在浏览器中运行：无需安装，无需注册。",
-        "privacy": "文件隐私无忧：图片、视频和文档工具全部通过 <mdn>WebAssembly</mdn> 在本地浏览器中完成处理，数据不会离开你的设备。",
-        "i18n": "网站提供简体中文、英语、日语、韩语和俄语五种语言，每个工具页都附有使用指南和常见问题解答。"
+      "title": "为什么选择 ToolkitLife",
+      "intro": "ToolkitLife 收录 379 个免费在线工具与计算器，覆盖 16 个大类——从 PDF 转换、图片编辑到房贷、BMI 与个税计算。所有工具直接在浏览器中运行：无需安装，无需注册。",
+      "privacy": "文件隐私无忧：图片、视频和文档工具全部通过 <mdn>WebAssembly</mdn> 在本地浏览器中完成处理，数据不会离开你的设备。",
+      "i18n": "网站提供简体中文、英语、日语、韩语和俄语五种语言，每个工具页都附有使用指南和常见问题解答。"
     },
     "faq": {
-        "title": "常见问题",
-        "items": [
-            {
-                "question": "ToolkitLife 是免费的吗？",
-                "answer": "是的。全部 379 个工具完全免费，无需注册、没有订阅、不限使用次数。处理都在你的设备上完成，没有需要转嫁的服务器成本。"
-            },
-            {
-                "question": "我的文件会被上传到服务器吗？",
-                "answer": "不会。所有工具完全在浏览器内运行，基于 JavaScript 与 WebAssembly。文件、文字和图片均在本地处理，不会发送到任何服务器。"
-            },
-            {
-                "question": "需要注册账号吗？",
-                "answer": "不需要。网站没有账号系统，打开工具即可使用。收藏和最近使用只保存在你自己的浏览器里。"
-            },
-            {
-                "question": "支持哪些设备和浏览器？",
-                "answer": "桌面、平板、手机上的主流现代浏览器均可使用，包括 Chrome、Edge、Firefox 和 Safari。工具会自适应屏幕尺寸，无需安装任何软件。"
-            },
-            {
-                "question": "计算器结果可靠吗？",
-                "answer": "计算器采用标准公式进行估算，仅供参考。金融、健康和法律类工具均附有免责声明，不能替代专业人士的意见。"
-            }
-        ]
+      "title": "常见问题",
+      "items": [
+        {
+          "question": "ToolkitLife 是免费的吗？",
+          "answer": "是的。全部 379 个工具完全免费，无需注册、没有订阅、不限使用次数。处理都在你的设备上完成，没有需要转嫁的服务器成本。"
+        },
+        {
+          "question": "我的文件会被上传到服务器吗？",
+          "answer": "不会。所有工具完全在浏览器内运行，基于 JavaScript 与 WebAssembly。文件、文字和图片均在本地处理，不会发送到任何服务器。"
+        },
+        {
+          "question": "需要注册账号吗？",
+          "answer": "不需要。网站没有账号系统，打开工具即可使用。收藏和最近使用只保存在你自己的浏览器里。"
+        },
+        {
+          "question": "支持哪些设备和浏览器？",
+          "answer": "桌面、平板、手机上的主流现代浏览器均可使用，包括 Chrome、Edge、Firefox 和 Safari。工具会自适应屏幕尺寸，无需安装任何软件。"
+        },
+        {
+          "question": "计算器结果可靠吗？",
+          "answer": "计算器采用标准公式进行估算，仅供参考。金融、健康和法律类工具均附有免责声明，不能替代专业人士的意见。"
+        }
+      ]
     },
     "tools": {
       "what-is-my-browser": {
@@ -2172,12 +2172,6 @@
         "category": "图片",
         "icon": "📶"
       },
-      "file-transfer": {
-        "name": "文件互传",
-        "description": "通过加密 P2P 连接在设备间直接互传文件，不上传服务器，无需注册。",
-        "category": "实用工具",
-        "icon": "📤"
-      },
       "audio-cutter": {
         "name": "音频剪切",
         "description": "在线剪切 MP3/WAV 音频，可视化波形选区，导出 MP3 或 WAV。",
@@ -2353,16 +2347,16 @@
         "icon": "📖"
       },
       "wallpaper-generator": {
-      "name": "壁纸生成器",
-      "description": "生成 mesh 渐变与极光风格壁纸，支持任意屏幕尺寸。",
-      "category": "设计",
-      "icon": "🌌"
+        "name": "壁纸生成器",
+        "description": "生成 mesh 渐变与极光风格壁纸，支持任意屏幕尺寸。",
+        "category": "设计",
+        "icon": "🌌"
       },
       "live-wallpaper-generator": {
-      "name": "动态壁纸生成器",
-      "description": "生成可无缝循环的 3D 动态壁纸并导出视频。",
-      "category": "设计",
-      "icon": "🎬"
+        "name": "动态壁纸生成器",
+        "description": "生成可无缝循环的 3D 动态壁纸并导出视频。",
+        "category": "设计",
+        "icon": "🎬"
       },
       "text-to-image": {
         "name": "文字转图片",
@@ -2393,6 +2387,78 @@
         "description": "不解压即可查看 ZIP 包内文件列表。",
         "category": "生活",
         "icon": "🗜️"
+      },
+      "jwt-generator": {
+        "name": "JWT 生成器",
+        "description": "自定义头部、载荷和过期时间，生成并签名 JSON Web Token（HS256/384/512）。",
+        "category": "Security",
+        "icon": "🔑"
+      },
+      "aes-encryption": {
+        "name": "AES 加密解密",
+        "description": "在浏览器本地使用 AES-256（GCM/CBC）加密和解密文本。",
+        "category": "Security",
+        "icon": "🔒"
+      },
+      "hmac-generator": {
+        "name": "HMAC 签名生成器",
+        "description": "使用 SHA 系列哈希函数计算 HMAC 签名。",
+        "category": "Security",
+        "icon": "🔏"
+      },
+      "rsa-key-generator": {
+        "name": "RSA 密钥对生成器",
+        "description": "生成 RSA-OAEP 密钥对，导出公钥与私钥 PEM 文件。",
+        "category": "Security",
+        "icon": "🔑"
+      },
+      "pem-jwk-converter": {
+        "name": "PEM JWK 转换器",
+        "description": "在 PEM 与 JWK 格式之间转换 RSA 与椭圆曲线密钥。",
+        "category": "Security",
+        "icon": "🔄"
+      },
+      "json-to-typescript": {
+        "name": "JSON 转 TypeScript",
+        "description": "将 JSON 样例转换为 TypeScript 接口，支持嵌套命名类型、可选与可空字段。",
+        "category": "Developer",
+        "icon": "🟦"
+      },
+      "json-to-go": {
+        "name": "JSON 转 Go 结构体",
+        "description": "从 JSON 生成带 json 标签的 Go 结构体，支持嵌套结构体、指针字段与自定义包名。",
+        "category": "Developer",
+        "icon": "🐹"
+      },
+      "json-to-java": {
+        "name": "JSON 转 Java POJO",
+        "description": "将 JSON 转换为 Java POJO 类，私有字段与 getter/setter，特殊键名自动添加 Jackson 注解。",
+        "category": "Developer",
+        "icon": "☕"
+      },
+      "json-to-python": {
+        "name": "JSON 转 Python",
+        "description": "将 JSON 转换为 Python dataclass，含类型标注、Optional 与 List、PEP 8 命名。",
+        "category": "Developer",
+        "icon": "🐍"
+      },
+      "json-to-kotlin": {
+        "name": "JSON 转 Kotlin",
+        "description": "从 JSON 生成 Kotlin 数据类，可空类型、嵌套数据类与 val 属性。",
+        "category": "Developer",
+        "icon": "🟪"
+      },
+      "json-to-csharp": {
+        "name": "JSON 转 C# 类",
+        "description": "将 JSON 转换为 C# 类，属性带 get/set、可空注解与 JsonProperty 特性。",
+        "category": "Developer",
+        "icon": "🟩"
+      },
+      "json-to-rust": {
+        "name": "JSON 转 Rust",
+        "description": "从 JSON 生成 serde 就绪的 Rust 结构体，可空字段 Option<T> 与自动 camelCase 重命名。",
+        "category": "Developer",
+        "icon": "🦀"
       }
     },
     "scenes": {
@@ -2423,7 +2489,7 @@
     "clearHistory": "清除",
     "searchHistory": "搜索历史",
     "emptyFavorites": "还没有收藏——点击任意工具上的星标即可收藏到这里。",
-    "heroBadge": "370+ 个免费在线工具与计算器",
+    "heroBadge": "390+ 个免费在线工具与计算器",
     "showMore": "显示更多"
   },
   "about": {
@@ -9089,7 +9155,7 @@
         }
       ]
     },
-"screen-recorder": {
+    "screen-recorder": {
       "metadata": {
         "title": "屏幕录制工具 - 免费在线工具",
         "description": "录制您的屏幕、摄像头或浏览器标签页，并支持音频。无水印、无需上传、无时长限制。在浏览器中运行。"
@@ -38098,245 +38164,245 @@
       }
     },
     "wallpaper-generator": {
-    "metadata": {
-    "title": "壁纸生成器 - 在线制作渐变与极光壁纸",
-    "description": "免费在线壁纸生成器。为电脑、手机和平板生成 mesh 渐变与极光风格壁纸，支持 1080p、2K、4K 高清导出。同 seed 可复现，全程浏览器内运行。"
-    },
-    "title": "壁纸生成器",
-    "description": "为电脑或手机生成精美壁纸。选择风格与调色板，设置尺寸，下载全分辨率 PNG——所有图像均由 seed 在浏览器内实时生成。",
-    "category": "设计",
-    "keywords": [
-    "壁纸生成器",
-    "手机壁纸制作",
-    "电脑壁纸 4k",
-    "渐变壁纸",
-    "极光壁纸",
-    "壁纸在线生成"
-    ],
-    "faqs": [
-    {
-    "question": "生成的壁纸可以免费使用吗？",
-    "answer": "可以。所有壁纸都在你的浏览器中实时生成，不使用任何图库素材，没有版权问题，可自由用于个人或商业用途。"
-    },
-    {
-    "question": "支持哪些导出尺寸？",
-    "answer": "内置电脑（1080p、2K、4K）、手机（1170×2532、1080×2400、1440×3200）、平板等常用尺寸，也支持自定义宽高，最大 7680px。"
-    },
-    {
-    "question": "seed 是什么？",
-    "answer": "seed 决定画面的随机布局。相同 seed 加相同设置总是生成同一张图，方便你复现或微调喜欢的壁纸。点击骰子按钮可随机更换 seed。"
-    },
-    {
-    "question": "图片会被上传到服务器吗？",
-    "answer": "不会。所有渲染都在本地浏览器通过 canvas 完成，不会上传或存储任何内容。"
-    }
-    ],
-    "relatedTools": [
-    {
-    "name": "OG图片生成器",
-    "href": "/tools/og-image-generator"
-    },
-    {
-    "name": "SVG 波浪生成器",
-    "href": "/tools/svg-wave-generator"
-    },
-    {
-    "name": "纯色图片生成器",
-    "href": "/tools/solid-color-image"
-    }
-    ],
-    "guide": {
-    "whatIs": {
-    "title": "什么是壁纸生成器？",
-    "body": [
-    "壁纸生成器无需任何图片编辑技能，即可为电脑、手机或平板生成原创背景图。不用在图库里翻找，只需选择风格和调色板，工具就会根据随机 seed 渲染出独一无二的画面。",
-    "本工具支持两种风格：由柔和色块融合而成的 mesh 渐变，以及类似北极光的流动彩带。所有壁纸均在浏览器本地渲染，并导出为全分辨率 PNG。"
-    ]
-    },
-    "modes": {
-    "title": "两种风格",
-    "intro": "通过风格按钮切换两种生成器：",
-    "items": [
-    "Mesh 渐变——有机色块融合成平滑渐变，类似现代操作系统的默认壁纸。",
-    "极光——层叠的半透明彩带与光晕，宛如北极光。"
-    ]
-    },
-    "howTo": {
-    "title": "如何制作壁纸",
-    "items": [
-    "选择风格：Mesh 渐变或极光。",
-    "选择一个调色板，或自定义最多 4 种颜色。",
-    "点击骰子按钮随机一个 seed，或输入 seed 复现之前的壁纸。",
-    "选择电脑、手机或平板的尺寸预设，或输入自定义宽高。",
-    "开启胶片颗粒可增加细腻质感，点击下载按钮保存全分辨率 PNG。"
-    ]
-    },
-    "tips": {
-    "title": "小技巧",
-    "items": [
-    "深色低对比的配色让桌面图标更易读。",
-    "手机壁纸选择与屏幕比例一致的预设，避免被裁切。",
-    "喜欢某个布局但想换配色时，保留 seed 只改调色板即可。"
-    ]
-    }
-    },
-    "labels": {
-    "style": "风格",
-    "mesh": "Mesh 渐变",
-    "aurora": "极光",
-    "palette": "调色板",
-    "custom": "自定义",
-    "customSize": "自定义尺寸",
-    "color": "颜色",
-    "seed": "Seed",
-    "randomize": "随机 seed",
-    "size": "尺寸",
-    "desktop": "电脑",
-    "phone": "手机",
-    "tablet": "平板",
-    "grain": "胶片颗粒",
-    "width": "宽度",
-    "height": "高度"
-    },
-    "buttons": {
-    "download": "下载壁纸"
-    }
+      "metadata": {
+        "title": "壁纸生成器 - 在线制作渐变与极光壁纸",
+        "description": "免费在线壁纸生成器。为电脑、手机和平板生成 mesh 渐变与极光风格壁纸，支持 1080p、2K、4K 高清导出。同 seed 可复现，全程浏览器内运行。"
+      },
+      "title": "壁纸生成器",
+      "description": "为电脑或手机生成精美壁纸。选择风格与调色板，设置尺寸，下载全分辨率 PNG——所有图像均由 seed 在浏览器内实时生成。",
+      "category": "设计",
+      "keywords": [
+        "壁纸生成器",
+        "手机壁纸制作",
+        "电脑壁纸 4k",
+        "渐变壁纸",
+        "极光壁纸",
+        "壁纸在线生成"
+      ],
+      "faqs": [
+        {
+          "question": "生成的壁纸可以免费使用吗？",
+          "answer": "可以。所有壁纸都在你的浏览器中实时生成，不使用任何图库素材，没有版权问题，可自由用于个人或商业用途。"
+        },
+        {
+          "question": "支持哪些导出尺寸？",
+          "answer": "内置电脑（1080p、2K、4K）、手机（1170×2532、1080×2400、1440×3200）、平板等常用尺寸，也支持自定义宽高，最大 7680px。"
+        },
+        {
+          "question": "seed 是什么？",
+          "answer": "seed 决定画面的随机布局。相同 seed 加相同设置总是生成同一张图，方便你复现或微调喜欢的壁纸。点击骰子按钮可随机更换 seed。"
+        },
+        {
+          "question": "图片会被上传到服务器吗？",
+          "answer": "不会。所有渲染都在本地浏览器通过 canvas 完成，不会上传或存储任何内容。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "OG图片生成器",
+          "href": "/tools/og-image-generator"
+        },
+        {
+          "name": "SVG 波浪生成器",
+          "href": "/tools/svg-wave-generator"
+        },
+        {
+          "name": "纯色图片生成器",
+          "href": "/tools/solid-color-image"
+        }
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "什么是壁纸生成器？",
+          "body": [
+            "壁纸生成器无需任何图片编辑技能，即可为电脑、手机或平板生成原创背景图。不用在图库里翻找，只需选择风格和调色板，工具就会根据随机 seed 渲染出独一无二的画面。",
+            "本工具支持两种风格：由柔和色块融合而成的 mesh 渐变，以及类似北极光的流动彩带。所有壁纸均在浏览器本地渲染，并导出为全分辨率 PNG。"
+          ]
+        },
+        "modes": {
+          "title": "两种风格",
+          "intro": "通过风格按钮切换两种生成器：",
+          "items": [
+            "Mesh 渐变——有机色块融合成平滑渐变，类似现代操作系统的默认壁纸。",
+            "极光——层叠的半透明彩带与光晕，宛如北极光。"
+          ]
+        },
+        "howTo": {
+          "title": "如何制作壁纸",
+          "items": [
+            "选择风格：Mesh 渐变或极光。",
+            "选择一个调色板，或自定义最多 4 种颜色。",
+            "点击骰子按钮随机一个 seed，或输入 seed 复现之前的壁纸。",
+            "选择电脑、手机或平板的尺寸预设，或输入自定义宽高。",
+            "开启胶片颗粒可增加细腻质感，点击下载按钮保存全分辨率 PNG。"
+          ]
+        },
+        "tips": {
+          "title": "小技巧",
+          "items": [
+            "深色低对比的配色让桌面图标更易读。",
+            "手机壁纸选择与屏幕比例一致的预设，避免被裁切。",
+            "喜欢某个布局但想换配色时，保留 seed 只改调色板即可。"
+          ]
+        }
+      },
+      "labels": {
+        "style": "风格",
+        "mesh": "Mesh 渐变",
+        "aurora": "极光",
+        "palette": "调色板",
+        "custom": "自定义",
+        "customSize": "自定义尺寸",
+        "color": "颜色",
+        "seed": "Seed",
+        "randomize": "随机 seed",
+        "size": "尺寸",
+        "desktop": "电脑",
+        "phone": "手机",
+        "tablet": "平板",
+        "grain": "胶片颗粒",
+        "width": "宽度",
+        "height": "高度"
+      },
+      "buttons": {
+        "download": "下载壁纸"
+      }
     },
     "live-wallpaper-generator": {
-    "metadata": {
-    "title": "动态壁纸生成器 - 在线制作 3D 动态壁纸视频",
-    "description": "免费动态壁纸制作工具。在浏览器中生成可无缝循环的 3D 动态壁纸（星系/波浪/几何/星云/地球/隧道/极光/萤火虫/雪花/代码雨/赛博网格/雨夜），导出 1080p/4K MP4 或 WebM 视频，支持电脑和手机。纯本地运行，无需上传。"
-    },
-    "title": "动态壁纸生成器",
-    "description": "在浏览器中生成可无缝循环的 3D 动态壁纸——旋涡星系、流动波浪、旋转几何体、漂浮星云、点阵星球、霓虹隧道、极光光幕、萤火虫、静静飘雪、代码雨、赛博网格与雨夜，导出 MP4/WebM 视频并设为电脑或手机动态壁纸。支持任意屏幕尺寸、种子可复现，全部本地运行。",
-    "category": "设计",
-    "keywords": [
-    "动态壁纸",
-    "动态壁纸制作",
-    "3d壁纸",
-    "live壁纸",
-    "电脑动态壁纸",
-    "手机动态壁纸"
-    ],
-    "faqs": [
-    {
-    "question": "导出的壁纸能无缝循环吗？",
-    "answer": "可以。每个场景都按整圈旋转和整周期波动设计，首帧与尾帧完全一致，循环播放没有跳变。"
-    },
-    {
-    "question": "会上传我的数据或图片吗？",
-    "answer": "不会。3D 场景渲染与视频编码全部在浏览器内通过 WebGL 和 WebCodecs 完成，任何数据都不会离开你的设备。"
-    },
-    {
-    "question": "怎样把视频设为桌面或手机动态壁纸？",
-    "answer": "导出 MP4 或 WebM 后用壁纸引擎类应用打开：Windows 推荐 Lively Wallpaper（免费开源）或 Wallpaper Engine，安卓可用支持视频的动态壁纸应用。“海报”按钮可导出同款静态 PNG。"
-    },
-    {
-    "question": "MP4 和 WebM 选哪个？",
-    "answer": "浏览器支持 WebCodecs 时导出 MP4（H.264），兼容性最好、支持 4K；旧浏览器会自动回退为实时录制的 WebM。两种格式都能被壁纸应用使用。"
-    },
-    {
-    "question": "为什么 4K 导出比 1080p 慢？",
-    "answer": "视频逐帧按原始分辨率渲染和编码，4K 像素量是 1080p 的 4 倍，耗时更长。选择 30fps 或更短时长可以更快完成。"
-    }
-    ],
-    "relatedTools": [
-    {
-    "name": "壁纸生成器",
-    "href": "/tools/wallpaper-generator"
-    },
-    {
-    "name": "SVG 波浪生成器",
-    "href": "/tools/svg-wave-generator"
-    },
-    {
-    "name": "纯色图片生成器",
-    "href": "/tools/solid-color-image"
-    }
-    ],
-    "guide": {
-    "whatIs": {
-    "title": "什么是动态壁纸生成器？",
-    "body": [
-    "动态壁纸生成器制作的是会动的视频背景，而不是静态图片。本工具内置十二种程序化 3D 场景——旋涡星系、流动波浪、旋转几何阵列、漂浮星云、点阵星球、霓虹隧道、极光光幕、萤火虫、静静飘雪、代码雨、赛博网格与雨夜，并编码为可循环播放的 MP4 或 WebM 视频，可设为电脑或手机动态壁纸。",
-    "所有场景都由整圈旋转与整周期波动构成，首帧与尾帧完全一致，因此视频可以无缝循环。相同种子永远重建相同场景，结果可复现、可分享。"
-    ]
-    },
-    "modes": {
-    "title": "十二种动态场景",
-    "intro": "在画布上方切换场景：",
-    "items": [
-    "星系——螺旋粒子星系，环组差速旋转，带柔和核心光晕。",
-    "波浪——流动的波场，按调色板着色，带雾化地平线与轻微镜头摆动。",
-    "几何——漂浮的二十面体与圆环阵列，金属质感，缓慢自转。",
-    "星云——漂浮的气体星云，柔和的加色粒子在原位轻微脉动。",
-    "地球——斐波那契点阵星球，带线框外壳、大气光晕与反向旋转的星空。",
-    "隧道——霓虹光环向镜头涌来，每环独立自转并轻微脉动，尽头有明亮光点。",
-    "极光——星空中摇曳的光幕，加色渐变如绸带般飘动。",
-    "萤火虫——发光粒子沿利萨茹轨迹游弋，在黑暗中轻轻明灭。",
-    "雪——静静飘落的雪花，自上而下无缝循环。",
-    "代码雨——发光字符如瀑布般倾泻而下，赛博经典风格。",
-    "赛博网格——复古霓虹网格奔向地平线上的发光落日。",
-    "雨夜——倾斜的雨丝在雾中疾速坠落。"
-    ]
-    },
-    "howTo": {
-    "title": "如何制作动态壁纸",
-    "items": [
-    "选择场景：星系、波浪、几何、星云、地球、隧道、极光、萤火虫、雪花、代码雨、赛博网格或雨夜。",
-    "选择调色板色块，或自定义最多四种颜色。",
-    "点击骰子按钮随机种子，或输入种子复现之前的场景。",
-    "选择电脑/手机/平板尺寸预设、循环时长与帧率。",
-    "点击导出按钮逐帧渲染 MP4 视频，然后用壁纸引擎类应用设为动态壁纸；“海报”按钮可导出同款静态 PNG。"
-    ]
-    },
-    "tips": {
-    "title": "小贴士",
-    "items": [
-    "多数显卡上 MP4 导出快于实时——10 秒 1080p 循环通常几秒即可完成。",
-    "手机动态壁纸建议 30fps 加 5 秒循环，更省电。",
-    "深色调色板让桌面图标更易读；常亮屏幕宜用低亮度配色。",
-    "若导出显示 WebM，说明浏览器缺少 WebCodecs——改用 Chrome、Edge 或 Safari 16.4+ 即可导出 MP4。"
-    ]
-    }
-    },
-    "labels": {
-    "scene": "场景",
-    "galaxy": "星系",
-    "waves": "波浪",
-    "geometry": "几何",
-    "nebula": "星云",
-    "globe": "地球",
-    "tunnel": "隧道",
-    "aurora": "极光",
-    "fireflies": "萤火虫",
-    "snow": "雪花",
-    "matrix": "代码雨",
-    "grid": "赛博网格",
-    "rain": "雨夜",
-    "palette": "调色板",
-    "custom": "自定义",
-    "customSize": "自定义尺寸",
-    "color": "颜色",
-    "seed": "种子",
-    "randomize": "随机种子",
-    "size": "尺寸",
-    "desktop": "桌面",
-    "phone": "手机",
-    "tablet": "平板",
-    "width": "宽度",
-    "height": "高度",
-    "duration": "循环时长",
-    "seconds": "秒",
-    "fps": "帧率",
-    "exporting": "导出中",
-    "cancel": "取消",
-    "oddHint": "H.264（MP4）要求宽高为偶数——自定义尺寸请取偶数以便导出 MP4。"
-    },
-    "buttons": {
-    "exportVideo": "导出视频",
-    "poster": "导出海报"
-    }
+      "metadata": {
+        "title": "动态壁纸生成器 - 在线制作 3D 动态壁纸视频",
+        "description": "免费动态壁纸制作工具。在浏览器中生成可无缝循环的 3D 动态壁纸（星系/波浪/几何/星云/地球/隧道/极光/萤火虫/雪花/代码雨/赛博网格/雨夜），导出 1080p/4K MP4 或 WebM 视频，支持电脑和手机。纯本地运行，无需上传。"
+      },
+      "title": "动态壁纸生成器",
+      "description": "在浏览器中生成可无缝循环的 3D 动态壁纸——旋涡星系、流动波浪、旋转几何体、漂浮星云、点阵星球、霓虹隧道、极光光幕、萤火虫、静静飘雪、代码雨、赛博网格与雨夜，导出 MP4/WebM 视频并设为电脑或手机动态壁纸。支持任意屏幕尺寸、种子可复现，全部本地运行。",
+      "category": "设计",
+      "keywords": [
+        "动态壁纸",
+        "动态壁纸制作",
+        "3d壁纸",
+        "live壁纸",
+        "电脑动态壁纸",
+        "手机动态壁纸"
+      ],
+      "faqs": [
+        {
+          "question": "导出的壁纸能无缝循环吗？",
+          "answer": "可以。每个场景都按整圈旋转和整周期波动设计，首帧与尾帧完全一致，循环播放没有跳变。"
+        },
+        {
+          "question": "会上传我的数据或图片吗？",
+          "answer": "不会。3D 场景渲染与视频编码全部在浏览器内通过 WebGL 和 WebCodecs 完成，任何数据都不会离开你的设备。"
+        },
+        {
+          "question": "怎样把视频设为桌面或手机动态壁纸？",
+          "answer": "导出 MP4 或 WebM 后用壁纸引擎类应用打开：Windows 推荐 Lively Wallpaper（免费开源）或 Wallpaper Engine，安卓可用支持视频的动态壁纸应用。“海报”按钮可导出同款静态 PNG。"
+        },
+        {
+          "question": "MP4 和 WebM 选哪个？",
+          "answer": "浏览器支持 WebCodecs 时导出 MP4（H.264），兼容性最好、支持 4K；旧浏览器会自动回退为实时录制的 WebM。两种格式都能被壁纸应用使用。"
+        },
+        {
+          "question": "为什么 4K 导出比 1080p 慢？",
+          "answer": "视频逐帧按原始分辨率渲染和编码，4K 像素量是 1080p 的 4 倍，耗时更长。选择 30fps 或更短时长可以更快完成。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "壁纸生成器",
+          "href": "/tools/wallpaper-generator"
+        },
+        {
+          "name": "SVG 波浪生成器",
+          "href": "/tools/svg-wave-generator"
+        },
+        {
+          "name": "纯色图片生成器",
+          "href": "/tools/solid-color-image"
+        }
+      ],
+      "guide": {
+        "whatIs": {
+          "title": "什么是动态壁纸生成器？",
+          "body": [
+            "动态壁纸生成器制作的是会动的视频背景，而不是静态图片。本工具内置十二种程序化 3D 场景——旋涡星系、流动波浪、旋转几何阵列、漂浮星云、点阵星球、霓虹隧道、极光光幕、萤火虫、静静飘雪、代码雨、赛博网格与雨夜，并编码为可循环播放的 MP4 或 WebM 视频，可设为电脑或手机动态壁纸。",
+            "所有场景都由整圈旋转与整周期波动构成，首帧与尾帧完全一致，因此视频可以无缝循环。相同种子永远重建相同场景，结果可复现、可分享。"
+          ]
+        },
+        "modes": {
+          "title": "十二种动态场景",
+          "intro": "在画布上方切换场景：",
+          "items": [
+            "星系——螺旋粒子星系，环组差速旋转，带柔和核心光晕。",
+            "波浪——流动的波场，按调色板着色，带雾化地平线与轻微镜头摆动。",
+            "几何——漂浮的二十面体与圆环阵列，金属质感，缓慢自转。",
+            "星云——漂浮的气体星云，柔和的加色粒子在原位轻微脉动。",
+            "地球——斐波那契点阵星球，带线框外壳、大气光晕与反向旋转的星空。",
+            "隧道——霓虹光环向镜头涌来，每环独立自转并轻微脉动，尽头有明亮光点。",
+            "极光——星空中摇曳的光幕，加色渐变如绸带般飘动。",
+            "萤火虫——发光粒子沿利萨茹轨迹游弋，在黑暗中轻轻明灭。",
+            "雪——静静飘落的雪花，自上而下无缝循环。",
+            "代码雨——发光字符如瀑布般倾泻而下，赛博经典风格。",
+            "赛博网格——复古霓虹网格奔向地平线上的发光落日。",
+            "雨夜——倾斜的雨丝在雾中疾速坠落。"
+          ]
+        },
+        "howTo": {
+          "title": "如何制作动态壁纸",
+          "items": [
+            "选择场景：星系、波浪、几何、星云、地球、隧道、极光、萤火虫、雪花、代码雨、赛博网格或雨夜。",
+            "选择调色板色块，或自定义最多四种颜色。",
+            "点击骰子按钮随机种子，或输入种子复现之前的场景。",
+            "选择电脑/手机/平板尺寸预设、循环时长与帧率。",
+            "点击导出按钮逐帧渲染 MP4 视频，然后用壁纸引擎类应用设为动态壁纸；“海报”按钮可导出同款静态 PNG。"
+          ]
+        },
+        "tips": {
+          "title": "小贴士",
+          "items": [
+            "多数显卡上 MP4 导出快于实时——10 秒 1080p 循环通常几秒即可完成。",
+            "手机动态壁纸建议 30fps 加 5 秒循环，更省电。",
+            "深色调色板让桌面图标更易读；常亮屏幕宜用低亮度配色。",
+            "若导出显示 WebM，说明浏览器缺少 WebCodecs——改用 Chrome、Edge 或 Safari 16.4+ 即可导出 MP4。"
+          ]
+        }
+      },
+      "labels": {
+        "scene": "场景",
+        "galaxy": "星系",
+        "waves": "波浪",
+        "geometry": "几何",
+        "nebula": "星云",
+        "globe": "地球",
+        "tunnel": "隧道",
+        "aurora": "极光",
+        "fireflies": "萤火虫",
+        "snow": "雪花",
+        "matrix": "代码雨",
+        "grid": "赛博网格",
+        "rain": "雨夜",
+        "palette": "调色板",
+        "custom": "自定义",
+        "customSize": "自定义尺寸",
+        "color": "颜色",
+        "seed": "种子",
+        "randomize": "随机种子",
+        "size": "尺寸",
+        "desktop": "桌面",
+        "phone": "手机",
+        "tablet": "平板",
+        "width": "宽度",
+        "height": "高度",
+        "duration": "循环时长",
+        "seconds": "秒",
+        "fps": "帧率",
+        "exporting": "导出中",
+        "cancel": "取消",
+        "oddHint": "H.264（MP4）要求宽高为偶数——自定义尺寸请取偶数以便导出 MP4。"
+      },
+      "buttons": {
+        "exportVideo": "导出视频",
+        "poster": "导出海报"
+      }
     },
     "text-to-image": {
       "metadata": {
@@ -38635,6 +38701,1256 @@
       "buttons": {
         "group": "随机分组"
       }
+    },
+    "jwt-generator": {
+      "metadata": {
+        "title": "JWT 生成器",
+        "description": "在线生成带签名的 JSON Web Token（HS256/HS384/HS512），可自定义头部、载荷和过期时间。签名完全在浏览器本地完成。",
+        "category": "Security"
+      },
+      "keywords": [
+        "JWT 生成器",
+        "JWT 在线生成",
+        "JSON Web Token",
+        "HS256 签名",
+        "JWT 工具",
+        "生成 token",
+        "JWT 创建",
+        "HMAC 签名",
+        "JWT 构造器",
+        "令牌生成工具"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 JSON Web Token（JWT）？",
+          "answer": "JWT 是一种紧凑的 URL 安全格式，用于在两方之间传递声明。它由头部、载荷和 HMAC 签名组成，签名可以证明该 token 由持有共享密钥的一方创建。"
+        },
+        {
+          "question": "我的密钥会被用在哪里？",
+          "answer": "密钥绝不会离开你的浏览器。HMAC 签名通过 Web Crypto API 在本地计算，token、载荷和密钥都不会发送到任何服务器。"
+        },
+        {
+          "question": "支持哪些算法？",
+          "answer": "支持 HS256、HS384 和 HS512，即分别基于 SHA-256、SHA-384 和 SHA-512 的 HMAC 签名，也是兼容性最好的对称 JWT 算法。"
+        },
+        {
+          "question": "过期时间选项是怎么工作的？",
+          "answer": "选择过期时间后，工具会自动在载荷中添加 exp（过期时间）声明，从生成 token 的那一刻起计算。选择“不过期”则可自行管理 iat 和 exp。"
+        },
+        {
+          "question": "生成的 token 能用于生产环境吗？",
+          "answer": "可以——结构和签名都符合 JWT 标准。请务必使用足够长的随机密钥，且绝不能出现在前端代码里。如需非对称签名（RS256），请使用专门的密钥管理方案。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JWT 解码器",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Base64 编解码",
+          "href": "/tools/base64-encoder"
+        },
+        {
+          "name": "哈希生成器",
+          "href": "/tools/hash-generator"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "如何生成 JWT",
+          "paragraphs": [
+            "JSON Web Token 可以证明某个载荷由持有共享密钥的一方创建。它由三部分组成——头部、载荷和签名——用点号连接并进行 base64url 编码。",
+            "本工具完全在浏览器中使用 Web Crypto API 构建并签名 token，你的密钥和载荷绝不会离开当前页面。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "编辑头部和载荷",
+            "paragraphs": [
+              "头部声明算法和 token 类型；载荷存放你的声明——iss、sub、iat、exp 或自定义字段。两者都必须是合法的 JSON，否则无法生成 token。"
+            ]
+          },
+          {
+            "title": "选择算法和过期时间",
+            "paragraphs": [
+              "HS256 兼容性最广，HS384/HS512 摘要更长。过期时间会自动添加 exp 声明：从 15 分钟到 30 天，也可以选“不过期”自行设置。"
+            ]
+          },
+          {
+            "title": "设置高强度密钥",
+            "paragraphs": [
+              "HMAC 密钥是 token 安全的关键，请使用足够长的随机字符串——“随机密钥”按钮会为你生成加密安全的 32 字节值。"
+            ]
+          },
+          {
+            "title": "生成并解码",
+            "paragraphs": [
+              "点击生成得到签名后的 token，一键复制，并通过下方的解码表格核对签名的内容。所有步骤都在浏览器本地完成。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "header": "头部（Header）",
+        "payload": "载荷（Payload）",
+        "algorithm": "算法",
+        "expiry": "过期时间",
+        "expiryNone": "不过期",
+        "expiry15m": "15 分钟",
+        "expiry1h": "1 小时",
+        "expiry8h": "8 小时",
+        "expiry1d": "1 天",
+        "expiry7d": "7 天",
+        "expiry30d": "30 天",
+        "secret": "密钥",
+        "secretPlaceholder": "输入你的 HMAC 密钥",
+        "randomSecret": "随机密钥",
+        "generate": "生成 Token",
+        "token": "已签名 Token",
+        "copy": "复制",
+        "copied": "已复制！",
+        "decoded": "解码预览",
+        "privacy": "签名在浏览器本地完成，密钥和 token 不会被发送或存储。"
+      },
+      "errors": {
+        "invalidHeader": "头部不是有效的 JSON。",
+        "invalidPayload": "载荷不是有效的 JSON。",
+        "missingSecret": "请输入密钥后再生成签名。"
+      }
+    },
+    "aes-encryption": {
+      "metadata": {
+        "title": "AES 加密解密",
+        "description": "在浏览器本地使用 AES-256（GCM 或 CBC）加密解密文本。基于密码并结合 PBKDF2 派生密钥——任何数据都不会上传。",
+        "category": "Security"
+      },
+      "keywords": [
+        "AES 加密",
+        "AES 解密",
+        "AES 在线加密",
+        "AES 256 加密工具",
+        "文本加密",
+        "密码加密",
+        "AES GCM",
+        "AES CBC",
+        "浏览器加密工具",
+        "免费文本加密"
+      ],
+      "faqs": [
+        {
+          "question": "这种加密安全吗？",
+          "answer": "安全。它通过浏览器原生的 Web Crypto API 使用 AES-256，并使用 PBKDF2（15 万轮 SHA-256）从密码派生 256 位密钥。AES-GCM 还会对数据做认证，密文一旦被篡改就能自动发现。"
+        },
+        {
+          "question": "我的密码或文本会被上传吗？",
+          "answer": "不会。加密和解密完全在浏览器中运行。密码、明文和密文都不会离开当前页面——全程不涉及任何服务器。"
+        },
+        {
+          "question": "AES-GCM 和 AES-CBC 有什么区别？",
+          "answer": "AES-GCM 是认证加密模式：能检测密文是否被篡改，推荐用于新加密。AES-CBC 主要为了兼容旧系统，本身不校验完整性。"
+        },
+        {
+          "question": "盐值（salt）是做什么的？",
+          "answer": "盐值保证同一密码为每条消息派生出不同的密钥。留空即可使用随机盐（推荐）；如果需要可复现的输出，可以填入固定文本。盐值会自动打包进加密结果中。"
+        },
+        {
+          "question": "为什么我的数据解不开？",
+          "answer": "解密失败几乎都是密码不对——“密码错误”提示说明派生的密钥不匹配。输入必须是本工具生成的完整 base64 密文，因为盐值和 IV 与密文打包在一起。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "哈希生成器",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "密码强度检测",
+          "href": "/tools/password-strength"
+        },
+        {
+          "name": "Base64 编解码",
+          "href": "/tools/base64-encoder"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "如何用 AES 加密解密文本",
+          "paragraphs": [
+            "AES（高级加密标准）是全球广泛信任的敏感数据保护算法。本工具提供 AES-256，并使用 PBKDF2（15 万轮 SHA-256）从你的密码派生密钥。",
+            "所有步骤都通过 Web Crypto API 在浏览器本地完成。密码和数据绝不会离开页面，也不会被存储或传输。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "选择模式和算法",
+            "paragraphs": [
+              "用“加密”标签页保护文本，用“解密”标签页还原。加密时可选 AES-GCM（认证加密，推荐）或 AES-CBC（兼容旧系统）；解密时会自动识别算法。"
+            ]
+          },
+          {
+            "title": "输入高强度密码",
+            "paragraphs": [
+              "密码是解锁数据的唯一钥匙，请务必使用足够长且唯一的密码。密钥通过 PBKDF2 和盐值派生，能大幅拖慢暴力破解。"
+            ]
+          },
+          {
+            "title": "了解盐值和 IV",
+            "paragraphs": [
+              "每次加密都会生成随机盐值和随机 IV，并打包进输出结果。加密完成后，你可以在结果下方查看它们的 base64 值。"
+            ]
+          },
+          {
+            "title": "安全分享",
+            "paragraphs": [
+              "复制完整的 base64 密文连同算法一起分享——对方只需要密码和本工具即可解密。没有密码，数据对任何人（包括我们）都不可读：一切都不会上传。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "encryptTab": "加密",
+        "decryptTab": "解密",
+        "algorithm": "算法",
+        "password": "密码",
+        "passwordPlaceholder": "输入加密密码",
+        "salt": "盐值（可选）",
+        "saltPlaceholder": "留空则使用随机盐",
+        "plaintext": "明文",
+        "plaintextPlaceholder": "输入要加密的文本…",
+        "ciphertext": "密文",
+        "ciphertextPlaceholder": "粘贴要解密的 base64 密文…",
+        "encryptButton": "加密",
+        "decryptButton": "解密",
+        "outputEncrypt": "加密结果（base64）",
+        "outputDecrypt": "解密结果",
+        "saltUsed": "使用的盐值",
+        "ivUsed": "使用的 IV",
+        "copy": "复制",
+        "copied": "已复制！",
+        "privacy": "加密在浏览器本地完成，不会上传、记录或存储任何数据。"
+      },
+      "errors": {
+        "requiredPassword": "请输入密码。",
+        "requiredText": "请输入要处理的文本。",
+        "invalidData": "这看起来不是本工具加密的数据。",
+        "wrongPassword": "密码错误或数据已损坏。"
+      }
+    },
+    "hmac-generator": {
+      "metadata": {
+        "title": "HMAC 签名生成器",
+        "description": "使用 SHA-1、SHA-256、SHA-384 或 SHA-512 计算 HMAC 签名，支持文本、十六进制和 Base64 密钥，输出十六进制与 Base64 结果，全部在浏览器本地完成。",
+        "category": "Security"
+      },
+      "keywords": [
+        "HMAC 生成器",
+        "HMAC 签名",
+        "HMAC SHA256",
+        "在线计算 HMAC",
+        "HMAC 哈希",
+        "HMAC 签名工具",
+        "HMAC Base64",
+        "HMAC 十六进制",
+        "接口签名生成",
+        "SHA512 HMAC"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 HMAC 签名？",
+          "answer": "HMAC（基于哈希的消息认证码）将密钥与哈希函数结合，用于证明消息真实且未被篡改，常用于 API 请求签名和 Webhook 校验。"
+        },
+        {
+          "question": "支持哪些哈希算法？",
+          "answer": "支持 SHA-1、SHA-256、SHA-384 和 SHA-512，全部通过浏览器原生 Web Crypto API 计算。"
+        },
+        {
+          "question": "密钥支持哪些格式？",
+          "answer": "可以选择文本、十六进制或 Base64。与服务器对接时，请确认密钥编码方式与对方一致。"
+        },
+        {
+          "question": "我的数据安全吗？",
+          "answer": "安全。所有计算都在浏览器本地完成，消息和密钥不会发送或存储到任何服务器。"
+        },
+        {
+          "question": "为什么结果与服务器不一致？",
+          "answer": "最常见的原因是密钥格式不一致（文本 / 十六进制 / Base64），或者双方使用的哈希算法不同，请逐项核对。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "哈希生成器",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "JWT 解码器",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Base64 编码/解码器",
+          "href": "/tools/base64-encoder"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 HMAC 生成器？",
+          "paragraphs": [
+            "HMAC 生成器计算基于哈希的消息认证码：一种把消息与密钥绑定在一起的签名。持有相同密钥的接收方可以验证消息真实且未被篡改。",
+            "HMAC 应用非常广泛——API 请求签名、Webhook 校验、JWT 验证都会用到。本工具通过浏览器原生 Web Crypto API 以 SHA-1、SHA-256、SHA-384 或 SHA-512 计算 HMAC，消息与密钥不会离开您的设备。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何生成 HMAC 签名",
+            "paragraphs": [
+              "输入消息和密钥，选择密钥格式与哈希算法，然后点击生成按钮。",
+              "签名会同时以十六进制和 Base64 两种格式给出，按 API 或服务的要求选择使用，一键即可复制。"
+            ]
+          },
+          {
+            "title": "选择密钥格式",
+            "paragraphs": [
+              "文本密钥按 UTF-8 编码；十六进制和 Base64 密钥会先解码为原始字节，因此以其他编码保存的密钥也能得到正确的签名。"
+            ]
+          },
+          {
+            "title": "选择哈希算法",
+            "paragraphs": [
+              "SHA-256 是目前最常用的默认选择；SHA-384 和 SHA-512 提供更高的安全余量；SHA-1 仅建议用于必须兼容的旧系统。"
+            ]
+          },
+          {
+            "title": "常见应用场景",
+            "paragraphs": [
+              "可用本工具核对 API 签名、调试 Webhook 数据，或将 HMAC 实现与已知消息、密钥的期望结果交叉验证。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "message": "消息",
+        "messagePlaceholder": "输入要签名的消息…",
+        "key": "密钥",
+        "keyPlaceholder": "输入密钥",
+        "keyFormat": "密钥格式",
+        "formatText": "文本",
+        "formatHex": "十六进制",
+        "formatBase64": "Base64",
+        "algorithm": "哈希算法",
+        "hexOutput": "十六进制输出",
+        "base64Output": "Base64 输出",
+        "outputPlaceholder": "签名结果将显示在这里",
+        "privacy": "所有计算均在浏览器本地完成，消息与密钥不会离开您的设备。",
+        "emptyMessage": "请输入要签名的消息。",
+        "emptyKey": "请输入密钥。",
+        "invalidHex": "十六进制密钥格式无效：只能包含 0-9、a-f，且长度为偶数。",
+        "invalidBase64": "Base64 密钥格式无效。",
+        "error": "签名计算失败，请检查输入。"
+      },
+      "buttons": {
+        "generate": "生成"
+      }
+    },
+    "rsa-key-generator": {
+      "metadata": {
+        "title": "RSA 密钥对生成器",
+        "description": "生成 2048、3072 或 4096 位的 RSA-OAEP（SHA-256）密钥对，导出公钥（SPKI）和私钥（PKCS#8）PEM 文件，全部在浏览器本地完成。",
+        "category": "Security"
+      },
+      "keywords": [
+        "RSA 密钥生成器",
+        "生成 RSA 密钥对",
+        "RSA 2048 密钥",
+        "RSA 4096 密钥",
+        "RSA OAEP 密钥对",
+        "公钥私钥生成",
+        "PEM 密钥生成",
+        "在线 RSA 密钥",
+        "JWT RS256 密钥",
+        "RSA SHA256"
+      ],
+      "faqs": [
+        {
+          "question": "RSA 密钥是如何生成的？",
+          "answer": "使用浏览器原生 Web Crypto API（crypto.subtle.generateKey），算法为 RSA-OAEP 搭配 SHA-256，密钥完全在您的设备上生成。"
+        },
+        {
+          "question": "应该选择多大的密钥？",
+          "answer": "2048 位适合大多数场景；3072 或 4096 位安全余量更高，但生成时间明显更长。"
+        },
+        {
+          "question": "密钥以什么格式导出？",
+          "answer": "公钥为 SPKI PEM（BEGIN PUBLIC KEY），私钥为 PKCS#8 PEM（BEGIN PRIVATE KEY），均为标准格式。"
+        },
+        {
+          "question": "这些密钥能用于 SSH 吗？",
+          "answer": "这是用于加密或签名的标准 RSA 密钥。OpenSSH 使用自己的密钥格式，需要先转换后才能使用。"
+        },
+        {
+          "question": "私钥会被保存吗？",
+          "answer": "不会。密钥只存在于您的浏览器中，关闭页面前请及时复制或下载，之后无法恢复。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "密码生成器",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "JWT 解码器",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "哈希生成器",
+          "href": "/tools/hash-generator"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 RSA 密钥对生成器？",
+          "paragraphs": [
+            "RSA 密钥对生成器会创建一对相互匹配的密钥：可以自由分发的公钥和必须保密的私钥。本工具使用 RSA-OAEP 算法搭配 SHA-256。",
+            "密钥生成完全在浏览器中通过 Web Crypto API 完成，任何密钥材料都不会被传输或存储到服务器。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何生成 RSA 密钥对",
+            "paragraphs": [
+              "选择密钥长度（2048、3072 或 4096 位），点击生成按钮。位数越大，生成所需的时间越长。",
+              "左侧显示 SPKI PEM 格式的公钥，右侧显示 PKCS#8 PEM 格式的私钥，可一键复制或下载为 .pem 文件。"
+            ]
+          },
+          {
+            "title": "如何选择密钥长度",
+            "paragraphs": [
+              "2048 位是当前的基础标准，适合大多数应用；3072 位和 4096 位安全余量更大，但生成更慢、密钥更大。"
+            ]
+          },
+          {
+            "title": "保护好您的私钥",
+            "paragraphs": [
+              "任何获得私钥的人都可以解密发给您的数据，或冒充您进行签名。请离线保存私钥，切勿提交到代码仓库或分享给他人。由于密钥在浏览器中生成，全程不会经过任何服务器。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "keySize": "密钥长度",
+        "algorithm": "算法",
+        "algorithmValue": "RSA-OAEP (SHA-256)",
+        "warning4096": "生成 4096 位密钥可能需要一些时间，请耐心等待。",
+        "metaSize": "密钥长度",
+        "bits": "位",
+        "metaAlgorithm": "算法",
+        "metaCreated": "生成时间",
+        "publicKey": "公钥（SPKI PEM）",
+        "privateKey": "私钥（PKCS#8 PEM）",
+        "outputPlaceholder": "生成的密钥将显示在这里",
+        "securityNote": "请妥善保管私钥：任何获得私钥的人都可以解密您的数据或冒充您。请离线保存，切勿分享。",
+        "privacy": "密钥生成完全在浏览器本地进行，密钥不会被发送或存储到任何服务器。",
+        "error": "密钥生成失败，请重试。"
+      },
+      "buttons": {
+        "generate": "生成",
+        "generating": "生成中…",
+        "download": "下载 .pem"
+      }
+    },
+    "pem-jwk-converter": {
+      "metadata": {
+        "title": "PEM JWK 转换器",
+        "description": "在 PEM 与 JWK 之间互相转换密钥格式，支持 RSA 与椭圆曲线密钥（SPKI、PKCS#8、PKCS#1、SEC1），全部在浏览器本地完成。",
+        "category": "Security"
+      },
+      "keywords": [
+        "PEM 转 JWK",
+        "JWK 转 PEM",
+        "PEM JWK 转换器",
+        "RSA 公钥 转 JWK",
+        "椭圆曲线 转 JWK",
+        "JWK 私钥转换",
+        "SPKI 转 JWK",
+        "PKCS8 转 JWK",
+        "在线密钥格式转换",
+        "JWT 密钥格式"
+      ],
+      "faqs": [
+        {
+          "question": "什么是 JWK？",
+          "answer": "JWK（JSON Web Key，RFC 7517）是用 JSON 表示密码学密钥的标准结构，是 JOSE、JWT 和 OAuth 生态的原生密钥格式。"
+        },
+        {
+          "question": "支持哪些 PEM 类型？",
+          "answer": "支持 PUBLIC KEY（SPKI）、RSA PUBLIC KEY（PKCS#1）、PRIVATE KEY（PKCS#8）和 EC PRIVATE KEY（SEC1）。较旧的 PKCS#1 和 SEC1 容器会自动重新封装。"
+        },
+        {
+          "question": "支持哪些密钥类型？",
+          "answer": "RSA 以及 P-256、P-384、P-521 曲线上的椭圆曲线密钥。Ed25519 等其他类型暂不支持。"
+        },
+        {
+          "question": "转换在哪里进行？",
+          "answer": "完全在您的浏览器中通过 Web Crypto API 完成。密钥不会离开您的设备，也不会被上传到任何地方。"
+        },
+        {
+          "question": "转换失败是什么原因？",
+          "answer": "最常见的原因是不支持的曲线或密钥类型，或者 JWK 缺少必要字段（如 kty、n/e 或曲线参数）。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JWT 解码器",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "哈希生成器",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Base64 编码/解码器",
+          "href": "/tools/base64-encoder"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 PEM JWK 转换器？",
+          "paragraphs": [
+            "PEM 是带 BEGIN/END 头的 Base64 文本密钥格式，被 OpenSSL 和大多数证书工具使用；JWK（JSON Web Key，RFC 7517）则是 JOSE、JWT 和 OAuth 体系中使用的 JSON 表示。转换器让同一把密钥在两种体系之间通用。",
+            "本工具支持导入 SPKI 与 PKCS#8 密钥，并自动将旧的 PKCS#1、SEC1 格式重新封装，导出对应的 JWK，也可以把 JWK 转回标准 PEM。全部处理都在浏览器本地完成。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何将 PEM 转为 JWK",
+            "paragraphs": [
+              "在 PEM → JWK 标签页粘贴 PEM 密钥并点击转换，右侧会以美化后的 JSON 输出 JWK，可一键复制。",
+              "公钥导出为公钥成员（RSA 的 n/e，EC 的 x/y）；私钥还会包含 d 等私有成员。"
+            ]
+          },
+          {
+            "title": "如何将 JWK 转为 PEM",
+            "paragraphs": [
+              "切换到 JWK → PEM 标签页并粘贴 JWK JSON。工具通过 kty 识别 RSA 或 EC，并通过是否存在 d 判断是否为私钥。",
+              "输出为标准 PEM：公钥为 PUBLIC KEY（SPKI），私钥为 PRIVATE KEY（PKCS#8）。"
+            ]
+          },
+          {
+            "title": "密钥信息面板",
+            "paragraphs": [
+              "每次转换后都会显示密钥类型、算法、位数以及是公钥还是私钥，方便快速核对。"
+            ]
+          },
+          {
+            "title": "支持的格式",
+            "paragraphs": [
+              "支持 PUBLIC KEY、RSA PUBLIC KEY、PRIVATE KEY、EC PRIVATE KEY 四种 PEM 标记，以及 P-256、P-384、P-521 曲线上的 RSA 和 EC 密钥。Ed25519 等其他类型暂不支持。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "tabPemToJwk": "PEM → JWK",
+        "tabJwkToPem": "JWK → PEM",
+        "pemInput": "PEM 密钥",
+        "pemInputPlaceholder": "粘贴 PEM 密钥，如 -----BEGIN PUBLIC KEY----- …",
+        "jwkOutput": "JWK 输出",
+        "jwkInput": "JWK 密钥（JSON）",
+        "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+        "pemOutput": "PEM 输出",
+        "outputPlaceholder": "转换结果将显示在这里",
+        "keyInfo": "密钥信息",
+        "infoKty": "密钥类型",
+        "infoAlg": "算法",
+        "infoSize": "长度",
+        "bits": "位",
+        "infoUsage": "用途",
+        "public": "公钥",
+        "private": "私钥",
+        "privacy": "所有转换均在浏览器本地完成，密钥不会离开您的设备。",
+        "emptyPem": "请粘贴 PEM 密钥。",
+        "invalidPem": "无法解析 PEM 密钥，请检查 BEGIN/END 标记和 Base64 内容。",
+        "errorPem": "不支持的密钥：仅支持 RSA 和 EC（P-256/P-384/P-521）密钥。",
+        "emptyJwk": "请粘贴 JWK。",
+        "invalidJson": "输入不是有效的 JSON。",
+        "unsupportedKty": "不支持的密钥类型（kty），仅支持 RSA 和 EC。",
+        "unsupportedCurve": "不支持的曲线，仅支持 P-256、P-384 和 P-521。",
+        "errorJwk": "无法导入 JWK，请检查必需字段是否齐全、取值是否正确。"
+      },
+      "buttons": {
+        "convert": "转换"
+      }
+    },
+    "json-to-typescript": {
+      "metadata": {
+        "title": "JSON 转 TypeScript",
+        "description": "在线将 JSON 对象和数组转换为 TypeScript 接口。嵌套命名类型、可选与可空字段、即时输出。",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json 转 typescript",
+        "json 转 ts",
+        "json 转 interface",
+        "typescript 接口生成器",
+        "json 转 typescript 工具",
+        "typescript 类型生成",
+        "json 生成 interface",
+        "在线 json 转 ts",
+        "json 类型定义生成",
+        "json 转 typescript 免费"
+      ],
+      "faqs": [
+        {
+          "question": "如何将 JSON 转换为 TypeScript 接口？",
+          "answer": "把 JSON 对象或数组粘贴到输入框，接口会即时生成：嵌套对象会变成命名接口，数组会合并为单一元素类型，一键即可复制全部代码。"
+        },
+        {
+          "question": "嵌套对象和数组如何处理？",
+          "answer": "每个嵌套对象都会生成独立的导出接口，名称由其键名派生，例如 Root 中的 items 会生成 RootItem。对象数组会做合并，共有属性保留，部分元素缺失的属性会标记为可选。"
+        },
+        {
+          "question": "缺失或 null 值怎么处理？",
+          "answer": "在部分数组元素中缺失的属性会加上可选修饰符（?），显式的 null 会为类型追加 | null，使生成的接口与 API 实际返回的数据一致。"
+        },
+        {
+          "question": "我的 JSON 会被上传到服务器吗？",
+          "answer": "不会。所有转换都在浏览器本地完成，不会发送、存储或记录任何数据。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON 格式化",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON 转 CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON 转 YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 JSON 转 TypeScript 工具？",
+          "paragraphs": [
+            "JSON 转 TypeScript 工具可以把 JSON 样例直接转换为可用的 TypeScript 接口。粘贴一段真实的 API 返回数据，即可立即得到类型化模型，非常适合 API 客户端、Mock 数据和配置文件。全程在浏览器中完成。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何从 JSON 生成 TypeScript",
+            "paragraphs": [
+              "粘贴 JSON，可选地修改根接口名称，右侧会实时生成代码，点击复制即可放入项目。"
+            ]
+          },
+          {
+            "title": "类型是如何推断的",
+            "paragraphs": [
+              "字符串映射为 string，数字为 number，布尔为 boolean。嵌套对象成为命名接口，对象数组合并为一个元素接口，混合基本类型的数组会生成 string | number 之类的联合类型。"
+            ]
+          },
+          {
+            "title": "可选、可空与命名",
+            "paragraphs": [
+              "部分数组元素缺失的属性会生成为可选（prop?），显式 null 会追加 | null；你输入的根名称会贯穿所有嵌套命名，例如 ApiResponseItem。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON 输入",
+        "inputPlaceholder": "在此粘贴 JSON…",
+        "output": "TypeScript 接口",
+        "outputPlaceholder": "生成的代码将显示在这里…",
+        "rootName": "根类型名称",
+        "rootNamePlaceholder": "Root",
+        "packageName": "包名",
+        "loadExample": "加载示例",
+        "clear": "清空",
+        "errorInvalidJson": "JSON 无效",
+        "privacy": "所有转换均在浏览器本地完成，您的 JSON 不会被上传或存储。"
+      },
+      "buttons": {
+        "copy": "复制",
+        "copied": "已复制！"
+      }
+    },
+    "json-to-go": {
+      "metadata": {
+        "title": "JSON 转 Go 结构体",
+        "description": "在线将 JSON 转换为带 json 标签的 Go 结构体。嵌套结构体、可空字段使用指针、支持自定义包名。",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json 转 go",
+        "json 转 go 结构体",
+        "golang json 转结构体",
+        "go 结构体生成器",
+        "json 转 struct",
+        "在线 json 转 golang",
+        "go json 模型生成",
+        "json 转结构体工具",
+        "golang struct 生成",
+        "json 转 go 代码"
+      ],
+      "faqs": [
+        {
+          "question": "如何将 JSON 转换为 Go 结构体？",
+          "answer": "粘贴 JSON，工具会立即为每个字段生成带 json:\"...\" 标签的 Go 结构体。嵌套对象会成为独立的结构体，一键即可复制整个文件。"
+        },
+        {
+          "question": "会生成哪些 Go 类型？",
+          "answer": "字符串映射为 string，整数为 int，小数为 float64，布尔为 bool，数组为切片，未知或混合类型为 interface{}。可能为 null 或缺失的字段会变成 *string 这样的指针类型，确保 encoding/json 正确处理。"
+        },
+        {
+          "question": "为什么字段带 json 标签？",
+          "answer": "每个字段都在结构体标签中保留原始 JSON 键名，即使 Go 字段名按 PascalCase 导出，序列化也能正常工作。部分数组元素缺失的属性还会追加 ,omitempty。"
+        },
+        {
+          "question": "我的数据会被上传吗？",
+          "answer": "不会。转换完全在浏览器中进行，您的 JSON 和生成的代码不会离开您的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON 格式化",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON 转 CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON 转 YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 JSON 转 Go 工具？",
+          "paragraphs": [
+            "JSON 转 Go 工具可以根据 JSON 样例生成 Go 结构体定义，包含正确的 json 标签、嵌套结构体和切片类型。这是为 REST API 和 Webhook 编写类型化模型最快的方式，且完全在浏览器中运行。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何从 JSON 生成 Go 结构体",
+            "paragraphs": [
+              "粘贴 JSON 对象或数组，按需修改包名，然后复制生成的结构体到项目中。默认包名为 main。"
+            ]
+          },
+          {
+            "title": "类型映射",
+            "paragraphs": [
+              "整数使用 int，小数使用 float64。嵌套对象会按键名生成独立的结构体，数组变成切片，空数组或混合数组回退为 []interface{}。"
+            ]
+          },
+          {
+            "title": "指针、omitempty 与命名",
+            "paragraphs": [
+              "为 null 或部分元素缺失的字段会变成指针类型并在标签中追加 ,omitempty。类型名是键名的 PascalCase 形式，冲突时自动加数字后缀，根名称可随时修改。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON 输入",
+        "inputPlaceholder": "在此粘贴 JSON…",
+        "output": "Go 结构体",
+        "outputPlaceholder": "生成的代码将显示在这里…",
+        "rootName": "根类型名称",
+        "rootNamePlaceholder": "Root",
+        "packageName": "包名",
+        "loadExample": "加载示例",
+        "clear": "清空",
+        "errorInvalidJson": "JSON 无效",
+        "privacy": "所有转换均在浏览器本地完成，您的 JSON 不会被上传或存储。"
+      },
+      "buttons": {
+        "copy": "复制",
+        "copied": "已复制！"
+      }
+    },
+    "json-to-java": {
+      "metadata": {
+        "title": "JSON 转 Java POJO",
+        "description": "在线将 JSON 转换为 Java POJO 类。私有字段与 getter/setter，特殊键名自动添加 Jackson 注解。",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json 转 java",
+        "json 转 pojo",
+        "java 类生成",
+        "json 转 java 类",
+        "pojo 生成器",
+        "json 转 bean",
+        "json 生成 dto",
+        "在线 json 转 java",
+        "jackson pojo 生成",
+        "java 实体类生成"
+      ],
+      "faqs": [
+        {
+          "question": "如何从 JSON 生成 Java 类？",
+          "answer": "粘贴 JSON，每个对象都会变成一个带私有字段和公有 getter/setter 的 Java 类。嵌套对象会成为独立的类，数组会变成 List<T>。"
+        },
+        {
+          "question": "使用了哪些类型？",
+          "answer": "整数映射为 Integer，小数为 Double，布尔为 Boolean，字符串为 String。字段可能缺失或为 null 时使用包装类型，确保 null 能安全反序列化。"
+        },
+        {
+          "question": "为什么有些字段带 @JsonProperty？",
+          "answer": "不是合法 Java 标识符、或无法一一映射到 camelCase 字段的键（如 user_name）会自动添加 Jackson 的 @JsonProperty 注解，保证反序列化正常工作。"
+        },
+        {
+          "question": "我的 JSON 会被保存吗？",
+          "answer": "不会。所有内容都在浏览器本地生成，不上传、不记录任何数据。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON 格式化",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON 转 CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON 转 YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 JSON 转 Java 工具？",
+          "paragraphs": [
+            "JSON 转 Java 工具把 JSON 样例转换为 POJO 类——私有字段、getter/setter，需要时自动添加 Jackson 注解。非常适合 DTO、API 模型和测试夹具。所有处理都在浏览器中完成。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何从 JSON 生成 POJO",
+            "paragraphs": [
+              "粘贴 JSON 对象，按需修改根类名，然后复制生成的类。嵌套对象会作为独立的类输出在同一文件中。"
+            ]
+          },
+          {
+            "title": "字段、getter 与 setter",
+            "paragraphs": [
+              "每个属性都会变成遵循标准 bean 规范的私有字段加公有 getter/setter，可直接配合 Jackson、Gson 及大多数 ORM 使用。"
+            ]
+          },
+          {
+            "title": "数组、嵌套与 null",
+            "paragraphs": [
+              "JSON 数组变成 List<T>，嵌套对象按键名生成类，例如 Root 中的 address 会生成 RootAddress。可能为 null 或缺失的字段使用包装类型（Integer、Double、Boolean）而非基本类型。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON 输入",
+        "inputPlaceholder": "在此粘贴 JSON…",
+        "output": "Java 类",
+        "outputPlaceholder": "生成的代码将显示在这里…",
+        "rootName": "根类型名称",
+        "rootNamePlaceholder": "Root",
+        "packageName": "包名",
+        "loadExample": "加载示例",
+        "clear": "清空",
+        "errorInvalidJson": "JSON 无效",
+        "privacy": "所有转换均在浏览器本地完成，您的 JSON 不会被上传或存储。"
+      },
+      "buttons": {
+        "copy": "复制",
+        "copied": "已复制！"
+      }
+    },
+    "json-to-python": {
+      "metadata": {
+        "title": "JSON 转 Python",
+        "description": "在线将 JSON 转换为 Python dataclass。嵌套 dataclass、Optional 与 List 类型标注、PEP 8 命名。",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json 转 python",
+        "json 转 dataclass",
+        "python dataclass 生成",
+        "json 转 python 类",
+        "dataclass 生成器",
+        "json 转 python 代码",
+        "python 模型生成",
+        "json 转 dataclasses",
+        "json 转 类型化 python",
+        "在线 dataclass 转换"
+      ],
+      "faqs": [
+        {
+          "question": "如何将 JSON 转换为 Python dataclass？",
+          "answer": "粘贴 JSON，每个对象都会变成一个带类型标注字段的 @dataclass。嵌套对象会成为独立的 dataclass，数组会变成 List[T]。"
+        },
+        {
+          "question": "字段名如何处理？",
+          "answer": "键名会按 PEP 8 风格转换为 snake_case，例如 firstName 变成 first_name。Python 保留字会追加下划线。"
+        },
+        {
+          "question": "缺失或 null 字段怎么办？",
+          "answer": "在部分数组元素中缺失或样例中为 null 的字段会被标注为 Optional[T] 并默认 None，与数据实际可能的内容一致。"
+        },
+        {
+          "question": "我的数据会被发送吗？",
+          "answer": "不会。转换完全在浏览器中完成，您的 JSON 不会离开您的设备。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON 格式化",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON 转 CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON 转 YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 JSON 转 Python 工具？",
+          "paragraphs": [
+            "JSON 转 Python 工具可以根据 JSON 样例生成带完整类型标注的 dataclass。不再使用结构不明的 dict，而是获得类型化、自说明的模型，适合 API、脚本和测试——全部在浏览器本地生成。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何从 JSON 生成 dataclass",
+            "paragraphs": [
+              "粘贴 JSON 对象或数组，dataclass 会立即出现。带默认值的字段会排在必填字段之后，符合 dataclass 的要求。"
+            ]
+          },
+          {
+            "title": "类型标注",
+            "paragraphs": [
+              "str、int、float、bool 和 List[T] 都从样例推断。嵌套对象会成为独立的 dataclass，未知结构回退为 Any。"
+            ]
+          },
+          {
+            "title": "可选字段与使用",
+            "paragraphs": [
+              "可能缺失或为 null 的内容会变成 Optional[T] = None。输出只从 dataclasses 和 typing 导入——没有第三方依赖——并可用 dataclasses.asdict() 把模型转回 JSON。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON 输入",
+        "inputPlaceholder": "在此粘贴 JSON…",
+        "output": "Python dataclass",
+        "outputPlaceholder": "生成的代码将显示在这里…",
+        "rootName": "根类型名称",
+        "rootNamePlaceholder": "Root",
+        "packageName": "包名",
+        "loadExample": "加载示例",
+        "clear": "清空",
+        "errorInvalidJson": "JSON 无效",
+        "privacy": "所有转换均在浏览器本地完成，您的 JSON 不会被上传或存储。"
+      },
+      "buttons": {
+        "copy": "复制",
+        "copied": "已复制！"
+      }
+    },
+    "json-to-kotlin": {
+      "metadata": {
+        "title": "JSON 转 Kotlin",
+        "description": "在线将 JSON 转换为 Kotlin 数据类。可空类型 ?、嵌套数据类、val 属性。",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json 转 kotlin",
+        "json 转 data class",
+        "kotlin 数据类生成",
+        "json 转 kotlin 工具",
+        "kotlin data class 生成器",
+        "json 生成 kotlin",
+        "在线 json 转 kt",
+        "kotlin 模型生成",
+        "json 转 kotlin 数据类",
+        "json to kt"
+      ],
+      "faqs": [
+        {
+          "question": "如何将 JSON 转换为 Kotlin 数据类？",
+          "answer": "粘贴 JSON，每个对象都会变成带 val 属性的 Kotlin data class。嵌套对象会成为独立的数据类，数组会变成 List<T>。"
+        },
+        {
+          "question": "可空性如何处理？",
+          "answer": "可能缺失或为 null 的字段会被标注为 T? 并默认 null，例如 val nickname: String? = null，符合 Kotlin 的安全习惯。"
+        },
+        {
+          "question": "生成的代码支持哪些序列化器？",
+          "answer": "生成的数据类兼容 kotlinx.serialization、Moshi 和 Gson。当键名无法映射为合法属性名时，会添加 Jackson 的 @JsonProperty 注解以保持映射明确。"
+        },
+        {
+          "question": "我的 JSON 会被上传吗？",
+          "answer": "不会。一切都在浏览器本地运行，不存储任何数据。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON 格式化",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON 转 CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON 转 YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 JSON 转 Kotlin 工具？",
+          "paragraphs": [
+            "JSON 转 Kotlin 工具可以从 JSON 样例生成符合习惯的数据类：不可变的 val 属性、带默认值的可空类型、按键名派生的嵌套类。非常适合 Android 和 JVM 的 API 模型。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何生成数据类",
+            "paragraphs": [
+              "粘贴 JSON 对象，可选地修改根类名，然后复制结果。所有类会一起输出，方便粘贴到同一个文件。"
+            ]
+          },
+          {
+            "title": "类型与可空性",
+            "paragraphs": [
+              "String、Int、Double 和 Boolean 从样例推断；集合变成 List<T>。任何可选或 null 的内容都会变成 T? = null。"
+            ]
+          },
+          {
+            "title": "嵌套与命名",
+            "paragraphs": [
+              "嵌套对象会生成以父级命名的独立数据类，例如 Root 中的 address 会生成 RootAddress——冲突时自动加数字后缀。键名与属性名在大小写之外仍有差异时会添加显式注解。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON 输入",
+        "inputPlaceholder": "在此粘贴 JSON…",
+        "output": "Kotlin 数据类",
+        "outputPlaceholder": "生成的代码将显示在这里…",
+        "rootName": "根类型名称",
+        "rootNamePlaceholder": "Root",
+        "packageName": "包名",
+        "loadExample": "加载示例",
+        "clear": "清空",
+        "errorInvalidJson": "JSON 无效",
+        "privacy": "所有转换均在浏览器本地完成，您的 JSON 不会被上传或存储。"
+      },
+      "buttons": {
+        "copy": "复制",
+        "copied": "已复制！"
+      }
+    },
+    "json-to-csharp": {
+      "metadata": {
+        "title": "JSON 转 C# 类",
+        "description": "在线将 JSON 转换为 C# 类。强类型 POCO、属性与可空注解，特殊键名自动添加 JsonProperty 特性。",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json 转 c#",
+        "json 转 csharp",
+        "json 转 c# 类",
+        "c# 类生成器",
+        "json 转 poco",
+        "json 转 c# 在线",
+        "c# 实体类生成",
+        "json 生成 c# 模型",
+        "json 转 对象 c#",
+        "c# json 反序列化类"
+      ],
+      "faqs": [
+        {
+          "question": "如何将 JSON 转换为 C# 类？",
+          "answer": "把 JSON 对象或数组粘贴到输入框，C# 类会即时生成：每个嵌套对象都会成为独立的 public 类，属性带 get/set，一键即可复制全部代码。"
+        },
+        {
+          "question": "JSON 类型如何映射到 C#？",
+          "answer": "字符串映射为 string，整数 int，小数 double，布尔 bool，数组 List<T>，字符串键对象 Dictionary<string, T>。嵌套对象成为独立类，名称由键名派生，例如 Root 中的 address 生成 RootAddress。"
+        },
+        {
+          "question": "[JsonProperty] 什么时候会添加？",
+          "answer": "只有当 JSON 键名与 C# 属性名不仅大小写不同时才会添加，例如 user_id 会变成 UserId 并加上 [JsonProperty(\"user_id\")]。需要时会自动添加 using Newtonsoft.Json;。"
+        },
+        {
+          "question": "我的 JSON 会被上传到服务器吗？",
+          "answer": "不会。所有转换都在浏览器本地完成，不会发送、存储或记录任何数据。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON 格式化",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON 转 CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON 转 YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 JSON 转 C# 类工具？",
+          "paragraphs": [
+            "JSON 转 C# 类工具可以把 JSON 样例直接转换为可用的 C# 类（POCO）。粘贴 API 返回数据，立即得到强类型模型，可直接放入 .NET 项目。全程在浏览器中完成。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何从 JSON 生成 C# 类",
+            "paragraphs": [
+              "粘贴 JSON，类代码会实时生成，点击复制即可加入解决方案。常见结构的输出可以直接编译，无需手工修改。"
+            ]
+          },
+          {
+            "title": "类型映射",
+            "paragraphs": [
+              "int 映射为 int，小数映射为 double，null 或缺失的值会变成可空类型如 int?。数组生成 List<T>，混合键的对象生成 Dictionary<string, T>。"
+            ]
+          },
+          {
+            "title": "命名与特性",
+            "paragraphs": [
+              "键名会按 C# 惯例转换为 PascalCase。当原始键名与属性名不仅大小写不同时会添加 [JsonProperty] 保证反序列化正确，缺失或 null 字段使用可空注解。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON 输入",
+        "inputPlaceholder": "在此粘贴 JSON…",
+        "output": "C# 类",
+        "outputPlaceholder": "生成的代码将显示在这里…",
+        "rootName": "根类型名称",
+        "rootNamePlaceholder": "Root",
+        "packageName": "包名",
+        "loadExample": "加载示例",
+        "clear": "清空",
+        "errorInvalidJson": "JSON 无效",
+        "privacy": "所有转换均在浏览器本地完成，您的 JSON 不会被上传或存储。"
+      },
+      "buttons": {
+        "copy": "复制",
+        "copied": "已复制！"
+      }
+    },
+    "json-to-rust": {
+      "metadata": {
+        "title": "JSON 转 Rust",
+        "description": "在线将 JSON 转换为 Rust 结构体。Serde 就绪的 #[derive(Serialize, Deserialize)]、可空字段 Option<T>、自动 camelCase 重命名。",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json 转 rust",
+        "json 转 rust 结构体",
+        "rust serde 结构体生成",
+        "json to serde",
+        "json 生成 rust",
+        "rust struct 生成器",
+        "json 转 rust 在线",
+        "serde json 结构体",
+        "rust json 模型",
+        "json 反序列化 rust"
+      ],
+      "faqs": [
+        {
+          "question": "如何将 JSON 转换为 Rust 结构体？",
+          "answer": "把 JSON 对象或数组粘贴到输入框，Serde 就绪的结构体会即时生成：每个嵌套对象都会成为独立的 pub struct，一键即可复制全部代码。"
+        },
+        {
+          "question": "JSON 类型如何映射到 Rust？",
+          "answer": "字符串映射为 String，整数 i64，小数 f64，布尔 bool，数组 Vec<T>，字符串键对象 HashMap<String, T>，未知或混合形态回退为 serde_json::Value。嵌套对象成为独立结构体，名称由键名派生。"
+        },
+        {
+          "question": "#[serde(rename_all = \"camelCase\")] 有什么作用？",
+          "answer": "它让 serde 接受并输出 camelCase 键，同时结构体字段按 Rust 惯例保持 snake_case。当只有部分字段需要重命名时，会改用单字段 #[serde(rename = \"...\")]；缺失或 null 的值会变成 Option<T>。"
+        },
+        {
+          "question": "我的 JSON 会被上传到服务器吗？",
+          "answer": "不会。所有转换都在浏览器本地完成，不会发送、存储或记录任何数据。"
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON 格式化",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON 转 CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON 转 YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "什么是 JSON 转 Rust 工具？",
+          "paragraphs": [
+            "JSON 转 Rust 工具可以把 JSON 样例直接转换为带 serde 注解的 Rust 结构体。粘贴 API 返回数据，即可得到能直接放入 Rust 项目的类型，配合 serde_json 使用。全程在浏览器中完成。"
+          ]
+        },
+        "sections": [
+          {
+            "title": "如何从 JSON 生成 Rust 结构体",
+            "paragraphs": [
+              "粘贴 JSON，结构体会实时生成，点击复制即可加入项目。代码中已包含所需的 serde 与 serde_json derive，直接可用。"
+            ]
+          },
+          {
+            "title": "类型映射",
+            "paragraphs": [
+              "整数映射为 i64，小数映射为 f64，数组映射为 Vec<T>，键名不是合法标识符的对象映射为 HashMap<String, T>。未知或混合形态的值会变成 serde_json::Value，运行时不会出错。"
+            ]
+          },
+          {
+            "title": "命名与 serde 属性",
+            "paragraphs": [
+              "字段按 Rust 风格命名为 snake_case。当所有键本身就是 camelCase 时，会生成单个 #[serde(rename_all = \"camelCase\")]；否则对个别字段使用 #[serde(rename)]。可选和 null 字段使用 Option<T>。"
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON 输入",
+        "inputPlaceholder": "在此粘贴 JSON…",
+        "output": "Rust 结构体",
+        "outputPlaceholder": "生成的代码将显示在这里…",
+        "rootName": "根类型名称",
+        "rootNamePlaceholder": "Root",
+        "packageName": "包名",
+        "loadExample": "加载示例",
+        "clear": "清空",
+        "errorInvalidJson": "JSON 无效",
+        "privacy": "所有转换均在浏览器本地完成，您的 JSON 不会被上传或存储。"
+      },
+      "buttons": {
+        "copy": "复制",
+        "copied": "已复制！"
+      }
     }
   },
   "blogLayout": {
@@ -38708,7 +40024,7 @@
       "title": "如何免费创建数字签名（2026指南）",
       "description": "学习如何为文档、PDF和合同创建数字签名。涵盖手绘、输入、上传以及无需注册的免费工具。"
     },
-        "how-to-create-a-strong-password": {
+    "how-to-create-a-strong-password": {
       "title": "如何创建强密码：2026 安全指南",
       "description": "了解什么样的密码才算强密码、为什么长度比复杂度更重要，以及密码管理器和通行密钥如何保护账户安全。附免费浏览器工具。"
     },
@@ -38731,6 +40047,10 @@
     "how-to-upscale-images": {
       "title": "如何在不损失质量的情况下放大图片（2026指南）",
       "description": "学习如何为印刷、网页和社交媒体放大和增强图片。涵盖放大方法、何时使用每种方法以及免费浏览器工具。"
+    },
+    "json-to-code": {
+      "title": "JSON 转 TypeScript、Go、Java 等代码（免费，2026 指南）",
+      "description": "把任意 JSON 示例转换为 TypeScript interface、Go struct、Java POJO、Python dataclass、Kotlin data class、C# 类或 Rust serde struct——浏览器内免费完成，数据不上传。附嵌套对象、混合形状数组、可选与可空字段的处理说明。"
     }
   }
 }

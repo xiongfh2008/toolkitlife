@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "ToolkitLife - Free Online Tools & Calculators | No Signup Required",
-    "description": "370+ free browser-based tools and calculators for developers, designers, finance, health, and more. No signup, no data stored.",
+    "description": "390+ free browser-based tools and calculators for developers, designers, finance, health, and more. No signup, no data stored.",
     "keywords": [
       "free online tools",
       "developer tools",
@@ -17,9 +17,9 @@
       "good morning images"
     ],
     "ogTitle": "ToolkitLife - Free Online Tools & Calculators",
-    "ogDescription": "370+ free browser-based tools and calculators. No signup, no data stored.",
+    "ogDescription": "390+ free browser-based tools and calculators. No signup, no data stored.",
     "twitterTitle": "ToolkitLife - Free Online Tools & Calculators",
-    "twitterDescription": "370+ free browser-based tools and calculators. No signup required."
+    "twitterDescription": "390+ free browser-based tools and calculators. No signup required."
   },
   "nav": {
     "home": "ToolkitLife",
@@ -71,35 +71,35 @@
       "Math": "Math"
     },
     "why": {
-        "title": "Why ToolkitLife",
-        "intro": "ToolkitLife is a collection of 379 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
-        "privacy": "Your files stay private: image, video and document tools process everything locally with <mdn>WebAssembly</mdn> — your data never leaves your device.",
-        "i18n": "The site is available in English, Chinese, Japanese, Korean and Russian, and every tool page includes a step-by-step guide plus answers to common questions."
+      "title": "Why ToolkitLife",
+      "intro": "ToolkitLife is a collection of 379 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
+      "privacy": "Your files stay private: image, video and document tools process everything locally with <mdn>WebAssembly</mdn> — your data never leaves your device.",
+      "i18n": "The site is available in English, Chinese, Japanese, Korean and Russian, and every tool page includes a step-by-step guide plus answers to common questions."
     },
     "faq": {
-        "title": "Frequently asked questions",
-        "items": [
-            {
-                "question": "Is ToolkitLife free?",
-                "answer": "Yes. All 379 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
-            },
-            {
-                "question": "Are my files uploaded to a server?",
-                "answer": "No. Every tool runs entirely in your browser using JavaScript and WebAssembly. Files, text and images are processed locally and never sent to any server."
-            },
-            {
-                "question": "Do I need to create an account?",
-                "answer": "No. There is no account system — open a tool and use it. Favorites and recently used tools are stored only in your own browser."
-            },
-            {
-                "question": "Which devices and browsers are supported?",
-                "answer": "Any modern browser on desktop, tablet or phone — Chrome, Edge, Firefox and Safari. Tools adapt to your screen size, and nothing needs to be installed."
-            },
-            {
-                "question": "Are the calculators reliable?",
-                "answer": "They apply standard formulas and provide estimates for general information only. Financial, health and legal tools include a disclaimer and are not a substitute for professional advice."
-            }
-        ]
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Is ToolkitLife free?",
+          "answer": "Yes. All 379 tools are completely free with no signup, no subscription and no usage limits. Processing happens on your device, so there are no server costs to pass on."
+        },
+        {
+          "question": "Are my files uploaded to a server?",
+          "answer": "No. Every tool runs entirely in your browser using JavaScript and WebAssembly. Files, text and images are processed locally and never sent to any server."
+        },
+        {
+          "question": "Do I need to create an account?",
+          "answer": "No. There is no account system — open a tool and use it. Favorites and recently used tools are stored only in your own browser."
+        },
+        {
+          "question": "Which devices and browsers are supported?",
+          "answer": "Any modern browser on desktop, tablet or phone — Chrome, Edge, Firefox and Safari. Tools adapt to your screen size, and nothing needs to be installed."
+        },
+        {
+          "question": "Are the calculators reliable?",
+          "answer": "They apply standard formulas and provide estimates for general information only. Financial, health and legal tools include a disclaimer and are not a substitute for professional advice."
+        }
+      ]
     },
     "tools": {
       "what-is-my-browser": {
@@ -2387,6 +2387,78 @@
         "description": "List files inside a ZIP archive without extracting.",
         "category": "Life",
         "icon": "🗜️"
+      },
+      "jwt-generator": {
+        "name": "JWT Generator",
+        "description": "Create and sign JSON Web Tokens (HS256/384/512) with custom headers, payloads, and expiry.",
+        "category": "Security",
+        "icon": "🔑"
+      },
+      "aes-encryption": {
+        "name": "AES Encryption",
+        "description": "Encrypt and decrypt text with AES-256 (GCM/CBC) entirely in your browser.",
+        "category": "Security",
+        "icon": "🔒"
+      },
+      "hmac-generator": {
+        "name": "HMAC Generator",
+        "description": "Compute HMAC signatures with SHA family hash functions.",
+        "category": "Security",
+        "icon": "🔏"
+      },
+      "rsa-key-generator": {
+        "name": "RSA Key Generator",
+        "description": "Generate RSA-OAEP key pairs and export public and private PEM files.",
+        "category": "Security",
+        "icon": "🔑"
+      },
+      "pem-jwk-converter": {
+        "name": "PEM JWK Converter",
+        "description": "Convert keys between PEM and JWK formats for RSA and EC keys.",
+        "category": "Security",
+        "icon": "🔄"
+      },
+      "json-to-typescript": {
+        "name": "JSON to TypeScript",
+        "description": "Convert JSON samples into TypeScript interfaces with nested named types, optional and nullable fields.",
+        "category": "Developer",
+        "icon": "🟦"
+      },
+      "json-to-go": {
+        "name": "JSON to Go",
+        "description": "Generate Go structs with json tags from JSON, including nested structs, pointer fields, and custom package names.",
+        "category": "Developer",
+        "icon": "🐹"
+      },
+      "json-to-java": {
+        "name": "JSON to Java",
+        "description": "Turn JSON into Java POJO classes with private fields, getters and setters, and Jackson annotations for special keys.",
+        "category": "Developer",
+        "icon": "☕"
+      },
+      "json-to-python": {
+        "name": "JSON to Python",
+        "description": "Convert JSON into Python dataclasses with type hints, Optional and List annotations, and PEP 8 naming.",
+        "category": "Developer",
+        "icon": "🐍"
+      },
+      "json-to-kotlin": {
+        "name": "JSON to Kotlin",
+        "description": "Generate Kotlin data classes from JSON with nullable types, nested classes, and val properties.",
+        "category": "Developer",
+        "icon": "🟪"
+      },
+      "json-to-csharp": {
+        "name": "JSON to C#",
+        "description": "Convert JSON into C# classes with get/set properties, nullable annotations, and JsonProperty attributes.",
+        "category": "Developer",
+        "icon": "🟩"
+      },
+      "json-to-rust": {
+        "name": "JSON to Rust",
+        "description": "Generate serde-ready Rust structs from JSON with Option<T> for nullable fields and automatic camelCase renaming.",
+        "category": "Developer",
+        "icon": "🦀"
       }
     },
     "scenes": {
@@ -2417,7 +2489,7 @@
     "clearHistory": "Clear",
     "searchHistory": "Recent Searches",
     "emptyFavorites": "No favorites yet — click the star on any tool to save it here.",
-    "heroBadge": "370+ free online tools & calculators",
+    "heroBadge": "390+ free online tools & calculators",
     "showMore": "Show more"
   },
   "about": {
@@ -5617,7 +5689,7 @@
         }
       ]
     },
-"screen-color-test": {
+    "screen-color-test": {
       "metadata": {
         "title": "Screen Color Test - Check Dead Pixels & Backlight Bleed",
         "description": "Free online screen test. Fill your display with solid colors to find dead pixels, stuck pixels and backlight bleed. Fullscreen, no install, runs in your browser."
@@ -38599,6 +38671,1256 @@
       "buttons": {
         "group": "Random Group"
       }
+    },
+    "jwt-generator": {
+      "metadata": {
+        "title": "JWT Generator",
+        "description": "Create signed JSON Web Tokens (HS256, HS384, HS512) with custom headers, payloads, and expiry times. Signing happens entirely in your browser.",
+        "category": "Security"
+      },
+      "keywords": [
+        "jwt generator",
+        "json web token generator",
+        "create jwt online",
+        "hs256 token generator",
+        "jwt sign tool",
+        "generate jwt token",
+        "jwt builder",
+        "jwt creator online",
+        "hmac token generator",
+        "free jwt tool"
+      ],
+      "faqs": [
+        {
+          "question": "What is a JSON Web Token (JWT)?",
+          "answer": "A JWT is a compact, URL-safe format for carrying claims between two parties. It consists of a header, a payload, and an HMAC signature that proves the token was created with a shared secret."
+        },
+        {
+          "question": "Where is my secret used?",
+          "answer": "Your secret never leaves your browser. The HMAC signature is computed locally with the Web Crypto API, and nothing — token, payload, or secret — is sent to any server."
+        },
+        {
+          "question": "Which algorithms are supported?",
+          "answer": "HS256, HS384, and HS512 — HMAC signatures based on SHA-256, SHA-384, and SHA-512 respectively. These are the most widely supported symmetric JWT algorithms."
+        },
+        {
+          "question": "How does the expiry option work?",
+          "answer": "When you pick an expiry, the tool automatically adds an exp (expiration time) claim to your payload, calculated from the moment you generate the token. Choose 'no expiry' to manage iat and exp yourself."
+        },
+        {
+          "question": "Can I use the generated token in production?",
+          "answer": "You can — the structure and signature follow the JWT standard. Just make sure to use a long, random secret and never expose it in client-side code. For asymmetric signing (RS256), use a dedicated key-management setup."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JWT Decoder",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Base64 Encoder",
+          "href": "/tools/base64-encoder"
+        },
+        {
+          "name": "Hash Generator",
+          "href": "/tools/hash-generator"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "How to generate a JWT",
+          "paragraphs": [
+            "A JSON Web Token lets you prove that a payload was created by someone holding a shared secret. It has three parts — header, payload, and signature — joined by dots and base64url-encoded.",
+            "This tool builds and signs the token entirely in your browser using the Web Crypto API. Your secret and payload never leave the page."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Edit the header and payload",
+            "paragraphs": [
+              "The header declares the algorithm and token type. The payload holds your claims — iss, sub, iat, exp, or anything custom. Both must be valid JSON or the token can't be built."
+            ]
+          },
+          {
+            "title": "Choose algorithm and expiry",
+            "paragraphs": [
+              "Pick HS256 for broad compatibility, or HS384/HS512 for longer digests. The expiry option adds an exp claim automatically: 15 minutes up to 30 days, or none if you set dates yourself."
+            ]
+          },
+          {
+            "title": "Set a strong secret",
+            "paragraphs": [
+              "The HMAC secret is what protects the token, so use a long random string — the Random secret button generates a cryptographically secure 32-byte value for you."
+            ]
+          },
+          {
+            "title": "Generate and decode",
+            "paragraphs": [
+              "Click Generate to create the signed token, copy it with one click, and check the decoded table below to verify exactly what was signed. Everything happens locally in your browser."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "header": "Header",
+        "payload": "Payload",
+        "algorithm": "Algorithm",
+        "expiry": "Expiry",
+        "expiryNone": "No expiry",
+        "expiry15m": "15 minutes",
+        "expiry1h": "1 hour",
+        "expiry8h": "8 hours",
+        "expiry1d": "1 day",
+        "expiry7d": "7 days",
+        "expiry30d": "30 days",
+        "secret": "Secret",
+        "secretPlaceholder": "Enter your HMAC secret",
+        "randomSecret": "Random secret",
+        "generate": "Generate token",
+        "token": "Signed token",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "decoded": "Decoded preview",
+        "privacy": "Signing happens locally in your browser. Your secret and token are never sent or stored."
+      },
+      "errors": {
+        "invalidHeader": "Header is not valid JSON.",
+        "invalidPayload": "Payload is not valid JSON.",
+        "missingSecret": "Please enter a secret to sign the token."
+      }
+    },
+    "aes-encryption": {
+      "metadata": {
+        "title": "AES Encryption",
+        "description": "Encrypt and decrypt text with AES-256 (GCM or CBC) right in your browser. Password-based with PBKDF2 key derivation — nothing is uploaded anywhere.",
+        "category": "Security"
+      },
+      "keywords": [
+        "aes encryption",
+        "aes encrypt online",
+        "aes decrypt online",
+        "aes 256 encryption tool",
+        "encrypt text online",
+        "password encryption",
+        "aes gcm",
+        "aes cbc",
+        "browser encryption tool",
+        "free text encryption"
+      ],
+      "faqs": [
+        {
+          "question": "Is this encryption secure?",
+          "answer": "Yes. It uses AES-256 through the browser's native Web Crypto API, with a 256-bit key derived from your password via PBKDF2 (150,000 rounds of SHA-256). AES-GCM also authenticates the data, so tampering is detected automatically."
+        },
+        {
+          "question": "Is my password or text uploaded anywhere?",
+          "answer": "No. Encryption and decryption run entirely in your browser. Your password, plaintext, and ciphertext never leave the page — no server is involved at all."
+        },
+        {
+          "question": "What is the difference between AES-GCM and AES-CBC?",
+          "answer": "AES-GCM is an authenticated mode: it detects whether the ciphertext was modified and is recommended for new encryptions. AES-CBC is offered for compatibility with older systems but does not verify integrity on its own."
+        },
+        {
+          "question": "What is the salt for?",
+          "answer": "The salt ensures the same password produces a different key for every message. Leave it empty for a random salt (recommended), or enter a fixed text if you need reproducible output. The salt is packed into the encrypted blob automatically."
+        },
+        {
+          "question": "Why can't I decrypt my data?",
+          "answer": "Decryption almost always fails because the password is wrong — the 'wrong password' message means the derived key didn't match. The input must be the complete base64 blob this tool produced, since it bundles the salt and IV together with the ciphertext."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Hash Generator",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Password Strength Checker",
+          "href": "/tools/password-strength"
+        },
+        {
+          "name": "Base64 Encoder",
+          "href": "/tools/base64-encoder"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "How to encrypt and decrypt text with AES",
+          "paragraphs": [
+            "AES (Advanced Encryption Standard) is the algorithm trusted worldwide for protecting sensitive data. This tool gives you AES-256 with a key derived from your password using PBKDF2 — 150,000 rounds of SHA-256.",
+            "Everything runs locally in your browser through the Web Crypto API. Your password and your data never leave the page, and nothing is stored or transmitted."
+          ]
+        },
+        "sections": [
+          {
+            "title": "Pick a mode and algorithm",
+            "paragraphs": [
+              "Use the Encrypt tab to protect text and Decrypt to recover it. For encryption, choose AES-GCM (authenticated, recommended) or AES-CBC (legacy compatibility); decryption detects the algorithm automatically."
+            ]
+          },
+          {
+            "title": "Enter a strong password",
+            "paragraphs": [
+              "Your password is the only thing that can unlock the data, so make it long and unique. The key is derived with PBKDF2 and a salt, which slows down brute-force attempts dramatically."
+            ]
+          },
+          {
+            "title": "Understand salt and IV",
+            "paragraphs": [
+              "A random salt and a random IV are generated for every encryption and packed into the output blob. After encrypting, you can inspect their base64 values below the result."
+            ]
+          },
+          {
+            "title": "Share safely",
+            "paragraphs": [
+              "Copy the full base64 blob and share it together with the algorithm — the recipient just needs the password and this tool. Without the password the data is unreadable, even to us: nothing is ever uploaded."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "encryptTab": "Encrypt",
+        "decryptTab": "Decrypt",
+        "algorithm": "Algorithm",
+        "password": "Password",
+        "passwordPlaceholder": "Enter encryption password",
+        "salt": "Salt (optional)",
+        "saltPlaceholder": "Leave empty for a random salt",
+        "plaintext": "Plaintext",
+        "plaintextPlaceholder": "Type the text to encrypt…",
+        "ciphertext": "Ciphertext",
+        "ciphertextPlaceholder": "Paste the base64 blob to decrypt…",
+        "encryptButton": "Encrypt",
+        "decryptButton": "Decrypt",
+        "outputEncrypt": "Encrypted result (base64)",
+        "outputDecrypt": "Decrypted result",
+        "saltUsed": "Salt used",
+        "ivUsed": "IV used",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "privacy": "Encryption runs locally in your browser. Nothing is uploaded, logged, or stored."
+      },
+      "errors": {
+        "requiredPassword": "Please enter a password.",
+        "requiredText": "Please enter the text to process.",
+        "invalidData": "This doesn't look like data encrypted by this tool.",
+        "wrongPassword": "Wrong password or corrupted data."
+      }
+    },
+    "hmac-generator": {
+      "metadata": {
+        "title": "HMAC Generator",
+        "description": "Compute HMAC signatures with SHA-1, SHA-256, SHA-384, or SHA-512. Text, hex, or Base64 keys with hex and Base64 output — all in your browser.",
+        "category": "Security"
+      },
+      "keywords": [
+        "hmac generator",
+        "hmac signature",
+        "hmac sha256",
+        "hmac sha512 online",
+        "hmac hash generator",
+        "generate hmac signature",
+        "hmac base64",
+        "hmac hex output",
+        "hmac sha-1 online",
+        "api signature generator"
+      ],
+      "faqs": [
+        {
+          "question": "What is an HMAC signature?",
+          "answer": "HMAC (Hash-based Message Authentication Code) combines a secret key with a hash function to prove that a message is authentic and untampered. It is widely used for API request signing and webhook verification."
+        },
+        {
+          "question": "Which hash algorithms are supported?",
+          "answer": "SHA-1, SHA-256, SHA-384 and SHA-512, all computed with the browser's native Web Crypto API."
+        },
+        {
+          "question": "What key formats can I use?",
+          "answer": "Text, hexadecimal, or Base64. When integrating with a server, make sure the key encoding matches what the other side expects."
+        },
+        {
+          "question": "Is my data safe?",
+          "answer": "Yes. Everything runs locally in your browser — the message and the key are never sent to or stored on any server."
+        },
+        {
+          "question": "Why doesn't my HMAC match the server's?",
+          "answer": "The most common causes are a key-format mismatch (text vs hex vs Base64) or using a different hash algorithm than the other side. Check both."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Hash Generator",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "JWT Decoder",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Base64 Encoder",
+          "href": "/tools/base64-encoder"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is an HMAC generator?",
+          "paragraphs": [
+            "An HMAC generator computes a Hash-based Message Authentication Code: a signature that binds your message to a secret key. Receivers who share the key can verify the message is authentic and untampered.",
+            "HMAC is everywhere — API request signing, webhook verification, JWT validation. This tool computes HMAC with SHA-1, SHA-256, SHA-384 or SHA-512 using the browser's native Web Crypto API, so your message and key never leave your device."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to generate an HMAC signature",
+            "paragraphs": [
+              "Enter the message and the secret key, pick the key format and hash algorithm, then press Generate.",
+              "The signature is shown as both hex and Base64 — use whichever your API or service expects, and copy it with one click."
+            ]
+          },
+          {
+            "title": "Choosing the key format",
+            "paragraphs": [
+              "Text keys are encoded as UTF-8 bytes. Hex and Base64 keys are decoded to raw bytes first, so a key stored in another encoding still produces the correct signature."
+            ]
+          },
+          {
+            "title": "Choosing the hash algorithm",
+            "paragraphs": [
+              "SHA-256 is the common default today. SHA-384 and SHA-512 offer a higher security margin, while SHA-1 remains only for legacy systems that still require it."
+            ]
+          },
+          {
+            "title": "Common use cases",
+            "paragraphs": [
+              "Use this tool to verify API signatures, debug webhook payloads, or cross-check an HMAC implementation against a known message and key."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "message": "Message",
+        "messagePlaceholder": "Enter the message to sign…",
+        "key": "Secret key",
+        "keyPlaceholder": "Enter your secret key",
+        "keyFormat": "Key format",
+        "formatText": "Text",
+        "formatHex": "Hex",
+        "formatBase64": "Base64",
+        "algorithm": "Algorithm",
+        "hexOutput": "Hex output",
+        "base64Output": "Base64 output",
+        "outputPlaceholder": "Signature appears here",
+        "privacy": "All calculations run locally in your browser. Your message and key never leave your device.",
+        "emptyMessage": "Please enter a message to sign.",
+        "emptyKey": "Please enter a secret key.",
+        "invalidHex": "Invalid hex key: use only 0-9 and a-f, with an even number of digits.",
+        "invalidBase64": "Invalid Base64 key.",
+        "error": "Failed to compute the signature. Please check your input."
+      },
+      "buttons": {
+        "generate": "Generate"
+      }
+    },
+    "rsa-key-generator": {
+      "metadata": {
+        "title": "RSA Key Generator",
+        "description": "Generate RSA-OAEP (SHA-256) key pairs of 2048, 3072, or 4096 bits. Export public (SPKI) and private (PKCS#8) PEM files, entirely in your browser.",
+        "category": "Security"
+      },
+      "keywords": [
+        "rsa key generator",
+        "generate rsa key pair",
+        "rsa 2048 key generator",
+        "rsa 4096 key generator",
+        "rsa oaep key pair",
+        "public private key generator",
+        "pem key generator",
+        "online rsa keygen",
+        "rsa sha-256 key pair",
+        "jwt rs256 key generator"
+      ],
+      "faqs": [
+        {
+          "question": "How are the RSA keys generated?",
+          "answer": "With the browser's native Web Crypto API (crypto.subtle.generateKey) using RSA-OAEP with SHA-256. The keys are generated locally on your device."
+        },
+        {
+          "question": "What key size should I choose?",
+          "answer": "2048 bits is fine for most uses. 3072 and 4096 bits offer a larger security margin at the cost of noticeably slower generation."
+        },
+        {
+          "question": "What format are the keys exported in?",
+          "answer": "The public key is exported as a SPKI PEM (BEGIN PUBLIC KEY) and the private key as a PKCS#8 PEM (BEGIN PRIVATE KEY) — both standard formats."
+        },
+        {
+          "question": "Can I use these keys for SSH?",
+          "answer": "These are standard RSA keys intended for encryption or signing. OpenSSH uses its own key format, so you would need to convert them first."
+        },
+        {
+          "question": "Is the private key stored anywhere?",
+          "answer": "No. Keys exist only in your browser — copy or download them before closing the page, because they cannot be recovered afterwards."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "Password Generator",
+          "href": "/tools/password-generator"
+        },
+        {
+          "name": "JWT Decoder",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Hash Generator",
+          "href": "/tools/hash-generator"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is an RSA key generator?",
+          "paragraphs": [
+            "An RSA key generator creates a matched pair of keys: a public key you can share freely and a private key you keep secret. This tool uses the RSA-OAEP algorithm with SHA-256.",
+            "Key generation happens entirely in your browser via the Web Crypto API — no key material is ever transmitted or stored on a server."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to generate an RSA key pair",
+            "paragraphs": [
+              "Choose the key size (2048, 3072 or 4096 bits) and press Generate. Larger keys take noticeably longer to produce.",
+              "The public key appears on the left in SPKI PEM form and the private key on the right in PKCS#8 PEM form. Use the copy buttons or download each as a .pem file."
+            ]
+          },
+          {
+            "title": "Choosing the key size",
+            "paragraphs": [
+              "2048 bits is the current baseline and is sufficient for most applications. 3072 and 4096 bits offer a larger security margin at the cost of slower generation and bigger keys."
+            ]
+          },
+          {
+            "title": "Protecting your private key",
+            "paragraphs": [
+              "Anyone who obtains the private key can decrypt data meant for you or sign as you. Store it offline, never commit it to a repository, and never share it. Since generation happens in your browser, the key never touches a server."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "keySize": "Key size",
+        "algorithm": "Algorithm",
+        "algorithmValue": "RSA-OAEP (SHA-256)",
+        "warning4096": "4096-bit keys can take a while to generate — please wait.",
+        "metaSize": "Key size",
+        "bits": "bits",
+        "metaAlgorithm": "Algorithm",
+        "metaCreated": "Generated at",
+        "publicKey": "Public key (SPKI PEM)",
+        "privateKey": "Private key (PKCS#8 PEM)",
+        "outputPlaceholder": "Generated key appears here",
+        "securityNote": "Keep your private key safe: anyone who obtains it can decrypt your data or impersonate you. Store it offline and never share it.",
+        "privacy": "Key generation runs entirely in your browser. Keys are never sent to or stored on any server.",
+        "error": "Key generation failed. Please try again."
+      },
+      "buttons": {
+        "generate": "Generate",
+        "generating": "Generating…",
+        "download": "Download .pem"
+      }
+    },
+    "pem-jwk-converter": {
+      "metadata": {
+        "title": "PEM JWK Converter",
+        "description": "Convert PEM keys to JWK and JWK back to PEM. Supports RSA and EC keys (SPKI, PKCS#8, PKCS#1, SEC1). Runs entirely in your browser.",
+        "category": "Security"
+      },
+      "keywords": [
+        "pem to jwk",
+        "jwk to pem",
+        "pem jwk converter",
+        "rsa public key to jwk",
+        "ec key to jwk",
+        "convert jwk private key",
+        "spki to jwk",
+        "pkcs8 to jwk",
+        "online pem jwk tool",
+        "jwt key format converter"
+      ],
+      "faqs": [
+        {
+          "question": "What is JWK?",
+          "answer": "JWK (JSON Web Key, RFC 7517) is a standard JSON structure that represents cryptographic keys. It is the native key format of the JOSE, JWT and OAuth ecosystems."
+        },
+        {
+          "question": "Which PEM types are supported?",
+          "answer": "PUBLIC KEY (SPKI), RSA PUBLIC KEY (PKCS#1), PRIVATE KEY (PKCS#8) and EC PRIVATE KEY (SEC1). The older PKCS#1 and SEC1 containers are re-wrapped automatically."
+        },
+        {
+          "question": "Which key types are supported?",
+          "answer": "RSA and elliptic-curve keys on P-256, P-384 and P-521. Other types, such as Ed25519, are not supported by this conversion path."
+        },
+        {
+          "question": "Where does the conversion happen?",
+          "answer": "Entirely in your browser via the Web Crypto API. Keys never leave your device and are never uploaded anywhere."
+        },
+        {
+          "question": "Why does the conversion fail?",
+          "answer": "The most common causes are an unsupported curve or key type, or a JWK missing required members such as kty, n/e or the curve parameter."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JWT Decoder",
+          "href": "/tools/jwt-decoder"
+        },
+        {
+          "name": "Hash Generator",
+          "href": "/tools/hash-generator"
+        },
+        {
+          "name": "Base64 Encoder",
+          "href": "/tools/base64-encoder"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a PEM JWK converter?",
+          "paragraphs": [
+            "PEM is the classic Base64 key format with BEGIN/END headers used by OpenSSL and most certificate tooling, while JWK (JSON Web Key, RFC 7517) is the JSON representation used by JOSE, JWT and OAuth stacks. A converter lets the same key work in both worlds.",
+            "This tool imports SPKI and PKCS#8 keys — and re-wraps the legacy PKCS#1 and SEC1 formats automatically — then exports the matching JWK, or converts a JWK back into a standard PEM. Everything runs locally in your browser."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to convert PEM to JWK",
+            "paragraphs": [
+              "Paste your PEM key on the PEM → JWK tab and click Convert. The JWK is printed as pretty JSON on the right, ready to copy.",
+              "Public keys export as public JWK members (n/e for RSA, x/y for EC); private keys additionally include d and the other private members."
+            ]
+          },
+          {
+            "title": "How to convert JWK to PEM",
+            "paragraphs": [
+              "Switch to the JWK → PEM tab and paste the JWK JSON. The tool reads kty to detect RSA or EC and checks for the d member to tell private keys apart.",
+              "The result is a standard PEM: PUBLIC KEY (SPKI) for public keys and PRIVATE KEY (PKCS#8) for private keys."
+            ]
+          },
+          {
+            "title": "Key information panel",
+            "paragraphs": [
+              "After every conversion the panel shows the key type, algorithm, size in bits, and whether the key is public or private — useful for a quick sanity check."
+            ]
+          },
+          {
+            "title": "Supported formats",
+            "paragraphs": [
+              "PEM labels PUBLIC KEY, RSA PUBLIC KEY, PRIVATE KEY and EC PRIVATE KEY are accepted; RSA and EC keys on P-256, P-384 and P-521 are supported. Ed25519 and other types are not."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "tabPemToJwk": "PEM → JWK",
+        "tabJwkToPem": "JWK → PEM",
+        "pemInput": "PEM key",
+        "pemInputPlaceholder": "Paste a PEM key, e.g. -----BEGIN PUBLIC KEY----- …",
+        "jwkOutput": "JWK output",
+        "jwkInput": "JWK key (JSON)",
+        "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+        "pemOutput": "PEM output",
+        "outputPlaceholder": "Result appears here",
+        "keyInfo": "Key information",
+        "infoKty": "Key type",
+        "infoAlg": "Algorithm",
+        "infoSize": "Size",
+        "bits": "bits",
+        "infoUsage": "Usage",
+        "public": "Public key",
+        "private": "Private key",
+        "privacy": "All conversions run locally in your browser. Keys never leave your device.",
+        "emptyPem": "Please paste a PEM key.",
+        "invalidPem": "Could not parse the PEM key. Check the BEGIN/END headers and the Base64 body.",
+        "errorPem": "Unsupported key. Only RSA and EC (P-256/P-384/P-521) keys can be converted.",
+        "emptyJwk": "Please paste a JWK.",
+        "invalidJson": "The input is not valid JSON.",
+        "unsupportedKty": "Unsupported key type (kty). Only RSA and EC are supported.",
+        "unsupportedCurve": "Unsupported curve. Only P-256, P-384 and P-521 are supported.",
+        "errorJwk": "Could not import the JWK. Check that all required members are present and correct."
+      },
+      "buttons": {
+        "convert": "Convert"
+      }
+    },
+    "json-to-typescript": {
+      "metadata": {
+        "title": "JSON to TypeScript",
+        "description": "Convert JSON objects and arrays to TypeScript interfaces online. Nested named types, optional and nullable fields, instant output.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json to typescript",
+        "json to ts",
+        "json to interface",
+        "typescript interface generator",
+        "json to typescript converter",
+        "generate typescript from json",
+        "typescript types from json",
+        "json to ts interfaces",
+        "convert json to typescript free",
+        "json to interface online"
+      ],
+      "faqs": [
+        {
+          "question": "How do I convert JSON to TypeScript interfaces?",
+          "answer": "Paste a JSON object or array into the input box. Interfaces are generated instantly: nested objects become named interfaces, arrays are merged into a single element type, and you can copy everything with one click."
+        },
+        {
+          "question": "How are nested objects and arrays handled?",
+          "answer": "Every nested object becomes its own exported interface named after its key, e.g. items inside Root becomes RootItem. Arrays of objects are merged so shared properties are kept, and properties missing in some elements are marked optional."
+        },
+        {
+          "question": "What happens to missing or null values?",
+          "answer": "A property that is absent in some array elements gets the optional modifier (?), and explicit nulls add | null to the type, so the generated interfaces match what the API can really return."
+        },
+        {
+          "question": "Is my JSON uploaded to a server?",
+          "answer": "No. All conversion runs locally in your browser — nothing is sent, stored, or logged."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON to CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON to YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a JSON to TypeScript converter?",
+          "paragraphs": [
+            "A JSON to TypeScript converter turns a raw JSON sample into ready-to-use TypeScript interfaces. Paste a realistic API payload and get typed models instantly — handy for API clients, mocks, and config files. Everything runs in your browser."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to generate TypeScript from JSON",
+            "paragraphs": [
+              "Paste your JSON, optionally set the root interface name, and the code appears live on the right. Press Copy and drop the interfaces into your project."
+            ]
+          },
+          {
+            "title": "How types are inferred",
+            "paragraphs": [
+              "Strings map to string, numbers to number, booleans to boolean. Nested objects become named interfaces, arrays of objects are merged into one element interface, and arrays mixing primitive types become unions such as string | number."
+            ]
+          },
+          {
+            "title": "Optional, nullable, and naming",
+            "paragraphs": [
+              "Properties missing from some array elements are emitted as optional (prop?), explicit nulls add | null, and the root name you type is reused for every nested name, e.g. ApiResponseItem."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON input",
+        "inputPlaceholder": "Paste your JSON here...",
+        "output": "TypeScript interfaces",
+        "outputPlaceholder": "Generated code will appear here...",
+        "rootName": "Root type name",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Package name",
+        "loadExample": "Load example",
+        "clear": "Clear",
+        "errorInvalidJson": "Invalid JSON",
+        "privacy": "Everything runs locally in your browser. Your JSON is never uploaded or stored."
+      },
+      "buttons": {
+        "copy": "Copy",
+        "copied": "Copied!"
+      }
+    },
+    "json-to-go": {
+      "metadata": {
+        "title": "JSON to Go",
+        "description": "Convert JSON to Go structs online with json tags. Nested structs, pointers for nullable fields, package name option.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json to go",
+        "json to go struct",
+        "golang json to struct",
+        "json to golang converter",
+        "go struct generator",
+        "json to struct online",
+        "golang struct from json",
+        "json to go structs free",
+        "convert json to go code",
+        "json marshal go struct"
+      ],
+      "faqs": [
+        {
+          "question": "How do I convert JSON to a Go struct?",
+          "answer": "Paste your JSON and the tool instantly generates Go structs with json:\"...\" tags for every field. Nested objects become separate structs, and you can copy the whole file with one click."
+        },
+        {
+          "question": "Which Go types are generated?",
+          "answer": "Strings map to string, whole numbers to int, decimals to float64, booleans to bool, arrays to slices, and unknown or mixed shapes to interface{}. Fields that can be null or missing become pointers such as *string so encoding/json handles them correctly."
+        },
+        {
+          "question": "Why do fields have json tags?",
+          "answer": "Every field keeps its original JSON key in a struct tag so marshalling works even when the Go field name is exported in PascalCase. Properties missing in some array elements also get ,omitempty."
+        },
+        {
+          "question": "Is my data uploaded?",
+          "answer": "No. The conversion runs entirely in your browser; your JSON and the generated code never leave your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON to CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON to YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a JSON to Go converter?",
+          "paragraphs": [
+            "A JSON to Go converter generates Go struct definitions from a JSON sample, including correct json tags, nested structs, and slice types. It is the fastest way to write typed models for REST APIs and webhooks — and it runs entirely in your browser."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to generate Go structs from JSON",
+            "paragraphs": [
+              "Paste a JSON object or array, adjust the package name if needed, then copy the generated structs into your project. The default package is main."
+            ]
+          },
+          {
+            "title": "Type mapping",
+            "paragraphs": [
+              "int is used for whole numbers and float64 for decimals. Nested objects become their own structs named after their key, arrays become slices, and empty or mixed arrays fall back to []interface{}."
+            ]
+          },
+          {
+            "title": "Pointers, omitempty, and naming",
+            "paragraphs": [
+              "Fields that are null or missing from some array elements become pointer types with ,omitempty in the tag. Type names are PascalCase versions of the keys with unique suffixes on collisions, and you can rename the root at any time."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON input",
+        "inputPlaceholder": "Paste your JSON here...",
+        "output": "Go structs",
+        "outputPlaceholder": "Generated code will appear here...",
+        "rootName": "Root type name",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Package name",
+        "loadExample": "Load example",
+        "clear": "Clear",
+        "errorInvalidJson": "Invalid JSON",
+        "privacy": "Everything runs locally in your browser. Your JSON is never uploaded or stored."
+      },
+      "buttons": {
+        "copy": "Copy",
+        "copied": "Copied!"
+      }
+    },
+    "json-to-java": {
+      "metadata": {
+        "title": "JSON to Java",
+        "description": "Convert JSON to Java POJO classes online. Private fields with getters and setters, Jackson annotations for non-trivial keys.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json to java",
+        "json to pojo",
+        "java class from json",
+        "json to pojo generator",
+        "json to java class online",
+        "generate java pojo from json",
+        "json to java bean",
+        "java pojo converter",
+        "json to dto java",
+        "jackson pojo generator"
+      ],
+      "faqs": [
+        {
+          "question": "How do I generate Java classes from JSON?",
+          "answer": "Paste your JSON and each object becomes a Java class with private fields plus public getters and setters. Nested objects become their own classes and arrays become List<T>."
+        },
+        {
+          "question": "Which types are used?",
+          "answer": "Whole numbers map to Integer, decimals to Double, booleans to Boolean, and strings to String. Boxed wrappers are used whenever a field can be missing or null, so nulls deserialize safely."
+        },
+        {
+          "question": "Why do some fields have @JsonProperty?",
+          "answer": "Keys that are not valid Java identifiers or that do not map one-to-one to a camelCase field (e.g. user_name) get a Jackson @JsonProperty annotation so deserialization keeps working unchanged."
+        },
+        {
+          "question": "Is my JSON stored anywhere?",
+          "answer": "No. Everything is generated locally in your browser and nothing is uploaded or logged."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON to CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON to YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a JSON to Java converter?",
+          "paragraphs": [
+            "A JSON to Java converter turns JSON samples into POJO classes — private fields, getters and setters, and Jackson annotations where keys need them. Perfect for DTOs, API models, and test fixtures. All processing happens in your browser."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to generate POJOs from JSON",
+            "paragraphs": [
+              "Paste a JSON object, rename the root class if you like, and copy the generated classes. Nested objects are emitted as separate classes in the same file."
+            ]
+          },
+          {
+            "title": "Fields, getters, and setters",
+            "paragraphs": [
+              "Every property becomes a private field with a public getter and setter following standard bean conventions, so the classes work with Jackson, Gson, and most ORMs out of the box."
+            ]
+          },
+          {
+            "title": "Arrays, nesting, and nulls",
+            "paragraphs": [
+              "JSON arrays become List<T> and nested objects become classes named after their key, e.g. address inside Root becomes RootAddress. Fields that can be null or absent use boxed wrappers (Integer, Double, Boolean) instead of primitives."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON input",
+        "inputPlaceholder": "Paste your JSON here...",
+        "output": "Java classes",
+        "outputPlaceholder": "Generated code will appear here...",
+        "rootName": "Root type name",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Package name",
+        "loadExample": "Load example",
+        "clear": "Clear",
+        "errorInvalidJson": "Invalid JSON",
+        "privacy": "Everything runs locally in your browser. Your JSON is never uploaded or stored."
+      },
+      "buttons": {
+        "copy": "Copy",
+        "copied": "Copied!"
+      }
+    },
+    "json-to-python": {
+      "metadata": {
+        "title": "JSON to Python",
+        "description": "Convert JSON to Python dataclasses online. Nested dataclasses, Optional and List type hints, PEP 8 names.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json to python",
+        "json to dataclass",
+        "python dataclass from json",
+        "json to python class converter",
+        "generate dataclass from json",
+        "json to python code online",
+        "python models from json",
+        "convert json to dataclasses",
+        "json to typed python",
+        "dataclass generator"
+      ],
+      "faqs": [
+        {
+          "question": "How do I convert JSON to Python dataclasses?",
+          "answer": "Paste your JSON and every object becomes a @dataclass with typed fields. Nested objects become their own dataclasses and arrays become List[T]."
+        },
+        {
+          "question": "How are field names handled?",
+          "answer": "Keys are converted to snake_case for PEP 8 style, e.g. firstName becomes first_name. Reserved Python words get a trailing underscore."
+        },
+        {
+          "question": "What about missing or null fields?",
+          "answer": "Fields that are absent in some array elements or null in the sample are typed Optional[T] with a default of None, matching what the data can actually contain."
+        },
+        {
+          "question": "Is my data sent anywhere?",
+          "answer": "No. Conversion happens entirely in your browser — your JSON never leaves your device."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON to CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON to YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a JSON to Python converter?",
+          "paragraphs": [
+            "A JSON to Python converter generates dataclasses with full type hints from a JSON sample. Instead of dicts with unclear shapes, you get typed, self-documenting models for APIs, scripts, and tests — generated locally in your browser."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to generate dataclasses from JSON",
+            "paragraphs": [
+              "Paste a JSON object or array and the dataclasses appear instantly. Fields with defaults are placed after required fields, as dataclasses require."
+            ]
+          },
+          {
+            "title": "Type hints",
+            "paragraphs": [
+              "str, int, float, bool, and List[T] are inferred from the sample. Nested objects become their own dataclasses, and unknown shapes fall back to Any."
+            ]
+          },
+          {
+            "title": "Optional fields and usage",
+            "paragraphs": [
+              "Anything that can be missing or null becomes Optional[T] = None. The output only imports from dataclasses and typing — no third-party dependencies — and dataclasses.asdict() converts models back to JSON."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON input",
+        "inputPlaceholder": "Paste your JSON here...",
+        "output": "Python dataclasses",
+        "outputPlaceholder": "Generated code will appear here...",
+        "rootName": "Root type name",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Package name",
+        "loadExample": "Load example",
+        "clear": "Clear",
+        "errorInvalidJson": "Invalid JSON",
+        "privacy": "Everything runs locally in your browser. Your JSON is never uploaded or stored."
+      },
+      "buttons": {
+        "copy": "Copy",
+        "copied": "Copied!"
+      }
+    },
+    "json-to-kotlin": {
+      "metadata": {
+        "title": "JSON to Kotlin",
+        "description": "Convert JSON to Kotlin data classes online. Nullability with ?, nested data classes, val properties.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json to kotlin",
+        "json to data class",
+        "kotlin data class from json",
+        "json to kotlin converter",
+        "generate kotlin from json",
+        "kotlin data class generator",
+        "json to kotlin online",
+        "kotlin models from json",
+        "convert json to kotlin data classes",
+        "json to kt"
+      ],
+      "faqs": [
+        {
+          "question": "How do I convert JSON to Kotlin data classes?",
+          "answer": "Paste your JSON and each object becomes a Kotlin data class with val properties. Nested objects become their own data classes and arrays become List<T>."
+        },
+        {
+          "question": "How is nullability handled?",
+          "answer": "Fields that can be missing or null are typed T? with a default of null, e.g. val nickname: String? = null, matching safe Kotlin idioms."
+        },
+        {
+          "question": "Which serializers does the output work with?",
+          "answer": "The generated data classes work with kotlinx.serialization, Moshi, and Gson. When a key does not map to a valid property name, a Jackson @JsonProperty annotation keeps the mapping explicit."
+        },
+        {
+          "question": "Is my JSON uploaded?",
+          "answer": "No. Everything runs locally in your browser and nothing is stored."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON to CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON to YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a JSON to Kotlin converter?",
+          "paragraphs": [
+            "A JSON to Kotlin converter generates idiomatic data classes from JSON samples: immutable val properties, nullable types with defaults, and nested classes named after their keys. Great for Android and JVM API models."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to generate data classes",
+            "paragraphs": [
+              "Paste a JSON object, optionally rename the root class, and copy the result. All classes are emitted together so you can paste them into one file."
+            ]
+          },
+          {
+            "title": "Types and nullability",
+            "paragraphs": [
+              "String, Int, Double, and Boolean are inferred from the sample; collections become List<T>. Anything optional or null becomes T? = null."
+            ]
+          },
+          {
+            "title": "Nesting and naming",
+            "paragraphs": [
+              "Nested objects become their own data classes with names derived from the parent, e.g. address inside Root becomes RootAddress — collisions get numeric suffixes. Keys that differ beyond casing from the property name receive an explicit annotation."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON input",
+        "inputPlaceholder": "Paste your JSON here...",
+        "output": "Kotlin data classes",
+        "outputPlaceholder": "Generated code will appear here...",
+        "rootName": "Root type name",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Package name",
+        "loadExample": "Load example",
+        "clear": "Clear",
+        "errorInvalidJson": "Invalid JSON",
+        "privacy": "Everything runs locally in your browser. Your JSON is never uploaded or stored."
+      },
+      "buttons": {
+        "copy": "Copy",
+        "copied": "Copied!"
+      }
+    },
+    "json-to-csharp": {
+      "metadata": {
+        "title": "JSON to C#",
+        "description": "Convert JSON to C# classes online. Strongly-typed POCOs with properties, nullable annotations, and JsonProperty attributes generated instantly.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json to c#",
+        "json to csharp",
+        "json to class c#",
+        "c# class generator from json",
+        "json to poco",
+        "convert json to c# class",
+        "json to c# online",
+        "generate c# model from json",
+        "json to object c#",
+        "c# json class converter"
+      ],
+      "faqs": [
+        {
+          "question": "How do I convert JSON to a C# class?",
+          "answer": "Paste a JSON object or array into the input box. C# classes are generated instantly: each nested object becomes its own public class with get/set properties, and you can copy everything with one click."
+        },
+        {
+          "question": "How are JSON types mapped to C#?",
+          "answer": "Strings become string, integers int, decimals double, booleans bool, arrays List<T>, and string-keyed maps Dictionary<string, T>. Nested objects become separate classes named after their key, e.g. address inside Root becomes RootAddress."
+        },
+        {
+          "question": "When is [JsonProperty] added?",
+          "answer": "Annotations appear only when a JSON key differs from the C# property name beyond just casing — for example user_id becomes UserId with [JsonProperty(\"user_id\")]. The using Newtonsoft.Json; directive is added automatically when needed."
+        },
+        {
+          "question": "Is my JSON uploaded to a server?",
+          "answer": "No. All conversion runs locally in your browser — nothing is sent, stored, or logged."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON to CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON to YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a JSON to C# converter?",
+          "paragraphs": [
+            "A JSON to C# converter turns a raw JSON sample into ready-to-use C# classes (POCOs). Paste an API response and get strongly-typed models with properties you can drop straight into a .NET project. Everything runs in your browser."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to generate C# classes from JSON",
+            "paragraphs": [
+              "Paste your JSON and the classes appear live. Press Copy and add them to your solution — the output compiles as-is with no manual fixes for common payloads."
+            ]
+          },
+          {
+            "title": "Type mapping",
+            "paragraphs": [
+              "int maps to int, fractional numbers to double, nulls or missing values become nullable types such as int?. Arrays become List<T> and objects with mixed keys become Dictionary<string, T>."
+            ]
+          },
+          {
+            "title": "Naming and attributes",
+            "paragraphs": [
+              "Keys are PascalCased for C# conventions. When the original key differs beyond casing, a [JsonProperty] attribute keeps deserialization working, and missing or null fields use nullable annotations."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON input",
+        "inputPlaceholder": "Paste your JSON here...",
+        "output": "C# classes",
+        "outputPlaceholder": "Generated code will appear here...",
+        "rootName": "Root type name",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Package name",
+        "loadExample": "Load example",
+        "clear": "Clear",
+        "errorInvalidJson": "Invalid JSON",
+        "privacy": "Everything runs locally in your browser. Your JSON is never uploaded or stored."
+      },
+      "buttons": {
+        "copy": "Copy",
+        "copied": "Copied!"
+      }
+    },
+    "json-to-rust": {
+      "metadata": {
+        "title": "JSON to Rust",
+        "description": "Convert JSON to Rust structs online. Serde-ready structs with #[derive(Serialize, Deserialize)], Option<T> for nullable fields, and automatic camelCase renaming.",
+        "category": "Developer"
+      },
+      "keywords": [
+        "json to rust",
+        "json to rust struct",
+        "rust serde struct generator",
+        "json to serde",
+        "convert json to rust",
+        "rust struct from json",
+        "json to rust online",
+        "generate rust structs",
+        "serde json struct",
+        "rust json model generator"
+      ],
+      "faqs": [
+        {
+          "question": "How do I convert JSON to Rust structs?",
+          "answer": "Paste a JSON object or array into the input box. Serde-ready structs are generated instantly: nested objects become their own pub structs, and everything is copyable with one click."
+        },
+        {
+          "question": "How are JSON types mapped to Rust?",
+          "answer": "Strings become String, integers i64, decimals f64, booleans bool, arrays Vec<T>, string-keyed maps HashMap<String, T>, and unknown or mixed shapes fall back to serde_json::Value. Nested objects become separate structs named after their key."
+        },
+        {
+          "question": "What does #[serde(rename_all = \"camelCase\")] do?",
+          "answer": "It tells serde to accept and emit camelCase keys while your struct fields stay snake_case per Rust conventions. When only some fields need renaming, a per-field #[serde(rename = \"...\")] is used instead, and missing or null values become Option<T>."
+        },
+        {
+          "question": "Is my JSON uploaded to a server?",
+          "answer": "No. All conversion runs locally in your browser — nothing is sent, stored, or logged."
+        }
+      ],
+      "relatedTools": [
+        {
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
+        },
+        {
+          "name": "JSON to CSV",
+          "href": "/tools/json-to-csv"
+        },
+        {
+          "name": "JSON to YAML",
+          "href": "/tools/json-yaml-converter"
+        }
+      ],
+      "guide": {
+        "intro": {
+          "title": "What is a JSON to Rust converter?",
+          "paragraphs": [
+            "A JSON to Rust converter turns a raw JSON sample into serde-annotated Rust structs. Paste an API payload and get types you can drop straight into a Rust project next to serde_json. Everything runs in your browser."
+          ]
+        },
+        "sections": [
+          {
+            "title": "How to generate Rust structs from JSON",
+            "paragraphs": [
+              "Paste your JSON and the structs appear live. Press Copy and add them to your project — pair the output with serde and serde_json derives already included in the code."
+            ]
+          },
+          {
+            "title": "Type mapping",
+            "paragraphs": [
+              "Whole numbers map to i64, fractional numbers to f64, arrays to Vec<T>, and objects with non-identifier keys to HashMap<String, T>. Values of unknown or mixed shape become serde_json::Value so nothing breaks at runtime."
+            ]
+          },
+          {
+            "title": "Naming and serde attributes",
+            "paragraphs": [
+              "Fields are named in snake_case per Rust style. When every key is already camelCase, a single #[serde(rename_all = \"camelCase\")] is emitted; otherwise individual fields get #[serde(rename)]. Optional and null fields use Option<T>."
+            ]
+          }
+        ]
+      },
+      "labels": {
+        "input": "JSON input",
+        "inputPlaceholder": "Paste your JSON here...",
+        "output": "Rust structs",
+        "outputPlaceholder": "Generated code will appear here...",
+        "rootName": "Root type name",
+        "rootNamePlaceholder": "Root",
+        "packageName": "Package name",
+        "loadExample": "Load example",
+        "clear": "Clear",
+        "errorInvalidJson": "Invalid JSON",
+        "privacy": "Everything runs locally in your browser. Your JSON is never uploaded or stored."
+      },
+      "buttons": {
+        "copy": "Copy",
+        "copied": "Copied!"
+      }
     }
   },
   "blogLayout": {
@@ -38672,7 +39994,7 @@
       "title": "How to Create a Digital Signature for Free (2026 Guide)",
       "description": "Learn how to create digital signatures for documents, PDFs, and contracts. Covering draw, type, upload, and free tools with no registration."
     },
-        "how-to-create-a-strong-password": {
+    "how-to-create-a-strong-password": {
       "title": "How to Create a Strong Password (2026 Guide)",
       "description": "Learn what makes a password strong, why length beats complexity, and how password managers and passkeys protect your accounts. Free browser tools included."
     },
@@ -38695,6 +40017,10 @@
     "how-to-upscale-images": {
       "title": "How to Upscale Images Without Losing Quality (2026 Guide)",
       "description": "Learn how to enlarge and enhance images for print, web, and social media. Covering upscaling methods, when to use each, and free in-browser tools."
+    },
+    "json-to-code": {
+      "title": "How to Convert JSON to TypeScript, Go, Java & More (Free, 2026 Guide)",
+      "description": "Turn any JSON sample into TypeScript interfaces, Go structs, Java POJOs, Python dataclasses, Kotlin data classes, C# classes or Rust serde structs — free in your browser, nothing uploaded. Plus how the converters handle nested objects, mixed-shape arrays, and optional vs. nullable fields."
     }
   }
 }

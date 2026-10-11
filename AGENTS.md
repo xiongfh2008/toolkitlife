@@ -4,7 +4,7 @@ Guidance for AI coding agents working in this repository.
 
 ## Project Overview
 
-ToolkitLife — a free, browser-based tools & calculators website. Next.js 16 (App Router + Turbopack), React 19, TypeScript, Tailwind CSS 4, and next-intl for i18n. ~372 tools across 5 locales (`en`, `zh`, `ja`, `ko`, `ru`). All tool processing runs client-side; no accounts, no server-side storage.
+ToolkitLife — a free, browser-based tools & calculators website. Next.js 16 (App Router + Turbopack), React 19, TypeScript, Tailwind CSS 4, and next-intl for i18n. ~393 tools across 9 locales (6 published) (`en`, `zh`, `ja`, `ko`, `ru`). All tool processing runs client-side; no accounts, no server-side storage.
 
 ## Common Commands
 

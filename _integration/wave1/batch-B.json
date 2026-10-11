@@ -1,0 +1,2889 @@
+{
+  "tools": {
+    "hmac-generator": {
+      "en": {
+        "metadata": {
+          "title": "HMAC Generator",
+          "description": "Compute HMAC signatures with SHA-1, SHA-256, SHA-384, or SHA-512. Text, hex, or Base64 keys with hex and Base64 output — all in your browser.",
+          "category": "Security"
+        },
+        "keywords": [
+          "hmac generator",
+          "hmac signature",
+          "hmac sha256",
+          "hmac sha512 online",
+          "hmac hash generator",
+          "generate hmac signature",
+          "hmac base64",
+          "hmac hex output",
+          "hmac sha-1 online",
+          "api signature generator"
+        ],
+        "faqs": [
+          {
+            "question": "What is an HMAC signature?",
+            "answer": "HMAC (Hash-based Message Authentication Code) combines a secret key with a hash function to prove that a message is authentic and untampered. It is widely used for API request signing and webhook verification."
+          },
+          {
+            "question": "Which hash algorithms are supported?",
+            "answer": "SHA-1, SHA-256, SHA-384 and SHA-512, all computed with the browser's native Web Crypto API."
+          },
+          {
+            "question": "What key formats can I use?",
+            "answer": "Text, hexadecimal, or Base64. When integrating with a server, make sure the key encoding matches what the other side expects."
+          },
+          {
+            "question": "Is my data safe?",
+            "answer": "Yes. Everything runs locally in your browser — the message and the key are never sent to or stored on any server."
+          },
+          {
+            "question": "Why doesn't my HMAC match the server's?",
+            "answer": "The most common causes are a key-format mismatch (text vs hex vs Base64) or using a different hash algorithm than the other side. Check both."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Hash Generator", "href": "/tools/hash-generator" },
+          { "name": "JWT Decoder", "href": "/tools/jwt-decoder" },
+          { "name": "Base64 Encoder", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "What is an HMAC generator?",
+            "paragraphs": [
+              "An HMAC generator computes a Hash-based Message Authentication Code: a signature that binds your message to a secret key. Receivers who share the key can verify the message is authentic and untampered.",
+              "HMAC is everywhere — API request signing, webhook verification, JWT validation. This tool computes HMAC with SHA-1, SHA-256, SHA-384 or SHA-512 using the browser's native Web Crypto API, so your message and key never leave your device."
+            ]
+          },
+          "sections": [
+            {
+              "title": "How to generate an HMAC signature",
+              "paragraphs": [
+                "Enter the message and the secret key, pick the key format and hash algorithm, then press Generate.",
+                "The signature is shown as both hex and Base64 — use whichever your API or service expects, and copy it with one click."
+              ]
+            },
+            {
+              "title": "Choosing the key format",
+              "paragraphs": [
+                "Text keys are encoded as UTF-8 bytes. Hex and Base64 keys are decoded to raw bytes first, so a key stored in another encoding still produces the correct signature."
+              ]
+            },
+            {
+              "title": "Choosing the hash algorithm",
+              "paragraphs": [
+                "SHA-256 is the common default today. SHA-384 and SHA-512 offer a higher security margin, while SHA-1 remains only for legacy systems that still require it."
+              ]
+            },
+            {
+              "title": "Common use cases",
+              "paragraphs": [
+                "Use this tool to verify API signatures, debug webhook payloads, or cross-check an HMAC implementation against a known message and key."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "message": "Message",
+          "messagePlaceholder": "Enter the message to sign…",
+          "key": "Secret key",
+          "keyPlaceholder": "Enter your secret key",
+          "keyFormat": "Key format",
+          "formatText": "Text",
+          "formatHex": "Hex",
+          "formatBase64": "Base64",
+          "algorithm": "Algorithm",
+          "hexOutput": "Hex output",
+          "base64Output": "Base64 output",
+          "outputPlaceholder": "Signature appears here",
+          "privacy": "All calculations run locally in your browser. Your message and key never leave your device.",
+          "emptyMessage": "Please enter a message to sign.",
+          "emptyKey": "Please enter a secret key.",
+          "invalidHex": "Invalid hex key: use only 0-9 and a-f, with an even number of digits.",
+          "invalidBase64": "Invalid Base64 key.",
+          "error": "Failed to compute the signature. Please check your input."
+        },
+        "buttons": {
+          "generate": "Generate"
+        }
+      },
+      "zh": {
+        "metadata": {
+          "title": "HMAC 签名生成器",
+          "description": "使用 SHA-1、SHA-256、SHA-384 或 SHA-512 计算 HMAC 签名，支持文本、十六进制和 Base64 密钥，输出十六进制与 Base64 结果，全部在浏览器本地完成。",
+          "category": "Security"
+        },
+        "keywords": [
+          "HMAC 生成器",
+          "HMAC 签名",
+          "HMAC SHA256",
+          "在线计算 HMAC",
+          "HMAC 哈希",
+          "HMAC 签名工具",
+          "HMAC Base64",
+          "HMAC 十六进制",
+          "接口签名生成",
+          "SHA512 HMAC"
+        ],
+        "faqs": [
+          {
+            "question": "什么是 HMAC 签名？",
+            "answer": "HMAC（基于哈希的消息认证码）将密钥与哈希函数结合，用于证明消息真实且未被篡改，常用于 API 请求签名和 Webhook 校验。"
+          },
+          {
+            "question": "支持哪些哈希算法？",
+            "answer": "支持 SHA-1、SHA-256、SHA-384 和 SHA-512，全部通过浏览器原生 Web Crypto API 计算。"
+          },
+          {
+            "question": "密钥支持哪些格式？",
+            "answer": "可以选择文本、十六进制或 Base64。与服务器对接时，请确认密钥编码方式与对方一致。"
+          },
+          {
+            "question": "我的数据安全吗？",
+            "answer": "安全。所有计算都在浏览器本地完成，消息和密钥不会发送或存储到任何服务器。"
+          },
+          {
+            "question": "为什么结果与服务器不一致？",
+            "answer": "最常见的原因是密钥格式不一致（文本 / 十六进制 / Base64），或者双方使用的哈希算法不同，请逐项核对。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "哈希生成器", "href": "/tools/hash-generator" },
+          { "name": "JWT 解码器", "href": "/tools/jwt-decoder" },
+          { "name": "Base64 编码/解码器", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "什么是 HMAC 生成器？",
+            "paragraphs": [
+              "HMAC 生成器计算基于哈希的消息认证码：一种把消息与密钥绑定在一起的签名。持有相同密钥的接收方可以验证消息真实且未被篡改。",
+              "HMAC 应用非常广泛——API 请求签名、Webhook 校验、JWT 验证都会用到。本工具通过浏览器原生 Web Crypto API 以 SHA-1、SHA-256、SHA-384 或 SHA-512 计算 HMAC，消息与密钥不会离开您的设备。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "如何生成 HMAC 签名",
+              "paragraphs": [
+                "输入消息和密钥，选择密钥格式与哈希算法，然后点击生成按钮。",
+                "签名会同时以十六进制和 Base64 两种格式给出，按 API 或服务的要求选择使用，一键即可复制。"
+              ]
+            },
+            {
+              "title": "选择密钥格式",
+              "paragraphs": [
+                "文本密钥按 UTF-8 编码；十六进制和 Base64 密钥会先解码为原始字节，因此以其他编码保存的密钥也能得到正确的签名。"
+              ]
+            },
+            {
+              "title": "选择哈希算法",
+              "paragraphs": [
+                "SHA-256 是目前最常用的默认选择；SHA-384 和 SHA-512 提供更高的安全余量；SHA-1 仅建议用于必须兼容的旧系统。"
+              ]
+            },
+            {
+              "title": "常见应用场景",
+              "paragraphs": [
+                "可用本工具核对 API 签名、调试 Webhook 数据，或将 HMAC 实现与已知消息、密钥的期望结果交叉验证。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "message": "消息",
+          "messagePlaceholder": "输入要签名的消息…",
+          "key": "密钥",
+          "keyPlaceholder": "输入密钥",
+          "keyFormat": "密钥格式",
+          "formatText": "文本",
+          "formatHex": "十六进制",
+          "formatBase64": "Base64",
+          "algorithm": "哈希算法",
+          "hexOutput": "十六进制输出",
+          "base64Output": "Base64 输出",
+          "outputPlaceholder": "签名结果将显示在这里",
+          "privacy": "所有计算均在浏览器本地完成，消息与密钥不会离开您的设备。",
+          "emptyMessage": "请输入要签名的消息。",
+          "emptyKey": "请输入密钥。",
+          "invalidHex": "十六进制密钥格式无效：只能包含 0-9、a-f，且长度为偶数。",
+          "invalidBase64": "Base64 密钥格式无效。",
+          "error": "签名计算失败，请检查输入。"
+        },
+        "buttons": {
+          "generate": "生成"
+        }
+      },
+      "ja": {
+        "metadata": {
+          "title": "HMAC 署名ジェネレーター",
+          "description": "SHA-1、SHA-256、SHA-384、SHA-512 で HMAC 署名を計算。テキスト・16 進・Base64 の鍵に対応し、16 進と Base64 の両方で出力します。すべてブラウザ内で処理されます。",
+          "category": "Security"
+        },
+        "keywords": [
+          "HMAC 生成",
+          "HMAC 署名",
+          "HMAC SHA256",
+          "HMAC 計算ツール",
+          "HMAC オンライン",
+          "HMAC Base64",
+          "HMAC 16進",
+          "API 署名生成",
+          "SHA-512 HMAC",
+          "メッセージ認証コード"
+        ],
+        "faqs": [
+          {
+            "question": "HMAC 署名とは何ですか？",
+            "answer": "HMAC（ハッシュベースのメッセージ認証コード）は、秘密鍵とハッシュ関数を組み合わせて、メッセージが本物で改ざんされていないことを証明する仕組みです。API リクエストの署名や Webhook の検証に広く使われています。"
+          },
+          {
+            "question": "どのハッシュアルゴリズムに対応していますか？",
+            "answer": "SHA-1、SHA-256、SHA-384、SHA-512 に対応しています。計算にはブラウザ標準の Web Crypto API を使用します。"
+          },
+          {
+            "question": "鍵の形式は何を選べますか？",
+            "answer": "テキスト、16 進文字列、Base64 の 3 種類から選べます。サーバーと連携する場合は、鍵のエンコード方式が相手側と一致しているか確認してください。"
+          },
+          {
+            "question": "入力したデータは安全ですか？",
+            "answer": "はい。すべての処理はブラウザ内で完結し、メッセージや鍵がサーバーに送信・保存されることはありません。"
+          },
+          {
+            "question": "サーバーと署名が一致しません。",
+            "answer": "最も多い原因は、鍵の形式（テキスト / 16 進 / Base64）の不一致か、ハッシュアルゴリズムの違いです。両方を確認してください。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "ハッシュ生成ツール", "href": "/tools/hash-generator" },
+          { "name": "JWT デコーダー", "href": "/tools/jwt-decoder" },
+          { "name": "Base64 エンコーダー", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "HMAC 署名ジェネレーターとは？",
+            "paragraphs": [
+              "HMAC ジェネレーターは、ハッシュベースのメッセージ認証コード（HMAC）を計算します。HMAC はメッセージを秘密鍵と結び付ける署名で、同じ鍵を持つ受信者はメッセージが本物で改ざんされていないことを確認できます。",
+              "HMAC は API リクエストの署名、Webhook の検証、JWT の検証などで広く使われています。本ツールはブラウザ標準の Web Crypto API を用いて SHA-1 / SHA-256 / SHA-384 / SHA-512 で HMAC を計算するため、メッセージと鍵がデバイスの外に出ることはありません。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "HMAC 署名の生成方法",
+              "paragraphs": [
+                "メッセージと秘密鍵を入力し、鍵の形式とハッシュアルゴリズムを選んで生成ボタンを押します。",
+                "署名は 16 進と Base64 の両方で表示されます。API やサービスが要求する形式を使い、ワンクリックでコピーできます。"
+              ]
+            },
+            {
+              "title": "鍵の形式の選び方",
+              "paragraphs": [
+                "テキストの鍵は UTF-8 としてエンコードされます。16 進と Base64 の鍵は先に生バイトへデコードされるため、別のエンコードで保存された鍵でも正しい署名が得られます。"
+              ]
+            },
+            {
+              "title": "ハッシュアルゴリズムの選び方",
+              "paragraphs": [
+                "現在の標準は SHA-256 です。SHA-384 と SHA-512 はより高い安全余量を提供し、SHA-1 はレガシー互換のためだけに使います。"
+              ]
+            },
+            {
+              "title": "主な活用シーン",
+              "paragraphs": [
+                "API 署名の検証、Webhook ペイロードのデバッグ、既知のメッセージと鍵を使った HMAC 実装のクロスチェックなどに利用できます。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "message": "メッセージ",
+          "messagePlaceholder": "署名するメッセージを入力…",
+          "key": "秘密鍵",
+          "keyPlaceholder": "秘密鍵を入力",
+          "keyFormat": "鍵の形式",
+          "formatText": "テキスト",
+          "formatHex": "16 進",
+          "formatBase64": "Base64",
+          "algorithm": "アルゴリズム",
+          "hexOutput": "16 進出力",
+          "base64Output": "Base64 出力",
+          "outputPlaceholder": "署名がここに表示されます",
+          "privacy": "すべての計算はブラウザ内で行われ、メッセージや鍵がデバイスの外に送信されることはありません。",
+          "emptyMessage": "署名するメッセージを入力してください。",
+          "emptyKey": "秘密鍵を入力してください。",
+          "invalidHex": "16 進の鍵が無効です：0-9 と a-f のみを使用し、桁数を偶数にしてください。",
+          "invalidBase64": "Base64 の鍵が無効です。",
+          "error": "署名の計算に失敗しました。入力を確認してください。"
+        },
+        "buttons": {
+          "generate": "生成"
+        }
+      },
+      "ko": {
+        "metadata": {
+          "title": "HMAC 서명 생성기",
+          "description": "SHA-1, SHA-256, SHA-384, SHA-512로 HMAC 서명을 계산합니다. 텍스트, 16진수, Base64 키를 지원하며 16진수와 Base64 결과를 함께 제공합니다. 모든 계산은 브라우저에서 처리됩니다.",
+          "category": "Security"
+        },
+        "keywords": [
+          "HMAC 생성기",
+          "HMAC 서명",
+          "HMAC SHA256",
+          "HMAC 계산",
+          "온라인 HMAC",
+          "HMAC Base64",
+          "HMAC 16진수",
+          "API 서명 생성",
+          "SHA512 HMAC",
+          "메시지 인증 코드"
+        ],
+        "faqs": [
+          {
+            "question": "HMAC 서명이란 무엇인가요?",
+            "answer": "HMAC(해시 기반 메시지 인증 코드)는 비밀 키와 해시 함수를 결합해 메시지가 진본이고 변조되지 않았음을 증명하는 방식입니다. API 요청 서명과 웹훅 검증에 널리 사용됩니다."
+          },
+          {
+            "question": "어떤 해시 알고리즘을 지원하나요?",
+            "answer": "SHA-1, SHA-256, SHA-384, SHA-512를 지원하며, 모두 브라우저의 네이티브 Web Crypto API로 계산됩니다."
+          },
+          {
+            "question": "키 형식은 무엇을 사용할 수 있나요?",
+            "answer": "텍스트, 16진수, Base64 중에서 선택할 수 있습니다. 서버와 연동할 때는 키 인코딩이 상대측과 일치하는지 확인하세요."
+          },
+          {
+            "question": "입력한 데이터는 안전한가요?",
+            "answer": "네. 모든 계산은 브라우저에서 로컬로 처리되며, 메시지와 키는 서버로 전송되거나 저장되지 않습니다."
+          },
+          {
+            "question": "서버의 결과와 서명이 일치하지 않아요.",
+            "answer": "가장 흔한 원인은 키 형식(텍스트 / 16진수 / Base64) 불일치 또는 해시 알고리즘 차이입니다. 두 가지를 모두 확인하세요."
+          }
+        ],
+        "relatedTools": [
+          { "name": "해시 생성기", "href": "/tools/hash-generator" },
+          { "name": "JWT 디코더", "href": "/tools/jwt-decoder" },
+          { "name": "Base64 인코더", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "HMAC 서명 생성기란?",
+            "paragraphs": [
+              "HMAC 생성기는 해시 기반 메시지 인증 코드를 계산합니다. HMAC은 메시지를 비밀 키와 결합하는 서명으로, 같은 키를 가진 수신자는 메시지가 진본이며 변조되지 않았음을 확인할 수 있습니다.",
+              "HMAC은 API 요청 서명, 웹훅 검증, JWT 검증 등 어디에나 있습니다. 이 도구는 브라우저의 네이티브 Web Crypto API로 SHA-1, SHA-256, SHA-384, SHA-512 HMAC을 계산하므로 메시지와 키는 기기를 벗어나지 않습니다."
+            ]
+          },
+          "sections": [
+            {
+              "title": "HMAC 서명 생성 방법",
+              "paragraphs": [
+                "메시지와 비밀 키를 입력하고 키 형식과 해시 알고리즘을 선택한 뒤 생성 버튼을 누르세요.",
+                "서명은 16진수와 Base64 두 가지 형태로 표시됩니다. API나 서비스가 요구하는 형식을 골라 한 번에 복사하세요."
+              ]
+            },
+            {
+              "title": "키 형식 선택",
+              "paragraphs": [
+                "텍스트 키는 UTF-8 바이트로 인코딩됩니다. 16진수와 Base64 키는 원시 바이트로 먼저 디코딩되므로, 다른 인코딩으로 저장된 키도 올바른 서명을 만들 수 있습니다."
+              ]
+            },
+            {
+              "title": "해시 알고리즘 선택",
+              "paragraphs": [
+                "SHA-256이 현재 일반적인 기본값입니다. SHA-384와 SHA-512는 더 높은 보안 여유를 제공하며, SHA-1은 레거시 시스템 호환에만 사용하세요."
+              ]
+            },
+            {
+              "title": "주요 활용 사례",
+              "paragraphs": [
+                "API 서명 검증, 웹훅 페이로드 디버깅, 알려진 메시지와 키로 HMAC 구현을 교차 검증하는 데 활용할 수 있습니다."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "message": "메시지",
+          "messagePlaceholder": "서명할 메시지를 입력하세요…",
+          "key": "비밀 키",
+          "keyPlaceholder": "비밀 키를 입력하세요",
+          "keyFormat": "키 형식",
+          "formatText": "텍스트",
+          "formatHex": "16진수",
+          "formatBase64": "Base64",
+          "algorithm": "알고리즘",
+          "hexOutput": "16진수 출력",
+          "base64Output": "Base64 출력",
+          "outputPlaceholder": "서명 결과가 여기에 표시됩니다",
+          "privacy": "모든 계산은 브라우저에서 로컬로 처리되며, 메시지와 키는 기기를 벗어나지 않습니다.",
+          "emptyMessage": "서명할 메시지를 입력하세요.",
+          "emptyKey": "비밀 키를 입력하세요.",
+          "invalidHex": "잘못된 16진수 키입니다: 0-9와 a-f만 사용하고 자릿수는 짝수여야 합니다.",
+          "invalidBase64": "잘못된 Base64 키입니다.",
+          "error": "서명 계산에 실패했습니다. 입력을 확인하세요."
+        },
+        "buttons": {
+          "generate": "생성"
+        }
+      },
+      "ru": {
+        "metadata": {
+          "title": "Генератор HMAC",
+          "description": "Вычисляйте подписи HMAC с SHA-1, SHA-256, SHA-384 или SHA-512. Ключи в виде текста, hex или Base64, вывод в hex и Base64 — всё локально в браузере.",
+          "category": "Security"
+        },
+        "keywords": [
+          "генератор HMAC",
+          "HMAC подпись",
+          "HMAC SHA256",
+          "HMAC онлайн",
+          "вычислить HMAC",
+          "HMAC хеш",
+          "HMAC Base64",
+          "HMAC hex",
+          "подпись API",
+          "SHA-512 HMAC"
+        ],
+        "faqs": [
+          {
+            "question": "Что такое подпись HMAC?",
+            "answer": "HMAC (код аутентификации сообщения на основе хеша) сочетает секретный ключ с хеш-функцией, чтобы подтвердить подлинность сообщения и отсутствие изменений. Широко применяется для подписи API-запросов и проверки вебхуков."
+          },
+          {
+            "question": "Какие хеш-алгоритмы поддерживаются?",
+            "answer": "SHA-1, SHA-256, SHA-384 и SHA-512 — все вычисления выполняются нативным Web Crypto API браузера."
+          },
+          {
+            "question": "Какие форматы ключа можно использовать?",
+            "answer": "Текст, шестнадцатеричная строка или Base64. При интеграции с сервером убедитесь, что кодировка ключа совпадает с той, что ожидает другая сторона."
+          },
+          {
+            "question": "Безопасны ли мои данные?",
+            "answer": "Да. Всё выполняется локально в вашем браузере — сообщение и ключ не отправляются и не сохраняются ни на одном сервере."
+          },
+          {
+            "question": "Почему моя подпись не совпадает с серверной?",
+            "answer": "Чаще всего причина — несовпадение формата ключа (текст / hex / Base64) или другой хеш-алгоритм на другой стороне. Проверьте и то, и другое."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Генератор хешей", "href": "/tools/hash-generator" },
+          { "name": "Декодер JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Кодировщик Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Что такое генератор HMAC?",
+            "paragraphs": [
+              "Генератор HMAC вычисляет код аутентификации сообщения на основе хеша — подпись, связывающую сообщение с секретным ключом. Получатель, знающий ключ, может убедиться, что сообщение подлинное и не было изменено.",
+              "HMAC используется повсюду: подпись API-запросов, проверка вебхуков, валидация JWT. Инструмент вычисляет HMAC с SHA-1, SHA-256, SHA-384 или SHA-512 через нативный Web Crypto API браузера, поэтому сообщение и ключ не покидают ваше устройство."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Как вычислить подпись HMAC",
+              "paragraphs": [
+                "Введите сообщение и секретный ключ, выберите формат ключа и хеш-алгоритм, затем нажмите «Сгенерировать».",
+                "Подпись отображается сразу в hex и в Base64 — используйте ту, что ожидает ваш API, и скопируйте её одним щелчком."
+              ]
+            },
+            {
+              "title": "Выбор формата ключа",
+              "paragraphs": [
+                "Текстовые ключи кодируются как байты UTF-8. Hex- и Base64-ключи сначала декодируются в исходные байты, поэтому ключ, сохранённый в другой кодировке, даст корректную подпись."
+              ]
+            },
+            {
+              "title": "Выбор хеш-алгоритма",
+              "paragraphs": [
+                "Сегодня по умолчанию чаще всего выбирают SHA-256. SHA-384 и SHA-512 дают больший запас прочности, а SHA-1 остаётся только для устаревших систем."
+              ]
+            },
+            {
+              "title": "Типичные сценарии",
+              "paragraphs": [
+                "Инструмент удобен для проверки подписей API, отладки вебхуков и сверки собственной реализации HMAC с известными сообщением и ключом."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "message": "Сообщение",
+          "messagePlaceholder": "Введите сообщение для подписи…",
+          "key": "Секретный ключ",
+          "keyPlaceholder": "Введите секретный ключ",
+          "keyFormat": "Формат ключа",
+          "formatText": "Текст",
+          "formatHex": "Hex",
+          "formatBase64": "Base64",
+          "algorithm": "Алгоритм",
+          "hexOutput": "Вывод в hex",
+          "base64Output": "Вывод в Base64",
+          "outputPlaceholder": "Подпись появится здесь",
+          "privacy": "Все вычисления выполняются локально в вашем браузере. Сообщение и ключ не покидают ваше устройство.",
+          "emptyMessage": "Введите сообщение для подписи.",
+          "emptyKey": "Введите секретный ключ.",
+          "invalidHex": "Неверный hex-ключ: используйте только 0-9 и a-f, количество цифр должно быть чётным.",
+          "invalidBase64": "Неверный ключ Base64.",
+          "error": "Не удалось вычислить подпись. Проверьте введённые данные."
+        },
+        "buttons": {
+          "generate": "Сгенерировать"
+        }
+      },
+      "es": {
+        "metadata": {
+          "title": "Generador de HMAC",
+          "description": "Calcula firmas HMAC con SHA-1, SHA-256, SHA-384 o SHA-512. Claves en texto, hexadecimal o Base64 y salida en hex y Base64, todo en tu navegador.",
+          "category": "Security"
+        },
+        "keywords": [
+          "generador HMAC",
+          "firma HMAC",
+          "HMAC SHA256",
+          "HMAC online",
+          "calcular HMAC",
+          "HMAC hash",
+          "HMAC Base64",
+          "HMAC hexadecimal",
+          "firma de API",
+          "SHA-512 HMAC"
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué es una firma HMAC?",
+            "answer": "HMAC (código de autenticación de mensajes basado en hash) combina una clave secreta con una función hash para demostrar que un mensaje es auténtico y no ha sido alterado. Se usa mucho para firmar peticiones de API y verificar webhooks."
+          },
+          {
+            "question": "¿Qué algoritmos hash admite?",
+            "answer": "SHA-1, SHA-256, SHA-384 y SHA-512, todos calculados con la API Web Crypto nativa del navegador."
+          },
+          {
+            "question": "¿Qué formatos de clave puedo usar?",
+            "answer": "Texto, hexadecimal o Base64. Al integrarte con un servidor, asegúrate de que la codificación de la clave coincida con la que espera la otra parte."
+          },
+          {
+            "question": "¿Mis datos están seguros?",
+            "answer": "Sí. Todo se ejecuta localmente en tu navegador: el mensaje y la clave nunca se envían ni se almacenan en ningún servidor."
+          },
+          {
+            "question": "¿Por qué mi HMAC no coincide con el del servidor?",
+            "answer": "Las causas más habituales son un formato de clave distinto (texto, hex o Base64) o un algoritmo hash diferente al de la otra parte. Revisa ambos."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Generador de hashes", "href": "/tools/hash-generator" },
+          { "name": "Decodificador JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Codificador Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "¿Qué es un generador de HMAC?",
+            "paragraphs": [
+              "Un generador de HMAC calcula un código de autenticación de mensajes basado en hash: una firma que vincula tu mensaje a una clave secreta. Quien comparta la clave puede verificar que el mensaje es auténtico y no ha sido alterado.",
+              "El HMAC está por todas partes: firma de peticiones de API, verificación de webhooks, validación de JWT. Esta herramienta calcula HMAC con SHA-1, SHA-256, SHA-384 o SHA-512 usando la API Web Crypto nativa del navegador, así que tu mensaje y tu clave nunca salen de tu dispositivo."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Cómo generar una firma HMAC",
+              "paragraphs": [
+                "Introduce el mensaje y la clave secreta, elige el formato de la clave y el algoritmo hash y pulsa Generar.",
+                "La firma se muestra en hexadecimal y en Base64: usa la que espere tu API o servicio y cópiala con un clic."
+              ]
+            },
+            {
+              "title": "Elegir el formato de la clave",
+              "paragraphs": [
+                "Las claves de texto se codifican como bytes UTF-8. Las claves hex y Base64 se decodifican primero a bytes crudos, de modo que una clave guardada en otra codificación también produce la firma correcta."
+              ]
+            },
+            {
+              "title": "Elegir el algoritmo hash",
+              "paragraphs": [
+                "SHA-256 es el valor por defecto habitual hoy en día. SHA-384 y SHA-512 ofrecen un mayor margen de seguridad, mientras que SHA-1 queda solo para sistemas legados."
+              ]
+            },
+            {
+              "title": "Casos de uso habituales",
+              "paragraphs": [
+                "Usa esta herramienta para verificar firmas de API, depurar payloads de webhooks o contrastar una implementación de HMAC con un mensaje y una clave conocidos."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "message": "Mensaje",
+          "messagePlaceholder": "Introduce el mensaje a firmar…",
+          "key": "Clave secreta",
+          "keyPlaceholder": "Introduce tu clave secreta",
+          "keyFormat": "Formato de la clave",
+          "formatText": "Texto",
+          "formatHex": "Hexadecimal",
+          "formatBase64": "Base64",
+          "algorithm": "Algoritmo",
+          "hexOutput": "Salida hexadecimal",
+          "base64Output": "Salida Base64",
+          "outputPlaceholder": "La firma aparecerá aquí",
+          "privacy": "Todos los cálculos se ejecutan localmente en tu navegador. Tu mensaje y tu clave nunca salen de tu dispositivo.",
+          "emptyMessage": "Introduce un mensaje para firmar.",
+          "emptyKey": "Introduce una clave secreta.",
+          "invalidHex": "Clave hexadecimal no válida: usa solo 0-9 y a-f, con un número par de dígitos.",
+          "invalidBase64": "Clave Base64 no válida.",
+          "error": "No se pudo calcular la firma. Comprueba los datos introducidos."
+        },
+        "buttons": {
+          "generate": "Generar"
+        }
+      },
+      "de": {
+        "metadata": {
+          "title": "HMAC-Generator",
+          "description": "Berechnet HMAC-Signaturen mit SHA-1, SHA-256, SHA-384 oder SHA-512. Schlüssel als Text, Hex oder Base64, Ausgabe in Hex und Base64 – komplett im Browser.",
+          "category": "Security"
+        },
+        "keywords": [
+          "HMAC Generator",
+          "HMAC Signatur",
+          "HMAC SHA256",
+          "HMAC online",
+          "HMAC berechnen",
+          "HMAC Hash",
+          "HMAC Base64",
+          "HMAC Hex",
+          "API Signatur",
+          "SHA-512 HMAC"
+        ],
+        "faqs": [
+          {
+            "question": "Was ist eine HMAC-Signatur?",
+            "answer": "HMAC (Hash-based Message Authentication Code) kombiniert einen geheimen Schlüssel mit einer Hashfunktion, um nachzuweisen, dass eine Nachricht echt und unverändert ist. Weit verbreitet für API-Anfrage-Signaturen und Webhook-Verifizierung."
+          },
+          {
+            "question": "Welche Hash-Algorithmen werden unterstützt?",
+            "answer": "SHA-1, SHA-256, SHA-384 und SHA-512 – alle berechnet mit der nativen Web Crypto API des Browsers."
+          },
+          {
+            "question": "Welche Schlüsselformate kann ich verwenden?",
+            "answer": "Text, Hexadezimal oder Base64. Achten Sie bei der Integration mit einem Server darauf, dass die Schlüsselkodierung der der Gegenseite entspricht."
+          },
+          {
+            "question": "Sind meine Daten sicher?",
+            "answer": "Ja. Alles läuft lokal in Ihrem Browser – Nachricht und Schlüssel werden nie an einen Server gesendet oder dort gespeichert."
+          },
+          {
+            "question": "Warum stimmt mein HMAC nicht mit dem des Servers überein?",
+            "answer": "Häufigste Ursachen sind ein abweichendes Schlüsselformat (Text vs. Hex vs. Base64) oder ein anderer Hash-Algorithmus auf der Gegenseite. Prüfen Sie beides."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Hash-Generator", "href": "/tools/hash-generator" },
+          { "name": "JWT-Decoder", "href": "/tools/jwt-decoder" },
+          { "name": "Base64-Encoder", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Was ist ein HMAC-Generator?",
+            "paragraphs": [
+              "Ein HMAC-Generator berechnet einen Hash-based Message Authentication Code: eine Signatur, die Ihre Nachricht an einen geheimen Schlüssel bindet. Empfänger mit demselben Schlüssel können prüfen, dass die Nachricht echt und unverändert ist.",
+              "HMAC ist überall – API-Anfrage-Signaturen, Webhook-Verifizierung, JWT-Validierung. Dieses Tool berechnet HMAC mit SHA-1, SHA-256, SHA-384 oder SHA-512 über die native Web Crypto API des Browsers, sodass Nachricht und Schlüssel Ihr Gerät nie verlassen."
+            ]
+          },
+          "sections": [
+            {
+              "title": "So erstellen Sie eine HMAC-Signatur",
+              "paragraphs": [
+                "Geben Sie Nachricht und Geheimschlüssel ein, wählen Sie Schlüsselformat und Hash-Algorithmus und klicken Sie auf Generieren.",
+                "Die Signatur wird sowohl in Hex als auch in Base64 angezeigt – verwenden Sie die Variante, die Ihre API erwartet, und kopieren Sie sie mit einem Klick."
+              ]
+            },
+            {
+              "title": "Wahl des Schlüsselformats",
+              "paragraphs": [
+                "Textschlüssel werden als UTF-8-Bytes kodiert. Hex- und Base64-Schlüssel werden zuerst in rohe Bytes dekodiert, sodass auch ein in anderer Kodierung gespeicherter Schlüssel die korrekte Signatur liefert."
+              ]
+            },
+            {
+              "title": "Wahl des Hash-Algorithmus",
+              "paragraphs": [
+                "SHA-256 ist heute der übliche Standard. SHA-384 und SHA-512 bieten mehr Sicherheitsreserve, während SHA-1 nur noch für Altsysteme gedacht ist."
+              ]
+            },
+            {
+              "title": "Typische Anwendungsfälle",
+              "paragraphs": [
+                "Prüfen Sie API-Signaturen, debuggen Sie Webhook-Payloads oder vergleichen Sie eine HMAC-Implementierung mit bekanntem Nachrichten-Schlüssel-Paar."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "message": "Nachricht",
+          "messagePlaceholder": "Zu signierende Nachricht eingeben…",
+          "key": "Geheimschlüssel",
+          "keyPlaceholder": "Geheimschlüssel eingeben",
+          "keyFormat": "Schlüsselformat",
+          "formatText": "Text",
+          "formatHex": "Hex",
+          "formatBase64": "Base64",
+          "algorithm": "Algorithmus",
+          "hexOutput": "Hex-Ausgabe",
+          "base64Output": "Base64-Ausgabe",
+          "outputPlaceholder": "Die Signatur erscheint hier",
+          "privacy": "Alle Berechnungen laufen lokal in Ihrem Browser. Nachricht und Schlüssel verlassen Ihr Gerät nie.",
+          "emptyMessage": "Bitte geben Sie eine Nachricht zum Signieren ein.",
+          "emptyKey": "Bitte geben Sie einen Geheimschlüssel ein.",
+          "invalidHex": "Ungültiger Hex-Schlüssel: nur 0-9 und a-f verwenden, mit gerader Stellenzahl.",
+          "invalidBase64": "Ungültiger Base64-Schlüssel.",
+          "error": "Die Signatur konnte nicht berechnet werden. Bitte Eingabe prüfen."
+        },
+        "buttons": {
+          "generate": "Generieren"
+        }
+      },
+      "fr": {
+        "metadata": {
+          "title": "Générateur de HMAC",
+          "description": "Calculez des signatures HMAC avec SHA-1, SHA-256, SHA-384 ou SHA-512. Clés en texte, hexadécimal ou Base64, sortie en hex et Base64, entièrement dans votre navigateur.",
+          "category": "Security"
+        },
+        "keywords": [
+          "générateur HMAC",
+          "signature HMAC",
+          "HMAC SHA256",
+          "HMAC en ligne",
+          "calculer HMAC",
+          "HMAC hachage",
+          "HMAC Base64",
+          "HMAC hexadécimal",
+          "signature API",
+          "SHA-512 HMAC"
+        ],
+        "faqs": [
+          {
+            "question": "Qu'est-ce qu'une signature HMAC ?",
+            "answer": "HMAC (code d'authentification de message basé sur le hachage) combine une clé secrète et une fonction de hachage pour prouver qu'un message est authentique et intact. Très utilisé pour la signature de requêtes API et la vérification des webhooks."
+          },
+          {
+            "question": "Quels algorithmes de hachage sont pris en charge ?",
+            "answer": "SHA-1, SHA-256, SHA-384 et SHA-512, tous calculés avec l'API Web Crypto native du navigateur."
+          },
+          {
+            "question": "Quels formats de clé puis-je utiliser ?",
+            "answer": "Texte, hexadécimal ou Base64. Lors d'une intégration avec un serveur, assurez-vous que l'encodage de la clé correspond à celui attendu par l'autre partie."
+          },
+          {
+            "question": "Mes données sont-elles en sécurité ?",
+            "answer": "Oui. Tout s'exécute localement dans votre navigateur : le message et la clé ne sont jamais envoyés ni stockés sur un serveur."
+          },
+          {
+            "question": "Pourquoi mon HMAC ne correspond-il pas à celui du serveur ?",
+            "answer": "Les causes les plus fréquentes sont un format de clé différent (texte, hex ou Base64) ou un algorithme de hachage différent de celui de l'autre partie. Vérifiez les deux."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Générateur de hachage", "href": "/tools/hash-generator" },
+          { "name": "Décodeur JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Encodeur Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Qu'est-ce qu'un générateur de HMAC ?",
+            "paragraphs": [
+              "Un générateur de HMAC calcule un code d'authentification de message basé sur le hachage : une signature qui lie votre message à une clé secrète. Le destinataire partageant la clé peut vérifier que le message est authentique et intact.",
+              "Le HMAC est partout — signature de requêtes API, vérification de webhooks, validation de JWT. Cet outil calcule le HMAC avec SHA-1, SHA-256, SHA-384 ou SHA-512 via l'API Web Crypto native du navigateur : votre message et votre clé ne quittent jamais votre appareil."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Comment générer une signature HMAC",
+              "paragraphs": [
+                "Saisissez le message et la clé secrète, choisissez le format de clé et l'algorithme de hachage, puis cliquez sur Générer.",
+                "La signature est affichée en hexadécimal et en Base64 — utilisez celle qu'attend votre API et copiez-la en un clic."
+              ]
+            },
+            {
+              "title": "Choisir le format de la clé",
+              "paragraphs": [
+                "Les clés texte sont encodées en octets UTF-8. Les clés hex et Base64 sont d'abord décodées en octets bruts : une clé stockée dans un autre encodage produit donc aussi la bonne signature."
+              ]
+            },
+            {
+              "title": "Choisir l'algorithme de hachage",
+              "paragraphs": [
+                "SHA-256 est le choix par défaut le plus courant aujourd'hui. SHA-384 et SHA-512 offrent une marge de sécurité supérieure, tandis que SHA-1 ne sert qu'aux anciens systèmes."
+              ]
+            },
+            {
+              "title": "Cas d'usage courants",
+              "paragraphs": [
+                "Utilisez cet outil pour vérifier des signatures d'API, déboguer des payloads de webhooks ou confronter une implémentation HMAC à un message et une clé connus."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "message": "Message",
+          "messagePlaceholder": "Saisissez le message à signer…",
+          "key": "Clé secrète",
+          "keyPlaceholder": "Saisissez votre clé secrète",
+          "keyFormat": "Format de la clé",
+          "formatText": "Texte",
+          "formatHex": "Hexadécimal",
+          "formatBase64": "Base64",
+          "algorithm": "Algorithme",
+          "hexOutput": "Sortie hexadécimale",
+          "base64Output": "Sortie Base64",
+          "outputPlaceholder": "La signature apparaîtra ici",
+          "privacy": "Tous les calculs s'exécutent localement dans votre navigateur. Votre message et votre clé ne quittent jamais votre appareil.",
+          "emptyMessage": "Veuillez saisir un message à signer.",
+          "emptyKey": "Veuillez saisir une clé secrète.",
+          "invalidHex": "Clé hexadécimale invalide : utilisez uniquement 0-9 et a-f, avec un nombre pair de chiffres.",
+          "invalidBase64": "Clé Base64 invalide.",
+          "error": "Impossible de calculer la signature. Vérifiez votre saisie."
+        },
+        "buttons": {
+          "generate": "Générer"
+        }
+      },
+      "pt": {
+        "metadata": {
+          "title": "Gerador de HMAC",
+          "description": "Calcule assinaturas HMAC com SHA-1, SHA-256, SHA-384 ou SHA-512. Chaves em texto, hexadecimal ou Base64, saída em hex e Base64, tudo no seu navegador.",
+          "category": "Security"
+        },
+        "keywords": [
+          "gerador HMAC",
+          "assinatura HMAC",
+          "HMAC SHA256",
+          "HMAC online",
+          "calcular HMAC",
+          "HMAC hash",
+          "HMAC Base64",
+          "HMAC hexadecimal",
+          "assinatura de API",
+          "SHA-512 HMAC"
+        ],
+        "faqs": [
+          {
+            "question": "O que é uma assinatura HMAC?",
+            "answer": "HMAC (código de autenticação de mensagem baseado em hash) combina uma chave secreta com uma função hash para provar que uma mensagem é autêntica e não foi alterada. É muito usado para assinar requisições de API e verificar webhooks."
+          },
+          {
+            "question": "Quais algoritmos hash são suportados?",
+            "answer": "SHA-1, SHA-256, SHA-384 e SHA-512, todos calculados com a API Web Crypto nativa do navegador."
+          },
+          {
+            "question": "Quais formatos de chave posso usar?",
+            "answer": "Texto, hexadecimal ou Base64. Ao integrar com um servidor, certifique-se de que a codificação da chave corresponde à que a outra parte espera."
+          },
+          {
+            "question": "Meus dados estão seguros?",
+            "answer": "Sim. Tudo é executado localmente no seu navegador — a mensagem e a chave nunca são enviadas ou armazenadas em nenhum servidor."
+          },
+          {
+            "question": "Por que meu HMAC não coincide com o do servidor?",
+            "answer": "As causas mais comuns são um formato de chave diferente (texto, hex ou Base64) ou um algoritmo hash diferente do usado pela outra parte. Verifique ambos."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Gerador de hash", "href": "/tools/hash-generator" },
+          { "name": "Decodificador JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Codificador Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "O que é um gerador de HMAC?",
+            "paragraphs": [
+              "Um gerador de HMAC calcula um código de autenticação de mensagem baseado em hash: uma assinatura que vincula sua mensagem a uma chave secreta. Quem compartilha a chave pode verificar que a mensagem é autêntica e não foi alterada.",
+              "HMAC está em todo lugar — assinatura de requisições de API, verificação de webhooks, validação de JWT. Esta ferramenta calcula HMAC com SHA-1, SHA-256, SHA-384 ou SHA-512 usando a API Web Crypto nativa do navegador, então sua mensagem e chave nunca saem do seu dispositivo."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Como gerar uma assinatura HMAC",
+              "paragraphs": [
+                "Digite a mensagem e a chave secreta, escolha o formato da chave e o algoritmo hash e clique em Gerar.",
+                "A assinatura é exibida em hexadecimal e Base64 — use a que sua API ou serviço esperar e copie com um clique."
+              ]
+            },
+            {
+              "title": "Escolhendo o formato da chave",
+              "paragraphs": [
+                "Chaves de texto são codificadas como bytes UTF-8. Chaves hex e Base64 são decodificadas para bytes brutos primeiro, então uma chave salva em outra codificação também produz a assinatura correta."
+              ]
+            },
+            {
+              "title": "Escolhendo o algoritmo hash",
+              "paragraphs": [
+                "SHA-256 é o padrão mais comum hoje. SHA-384 e SHA-512 oferecem uma margem de segurança maior, enquanto o SHA-1 fica apenas para sistemas legados."
+              ]
+            },
+            {
+              "title": "Casos de uso comuns",
+              "paragraphs": [
+                "Use esta ferramenta para verificar assinaturas de API, depurar payloads de webhooks ou confrontar uma implementação de HMAC com uma mensagem e chave conhecidas."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "message": "Mensagem",
+          "messagePlaceholder": "Digite a mensagem a ser assinada…",
+          "key": "Chave secreta",
+          "keyPlaceholder": "Digite sua chave secreta",
+          "keyFormat": "Formato da chave",
+          "formatText": "Texto",
+          "formatHex": "Hexadecimal",
+          "formatBase64": "Base64",
+          "algorithm": "Algoritmo",
+          "hexOutput": "Saída hexadecimal",
+          "base64Output": "Saída Base64",
+          "outputPlaceholder": "A assinatura aparecerá aqui",
+          "privacy": "Todos os cálculos são executados localmente no seu navegador. Sua mensagem e chave nunca saem do seu dispositivo.",
+          "emptyMessage": "Digite uma mensagem para assinar.",
+          "emptyKey": "Digite uma chave secreta.",
+          "invalidHex": "Chave hexadecimal inválida: use apenas 0-9 e a-f, com número par de dígitos.",
+          "invalidBase64": "Chave Base64 inválida.",
+          "error": "Não foi possível calcular a assinatura. Verifique os dados inseridos."
+        },
+        "buttons": {
+          "generate": "Gerar"
+        }
+      }
+    },
+    "rsa-key-generator": {
+      "en": {
+        "metadata": {
+          "title": "RSA Key Generator",
+          "description": "Generate RSA-OAEP (SHA-256) key pairs of 2048, 3072, or 4096 bits. Export public (SPKI) and private (PKCS#8) PEM files, entirely in your browser.",
+          "category": "Security"
+        },
+        "keywords": [
+          "rsa key generator",
+          "generate rsa key pair",
+          "rsa 2048 key generator",
+          "rsa 4096 key generator",
+          "rsa oaep key pair",
+          "public private key generator",
+          "pem key generator",
+          "online rsa keygen",
+          "rsa sha-256 key pair",
+          "jwt rs256 key generator"
+        ],
+        "faqs": [
+          {
+            "question": "How are the RSA keys generated?",
+            "answer": "With the browser's native Web Crypto API (crypto.subtle.generateKey) using RSA-OAEP with SHA-256. The keys are generated locally on your device."
+          },
+          {
+            "question": "What key size should I choose?",
+            "answer": "2048 bits is fine for most uses. 3072 and 4096 bits offer a larger security margin at the cost of noticeably slower generation."
+          },
+          {
+            "question": "What format are the keys exported in?",
+            "answer": "The public key is exported as a SPKI PEM (BEGIN PUBLIC KEY) and the private key as a PKCS#8 PEM (BEGIN PRIVATE KEY) — both standard formats."
+          },
+          {
+            "question": "Can I use these keys for SSH?",
+            "answer": "These are standard RSA keys intended for encryption or signing. OpenSSH uses its own key format, so you would need to convert them first."
+          },
+          {
+            "question": "Is the private key stored anywhere?",
+            "answer": "No. Keys exist only in your browser — copy or download them before closing the page, because they cannot be recovered afterwards."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Password Generator", "href": "/tools/password-generator" },
+          { "name": "JWT Decoder", "href": "/tools/jwt-decoder" },
+          { "name": "Hash Generator", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "What is an RSA key generator?",
+            "paragraphs": [
+              "An RSA key generator creates a matched pair of keys: a public key you can share freely and a private key you keep secret. This tool uses the RSA-OAEP algorithm with SHA-256.",
+              "Key generation happens entirely in your browser via the Web Crypto API — no key material is ever transmitted or stored on a server."
+            ]
+          },
+          "sections": [
+            {
+              "title": "How to generate an RSA key pair",
+              "paragraphs": [
+                "Choose the key size (2048, 3072 or 4096 bits) and press Generate. Larger keys take noticeably longer to produce.",
+                "The public key appears on the left in SPKI PEM form and the private key on the right in PKCS#8 PEM form. Use the copy buttons or download each as a .pem file."
+              ]
+            },
+            {
+              "title": "Choosing the key size",
+              "paragraphs": [
+                "2048 bits is the current baseline and is sufficient for most applications. 3072 and 4096 bits offer a larger security margin at the cost of slower generation and bigger keys."
+              ]
+            },
+            {
+              "title": "Protecting your private key",
+              "paragraphs": [
+                "Anyone who obtains the private key can decrypt data meant for you or sign as you. Store it offline, never commit it to a repository, and never share it. Since generation happens in your browser, the key never touches a server."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "keySize": "Key size",
+          "algorithm": "Algorithm",
+          "algorithmValue": "RSA-OAEP (SHA-256)",
+          "warning4096": "4096-bit keys can take a while to generate — please wait.",
+          "metaSize": "Key size",
+          "bits": "bits",
+          "metaAlgorithm": "Algorithm",
+          "metaCreated": "Generated at",
+          "publicKey": "Public key (SPKI PEM)",
+          "privateKey": "Private key (PKCS#8 PEM)",
+          "outputPlaceholder": "Generated key appears here",
+          "securityNote": "Keep your private key safe: anyone who obtains it can decrypt your data or impersonate you. Store it offline and never share it.",
+          "privacy": "Key generation runs entirely in your browser. Keys are never sent to or stored on any server.",
+          "error": "Key generation failed. Please try again."
+        },
+        "buttons": {
+          "generate": "Generate",
+          "generating": "Generating…",
+          "download": "Download .pem"
+        }
+      },
+      "zh": {
+        "metadata": {
+          "title": "RSA 密钥对生成器",
+          "description": "生成 2048、3072 或 4096 位的 RSA-OAEP（SHA-256）密钥对，导出公钥（SPKI）和私钥（PKCS#8）PEM 文件，全部在浏览器本地完成。",
+          "category": "Security"
+        },
+        "keywords": [
+          "RSA 密钥生成器",
+          "生成 RSA 密钥对",
+          "RSA 2048 密钥",
+          "RSA 4096 密钥",
+          "RSA OAEP 密钥对",
+          "公钥私钥生成",
+          "PEM 密钥生成",
+          "在线 RSA 密钥",
+          "JWT RS256 密钥",
+          "RSA SHA256"
+        ],
+        "faqs": [
+          {
+            "question": "RSA 密钥是如何生成的？",
+            "answer": "使用浏览器原生 Web Crypto API（crypto.subtle.generateKey），算法为 RSA-OAEP 搭配 SHA-256，密钥完全在您的设备上生成。"
+          },
+          {
+            "question": "应该选择多大的密钥？",
+            "answer": "2048 位适合大多数场景；3072 或 4096 位安全余量更高，但生成时间明显更长。"
+          },
+          {
+            "question": "密钥以什么格式导出？",
+            "answer": "公钥为 SPKI PEM（BEGIN PUBLIC KEY），私钥为 PKCS#8 PEM（BEGIN PRIVATE KEY），均为标准格式。"
+          },
+          {
+            "question": "这些密钥能用于 SSH 吗？",
+            "answer": "这是用于加密或签名的标准 RSA 密钥。OpenSSH 使用自己的密钥格式，需要先转换后才能使用。"
+          },
+          {
+            "question": "私钥会被保存吗？",
+            "answer": "不会。密钥只存在于您的浏览器中，关闭页面前请及时复制或下载，之后无法恢复。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "密码生成器", "href": "/tools/password-generator" },
+          { "name": "JWT 解码器", "href": "/tools/jwt-decoder" },
+          { "name": "哈希生成器", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "什么是 RSA 密钥对生成器？",
+            "paragraphs": [
+              "RSA 密钥对生成器会创建一对相互匹配的密钥：可以自由分发的公钥和必须保密的私钥。本工具使用 RSA-OAEP 算法搭配 SHA-256。",
+              "密钥生成完全在浏览器中通过 Web Crypto API 完成，任何密钥材料都不会被传输或存储到服务器。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "如何生成 RSA 密钥对",
+              "paragraphs": [
+                "选择密钥长度（2048、3072 或 4096 位），点击生成按钮。位数越大，生成所需的时间越长。",
+                "左侧显示 SPKI PEM 格式的公钥，右侧显示 PKCS#8 PEM 格式的私钥，可一键复制或下载为 .pem 文件。"
+              ]
+            },
+            {
+              "title": "如何选择密钥长度",
+              "paragraphs": [
+                "2048 位是当前的基础标准，适合大多数应用；3072 位和 4096 位安全余量更大，但生成更慢、密钥更大。"
+              ]
+            },
+            {
+              "title": "保护好您的私钥",
+              "paragraphs": [
+                "任何获得私钥的人都可以解密发给您的数据，或冒充您进行签名。请离线保存私钥，切勿提交到代码仓库或分享给他人。由于密钥在浏览器中生成，全程不会经过任何服务器。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "keySize": "密钥长度",
+          "algorithm": "算法",
+          "algorithmValue": "RSA-OAEP (SHA-256)",
+          "warning4096": "生成 4096 位密钥可能需要一些时间，请耐心等待。",
+          "metaSize": "密钥长度",
+          "bits": "位",
+          "metaAlgorithm": "算法",
+          "metaCreated": "生成时间",
+          "publicKey": "公钥（SPKI PEM）",
+          "privateKey": "私钥（PKCS#8 PEM）",
+          "outputPlaceholder": "生成的密钥将显示在这里",
+          "securityNote": "请妥善保管私钥：任何获得私钥的人都可以解密您的数据或冒充您。请离线保存，切勿分享。",
+          "privacy": "密钥生成完全在浏览器本地进行，密钥不会被发送或存储到任何服务器。",
+          "error": "密钥生成失败，请重试。"
+        },
+        "buttons": {
+          "generate": "生成",
+          "generating": "生成中…",
+          "download": "下载 .pem"
+        }
+      },
+      "ja": {
+        "metadata": {
+          "title": "RSA 鍵ペアジェネレーター",
+          "description": "2048 / 3072 / 4096 ビットの RSA-OAEP（SHA-256）鍵ペアを生成し、公開鍵（SPKI）と秘密鍵（PKCS#8）の PEM を出力します。処理はすべてブラウザ内で完結します。",
+          "category": "Security"
+        },
+        "keywords": [
+          "RSA 鍵生成",
+          "RSA キーペア生成",
+          "RSA 2048",
+          "RSA 4096",
+          "RSA-OAEP",
+          "公開鍵 秘密鍵 生成",
+          "PEM 形式",
+          "オンライン RSA 鍵生成",
+          "JWT RS256 用 鍵",
+          "RSA SHA-256"
+        ],
+        "faqs": [
+          {
+            "question": "RSA 鍵はどのように生成されますか？",
+            "answer": "ブラウザ標準の Web Crypto API（crypto.subtle.generateKey）を RSA-OAEP + SHA-256 で使用します。鍵はデバイス上でローカルに生成されます。"
+          },
+          {
+            "question": "鍵長はどう選べばよいですか？",
+            "answer": "2048 ビットは多くの用途に十分です。3072 / 4096 ビットはより高い安全余量を提供しますが、生成にかなりの時間がかかります。"
+          },
+          {
+            "question": "鍵はどの形式で出力されますか？",
+            "answer": "公開鍵は SPKI PEM（BEGIN PUBLIC KEY）、秘密鍵は PKCS#8 PEM（BEGIN PRIVATE KEY）として出力されます。どちらも標準形式です。"
+          },
+          {
+            "question": "この鍵は SSH に使えますか？",
+            "answer": "これは暗号化や署名向けの標準 RSA 鍵です。OpenSSH は独自の鍵形式を使用するため、先に変換する必要があります。"
+          },
+          {
+            "question": "秘密鍵はどこかに保存されますか？",
+            "answer": "いいえ。鍵はブラウザ内にのみ存在します。ページを閉じると復元できないため、閉じる前にコピーまたはダウンロードしてください。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "パスワード生成ツール", "href": "/tools/password-generator" },
+          { "name": "JWT デコーダー", "href": "/tools/jwt-decoder" },
+          { "name": "ハッシュ生成ツール", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "RSA 鍵ペアジェネレーターとは？",
+            "paragraphs": [
+              "RSA 鍵ペアジェネレーターは、自由に公開できる公開鍵と秘密にしておく秘密鍵のペアを作成します。本ツールは RSA-OAEP アルゴリズムと SHA-256 を使用します。",
+              "鍵の生成は Web Crypto API によって完全にブラウザ内で行われ、鍵素材がサーバーに送信・保存されることは一切ありません。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "RSA 鍵ペアの生成方法",
+              "paragraphs": [
+                "鍵長（2048 / 3072 / 4096 ビット）を選択し、生成ボタンを押します。ビット数が大きいほど生成に時間がかかります。",
+                "左に SPKI PEM 形式の公開鍵、右に PKCS#8 PEM 形式の秘密鍵が表示されます。コピーまたは .pem ファイルとしてダウンロードできます。"
+              ]
+            },
+            {
+              "title": "鍵長の選び方",
+              "paragraphs": [
+                "2048 ビットは現在の標準的な水準で、多くの用途に十分です。3072 / 4096 ビットはより高い安全余量を提供しますが、生成は遅くなり鍵も大きくなります。"
+              ]
+            },
+            {
+              "title": "秘密鍵の保護",
+              "paragraphs": [
+                "秘密鍵を入手した人物は、あなた宛てのデータを復号したり、あなたとして署名できます。オフラインで保管し、リポジトリにコミットしたり他人と共有したりしないでください。生成はブラウザ内で行われるため、鍵がサーバーを経由することはありません。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "keySize": "鍵長",
+          "algorithm": "アルゴリズム",
+          "algorithmValue": "RSA-OAEP (SHA-256)",
+          "warning4096": "4096 ビットの鍵生成には時間がかかることがあります。お待ちください。",
+          "metaSize": "鍵長",
+          "bits": "ビット",
+          "metaAlgorithm": "アルゴリズム",
+          "metaCreated": "生成日時",
+          "publicKey": "公開鍵（SPKI PEM）",
+          "privateKey": "秘密鍵（PKCS#8 PEM）",
+          "outputPlaceholder": "生成された鍵がここに表示されます",
+          "securityNote": "秘密鍵は厳重に管理してください。秘密鍵を持つ人物はデータを復号したり、なりすましが可能になります。オフラインで保管し、共有しないでください。",
+          "privacy": "鍵の生成はすべてブラウザ内で行われ、鍵がサーバーに送信・保存されることはありません。",
+          "error": "鍵の生成に失敗しました。もう一度お試しください。"
+        },
+        "buttons": {
+          "generate": "生成",
+          "generating": "生成中…",
+          "download": ".pem をダウンロード"
+        }
+      },
+      "ko": {
+        "metadata": {
+          "title": "RSA 키 쌍 생성기",
+          "description": "2048, 3072, 4096비트 RSA-OAEP(SHA-256) 키 쌍을 생성하고 공개 키(SPKI)와 개인 키(PKCS#8) PEM 파일로 내보냅니다. 모든 과정은 브라우저에서 진행됩니다.",
+          "category": "Security"
+        },
+        "keywords": [
+          "RSA 키 생성기",
+          "RSA 키 쌍 생성",
+          "RSA 2048",
+          "RSA 4096",
+          "RSA-OAEP 키",
+          "공개 키 개인 키 생성",
+          "PEM 키 생성기",
+          "온라인 RSA 키",
+          "JWT RS256 키",
+          "RSA SHA-256"
+        ],
+        "faqs": [
+          {
+            "question": "RSA 키는 어떻게 생성되나요?",
+            "answer": "브라우저의 네이티브 Web Crypto API(crypto.subtle.generateKey)를 RSA-OAEP + SHA-256으로 사용합니다. 키는 기기에서 로컬로 생성됩니다."
+          },
+          {
+            "question": "키 길이는 어떻게 선택해야 하나요?",
+            "answer": "2048비트는 대부분의 용도에 충분합니다. 3072 및 4096비트는 더 큰 보안 여유를 제공하지만 생성이 눈에 띄게 느려집니다."
+          },
+          {
+            "question": "키는 어떤 형식으로 내보내지나요?",
+            "answer": "공개 키는 SPKI PEM(BEGIN PUBLIC KEY), 개인 키는 PKCS#8 PEM(BEGIN PRIVATE KEY)으로 내보내집니다. 둘 다 표준 형식입니다."
+          },
+          {
+            "question": "이 키를 SSH에 사용할 수 있나요?",
+            "answer": "이 키는 암호화나 서명용 표준 RSA 키입니다. OpenSSH는 자체 키 형식을 사용하므로 먼저 변환해야 합니다."
+          },
+          {
+            "question": "개인 키는 어딘가에 저장되나요?",
+            "answer": "아니요. 키는 브라우저에만 존재합니다. 페이지를 닫으면 복구할 수 없으니 닫기 전에 복사하거나 다운로드하세요."
+          }
+        ],
+        "relatedTools": [
+          { "name": "비밀번호 생성기", "href": "/tools/password-generator" },
+          { "name": "JWT 디코더", "href": "/tools/jwt-decoder" },
+          { "name": "해시 생성기", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "RSA 키 쌍 생성기란?",
+            "paragraphs": [
+              "RSA 키 쌍 생성기는 자유롭게 공유할 수 있는 공개 키와 비밀로 유지해야 하는 개인 키의 한 쌍을 만듭니다. 이 도구는 SHA-256과 함께 RSA-OAEP 알고리즘을 사용합니다.",
+              "키 생성은 Web Crypto API를 통해 전적으로 브라우저에서 이루어지며, 키 자료는 서버로 전송되거나 저장되지 않습니다."
+            ]
+          },
+          "sections": [
+            {
+              "title": "RSA 키 쌍 생성 방법",
+              "paragraphs": [
+                "키 길이(2048, 3072, 4096비트)를 선택하고 생성 버튼을 누르세요. 비트 수가 클수록 생성에 더 오래 걸립니다.",
+                "왼쪽에 SPKI PEM 형식의 공개 키, 오른쪽에 PKCS#8 PEM 형식의 개인 키가 표시됩니다. 복사하거나 .pem 파일로 다운로드할 수 있습니다."
+              ]
+            },
+            {
+              "title": "키 길이 선택",
+              "paragraphs": [
+                "2048비트는 현재 표준 수준으로 대부분의 용도에 충분합니다. 3072 및 4096비트는 더 큰 보안 여유를 제공하지만 생성이 느리고 키가 커집니다."
+              ]
+            },
+            {
+              "title": "개인 키 보호",
+              "paragraphs": [
+                "개인 키를 획득한 사람은 당신에게 보낸 데이터를 복호화하거나 당신 명의로 서명할 수 있습니다. 오프라인에 보관하고 저장소에 커밋하거나 공유하지 마세요. 생성은 브라우저에서 이루어지므로 키가 서버를 거치는 일은 없습니다."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "keySize": "키 길이",
+          "algorithm": "알고리즘",
+          "algorithmValue": "RSA-OAEP (SHA-256)",
+          "warning4096": "4096비트 키 생성은 시간이 다소 걸릴 수 있습니다. 잠시만 기다려 주세요.",
+          "metaSize": "키 길이",
+          "bits": "비트",
+          "metaAlgorithm": "알고리즘",
+          "metaCreated": "생성 시각",
+          "publicKey": "공개 키 (SPKI PEM)",
+          "privateKey": "개인 키 (PKCS#8 PEM)",
+          "outputPlaceholder": "생성된 키가 여기에 표시됩니다",
+          "securityNote": "개인 키를 안전하게 보관하세요. 개인 키를 획득한 사람은 데이터를 복호화하거나 당신으로 가장할 수 있습니다. 오프라인에 보관하고 절대 공유하지 마세요.",
+          "privacy": "키 생성은 전적으로 브라우저에서 이루어지며, 키는 서버로 전송되거나 저장되지 않습니다.",
+          "error": "키 생성에 실패했습니다. 다시 시도해 주세요."
+        },
+        "buttons": {
+          "generate": "생성",
+          "generating": "생성 중…",
+          "download": ".pem 다운로드"
+        }
+      },
+      "ru": {
+        "metadata": {
+          "title": "Генератор ключей RSA",
+          "description": "Создавайте пары ключей RSA-OAEP (SHA-256) длиной 2048, 3072 или 4096 бит и экспортируйте их в PEM: открытый (SPKI) и закрытый (PKCS#8) ключи. Всё в вашем браузере.",
+          "category": "Security"
+        },
+        "keywords": [
+          "генератор ключей RSA",
+          "создать пару ключей RSA",
+          "RSA 2048",
+          "RSA 4096",
+          "RSA-OAEP ключи",
+          "открытый и закрытый ключ",
+          "PEM генератор ключей",
+          "RSA ключи онлайн",
+          "ключ для JWT RS256",
+          "RSA SHA-256"
+        ],
+        "faqs": [
+          {
+            "question": "Как генерируются ключи RSA?",
+            "answer": "С помощью нативного Web Crypto API браузера (crypto.subtle.generateKey) и алгоритма RSA-OAEP с SHA-256. Ключи создаются локально на вашем устройстве."
+          },
+          {
+            "question": "Какую длину ключа выбрать?",
+            "answer": "2048 бит подходит для большинства задач. 3072 и 4096 бит дают больший запас прочности, но генерируются заметно дольше."
+          },
+          {
+            "question": "В каком формате экспортируются ключи?",
+            "answer": "Открытый ключ — в формате SPKI PEM (BEGIN PUBLIC KEY), закрытый — в формате PKCS#8 PEM (BEGIN PRIVATE KEY). Оба являются стандартными."
+          },
+          {
+            "question": "Можно ли использовать эти ключи для SSH?",
+            "answer": "Это стандартные ключи RSA для шифрования или подписи. OpenSSH использует собственный формат, поэтому потребуется предварительное преобразование."
+          },
+          {
+            "question": "Сохраняется ли закрытый ключ где-либо?",
+            "answer": "Нет. Ключи существуют только в вашем браузере — скопируйте или скачайте их до закрытия страницы, иначе восстановить их будет невозможно."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Генератор паролей", "href": "/tools/password-generator" },
+          { "name": "Декодер JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Генератор хешей", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Что такое генератор ключей RSA?",
+            "paragraphs": [
+              "Генератор ключей RSA создаёт согласованную пару: открытый ключ, который можно свободно распространять, и закрытый ключ, который хранится в секрете. Инструмент использует алгоритм RSA-OAEP с SHA-256.",
+              "Генерация происходит полностью в браузере через Web Crypto API — ключевой материал никогда не передаётся и не сохраняется на сервере."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Как создать пару ключей RSA",
+              "paragraphs": [
+                "Выберите длину ключа (2048, 3072 или 4096 бит) и нажмите «Сгенерировать». Чем больше длина, тем дольше идёт генерация.",
+                "Слева появится открытый ключ в формате SPKI PEM, справа — закрытый ключ в формате PKCS#8 PEM. Скопируйте их или скачайте как файлы .pem."
+              ]
+            },
+            {
+              "title": "Выбор длины ключа",
+              "paragraphs": [
+                "2048 бит — текущий базовый уровень, его достаточно для большинства задач. 3072 и 4096 бит дают больший запас прочности, но генерируются медленнее и занимают больше места."
+              ]
+            },
+            {
+              "title": "Защита закрытого ключа",
+              "paragraphs": [
+                "Тот, кто получит закрытый ключ, сможет расшифровывать адресованные вам данные или подписывать сообщения от вашего имени. Храните его офлайн, не публикуйте в репозиториях и никому не передавайте. Ключ генерируется в браузере и никогда не попадает на сервер."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "keySize": "Длина ключа",
+          "algorithm": "Алгоритм",
+          "algorithmValue": "RSA-OAEP (SHA-256)",
+          "warning4096": "Генерация 4096-битного ключа может занять время — подождите.",
+          "metaSize": "Длина ключа",
+          "bits": "бит",
+          "metaAlgorithm": "Алгоритм",
+          "metaCreated": "Создан",
+          "publicKey": "Открытый ключ (SPKI PEM)",
+          "privateKey": "Закрытый ключ (PKCS#8 PEM)",
+          "outputPlaceholder": "Сгенерированный ключ появится здесь",
+          "securityNote": "Храните закрытый ключ в безопасности: любой, кто получит его, сможет расшифровать ваши данные или выдать себя за вас. Храните его офлайн и никому не передавайте.",
+          "privacy": "Генерация ключей выполняется полностью в вашем браузере. Ключи не отправляются и не сохраняются на серверах.",
+          "error": "Не удалось сгенерировать ключи. Попробуйте снова."
+        },
+        "buttons": {
+          "generate": "Сгенерировать",
+          "generating": "Генерация…",
+          "download": "Скачать .pem"
+        }
+      },
+      "es": {
+        "metadata": {
+          "title": "Generador de claves RSA",
+          "description": "Genera pares de claves RSA-OAEP (SHA-256) de 2048, 3072 o 4096 bits y expórtalas en PEM: pública (SPKI) y privada (PKCS#8), todo en tu navegador.",
+          "category": "Security"
+        },
+        "keywords": [
+          "generador de claves RSA",
+          "crear par de claves RSA",
+          "RSA 2048",
+          "RSA 4096",
+          "claves RSA-OAEP",
+          "clave pública y privada",
+          "generador PEM",
+          "claves RSA online",
+          "clave JWT RS256",
+          "RSA SHA-256"
+        ],
+        "faqs": [
+          {
+            "question": "¿Cómo se generan las claves RSA?",
+            "answer": "Con la API Web Crypto nativa del navegador (crypto.subtle.generateKey) usando RSA-OAEP con SHA-256. Las claves se generan localmente en tu dispositivo."
+          },
+          {
+            "question": "¿Qué tamaño de clave debo elegir?",
+            "answer": "2048 bits es suficiente para la mayoría de los usos. 3072 y 4096 bits ofrecen un mayor margen de seguridad a costa de una generación notablemente más lenta."
+          },
+          {
+            "question": "¿En qué formato se exportan las claves?",
+            "answer": "La clave pública se exporta como PEM SPKI (BEGIN PUBLIC KEY) y la privada como PEM PKCS#8 (BEGIN PRIVATE KEY), ambos formatos estándar."
+          },
+          {
+            "question": "¿Puedo usar estas claves para SSH?",
+            "answer": "Son claves RSA estándar para cifrado o firma. OpenSSH usa su propio formato de clave, así que primero tendrías que convertirlas."
+          },
+          {
+            "question": "¿La clave privada se almacena en algún sitio?",
+            "answer": "No. Las claves existen solo en tu navegador: cópialas o descárgalas antes de cerrar la página, porque después no se pueden recuperar."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Generador de contraseñas", "href": "/tools/password-generator" },
+          { "name": "Decodificador JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Generador de hashes", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "¿Qué es un generador de claves RSA?",
+            "paragraphs": [
+              "Un generador de claves RSA crea un par emparejado: una clave pública que puedes compartir libremente y una clave privada que mantienes en secreto. Esta herramienta usa el algoritmo RSA-OAEP con SHA-256.",
+              "La generación de claves ocurre por completo en tu navegador mediante la API Web Crypto: ningún material de clave se transmite ni se almacena en un servidor."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Cómo generar un par de claves RSA",
+              "paragraphs": [
+                "Elige el tamaño de clave (2048, 3072 o 4096 bits) y pulsa Generar. Las claves grandes tardan visiblemente más en generarse.",
+                "La clave pública aparece a la izquierda en formato SPKI PEM y la privada a la derecha en formato PKCS#8 PEM. Cópialas o descárgalas como archivos .pem."
+              ]
+            },
+            {
+              "title": "Elegir el tamaño de clave",
+              "paragraphs": [
+                "2048 bits es el nivel básico actual y basta para la mayoría de los usos. 3072 y 4096 bits ofrecen un mayor margen de seguridad a costa de una generación más lenta y claves más grandes."
+              ]
+            },
+            {
+              "title": "Proteger tu clave privada",
+              "paragraphs": [
+                "Quien obtenga tu clave privada podrá descifrar los datos dirigidos a ti o firmar en tu nombre. Guárdala sin conexión, nunca la subas a un repositorio y no la compartas. Como la generación ocurre en tu navegador, la clave nunca pasa por un servidor."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "keySize": "Tamaño de clave",
+          "algorithm": "Algoritmo",
+          "algorithmValue": "RSA-OAEP (SHA-256)",
+          "warning4096": "Generar claves de 4096 bits puede tardar un momento; espera, por favor.",
+          "metaSize": "Tamaño de clave",
+          "bits": "bits",
+          "metaAlgorithm": "Algoritmo",
+          "metaCreated": "Generada",
+          "publicKey": "Clave pública (SPKI PEM)",
+          "privateKey": "Clave privada (PKCS#8 PEM)",
+          "outputPlaceholder": "La clave generada aparecerá aquí",
+          "securityNote": "Guarda tu clave privada con cuidado: cualquiera que la obtenga podrá descifrar tus datos o suplantarte. Consérvala sin conexión y nunca la compartas.",
+          "privacy": "La generación de claves se ejecuta por completo en tu navegador. Las claves nunca se envían ni se almacenan en ningún servidor.",
+          "error": "No se pudieron generar las claves. Inténtalo de nuevo."
+        },
+        "buttons": {
+          "generate": "Generar",
+          "generating": "Generando…",
+          "download": "Descargar .pem"
+        }
+      },
+      "de": {
+        "metadata": {
+          "title": "RSA-Schlüssel-Generator",
+          "description": "Erzeugt RSA-OAEP-Schlüsselpaare (SHA-256) mit 2048, 3072 oder 4096 Bit und exportiert sie als PEM: öffentlich (SPKI) und privat (PKCS#8) – komplett im Browser.",
+          "category": "Security"
+        },
+        "keywords": [
+          "RSA Schlüssel Generator",
+          "RSA Schlüsselpaar erstellen",
+          "RSA 2048",
+          "RSA 4096",
+          "RSA-OAEP Schlüssel",
+          "öffentlicher und privater Schlüssel",
+          "PEM Generator",
+          "RSA Schlüssel online",
+          "JWT RS256 Schlüssel",
+          "RSA SHA-256"
+        ],
+        "faqs": [
+          {
+            "question": "Wie werden die RSA-Schlüssel erzeugt?",
+            "answer": "Mit der nativen Web Crypto API des Browsers (crypto.subtle.generateKey) und RSA-OAEP mit SHA-256. Die Schlüssel werden lokal auf Ihrem Gerät erzeugt."
+          },
+          {
+            "question": "Welche Schlüssellänge sollte ich wählen?",
+            "answer": "2048 Bit genügen für die meisten Zwecke. 3072 und 4096 Bit bieten mehr Sicherheitsreserve, dauern aber spürbar länger."
+          },
+          {
+            "question": "In welchem Format werden die Schlüssel exportiert?",
+            "answer": "Der öffentliche Schlüssel als SPKI-PEM (BEGIN PUBLIC KEY) und der private als PKCS#8-PEM (BEGIN PRIVATE KEY) – beides Standardformate."
+          },
+          {
+            "question": "Kann ich diese Schlüssel für SSH verwenden?",
+            "answer": "Es sind Standard-RSA-Schlüssel für Verschlüsselung oder Signatur. OpenSSH nutzt ein eigenes Schlüsselformat, daher müssten Sie sie vorher umwandeln."
+          },
+          {
+            "question": "Wird der private Schlüssel irgendwo gespeichert?",
+            "answer": "Nein. Die Schlüssel existieren nur in Ihrem Browser – kopieren oder laden Sie sie herunter, bevor Sie die Seite schließen, da sie danach nicht wiederherstellbar sind."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Passwort-Generator", "href": "/tools/password-generator" },
+          { "name": "JWT-Decoder", "href": "/tools/jwt-decoder" },
+          { "name": "Hash-Generator", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Was ist ein RSA-Schlüssel-Generator?",
+            "paragraphs": [
+              "Ein RSA-Schlüssel-Generator erzeugt ein zueinander passendes Paar: einen öffentlich teilbaren öffentlichen Schlüssel und einen geheim zu haltenden privaten Schlüssel. Dieses Tool verwendet RSA-OAEP mit SHA-256.",
+              "Die Schlüsselerzeugung läuft vollständig im Browser über die Web Crypto API – kein Schlüsselmaterial wird jemals übertragen oder auf einem Server gespeichert."
+            ]
+          },
+          "sections": [
+            {
+              "title": "So erzeugen Sie ein RSA-Schlüsselpaar",
+              "paragraphs": [
+                "Wählen Sie die Schlüssellänge (2048, 3072 oder 4096 Bit) und klicken Sie auf Generieren. Größere Schlüssel brauchen deutlich länger.",
+                "Der öffentliche Schlüssel erscheint links im SPKI-PEM-Format, der private rechts im PKCS#8-PEM-Format. Kopieren Sie beide oder laden Sie sie als .pem-Dateien herunter."
+              ]
+            },
+            {
+              "title": "Wahl der Schlüssellänge",
+              "paragraphs": [
+                "2048 Bit sind der aktuelle Standard und für die meisten Anwendungen ausreichend. 3072 und 4096 Bit bieten mehr Sicherheitsreserve, erzeugen aber langsamer und ergeben größere Schlüssel."
+              ]
+            },
+            {
+              "title": "Privaten Schlüssel schützen",
+              "paragraphs": [
+                "Wer den privaten Schlüssel besitzt, kann Ihre Daten entschlüsseln oder in Ihrem Namen signieren. Speichern Sie ihn offline, committen Sie ihn nie in ein Repository und teilen Sie ihn niemandem mit. Da die Erzeugung im Browser passiert, berührt der Schlüssel nie einen Server."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "keySize": "Schlüssellänge",
+          "algorithm": "Algorithmus",
+          "algorithmValue": "RSA-OAEP (SHA-256)",
+          "warning4096": "Die Erzeugung von 4096-Bit-Schlüsseln kann eine Weile dauern – bitte warten.",
+          "metaSize": "Schlüssellänge",
+          "bits": "Bit",
+          "metaAlgorithm": "Algorithmus",
+          "metaCreated": "Erzeugt am",
+          "publicKey": "Öffentlicher Schlüssel (SPKI PEM)",
+          "privateKey": "Privater Schlüssel (PKCS#8 PEM)",
+          "outputPlaceholder": "Der erzeugte Schlüssel erscheint hier",
+          "securityNote": "Bewahren Sie Ihren privaten Schlüssel sicher auf: Wer ihn besitzt, kann Ihre Daten entschlüsseln oder sich als Sie ausgeben. Speichern Sie ihn offline und teilen Sie ihn niemals.",
+          "privacy": "Die Schlüsselerzeugung läuft vollständig in Ihrem Browser. Schlüssel werden nie an einen Server gesendet oder dort gespeichert.",
+          "error": "Die Schlüsselerzeugung ist fehlgeschlagen. Bitte versuchen Sie es erneut."
+        },
+        "buttons": {
+          "generate": "Generieren",
+          "generating": "Wird generiert…",
+          "download": ".pem herunterladen"
+        }
+      },
+      "fr": {
+        "metadata": {
+          "title": "Générateur de clés RSA",
+          "description": "Générez des paires de clés RSA-OAEP (SHA-256) de 2048, 3072 ou 4096 bits et exportez-les en PEM : publique (SPKI) et privée (PKCS#8), entièrement dans votre navigateur.",
+          "category": "Security"
+        },
+        "keywords": [
+          "générateur de clés RSA",
+          "créer une paire de clés RSA",
+          "RSA 2048",
+          "RSA 4096",
+          "clés RSA-OAEP",
+          "clé publique et privée",
+          "générateur PEM",
+          "clés RSA en ligne",
+          "clé JWT RS256",
+          "RSA SHA-256"
+        ],
+        "faqs": [
+          {
+            "question": "Comment les clés RSA sont-elles générées ?",
+            "answer": "Avec l'API Web Crypto native du navigateur (crypto.subtle.generateKey) en RSA-OAEP avec SHA-256. Les clés sont générées localement sur votre appareil."
+          },
+          {
+            "question": "Quelle taille de clé choisir ?",
+            "answer": "2048 bits convient à la plupart des usages. 3072 et 4096 bits offrent une marge de sécurité supérieure, au prix d'une génération nettement plus lente."
+          },
+          {
+            "question": "Dans quel format les clés sont-elles exportées ?",
+            "answer": "La clé publique en PEM SPKI (BEGIN PUBLIC KEY) et la clé privée en PEM PKCS#8 (BEGIN PRIVATE KEY) — deux formats standards."
+          },
+          {
+            "question": "Puis-je utiliser ces clés pour SSH ?",
+            "answer": "Ce sont des clés RSA standards destinées au chiffrement ou à la signature. OpenSSH utilise son propre format de clé ; une conversion serait nécessaire."
+          },
+          {
+            "question": "La clé privée est-elle stockée quelque part ?",
+            "answer": "Non. Les clés n'existent que dans votre navigateur — copiez ou téléchargez-les avant de fermer la page, car elles ne pourront pas être récupérées ensuite."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Générateur de mot de passe", "href": "/tools/password-generator" },
+          { "name": "Décodeur JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Générateur de hachage", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Qu'est-ce qu'un générateur de clés RSA ?",
+            "paragraphs": [
+              "Un générateur de clés RSA crée une paire assortie : une clé publique que vous pouvez partager librement et une clé privée que vous gardez secrète. Cet outil utilise l'algorithme RSA-OAEP avec SHA-256.",
+              "La génération s'effectue entièrement dans votre navigateur via l'API Web Crypto — aucun matériel de clé n'est transmis ni stocké sur un serveur."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Comment générer une paire de clés RSA",
+              "paragraphs": [
+                "Choisissez la taille de clé (2048, 3072 ou 4096 bits) puis cliquez sur Générer. Plus la clé est grande, plus la génération est longue.",
+                "La clé publique apparaît à gauche au format SPKI PEM et la clé privée à droite au format PKCS#8 PEM. Copiez-les ou téléchargez-les en fichiers .pem."
+              ]
+            },
+            {
+              "title": "Choisir la taille de clé",
+              "paragraphs": [
+                "2048 bits constitue le standard actuel et suffit pour la plupart des usages. 3072 et 4096 bits offrent une marge de sécurité supérieure, au prix d'une génération plus lente et de clés plus volumineuses."
+              ]
+            },
+            {
+              "title": "Protéger votre clé privée",
+              "paragraphs": [
+                "Quiconque obtient votre clé privée peut déchiffrer les données qui vous sont destinées ou signer en votre nom. Conservez-la hors ligne, ne la committez jamais dans un dépôt et ne la partagez pas. La génération ayant lieu dans votre navigateur, la clé ne transite jamais par un serveur."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "keySize": "Taille de clé",
+          "algorithm": "Algorithme",
+          "algorithmValue": "RSA-OAEP (SHA-256)",
+          "warning4096": "La génération de clés de 4096 bits peut prendre un certain temps — veuillez patienter.",
+          "metaSize": "Taille de clé",
+          "bits": "bits",
+          "metaAlgorithm": "Algorithme",
+          "metaCreated": "Générée le",
+          "publicKey": "Clé publique (SPKI PEM)",
+          "privateKey": "Clé privée (PKCS#8 PEM)",
+          "outputPlaceholder": "La clé générée apparaîtra ici",
+          "securityNote": "Protégez votre clé privée : quiconque la possède peut déchiffrer vos données ou se faire passer pour vous. Conservez-la hors ligne et ne la partagez jamais.",
+          "privacy": "La génération de clés s'exécute entièrement dans votre navigateur. Les clés ne sont jamais envoyées ni stockées sur un serveur.",
+          "error": "Échec de la génération des clés. Veuillez réessayer."
+        },
+        "buttons": {
+          "generate": "Générer",
+          "generating": "Génération…",
+          "download": "Télécharger .pem"
+        }
+      },
+      "pt": {
+        "metadata": {
+          "title": "Gerador de chaves RSA",
+          "description": "Gere pares de chaves RSA-OAEP (SHA-256) de 2048, 3072 ou 4096 bits e exporte em PEM: pública (SPKI) e privada (PKCS#8), tudo no seu navegador.",
+          "category": "Security"
+        },
+        "keywords": [
+          "gerador de chaves RSA",
+          "criar par de chaves RSA",
+          "RSA 2048",
+          "RSA 4096",
+          "chaves RSA-OAEP",
+          "chave pública e privada",
+          "gerador PEM",
+          "chaves RSA online",
+          "chave JWT RS256",
+          "RSA SHA-256"
+        ],
+        "faqs": [
+          {
+            "question": "Como as chaves RSA são geradas?",
+            "answer": "Com a API Web Crypto nativa do navegador (crypto.subtle.generateKey) usando RSA-OAEP com SHA-256. As chaves são geradas localmente no seu dispositivo."
+          },
+          {
+            "question": "Qual tamanho de chave devo escolher?",
+            "answer": "2048 bits é suficiente para a maioria dos usos. 3072 e 4096 bits oferecem uma margem de segurança maior, ao custo de uma geração visivelmente mais lenta."
+          },
+          {
+            "question": "Em que formato as chaves são exportadas?",
+            "answer": "A chave pública é exportada como PEM SPKI (BEGIN PUBLIC KEY) e a privada como PEM PKCS#8 (BEGIN PRIVATE KEY) — ambos formatos padrão."
+          },
+          {
+            "question": "Posso usar essas chaves para SSH?",
+            "answer": "São chaves RSA padrão para criptografia ou assinatura. O OpenSSH usa seu próprio formato de chave, então seria necessário convertê-las antes."
+          },
+          {
+            "question": "A chave privada é armazenada em algum lugar?",
+            "answer": "Não. As chaves existem apenas no seu navegador — copie ou baixe-as antes de fechar a página, pois não será possível recuperá-las depois."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Gerador de senhas", "href": "/tools/password-generator" },
+          { "name": "Decodificador JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Gerador de hash", "href": "/tools/hash-generator" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "O que é um gerador de chaves RSA?",
+            "paragraphs": [
+              "Um gerador de chaves RSA cria um par correspondente: uma chave pública que você pode compartilhar livremente e uma chave privada que você mantém em segredo. Esta ferramenta usa o algoritmo RSA-OAEP com SHA-256.",
+              "A geração de chaves acontece inteiramente no seu navegador por meio da API Web Crypto — nenhum material de chave é transmitido ou armazenado em um servidor."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Como gerar um par de chaves RSA",
+              "paragraphs": [
+                "Escolha o tamanho da chave (2048, 3072 ou 4096 bits) e clique em Gerar. Chaves maiores levam visivelmente mais tempo para serem geradas.",
+                "A chave pública aparece à esquerda no formato SPKI PEM e a privada à direita no formato PKCS#8 PEM. Copie-as ou baixe-as como arquivos .pem."
+              ]
+            },
+            {
+              "title": "Escolhendo o tamanho da chave",
+              "paragraphs": [
+                "2048 bits é o padrão atual e é suficiente para a maioria dos usos. 3072 e 4096 bits oferecem uma margem de segurança maior, ao custo de geração mais lenta e chaves maiores."
+              ]
+            },
+            {
+              "title": "Protegendo sua chave privada",
+              "paragraphs": [
+                "Qualquer pessoa que obtiver a chave privada pode descriptografar dados destinados a você ou assinar em seu nome. Guarde-a offline, nunca a envie a um repositório e não a compartilhe. Como a geração acontece no seu navegador, a chave nunca passa por um servidor."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "keySize": "Tamanho da chave",
+          "algorithm": "Algoritmo",
+          "algorithmValue": "RSA-OAEP (SHA-256)",
+          "warning4096": "Gerar chaves de 4096 bits pode demorar um pouco; aguarde, por favor.",
+          "metaSize": "Tamanho da chave",
+          "bits": "bits",
+          "metaAlgorithm": "Algoritmo",
+          "metaCreated": "Gerada em",
+          "publicKey": "Chave pública (SPKI PEM)",
+          "privateKey": "Chave privada (PKCS#8 PEM)",
+          "outputPlaceholder": "A chave gerada aparecerá aqui",
+          "securityNote": "Guarde sua chave privada com cuidado: qualquer pessoa que a obtiver poderá descriptografar seus dados ou se passar por você. Mantenha-a offline e nunca a compartilhe.",
+          "privacy": "A geração de chaves acontece inteiramente no seu navegador. As chaves nunca são enviadas ou armazenadas em servidores.",
+          "error": "Falha ao gerar as chaves. Tente novamente."
+        },
+        "buttons": {
+          "generate": "Gerar",
+          "generating": "Gerando…",
+          "download": "Baixar .pem"
+        }
+      }
+    },
+    "pem-jwk-converter": {
+      "en": {
+        "metadata": {
+          "title": "PEM JWK Converter",
+          "description": "Convert PEM keys to JWK and JWK back to PEM. Supports RSA and EC keys (SPKI, PKCS#8, PKCS#1, SEC1). Runs entirely in your browser.",
+          "category": "Security"
+        },
+        "keywords": [
+          "pem to jwk",
+          "jwk to pem",
+          "pem jwk converter",
+          "rsa public key to jwk",
+          "ec key to jwk",
+          "convert jwk private key",
+          "spki to jwk",
+          "pkcs8 to jwk",
+          "online pem jwk tool",
+          "jwt key format converter"
+        ],
+        "faqs": [
+          {
+            "question": "What is JWK?",
+            "answer": "JWK (JSON Web Key, RFC 7517) is a standard JSON structure that represents cryptographic keys. It is the native key format of the JOSE, JWT and OAuth ecosystems."
+          },
+          {
+            "question": "Which PEM types are supported?",
+            "answer": "PUBLIC KEY (SPKI), RSA PUBLIC KEY (PKCS#1), PRIVATE KEY (PKCS#8) and EC PRIVATE KEY (SEC1). The older PKCS#1 and SEC1 containers are re-wrapped automatically."
+          },
+          {
+            "question": "Which key types are supported?",
+            "answer": "RSA and elliptic-curve keys on P-256, P-384 and P-521. Other types, such as Ed25519, are not supported by this conversion path."
+          },
+          {
+            "question": "Where does the conversion happen?",
+            "answer": "Entirely in your browser via the Web Crypto API. Keys never leave your device and are never uploaded anywhere."
+          },
+          {
+            "question": "Why does the conversion fail?",
+            "answer": "The most common causes are an unsupported curve or key type, or a JWK missing required members such as kty, n/e or the curve parameter."
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT Decoder", "href": "/tools/jwt-decoder" },
+          { "name": "Hash Generator", "href": "/tools/hash-generator" },
+          { "name": "Base64 Encoder", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "What is a PEM JWK converter?",
+            "paragraphs": [
+              "PEM is the classic Base64 key format with BEGIN/END headers used by OpenSSL and most certificate tooling, while JWK (JSON Web Key, RFC 7517) is the JSON representation used by JOSE, JWT and OAuth stacks. A converter lets the same key work in both worlds.",
+              "This tool imports SPKI and PKCS#8 keys — and re-wraps the legacy PKCS#1 and SEC1 formats automatically — then exports the matching JWK, or converts a JWK back into a standard PEM. Everything runs locally in your browser."
+            ]
+          },
+          "sections": [
+            {
+              "title": "How to convert PEM to JWK",
+              "paragraphs": [
+                "Paste your PEM key on the PEM → JWK tab and click Convert. The JWK is printed as pretty JSON on the right, ready to copy.",
+                "Public keys export as public JWK members (n/e for RSA, x/y for EC); private keys additionally include d and the other private members."
+              ]
+            },
+            {
+              "title": "How to convert JWK to PEM",
+              "paragraphs": [
+                "Switch to the JWK → PEM tab and paste the JWK JSON. The tool reads kty to detect RSA or EC and checks for the d member to tell private keys apart.",
+                "The result is a standard PEM: PUBLIC KEY (SPKI) for public keys and PRIVATE KEY (PKCS#8) for private keys."
+              ]
+            },
+            {
+              "title": "Key information panel",
+              "paragraphs": [
+                "After every conversion the panel shows the key type, algorithm, size in bits, and whether the key is public or private — useful for a quick sanity check."
+              ]
+            },
+            {
+              "title": "Supported formats",
+              "paragraphs": [
+                "PEM labels PUBLIC KEY, RSA PUBLIC KEY, PRIVATE KEY and EC PRIVATE KEY are accepted; RSA and EC keys on P-256, P-384 and P-521 are supported. Ed25519 and other types are not."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "tabPemToJwk": "PEM → JWK",
+          "tabJwkToPem": "JWK → PEM",
+          "pemInput": "PEM key",
+          "pemInputPlaceholder": "Paste a PEM key, e.g. -----BEGIN PUBLIC KEY----- …",
+          "jwkOutput": "JWK output",
+          "jwkInput": "JWK key (JSON)",
+          "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+          "pemOutput": "PEM output",
+          "outputPlaceholder": "Result appears here",
+          "keyInfo": "Key information",
+          "infoKty": "Key type",
+          "infoAlg": "Algorithm",
+          "infoSize": "Size",
+          "bits": "bits",
+          "infoUsage": "Usage",
+          "public": "Public key",
+          "private": "Private key",
+          "privacy": "All conversions run locally in your browser. Keys never leave your device.",
+          "emptyPem": "Please paste a PEM key.",
+          "invalidPem": "Could not parse the PEM key. Check the BEGIN/END headers and the Base64 body.",
+          "errorPem": "Unsupported key. Only RSA and EC (P-256/P-384/P-521) keys can be converted.",
+          "emptyJwk": "Please paste a JWK.",
+          "invalidJson": "The input is not valid JSON.",
+          "unsupportedKty": "Unsupported key type (kty). Only RSA and EC are supported.",
+          "unsupportedCurve": "Unsupported curve. Only P-256, P-384 and P-521 are supported.",
+          "errorJwk": "Could not import the JWK. Check that all required members are present and correct."
+        },
+        "buttons": {
+          "convert": "Convert"
+        }
+      },
+      "zh": {
+        "metadata": {
+          "title": "PEM JWK 转换器",
+          "description": "在 PEM 与 JWK 之间互相转换密钥格式，支持 RSA 与椭圆曲线密钥（SPKI、PKCS#8、PKCS#1、SEC1），全部在浏览器本地完成。",
+          "category": "Security"
+        },
+        "keywords": [
+          "PEM 转 JWK",
+          "JWK 转 PEM",
+          "PEM JWK 转换器",
+          "RSA 公钥 转 JWK",
+          "椭圆曲线 转 JWK",
+          "JWK 私钥转换",
+          "SPKI 转 JWK",
+          "PKCS8 转 JWK",
+          "在线密钥格式转换",
+          "JWT 密钥格式"
+        ],
+        "faqs": [
+          {
+            "question": "什么是 JWK？",
+            "answer": "JWK（JSON Web Key，RFC 7517）是用 JSON 表示密码学密钥的标准结构，是 JOSE、JWT 和 OAuth 生态的原生密钥格式。"
+          },
+          {
+            "question": "支持哪些 PEM 类型？",
+            "answer": "支持 PUBLIC KEY（SPKI）、RSA PUBLIC KEY（PKCS#1）、PRIVATE KEY（PKCS#8）和 EC PRIVATE KEY（SEC1）。较旧的 PKCS#1 和 SEC1 容器会自动重新封装。"
+          },
+          {
+            "question": "支持哪些密钥类型？",
+            "answer": "RSA 以及 P-256、P-384、P-521 曲线上的椭圆曲线密钥。Ed25519 等其他类型暂不支持。"
+          },
+          {
+            "question": "转换在哪里进行？",
+            "answer": "完全在您的浏览器中通过 Web Crypto API 完成。密钥不会离开您的设备，也不会被上传到任何地方。"
+          },
+          {
+            "question": "转换失败是什么原因？",
+            "answer": "最常见的原因是不支持的曲线或密钥类型，或者 JWK 缺少必要字段（如 kty、n/e 或曲线参数）。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT 解码器", "href": "/tools/jwt-decoder" },
+          { "name": "哈希生成器", "href": "/tools/hash-generator" },
+          { "name": "Base64 编码/解码器", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "什么是 PEM JWK 转换器？",
+            "paragraphs": [
+              "PEM 是带 BEGIN/END 头的 Base64 文本密钥格式，被 OpenSSL 和大多数证书工具使用；JWK（JSON Web Key，RFC 7517）则是 JOSE、JWT 和 OAuth 体系中使用的 JSON 表示。转换器让同一把密钥在两种体系之间通用。",
+              "本工具支持导入 SPKI 与 PKCS#8 密钥，并自动将旧的 PKCS#1、SEC1 格式重新封装，导出对应的 JWK，也可以把 JWK 转回标准 PEM。全部处理都在浏览器本地完成。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "如何将 PEM 转为 JWK",
+              "paragraphs": [
+                "在 PEM → JWK 标签页粘贴 PEM 密钥并点击转换，右侧会以美化后的 JSON 输出 JWK，可一键复制。",
+                "公钥导出为公钥成员（RSA 的 n/e，EC 的 x/y）；私钥还会包含 d 等私有成员。"
+              ]
+            },
+            {
+              "title": "如何将 JWK 转为 PEM",
+              "paragraphs": [
+                "切换到 JWK → PEM 标签页并粘贴 JWK JSON。工具通过 kty 识别 RSA 或 EC，并通过是否存在 d 判断是否为私钥。",
+                "输出为标准 PEM：公钥为 PUBLIC KEY（SPKI），私钥为 PRIVATE KEY（PKCS#8）。"
+              ]
+            },
+            {
+              "title": "密钥信息面板",
+              "paragraphs": [
+                "每次转换后都会显示密钥类型、算法、位数以及是公钥还是私钥，方便快速核对。"
+              ]
+            },
+            {
+              "title": "支持的格式",
+              "paragraphs": [
+                "支持 PUBLIC KEY、RSA PUBLIC KEY、PRIVATE KEY、EC PRIVATE KEY 四种 PEM 标记，以及 P-256、P-384、P-521 曲线上的 RSA 和 EC 密钥。Ed25519 等其他类型暂不支持。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "tabPemToJwk": "PEM → JWK",
+          "tabJwkToPem": "JWK → PEM",
+          "pemInput": "PEM 密钥",
+          "pemInputPlaceholder": "粘贴 PEM 密钥，如 -----BEGIN PUBLIC KEY----- …",
+          "jwkOutput": "JWK 输出",
+          "jwkInput": "JWK 密钥（JSON）",
+          "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+          "pemOutput": "PEM 输出",
+          "outputPlaceholder": "转换结果将显示在这里",
+          "keyInfo": "密钥信息",
+          "infoKty": "密钥类型",
+          "infoAlg": "算法",
+          "infoSize": "长度",
+          "bits": "位",
+          "infoUsage": "用途",
+          "public": "公钥",
+          "private": "私钥",
+          "privacy": "所有转换均在浏览器本地完成，密钥不会离开您的设备。",
+          "emptyPem": "请粘贴 PEM 密钥。",
+          "invalidPem": "无法解析 PEM 密钥，请检查 BEGIN/END 标记和 Base64 内容。",
+          "errorPem": "不支持的密钥：仅支持 RSA 和 EC（P-256/P-384/P-521）密钥。",
+          "emptyJwk": "请粘贴 JWK。",
+          "invalidJson": "输入不是有效的 JSON。",
+          "unsupportedKty": "不支持的密钥类型（kty），仅支持 RSA 和 EC。",
+          "unsupportedCurve": "不支持的曲线，仅支持 P-256、P-384 和 P-521。",
+          "errorJwk": "无法导入 JWK，请检查必需字段是否齐全、取值是否正确。"
+        },
+        "buttons": {
+          "convert": "转换"
+        }
+      },
+      "ja": {
+        "metadata": {
+          "title": "PEM・JWK 変換ツール",
+          "description": "PEM と JWK を相互変換します。RSA と EC 鍵（SPKI、PKCS#8、PKCS#1、SEC1）に対応し、処理はすべてブラウザ内で完結します。",
+          "category": "Security"
+        },
+        "keywords": [
+          "PEM JWK 変換",
+          "JWK から PEM",
+          "PEM から JWK",
+          "RSA 公開鍵 JWK",
+          "EC 鍵 JWK",
+          "JWK 秘密鍵 変換",
+          "SPKI JWK 変換",
+          "PKCS8 JWK",
+          "鍵形式 変換 オンライン",
+          "JWT 用 JWK"
+        ],
+        "faqs": [
+          {
+            "question": "JWK とは何ですか？",
+            "answer": "JWK（JSON Web Key、RFC 7517）は暗号鍵を JSON で表す標準構造で、JOSE・JWT・OAuth エコシステムのネイティブな鍵形式です。"
+          },
+          {
+            "question": "どの PEM タイプに対応していますか？",
+            "answer": "PUBLIC KEY（SPKI）、RSA PUBLIC KEY（PKCS#1）、PRIVATE KEY（PKCS#8）、EC PRIVATE KEY（SEC1）に対応しています。古い PKCS#1 と SEC1 コンテナは自動的に再ラップされます。"
+          },
+          {
+            "question": "どの鍵の種類に対応していますか？",
+            "answer": "RSA と、P-256 / P-384 / P-521 曲線の楕円曲線鍵に対応しています。Ed25519 などの他の種類には対応していません。"
+          },
+          {
+            "question": "変換はどこで行われますか？",
+            "answer": "Web Crypto API によって完全にブラウザ内で行われます。鍵がデバイスの外に出ることはなく、どこにもアップロードされません。"
+          },
+          {
+            "question": "変換が失敗する原因は？",
+            "answer": "最も多いのは、未対応の曲線や鍵の種類、または JWK に kty、n/e、曲線パラメータなどの必須メンバーが欠けているケースです。"
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT デコーダー", "href": "/tools/jwt-decoder" },
+          { "name": "ハッシュ生成ツール", "href": "/tools/hash-generator" },
+          { "name": "Base64 エンコーダー", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "PEM・JWK 変換ツールとは？",
+            "paragraphs": [
+              "PEM は BEGIN/END ヘッダー付きの Base64 形式で、OpenSSL や多くの証明書ツールで使われています。一方 JWK（JSON Web Key、RFC 7517）は JOSE・JWT・OAuth で使われる JSON 表現です。変換ツールがあれば、同じ鍵を両方の世界で使えます。",
+              "本ツールは SPKI と PKCS#8 を取り込み、古い PKCS#1・SEC1 形式は自動的に再ラップして、対応する JWK を出力します。逆に JWK から標準 PEM への変換も可能です。処理はすべてブラウザ内で完結します。"
+            ]
+          },
+          "sections": [
+            {
+              "title": "PEM から JWK への変換",
+              "paragraphs": [
+                "PEM → JWK タブに PEM 鍵を貼り付けて変換をクリックすると、右側に整形された JSON 形式の JWK が表示されます。",
+                "公開鍵は公開メンバー（RSA なら n/e、EC なら x/y）として出力され、秘密鍵はさらに d などの非公開メンバーを含みます。"
+              ]
+            },
+            {
+              "title": "JWK から PEM への変換",
+              "paragraphs": [
+                "JWK → PEM タブに JWK の JSON を貼り付けます。ツールは kty から RSA か EC を判定し、d メンバーの有無で公開鍵・秘密鍵を区別します。",
+                "出力は標準的な PEM です：公開鍵は PUBLIC KEY（SPKI）、秘密鍵は PRIVATE KEY（PKCS#8）。"
+              ]
+            },
+            {
+              "title": "鍵情報パネル",
+              "paragraphs": [
+                "変換のたびに、鍵の種類・アルゴリズム・ビット長・公開鍵か秘密鍵かが表示され、簡単な確認に役立ちます。"
+              ]
+            },
+            {
+              "title": "対応フォーマット",
+              "paragraphs": [
+                "PUBLIC KEY、RSA PUBLIC KEY、PRIVATE KEY、EC PRIVATE KEY の各 PEM ラベルと、P-256 / P-384 / P-521 曲線の RSA・EC 鍵に対応しています。Ed25519 などには未対応です。"
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "tabPemToJwk": "PEM → JWK",
+          "tabJwkToPem": "JWK → PEM",
+          "pemInput": "PEM 鍵",
+          "pemInputPlaceholder": "PEM 鍵を貼り付け（例：-----BEGIN PUBLIC KEY----- …）",
+          "jwkOutput": "JWK 出力",
+          "jwkInput": "JWK 鍵（JSON）",
+          "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+          "pemOutput": "PEM 出力",
+          "outputPlaceholder": "結果がここに表示されます",
+          "keyInfo": "鍵情報",
+          "infoKty": "鍵の種類",
+          "infoAlg": "アルゴリズム",
+          "infoSize": "長さ",
+          "bits": "ビット",
+          "infoUsage": "用途",
+          "public": "公開鍵",
+          "private": "秘密鍵",
+          "privacy": "すべての変換はブラウザ内で行われ、鍵がデバイスの外に送信されることはありません。",
+          "emptyPem": "PEM 鍵を貼り付けてください。",
+          "invalidPem": "PEM 鍵を解析できませんでした。BEGIN/END ヘッダーと Base64 本体を確認してください。",
+          "errorPem": "対応していない鍵です。RSA および EC（P-256/P-384/P-521）のみ変換できます。",
+          "emptyJwk": "JWK を貼り付けてください。",
+          "invalidJson": "入力が有効な JSON ではありません。",
+          "unsupportedKty": "対応していない鍵の種類（kty）です。RSA と EC のみサポートしています。",
+          "unsupportedCurve": "対応していない曲線です。P-256、P-384、P-521 のみサポートしています。",
+          "errorJwk": "JWK をインポートできませんでした。必須メンバーが揃っているか確認してください。"
+        },
+        "buttons": {
+          "convert": "変換"
+        }
+      },
+      "ko": {
+        "metadata": {
+          "title": "PEM JWK 변환기",
+          "description": "PEM과 JWK 키 형식을 상호 변환합니다. RSA 및 EC 키(SPKI, PKCS#8, PKCS#1, SEC1)를 지원하며 모든 변환은 브라우저에서 처리됩니다.",
+          "category": "Security"
+        },
+        "keywords": [
+          "PEM JWK 변환",
+          "JWK PEM 변환기",
+          "RSA 공개 키 JWK",
+          "EC 키 JWK",
+          "JWK 개인 키 변환",
+          "SPKI JWK",
+          "PKCS8 JWK",
+          "키 형식 변환 온라인",
+          "JWT JWK",
+          "공개 키 변환"
+        ],
+        "faqs": [
+          {
+            "question": "JWK란 무엇인가요?",
+            "answer": "JWK(JSON Web Key, RFC 7517)는 암호화 키를 JSON으로 나타내는 표준 구조로, JOSE·JWT·OAuth 생태계의 기본 키 형식입니다."
+          },
+          {
+            "question": "어떤 PEM 유형이 지원되나요?",
+            "answer": "PUBLIC KEY(SPKI), RSA PUBLIC KEY(PKCS#1), PRIVATE KEY(PKCS#8), EC PRIVATE KEY(SEC1)를 지원합니다. 구형인 PKCS#1과 SEC1 컨테이너는 자동으로 다시 감싸집니다."
+          },
+          {
+            "question": "어떤 키 유형이 지원되나요?",
+            "answer": "RSA와 P-256, P-384, P-521 곡선의 타원곡선 키를 지원합니다. Ed25519 등 다른 유형은 이 변환 경로에서 지원되지 않습니다."
+          },
+          {
+            "question": "변환은 어디에서 이루어지나요?",
+            "answer": "Web Crypto API를 통해 전적으로 브라우저에서 처리됩니다. 키는 기기를 벗어나지 않으며 어디에도 업로드되지 않습니다."
+          },
+          {
+            "question": "변환이 실패하는 이유는?",
+            "answer": "가장 흔한 원인은 지원되지 않는 곡선이나 키 유형, 또는 JWK에 kty, n/e, 곡선 매개변수 같은 필수 멤버가 없는 경우입니다."
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT 디코더", "href": "/tools/jwt-decoder" },
+          { "name": "해시 생성기", "href": "/tools/hash-generator" },
+          { "name": "Base64 인코더", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "PEM JWK 변환기란?",
+            "paragraphs": [
+              "PEM은 BEGIN/END 헤더가 붙은 Base64 키 형식으로 OpenSSL과 대부분의 인증서 도구에서 사용됩니다. JWK(JSON Web Key, RFC 7517)는 JOSE, JWT, OAuth 생태계에서 사용되는 JSON 표현입니다. 변환기를 사용하면 같은 키를 두 형식에서 모두 사용할 수 있습니다.",
+              "이 도구는 SPKI와 PKCS#8 키를 가져오고, 구형 PKCS#1·SEC1 형식은 자동으로 다시 감싸서 대응하는 JWK를 내보냅니다. 반대로 JWK를 표준 PEM으로 되돌릴 수도 있습니다. 모든 처리는 브라우저에서 이루어집니다."
+            ]
+          },
+          "sections": [
+            {
+              "title": "PEM을 JWK로 변환",
+              "paragraphs": [
+                "PEM → JWK 탭에 PEM 키를 붙여넣고 변환을 클릭하세요. 오른쪽에 보기 좋게 정렬된 JSON 형태의 JWK가 출력됩니다.",
+                "공개 키는 공개 멤버(RSA는 n/e, EC는 x/y)로 내보내지며, 개인 키는 여기에 d 등의 비공개 멤버가 추가됩니다."
+              ]
+            },
+            {
+              "title": "JWK를 PEM으로 변환",
+              "paragraphs": [
+                "JWK → PEM 탭에서 JWK JSON을 붙여넣으세요. 도구는 kty로 RSA 또는 EC를 판별하고, d 멤버 유무로 개인 키를 구분합니다.",
+                "결과는 표준 PEM입니다. 공개 키는 PUBLIC KEY(SPKI), 개인 키는 PRIVATE KEY(PKCS#8) 형태입니다."
+              ]
+            },
+            {
+              "title": "키 정보 패널",
+              "paragraphs": [
+                "변환할 때마다 키 유형, 알고리즘, 비트 길이, 공개/개인 여부가 표시되어 빠르게 확인할 수 있습니다."
+              ]
+            },
+            {
+              "title": "지원 형식",
+              "paragraphs": [
+                "PUBLIC KEY, RSA PUBLIC KEY, PRIVATE KEY, EC PRIVATE KEY PEM 라벨과 P-256, P-384, P-521 곡선의 RSA·EC 키를 지원합니다. Ed25519 등은 지원하지 않습니다."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "tabPemToJwk": "PEM → JWK",
+          "tabJwkToPem": "JWK → PEM",
+          "pemInput": "PEM 키",
+          "pemInputPlaceholder": "PEM 키를 붙여넣으세요 (예: -----BEGIN PUBLIC KEY----- …)",
+          "jwkOutput": "JWK 출력",
+          "jwkInput": "JWK 키 (JSON)",
+          "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+          "pemOutput": "PEM 출력",
+          "outputPlaceholder": "결과가 여기에 표시됩니다",
+          "keyInfo": "키 정보",
+          "infoKty": "키 유형",
+          "infoAlg": "알고리즘",
+          "infoSize": "길이",
+          "bits": "비트",
+          "infoUsage": "용도",
+          "public": "공개 키",
+          "private": "개인 키",
+          "privacy": "모든 변환은 브라우저에서 로컬로 처리되며, 키는 기기를 벗어나지 않습니다.",
+          "emptyPem": "PEM 키를 붙여넣으세요.",
+          "invalidPem": "PEM 키를 해석할 수 없습니다. BEGIN/END 헤더와 Base64 본문을 확인하세요.",
+          "errorPem": "지원되지 않는 키입니다. RSA와 EC(P-256/P-384/P-521) 키만 변환할 수 있습니다.",
+          "emptyJwk": "JWK를 붙여넣으세요.",
+          "invalidJson": "입력이 유효한 JSON이 아닙니다.",
+          "unsupportedKty": "지원되지 않는 키 유형(kty)입니다. RSA와 EC만 지원됩니다.",
+          "unsupportedCurve": "지원되지 않는 곡선입니다. P-256, P-384, P-521만 지원됩니다.",
+          "errorJwk": "JWK를 가져오지 못했습니다. 필수 필드가 모두 있는지 확인하세요."
+        },
+        "buttons": {
+          "convert": "변환"
+        }
+      },
+      "ru": {
+        "metadata": {
+          "title": "Конвертер PEM и JWK",
+          "description": "Преобразуйте ключи между форматами PEM и JWK. Поддерживаются RSA и EC (SPKI, PKCS#8, PKCS#1, SEC1). Всё выполняется в вашем браузере.",
+          "category": "Security"
+        },
+        "keywords": [
+          "PEM в JWK",
+          "JWK в PEM",
+          "конвертер PEM JWK",
+          "RSA открытый ключ в JWK",
+          "EC ключ в JWK",
+          "JWK закрытый ключ",
+          "SPKI в JWK",
+          "PKCS8 в JWK",
+          "конвертация ключей онлайн",
+          "JWK для JWT"
+        ],
+        "faqs": [
+          {
+            "question": "Что такое JWK?",
+            "answer": "JWK (JSON Web Key, RFC 7517) — стандартная структура JSON для представления криптографических ключей. Это нативный формат ключей в экосистемах JOSE, JWT и OAuth."
+          },
+          {
+            "question": "Какие типы PEM поддерживаются?",
+            "answer": "PUBLIC KEY (SPKI), RSA PUBLIC KEY (PKCS#1), PRIVATE KEY (PKCS#8) и EC PRIVATE KEY (SEC1). Устаревшие контейнеры PKCS#1 и SEC1 переупаковываются автоматически."
+          },
+          {
+            "question": "Какие типы ключей поддерживаются?",
+            "answer": "RSA и ключи эллиптических кривых P-256, P-384 и P-521. Другие типы, например Ed25519, этим способом не поддерживаются."
+          },
+          {
+            "question": "Где выполняется преобразование?",
+            "answer": "Полностью в вашем браузере через Web Crypto API. Ключи не покидают ваше устройство и никуда не загружаются."
+          },
+          {
+            "question": "Почему преобразование не удаётся?",
+            "answer": "Чаще всего — из-за неподдерживаемой кривой или типа ключа, либо в JWK отсутствуют обязательные члены, такие как kty, n/e или параметр кривой."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Декодер JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Генератор хешей", "href": "/tools/hash-generator" },
+          { "name": "Кодировщик Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Что такое конвертер PEM и JWK?",
+            "paragraphs": [
+              "PEM — классический текстовый формат ключей Base64 с заголовками BEGIN/END, используемый OpenSSL и большинством инструментов для сертификатов. JWK (JSON Web Key, RFC 7517) — представление ключей в JSON, принятое в экосистемах JOSE, JWT и OAuth. Конвертер позволяет использовать один и тот же ключ в обоих мирах.",
+              "Инструмент принимает ключи SPKI и PKCS#8, автоматически переупаковывает устаревшие форматы PKCS#1 и SEC1 и экспортирует соответствующий JWK — либо преобразует JWK обратно в стандартный PEM. Всё выполняется локально в вашем браузере."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Как преобразовать PEM в JWK",
+              "paragraphs": [
+                "Вставьте PEM-ключ на вкладке PEM → JWK и нажмите «Конвертировать». Справа появится JWK в виде форматированного JSON, готовый к копированию.",
+                "Открытые ключи экспортируются как публичные члены (n/e для RSA, x/y для EC); в закрытых ключах дополнительно присутствуют d и другие приватные члены."
+              ]
+            },
+            {
+              "title": "Как преобразовать JWK в PEM",
+              "paragraphs": [
+                "Перейдите на вкладку JWK → PEM и вставьте JSON. Инструмент определяет RSA или EC по полю kty, а по наличию d отличает закрытый ключ.",
+                "Результат — стандартный PEM: PUBLIC KEY (SPKI) для открытых ключей и PRIVATE KEY (PKCS#8) для закрытых."
+              ]
+            },
+            {
+              "title": "Панель информации о ключе",
+              "paragraphs": [
+                "После каждого преобразования панель показывает тип ключа, алгоритм, размер в битах и признак «открытый/закрытый» — удобно для быстрой проверки."
+              ]
+            },
+            {
+              "title": "Поддерживаемые форматы",
+              "paragraphs": [
+                "Принимаются PEM-метки PUBLIC KEY, RSA PUBLIC KEY, PRIVATE KEY и EC PRIVATE KEY; поддерживаются ключи RSA и EC на кривых P-256, P-384 и P-521. Ed25519 и другие типы не поддерживаются."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "tabPemToJwk": "PEM → JWK",
+          "tabJwkToPem": "JWK → PEM",
+          "pemInput": "Ключ в PEM",
+          "pemInputPlaceholder": "Вставьте PEM-ключ, например -----BEGIN PUBLIC KEY----- …",
+          "jwkOutput": "Вывод JWK",
+          "jwkInput": "Ключ JWK (JSON)",
+          "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+          "pemOutput": "Вывод PEM",
+          "outputPlaceholder": "Результат появится здесь",
+          "keyInfo": "Информация о ключе",
+          "infoKty": "Тип ключа",
+          "infoAlg": "Алгоритм",
+          "infoSize": "Размер",
+          "bits": "бит",
+          "infoUsage": "Назначение",
+          "public": "Открытый ключ",
+          "private": "Закрытый ключ",
+          "privacy": "Все преобразования выполняются локально в вашем браузере. Ключи не покидают ваше устройство.",
+          "emptyPem": "Вставьте PEM-ключ.",
+          "invalidPem": "Не удалось разобрать PEM-ключ. Проверьте заголовки BEGIN/END и тело Base64.",
+          "errorPem": "Неподдерживаемый ключ. Преобразуются только ключи RSA и EC (P-256/P-384/P-521).",
+          "emptyJwk": "Вставьте JWK.",
+          "invalidJson": "Введённые данные не являются корректным JSON.",
+          "unsupportedKty": "Неподдерживаемый тип ключа (kty). Поддерживаются только RSA и EC.",
+          "unsupportedCurve": "Неподдерживаемая кривая. Поддерживаются только P-256, P-384 и P-521.",
+          "errorJwk": "Не удалось импортировать JWK. Проверьте наличие и корректность обязательных полей."
+        },
+        "buttons": {
+          "convert": "Конвертировать"
+        }
+      },
+      "es": {
+        "metadata": {
+          "title": "Convertidor PEM y JWK",
+          "description": "Convierte claves entre los formatos PEM y JWK. Compatible con claves RSA y EC (SPKI, PKCS#8, PKCS#1, SEC1). Todo se ejecuta en tu navegador.",
+          "category": "Security"
+        },
+        "keywords": [
+          "PEM a JWK",
+          "JWK a PEM",
+          "convertidor PEM JWK",
+          "clave pública RSA a JWK",
+          "clave EC a JWK",
+          "clave privada JWK",
+          "SPKI a JWK",
+          "PKCS8 a JWK",
+          "convertir claves online",
+          "JWK para JWT"
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué es un JWK?",
+            "answer": "JWK (JSON Web Key, RFC 7517) es una estructura JSON estándar para representar claves criptográficas. Es el formato de clave nativo de los ecosistemas JOSE, JWT y OAuth."
+          },
+          {
+            "question": "¿Qué tipos de PEM admite?",
+            "answer": "PUBLIC KEY (SPKI), RSA PUBLIC KEY (PKCS#1), PRIVATE KEY (PKCS#8) y EC PRIVATE KEY (SEC1). Los contenedores antiguos PKCS#1 y SEC1 se reenvuelven automáticamente."
+          },
+          {
+            "question": "¿Qué tipos de clave admite?",
+            "answer": "Claves RSA y de curva elíptica en P-256, P-384 y P-521. Otros tipos, como Ed25519, no están soportados en esta vía de conversión."
+          },
+          {
+            "question": "¿Dónde ocurre la conversión?",
+            "answer": "Por completo en tu navegador mediante la API Web Crypto. Las claves nunca salen de tu dispositivo ni se suben a ningún sitio."
+          },
+          {
+            "question": "¿Por qué falla la conversión?",
+            "answer": "Las causas más habituales son una curva o un tipo de clave no compatibles, o un JWK al que le faltan miembros obligatorios como kty, n/e o el parámetro de curva."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Decodificador JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Generador de hashes", "href": "/tools/hash-generator" },
+          { "name": "Codificador Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "¿Qué es un convertidor PEM y JWK?",
+            "paragraphs": [
+              "PEM es el formato clásico de claves en Base64 con cabeceras BEGIN/END que usan OpenSSL y la mayoría de herramientas de certificados, mientras que JWK (JSON Web Key, RFC 7517) es la representación JSON que emplean los ecosistemas JOSE, JWT y OAuth. Un convertidor permite usar la misma clave en ambos mundos.",
+              "Esta herramienta importa claves SPKI y PKCS#8 —reenvolviendo automáticamente los formatos antiguos PKCS#1 y SEC1— y exporta el JWK correspondiente, o convierte un JWK de vuelta a PEM estándar. Todo se ejecuta localmente en tu navegador."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Cómo convertir PEM a JWK",
+              "paragraphs": [
+                "Pega tu clave PEM en la pestaña PEM → JWK y pulsa Convertir. El JWK se muestra como JSON formateado a la derecha, listo para copiar.",
+                "Las claves públicas se exportan con los miembros públicos (n/e para RSA, x/y para EC); las privadas incluyen además d y los demás miembros privados."
+              ]
+            },
+            {
+              "title": "Cómo convertir JWK a PEM",
+              "paragraphs": [
+                "Cambia a la pestaña JWK → PEM y pega el JSON del JWK. La herramienta lee kty para detectar RSA o EC y comprueba la presencia de d para distinguir las claves privadas.",
+                "El resultado es un PEM estándar: PUBLIC KEY (SPKI) para claves públicas y PRIVATE KEY (PKCS#8) para privadas."
+              ]
+            },
+            {
+              "title": "Panel de información de la clave",
+              "paragraphs": [
+                "Tras cada conversión, el panel muestra el tipo de clave, el algoritmo, el tamaño en bits y si es pública o privada, útil para una comprobación rápida."
+              ]
+            },
+            {
+              "title": "Formatos compatibles",
+              "paragraphs": [
+                "Se aceptan las etiquetas PEM PUBLIC KEY, RSA PUBLIC KEY, PRIVATE KEY y EC PRIVATE KEY; se admiten claves RSA y EC en las curvas P-256, P-384 y P-521. Ed25519 y otros tipos no están soportados."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "tabPemToJwk": "PEM → JWK",
+          "tabJwkToPem": "JWK → PEM",
+          "pemInput": "Clave PEM",
+          "pemInputPlaceholder": "Pega la clave PEM, p. ej. -----BEGIN PUBLIC KEY----- …",
+          "jwkOutput": "Salida JWK",
+          "jwkInput": "Clave JWK (JSON)",
+          "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+          "pemOutput": "Salida PEM",
+          "outputPlaceholder": "El resultado aparecerá aquí",
+          "keyInfo": "Información de la clave",
+          "infoKty": "Tipo de clave",
+          "infoAlg": "Algoritmo",
+          "infoSize": "Tamaño",
+          "bits": "bits",
+          "infoUsage": "Uso",
+          "public": "Clave pública",
+          "private": "Clave privada",
+          "privacy": "Todas las conversiones se ejecutan localmente en tu navegador. Las claves nunca salen de tu dispositivo.",
+          "emptyPem": "Pega una clave PEM.",
+          "invalidPem": "No se pudo analizar la clave PEM. Comprueba las cabeceras BEGIN/END y el cuerpo Base64.",
+          "errorPem": "Clave no compatible. Solo se pueden convertir claves RSA y EC (P-256/P-384/P-521).",
+          "emptyJwk": "Pega un JWK.",
+          "invalidJson": "La entrada no es un JSON válido.",
+          "unsupportedKty": "Tipo de clave (kty) no compatible. Solo se admiten RSA y EC.",
+          "unsupportedCurve": "Curva no compatible. Solo se admiten P-256, P-384 y P-521.",
+          "errorJwk": "No se pudo importar el JWK. Comprueba que todos los campos obligatorios estén presentes y sean correctos."
+        },
+        "buttons": {
+          "convert": "Convertir"
+        }
+      },
+      "de": {
+        "metadata": {
+          "title": "PEM-JWK-Konverter",
+          "description": "Konvertiert Schlüssel zwischen den Formaten PEM und JWK. Unterstützt RSA- und EC-Schlüssel (SPKI, PKCS#8, PKCS#1, SEC1) – komplett im Browser.",
+          "category": "Security"
+        },
+        "keywords": [
+          "PEM zu JWK",
+          "JWK zu PEM",
+          "PEM JWK Konverter",
+          "RSA Public Key zu JWK",
+          "EC Key zu JWK",
+          "JWK Private Key",
+          "SPKI zu JWK",
+          "PKCS8 zu JWK",
+          "Schlüssel online konvertieren",
+          "JWK für JWT"
+        ],
+        "faqs": [
+          {
+            "question": "Was ist JWK?",
+            "answer": "JWK (JSON Web Key, RFC 7517) ist eine standardisierte JSON-Struktur zur Darstellung kryptografischer Schlüssel. Sie ist das native Schlüsselformat der JOSE-, JWT- und OAuth-Ökosysteme."
+          },
+          {
+            "question": "Welche PEM-Typen werden unterstützt?",
+            "answer": "PUBLIC KEY (SPKI), RSA PUBLIC KEY (PKCS#1), PRIVATE KEY (PKCS#8) und EC PRIVATE KEY (SEC1). Die älteren PKCS#1- und SEC1-Container werden automatisch neu verpackt."
+          },
+          {
+            "question": "Welche Schlüsseltypen werden unterstützt?",
+            "answer": "RSA- und Elliptic-Curve-Schlüssel auf P-256, P-384 und P-521. Andere Typen wie Ed25519 werden von diesem Konvertierungspfad nicht unterstützt."
+          },
+          {
+            "question": "Wo findet die Konvertierung statt?",
+            "answer": "Komplett in Ihrem Browser über die Web Crypto API. Schlüssel verlassen Ihr Gerät nie und werden nirgendwo hochgeladen."
+          },
+          {
+            "question": "Warum schlägt die Konvertierung fehl?",
+            "answer": "Die häufigsten Ursachen sind ein nicht unterstützter Kurventyp oder Schlüsseltyp oder ein JWK, dem Pflichtmitglieder wie kty, n/e oder der Kurvenparameter fehlen."
+          }
+        ],
+        "relatedTools": [
+          { "name": "JWT-Decoder", "href": "/tools/jwt-decoder" },
+          { "name": "Hash-Generator", "href": "/tools/hash-generator" },
+          { "name": "Base64-Encoder", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Was ist ein PEM-JWK-Konverter?",
+            "paragraphs": [
+              "PEM ist das klassische Base64-Schlüsselformat mit BEGIN/END-Zeilen, das OpenSSL und die meisten Zertifikatswerkzeuge verwenden, während JWK (JSON Web Key, RFC 7517) die JSON-Darstellung aus der JOSE-, JWT- und OAuth-Welt ist. Ein Konverter lässt denselben Schlüssel in beiden Welten arbeiten.",
+              "Dieses Tool importiert SPKI- und PKCS#8-Schlüssel – und verpackt die älteren Formate PKCS#1 und SEC1 automatisch neu –, exportiert dann das passende JWK oder wandelt ein JWK zurück in ein standardmäßiges PEM. Alles läuft lokal in Ihrem Browser."
+            ]
+          },
+          "sections": [
+            {
+              "title": "PEM in JWK umwandeln",
+              "paragraphs": [
+                "Fügen Sie Ihren PEM-Schlüssel auf dem Tab PEM → JWK ein und klicken Sie auf Konvertieren. Das JWK wird als formatiertes JSON auf der rechten Seite ausgegeben und kann direkt kopiert werden.",
+                "Öffentliche Schlüssel werden als öffentliche JWK-Mitglieder exportiert (n/e für RSA, x/y für EC); private Schlüssel enthalten zusätzlich d und weitere private Mitglieder."
+              ]
+            },
+            {
+              "title": "JWK in PEM umwandeln",
+              "paragraphs": [
+                "Wechseln Sie auf den Tab JWK → PEM und fügen Sie das JWK-JSON ein. Das Tool liest kty, um RSA oder EC zu erkennen, und prüft das Mitglied d, um private Schlüssel zu unterscheiden.",
+                "Das Ergebnis ist ein standardmäßiges PEM: PUBLIC KEY (SPKI) für öffentliche Schlüssel und PRIVATE KEY (PKCS#8) für private Schlüssel."
+              ]
+            },
+            {
+              "title": "Schlüsselinformationen",
+              "paragraphs": [
+                "Nach jeder Konvertierung zeigt das Panel Schlüsseltyp, Algorithmus, Größe in Bit sowie an, ob der Schlüssel öffentlich oder privat ist – nützlich für eine schnelle Kontrolle."
+              ]
+            },
+            {
+              "title": "Unterstützte Formate",
+              "paragraphs": [
+                "Die PEM-Markierungen PUBLIC KEY, RSA PUBLIC KEY, PRIVATE KEY und EC PRIVATE KEY werden akzeptiert; RSA- und EC-Schlüssel auf P-256, P-384 und P-521 werden unterstützt. Ed25519 und andere Typen nicht."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "tabPemToJwk": "PEM → JWK",
+          "tabJwkToPem": "JWK → PEM",
+          "pemInput": "PEM-Schlüssel",
+          "pemInputPlaceholder": "PEM-Schlüssel einfügen, z. B. -----BEGIN PUBLIC KEY----- …",
+          "jwkOutput": "JWK-Ausgabe",
+          "jwkInput": "JWK-Schlüssel (JSON)",
+          "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+          "pemOutput": "PEM-Ausgabe",
+          "outputPlaceholder": "Das Ergebnis erscheint hier",
+          "keyInfo": "Schlüsselinformationen",
+          "infoKty": "Schlüsseltyp",
+          "infoAlg": "Algorithmus",
+          "infoSize": "Größe",
+          "bits": "Bit",
+          "infoUsage": "Verwendung",
+          "public": "Öffentlicher Schlüssel",
+          "private": "Privater Schlüssel",
+          "privacy": "Alle Konvertierungen laufen lokal in Ihrem Browser. Schlüssel verlassen Ihr Gerät nie.",
+          "emptyPem": "Bitte fügen Sie einen PEM-Schlüssel ein.",
+          "invalidPem": "Der PEM-Schlüssel konnte nicht geparst werden. Prüfen Sie BEGIN/END-Zeilen und den Base64-Körper.",
+          "errorPem": "Nicht unterstützter Schlüssel. Nur RSA- und EC-Schlüssel (P-256/P-384/P-521) können konvertiert werden.",
+          "emptyJwk": "Bitte fügen Sie ein JWK ein.",
+          "invalidJson": "Die Eingabe ist kein gültiges JSON.",
+          "unsupportedKty": "Nicht unterstützter Schlüsseltyp (kty). Nur RSA und EC werden unterstützt.",
+          "unsupportedCurve": "Nicht unterstützte Kurve. Nur P-256, P-384 und P-521 werden unterstützt.",
+          "errorJwk": "Das JWK konnte nicht importiert werden. Prüfen Sie, ob alle erforderlichen Mitglieder vorhanden und korrekt sind."
+        },
+        "buttons": {
+          "convert": "Konvertieren"
+        }
+      },
+      "fr": {
+        "metadata": {
+          "title": "Convertisseur PEM JWK",
+          "description": "Convertissez des clés entre les formats PEM et JWK. Prend en charge les clés RSA et EC (SPKI, PKCS#8, PKCS#1, SEC1), entièrement dans votre navigateur.",
+          "category": "Security"
+        },
+        "keywords": [
+          "PEM vers JWK",
+          "JWK vers PEM",
+          "convertisseur PEM JWK",
+          "clé publique RSA en JWK",
+          "clé EC en JWK",
+          "JWK clé privée",
+          "SPKI en JWK",
+          "PKCS8 en JWK",
+          "convertir une clé en ligne",
+          "JWK pour JWT"
+        ],
+        "faqs": [
+          {
+            "question": "Qu'est-ce que JWK ?",
+            "answer": "JWK (JSON Web Key, RFC 7517) est une structure JSON normalisée qui représente des clés cryptographiques. C'est le format de clé natif des écosystèmes JOSE, JWT et OAuth."
+          },
+          {
+            "question": "Quels types de PEM sont pris en charge ?",
+            "answer": "PUBLIC KEY (SPKI), RSA PUBLIC KEY (PKCS#1), PRIVATE KEY (PKCS#8) et EC PRIVATE KEY (SEC1). Les anciens conteneurs PKCS#1 et SEC1 sont réencapsulés automatiquement."
+          },
+          {
+            "question": "Quels types de clés sont pris en charge ?",
+            "answer": "Les clés RSA et à courbes elliptiques sur P-256, P-384 et P-521. Les autres types, comme Ed25519, ne sont pas pris en charge par ce chemin de conversion."
+          },
+          {
+            "question": "Où la conversion a-t-elle lieu ?",
+            "answer": "Entièrement dans votre navigateur via l'API Web Crypto. Les clés ne quittent jamais votre appareil et ne sont jamais téléversées."
+          },
+          {
+            "question": "Pourquoi la conversion échoue-t-elle ?",
+            "answer": "Les causes les plus fréquentes sont une courbe ou un type de clé non pris en charge, ou un JWK auquel manquent des membres obligatoires comme kty, n/e ou le paramètre de courbe."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Décodeur JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Générateur de hachage", "href": "/tools/hash-generator" },
+          { "name": "Encodeur Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "Qu'est-ce qu'un convertisseur PEM JWK ?",
+            "paragraphs": [
+              "PEM est le format de clé Base64 classique avec en-têtes BEGIN/END utilisé par OpenSSL et la plupart des outils de certificats, tandis que JWK (JSON Web Key, RFC 7517) est la représentation JSON des écosystèmes JOSE, JWT et OAuth. Un convertisseur permet à la même clé de fonctionner dans les deux mondes.",
+              "Cet outil importe les clés SPKI et PKCS#8 — et réencapsule automatiquement les anciens formats PKCS#1 et SEC1 — puis exporte le JWK correspondant, ou reconvertit un JWK en PEM standard. Tout s'exécute localement dans votre navigateur."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Convertir PEM en JWK",
+              "paragraphs": [
+                "Collez votre clé PEM dans l'onglet PEM → JWK et cliquez sur Convertir. Le JWK est affiché en JSON formaté à droite, prêt à copier.",
+                "Les clés publiques sont exportées avec les membres publics du JWK (n/e pour RSA, x/y pour EC) ; les clés privées incluent en plus d et les autres membres privés."
+              ]
+            },
+            {
+              "title": "Convertir JWK en PEM",
+              "paragraphs": [
+                "Passez à l'onglet JWK → PEM et collez le JSON du JWK. L'outil lit kty pour détecter RSA ou EC et vérifie la présence du membre d pour distinguer les clés privées.",
+                "Le résultat est un PEM standard : PUBLIC KEY (SPKI) pour les clés publiques et PRIVATE KEY (PKCS#8) pour les clés privées."
+              ]
+            },
+            {
+              "title": "Panneau d'informations sur la clé",
+              "paragraphs": [
+                "Après chaque conversion, le panneau affiche le type de clé, l'algorithme, la taille en bits et indique si la clé est publique ou privée — utile pour une vérification rapide."
+              ]
+            },
+            {
+              "title": "Formats pris en charge",
+              "paragraphs": [
+                "Les étiquettes PEM PUBLIC KEY, RSA PUBLIC KEY, PRIVATE KEY et EC PRIVATE KEY sont acceptées ; les clés RSA et EC sur P-256, P-384 et P-521 sont prises en charge. Ed25519 et les autres types ne le sont pas."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "tabPemToJwk": "PEM → JWK",
+          "tabJwkToPem": "JWK → PEM",
+          "pemInput": "Clé PEM",
+          "pemInputPlaceholder": "Collez une clé PEM, ex. -----BEGIN PUBLIC KEY----- …",
+          "jwkOutput": "Sortie JWK",
+          "jwkInput": "Clé JWK (JSON)",
+          "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+          "pemOutput": "Sortie PEM",
+          "outputPlaceholder": "Le résultat apparaîtra ici",
+          "keyInfo": "Informations sur la clé",
+          "infoKty": "Type de clé",
+          "infoAlg": "Algorithme",
+          "infoSize": "Taille",
+          "bits": "bits",
+          "infoUsage": "Utilisation",
+          "public": "Clé publique",
+          "private": "Clé privée",
+          "privacy": "Toutes les conversions s'exécutent localement dans votre navigateur. Les clés ne quittent jamais votre appareil.",
+          "emptyPem": "Veuillez coller une clé PEM.",
+          "invalidPem": "Impossible d'analyser la clé PEM. Vérifiez les en-têtes BEGIN/END et le corps Base64.",
+          "errorPem": "Clé non prise en charge. Seules les clés RSA et EC (P-256/P-384/P-521) peuvent être converties.",
+          "emptyJwk": "Veuillez coller un JWK.",
+          "invalidJson": "L'entrée n'est pas un JSON valide.",
+          "unsupportedKty": "Type de clé (kty) non pris en charge. Seuls RSA et EC sont pris en charge.",
+          "unsupportedCurve": "Courbe non prise en charge. Seules P-256, P-384 et P-521 sont prises en charge.",
+          "errorJwk": "Impossible d'importer le JWK. Vérifiez que tous les membres requis sont présents et corrects."
+        },
+        "buttons": {
+          "convert": "Convertir"
+        }
+      },
+      "pt": {
+        "metadata": {
+          "title": "Conversor PEM JWK",
+          "description": "Converta chaves entre os formatos PEM e JWK. Compatível com chaves RSA e EC (SPKI, PKCS#8, PKCS#1, SEC1), tudo no seu navegador.",
+          "category": "Security"
+        },
+        "keywords": [
+          "PEM para JWK",
+          "JWK para PEM",
+          "conversor PEM JWK",
+          "chave pública RSA em JWK",
+          "chave EC em JWK",
+          "JWK chave privada",
+          "SPKI para JWK",
+          "PKCS8 para JWK",
+          "converter chave online",
+          "JWK para JWT"
+        ],
+        "faqs": [
+          {
+            "question": "O que é JWK?",
+            "answer": "JWK (JSON Web Key, RFC 7517) é uma estrutura JSON padronizada que representa chaves criptográficas. É o formato de chave nativo dos ecossistemas JOSE, JWT e OAuth."
+          },
+          {
+            "question": "Quais tipos de PEM são compatíveis?",
+            "answer": "PUBLIC KEY (SPKI), RSA PUBLIC KEY (PKCS#1), PRIVATE KEY (PKCS#8) e EC PRIVATE KEY (SEC1). Os contêineres antigos PKCS#1 e SEC1 são reembrulhados automaticamente."
+          },
+          {
+            "question": "Quais tipos de chave são compatíveis?",
+            "answer": "Chaves RSA e de curva elíptica em P-256, P-384 e P-521. Outros tipos, como Ed25519, não são compatíveis com este caminho de conversão."
+          },
+          {
+            "question": "Onde a conversão acontece?",
+            "answer": "Inteiramente no seu navegador por meio da API Web Crypto. As chaves nunca saem do seu dispositivo e nunca são enviadas para lugar algum."
+          },
+          {
+            "question": "Por que a conversão falha?",
+            "answer": "As causas mais comuns são uma curva ou um tipo de chave não compatível, ou um JWK sem membros obrigatórios como kty, n/e ou o parâmetro da curva."
+          }
+        ],
+        "relatedTools": [
+          { "name": "Decodificador JWT", "href": "/tools/jwt-decoder" },
+          { "name": "Gerador de hash", "href": "/tools/hash-generator" },
+          { "name": "Codificador Base64", "href": "/tools/base64-encoder" }
+        ],
+        "guide": {
+          "intro": {
+            "title": "O que é um conversor PEM JWK?",
+            "paragraphs": [
+              "PEM é o formato de chave Base64 clássico com cabeçalhos BEGIN/END usado pelo OpenSSL e pela maioria das ferramentas de certificados, enquanto JWK (JSON Web Key, RFC 7517) é a representação JSON dos ecossistemas JOSE, JWT e OAuth. Um conversor permite que a mesma chave funcione nos dois mundos.",
+              "Esta ferramenta importa chaves SPKI e PKCS#8 — e reembrulha automaticamente os formatos antigos PKCS#1 e SEC1 —, exporta o JWK correspondente ou converte um JWK de volta para um PEM padrão. Tudo é executado localmente no seu navegador."
+            ]
+          },
+          "sections": [
+            {
+              "title": "Como converter PEM em JWK",
+              "paragraphs": [
+                "Cole sua chave PEM na aba PEM → JWK e clique em Converter. O JWK é exibido como JSON formatado à direita, pronto para copiar.",
+                "Chaves públicas são exportadas com os membros públicos do JWK (n/e para RSA, x/y para EC); chaves privadas incluem também d e os demais membros privados."
+              ]
+            },
+            {
+              "title": "Como converter JWK em PEM",
+              "paragraphs": [
+                "Mude para a aba JWK → PEM e cole o JSON do JWK. A ferramenta lê o kty para detectar RSA ou EC e verifica o membro d para distinguir chaves privadas.",
+                "O resultado é um PEM padrão: PUBLIC KEY (SPKI) para chaves públicas e PRIVATE KEY (PKCS#8) para chaves privadas."
+              ]
+            },
+            {
+              "title": "Painel de informações da chave",
+              "paragraphs": [
+                "Após cada conversão, o painel mostra o tipo de chave, o algoritmo, o tamanho em bits e se a chave é pública ou privada — útil para uma verificação rápida."
+              ]
+            },
+            {
+              "title": "Formatos compatíveis",
+              "paragraphs": [
+                "Os rótulos PEM PUBLIC KEY, RSA PUBLIC KEY, PRIVATE KEY e EC PRIVATE KEY são aceitos; chaves RSA e EC em P-256, P-384 e P-521 são compatíveis. Ed25519 e outros tipos não são."
+              ]
+            }
+          ]
+        },
+        "labels": {
+          "tabPemToJwk": "PEM → JWK",
+          "tabJwkToPem": "JWK → PEM",
+          "pemInput": "Chave PEM",
+          "pemInputPlaceholder": "Cole uma chave PEM, ex.: -----BEGIN PUBLIC KEY----- …",
+          "jwkOutput": "Saída JWK",
+          "jwkInput": "Chave JWK (JSON)",
+          "jwkInputPlaceholder": "{ \"kty\": \"RSA\", \"n\": \"…\", \"e\": \"AQAB\" }",
+          "pemOutput": "Saída PEM",
+          "outputPlaceholder": "O resultado aparecerá aqui",
+          "keyInfo": "Informações da chave",
+          "infoKty": "Tipo de chave",
+          "infoAlg": "Algoritmo",
+          "infoSize": "Tamanho",
+          "bits": "bits",
+          "infoUsage": "Uso",
+          "public": "Chave pública",
+          "private": "Chave privada",
+          "privacy": "Todas as conversões são executadas localmente no seu navegador. As chaves nunca saem do seu dispositivo.",
+          "emptyPem": "Cole uma chave PEM.",
+          "invalidPem": "Não foi possível analisar a chave PEM. Verifique os cabeçalhos BEGIN/END e o corpo Base64.",
+          "errorPem": "Chave não compatível. Apenas chaves RSA e EC (P-256/P-384/P-521) podem ser convertidas.",
+          "emptyJwk": "Cole um JWK.",
+          "invalidJson": "A entrada não é um JSON válido.",
+          "unsupportedKty": "Tipo de chave (kty) não compatível. Apenas RSA e EC são compatíveis.",
+          "unsupportedCurve": "Curva não compatível. Apenas P-256, P-384 e P-521 são compatíveis.",
+          "errorJwk": "Não foi possível importar o JWK. Verifique se todos os membros obrigatórios estão presentes e corretos."
+        },
+        "buttons": {
+          "convert": "Converter"
+        }
+      }
+    }
+  },
+  "homeTools": {
+    "hmac-generator": {
+      "en": { "name": "HMAC Generator", "description": "Compute HMAC signatures with SHA family hash functions.", "category": "Security", "icon": "🔏" },
+      "zh": { "name": "HMAC 签名生成器", "description": "使用 SHA 系列哈希函数计算 HMAC 签名。", "category": "Security", "icon": "🔏" },
+      "ja": { "name": "HMAC 署名ジェネレーター", "description": "SHA 系ハッシュ関数で HMAC 署名を計算します。", "category": "Security", "icon": "🔏" },
+      "ko": { "name": "HMAC 서명 생성기", "description": "SHA 계열 해시 함수로 HMAC 서명을 계산합니다.", "category": "Security", "icon": "🔏" },
+      "ru": { "name": "Генератор HMAC", "description": "Вычисляйте подписи HMAC с хеш-функциями семейства SHA.", "category": "Security", "icon": "🔏" },
+      "es": { "name": "Generador de HMAC", "description": "Calcula firmas HMAC con funciones hash de la familia SHA.", "category": "Security", "icon": "🔏" },
+      "de": { "name": "HMAC-Generator", "description": "Berechnet HMAC-Signaturen mit Hash-Funktionen der SHA-Familie.", "category": "Security", "icon": "🔏" },
+      "fr": { "name": "Générateur de HMAC", "description": "Calcule des signatures HMAC avec les fonctions de hachage de la famille SHA.", "category": "Security", "icon": "🔏" },
+      "pt": { "name": "Gerador de HMAC", "description": "Calcula assinaturas HMAC com funções hash da família SHA.", "category": "Security", "icon": "🔏" }
+    },
+    "rsa-key-generator": {
+      "en": { "name": "RSA Key Generator", "description": "Generate RSA-OAEP key pairs and export public and private PEM files.", "category": "Security", "icon": "🔑" },
+      "zh": { "name": "RSA 密钥对生成器", "description": "生成 RSA-OAEP 密钥对，导出公钥与私钥 PEM 文件。", "category": "Security", "icon": "🔑" },
+      "ja": { "name": "RSA 鍵ペアジェネレーター", "description": "RSA-OAEP 鍵ペアを生成し、公開鍵・秘密鍵の PEM を出力します。", "category": "Security", "icon": "🔑" },
+      "ko": { "name": "RSA 키 쌍 생성기", "description": "RSA-OAEP 키 쌍을 생성하고 공개 키·개인 키 PEM 파일로 내보냅니다.", "category": "Security", "icon": "🔑" },
+      "ru": { "name": "Генератор ключей RSA", "description": "Создавайте пары ключей RSA-OAEP и экспортируйте открытый и закрытый PEM.", "category": "Security", "icon": "🔑" },
+      "es": { "name": "Generador de claves RSA", "description": "Genera pares de claves RSA-OAEP y exporta las claves pública y privada en PEM.", "category": "Security", "icon": "🔑" },
+      "de": { "name": "RSA-Schlüssel-Generator", "description": "Erzeugt RSA-OAEP-Schlüsselpaare und exportiert öffentliche und private PEM-Dateien.", "category": "Security", "icon": "🔑" },
+      "fr": { "name": "Générateur de clés RSA", "description": "Génère des paires de clés RSA-OAEP et exporte les clés publique et privée en PEM.", "category": "Security", "icon": "🔑" },
+      "pt": { "name": "Gerador de chaves RSA", "description": "Gera pares de chaves RSA-OAEP e exporta as chaves pública e privada em PEM.", "category": "Security", "icon": "🔑" }
+    },
+    "pem-jwk-converter": {
+      "en": { "name": "PEM JWK Converter", "description": "Convert keys between PEM and JWK formats for RSA and EC keys.", "category": "Security", "icon": "🔄" },
+      "zh": { "name": "PEM JWK 转换器", "description": "在 PEM 与 JWK 格式之间转换 RSA 与椭圆曲线密钥。", "category": "Security", "icon": "🔄" },
+      "ja": { "name": "PEM・JWK 変換ツール", "description": "RSA 鍵と EC 鍵を PEM と JWK の間で相互変換します。", "category": "Security", "icon": "🔄" },
+      "ko": { "name": "PEM JWK 변환기", "description": "RSA 및 EC 키를 PEM과 JWK 형식 사이에서 변환합니다.", "category": "Security", "icon": "🔄" },
+      "ru": { "name": "Конвертер PEM и JWK", "description": "Преобразуйте ключи RSA и EC между форматами PEM и JWK.", "category": "Security", "icon": "🔄" },
+      "es": { "name": "Convertidor PEM y JWK", "description": "Convierte claves RSA y EC entre los formatos PEM y JWK.", "category": "Security", "icon": "🔄" },
+      "de": { "name": "PEM-JWK-Konverter", "description": "Konvertiert RSA- und EC-Schlüssel zwischen PEM und JWK.", "category": "Security", "icon": "🔄" },
+      "fr": { "name": "Convertisseur PEM JWK", "description": "Convertit les clés RSA et EC entre les formats PEM et JWK.", "category": "Security", "icon": "🔄" },
+      "pt": { "name": "Conversor PEM JWK", "description": "Converte chaves RSA e EC entre os formatos PEM e JWK.", "category": "Security", "icon": "🔄" }
+    }
+  }
+}
