@@ -1,30 +1,31 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 
-const CITIES: { name: string; tz: string }[] = [
-  { name: "London", tz: "Europe/London" },
-  { name: "New York", tz: "America/New_York" },
-  { name: "Los Angeles", tz: "America/Los_Angeles" },
-  { name: "Toronto", tz: "America/Toronto" },
-  { name: "Sao Paulo", tz: "America/Sao_Paulo" },
-  { name: "Berlin", tz: "Europe/Berlin" },
-  { name: "Paris", tz: "Europe/Paris" },
-  { name: "Moscow", tz: "Europe/Moscow" },
-  { name: "Dubai", tz: "Asia/Dubai" },
-  { name: "Mumbai", tz: "Asia/Kolkata" },
-  { name: "Singapore", tz: "Asia/Singapore" },
-  { name: "Beijing", tz: "Asia/Shanghai" },
-  { name: "Tokyo", tz: "Asia/Tokyo" },
-  { name: "Seoul", tz: "Asia/Seoul" },
-  { name: "Sydney", tz: "Australia/Sydney" },
-  { name: "Auckland", tz: "Pacific/Auckland" },
+const CITIES: { key: string; name: string; tz: string }[] = [
+  { key: "london", name: "London", tz: "Europe/London" },
+  { key: "new_york", name: "New York", tz: "America/New_York" },
+  { key: "los_angeles", name: "Los Angeles", tz: "America/Los_Angeles" },
+  { key: "toronto", name: "Toronto", tz: "America/Toronto" },
+  { key: "sao_paulo", name: "São Paulo", tz: "America/Sao_Paulo" },
+  { key: "berlin", name: "Berlin", tz: "Europe/Berlin" },
+  { key: "paris", name: "Paris", tz: "Europe/Paris" },
+  { key: "moscow", name: "Moscow", tz: "Europe/Moscow" },
+  { key: "dubai", name: "Dubai", tz: "Asia/Dubai" },
+  { key: "mumbai", name: "Mumbai", tz: "Asia/Kolkata" },
+  { key: "singapore", name: "Singapore", tz: "Asia/Singapore" },
+  { key: "beijing", name: "Beijing", tz: "Asia/Shanghai" },
+  { key: "tokyo", name: "Tokyo", tz: "Asia/Tokyo" },
+  { key: "seoul", name: "Seoul", tz: "Asia/Seoul" },
+  { key: "sydney", name: "Sydney", tz: "Australia/Sydney" },
+  { key: "auckland", name: "Auckland", tz: "Pacific/Auckland" },
 ];
 
 export default function WorldClockPage() {
   const t = useTranslations("tools.world-clock");
+  const locale = useLocale();
   const faqs = t.raw("faqs") as FAQ[];
   const relatedTools = t.raw("relatedTools") as RelatedTool[];
   const keywords = t.raw("keywords") as string[];
@@ -49,9 +50,9 @@ export default function WorldClockPage() {
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {CITIES.map((c) => (
           <div key={c.tz} className="rounded-lg border border-zinc-800 p-4">
-            <p className="text-sm font-medium text-zinc-300">{c.name}</p>
+            <p className="text-sm font-medium text-zinc-300">{t(`cities.${c.key}`)}</p>
             <p className="mt-1 text-xl font-semibold tabular-nums text-blue-400">
-              {new Intl.DateTimeFormat([], {
+              {new Intl.DateTimeFormat(locale, {
                 timeZone: c.tz,
                 hour: "2-digit",
                 minute: "2-digit",
@@ -60,7 +61,7 @@ export default function WorldClockPage() {
               }).format(now)}
             </p>
             <p className="mt-1 text-xs text-zinc-500">
-              {new Intl.DateTimeFormat([], {
+              {new Intl.DateTimeFormat(locale, {
                 timeZone: c.tz,
                 year: "numeric",
                 month: "2-digit",

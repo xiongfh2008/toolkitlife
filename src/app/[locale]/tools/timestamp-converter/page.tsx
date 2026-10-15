@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback, useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 import CopyButton from "@/components/CopyButton";
 
@@ -18,6 +18,7 @@ function toLocalInputValue(date: Date): string {
 
 export default function TimestampConverterPage() {
   const t = useTranslations("tools.timestamp-converter");
+  const locale = useLocale();
   const [timestamp, setTimestamp] = useState<string>(() => String(Math.floor(Date.now() / 1000)));
   const [unit, setUnit] = useState<"seconds" | "milliseconds">("seconds");
   const [datetime, setDatetime] = useState<string>("");
@@ -169,7 +170,7 @@ export default function TimestampConverterPage() {
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-4">
               <label className="mb-1 block text-xs font-medium text-zinc-400 uppercase">{t("labels.local")}</label>
-              <p className="font-mono text-sm text-zinc-100">{localDate.toLocaleString()}</p>
+              <p className="font-mono text-sm text-zinc-100">{localDate.toLocaleString(locale)}</p>
             </div>
             <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-4">
               <label className="mb-1 block text-xs font-medium text-zinc-400 uppercase">{t("labels.utc")}</label>

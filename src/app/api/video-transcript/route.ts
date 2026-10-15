@@ -22,6 +22,11 @@ const MIXIN_KEY_ENC_TAB = [
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Json = any;
 
+interface Segment {
+  start: number;
+  text: string;
+}
+
 /** HTML/XML 实体解码（YouTube 字幕文本中常见） */
 function decodeEntities(s: string): string {
   return s
@@ -57,6 +62,43 @@ function fixMisdecodedUtf8(s: string): string {
 /** 清洗字幕文本：实体解码 + 编码修复 + 去标签 */
 function cleanText(raw: string): string {
   return fixMisdecodedUtf8(decodeEntities(raw)).replace(/<[^>]+>/g, "").trim();
+}
+
+/** 解析 VTT/SRT 时间戳："00:00:05.237" / "00:00:05,237" / "05:02.500" → 秒 */
+function parseTimestamp(s: string): number {
+  const m = s.trim().match(/(?:(\d+):)?(\d{1,2}):(\d{2})[.,](\d{1,3})/);
+  if (!m) return NaN;
+  return (m[1] ? Number(m[1]) * 3600 : 0) + Number(m[2]) * 60 + Number(m[3]) + Number(m[4]!.padEnd(3, "0")) / 1000;
+}
+
+/** 解析 WebVTT / SRT 字幕为分段 */
+function parseVttOrSrt(raw: string): Segment[] {
+  const lines = raw.replace(/\r/g, "").split("\n");
+  const segs: Segment[] = [];
+  let curStart: number | null = null;
+  let buf: string[] = [];
+  const flush = () => {
+    if (curStart !== null && buf.length > 0) {
+      const text = cleanText(buf.join(" ").replace(/\s+/g, " "));
+      if (text) segs.push({ start: Math.round(curStart), text });
+    }
+    curStart = null;
+    buf = [];
+  };
+  for (const line of lines) {
+    if (line.includes("-->")) {
+      flush();
+      curStart = parseTimestamp(line.split("-->")[0] ?? "");
+      if (Number.isNaN(curStart)) curStart = null;
+    } else if (/^\s*$/.test(line)) {
+      flush();
+    } else if (curStart !== null) {
+      buf.push(line.trim());
+    }
+    // 其余情况（WEBVTT 头、cue 序号、NOTE 块）在 curStart===null 时自动跳过
+  }
+  flush();
+  return segs;
 }
 
 function getMixinKey(orig: string): string {
@@ -338,6 +380,105 @@ async function fetchYoutubeTranscript(videoId: string, cookie = "") {
   }
 }
 
+/** Vimeo：player config 接口拿 text_tracks（仅限上传者添加了字幕的公开视频） */
+async function fetchVimeoTranscript(id: string) {
+  const res = await fetch(`https://player.vimeo.com/video/${id}/config`, {
+    headers: { "User-Agent": BILI_UA, Referer: "https://vimeo.com/" },
+    signal: AbortSignal.timeout(TIMEOUT_MS),
+  });
+  if (!res.ok) throw new Error("vimeo_failed");
+  const json: Json = await res.json();
+  const tracks: Json[] = json?.request?.text_tracks ?? [];
+  if (tracks.length === 0) throw new Error("no_subtitle");
+  const pref = ["zh", "en"];
+  let track: Json | undefined;
+  for (const lang of pref) {
+    track = tracks.find((t) => (t.lang ?? "").startsWith(lang));
+    if (track) break;
+  }
+  track ??= tracks[0];
+  const vttRes = await fetch(track.url, {
+    headers: { "User-Agent": BILI_UA, Referer: "https://player.vimeo.com/" },
+    signal: AbortSignal.timeout(TIMEOUT_MS),
+  });
+  const segments = parseVttOrSrt(await vttRes.text());
+  if (segments.length === 0) throw new Error("no_subtitle");
+  const video: Json = json?.video ?? {};
+  return {
+    platform: "vimeo",
+    title: video.title ?? "",
+    author: typeof video.owner === "string" ? video.owner : video.owner?.name ?? "",
+    language: track.lang ?? "",
+    segments,
+  };
+}
+
+/** Dailymotion：metadata 接口拿 subtitles.data（含 ASR 自动字幕 *-auto，SRT 格式） */
+async function fetchDailymotionTranscript(id: string) {
+  const res = await fetch(`https://www.dailymotion.com/player/metadata/video/${id}`, {
+    headers: { "User-Agent": BILI_UA },
+    signal: AbortSignal.timeout(TIMEOUT_MS),
+  });
+  if (!res.ok) throw new Error("dm_failed");
+  const json: Json = await res.json();
+  const data: Json = json?.subtitles?.data ?? {};
+  const langs = Object.keys(data);
+  if (langs.length === 0) throw new Error("no_subtitle");
+  // 优先 zh/en 原生字幕，其次其他原生，最后 ASR 自动字幕
+  const score = (l: string) => (l.startsWith("zh") ? 0 : l.startsWith("en") ? 1 : l.includes("-auto") ? 3 : 2);
+  const lang = [...langs].sort((a, b) => score(a) - score(b))[0]!;
+  const url: string = (data[lang]?.urls ?? [])[0];
+  if (!url) throw new Error("no_subtitle");
+  const subRes = await fetch(url, {
+    headers: { "User-Agent": BILI_UA },
+    signal: AbortSignal.timeout(TIMEOUT_MS),
+  });
+  const segments = parseVttOrSrt(await subRes.text());
+  if (segments.length === 0) throw new Error("no_subtitle");
+  return {
+    platform: "dailymotion",
+    title: json?.title ?? "",
+    author: typeof json?.owner === "string" ? json.owner : json?.owner?.name ?? "",
+    language: lang.replace("-auto", " (auto)"),
+    segments,
+  };
+}
+
+/** TED：talk 页面 __NEXT_DATA__ 内嵌 transcriptData（大部分演讲带全文转录） */
+async function fetchTedTranscript(slug: string) {
+  const res = await fetch(`https://www.ted.com/talks/${slug}`, {
+    headers: { "User-Agent": BILI_UA },
+    signal: AbortSignal.timeout(TIMEOUT_MS),
+  });
+  if (!res.ok) throw new Error("ted_failed");
+  const html = await res.text();
+  const m = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
+  if (!m) throw new Error("ted_failed");
+  const props: Json = JSON.parse(m[1]!)?.props?.pageProps;
+  const tr = props?.transcriptData?.translation;
+  const paragraphs: Json[] = tr?.paragraphs ?? [];
+  const segments = paragraphs
+    .flatMap((p: Json) => (p?.cues ?? []) as Json[])
+    .map((c: Json) => ({
+      start: Math.round((c.time ?? 0) / 1000),
+      text: cleanText(String(c.text ?? "")),
+    }))
+    .filter((s: Segment) => s.text.length > 0);
+  if (segments.length === 0) throw new Error("no_subtitle");
+  const video: Json = props?.videoData ?? {};
+  const lang: Json = tr?.language;
+  return {
+    platform: "ted",
+    title: video.title ?? "",
+    author: video.presenterDisplayName ?? "",
+    language:
+      typeof lang === "string"
+        ? lang
+        : lang?.internalLanguageCode ?? lang?.code ?? lang?.englishName ?? "",
+    segments,
+  };
+}
+
 export async function GET(req: NextRequest) {
   const input = req.nextUrl.searchParams.get("url")?.trim() ?? "";
   const cookie = req.nextUrl.searchParams.get("cookie")?.trim() ?? "";
@@ -360,6 +501,24 @@ export async function GET(req: NextRequest) {
       const bvid = extractBvid(url);
       if (!bvid) return NextResponse.json({ error: "unsupported_url" }, { status: 400 });
       return NextResponse.json(await fetchBilibiliTranscript(bvid, cookie));
+    }
+
+    if (url.includes("vimeo.com")) {
+      const m = url.match(/vimeo\.com\/(?:video\/)?(\d{6,12})/);
+      if (!m) return NextResponse.json({ error: "unsupported_url" }, { status: 400 });
+      return NextResponse.json(await fetchVimeoTranscript(m[1]));
+    }
+
+    if (url.includes("dailymotion.com") || url.includes("dai.ly")) {
+      const m = url.match(/(?:dailymotion\.com\/(?:video\/|embed\/video\/)|dai\.ly\/)([a-z0-9]{5,12})/i);
+      if (!m) return NextResponse.json({ error: "unsupported_url" }, { status: 400 });
+      return NextResponse.json(await fetchDailymotionTranscript(m[1]));
+    }
+
+    if (url.includes("ted.com")) {
+      const m = url.match(/ted\.com\/talks\/([a-z0-9_]+)/i);
+      if (!m) return NextResponse.json({ error: "unsupported_url" }, { status: 400 });
+      return NextResponse.json(await fetchTedTranscript(m[1]));
     }
 
     const ytId = extractYoutubeId(url);

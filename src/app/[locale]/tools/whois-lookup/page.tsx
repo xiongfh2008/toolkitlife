@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import ToolLayout from "@/components/ToolLayout";
 
 interface RdapEvent {
@@ -48,15 +48,16 @@ function entityByRole(data: RdapResponse, role: string): RdapEntity | undefined 
   return data.entities?.find((e) => e.roles?.includes(role));
 }
 
-function formatEventDate(data: RdapResponse, action: string): string {
+function formatEventDate(data: RdapResponse, action: string, locale: string): string {
   const hit = data.events?.find((e) => e.eventAction === action);
   if (!hit) return "";
   const dt = new Date(hit.eventDate);
-  return Number.isNaN(dt.getTime()) ? hit.eventDate : dt.toLocaleString();
+  return Number.isNaN(dt.getTime()) ? hit.eventDate : dt.toLocaleString(locale);
 }
 
 export default function WhoisLookupPage() {
   const t = useTranslations("tools.whois-lookup");
+  const locale = useLocale();
   const [domain, setDomain] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -115,9 +116,9 @@ export default function WhoisLookupPage() {
     ? [
         { key: "domainName", label: t("labels.domainName"), value: data.ldhName ?? "" },
         { key: "status", label: t("labels.status"), value: (data.status ?? []).join(", ") || t("labels.unknown") },
-        { key: "created", label: t("labels.created"), value: formatEventDate(data, "registration") || t("labels.unknown") },
-        { key: "updated", label: t("labels.updated"), value: formatEventDate(data, "last changed") || t("labels.unknown") },
-        { key: "expires", label: t("labels.expires"), value: formatEventDate(data, "expiration") || t("labels.unknown") },
+        { key: "created", label: t("labels.created"), value: formatEventDate(data, "registration", locale) || t("labels.unknown") },
+        { key: "updated", label: t("labels.updated"), value: formatEventDate(data, "last changed", locale) || t("labels.unknown") },
+        { key: "expires", label: t("labels.expires"), value: formatEventDate(data, "expiration", locale) || t("labels.unknown") },
         { key: "dnssec", label: t("labels.dnssec"), value: data.secureDNS?.delegationSigned ? "✓" : t("labels.unknown") },
         { key: "registrar", label: t("labels.registrar"), value: registrar ? pickVcard(registrar, "fn") || pickVcard(registrar, "org") || t("labels.unknown") : t("labels.unknown") },
         { key: "registrant", label: t("labels.registrant"), value: registrant ? pickVcard(registrant, "fn") || t("labels.unknown") : t("labels.unknown") },

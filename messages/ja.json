@@ -28490,10 +28490,10 @@
     "video-transcript": {
       "metadata": {
         "title": "動画テキスト抽出 - 無料オンラインツール",
-        "description": "YouTube や Bilibili の動画リンクからタイムスタンプ付きの字幕テキストを無料で抽出。コピーや TXT 書き出しに対応。"
+        "description": "YouTube、Bilibili、Vimeo、Dailymotion、TED の動画リンクを貼り付けて、タイムスタンプ付きの文字起こしを無料で抽出。コピー・TXT 出力に対応。"
       },
       "title": "動画テキスト抽出",
-      "description": "YouTube や B站 の動画リンクを貼り付けるだけで、タイムスタンプ付きの全文を即座に抽出。全文コピーや TXT ファイルの書き出しに対応。",
+      "description": "YouTube、Bilibili、Vimeo、Dailymotion、TED の動画リンクを貼り付けるだけで、タイムスタンプ付きの全文を瞬時に抽出。全文コピーと TXT ダウンロードに対応。",
       "category": "メディアツール",
       "keywords": [
         "動画テキスト抽出",
@@ -28509,14 +28509,14 @@
         "whatIs": {
           "title": "動画テキスト抽出とは？",
           "body": [
-            "YouTube や Bilibili の動画リンクから公式字幕・自動字幕を取得し、タイムスタンプ付きのテキストに変換するツールです。動画のダウンロードもログインも不要です。"
+            "本ツールは YouTube、Bilibili、Vimeo、Dailymotion、TED の動画リンクから公式字幕や自動字幕を取得し、タイムスタンプ付きのテキスト文字起こしを生成します。動画のダウンロードは不要で、すべてオンラインで完結します。"
           ]
         },
         "howTo": {
           "title": "使い方",
           "intro": "3 ステップで字幕テキストを取得：",
           "items": [
-            "YouTube または Bilibili の動画リンクを入力欄に貼り付けます。",
+            "YouTube、Bilibili、Vimeo、Dailymotion、TED の動画リンクを入力欄に貼り付けます。",
             "「テキスト抽出」ボタンをクリックし、数秒待ちます。",
             "結果を確認し、全文コピーまたは TXT で書き出します。"
           ]
@@ -28533,7 +28533,7 @@
       "faqs": [
         {
           "question": "対応プラットフォームは？",
-          "answer": "YouTube と Bilibili に対応。b23.tv 短縮リンクや BV 番号も利用できます。"
+          "answer": "YouTube、Bilibili（b23.tv 短縮リンク・BV ID 含む）、Vimeo、Dailymotion、TED トークに対応しています。"
         },
         {
           "question": "ログインは必要ですか？",
@@ -28572,8 +28572,8 @@
       ],
       "labels": {
         "url": "動画リンク",
-        "urlPlaceholder": "YouTube / Bilibili のリンクを貼り付け（例: https://www.youtube.com/watch?v=... や https://www.bilibili.com/video/BV...）",
-        "supported": "YouTube・Bilibili・b23.tv 短縮リンク・BV 番号に対応",
+        "urlPlaceholder": "動画リンクを貼り付けてください。例：https://www.youtube.com/watch?v=... または https://www.bilibili.com/video/BV...",
+        "supported": "YouTube、Bilibili（b23.tv / BV ID）、Vimeo、Dailymotion、TED トークに対応",
         "advanced": "詳細オプション（Bilibili Cookie）",
         "cookie": "Cookie（任意）",
         "cookieHint": "ログインが必要な動画や YouTube のボット確認に失敗する動画向け（bilibili は SESSDATA）",
@@ -28591,8 +28591,8 @@
       "errors": {
         "empty": "動画リンクを入力してください。",
         "invalidUrl": "リンクが無効です。確認して再試行してください。",
-        "unsupported": "対応していないリンクです。YouTube と Bilibili のみ対応しています。",
-        "noSubtitle": "この動画には利用可能な字幕がありません。ログインが必要な bilibili 動画は、詳細オプションで SESSDATA を入力して再試行してください。",
+        "unsupported": "対応していないリンクです。現在 YouTube、Bilibili、Vimeo、Dailymotion、TED に対応しています。",
+        "noSubtitle": "この動画には利用可能な字幕がありません（Vimeo・Dailymotion は動画に字幕が必要です）。Bilibili の動画は詳細オプションで SESSDATA を入力してから再試行してください。",
         "biliFailed": "動画情報の取得に失敗しました。リンクが無効か、動画が削除された可能性があります。",
         "failed": "抽出に失敗しました。後でもう一度お試しください。",
         "botCheck": "YouTube がボット確認を求めました。手順：youtube.com にログイン → F12 で開発者ツールを開く → Network タブを選ぶ → ページを再読み込み → 最初のリクエストをクリック → Request Headers 内の Cookie 行の値をすべてコピー → 上の詳細オプションの Cookie 欄に貼り付けて再実行。",
@@ -38825,7 +38825,25 @@
         }
       ],
       "labels": {},
-      "buttons": {}
+      "buttons": {},
+      "cities": {
+        "london": "ロンドン",
+        "new_york": "ニューヨーク",
+        "los_angeles": "ロサンゼルス",
+        "toronto": "トロント",
+        "sao_paulo": "サンパウロ",
+        "berlin": "ベルリン",
+        "paris": "パリ",
+        "moscow": "モスクワ",
+        "dubai": "ドバイ",
+        "mumbai": "ムンバイ",
+        "singapore": "シンガポール",
+        "beijing": "北京",
+        "tokyo": "東京",
+        "seoul": "ソウル",
+        "sydney": "シドニー",
+        "auckland": "オークランド"
+      }
     },
     "zip-viewer": {
       "metadata": {

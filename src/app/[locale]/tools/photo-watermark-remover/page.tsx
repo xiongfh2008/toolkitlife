@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useCallback, useEffect } from 'react'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import ToolLayout, { FAQ, RelatedTool } from '@/components/ToolLayout'
 
 /** Grow the white mask region by a few px (GPU blur + re-threshold). Watermarks
@@ -28,6 +28,7 @@ function dilateMask(mask: ImageData, r: number): ImageData {
 
 export default function PhotoWatermarkRemover() {
   const t = useTranslations('tools.photo-watermark-remover')
+  const locale = useLocale()
 
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const maskCanvasRef = useRef<HTMLCanvasElement>(null)
@@ -61,14 +62,14 @@ export default function PhotoWatermarkRemover() {
   const addLog = useCallback((level: LogLevel, msg: string) => {
     const entry: LogEntry = {
       id: Date.now() + Math.random(),
-      time: new Date().toLocaleTimeString(),
+      time: new Date().toLocaleTimeString(locale),
       level,
       msg,
     }
     setLogs(prev => [...prev, entry])
     const fn = level === 'error' ? console.error : level === 'warn' ? console.warn : console.info
     fn(`[photo-watermark-remover]`, entry.time, msg)
-  }, [])
+  }, [locale])
 
   const handleImageUpload = useCallback((file: File) => {
     const img = new Image()

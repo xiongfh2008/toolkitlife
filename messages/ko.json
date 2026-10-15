@@ -28490,10 +28490,10 @@
     "video-transcript": {
       "metadata": {
         "title": "동영상 자막 추출 - 무료 온라인 도구",
-        "description": "YouTube 또는 Bilibili 동영상 링크에서 타임스탬프가 포함된 자막 텍스트를 무료로 추출합니다. 복사 및 TXT 내보내기 지원."
+        "description": "YouTube, Bilibili, Vimeo, Dailymotion, TED 영상 링크를 붙여넣어 타임스탬프가 포함된 자막 대본을 무료로 추출하세요. 복사 및 TXT 내보내기 지원."
       },
       "title": "동영상 자막 추출",
-      "description": "YouTube 또는 Bilibili 동영상 링크를 붙여넣으면 타임스탬프가 있는 전체 자막을 즉시 추출합니다. 전체 복사 및 TXT 파일 다운로드를 지원합니다.",
+      "description": "YouTube, Bilibili, Vimeo, Dailymotion, TED 영상 링크를 붙여넣으면 타임스탬프가 포함된 전체 대본을 즉시 추출합니다. 전체 복사 및 TXT 다운로드를 지원합니다.",
       "category": "미디어 도구",
       "keywords": [
         "동영상 자막 추출",
@@ -28509,14 +28509,14 @@
         "whatIs": {
           "title": "동영상 자막 추출이란?",
           "body": [
-            "YouTube 또는 Bilibili 동영상 링크에서 공식 자막·자동 자막을 가져와 타임스탬프가 있는 텍스트로 변환하는 도구입니다. 동영상 다운로드나 로그인이 필요 없습니다."
+            "이 도구는 YouTube, Bilibili, Vimeo, Dailymotion, TED 영상 링크에서 공식 자막 또는 자동 생성 자막을 가져와 타임스탬프가 포함된 텍스트 대본으로 변환합니다. 영상 다운로드 없이 모두 온라인에서 처리됩니다."
           ]
         },
         "howTo": {
           "title": "사용 방법",
           "intro": "3단계로 자막 텍스트를 얻으세요:",
           "items": [
-            "YouTube 또는 Bilibili 동영상 링크를 입력란에 붙여넣습니다.",
+            "YouTube, Bilibili, Vimeo, Dailymotion, TED 영상 링크를 입력란에 붙여넣습니다.",
             "'자막 추출' 버튼을 클릭하고 몇 초 기다립니다.",
             "결과를 확인하고 전체 복사 또는 TXT로 내보냅니다."
           ]
@@ -28533,7 +28533,7 @@
       "faqs": [
         {
           "question": "어떤 플랫폼을 지원하나요?",
-          "answer": "YouTube와 Bilibili를 지원하며 b23.tv 단축 링크와 BV 번호도 사용할 수 있습니다."
+          "answer": "YouTube, Bilibili(b23.tv 단축 링크 및 BV ID 포함), Vimeo, Dailymotion, TED 강연을 지원합니다."
         },
         {
           "question": "로그인이 필요한가요?",
@@ -28572,8 +28572,8 @@
       ],
       "labels": {
         "url": "동영상 링크",
-        "urlPlaceholder": "YouTube / Bilibili 링크를 붙여넣으세요 (예: https://www.youtube.com/watch?v=... 또는 https://www.bilibili.com/video/BV...)",
-        "supported": "YouTube·Bilibili·b23.tv 단축 링크·BV 번호 지원",
+        "urlPlaceholder": "영상 링크를 붙여넣으세요. 예: https://www.youtube.com/watch?v=... 또는 https://www.bilibili.com/video/BV...",
+        "supported": "YouTube, Bilibili(b23.tv / BV ID), Vimeo, Dailymotion, TED 강연 지원",
         "advanced": "고급 옵션 (Bilibili 쿠키)",
         "cookie": "Cookie(선택)",
         "cookieHint": "로그인이 필요하거나 YouTube 봇 확인에 걸린 영상에 사용합니다(bilibili는 SESSDATA)",
@@ -28591,8 +28591,8 @@
       "errors": {
         "empty": "동영상 링크를 입력하세요.",
         "invalidUrl": "잘못된 링크입니다. 확인 후 다시 시도하세요.",
-        "unsupported": "지원하지 않는 링크입니다. YouTube와 Bilibili만 지원합니다.",
-        "noSubtitle": "이 영상에는 사용할 수 있는 자막이 없습니다. 로그인이 필요한 bilibili 영상은 고급 옵션에서 SESSDATA를 입력한 뒤 다시 시도하세요.",
+        "unsupported": "지원되지 않는 링크입니다. 현재 YouTube, Bilibili, Vimeo, Dailymotion, TED를 지원합니다.",
+        "noSubtitle": "이 영상에는 사용 가능한 자막이 없습니다(Vimeo·Dailymotion은 영상 자체에 자막이 필요합니다). Bilibili 영상은 고급 옵션에서 SESSDATA를 입력한 후 다시 시도하세요.",
         "biliFailed": "동영상 정보를 가져오지 못했습니다. 링크가 잘못되었거나 동영상이 삭제되었을 수 있습니다.",
         "failed": "추출에 실패했습니다. 잠시 후 다시 시도하세요.",
         "botCheck": "YouTube가 봇 확인을 요청했습니다. 절차: youtube.com 로그인 → F12 개발자 도구 열기 → Network 탭 선택 → 페이지 새로고침 → 첫 번째 요청 클릭 → Request Headers의 Cookie 행 값을 전체 복사 → 위 고급 옵션의 Cookie 필드에 붙여넣고 다시 추출.",
@@ -38822,7 +38822,25 @@
         }
       ],
       "labels": {},
-      "buttons": {}
+      "buttons": {},
+      "cities": {
+        "london": "런던",
+        "new_york": "뉴욕",
+        "los_angeles": "로스앤젤레스",
+        "toronto": "토론토",
+        "sao_paulo": "상파울루",
+        "berlin": "베를린",
+        "paris": "파리",
+        "moscow": "모스크바",
+        "dubai": "두바이",
+        "mumbai": "뭄바이",
+        "singapore": "싱가포르",
+        "beijing": "베이징",
+        "tokyo": "도쿄",
+        "seoul": "서울",
+        "sydney": "시드니",
+        "auckland": "오클랜드"
+      }
     },
     "zip-viewer": {
       "metadata": {

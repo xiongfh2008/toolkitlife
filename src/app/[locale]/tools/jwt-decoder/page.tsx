@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 import CopyButton from "@/components/CopyButton";
 
@@ -26,6 +26,7 @@ function formatJson(json: string): string {
 
 export default function JwtDecoderPage() {
   const t = useTranslations("tools.jwt-decoder");
+  const locale = useLocale();
   const [input, setInput] = useState("");
   const [header, setHeader] = useState("");
   const [payload, setPayload] = useState("");
@@ -63,7 +64,7 @@ export default function JwtDecoderPage() {
       const payloadObj = JSON.parse(payloadJson);
       if (payloadObj.exp) {
         const expDate = new Date(payloadObj.exp * 1000);
-        setExpires(expDate.toLocaleString());
+        setExpires(expDate.toLocaleString(locale));
       } else {
         setExpires("");
       }
@@ -73,7 +74,7 @@ export default function JwtDecoderPage() {
       setPayload("");
       setExpires("");
     }
-  }, [input, t]);
+  }, [input, t, locale]);
 
   const clear = () => {
     setInput("");

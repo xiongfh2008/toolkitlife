@@ -28252,10 +28252,10 @@
     "video-transcript": {
       "metadata": {
         "title": "Extractor de transcripciones de video - Herramienta online gratuita",
-        "description": "Pega un enlace de video de YouTube o Bilibili para extraer gratis una transcripción con marcas de tiempo. Copia o exporta como TXT."
+        "description": "Pega un enlace de YouTube, Bilibili, Vimeo, Dailymotion o TED y extrae gratis una transcripción con marcas de tiempo. Copia o exporta en TXT."
       },
       "title": "Transcripción de video",
-      "description": "Pega un enlace de video de YouTube o Bilibili para extraer al instante la transcripción completa con marcas de tiempo. Copia todo o descárgalo como archivo TXT.",
+      "description": "Pega un enlace de YouTube, Bilibili, Vimeo, Dailymotion o TED para extraer al instante la transcripción completa con marcas de tiempo. Copia todo o descarga como archivo TXT.",
       "category": "Herramientas multimedia",
       "keywords": [
         "transcripción de video",
@@ -28271,14 +28271,14 @@
         "whatIs": {
           "title": "¿Qué es la transcripción de video?",
           "body": [
-            "Esta herramienta obtiene los subtítulos oficiales o generados automáticamente de enlaces de videos de YouTube y Bilibili y los convierte en una transcripción de texto limpia con marcas de tiempo. Sin descargar el video ni iniciar sesión; todo se hace en tu navegador."
+            "Esta herramienta obtiene subtítulos oficiales o generados automáticamente de enlaces de YouTube, Bilibili, Vimeo, Dailymotion y TED, y los convierte en una transcripción limpia con marcas de tiempo. Sin descargar videos, todo en línea."
           ]
         },
         "howTo": {
           "title": "Cómo usarlo",
           "intro": "Tres pasos para obtener la transcripción:",
           "items": [
-            "Pega un enlace de video de YouTube o Bilibili en el cuadro de entrada.",
+            "Pega un enlace de video de YouTube, Bilibili, Vimeo, Dailymotion o TED en el cuadro de entrada.",
             "Haz clic en el botón de extracción y espera unos segundos.",
             "Revisa el resultado, copia el texto completo o descárgalo como archivo TXT."
           ]
@@ -28295,7 +28295,7 @@
       "faqs": [
         {
           "question": "¿Qué plataformas son compatibles?",
-          "answer": "YouTube y Bilibili, incluidos los enlaces cortos de b23.tv y los ID de BV directos."
+          "answer": "Compatible con YouTube, Bilibili (incluidos enlaces cortos b23.tv e IDs BV), Vimeo, Dailymotion y TED Talks."
         },
         {
           "question": "¿Necesito iniciar sesión?",
@@ -28334,8 +28334,8 @@
       ],
       "labels": {
         "url": "Enlace del video",
-        "urlPlaceholder": "Pega un enlace de YouTube / Bilibili, p. ej. https://www.youtube.com/watch?v=... o https://www.bilibili.com/video/BV...",
-        "supported": "Compatible con YouTube, Bilibili, enlaces cortos de b23.tv e ID de BV",
+        "urlPlaceholder": "Pega un enlace de video, p. ej. https://www.youtube.com/watch?v=... o https://www.bilibili.com/video/BV...",
+        "supported": "Compatible con YouTube, Bilibili (b23.tv / IDs BV), Vimeo, Dailymotion y TED Talks",
         "advanced": "Opciones avanzadas (cookie de Bilibili)",
         "cookie": "Cookie (opcional)",
         "cookieHint": "Para vídeos que requieren inicio de sesión o cuando YouTube pide verificación (Bilibili: SESSDATA)",
@@ -28353,8 +28353,8 @@
       "errors": {
         "empty": "Introduce un enlace de video.",
         "invalidUrl": "Enlace no válido. Compruébalo e inténtalo de nuevo.",
-        "unsupported": "Enlace no compatible. Solo se admiten YouTube y Bilibili.",
-        "noSubtitle": "Este vídeo no tiene subtítulos disponibles. Para vídeos de Bilibili que requieran inicio de sesión, pega SESSDATA en las opciones avanzadas.",
+        "unsupported": "Enlace no compatible. Plataformas admitidas: YouTube, Bilibili, Vimeo, Dailymotion y TED.",
+        "noSubtitle": "Este video no tiene subtítulos disponibles (Vimeo y Dailymotion requieren subtítulos del propio video). Para videos de Bilibili, pega SESSDATA en las opciones avanzadas y reintenta.",
         "biliFailed": "No se pudo obtener la información del video. Es posible que el enlace no sea válido o que el video haya sido eliminado.",
         "failed": "Error en la extracción. Inténtalo de nuevo más tarde.",
         "botCheck": "YouTube pidió verificación humana. Pasos: inicia sesión en youtube.com → pulsa F12 → abre la pestaña Network → recarga la página → haz clic en la primera solicitud → copia todo el valor de la línea Cookie en Request Headers → pégalo en el campo Cookie de las opciones avanzadas y extrae de nuevo.",
@@ -38582,7 +38582,25 @@
         }
       ],
       "labels": {},
-      "buttons": {}
+      "buttons": {},
+      "cities": {
+        "london": "Londres",
+        "new_york": "Nueva York",
+        "los_angeles": "Los Ángeles",
+        "toronto": "Toronto",
+        "sao_paulo": "São Paulo",
+        "berlin": "Berlín",
+        "paris": "París",
+        "moscow": "Moscú",
+        "dubai": "Dubái",
+        "mumbai": "Mumbai",
+        "singapore": "Singapur",
+        "beijing": "Pekín",
+        "tokyo": "Tokio",
+        "seoul": "Seúl",
+        "sydney": "Sídney",
+        "auckland": "Auckland"
+      }
     },
     "zip-viewer": {
       "metadata": {

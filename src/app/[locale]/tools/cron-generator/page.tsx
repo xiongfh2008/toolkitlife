@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 import CopyButton from "@/components/CopyButton";
 
@@ -71,6 +71,7 @@ function getNextRuns(parts: string[], count = 5): Date[] {
 
 export default function CronGeneratorPage() {
   const t = useTranslations("tools.cron-generator");
+  const locale = useLocale();
   const [values, setValues] = useState<Record<CronField, string>>({
     minute: "0",
     hour: "0",
@@ -174,7 +175,7 @@ export default function CronGeneratorPage() {
             {nextRuns.length > 0 ? (
               nextRuns.map((run, i) => (
                 <li key={i} className="text-sm text-zinc-300 font-mono">
-                  {run.toLocaleString()}
+                  {run.toLocaleString(locale)}
                 </li>
               ))
             ) : (

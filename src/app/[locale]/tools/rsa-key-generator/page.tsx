@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
 import CopyButton from "@/components/CopyButton";
 
@@ -27,6 +27,7 @@ function toPem(label: string, bytes: Uint8Array): string {
 
 export default function RsaKeyGeneratorPage() {
   const t = useTranslations("tools.rsa-key-generator");
+  const locale = useLocale();
   const faqs = t.raw("faqs") as FAQ[];
   const relatedTools = t.raw("relatedTools") as RelatedTool[];
   const keywords = t.raw("keywords") as string[];
@@ -64,7 +65,7 @@ export default function RsaKeyGeneratorPage() {
       setMeta({
         size: keySize,
         algorithm: t("labels.algorithmValue"),
-        created: new Date().toLocaleString(),
+        created: new Date().toLocaleString(locale),
       });
     } catch {
       setError(t("labels.error"));

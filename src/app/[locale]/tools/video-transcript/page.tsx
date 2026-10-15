@@ -10,12 +10,20 @@ interface Segment {
 }
 
 interface TranscriptResult {
-  platform: "youtube" | "bilibili";
+  platform: "youtube" | "bilibili" | "vimeo" | "dailymotion" | "ted";
   title: string;
   author: string;
   language: string;
   segments: Segment[];
 }
+
+const PLATFORM_LABELS: Record<TranscriptResult["platform"], string> = {
+  youtube: "YouTube",
+  bilibili: "Bilibili",
+  vimeo: "Vimeo",
+  dailymotion: "Dailymotion",
+  ted: "TED",
+};
 
 function fmtTime(sec: number): string {
   const m = Math.floor(sec / 60);
@@ -53,9 +61,19 @@ export default function VideoTranscriptPage() {
         const code = data?.error;
         if (code === "invalid_url") setError(t("errors.invalidUrl"));
         else if (code === "unsupported_url") setError(t("errors.unsupported"));
-        else if (code === "bili_no_subtitle" || code === "no_subtitle") setError(t("errors.noSubtitle"));
+        else if (code === "bili_no_subtitle" || code === "no_subtitle") {
+          setError(t("errors.noSubtitle"));
+          // B站无字幕时自动展开 Cookie 面板，引导用户填 SESSDATA
+          if (code === "bili_no_subtitle") setShowAdvanced(true);
+        }
         else if (code === "yt_bot_check") setError(t("errors.botCheck"));
-        else if (code === "bili_view_failed") setError(t("errors.biliFailed"));
+        else if (
+          code === "bili_view_failed" ||
+          code === "vimeo_failed" ||
+          code === "dm_failed" ||
+          code === "ted_failed"
+        )
+          setError(t("errors.biliFailed"));
         else setError(t("errors.failed"));
         return;
       }
@@ -172,7 +190,7 @@ export default function VideoTranscriptPage() {
                 <h2 className="text-lg font-semibold text-zinc-100 break-words">{result.title}</h2>
                 <div className="flex flex-wrap gap-2 text-xs">
                   <span className="rounded-full bg-zinc-900 border border-zinc-700 px-2.5 py-0.5 text-zinc-300">
-                    {result.platform === "youtube" ? "YouTube" : "Bilibili"}
+                    {PLATFORM_LABELS[result.platform]}
                   </span>
                   {result.language && (
                     <span className="rounded-full bg-zinc-900 border border-zinc-700 px-2.5 py-0.5 text-zinc-300">

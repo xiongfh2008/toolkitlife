@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import ToolLayout from "@/components/ToolLayout";
 
 interface RdapEvent {
@@ -48,6 +48,7 @@ function ageText(days: number, t: (k: string, v?: { n: number }) => string): str
 
 export default function DomainAgePage() {
   const t = useTranslations("tools.domain-age");
+  const locale = useLocale();
   const [domain, setDomain] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -144,19 +145,19 @@ export default function DomainAgePage() {
             <div className="flex justify-between gap-4 py-2.5 text-sm">
               <span className="text-zinc-500">{t("labels.registrationDate")}</span>
               <span className="text-zinc-100">
-                {new Date(result.created).toLocaleDateString()}
+                {new Date(result.created).toLocaleDateString(locale)}
               </span>
             </div>
             <div className="flex justify-between gap-4 py-2.5 text-sm">
               <span className="text-zinc-500">{t("labels.expiryDate")}</span>
               <span className="text-zinc-100">
-                {result.expires ? new Date(result.expires).toLocaleDateString() : "—"}
+                {result.expires ? new Date(result.expires).toLocaleDateString(locale) : "—"}
               </span>
             </div>
             <div className="flex justify-between gap-4 py-2.5 text-sm">
               <span className="text-zinc-500">{t("labels.updatedDate")}</span>
               <span className="text-zinc-100">
-                {result.updated ? new Date(result.updated).toLocaleDateString() : "—"}
+                {result.updated ? new Date(result.updated).toLocaleDateString(locale) : "—"}
               </span>
             </div>
             {result.status.length > 0 && (

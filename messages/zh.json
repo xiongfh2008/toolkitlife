@@ -28267,10 +28267,10 @@
     "video-transcript": {
       "metadata": {
         "title": "视频文案提取 - 免费在线工具",
-        "description": "粘贴 YouTube 或 Bilibili 视频链接，免费在线提取带时间戳的视频文案与字幕，支持复制与导出 TXT。"
+        "description": "粘贴 YouTube、Bilibili、Vimeo、Dailymotion 或 TED 视频链接，免费在线提取带时间戳的视频文案与字幕，支持复制与导出 TXT。"
       },
       "title": "视频文案提取",
-      "description": "粘贴 YouTube 或 B站视频链接，秒级提取带时间戳的完整文案。支持复制全文与导出 TXT 文件。",
+      "description": "粘贴 YouTube、B站、Vimeo、Dailymotion 或 TED 视频链接，秒级提取带时间戳的完整文案。支持复制全文与导出 TXT 文件。",
       "category": "媒体工具",
       "keywords": [
         "视频文案提取",
@@ -28286,14 +28286,14 @@
         "whatIs": {
           "title": "什么是视频文案提取？",
           "body": [
-            "本工具可从 YouTube 或 Bilibili 视频链接中抓取官方字幕或自动字幕，生成带时间戳的纯文本文案。无需下载视频、无需登录，全程在浏览器内完成。"
+            "本工具可从 YouTube、Bilibili、Vimeo、Dailymotion 与 TED 视频链接中抓取官方字幕或自动字幕，生成带时间戳的纯文本文案。无需下载视频，全程在线完成。"
           ]
         },
         "howTo": {
           "title": "如何使用",
           "intro": "三步即可获得视频文案：",
           "items": [
-            "把 YouTube 或 B站视频链接粘贴到输入框。",
+            "把 YouTube、B站、Vimeo、Dailymotion 或 TED 的视频链接粘贴到输入框。",
             "点击“提取文案”按钮，等待数秒。",
             "查看结果，复制全文或下载 TXT 文件。"
           ]
@@ -28310,7 +28310,7 @@
       "faqs": [
         {
           "question": "支持哪些平台？",
-          "answer": "目前支持 YouTube 与 Bilibili（B站），包括 b23.tv 短链和纯 BV 号。"
+          "answer": "支持 YouTube、Bilibili（含 b23.tv 短链与纯 BV 号）、Vimeo、Dailymotion 与 TED 演讲。"
         },
         {
           "question": "提取需要登录吗？",
@@ -28349,8 +28349,8 @@
       ],
       "labels": {
         "url": "视频链接",
-        "urlPlaceholder": "粘贴 YouTube / Bilibili 视频链接，例如 https://www.youtube.com/watch?v=... 或 https://www.bilibili.com/video/BV...",
-        "supported": "支持 YouTube、Bilibili、b23.tv 短链与 BV 号",
+        "urlPlaceholder": "粘贴视频链接，例如 https://www.youtube.com/watch?v=... 或 https://www.bilibili.com/video/BV...",
+        "supported": "支持 YouTube、Bilibili（b23.tv 短链 / BV 号）、Vimeo、Dailymotion、TED 演讲",
         "advanced": "高级选项（B站 Cookie）",
         "cookie": "Cookie（可选）",
         "cookieHint": "用于需要登录或触发 YouTube 人机验证的视频（B站填 SESSDATA）",
@@ -28368,8 +28368,8 @@
       "errors": {
         "empty": "请输入视频链接。",
         "invalidUrl": "链接无效，请检查后重试。",
-        "unsupported": "暂不支持的链接，目前仅支持 YouTube 和 Bilibili。",
-        "noSubtitle": "该视频没有可用的字幕。B站需登录观看的字幕可在高级选项中填写 SESSDATA 后重试。",
+        "unsupported": "暂不支持的链接。目前支持 YouTube、Bilibili、Vimeo、Dailymotion 与 TED。",
+        "noSubtitle": "该视频没有可用字幕（Vimeo、Dailymotion 需视频自带字幕）。B站视频可在高级选项中填写 SESSDATA 后重试。",
         "biliFailed": "视频信息获取失败，链接可能无效或视频已删除。",
         "failed": "提取失败，请稍后重试。",
         "botCheck": "YouTube 要求人机验证。步骤：登录 youtube.com → 按 F12 打开开发者工具 → 切到 Network(网络) 标签 → 刷新页面 → 点击第一个请求 → 在 Request Headers(请求标头) 里找到 Cookie 行 → 复制冒号后的整串值 → 粘贴到上方高级选项的 Cookie 框，再重新提取。",
@@ -38612,7 +38612,25 @@
         }
       ],
       "labels": {},
-      "buttons": {}
+      "buttons": {},
+      "cities": {
+        "london": "伦敦",
+        "new_york": "纽约",
+        "los_angeles": "洛杉矶",
+        "toronto": "多伦多",
+        "sao_paulo": "圣保罗",
+        "berlin": "柏林",
+        "paris": "巴黎",
+        "moscow": "莫斯科",
+        "dubai": "迪拜",
+        "mumbai": "孟买",
+        "singapore": "新加坡",
+        "beijing": "北京",
+        "tokyo": "东京",
+        "seoul": "首尔",
+        "sydney": "悉尼",
+        "auckland": "奥克兰"
+      }
     },
     "zip-viewer": {
       "metadata": {

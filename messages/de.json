@@ -28252,10 +28252,10 @@
     "video-transcript": {
       "metadata": {
         "title": "Video Transcript Extractor - Free Online Tool",
-        "description": "Paste a YouTube or Bilibili video link to extract a timestamped transcript for free. Copy or export as TXT."
+        "description": "Füge einen YouTube-, Bilibili-, Vimeo-, Dailymotion- oder TED-Link ein und extrahiere kostenlos ein Transkript mit Zeitstempeln. Kopieren oder als TXT exportieren."
       },
       "title": "Video Transcript",
-      "description": "Paste a YouTube or Bilibili video link to instantly extract the full timestamped transcript. Copy everything or download as a TXT file.",
+      "description": "Füge einen YouTube-, Bilibili-, Vimeo-, Dailymotion- oder TED-Link ein, um sofort das vollständige Transkript mit Zeitstempeln zu extrahieren. Alles kopieren oder als TXT-Datei herunterladen.",
       "category": "Media Tools",
       "keywords": [
         "video transcript",
@@ -28271,14 +28271,14 @@
         "whatIs": {
           "title": "What is Video Transcript?",
           "body": [
-            "This tool fetches official or auto-generated subtitles from YouTube and Bilibili video links and converts them into a clean, timestamped text transcript. No video download, no login required, all done in your browser."
+            "Dieses Tool ruft offizielle oder automatisch erzeugte Untertitel von YouTube-, Bilibili-, Vimeo-, Dailymotion- und TED-Links ab und wandelt sie in ein sauberes, mit Zeitstempeln versehenes Transkript um. Kein Video-Download nötig, alles online."
           ]
         },
         "howTo": {
           "title": "How to use",
           "intro": "Three steps to get a transcript:",
           "items": [
-            "Paste a YouTube or Bilibili video link into the input box.",
+            "Füge einen Videolink von YouTube, Bilibili, Vimeo, Dailymotion oder TED in das Eingabefeld ein.",
             "Click the extract button and wait a few seconds.",
             "Review the result, copy the full text, or download it as a TXT file."
           ]
@@ -28295,7 +28295,7 @@
       "faqs": [
         {
           "question": "Which platforms are supported?",
-          "answer": "YouTube and Bilibili, including b23.tv short links and plain BV IDs."
+          "answer": "Unterstützt werden YouTube, Bilibili (einschließlich b23.tv-Kurzlinks und BV-IDs), Vimeo, Dailymotion und TED Talks."
         },
         {
           "question": "Do I need to log in?",
@@ -28334,8 +28334,8 @@
       ],
       "labels": {
         "url": "Video link",
-        "urlPlaceholder": "Paste a YouTube / Bilibili link, e.g. https://www.youtube.com/watch?v=... or https://www.bilibili.com/video/BV...",
-        "supported": "Supports YouTube, Bilibili, b23.tv short links and BV IDs",
+        "urlPlaceholder": "Videolink einfügen, z. B. https://www.youtube.com/watch?v=... oder https://www.bilibili.com/video/BV...",
+        "supported": "Unterstützt YouTube, Bilibili (b23.tv / BV-IDs), Vimeo, Dailymotion und TED Talks",
         "advanced": "Advanced (Bilibili cookie)",
         "cookie": "Cookie (optional)",
         "cookieHint": "For videos that need login or fail YouTube's bot check (Bilibili: SESSDATA)",
@@ -28353,8 +28353,8 @@
       "errors": {
         "empty": "Please enter a video link.",
         "invalidUrl": "Invalid link. Please check and try again.",
-        "unsupported": "Unsupported link. Only YouTube and Bilibili are supported.",
-        "noSubtitle": "No captions are available for this video. For Bilibili videos that require login, paste SESSDATA in the advanced options.",
+        "unsupported": "Nicht unterstützter Link. Unterstützte Plattformen: YouTube, Bilibili, Vimeo, Dailymotion und TED.",
+        "noSubtitle": "Für dieses Video sind keine Untertitel verfügbar (Vimeo und Dailymotion benötigen vom Uploader bereitgestellte Untertitel). Für Bilibili-Videos SESSDATA in den erweiterten Optionen einfügen und erneut versuchen.",
         "biliFailed": "Failed to fetch video info. The link may be invalid or the video may be removed.",
         "failed": "Extraction failed. Please try again later.",
         "botCheck": "YouTube asked for human verification. Steps: sign in to youtube.com → press F12 → open the Network tab → refresh the page → click the first request → find the Cookie line under Request Headers → copy the whole value after the colon → paste it into the Cookie field in the advanced options above, then extract again.",
@@ -38582,7 +38582,25 @@
         }
       ],
       "labels": {},
-      "buttons": {}
+      "buttons": {},
+      "cities": {
+        "london": "London",
+        "new_york": "New York",
+        "los_angeles": "Los Angeles",
+        "toronto": "Toronto",
+        "sao_paulo": "São Paulo",
+        "berlin": "Berlin",
+        "paris": "Paris",
+        "moscow": "Moskau",
+        "dubai": "Dubai",
+        "mumbai": "Mumbai",
+        "singapore": "Singapur",
+        "beijing": "Peking",
+        "tokyo": "Tokio",
+        "seoul": "Seoul",
+        "sydney": "Sydney",
+        "auckland": "Auckland"
+      }
     },
     "zip-viewer": {
       "metadata": {
