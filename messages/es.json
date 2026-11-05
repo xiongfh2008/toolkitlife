@@ -45,7 +45,6 @@
     "breadcrumbHome": "Inicio",
     "faqTitle": "Preguntas frecuentes",
     "relatedToolsTitle": "Herramientas relacionadas",
-    "keywordsSuffix": "{keywords} online gratis. Sin registro. Funciona en tu navegador.",
     "disclaimerFinancial": "Las herramientas financieras de ToolkitLife proporcionan estimaciones solo con fines informativos generales. No constituyen asesoramiento financiero y los resultados dependen de tus supuestos y tu situación. Consulta a un profesional financiero cualificado antes de tomar decisiones financieras.",
     "disclaimerHealth": "Las herramientas de salud de ToolkitLife proporcionan estimaciones generales solo con fines informativos. No constituyen consejo médico, diagnóstico ni tratamiento. Consulta siempre a un profesional de la salud cualificado sobre tu salud personal.",
     "disclaimerLegal": "Las herramientas legales de ToolkitLife proporcionan estimaciones solo con fines informativos generales y no constituyen asesoramiento legal. Las leyes varían según la jurisdicción y cambian con el tiempo. Consulta a un abogado cualificado para tu situación específica."
@@ -72,7 +71,7 @@
     },
     "why": {
       "title": "Por qué ToolkitLife",
-      "intro": "ToolkitLife es una colección de 379 herramientas y calculadoras online gratis en 16 categorías — desde convertidores de PDF y editores de imágenes hasta calculadoras de hipoteca, IMC e impuestos. Cada herramienta funciona directamente en tu navegador: nada que instalar y sin necesidad de cuenta.",
+      "intro": "ToolkitLife es una colección de 393 herramientas y calculadoras online gratis en 17 categorías — desde convertidores de PDF y editores de imágenes hasta calculadoras de hipoteca, IMC e impuestos. Cada herramienta funciona directamente en tu navegador: nada que instalar y sin necesidad de cuenta.",
       "privacy": "Tus archivos permanecen privados: las herramientas de imagen, vídeo y documentos procesan todo localmente con <mdn>WebAssembly</mdn> — tus datos nunca salen de tu dispositivo.",
       "i18n": "El sitio está disponible en inglés, chino, japonés, coreano y ruso, y cada página de herramienta incluye una guía paso a paso además de respuestas a preguntas frecuentes."
     },
@@ -2070,12 +2069,6 @@
         "category": "Imagen",
         "icon": "⚖️"
       },
-      "image-format-converter": {
-        "name": "Convertidor de imágenes por lotes",
-        "description": "Convierte varias imágenes entre PNG, JPG y WebP de una sola vez. Funciona completamente en tu navegador.",
-        "category": "Imagen",
-        "icon": "🔁"
-      },
       "image-margin": {
         "name": "Margen de imagen",
         "description": "Añade un margen transparente o de color alrededor de una imagen. Perfecto para enmarcar y añadir espacio.",
@@ -2513,7 +2506,7 @@
       {
         "title": "Cómo funciona",
         "paragraphs": [
-          "Cada herramienta se ejecuta por completo en tu navegador con JavaScript y WebAssembly. Los archivos que procesas permanecen en tu dispositivo: las imágenes, los vídeos, el audio y el texto nunca se suben a un servidor. Por eso las herramientas son rápidas, privadas y gratuitas."
+          "Cada herramienta se ejecuta por completo en tu navegador con JavaScript y WebAssembly. Los archivos que procesas permanecen en tu dispositivo: las imágenes, los vídeos, el audio y el texto nunca se suben a un servidor. Por eso las herramientas son rápidas, privadas y gratuitas. Nota: el procesamiento de archivos siempre ocurre en tu dispositivo. Algunas herramientas de red (acortador de URLs, búsqueda de IP, transcripciones de vídeo) envían solicitudes a través de la API del servidor propio de ToolkitLife, que las reenvía al servicio correspondiente; no se almacenan solicitudes ni resultados."
         ]
       },
       {
@@ -28363,11 +28356,11 @@
     },
     "address-generator": {
       "metadata": {
-        "title": "Generador de direcciones globales - Herramienta online gratuita",
-        "description": "Genera gratis direcciones aleatorias realistas de más de 20 países. Admite generación por lotes, copia y exportación TXT/CSV."
+        "title": "Generador global de direcciones - Herramienta online gratuita",
+        "description": "Genera direcciones aleatorias para más de 20 países: datos de prueba simulados en tu navegador o (si está activado) direcciones reales de datos abiertos con fuente y precisión. Generación por lotes, copia y exportación TXT/CSV."
       },
       "title": "Generador de direcciones",
-      "description": "Con la biblioteca de código abierto Faker, genera direcciones aleatorias realistas de más de 20 países: calle, ciudad, estado y código postal. Ideal para datos de prueba, formularios y demostraciones.",
+      "description": "Genera direcciones aleatorias realistas para más de 20 países——datos simulados en el navegador para pruebas y demos; cuando el sitio lo tiene activado, también puedes obtener datos de direcciones reales con su fuente. Calle, ciudad, región, código postal y coordenadas.",
       "category": "Utilidades",
       "keywords": [
         "generador de direcciones",
@@ -28383,7 +28376,8 @@
         "whatIs": {
           "title": "¿Qué es el generador de direcciones?",
           "body": [
-            "Los nombres de calles se generan localmente con la biblioteca de código abierto @faker-js/faker. Las ciudades, estados/provincias, códigos postales y coordenadas provienen de una tabla integrada con ciudades reales importantes de 24 países, por lo que cada dirección es internamente coherente."
+            "Los nombres de calles se generan localmente con la biblioteca de código abierto @faker-js/faker. Las ciudades, estados/provincias, códigos postales y coordenadas provienen de una tabla integrada con ciudades reales importantes de 24 países, por lo que cada dirección es internamente coherente.",
+            "Cuando el sitio ha desplegado el servicio opcional de direcciones reales, un segundo modo devuelve direcciones reales con su precisión y fuentes de datos."
           ]
         },
         "howTo": {
@@ -28401,6 +28395,13 @@
             "Las direcciones generadas son solo para pruebas y demostraciones: no las uses para envíos.",
             "Algunas configuraciones regionales pequeñas pueden mostrar en inglés los campos que faltan.",
             "Toda la generación ocurre localmente en tu navegador; no se sube nada."
+          ]
+        },
+        "modes": {
+          "title": "Dos modos de generación",
+          "items": [
+            "Direcciones simuladas — se generan localmente en tu navegador con @faker-js/faker sobre una tabla de ciudades reales. Los nombres de calles son ficticios; ciudad, región, código postal y coordenadas siguen ciudades reales. Útiles para pruebas, formularios y demos donde la dirección no necesita existir.",
+            "Datos de direcciones reales (opcional, en el servidor) — cuando el sitio ha desplegado el servicio Address de datos abiertos, este modo devuelve direcciones con procedencia real, su precisión (calle o portal), coordenadas y fuentes de datos. Una dirección real no garantiza que sea entregable, habitable ni esté asociada a una identidad verificada."
           ]
         }
       },
@@ -28424,6 +28425,14 @@
         {
           "question": "¿Puedo usar estas direcciones para envíos?",
           "answer": "No lo recomendamos. Las direcciones son aleatorias y pueden no corresponder a lugares reales."
+        },
+        {
+          "question": "¿En qué se diferencian las direcciones simuladas y los datos reales?",
+          "answer": "Las direcciones simuladas se generan en el navegador: los nombres de calles son ficticios (Faker), mientras que ciudad, región, código postal y coordenadas provienen de una tabla de ciudades reales. Los datos reales (cuando el sitio los activa) provienen de un servicio autoalojado de datos abiertos; cada dirección incluye fuente, precisión y coordenadas."
+        },
+        {
+          "question": "¿Las direcciones reales son entregables o verificadas?",
+          "answer": "No. Que una dirección tenga fuente real significa que la calle o el portal existe en fuentes de datos abiertos; no garantiza que el correo pueda entregarse, que el edificio sea habitable ni que esté asociada a alguna persona. Los resultados de ToolkitLife nunca incluyen perfiles de personas sintéticas."
         }
       ],
       "relatedTools": [
@@ -28452,11 +28461,35 @@
         "downloadTxt": "Exportar TXT",
         "city": "Ciudad",
         "zip": "Código postal",
-        "region": "Estado / Provincia"
+        "region": "Estado / Provincia",
+        "mode": "Modo de generación",
+        "modeSimulated": "Direcciones simuladas",
+        "modeReal": "Datos de direcciones reales",
+        "modeSimulatedHint": "Generadas localmente en tu navegador con Faker. Solo para pruebas y demostraciones: no se garantiza que existan en el mundo real.",
+        "modeRealHint": "Direcciones con procedencia real (a nivel de calle o de portal) de un servicio de direcciones de datos abiertos autoalojado.",
+        "district": "Distrito / Municipio",
+        "postcode": "Código postal",
+        "residential": "Solo direcciones residenciales",
+        "displayLanguage": "Idioma de visualización",
+        "displayOriginal": "Dirección original",
+        "precision": "Precisión de la dirección",
+        "precisionStreet": "Nivel de calle",
+        "precisionPremise": "Nivel de portal",
+        "precisionSubpremise": "Portal con unidad",
+        "source": "Fuente de datos",
+        "residentialBadge": "Residencial",
+        "notProvided": "No disponible",
+        "coordsNote": "Las coordenadas son posiciones aproximadas en un radio de unos 5 km del centro de la ciudad: indican la zona general, no la puerta exacta."
       },
       "errors": {
         "failed": "No se pudieron generar las direcciones. Inténtalo de nuevo.",
-        "copyFailed": "Error al copiar. Copia manualmente."
+        "copyFailed": "Error al copiar. Copia manualmente.",
+        "realUnavailable": "El servicio de direcciones reales no está disponible temporalmente. Inténtalo más tarde.",
+        "noCoverage": "Aún no hay datos de direcciones para el área seleccionada. Amplía la zona o elige otra región.",
+        "rateLimited": "Demasiadas solicitudes. Espera un momento e inténtalo de nuevo.",
+        "invalidRequest": "La solicitud no es válida. Revisa los filtros.",
+        "exhausted": "El área seleccionada tiene menos direcciones de las solicitadas: se muestran todas las disponibles.",
+        "optionsUnavailable": "No se pudo cargar la lista de áreas. Inténtalo de nuevo."
       }
     },
     "slideshow-maker": {
@@ -34861,8 +34894,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "Convertidor de formato de imágenes",
-          "href": "/tools/image-format-converter"
+          "name": "Conversor de formato de imágenes",
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -35041,8 +35074,8 @@
       ],
       "relatedTools": [
         {
-          "name": "Convertidor de formato de imagen",
-          "href": "/tools/image-format-converter"
+          "name": "Conversor de formato de imágenes",
+          "href": "/tools/convert"
         },
         {
           "name": "Compresor de imágenes",
@@ -35611,8 +35644,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "Convertidor de formato de imagen",
-          "href": "/tools/image-format-converter"
+          "name": "Conversor de formato de imágenes",
+          "href": "/tools/convert"
         },
         {
           "name": "Redimensionador de imágenes",
@@ -35633,61 +35666,6 @@
         "cannotReach": "No se pudo alcanzar el tamaño objetivo",
         "target": "Tamaño objetivo (KB)",
         "resultSize": "Tamaño del resultado"
-      }
-    },
-    "image-format-converter": {
-      "metadata": {
-        "title": "Conversor de imágenes por lotes - PNG JPG WebP online",
-        "description": "Convierte varias imágenes entre PNG, JPG y WebP de una sola vez. Funciona completamente en tu navegador. Gratis y privado."
-      },
-      "title": "Convertidor de formato de imagen",
-      "description": "Convierte una o muchas imágenes entre PNG, JPG y WebP a la vez. Ajusta la calidad para JPG y WebP, y luego descarga los resultados.",
-      "category": "Imagen",
-      "keywords": [
-        "convertidor de formato de imagen",
-        "convertir png a jpg",
-        "convertir jpg a webp",
-        "conversor de imágenes por lotes",
-        "cambiar formato de imagen",
-        "convertidor webp"
-      ],
-      "faqs": [
-        {
-          "question": "¿Qué formatos son compatibles?",
-          "answer": "PNG, JPG y WebP. Puedes convertir desde cualquier formato de imagen de entrada a cualquiera de estos tres formatos de salida."
-        },
-        {
-          "question": "¿Se suben mis imágenes a un servidor?",
-          "answer": "No. Todo se procesa localmente en tu navegador: tus imágenes nunca salen de tu dispositivo."
-        }
-      ],
-      "relatedTools": [
-        {
-          "name": "Compresor de imágenes",
-          "href": "/tools/image-compressor"
-        },
-        {
-          "name": "Peso de imagen",
-          "href": "/tools/image-file-size"
-        },
-        {
-          "name": "Imagen a GIF",
-          "href": "/tools/image-to-gif"
-        }
-      ],
-      "upload": {
-        "drop": "Suelta aquí las imágenes",
-        "multi": "Puedes seleccionar varias imágenes"
-      },
-      "buttons": {
-        "reset": "Restablecer",
-        "download": "Descargar"
-      },
-      "labels": {
-        "format": "Formato de salida",
-        "quality": "Calidad",
-        "processing": "Convirtiendo...",
-        "results": "Resultados"
       }
     },
     "image-margin": {
@@ -35959,8 +35937,8 @@
           "href": "/tools/image-file-size"
         },
         {
-          "name": "Convertidor de formato de imágenes",
-          "href": "/tools/image-format-converter"
+          "name": "Conversor de formato de imágenes",
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -36013,8 +35991,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "Convertidor de formato de imágenes",
-          "href": "/tools/image-format-converter"
+          "name": "Conversor de formato de imágenes",
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -36398,8 +36376,8 @@
       ],
       "relatedTools": [
         {
-          "name": "Convertidor de formato de imágenes",
-          "href": "/tools/image-format-converter"
+          "name": "Conversor de formato de imágenes",
+          "href": "/tools/convert"
         },
         {
           "name": "Imagen a Base64",
@@ -39328,8 +39306,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON a YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "Formateador JSON",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39424,8 +39402,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON a YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "Formateador JSON",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39520,8 +39498,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON a YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "Formateador JSON",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39616,8 +39594,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON a YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "Formateador JSON",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39712,8 +39690,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON a YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "Formateador JSON",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39808,8 +39786,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON a YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "Formateador JSON",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39904,8 +39882,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON a YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "Formateador JSON",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {

@@ -13,8 +13,7 @@
       "색상 팔레트 생성기",
       "Base64 인코더",
       "정규식 테스터",
-      "회원가입 없는 도구",
-      "good morning images"
+      "회원가입 없는 도구"
     ],
     "ogTitle": "ToolkitLife - 무료 개발자 및 디자인 도구",
     "ogDescription": "390개 이상의 무료 브라우저 기반 도구 및 계산기. 회원가입 없음, 데이터 저장 없음. 모두 로컬에서 실행.",
@@ -45,7 +44,6 @@
     "breadcrumbHome": "홈",
     "faqTitle": "자주 묻는 질문",
     "relatedToolsTitle": "관련 도구",
-    "keywordsSuffix": "무료 온라인 {keywords}. 회원가입 불필요. 브라우저에서 작동.",
     "disclaimerFinancial": "ToolkitLife의 금융 도구는 일반적인 정보 제공 및 추정 계산만을 목적으로 하며, 금융 조언이 아닙니다. 결과는 사용자의 가정과 상황에 따라 달라집니다. 금융 결정을 내리기 전에 자격을 갖춘 전문가와 상담하세요.",
     "disclaimerHealth": "ToolkitLife의 건강 도구는 일반적인 추정치를 정보 제공 목적으로만 제공합니다. 의학적 조언, 진단 또는 치료가 아닙니다. 개인의 건강에 관해서는 항상 자격을 갖춘 의료 전문가와 상담하세요.",
     "disclaimerLegal": "ToolkitLife의 법률 도구는 일반적인 정보 제공 및 추정 목적으로만 제공되며 법률 조언이 아닙니다. 법률은 관할권에 따라 다르고 시간이 지나면 변경됩니다. 구체적인 상황에 대해서는 자격을 갖춘 변호사와 상담하세요."
@@ -72,7 +70,7 @@
     },
     "why": {
       "title": "ToolkitLife을 선택해야 하는 이유",
-      "intro": "ToolkitLife는 PDF 변환, 이미지 편집부터 주택담보대출·BMI·세금 계산기까지 16개 카테고리의 379개 무료 온라인 도구를 제공합니다. 모든 도구는 브라우저에서 바로 실행되며 설치나 가입이 필요 없습니다.",
+      "intro": "ToolkitLife는 PDF 변환, 이미지 편집부터 주택담보대출·BMI·세금 계산기까지 17개 카테고리의 393개 무료 온라인 도구를 제공합니다. 모든 도구는 브라우저에서 바로 실행되며 설치나 가입이 필요 없습니다.",
       "privacy": "파일은 안전하게 보호됩니다. 이미지·동영상·문서 도구는 <mdn>WebAssembly</mdn>로 브라우저 안에서만 처리되며 데이터는 기기를 벗어나지 않습니다.",
       "i18n": "사이트는 한국어·영어·중국어·일본어·러시아어 5개 언어를 지원하며, 각 도구 페이지에 사용 가이드와 FAQ를 제공합니다."
     },
@@ -2070,12 +2068,6 @@
         "category": "이미지",
         "icon": "⚖️"
       },
-      "image-format-converter": {
-        "name": "일괄 이미지 형식 변환기",
-        "description": "여러 이미지를 한 번에 PNG·JPG·WebP로 변환합니다. 브라우저에서 완전 처리.",
-        "category": "이미지",
-        "icon": "🔁"
-      },
       "image-margin": {
         "name": "이미지 여백 추가",
         "description": "이미지 주변에 투명 또는 컬러 여백을 추가합니다. 프레임과 패딩에 유용.",
@@ -2513,7 +2505,7 @@
       {
         "title": "동작 방식",
         "paragraphs": [
-          "모든 도구는 JavaScript와 WebAssembly로 브라우저 안에서만 실행됩니다. 처리하는 파일(이미지, 동영상, 오디오, 텍스트)은 절대 서버로 업로드되지 않고 기기에만 남습니다. 그래서 빠르고, 비공개이며, 무료입니다."
+          "모든 도구는 JavaScript와 WebAssembly로 브라우저 안에서만 실행됩니다. 처리하는 파일(이미지, 동영상, 오디오, 텍스트)은 절대 서버로 업로드되지 않고 기기에만 남습니다. 그래서 빠르고, 비공개이며, 무료입니다. 참고: 파일 처리는 항상 기기에서 수행됩니다. 일부 네트워킹 도구(URL 단축, IP 조회, 영상 자막)는 ToolkitLife 자체 서버 API를 통해 관련 서비스로 요청을 중계하며, 요청이나 결과는 저장되지 않습니다."
         ]
       },
       {
@@ -28602,10 +28594,10 @@
     "address-generator": {
       "metadata": {
         "title": "글로벌 주소 생성기 - 무료 온라인 도구",
-        "description": "전 세계 20개 이상 국가/지역의 랜덤 주소를 무료로 생성합니다. 일괄 생성·복사·TXT/CSV 내보내기 지원."
+        "description": "20+ 개국 랜덤 주소 생성: 브라우저 내 가상 테스트 데이터 또는 (사이트 활성화 시) 출처와 정확도가 있는 실제 주소. 대량 생성, 복사, TXT/CSV 내보내기 지원."
       },
       "title": "주소 생성기",
-      "description": "오픈소스 Faker 라이브러리를 사용해 미국·영국·중국·일본·한국 등 20개 이상 국가/지역의 현실적인 주소를 생성합니다. 테스트 데이터와 양식 작성에 적합합니다.",
+      "description": "20+ 개국의 사실적인 랜덤 주소 생성——브라우저 내 가상 데이터는 테스트·데모용이며, 사이트 활성화 시 출처 기반의 실제 주소 데이터도 제공됩니다. 거리·도시·지역·우편번호·좌표 포함.",
       "category": "유틸리티",
       "keywords": [
         "주소 생성기",
@@ -28621,7 +28613,8 @@
         "whatIs": {
           "title": "주소 생성기란?",
           "body": [
-            "거리 이름은 오픈소스 @faker-js/faker 라이브러리로 로컬 생성합니다. 도시·시/도·우편번호·좌표는 24개국 실제 주요 도시를 수록한 내장 테이블에서 가져오므로 각 주소의 일관성이 보장됩니다."
+            "거리 이름은 오픈소스 @faker-js/faker 라이브러리로 로컬 생성합니다. 도시·시/도·우편번호·좌표는 24개국 실제 주요 도시를 수록한 내장 테이블에서 가져오므로 각 주소의 일관성이 보장됩니다.",
+            "사이트가 선택적 실제 주소 서비스를 배포한 경우, 두 번째 모드로 정확도와 출처가 포함된 실제 주소를 얻을 수 있습니다."
           ]
         },
         "howTo": {
@@ -28639,6 +28632,13 @@
             "생성된 주소는 테스트·데모용이며 실제 배송에는 사용하지 마세요.",
             "일부 소규모 로케일은 누락된 필드가 영어로 대체될 수 있습니다.",
             "모든 생성은 브라우저 로컬에서 이루어지며 데이터가 업로드되지 않습니다."
+          ]
+        },
+        "modes": {
+          "title": "2 가지 생성 모드",
+          "items": [
+            "가상 주소 — 브라우저에서 @faker-js/faker와 실제 도시 테이블을 기반으로 생성됩니다. 거리 이름은 가상이지만 도시·지역·우편번호·좌표는 실제 도시를 따릅니다. 주소의 실존이 필요 없는 테스트·데모에 적합합니다.",
+            "실제 주소 데이터(선택적·서버 측) — 사이트가 오픈데이터 주소 서비스를 배포한 경우, 출처·정확도(거리/번지 수준)·좌표가 포함된 실제 주소를 반환합니다. 실제 주소가 배달 가능·거주 가능·신원 확인됨을 의미하지 않습니다."
           ]
         }
       },
@@ -28662,6 +28662,14 @@
         {
           "question": "실제 배송에 사용할 수 있나요?",
           "answer": "권장하지 않습니다. 랜덤 생성이므로 실제 존재하지 않는 위치일 수 있습니다."
+        },
+        {
+          "question": "가상 주소와 실제 주소 데이터의 차이는 무엇인가요?",
+          "answer": "가상 주소는 브라우저에서 생성됩니다(거리 이름은 가상, 도시·지역 등은 실제 도시 기반). 실제 주소 데이터는 사이트가 활성화된 경우 오픈데이터 서비스에서 가져오며, 각 주소에 출처·정확도·좌표가 포함됩니다."
+        },
+        {
+          "question": "실제 주소는 배달 가능하거나 검증되었나요?",
+          "answer": "아니요. 출처 기반 주소는 공개 데이터에 거리·번지가 존재함을 나타낼 뿐, 우편 배달·거주 가능성·특정 인물과의 연관성을 보장하지 않습니다. ToolkitLife 결과에는 가상 인물 정보가 포함되지 않습니다."
         }
       ],
       "relatedTools": [
@@ -28690,11 +28698,35 @@
         "downloadTxt": "TXT 내보내기",
         "city": "도시",
         "zip": "우편번호",
-        "region": "시/도"
+        "region": "시/도",
+        "mode": "생성 모드",
+        "modeSimulated": "가상 주소",
+        "modeReal": "실제 주소 데이터",
+        "modeSimulatedHint": "Faker로 브라우저에서 로컬 생성됩니다. 테스트 및 데모 전용이며 실제 존재를 보장하지 않습니다.",
+        "modeRealHint": "자체 호스팅 오픈데이터 주소 서비스에서 제공하는 출처 기반의 실제 주소(가로수준 또는 번지수준)입니다.",
+        "district": "구/군",
+        "postcode": "우편번호",
+        "residential": "주거 주소만",
+        "displayLanguage": "표시 언어",
+        "displayOriginal": "원본 주소",
+        "precision": "주소 정확도",
+        "precisionStreet": "거리 수준",
+        "precisionPremise": "번지 수준",
+        "precisionSubpremise": "번지 수준(호실 포함)",
+        "source": "데이터 출처",
+        "residentialBadge": "주거",
+        "notProvided": "제공 안 됨",
+        "coordsNote": "좌표는 도심 중심으로부터 약 5km 이내의 근사 위치로, 대략적인 지역만 나타내며 정확한 위치가 아닙니다."
       },
       "errors": {
         "failed": "주소 생성에 실패했습니다. 다시 시도하세요.",
-        "copyFailed": "복사에 실패했습니다. 직접 복사하세요."
+        "copyFailed": "복사에 실패했습니다. 직접 복사하세요.",
+        "realUnavailable": "실제 주소 서비스를 일시적으로 사용할 수 없습니다. 나중에 다시 시도해 주세요.",
+        "noCoverage": "선택한 범위에 아직 주소 데이터가 없습니다. 범위를 넓히거나 다른 지역을 선택해 보세요.",
+        "rateLimited": "요청이 너무 많습니다. 잠시 후 다시 시도해 주세요.",
+        "invalidRequest": "요청이 잘못되었습니다. 필터를 확인해 주세요.",
+        "exhausted": "선택한 범위에 요청한 수보다 적은 주소가 있어 실제 반환 가능한 수만 표시합니다.",
+        "optionsUnavailable": "지역 목록을 불러오지 못했습니다. 다시 시도해 주세요."
       }
     },
     "slideshow-maker": {
@@ -35101,8 +35133,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "이미지 형식 변환",
-          "href": "/tools/image-format-converter"
+          "name": "이미지 형식 변환기",
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -35281,8 +35313,8 @@
       ],
       "relatedTools": [
         {
-          "name": "이미지 형식 변환",
-          "href": "/tools/image-format-converter"
+          "name": "이미지 형식 변환기",
+          "href": "/tools/convert"
         },
         {
           "name": "이미지 압축",
@@ -35852,7 +35884,7 @@
         },
         {
           "name": "이미지 형식 변환기",
-          "href": "/tools/image-format-converter"
+          "href": "/tools/convert"
         },
         {
           "name": "이미지 크기 조정기",
@@ -35873,61 +35905,6 @@
         "cannotReach": "목표 크기에 도달할 수 없습니다",
         "target": "목표 크기 (KB)",
         "resultSize": "결과 크기"
-      }
-    },
-    "image-format-converter": {
-      "metadata": {
-        "title": "일괄 이미지 형식 변환기 - PNG JPG WebP 온라인 변환",
-        "description": "여러 이미지를 한 번에 PNG·JPG·WebP로 변환합니다. 브라우저에서 완전 처리. 무료·프라이버시 보호."
-      },
-      "title": "이미지 형식 변환기",
-      "description": "한 장 또는 여러 이미지를 한 번에 PNG·JPG·WebP로 변환합니다. JPG·WebP 품질을 조절하고 결과를 다운로드하세요.",
-      "category": "이미지",
-      "keywords": [
-        "이미지 형식 변환",
-        "png를 jpg로",
-        "jpg를 webp로",
-        "이미지 일괄 변환",
-        "이미지 형식 변경",
-        "webp 변환"
-      ],
-      "faqs": [
-        {
-          "question": "어떤 형식을 지원하나요?",
-          "answer": "PNG·JPG·WebP를 지원하며, 어떤 입력 형식이든 이 세 가지 출력 형식 중 하나로 변환할 수 있습니다."
-        },
-        {
-          "question": "이미지가 서버에 업로드되나요?",
-          "answer": "아니요. 모든 처리가 브라우저에서 로컬로 이루어지므로 이미지가 기기를 떠나지 않습니다."
-        }
-      ],
-      "relatedTools": [
-        {
-          "name": "이미지 압축기",
-          "href": "/tools/image-compressor"
-        },
-        {
-          "name": "이미지 파일 크기 조정",
-          "href": "/tools/image-file-size"
-        },
-        {
-          "name": "이미지 GIF 제작기",
-          "href": "/tools/image-to-gif"
-        }
-      ],
-      "upload": {
-        "drop": "이미지를 여기에 놓으세요",
-        "multi": "여러 이미지를 한 번에 선택할 수 있습니다"
-      },
-      "buttons": {
-        "reset": "초기화",
-        "download": "다운로드"
-      },
-      "labels": {
-        "format": "출력 형식",
-        "quality": "품질",
-        "processing": "변환 중...",
-        "results": "변환 결과"
       }
     },
     "image-margin": {
@@ -36199,8 +36176,8 @@
           "href": "/tools/image-file-size"
         },
         {
-          "name": "이미지 형식 변환",
-          "href": "/tools/image-format-converter"
+          "name": "이미지 형식 변환기",
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -36253,8 +36230,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "이미지 형식 변환",
-          "href": "/tools/image-format-converter"
+          "name": "이미지 형식 변환기",
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -36639,7 +36616,7 @@
       "relatedTools": [
         {
           "name": "이미지 형식 변환기",
-          "href": "/tools/image-format-converter"
+          "href": "/tools/convert"
         },
         {
           "name": "이미지를 Base64로",
@@ -39568,8 +39545,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON을 YAML로 변환",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON 포맷터",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39664,8 +39641,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON을 YAML로 변환",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON 포맷터",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39760,8 +39737,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON을 YAML로 변환",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON 포맷터",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39856,8 +39833,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON을 YAML로 변환",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON 포맷터",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39952,8 +39929,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON을 YAML로 변환",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON 포맷터",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -40048,8 +40025,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON을 YAML로 변환",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON 포맷터",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -40144,8 +40121,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON을 YAML로 변환",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON 포맷터",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {

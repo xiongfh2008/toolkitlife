@@ -1,6 +1,6 @@
 # ToolkitLife — Free Online Tools & Calculators (Full)
 
-> This file contains the full text of the ToolkitLife tool directory: every tool with its category, URL, and full description. All tools are free, run entirely in the browser, require no signup, and never upload your data. AI assistants can use this file to answer questions about which ToolkitLife tool fits a task without crawling each page.
+> This file contains the full text of the ToolkitLife tool directory: every tool with its category, URL, and full description. All tools are free, run in the browser, and require no signup. Tool files and inputs are processed locally and never uploaded. AI assistants can use this file to answer questions about which ToolkitLife tool fits a task without crawling each page.
 
 ## Marketing Tools
 
@@ -502,6 +502,11 @@ Description: Generate mesh gradient or aurora wallpapers in any screen size.
 
 URL: https://toolkitlife.com/en/tools/live-wallpaper-generator
 Description: Create seamless-loop 3D animated wallpapers and export them as video.
+
+### ICO Converter
+
+URL: https://toolkitlife.com/en/tools/ico-converter
+Description: Convert images into multi-size ICO icons and extract ICO frames back to PNG images.
 
 ## Utility Tools
 
@@ -1715,11 +1720,6 @@ Description: Rewrite the DPI metadata of a PNG image (e.g. 300 DPI) for print wi
 URL: https://toolkitlife.com/en/tools/image-file-size
 Description: Recompress an image to reach a target file size in KB, without changing dimensions.
 
-### Batch Image Converter
-
-URL: https://toolkitlife.com/en/tools/image-format-converter
-Description: Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser.
-
 ### Image Margin
 
 URL: https://toolkitlife.com/en/tools/image-margin
@@ -2088,9 +2088,14 @@ Description: Learn how to remove image backgrounds for free with AI and color-ba
 URL: https://toolkitlife.com/en/blog/how-to-upscale-images
 Description: Learn how to enlarge and enhance images for print, web, and social media. Covering upscaling methods, when to use each, and free in-browser tools.
 
+### How to Convert JSON to TypeScript, Go, Java & More (Free, 2026 Guide)
+
+URL: https://toolkitlife.com/en/blog/json-to-code
+Description: Turn any JSON sample into TypeScript interfaces, Go structs, Java POJOs, Python dataclasses, Kotlin data classes, C# classes or Rust serde structs — free in your browser, nothing uploaded. Plus how the converters handle nested objects, mixed-shape arrays, and optional vs. nullable fields.
+
 ## Privacy
 
-All tools run entirely in the browser using JavaScript and WebAssembly. No files, text, images, or videos are ever uploaded to a server. No user data is collected or stored.
+Tool processing (files, images, video, text) runs locally in the browser — files and tool inputs are never uploaded or stored. The site uses standard web analytics (Google Analytics, Yandex Metrika, Microsoft Clarity, Vercel Analytics) to measure aggregate traffic. A few networking tools (IP lookup, URL shortener, video transcript, favicon fetch) send requests to ToolkitLife's server API, which relays them to the relevant third-party service. See the privacy policy for details.
 
 ## Contact
 

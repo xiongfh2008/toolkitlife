@@ -45,9 +45,17 @@ const RAW: Record<string, string[]> = {
     "西安|陕西省|710002,710004,710008|34.3416,108.9398",
     "天津|天津市|300041,300042,300051|39.3434,117.3616",
   ],
+  zh_TW: [
+    "台北|台北市|100,104,106,110|25.0330,121.5654",
+    "新北|新北市|220,221,231|25.0120,121.4650",
+    "桃園|桃園市|320,330,333|24.9936,121.3010",
+    "台中|台中市|400,403,408|24.1477,120.6736",
+    "台南|台南市|700,701,704|22.9999,120.2269",
+    "高雄|高雄市|800,801,802|22.6273,120.3014",
+  ],
   en_GB: [
     "London|Greater London|EC1A 1BB,WC2H 7BX,W1A 0AX|51.5074,-0.1278",
-    "Manchester|Greater Manchester|M1 1AE,M1 4BT|M53.4808,-2.2426",
+    "Manchester|Greater Manchester|M1 1AE,M1 4BT|53.4808,-2.2426",
     "Birmingham|West Midlands|B1 1BB,B2 4QA|52.4862,-1.8904",
     "Leeds|West Yorkshire|LS1 1BA,LS1 5AB|53.8008,-1.5491",
     "Liverpool|Merseyside|L1 8HY,L2 2DP|53.4084,-2.9916",
@@ -203,9 +211,11 @@ const RAW: Record<string, string[]> = {
     "Şahinbey|Gaziantep|27010,27090|37.0662,37.3833",
   ],
   ar: [
-    "Dubai|Dubai|00000|25.2048,55.2708",
-    "Abu Dhabi|Abu Dhabi|00000|24.4539,54.3773",
-    "Sharjah|Sharjah|00000|25.3463,55.4209",
+    // The UAE has no universal postcode system — zip stays empty instead of a
+    // placeholder like "00000" (see docs/seo-audit-baseline.md P1-3).
+    "Dubai|Dubai||25.2048,55.2708",
+    "Abu Dhabi|Abu Dhabi||24.4539,54.3773",
+    "Sharjah|Sharjah||25.3463,55.4209",
   ],
   vi: [
     "Hoàn Kiếm|Hà Nội|100000,111100|21.0278,105.8342",

@@ -8,7 +8,7 @@
 
 **[ToolkitLife](https://www.toolkitlife.com)** is a collection of **393 free online tools and calculators** across 17 categories — from PDF converters and image editors to mortgage, BMI and tax calculators.
 
-Every tool runs **entirely in your browser**. Nothing is uploaded, nothing is stored.
+Every tool runs in your browser — the files you process never leave your device. (A few networking tools relay requests through our server API; see the [Privacy Policy](https://www.toolkitlife.com/en/privacy).)
 
 > 🔒 **Privacy-first:** your files never leave your device — processing happens locally via Canvas, WebAssembly and modern Web APIs. No signup, no accounts, no limits, no tracking.
 
@@ -16,7 +16,7 @@ Every tool runs **entirely in your browser**. Nothing is uploaded, nothing is st
 
 ## Why ToolkitLife?
 
-- **100% client-side** — files are processed on your device, never on a server
+- **Client-side file processing** — the files you process stay on your device, never on a server
 - **No signup** — open a tool and use it, no account or email required
 - **No limits** — no daily quotas, paywalls or watermarks
 - **393 tools, 17 categories** — one site instead of 50 bookmarked utilities

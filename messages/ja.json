@@ -13,8 +13,7 @@
       "カラーパレット生成",
       "Base64エンコーダー",
       "正規表現テスター",
-      "会員登録不要ツール",
-      "good morning images"
+      "会員登録不要ツール"
     ],
     "ogTitle": "ToolkitLife - 無料の開発者＆デザインツール",
     "ogDescription": "390個以上の無料ブラウザベースツールと計算機。会員登録不要、データ保存なし。すべてローカルで動作します。",
@@ -45,7 +44,6 @@
     "breadcrumbHome": "ホーム",
     "faqTitle": "よくある質問",
     "relatedToolsTitle": "関連ツール",
-    "keywordsSuffix": "無料のオンライン{keywords}。会員登録不要。ブラウザで動作します。",
     "disclaimerFinancial": "ToolkitLife の金融ツールは一般的な情報提供と推定値の算出のみを目的としており、投資・財務アドバイスではありません。結果は前提条件や状況によって異なります。財務上の判断を行う前に、資格を持つ専門家にご相談ください。",
     "disclaimerHealth": "ToolkitLife のヘルスケアツールは一般的な推定値を情報提供のみの目的で算出します。医療アドバイス、診断、治療を構成するものではありません。健康に関するご質問は、必ず資格を持つ医療従事者にご相談ください。",
     "disclaimerLegal": "ToolkitLife の法律ツールは一般的な情報提供と推定値の算出のみを目的としており、法的助言ではありません。法律は法域や時期により異なります。具体的なご状況については、資格を持つ弁護士にご相談ください。"
@@ -72,7 +70,7 @@
     },
     "why": {
       "title": "ToolkitLife の特長",
-      "intro": "ToolkitLife は PDF 変換、画像編集から住宅ローン・BMI・税金の計算まで、16 カテゴリ・379 個の無料オンラインツールを収録しています。すべてブラウザで直接動作し、インストールも登録も不要です。",
+      "intro": "ToolkitLife は PDF 変換、画像編集から住宅ローン・BMI・税金の計算まで、17 カテゴリ・393 個の無料オンラインツールを収録しています。すべてブラウザで直接動作し、インストールも登録も不要です。",
       "privacy": "ファイルのプライバシーも安心：<mdn>WebAssembly</mdn> により、画像・動画・ドキュメントの処理はすべてブラウザ内で完結し、データは端末の外に出ません。",
       "i18n": "サイトは日本語・英語・中国語・韓国語・ロシア語の 5 言語に対応し、各ツールページには使い方ガイドと FAQ を掲載しています。"
     },
@@ -2070,12 +2068,6 @@
         "category": "画像",
         "icon": "⚖️"
       },
-      "image-format-converter": {
-        "name": "一括画像フォーマット変換",
-        "description": "複数画像を一括で PNG・JPG・WebP に変換。すべてブラウザ内で完結。",
-        "category": "画像",
-        "icon": "🔁"
-      },
       "image-margin": {
         "name": "画像マージン追加",
         "description": "画像の周囲に透明またはカラーの余白を追加。フレームや余白調整に最適。",
@@ -2513,7 +2505,7 @@
       {
         "title": "仕組み",
         "paragraphs": [
-          "すべてのツールはJavaScriptとWebAssemblyを使ってブラウザ内で動作します。画像・動画・音声・テキストなどのファイルは一切サーバーにアップロードされず、端末内に留まります。だからこそ高速でプライベート、そして無料です。"
+          "すべてのツールはJavaScriptとWebAssemblyを使ってブラウザ内で動作します。画像・動画・音声・テキストなどのファイルは一切サーバーにアップロードされず、端末内に留まります。だからこそ高速でプライベート、そして無料です。 注：ファイル処理は常にデバイス上で行われます。一部のネットワーク系ツール（短縮URL・IP検索・動画字幕）は、ToolkitLife 自身のサーバー API を経由して各サービスにリクエストを中継します。リクエストや結果は保存されません。"
         ]
       },
       {
@@ -28601,11 +28593,11 @@
     },
     "address-generator": {
       "metadata": {
-        "title": "グローバル住所生成 - 無料オンラインツール",
-        "description": "世界 20 以上の国・地域のランダムな住所を無料で生成。一括生成・コピー・TXT/CSV 書き出しに対応。"
+        "title": "グローバル住所ジェネレーター - 無料オンラインツール",
+        "description": "20+ か国のランダム住所を生成：ブラウザ内シミュレーション、または（サイト有効化時）出典・精度付きの実在住所データ。一括生成、コピー、TXT/CSV エクスポートに対応。"
       },
       "title": "住所生成",
-      "description": "オープンソースの Faker ライブラリを使用し、米国・英国・中国・日本・韓国など 20 以上の国・地域のリアルな住所を生成。テストデータやフォーム入力に最適です。",
+      "description": "20+ か国のリアルなランダム住所を生成——ブラウザ内シミュレーションはテスト・デモ向け。サイト有効化時は出典付きの実在住所データも取得できます。街道・市区町村・都道府県・郵便番号・座標を含みます。",
       "category": "便利ツール",
       "keywords": [
         "住所生成",
@@ -28621,7 +28613,8 @@
         "whatIs": {
           "title": "住所生成とは？",
           "body": [
-            "通り名はオープンソースの @faker-js/faker ライブラリでローカル生成します。市区町村・都道府県・郵便番号・座標は 24 か国の実在主要都市を収録した内蔵テーブルから取得するため、各住所の整合性が保たれます。"
+            "通り名はオープンソースの @faker-js/faker ライブラリでローカル生成します。市区町村・都道府県・郵便番号・座標は 24 か国の実在主要都市を収録した内蔵テーブルから取得するため、各住所の整合性が保たれます。",
+            "サイトがオプションの実在住所サービスをデプロイしている場合、第 2 のモードで精度と出典付きの実在住所を取得できます。"
           ]
         },
         "howTo": {
@@ -28639,6 +28632,13 @@
             "生成した住所はテストやデモ専用です。実際の発送には使用しないでください。",
             "一部の小規模ロケールでは、欠落フィールドが英語にフォールバックします。",
             "すべてローカルで生成されるため、データがアップロードされることはありません。"
+          ]
+        },
+        "modes": {
+          "title": "2 つの生成モード",
+          "items": [
+            "シミュレーション住所 — ブラウザ内で @faker-js/faker と実在都市テーブルを基に生成します。通称名は架空ですが、市区町村・郵便番号・座標は実在都市に準拠します。住所の実在性が不要なテストやデモに最適です。",
+            "実在住所データ（オプション・サーバー側）— サイトがオープンデータ住所サービスをデプロイしている場合、出典・精度（街道/番地レベル）・座標付きの実在住所を返します。実在住所は郵便配達可能・入居可能・本人確認済みを意味しません。"
           ]
         }
       },
@@ -28662,6 +28662,14 @@
         {
           "question": "実際の発送に使えますか？",
           "answer": "おすすめしません。ランダム生成のため、実在しない場所に対応する可能性があります。"
+        },
+        {
+          "question": "シミュレーション住所と実在住所データの違いは？",
+          "answer": "シミュレーション住所はブラウザ内で生成されます（通称名は架空、市区町村等は実在都市準拠）。実在住所データはサイト有効化後、オープンデータサービスから取得され、各住所に出典・精度・座標が付きます。"
+        },
+        {
+          "question": "実在住所は配達可能・検証済みですか？",
+          "answer": "いいえ。出典付き住所はオープンデータに街路・番地が存在することを示すだけで、郵便配達・居住可能性・人物との関連を保証しません。ToolkitLife の結果に架空の人物プロフィールは含まれません。"
         }
       ],
       "relatedTools": [
@@ -28690,11 +28698,35 @@
         "downloadTxt": "TXT 書き出し",
         "city": "都市",
         "zip": "郵便番号",
-        "region": "都道府県/州"
+        "region": "都道府県/州",
+        "mode": "生成モード",
+        "modeSimulated": "シミュレーション住所",
+        "modeReal": "実在住所データ",
+        "modeSimulatedHint": "Faker によりブラウザ内で生成します。テスト・デモ専用で、実在するとは限りません。",
+        "modeRealHint": "オープンデータの住所サービスから提供される、出典付きの実在住所（街道レベルまたは番地レベル）。",
+        "district": "区・郡",
+        "postcode": "郵便番号",
+        "residential": "住宅のみ",
+        "displayLanguage": "表示言語",
+        "displayOriginal": "原文の住所",
+        "precision": "住所の精度",
+        "precisionStreet": "街道レベル",
+        "precisionPremise": "番地レベル",
+        "precisionSubpremise": "番地レベル（部屋番号付き）",
+        "source": "データソース",
+        "residentialBadge": "住宅",
+        "notProvided": "提供なし",
+        "coordsNote": "座標は市中心から約 5 km 以内の近似位置であり、おおよそのエリアを示すものであり、正確な位置ではありません。"
       },
       "errors": {
         "failed": "住所の生成に失敗しました。もう一度お試しください。",
-        "copyFailed": "コピーに失敗しました。手動でコピーしてください。"
+        "copyFailed": "コピーに失敗しました。手動でコピーしてください。",
+        "realUnavailable": "実在住所サービスは一時的に利用できません。後ほど再度お試しください。",
+        "noCoverage": "選択した範囲にはまだ住所データがありません。範囲を広げるか、別の地域をお試しください。",
+        "rateLimited": "リクエストが集中しています。しばらく待ってから再度お試しください。",
+        "invalidRequest": "リクエストが無効です。フィルターをご確認ください。",
+        "exhausted": "選択範囲の住所が不足しているため、実際に取得できる分のみ表示しています。",
+        "optionsUnavailable": "地域リストの読み込みに失敗しました。もう一度お試しください。"
       }
     },
     "slideshow-maker": {
@@ -35104,8 +35136,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "画像形式変換",
-          "href": "/tools/image-format-converter"
+          "name": "画像形式変換ツール",
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -35284,8 +35316,8 @@
       ],
       "relatedTools": [
         {
-          "name": "画像形式変換",
-          "href": "/tools/image-format-converter"
+          "name": "画像形式変換ツール",
+          "href": "/tools/convert"
         },
         {
           "name": "画像圧縮",
@@ -35854,8 +35886,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "画像フォーマット変換",
-          "href": "/tools/image-format-converter"
+          "name": "画像形式変換ツール",
+          "href": "/tools/convert"
         },
         {
           "name": "画像リサイズツール",
@@ -35876,61 +35908,6 @@
         "cannotReach": "目標サイズに到達できません",
         "target": "目標サイズ (KB)",
         "resultSize": "結果サイズ"
-      }
-    },
-    "image-format-converter": {
-      "metadata": {
-        "title": "一括画像フォーマット変換 - PNG JPG WebP オンライン変換",
-        "description": "複数画像を一括で PNG・JPG・WebP に変換。すべてブラウザ内で完結。無料・プライバシー保護。"
-      },
-      "title": "画像フォーマット変換",
-      "description": "1枚または複数の画像を一度に PNG・JPG・WebP へ変換。JPG と WebP の品質を調整して結果をダウンロード。",
-      "category": "画像",
-      "keywords": [
-        "画像フォーマット変換",
-        "pngをjpgに変換",
-        "jpgをwebpに変換",
-        "一括画像変換",
-        "画像形式を変更",
-        "webp変換"
-      ],
-      "faqs": [
-        {
-          "question": "対応フォーマットは？",
-          "answer": "PNG・JPG・WebP に対応。任意の入力形式から、この3つの出力形式のいずれかに変換できます。"
-        },
-        {
-          "question": "画像はサーバーにアップロードされますか？",
-          "answer": "いいえ。すべてブラウザ内で処理されるため、画像がデバイスの外に出ることはありません。"
-        }
-      ],
-      "relatedTools": [
-        {
-          "name": "画像圧縮ツール",
-          "href": "/tools/image-compressor"
-        },
-        {
-          "name": "画像ファイルサイズ調整",
-          "href": "/tools/image-file-size"
-        },
-        {
-          "name": "画像からGIF作成",
-          "href": "/tools/image-to-gif"
-        }
-      ],
-      "upload": {
-        "drop": "画像をドロップ",
-        "multi": "複数画像を同時に選択できます"
-      },
-      "buttons": {
-        "reset": "リセット",
-        "download": "ダウンロード"
-      },
-      "labels": {
-        "format": "出力形式",
-        "quality": "品質",
-        "processing": "変換中...",
-        "results": "変換結果"
       }
     },
     "image-margin": {
@@ -36202,8 +36179,8 @@
           "href": "/tools/image-file-size"
         },
         {
-          "name": "画像形式変換",
-          "href": "/tools/image-format-converter"
+          "name": "画像形式変換ツール",
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -36256,8 +36233,8 @@
           "href": "/tools/image-compressor"
         },
         {
-          "name": "画像形式変換",
-          "href": "/tools/image-format-converter"
+          "name": "画像形式変換ツール",
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -36641,8 +36618,8 @@
       ],
       "relatedTools": [
         {
-          "name": "画像フォーマット変換",
-          "href": "/tools/image-format-converter"
+          "name": "画像形式変換ツール",
+          "href": "/tools/convert"
         },
         {
           "name": "画像を Base64 に変換",
@@ -39571,8 +39548,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON から YAML への変換",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON整形ツール",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39667,8 +39644,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON から YAML への変換",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON整形ツール",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39763,8 +39740,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON から YAML への変換",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON整形ツール",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39859,8 +39836,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON から YAML への変換",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON整形ツール",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39955,8 +39932,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON から YAML への変換",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON整形ツール",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -40051,8 +40028,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON から YAML への変換",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON整形ツール",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -40147,8 +40124,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON から YAML への変換",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON整形ツール",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {

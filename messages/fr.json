@@ -13,8 +13,7 @@
       "color palette generator",
       "base64 encoder",
       "regex tester",
-      "no signup tools",
-      "good morning images"
+      "no signup tools"
     ],
     "ogTitle": "ToolkitLife - Free Online Tools & Calculators",
     "ogDescription": "390+ free browser-based tools and calculators. No signup, no data stored.",
@@ -45,7 +44,6 @@
     "breadcrumbHome": "Home",
     "faqTitle": "Frequently Asked Questions",
     "relatedToolsTitle": "Related Tools",
-    "keywordsSuffix": "free online {keywords}. No signup required. Works in your browser.",
     "disclaimerFinancial": "ToolkitLife's financial tools provide estimates for general informational purposes only. They are not financial advice, and results depend on your assumptions and situation. Consult a qualified financial professional before making financial decisions.",
     "disclaimerHealth": "ToolkitLife's health tools provide general estimates for informational purposes only. They are not medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider about your personal health.",
     "disclaimerLegal": "ToolkitLife's legal tools provide estimates for general informational purposes only and are not legal advice. Laws vary by jurisdiction and change over time. Consult a qualified attorney for your specific situation."
@@ -72,7 +70,7 @@
     },
     "why": {
       "title": "Why ToolkitLife",
-      "intro": "ToolkitLife is a collection of 379 free online tools and calculators across 16 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
+      "intro": "ToolkitLife is a collection of 393 free online tools and calculators across 17 categories — from PDF converters and image editors to mortgage, BMI and tax calculators. Every tool works right in your browser: nothing to install and no account required.",
       "privacy": "Your files stay private: image, video and document tools process everything locally with <mdn>WebAssembly</mdn> — your data never leaves your device.",
       "i18n": "The site is available in English, Chinese, Japanese, Korean and Russian, and every tool page includes a step-by-step guide plus answers to common questions."
     },
@@ -2070,12 +2068,6 @@
         "category": "Image",
         "icon": "⚖️"
       },
-      "image-format-converter": {
-        "name": "Batch Image Converter",
-        "description": "Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser.",
-        "category": "Image",
-        "icon": "🔁"
-      },
       "image-margin": {
         "name": "Image Margin",
         "description": "Add transparent or colored margin around an image. Perfect for framing and padding.",
@@ -2513,7 +2505,7 @@
       {
         "title": "How it works",
         "paragraphs": [
-          "Every tool runs entirely in your browser with JavaScript and WebAssembly. Files you process stay on your device: images, videos, audio, and text are never uploaded to a server. That is why the tools are fast, private, and free to operate."
+          "Every tool runs entirely in your browser with JavaScript and WebAssembly. Files you process stay on your device: images, videos, audio, and text are never uploaded to a server. That is why the tools are fast, private, and free to operate. Note: file processing always happens on your device. A few networking tools (URL shortener, IP lookup, video transcript) send requests through ToolkitLife's own server API, which relays them to the relevant service — no requests or results are stored."
         ]
       },
       {
@@ -28364,10 +28356,10 @@
     "address-generator": {
       "metadata": {
         "title": "Global Address Generator - Free Online Tool",
-        "description": "Generate random realistic addresses for 20+ countries for free. Supports batch generation, copy, and TXT/CSV export."
+        "description": "Generate random addresses for 20+ countries: simulated test data in your browser, or real source-backed addresses (street/premise level) from open data when enabled. Batch generation, copy, TXT/CSV export."
       },
       "title": "Address Generator",
-      "description": "Powered by the open-source Faker library, generate realistic random addresses for 20+ countries — street, city, state and ZIP. Perfect for test data, forms and demos.",
+      "description": "Generate realistic random addresses for 20+ countries — browser-side simulated data for tests and demos, or real source-backed address data when the site has it enabled. Street, city, region, postcode and coordinates.",
       "category": "Utility",
       "keywords": [
         "address generator",
@@ -28383,7 +28375,8 @@
         "whatIs": {
           "title": "What is Address Generator?",
           "body": [
-            "Street names are generated locally with the open-source @faker-js/faker library. Cities, states/provinces, postcodes and coordinates come from a built-in table of real major cities in 24 countries, so every address is internally consistent."
+            "Street names are generated locally with the open-source @faker-js/faker library. Cities, states/provinces, postcodes and coordinates come from a built-in table of real major cities in 24 countries, so every address is internally consistent.",
+            "When the site has deployed the optional real-address service, a second mode returns real, source-backed addresses with their precision and data sources."
           ]
         },
         "howTo": {
@@ -28401,6 +28394,13 @@
             "Generated addresses are for testing and demo purposes only — do not use them for shipping.",
             "Some small locales may fall back to English for missing fields.",
             "All generation happens locally in your browser; nothing is uploaded."
+          ]
+        },
+        "modes": {
+          "title": "Two generation modes",
+          "items": [
+            "Simulated addresses — built locally in your browser with @faker-js/faker on top of a table of real major cities. Street names are fictional; city, region, postcode and coordinates follow real cities. Use them for tests, forms and demos where the address itself does not need to exist.",
+            "Real address data (optional, server-side) — when the site has deployed the open-data Address service, this mode returns actual source-backed addresses with their precision (street or premise level), coordinates and data sources. Real addresses are not guaranteed to be deliverable, habitable, or tied to any verified identity."
           ]
         }
       },
@@ -28420,6 +28420,14 @@
         {
           "question": "Where does the data come from?",
           "answer": "The data is provided by the open-source @faker-js/faker library (MIT license). Everything is generated locally — no data is uploaded."
+        },
+        {
+          "question": "What is the difference between simulated and real address data?",
+          "answer": "Simulated addresses are generated in your browser: street names are fictional (Faker), while city, region, postcode and coordinates come from a table of real major cities. Real address data, when enabled by the site, comes from a self-hosted open-data address service and carries source, precision and coordinate information for each address."
+        },
+        {
+          "question": "Are the real addresses deliverable or verified?",
+          "answer": "No. A real-source address means the street or premise exists in open data sources — it is not a guarantee that mail can be delivered, that the building is habitable, or that the address is associated with any person. Synthetic person profiles are never included with ToolkitLife results."
         },
         {
           "question": "Can I use these addresses for shipping?",
@@ -28452,11 +28460,35 @@
         "downloadTxt": "Export TXT",
         "city": "City",
         "zip": "ZIP",
-        "region": "State / Province"
+        "region": "State / Province",
+        "mode": "Generation mode",
+        "modeSimulated": "Simulated addresses",
+        "modeReal": "Real address data",
+        "modeSimulatedHint": "Generated locally in your browser with Faker. For testing and demos only — these addresses are not guaranteed to exist in the real world.",
+        "modeRealHint": "Addresses with real data provenance (street or premise level) served from a self-hosted open-data address service.",
+        "district": "District / County",
+        "postcode": "Postcode",
+        "residential": "Residential addresses only",
+        "displayLanguage": "Display language",
+        "displayOriginal": "Original address",
+        "precision": "Address precision",
+        "precisionStreet": "Street level",
+        "precisionPremise": "Premise (house number)",
+        "precisionSubpremise": "Premise with unit",
+        "source": "Data source",
+        "residentialBadge": "Residential",
+        "notProvided": "Not provided",
+        "coordsNote": "Coordinates are approximate positions within about 5 km of the city centre — they indicate the general area, not an exact doorstep."
       },
       "errors": {
         "failed": "Failed to generate addresses. Please try again.",
-        "copyFailed": "Copy failed. Please copy manually."
+        "copyFailed": "Copy failed. Please copy manually.",
+        "realUnavailable": "The real-address service is temporarily unavailable. Please try again later.",
+        "noCoverage": "No address data is available for the selected area yet. Try a wider area or another region.",
+        "rateLimited": "Too many requests. Please wait a moment and try again.",
+        "invalidRequest": "The request was invalid. Please check your filters.",
+        "exhausted": "The selected area has fewer addresses than requested — showing all that are available.",
+        "optionsUnavailable": "Could not load the area list. Please try again."
       }
     },
     "slideshow-maker": {
@@ -34862,7 +34894,7 @@
         },
         {
           "name": "Image Format Converter",
-          "href": "/tools/image-format-converter"
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -35042,7 +35074,7 @@
       "relatedTools": [
         {
           "name": "Image Format Converter",
-          "href": "/tools/image-format-converter"
+          "href": "/tools/convert"
         },
         {
           "name": "Image Compressor",
@@ -35612,7 +35644,7 @@
         },
         {
           "name": "Image Format Converter",
-          "href": "/tools/image-format-converter"
+          "href": "/tools/convert"
         },
         {
           "name": "Image Resizer",
@@ -35633,61 +35665,6 @@
         "cannotReach": "Could not reach target size",
         "target": "Target size (KB)",
         "resultSize": "Result size"
-      }
-    },
-    "image-format-converter": {
-      "metadata": {
-        "title": "Batch Image Converter - PNG JPG WebP Online",
-        "description": "Convert multiple images between PNG, JPG and WebP in one go. Runs entirely in your browser. Free, private."
-      },
-      "title": "Image Format Converter",
-      "description": "Convert one or many images between PNG, JPG and WebP at once. Adjust quality for JPG and WebP, then download the results.",
-      "category": "Image",
-      "keywords": [
-        "image format converter",
-        "convert png to jpg",
-        "convert jpg to webp",
-        "batch image converter",
-        "change image format",
-        "webp converter"
-      ],
-      "faqs": [
-        {
-          "question": "Which formats are supported?",
-          "answer": "PNG, JPG and WebP. You can convert from any input image format to any of these three output formats."
-        },
-        {
-          "question": "Are my images uploaded to a server?",
-          "answer": "No. Everything is processed locally in your browser — your images never leave your device."
-        }
-      ],
-      "relatedTools": [
-        {
-          "name": "Image Compressor",
-          "href": "/tools/image-compressor"
-        },
-        {
-          "name": "Image File Size",
-          "href": "/tools/image-file-size"
-        },
-        {
-          "name": "Image to GIF Maker",
-          "href": "/tools/image-to-gif"
-        }
-      ],
-      "upload": {
-        "drop": "Drop images here",
-        "multi": "You can select multiple images"
-      },
-      "buttons": {
-        "reset": "Reset",
-        "download": "Download"
-      },
-      "labels": {
-        "format": "Output format",
-        "quality": "Quality",
-        "processing": "Converting...",
-        "results": "Results"
       }
     },
     "image-margin": {
@@ -35960,7 +35937,7 @@
         },
         {
           "name": "Image Format Converter",
-          "href": "/tools/image-format-converter"
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -36014,7 +35991,7 @@
         },
         {
           "name": "Image Format Converter",
-          "href": "/tools/image-format-converter"
+          "href": "/tools/convert"
         }
       ],
       "upload": {
@@ -36399,7 +36376,7 @@
       "relatedTools": [
         {
           "name": "Image Format Converter",
-          "href": "/tools/image-format-converter"
+          "href": "/tools/convert"
         },
         {
           "name": "Image to Base64",
@@ -39328,8 +39305,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON vers YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39424,8 +39401,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON vers YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39520,8 +39497,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON vers YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39616,8 +39593,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON vers YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39712,8 +39689,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON vers YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39808,8 +39785,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON vers YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {
@@ -39904,8 +39881,8 @@
           "href": "/tools/json-to-csv"
         },
         {
-          "name": "JSON vers YAML",
-          "href": "/tools/json-yaml-converter"
+          "name": "JSON Formatter",
+          "href": "/tools/json-formatter"
         }
       ],
       "guide": {

@@ -118,7 +118,6 @@ export default function ToolLayout({
   guide,
   faqs,
   relatedTools,
-  keywords,
 }: ToolLayoutProps) {
   const t = useTranslations("toolLayout");
   const toolT = useTranslations(`tools.${slug}`);
@@ -137,9 +136,10 @@ export default function ToolLayout({
     (toolT.has("relatedTools")
       ? (toolT.raw("relatedTools") as RelatedTool[])
       : undefined);
-  const effectiveKeywords =
-    keywords ??
-    (toolT.has("keywords") ? (toolT.raw("keywords") as string[]) : undefined);
+  // NOTE: the `keywords` prop and the per-tool `keywords` message field are
+  // still accepted for page compatibility but are intentionally not rendered —
+  // the old keyword-stuffing footer added no value for readers or search
+  // engines (see docs/seo-audit-baseline.md P1-4).
 
   // Favorites + recently-used (localStorage, shared with the homepage)
   const [isFavorite, setIsFavorite] = useState<boolean>(() => {
@@ -203,7 +203,6 @@ export default function ToolLayout({
     applicationCategory: "BrowserApplication",
     operatingSystem: "Any",
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    aggregateRating: undefined as undefined | object,
   };
 
   // FAQ schema
@@ -236,13 +235,15 @@ export default function ToolLayout({
       }
     : null;
 
-  // BreadcrumbList schema — URLs must match the actual (locale-prefixed) pages
+  // BreadcrumbList schema — URLs must match the actual (locale-prefixed) pages.
+  // The category level links to the homepage, the only real browsing entry —
+  // fragment deep-links (#scene=...) are meaningless in structured data.
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: t("breadcrumbHome"), item: `https://toolkitlife.com/${locale}` },
-      { "@type": "ListItem", position: 2, name: category, item: `https://toolkitlife.com/${locale}/#scene=${SCENE_OF_SLUG[slug] ?? "all"}` },
+      { "@type": "ListItem", position: 2, name: category, item: `https://toolkitlife.com/${locale}` },
       { "@type": "ListItem", position: 3, name: title, item: url },
     ],
   };
@@ -373,15 +374,6 @@ export default function ToolLayout({
               ))}
             </div>
           </section>
-        )}
-
-        {/* SEO keyword footer — hidden visually but indexable */}
-        {effectiveKeywords && (
-          <footer className="mt-8 text-xs text-zinc-600 leading-relaxed">
-            <p>
-              {title} — {t("keywordsSuffix", { keywords: effectiveKeywords.join(", ") })}
-            </p>
-          </footer>
         )}
       </div>
     </>

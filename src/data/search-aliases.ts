@@ -170,7 +170,6 @@ export const SEARCH_ALIASES: Record<string, string[]> = {
   "image-coord-marker": ["坐标标注", "标记坐标", "像素坐标", "coord marker"],
   "image-dpi": ["dpi", "修改dpi", "图片dpi", "dpi修改"],
   "image-file-size": ["文件大小", "图片大小", "目标大小", "压缩到指定大小", "file size"],
-  "image-format-converter": ["格式转换", "图片转换", "转换格式"],
   "image-margin": ["图片边距", "加白边", "边框留白", "image margin"],
   "image-region-mask": ["局部模糊", "区域马赛克", "局部马赛克", "遮罩", "region mask"],
   "solid-color-image": ["纯色图片", "纯色背景", "纯色", "solid color"],

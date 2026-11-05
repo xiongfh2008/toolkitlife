@@ -5,7 +5,7 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { DM_Sans, Instrument_Serif, JetBrains_Mono } from "next/font/google";
-import { routing } from "@/i18n/routing";
+import { routing, publishedLocales } from "@/i18n/routing";
 import { ogImageUrl } from "@/lib/og";
 import { ogLocaleMap, publishedOgLocales } from "@/lib/og-locale";
 import { blogPostsMeta } from "@/data/blog-posts";
@@ -77,7 +77,12 @@ export async function generateMetadata({
       images: [ogImage],
     },
     robots: {
-      index: true,
+      // de/fr/pt serve English fallback content until their message files are
+      // translated (see src/i18n/routing.ts) — keep them out of the index so
+      // the unpublished locales cannot create duplicate-content pages. They
+      // remain fully usable for human visitors. Tool/blog/static layouts do
+      // not define their own `robots`, so this cascades site-wide per locale.
+      index: (publishedLocales as readonly string[]).includes(locale),
       follow: true,
     },
     verification: {

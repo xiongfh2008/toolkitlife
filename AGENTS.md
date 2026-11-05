@@ -13,6 +13,9 @@ npm run dev        # start dev server (port 3000)
 npm run build      # production build
 npm run lint       # eslint
 npx tsc --noEmit   # type check
+npm run check:seo  # sitemap/llms/routes/internal-links consistency checks
+npm run llms       # regenerate public/llms.txt + llms-full.txt from messages/en.json
+npm run test:address  # address-generator adapter tests (mock upstream contract)
 ```
 
 ## Architecture
@@ -20,9 +23,12 @@ npx tsc --noEmit   # type check
 - `src/app/[locale]/` — all routes live under a locale segment (`/en`, `/zh`, ...).
   - `layout.tsx` — root metadata, analytics (GA4/Yandex/Clarity), WebSite+Organization JSON-LD.
   - `tools/{slug}/` — one folder per tool with `page.tsx` + `layout.tsx`; each `layout.tsx` defines per-tool `generateMetadata` (title, OG, hreflang with `"x-default"`).
-  - `blog/` — blog index + 11 post pages.
+  - `blog/` — blog index + 18 post pages.
   - `sitemap.ts` — sitemap.xml (tool slugs derived from `messages/en.json`).
   - `robots.ts` — robots.txt incl. explicit AI-crawler rules.
+  - `api/address-generator/*` — server-side adapter for the optional self-hosted
+    real-address service (see `docs/address-deployment.md`); disabled unless
+    `ADDRESS_REAL_ENABLED=true`, token stays server-only.
 - `src/components/` — `ToolLayout.tsx` (renders SoftwareApplication + FAQPage + HowTo + BreadcrumbList JSON-LD via plain `<script>`), `BlogLayout.tsx`, Nav/Footer, etc.
 - `messages/{locale}.json` — all UI strings AND tool metadata (title, description, guide, faqs, relatedTools, keywords). Tool translations live under `tools.{slug}`.
 - `public/llms.txt` — AI discovery file listing all tools.

@@ -10,7 +10,15 @@ export default function robots(): MetadataRoute.Robots {
       },
       // AI search-augmented crawlers — explicit allow drives AI citations
       {
-        userAgent: ["PerplexityBot", "GPTBot", "OAI-SearchBot", "ClaudeBot", "Google-Extended", "Applebot-Extended"],
+        userAgent: [
+          "PerplexityBot",
+          "GPTBot",
+          "OAI-SearchBot",
+          "ClaudeBot",
+          "Claude-SearchBot",
+          "Google-Extended",
+          "Applebot-Extended",
+        ],
         allow: "/",
       },
       // Aggressive scraper — block by default

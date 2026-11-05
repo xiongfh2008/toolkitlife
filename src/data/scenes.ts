@@ -117,7 +117,6 @@ const BASE_SCENES: HomeScene[] = [
       "web-icon",
       "heic",
       "image-file-size",
-      "image-format-converter",
       "image-coord-marker",
       "excel-img",
       "ppt-img",

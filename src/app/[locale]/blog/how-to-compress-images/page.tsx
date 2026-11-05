@@ -24,7 +24,7 @@ const basePost = {
   relatedTools: [
     { name: "Image Compressor", href: "/tools/image-compressor" },
     { name: "Image File Size", href: "/tools/image-file-size" },
-    { name: "Batch Image Converter", href: "/tools/image-format-converter" },
+    { name: "Batch Image Converter", href: "/tools/convert" },
   ],
   relatedArticles: meta.relatedArticles,
 };

@@ -19,6 +19,17 @@ const nextConfig: NextConfig = {
       { source: "/:locale/tools/pregnancy-due-date-calculator", destination: "/:locale/tools/pregnancy-calculator", permanent: true },
       { source: "/:locale/tools/image-to-text-ocr", destination: "/:locale/tools/image-to-text", permanent: true },
       { source: "/:locale/tools/digital-signature-creator", destination: "/:locale/tools/digital-signature", permanent: true },
+      // Locale-less deep links used to 404: the proxy matcher only runs
+      // next-intl for /(zh|en|ja|ko|ru)/… paths, so /tools/x, /blog/…, /about,
+      // /privacy, /terms never reached the i18n redirect. Send them to the
+      // default locale (matches the "x-default" hreflang). Static assets
+      // (/llms.txt, /sitemap.xml, /api/*…) are NOT matched here and keep
+      // working untouched. See docs/seo-audit-baseline.md §3.4.
+      { source: "/tools/:path*", destination: "/en/tools/:path*", permanent: true },
+      { source: "/blog/:path*", destination: "/en/blog/:path*", permanent: true },
+      { source: "/about", destination: "/en/about", permanent: true },
+      { source: "/privacy", destination: "/en/privacy", permanent: true },
+      { source: "/terms", destination: "/en/terms", permanent: true },
     ];
   },
   async headers() {

@@ -174,7 +174,6 @@ export const SCENE_OF_SLUG: Record<string, string> = {
   "image-emboss": "image",
   "image-file-size": "image",
   "image-filters": "image",
-  "image-format-converter": "image",
   "image-histogram": "image",
   "image-margin": "image",
   "image-negative": "image",
