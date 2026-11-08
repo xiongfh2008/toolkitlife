@@ -40159,6 +40159,14 @@
     "json-to-code": {
       "title": "How to Convert JSON to TypeScript, Go, Java & More (Free, 2026 Guide)",
       "description": "Turn any JSON sample into TypeScript interfaces, Go structs, Java POJOs, Python dataclasses, Kotlin data classes, C# classes or Rust serde structs — free in your browser, nothing uploaded. Plus how the converters handle nested objects, mixed-shape arrays, and optional vs. nullable fields."
+    },
+    "how-to-extract-video-transcripts": {
+      "title": "Comment extraire la transcription de vidéos YouTube, Bilibili, Vimeo, Dailymotion et TED (guide gratuit 2026)",
+      "description": "Transformez n'importe quelle vidéo en texte consultable en moins d'une minute. Guide plateforme par plateforme pour extraire les sous-titres de YouTube, Bilibili (SESSDATA requis), Vimeo, Dailymotion et TED — avec horodatage, téléchargement SRT/VTT, dépannage et 7 utilisations pratiques des transcriptions."
     }
+  },
+  "promoBanner": {
+    "alt": "WallHaze — fonds d'écran gratuits pour ordinateur, tablette et mobile",
+    "close": "Fermer l'annonce"
   }
 }

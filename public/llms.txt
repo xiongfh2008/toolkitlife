@@ -52,6 +52,7 @@ Every tool, grouped by category with its URL and description, is listed in [llms
 - [How to Remove Background from an Image (2026 Guide)](https://toolkitlife.com/en/blog/how-to-remove-background-from-image): Learn how to remove image backgrounds for free with AI and color-based tools. Step-by-step guide for clean edges, common use cases, and in-browser processing.
 - [How to Upscale Images Without Losing Quality (2026 Guide)](https://toolkitlife.com/en/blog/how-to-upscale-images): Learn how to enlarge and enhance images for print, web, and social media. Covering upscaling methods, when to use each, and free in-browser tools.
 - [How to Convert JSON to TypeScript, Go, Java & More (Free, 2026 Guide)](https://toolkitlife.com/en/blog/json-to-code): Turn any JSON sample into TypeScript interfaces, Go structs, Java POJOs, Python dataclasses, Kotlin data classes, C# classes or Rust serde structs — free in your browser, nothing uploaded. Plus how the converters handle nested objects, mixed-shape arrays, and optional vs. nullable fields.
+- [How to Extract Video Transcripts from YouTube, Bilibili, Vimeo, Dailymotion & TED (Free, 2026 Guide)](https://toolkitlife.com/en/blog/how-to-extract-video-transcripts): Turn any video into searchable text in under a minute. Platform-by-platform guide to extracting transcripts from YouTube, Bilibili (SESSDATA required), Vimeo, Dailymotion and TED — with timestamps, SRT/VTT download, troubleshooting, and 7 practical ways to use transcripts.
 
 ## Also on this site
 

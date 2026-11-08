@@ -2093,6 +2093,11 @@ Description: Learn how to enlarge and enhance images for print, web, and social 
 URL: https://toolkitlife.com/en/blog/json-to-code
 Description: Turn any JSON sample into TypeScript interfaces, Go structs, Java POJOs, Python dataclasses, Kotlin data classes, C# classes or Rust serde structs — free in your browser, nothing uploaded. Plus how the converters handle nested objects, mixed-shape arrays, and optional vs. nullable fields.
 
+### How to Extract Video Transcripts from YouTube, Bilibili, Vimeo, Dailymotion & TED (Free, 2026 Guide)
+
+URL: https://toolkitlife.com/en/blog/how-to-extract-video-transcripts
+Description: Turn any video into searchable text in under a minute. Platform-by-platform guide to extracting transcripts from YouTube, Bilibili (SESSDATA required), Vimeo, Dailymotion and TED — with timestamps, SRT/VTT download, troubleshooting, and 7 practical ways to use transcripts.
+
 ## Privacy
 
 Tool processing (files, images, video, text) runs locally in the browser — files and tool inputs are never uploaded or stored. The site uses standard web analytics (Google Analytics, Yandex Metrika, Microsoft Clarity, Vercel Analytics) to measure aggregate traffic. A few networking tools (IP lookup, URL shortener, video transcript, favicon fetch) send requests to ToolkitLife's server API, which relays them to the relevant third-party service. See the privacy policy for details.

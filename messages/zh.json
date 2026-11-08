@@ -40189,6 +40189,14 @@
     "json-to-code": {
       "title": "JSON 转 TypeScript、Go、Java 等代码（免费，2026 指南）",
       "description": "把任意 JSON 示例转换为 TypeScript interface、Go struct、Java POJO、Python dataclass、Kotlin data class、C# 类或 Rust serde struct——浏览器内免费完成，数据不上传。附嵌套对象、混合形状数组、可选与可空字段的处理说明。"
+    },
+    "how-to-extract-video-transcripts": {
+      "title": "如何提取 YouTube、B 站、Vimeo、Dailymotion 与 TED 视频的文字稿（2026 免费指南）",
+      "description": "一分钟内把任意视频变成可检索的文本。逐平台讲解提取 YouTube、B 站（需 SESSDATA）、Vimeo、Dailymotion 和 TED 字幕的完整方法——含时间戳、SRT/VTT 下载、常见问题排查与 7 种文字稿实用玩法。"
     }
+  },
+  "promoBanner": {
+    "alt": "WallHaze — 免费下载桌面、平板和手机壁纸",
+    "close": "关闭广告"
   }
 }

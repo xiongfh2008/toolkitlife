@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
+import PromoBanner from "@/components/PromoBanner";
 
 // ---------- Seeded PRNG ----------
 function hashSeed(str: string): number {
@@ -239,6 +240,7 @@ export default function WallpaperGeneratorPage() {
   const kindLabel = { desktop: t("labels.desktop"), phone: t("labels.phone"), tablet: t("labels.tablet") };
 
   return (
+    <>
     <ToolLayout
       title={t("title")}
       slug="wallpaper-generator"
@@ -402,5 +404,7 @@ export default function WallpaperGeneratorPage() {
         </div>
       </div>
     </ToolLayout>
+    <PromoBanner />
+    </>
   );
 }

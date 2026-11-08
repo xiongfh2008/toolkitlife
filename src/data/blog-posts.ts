@@ -192,6 +192,17 @@ export const blogPostsMeta: BlogPostMeta[] = [
       { title: "How to Create a Strong Password", href: "/blog/how-to-create-a-strong-password" },
     ],
   },
+  {
+    slug: "how-to-extract-video-transcripts",
+    author: "ToolkitLife Team",
+    datePublished: "2026-11-08",
+    dateModified: "2026-11-08",
+    tags: ["Video", "Transcript", "Subtitles", "YouTube", "Bilibili", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Compress Video Without Losing Quality", href: "/blog/how-to-compress-video" },
+      { title: "How to Record Your Screen", href: "/blog/how-to-record-your-screen" },
+    ],
+  },
 ];
 
 export function getPostMeta(slug: string): BlogPostMeta {

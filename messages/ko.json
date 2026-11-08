@@ -40399,6 +40399,14 @@
     "json-to-code": {
       "title": "JSON을 TypeScript·Go·Java 코드로 변환하는 방법 (무료, 2026 가이드)",
       "description": "JSON 샘플을 TypeScript interface, Go struct, Java POJO, Python dataclass, Kotlin data class, C# 클래스, Rust serde struct로 변환하세요. 브라우저에서 무료로, 데이터 전송 없음. 중첩 객체, 모양이 섞인 배열, 선택적·null 허용 필드 처리법도 함께 설명합니다."
+    },
+    "how-to-extract-video-transcripts": {
+      "title": "YouTube, Bilibili, Vimeo, Dailymotion, TED 영상 스크립트 추출 방법 (2026 무료 가이드)",
+      "description": "어떤 영상이든 1분 안에 검색 가능한 텍스트로. YouTube, Bilibili(SESSDATA 필요), Vimeo, Dailymotion, TED에서 자막을 추출하는 플랫폼별 완전 가이드 — 타임스탬프, SRT/VTT 다운로드, 문제 해결, 스크립트 활용 7가지까지."
     }
+  },
+  "promoBanner": {
+    "alt": "WallHaze — 데스크톱, 태블릿, 모바일용 무료 배경화면",
+    "close": "광고 닫기"
   }
 }

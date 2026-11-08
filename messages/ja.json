@@ -40402,6 +40402,14 @@
     "json-to-code": {
       "title": "JSON を TypeScript・Go・Java などに変換する方法（無料、2026年版ガイド）",
       "description": "JSON サンプルから TypeScript の interface、Go の struct、Java の POJO、Python の dataclass、Kotlin の data class、C# のクラス、Rust の serde struct を生成。ブラウザ内で無料、データ送信なし。ネストしたオブジェクトや不揃いな配列、オプショナルと null 許容の処理も解説。"
+    },
+    "how-to-extract-video-transcripts": {
+      "title": "YouTube・Bilibili・Vimeo・Dailymotion・TED から動画の文字起こしを抽出する方法（2026年無料ガイド）",
+      "description": "どんな動画でも1分以内に検索可能なテキストに。YouTube、Bilibili（SESSDATA が必要）、Vimeo、Dailymotion、TED から字幕を抽出する方法をプラットフォーム別に解説——タイムスタンプ、SRT/VTT ダウンロード、トラブルシューティング、文字起こしの7つの活用法まで。"
     }
+  },
+  "promoBanner": {
+    "alt": "WallHaze — デスクトップ・タブレット・スマホ向けの無料壁紙",
+    "close": "広告を閉じる"
   }
 }

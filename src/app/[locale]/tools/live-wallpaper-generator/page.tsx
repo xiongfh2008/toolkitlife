@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import ToolLayout, { FAQ, RelatedTool } from "@/components/ToolLayout";
+import PromoBanner from "@/components/PromoBanner";
 import type { SceneKind } from "@/lib/live-wallpaper-scenes";
 
 // UI-only presets (kept here so three.js is never statically imported by the page)
@@ -192,6 +193,7 @@ export default function LiveWallpaperGeneratorPage() {
   const kindLabel = { desktop: t("labels.desktop"), phone: t("labels.phone"), tablet: t("labels.tablet") };
 
   return (
+    <>
     <ToolLayout
       title={t("title")}
       slug="live-wallpaper-generator"
@@ -393,5 +395,7 @@ export default function LiveWallpaperGeneratorPage() {
         </div>
       </div>
     </ToolLayout>
+    <PromoBanner />
+    </>
   );
 }

@@ -10,6 +10,7 @@ import { content as howToCreateCartoonAvatar } from "./how-to-create-cartoon-ava
 import { content as howToCreateDigitalSignature } from "./how-to-create-digital-signature";
 import { content as howToCreateStrongPassword } from "./how-to-create-a-strong-password";
 import { content as howToExtractTextFromImages } from "./how-to-extract-text-from-images";
+import { content as howToExtractVideoTranscripts } from "./how-to-extract-video-transcripts";
 import { content as howToMakeMemes } from "./how-to-make-memes";
 import { content as howToMakeALiveWallpaper } from "./how-to-make-a-live-wallpaper";
 import { content as jsonToCode } from "./json-to-code";
@@ -45,6 +46,7 @@ export const blogContent: Record<string, BlogContent> = {
   "how-to-create-digital-signature": howToCreateDigitalSignature,
   "how-to-create-a-strong-password": howToCreateStrongPassword,
   "how-to-extract-text-from-images": howToExtractTextFromImages,
+  "how-to-extract-video-transcripts": howToExtractVideoTranscripts,
   "how-to-make-memes": howToMakeMemes,
   "how-to-record-your-screen": howToRecordYourScreen,
   "how-to-remove-background-from-image": howToRemoveBackgroundFromImage,

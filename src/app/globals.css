@@ -163,6 +163,16 @@
     font-family: var(--font-sans), system-ui, sans-serif;
   }
 
+  /* Bottom promo banner (PromoBanner) is fixed; pad the document so the footer
+     can still be scrolled clear of it. Height tracks the banner's 1600x188
+     aspect ratio, capped at the 1120px max width. The banner is desktop-only,
+     so the padding is too. */
+  @media (min-width: 40rem) {
+    body.has-promo-banner {
+      padding-bottom: min(calc(11.75vw + 16px), 148px);
+    }
+  }
+
   /* Subtle paper grain overlay */
   body::after {
     content: '';
