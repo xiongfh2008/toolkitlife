@@ -94,7 +94,14 @@ export default function ImageCropPage() {
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     if (!img) return;
     const pos = toImgCoords(e.clientX, e.clientY);
+    // A full-image rect can never move (clamped to W-w=0), so treating a press
+    // inside it as "move" made free crop dead on first import — the press must
+    // start a new draw instead. Once the rect is smaller than the image,
+    // keep the original behaviour: inside = move, outside = draw.
+    const isFullImage =
+      rect.w >= img.naturalWidth && rect.h >= img.naturalHeight;
     const inside =
+      !isFullImage &&
       pos.x >= rect.x &&
       pos.x <= rect.x + rect.w &&
       pos.y >= rect.y &&
