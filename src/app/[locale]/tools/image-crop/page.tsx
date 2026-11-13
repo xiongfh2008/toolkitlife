@@ -42,13 +42,22 @@ export default function ImageCropPage() {
   const [ratio, setRatio] = useState<number | null>(null);
   const [drag, setDrag] = useState<DragState>(null);
   const [dragging, setDragging] = useState(false);
+  const [error, setError] = useState("");
   const wrapRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const loadFile = useCallback((file: File) => {
-    if (!file.type.startsWith("image/")) return;
+    // A file that matches accept="image/*" can still be undecodable in the
+    // current browser (e.g. iPhone HEIC photos in Chrome) — without these
+    // error handlers the whole tool would silently do nothing.
+    if (!file.type.startsWith("image/")) {
+      setError(t("errors.decodeFailed"));
+      return;
+    }
+    setError("");
     const reader = new FileReader();
+    reader.onerror = () => setError(t("errors.decodeFailed"));
     reader.onload = () => {
       const image = new Image();
       image.onload = () => {
@@ -57,10 +66,11 @@ export default function ImageCropPage() {
         setRect({ x: 0, y: 0, w: image.naturalWidth, h: image.naturalHeight });
         setRatio(null);
       };
+      image.onerror = () => setError(t("errors.decodeFailed"));
       image.src = reader.result as string;
     };
     reader.readAsDataURL(file);
-  }, []);
+  }, [t]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -248,6 +258,9 @@ export default function ImageCropPage() {
           </svg>
           <p className="text-sm font-medium text-zinc-300">{t("labels.dropPrompt")}</p>
           <p className="text-xs text-zinc-500">{t("labels.dropHint")}</p>
+          {error && (
+            <div className="bg-red-900/30 border border-red-800 rounded-lg p-3 text-sm text-red-300">{error}</div>
+          )}
           <input
             ref={fileInputRef}
             type="file"

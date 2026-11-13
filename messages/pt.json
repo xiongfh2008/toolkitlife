@@ -11906,6 +11906,9 @@
             ]
           }
         ]
+      },
+      "errors": {
+        "decodeFailed": "This image format could not be decoded by your browser. Please use JPG, PNG, WebP, GIF or BMP."
       }
     },
     "image-to-base64": {

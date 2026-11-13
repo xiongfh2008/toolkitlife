@@ -12765,7 +12765,7 @@
         "intro": {
           "title": "画像クロップツールとは？",
           "paragraphs": [
-            "画像クロップツールは、Crop images to specific dimensions and aspect ratiosの無料オンラインツールです。",
+            "画像クロップツールは、画像を特定のサイズやアスペクト比に切り抜ける無料のオンラインツールです。",
             "すべての処理はブラウザで実行され、データがサーバーに送信されることはありません。"
           ]
         },
@@ -12788,6 +12788,9 @@
             ]
           }
         ]
+      },
+      "errors": {
+        "decodeFailed": "この画像形式はブラウザでデコードできません。JPG・PNG・WebP・GIF・BMP をご利用ください。"
       }
     },
     "meta-tag-generator": {

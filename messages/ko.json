@@ -12765,7 +12765,7 @@
         "intro": {
           "title": "이미지 자르기 도구란?",
           "paragraphs": [
-            "이미지 자르기 도구은(는) Crop images to specific dimensions and aspect ratios 무료 온라인 도구입니다.",
+            "이미지 자르기 도구은(는) 이미지를 특정 크기와 가로세로 비율로 자를 수 있는 무료 온라인 도구입니다.",
             "모든 처리는 브라우저에서 이루어지며, 데이터가 서버로 전송되지 않습니다."
           ]
         },
@@ -12788,6 +12788,9 @@
             ]
           }
         ]
+      },
+      "errors": {
+        "decodeFailed": "현재 브라우저에서 이 이미지 형식을 디코딩할 수 없습니다. JPG, PNG, WebP, GIF, BMP를 사용해 주세요."
       }
     },
     "meta-tag-generator": {

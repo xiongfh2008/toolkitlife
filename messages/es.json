@@ -11907,6 +11907,9 @@
             ]
           }
         ]
+      },
+      "errors": {
+        "decodeFailed": "Tu navegador no pudo decodificar este formato de imagen. Usa JPG, PNG, WebP, GIF o BMP."
       }
     },
     "image-to-base64": {

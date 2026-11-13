@@ -12698,7 +12698,7 @@
         "intro": {
           "title": "什么是图片裁剪工具？",
           "paragraphs": [
-            "图片裁剪工具是一个免费的在线工具，Crop images to specific dimensions and aspect ratios。",
+            "图片裁剪工具是一个免费的在线工具，可将图片裁剪到特定尺寸和宽高比。",
             "所有处理都在浏览器中进行，您的数据永远不会发送到服务器。"
           ]
         },
@@ -12721,6 +12721,9 @@
             ]
           }
         ]
+      },
+      "errors": {
+        "decodeFailed": "当前浏览器无法解码此图片格式。请使用 JPG、PNG、WebP、GIF 或 BMP。"
       }
     },
     "meta-tag-generator": {
