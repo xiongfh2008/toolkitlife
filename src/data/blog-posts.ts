@@ -203,6 +203,17 @@ export const blogPostsMeta: BlogPostMeta[] = [
       { title: "How to Record Your Screen", href: "/blog/how-to-record-your-screen" },
     ],
   },
+  {
+    slug: "how-to-merge-pdf-files",
+    author: "ToolkitLife Team",
+    datePublished: "2026-11-22",
+    dateModified: "2026-11-22",
+    tags: ["PDF", "Merge PDF", "Document Management", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Convert PDF to Word", href: "/blog/how-to-convert-pdf-to-word" },
+      { title: "How to Create a Digital Signature", href: "/blog/how-to-create-digital-signature" },
+    ],
+  },
 ];
 
 export function getPostMeta(slug: string): BlogPostMeta {

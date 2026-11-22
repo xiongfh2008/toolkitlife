@@ -2098,6 +2098,11 @@ Description: Turn any JSON sample into TypeScript interfaces, Go structs, Java P
 URL: https://toolkitlife.com/en/blog/how-to-extract-video-transcripts
 Description: Turn any video into searchable text in under a minute. Platform-by-platform guide to extracting transcripts from YouTube, Bilibili (SESSDATA required), Vimeo, Dailymotion and TED — with timestamps, SRT/VTT download, troubleshooting, and 7 practical ways to use transcripts.
 
+### How to Merge PDF Files Online for Free — Combine Multiple PDFs Into One (2026 Guide)
+
+URL: https://toolkitlife.com/en/blog/how-to-merge-pdf-files
+Description: Learn how to merge PDF files online for free: combine multiple PDFs into one document, reorder pages before merging, merge scanned documents, receipts or statements on Windows, Mac, iPhone and Android. No watermark, no signup, no file size limit, and no upload — everything runs in your browser.
+
 ## Privacy
 
 Tool processing (files, images, video, text) runs locally in the browser — files and tool inputs are never uploaded or stored. The site uses standard web analytics (Google Analytics, Yandex Metrika, Microsoft Clarity, Vercel Analytics) to measure aggregate traffic. A few networking tools (IP lookup, URL shortener, video transcript, favicon fetch) send requests to ToolkitLife's server API, which relays them to the relevant third-party service. See the privacy policy for details.

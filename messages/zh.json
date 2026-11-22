@@ -40196,6 +40196,10 @@
     "how-to-extract-video-transcripts": {
       "title": "如何提取 YouTube、B 站、Vimeo、Dailymotion 与 TED 视频的文字稿（2026 免费指南）",
       "description": "一分钟内把任意视频变成可检索的文本。逐平台讲解提取 YouTube、B 站（需 SESSDATA）、Vimeo、Dailymotion 和 TED 字幕的完整方法——含时间戳、SRT/VTT 下载、常见问题排查与 7 种文字稿实用玩法。"
+    },
+    "how-to-merge-pdf-files": {
+      "title": "如何免费在线合并 PDF：把多个 PDF 合并成一个文件（2026 指南）",
+      "description": "手把手教你在线免费合并 PDF：把多个 PDF 文件合并成一个文档、合并前调整页面顺序、合并扫描件/收据/银行流水，Windows、Mac、iPhone、安卓通用。无水印、无需注册、无文件大小限制、文件不上传——全程在浏览器本地完成。"
     }
   },
   "promoBanner": {
