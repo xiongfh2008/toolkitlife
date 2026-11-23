@@ -4,6 +4,7 @@ import BlogPost from "@/components/BlogPost";
 import { getPostMeta } from "@/data/blog-posts";
 import { ogImageUrl } from "@/lib/og";
 import { blogContent } from "@/data/blog-content";
+import { blogIndexSignals } from "@/lib/blog-locales";
 
 const slug = "how-to-create-a-strong-password";
 const meta = getPostMeta(slug);
@@ -34,18 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: post.title,
     description: post.description,
-    alternates: {
-      canonical: url,
-      languages: {
-        en: `https://toolkitlife.com/en/blog/${post.slug}`,
-        es: `https://toolkitlife.com/es/blog/${post.slug}`,
-        zh: `https://toolkitlife.com/zh/blog/${post.slug}`,
-        ja: `https://toolkitlife.com/ja/blog/${post.slug}`,
-        ko: `https://toolkitlife.com/ko/blog/${post.slug}`,
-        ru: `https://toolkitlife.com/ru/blog/${post.slug}`,
-        "x-default": `https://toolkitlife.com/en/blog/${post.slug}`,
-      },
-    },
+    ...blogIndexSignals(slug, locale),
     openGraph: { title: post.title, description: post.description, url, siteName: "ToolkitLife", type: "article", publishedTime: post.datePublished, modifiedTime: post.dateModified, tags: post.tags, images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }] },
     twitter: { card: "summary_large_image", title: post.title, description: post.description, images: [ogImage] },
   };

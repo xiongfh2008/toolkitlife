@@ -6,12 +6,15 @@
 //   2. Redirected slugs (next.config.ts) have no route folder, no messages
 //      entry, and never appear in sitemap / llms.txt / llms-full.txt
 //   3. Simulated sitemap URLs all resolve to real routes (published locales
-//      only, blog pages exist)
+//      only, blog pages exist, blog locale URLs only for localized bodies)
 //   4. relatedTools hrefs in every locale resolve to real routes
 //   5. Blog relatedTools/relatedArticles resolve to real routes
 //   6. No duplicate tool metadata titles/descriptions
 //   7. llms.txt/llms-full.txt URLs are locale-prefixed and resolvable
 //   8. Faker city anchors have valid coordinates
+//   9. Blog locale availability: pages declare indexability via the shared
+//      blogIndexSignals policy, sitemap lists exactly the localized bodies,
+//      and ru/es body+FAQ always come in pairs
 //
 // Exits non-zero if any check fails, so it can run in CI.
 
@@ -32,6 +35,26 @@ const load = (loc) => JSON.parse(fs.readFileSync(path.join(root, "messages", `${
 const toolRouteExists = (slug) => fs.existsSync(path.join(TOOLS_DIR, slug, "page.tsx"));
 const blogRouteExists = (slug) => fs.existsSync(path.join(BLOG_DIR, slug, "page.tsx"));
 
+// Blog locales with real localized body AND FAQ content. Mirrors
+// blogBodyLocales() in src/lib/blog-locales.ts by parsing the content
+// source files: en/zh/ja/ko are required by the BlogContent type, ru/es
+// are optional and must exist as a body+faqs pair.
+const BLOG_CONTENT_DIR = path.join(root, "src", "data", "blog-content");
+const BASE_BLOG_LOCALES = ["en", "zh", "ja", "ko"];
+const blogBodyLocalesFromSource = (slug) => {
+  const src = fs.readFileSync(path.join(BLOG_CONTENT_DIR, `${slug}.tsx`), "utf8");
+  const locales = [...BASE_BLOG_LOCALES];
+  for (const l of ["ru", "es"]) {
+    const hasBody = new RegExp(`^  ${l}: \\(`, "m").test(src);
+    const hasFaqs = new RegExp(`^    ${l}: \\[`, "m").test(src);
+    if (hasBody && hasFaqs) locales.push(l);
+    else if (hasBody || hasFaqs) {
+      fail(`blog ${slug}: ${l} body/faqs mismatch (body=${hasBody}, faqs=${hasFaqs}) — both must exist before the locale is indexable`);
+    }
+  }
+  return new Set(locales);
+};
+
 // Pull redirect sources out of next.config.ts (regex — config is simple).
 const REDIRECTED_SLUGS = (() => {
   const cfg = fs.readFileSync(path.join(root, "next.config.ts"), "utf8");
@@ -40,7 +63,7 @@ const REDIRECTED_SLUGS = (() => {
   return new Set(slugs);
 })();
 
-console.log("\n[1/8] tool routes ↔ messages");
+console.log("\n[1/9] tool routes ↔ messages");
 const en = load("en");
 const msgSlugs = Object.keys(en.home.tools);
 const routeSlugs = fs.readdirSync(TOOLS_DIR).filter((d) => toolRouteExists(d));
@@ -52,7 +75,7 @@ for (const s of REDIRECTED_SLUGS) {
 }
 ok(`${msgSlugs.length} message slugs, ${routeSlugs.length} routes, ${REDIRECTED_SLUGS.size} redirects — consistent`);
 
-console.log("\n[2/8] sitemap simulation");
+console.log("\n[2/9] sitemap simulation");
 let sitemapUrls = 0;
 const staticPaths = ["", "/about", "/privacy", "/terms"];
 for (const loc of PUBLISHED) {
@@ -65,7 +88,7 @@ for (const loc of PUBLISHED) {
   sitemapUrls++; // /blog index
   for (const slug of Object.keys(en.blogPosts ?? {})) {
     if (!blogRouteExists(slug)) fail(`sitemap blog slug has no page: /${loc}/blog/${slug}`);
-    sitemapUrls++;
+    if (blogBodyLocalesFromSource(slug).has(loc)) sitemapUrls++;
   }
   for (const slug of msgSlugs) {
     if (REDIRECTED_SLUGS.has(slug)) continue;
@@ -75,7 +98,7 @@ for (const loc of PUBLISHED) {
 }
 ok(`sitemap simulates ${sitemapUrls} URLs, all resolve`);
 
-console.log("\n[3/8] relatedTools hrefs (all 9 locales)");
+console.log("\n[3/9] relatedTools hrefs (all 9 locales)");
 for (const loc of LOCALES) {
   const m = load(loc);
   for (const [slug, t] of Object.entries(m.tools ?? {})) {
@@ -87,7 +110,7 @@ for (const loc of LOCALES) {
 }
 ok("all relatedTools hrefs resolve");
 
-console.log("\n[4/8] blog internal links");
+console.log("\n[4/9] blog internal links");
 const blogPosts = en.blogPosts ?? {};
 for (const [slug, p] of Object.entries(blogPosts)) {
   for (const r of p.relatedTools ?? []) {
@@ -107,7 +130,7 @@ for (const d of fs.readdirSync(BLOG_DIR)) {
 }
 ok("blog links resolve");
 
-console.log("\n[5/8] duplicate metadata titles/descriptions");
+console.log("\n[5/9] duplicate metadata titles/descriptions");
 const titles = new Map();
 const descs = new Map();
 for (const [slug] of Object.entries(en.home.tools)) {
@@ -127,7 +150,7 @@ for (const [slug] of Object.entries(en.home.tools)) {
 }
 ok(`${titles.size} unique titles, ${descs.size} unique descriptions`);
 
-console.log("\n[6/8] llms.txt / llms-full.txt URLs");
+console.log("\n[6/9] llms.txt / llms-full.txt URLs");
 for (const file of ["public/llms.txt", "public/llms-full.txt"]) {
   const content = fs.readFileSync(path.join(root, file), "utf8");
   const urls = [...content.matchAll(/https:\/\/toolkitlife\.com(?:\/[a-z-]+)*\/(?:tools|blog)\/[a-z0-9-]+/g)].map((u) => u[0]);
@@ -142,7 +165,7 @@ for (const file of ["public/llms.txt", "public/llms-full.txt"]) {
   ok(`${file}: ${urls.length} URLs checked`);
 }
 
-console.log("\n[7/8] tool layout hreflang pattern");
+console.log("\n[7/9] tool layout hreflang pattern");
 const HREFLANG_SNIPPETS = ["en:", "es:", "zh:", "ja:", "ko:", "ru:", '"x-default"'];
 const toolDirs = fs.readdirSync(TOOLS_DIR).filter((d) => fs.existsSync(path.join(TOOLS_DIR, d, "layout.tsx")));
 for (const d of toolDirs) {
@@ -153,7 +176,7 @@ for (const d of toolDirs) {
 }
 ok(`${toolDirs.length} tool layouts carry the 6 published locales + x-default`);
 
-console.log("\n[8/8] faker city anchor coordinates");
+console.log("\n[8/9] faker city anchor coordinates");
 {
   // Anchors live in a .ts data module — parse the RAW table rows directly.
   const src = fs.readFileSync(path.join(root, "src", "data", "address-cities.ts"), "utf8");
@@ -173,6 +196,48 @@ console.log("\n[8/8] faker city anchor coordinates");
     if (zips.split(",").some((z) => /^0+$/.test(z.trim()))) fail(`anchor ${key}: placeholder postcode "${zips}"`);
   }
   ok(`checked ~${rows} raw string rows`);
+}
+
+console.log("\n[9/9] blog language availability ↔ indexability policy");
+{
+  // Every blog page must declare its indexability through the shared
+  // blogIndexSignals policy (src/lib/blog-locales.ts). A page that hardcodes
+  // its own alternates/robots would break the fallback rules: locale versions
+  // without a localized body must be noindex,follow and must not appear in
+  // the post's hreflang cluster or the sitemap.
+  const blogDirs = fs.readdirSync(BLOG_DIR).filter((d) => blogRouteExists(d));
+  for (const d of blogDirs) {
+    const c = fs.readFileSync(path.join(BLOG_DIR, d, "page.tsx"), "utf8");
+    if (!c.includes("blogIndexSignals")) {
+      fail(`blog ${d}: page.tsx does not use the shared blogIndexSignals policy`);
+    }
+  }
+  // Sitemap blog URLs must list exactly the locales with localized bodies.
+  const blogSlugsAll = Object.keys(en.blogPosts ?? {});
+  let indexedBlogUrls = 0;
+  let fallbackSkipped = 0;
+  for (const slug of blogSlugsAll) {
+    const bodyLocales = blogBodyLocalesFromSource(slug);
+    for (const loc of PUBLISHED) {
+      if (bodyLocales.has(loc)) indexedBlogUrls++;
+      else fallbackSkipped++;
+    }
+    for (const missing of BASE_BLOG_LOCALES.filter((l) => !bodyLocales.has(l))) {
+      fail(`blog ${slug}: base locale ${missing} has no localized body — required by the BlogContent type`);
+    }
+  }
+  // Metadata (title/description) may be localized for all published locales
+  // even when the body is not — but the page-level policy (noindex via
+  // blogIndexSignals) decides indexability, so both must exist in messages.
+  for (const loc of ["ru", "es"]) {
+    const m = load(loc);
+    for (const slug of blogSlugsAll) {
+      const p = m.blogPosts?.[slug];
+      if (!p?.title || !p?.description) fail(`messages/${loc}.json: blogPosts.${slug} missing localized title/description`);
+    }
+  }
+  const sixLocalePosts = blogSlugsAll.filter((s) => blogBodyLocalesFromSource(s).size === 6).length;
+  ok(`${blogDirs.length} pages on the shared policy; ${indexedBlogUrls} indexable blog locale URLs, ${fallbackSkipped} English-fallback locales excluded from sitemap; ${sixLocalePosts} posts fully localized in 6 locales`);
 }
 
 console.log("\n─────────────────────────────");

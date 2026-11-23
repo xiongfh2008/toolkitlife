@@ -168,6 +168,8 @@ export default function DomainAgePage() {
             )}
           </div>
         )}
+
+        <p className="text-xs text-zinc-500">{t("messages.disclaimer")}</p>
       </div>
     </ToolLayout>
   );

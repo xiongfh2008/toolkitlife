@@ -2,7 +2,8 @@ import fs from "fs";
 import path from "path";
 import type { MetadataRoute } from "next";
 import { blogPostsMeta } from "@/data/blog-posts";
-import { routing, publishedLocales } from "@/i18n/routing";
+import { publishedLocales } from "@/i18n/routing";
+import { blogBodyLocales } from "@/lib/blog-locales";
 
 // Only published locales belong in the sitemap; de/fr/pt routes serve English
 // fallback until their message files are translated.
@@ -19,6 +20,13 @@ const tools = Object.keys(
 // Keep in sync with the actual blog page directories: every listed slug must
 // resolve to an existing page, otherwise search engines index 404s.
 const blogSlugs = blogPostsMeta.map((p) => p.slug);
+
+// Blog locale URLs are only listed for locales with real localized body
+// content (see blogIndexSignals for the matching noindex policy on pages).
+const blogLocaleUrls = blogSlugs.map((slug) => ({
+  slug,
+  locales: blogBodyLocales(slug),
+}));
 
 // Old tool slugs that 308-redirect to their canonical replacements (see the
 // slug-alignment redirects in next.config.ts). Redirecting URLs must not be
@@ -62,7 +70,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     });
 
-    for (const slug of blogSlugs) {
+    for (const { slug, locales: bodyLocales } of blogLocaleUrls) {
+      if (!bodyLocales.includes(locale)) continue;
       const meta = blogPostsMeta.find((p) => p.slug === slug);
       entries.push({
         url: `${prefix}/blog/${slug}`,
