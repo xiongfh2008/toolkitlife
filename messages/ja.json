@@ -2004,7 +2004,7 @@
       },
       "heic": {
         "name": "HEIC→JPG/PNG 変換",
-        "description": "HEIC/HEIF 写真をブラウザ内で JPG や PNG に変換します。",
+        "description": "HEIC 写真をブラウザ内で JPG や PNG に変換します。",
         "category": "画像",
         "icon": "📱"
       },
@@ -2064,7 +2064,7 @@
       },
       "image-file-size": {
         "name": "画像ファイルサイズ調整",
-        "description": "サイズを変えずに目標の KB に合うよう画像を再圧縮します。",
+        "description": "目標 KB サイズに合わせて画像を圧縮します。トリミングはせず、長辺が 3000px を超える画像は縮小されます。",
         "category": "画像",
         "icon": "⚖️"
       },
@@ -4987,7 +4987,9 @@
       "category": "便利ツール",
       "keywords": [
         "QRコードファイル転送",
+        "QRコード ファイル転送",
         "QRコードでファイル転送",
+        "インターネットなし ファイル共有",
         "オフラインファイル転送",
         "カメラでファイル送信",
         "エアロップ代替",
@@ -8777,6 +8779,20 @@
       },
       "title": "ABAルーティングナンバー検証",
       "description": "米国銀行のルーティングナンバーのチェックサムを確認し、その由来を判別します。",
+      "relatedTools": [
+        {
+          "name": "SWIFTコード検索",
+          "href": "/tools/swift-bic-checker"
+        },
+        {
+          "name": "IBANチェック",
+          "href": "/tools/iban-validator"
+        },
+        {
+          "name": "通貨換算",
+          "href": "/tools/currency-converter"
+        }
+      ],
       "category": "ファイナンス",
       "keywords": [
         "ABAルーティングナンバー",
@@ -8871,6 +8887,20 @@
       },
       "title": "SWIFTコード検索",
       "description": "SWIFT/BICコードを検証し、各セグメントを読み取り、銀行を照会します。",
+      "relatedTools": [
+        {
+          "name": "IBANチェック",
+          "href": "/tools/iban-validator"
+        },
+        {
+          "name": "ABAルーティングナンバー検証",
+          "href": "/tools/aba-routing-number-validator"
+        },
+        {
+          "name": "通貨換算",
+          "href": "/tools/currency-converter"
+        }
+      ],
       "category": "ファイナンス",
       "keywords": [
         "SWIFTコード",
@@ -8968,6 +8998,20 @@
       },
       "title": "IBAN検証",
       "description": "IBANを検証し、構造とSEPA対応状況を確認します。",
+      "relatedTools": [
+        {
+          "name": "SWIFTコード検索",
+          "href": "/tools/swift-bic-checker"
+        },
+        {
+          "name": "ABAルーティングナンバー検証",
+          "href": "/tools/aba-routing-number-validator"
+        },
+        {
+          "name": "通貨換算",
+          "href": "/tools/currency-converter"
+        }
+      ],
       "category": "ファイナンス",
       "keywords": [
         "IBAN",
@@ -9065,6 +9109,16 @@
       },
       "title": "画面カラーテスト",
       "description": "画面全体を純色で埋めて、モニター・ノート PC・スマホのデッドピクセル、ドット抜け、光漏れをチェック。全画面モードとキーボード操作に対応、インストール不要。",
+      "relatedTools": [
+        {
+          "name": "色覚テスト",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "画面録画ツール",
+          "href": "/tools/screen-recorder"
+        }
+      ],
       "category": "便利ツール",
       "keywords": [
         "ドット抜け チェック",
@@ -9265,15 +9319,16 @@
     },
     "claude-code-text-formatter": {
       "metadata": {
-        "title": "Claude Code テキストフォーマッタ",
+        "title": "Claude Code テキストフォーマッタ - ANSIエスケープシーケンスと行番号を除去",
         "description": "ターミナルとClaude Codeの出力を整理。ANSIコード、行番号、制御文字を除去。",
         "category": "開発者"
       },
       "keywords": [
+        "ANSIエスケープシーケンス除去",
+        "ターミナル出力 クリーンアップ",
         "Claude Code テキストフォーマッタ",
         "オンラインClaude Code テキストフォーマッタ",
         "無料Claude Code テキストフォーマッタ",
-        "Clean up messy terminal & Claude Code output. Strip ANSI codes, line numbers, and control characters.",
         "Claude Code テキストフォーマッタツール",
         "Claude Code テキストフォーマッタオンラインツール",
         "Claude Code テキストフォーマッタ無料ツール",
@@ -28493,7 +28548,11 @@
       "keywords": [
         "動画テキスト抽出",
         "動画を文字起こし",
+        "YouTube 字幕抽出",
         "字幕抽出",
+        "タイムスタンプ付き 字幕抽出",
+        "字幕 TXT ダウンロード",
+        "文字起こし",
         "youtube 字幕",
         "bilibili 字幕",
         "字幕ダウンロード",
@@ -28604,6 +28663,9 @@
       "category": "便利ツール",
       "keywords": [
         "住所生成",
+        "ランダム住所ジェネレーター",
+        "アメリカ 住所生成",
+        "日本 住所生成",
         "ランダム住所",
         "架空住所",
         "テストデータ",
@@ -33999,7 +34061,7 @@
     },
     "pdf-long-image": {
       "metadata": {
-        "title": "PDFを長い画像に変換 - オンラインPDF画像結合",
+        "title": "PDF 長画像 変換 - 複数ページを1枚にまとめる",
         "description": "PDF の全ページを縦に連結して1枚の長い画像にする無料オンラインツール。解像度と出力形式を選択可能。アップロード不要。",
         "category": "便利ツール"
       },
@@ -34009,6 +34071,8 @@
       "keywords": [
         "PDF 長い画像",
         "PDF を1枚の画像に",
+        "PDF 1枚にまとめる",
+        "複数ページを1枚の画像に",
         "PDF 画像結合",
         "PDF 長画像",
         "pdf to long image",
@@ -35293,19 +35357,19 @@
     },
     "heic": {
       "metadata": {
-        "title": "HEIC→JPG/PNG 変換 - 無料オンラインツール",
-        "description": "ブラウザで iPhone の写真を JPG や PNG に変換する無料の HEIC/HEIF コンバーター。アップロード不要でプライベート。"
+        "title": "HEIC→JPG 変換 - iPhone写真をオンラインで変換",
+        "description": "ブラウザ内で iPhone の写真を JPG や PNG に変換する無料の HEIC コンバーター。アップロード不要、プライベートで即時完了。"
       },
       "title": "HEIC→JPG/PNG 変換",
-      "description": "iPhone や Android の HEIC/HEIF 写真を JPG または PNG に変換します。すべてブラウザ内で処理されるため、アップロードは一切ありません。",
+      "description": "iPhone や iPad の HEIC 写真を JPG または PNG に変換——無料、ブラウザ内で完結。アップロード不要で、選択した形式以外に画質の劣化はありません。",
       "category": "画像",
       "keywords": [
-        "heic jpg 変換",
-        "heic png 変換",
-        "heif 変換",
-        "iPhone 写真変換",
-        "heic コンバーター",
-        "heic オンライン"
+        "HEIC JPG 変換",
+        "iPhone 写真 変換",
+        "iPhone 写真 JPG 変換",
+        "HEIC コンバーター",
+        "HEIC PNG 変換",
+        "HEIC オンライン 変換"
       ],
       "faqs": [
         {
@@ -35332,8 +35396,8 @@
         }
       ],
       "upload": {
-        "drop": "HEIC/HEIF 写真をドロップ",
-        "formats": "HEIC · HEIF"
+        "drop": "HEIC 写真をドロップ",
+        "formats": "HEIC"
       },
       "labels": {
         "outputFormat": "出力形式",
@@ -35343,7 +35407,7 @@
         "download": "ダウンロード"
       },
       "errors": {
-        "type": "HEIC/HEIF ファイルを選択してください。",
+        "type": "HEIC ファイルを選択してください。",
         "failed": "変換に失敗しました。ファイルが破損している可能性があります。"
       }
     },
@@ -35859,13 +35923,17 @@
     },
     "image-file-size": {
       "metadata": {
-        "title": "画像ファイルサイズ調整 - 指定KBに圧縮",
-        "description": "サイズを変えずに目標の KB に合うよう画像を再圧縮します。無料・ブラウザ内で完結。"
+        "title": "画像 容量 圧縮 - 指定KBに合わせて圧縮",
+        "description": "50KB・100KB・200KB など任意の目標サイズに画像を圧縮。トリミングはせず、長辺が 3000px を超える画像は縮小されます。無料・ブラウザ内で処理、アップロード不要。"
       },
       "title": "画像ファイルサイズ調整",
-      "description": "目標の KB サイズを設定すると、画像を再圧縮してできるだけ近づけます——サイズは変わりません。",
+      "description": "50KB・100KB・200KB など目標サイズを設定すると、画像を再圧縮してできるだけ近づけます。寸法は変わらず（長辺が 3000px を超える画像は縮小されます）、PNG・JPG・WebP 入力に対応し、出力は JPG。すべてブラウザ内で処理します。",
       "category": "画像",
       "keywords": [
+        "画像 容量 圧縮",
+        "画像を100KBに圧縮",
+        "画像を50KBに圧縮",
+        "画像を200KBに圧縮",
         "画像ファイルサイズ調整",
         "指定サイズに圧縮",
         "目標ファイルサイズ",
@@ -35880,7 +35948,19 @@
         },
         {
           "question": "画像のサイズは変わりますか？",
-          "answer": "いいえ。変わるのは圧縮品質だけで、幅と高さはそのまま維持されます。"
+          "answer": "長辺が 3000px を超える場合のみ変わります。その場合はブラウザの上限に合わせて比例縮小され、それ以外では幅と高さがそのまま維持されます。"
+        },
+        {
+          "question": "画像をちょうど 100KB に圧縮できますか？",
+          "answer": "目標サイズは 50KB・100KB・200KB など任意の KB 値を設定できます。ツールは JPEG 品質を走査し、結果が目標以下になる最大の品質を選びます。最低品質（10%）でも目標を超える場合は、その結果を採用し「目標サイズに到達できません」という通知を表示します。"
+        },
+        {
+          "question": "対応している形式は？",
+          "answer": "PNG・JPG・WebP の画像をドロップできます。圧縮後の出力は常に JPG です。JPEG の品質段階があるため、正確なファイルサイズの調整が可能になります。"
+        },
+        {
+          "question": "画像はサーバーにアップロードされますか？",
+          "answer": "いいえ。圧縮は canvas で完全にブラウザ内で行われ、ファイルが端末の外に出ることはありません。"
         }
       ],
       "relatedTools": [
@@ -35911,6 +35991,32 @@
         "cannotReach": "目標サイズに到達できません",
         "target": "目標サイズ (KB)",
         "resultSize": "結果サイズ"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "画像ファイルサイズ圧縮ツールとは？",
+          "body": [
+            "画像ファイルサイズ圧縮ツールは、画像を KB 単位の目標サイズに収まるまで圧縮します。例えばアバター投稿なら 50KB、フォーム添付なら 100KB、メールなら 200KB といった具合です。寸法は変わらず（長辺が 3000 px を超える場合は縮小されます）、調整されるのは圧縮品質だけです。",
+            "このツールはブラウザ内で JPEG 品質を走査し、目標に最も近い結果を採用します。アップロードは一切ありません。"
+          ]
+        },
+        "howTo": {
+          "title": "使い方",
+          "intro": "3 ステップで目標サイズに圧縮：",
+          "items": [
+            "PNG・JPG・WebP の画像を入力エリアにドロップします。",
+            "目標サイズを KB で入力します（例：100）。",
+            "変換を実行し、結果サイズを確認して JPG をダウンロードします。"
+          ]
+        },
+        "tips": {
+          "title": "ヒント",
+          "items": [
+            "「目標サイズに到達できません」と表示された場合は、最低品質の JPG が使用され通知が表示されます。目標サイズを上げるか、画像リサイズツールで先に寸法を縮めてください。",
+            "出力は常に JPG です。JPEG の品質段階があるため、正確なサイズ調整が可能になります。",
+            "厳密なサイズ指定が不要で通常の圧縮だけでよい場合は、画像圧縮ツールをご利用ください。"
+          ]
+        }
       }
     },
     "image-margin": {
@@ -40083,11 +40189,12 @@
     },
     "json-to-rust": {
       "metadata": {
-        "title": "JSONからRust構造体変換",
+        "title": "JSON Rust 構造体 変換 - オンラインでSerde構造体を生成",
         "description": "JSON をオンラインで Rust 構造体に変換。serde 対応の #[derive(Serialize, Deserialize)]、null 許容フィールドは Option<T>、camelCase リネームを自動生成。",
         "category": "Developer"
       },
       "keywords": [
+        "JSON Rust 構造体 変換",
         "json to rust",
         "json rust 構造体 変換",
         "rust serde 生成",
@@ -40334,6 +40441,18 @@
     "selectLanguage": "言語を選択"
   },
   "blogPosts": {
+    "how-to-combine-pdf-pages-into-one-image": {
+      "title": "PDFを1枚の長画像にまとめる方法（無料・アップロード不要）",
+      "description": "無料のブラウザツールで PDF を1枚の縦長画像に変換。PNG と JPEG の選び方、解像度設定、キャンバスサイズの上限まで解説——アップロードは一切ありません。"
+    },
+    "how-to-convert-heic-to-jpg": {
+      "title": "HEICをJPGに変換する方法（写真はアップロードせずそのまま）",
+      "description": "WebAssembly でブラウザ内だけで iPhone の HEIC 写真を JPG や PNG に変換。JPG と PNG の使い分け、一括変換の代替案、変換に失敗したときの対処法を解説します。"
+    },
+    "how-to-transfer-files-with-qr-codes": {
+      "title": "QRコードでデバイス間ファイル転送を行う方法（ネットワーク不要）",
+      "description": "アニメーションQRコードの流れで2台のデバイス間にファイルを転送：片方の画面が送信、もう片方のカメラが受信、SHA-256 で検証。転送速度・64MB 制限・トラブルシューティングを解説します。"
+    },
     "how-to-compress-images": {
       "title": "画像を劣化させずに圧縮する方法（2026ガイド）",
       "description": "フォーマットと画質設定を正しく選べば、画像サイズを 70〜90% 減らせます。JPEG・PNG・WebP・AVIF の使い分けと 100KB への圧縮、無料のブラウザ圧縮ツールを解説。"

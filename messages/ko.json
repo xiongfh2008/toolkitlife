@@ -2004,7 +2004,7 @@
       },
       "heic": {
         "name": "HEIC→JPG/PNG 변환",
-        "description": "브라우저에서 HEIC/HEIF 사진을 JPG 또는 PNG로 바로 변환하세요.",
+        "description": "브라우저에서 HEIC 사진을 JPG 또는 PNG로 바로 변환하세요.",
         "category": "이미지",
         "icon": "📱"
       },
@@ -2064,7 +2064,7 @@
       },
       "image-file-size": {
         "name": "이미지 파일 크기 조정",
-        "description": "크기를 바꾸지 않고 목표 KB에 맞게 이미지를 재압축합니다.",
+        "description": "목표 KB 크기에 맞게 이미지를 압축합니다. 크롭 없이 진행되며, 긴 쪽이 3000px를 넘는 이미지는 비율대로 축소됩니다.",
         "category": "이미지",
         "icon": "⚖️"
       },
@@ -4986,8 +4986,10 @@
       "description": "애니메이션 QR 코드 스트림을 통해 두 기기 간에 파일과 텍스트를 전송합니다. 한 화면이 코드를 표시하면 다른 기기의 카메라가 이를 스캔하고 파일을 로컬에서 재구성합니다 — 네트워크 없음, 서버 없음, 업로드되는 것 없음.",
       "category": "유틸리티",
       "keywords": [
+        "QR코드 파일 전송",
         "qr 파일 전송",
         "qr 코드로 파일 전송",
+        "인터넷 없이 파일 전송",
         "오프라인 파일 전송",
         "카메라에서 화면으로 파일 보내기",
         "에어드롭 대안",
@@ -8777,6 +8779,20 @@
       },
       "title": "ABA 라우팅 넘버 검증",
       "description": "미국 은행 라우팅 넘버의 체크섬을 확인하고 출처를 해독합니다.",
+      "relatedTools": [
+        {
+          "name": "SWIFT 코드 조회",
+          "href": "/tools/swift-bic-checker"
+        },
+        {
+          "name": "IBAN 검증",
+          "href": "/tools/iban-validator"
+        },
+        {
+          "name": "환율 계산기",
+          "href": "/tools/currency-converter"
+        }
+      ],
       "category": "금융",
       "keywords": [
         "ABA 라우팅 넘버",
@@ -8871,6 +8887,20 @@
       },
       "title": "SWIFT 코드 조회",
       "description": "SWIFT/BIC 코드를 검증하고 각 세그먼트를 읽고 은행을 조회합니다.",
+      "relatedTools": [
+        {
+          "name": "IBAN 검증",
+          "href": "/tools/iban-validator"
+        },
+        {
+          "name": "ABA 라우팅 넘버 검증",
+          "href": "/tools/aba-routing-number-validator"
+        },
+        {
+          "name": "환율 계산기",
+          "href": "/tools/currency-converter"
+        }
+      ],
       "category": "금융",
       "keywords": [
         "SWIFT 코드 조회",
@@ -8968,6 +8998,20 @@
       },
       "title": "IBAN 검증",
       "description": "IBAN을 검증하고 구조와 SEPA 여부를 확인합니다.",
+      "relatedTools": [
+        {
+          "name": "SWIFT 코드 조회",
+          "href": "/tools/swift-bic-checker"
+        },
+        {
+          "name": "ABA 라우팅 넘버 검증",
+          "href": "/tools/aba-routing-number-validator"
+        },
+        {
+          "name": "환율 계산기",
+          "href": "/tools/currency-converter"
+        }
+      ],
       "category": "금융",
       "keywords": [
         "IBAN",
@@ -9065,6 +9109,16 @@
       },
       "title": "화면 단색 테스트",
       "description": "화면 전체를 순수한 단색으로 채워 모니터, 노트북, 스마트폰의 데드 픽셀, 붙은 서브픽셀, 빛샘을 검사하세요. 전체 화면 모드와 키보드 조작을 지원하며 설치가 필요 없습니다.",
+      "relatedTools": [
+        {
+          "name": "색각 이상 테스트",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "화면 녹화기",
+          "href": "/tools/screen-recorder"
+        }
+      ],
       "category": "유틸리티",
       "keywords": [
         "데드 픽셀 테스트",
@@ -9265,15 +9319,16 @@
     },
     "claude-code-text-formatter": {
       "metadata": {
-        "title": "Claude Code 텍스트 포맷터",
+        "title": "Claude Code 텍스트 포맷터 - ANSI 코드와 줄 번호 제거",
         "description": "터미널과 Claude Code 출력을 정리하고 ANSI 코드, 줄 번호, 제어 문자를 제거합니다.",
         "category": "개발자"
       },
       "keywords": [
+        "ANSI 코드 제거",
+        "터미널 출력 정리",
         "Claude Code 텍스트 포맷터",
         "온라인 Claude Code 텍스트 포맷터",
         "무료 Claude Code 텍스트 포맷터",
-        "Clean up messy terminal & Claude Code output. Strip ANSI codes, line numbers, and control characters.",
         "Claude Code 텍스트 포맷터 도구",
         "Claude Code 텍스트 포맷터 온라인 도구",
         "Claude Code 텍스트 포맷터 무료 도구",
@@ -28493,6 +28548,10 @@
       "keywords": [
         "동영상 자막 추출",
         "동영상 텍스트 변환",
+        "유튜브 자막 추출",
+        "동영상 자막 텍스트",
+        "타임스탬프 자막 추출",
+        "자막 TXT 다운로드",
         "자막 추출",
         "youtube 자막",
         "bilibili 자막",
@@ -28604,6 +28663,9 @@
       "category": "유틸리티",
       "keywords": [
         "주소 생성기",
+        "랜덤 주소 생성기",
+        "미국 주소 생성기",
+        "일본 주소 생성기",
         "랜덤 주소",
         "가짜 주소",
         "테스트 주소",
@@ -33996,7 +34058,7 @@
     },
     "pdf-long-image": {
       "metadata": {
-        "title": "PDF 긴 이미지 변환 - 온라인 PDF 이미지 결합",
+        "title": "PDF 긴 이미지 변환 - 여러 페이지를 한 장으로 합치기",
         "description": "PDF의 모든 페이지를 세로로 이어 붙여 한 장의 긴 이미지로 만드는 무료 온라인 도구. 선명도와 출력 형식을 선택할 수 있습니다. 업로드 불필요.",
         "category": "유틸리티"
       },
@@ -34006,6 +34068,8 @@
       "keywords": [
         "PDF 긴 이미지",
         "PDF를 한 장의 이미지로",
+        "PDF 한 장으로 합치기",
+        "여러 페이지 한 장으로 합치기",
         "PDF 이미지 결합",
         "PDF 긴 그림",
         "pdf to long image",
@@ -35290,19 +35354,19 @@
     },
     "heic": {
       "metadata": {
-        "title": "HEIC→JPG/PNG 변환기 - 무료 온라인 도구",
-        "description": "브라우저에서 iPhone 사진을 JPG나 PNG로 변환하는 무료 HEIC/HEIF 변환기입니다. 업로드 없이 안전하게."
+        "title": "HEIC→JPG 변환기 - iPhone 사진 온라인 변환",
+        "description": "브라우저에서 iPhone 사진을 JPG나 PNG로 변환하는 무료 HEIC 변환기입니다. 업로드 없이 안전하고 즉시 완료됩니다."
       },
       "title": "HEIC→JPG/PNG 변환",
-      "description": "iPhone 및 Android의 HEIC/HEIF 사진을 JPG 또는 PNG로 변환합니다. 모든 처리는 브라우저에서 로컬로 진행되어 업로드가 없습니다.",
+      "description": "iPhone 및 iPad의 HEIC 사진을 JPG 또는 PNG로 변환하세요. 무료이며 브라우저에서 바로 처리됩니다. 업로드가 없고, 선택한 형식 외에는 화질 손실이 없습니다.",
       "category": "이미지",
       "keywords": [
-        "heic jpg 변환",
-        "heic png 변환",
-        "heif 변환",
+        "HEIC JPG 변환",
         "아이폰 사진 변환",
-        "heic 변환기",
-        "heic 온라인 변환"
+        "아이폰 사진 JPG 변환",
+        "HEIC 변환기",
+        "HEIC PNG 변환",
+        "HEIC 온라인 변환"
       ],
       "faqs": [
         {
@@ -35329,8 +35393,8 @@
         }
       ],
       "upload": {
-        "drop": "HEIC/HEIF 사진을 여기에 놓으세요",
-        "formats": "HEIC · HEIF"
+        "drop": "HEIC 사진을 여기에 놓으세요",
+        "formats": "HEIC"
       },
       "labels": {
         "outputFormat": "출력 형식",
@@ -35340,7 +35404,7 @@
         "download": "다운로드"
       },
       "errors": {
-        "type": "HEIC/HEIF 파일을 선택하세요.",
+        "type": "HEIC 파일을 선택하세요.",
         "failed": "변환에 실패했습니다. 파일이 손상되었을 수 있습니다."
       }
     },
@@ -35856,19 +35920,22 @@
     },
     "image-file-size": {
       "metadata": {
-        "title": "이미지 파일 크기 조정 - 목표 KB로 압축",
-        "description": "크기를 바꾸지 않고 목표 KB에 맞게 이미지를 재압축합니다. 무료, 브라우저에서 실행."
+        "title": "이미지 용량 줄이기 - 목표 KB로 압축",
+        "description": "50KB, 100KB, 200KB 등 원하는 목표 용량으로 이미지를 압축. 크롭 없이 진행되며, 긴 쪽이 3000px를 넘는 이미지는 비율대로 축소됩니다. 무료, 브라우저에서 처리, 업로드 없음."
       },
       "title": "이미지 파일 크기 조정",
-      "description": "목표 KB 크기를 설정하면 이미지를 재압축해 최대한 가깝게 맞춥니다 — 크기는 절대 변하지 않습니다.",
+      "description": "50KB, 100KB, 200KB 등 목표 용량을 설정하면 이미지를 재압축해 최대한 가깝게 맞춥니다. 크기는 그대로 유지되며(긴 쪽이 3000px를 넘는 이미지는 비율대로 축소됨), PNG, JPG, WebP 입력을 지원하고 출력은 JPG. 모든 처리는 브라우저에서 로컬로 진행됩니다.",
       "category": "이미지",
       "keywords": [
+        "이미지 용량 줄이기",
+        "이미지 100KB 압축",
+        "이미지 50KB 압축",
+        "이미지 200KB 압축",
         "이미지 파일 크기 조정",
         "목표 크기로 압축",
         "목표 파일 크기",
         "이미지 kb 줄이기",
-        "이미지 크기 압축",
-        "이미지 용량 줄이기"
+        "이미지 크기 압축"
       ],
       "faqs": [
         {
@@ -35877,7 +35944,19 @@
         },
         {
           "question": "이미지 크기가 변경되나요?",
-          "answer": "아니요. 압축 품질만 바뀌며 가로·세로 크기는 그대로 유지됩니다."
+          "answer": "긴 쪽이 3000px를 초과하는 경우에만 변경됩니다. 이때는 브라우저 제한에 맞춰 비율대로 축소되며, 그 외에는 가로·세로 크기가 그대로 유지됩니다."
+        },
+        {
+          "question": "이미지를 정확히 100KB로 압축할 수 있나요?",
+          "answer": "목표 용량은 50KB, 100KB, 200KB 등 임의의 KB 값으로 설정할 수 있습니다. 도구는 JPEG 품질을 스캔해 결과가 목표 이하가 되는 가장 높은 품질을 선택합니다. 최저 품질(10%)로도 목표를 초과하면 해당 결과를 사용하고 '목표 크기에 도달할 수 없습니다' 알림을 표시합니다."
+        },
+        {
+          "question": "어떤 형식이 지원되나요?",
+          "answer": "PNG, JPG, WebP 이미지를 놓을 수 있습니다. 압축 결과는 항상 JPG로 출력됩니다. JPEG 품질 단계 덕분에 정확한 용량 조절이 가능하기 때문입니다."
+        },
+        {
+          "question": "이미지가 서버에 업로드되나요?",
+          "answer": "아니요. 압축은 canvas로 브라우저 안에서만 진행되며 파일이 기기를 벗어나지 않습니다."
         }
       ],
       "relatedTools": [
@@ -35908,6 +35987,32 @@
         "cannotReach": "목표 크기에 도달할 수 없습니다",
         "target": "목표 크기 (KB)",
         "resultSize": "결과 크기"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "이미지 파일 크기 줄이기 도구란?",
+          "body": [
+            "이미지 파일 크기 줄이기 도구는 이미지를 KB 단위 목표 용량에 맞을 때까지 압축합니다. 예를 들어 프로필 업로드는 50KB, 양식 첨부는 100KB, 이메일은 200KB 식입니다. 크기는 유지되고(긴 쪽이 3000px를 초과하면 축소됨) 조절되는 것은 압축 품질뿐입니다.",
+            "이 도구는 브라우저에서 JPEG 품질을 스캔해 목표에 가장 가까운 결과를 선택합니다. 아무것도 업로드되지 않습니다."
+          ]
+        },
+        "howTo": {
+          "title": "사용 방법",
+          "intro": "세 단계로 목표 용량에 맞게 압축하세요:",
+          "items": [
+            "PNG, JPG 또는 WebP 이미지를 입력 영역에 놓으세요.",
+            "목표 용량을 KB 단위로 입력하세요(예: 100).",
+            "변환을 누르고 결과 크기를 확인한 뒤 JPG를 다운로드하세요."
+          ]
+        },
+        "tips": {
+          "title": "팁",
+          "items": [
+            "'목표 크기에 도달할 수 없습니다' 알림이 표시되면 최저 품질의 JPG가 사용된 것이니, 목표 용량을 높이거나 이미지 크기 조정기로 먼저 크기를 줄여보세요.",
+            "출력은 항상 JPG입니다. JPEG 품질 단계가 있어야 정확한 용량 조절이 가능하기 때문입니다.",
+            "엄격한 용량 목표 없이 일반적인 압축만 필요하다면 이미지 압축기를 사용하세요."
+          ]
+        }
       }
     },
     "image-margin": {
@@ -40080,11 +40185,12 @@
     },
     "json-to-rust": {
       "metadata": {
-        "title": "JSON을 Rust로 변환",
+        "title": "JSON Rust 구조체 변환 - 온라인 Serde 구조체 생성",
         "description": "온라인으로 JSON을 Rust 구조체로 변환합니다. serde 준비된 #[derive(Serialize, Deserialize)], null 허용 필드 Option<T>, 자동 camelCase 이름 변경.",
         "category": "Developer"
       },
       "keywords": [
+        "JSON Rust 구조체 변환",
         "json to rust",
         "json rust 구조체 변환",
         "rust serde 생성기",
@@ -40331,6 +40437,18 @@
     "selectLanguage": "언어 선택"
   },
   "blogPosts": {
+    "how-to-combine-pdf-pages-into-one-image": {
+      "title": "PDF를 한 장의 긴 이미지로 합치는 방법(무료, 업로드 없음)",
+      "description": "무료 브라우저 도구로 PDF를 세로로 긴 이미지 한 장으로 변환. PNG와 JPEG 선택 기준, 선명도 설정, 캔버스 크기 제한까지 설명합니다 — 어떤 것도 업로드되지 않습니다."
+    },
+    "how-to-convert-heic-to-jpg": {
+      "title": "HEIC를 JPG로 변환하는 방법(사진은 업로드하지 않고 그대로)",
+      "description": "WebAssembly로 브라우저 안에서만 iPhone HEIC 사진을 JPG나 PNG로 변환. JPG와 PNG 선택 기준, 여러 장 처리 대안, 변환 실패 시 대처법을 다룹니다."
+    },
+    "how-to-transfer-files-with-qr-codes": {
+      "title": "QR 코드로 기기 간 파일 전송하는 방법(인터넷 없이)",
+      "description": "애니메이션 QR 코드 스트림으로 두 기기 간 파일 전송: 한 화면이 보내고 한 카메라가 받으며 SHA-256으로 검증합니다. 속도, 64MB 제한, 문제 해결 방법을 다룹니다."
+    },
     "how-to-compress-images": {
       "title": "이미지 화질 저하 없이 압축하는 방법(2026 가이드)",
       "description": "올바른 형식과 품질 설정으로 이미지 용량을 70~90% 줄이는 방법. JPEG·PNG·WebP·AVIF 비교, 100KB 목표 압축, 무료 브라우저 압축 도구까지 안내합니다."

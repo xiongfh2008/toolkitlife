@@ -2004,7 +2004,7 @@
       },
       "heic": {
         "name": "HEIC to JPG/PNG",
-        "description": "Convert HEIC/HEIF photos to JPG or PNG right in your browser.",
+        "description": "Convert HEIC photos to JPG or PNG right in your browser.",
         "category": "Image",
         "icon": "📱"
       },
@@ -2064,7 +2064,7 @@
       },
       "image-file-size": {
         "name": "Image File Size",
-        "description": "Recompress an image to reach a target file size in KB, without changing dimensions.",
+        "description": "Compress an image to a target file size in KB without cropping — images over 3000px on the long side are scaled down.",
         "category": "Image",
         "icon": "⚖️"
       },
@@ -35050,19 +35050,21 @@
     },
     "heic": {
       "metadata": {
-        "title": "HEIC to JPG/PNG Converter - Free Online Tool",
-        "description": "Free online HEIC/HEIF converter: turn iPhone photos into JPG or PNG in your browser. No upload, private and instant."
+        "title": "HEIC to JPG Converter - Convert iPhone Photos Online",
+        "description": "Free online HEIC converter: turn iPhone photos into JPG or PNG right in your browser. No upload, private and instant."
       },
       "title": "HEIC to JPG/PNG",
-      "description": "Convert iPhone and Android HEIC/HEIF photos to JPG or PNG. Everything runs locally in your browser — no upload, no quality loss beyond the chosen format.",
+      "description": "Convert iPhone and iPad HEIC photos to JPG or PNG — free, right in your browser. No upload, no quality loss beyond the chosen format.",
       "category": "Image",
       "keywords": [
         "heic to jpg",
+        "heic to jpg converter",
         "heic to png",
-        "heif converter",
-        "iphone photo converter",
-        "convert heic",
-        "heic online"
+        "convert iphone photos to jpg",
+        "free heic image converter",
+        "heic converter without uploading",
+        "heic converter online",
+        "convert heic"
       ],
       "faqs": [
         {
@@ -35072,6 +35074,14 @@
         {
           "question": "Which format should I pick?",
           "answer": "JPG is smaller and universally supported; PNG is lossless and keeps transparency where available."
+        },
+        {
+          "question": "Can I convert multiple photos at once?",
+          "answer": "No — this converter handles one photo at a time. For a batch of shots, convert them one by one, or convert a screenshot-based copy with the Image Format Converter."
+        },
+        {
+          "question": "Does it support HEIF files?",
+          "answer": "The converter is built and tested for .heic files — the format iPhone cameras produce. Some .heif or renamed files may fail; re-export the photo from your gallery app first and try again."
         }
       ],
       "relatedTools": [
@@ -35089,8 +35099,8 @@
         }
       ],
       "upload": {
-        "drop": "Drop a HEIC/HEIF photo here",
-        "formats": "HEIC · HEIF"
+        "drop": "Drop a HEIC photo here",
+        "formats": "HEIC"
       },
       "labels": {
         "outputFormat": "Output format",
@@ -35100,8 +35110,34 @@
         "download": "Download"
       },
       "errors": {
-        "type": "Please choose a HEIC/HEIF file.",
+        "type": "Please choose a HEIC file.",
         "failed": "Conversion failed. The file may be corrupted."
+      },
+      "guide": {
+        "whatIs": {
+          "title": "What is a HEIC to JPG converter?",
+          "body": [
+            "A HEIC to JPG converter turns iPhone and iPad .heic photos into the universally supported JPG or PNG format so they open anywhere — Windows, Android, older apps and websites.",
+            "This tool decodes HEIC locally in your browser with WebAssembly. Photos are never uploaded to a server."
+          ]
+        },
+        "howTo": {
+          "title": "How to use",
+          "intro": "Three steps to convert a HEIC photo:",
+          "items": [
+            "Drop a .heic photo into the input area (or click to pick one).",
+            "Choose JPG or PNG as the output format.",
+            "Preview the result, then download it."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "Pick JPG for sharing and everyday use; pick PNG when you need lossless output.",
+            "Conversion handles one photo at a time — for batches, repeat per photo or shoot in JPG in Camera settings to avoid HEIC entirely.",
+            "If a file fails to convert it may be a HEIF container or corrupted file; re-export it from your gallery app and retry."
+          ]
+        }
       }
     },
     "icon-size-generator": {
@@ -35616,17 +35652,21 @@
     },
     "image-file-size": {
       "metadata": {
-        "title": "Image File Size - Compress to Target KB Online",
-        "description": "Recompress an image to reach a target file size in KB, without changing dimensions. Free, runs in your browser."
+        "title": "Image File Size Reducer - Compress Image to Target KB",
+        "description": "Compress an image to a target file size — 50KB, 100KB, 200KB or any custom KB value — without cropping. Images over 3000px on the long side are scaled down. Free, in-browser, no upload."
       },
       "title": "Image File Size",
-      "description": "Set a target size in KB and the tool recompresses your image to get as close as possible — dimensions never change.",
+      "description": "Set a target size in KB — 50, 100, 200 or any value — and the tool recompresses your image to get as close as possible. Dimensions are preserved unless the long side exceeds 3000px, which is scaled down. Accepts PNG, JPG and WebP input and outputs JPG; everything runs locally in your browser.",
       "category": "Image",
       "keywords": [
         "image file size reducer",
+        "compress image to 100kb",
+        "compress jpg to 50kb",
+        "reduce image to 200kb",
+        "compress image without uploading",
         "compress image to size",
         "target file size",
-        "reduce image kb",
+        "resize image to specific file size",
         "image size compressor",
         "resize image file size"
       ],
@@ -35637,7 +35677,19 @@
         },
         {
           "question": "Are the image dimensions changed?",
-          "answer": "No. Only the compression quality changes, so the width and height stay exactly the same."
+          "answer": "Only when the image is larger than 3000 px on its long side — it is scaled down proportionally to fit browser limits. Otherwise the width and height stay exactly the same."
+        },
+        {
+          "question": "Can I compress an image to exactly 100KB?",
+          "answer": "You set any target in KB — 50, 100, 200, or a custom value. The tool scans JPEG quality levels and picks the largest quality whose result is at or under your target. If even the lowest quality (10%) is still over the target, that lowest-quality result is used and the tool shows a \"Could not reach target size\" notice."
+        },
+        {
+          "question": "Which formats are supported?",
+          "answer": "You can drop PNG, JPG or WebP images. The compressed output is always JPG, because JPEG quality levels are what make precise file-size targeting possible."
+        },
+        {
+          "question": "Is my image uploaded to a server?",
+          "answer": "No. Compression runs entirely in your browser with canvas — the file never leaves your device."
         }
       ],
       "relatedTools": [
@@ -35668,6 +35720,32 @@
         "cannotReach": "Could not reach target size",
         "target": "Target size (KB)",
         "resultSize": "Result size"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "What is an image file size reducer?",
+          "body": [
+            "An image file size reducer compresses a picture until it fits a target size in kilobytes — for example 50KB for an avatar upload, 100KB for a form attachment, or 200KB for an email. Dimensions are preserved unless the image's long side exceeds 3000 px, in which case it is scaled down; only the compression quality is tuned.",
+            "This tool scans JPEG quality levels in your browser and keeps the result closest to your target. Nothing is uploaded."
+          ]
+        },
+        "howTo": {
+          "title": "How to use",
+          "intro": "Three steps to compress to a target size:",
+          "items": [
+            "Drop a PNG, JPG or WebP image into the input area.",
+            "Enter your target size in KB (for example 100).",
+            "Click convert, check the result size, then download the JPG."
+          ]
+        },
+        "tips": {
+          "title": "Tips",
+          "items": [
+            "If the tool reports it could not reach the target size, the lowest-quality JPG is used and a notice is shown — try a higher target or use the Image Resizer to shrink dimensions first.",
+            "The output is always JPG, since JPEG quality levels are what make precise size targeting possible.",
+            "For general-purpose compression without a hard size target, use the Image Compressor tool instead."
+          ]
+        }
       }
     },
     "image-margin": {

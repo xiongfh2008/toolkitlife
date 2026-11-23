@@ -2005,7 +2005,7 @@
       },
       "heic": {
         "name": "HEIC a JPG/PNG",
-        "description": "Convierte fotos HEIC/HEIF a JPG o PNG directamente en tu navegador.",
+        "description": "Convierte fotos HEIC a JPG o PNG directamente en tu navegador.",
         "category": "Imagen",
         "icon": "📱"
       },
@@ -2065,7 +2065,7 @@
       },
       "image-file-size": {
         "name": "Tamaño de archivo de imagen",
-        "description": "Recomprime una imagen para alcanzar un tamaño de archivo objetivo en KB, sin cambiar las dimensiones.",
+        "description": "Comprime una imagen a un tamaño objetivo en KB sin recortar; las imágenes con más de 3000 px en el lado largo se reducen proporcionalmente.",
         "category": "Imagen",
         "icon": "⚖️"
       },
@@ -5407,6 +5407,20 @@
       },
       "title": "Validador de números de ruta ABA",
       "description": "Comprueba el checksum del número de ruta de un banco de EE. UU. y descubre de dónde procede.",
+      "relatedTools": [
+        {
+          "name": "Comprobador de código SWIFT/BIC",
+          "href": "/tools/swift-bic-checker"
+        },
+        {
+          "name": "Validador de IBAN",
+          "href": "/tools/iban-validator"
+        },
+        {
+          "name": "Conversor de monedas",
+          "href": "/tools/currency-converter"
+        }
+      ],
       "category": "Finanzas",
       "keywords": [
         "número de ruta aba",
@@ -5501,6 +5515,20 @@
       },
       "title": "Comprobador de códigos SWIFT/BIC",
       "description": "Valida un código SWIFT/BIC, lee sus segmentos y consulta el banco.",
+      "relatedTools": [
+        {
+          "name": "Validador de IBAN",
+          "href": "/tools/iban-validator"
+        },
+        {
+          "name": "Validador de número de ruta ABA",
+          "href": "/tools/aba-routing-number-validator"
+        },
+        {
+          "name": "Conversor de monedas",
+          "href": "/tools/currency-converter"
+        }
+      ],
       "category": "Finanzas",
       "keywords": [
         "código swift",
@@ -5598,6 +5626,20 @@
       },
       "title": "Validador de IBAN",
       "description": "Valida un IBAN, consulta su estructura y su estado SEPA.",
+      "relatedTools": [
+        {
+          "name": "Comprobador de código SWIFT/BIC",
+          "href": "/tools/swift-bic-checker"
+        },
+        {
+          "name": "Validador de número de ruta ABA",
+          "href": "/tools/aba-routing-number-validator"
+        },
+        {
+          "name": "Conversor de monedas",
+          "href": "/tools/currency-converter"
+        }
+      ],
       "category": "Finanzas",
       "keywords": [
         "iban",
@@ -5695,6 +5737,16 @@
       },
       "title": "Test de color de pantalla",
       "description": "Llena toda la pantalla con colores puros de prueba para encontrar píxeles muertos, subpíxeles atascados y fugas de retroiluminación en tu monitor, portátil o móvil. Modo pantalla completa, controles de teclado, sin instalación.",
+      "relatedTools": [
+        {
+          "name": "Test de daltonismo",
+          "href": "/tools/color-blindness-test"
+        },
+        {
+          "name": "Grabadora de pantalla",
+          "href": "/tools/screen-recorder"
+        }
+      ],
       "category": "Utilidades",
       "keywords": [
         "test de píxeles muertos",
@@ -7448,6 +7500,7 @@
       "keywords": [
         "transferencia de archivos por qr",
         "transferir archivos con código qr",
+        "transferencia sin internet",
         "transferencia de archivos sin conexión",
         "enviar archivo de cámara a pantalla",
         "alternativa a airdrop",
@@ -9263,14 +9316,16 @@
     },
     "claude-code-text-formatter": {
       "metadata": {
-        "title": "Formateador de Texto para Claude Code",
+        "title": "Formateador de Texto para Claude Code - Eliminar códigos ANSI y números de línea",
         "description": "Limpia la salida desordenada de la terminal y de Claude Code. Elimina códigos ANSI, números de línea y caracteres de control.",
         "category": "Desarrollador"
       },
       "keywords": [
         "formateador claude code",
+        "eliminar códigos ANSI",
         "eliminar códigos ansi",
         "limpiar salida de terminal",
+        "limpiar salida de claude code",
         "quitar números de línea de un texto",
         "eliminador de códigos de escape ansi",
         "eliminar caracteres de control",
@@ -28257,6 +28312,9 @@
         "transcripción de video",
         "video a texto",
         "transcripción de youtube",
+        "extraer subtítulos de youtube",
+        "descargar subtítulos de youtube en txt",
+        "subtítulos con marcas de tiempo",
         "extractor de subtítulos de youtube",
         "subtítulos de bilibili",
         "extractor de transcripciones",
@@ -28367,6 +28425,9 @@
       "category": "Utilidades",
       "keywords": [
         "generador de direcciones",
+        "generador de direcciones aleatorias",
+        "generador de direcciones de EE. UU.",
+        "generador de direcciones de Japón",
         "dirección aleatoria",
         "dirección falsa",
         "direcciones globales",
@@ -33768,6 +33829,8 @@
         "pdf a imagen larga",
         "pdf a una sola imagen",
         "unir pdf en una imagen",
+        "unir páginas pdf verticalmente",
+        "convertir pdf a imagen larga online",
         "imagen larga de pdf",
         "unir páginas pdf en una imagen",
         "pdf a imagen"
@@ -35051,19 +35114,19 @@
     },
     "heic": {
       "metadata": {
-        "title": "Conversor de HEIC a JPG/PNG - Herramienta online gratuita",
-        "description": "Conversor online gratuito de HEIC/HEIF: convierte fotos de iPhone a JPG o PNG en tu navegador. Sin subidas, privado e instantáneo."
+        "title": "Conversor de HEIC a JPG - Convierte fotos de iPhone online",
+        "description": "Conversor online gratuito de HEIC: convierte fotos de iPhone a JPG o PNG en tu navegador. Sin subidas, privado e instantáneo."
       },
       "title": "HEIC a JPG/PNG",
-      "description": "Convierte fotos HEIC/HEIF de iPhone y Android a JPG o PNG. Todo se ejecuta localmente en tu navegador: sin subidas y sin pérdida de calidad más allá del formato elegido.",
+      "description": "Convierte fotos HEIC de iPhone y iPad a JPG o PNG: gratis, directamente en tu navegador. Sin subidas y sin pérdida de calidad más allá del formato elegido.",
       "category": "Imagen",
       "keywords": [
         "heic a jpg",
+        "convertidor de heic a jpg",
+        "convertir fotos de iphone a jpg",
+        "convertidor heic online",
         "heic a png",
-        "convertidor heif",
-        "convertidor de fotos de iphone",
-        "convertir heic",
-        "heic online"
+        "convertir heic"
       ],
       "faqs": [
         {
@@ -35090,8 +35153,8 @@
         }
       ],
       "upload": {
-        "drop": "Suelta aquí una foto HEIC/HEIF",
-        "formats": "HEIC · HEIF"
+        "drop": "Suelta aquí una foto HEIC",
+        "formats": "HEIC"
       },
       "labels": {
         "outputFormat": "Formato de salida",
@@ -35101,7 +35164,7 @@
         "download": "Descargar"
       },
       "errors": {
-        "type": "Elige un archivo HEIC/HEIF.",
+        "type": "Elige un archivo HEIC.",
         "failed": "Error en la conversión. El archivo puede estar dañado."
       }
     },
@@ -35617,14 +35680,17 @@
     },
     "image-file-size": {
       "metadata": {
-        "title": "Peso de imagen - Comprimir a un tamaño objetivo en KB online",
-        "description": "Recomprime una imagen para alcanzar un peso de archivo objetivo en KB, sin cambiar las dimensiones. Gratis, funciona en tu navegador."
+        "title": "Comprimir imagen a un tamaño en KB - Reducir peso de imagen",
+        "description": "Comprime una imagen a un peso objetivo — 50 KB, 100 KB, 200 KB o cualquier valor personalizado en KB — sin recortar. Las imágenes con más de 3000 px en el lado largo se reducen proporcionalmente. Gratis, en tu navegador, sin subidas."
       },
       "title": "Peso de imagen",
-      "description": "Define un tamaño objetivo en KB y la herramienta recomprime tu imagen para acercarse lo máximo posible: las dimensiones nunca cambian.",
+      "description": "Define un peso objetivo — 50, 100, 200 KB o cualquier valor — y la herramienta recomprime tu imagen para acercarse lo máximo posible. Las dimensiones se mantienen salvo que el lado largo supere los 3000 px, en cuyo caso se reduce proporcionalmente. Acepta PNG, JPG y WebP y genera JPG; todo se procesa localmente en tu navegador.",
       "category": "Imagen",
       "keywords": [
-        "reducir peso de imagen",
+        "comprimir imagen a 100kb",
+        "comprimir imagen a 50kb",
+        "comprimir imagen a 200kb",
+        "reducir tamaño de imagen",
         "comprimir imagen a un tamaño",
         "peso de archivo objetivo",
         "reducir kb de imagen",
@@ -35638,7 +35704,19 @@
         },
         {
           "question": "¿Cambian las dimensiones de la imagen?",
-          "answer": "No. Solo cambia la calidad de compresión, así que el ancho y el alto se mantienen exactamente iguales."
+          "answer": "Solo cuando la imagen supera los 3000 px en su lado largo: entonces se reduce proporcionalmente para ajustarse a los límites del navegador. En cualquier otro caso, el ancho y el alto se mantienen exactamente iguales."
+        },
+        {
+          "question": "¿Puedo comprimir una imagen a exactamente 100 KB?",
+          "answer": "Puedes definir cualquier objetivo en KB: 50, 100, 200 o un valor personalizado. La herramienta examina los niveles de calidad JPEG y elige la calidad más alta cuyo resultado no supere tu objetivo. Si incluso con la calidad más baja (10 %) se supera el objetivo, se usa ese resultado y se muestra el aviso «No se pudo alcanzar el tamaño objetivo»."
+        },
+        {
+          "question": "¿Qué formatos son compatibles?",
+          "answer": "Puedes soltar imágenes PNG, JPG o WebP. El resultado comprimido siempre es JPG, porque los niveles de calidad JPEG son lo que permite ajustar el peso con precisión."
+        },
+        {
+          "question": "¿Se sube mi imagen a un servidor?",
+          "answer": "No. La compresión se realiza por completo en tu navegador con canvas: el archivo nunca sale de tu dispositivo."
         }
       ],
       "relatedTools": [
@@ -35669,6 +35747,32 @@
         "cannotReach": "No se pudo alcanzar el tamaño objetivo",
         "target": "Tamaño objetivo (KB)",
         "resultSize": "Tamaño del resultado"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "¿Qué es un reductor de peso de imagen?",
+          "body": [
+            "Un reductor de peso de imagen comprime una imagen hasta que encaja en un peso objetivo en kilobytes: por ejemplo 50 KB para un avatar, 100 KB para un adjunto de formulario o 200 KB para un correo. Las dimensiones se mantienen salvo que el lado largo supere los 3000 px, en cuyo caso se reduce; solo se ajusta la calidad de compresión.",
+            "Esta herramienta examina los niveles de calidad JPEG en tu navegador y conserva el resultado más cercano a tu objetivo. No se sube nada."
+          ]
+        },
+        "howTo": {
+          "title": "Cómo usarlo",
+          "intro": "Tres pasos para comprimir a un peso objetivo:",
+          "items": [
+            "Suelta una imagen PNG, JPG o WebP en el área de entrada.",
+            "Introduce tu peso objetivo en KB (por ejemplo, 100).",
+            "Pulsa convertir, comprueba el peso del resultado y descarga el JPG."
+          ]
+        },
+        "tips": {
+          "title": "Consejos",
+          "items": [
+            "Si la herramienta indica que no pudo alcanzar el tamaño objetivo, se usa el JPG de menor calidad y se muestra un aviso: prueba a subir el objetivo o reduce primero las dimensiones con el Redimensionador de imágenes.",
+            "La salida siempre es JPG, porque los niveles de calidad JPEG son lo que permite ajustar el peso con precisión.",
+            "Para una compresión general sin un peso objetivo estricto, usa el Compresor de imágenes."
+          ]
+        }
       }
     },
     "image-margin": {
@@ -39841,11 +39945,12 @@
     },
     "json-to-rust": {
       "metadata": {
-        "title": "JSON a Rust",
+        "title": "JSON a struct de Rust - Generador de structs Serde online",
         "description": "Convierte JSON a structs de Rust online. Structs listos para serde con #[derive(Serialize, Deserialize)], Option<T> para campos nullables y renombrado automático a camelCase.",
         "category": "Developer"
       },
       "keywords": [
+        "JSON a struct de Rust",
         "json a rust",
         "json a struct rust",
         "generador de structs serde rust",
@@ -40092,6 +40197,18 @@
     "selectLanguage": "Seleccionar idioma"
   },
   "blogPosts": {
+    "how-to-combine-pdf-pages-into-one-image": {
+      "title": "Cómo unir las páginas de un PDF en una sola imagen larga (gratis, sin subidas)",
+      "description": "Convierte cualquier PDF en una única imagen larga vertical con una herramienta gratuita del navegador. Cuándo elegir PNG o JPEG, ajustes de nitidez y límites del canvas: nada se sube a la red."
+    },
+    "how-to-convert-heic-to-jpg": {
+      "title": "Cómo convertir HEIC a JPG sin subir tus fotos",
+      "description": "Convierte fotos HEIC de iPhone a JPG o PNG directamente en tu navegador con WebAssembly. Cuándo elegir JPG o PNG, alternativas para lotes de fotos y qué hacer cuando un archivo falla."
+    },
+    "how-to-transfer-files-with-qr-codes": {
+      "title": "Cómo transferir archivos con códigos QR: sin internet y sin nube",
+      "description": "Mueve archivos entre dos dispositivos con un flujo de códigos QR animados: una pantalla envía, una cámara recibe y SHA-256 verifica. Velocidad, el límite de 64 MB y solución de problemas."
+    },
     "how-to-compress-images": {
       "title": "Cómo comprimir imágenes sin perder calidad (Guía 2026)",
       "description": "Reduce el tamaño de las imágenes en un 70-90% con el formato y la calidad adecuados. Cubre JPEG, PNG, WebP y AVIF, objetivos de tamaño exacto como 100 KB y un compresor gratuito en el navegador."
