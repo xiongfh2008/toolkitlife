@@ -214,6 +214,39 @@ export const blogPostsMeta: BlogPostMeta[] = [
       { title: "How to Create a Digital Signature", href: "/blog/how-to-create-digital-signature" },
     ],
   },
+  {
+    slug: "how-to-combine-pdf-pages-into-one-image",
+    author: "ToolkitLife Team",
+    datePublished: "2026-11-23",
+    dateModified: "2026-11-23",
+    tags: ["PDF", "Image", "Converter", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Merge PDF Files", href: "/blog/how-to-merge-pdf-files" },
+      { title: "How to Compress Images", href: "/blog/how-to-compress-images" },
+    ],
+  },
+  {
+    slug: "how-to-convert-heic-to-jpg",
+    author: "ToolkitLife Team",
+    datePublished: "2026-11-23",
+    dateModified: "2026-11-23",
+    tags: ["HEIC", "Image", "Converter", "iPhone", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Compress Images", href: "/blog/how-to-compress-images" },
+      { title: "How to Remove Background from Image", href: "/blog/how-to-remove-background-from-image" },
+    ],
+  },
+  {
+    slug: "how-to-transfer-files-with-qr-codes",
+    author: "ToolkitLife Team",
+    datePublished: "2026-11-23",
+    dateModified: "2026-11-23",
+    tags: ["File Transfer", "QR Code", "Offline", "Privacy", "Tutorial"],
+    relatedArticles: [
+      { title: "How to Transfer Files", href: "/blog/how-to-transfer-files" },
+      { title: "How to Create a Strong Password", href: "/blog/how-to-create-a-strong-password" },
+    ],
+  },
 ];
 
 export function getPostMeta(slug: string): BlogPostMeta {
