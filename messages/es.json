@@ -3138,8 +3138,8 @@
     },
     "redirect-checker": {
       "metadata": {
-        "title": "Comprobador de redirecciones",
-        "description": "Comprueba a dónde redirige una URL y su código de estado final",
+        "title": "Comprobador de redirecciones (URL final y código de estado)",
+        "description": "Introduce una URL y verás a dónde llega tras las redirecciones: la URL final y su código HTTP. Muestra solo el resultado final, no la cadena salto por salto.",
         "category": "Seguimiento"
       },
       "keywords": [
@@ -3181,6 +3181,10 @@
         {
           "question": "¿Qué códigos de estado son importantes?",
           "answer": "200 significa OK, 301/302 significan redirección, 404 significa no encontrado y 403/500 indican errores."
+        },
+        {
+          "question": "¿Muestra la cadena de redirecciones completa?",
+          "answer": "No. El proxy sigue cada salto en el servidor y devuelve solo la URL final y su código de estado. Si necesitas ver cada salto intermedio (p. ej. 301 → 302 → 200), usa una herramienta de servidor como curl -IL o un depurador HTTP."
         }
       ],
       "relatedTools": [
@@ -3320,8 +3324,8 @@
     },
     "domain-age": {
       "metadata": {
-        "title": "Comprobador de antigüedad de dominios",
-        "description": "Descubre la antigüedad y la fecha de registro de cualquier dominio",
+        "title": "Antigüedad de dominio (registro RDAP)",
+        "description": "Consulta las fechas de registro, expiración y última actualización de un dominio en los registros públicos RDAP y calcula su antigüedad. La disponibilidad de datos depende de cada registro; si la consulta falla, se muestra un error.",
         "category": "Dominios"
       },
       "keywords": [
@@ -3353,7 +3357,8 @@
         "errorInvalid": "Introduce un nombre de dominio válido.",
         "errorNotFound": "No se encontraron datos de registro para este dominio.",
         "errorGeneric": "No se pudo comprobar este dominio. Inténtalo de nuevo.",
-        "noRegistration": "No se encontró fecha de registro para este dominio."
+        "noRegistration": "No se encontró fecha de registro para este dominio.",
+        "disclaimer": "Los datos provienen de registros RDAP públicos. La disponibilidad varía según el registro: una consulta fallida significa que no hay datos publicados, no que la antigüedad esté oculta."
       },
       "faqs": [
         {
@@ -3366,7 +3371,11 @@
         },
         {
           "question": "¿Puede ocultarse la fecha de registro?",
-          "answer": "La mayoría de los registros publican las fechas de registro abiertamente mediante RDAP. La protección de privacidad suele ocultar los datos de contacto, no las fechas."
+          "answer": "La mayoría de los registros publican las fechas a través de RDAP, pero las prácticas varían: los servicios de privacidad suelen ocultar los datos de contacto manteniendo las fechas visibles, aunque algunos registros también ocultan las fechas o no soportan RDAP. Cuando faltan datos, la herramienta muestra un error en lugar de adivinar."
+        },
+        {
+          "question": "¿Por qué falló la consulta?",
+          "answer": "La herramienta consulta rdap.org, que dirige la petición al servicio RDAP oficial de cada registro. Los fallos normalmente significan que el TLD no soporta RDAP, que el registro limitó las peticiones o que el nombre de dominio no es válido. Los gTLD nuevos casi siempre funcionan; algunos TLD de país no."
         }
       ],
       "relatedTools": [
@@ -3511,7 +3520,7 @@
     "xml-sitemap": {
       "metadata": {
         "title": "Generador de sitemap XML",
-        "description": "Crea un sitemap XML estándar para tu sitio web en segundos",
+        "description": "Pega tu lista de URLs y genera un sitemap.xml válido con changefreq y priority en tu navegador. Nota: el lastmod de cada entrada se fija con la fecha de hoy — edítalo si las fechas reales de modificación difieren.",
         "category": "Marketing"
       },
       "keywords": [
@@ -3553,7 +3562,8 @@
       "messages": {
         "empty": "Introduce al menos una ruta de página.",
         "invalidUrl": "Introduce una URL de sitio web válida.",
-        "placeholder": "Tu sitemap generado aparecerá aquí."
+        "placeholder": "Tu sitemap generado aparecerá aquí.",
+        "disclaimer": "El lastmod de cada entrada toma por defecto la fecha de generación, no la fecha real de actualización de cada página — edítalo antes de subir el archivo si las fechas exactas son importantes."
       },
       "faqs": [
         {
@@ -3571,6 +3581,10 @@
         {
           "question": "¿Qué prioridad debo usar?",
           "answer": "La prioridad va de 0.0 a 1.0 e indica a los buscadores qué páginas son más importantes. Usa 1.0 solo para tu página de inicio y tus páginas de aterrizaje clave."
+        },
+        {
+          "question": "¿Cómo se establece la fecha de lastmod?",
+          "answer": "El <lastmod> de cada entrada se fija con la fecha en la que generas el archivo: no es la fecha real de modificación de cada página. Los buscadores pueden ignorar valores de lastmod que siempre dicen «hoy», así que edita las fechas manualmente para que coincidan con las actualizaciones reales antes de subir el archivo."
         }
       ],
       "relatedTools": [
@@ -3893,8 +3907,8 @@
     },
     "mobile-friendly-test": {
       "metadata": {
-        "title": "Prueba de compatibilidad móvil",
-        "description": "Comprueba si tu sitio web está optimizado para dispositivos móviles",
+        "title": "Test de compatibilidad móvil (revisión rápida del HTML)",
+        "description": "Comprobación estática y rápida del HTML de tu página: meta viewport, indicios de CSS responsive y tamaños de letra legibles. Una heurística ligera que no sustituye a una prueba en dispositivo real ni a Lighthouse.",
         "category": "Marketing"
       },
       "keywords": [
@@ -3937,8 +3951,8 @@
       },
       "faqs": [
         {
-          "question": "¿Cómo funciona la prueba de compatibilidad móvil?",
-          "answer": "La herramienta obtiene el HTML de la página y comprueba las optimizaciones móviles habituales: etiqueta meta viewport, título, descripción, CSS responsive y tamaños de fuente."
+          "question": "¿Cómo funciona el test de compatibilidad móvil?",
+          "answer": "La herramienta obtiene el HTML de la página a través de un proxy y aplica reglas estáticas al marcado: meta viewport, title, meta description, consultas @media y tamaños de letra en estilos en línea. No renderiza la página, no ejecuta JavaScript ni descarga archivos CSS externos — las páginas que dependen de hojas de estilo externas pueden quedar mal valoradas. Trata la puntuación como una heurística rápida."
         },
         {
           "question": "¿Qué es una etiqueta meta viewport?",
@@ -3988,7 +4002,8 @@
           {
             "title": "Consejos",
             "paragraphs": [
-              "Empieza por la etiqueta meta viewport: es el arreglo individual más importante para el renderizado móvil."
+              "Empieza por la etiqueta meta viewport: es el arreglo individual más importante para el renderizado móvil.",
+              "Note the limits: the tool checks inline styles only, does not download external CSS files, and does not evaluate JavaScript-rendered layout. Use Lighthouse in Chrome DevTools and real devices for a complete audit."
             ]
           }
         ]
@@ -3996,8 +4011,8 @@
     },
     "keyword-density": {
       "metadata": {
-        "title": "Comprobador de densidad de palabras clave",
-        "description": "Analiza la frecuencia y la densidad de palabras clave de tu contenido",
+        "title": "Analizador de densidad de palabras clave (frecuencia de términos)",
+        "description": "Cuenta la frecuencia y densidad de palabras de tu texto, todo en tu navegador. Una métrica de calidad de escritura para detectar el exceso de repeticiones o la falta de términos del tema; la densidad no es un factor de posicionamiento.",
         "category": "Marketing"
       },
       "keywords": [
@@ -4035,7 +4050,8 @@
         "top50": "Top 50"
       },
       "messages": {
-        "empty": "Introduce contenido para analizar."
+        "empty": "Introduce contenido para analizar.",
+        "disclaimer": "El conteo se realiza localmente en tu navegador. La densidad es una métrica de escritura, no un factor de posicionamiento: no hay un porcentaje óptimo que alcanzar."
       },
       "csv": {
         "word": "Palabra clave",
@@ -4048,8 +4064,8 @@
           "answer": "La densidad de palabras clave es el porcentaje de veces que aparece una palabra clave o frase en tu contenido respecto al número total de palabras. Se calcula como (apariciones de la palabra clave ÷ total de palabras) × 100."
         },
         {
-          "question": "¿Cuál es una buena densidad de palabras clave?",
-          "answer": "Una densidad de palabras clave entre el 1% y el 3% se considera generalmente óptima para SEO. Superar mucho ese valor puede parecer relleno de palabras clave, algo que los buscadores pueden penalizar."
+          "question": "¿Qué densidad de palabras clave es buena?",
+          "answer": "No existe una densidad oficialmente óptima. La vieja regla del «1–3%» es folklore SEO: los buscadores modernos entienden temas, sinónimos y cobertura de entidades en lugar de contar porcentajes. Usa la herramienta para detectar términos que aparecen de forma antinatural de tan frecuentes (riesgo de relleno) o que casi no aparecen — no para alcanzar un número mágico."
         },
         {
           "question": "¿Cómo se calcula la densidad en esta herramienta?",
@@ -4057,7 +4073,7 @@
         },
         {
           "question": "¿Por qué debería comprobar la densidad de palabras clave?",
-          "answer": "Comprobar la densidad de palabras clave te ayuda a confirmar que tus palabras clave principales aparecen con la frecuencia suficiente para que los buscadores entiendan tu tema, sin abusar de ellas. También te ayuda a detectar palabras clave secundarias poco utilizadas."
+          "answer": "Es una comprobación de calidad de escritura: confirma que tus palabras del tema aparecen de verdad, detecta repeticiones excesivas involuntarias y compara el énfasis entre borradores. La densidad no es un factor de posicionamiento — ampliar la cobertura y profundidad del tema importa más que perseguir un porcentaje."
         },
         {
           "question": "¿Se envía mi contenido a un servidor?",
@@ -4219,8 +4235,8 @@
     },
     "long-tail-keywords": {
       "metadata": {
-        "title": "Herramienta de palabras clave long-tail",
-        "description": "Genera sugerencias de palabras clave long-tail para tu tema",
+        "title": "Generador de palabras clave long-tail",
+        "description": "Convierte una palabra clave semilla en hasta 60 ideas long-tail con patrones como «how to», «best» y «near me». Combinaciones basadas en reglas — sin volumen de búsqueda ni datos de competencia reales.",
         "category": "Marketing"
       },
       "keywords": [
@@ -4278,6 +4294,10 @@
         {
           "question": "¿Cuántas palabras clave puedo generar?",
           "answer": "La herramienta genera hasta 60 sugerencias por palabra clave semilla, incluidas variantes por país y basadas en preguntas. Puedes copiar palabras clave individuales o toda la lista."
+        },
+        {
+          "question": "¿Muestra volumen de búsqueda o competencia?",
+          "answer": "No. El generador combina tu palabra semilla con patrones de modificación (preguntas, comerciales, locales y países) para producir ideas, no palabras clave validadas. Comprueba el volumen y la dificultad en Google Keyword Planner, Bing Webmaster Tools o una suite SEO de pago antes de invertir en contenido."
         }
       ],
       "relatedTools": [
@@ -4324,12 +4344,15 @@
             ]
           }
         ]
+      },
+      "messages": {
+        "disclaimer": "Las sugerencias son combinaciones basadas en reglas, no una investigación de palabras clave. Valida volumen y competencia con una herramienta específica antes de crear contenido."
       }
     },
     "keyword-position": {
       "metadata": {
-        "title": "Comprobador de posición de palabras clave",
-        "description": "Comprueba en qué posición aparecen tus palabras clave en los buscadores",
+        "title": "Comprobador de posiciones en Bing",
+        "description": "Comprueba en qué posición aparecen tus palabras clave en los resultados orgánicos de Bing. Introduce tu dominio y tus palabras clave y verás tu puesto entre los 50 primeros, gratis y en tu navegador.",
         "category": "Marketing"
       },
       "keywords": [
@@ -4378,6 +4401,10 @@
         {
           "question": "¿Cuántas palabras clave puedo comprobar a la vez?",
           "answer": "Puedes comprobar cualquier número de palabras clave, una por línea. Las listas grandes tardan más porque cada palabra clave requiere una solicitud de búsqueda independiente."
+        },
+        {
+          "question": "¿Por qué una palabra clave aparece como «no encontrada»?",
+          "answer": "Dos posibilidades: tu dominio no está entre los 50 primeros resultados de Bing para esa palabra, o la petición a través del proxy público falló (restricciones de red o límites de tasa). Ambos casos se ven igual en la tabla; vuelve a ejecutar la comprobación antes de sacar conclusiones."
         }
       ],
       "relatedTools": [
@@ -25692,8 +25719,8 @@
     },
     "chatgpt-ads-calculator": {
       "metadata": {
-        "title": "Calculadora de anuncios de ChatGPT",
-        "description": "Estima impresiones, clics y gasto total de una campaña de anuncios en ChatGPT.",
+        "title": "Calculadora de anuncios de ChatGPT (estimación hipotética)",
+        "description": "Simula una campaña de anuncios de ChatGPT con tus propias hipótesis —presupuesto diario, CPM y CTR— y obtén impresiones, clics, CPC y gasto estimados. Cálculo hipotético, no precios oficiales de OpenAI.",
         "category": "Marketing"
       },
       "keywords": [
@@ -25707,7 +25734,7 @@
       "faqs": [
         {
           "question": "¿Cuánto cuestan los anuncios de ChatGPT?",
-          "answer": "Los anuncios de ChatGPT actualmente cuestan alrededor de $60 de CPM (costo por mille, o por cada mil impresiones), con un compromiso mínimo de $200,000-$250,000 para los programas piloto. Esto hace que ChatGPT sea unas 3 veces más caro que los anuncios de Meta (promedio de $15 CPM) y unas 12 veces más que Google Display (promedio de $5 CPM). Se espera que los precios evolucionen a medida que OpenAI introduzca opciones de autoservicio (posiblemente en el cuarto trimestre de 2026)."
+          "answer": "No existe una lista de precios oficial pública. La prensa que cubrió el programa piloto inicial citó cifras en torno a $60 CPM con compromisos mínimos reportados de $200.000–$250.000, pero OpenAI no lo ha confirmado y las condiciones pueden haber cambiado. Precisamente por eso esta calculadora parte de tus propias hipótesis: tú introduces el CPM y el presupuesto, y ella hace la aritmética."
         },
         {
           "question": "¿Cómo son los anuncios de ChatGPT?",
@@ -25734,8 +25761,12 @@
           "answer": "Los anuncios de ChatGPT son significativamente más caros por impresión ($60 CPM frente a $5-38 de Google y $15 de Meta), pero ofrecen un modelo único de segmentación contextual. Compensaciones clave: los anuncios de ChatGPT llegan a los usuarios en momentos conversacionales de alta intención, pero la medición es limitada, hay menos opciones de formato (enlaces de texto y tarjetas de producto frente a imagen/video/carrusel completos) y no hay acceso de autoservicio."
         },
         {
-          "question": "¿Vale la pena el costo de los anuncios de ChatGPT?",
-          "answer": "Depende de tus objetivos. Los anuncios de ChatGPT llegan a los usuarios en momentos de alta intención (preguntando activamente sobre productos/servicios), lo que puede significar mayores tasas de conversión. Sin embargo, el CPM de $60 y el mínimo de $200,000 lo hacen viable solo para marcas con presupuestos significativos. Usa esta calculadora para comparar el ROAS estimado entre plataformas según tus métricas de conversión específicas."
+          "question": "¿Vale la pena invertir en anuncios de ChatGPT?",
+          "answer": "Depende de tus márgenes y tasas de conversión, y esta herramienta no puede responderlo por ti — solo modela el gasto. Úsala para comparar escenarios: por ejemplo, un CPM de $60 frente al ~$15 que se cita habitualmente para Meta implica que el mismo presupuesto compra unas 4 veces menos impresiones. Si el contexto conversacional de alta intención compensa esa diferencia, solo lo dirán los datos de tus propias campañas."
+        },
+        {
+          "question": "¿Es esta calculadora oficial o está afiliada a OpenAI?",
+          "answer": "No. Es una calculadora hipotética independiente: las impresiones, clics, CPC y el gasto total son aritmética pura sobre los valores que introduces (impresiones = presupuesto ÷ CPM × 1000; clics = impresiones × CTR). Úsala para planificar y comparar supuestos; para precios y disponibilidad reales, contacta con el equipo de anunciantes de OpenAI."
         }
       ],
       "relatedTools": [
@@ -25760,7 +25791,7 @@
       "guide": {
         "whatIs": {
           "title": "Anuncios de ChatGPT: lo que los especialistas en marketing deben saber",
-          "content": "OpenAI lanzó los anuncios en ChatGPT en febrero de 2026, creando un canal completamente nuevo para las marcas. A diferencia de los anuncios de búsqueda (intención por palabra clave) o los anuncios sociales (basados en intereses), los anuncios de ChatGPT usan segmentación contextual basada en la conversación en tiempo real del usuario con la IA."
+          "content": "OpenAI lanzó los anuncios en ChatGPT en febrero de 2026, creando un canal completamente nuevo para las marcas. A diferencia de los anuncios de búsqueda (intención por palabra clave) o los anuncios sociales (basados en intereses), los anuncios de ChatGPT usan segmentación contextual basada en la conversación en tiempo real del usuario con la IA. The calculator models your own assumptions — nothing here is an official OpenAI price or quote."
         },
         "howTo": {
           "title": "Formatos actuales (2026)",
@@ -25787,6 +25818,10 @@
           "title": "Diferencias clave con otras plataformas",
           "content": "Segmentación: solo contextual, basada en la conversación. Sin puja por palabras clave, sin segmentación demográfica, sin datos de comportamiento. Medición: solo métricas agregadas (vistas y clics totales). Sin atribución individual, sin píxeles de seguimiento de conversiones, sin retargeting. Privacidad: los anunciantes nunca acceden a los datos de conversación, historiales de chat ni información personal."
         }
+      },
+      "description": "Estima impresiones, clics, CPC medio y gasto total de una campaña de anuncios de ChatGPT a partir de tus propias hipótesis —presupuesto diario, CPM y CTR—. Es una herramienta de planificación para comparar escenarios: los números son aritmética sobre tus datos, no precios ni cotizaciones oficiales de OpenAI.",
+      "messages": {
+        "disclaimer": "Todos los resultados son estimaciones hipotéticas calculadas a partir de tus propios datos: no son precios oficiales de OpenAI, ni una cotización, ni una garantía de rendimiento."
       }
     },
     "child-support-calculator": {

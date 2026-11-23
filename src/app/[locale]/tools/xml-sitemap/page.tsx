@@ -168,6 +168,7 @@ export default function XmlSitemapPage() {
           </pre>
         </div>
       </div>
+      <p className="text-xs text-zinc-500">{t("messages.disclaimer")}</p>
     </ToolLayout>
   );
 }

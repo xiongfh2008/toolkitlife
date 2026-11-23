@@ -3137,8 +3137,8 @@
     },
     "redirect-checker": {
       "metadata": {
-        "title": "Redirect Checker",
-        "description": "Check where a URL redirects to and its final status code",
+        "title": "Redirect Checker — Final URL & Status Code",
+        "description": "Enter a URL and see where it lands after redirects: the final destination URL and its HTTP status code. Shows the end result only — not the hop-by-hop chain.",
         "category": "Tracking"
       },
       "keywords": [
@@ -3180,6 +3180,10 @@
         {
           "question": "What status codes matter?",
           "answer": "200 means OK, 301/302 mean redirected, 404 means not found, and 403/500 indicate errors."
+        },
+        {
+          "question": "Does this show the full redirect chain?",
+          "answer": "No. The proxy follows every hop server-side and returns only the final URL and its status code. If you need each intermediate hop (e.g. 301 → 302 → 200), use a server-side tool such as curl -IL or an HTTP debugger."
         }
       ],
       "relatedTools": [
@@ -3225,7 +3229,8 @@
             ]
           }
         ]
-      }
+      },
+      "description": "Check where a URL actually ends up. Enter a link and the tool follows redirects through a server-side proxy, then shows the final destination URL and its HTTP status code. It reports the end result of the redirect — useful for verifying that old URLs land on the right page — but it does not display the intermediate hops; use a server-side tool like curl -IL if you need the full chain."
     },
     "is-it-down": {
       "metadata": {
@@ -3319,8 +3324,8 @@
     },
     "domain-age": {
       "metadata": {
-        "title": "Domain Age Checker",
-        "description": "Find out the age and registration date of any domain",
+        "title": "Domain Age Checker — RDAP Registration Lookup",
+        "description": "Look up a domain's registration, expiry and update dates through public RDAP records and see its age at a glance. Data availability depends on each registry.",
         "category": "Domain"
       },
       "keywords": [
@@ -3352,7 +3357,8 @@
         "errorInvalid": "Please enter a valid domain name.",
         "errorNotFound": "No registration data found for this domain.",
         "errorGeneric": "Could not check this domain. Please try again.",
-        "noRegistration": "No registration date was found for this domain."
+        "noRegistration": "No registration date was found for this domain.",
+        "disclaimer": "Data comes from public RDAP records. Availability and field coverage vary by registry — a failed lookup means no published data, not a hidden age."
       },
       "faqs": [
         {
@@ -3365,7 +3371,11 @@
         },
         {
           "question": "Can the registration date be hidden?",
-          "answer": "Most registries publish registration dates publicly through RDAP. Privacy protection usually hides contact details, not dates."
+          "answer": "Most registries publish registration dates through RDAP, but practices vary: privacy services usually hide contact details while keeping dates visible, yet some registries redact dates too or don't support RDAP at all. When data is missing, the tool shows an error instead of guessing."
+        },
+        {
+          "question": "Why did my lookup fail?",
+          "answer": "The tool queries rdap.org, which routes to each registry's official RDAP service. Failures usually mean the TLD doesn't support RDAP, the registry rate-limited the request, or the domain name is invalid. Most newer gTLDs work; some country-code TLDs do not."
         }
       ],
       "relatedTools": [
@@ -3411,7 +3421,8 @@
             ]
           }
         ]
-      }
+      },
+      "description": "Find out how old a domain is. The checker queries public RDAP registry records — the modern successor to WHOIS — and shows the registration date, calculated age, expiry date and last-updated date when the registry publishes them. Availability varies by TLD: some registries redact dates or don't support RDAP, and in those cases the tool reports an error rather than guessing."
     },
     "domain-hosting": {
       "metadata": {
@@ -3509,8 +3520,8 @@
     },
     "xml-sitemap": {
       "metadata": {
-        "title": "XML Sitemap Generator",
-        "description": "Create a standard XML sitemap for your website in seconds",
+        "title": "XML Sitemap Generator — Free sitemap.xml Builder",
+        "description": "Generate a valid sitemap.xml from your URL list with changefreq and priority. Every lastmod defaults to today — edit entries whose real modification dates differ.",
         "category": "Marketing"
       },
       "keywords": [
@@ -3552,7 +3563,8 @@
       "messages": {
         "empty": "Enter at least one page path.",
         "invalidUrl": "Please enter a valid website URL.",
-        "placeholder": "Your generated sitemap will appear here."
+        "placeholder": "Your generated sitemap will appear here.",
+        "disclaimer": "Every entry's lastmod defaults to the generation date, not each page's real update time — edit the values before uploading if accurate dates matter to you."
       },
       "faqs": [
         {
@@ -3570,6 +3582,10 @@
         {
           "question": "What priority should I use?",
           "answer": "Priority ranges from 0.0 to 1.0 and tells search engines which pages are more important. Use 1.0 only for your homepage and key landing pages."
+        },
+        {
+          "question": "How is the lastmod date set?",
+          "answer": "Every entry's <lastmod> is set to the date you generate the file — it is not each page's real modification time. Search engines may ignore lastmod values that always say 'today', so edit the dates manually to match genuine content updates before uploading the file."
         }
       ],
       "relatedTools": [
@@ -3605,7 +3621,7 @@
             ],
             "items": [
               "Paths can be absolute (/about) or relative (about).",
-              "The lastmod date is set to today automatically.",
+              "The lastmod date is set to today automatically — edit it if your real page modification dates differ.",
               "Download the XML file and upload it to your site root."
             ]
           },
@@ -3616,7 +3632,8 @@
             ]
           }
         ]
-      }
+      },
+      "description": "Create a valid XML sitemap from a list of URLs without uploading anything. Enter your site URL and page paths, choose a change frequency and priority, and download a standards-compliant sitemap.xml ready for Google Search Console or Bing Webmaster Tools. One honest caveat: every entry's <lastmod> is set to the generation date — edit the file if your pages' real modification dates differ."
     },
     "adsense-calculator": {
       "metadata": {
@@ -3892,8 +3909,8 @@
     },
     "mobile-friendly-test": {
       "metadata": {
-        "title": "Mobile Friendly Test",
-        "description": "Check if your website is optimized for mobile devices",
+        "title": "Mobile Friendly Test — Quick HTML Rule Check",
+        "description": "A quick static check of your page's HTML for mobile basics: viewport meta, responsive CSS hints and readable font sizes. Not a full device or Lighthouse test.",
         "category": "Marketing"
       },
       "keywords": [
@@ -3937,7 +3954,7 @@
       "faqs": [
         {
           "question": "How does the mobile friendly test work?",
-          "answer": "The tool fetches the page HTML and checks for common mobile optimizations: viewport meta tag, title, description, responsive CSS and font sizes."
+          "answer": "The tool fetches the page's HTML through a proxy and runs static rules on the markup: viewport meta tag, title, meta description, @media queries and font-size hints in inline styles. It does not render the page, execute JavaScript or download external CSS files — pages styled mainly through external stylesheets can be marked down unfairly, so treat the score as a quick heuristic."
         },
         {
           "question": "What is a viewport meta tag?",
@@ -3987,16 +4004,18 @@
           {
             "title": "Tips",
             "paragraphs": [
-              "Start with the viewport meta tag — it is the most important single fix for mobile rendering."
+              "Start with the viewport meta tag — it is the most important single fix for mobile rendering.",
+              "Note the limits: the tool checks inline styles only, does not download external CSS files, and does not evaluate JavaScript-rendered layout. Use Lighthouse in Chrome DevTools and real devices for a complete audit."
             ]
           }
         ]
-      }
+      },
+      "description": "Run a quick mobile-friendliness check on any page. The tool fetches the HTML through a proxy and applies static rules — viewport meta tag, title, meta description, responsive CSS hints (@media in inline styles) and font-size checks. It does not render the page, run JavaScript or download external stylesheets, so it is a fast heuristic rather than a substitute for real-device testing or a Lighthouse audit."
     },
     "keyword-density": {
       "metadata": {
-        "title": "Keyword Density Checker",
-        "description": "Analyze keyword frequency and density in your content",
+        "title": "Keyword Density Checker — Word Frequency Tool",
+        "description": "Count word frequencies and density percentages in your text — fully in your browser. A writing QA metric for spotting over-optimization, not a ranking factor.",
         "category": "Marketing"
       },
       "keywords": [
@@ -4034,7 +4053,8 @@
         "top50": "Top 50"
       },
       "messages": {
-        "empty": "Enter some content to analyze."
+        "empty": "Enter some content to analyze.",
+        "disclaimer": "Counts are computed locally in your browser. Density is a writing metric, not a search ranking factor — there is no optimal percentage to hit."
       },
       "csv": {
         "word": "Keyword",
@@ -4048,7 +4068,7 @@
         },
         {
           "question": "What is a good keyword density?",
-          "answer": "A keyword density between 1% and 3% is generally considered optimal for SEO. Going much higher can look like keyword stuffing, which search engines may penalize."
+          "answer": "There is no officially optimal density. The old '1–3%' rule is SEO folklore: modern search engines understand topics, synonyms and entity coverage rather than counting percentages. Use the tool to spot pages where a term appears unnaturally often (stuffing risk) or barely at all — not to hit a magic number."
         },
         {
           "question": "How is the density calculated in this tool?",
@@ -4056,7 +4076,7 @@
         },
         {
           "question": "Why should I check keyword density?",
-          "answer": "Checking keyword density helps you confirm your primary keywords appear frequently enough for search engines to understand your topic, without overusing them. It also helps you spot underused secondary keywords."
+          "answer": "It's a writing QA check: confirm your primary topic words are actually present, catch accidental over-repetition, and compare emphasis across drafts. Density itself is not a ranking factor — improving topical coverage and depth matters more than chasing a percentage."
         },
         {
           "question": "Is my content sent to a server?",
@@ -4112,7 +4132,8 @@
             ]
           }
         ]
-      }
+      },
+      "description": "Analyze word frequencies in your text and see each word's count and density percentage — computed entirely in your browser, nothing is uploaded. Use it as a writing QA metric: spot terms that appear unnaturally often (keyword stuffing) or confirm your topic words are actually present. Density percentages are not a search ranking factor; there is no magic number to hit."
     },
     "meta-tags-analyzer": {
       "metadata": {
@@ -4218,8 +4239,8 @@
     },
     "long-tail-keywords": {
       "metadata": {
-        "title": "Long Tail Keyword Tool",
-        "description": "Generate long-tail keyword suggestions for your topic",
+        "title": "Long Tail Keyword Generator — Free Idea Tool",
+        "description": "Turn a seed keyword into up to 60 long-tail ideas with modifier patterns like 'how to' and 'best'. Rule-based combinations — no search volume or competition data.",
         "category": "Marketing"
       },
       "keywords": [
@@ -4277,6 +4298,10 @@
         {
           "question": "How many keywords can I generate?",
           "answer": "The tool generates up to 60 suggestions per seed keyword, including country-specific and question-based variants. You can copy individual keywords or the whole list."
+        },
+        {
+          "question": "Does it show search volume or competition?",
+          "answer": "No. The generator combines your seed keyword with modifier patterns (question, commercial, local and country forms), producing idea prompts rather than validated keywords. Check volume and difficulty in Google Keyword Planner, Bing Webmaster Tools or a paid SEO suite before investing in content."
         }
       ],
       "relatedTools": [
@@ -4323,12 +4348,16 @@
             ]
           }
         ]
+      },
+      "description": "Turn a single seed keyword into up to 60 long-tail keyword ideas. The generator combines your seed with proven modifier patterns — how-to, best/top, buy/price, reviews, near-me, question forms and country suffixes — so you can build lists for blog posts and landing pages in seconds. The suggestions are rule-based combinations: there is no search volume, difficulty or competition data, so validate promising ideas with a keyword research tool before you invest in content.",
+      "messages": {
+        "disclaimer": "Suggestions are rule-based combinations, not keyword research. Validate volume and competition with a dedicated keyword tool before you build content."
       }
     },
     "keyword-position": {
       "metadata": {
-        "title": "Keyword Position Checker",
-        "description": "Check where your keywords rank in search engines",
+        "title": "Keyword Position Checker — Free Bing Rank Check",
+        "description": "Check where your keywords rank in Bing's organic results. Enter your domain and keywords to see your position in the top 50 — free, in your browser.",
         "category": "Marketing"
       },
       "keywords": [
@@ -4377,6 +4406,10 @@
         {
           "question": "How many keywords can I check at once?",
           "answer": "You can check any number of keywords, one per line. Larger lists take longer because each keyword requires a separate search request."
+        },
+        {
+          "question": "Why does a keyword show as not found?",
+          "answer": "Two possibilities: your domain ranks outside Bing's top 50 for that keyword, or the fetch through the public proxy failed for that request (network restrictions or rate limits). Both look identical in the table, so re-run the check before concluding a keyword has no ranking."
         }
       ],
       "relatedTools": [
@@ -4423,7 +4456,8 @@
             ]
           }
         ]
-      }
+      },
+      "description": "Find where your domain ranks in Bing's organic search results for your target keywords. Enter a domain and a list of keywords; the checker fetches each Bing results page, parses the top 50 organic listings and reports the first position where your domain appears. Bing is used instead of Google because browsers cannot query Google directly — treat the positions as directional estimates, not exact rankings."
     },
     "json-formatter": {
       "metadata": {
@@ -25720,8 +25754,8 @@
     },
     "chatgpt-ads-calculator": {
       "metadata": {
-        "title": "ChatGPT Ads Calculator",
-        "description": "Estimate impressions, clicks, and total spend for a ChatGPT ads campaign.",
+        "title": "ChatGPT Ads Calculator — Estimate Impressions & Spend",
+        "description": "Estimate impressions, clicks, CPC and total spend for a ChatGPT ads campaign from your own budget, CPM and CTR assumptions. What-if tool — not official pricing.",
         "category": "Marketing"
       },
       "keywords": [
@@ -25735,7 +25769,7 @@
       "faqs": [
         {
           "question": "How much do ChatGPT ads cost?",
-          "answer": "ChatGPT ads currently cost about $60 CPM (cost per mille, or per thousand impressions), with a minimum commitment of $200,000-$250,000 for pilot programs. This makes ChatGPT about 3x more expensive than Meta ads (average $15 CPM) and about 12x more than Google Display (average $5 CPM). Pricing is expected to evolve as OpenAI introduces self-serve options (possibly in Q4 2026)."
+          "answer": "There is no public, official rate card. Press reporting on the early pilot program has cited figures around $60 CPM with minimum commitments reportedly in the $200,000–$250,000 range, but none of this is confirmed by OpenAI and terms may have changed. That's exactly why this calculator starts from your own assumptions: you enter the CPM and budget, it does the arithmetic."
         },
         {
           "question": "What do ChatGPT ads look like?",
@@ -25763,7 +25797,11 @@
         },
         {
           "question": "Are ChatGPT ads worth the cost?",
-          "answer": "It depends on your goals. ChatGPT ads reach users at high-intent moments (actively asking questions about products/services), which may mean higher conversion rates. However, the $60 CPM and $200K minimum make it viable only for brands with significant budgets. Use this calculator to compare estimated ROAS across platforms against your specific conversion metrics."
+          "answer": "It depends on your margins and conversion rates, and this tool can't answer that for you — it only models spend. Use it to compare scenarios (for example, a $60 CPM assumption versus Meta's commonly cited ~$15 CPM: the same budget buys roughly 4× fewer impressions). Whether the high-intent conversational context converts well enough to justify the gap is something only your own campaign data can tell."
+        },
+        {
+          "question": "Is this calculator official or affiliated with OpenAI?",
+          "answer": "No. It's an independent what-if calculator: impressions, clicks, CPC and total spend are pure arithmetic on the values you enter (impressions = budget ÷ CPM × 1000; clicks = impressions × CTR). Use it for planning and comparing assumptions — for real pricing and availability, contact OpenAI's advertisers team."
         }
       ],
       "relatedTools": [
@@ -25788,7 +25826,7 @@
       "guide": {
         "whatIs": {
           "title": "ChatGPT Ads: What Marketers Need to Know",
-          "content": "OpenAI launched ads in ChatGPT in February 2026, creating an entirely new channel for brands. Unlike search ads (keyword intent) or social ads (interest-based), ChatGPT ads use contextual targeting based on the user's real-time conversation with the AI."
+          "content": "OpenAI launched ads in ChatGPT in February 2026, creating an entirely new channel for brands. Unlike search ads (keyword intent) or social ads (interest-based), ChatGPT ads use contextual targeting based on the user's real-time conversation with the AI. The calculator models your own assumptions — nothing here is an official OpenAI price or quote."
         },
         "howTo": {
           "title": "Current Formats (2026)",
@@ -25815,6 +25853,10 @@
           "title": "Key Differences from Other Platforms",
           "content": "Targeting: contextual only, based on the conversation. No keyword bidding, no demographic targeting, no behavioral data. Measurement: aggregate metrics only (total views, clicks). No individual-level attribution, no conversion tracking pixels, no retargeting. Privacy: advertisers never get access to conversation data, chat history, or personal information."
         }
+      },
+      "description": "Estimate impressions, clicks, average CPC and total spend for a ChatGPT ads campaign from your own assumptions — daily budget, CPM and CTR. This is a what-if planning tool for scenario comparison: the numbers are arithmetic on your inputs, not official OpenAI pricing or a quote.",
+      "messages": {
+        "disclaimer": "All results are hypothetical estimates computed from your own inputs — not official OpenAI pricing, a quote, or a guarantee of campaign performance."
       }
     },
     "child-support-calculator": {

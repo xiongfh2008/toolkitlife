@@ -3136,8 +3136,8 @@
     },
     "redirect-checker": {
       "metadata": {
-        "title": "重定向检测",
-        "description": "检查网址重定向到何处以及最终状态码",
+        "title": "重定向检测（最终目标与状态码）",
+        "description": "输入 URL，查看重定向后的最终目标地址与 HTTP 状态码。仅显示最终结果，不含逐跳重定向链路。",
         "category": "Tracking"
       },
       "keywords": [
@@ -3179,6 +3179,10 @@
         {
           "question": "哪些状态码需要关注？",
           "answer": "200 表示正常，301/302 表示重定向，404 表示未找到，403/500 表示错误。"
+        },
+        {
+          "question": "能看到完整的重定向链路吗？",
+          "answer": "不能。代理在服务端跟随所有跳转，只返回最终 URL 和状态码。如需查看每一跳（如 301 → 302 → 200），请使用 curl -IL 等服务端工具或 HTTP 调试器。"
         }
       ],
       "relatedTools": [
@@ -3318,8 +3322,8 @@
     },
     "domain-age": {
       "metadata": {
-        "title": "域名年龄查询",
-        "description": "查询任意域名的注册日期和年龄",
+        "title": "域名年龄查询（RDAP 注册信息）",
+        "description": "通过公开 RDAP 注册记录查询域名的注册、到期与最近更新日期，并计算域名年龄。数据完整度取决于各注册局的公开情况，查询失败时如实报错。",
         "category": "Domain"
       },
       "keywords": [
@@ -3351,7 +3355,8 @@
         "errorInvalid": "请输入有效的域名。",
         "errorNotFound": "未找到该域名的注册数据。",
         "errorGeneric": "查询失败，请重试。",
-        "noRegistration": "未找到该域名的注册日期。"
+        "noRegistration": "未找到该域名的注册日期。",
+        "disclaimer": "数据来自公开的 RDAP 记录。各注册局的公开程度不同——查询失败代表无公开数据，而非年龄被隐藏。"
       },
       "faqs": [
         {
@@ -3364,7 +3369,11 @@
         },
         {
           "question": "注册日期会被隐藏吗？",
-          "answer": "大多数注册局通过 RDAP 公开注册日期。隐私保护通常隐藏联系信息，而非日期。"
+          "answer": "多数注册局通过 RDAP 公开注册日期，但做法不一：隐私保护服务通常隐藏联系方式而保留日期，也有注册局连日期一并隐藏或不支持 RDAP。数据缺失时工具会直接报错，而不是猜测。"
+        },
+        {
+          "question": "查询为什么失败？",
+          "answer": "工具通过 rdap.org 路由到各注册局的官方 RDAP 服务。失败通常意味着该顶级域名不支持 RDAP、注册局限流，或域名格式无效。多数新 gTLD 可查，部分国家/地区域名不支持。"
         }
       ],
       "relatedTools": [
@@ -3508,8 +3517,8 @@
     },
     "xml-sitemap": {
       "metadata": {
-        "title": "XML 站点地图生成器",
-        "description": "几秒钟内为你的网站创建标准 XML 站点地图",
+        "title": "XML 网站地图生成器",
+        "description": "粘贴 URL 列表，在浏览器中生成标准 sitemap.xml，可设置 changefreq 与 priority。注意：每个条目的 lastmod 默认为生成当天日期，实际更新时间不同的条目请手动修改。",
         "category": "营销"
       },
       "keywords": [
@@ -3551,7 +3560,8 @@
       "messages": {
         "empty": "请至少输入一个页面路径。",
         "invalidUrl": "请输入有效的网站地址。",
-        "placeholder": "生成的站点地图将显示在这里。"
+        "placeholder": "生成的站点地图将显示在这里。",
+        "disclaimer": "每个条目的 lastmod 默认为生成日期，并非各页面的真实更新时间——如需准确日期，请在上传前手动修改。"
       },
       "faqs": [
         {
@@ -3569,6 +3579,10 @@
         {
           "question": "优先级应该设置多少？",
           "answer": "优先级范围为 0.0 到 1.0，告诉搜索引擎哪些页面更重要。仅对首页和关键落地页使用 1.0。"
+        },
+        {
+          "question": "lastmod 更新时间是如何设置的？",
+          "answer": "每个条目的 <lastmod> 都被设为生成文件的当天日期，并非各页面的真实修改时间。搜索引擎可能忽略总是显示「今天」的 lastmod，因此上传前请手动修改为真实的更新日期。"
         }
       ],
       "relatedTools": [
@@ -3891,8 +3905,8 @@
     },
     "mobile-friendly-test": {
       "metadata": {
-        "title": "移动端友好测试",
-        "description": "检查你的网站是否针对移动设备进行了优化",
+        "title": "移动端友好检测（HTML 规则快查）",
+        "description": "对页面 HTML 做快速静态检查：viewport 标签、响应式 CSS 线索与可读字号。轻量启发式检测，不等同于真实设备或 Lighthouse 测试。",
         "category": "营销"
       },
       "keywords": [
@@ -3935,8 +3949,8 @@
       },
       "faqs": [
         {
-          "question": "移动端友好测试是如何工作的？",
-          "answer": "工具获取页面 HTML 并检查常见移动端优化项：viewport 标签、title、description、响应式 CSS 和字体大小。"
+          "question": "移动端友好检测是如何工作的？",
+          "answer": "工具通过代理获取页面 HTML，并对标记运行静态规则：viewport 标签、title、meta description、@media 查询以及内联样式中的字号线索。它不渲染页面、不执行 JavaScript、也不下载外部 CSS 文件——主要依赖外部样式的页面可能被误判，分数只应作为快速参考。"
         },
         {
           "question": "什么是 viewport meta 标签？",
@@ -3986,7 +4000,8 @@
           {
             "title": "提示",
             "paragraphs": [
-              "先从 viewport meta 标签开始——这是移动端渲染最重要的单个修复项。"
+              "先从 viewport meta 标签开始——这是移动端渲染最重要的单个修复项。",
+              "Note the limits: the tool checks inline styles only, does not download external CSS files, and does not evaluate JavaScript-rendered layout. Use Lighthouse in Chrome DevTools and real devices for a complete audit."
             ]
           }
         ]
@@ -3994,8 +4009,8 @@
     },
     "keyword-density": {
       "metadata": {
-        "title": "关键词密度检测器",
-        "description": "分析内容中的关键词频率和密度",
+        "title": "关键词密度检测（词频统计）",
+        "description": "在浏览器本地统计文本中的词频与密度百分比。写作质量指标：用于发现过度堆砌或主题词缺失，关键词密度本身不是搜索排名因素。",
         "category": "营销"
       },
       "keywords": [
@@ -4033,7 +4048,8 @@
         "top50": "前 50 个"
       },
       "messages": {
-        "empty": "请输入要分析的内容。"
+        "empty": "请输入要分析的内容。",
+        "disclaimer": "统计完全在浏览器本地完成。密度是写作指标，不是搜索排名因素——不存在需要达到的最佳百分比。"
       },
       "csv": {
         "word": "关键词",
@@ -4046,8 +4062,8 @@
           "answer": "关键词密度是指某个关键词在内容中出现的次数占总词数的百分比。计算公式为（关键词出现次数 ÷ 总词数）× 100。"
         },
         {
-          "question": "多少关键词密度比较合适？",
-          "answer": "一般来说 1% 到 3% 的关键词密度对 SEO 较为理想。过高会被搜索引擎视为关键词堆砌而受到惩罚。"
+          "question": "多少的关键词密度才算好？",
+          "answer": "并不存在官方推荐的「最佳密度」。「1%–3%」的说法属于 SEO 民间经验：现代搜索引擎理解主题、同义词和实体覆盖，而不是机械统计百分比。用它来发现某个词出现得反常频繁（堆砌风险）或几乎缺失，而不是为了凑一个魔法数字。"
         },
         {
           "question": "这个工具如何计算密度？",
@@ -4055,7 +4071,7 @@
         },
         {
           "question": "为什么要检查关键词密度？",
-          "answer": "检查关键词密度可以帮助你确认主关键词出现的频率是否足够让搜索引擎理解主题，同时又不会过度使用。"
+          "answer": "它是一项写作质量检查：确认主题词确实出现、发现无意的过度重复、比较不同稿件的用词侧重。密度本身不是排名因素——提升主题覆盖与内容深度比追求某个百分比更重要。"
         },
         {
           "question": "我的内容会被上传到服务器吗？",
@@ -4217,8 +4233,8 @@
     },
     "long-tail-keywords": {
       "metadata": {
-        "title": "长尾关键词工具",
-        "description": "为你的主题生成长尾关键词建议",
+        "title": "长尾关键词生成器（组合规则）",
+        "description": "把一个种子词扩展成最多 60 个长尾关键词：how to、best、near me 等修饰模式与国家变体。基于组合规则生成——不提供真实搜索量或竞争数据。",
         "category": "营销"
       },
       "keywords": [
@@ -4276,6 +4292,10 @@
         {
           "question": "一次可以生成多少关键词？",
           "answer": "每个种子关键词最多生成 60 条建议，包括地区和国家变体。你可以单独复制或整份复制。"
+        },
+        {
+          "question": "会显示搜索量或竞争度吗？",
+          "answer": "不会。生成器把种子词与修饰模式（疑问、商业、地域和国家变体）组合，输出的是灵感冒词而非已验证的关键词。在投入内容创作前，请用 Google Keyword Planner、Bing 站长工具或付费 SEO 工具核实搜索量与难度。"
         }
       ],
       "relatedTools": [
@@ -4322,12 +4342,15 @@
             ]
           }
         ]
+      },
+      "messages": {
+        "disclaimer": "建议词由组合规则生成，不构成关键词研究。在创建内容前，请用专业关键词工具核实搜索量与竞争度。"
       }
     },
     "keyword-position": {
       "metadata": {
-        "title": "关键词排名查询",
-        "description": "查询你的关键词在搜索引擎中的排名",
+        "title": "Bing 关键词排名查询",
+        "description": "查询你的关键词在 Bing 自然搜索结果中的排名。输入域名和关键词，免费查看前 50 名中的位置——在浏览器中完成，结果为估算值。",
         "category": "营销"
       },
       "keywords": [
@@ -4376,6 +4399,10 @@
         {
           "question": "一次可以查询多少关键词？",
           "answer": "可以每行一个地查询任意数量的关键词。关键词越多耗时越长，因为每个关键词都需要单独发起搜索请求。"
+        },
+        {
+          "question": "为什么关键词显示未找到？",
+          "answer": "两种可能：该关键词下你的域名不在 Bing 前 50 名，或该次请求经公共代理获取失败（网络限制或限流）。两者在表格中表现相同，建议重新检测后再下结论。"
         }
       ],
       "relatedTools": [
@@ -27675,8 +27702,8 @@
     },
     "chatgpt-ads-calculator": {
       "metadata": {
-        "title": "ChatGPT 广告估算器",
-        "description": "估算 ChatGPT 广告活动的展示量、点击量和总支出。",
+        "title": "ChatGPT 广告预算估算器（假设推演）",
+        "description": "基于你输入的日预算、CPM 与 CTR 假设，推演 ChatGPT 广告的展示量、点击量、CPC 与总花费。属假设性估算工具，不代表 OpenAI 官方报价。",
         "category": "营销"
       },
       "keywords": [
@@ -27689,8 +27716,8 @@
       ],
       "faqs": [
         {
-          "question": "ChatGPT广告费用是多少？",
-          "answer": "ChatGPT广告目前大约$60 CPM（每千次展示成本），测试计划最低承诺$200,000-$250,000。这使得ChatGPT比Meta广告（平均$15 CPM）贵约3倍，比Google展示（平均$5 CPM）贵约12倍。随着OpenAI引入自助服务选项（可能在2026年第四季度），定价预计会演变。"
+          "question": "ChatGPT 广告费用是多少？",
+          "answer": "目前没有公开的官方报价单。据媒体报道，早期试点项目报价约为 $60 CPM，最低承诺金额据报道在 $200,000–$250,000 之间，但这些均未经 OpenAI 证实，条款也可能已变化。这正是本工具从你自己的假设出发的原因：你输入 CPM 和预算，它负责计算。"
         },
         {
           "question": "ChatGPT广告是什么样的？",
@@ -27717,8 +27744,12 @@
           "answer": "ChatGPT广告每次展示明显更贵（$60 CPM对比Google的$5-38、Meta的$15），但提供独特的上下文定向模型。关键权衡：ChatGPT广告在高意图对话时刻触达用户，但测量有限、格式选项较少（文本链接和产品卡片对比完整的图片/视频/轮播），且没有自助服务访问。"
         },
         {
-          "question": "ChatGPT广告值得这个费用吗？",
-          "answer": "这取决于您的目标。ChatGPT广告在高意图时刻（主动询问产品/服务问题）触达用户，这可能意味着更高的转化率。但是，$60 CPM和$200K最低限额使其仅适用于有显著预算的品牌。使用此计算器比较跨平台的预估ROAS与您的具体转化指标。"
+          "question": "ChatGPT 广告值得投吗？",
+          "answer": "取决于你的利润率和转化率，本工具无法替你回答——它只推演花费。可以用它对比情景：例如按 $60 CPM 假设与 Meta 常被引用的约 $15 CPM 相比，同样的预算购买到的展示量约少 4 倍。高意图对话场景的转化能否补上这个差距，只有你自己的投放数据才能验证。"
+        },
+        {
+          "question": "这个计算器是官方工具吗？与 OpenAI 有关联吗？",
+          "answer": "不是。它是独立的假设推演计算器：展示量、点击量、CPC 和总花费只是对你输入数值的纯算术运算（展示量 = 预算 ÷ CPM × 1000；点击量 = 展示量 × CTR）。适合做规划与假设对比；真实报价与开通事宜请直接联系 OpenAI 广告团队。"
         }
       ],
       "relatedTools": [
@@ -27743,7 +27774,7 @@
       "guide": {
         "whatIs": {
           "title": "ChatGPT广告：营销人员需要了解的内容",
-          "content": "OpenAI于2026年2月在ChatGPT中推出广告，为品牌创建了一个全新的渠道。与搜索广告（关键词意图）或社交广告（兴趣导向）不同，ChatGPT广告是基于用户与AI实时对话的上下文定向。"
+          "content": "OpenAI于2026年2月在ChatGPT中推出广告，为品牌创建了一个全新的渠道。与搜索广告（关键词意图）或社交广告（兴趣导向）不同，ChatGPT广告是基于用户与AI实时对话的上下文定向。 The calculator models your own assumptions — nothing here is an official OpenAI price or quote."
         },
         "howTo": {
           "title": "当前格式（2026年）",
@@ -27770,6 +27801,10 @@
           "title": "与其他平台的关键区别",
           "content": "定向：仅上下文定向，基于对话。没有关键词竞价、没有人口统计定向、没有行为数据。测量：仅汇总指标（总浏览量、点击量）。没有个人级别归因、没有转化跟踪像素、没有重定向。隐私：广告商永远不会获得对话数据、聊天历史或个人信息。"
         }
+      },
+      "description": "基于你输入的日预算、CPM 与 CTR 假设，推演 ChatGPT 广告的展示量、点击量、平均 CPC 与总花费。这是用于情景对比的假设推演工具：所有数字只是对输入值的算术运算，并非 OpenAI 官方报价。",
+      "messages": {
+        "disclaimer": "所有结果均为基于你输入参数的假设性估算——不代表 OpenAI 官方报价，也不构成报价承诺或投放效果保证。"
       }
     },
     "save-vs-rap-calculator": {

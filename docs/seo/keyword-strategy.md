@@ -13,7 +13,7 @@
 
 | 级别 | 问题 | 规模 | 本轮处理 |
 |---|---|---|---|
-| P1 | 标题同质化内耗：108 对高相似 title（Finance 计算器簇 117 工具、image 簇 59、X-to-Y 转换 41 最严重） | 全站性 | 已在 keyword-map.csv 标注 P1 行；本轮先处理 8 个核心工具，计算器簇差异化列入后续批次 |
+| P1 | ~~标题同质化内耗：108 对高相似 title~~ **已复核推翻**：旧规则（title 前 3 词共享）把方向反转对（JPG to PDF ↔ PDF to JPG）和限定词变体（Mortgage ↔ Auto Loan）误判为内耗。按意图重判后：同目标关键词竞争 **0 对已确认**；广义↔限定词潜在竞争 **19 对 / 28 个工具**（如 interest-calculator ↔ compound-interest-calculator），已在 keyword-map.csv 标为 P1「潜在竞争，待 GSC 验证」 | 19 对 | 详见 §4.1 复核方法与结果 |
 | P1 | 8 个 P0 工具的功能-文案不匹配与内容缺口 | 8 页 | ✅ 本轮完成（详见 §3） |
 | P2 | 115 个工具 description <80 字符（Marketing/Design 生成器类重灾区） | 29% | keyword-map.csv 已标「覆盖不足」+ 待办位置 |
 | P2 | 67 个工具缺 guide（HowTo JSON-LD 内容源缺失） | 17% | 本轮为 image-file-size / qr-file-transfer / heic 三个 P0 工具补齐 |
@@ -43,7 +43,25 @@
 - **覆盖不足**：description<80 或缺 guide —— 工具能力真实存在但页面文字表达不足，是后续批次的主要工作面。
 - **功能不支持关键词**：不写入任何文案（例：heic 批量转换——工具单文件处理；address 不可虚构「真实可投递」）。
 - **潜在关键词**：仅记录在 CSV potential 列，未经搜索工具验证，不承诺覆盖。
-- **内耗判定**：title 前 3 词共享且同簇 ≥2 个工具 → P1。计算器簇 / X-to-Y 转换簇的差异化改写将按批次进行，避免一轮大改引入回归。
+- **内耗判定（2026-11-24 修订）**：仅凭 title 字符串相似不构成内耗证据。现行规则见 §4.1。
+
+### 4.1 标题相似复核方法与结果（2026-11-24）
+
+旧报告「108 对 P1」由脚本按「title 前 3 词共享」判定，该规则已被推翻，原因与重判结果如下：
+
+**判定层级（从严到宽）**
+
+1. **目标关键词相同**（真竞争）：去掉 converter/calculator/generator 等通用头词后，核心词组完全一致。结果：393 工具中仅 3 组——全部为**方向反转对**（Image to Base64 ↔ Base64 to Image、JPG to PDF ↔ PDF to JPG、PNG to PDF ↔ PDF to PNG），搜索意图相反，**不构成竞争**。→ **已确认同目标关键词竞争：0 对**。
+2. **意图重复**（广义工具同时可能服务限定查询）：广义头词工具 ↔ 限定词变体工具（如 interest-calculator ↔ compound-interest-calculator、mortgage-calculator ↔ mortgage-payoff-calculator、video-converter ↔ video-to-gif）。title 的限定词形成了各自的独立查询，但广义页内容可能同时满足限定查询 → **潜在竞争 19 对 / 28 个工具**，标 P1、逐行注明「潜在竞争对，待 GSC 验证」，无 GSC 数据前**不宣称已确认内耗**。
+3. **字符串相似但意图不同**（排除）：方向反转对（4 对）、不同传输机制（qr-file-transfer ↔ file-transfer）、不同操作对象（video-watermark ↔ video-watermark-remover：添加 vs 移除）、强限定意图（live-wallpaper ↔ wallpaper、dog-age ↔ age、hourly-to-salary ↔ salary）等共 10 对，无需处理。
+
+**统计口径差异说明**
+
+- 「Finance 计算器簇 **117**」是**全站 title 含 calculator 的工具数**（实测 118，跨所有 17 个分类统计），不是 Finance 分类工具数。
+- keyword-map.csv Finance 分类 **67** = `messages/en.json` → `home.tools` 中 `category=Finance` 的工具数。
+- 交叉部分：Finance 分类内 title 含 calculator 的工具为 **63**。两个数字口径不同，不能混用。
+
+后续批次处理方式：19 对潜在竞争对在拿到 GSC 查询数据后，按「两页是否对同一查询都获得曝光」逐对验证；确有重叠的才改写 title/description 差异化，避免无据大改。
 
 ## 5. 博客与内链（本轮）
 
@@ -63,7 +81,7 @@
 
 ## 7. 后续批次路线
 
-1. Finance 计算器簇（117 工具）title 差异化：loan/mortgage/tax/calorie 每个子意图独立主词。
+1. ~~Finance 计算器簇（117 工具）title 差异化~~ 改为：**19 对潜在竞争对（§4.1）** 的 GSC 验证与确有重叠后的 title 差异化；全站 118 个 calculator 类工具的 title 巡检仅在 GSC 证实内耗时进行。
 2. 115 个短 description 扩写（Marketing → Design → Utility 顺序）。
 3. 67 个缺 guide 工具按流量优先补 HowTo。
 4. search-aliases 歧义消解（18 处）。
