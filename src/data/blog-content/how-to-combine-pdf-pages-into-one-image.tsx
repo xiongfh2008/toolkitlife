@@ -539,6 +539,276 @@ export const content: BlogContent = {
     </>
   ),
 
+  ru: (
+    <>
+      <aside aria-label="Сводка" className="bg-zinc-800/50 border border-zinc-700 rounded-xl p-5 mb-8">
+        <p><strong>Коротко:</strong> чтобы собрать все страницы PDF в одно высокое изображение, используйте <Link href="/tools/pdf-long-image" className="text-blue-400 underline">инструмент «PDF в длинное изображение» от ToolkitLife</Link>: загрузите PDF, выберите PNG или JPEG, задайте уровень чёткости (1x–3x) и запустите конвертацию. Инструмент отрисовывает каждую страницу через pdf.js, выстраивает их вертикально и отдаёт одну длинную картинку — всё прямо в браузере, без загрузки на какой-либо сервер. Для обычных документов берите 1x–2x, для мелкого текста — 3x; если картинка получается слишком высокой и упирается в лимит canvas браузера, уменьшите масштаб.</p>
+      </aside>
+
+      <section>
+        <h2>Когда нужна длинная картинка из PDF?</h2>
+        <p>PDF хорош для печати и архивов, но плох для прокрутки. Мессенджеры, соцсети и форумы обычно не показывают страницы PDF прямо в переписке — получателю достаётся карточка файла, которую нужно скачать и открыть в отдельном приложении. Одна непрерывная картинка ведёт себя ровно наоборот: естественно прокручивается в любом чате, вставляется в блог или вики-страницу и показывает документ целиком с первого взгляда.</p>
+        <p>Типичные ситуации, где <strong>объединение страниц PDF в одно изображение</strong> действительно выручает:</p>
+        <ul>
+          <li><strong>Публикация в соцсетях:</strong> многостраничная инструкция, чек или маршрут — одной картинкой, которую удобно листать, на платформах, где PDF считается вложением «второго сорта».</li>
+          <li><strong>Непрерывное чтение:</strong> конспекты, шпаргалки и сетевые романы читаются одной длинной прокруткой куда комфортнее, чем перелистыванием страниц.</li>
+          <li><strong>Визуальный архив:</strong> сохранить сгенерированный на сайте PDF (подтверждение заказа, билет, выписку) в заметках в виде картинки — там превью есть у изображений, но не у PDF.</li>
+          <li><strong>Быстрая проверка:</strong> отправить коллеге одну картинку с вопросом «всё верно?» вместо того, чтобы заставлять его скачивать файл.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Знакомьтесь: инструмент «PDF в длинное изображение»</h2>
+        <p><Link href="/tools/pdf-long-image" className="text-blue-400 underline">Инструмент «PDF в длинное изображение»</Link> от ToolkitLife отрисовывает каждую страницу вашего PDF и склеивает их сверху вниз в один PNG или JPEG — всё внутри браузера.</p>
+        <ToolCTA
+          name="PDF в длинное изображение"
+          href="/tools/pdf-long-image"
+          description="Превратите PDF в одно высокое изображение прямо в браузере. Бесплатно, без регистрации и загрузки на сервер. Выберите PNG или JPEG, задайте чёткость 1x–3x и сразу скачайте готовую длинную картинку."
+        />
+        <p>Что инструмент умеет и чего не делает — без прикрас:</p>
+        <ul>
+          <li><strong>Полностью локальная обработка</strong> — PDF разбирается и отрисовывается pdf.js прямо во вкладке браузера. Файл никуда не загружается; инструмент работает даже без интернета.</li>
+          <li><strong>Вывод в PNG или JPEG</strong> — формат вы выбираете до конвертации, для JPEG доступна настройка качества.</li>
+          <li><strong>Уровни чёткости 1x–3x</strong> — вы обмениваете размер файла на резкость: чем выше значение, тем крупнее отрисовываются страницы.</li>
+          <li><strong>Один файл за раз</strong> — инструмент превращает целый PDF в одно изображение; он не разбивает PDF на отдельные постраничные картинки и не извлекает одну страницу. Для этого используйте инструмент PDF в JPG.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Как конвертировать PDF в одно длинное изображение (по шагам)</h2>
+        <ol>
+          <li><strong>Откройте инструмент «PDF в длинное изображение»</strong> и перетащите PDF в область загрузки (или выберите файл кликом). Одна конвертация — один PDF.</li>
+          <li><strong>Выберите формат вывода.</strong> PNG — максимальная резкость, JPEG — файл поменьше.</li>
+          <li><strong>Задайте уровень чёткости.</strong> 1x отрисовывает страницу в исходном размере PDF, 2x удваивает его (значение по умолчанию, удачный баланс), 3x утраивает — для совсем мелкого текста. Начните с 2x.</li>
+          <li><strong>Запустите конвертацию.</strong> Каждая страница отрисовывается и добавляется к общей стопке; по мере обработки отображается прогресс.</li>
+          <li><strong>Скачайте длинную картинку.</strong> Готовое изображение сохраняется прямо на устройство — один файл со всеми страницами по порядку.</li>
+        </ol>
+        <p>И всё: ни аккаунта, ни водяных знаков, ни электронной почты, ни ограничений «бесплатной версии» по числу страниц.</p>
+      </section>
+
+      <section>
+        <h2>PNG или JPEG: какой формат выбрать</h2>
+        <p>Выбор формата важнее, чем кажется большинству:</p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b border-zinc-700 text-left">
+                <th className="py-2 pr-4">Критерий</th>
+                <th className="py-2 pr-4">PNG</th>
+                <th className="py-2">JPEG</th>
+              </tr>
+            </thead>
+            <tbody className="text-zinc-300">
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Сжатие</td>
+                <td className="py-2 pr-4">Без потерь</td>
+                <td className="py-2">С потерями</td>
+              </tr>
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Текст и скриншоты</td>
+                <td className="py-2 pr-4">Чёткие края, без артефактов</td>
+                <td className="py-2">Размытые ореолы вокруг мелкого текста</td>
+              </tr>
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Размер файла</td>
+                <td className="py-2 pr-4">Большой</td>
+                <td className="py-2">Значительно меньше</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4">Лучше всего для</td>
+                <td className="py-2 pr-4">Текстовые документы, формы, код, скриншоты</td>
+                <td className="py-2">Сканы и документы, полные картинок; отправка с лимитом на размер</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Правило простое: если PDF состоит в основном из текста, набранного на компьютере (а не отсканированного), PNG сохранит буквы идеально резкими. Если это тяжёлый скан или каталог с фотографиями — либо чат не принимает большие файлы — JPEG будет практичным выбором.</p>
+      </section>
+
+      <section>
+        <h2>Что означают уровни чёткости 1x–3x (и лимиты canvas)</h2>
+        <p>Уровень чёткости — это масштаб отрисовки. При 1x страница выводится ровно в своих PDF-размерах (A4 ≈ 595 × 842 px). При 2x каждая сторона удваивается (≈ 1190 × 1684 px), при 3x утраивается (≈ 1785 × 2526 px). Умножьте на число страниц — и получите высоту итоговой картинки: 30-страничный PDF при 3x превысит 75 000 пикселей в высоту.</p>
+        <p>Это важно, потому что браузер рисует изображения во внутреннем элементе <em>canvas</em>, а у canvas есть жёсткие лимиты высоты, разные для каждого браузера и устройства — Safari печально известен самой строгой планкой, которую современные iOS-устройства достигают на длинных документах. При превышении лимита отрисовка либо ломается, либо выдаёт пустую картинку.</p>
+        <ul>
+          <li><strong>Начинайте с 2x.</strong> Разрешение удваивается — на телефонах и retina-экранах заметно резче — при этом общая высота остаётся под контролем.</li>
+          <li><strong>3x — только для коротких PDF или совсем мелкого текста.</strong> Несколько страниц при 3x — нормально; сотня страниц — обычно нет.</li>
+          <li><strong>Если конвертация не удалась или картинка пустая, снизьте до 1x.</strong> Уменьшение масштаба опускает общую высоту canvas ниже лимита браузера.</li>
+          <li><strong>Очень длинные документы:</strong> попробуйте конвертировать двумя половинами (диапазоны страниц через разделитель PDF) и склеить результаты, либо вернитесь к постраничным картинкам.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Приватность: всё происходит на вашем устройстве</h2>
+        <p>Конвертеры «PDF в длинную картинку» — как раз тот тип сайтов, что тихо загружают ваш PDF на свой сервер: отрисовка ведь должна происходить <em>где-то</em>, и этим «где-то» обычно является их сервер. Что бы ни писала политика конфиденциальности, файл уже покинул ваше устройство.</p>
+        <p>Этот инструмент идёт другим путём: pdf.js загружается в ваш браузер и отрисовывает страницы локально, на вашем процессоре. PDF читается с диска, рисуется в памяти, а готовое изображение сразу сохраняется в загрузки. Ничто никуда не отправляется — вы можете отключить интернет посреди задачи, и всё продолжит работать. Договоры, расчётные листки, медицинские письма и сканы документов не покидают устройство.</p>
+      </section>
+
+      <section>
+        <h2>Ограничения и когда нужен другой инструмент</h2>
+        <p>Честный инструмент говорит о своих пределах:</p>
+        <ul>
+          <li><strong>Один файл на конвертацию.</strong> Чтобы собрать несколько PDF в одну картинку, сначала объедините их в один PDF, затем конвертируйте.</li>
+          <li><strong>Без постраничного извлечения.</strong> Если вам нужна каждая страница отдельной картинкой — например, отдельные JPG сканированного договора — «длинная картинка» не подходит. Возьмите <Link href="/tools/pdf-to-jpg" className="text-blue-400 underline">инструмент PDF в JPG</Link>: он превращает страницы в отдельные изображения, которые можно скачивать по одному или по мере необходимости.</li>
+          <li><strong>Лимиты высоты canvas.</strong> Как описано выше, слишком длинный результат может выйти за возможности браузера; решается снижением уровня чёткости.</li>
+          <li><strong>Векторный текст остаётся резким, сканы — сканом.</strong> Инструмент отрисовывает страницы как есть и не улучшает размытые сканы.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Устранение неполадок</h2>
+        <p><strong>«Итоговая картинка пустая или конвертация падает».</strong> Почти всегда это лимит высоты canvas: слишком много страниц при слишком высоком масштабе. Снизьте чёткость до 1x или разбейте PDF на части и конвертируйте каждую отдельно.</p>
+        <p><strong>«Картинка огромная (десятки МБ)».</strong> Длинные PNG из текстовых страниц по природе большие. Переключитесь на JPEG, снизьте чёткость до 1x–2x или прогоните результат через компрессор изображений.</p>
+        <p><strong>«Текст выглядит размытым».</strong> Поднимите уровень чёткости (2x → 3x), если позволяет число страниц, или смените JPEG на PNG — JPEG-сжатие первым делом размывает мелкий текст.</p>
+        <p><strong>«Файл не открывается».</strong> PDF может быть повреждён, защищён паролем или вовсе не быть PDF, несмотря на расширение. Откройте его в просмотрщике для проверки; при необходимости сначала снимите защиту.</p>
+      </section>
+
+      <section>
+        <h2>Краткое повторение FAQ</h2>
+        <ul>
+          <li>Конвертация PDF в длинную картинку здесь бесплатна? Да — без водяных знаков, регистрации, лимитов по страницам и без электронной почты.</li>
+          <li>Мой PDF загружается на сервер? Нет. Отрисовка целиком идёт в вашем браузере через pdf.js; ничего не отправляется.</li>
+          <li>PNG или JPEG? PNG для текста и скриншотов (без потерь), JPEG — для меньшего размера и документов, полных картинок.</li>
+          <li>Почему конвертация не удалась? Скорее всего, лимит высоты canvas браузера — снизьте чёткость с 3x до 1x и повторите.</li>
+        </ul>
+      </section>
+    </>
+  ),
+
+  es: (
+    <>
+      <aside aria-label="Resumen" className="bg-zinc-800/50 border border-zinc-700 rounded-xl p-5 mb-8">
+        <p><strong>En resumen:</strong> para unir todas las páginas de un PDF en una sola imagen alargada, usa la <Link href="/tools/pdf-long-image" className="text-blue-400 underline">herramienta PDF a imagen larga de ToolkitLife</Link>: arrastra tu PDF, elige PNG o JPEG, selecciona un nivel de nitidez (1x–3x) y pulsa convertir. La herramienta renderiza cada página con pdf.js, las apila en vertical y descarga una única imagen larga — todo dentro de tu navegador y sin subir nada a ningún servidor. Para documentos normales usa 1x–2x y para texto muy pequeño, 3x; si la imagen resulta demasiado alta y choca con el límite del canvas del navegador, baja la escala.</p>
+      </aside>
+
+      <section>
+        <h2>¿Cuándo necesitas una imagen larga de un PDF?</h2>
+        <p>El PDF es estupendo para imprimir y archivar, pero pésimo para desplazarse. Las apps de mensajería, las redes sociales y los foros rara vez muestran las páginas de un PDF integradas en la conversación: quien recibe el archivo ve una tarjeta que debe descargar y abrir en otra aplicación. Una imagen continua funciona justo al revés: se desplaza con naturalidad en cualquier chat, se puede incrustar en un blog o wiki y muestra el documento completo de un vistazo.</p>
+        <p>Situaciones típicas en las que <strong>unir las páginas de un PDF en una sola imagen</strong> marca la diferencia:</p>
+        <ul>
+          <li><strong>Compartir en redes:</strong> publica una guía de varias páginas, un recibo o un itinerario como una sola imagen deslizable en plataformas que tratan los PDF como adjuntos de segunda.</li>
+          <li><strong>Lectura continua:</strong> apuntes de clase, chuletas y novelas web se leen mejor en una sola tira desplazable que pasando páginas.</li>
+          <li><strong>Archivo visual:</strong> guarda en tus notas un PDF generado en la web (confirmación de pedido, billete, extracto) como imagen: allí las imágenes tienen vista previa y los PDF no.</li>
+          <li><strong>Revisión rápida:</strong> envía una imagen a un compañero para preguntarle «¿esto está bien?» en lugar de hacerlo descargar un archivo.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Conoce la herramienta PDF a imagen larga</h2>
+        <p>La <Link href="/tools/pdf-long-image" className="text-blue-400 underline">herramienta PDF a imagen larga</Link> de ToolkitLife renderiza cada página de tu PDF y las une de arriba abajo en un único PNG o JPEG, todo dentro del navegador.</p>
+        <ToolCTA
+          name="PDF a imagen larga"
+          href="/tools/pdf-long-image"
+          description="Convierte un PDF en una imagen alargada en tu navegador. Gratis, sin registro y sin subidas. Elige PNG o JPEG, ajusta la nitidez 1x–3x y descarga al instante la imagen larga resultante."
+        />
+        <p>Lo que hace y lo que no hace, sin rodeos:</p>
+        <ul>
+          <li><strong>Procesado totalmente local</strong> — el PDF se analiza y renderiza con pdf.js dentro de la pestaña de tu navegador. Ningún archivo se sube a ningún sitio; la herramienta funciona incluso sin conexión.</li>
+          <li><strong>Salida en PNG o JPEG</strong> — tú eliges el formato antes de convertir, con ajuste de calidad para JPEG.</li>
+          <li><strong>Niveles de nitidez 1x–3x</strong> — cambias tamaño de archivo por nitidez: cuanto más alto el valor, más grandes se renderizan las páginas.</li>
+          <li><strong>Un archivo cada vez</strong> — convierte un PDF completo en una imagen; no divide el PDF en imágenes por página ni extrae una sola página. Para eso usa la herramienta de PDF a JPG.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Cómo convertir un PDF en una imagen larga (paso a paso)</h2>
+        <ol>
+          <li><strong>Abre la herramienta PDF a imagen larga</strong> y arrastra tu PDF a la zona de carga (o haz clic para seleccionarlo). Una conversión, un PDF.</li>
+          <li><strong>Elige el formato de salida.</strong> PNG para la máxima nitidez o JPEG si prefieres un archivo más pequeño.</li>
+          <li><strong>Ajusta el nivel de nitidez.</strong> Con 1x la página se renderiza a su tamaño PDF original, con 2x se duplica (el valor por defecto, un buen equilibrio) y con 3x se triplica para texto muy pequeño. Empieza por 2x.</li>
+          <li><strong>Pulsa convertir.</strong> Cada página se renderiza y se apila, con el progreso visible a medida que avanzan las páginas.</li>
+          <li><strong>Descarga la imagen larga.</strong> La imagen unida se guarda directamente en tu dispositivo: un archivo con todas las páginas en orden.</li>
+        </ol>
+        <p>Ese es todo el proceso: sin cuenta, sin marcas de agua, sin correo electrónico y sin límites de páginas de «versión gratuita».</p>
+      </section>
+
+      <section>
+        <h2>PNG o JPEG: qué formato elegir</h2>
+        <p>La elección del formato importa más de lo que la gente cree:</p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b border-zinc-700 text-left">
+                <th className="py-2 pr-4">Aspecto</th>
+                <th className="py-2 pr-4">PNG</th>
+                <th className="py-2">JPEG</th>
+              </tr>
+            </thead>
+            <tbody className="text-zinc-300">
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Compresión</td>
+                <td className="py-2 pr-4">Sin pérdidas</td>
+                <td className="py-2">Con pérdidas</td>
+              </tr>
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Texto y capturas</td>
+                <td className="py-2 pr-4">Bordes nítidos, sin artefactos</td>
+                <td className="py-2">Halos borrosos en el texto pequeño</td>
+              </tr>
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Tamaño del archivo</td>
+                <td className="py-2 pr-4">Grande</td>
+                <td className="py-2">Mucho menor</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4">Ideal para</td>
+                <td className="py-2 pr-4">Documentos de texto, formularios, código, capturas</td>
+                <td className="py-2">Escaneos y documentos con muchas imágenes; compartir con límite de tamaño</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Regla práctica: si el PDF es sobre todo texto generado por un ordenador (no escaneado), PNG mantiene las letras perfectamente nítidas. Si es un escaneo denso o un catálogo lleno de fotos — o si una app de mensajería rechaza archivos grandes —, JPEG es la opción pragmática.</p>
+      </section>
+
+      <section>
+        <h2>Entender los niveles de nitidez 1x–3x (y los límites del canvas)</h2>
+        <p>El nivel de nitidez es una escala de renderizado. Con 1x la página se dibuja a su tamaño PDF en puntos (A4 ≈ 595 × 842 px). Con 2x cada dimensión se duplica (≈ 1190 × 1684 px) y con 3x se triplica (≈ 1785 × 2526 px). Multiplica por el número de páginas y tendrás la altura final: un PDF de 30 páginas a 3x superaría los 75 000 píxeles de alto.</p>
+        <p>Esto importa porque los navegadores dibujan las imágenes en un elemento interno llamado <em>canvas</em>, y el canvas tiene límites de altura estrictos que varían según navegador y dispositivo — Safari es especialmente severo, con un techo de área que el hardware iOS actual alcanza con documentos largos. Si la conversión supera el límite, el renderizado falla o produce una imagen en blanco.</p>
+        <ul>
+          <li><strong>Empieza con 2x.</strong> Duplica la resolución — se nota claramente en móviles y pantallas retina — manteniendo la altura total a raya.</li>
+          <li><strong>Usa 3x solo con PDFs cortos o texto diminuto.</strong> Unas pocas páginas a 3x van bien; cien páginas normalmente no.</li>
+          <li><strong>Baja a 1x si la conversión falla o la imagen sale en blanco.</strong> Reducir la escala mantiene la altura total del canvas por debajo del límite del navegador.</li>
+          <li><strong>Documentos muy largos:</strong> convierte en dos mitades (rangos de páginas con un divisor de PDF) y une los resultados, o vuelve a las imágenes por página.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Privacidad: todo ocurre en tu dispositivo</h2>
+        <p>Los convertidores a imagen larga son justo el tipo de web que sube tu PDF sin decírtelo: el renderizado tiene que ocurrir <em>en algún sitio</em>, y ese «algún sitio» suele ser su servidor. Digamos lo que diga la política de privacidad, el archivo ya ha salido de tu dispositivo.</p>
+        <p>Esta herramienta toma el camino contrario: pdf.js se carga en tu navegador y renderiza las páginas en local, con tu CPU. El PDF se lee del disco, se dibuja en memoria y la imagen terminada se escribe directamente en tus descargas. No se transmite nada — puedes desconectarte de internet a mitad del proceso y seguirá funcionando. Contratos, nóminas, cartas médicas y escaneos de documentos nunca salen del dispositivo.</p>
+      </section>
+
+      <section>
+        <h2>Limitaciones y cuándo usar otra herramienta</h2>
+        <p>Una herramienta honesta reconoce sus límites:</p>
+        <ul>
+          <li><strong>Un archivo por conversión.</strong> Para unir varios PDF en una imagen, primero fusiona los PDF y después convierte.</li>
+          <li><strong>Sin extracción por páginas.</strong> Si necesitas cada página como imagen independiente — por ejemplo, JPG individuales de un contrato escaneado — la herramienta de imagen larga no encaja. Usa la <Link href="/tools/pdf-to-jpg" className="text-blue-400 underline">herramienta PDF a JPG</Link>, que convierte las páginas en imágenes separadas que puedes descargar una a una o según necesites.</li>
+          <li><strong>Límites de altura del canvas.</strong> Como se ha visto arriba, los resultados extremadamente largos pueden superar los límites del navegador; se resuelve bajando el nivel de nitidez.</li>
+          <li><strong>El texto vectorial sigue siendo nítido; los escaneos, con calidad de escaneo.</strong> La herramienta renderiza las páginas tal cual y no mejora escaneos borrosos.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Solución de problemas</h2>
+        <p><strong>«La imagen sale en blanco o la conversión falla».</strong> Casi siempre es el límite de altura del canvas: demasiadas páginas a una escala demasiado alta. Baja la nitidez a 1x o divide el PDF en partes y convierte cada una.</p>
+        <p><strong>«La imagen es enorme (decenas de MB)».</strong> Los PNG largos de páginas llenas de texto son grandes por naturaleza. Cambia a JPEG, baja la nitidez a 1x–2x o comprime el resultado con un compresor de imágenes.</p>
+        <p><strong>«El texto se ve borroso».</strong> Sube el nivel de nitidez (2x → 3x) si el número de páginas lo permite, o cambia de JPEG a PNG: la compresión JPEG difumina primero el texto pequeño.</p>
+        <p><strong>«El archivo no carga».</strong> El PDF puede estar dañado, protegido con contraseña o no ser un PDF real pese a la extensión. Ábrelo una vez en un visor para comprobarlo; si tiene contraseña, quítala primero.</p>
+      </section>
+
+      <section>
+        <h2>Repaso rápido de preguntas frecuentes</h2>
+        <ul>
+          <li>¿Convertir un PDF en imagen larga es gratis aquí? Sí — sin marcas de agua, sin registro, sin límites de páginas y sin correo.</li>
+          <li>¿Mi PDF se sube a algún sitio? No. El renderizado ocurre por completo en tu navegador con pdf.js; no se transmite nada.</li>
+          <li>¿PNG o JPEG? PNG para texto y capturas (sin pérdidas), JPEG para archivos más pequeños y documentos con muchas imágenes.</li>
+          <li>¿Por qué falló mi conversión? Probablemente el límite de altura del canvas — baja la nitidez de 3x a 1x y reintenta.</li>
+        </ul>
+      </section>
+    </>
+  ),
+
   faqs: {
     en: [
       { question: "How do I combine all pages of a PDF into one single image?", answer: "Use a browser-based long-image converter. With ToolkitLife's PDF to Long Image tool you drop in your PDF, choose PNG or JPEG, set a clarity level (1x–3x), and click convert — every page is rendered with pdf.js and stitched top-to-bottom into one tall image that downloads instantly." },
@@ -563,6 +833,18 @@ export const content: BlogContent = {
       { question: "변환 중에 PDF가 서버에 업로드되나요?", answer: "아니요. 렌더링은 pdf.js로 브라우저 안에서 완전히 실행됩니다: 파일은 디스크에서 읽히고 메모리에서 그려지며 완성 이미지는 기기로 기록됩니다. 아무것도 전송되지 않아 오프라인에서도 작동하고 계약서, 명세서, 신분증 스캔도 안전합니다." },
       { question: "긴 이미지는 PNG와 JPEG 중 무엇을 골라야 하나요?", answer: "텍스트 문서, 양식, 스크린샷은 PNG — 무손실이라 작은 글씨도 날카롭게 유지됩니다. 용량을 크게 줄여야 할 때(스캔 문서, 대용량 업로드를 거부하는 앱 등)는 JPEG. JPEG의 손실 압축은 가는 글씨를 약간 흐리게 만듭니다." },
       { question: "변환이 실패하거나 빈 이미지가 나오는 이유는?", answer: "거의 확실히 브라우저 캔버스 높이 한도 때문입니다. 높은 선명도의 긴 문서는 일부 브라우저가 그릴 수 있는 높이를 초과합니다 — Safari가 가장 엄격합니다. 선명도를 낮추거나(3x → 2x → 1x) PDF를 나눠 각각 변환하세요." },
+    ],
+    ru: [
+      { question: "Как объединить все страницы PDF в одно изображение?", answer: "Используйте браузерный конвертер длинных изображений. В инструменте «PDF в длинное изображение» от ToolkitLife достаточно загрузить PDF, выбрать PNG или JPEG, задать уровень чёткости (1x–3x) и запустить конвертацию — каждая страница отрисовывается через pdf.js и склеивается сверху вниз в одну высокую картинку, которая скачивается мгновенно." },
+      { question: "Загружается ли мой PDF на сервер во время конвертации?", answer: "Нет. Отрисовка полностью выполняется в вашем браузере через pdf.js: файл читается с диска, рисуется в памяти, а готовое изображение сохраняется обратно на устройство. Ничто не передаётся по сети, поэтому инструмент работает даже офлайн и безопасен для договоров, выписок и сканов документов." },
+      { question: "Что выбрать для длинной картинки — PNG или JPEG?", answer: "Для текстовых документов, форм и скриншотов берите PNG — сжатие без потерь сохраняет мелкие буквы идеально резкими. JPEG выбирайте, когда нужен заметно меньший файл: для сканов или приложений, отклоняющих большие загрузки. Сжатие JPEG с потерями слегка размывает мелкий текст." },
+      { question: "Почему конвертация падает или выдаёт пустое изображение?", answer: "Почти наверняка срабатывает лимит высоты canvas браузера. Длинные документы на высоких уровнях чёткости создают изображения выше того, что некоторые браузеры способны отрисовать, — строже всех ограничен Safari. Снизьте уровень чёткости (3x → 2x → 1x) или разбейте PDF на части и конвертируйте каждую отдельно." },
+    ],
+    es: [
+      { question: "¿Cómo uno todas las páginas de un PDF en una sola imagen?", answer: "Usa un convertidor de imagen larga que funcione en el navegador. Con la herramienta PDF a imagen larga de ToolkitLife basta con arrastrar tu PDF, elegir PNG o JPEG, ajustar el nivel de nitidez (1x–3x) y pulsar convertir: cada página se renderiza con pdf.js y se une de arriba abajo en una imagen alargada que se descarga al instante." },
+      { question: "¿Mi PDF se sube a un servidor durante la conversión?", answer: "No. El renderizado ocurre por completo dentro de tu navegador mediante pdf.js: el archivo se lee del disco, se dibuja en memoria y la imagen final se guarda de nuevo en tu dispositivo. No se transmite nada, así que la herramienta funciona incluso sin conexión y es segura para contratos, extractos y escaneos de documentos." },
+      { question: "¿Qué elijo para una imagen larga: PNG o JPEG?", answer: "Para documentos de texto, formularios y capturas, PNG: su compresión sin pérdidas mantiene el texto pequeño perfectamente nítido. Elige JPEG cuando necesites un archivo mucho más pequeño, por ejemplo con escaneos o en apps que rechazan subidas grandes. La compresión con pérdidas de JPEG difumina ligeramente el texto fino." },
+      { question: "¿Por qué falla mi conversión o sale una imagen en blanco?", answer: "Casi con seguridad es el límite de altura del canvas del navegador. Los documentos largos con niveles de nitidez altos generan imágenes más altas de lo que algunos navegadores pueden dibujar — Safari es el más estricto. Baja el nivel de nitidez (3x → 2x → 1x) o divide el PDF en partes y convierte cada mitad por separado." },
     ],
   },
 };

@@ -2004,7 +2004,7 @@
       },
       "heic": {
         "name": "HEIC to JPG/PNG",
-        "description": "Convert HEIC/HEIF photos to JPG or PNG right in your browser.",
+        "description": "Convert HEIC photos to JPG or PNG right in your browser.",
         "category": "Image",
         "icon": "📱"
       },
@@ -2064,7 +2064,7 @@
       },
       "image-file-size": {
         "name": "Image File Size",
-        "description": "Recompress an image to reach a target file size in KB, without changing dimensions.",
+        "description": "Compress an image to a target file size in KB without cropping — images over 3000px on the long side are scaled down.",
         "category": "Image",
         "icon": "⚖️"
       },
@@ -35149,7 +35149,7 @@
         "description": "Free online HEIC converter: turn iPhone photos into JPG or PNG right in your browser. No upload, private and instant."
       },
       "title": "HEIC to JPG/PNG",
-      "description": "Convert iPhone and iPad HEIC photos to JPG or PNG. Everything runs locally in your browser — no upload, no quality loss beyond the chosen format.",
+      "description": "Convert iPhone and iPad HEIC photos to JPG or PNG — free, right in your browser. No upload, no quality loss beyond the chosen format.",
       "category": "Image",
       "keywords": [
         "heic to jpg",
@@ -35205,7 +35205,7 @@
         "download": "Download"
       },
       "errors": {
-        "type": "Please choose a HEIC/HEIF file.",
+        "type": "Please choose a HEIC file.",
         "failed": "Conversion failed. The file may be corrupted."
       },
       "guide": {
@@ -35748,10 +35748,10 @@
     "image-file-size": {
       "metadata": {
         "title": "Image File Size Reducer - Compress Image to Target KB",
-        "description": "Compress an image to a target file size — 50KB, 100KB, 200KB or any custom KB value — without changing dimensions. Free, runs in your browser, no upload."
+        "description": "Compress an image to a target file size — 50KB, 100KB, 200KB or any custom KB value — without cropping. Images over 3000px on the long side are scaled down. Free, in-browser, no upload."
       },
       "title": "Image File Size",
-      "description": "Set a target size in KB — 50, 100, 200 or any value — and the tool recompresses your image to get as close as possible while dimensions stay exactly the same. Accepts PNG, JPG and WebP input and outputs JPG; everything runs locally in your browser.",
+      "description": "Set a target size in KB — 50, 100, 200 or any value — and the tool recompresses your image to get as close as possible. Dimensions are preserved unless the long side exceeds 3000px, which is scaled down. Accepts PNG, JPG and WebP input and outputs JPG; everything runs locally in your browser.",
       "category": "Image",
       "keywords": [
         "image file size reducer",
@@ -35772,11 +35772,11 @@
         },
         {
           "question": "Are the image dimensions changed?",
-          "answer": "No. Only the compression quality changes, so the width and height stay exactly the same."
+          "answer": "Only when the image is larger than 3000 px on its long side — it is scaled down proportionally to fit browser limits. Otherwise the width and height stay exactly the same."
         },
         {
           "question": "Can I compress an image to exactly 100KB?",
-          "answer": "You set any target in KB — 50, 100, 200, or a custom value. The tool scans JPEG quality levels and picks the largest quality whose result is at or under your target, so the final file can be slightly smaller than the target but never over it."
+          "answer": "You set any target in KB — 50, 100, 200, or a custom value. The tool scans JPEG quality levels and picks the largest quality whose result is at or under your target. If even the lowest quality (10%) is still over the target, that lowest-quality result is used and the tool shows a \"Could not reach target size\" notice."
         },
         {
           "question": "Which formats are supported?",
@@ -35820,7 +35820,7 @@
         "whatIs": {
           "title": "What is an image file size reducer?",
           "body": [
-            "An image file size reducer compresses a picture until it fits a target size in kilobytes — for example 50KB for an avatar upload, 100KB for a form attachment, or 200KB for an email. Dimensions are never changed; only the compression quality is tuned.",
+            "An image file size reducer compresses a picture until it fits a target size in kilobytes — for example 50KB for an avatar upload, 100KB for a form attachment, or 200KB for an email. Dimensions are preserved unless the image's long side exceeds 3000 px, in which case it is scaled down; only the compression quality is tuned.",
             "This tool scans JPEG quality levels in your browser and keeps the result closest to your target. Nothing is uploaded."
           ]
         },
@@ -35836,7 +35836,7 @@
         "tips": {
           "title": "Tips",
           "items": [
-            "If the tool reports it could not reach the target size, the image is too detailed for that target — try a slightly higher target or use the Image Resizer to shrink dimensions first.",
+            "If the tool reports it could not reach the target size, the lowest-quality JPG is used and a notice is shown — try a higher target or use the Image Resizer to shrink dimensions first.",
             "The output is always JPG, since JPEG quality levels are what make precise size targeting possible.",
             "For general-purpose compression without a hard size target, use the Image Compressor tool instead."
           ]

@@ -23,7 +23,7 @@ import { content as howToTransferFiles } from "./how-to-transfer-files";
 import { content as howToTransferFilesWithQrCodes } from "./how-to-transfer-files-with-qr-codes";
 import { content as howToUpscaleImages } from "./how-to-upscale-images";
 
-export type LocaleKey = "en" | "zh" | "ja" | "ko";
+export type LocaleKey = "en" | "zh" | "ja" | "ko" | "ru" | "es";
 
 export interface FAQ {
   question: string;
@@ -35,7 +35,9 @@ export interface BlogContent {
   zh: ReactNode;
   ja: ReactNode;
   ko: ReactNode;
-  faqs: Record<LocaleKey, FAQ[]>;
+  ru?: ReactNode;
+  es?: ReactNode;
+  faqs: Record<"en" | "zh" | "ja" | "ko", FAQ[]> & Partial<Record<"ru" | "es", FAQ[]>>;
 }
 
 export const blogContent: Record<string, BlogContent> = {

@@ -401,6 +401,206 @@ export const content: BlogContent = {
     </>
   ),
 
+  ru: (
+    <>
+      <aside aria-label="Сводка" className="bg-zinc-800/50 border border-zinc-700 rounded-xl p-5 mb-8">
+        <p><strong>Коротко:</strong> чтобы передать файлы между устройствами с помощью QR-кодов, откройте <Link href="/tools/qr-file-transfer" className="text-blue-400 underline">инструмент передачи файлов по QR от ToolkitLife</Link> на обоих устройствах: отправляющая сторона выбирает файл или текст и показывает бесконечный анимированный QR-поток; принимающая открывает камеру и наводит её на экран. Поток из фонтанных кодов собирается обратно в точную копию файла и проверяется контрольной суммой SHA-256 — без интернета, аккаунтов, кабеля и облака. Поддерживаются файлы до 64 МБ; скорость — порядка десятков КБ в секунду, поэтому держите телефоны неподвижно, а экран ярким.</p>
+      </aside>
+
+      <section>
+        <h2>Когда вообще передавать файлы по QR-кодам?</h2>
+        <p>Звучит как фокус с вечеринки — пока вы не столкнулись с ситуацией, когда это <em>единственный</em> вариант. Сеть доступна не всегда — и не всегда разрешена:</p>
+        <ul>
+          <li><strong>Ни Wi-Fi, ни мобильного интернета:</strong> ноутбук с файлами и телефон с камерой, и у обоих нет работающей сети — номер в отеле с телевизором, подвальная мастерская, самолёт, деревня.</li>
+          <li><strong>Изолированные или ограниченные сети:</strong> корпоративные или школьные машины, где сервисы обмена файлами, почтовые вложения и USB-накопители заблокированы, а страница в браузере всё ещё открывается.</li>
+          <li><strong>Разовые передачи между платформами:</strong> перекинуть файл с iPhone на Android TV или с запертого рабочего компьютера на личный телефон — без установки приложений и входа куда-либо.</li>
+          <li><strong>Конфиденциальные короткие данные:</strong> пароль, ключ восстановления или номер счёта, который не хочется набирать вручную, отправлять в мессенджере или почтой — хочется, чтобы он буквально «проследовал со скоростью света».</li>
+        </ul>
+        <p>Во всех этих случаях средой передачи становятся экран и камера: одно устройство показывает, другое смотрит. Между ними — ничего.</p>
+      </section>
+
+      <section>
+        <h2>Знакомьтесь: инструмент передачи файлов по QR</h2>
+        <p><Link href="/tools/qr-file-transfer" className="text-blue-400 underline">Инструмент передачи файлов по QR</Link> от ToolkitLife переносит файлы или текст между двумя устройствами через поток анимированных QR-кодов, целиком в браузере.</p>
+        <ToolCTA
+          name="Передача файлов по QR"
+          href="/tools/qr-file-transfer"
+          description="Отправляйте файлы между устройствами анимированными QR-кодами. Без интернета, аккаунтов и облака — данные путешествуют как свет от одного экрана к камере другого. До 64 МБ, проверка SHA-256."
+        />
+        <p>Что он умеет и чего не делает — без прикрас:</p>
+        <ul>
+          <li><strong>Сторона отправителя:</strong> выберите файл (до 64 МБ) или введите текст — инструмент закодирует его в непрерывный поток анимированных QR-кодов.</li>
+          <li><strong>Сторона получателя:</strong> откройте вид камеры и наведите его на экран отправителя; кадры непрерывно декодируются в фоновых воркерах.</li>
+          <li><strong>Фонтанные коды:</strong> данные разбиваются на кодовые пакеты так, что получатель может собрать файл из <em>любого</em> достаточно большого набора кадров — порядок не важен, а пропущенные кадры просто заменяются последующими.</li>
+          <li><strong>Проверка SHA-256:</strong> когда кадров наберётся достаточно, собранный файл проверяется контрольной суммой; передача отмечается как успешная, только если хеш совпал с исходным.</li>
+          <li><strong>Одно направление за раз:</strong> это односторонний канал — от отправителя к получателю. Для обратного направления поменяйтесь ролями.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Как это работает: свет в роли транспортного уровня</h2>
+        <p>Хитрая часть невидима, но стоит одного абзаца, чтобы вы доверяли результату:</p>
+        <ul>
+          <li><strong>Анимированный QR-поток:</strong> один QR-код вмещает лишь несколько КБ, поэтому инструмент показывает непрерывную анимацию — каждый кадр несёт небольшой кусочек файла.</li>
+          <li><strong>Фонтанное кодирование (LT-коды):</strong> вместо отправки фиксированных блоков №1, №2, №3… отправитель транслирует бесконечный поток <em>кодовых</em> пакетов. Получателю не важно, какие кадры он поймал: набрав достаточно (примерно размер файла, делённый на размер пакета, плюс небольшой запас), он восстанавливает полный оригинал. Можно включиться с середины потока — ничего не потеряется.</li>
+          <li><strong>Локальное декодирование QR:</strong> получатель декодирует кадры WebAssembly-декодером внутри веб-воркеров, поэтому кадры с камеры обрабатываются непрерывно, не подвешивая страницу.</li>
+          <li><strong>Проверка целостности:</strong> итоговые байты хешируются SHA-256 и сравниваются с хешем, заявленным отправителем. Несовпадение сообщается — декодирование QR быстрое, но не безошибочное, и именно контрольная сумма даёт гарантию.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Как передать файл по QR-кодам (по шагам)</h2>
+        <ol>
+          <li><strong>Откройте инструмент на обоих устройствах</strong> — отправляющее и принимающее устройства каждое в своём браузере открывают <Link href="/tools/qr-file-transfer" className="text-blue-400 underline">страницу передачи файлов по QR</Link>. После загрузки страницы не нужны ни приложение, ни вход, ни сеть.</li>
+          <li><strong>На отправителе выберите, что передать.</strong> Укажите файл (до 64 МБ) или вставьте/наберите текст, затем запустите поток. Экран заполнит анимированная последовательность QR-кодов.</li>
+          <li><strong>На получателе откройте камеру.</strong> Разрешите доступ к камере, когда браузер спросит, и наведите её на экран отправителя. Держите устройства на комфортном расстоянии, чтобы весь QR-код помещался в кадр.</li>
+          <li><strong>Держите неподвижно и ждите.</strong> Индикатор прогресса растёт по мере сбора полезных кадров. Фонтанному декодеру нужно чуть больше данных, чем весит файл, поэтому поток будет крутиться несколько дольше одного «прохода».</li>
+          <li><strong>Подтвердите и скачайте.</strong> Когда проверка SHA-256 пройдёт, получатель покажет файл (или текст) с кнопкой скачивания. Готово — ни один байт не коснулся сети.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Скорость и лимит 64 МБ — честно</h2>
+        <p>QR-передача чудесно свободна от кабелей и мучительно медленна по меркам сетей. Крупный QR-код несёт примерно 1–3 КБ за кадр, а камера телефона декодирует в лучшем случае несколько кадров в секунду. Практическая пропускная способность — порядка десятков КБ в секунду: фото на 2 МБ займёт пару минут, а фрагмент видео на 20 МБ — заметно дольше.</p>
+        <ul>
+          <li><strong>Задачи подходящего размера:</strong> пароли, ключи, ссылки, документы, несколько фото — для этого QR-передача по-настоящему удобна.</li>
+          <li><strong>Задачи неподходящего размера:</strong> гигабайтные видео и фототеки — берите кабель, локальную сеть или облачный диск; QR потребует часов.</li>
+          <li><strong>Лимит 64 МБ:</strong> инструмент отказывается принимать файлы свыше 64 МБ — при большем размере учёт фонтанного декодера и само число кадров делают передачу в браузере непрактичной.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Безопасность: от чего защищает QR-передача — а от чего нет</h2>
+        <p>Честная история о безопасности двусторонняя:</p>
+        <ul>
+          <li><strong>Нет сервера — нет прослушки посередине:</strong> данные путешествуют в виде модулированного света между двумя экранами. Нет сервера, хранящего копию; нет сетевого пакета, который можно перехватить; нет аккаунта, который можно запросить по требованию. На линии между двумя экранами взламывать нечего.</li>
+          <li><strong>Но свет — не приватный свет:</strong> во время передачи любой человек (или любая камера) с хорошим обзором экрана отправителя видит тот же QR-поток. Наблюдатель, потолочная камера или видеозвонок, нацеленный на ваш экран, снимут кадры и восстановят файл. QR-передача защищена от подслушивания <em>только в доверенной обстановке</em> — частная комната, а не столик в кафе и не экран, видный из окна.</li>
+          <li><strong>Никаких заявлений о шифровании:</strong> обращайтесь с потоком как с трансляцией. Если передаёте пароль или ключ восстановления, делайте это там, где экран не видит ни одна другая камера, и завершайте поток по окончании.</li>
+        </ul>
+        <p>В доверенной обстановке модель угроз великолепна: два устройства обмениваются данными при нулевой инфраструктуре, а проверка SHA-256 ловит любые повреждения. В общественном месте это доска для записей — читает тот, кто смотрит.</p>
+      </section>
+
+      <section>
+        <h2>Если передача идёт медленно или срывается</h2>
+        <p><strong>«Прогресс ползёт или встал».</strong> Обычно виноваты блики и низкая яркость. Поднимите яркость экрана отправителя, уберите отражения (при бликах чуть наклоните экран) и, если возможно, затемните комнату.</p>
+        <p><strong>«Камера не может сфокусироваться».</strong> Сдвиньте устройства ближе или дальше, чтобы QR занимал приличную часть видоискателя и оставался резким; избегайте крайних углов — цельтесь примерно перпендикулярно.</p>
+        <p><strong>«Дрожащие руки портят кадры».</strong> Обоприте принимающий телефон обо что-нибудь или положите оба устройства на стол. Стабильность — главный фактор скорости.</p>
+        <p><strong>«Почти завершилось, но застряло».</strong> Последние проценты фонтанно-кодированных данных всё ещё ждут новые кадры — не останавливайте поток и держите камеру ровно; пропущенные кадры заменят последующие кодовые.</p>
+        <p><strong>«Контрольная сумма не сошлась».</strong> Редко, но случается при сильно повреждённых кадрах. Перезапустите передачу; если повторяется, уменьшите настройку байт на кадр, чтобы каждый QR-код нёс меньше данных и декодировался надёжнее.</p>
+      </section>
+
+      <section>
+        <h2>Краткое повторение FAQ</h2>
+        <ul>
+          <li>Обоим устройствам нужен интернет? Нет — после загрузки страницы передача целиком идёт офлайн. В этом и смысл.</li>
+          <li>Мой файл куда-то загружается? Нет. Сервера нет; данные пересекают зазор между двумя экранами в виде QR-кодов.</li>
+          <li>Каким может быть размер файла? До 64 МБ, и рассчитывайте на минуты, а не секунды — пропускная способность у QR скромная.</li>
+          <li>Это безопасно? Передаче сеть не нужна, но любой с хорошим обзором экрана отправителя может снять кадры — используйте в доверенных, приватных местах.</li>
+        </ul>
+      </section>
+    </>
+  ),
+
+  es: (
+    <>
+      <aside aria-label="Resumen" className="bg-zinc-800/50 border border-zinc-700 rounded-xl p-5 mb-8">
+        <p><strong>En resumen:</strong> para transferir archivos entre dispositivos con códigos QR, abre la <Link href="/tools/qr-file-transfer" className="text-blue-400 underline">herramienta de transferencia de archivos por QR de ToolkitLife</Link> en ambos dispositivos: el emisor elige un archivo o texto y muestra un flujo animado infinito de códigos QR; el receptor abre la cámara y la apunta hacia la pantalla. El flujo de códigos fuente se reensambla en el archivo exacto, verificado con una suma de comprobación SHA-256 — sin internet, sin cuentas, sin cable y sin nube. Funciona con archivos de hasta 64 MB; la velocidad ronda las decenas de KB por segundo, así que mantén los teléfonos firmes y la pantalla brillante.</p>
+      </aside>
+
+      <section>
+        <h2>¿Cuándo transferir archivos con códigos QR?</h2>
+        <p>Suena a truco de fiesta, hasta que te topas con la situación en la que es la <em>única</em> opción. Las redes no siempre están disponibles — y no siempre están permitidas:</p>
+        <ul>
+          <li><strong>Sin Wi-Fi y sin datos:</strong> un portátil con archivos que mover y un teléfono con cámara, y ninguno tiene internet utilizable — la habitación del hotel con televisor, un taller en el sótano, un avión, el campo.</li>
+          <li><strong>Redes aisladas o restringidas:</strong> equipos corporativos o escolares donde los servicios para compartir archivos, los adjuntos de correo y las memorias USB están bloqueados, pero una página web sigue cargando.</li>
+          <li><strong>Traspasos puntuales entre plataformas:</strong> llevar un archivo de un iPhone a un Android TV, o de un PC de trabajo bloqueado a tu teléfono personal, sin instalar ninguna app ni iniciar sesión en nada.</li>
+          <li><strong>Fragmentos delicados para la privacidad:</strong> una contraseña, una clave de recuperación o un número de cuenta que no quieres teclear, enviar por mensaje ni por correo — quieres que viaje, literalmente, «a la velocidad de la luz».</li>
+        </ul>
+        <p>En todos estos casos el medio de transmisión pasa a ser la pantalla y la cámara: un dispositivo muestra, el otro observa. Nada en medio.</p>
+      </section>
+
+      <section>
+        <h2>Conoce la herramienta de transferencia de archivos por QR</h2>
+        <p>La <Link href="/tools/qr-file-transfer" className="text-blue-400 underline">herramienta de transferencia de archivos por QR</Link> de ToolkitLife mueve archivos o texto entre dos dispositivos mediante un flujo de códigos QR animados, todo dentro del navegador.</p>
+        <ToolCTA
+          name="Transferencia de archivos por QR"
+          href="/tools/qr-file-transfer"
+          description="Envía archivos entre dispositivos con códigos QR animados. Sin internet, sin cuentas y sin nube — los datos viajan como luz de una pantalla a la cámara de otro. Hasta 64 MB, verificación SHA-256."
+        />
+        <p>Lo que hace y lo que no hace, sin rodeos:</p>
+        <ul>
+          <li><strong>Lado del emisor:</strong> elige un archivo (hasta 64 MB) o escribe un fragmento de texto; la herramienta lo codifica en un flujo continuo de códigos QR animados.</li>
+          <li><strong>Lado del receptor:</strong> abre la vista de cámara y apúntala a la pantalla emisora; los fotogramas se decodifican sin parar en workers en segundo plano.</li>
+          <li><strong>Códigos fuente (fountain):</strong> los datos se dividen en paquetes codificados de forma que el receptor puede reensamblar el archivo a partir de <em>cualquier</em> conjunto de fotogramas suficientemente grande — el orden no importa, y los fotogramas perdidos simplemente los sustituyen los posteriores.</li>
+          <li><strong>Verificación SHA-256:</strong> cuando se han reunido suficientes fotogramas, el archivo reensamblado se comprueba con su suma de verificación; la transferencia solo informa de éxito si el hash coincide con el original.</li>
+          <li><strong>Una dirección cada vez:</strong> es un conducto unidireccional — del emisor al receptor. Para el sentido contrario, intercambia los papeles.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Cómo funciona: la luz como capa de transporte</h2>
+        <p>Lo ingenioso es invisible, pero merece un párrafo para que confíes en el resultado:</p>
+        <ul>
+          <li><strong>Flujo de QR animado:</strong> un solo código QR solo guarda unos pocos KB, así que la herramienta muestra una animación continua — cada fotograma lleva una pequeña porción del archivo.</li>
+          <li><strong>Codificación fuente (códigos LT):</strong> en lugar de enviar los bloques fijos #1, #2, #3…, el emisor emite sin fin una corriente de paquetes <em>codificados</em>. Al receptor no le importa qué fotogramas capturó — una vez que tiene suficientes (aproximadamente el tamaño del archivo dividido entre el tamaño del paquete, más un pequeño margen), puede reconstruir el original completo. Puedes empezar a mirar a mitad del flujo; no se pierde nada.</li>
+          <li><strong>Decodificación QR local:</strong> el receptor decodifica los fotogramas con un decodificador QR en WebAssembly que corre en web workers, de modo que los fotogramas de la cámara se procesan sin congelar la página.</li>
+          <li><strong>Comprobación de integridad:</strong> los bytes finales se hashean con SHA-256 y se comparan con el hash declarado por el emisor. Una discrepancia se informa — la decodificación QR es rápida pero no infalible, y la suma de comprobación es la garantía.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Cómo transferir un archivo con códigos QR (paso a paso)</h2>
+        <ol>
+          <li><strong>Abre la herramienta en ambos dispositivos</strong> — el dispositivo emisor y el receptor abren cada uno la <Link href="/tools/qr-file-transfer" className="text-blue-400 underline">página de transferencia de archivos por QR</Link> en su navegador. Tras cargar la página no hace falta ni app, ni inicio de sesión, ni red.</li>
+          <li><strong>En el emisor, elige qué enviar.</strong> Selecciona un archivo (hasta 64 MB) o pega/escribe un texto, y arranca el flujo. Una secuencia animada de códigos QR llena la pantalla.</li>
+          <li><strong>En el receptor, abre la cámara.</strong> Concede el permiso de cámara cuando el navegador lo pida y apunta hacia la pantalla emisora. Mantén los dispositivos a una distancia cómoda para que el código QR completo entre en el encuadre.</li>
+          <li><strong>Sujeta firme y espera.</strong> El indicador de progreso crece a medida que se recogen fotogramas útiles. El decodificador fuente necesita algo más de datos que el tamaño bruto del archivo, así que el flujo correrá algo más de una «pasada» completa.</li>
+          <li><strong>Confirma y descarga.</strong> Cuando la comprobación SHA-256 pase, el receptor muestra el archivo (o texto) con un botón de descarga. Listo — ningún byte tocó una red.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Velocidad y el límite de 64 MB, con franqueza</h2>
+        <p>La transmisión por QR es maravillosamente libre de cables y dolorosamente lenta según los estándares de red. Un código QR grande lleva en torno a 1–3 KB por fotograma, y la cámara de un teléfono decodifica como mucho unos pocos fotogramas por segundo. El rendimiento práctico ronda las decenas de KB por segundo — una foto de 2 MB tarda un par de minutos, y un trozo de vídeo de 20 MB bastante más.</p>
+        <ul>
+          <li><strong>Tareas del tamaño adecuado:</strong> contraseñas, claves, enlaces, documentos, un puñado de fotos — para esto la transferencia por QR es de verdad cómoda.</li>
+          <li><strong>Tareas del tamaño equivocado:</strong> vídeos de varios gigabytes y fototecas — usa un cable, una red local o una unidad en la nube; por QR llevaría horas.</li>
+          <li><strong>El tope de 64 MB:</strong> la herramienta rechaza archivos de más de 64 MB — por encima de ese tamaño, la contabilidad del decodificador fuente y el número ingente de fotogramas hacen la transferencia inviable en un navegador.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Seguridad: de qué protege la transferencia por QR — y de qué no</h2>
+        <p>La historia honesta de seguridad tiene dos caras:</p>
+        <ul>
+          <li><strong>Sin servidor, sin escucha intermedia:</strong> los datos viajan como luz modulada entre dos pantallas. No hay servidor que reciba una copia, ni paquete de red que interceptar, ni cuenta que requerir judicialmente. En la línea entre las dos pantallas no hay nada que hackear.</li>
+          <li><strong>Pero la luz no es luz privada:</strong> durante la transferencia, cualquiera (o cualquier cámara) con visión clara de la pantalla emisora ve el mismo flujo de QR. Un curiosillo, una cámara del techo o una videollamada apuntada a tu pantalla pueden capturar los fotogramas y reconstruir el archivo. La transferencia por QR resiste escuchas <em>solo en un entorno de confianza</em> — una habitación privada, no la mesa de un café ni una pantalla visible desde la ventana.</li>
+          <li><strong>Sin pretensiones de cifrado:</strong> trata el flujo como una emisión. Si el contenido es una contraseña o una clave de recuperación, transfiéelo donde ninguna otra cámara vea la pantalla, y corta el flujo al terminar.</li>
+        </ul>
+        <p>Usada en un entorno de confianza, el modelo de amenazas es excelente: dos dispositivos intercambian datos con infraestructura cero en medio, y la comprobación SHA-256 detecta cualquier corrupción. En público, es una pizarra — la lee quien la mire.</p>
+      </section>
+
+      <section>
+        <h2>Transferencias lentas o fallidas: qué hacer</h2>
+        <p><strong>«El progreso avanza a rastras o se atasca».</strong> Los reflejos y el brillo bajo son los culpables habituales. Sube el brillo de la pantalla emisora, reduce los reflejos (inclínala un poco si deslumbra) y oscurece la habitación si es posible.</p>
+        <p><strong>«La cámara no logra enfocar».</strong> Acerca o aleja los dispositivos hasta que el QR ocupe una buena parte del visor y siga nítido; evita los ángulos extremos — apunta más bien en perpendicular.</p>
+        <p><strong>«Las manos temblorosas arruinan los fotogramas».</strong> Apoya el teléfono receptor contra algo, o coloca ambos dispositivos sobre una mesa. La estabilidad es el mayor factor de velocidad.</p>
+        <p><strong>«Casi termina y se atasca».</strong> El último porcentaje de datos codificados fuente también necesita fotogramas nuevos — deja el flujo corriendo y la cámara firme; los fotogramas perdidos los sustituyen los codificados posteriores.</p>
+        <p><strong>«La suma de comprobación falló».</strong> Raro, pero posible con fotogramas muy dañados. Reinicia la transferencia; si se repite, baja el ajuste de bytes por fotograma para que cada código QR lleve menos datos y se decodifique con más fiabilidad.</p>
+      </section>
+
+      <section>
+        <h2>Repaso rápido de preguntas frecuentes</h2>
+        <ul>
+          <li>¿Ambos dispositivos necesitan internet? No — tras cargar la página, toda la transferencia ocurre sin conexión. Ese es el propósito.</li>
+          <li>¿Mi archivo se sube a algún sitio? No. No hay servidor; los datos cruzan el hueco entre las dos pantallas como códigos QR.</li>
+          <li>¿De qué tamaño puede ser el archivo? Hasta 64 MB, y espera minutos, no segundos — el ancho de banda del QR es modesto.</li>
+          <li>¿Es seguro? La transferencia no necesita red, pero quien vea con claridad la pantalla emisora puede filmar los fotogramas — úsalo en espacios de confianza y privados.</li>
+        </ul>
+      </section>
+    </>
+  ),
+
   faqs: {
     en: [
       { question: "Can I really transfer files between devices with no internet?", answer: "Yes. Both devices open the QR File Transfer page once; after that the entire transfer runs offline. The sender displays an animated stream of QR codes and the receiver's camera reads them — the data crosses the air gap as light, not as network packets, so no Wi-Fi, Bluetooth, cable, or cloud service is involved." },
@@ -425,6 +625,18 @@ export const content: BlogContent = {
       { question: "도구는 받은 파일이 온전한지 어떻게 보장하나요?", answer: "파일은 파운틴 코딩 패킷으로 나뉩니다: 받는 쪽은 순서나 누락과 무관하게, 포획한 프레임의 충분히 큰 임의의 집합에서 완전한 원본을 재구성할 수 있습니다. 재구성 후 SHA-256으로 해시해 보내는 쪽이 선언한 해시와 비교 — 체크섬이 일치할 때만 전송 성공을 보고합니다." },
       { question: "파일 크기 한도와 전송 속도는 어떻게 되나요?", answer: "최대 64 MB까지 지원합니다. 속도는 조명, 화면 밝기, 카메라 안정성에 따르지만 초당 수십 KB 정도를 예상하세요 — 작은 문서나 사진 몇 장은 한두 분, 큰 미디어 파일은 케이블이나 로컬 네트워크가 적합합니다." },
       { question: "QR 파일 전송은 안전한가요?", answer: "서버가 개입하지 않고 네트워크상 가로챌 대상도 없지만, 데이터는 QR 코드로 보이므로 전송 화면을 또렷이 볼 수 있는 사람은 프레임을 촬영해 파일을 재구성할 수 있습니다. 신뢰할 수 있는 개인 환경에서 사용하세요 — 비밀번호나 복구 키라면 특히." },
+    ],
+    ru: [
+      { question: "Действительно можно передавать файлы между устройствами без интернета?", answer: "Да. Оба устройства один раз открывают страницу передачи файлов по QR; дальше вся передача идёт офлайн. Отправитель показывает анимированный QR-поток, камера получателя его читает — данные пересекают воздушный зазор как свет, а не как сетевые пакеты, поэтому Wi-Fi, Bluetooth, кабель или облачный сервис не участвуют вовсе." },
+      { question: "Как инструмент гарантирует, что файл получен без повреждений?", answer: "Файл делится на пакеты с фонтанным кодированием: получатель может собрать полный оригинал из любого достаточно большого набора пойманных кадров, независимо от порядка и пропусков. После сборки результат хешируется SHA-256 и сравнивается с хешем, заявленным отправителем, — передача отмечается как успешная, только когда контрольная сумма совпала." },
+      { question: "Каков лимит размера файла и скорость передачи?", answer: "Поддерживаются файлы до 64 МБ. Скорость зависит от освещения, яркости экрана и стабильности камеры, но рассчитывайте примерно на десятки КБ в секунду — небольшой документ или несколько фото займут минуту-другую, а крупные медиафайлы лучше передавать кабелем или по локальной сети." },
+      { question: "Безопасна ли передача файлов по QR?", answer: "Сервер в процессе не участвует, и перехватывать в сети нечего, но данные видны как QR-коды всякому, кто хорошо видит экран отправителя, — наблюдатель или камера могут заснять кадры и восстановить файл. Используйте инструмент в доверенной приватной обстановке, особенно для паролей и ключей восстановления." },
+    ],
+    es: [
+      { question: "¿De verdad se pueden transferir archivos entre dispositivos sin internet?", answer: "Sí. Ambos dispositivos abren una vez la página de transferencia de archivos por QR; a partir de ahí, toda la transferencia ocurre sin conexión. El emisor muestra un flujo animado de códigos QR y la cámara del receptor los lee — los datos cruzan el aislamiento físico como luz, no como paquetes de red, sin que intervengan Wi-Fi, Bluetooth, cables ni servicios en la nube." },
+      { question: "¿Cómo garantiza la herramienta que el archivo recibido está intacto?", answer: "El archivo se divide en paquetes con codificación fuente: el receptor puede reensamblar el original completo a partir de cualquier conjunto de fotogramas capturados suficientemente grande, sin importar el orden ni los fotogramas perdidos. Una vez reensamblado, el resultado se hashea con SHA-256 y se compara con el hash declarado por el emisor — la transferencia solo informa de éxito cuando la suma de comprobación coincide." },
+      { question: "¿Cuál es el límite de tamaño y la velocidad de transferencia?", answer: "Se admiten archivos de hasta 64 MB. La velocidad depende de la iluminación, el brillo de la pantalla y la estabilidad de la cámara, pero espera en torno a decenas de KB por segundo — un documento pequeño o unas pocas fotos tardan uno o dos minutos, mientras que los archivos multimedia grandes van mejor por cable o red local." },
+      { question: "¿Es segura la transferencia de archivos por QR?", answer: "No hay servidor de por medio y nada que interceptar en la red, pero los datos son visibles como códigos QR para cualquiera con visión clara de la pantalla emisora — un espectador o una cámara pueden filmar los fotogramas y reconstruir el archivo. Usa la herramienta en entornos de confianza y privados, sobre todo con contraseñas o claves de recuperación." },
     ],
   },
 };

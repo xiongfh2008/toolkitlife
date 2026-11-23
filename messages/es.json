@@ -2005,7 +2005,7 @@
       },
       "heic": {
         "name": "HEIC a JPG/PNG",
-        "description": "Convierte fotos HEIC/HEIF a JPG o PNG directamente en tu navegador.",
+        "description": "Convierte fotos HEIC a JPG o PNG directamente en tu navegador.",
         "category": "Imagen",
         "icon": "📱"
       },
@@ -2065,7 +2065,7 @@
       },
       "image-file-size": {
         "name": "Tamaño de archivo de imagen",
-        "description": "Recomprime una imagen para alcanzar un tamaño de archivo objetivo en KB, sin cambiar las dimensiones.",
+        "description": "Comprime una imagen a un tamaño objetivo en KB sin recortar; las imágenes con más de 3000 px en el lado largo se reducen proporcionalmente.",
         "category": "Imagen",
         "icon": "⚖️"
       },
@@ -35118,7 +35118,7 @@
         "description": "Conversor online gratuito de HEIC: convierte fotos de iPhone a JPG o PNG en tu navegador. Sin subidas, privado e instantáneo."
       },
       "title": "HEIC a JPG/PNG",
-      "description": "Convierte fotos HEIC de iPhone y iPad a JPG o PNG. Todo se ejecuta localmente en tu navegador: sin subidas y sin pérdida de calidad más allá del formato elegido.",
+      "description": "Convierte fotos HEIC de iPhone y iPad a JPG o PNG: gratis, directamente en tu navegador. Sin subidas y sin pérdida de calidad más allá del formato elegido.",
       "category": "Imagen",
       "keywords": [
         "heic a jpg",
@@ -35681,10 +35681,10 @@
     "image-file-size": {
       "metadata": {
         "title": "Comprimir imagen a un tamaño en KB - Reducir peso de imagen",
-        "description": "Comprime una imagen a 50 KB, 100 KB, 200 KB o cualquier peso objetivo sin cambiar las dimensiones. Gratis, en tu navegador, sin subidas; salida en JPG."
+        "description": "Comprime una imagen a un peso objetivo — 50 KB, 100 KB, 200 KB o cualquier valor personalizado en KB — sin recortar. Las imágenes con más de 3000 px en el lado largo se reducen proporcionalmente. Gratis, en tu navegador, sin subidas."
       },
       "title": "Peso de imagen",
-      "description": "Define un peso objetivo — 50, 100, 200 KB o cualquier valor — y la herramienta recomprime tu imagen para acercarse lo máximo posible: las dimensiones nunca cambian. Acepta PNG, JPG y WebP y genera JPG; todo se procesa localmente en tu navegador.",
+      "description": "Define un peso objetivo — 50, 100, 200 KB o cualquier valor — y la herramienta recomprime tu imagen para acercarse lo máximo posible. Las dimensiones se mantienen salvo que el lado largo supere los 3000 px, en cuyo caso se reduce proporcionalmente. Acepta PNG, JPG y WebP y genera JPG; todo se procesa localmente en tu navegador.",
       "category": "Imagen",
       "keywords": [
         "comprimir imagen a 100kb",
@@ -35704,7 +35704,19 @@
         },
         {
           "question": "¿Cambian las dimensiones de la imagen?",
-          "answer": "No. Solo cambia la calidad de compresión, así que el ancho y el alto se mantienen exactamente iguales."
+          "answer": "Solo cuando la imagen supera los 3000 px en su lado largo: entonces se reduce proporcionalmente para ajustarse a los límites del navegador. En cualquier otro caso, el ancho y el alto se mantienen exactamente iguales."
+        },
+        {
+          "question": "¿Puedo comprimir una imagen a exactamente 100 KB?",
+          "answer": "Puedes definir cualquier objetivo en KB: 50, 100, 200 o un valor personalizado. La herramienta examina los niveles de calidad JPEG y elige la calidad más alta cuyo resultado no supere tu objetivo. Si incluso con la calidad más baja (10 %) se supera el objetivo, se usa ese resultado y se muestra el aviso «No se pudo alcanzar el tamaño objetivo»."
+        },
+        {
+          "question": "¿Qué formatos son compatibles?",
+          "answer": "Puedes soltar imágenes PNG, JPG o WebP. El resultado comprimido siempre es JPG, porque los niveles de calidad JPEG son lo que permite ajustar el peso con precisión."
+        },
+        {
+          "question": "¿Se sube mi imagen a un servidor?",
+          "answer": "No. La compresión se realiza por completo en tu navegador con canvas: el archivo nunca sale de tu dispositivo."
         }
       ],
       "relatedTools": [
@@ -35735,6 +35747,32 @@
         "cannotReach": "No se pudo alcanzar el tamaño objetivo",
         "target": "Tamaño objetivo (KB)",
         "resultSize": "Tamaño del resultado"
+      },
+      "guide": {
+        "whatIs": {
+          "title": "¿Qué es un reductor de peso de imagen?",
+          "body": [
+            "Un reductor de peso de imagen comprime una imagen hasta que encaja en un peso objetivo en kilobytes: por ejemplo 50 KB para un avatar, 100 KB para un adjunto de formulario o 200 KB para un correo. Las dimensiones se mantienen salvo que el lado largo supere los 3000 px, en cuyo caso se reduce; solo se ajusta la calidad de compresión.",
+            "Esta herramienta examina los niveles de calidad JPEG en tu navegador y conserva el resultado más cercano a tu objetivo. No se sube nada."
+          ]
+        },
+        "howTo": {
+          "title": "Cómo usarlo",
+          "intro": "Tres pasos para comprimir a un peso objetivo:",
+          "items": [
+            "Suelta una imagen PNG, JPG o WebP en el área de entrada.",
+            "Introduce tu peso objetivo en KB (por ejemplo, 100).",
+            "Pulsa convertir, comprueba el peso del resultado y descarga el JPG."
+          ]
+        },
+        "tips": {
+          "title": "Consejos",
+          "items": [
+            "Si la herramienta indica que no pudo alcanzar el tamaño objetivo, se usa el JPG de menor calidad y se muestra un aviso: prueba a subir el objetivo o reduce primero las dimensiones con el Redimensionador de imágenes.",
+            "La salida siempre es JPG, porque los niveles de calidad JPEG son lo que permite ajustar el peso con precisión.",
+            "Para una compresión general sin un peso objetivo estricto, usa el Compresor de imágenes."
+          ]
+        }
       }
     },
     "image-margin": {

@@ -489,6 +489,250 @@ export const content: BlogContent = {
     </>
   ),
 
+  ru: (
+    <>
+      <aside aria-label="Сводка" className="bg-zinc-800/50 border border-zinc-700 rounded-xl p-5 mb-8">
+        <p><strong>Коротко:</strong> чтобы перевести фото iPhone из HEIC в JPG, воспользуйтесь <Link href="/tools/heic" className="text-blue-400 underline">бесплатным конвертером HEIC в JPG от ToolkitLife</Link>: загрузите файл .heic, выберите JPG или PNG и скачайте результат — конвертация выполняется локально в браузере через WebAssembly, поэтому фото не покидает устройство. За раз обрабатывается один файл; если не конвертируется переименованный или необычный вариант .heif, заново экспортируйте фото из альбома. А чтобы вообще не сталкиваться с HEIC, переключите камеру iPhone на съёмку в JPG.</p>
+      </aside>
+
+      <section>
+        <h2>Что такое HEIC и зачем его использует iPhone?</h2>
+        <p>HEIC (High Efficiency Image Container) — формат фотографий, который Apple сделал основным на iPhone начиная с iOS 11. Одна и та же картинка занимает примерно вдвое меньше места, чем в старом JPG, формат поддерживает более качественный 10-битный цвет и умеет упаковывать в один файл кадры Live Photo и метаданные редактирования. Вдвое меньше места даром — отличная сделка, потому Apple и сменила формат.</p>
+        <p>Проблемы начинаются в тот момент, когда фото покидает мир Apple. Просмотрщики Windows образца нескольких лет назад, множество приложений «Галерея» на Android, старые веб-формы, государственные порталы загрузки, киоски печати и изрядная часть настольного ПО по-прежнему ждут JPG. Вы загружаете .heic, а сайт в ответ тихо сообщает «формат файла не поддерживается». Тогда-то и нужен <strong>конвертер HEIC в JPG</strong>.</p>
+        <ul>
+          <li><strong>Почему HEIC вообще существует:</strong> он построен на том же стандарте сжатия HEVC, что и видео, только применён к статичным изображениям — современные кодеки ужимают фото куда сильнее, чем JPEG образца 1992 года.</li>
+          <li><strong>Почему JPG до сих пор жив:</strong> это самое близкое к универсальному изображение в интернете. Его открывает всё и везде.</li>
+          <li><strong>Когда конвертировать:</strong> загрузка на порталы, отправка на устройства не от Apple, вставка на сайты, вложения в старое офисное ПО, заказ печати.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Знакомьтесь: бесплатный конвертер HEIC в JPG</h2>
+        <p><Link href="/tools/heic" className="text-blue-400 underline">Конвертер HEIC</Link> от ToolkitLife превращает файлы HEIC в JPG или PNG целиком внутри браузера.</p>
+        <ToolCTA
+          name="HEIC в JPG"
+          href="/tools/heic"
+          description="Переводите фото iPhone из HEIC в JPG или PNG прямо в браузере. Бесплатно, без регистрации и загрузки на сервер — обработка идёт через WebAssembly на вашем устройстве. Скачайте JPG мгновенно."
+        />
+        <p>Что он умеет и чего не делает — без прикрас:</p>
+        <ul>
+          <li><strong>Локальная конвертация через WebAssembly</strong> — декодер heic2any скомпилирован в WebAssembly и работает во вкладке браузера. Фото читается, декодируется и кодируется заново на вашем процессоре; ничего не загружается.</li>
+          <li><strong>Вывод в JPG или PNG</strong> — JPG ради совместимости и малого размера, PNG когда нужны пиксели без потерь.</li>
+          <li><strong>Один файл за раз</strong> — загрузили фото, сконвертировали, скачали, повторили. Очереди для пакетной обработки в этом инструменте нет.</li>
+          <li><strong>Рассчитан на настоящие .heic</strong> — инструмент декодирует именно подлинные изображения .heic. Некоторые контейнеры .heif или файлы, переименованные в .heic из других форматов, могут не декодироваться.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Как конвертировать HEIC в JPG (по шагам)</h2>
+        <ol>
+          <li><strong>Откройте конвертер HEIC</strong> и перетащите файл .heic в область загрузки (или выберите кликом). На iPhone фото попадает в «Файлы», если сохранить его из приложения «Фото»; на компьютере оно там, куда вы его скопировали.</li>
+          <li><strong>Выберите формат вывода.</strong> JPG — вариант по умолчанию ради совместимости; PNG берите только если нужны пиксели без потерь или прозрачность.</li>
+          <li><strong>Запустите конвертацию.</strong> Декодер на WebAssembly распаковывает данные изображения, сжатые HEVC, и кодирует их заново — обычно это занимает пару секунд.</li>
+          <li><strong>Скачайте результат.</strong> JPG сохраняется прямо на устройство с тем же базовым именем файла.</li>
+        </ol>
+        <p>Ни аккаунта, ни водяных знаков, ни электронной почты — а исходный файл HEIC остаётся на устройстве нетронутым.</p>
+      </section>
+
+      <section>
+        <h2>JPG или PNG для сконвертированных фото</h2>
+        <p>Оба формата открываются везде, но служат разным целям:</p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b border-zinc-700 text-left">
+                <th className="py-2 pr-4">Критерий</th>
+                <th className="py-2 pr-4">JPG</th>
+                <th className="py-2">PNG</th>
+              </tr>
+            </thead>
+            <tbody className="text-zinc-300">
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Сжатие</td>
+                <td className="py-2 pr-4">С потерями, регулируемое качество</td>
+                <td className="py-2">Без потерь</td>
+              </tr>
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Размер (фото)</td>
+                <td className="py-2 pr-4">Маленький — идеально для снимков</td>
+                <td className="py-2">Очень большой для фотографий</td>
+              </tr>
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Совместимость</td>
+                <td className="py-2 pr-4">Универсальная — принимают все устройства и формы</td>
+                <td className="py-2">Универсальна для просмотра, но тяжела для загрузки</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4">Лучше всего для</td>
+                <td className="py-2 pr-4">Отправка, загрузка на сайты, печать, архив снимков</td>
+                <td className="py-2">Скриншоты, графика, изображения без потерь</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Для настоящих фотографий с камеры — а именно они и хранятся в HEIC — ответ почти всегда JPG: фотографический шум сжимается отлично, поэтому потери при качестве 90% глазу не видны, а файл остаётся небольшим. PNG имеет смысл, только если «фото» — на самом деле скриншот или графика с плоскими цветами и текстом.</p>
+      </section>
+
+      <section>
+        <h2>Приватность: фото не покидают устройство</h2>
+        <p>Фотографии — одни из самых личных файлов, что у нас есть, — а «бесплатные онлайн-конвертеры HEIC» обычно просят загрузить их на анонимный сервер, где их обрабатывают, иногда кэшируют и где действует политика хранения, которую вы никогда не видели. Для отпускных снимков это ерунда, но для фото документов, бумаг или семейных снимков — реальная утечка.</p>
+        <p>Этот конвертер работает иначе. Декодер HEIC — сборка открытой библиотеки в WebAssembly, которая выполняется во вкладке браузера: файл читается локально, декодируется на вашем процессоре, кодируется заново в JPG или PNG и сохраняется в загрузки. Ничто никуда не передаётся — можно выключить Wi-Fi посреди конвертации, и она всё равно завершится. Поэтому здесь и нет квот: некому оплачивать ваш трафик.</p>
+      </section>
+
+      <section>
+        <h2>Честные ограничения (и вариант для целого альбома)</h2>
+        <p>Конвертер, скрывающий свои ограничения, не заслуживает доверия, поэтому вот они:</p>
+        <ul>
+          <li><strong>Одно фото за конвертацию.</strong> Перегонять целый альбом по одному файлу утомительно.</li>
+          <li><strong>Пакетный вариант на iPhone:</strong> самое чистое решение — вообще не создавать файлы HEIC. Откройте <em>Настройки → Камера → Форматы → Наиболее совместимый</em>, и iPhone с этого момента снимает в JPG. Уже существующие фото при отправке нескольких штук из «Фото» по почте или в чат тоже часто автоматически конвертируются в JPG.</li>
+          <li><strong>.heif и переименованные файлы могут не открыться.</strong> Инструмент декодирует подлинные изображения .heic. Некоторые варианты .heif, а также файлы, у которых просто сменили имя (например, .jpg в .heic), декодировать не получится — заново экспортируйте фото из приложения альбома как полноценное изображение и попробуйте снова.</li>
+          <li><strong>Метаданные не сохраняются.</strong> Конвертация перекодирует пиксели; EXIF-данные вроде GPS-меток могут не переехать. Часто это плюс для приватности, но не рассчитывайте на геотеги в полученном JPG.</li>
+          <li><strong>Если нужно ещё меньше:</strong> когда полученный JPG всё ещё велик для портала, прогоните его через <Link href="/tools/image-compressor" className="text-blue-400 underline">компрессор изображений</Link>.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Устранение неполадок</h2>
+        <p><strong>«Файл не конвертируется».</strong> Сначала убедитесь, что это действительно HEIC: файл, переименованный из JPG в .heic, не декодируется. Подлинные контейнеры .heif тоже иногда подводят — откройте фото в приложении альбома, заново экспортируйте его как изображение и конвертируйте уже свежий файл.</p>
+        <p><strong>«Где вообще найти .heic на iPhone?»</strong> Фото управляются приложением «Фото»; чтобы получить копию файла, откройте снимок, нажмите «Поделиться» → «Сохранить в файлы» и выберите папку. Эту копию и загружайте в конвертер.</p>
+        <p><strong>«JPG выглядит чуть иначе».</strong> HEIC хранит 10-битный цвет, который JPG (8-бит) передать не может; тонкие градиенты могут сдвинуться на волосок. На обычных фото это незаметно.</p>
+        <p><strong>«Сконвертированный файл слишком большой».</strong> Полноразмерное фото iPhone в JPG весит несколько МБ. Используйте компрессор изображений или сначала уменьшите размер — не ждите, что конвертер сам всё сожмёт.</p>
+      </section>
+
+      <section>
+        <h2>Краткое повторение FAQ</h2>
+        <ul>
+          <li>Конвертация HEIC в JPG здесь бесплатна? Да — без водяных знаков, регистрации, лимитов на файлы и без электронной почты.</li>
+          <li>Мои фото загружаются на сервер? Нет. Декодер WebAssembly работает в вашем браузере; ничего не передаётся.</li>
+          <li>Можно конвертировать несколько фото сразу? В этом инструменте нет — по одному. На iPhone переключите формат камеры на «Наиболее совместимый», чтобы снимать сразу в JPG.</li>
+          <li>Почему не конвертируется .heif или переименованный файл? Инструмент декодирует только подлинные .heic; заново экспортируйте фото из альбома и конвертируйте эту копию.</li>
+        </ul>
+      </section>
+    </>
+  ),
+
+  es: (
+    <>
+      <aside aria-label="Resumen" className="bg-zinc-800/50 border border-zinc-700 rounded-xl p-5 mb-8">
+        <p><strong>En resumen:</strong> para pasar una foto HEIC del iPhone a JPG, usa el <Link href="/tools/heic" className="text-blue-400 underline">conversor gratuito de HEIC a JPG de ToolkitLife</Link>: arrastra tu archivo .heic, elige JPG o PNG y descarga la imagen convertida — la conversión se ejecuta en local dentro del navegador mediante WebAssembly, así que la foto nunca sale del dispositivo. Procesa un archivo cada vez; si un .heif renombrado o poco común falla, vuelve a exportar la foto desde tu álbum. Y si quieres prescindir del HEIC por completo, cambia los ajustes de la cámara del iPhone para disparar en JPG.</p>
+      </aside>
+
+      <section>
+        <h2>¿Qué es HEIC y por qué lo usa tu iPhone?</h2>
+        <p>HEIC (High Efficiency Image Container) es el formato de foto que Apple adoptó como predeterminado en el iPhone desde iOS 11. Almacena la misma imagen en aproximadamente la mitad de espacio que un JPG antiguo, admite un mejor color de 10 bits y puede empaquetar en un solo archivo los fotogramas de Live Photo y los metadatos de edición. Ahorrar la mitad del almacenamiento gratis es un buen trato — por eso Apple cambió de formato.</p>
+        <p>El problema aparece en cuanto la foto sale del mundo Apple. Visores de Windows de hace unos años, muchas galerías de Android, formularios web antiguos, portales de subida de la administración, quioscos de impresión y buena parte del software de escritorio siguen esperando un JPG. Subes un .heic y la web responde con un silencioso «formato de archivo no compatible». Ahí es cuando necesitas un <strong>conversor de HEIC a JPG</strong>.</p>
+        <ul>
+          <li><strong>Por qué existe HEIC:</strong> se apoya en el mismo estándar de compresión que el vídeo HEVC, aplicado a imágenes fijas — los códecs modernos comprimen las fotos mucho mejor que el JPEG de 1992.</li>
+          <li><strong>Por qué sobrevive JPG:</strong> es lo más parecido a un formato de imagen universal que tiene internet. Todo, en todas partes, lo abre.</li>
+          <li><strong>Cuándo convertir:</strong> subir a portales, compartir con dispositivos que no son de Apple, incrustar en webs, adjuntar a software de oficina antiguo, pedir copias impresas.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Conoce el conversor gratuito de HEIC a JPG</h2>
+        <p>El <Link href="/tools/heic" className="text-blue-400 underline">conversor HEIC</Link> de ToolkitLife transforma archivos HEIC en JPG o PNG por completo dentro de tu navegador.</p>
+        <ToolCTA
+          name="HEIC a JPG"
+          href="/tools/heic"
+          description="Convierte fotos HEIC del iPhone a JPG o PNG en tu navegador. Gratis, sin registro y sin subidas — funciona con WebAssembly en tu propio dispositivo. Descarga el JPG al instante."
+        />
+        <p>Lo que hace y lo que no hace, sin rodeos:</p>
+        <ul>
+          <li><strong>Conversión local con WebAssembly</strong> — el decodificador heic2any está compilado a WebAssembly y se ejecuta en la pestaña del navegador. Tu foto se lee, decodifica y recodifica en tu propia CPU; no se sube nada.</li>
+          <li><strong>Salida en JPG o PNG</strong> — JPG por compatibilidad y tamaño reducido, PNG cuando necesitas píxeles sin pérdidas.</li>
+          <li><strong>Un archivo cada vez</strong> — sueltas una foto, conviertes, descargas y repites. Esta herramienta no tiene cola por lotes.</li>
+          <li><strong>Pensado para archivos .heic reales</strong> — la herramienta decodifica imágenes .heic auténticas. Algunos contenedores .heif o archivos renombrados a .heic desde otros formatos pueden no decodificarse.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Cómo convertir HEIC a JPG (paso a paso)</h2>
+        <ol>
+          <li><strong>Abre el conversor HEIC</strong> y arrastra tu archivo .heic a la zona de carga (o haz clic para seleccionarlo). En iPhone, la foto queda en Archivos después de guardarla desde Fotos; en el ordenador, está donde la hayas copiado.</li>
+          <li><strong>Elige el formato de salida.</strong> JPG es la opción por defecto por compatibilidad; elige PNG solo si necesitas salida sin pérdidas o transparencia.</li>
+          <li><strong>Pulsa convertir.</strong> El decodificador WebAssembly desempaqueta los datos comprimidos con HEVC y los recodifica — normalmente tarda un par de segundos.</li>
+          <li><strong>Descarga la imagen convertida.</strong> El JPG se guarda directamente en tu dispositivo con el mismo nombre base.</li>
+        </ol>
+        <p>Sin cuenta, sin marcas de agua, sin correo electrónico — y el archivo HEIC original queda intacto en tu dispositivo.</p>
+      </section>
+
+      <section>
+        <h2>JPG o PNG para las fotos convertidas</h2>
+        <p>Ambos formatos se abren en todas partes, pero sirven para cosas distintas:</p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b border-zinc-700 text-left">
+                <th className="py-2 pr-4">Aspecto</th>
+                <th className="py-2 pr-4">JPG</th>
+                <th className="py-2">PNG</th>
+              </tr>
+            </thead>
+            <tbody className="text-zinc-300">
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Compresión</td>
+                <td className="py-2 pr-4">Con pérdidas, calidad ajustable</td>
+                <td className="py-2">Sin pérdidas</td>
+              </tr>
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Tamaño (fotos)</td>
+                <td className="py-2 pr-4">Pequeño — ideal para fotos de cámara</td>
+                <td className="py-2">Muy grande en contenido fotográfico</td>
+              </tr>
+              <tr className="border-b border-zinc-800">
+                <td className="py-2 pr-4">Compatibilidad</td>
+                <td className="py-2 pr-4">Universal — lo aceptan todos los dispositivos y formularios</td>
+                <td className="py-2">Universal para ver, pero pesado para subir</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4">Ideal para</td>
+                <td className="py-2 pr-4">Compartir, subir, imprimir y archivar fotos de cámara</td>
+                <td className="py-2">Capturas, gráficos e imágenes que exigen fidelidad sin pérdidas</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Para fotos reales de cámara — que es exactamente lo que son los archivos HEIC — JPG es casi siempre la respuesta correcta: el ruido fotográfico comprime muy bien, así que la pérdida al 90 % de calidad es invisible y el archivo se mantiene pequeño. PNG solo tiene sentido si la «foto» es en realidad una captura de pantalla o un gráfico de colores planos y texto.</p>
+      </section>
+
+      <section>
+        <h2>Privacidad: tus fotos nunca salen del dispositivo</h2>
+        <p>Las fotos están entre los archivos más personales que alguien posee — y los «conversores HEIC online gratuitos» suelen pedirte subirlas a un servidor anónimo, donde se procesan, a veces se guardan en caché y quedan sujetas a políticas de conservación que nunca ves. Para fotos de vacaciones da igual; para fotos de documentos, papeles o imágenes familiares es una exposición real.</p>
+        <p>Este conversor funciona de otra manera. El decodificador HEIC es una compilación WebAssembly de una biblioteca de código abierto que se ejecuta dentro de la pestaña del navegador: tu archivo se lee en local, se decodifica en tu CPU, se recodifica a JPG o PNG y se escribe de nuevo en tus descargas. No se transmite nada — puedes desconectar el Wi-Fi a mitad de la conversión y aun así terminará. Por eso tampoco hay cuotas: no hay ningún servidor pagando tu ancho de banda.</p>
+      </section>
+
+      <section>
+        <h2>Limitaciones honestas (y la alternativa para lotes)</h2>
+        <p>Un conversor que esconde sus límites no merece confianza, así que aquí van:</p>
+        <ul>
+          <li><strong>Una foto por conversión.</strong> Para un álbum entero, ir archivo por archivo es tedioso.</li>
+          <li><strong>Alternativa por lotes en iPhone:</strong> la solución más limpia no es convertir, sino no generar archivos HEIC. Abre <em>Ajustes → Cámara → Formatos → Más compatible</em> y tu iPhone disparará en JPG a partir de entonces. Con las fotos ya existentes, compartir varias desde Fotos por correo o chat también suele convertirlas a JPG automáticamente.</li>
+          <li><strong>Los .heif y los archivos renombrados pueden fallar.</strong> La herramienta decodifica imágenes .heic auténticas. Algunas variantes .heif, o archivos a los que solo se cambió el nombre (por ejemplo, un .jpg renombrado a .heic), no se pueden decodificar — vuelve a exportar la foto desde la app del álbum como imagen propiamente dicha e inténtalo de nuevo.</li>
+          <li><strong>Los metadatos no se conservan.</strong> La conversión recodifica los píxeles; datos EXIF como las etiquetas GPS pueden no llegar. A menudo es un plus de privacidad, pero no cuentes con las geolocalizaciones en el JPG.</li>
+          <li><strong>Si necesitas reducirlo aún más:</strong> cuando el JPG resultante siga siendo demasiado grande para un portal, pásalo por el <Link href="/tools/image-compressor" className="text-blue-400 underline">compresor de imágenes</Link>.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Solución de problemas</h2>
+        <p><strong>«El archivo no se convierte».</strong> Primero confirma que de verdad es un HEIC: un archivo renombrado de JPG a .heic no se decodifica. Los contenedores .heif auténticos también fallan de vez en cuando — abre la foto en la app del álbum, expórtala de nuevo como imagen y convierte esa copia reciente.</p>
+        <p><strong>«¿Dónde encuentro siquiera el .heic en el iPhone?»</strong> Las fotos se gestionan dentro de la app Fotos; para obtener una copia como archivo, abre la foto, toca Compartir → «Guardar en Archivos» y elige una carpeta. Esa copia es el .heic que arrastras al conversor.</p>
+        <p><strong>«El JPG se ve ligeramente distinto».</strong> HEIC almacena color de 10 bits que JPG (8 bits) no puede representar del todo; los degradados sutiles pueden desplazarse una pizca. En fotos normales es imperceptible.</p>
+        <p><strong>«El archivo convertido es demasiado grande».</strong> Una foto de iPhone a resolución completa ocupa unos pocos MB en JPG. Usa un compresor de imágenes o redimensiona primero, en lugar de esperar que el conversor lo encoge.</p>
+      </section>
+
+      <section>
+        <h2>Repaso rápido de preguntas frecuentes</h2>
+        <ul>
+          <li>¿Convertir HEIC a JPG es gratis aquí? Sí — sin marcas de agua, sin registro, sin límites de archivos y sin correo.</li>
+          <li>¿Se suben mis fotos? No. El decodificador WebAssembly se ejecuta en tu navegador; no se transmite nada.</li>
+          <li>¿Puedo convertir muchas fotos a la vez? No en esta herramienta — una por una. En iPhone, cambia los formatos de cámara a «Más compatible» para disparar en JPG directamente.</li>
+          <li>¿Por qué falla mi .heif o un archivo renombrado? La herramienta decodifica imágenes .heic auténticas; vuelve a exportar la foto desde la app del álbum y convierte esa copia.</li>
+        </ul>
+      </section>
+    </>
+  ),
+
   faqs: {
     en: [
       { question: "How do I convert an iPhone HEIC photo to JPG?", answer: "Use a browser-based converter. With ToolkitLife's HEIC to JPG tool you drop in your .heic file, choose JPG or PNG, and download the result — the conversion runs locally in your browser through WebAssembly, so the photo never leaves your device and there's no signup, watermark, or upload." },
@@ -513,6 +757,18 @@ export const content: BlogContent = {
       { question: "온라인에서 HEIC를 변환하면 사진이 서버에 업로드되나요?", answer: "이 도구는 아닙니다. HEIC 디코더는 오픈소스 라이브러리의 WebAssembly 빌드로 브라우저 탭 안에서 실행됩니다: 사진은 로컬에서 읽히고, 당신의 CPU에서 디코딩되고, 기기에서 JPG/PNG로 다시 인코딩됩니다. 아무것도 전송되지 않으며 — Wi-Fi를 꺼도 작동합니다." },
       { question: "HEIC는 JPG와 PNG 중 무엇으로 변환해야 하나요?", answer: "진짜 카메라 사진이라면 거의 항상 JPG가 답입니다: 사진 콘텐츠는 압축이 잘 되어 90% 품질의 손실은 눈에 보이지 않으면서 파일은 작게 유지됩니다. PNG를 고를 가치가 있는 것은 무손실 픽셀이 용량보다 중요한 스크린샷이나 단색 그래픽뿐입니다." },
       { question: ".heif나 이름을 바꾼 .heic 파일이 변환에 실패하는 이유는?", answer: "도구는 진짜 .heic 이미지를 디코딩합니다. 일부 .heif 컨테이너 변형은 실패하고, 다른 형식에서 이름만 바꾼 파일(예: .jpg를 .heic으로)은 디코딩 자체가 불가능합니다. 앨범 앱에서 사진을 열어 정식 이미지 파일로 다시 내보낸 뒤 그 새 사본을 변환하세요." },
+    ],
+    ru: [
+      { question: "Как перевести фото iPhone из HEIC в JPG?", answer: "Используйте конвертер, работающий в браузере. В инструменте HEIC в JPG от ToolkitLife достаточно загрузить файл .heic, выбрать JPG или PNG и скачать результат — конвертация выполняется локально через WebAssembly, фото не покидает устройство, а регистрации, водяных знаков и загрузки на сервер нет." },
+      { question: "Загружаются ли мои фото на сервер при онлайн-конвертации HEIC?", answer: "В этом инструменте — нет. Декодер HEIC — это сборка открытой библиотеки в WebAssembly, работающая во вкладке браузера: фото читается локально, декодируется на вашем процессоре и кодируется заново в JPG или PNG прямо на устройстве. Ничто не передаётся по сети — конвертация работает даже при выключенном Wi-Fi." },
+      { question: "Что выбрать: конвертировать HEIC в JPG или в PNG?", answer: "Для настоящих фотографий почти всегда прав JPG: фотографический контент сжимается хорошо, поэтому потери при качестве 90% глазу не видны, а файл остаётся небольшим. PNG стоит выбирать лишь для скриншотов или графики с плоскими цветами, где пиксели без потерь важнее размера файла." },
+      { question: "Почему .heif или переименованный .heic не конвертируется?", answer: "Инструмент декодирует подлинные изображения .heic. Некоторые варианты контейнеров .heif не проходят обработку, а файлы, у которых лишь сменили имя (например, .jpg, переименованный в .heic), декодировать невозможно вообще. Откройте фото в приложении альбома, заново экспортируйте его как полноценное изображение и конвертируйте эту свежую копию." },
+    ],
+    es: [
+      { question: "¿Cómo paso una foto HEIC del iPhone a JPG?", answer: "Usa un conversor que funcione en el navegador. Con la herramienta HEIC a JPG de ToolkitLife basta con arrastrar tu archivo .heic, elegir JPG o PNG y descargar el resultado — la conversión se ejecuta en local mediante WebAssembly, la foto nunca sale del dispositivo y no hay registro, marcas de agua ni subidas." },
+      { question: "¿Mis fotos se suben a un servidor al convertir HEIC online?", answer: "No con esta herramienta. El decodificador HEIC es una compilación WebAssembly de una biblioteca de código abierto que corre dentro de la pestaña del navegador: la foto se lee en local, se decodifica en tu CPU y se recodifica a JPG o PNG en el propio dispositivo. No se transmite nada — funciona incluso con el Wi-Fi apagado." },
+      { question: "¿Convierto el HEIC a JPG o a PNG?", answer: "Para fotos reales de cámara, JPG es casi siempre la respuesta correcta: el contenido fotográfico comprime bien, así que la pérdida al 90 % de calidad es invisible y el archivo se mantiene pequeño. PNG solo merece la pena para capturas de pantalla o gráficos de colores planos, donde los píxeles sin pérdidas importan más que el tamaño del archivo." },
+      { question: "¿Por qué mi archivo .heif o renombrado a .heic no se convierte?", answer: "La herramienta decodifica imágenes .heic auténticas. Algunas variantes de contenedor .heif fallan, y los archivos a los que solo se cambió el nombre desde otro formato (como un .jpg renombrado a .heic) no se pueden decodificar en absoluto. Abre la foto en la app del álbum, expórtala de nuevo como imagen propiamente dicha y convierte esa copia reciente." },
     ],
   },
 };
